@@ -253,6 +253,7 @@
 #### [Search limits](search-limits.md)
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
 ## [Advanced]()
+### [Advanced management](advanced-management.md)
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)

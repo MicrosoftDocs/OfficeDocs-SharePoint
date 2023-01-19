@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 766e0169-1a5d-4730-9c9f-7e2b27ba7d5d
@@ -22,9 +22,9 @@ description: "Learn how to configure properties of the Search Box Web Part."
   
 By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all search results pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). By changing properties in the Search Box Web Part you can do the following:
   
-- Change the Web Part or page where the search results should be displayed — for example, a custom Search Results Web Part or a custom search results page.
+- Change the Web Part or page where the search results should be displayed—for example, a custom Search Results Web Part or a custom search results page.
     
-- Turn off query suggestions and people suggestions. For more information about query suggestions, see [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
+- Turn off query suggestions and people suggestions. For more information about query suggestions, see [Manage query suggestions in SharePoint Server](manage-query-suggestions.md).
     
 - Display links to a search preference page and an advanced search page.
     
