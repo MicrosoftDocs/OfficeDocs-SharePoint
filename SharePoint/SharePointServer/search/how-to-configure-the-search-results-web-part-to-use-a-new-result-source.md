@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 104cd271-d4d5-4784-9278-5590b5ee2647
 description: "Learn how to configure the Search Results Web Part to use a new result source in SharePoint Server."
