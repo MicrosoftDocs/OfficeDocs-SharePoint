@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e913bd67-b50b-47d7-9784-2d312b97de0b
@@ -26,22 +26,22 @@ These best practices for organizing SharePoint Server content and applying usefu
 ## Keep your most important content in SharePoint
 <a name="Keep_content_in_SP"> </a>
 
-If possible, keep your most important content in SharePoint, and crawl and index as much premium content as possible. If you cannot crawl and index the content, consider federating results from other sources into your local search results. 
+If possible, keep your most important content in SharePoint, and crawl and index as much premium content as possible. If you can't crawl and index the content, consider federating results from other sources into your local search results. 
   
 Try to organize content with similar value and importance into nearby site structures. The search system will automatically infer the relative importance, but you can also influence the importance of sites directly by defining authoritative pages. For more information, see the section [Specify authoritative pages](best-practices-for-organizing-content-for-search.md#Rel_Auth).
   
-It is important to know what content to crawl and include in the search index, but it is also important to know what content **not** to crawl. For example, you do not want to crawl and index backup file shares. You should also establish routines for archiving obsolete content, deleting low-quality content and encourage users to add expiration dates to announcements. 
+It's important to know what content to crawl and include in the search index, but it's also important to know what content **not** to crawl. For example, you don't want to crawl and index backup file shares. You should also establish routines for archiving obsolete content, deleting low-quality content and encourage users to add expiration dates to announcements. 
   
 ## Organize content in hierarchies and use natural language
 <a name="Organize_hierarchies"> </a>
 
-By organizing SharePoint content in **natural hierarchies**, you not only make it is easier for users to understand where they can find and file their content, but you also make it easier for the search system to rank the content and return search results that better match the user's intent. 
+By organizing SharePoint content in **natural hierarchies**, you not only make it's easier for users to understand where they can find and file their content, but you also make it easier for the search system to rank the content and return search results that better match the user's intent. 
   
 |           **Flat structure**            |                   **Structure with hierarchy**                   |
 | :-------------------------------------- | :--------------------------------------------------------------- |
 | http://Europe  <br/> http://Asia  <br/> | http://sales  <br/> http://sales/Europe  <br/> http://sales/Asia |
    
-URLs and other metadata of files, such as file names, are analyzed linguistically by the search system. If you use natural language for URLs and for metadata, the search system can more easily understand what information is in the site or file and give it an appropriate ranking in the results. It is much easier for the search system (and users) to understand a URL and file name like http://sales/Europe/presentations/phones.ppt than it is to make sense of http://slseur/p_phones.ppt. 
+URLs and other metadata of files, such as file names, are analyzed linguistically by the search system. If you use natural language for URLs and for metadata, the search system can more easily understand what information is in the site or file and give it an appropriate ranking in the results. It's much easier for the search system (and users) to understand a URL and file name like http://sales/Europe/presentations/phones.ppt than it's to make sense of http://slseur/p_phones.ppt. 
   
 ## Encourage users to enter rich and consistent metadata for their sites and content
 <a name="Encourage_metadata"> </a>
@@ -60,14 +60,14 @@ These are some examples of important metadata that you should encourage users to
     
 For some document types, such as PowerPoint and Word, the search system extracts additional metadata such as headings and subheadings from inside the content, and uses this information to return the right search results and to provide rich document summaries and previews. 
   
-To provide the right search results for people, it is also important that My Sites and user profile data is entered so that this information can be used as metadata by the search system. 
+To provide the right search results for people, it's also important that My Sites and user profile data is entered so that this information can be used as metadata by the search system. 
   
 ## Managing multilingual content
 <a name="Multillingual_content"> </a>
 
 The search system detects the language of most content automatically. These recommendations help prevent that the search system detects the wrong language:
   
-- If possible, keep content in different languages on different sites. If the search system cannot detect the language of a particular content item, it assumes that it is in the language of the site where it is stored. 
+- If possible, keep content in different languages on different sites. If the search system can't detect the language of a particular content item, it assumes that it is in the language of the site where it's stored. 
     
 - Avoid mixing languages in content and that content's metadata. Use the same language in the metadata as the language that is used in the content itself.
     
@@ -80,7 +80,7 @@ You can use the **Authoritative Pages** feature in the Search service applicatio
   
 You can specify three degrees of authority, and you can also specify non-authoritative sites. When you identify a site as an authority, sites that are connected to the authoritative page via hyperlinks are also boosted in the results, based on their proximity to the authoritative page. A most-authoritative page contains or links to the most relevant information. URLs designated as non-authoritative are ranked lower than other sites.
   
-We recommend that you only specify a small number (four-five) of authoritative pages. If you specify lots of authoritative pages, it is difficult to predict the effects on the ranking of search results.
+We recommend that you only specify a small number (four-five) of authoritative pages. If you specify lots of authoritative pages, it's difficult to predict the effects on the ranking of search results.
   
 For more information, see [Configure authoritative pages in SharePoint Server](configure-authoritative-pages.md).
   
