@@ -64,8 +64,8 @@ You can follow the same procedures using different variables if you want to scal
   
 **Target search topology**
 
-|             **Virtual machine A (on physical application server X)   myserver1.example.com**              |   **Virtual machine B (on physical application server X)   myserver2.example.com**   |             **Virtual machine C (on physical application server Y)   myserver3.example.com**              |   **Virtual machine D (on physical application server Y)   myserver4.example.com**   |
-| :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| Virtual machine A (on physical application server X)   `myserver1.example.com`  |   Virtual machine B (on physical application server X)   `myserver2.example.com` | Virtual machine C (on physical application server Y)   `myserver3.example.com`   |  Virtual machine D (on physical application server Y)   `myserver4.example.com`   |
+| :---------------------------------------- | :---------------------------------- | :----------------- | :------------------------------------------------------- |
 | Admin component 1   <br/><br/>Crawl component 1   <br/><br/>Content processing component 1   <br/><br/>Analytics processing component 1 | Query processing component 1   <br/><br/>Index component 1 (that belongs to index partition 0) | Admin component 2   <br/><br/>Crawl component 2   <br/><br/>Content processing component 2   <br/><br/>Analytics processing component 2 | Query processing component 2   <br/><br/>Index component 2 (that belongs to index partition 0) |
    
 1. Ensure that no crawls have been started and that the search index is empty on the server that hosts Central Administration.
@@ -85,7 +85,7 @@ You can follow the same procedures using different variables if you want to scal
     
 2. Start a SharePoint Management Shell on one of the servers in the farm.
     
-3. Specify the new servers you want to add search components to, start a search service instance (ssi) on these servers and create references to the search service instances. In this procedure we have used the example host names "myserver< *n*  >" for the servers as listed in the **Target search topology** table. At the Windows PowerShell command prompt, type the following command(s): 
+3. Specify the new servers you want to add search components to, start a search service instance (ssi) on these servers and create references to the search service instances. In this procedure we have used the example host names `myserver< *n*  >` for the servers as listed in the **Target search topology** table. At the Windows PowerShell command prompt, type the following command(s): 
     
     ```
     $hostA = Get-SPEnterpriseSearchServiceInstance -Identity "myserver1"
