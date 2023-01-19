@@ -40,7 +40,7 @@ If the crawler does not connect or get a response within the time specified, it 
     
   - In the **Connection time (in seconds)** text box, type the number of seconds that you want the crawler to wait when it attempts to connect to a content repository. The default value is 60 seconds. 
     
-  - In the **Request acknowledgement time (in seconds)** text box, type the number of seconds that you want the crawler to wait for a content repository to respond to a connection attempt. The default value is 60 seconds. 
+  - In the **Request acknowledgment time (in seconds)** text box, type the number of seconds that you want the crawler to wait for a content repository to respond to a connection attempt. The default value is 60 seconds. 
     
   - Click **OK**.
     
