@@ -906,4 +906,5 @@
 ### [Updated Product Servicing Policy for SharePoint Server 2019](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2019.md)
 ### [Updated Product Servicing Policy for SharePoint Server 2016](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-2016.md)
 ### [Updated Product Servicing Policy for SharePoint 2013](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2013.md)
+### [Updated Product Servicing Policy for SharePoint Server Subscription Edition](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-se.md)
 

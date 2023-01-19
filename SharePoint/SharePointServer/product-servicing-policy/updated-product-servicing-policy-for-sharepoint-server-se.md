@@ -1,8 +1,8 @@
 ---
 title: "Updated Product Servicing Policy for SharePoint Server Subscription Edition"
 ms.reviewer:
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-smandalika
+author: v-smandalika
 manager: serdars
 audience: ITPro
 f1.keywords:
