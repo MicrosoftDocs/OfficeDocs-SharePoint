@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: fcfdb2ad-9d0e-43ca-8bfa-45064eeca5af
 description: "Configure Excel Services in SharePoint Server to use the unattended service account for authentication to external data."
