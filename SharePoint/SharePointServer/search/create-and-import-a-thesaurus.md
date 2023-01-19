@@ -34,7 +34,7 @@ People are different. Not only do we look and dress differently, but when we com
   
 And then there are acronyms. Acronyms are especially popular in organizations, but when we search for information, this can be challenging. For example, if we want to see the Monthly Sales Report, we'll most likely search for it by using the terms *Monthly Sales Report*. But, the people who create this report might use the acronym *MSR*. So, when we search for *Monthly Sales Report*, no search results are returned. 
   
-![Acronoms](../media/OTCSP_Acronoms.png)
+![Acronyms](../media/OTCSP_Acronyms.png)
   
 In the classic search experience of SharePoint Server, we can easily create and upload a thesaurus that contains synonyms for search phrases and acronyms. In this article, we'll use a simple example to show how to do this.
   
