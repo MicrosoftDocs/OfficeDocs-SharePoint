@@ -116,15 +116,15 @@ In earlier versions of SharePoint, there are multiple ways to help ensure that y
     
 Other options for disaster recovery strategies did not offer the same level of search index freshness, but if index freshness or the time to recover was not mission critical, then they are valid options. Typically, these options are more complex to configure and implement. The following examples are typical of approaches.
   
-- **The SSA Search Administration database could be backed up independently**. The SSA Search Administration database is backed up independently using conventional SQL Server backup approaches and used on the DR farm to create a SSA using Microsoft PowerShell. This restores the search configuration but not the indexes. A full crawl is needed to populate the search indexes and complete the recovery.
+- **The SSA Search Administration database could be backed up independently**. The SSA Search Administration database is backed up independently using conventional SQL Server backup approaches and used on the DR farm to create an SSA using Microsoft PowerShell. This restores the search configuration but not the indexes. A full crawl is needed to populate the search indexes and complete the recovery.
     
-- **A full SSA backup and restore**. A full SSA backup and restore is performed using Microsoft PowerShell or using the the SharePoint Central Administration website interface. This backs up the SSA databases and search indexes, which enables them to be restored on the DR farm to populate the SSA on that farm.
+- **A full SSA backup and restore**. A full SSA backup and restore is performed using Microsoft PowerShell or using the SharePoint Central Administration website interface. This backs up the SSA databases and search indexes, which enables them to be restored on the DR farm to populate the SSA on that farm.
     
 Starting with SharePoint Server 2013, significant changes in the search architecture and how configuration elements are stored means we have to think differently about search disaster recovery. The following sections describe these changes and how they affect the disaster recovery choices that are available.
   
 ### Configuration and functional changes to the search experience
 
-The Site Administration pages in SharePoint Server provide options that support a flexible configuration of the search experience. The new configuration options for sites and site collections means that site administrators can make search configuration changes that previously could only be made by farm or search administrators. The next screen capture shows the two locations where you can configure search options—under **Site Collection Administration** or under **Search**. 
+The Site Administration pages in SharePoint Server provide options that support a flexible configuration of the search experience. The new configuration options for sites and site collections mean that site administrators can make search configuration changes that previously could only be made by farm or search administrators. The next screen capture shows the two locations where you can configure search options—under **Site Collection Administration** or under **Search**. 
   
 ![Configure search on the Site Settings page](../media/sp-configuresearch-on-sitesettings.png)
   
@@ -207,7 +207,7 @@ You can view the general status of all backup jobs at the top of the **Backup an
   
 #### Restoring the search service application
 
-To restore a SharePoint Server Search service application, the backup must have completed successfully, and if backups are taken frequently, then the ID of the specific backup to be restored is needed. This ID can be easily obtained in several ways. The simplest is to open the **Backup and Restore History** page on the production farm where the backup was taken and enter the **Backup Directory Location**. This provides a list of all the entries in the backup and restore manifest file (psbrtoc.xml). In the following screen shot, a backup ID of {149fc816-8927-4a32-9437-6e05c2869ab7} can be easily seen. 
+To restore a SharePoint Server Search service application, the backup must have completed successfully, and if backups are taken frequently, then the ID of the specific backup to be restored is needed. This ID can be easily obtained in several ways. The simplest is to open the **Backup and Restore History** page on the production farm where the backup was taken and enter the **Backup Directory Location**. This provides a list of all the entries in the backup and restore manifest file (psbrtoc.xml). In the following screenshot, a backup ID of {149fc816-8927-4a32-9437-6e05c2869ab7} can be easily seen. 
   
 ![SharePoint Backup and Restore History page](../media/sp2013search-backup-restore-searchcomponent.png)
   
@@ -339,4 +339,4 @@ In addition to the options that are provided in these articles and in this paper
     
 - [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps&preserve-view=true)
     
-- [Back up and restore a search service application in SharePoint 2013 using VSS](/sharepoint/dev/general-development/how-to-back-up-and-restore-a-search-service-application-in-sharepoint-using). .
+- [Back up and restore a search service application in SharePoint 2013 using VSS](/sharepoint/dev/general-development/how-to-back-up-and-restore-a-search-service-application-in-sharepoint-using).
