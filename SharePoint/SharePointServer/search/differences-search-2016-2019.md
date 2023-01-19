@@ -8,7 +8,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 description: "Learn about the differences between the search experiences in SharePoint Server"

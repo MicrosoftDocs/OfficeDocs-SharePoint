@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -29,9 +29,13 @@ The cybersecurity landscape has fundamentally changed, as evidenced by large-sca
 To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows
 [Antimalware Scan Interface](/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any AMSI-capable anti-malware product present on a computer. 
 
+The AMSI integration functionality is designed to prevent malicious web requests from reaching SharePoint endpoints. For example, to exploit a security vulnerability in a SharePoint endpoint before the official fix for the security vulnerability has been installed.
+
 ## AMSI integration with SharePoint Server
 
-When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can examine the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
+When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can examine `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request.
+
+The purpose of AMSI integration isn't to replace existing antivirus/anti-malware defenses already installed on the server; it's to provide an additional layer of protection from malicious web requests made to SharePoint endpoints. Customers should still deploy SharePoint-compatible antivirus solutions on their servers to prevent their users from uploading or downloading files with viruses.
 
 ## Prerequisites
 
@@ -50,7 +54,7 @@ Follow these steps to activate/deactivate the AMSI integration per web applicati
 1. Open **SharePoint Central Administration**, and click **Application Management**.
 2. Under **Web Applications**, select **Manage web applications**.
 3. Click the web application for which you want to enable the AMSI integration, and select **Manage Features** in the toolbar.
-4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI intergration, or click **Deactivate** to turn off AMSI integration.
+4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI integration, or click **Deactivate** to turn off AMSI integration.
 
 Alternatively, you can activate AMSI integration for a web application by running the following PowerShell commands:
 
