@@ -34,7 +34,7 @@ As part of an upgrade testing process, you should create an inventory of the ser
 
 After you've identified the customizations, think about the potential upgrade effect of each one. The following table describes types of customizations and the kind of effect they can have during upgrade.
   
-|**Category of customization**|**Types of customizations**|**Potential effect on upgrade**|
+| Category of customization | Types of customizations | Potential effect on upgrade |
 |:-----|:-----|:-----|
 |Visually affecting  <br/> |Master pages  <br/> Themes  <br/> Web Pages  <br/> Web Parts  <br/> Custom JavaScript  <br/> Custom CSS files  <br/> |Shouldn't affect database upgrade.  <br/> For site upgrades: likely to work well in 2010 mode, but need changes to work in 2013 mode.  <br/> Test carefully in both modes.  <br/> |
 |Data structure affecting  <br/> |Content types  <br/> List types  <br/> Web templates  <br/> Site definitions  <br/> |Can affect database upgrade if content or list type names conflict with new content or list types in the product, or if templates or definitions are missing.  <br/> |
