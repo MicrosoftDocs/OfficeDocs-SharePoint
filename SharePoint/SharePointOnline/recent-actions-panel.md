@@ -5,7 +5,6 @@ manager: serdars
 recommendations: true
 ms.author: mactra
 author: MachelleTranMSFT
-ms.date: 
 audience: admin
 f1.keywords:
 - NOCSH 
@@ -18,6 +17,9 @@ description: "Learn how to review recent actions in SharePoint admin center."
 # Review recent SharePoint site actions
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
+
+> [!NOTE]
+> This feature is currently in private preview. If you would like to participate in the preview, contact your Microsoft account manager.
 
 With the recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
