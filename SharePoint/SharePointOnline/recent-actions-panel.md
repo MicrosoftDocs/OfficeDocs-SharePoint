@@ -33,7 +33,7 @@ You can also download a .csv file of all your changes made in the last 30 days.
 
 1. In the SharePoint admin center, expand **Sites** and select **Active sites**.
 2. Select **Your recent actions**. The recent actions panel appears on the right and lists your most recent 30 actions made within the last 30 days.
-3. You can select **Export** to download the list as a .csv file.
+3. Select **Export** to download the list as a .csv file.
 4. Select **View site details** to open the site info panel. From here, you can make changes to site properties like site name, site address, hub association, and aliases.
 
 ## Bulk site edits
