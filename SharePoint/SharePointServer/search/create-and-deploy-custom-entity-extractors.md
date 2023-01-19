@@ -29,7 +29,7 @@ To use custom entities as refiners in classic search, you first create a custom 
 ## Before you begin
 <a name="begin"> </a>
 
-Before you begin this operation, you must have have in place: 
+Before you begin this operation, you must have in place: 
   
 - A Search service application 
     
