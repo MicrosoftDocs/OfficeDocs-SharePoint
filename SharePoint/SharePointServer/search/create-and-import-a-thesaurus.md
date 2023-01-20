@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1148cad0-3993-4b89-9660-73615c86c25c
 description: "Learn how to create and import a thesaurus in SharePoint Server."
@@ -32,11 +32,11 @@ In this article, you'll learn:
 
 People are different. Not only do we look and dress differently, but when we communicate, we use different words to describe the same thing. The same applies to how we search for information. In a search engine, one person might enter "flower image," whereas another might enter "flower picture" or "flower photo." Even though we used different phrases, we were searching for the same information.
   
-And then there are acronyms. Acronyms are especially popular in organizations, but when we search for information, this can be challenging. For example, if we want to see the Monthly Sales Report, we'll most likely search for it by using the terms  *Monthly Sales Report*  . But, the people who create this report might use the acronym  *MSR*  . So, when we search for  *Monthly Sales Report*  , no search results are returned. 
+And then there are acronyms. Acronyms are especially popular in organizations, but when we search for information, this can be challenging. For example, if we want to see the Monthly Sales Report, we'll most likely search for it by using the terms *Monthly Sales Report*. But, the people who create this report might use the acronym *MSR*. So, when we search for *Monthly Sales Report*, no search results are returned. 
   
-![Acronoms](../media/OTCSP_Acronoms.png)
+![Acronyms](../media/OTCSP_Acronyms.png)
   
-In the classic search experience of SharePoint Server we can easily create and upload a thesaurus that contains synonyms for search phrases and acronyms. In this article, we'll use a simple example to show how to do this.
+In the classic search experience of SharePoint Server, we can easily create and upload a thesaurus that contains synonyms for search phrases and acronyms. In this article, we'll use a simple example to show how to do this.
   
 Suppose you have two documents in a library:
   
@@ -46,34 +46,34 @@ Suppose you have two documents in a library:
     
 ![Two Documents](../media/OTCSP_TwoDocuments.jpg)
   
-When you search for  *coffee*  , the Word document is returned. 
+When you search for *coffee*, the Word document is returned. 
   
 ![Coffee Result](../media/OTCSP_CoffeeResult.jpg)
   
-When you search for  *cup of joe*  , the PowerPoint document is returned. 
+When you search for *cup of joe*, the PowerPoint document is returned. 
   
 ![Joe Result](../media/OTCSP_JoeResult.jpg)
   
-For both documents to be returned when you search for either  *coffee*  or  *cup of joe*  , we can create a thesaurus. 
+For both documents to be returned when you search for either *coffee* or *cup of joe*, we can create a thesaurus. 
   
 ## How to create a thesaurus
 <a name="BKMK_HowToCreateAThesarus"> </a>
 
 1. Open a text editor, for example Notepad.
     
-2. In the text editor, enter the columns of our thesaurus:  *Key*  ,  *Synonym*  , and  *Language*  . 
+2. In the text editor, enter the columns of our thesaurus: *Key*, *Synonym*, and *Language*. 
     
 3. Use commas to separate the words.
     
      ![Line 1](../media/OTCSP_Line1.jpg)
   
-4. On a new line in the text editor, enter a term or a phrase, a synonym for that term or phrase and a two letter language code. Use commas to separate the phrases, for example  *Coffee,Cup of Joe,en*  . 
+4. On a new line in the text editor, enter a term or a phrase, a synonym for that term or phrase and a two letter language code. Use commas to separate the phrases, for example *Coffee,Cup of Joe,en*  . 
     
      ![Line 2](../media/OTCSP_Line2.jpg)
   
     This means that when users search for "Coffee", search results for both "Coffee" and "Cup of Joe" will be returned.
     
-5. Repeat step 3, but switch the order of  *Key*  and  *Synonym*  . 
+5. Repeat step 3, but switch the order of *Key* and *Synonym*. 
     
      ![Line 3](../media/OTCSP_Line3.jpg)
   
@@ -110,7 +110,7 @@ where  `<Path>` is the UNC path of the thesaurus file.
 > [!IMPORTANT]
 > When you import a thesaurus, the existing thesaurus will be overwritten. If you want to add new phrases to our thesaurus, you should add them to the thesaurus file we have already imported. You can't export a thesaurus file. Therefore, you should maintain our thesaurus file in an external system, for example on a file share. 
   
-To verify that you thesaurus is working the way that you want it to, search for phrases from the thesaurus. In this example scenario, two files were returned for both "coffee" and "cup of joe."
+To verify that your thesaurus is working the way that you want it to, search for phrases from the thesaurus. In this example scenario, two files were returned for both "coffee" and "cup of joe."
   
 ![Coffee Expanded](../media/OTCSP_coffee_expanded.png)
   
