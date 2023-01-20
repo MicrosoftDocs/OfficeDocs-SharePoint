@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c6284830-1127-472d-9610-8a0b9b0298aa
 description: "Excel Services in SharePoint Server 2013 enables you to work with different external data sources to create reports, scorecards, and dashboards that remain up to date automatically."

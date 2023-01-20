@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 716b294b-3e99-4862-aede-5a686d8b5b6c
 description: "Learn how to configure search for high availability by using the computers in the Configure SharePoint Server 2013 in a three-tier farm test lab."

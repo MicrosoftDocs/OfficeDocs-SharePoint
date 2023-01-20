@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 411e0fa7-2a27-4883-93ac-a2fd228e40d8
 description: "Learn how to configure the unattended service account for PerformancePoint Services."
