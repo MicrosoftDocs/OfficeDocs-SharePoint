@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7021185c-1f2b-44a6-ba4a-8355dd8409e1
 description: "Learn how to use Excel to create and share a connection to SQL Server Analysis Services data that people can use to create data models, reports, scorecards, and dashboards."
