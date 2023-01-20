@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 74b5c26f-a033-4d3a-a2ae-812ef043c3a7
 description: "Add, configure, or delete Excel Services trusted data providers in SharePoint Server."

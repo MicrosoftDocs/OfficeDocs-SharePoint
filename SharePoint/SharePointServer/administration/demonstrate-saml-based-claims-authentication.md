@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6cd7e6d2-092d-47f0-aed0-97bf2c09369a
 description: "Learn how to configure and demonstrate Security Assertion Markup Language (SAML)-based claims authentication with Active Directory Federation Services (AD FS) 2.0 and SharePoint Server based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
