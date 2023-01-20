@@ -1,8 +1,8 @@
 ---
 title: "Support for organization fonts in PowerPoint for the web"
 ms.reviewer:
-ms.author: v-shesna
-author: sheshachary
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 recommendations: true
 ms.date: 01/31/2022
