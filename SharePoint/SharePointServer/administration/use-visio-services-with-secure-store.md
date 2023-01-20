@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7c82bdf9-453f-4ee9-a2e6-20adf05ad59c
 description: "Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services."
