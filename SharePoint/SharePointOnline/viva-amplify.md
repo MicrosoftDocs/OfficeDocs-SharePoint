@@ -28,32 +28,58 @@ ms.custom:
 > [!NOTE]
 > Microsoft Viva Amplify is currently in Private preview and, hence, available only to Private preview customers.
 
-Microsoft Viva Amplify is a content creation platform that uses [multiple supported distribution channels](#multiple-supported-distribution-channels) to publish the content.
+Microsoft Viva Amplify is an internal communication campaign that allows you to create something once and publish it to multiple distribution channels to share throughout their organization. Hence, creating a campaign is the first step in the end-to-end content management process that involves creating content and publishing it using distribution channels.
 
-The content is created in the **Main canvas** screen, which is the default screen in Microsoft Viva Amplify.
+Once you create a campaign, you can create the content on the **Main canvas** screen, and then publish the content using [distribution channels](#distribution-channels).
 
-## Multiple supported distribution channels
+To create a campaign, perform the following steps:
 
-The following distribution channels are supported in Microsoft Viva Amplify for publish of content:
+1. Launch the URL https://microsoft.sharepoint-df.com/_layouts/15/viva-amplify.aspx.
+2. Provide your credentials and sign in to the Microsoft Viva Amplify portal.
+3. Select **+ Create a campaign**.
+   The **Create a new campaign** screen is displayed.
+4. Select **Create a campaign** on the bottom-left corner of the screen.
+5. Enter the details for the text boxes and select **Next**.
+6. From the **Add members to your campaign** text box, choose the person whom you want to add as a member of your campaign.
+7. Select **Add to list**.
+   The chosen person is added as a member of your campaign.
+8. Select **Create a campaign**.
+   The campaign is successfully created.
 
-- Outlook
-- SharePoint
+Once you've created your campaign, you've to create the content on the **Main canvas** screen, and then publish it using distribution channels.
 
-:::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
+To create the content and publish it, perform the following steps:
 
-Once the content is created, you must select the **Distribution channels** tab and then select either **Outlook** or **SharePoint** to publish the content.
+> [!NOTE]
+> Once you've created your campaign, you land on the **Main canvas** screen, by default.
+
+1. Create the content.
+1. Select the **Distribution channels** tab.
+
+   > [!NOTE]
+   > Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels, currently.
+   >  
+   > :::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
+
+1. Select **Outlook**.
+
+   > [!NOTE]
+   > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur, as specified in [Deviations](#deviations).
+
+   > [!NOTE]
+   > When you've selected **Outlook**, not all the web parts available on the **Main canvas** page are available, because of compatibility issues. Moreover, whatever web parts are compatible with Outlook, they undergo a modification in their behavior, distinct from the web parts' default behavior. Such impact on the web parts is referred to as deviations. For more information, see [Deviations](#deviations).
+
+   > [!NOTE]
+   > When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
 
 ### Deviations
 
 Deviations can be classified as:
 
-- **Modifications to certain web parts on selection of a distribution channel**: When you select a specific distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
+- **Modifications to certain web parts on selection of a distribution channel**: When you select a **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
 - **Removal of certain web parts on selection of a distribution channel**: When you select a specific distribution channel, certain web parts may be removed and hence become unavailable for use. For example, when you select the **Outlook** distribution channel, the spacer, the large people web part, and the countdown timer web part don't appear as these web parts aren't compatible with Outlook.
 
 For more information about the deviations that occur in the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
-
-> [!NOTE]
-> When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
 
 #### Deviations in Outlook distribution channel
 
