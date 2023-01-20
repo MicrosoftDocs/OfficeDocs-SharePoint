@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 091165d1-76c4-4c15-ae75-cf338b573b13
 description: "Learn which SharePoint Designer features can be turned off by a SharePoint admin."

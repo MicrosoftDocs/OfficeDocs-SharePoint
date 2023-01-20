@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 371181ec-d27c-4899-9d3c-ae0ffefa1cc0
 description: "Add, edit or delete Excel Services user-defined function assemblies in SharePoint Server."
