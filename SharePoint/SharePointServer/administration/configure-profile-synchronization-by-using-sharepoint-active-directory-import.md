@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 73ceb46e-d3aa-45bd-ac3e-77f58a9ab34d
 description: "Learn how to import user profiles from Active Directory to SharePoint Server by using the Active Directory import tool for user profiles."

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 76b11fdc-8516-4841-8013-5907928f7ed5
 description: "Learn how to create virtual test environments for SharePoint Server."

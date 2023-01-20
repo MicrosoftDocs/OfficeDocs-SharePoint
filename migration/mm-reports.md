@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Reports"
+title: "Migration Manager File Share migration reports"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,30 +17,26 @@ mscollection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about the reports available when using Migration Manager in Microsoft 365."
+description: "Learn about the reports available when using Migration Manager to migrate on-premises file shares to Microsoft 365."
 ---
 
-# Migration Manager reports
+# Migration Manager: Reports and errors for file share migration
 
-Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
+When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
 
-Summary report:
+>[!Note]
+>These reports are for file share migration only. For cloud migrations, learn more at: [Reports and errors for cloud migrations](mm-cloud-reports.md)
 
-- [Summary Report](#summary-report)
-
-Task level reports:
-
-- [Item Summary](#item-summary)
-- [Item Failure Report](#item-failure-report)
-- [Item Report](#item-report)
-- [Scan Summary](#scan-summary)
-- [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
-
-Performance report
-
-- [Performance Report](#performance-report)
+|Type|Report|
+|:-----|:-----|:-----|
+|Task level|[Item Summary](#item-summary)|
+|Task level|[Item Failure Report](#item-failure-report)|
+|Task level|[Item Report](#item-report)|
+|Task level|[Scan Summary](#scan-summary)|
+|Task level|[Structure Report](#structure-report)|
+|Task level|[Structure Failure Report](#structure-failure-report)|
+|Task level|[Structure Failure Summary](#structure-failure-summary)|
+|Performance report|[Performance Report](#performance-report)|
 
 ## How to view the reports
 

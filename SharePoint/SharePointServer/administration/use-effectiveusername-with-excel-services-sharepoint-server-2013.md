@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4fbe0228-54c6-40ce-a9d3-3198423fe688
 description: "Use the Analysis Services EffectiveUserName feature to refresh data-connected workbooks in Excel Services in SharePoint Server 2013 using the workbook viewer's Windows identity."

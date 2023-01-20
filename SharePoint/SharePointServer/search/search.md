@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f39ef086-a317-44ba-b6db-3ee2f460c9fb
 description: "Learn about planning, configuring and deploying search in SharePoint Server."
