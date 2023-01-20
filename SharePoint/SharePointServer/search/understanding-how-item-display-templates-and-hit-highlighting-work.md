@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f8578d9f-2826-4d21-873e-607c53b5c040
 description: "Learn how item display templates and hit highlighting work in the classic search experience in SharePoint Server."

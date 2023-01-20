@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 9ed8159f-9501-4ef3-8c84-5d775a1e6223
 description: "Add, configure, or delete an Excel Services trusted file location in SharePoint Server 2013."

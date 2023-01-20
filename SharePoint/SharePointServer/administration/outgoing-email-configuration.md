@@ -11,7 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.custom:
 - WSSCentralAdmin_ConfigEmail
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3ccc8bd-922e-49f6-9929-b5b8a6982d76
