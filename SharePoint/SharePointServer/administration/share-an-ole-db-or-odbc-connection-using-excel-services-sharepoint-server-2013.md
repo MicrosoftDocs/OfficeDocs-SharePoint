@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cdaaf121-3fd3-4889-9020-9cf7606c8f6b
 description: "Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
