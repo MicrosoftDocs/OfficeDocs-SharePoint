@@ -29,7 +29,7 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 > [!IMPORTANT]
 > **Request files** is available only if all of the following statement are true. Please contact your admin if you don't see this feature:
 > - You're using OneDrive for work or school accounts.
-> - Your admin has [enabled **Anyone** links in tenant](/sharepoint/turn-external-sharing-on-or-off).
+> - Your admin has [enabled **Anyone** links for SharePoint](/sharepoint/turn-external-sharing-on-or-off).
 > - Your admin has configured the **View, edit, and upload** permission for **Anyone** links as described in [Advanced settings for **Anyone** links](/sharepoint/turn-external-sharing-on-or-off#advanced-settings-for-anyone-links).
 > - This feature is not available for Office 365 operated by 21Vianet, OneDrive for home, or Office 365 Germany.
 
