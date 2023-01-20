@@ -76,14 +76,14 @@ To create the content and publish it, perform the following steps:
 
 Deviations can be classified as:
 
-- **Modifications to certain web parts on selection of a distribution channel**: When you select a **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
-- **Removal of certain web parts on selection of a distribution channel**: When you select a specific distribution channel, certain web parts may be removed and hence become unavailable for use. For example, when you select the **Outlook** distribution channel, the spacer, the large people web part, and the countdown timer web part don't appear as these web parts aren't compatible with Outlook.
+- **Modifications to certain web parts on selection of a distribution channel**: When you select **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
+- **Removal of certain web parts on selection of a distribution channel**: When you select **Outlook** distribution channel, web parts such as the spacer, the large people, and the countdown timer don't appear as these web parts aren't compatible with Outlook.
 
-For more information about the deviations that occur in the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+For detailed information about the deviations that occur in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
 #### Deviations in Outlook distribution channel
 
-The following web parts get modified when you select them on the **Outlook** distribution channel screen:
+For the **Outlook** distribution channel, the following web parts undergo modification in their properties:
 
 - Image web part
 - Text web part
