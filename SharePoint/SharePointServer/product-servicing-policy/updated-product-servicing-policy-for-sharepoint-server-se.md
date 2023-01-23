@@ -21,13 +21,17 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-While in support, SharePoint Server Subscription Edition has its Public Update (PU) builds released by Microsoft each month. These builds contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server Subscription Edition.
+While in support, SharePoint Server Subscription Edition has its Public Update (PU) builds released by Microsoft each month. These builds contain the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
-The RTM build and all PUs for SharePoint Server Subscription Edition released before January 10, 2023 will be supported until December 12, 2023. From the January 10, 2023 PU for SharePoint Server Subscription Edition, each PU build will be supported for one year from its release date. Support for a PU build will end on the second Tuesday of the same month of its release in the following year.
+To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server Subscription Edition:
 
-Customers must be running a supported build of SharePoint Server Subscription Edition to remain supported. If a customer contacts Microsoft Support and their SharePoint Server farm isn't running a minimum supported build or higher, they may be required to upgrade to a supported build before support can be offered.
+- The RTM build and all PUs for SharePoint Server Subscription Edition released before January 10, 2023 will be supported until December 12, 2023. 
+- Starting January 10, 2023 PU for SharePoint Server Subscription Edition, each PU build will be supported for one year from its release date. 
+- Support for a PU build will end on the second Tuesday of the same month of its release in the following year.
+- To remain supported, you must be running the supported build of the SharePoint Server SE.
+- If you contact Microsoft Support and your SharePoint Server farm isn't running the minimum supported build or higher, you might be required to upgrade to the supported build before Microsoft Support team can offer any further assistance.
 
 The product servicing policy timeline for SharePoint Server Subscription Edition is described in the following table:
 
