@@ -30,7 +30,7 @@ ms.custom:
 
 Microsoft Viva Amplify is an internal communication campaign that allows you to create something once and publish it to multiple distribution channels to share throughout their organization. Hence, creating a campaign is the first step in the end-to-end content management process that involves creating content and publishing it using distribution channels.
 
-Once you create a campaign, you can create the content on the **Main canvas** screen, and then publish the content using [distribution channels](#distribution-channels).
+Once you create a campaign, you can create the content on the **Main canvas** screen, and then publish the content using distribution channels.
 
 To create a campaign, perform the following steps:
 
