@@ -38,7 +38,7 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
 |November 2022 Public Update - October 2023 Public Update|10/31/2024|
 |November 2023 Public Update - all future Public Updates|07/14/2026|
 
-## Frequently Asked Question
+## Frequently Asked Questions
 
  ***Question:** Why is Microsoft doing this?
 

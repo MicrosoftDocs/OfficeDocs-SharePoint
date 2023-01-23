@@ -36,7 +36,7 @@ The product servicing policy timeline for SharePoint Server 2013 and SharePoint 
 |April 2017 Public Update - March 2018 Public Update  <br/> |4/10/2019  <br/> |
 |April 2018 Public Update - all future Public Updates  <br/> |4/11/2023  <br/> |
    
-## Frequently Asked Question
+## Frequently Asked Questions
 
  **Question**: Why is Microsoft doing this? 
   
