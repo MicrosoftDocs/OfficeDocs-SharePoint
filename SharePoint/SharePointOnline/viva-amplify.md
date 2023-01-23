@@ -46,12 +46,7 @@ To create a campaign, perform the following steps:
 8. Select **Create a campaign**.
    The campaign is successfully created.
 
-Once you've created your campaign, you've to create the content on the **Main canvas** screen, and then publish it using distribution channels.
-
-To create the content and publish it, perform the following steps:
-
-> [!NOTE]
-> Once you've created your campaign, you land on the **Main canvas** screen, by default.
+Once you've created your campaign, you land on the **Main canvas** screen. Then, perform the following steps:
 
 1. Create the content.
 1. Select the **Distribution channels** tab.
