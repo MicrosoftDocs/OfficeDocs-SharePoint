@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 45ad90e6-c2e1-497a-9d4e-e7ac32ae09a5
 description: "Learn how search results are displayed in SharePoint Server."
@@ -93,7 +93,7 @@ The mechanics of these connections are not very straight forward and easy to und
     
 2. Each item display template contains a reference to a hover panel display template, for example,  *Item_PowerPoint_HoverPanel*  . 
     
-     ![Connection 1](../media/OTCSP_Connection1.png)
+     ![First Connection](../media/OTCSP_Connection1.png)
   
     Let's start with the first connection. To see the connection between a result type and an item display template, go to **Site Settings** --> **Result Types**. Select to view a result type, for example **Microsoft PowerPoint**. 
     

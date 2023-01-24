@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Reports"
+title: "Migration Manager File Share migration reports"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,31 +15,28 @@ ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about the reports available when using Migration Manager in Microsoft 365."
+description: "Learn about the reports available when using Migration Manager to migrate on-premises file shares to Microsoft 365."
 ---
 
-# Migration Manager reports
+# Migration Manager: Reports and errors for file share migration
 
-Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
+When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
 
-Summary report:
+>[!Note]
+>These reports are for file share migration only. For cloud migrations, learn more at: [Reports and errors for cloud migrations](mm-cloud-reports.md)
 
-- [Summary Report](#summary-report)
-
-Task level reports:
-
-- [Item Summary](#item-summary)
-- [Item Failure Report](#item-failure-report)
-- [Item Report](#item-report)
-- [Scan Summary](#scan-summary)
-- [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
-
-Performance report
-
-- [Performance Report](#performance-report)
+|Type|Report|
+|:-----|:-----|:-----|
+|Task level|[Item Summary](#item-summary)|
+|Task level|[Item Failure Report](#item-failure-report)|
+|Task level|[Item Report](#item-report)|
+|Task level|[Scan Summary](#scan-summary)|
+|Task level|[Structure Report](#structure-report)|
+|Task level|[Structure Failure Report](#structure-failure-report)|
+|Task level|[Structure Failure Summary](#structure-failure-summary)|
+|Performance report|[Performance Report](#performance-report)|
 
 ## How to view the reports
 
@@ -153,7 +150,7 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 |Content type|The file type.|
 |Status|Status indicating at what stage the file is.|
 |Result category|General code associated with the item to indicate what happened with that item.|
-|Message|Detailed error or informational message .|
+|Message|Detailed error or informational message.|
 |Error code|Failed reason error code.|
 |Source item ID|ID of the item at the source.|
 |Destination item ID|ID of the item at the destination.|
@@ -199,10 +196,10 @@ The **ScanSummary.csv** report provides the total stats for the scan -- a proces
 |Total scanned files|Total number of files scanned.|
 |Folders with issues|The number of folders with potential issues for the migration.|
 |Items with issues|The number of files with potential issues for migration.|
-|Items filtered out|Number of files that where filtered out based on settings in the tool.|
+|Items filtered out|Number of files that were filtered out based on settings in the tool.|
 |Folders to be migrated|Number of folders that will be migrated.|
 |Items to be migrated|Number of files that will be migrated.|
-|Total items to be migrated|Total number of folder and files that will be migrated.|
+|Total items to be migrated|Total number of folders and files that will be migrated.|
 |Device name|Name of the device or computer that is running the migration job.|
 
 ### Structure report

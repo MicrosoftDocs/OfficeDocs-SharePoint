@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
@@ -89,6 +90,9 @@ Google's proprietary formats aren't compatible with anything other than a Google
 >[!Note]
 >The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
 
+### File size of Google proprietary files
+
+Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 
@@ -104,6 +108,10 @@ To disable this feature:
 ### What happens to Google Drive shortcuts?
 
 Shortcut files aren't supported for migration and therefore not migrated.
+
+## File size migration limit
+
+We support files up to 15 GB in size for Google to Microsoft 365 migrations.
 
 
 >[!NOTE]

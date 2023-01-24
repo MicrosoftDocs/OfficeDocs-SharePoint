@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a0c9aaa9-5b6d-449c-a69b-f058ac4cf9f1
@@ -198,7 +198,7 @@ The following table shows some factors that you should consider when you develop
 |Resolutions|Resolutions of the problem.|
 |Contacts|People who should be contacted when this problem occurs.|
 |Escalation|People or teams that should be contacted if the resolutions did not successfully resolve the problem.|
-|Related resources|Any resources that may help resolve the problem, such as articles on docs.microsoft.com for SharePoint Server.|
+|Related resources|Any resources that may help resolve the problem, such as articles on Microsoft Learn for SharePoint Server.|
 |Note|Any issues that you want to highlight.|
 
 ## See also

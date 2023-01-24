@@ -18,6 +18,7 @@ mscollection:
 - m365solution-scenario
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Steps to connect to Dropbox when using Migration Manager in the SharePoint Admin center."

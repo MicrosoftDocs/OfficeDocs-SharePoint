@@ -9,6 +9,7 @@ audience: End User
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:

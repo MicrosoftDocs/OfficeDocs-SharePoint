@@ -36,7 +36,7 @@ A site template is one or more site scripts that Microsoft SharePoint runs when 
 > For organizations using Multi-Geo Capabilities in Microsoft 365, hub site templates work only when sites are in the same geo location as the hub site.
 
 > [!NOTE]
-> These instructions require the SharePoint admin or Global Admin role in Microsoft 365.
+> These instructions require the SharePoint Administrator or Global Administrator role in Microsoft 365.
 
 ## 1. Create a JSON script, add it, and create the site template 
 

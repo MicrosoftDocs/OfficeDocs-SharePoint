@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Step 2: Scan and assess Dropbox folders using Migration Manager."
 ---

@@ -1,8 +1,8 @@
 ---
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -59,6 +59,8 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
         `[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
 
         :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
+
+        For more examples, see [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) on Microsoft Edge policy reference.
 
    - **To enable by using Intune**:
 

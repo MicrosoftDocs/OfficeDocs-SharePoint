@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+ms.date: 01/20/2023
 recommendations: true
 audience: ITPro
 f1.keywords:
@@ -22,7 +23,13 @@ description: "Create and launch a healthy SharePoint portal to ensure a performa
 
 A **portal** is a Microsoft SharePoint site on your intranet with many site viewers who consume the content. In large organizations, you could have several, such as a company portal and an HR portal. 
 
-Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content. We don't recommend using SharePoint portals to host a town hall or live event.
+
+>[!Tip]
+> Are you wanting to host a live event or town hall?  Here are the options we recommend:
+> - [Learn about Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
+> - [Learn about hosting events with Yammer](/yammer/manage-yammer-groups/yammer-live-events)
+> - Link directly to the live event you are streaming (**not** through your portal)
 
 ## What type of site should I use as my portal?
 
@@ -50,9 +57,9 @@ This set of guidance will walk you through best practices and recommendations be
 | |![Analytics usage report blue 32](/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts") [Improve performance for slow web parts](/microsoft-365/Enterprise/modern-web-part-optimization)|Follow guidance to remediate common issues|
 | |![Bill blue](/Office/media/icons/bill-blue.png "Page weight") [Review page weight](/microsoft-365/Enterprise/modern-page-weight-optimization)|Follow guidance to reduce page weight in your site pages|
 | |![Task list planning blue 32](/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") [Limit the number of requests to a page](/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
+| |![Task list search blue 32](/Office/media/icons/PNGs/task-list-search-blue-32.png "Limit the number of search requests on a page") [Limit the number of search requests on a page](/Office365/Enterprise/modern-search-optimization)|Follow the guidance to limit the number of search requests on a page.|
 | |![Picture photo blue 32](/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](/microsoft-365/Enterprise/modern-image-optimization)|Follow basic image optimization for the web|
 | |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than two Iframes on a page|
 | |![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions") [Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
 |![Task checklist planning blue 32](/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Modern portal limits")|[Modern portal limits](/Office365/Enterprise/modern-portal-limits)|Follow the limits for modern portals to further optimize performance|
 |![Globe Internet](/Office/media/icons/globe-internet.png "Network optimization")|[Network optimization](/microsoft-365/enterprise/urls-and-ip-address-ranges)|Configure your URLs and IP endpoints|
-

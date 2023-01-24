@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150to the migration list in Migration Manager."
 description: "Learn how to copy to migrations for file share migration."
 ---
@@ -49,6 +50,7 @@ After a file share has been scanned and determined ready, add it to your migrati
 7. If you choose **Run now**, select **Run**.
 
    :::image type="content" alt-text="Configure settings for your file share migration." source="media/mm-fileshare-copy-migrations-configure-settings-page.png":::
+
 
 
 ## Incremental migration

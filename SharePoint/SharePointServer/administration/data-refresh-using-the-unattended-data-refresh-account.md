@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3fdbc40b-8562-4bec-be89-113a64e19911
 description: "Learn to configure scheduled data refresh in Power Pivot for SharePoint by using the unattended data refresh account."

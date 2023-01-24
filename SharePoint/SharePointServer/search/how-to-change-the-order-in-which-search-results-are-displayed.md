@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 552fcfbd-efd6-457e-924d-1d3bacea37dd
 description: "Learn how to change the order in which search results are displayed in SharePoint Server."

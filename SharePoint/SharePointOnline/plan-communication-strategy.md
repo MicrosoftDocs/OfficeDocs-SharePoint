@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
+  - highpri
 description: "Learn more about popular communication scenarios and solutions"
 ---
 
@@ -124,7 +125,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario G: Build a learning and training experience for employees
 
-![Illustration of a book and online training course.](media/cc-neo.png)
+![Illustration of a desktop and mobile device that display an award.](media/cc-training.png)
 
 **Goals:** YoYour organization is full of different types of disciplines. In order to make sure every employee is equipped with the most up-to-date industry or job-related knowledge and proficiencies, you’d like to build an experience that allows your organization to administer learning modules and experiences and track the progress and performance of each employee.
 <br>

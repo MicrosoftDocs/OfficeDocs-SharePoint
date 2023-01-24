@@ -17,6 +17,7 @@ ms.collection:
 - SPMigration
 - m365solution-migratetom365
 - m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -41,6 +42,11 @@ With the ability to set up multiple computers as "agents", Migration Manager let
 
 - **Monitor and report.** Monitor progress across all agents and access reports from one central location. 
 
+## File size migration limit
+
+We support files up to 250 GB in size for file share to Microsoft 365 migrations.
+
+
 ## Get started
 
 Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
@@ -54,7 +60,7 @@ Make sure that you have:
 - **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
 
 - **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
-- **File size**:  File share migration supports migrating individual files of up to 100 GB.
+- **File size**:  File share migration supports migrating individual files of up to 250 GB.
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
@@ -78,7 +84,7 @@ Develop a plan for sending communications to your user base, providing clear sta
 ### Onboarding related resources
 
 - [Microsoft 365 end user adoption guide](/office365/customlearning/champ_o365guide): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://support.microsoft.com/office/create-and-use-site-templates-in-sharepoint-server-versions-60371b0f-00e0-4c49-a844-34759ebdd989): Customizable templates to generate internal awareness and excitement.
+- [Engage your org](https://adoption.microsoft.com/sharepoint/#engage): Customizable templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1): Video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec): Quick start training guides; get up and running quickly with the basic info you need to be productive right away
 - [SharePoint video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
