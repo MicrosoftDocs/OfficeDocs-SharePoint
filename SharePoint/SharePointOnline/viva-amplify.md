@@ -61,30 +61,40 @@ Once you've created your campaign, you land on the **Main canvas** screen. Then,
    > [!NOTE]
    > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur, as specified in [Deviations](#deviations).
 
-   > [!NOTE]
-   > When you've selected **Outlook**, not all the web parts available on the **Main canvas** page are available, because of compatibility issues. Moreover, whatever web parts are compatible with Outlook, they undergo a modification in their behavior, distinct from the web parts' default behavior. Such impact on the web parts is referred to as deviations. For more information, see [Deviations](#deviations).
+   You can see the following message on the middle-right side of the screen:
 
-   > [!NOTE]
-   > When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
+   Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel. Learn more about formatting changes and editing.
+
+   :::image type="content" source="media/outlook-distribution-channel-screen.png" alt-text="The Outlook distribution channel screen displaying deviations message.":::
+   
+This message denotes that when you've selected **Outlook**, the following changes occur:
+- "Text on image", which is part of the **Image** web part, isn't be supported.
+- The **columns** property that is part of the **Sections** layout doesn't support multiple columns but only one column.
+- The medium and large people web parts have been removed.
+
+These changes are referred to as "deviations". For more information on deviations, see [Deviations](#deviations).
+
+> [!NOTE]
+> When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
 
 ### Deviations
 
 Deviations can be classified as:
 
-- **Modifications to certain web parts on selection of a distribution channel**: When you select **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
-- **Removal of certain web parts on selection of a distribution channel**: When you select **Outlook** distribution channel, web parts such as the spacer, the large people, and the countdown timer don't appear as these web parts aren't compatible with Outlook.
+1. **Modifications to certain web parts on selection of a distribution channel**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
 
-For detailed information about the deviations that occur in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+For example:
+
+- In the **Image** web part, properties such as text on image won't be supported when you use the **Outlook** distribution channel.
+- In the **Sections** layout, you can't use multiple columns but can use only one column.
+
+1. **Removal of certain web parts on selection of a distribution channel**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
+
+For detailed information about such other deviations in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
 #### Deviations in Outlook distribution channel
 
-For the **Outlook** distribution channel, the following web parts undergo modification in their properties:
-
-- Image web part
-- Text web part
-- People web part
-
-For more information on the deviations occurring in these web parts, see:
+For the **Outlook** distribution channel, there are:
 
 - [Deviations in Image web part](#deviations-in-image-web-part)
 - [Deviations in Text web part](#deviations-in-text-web-part)
