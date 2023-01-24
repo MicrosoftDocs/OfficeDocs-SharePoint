@@ -55,6 +55,9 @@ When a site has no segments and site's information barriers mode is set to *Open
 
 - The site and its contents can be shared based on the information barrier policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users.
 
+>[!TIP]
+>If you have *Open* mode sites that you'd like to enable for Microsoft 365 group support, see the [Configure Open mode sites for Microsoft 365 group support](#configure-open-mode-sites-for-microsoft-365-group-support) section in this article.
+
 ### Owner Moderated
 
 When a site has information barriers mode is set to *Owner Moderated*:
@@ -422,6 +425,21 @@ Set-SPOTenant -InformationBarriersSuspension $true
 
 >[!NOTE]
 >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
+
+## Configure Open mode sites for Microsoft 365 group support
+
+IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to support Microsoft 365 groups (mail-enabled security groups) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites and the membership of the group is not IB protected. When a SharePoint admin enables this support in your organization, you must ensure the group membership is IB compliant.
+
+Before enabling group support, verify that you've met the following prerequisites:
+
+- Your organization has only IB [*Block* policies](/microsoft-365/compliance/information-barriers-policies#configuration-concepts)
+- Your organization is enabled for IB (see [this section](#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) in this article)
+
+To configure Microsoft 365 group support in *Open* mode sites, run the following command:
+
+```powershell
+Set-SPOTenant -ShowPeoplePickerGroupSuggestionsForIB $true
+```
 
 ## Resources
 
