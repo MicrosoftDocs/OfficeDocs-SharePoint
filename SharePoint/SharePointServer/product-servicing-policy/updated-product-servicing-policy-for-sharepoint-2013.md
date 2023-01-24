@@ -22,11 +22,16 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2013 and SharePoint Foundation 2013 each month containing the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2013 and SharePoint Foundation 2013.
+During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2013 and SharePoint Foundation 2013 each month which contain the latest functionality, performance, and stability improvements for the product.
   
 ## Policy overview
 
-SharePoint Server 2013 Service Pack 1 and SharePoint Foundation 2013 Service Pack 1 will remain the minimum supported build through the end of mainstream support on April 10, 2018. Starting with extended support on April 11, 2018 Microsoft will update the minimum supported build of SharePoint Server 2013 and SharePoint Foundation 2013. Customers must be running that build or higher to remain supported. If a customer contacts Microsoft support and their farm isn't running the minimum supported build or higher, they'll be asked to upgrade to that build before support can be offered.
+To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2013 and SharePoint Foundation 2013:
+
+- SharePoint Server 2013 Service Pack 1 and SharePoint Foundation 2013 Service Pack 1 will remain the minimum supported build through to the end of mainstream support on April 10, 2018.
+- Starting with extended support on April 11, 2018 Microsoft will update the minimum supported build of SharePoint Server 2013 and SharePoint Foundation 2013.
+- To remain supported, you must be running SharePoint Server 2013's supported build or its higher version.
+- If you contact Microsoft support and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before Microsoft Support team can offer any further assistance.
   
 The product servicing policy timeline for SharePoint Server 2013 and SharePoint Foundation 2013 is described in the following table:
   
@@ -44,6 +49,4 @@ The product servicing policy timeline for SharePoint Server 2013 and SharePoint 
   
  **Question**: Where can I find the Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013? 
   
- **Answer**: The current list of Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
-  
-
+ **Answer**: The current list of Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article.

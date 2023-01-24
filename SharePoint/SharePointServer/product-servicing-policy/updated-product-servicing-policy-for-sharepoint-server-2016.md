@@ -22,11 +22,16 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2016.
+During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month which contain the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
-All SharePoint Server 2016 builds will be supported for at least one year from its release date. Microsoft will update the minimum supported build of SharePoint Server 2016 on each anniversary of General Availability (GA). Customers must be running that build or higher to remain supported. If a customer contacts Microsoft support and their farm is not running the minimum supported build or higher, they will be asked to upgrade to that build before support can be offered.
+To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2016:
+
+- All SharePoint Server 2016 builds will be supported for at least one year from its release date.
+- Microsoft will update the minimum supported build of SharePoint Server 2016 on each anniversary of General Availability (GA).
+- You must be running SharePoint Server 2016's supported build or its higher version to remain supported.
+- If you contact Microsoft support and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before Microsoft Support team can offer any further assistance.
 
 The product servicing policy timeline for SharePoint Server 2016 is described in the table below:
 

@@ -21,13 +21,18 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
-During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2019 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2019.
+During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2019 each month which contain the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
-All SharePoint Server 2019 builds will be supported for at least one year from its release date. Microsoft will update the minimum supported build of SharePoint Server 2019 on each anniversary of General Availability (GA). Customers must be running that build or higher to remain supported. If a customer contacts Microsoft support and their farm is not running the minimum supported build or higher, they will be asked to upgrade to that build before support can be offered.
+To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2019:
 
-The product servicing policy timeline for SharePoint Server 2019 is described in the table below:
+- All SharePoint Server 2019 builds will be supported for at least one year from its release date.
+- Microsoft will update the minimum supported build of SharePoint Server 2019 on each anniversary of General Availability (GA).
+- You must be running SharePoint Server 2019's supported build or its higher version to remain supported.
+- If you contact Microsoft support and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before Microsoft Support team can offer any further assistance.
+
+The product servicing policy timeline for SharePoint Server 2019 is described in the following table:
 
 |SharePoint Server 2019|Support End Date|
 |---|---|
