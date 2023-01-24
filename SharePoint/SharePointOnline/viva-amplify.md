@@ -63,7 +63,7 @@ Once you've created your campaign, you land on the **Main canvas** screen. Then,
 
    You can see the following message on the middle-right side of the screen:
 
-   Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel. Learn more about formatting changes and editing.
+   Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel. [Learn more about formatting changes and editing](#deviations).
 
    :::image type="content" source="media/outlook-distribution-channel-screen.png" alt-text="The Outlook distribution channel screen displaying deviations message.":::
    
