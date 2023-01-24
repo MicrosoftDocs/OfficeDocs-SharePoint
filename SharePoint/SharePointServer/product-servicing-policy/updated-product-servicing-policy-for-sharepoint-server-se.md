@@ -49,36 +49,36 @@ The product servicing policy timeline for SharePoint Server Subscription Edition
 
 **Question**: **Why is Microsoft changing the servicing policy for SharePoint Server Subscription Edition compared to previous versions of SharePoint Server?**
 
-**Answer:** In previous versions of SharePoint Server, the support end date for each PU was tied to the anniversary of the product’s RTM date. This correlation effectively created a single month each year where customers had to update their SharePoint Server farms to remain in support.
+**Answer**: In previous versions of SharePoint Server, the support end date for each PU was tied to the anniversary of the product’s RTM date. This correlation effectively created a single month each year where customers had to update their SharePoint Server farms to remain in support.
 
 SharePoint Server Subscription Edition introduces our new continuous update model, also known as "evergreen". This update model is more flexible and will allow Microsoft to introduce new feature experiences regularly. Giving each PU its own one-year window of support will ensure that customers are up to date with the latest functionality, performance, and stability improvements while also giving customers flexibility to update their farms in a timeframe that works best for them.
 
 **Question**: **Why is Microsoft adopting a one-year window of support for each PU?**
 
-**Answer:** A one-year window of support balances the need to stay up to date with the latest functionality, performance, and stability improvements with the awareness that a faster update cadence may be difficult to achieve in some SharePoint Server environments. Microsoft encourages customers to go beyond these minimum supportability requirements and deploy new PUs as soon as they’re available, where possible.
+**Answer**: A one-year window of support balances the need to stay up to date with the latest functionality, performance, and stability improvements with the awareness that a faster update cadence may be difficult to achieve in some SharePoint Server environments. Microsoft encourages customers to go beyond these minimum supportability requirements and deploy new PUs as soon as they’re available, where possible.
 
 **Question**: **Will Microsoft release service packs for SharePoint Server Subscription Edition?**
 
-**Answer:** No, Microsoft has no plans to release service packs for SharePoint Server Subscription Edition. Functionality, performance, and stability improvements for SharePoint Server Subscription Edition will be delivered by way of our monthly PUs. New feature experiences will be delivered in our Feature Updates.
+**Answer**: No, Microsoft has no plans to release service packs for SharePoint Server Subscription Edition. Functionality, performance, and stability improvements for SharePoint Server Subscription Edition will be delivered by way of our monthly PUs. New feature experiences will be delivered in our Feature Updates.
 
 **Question**: **How are Feature Updates different from PUs?**
 
-**Answer:** Functionality, performance, and stability improvements for SharePoint Server Subscription Edition may appear in any of our monthly PUs. New feature experiences will be bundled together in Feature Updates, which will be released twice a year (once in the spring and once in the autumn). Feature Updates are delivered to customers inside PUs.
+**Answer**: Functionality, performance, and stability improvements for SharePoint Server Subscription Edition may appear in any of our monthly PUs. New feature experiences will be bundled together in Feature Updates, which will be released twice a year (once in the spring and once in the autumn). Feature Updates are delivered to customers inside PUs.
 
 For more information about Feature Updates, see [Feature release rings](../administration/feature-release-rings.md).
 
 **Question**: **Where can I find the PUs for SharePoint Server Subscription Edition?**
 
-**Answer:** The current list of PUs for SharePoint Server Subscription Edition can be found in the [SharePoint Updates](/officeupdates/sharepoint-updates) article.
+**Answer**: The current list of PUs for SharePoint Server Subscription Edition can be found in the [SharePoint Updates](/officeupdates/sharepoint-updates) article.
 
 **Question**: **Do the monthly PUs contain all of the fixes included in the previous PUs?**
 
-**Answer:** Yes, the monthly PUs are cumulative. Each PU contains all of the fixes provided in the previous PUs.
+**Answer**: Yes, the monthly PUs are cumulative. Each PU contains all of the fixes provided in the previous PUs.
 
 **Question**: **Do I need to install an earlier PU before I can install the latest PU?**
 
-**Answer:** No, you don’t need to install an earlier PU before you install the latest PU. You can install any PU directly on an RTM installation, or on top of any previous PU.
+**Answer**: No, you don’t need to install an earlier PU before you install the latest PU. You can install any PU directly on an RTM installation, or on top of any previous PU.
 
 **Question**: **Should I install the monthly PUs for SharePoint Server Subscription Edition immediately or should I install them only if they contain a fix for a specific issue I’m having?**
 
-**Answer:** Microsoft recommends that all customers install PUs for SharePoint Server Subscription Edition as soon as they become available. Microsoft performs rigorous validation of each PU, both internally and with a select set of partners and customers, before it's released to ensure it has the highest quality.
+**Answer**: Microsoft recommends that all customers install PUs for SharePoint Server Subscription Edition as soon as they become available. Microsoft performs rigorous validation of each PU, both internally and with a select set of partners and customers, before it's released to ensure it has the highest quality.

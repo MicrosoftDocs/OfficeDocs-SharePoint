@@ -43,10 +43,10 @@ The product servicing policy timeline for SharePoint Server 2013 and SharePoint 
    
 ## Frequently Asked Questions
 
- **Question**: Why is Microsoft doing this? 
+ **Question**: **Why is Microsoft doing this?** 
   
  **Answer**: Previously, servicing for SharePoint was tied to specific types of releases - the initial RTM release and service packs. However, Microsoft has no plans to release new service packs for SharePoint and will instead only update SharePoint by way of monthly Public Updates. This new servicing policy ensures that customers are running a build that contains fixes for the most common issues that customers have been reporting to us, even if more service packs aren't released.
   
- **Question**: Where can I find the Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013? 
+ **Question**: **Where can I find the Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013?** 
   
  **Answer**: The current list of Public Updates for SharePoint Server 2013 and SharePoint Foundation 2013 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article.
