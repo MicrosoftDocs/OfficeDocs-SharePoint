@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 30f4e254-0b00-49bb-84af-3ece619ad0e4
 description: "Decide which records management approach to choose in SharePoint Server."
