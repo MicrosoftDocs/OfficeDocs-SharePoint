@@ -66,10 +66,10 @@ Once you've created your campaign, you land on the **Main canvas** screen. Then,
    Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel. [Learn more about formatting changes and editing](#deviations).
 
    :::image type="content" source="media/outlook-distribution-channel-screen.png" alt-text="The Outlook distribution channel screen displaying deviations message.":::
-   
+
 This message denotes that when you've selected **Outlook**, the following changes occur:
 - "Text on image", which is part of the **Image** web part, isn't be supported.
-- The **columns** property that is part of the **Sections** layout doesn't support multiple columns but only one column.
+- The **columns** property that's part of the **Sections** layout displays a distinct behavior wherein content organized across multiple columns (two or three columns) is modified such that it's displayed as stacked content in a single column.
 - The medium and large people web parts have been removed.
 
 These changes are referred to as "deviations". For more information on deviations, see [Deviations](#deviations).
@@ -86,7 +86,7 @@ Deviations can be classified as:
 For example:
 
 - In the **Image** web part, properties such as text on image won't be supported when you use the **Outlook** distribution channel.
-- In the **Sections** layout, you can't use multiple columns but can use only one column.
+- In the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
 
 1. **Removal of certain web parts on selection of a distribution channel**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
 
@@ -136,7 +136,7 @@ For information on the default properties of sections and its columns, see [Add 
 
 However, the following deviations have occurred in the default properties of sections and its columns:
 
-1. Multi Columns aren't supported; transpiled content created with options other than the **One Column** layout option will be stacked like in the **One Column** layout option.
+1. When you use the **Two columns** and **Three columns** layout options to organize your content, the content gets stacked into a single column like the content published using the **One Column** layout option.
 
    :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook.":::
 
