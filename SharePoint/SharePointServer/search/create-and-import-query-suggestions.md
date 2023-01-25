@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 ms.assetid: 59be233e-be37-4639-b7b4-9059f5bb59ba
@@ -20,9 +20,9 @@ description: "Learn how to import query suggestions in SharePoint Server."
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-An easy way to help users search for information in SharePoint Server is to create  *query suggestions*  . Query suggestions are words that appear under the search box as users type a query. 
+An easy way to help users search for information in SharePoint Server is to create *query suggestions*. Query suggestions are words that appear under the search box as users type a query. 
   
-![Query Suggestion](../media/OTCSP_coffee_suggestion.png)
+![Query Suggestions](../media/OTCSP_coffee_suggestion.png)
   
 SharePoint Server automatically creates a query suggestion when users have clicked a search result for a query at least six times. For example, if users have entered the query word "coffee" and then clicked on a search result six times, then "coffee" automatically becomes a query suggestion. We can also create query spelling suggestions manually. In this article, we'll use a simple example to show how to do this.
     
@@ -54,7 +54,7 @@ Now that you have a query suggestions file, the next task is to import it to Sha
   
 4. In the **Language for suggestions phrases** section, select the language of your query suggestions. In the **Always suggest phrases** section, select **Import from text file**. 
     
-     ![Import from Text File](../media/OTCSP_AlwaysSuggest.png)
+     ![Select Import from Text File](../media/OTCSP_AlwaysSuggest.png)
   
 5. In the **Text file that has phrases** section, select **Choose File**, and import your query suggestions file. 
     
@@ -95,9 +95,9 @@ Now that you have a query suggestions file, the next task is to import it to Sha
   
 To verify that your query suggestions are working correctly, in a search box, type two letters of a phrase from your query suggestions file. The query suggestions appear under the search box.
   
-![Query Suggestion](../media/OTCSP_CupOfJoe.png)
+![Query suggestions appear](../media/OTCSP_CupOfJoe.png)
   
-![Query Suggestion](../media/OTCSP_CaffeLatte.png)
+![Query suggestion under search box](../media/OTCSP_CaffeLatte.png)
   
 ## See also
 <a name="BKMK_HowToVerifyThatYourQuerySuggestionsAreWorking"> </a>
