@@ -31,7 +31,7 @@ To ensure that customers have a high-quality experience, Microsoft is adopting t
 - Starting January 10, 2023 PU for SharePoint Server Subscription Edition, each PU build will be supported for one year from its release date. 
 - Support for a PU build will end on the second Tuesday of the same month of its release in the following year.
 - To remain supported, you must be running the supported build of the SharePoint Server SE.
-- If you contact Microsoft Support and your SharePoint Server farm isn't running the the Subscription Edition's minimum supported build or its higher version, you might be required to upgrade to the supported build before Microsoft Support team can offer any further assistance.
+- If you contact Microsoft Support and your SharePoint Server farm isn't running the Subscription Edition's minimum supported build or its higher version, you might be required to upgrade to the supported build before Microsoft Support team can offer any further assistance.
 
 The product servicing policy timeline for SharePoint Server Subscription Edition is described in the following table:
 
