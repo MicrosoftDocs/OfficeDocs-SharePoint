@@ -28,9 +28,9 @@ ms.custom:
 > [!NOTE]
 > Microsoft Viva Amplify is currently in Private preview and, hence, available only to Private preview customers.
 
-Microsoft Viva Amplify is an internal communication campaign that allows you to create something once and publish it to multiple distribution channels to share throughout their organization. Hence, creating a campaign is the first step in the end-to-end content management process that involves creating content and publishing it using distribution channels.
+Microsoft Viva Amplify is an internal communication campaign that allows you to create something once and publish it to multiple distribution channels to share throughout the organization. Hence, creating a campaign is the first step in the end-to-end content management process that involves creating content and publishing it.
 
-Once you create a campaign, you can create the content on the **Main canvas** screen, and then publish the content using distribution channels.
+Once you create a campaign, you can create the content on the **Main canvas** screen, and then publish the content.
 
 To create a campaign, perform the following steps:
 
@@ -59,7 +59,7 @@ Once you've created your campaign, you land on the **Main canvas** screen. Then,
 1. Select **Outlook**.
 
    > [!NOTE]
-   > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur, as specified in [Deviations](#deviations).
+   > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur. For more information on deviations, see [Deviations](#deviations).
 
    You can see the following message on the middle-right side of the screen:
 
@@ -68,7 +68,7 @@ Once you've created your campaign, you land on the **Main canvas** screen. Then,
    :::image type="content" source="media/outlook-distribution-channel-screen.png" alt-text="The Outlook distribution channel screen displaying deviations message.":::
 
 This message denotes that when you've selected **Outlook**, the following changes occur:
-- "Text on image", which is part of the **Image** web part, isn't be supported.
+- "Text on image", which is part of the **Image** web part, isn't supported.
 - The **columns** property that's part of the **Sections** layout displays a distinct behavior wherein content organized across multiple columns (two or three columns) is modified such that it's displayed as stacked content in a single column.
 - The medium and large people web parts have been removed.
 
@@ -81,14 +81,14 @@ These changes are referred to as "deviations". For more information on deviation
 
 Deviations can be classified as:
 
-1. **Modifications to certain web parts on selection of a distribution channel**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
+1. **Modifications to certain web parts**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
 
 For example:
 
-- In the **Image** web part, properties such as text on image won't be supported when you use the **Outlook** distribution channel.
 - In the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
+- - In the **Image** web part, properties such as "text on image" won't be supported.
 
-1. **Removal of certain web parts on selection of a distribution channel**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
+1. **Removal of certain web parts**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
 
 For detailed information about such other deviations in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
