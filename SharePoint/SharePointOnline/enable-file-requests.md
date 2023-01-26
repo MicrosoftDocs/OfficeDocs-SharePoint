@@ -40,7 +40,8 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 
 > [!NOTE]
 > This is a newly released feature and may not be available to all tenants yet.
-> Please note, if your tenant currently has Anyone Links enabled for SharePoint, we will be enabling this feature for SharePoint sites by default during the rollout. If you do not want File Requets to appears on SharePoint sites, you can opt out by running the following SharePoint Online management shell cmd: "Set-SPOTenant -CoreRequestFilesLinkEnabled $False".
+>
+> Note that if your tenant currently has Anyone Links enabled for SharePoint, we will be enabling this feature for SharePoint sites by default during the rollout. If you do not want File Requests to appear on SharePoint sites, you can opt out by running the following SharePoint Online management shell command: "Set-SPOTenant -CoreRequestFilesLinkEnabled $False".
 
 1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
 
