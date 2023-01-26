@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 185da9e8-9ed1-4bf1-bfb5-2a5a874f2a19
 description: "Learn how to collect information about document users to plan your SharePoint Server document management solution."
