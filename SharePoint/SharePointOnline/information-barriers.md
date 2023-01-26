@@ -56,7 +56,7 @@ When a site has no segments and site's information barriers mode is set to *Open
 - The site and its contents can be shared based on the information barrier policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users.
 
 >[!TIP]
->If you want to allow sharing of *Open* mode sites with mail-enabled security groups, see the [Allow sharing of Open mode sites with mail-enabled security groups](#allow-sharing-of-open-mode-sites-with-mail-enabled-security-groups) section in this article.
+>If you want to allow sharing of *Open* mode sites with mail-enabled security groups, see the [Allow sharing of Open mode sites with mail-enabled security groups (preview)](#allow-sharing-of-open-mode-sites-with-mail-enabled-security-groups-preview) section in this article.
 
 ### Owner Moderated
 
@@ -426,7 +426,7 @@ Set-SPOTenant -InformationBarriersSuspension $true
 >[!NOTE]
 >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
-## Allow sharing of Open mode sites with mail-enabled security groups
+## Allow sharing of Open mode sites with mail-enabled security groups (preview)
 
 IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to be shared with [mail-enabled security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites and the membership of the group is not IB protected. When a SharePoint admin enables this support in your organization, you must ensure the security group membership is IB compliant.
 
