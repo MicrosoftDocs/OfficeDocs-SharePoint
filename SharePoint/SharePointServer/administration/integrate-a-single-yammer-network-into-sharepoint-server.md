@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 58901f1a-dbc9-46ca-8b51-e683ea5f2ce3
 description: "Learn how to integrate a single, active Yammer network together with your SharePoint Server environment."
