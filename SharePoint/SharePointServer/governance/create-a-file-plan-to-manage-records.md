@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 037fb582-6448-4baf-85d4-6e6221f21655
 description: "Learn how to create a file plan to identify what information that you will keep as records."
