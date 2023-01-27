@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3824d521-ee4f-408e-b3fd-51da34e20538
 description: "These articles explain the updated product servicing policies of SharePoint Server."

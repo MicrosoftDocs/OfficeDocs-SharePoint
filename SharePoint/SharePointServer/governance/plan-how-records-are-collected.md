@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f3fae102-5b20-4c9f-9707-ab76c68be937
 description: "Learn ways that users can turn active documents into records in the Records Center site in SharePoint Server."

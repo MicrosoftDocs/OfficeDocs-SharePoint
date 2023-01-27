@@ -6,7 +6,7 @@ summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server Sub
 metadata:
   title: Learn about how to use SharePoint Server. # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Documentation for SharePoint Server # Required; article description that is displayed in search results. < 160 chars.
-  ms.prod: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
   ms.collection: 
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
