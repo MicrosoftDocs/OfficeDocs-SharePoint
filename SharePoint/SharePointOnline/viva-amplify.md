@@ -46,38 +46,42 @@ To create a campaign, perform the following steps:
 8. Select **Create a campaign**.
    The campaign is successfully created.
 
-Once you've created your campaign, you land on the **Main canvas** screen. Then, perform the following steps:
+Once you've created your campaign, the created campaign screen appears, and it displays the detail of the created campaign. 
 
-1. Create the content.
-1. Select the **Distribution channels** tab.
+From this screen, select **Amplify Template** under the **Create** pane.
+
+:::image type="content" source="campaign-screen.png" alt-text="The screen displaying details of the created campaign.":::
+
+You're taken to the **Distribution channels** screen.
+
+> [!NOTE]
+> Currently, Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels. 
+
+1. Hover over the screen and you'll be presented with the **+** icon.
+1. Select this icon, and the list of web parts are launched.
+
+   :::image type="content" source="list-of-web-parts.png" alt-text="The list of web parts being displayed.":::
+
+1. Select the web part you want and create the content.
 
    > [!NOTE]
-   > Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels, currently.
-   >  
-   > :::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
+   > You have the auto save option and hence you don't need to manually save the content and for every subsequent change made.
 
-1. Select **Outlook**.
+    When you use the chosen web part to make changes, [deviations](#deviations) occur. For more information, see [Deviations](#deviations) and [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+  
+    > [!NOTE]
+    > Deviations are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel.
+    > 
+    > There are no deviations in the web parts when they're being trnspiled to the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
+
+1. Once you've created the content, select the **Preview** icon under **Outlook** that's on the **Distribution channels** pane on the right side of the screen.
 
    > [!NOTE]
    > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur. For more information on deviations, see [Deviations](#deviations).
 
-   You can see the following message on the middle-right side of the screen:
+   You'll find the deviations specified in [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel), specific to the web part - **Image**/**Text**/**People** - you've chosen.
 
-   Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel. [Learn more about formatting changes and editing](#deviations).
-
-   :::image type="content" source="media/outlook-distribution-channel-screen.png" alt-text="The Outlook distribution channel screen displaying deviations message.":::
-
-This message denotes that when you've selected **Outlook**, the following changes occur:
-- "Text on image", which is part of the **Image** web part, isn't supported.
-- The **columns** property that's part of the **Sections** layout displays a distinct behavior wherein content organized across multiple columns (two or three columns) is modified such that it's displayed as stacked content in a single column.
-- The medium and large people web parts have been removed.
-
-These changes are referred to as "deviations". For more information on deviations, see [Deviations](#deviations).
-
-> [!NOTE]
-> When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
-
-### Deviations
+## Deviations
 
 Deviations can be classified as:
 
@@ -92,7 +96,7 @@ Deviations can be classified as:
 
 For detailed information about such other deviations in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
-#### Deviations in Outlook distribution channel
+### Deviations in Outlook distribution channel
 
 For the **Outlook** distribution channel, there are:
 
@@ -100,7 +104,7 @@ For the **Outlook** distribution channel, there are:
 - [Deviations in Text web part](#deviations-in-text-web-part)
 - [Deviations in People web part](#deviations-in-people-web-part)
 
-##### Deviations in Image web part
+#### Deviations in Image web part
 
 1. Text on the image isn't supported (Text will be dropped.).
 
@@ -110,7 +114,7 @@ For the **Outlook** distribution channel, there are:
 
    :::image type="content" source="media/image-hyperlink-not-supported.png" alt-text="The image hyperlink not being supported in Outlook.":::
 
-##### Deviations in Text web part
+#### Deviations in Text web part
 
 1. Theme colors for table aren't supported (Table style is changed to **default**.).
 
@@ -120,7 +124,7 @@ For the **Outlook** distribution channel, there are:
 
    :::image type="content" source="media/table-alignment-not-supported.png" alt-text="The table alignment not being supported in Outlook.":::
 
-##### Deviations in People web part
+#### Deviations in People web part
 
 The **Small**, **Medium**, and **Large** layouts are supported.
 
@@ -128,7 +132,7 @@ The **Small**, **Medium**, and **Large** layouts are supported.
 
 However, even if you transpile the content using the **Medium** and **Large** layouts, the descriptions and links added in these two layouts will be dropped. The content's output defaults to the **Small** layout view.  
 
-##### Sections layout
+#### Sections layout
 
 **Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
 
