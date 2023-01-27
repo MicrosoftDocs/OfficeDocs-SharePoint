@@ -83,10 +83,10 @@ Deviations can be classified as:
 
 1. **Modifications to certain web parts**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
 
-For example:
+    For example:
 
-- In the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
-- - In the **Image** web part, properties such as "text on image" won't be supported.
+    - In the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
+    - In the **Image** web part, properties such as "text on image" won't be supported.
 
 1. **Removal of certain web parts**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
 
@@ -122,9 +122,11 @@ For the **Outlook** distribution channel, there are:
 
 ##### Deviations in People web part
 
-Only the **Small** layout is supported for **People** web part (Descriptions and links added to medium or large versions will be dropped.).
+The **Small**, **Medium**, and **Large** layouts are supported.
 
 :::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
+
+However, even if you transpile the content using the **Medium** and **Large** layouts, the descriptions and links added in these two layouts will be dropped. The content's output defaults to the **Small** layout view.  
 
 ##### Sections layout
 
