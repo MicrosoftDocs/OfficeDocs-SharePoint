@@ -38,7 +38,7 @@ You can review and export the most recent site-related actions you made 
 
 ## Secure collaboration
 
-With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites that have a sensitivity label applied. Authentication contexts are used with sensitivity labels to connect Azure AD conditional access policies to labeled sites. For details, see [Manage site access based on sensitivity label](authentication-context-example.md).
+With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Azure AD conditional access policies to labeled sites. For details, see [Manage site access based on sensitivity label](authentication-context-example.md).
 
 When SharePoint is enabled for sensitivity labels, you can configure a default label for document libraries. Then, any new files uploaded to that library, or existing files edited in the library will have that label applied if they don't already have a sensitivity label, or they have a sensitivity label but with lower priority. For details, see [Configure a default sensitivity label for a SharePoint document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label).
 
