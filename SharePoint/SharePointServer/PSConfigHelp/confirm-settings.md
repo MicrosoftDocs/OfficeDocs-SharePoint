@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -23,10 +23,10 @@ description: "Summary: Learn how to use the SharePoint Configuration Wizard in S
 
  **Summary:** Learn how to use the SharePoint Configuration Wizard in SharePoint Server. 
   
-Use the **Completing the SharePoint Products Configuration Wizard** page to confirm the database and the Central Administration web application settings that you have entered. 
+Use the **Completing the SharePoint Products Configuration Wizard** page to confirm the database and the Central Administration web application settings that you've entered. 
   
-Confirm that the settings are correct, and then click **Next** to continue. 
+Confirm that the settings are correct, and then select **Next** to continue. 
   
-Click **Advanced Settings** to enable Active Directory account creation mode. For more information, see [Advanced settings](advanced-settings.md).
+Select **Advanced Settings** to enable Active Directory account creation mode. For more information, see [Advanced settings](advanced-settings.md).
   
 
