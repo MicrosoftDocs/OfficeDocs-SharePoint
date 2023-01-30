@@ -1,8 +1,8 @@
 ---
 title: Teams and SharePoint integration
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -46,7 +46,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
-- **Channel site** - The SharePoint site that is created when you create a standard (other than General), private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
+- **Channel site** - The SharePoint site that is created when you create a private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
 
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams do not require a team owner to invite someone to the team.
 
@@ -77,7 +77,7 @@ In Teams, the Files tab on each standard channel is connected to a folder in the
 
 ## Example of a team with multiple channel types
 
-Contoso had a team called Mark 8 Project Team. This team has several standard channels, and one private channel called Compete Analysis.
+Contoso has a team called Mark 8 Project Team. This team has several standard channels, and one private channel called Compete Analysis.
 
 ![Image of Microsoft Teams structure.](media/teams-structure.png)
 

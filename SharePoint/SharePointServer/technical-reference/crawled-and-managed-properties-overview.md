@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
 description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
@@ -664,7 +664,7 @@ The following table lists the default managed properties and their attributes. F
 |XLDataConnCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLDataConnCountRngID||
 |XLFormulaCount|Decimal|No|No|No|Yes|No|No|XLFormulaCount||
 |XLFormulaCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLFormulaCountRngID||
-|XLLinkedWkbkCount|Decimal|No|No|No|Yes|No|No|XLLinkedWkbkCount||
+|XLLinkedWkbkCoun]t|Decimal|No|No|No|Yes|No|No|XLLinkedWkbkCount||
 |XLLinkedWkbkCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLLinkedWkbkCountRngID||
 |XLLinkedWorkbooksText|Text|Yes|Yes|No|Yes|No|No|XLLinkedWorkbooksText||
 |XLUniqueFormulaSetCount|Integer|No|No|No|Yes|No|No|XLUniqueFormulaSetCount||

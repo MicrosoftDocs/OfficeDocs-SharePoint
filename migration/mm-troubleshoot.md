@@ -20,9 +20,9 @@ search.appverid: MET150
 ms.custom: admindeeplinkSPO
 description: "Troubleshoot common errors in Migration Manager."
 ---
-# Troubleshoot Migration Manager issues and errors
+# Troubleshoot Migration Manager file migrations
 
-This article describes how to resolve issues and errors you may experience when using Migration Manager.
+This article describes how to resolve issues and errors you may experience when using Migration Manager for  file share migration.
 
 - [Prerequisites and settings](#check-prerequisites-and-settings)
 - [Agent error messages](#agent-error-messages)
@@ -37,6 +37,9 @@ This article describes how to resolve issues and errors you may experience when 
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
 - [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs)
+- [The site collection "XXXX" cannot be created or updated](#the-site-collection-xxxx-cannot-be-created-or-updated)
+- [Scan task stuck in "queued" status](#scan-task-stuck-in-queued-status)
+
 
 ## Check prerequisites and settings
 
@@ -219,7 +222,7 @@ The Google APIs are returning HTML errors that are being included in the generat
 
 **Mitigation**:
 
-Run less concurrent transations.
+Run less concurrent transactions.
 
 **Status**:
 
@@ -245,10 +248,33 @@ SharePoint admin roles that were created as a result of joining an Azure group a
 2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
 3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
-## Error codes
 
-|Error Code|Recommended action|
-|---|---|
+## The site collection "XXXX" cannot be created or updated
+
+The User Principal Name (UPN) referenced is invalid. In order to create or update a OneDrive site collection, Azure Active Directory must contain the referenced UPN. Check your destination URL and validate that the user exists in Azure AD.
+
+## Scan task stuck in "queued" status
+
+**Issue**: The status for a file share scan stays at "Queued" and never gets scheduled on an agent to run.
+
+:::image type="content" source="media/mm-scan-task-issue-1.png" alt-text="Scan task issue stuck in queued phase":::   
+
+**Diagnosis / Investigation**  
+
+- Check the Agent group column for scan tasks. Only agents in the **Default** agent group can be scheduled.
+
+:::image type="content" source="media/mm-scan-task-isssue-2.png" alt-text="Scan task issue troubleshooting":::
+
+**Mitigation**  
+
+- If there's no agents in the **Default** agent group, change the existing agent's group to **Default**. Any scan tasks that have been stuck should now move out of this state. 
+
+ :::image type="content" source="media/mm-scan-task-issue-3.png" alt-text="Scan task issue edit agents":::  
+
+
+ ## Error codes 
+|**Error Code**|**Recommended action**|
+|:-----|:-----|
 |0x00000000|Unexpected error.|
 |0x01110001|Unknown reason.|
 |0x0111000B|Path is too long.|

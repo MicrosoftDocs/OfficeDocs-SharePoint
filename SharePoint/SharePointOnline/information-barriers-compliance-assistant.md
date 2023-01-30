@@ -17,6 +17,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- purview-compliance
+- M365-collaboration
 ---
 
 # Information barriers compliance assistant (preview)
@@ -27,7 +31,7 @@ This article explains how you can enable the information barrier compliance assi
 
 1. Make sure you [define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 2. [Configure information barrier segments on a SharePoint Site.](information-barriers.md)
-3. [Install the Azure PowerShell module](/powershell/azure/install-az-ps?view=azps-2.3.2)
+3. [Install the Azure PowerShell module](/powershell/azure/install-az-ps)
 4. PowerShell account must have directory administrator access for the tenant.
 
 ## Enable the background compliance assistant

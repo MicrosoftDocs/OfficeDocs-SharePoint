@@ -26,7 +26,7 @@ description: "How to format a JSON or CSV file for data content migration by usi
 
 # Bulk upload SPMT migration tasks using JSON or CSV files
 
-The SharePoint Migration tool (SPMT) lets you to bulk upload your migration task information by using either a JSON or CSV file. This method helps if you're creating a large number of tasks.
+The SharePoint Migration tool (SPMT) lets you bulk upload your migration task information by using either a JSON or CSV file. This method helps if you're creating a large number of tasks.
 
 Learn how to:
 
@@ -82,7 +82,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 
 The following example shows the JSON file format that you can use to migrate your data.
 
-As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *Target Web*, and *Target DocLib*.  
+As with a CSV file, the minimum required values are *Source*, *Target Web*, and *Target DocLib*.  
 
 ```json
 {
@@ -144,8 +144,46 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
 
 ## Troubleshooting
 
+
+## Proxy connections
+
+Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+
+If you wish to leverage your system proxy settings, use one of these methods:
+
+**Update proxy** 
+
+1. Download the latest version of SPMT. Start SPMT.
+2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+4. Uncomment the default proxy setting shown here:
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+
+</br>
+
+**If SPMT doesn't upgrade**
+
+1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+2. Open the **installclient.exe.config** file. 
+3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
+</br>
+
+   ![Edit the config file](media/spmt-proxy-edits.png)
+
+4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
+5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+6. Uncomment the default proxy setting:
+7. 
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+
+
 |Error|Description|
 |:-----|:-----|
-|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub egistration of a destination site.|
-|**Desination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
+|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub registration of a destination site.|
+|**Destination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
 |**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT will not change the association a destination site.|
+

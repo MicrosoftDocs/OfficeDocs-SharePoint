@@ -80,8 +80,6 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 ## What happens when users share
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
-
-![A sharing invitation in email](media/sharing-invitation.png)
   
  **Recipients who sign in**
   
@@ -104,7 +102,7 @@ Because these guests do not have a license in your organization, they are limite
     
 - They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
     
-If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a global admin, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
+If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a Global Administrator, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
 
  **Recipients who provide a verification code**
 

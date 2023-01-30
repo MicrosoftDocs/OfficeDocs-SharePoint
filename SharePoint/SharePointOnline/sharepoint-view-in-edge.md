@@ -1,8 +1,8 @@
 ---
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -59,6 +59,8 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
         `[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
 
         :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
+
+        For more examples, see [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) on Microsoft Edge policy reference.
 
    - **To enable by using Intune**:
 
@@ -129,3 +131,4 @@ You may receive this error if this functionality is not supported in your curren
 - [View and open SharePoint with File Explorer](https://support.microsoft.com/office/view-and-open-sharepoint-files-with-file-explorer-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
 - [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)
+- [OneDrive sync reports in the Apps Admin Center](/onedrive/sync-health)

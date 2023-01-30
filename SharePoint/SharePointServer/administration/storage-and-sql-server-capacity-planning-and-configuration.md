@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -48,7 +48,7 @@ We recommend that you break the storage and database tier design process into th
 
 6. [Configure SQL Server](#Section6)
 
-7. [Validate and monitor storage and SQL Server performance ](#Section7)
+7. [Validate and monitor storage and SQL Server performance](#Section7)
 
 <a name="Section1"> </a>
 ## Gather storage and SQL Server space and I/O requirements
@@ -308,7 +308,7 @@ To estimate the storage requirements for the service applications in the system,
 
 Availability is how much a SharePoint Server environment is perceived by users to be available. An available system is a system that is resilient — that is, incidents that affect service occur infrequently, and timely and effective action is taken when they do occur.
 
-Availability requirements can significantly increase your storage needs. For detailed information, see [Create a high availability architecture and strategy for SharePoint Server](plan-for-high-availability.md). Also, see the SQL Server 2012 white paper [AlwaysOn Architecture Guide: Building a High Availability and Disaster Recovery Solutions by Using AlwaysOn Availability Groups](/previous-versions/sql/sql-server-2012/jj191711(v=msdn.10)).
+Availability requirements can significantly increase your storage needs. For detailed information, see [Create a high availability architecture and strategy for SharePoint Server](plan-for-high-availability.md). Also, see the SQL Server 2012 white paper [Always On Architecture Guide: Building a High Availability and Disaster Recovery Solutions by Using Always On Availability Groups](/previous-versions/sql/sql-server-2012/jj191711(v=msdn.10)).
 
 <a name="Section2"> </a>
 ## Choose SQL Server version and edition
@@ -323,7 +323,7 @@ We recommend that for SharePoint Server Subscription Edition, 2019, or 2016 you 
 
 - SQL Server 2014 with Service Pack 1 (SP1) (SharePoint Server 2016 only)
 
-For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes?view=sql-server-2016&preserve-view=true), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15](/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15&preserve-view=true)).
+For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes?view=sql-server-2016&preserve-view=true), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [Editions and supported features of SQL Server 2019 (15.x)](/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15&preserve-view=true)).
 
 We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the other performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes?view=sql-server-2016&preserve-view=true), [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
 
@@ -507,7 +507,7 @@ The following list provides some best practices and recommendations:
 
 - We do not recommend a wide area network (WAN) topology in which a server that is running SQL Server is deployed remotely from other components of the farm over a network that has latency greater than 1 ms., because this topology has not been tested.
 
-- Plan for an adequate WAN network if you plan to use SQL Server the AlwaysOn implementation suite, mirroring, log shipping, or Failover Clustering to keep a remote site up to date.
+- Plan for an adequate WAN network if you plan to use SQL Server the Always On implementation suite, mirroring, log shipping, or Failover Clustering to keep a remote site up to date.
 
 - We recommend that web servers and application servers have two network adapters: one network adapter to handle user traffic and the other to handle communication with the servers that are running SQL Server.
 

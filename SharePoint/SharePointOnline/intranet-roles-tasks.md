@@ -13,6 +13,8 @@ search.appverid: MET150
 description: "Introduction to roles, tasks, and timelines when deploying a SharePoint intranet."
 ms.collection:
   - m365solution-spintranet
+  - m365solution-scenario
+  - highpri
 ---
 
 # Introduction to roles, tasks, and timelines

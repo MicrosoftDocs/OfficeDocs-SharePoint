@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cbb210e8-2969-4fd5-a82d-08ad1996c5b4
 description: "Use Excel Services trusted data connection libraries to manage and secure data connections for Excel Services in SharePoint Server."

@@ -18,6 +18,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- purview-compliance
+- M365-collaboration
 ---
 
 # Use information barriers with SharePoint
@@ -40,16 +44,21 @@ When using information barriers with SharePoint, the following IB modes are supp
 |:-------  |:----------------|:-------------|
 | **Open** | When a SharePoint site doesn't have segments, the site's IB mode is automatically set as *Open*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Open* mode configuration. | A Team site created for picnic event for your organization.  |
 | **Owner Moderated (preview)** | When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that aren't connected to a Microsoft 365 group. See [this section](#owner-moderated-mode-scenario-preview) for details on managing *Owner Moderated* site. | A site is created for collaboration between VP of Sales and Research in the presence of VP of HR (site owner).  |
-| **Implicit** | When a site is provisioned by Microsoft Teams, the site's IB mode is set as *Implicit* by default. A SharePoint admin or global admin can't manage segments with the *Implicit* mode configuration. | A Team is created for all Sales segment users to collaborate with each other. |
-| **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
+| **Implicit** | When a site is provisioned by Microsoft Teams, the site's IB mode is set as *Implicit* by default. A SharePoint Administrator or Global Administrator can't manage segments with the *Implicit* mode configuration. | A Team is created for all Sales segment users to collaborate with each other. |
+| **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint Administrator adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
 
 ## Sharing sites for IB modes
+
+Sharing of sites with users is based on the IB mode of the site. 
 
 ### Open
 
 When a site has no segments and site's information barriers mode is set to *Open*:
 
 - The site and its contents can be shared based on the information barrier policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users.
+
+>[!TIP]
+>If you want to allow sharing of *Open* mode sites with mail-enabled security groups, see the [Allow sharing of Open mode sites with mail-enabled security groups (preview)](#allow-sharing-of-open-mode-sites-with-mail-enabled-security-groups-preview) section in this article.
 
 ### Owner Moderated
 
@@ -86,6 +95,8 @@ When a site is associated with segment(s) and site's information barriers mode i
 
 ## Access control for IB modes
 
+Access to sites by users is based on the IB mode of the site.
+ 
 ### Open mode
 
 For a user to access a SharePoint site that has no segment and site's information barriers  mode is set to *Open*:
@@ -130,7 +141,7 @@ The following example illustrates three segments in an organization: HR, Sales, 
 
 ![Example of segments in an organization.](media/info-barriers-segments-example.png)
 
-With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). The Microsoft 365 group connected to the site is also associated with the site's segment.
+With SharePoint information barriers, a SharePoint Administrator or Global Administrator can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). The Microsoft 365 group connected to the site is also associated with the site's segment.
 
 In the above example, the HR segment is compatible with both Sales and Research. However, because the Sales and Research segments are incompatible, they can't be associated with the same site.
 
@@ -146,7 +157,7 @@ In the above example, the HR segment is compatible with both Sales and Research.
 SharePoint Administrators or Global Administrators can enable information barriers in SharePoint and OneDrive in your organization. Complete the following steps to enable information barriers for your organization:
 
 1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest version of SharePoint Online Management Shell.
-2. Connect to SharePoint Online as a global admin or [SharePoint admin](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a Global Administrator or [SharePoint Administrator](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 3. To enable information barriers in SharePoint and OneDrive, run the following command:
 
     ```PowerShell
@@ -173,7 +184,7 @@ If you installed a previous version of the SharePoint Online Management Shell, c
 2. Navigate to the Microsoft Download Center for the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)), select your language, and then select **Download**.
 3. You may be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version of Windows. If you don't know which version you're running on your computer, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system).
 4. After the download is complete, run the installer file and follow the configuration steps in the setup wizard.
-5. Connect to SharePoint Online as a global admin or [SharePoint admin](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+5. Connect to SharePoint Online as a Global Administrator or [SharePoint Administrator](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 6. To enable information barriers in SharePoint and OneDrive, run the following command:
 
     ```PowerShell
@@ -196,7 +207,7 @@ Set-SPOTenant -IBImplicitGroupBased $true
 
 ## View and manage segments as an administrator
 
-SharePoint or Global Administrators can view and manage segments on a SharePoint site as follows:
+SharePoint Administrators or Global Administrators can view and manage segments on a SharePoint site as follows:
 
 ### 1. Use the SharePoint admin center to view and manage information segments
 
@@ -216,7 +227,7 @@ To edit the segments associated with the site, select **Edit**, add or remove se
 
 ### 2. Use SharePoint PowerShell to view and manage information segments on a site
 
-1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin.
+1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a Global Administrator.
 
 2. Run the following command to get the list of segments and their GUIDs.
 
@@ -234,7 +245,7 @@ To edit the segments associated with the site, select **Edit**, add or remove se
 
 4. If not previously completed, [download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest SharePoint Online Management Shell. If you installed a previous version of the SharePoint Online Management Shell, follow the instructions in the **Enable SharePoint and OneDrive information barriers in your organization** section in this article.
 
-5. Connect to SharePoint Online as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+5. Connect to SharePoint Online as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 6. Run the following command:
 
@@ -320,11 +331,11 @@ For more information about SharePoint segment auditing in Office 365, see [Searc
 
 When a segmented user creates a SharePoint site, the site is associated with the user's segment and site's information barriers mode is automatically set to *Explicit*.
 
-In addition, the site owners have the capability to add more segments to a SharePoint site that already has segments with site's mode set as *Explicit*. Site owners can't remove added segments from sites. SharePoint admins will have to remove added segments in your organization if needed.
+In addition, the site owners have the capability to add more segments to a SharePoint site that already has segments with site's mode set as *Explicit*. Site owners can't remove added segments from sites. SharePoint Administrators will have to remove added segments in your organization if needed.
 
 When a non-segmented user creates a SharePoint site, the site isn't associated with any segment and site's information barriers mode is automatically set to *Open*.
 
-When a SharePoint admin creates a SharePoint site from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, the site isn't associated with any segment and the site's IB mode is set to *Open*.
+When a SharePoint Administrator creates a SharePoint site from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, the site isn't associated with any segment and the site's IB mode is set to *Open*.
 
 To help site owners add a segment to a site, share the [Associate information segments with SharePoint sites](https://support.microsoft.com/office/associate-information-segments-with-sharepoint-sites-2b03db07-6d3f-4297-a388-b943317a26a7) article with your SharePoint site owners.
 
@@ -399,12 +410,12 @@ If a SharePoint site owner or site member's segment changes, they'll continue to
 If a compliance administrator changes an existing IB policy, the change may impact the compatibility of the segments associated with a site (in *Explicit* or *Implicit* mode).
 For example, segments that were once compatible may no longer be compatible.
 
-With Information barriers policy compliance report, the SharePoint admin will have the capability to view the list of sites where segments are no longer compatible. For more information, see [Learn how to create an information barriers policy compliance report in PowerShell](info-barriers-report.md).
+With Information barriers policy compliance report, the SharePoint Administrator will have the capability to view the list of sites where segments are no longer compatible. For more information, see [Learn how to create an information barriers policy compliance report in PowerShell](info-barriers-report.md).
 
 To manage out of compliance sites:
 
-- In *Explicit* mode, a SharePoint admin must change the associated segments to bring them in to IB compliance.
-- In *Implicit* mode, a SharePoint admin can't manage segments directly. We recommend the Teams admin to manage the Team's membership to bring the Teams membership roster and segments in to IB compliance.
+- In *Explicit* mode, a SharePoint Administrator must change the associated segments to bring them in to IB compliance.
+- In *Implicit* mode, a SharePoint Administrator can't manage segments directly. We recommend the Teams admin to manage the Team's membership to bring the Teams membership roster and segments in to IB compliance.
 
 ## How to suspend SharePoint and OneDrive information barriers in your organization
 
@@ -418,6 +429,21 @@ Set-SPOTenant -InformationBarriersSuspension $true
 
 >[!NOTE]
 >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
+
+## Allow sharing of Open mode sites with mail-enabled security groups (preview)
+
+IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to be shared with [mail-enabled security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites. SharePoint admins can enable this support in your organization and we recommend you ensure the security group membership is IB compliant.
+
+Before enabling group support, verify that you've met the following prerequisites:
+
+- Your organization has only IB [*Block* policies](/microsoft-365/compliance/information-barriers-policies#configuration-concepts)
+- Your organization is enabled for SharePoint IB (see [this section](#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) in this article).
+
+To configure mail-enabled security group support in *Open* mode sites, run the following command:
+
+```powershell
+Set-SPOTenant -ShowPeoplePickerGroupSuggestionsForIB $true
+```
 
 ## Resources
 

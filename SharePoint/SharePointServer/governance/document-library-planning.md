@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: d7abd498-7bc4-44fe-a086-d9b1c5a340d2
 description: "Learn how to plan document library use, access, and workflow in SharePoint Server."

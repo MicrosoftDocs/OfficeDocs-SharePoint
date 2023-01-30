@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 search.appverid:
@@ -133,7 +134,7 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you're using an Office 365 or Microsoft 365 plan that supports Delve**
 <a name="#BKMK_CheckPlan"></a>
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
@@ -155,7 +156,7 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you've assigned the correct user licenses**
 <a name="#BKMK_CheckLicense"></a>
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.

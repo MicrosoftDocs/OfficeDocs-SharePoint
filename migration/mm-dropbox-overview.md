@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of migration from Dropbox to Microsoft 365 using Migration Manager.
@@ -51,6 +52,10 @@ Make sure that you have:
 - **Access to the source**: Have Dropbox account credentials that have read access to any Dropbox user account you plan to migrate.
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
+
+## File size migration limit
+
+We support files up to 15 GB in size for Dropbox to Microsoft 365 migrations.
 
 >[!NOTE]
 >Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China.

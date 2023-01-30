@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -524,11 +524,11 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
       Set-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedAppsCache $DUAC
     
       #DistributedUnifiedAuditCache
-      $DHSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedAuditCache
-      $DHSC.MaxConnectionsToServer = 1
-      $DHSC.requestTimeout = "3000"
-      $DHSC.channelOpenTimeOut = "3000"
-      Set-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedAuditCache $DHSC
+      $DUAuC = Get-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedAuditCache
+      $DUAuC.MaxConnectionsToServer = 1
+      $DUAuC.requestTimeout = "3000"
+      $DUAuC.channelOpenTimeOut = "3000"
+      Set-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedAuditCache $DUAuC
       ```
 
       **SharePoint Server 2016 PowerShell script**

@@ -17,6 +17,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- purview-compliance
+- M365-collaboration
 ---
 
 # Create an information barriers policy compliance report
@@ -25,7 +29,7 @@ If a compliance administrator changes an existing information barriers policy, t
 
 For example, a policy might allow communication and collaboration between the Sales and Research segments. Later, the policy might not allow communication and collaboration between these segments. The segments are incompatible and shouldn't be associated with the same site.
 
-The SharePoint information barriers policy compliance report lets SharePoint admins view the list of sites that are noncompliant with existing policies. The report covers these sites:
+The SharePoint information barriers policy compliance report lets SharePoint Administrators view the list of sites that are noncompliant with existing policies. The report covers these sites:
 
 - Microsoft 365 group-connected team sites that aren't connected to Microsoft Teams
 - Communication sites
@@ -46,7 +50,7 @@ If a OneDrive is noncompliant, this report lets you update the OneDrive to be co
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell".  
 
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command to build the report:
 

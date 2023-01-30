@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Step 5:  Map Box identities with Migration Manager." 
 ---
@@ -61,7 +62,7 @@ Upload your own users and groups mappings using the M
 >Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
 
 
-[**Step 6: Migrate and monitor**](mm-box-step6-migrate-monitor.md)
+## [**Step 6: Migrate and monitor**](mm-box-step6-migrate-monitor.md)
 
 
 >[!NOTE]

@@ -1,15 +1,15 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 4 Configure SharePoint servers"
 ms.reviewer: 
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -25,7 +25,7 @@ description: "Configure the SharePoint servers to host a high-availability Share
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create the SharePoint Server 2016 servers and configure their roles with the SharePoint Configuration Wizard.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Create the SharePoint server virtual machines in Azure
 
@@ -56,7 +56,7 @@ Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: C
 First, you configure internal load balancing so that Azure distributes the client traffic evenly among the two front end and distributed caching servers.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0&preserve-view=true). 
   
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
@@ -383,10 +383,10 @@ Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group an
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
-[SharePoint Server 2016 in Microsoft Azure](./sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-2016-farm-in-azure.md)
+[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-farm-in-azure.md)
   
 [Install SharePoint Server](../install/install.md)

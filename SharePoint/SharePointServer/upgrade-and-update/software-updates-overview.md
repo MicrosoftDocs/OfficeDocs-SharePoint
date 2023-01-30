@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -51,7 +51,7 @@ Information in this article applies to the following products:
 > [!NOTE]
 > The process that installs software updates in stand-alone environments of SharePoint Server 2016 or 2019 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
 
-Micrososft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
+Microsoft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
 
 The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
 
@@ -111,7 +111,7 @@ The next and final phase to deploy software updates is the build-to-build upgrad
   
 ### Build-to-build upgrade phase
 
-The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Managmeent Shell.
+The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Management Shell.
 
 > [!NOTE]
 > No specific order of execution of the Configuration Wizard in a farm is required.

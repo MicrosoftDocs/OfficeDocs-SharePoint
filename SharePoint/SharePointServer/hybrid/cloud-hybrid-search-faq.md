@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.collection: SPO_Content
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
@@ -236,30 +236,17 @@ You can test for the online content only by stipulating NOT IsExternalContent:1 
 
 ***What would be the People crawl experience if you are crawling on-premises profile store using Cloud hybrid search service application?***
 
-By default, all people in the SharePoint in Microsoft 365 User Profile application will be indexed by the SharePoint in Microsoft 365 search service. If you additionally crawl people using the on-premises cloud search service application, you will generate an additional set of people content items in the Microsoft 365 Search index. Since these would have two different DocID's, both will be returned in search results when queried for a person - one will have url pointing to users OneDrive site in SharePoint in Microsoft 365 and another pointing to SharePoint on-premises. This will be confusing to end users as searching for a person will return multiple results per person.
+By default, all people in the SharePoint in Microsoft 365 User Profile application will be indexed by the SharePoint in Microsoft 365 search service. The recommended approach to support searching for people is to make this User Profile service in Microsoft 365 the primary source of user info and let Microsoft 365 Search take care of the indexing and presentation. With this approach, you do not need to crawl people on-premises and you do not need to make any changes to the default search configuration in SharePoint in Microsoft 365.
 
-There are two ways to approach this problem today:
+If you additionally crawl people using the on-premises cloud search service application, you will generate an additional set of people content items in the Microsoft 365 Search index. These results will have URLs pointing to users' OneDrive sites in SharePoint on-premises rather than in SharePoint in Microsoft 365. These results are _not_ shown when searching using the people results source. If you wish to show these on-premises profiles as the primary people search source, you can follow these steps:
 
-- Make the Microsoft 365 User Profile service the primary source of user info, and let Microsoft 365 Search take care of the indexing and presentation. With this approach, you do not need to crawl people on-premises.
+1. Create a new result source or copy the existing SharePoint results source.
 
-- Crawl the on-premises people profile store in addition to Microsoft 365 crawling the tenant profile store. This will result in the described scenario of duplicate search results for each person; however, you can use query transformation to decide which results you want to display, even providing the ability for end users to choose between the different result sources at query time.
-
-To utilize the on-premises profile store as the primary people search source, follow these steps:
-
-1. Create a new result source or copy the existing people results source.
-
-2. Edit the new result source, and modify the Query Transformation box to include the Managed Property IsExternalContent, as follows: `{?{searchTerms} ContentClass=urn:content-class:SPSPeople IsExternalcontent:1}`
+2. Edit the new result source, and modify the Query Transformation box to specify the Managed Properties ContentClass and IsExternalContent, as follows: `{?{searchTerms} ContentClass=urn:content-class:SPSPeople IsExternalContent:1}`
 
 3. Create a new search results page and configure the Core Search Results web part to consume this new search result source.
 
 4. Complete the implementation by adding the new page to the search navigation settings. This adds the new page as a search vertical within the search center.
-
-To utilize the Microsoft 365 profile store as the primary people search source, follow the same steps but using a slightly different query transformation at step two, as follows:
-
-`{?{searchTerms} ContentClass=urn:content-class:SPSPeople NOT IsExternalcontent:1}`
-
-> [!NOTE]
-> The difference in the two transform is the insertion of NOT before the managed property to force the exclusion of External content, (for example, non-Microsoft 365 People Results).
 
 ***I only see preview of Office documents in search results if the content resides in SharePoint in Microsoft 365. Office documents that reside in SharePoint on-premises do not show previews. Is this expected?***
 

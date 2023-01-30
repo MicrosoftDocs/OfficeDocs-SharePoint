@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Dropbox."
 ---
@@ -45,7 +46,7 @@ After a Dropbox account has been scanned and determined ready, add it to your mi
 ![Migrations tab](media/mm-box-migration-tab.png)
 
 
-[**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
+## [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
 
 >[!NOTE]

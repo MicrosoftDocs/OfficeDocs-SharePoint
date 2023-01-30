@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -33,7 +33,7 @@ Download and install:
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
 
-- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/download/details.aspx?id=35590)
 
 Use the following to resolve alerts about the search issues:
   
@@ -709,7 +709,7 @@ Check and restart the schema service or OM.
 
  **Alert Name:** Query Processing: QueryParsing Scope Cache Availability 
   
- **Summary:** Query parsing could not work for the particular query because the query rules for the indicated Search Service service Aapplication was not available. 
+ **Summary:** Query parsing could not work for the particular query because the query rules for the indicated Search Service service application weren't available. 
   
 ### Cause
 
@@ -916,7 +916,7 @@ Ensure that the following components are up and running:
 
  **Alert Name:** Search Analytics: Timer job cannot resolve Link database 
   
- **Summary:** The timer job will check that all Link database partitions are available before it tries to start the search analytics analysis.Symptoms:If the Link database partitions are unavailable when it is time to start a new analysis run, the start try will be aborted. New Link database checks followed by a new start try will be performed in the next timer job polls (every 10 minutes). 
+ **Summary:** The timer job will check that all Link database partitions are available before it tries to start the search analytics analysis. Symptoms: If the Link database partitions are unavailable when it is time to start a new analysis run, the start try will be aborted. New Link database checks followed by a new start try will be performed in the next timer job polls (every 10 minutes). 
   
 ### Cause
 
@@ -1034,7 +1034,7 @@ One or more of the following might be the cause:
     
   - There is a Search service application in the system.
     
-  - The Analytics processingcomponent is functioning correctly.
+  - The Analytics processing component is functioning correctly.
     
   - There are no networking issues.
     
@@ -1077,7 +1077,7 @@ Verify other System Center Operations Manager monitors and see whether any paren
     
 - There is no problem with disk space.
     
-- There is no metwork connectivity issue.
+- There is no network connectivity issue.
     
 - The usage analytics timer job is running.
     
@@ -1119,7 +1119,7 @@ One or more of the following might be the cause:
   
  **Summary:** Background or symptoms: 
   
-1. The information written to the reporting API or database is used if the cache files must be rebuilt. When usage analytics cannot write to the reporting API, this means that the recommendations and data is not updated. Counts presented to the user are therefore out of date, and old or wrong data will also be presented next time that the cache is rebuilt. 
+1. The information written to the reporting API or database is used if the cache files must be rebuilt. When usage analytics cannot write to the reporting API, this means that the recommendations and data aren't updated. Counts presented to the user are therefore out of date, and old or wrong data will also be presented next time that the cache is rebuilt. 
     
 2. The Reporting API could not be read so that no cache files could be created and the analysis will therefore not be run. Running the analysis in this state would in effect overwrite the current data.
     
@@ -1303,7 +1303,7 @@ If persistent or recurring, check the host controller and restart if it is neces
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/download/details.aspx?id=35590)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   

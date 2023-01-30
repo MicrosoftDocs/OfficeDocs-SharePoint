@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -93,7 +93,7 @@ Before you begin this operation, review the steps in this process:
     
     If you do not want to use SQL Server connection aliases use one of the following procedures to update the database connections for your SharePoint Server farm.
     
-  - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery. 
+  - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server Always On Availability Groups for high availability or disaster recovery. 
     
   - [Scenario 2](#MAN): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
     
@@ -222,7 +222,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
 The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
 
 > [!IMPORTANT]
-> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
+> If you're using SharePoint Server and SQL Server Always On Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
@@ -258,7 +258,7 @@ You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove ava
     
 - **Get-AvailabilityGroupStatus**
     
-Use the following procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery.
+Use the following procedure to update the database connections if you use SharePoint Server and SQL Server Always On Availability Groups for high availability or disaster recovery.
   
  <a name="PS"></a>**Scenario 1: To update the database connections by using PowerShell**
   
@@ -325,7 +325,7 @@ Where \<GUID\> is the ID of the database that you move.
   $db.ChangeDatabaseInstance("<DBServerName>")
   ```
 
-Where \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
+Where \<DBServerName\> is the name or alias of the new SQL Server or is the Always On Availability Group listener DNS name.
     
   ```
   $db.Update()

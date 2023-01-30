@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -56,8 +56,8 @@ The following articles include information about how to prepare for installation
 |[Deploy software updates for SharePoint Server 2016](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md) <br/> |Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016.  <br/> |
 |[Test and troubleshoot an upgrade to SharePoint Server 2016](../upgrade-and-update/test-and-troubleshoot-an-upgrade.md) <br/> |Learn how to test and troubleshoot an upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016.  <br/> |
 |[Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md) <br/> |Learn how to improve the security of SQL Server for SharePoint Server 2016 environments.  <br/> |
-|[SharePoint Server 2016 in Microsoft Azure](../administration/sharepoint-server-2016-in-microsoft-azure.md) <br/> |Learn about why Microsoft Azure is the best place to host your SharePoint Server 2016 farms in the cloud.  <br/> |
-|[Microsoft Identity Manager in SharePoint Servers 2016 and 2019](../administration/microsoft-identity-manager-in-sharepoint-server-2016.md) <br/> |Learn about the Microsoft Identity Manager (MIM) in SharePoint Servers 2016 and 2019 and the features it provides to you as an external identity manager.  <br/> |
+|[SharePoint Server in Microsoft Azure](../administration/sharepoint-server-in-microsoft-azure.md) <br/> |Learn about why Microsoft Azure is the best place to host your SharePoint Server 2016 farms in the cloud.  <br/> |
+|[Microsoft Identity Manager in SharePoint Server](../administration/microsoft-identity-manager-in-sharepoint-server.md) <br/> |Learn about the Microsoft Identity Manager (MIM) in SharePoint Servers 2016 and 2019 and the features it provides to you as an external identity manager.  <br/> |
    
 ## Articles about SharePoint Server 2013 installation and configuration
 

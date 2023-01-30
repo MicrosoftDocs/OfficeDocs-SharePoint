@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
 description: "Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
@@ -65,9 +65,9 @@ If you need capabilities that go beyond what SharePoint Active Directory Import 
   
 To learn how to configure MIM for use with SharePoint Server 2016, see the following resources:
   
-- [Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md)
+- [Install Microsoft Identity Manager for User Profiles in SharePoint Server](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md)
     
-- [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server.md)
     
 ### Hybrid profiles
 <a name="MIM"> </a>

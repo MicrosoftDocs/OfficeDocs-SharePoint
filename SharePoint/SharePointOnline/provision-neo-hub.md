@@ -95,11 +95,11 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 ![Image of the NEO sites solution in the lookbook](media/neo-look-book.png)
 
-1. Go to the [NEO sites solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
+1. Go to the [SharePoint look book](https://lookbook.microsoft.com/), and under the **Solutions** tab, select one of the following employee onboarding options for provisioning:
 
-    - Provision the New employee pre-onboarding site
-    - Provision the New employee corporate onboarding site
-    - Provision the New employee department onboarding site
+    - Provision the [New employee pre-onboarding site](https://lookbook.microsoft.com/details/8fefcc9a-7ca4-457f-bd10-acee3ae63b63)
+    - Provision the [New employee corporate onboarding site](https://lookbook.microsoft.com/details/388a159f-475b-4557-9088-c9073a26c576)
+    - Provision the [New employee department onboarding site](https://lookbook.microsoft.com/details/99d3b7ea-6ca0-430e-96bc-922d4d2de2ab)
 
 2. Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
@@ -154,7 +154,7 @@ It's important to make sure the right content is available to users at the right
 ### Get started - Sign into your Microsoft 365 account
 
 > [!NOTE]
-> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don't already have access.
+> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint Administrator if you don't already have access.
 
 1. Open your web browser and navigate to [office.com](https://www.office.com) or your organization's sign-in location.
 
@@ -283,7 +283,7 @@ After customizing content, get ready to share the new onboarding experience with
 ### Share the Pre-onboarding site
 
 > [!NOTE]
-> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](./change-external-sharing-site.md).
+> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint Administrator to [turn on external sharing for a SharePoint site](./change-external-sharing-site.md).
 
 As a site owner, you can give external people access to the site by adding them as a **visitor**.
 

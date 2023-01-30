@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fae8ce7b-7c93-4cce-8a44-e3cf2f9f7b71
@@ -40,4 +40,4 @@ Note that to use the business intelligence (BI) tools in SharePoint Server 2013 
   
 [Integration Services Features Supported by the Editions of SQL Server 2016](/sql/integration-services/integration-services-features-supported-by-the-editions-of-sql-server)
   
-[BI and analytics](https://www.microsoft.com/cloud-platform/bi-analytics)
+[BI and analytics](https://powerbi.microsoft.com/data-analytics-tools/)

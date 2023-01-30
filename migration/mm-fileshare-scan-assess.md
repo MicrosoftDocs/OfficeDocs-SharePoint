@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Step 2:  Scan and assess file shares using Migration Manager."
 ---
@@ -44,6 +45,10 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 1. Select **Add source path** if you want to scan additional file shares.
 
     :::image type="content" alt-text="Fileshare scan list." source="media/mm-fileshare-scan-list.png":::
+
+>[!Important]
+> Only agents in the **Default** agent group can be scheduled. If you have a file share scan that is stuck with the status of "Queued", and it never is scheduled to an agent, follow the steps here: [Scan task stuck in "queued" status](/sharepointmigration/mm-troubleshoot#scan-task-stuck-in-queued-status)
+
 
 ## Download summary report and scan log
 

@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Step 3: Copy to migrations using Migration Manager."
 ---
@@ -45,7 +46,7 @@ After a Box user has been scanned and determined ready, add them to your migrati
 
 
 
-[**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
+## [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
 
 >[!NOTE]

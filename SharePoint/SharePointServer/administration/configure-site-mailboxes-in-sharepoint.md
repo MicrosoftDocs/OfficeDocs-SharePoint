@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
@@ -33,13 +33,13 @@ Before you begin this operation, review the following information about prerequi
     > [!NOTE]
     > You may need to determine if a previous version of EWS is installed. If so, please run the Check-SiteMailboxConfig script referenced below. 
   
-- Site Mailboxes feature requires that user profile synchronization be configured in the farm. For information about configuring user profile synchronization, see [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
+- Site Mailboxes feature requires that user profile synchronization is configured in the farm. For information about configuring user profile synchronization, see [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
 - Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](/powershell/module/sharepoint-server/New-SPAppManagementServiceApplication?view=sharepoint-ps&preserve-view=true).
     
 - Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) and follow the steps for creating an SSL site collection and server certificate. 
     
-Note that you may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate is not trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). 
+Note that you may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate isn't trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). 
 To import an untrusted SSL certificate to a new server: 
 - Open Internet Explorer and navigate to Outlook Web App (if the deployment is on SharePoint Server) or the SSL SharePoint site (if the deployment is on Exchange Server): https://\<ExServerName\>/owa or https://\<SP_FQDN\>. 
 - Accept to trust the certificate by clicking **Continue to website**. 
@@ -50,9 +50,9 @@ To import an untrusted SSL certificate to a new server:
   
 - In order to perform these procedures, you must be a member of the SharePoint and Exchange Server administrator groups and have an operational Exchange Server with end-user mailboxes.
     
-- A SharePoint backup solution will not incorporate Exchange site mailboxes. An Exchange administrator will need to ensure timely backups of site mailboxes are taking place.
+- A SharePoint backup solution won't incorporate Exchange site mailboxes. An Exchange administrator will need to ensure timely backups of site mailboxes are taking place.
     
-- Users who access files in a SharePoint document library from a Site Mailbox must have the document library configured as a trusted site in their browser or a warning will appear that asks the user if she or he wants to trust the file.
+- Users who access files in a SharePoint document library from a Site Mailbox must have the document library configured as a trusted site in their browser or a warning will appear that asks the user if they want to trust the file.
     
 ## Configure SharePoint for Site Mailboxes in SharePoint Server
 <a name="begin"> </a>
@@ -61,7 +61,7 @@ The first step in configuring Site Mailboxes is to install the Exchange Server W
   
  **Install Exchange Web Services API on SharePoint Server**
   
-1. Download EWSManagedAPI.msi from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=42951) and save it to a folder on each web and application server.
+1. Download EWSManagedAPI.msi from the Microsoft Download Center and save it to a folder on each web and application server.
     
 2. Open a command window as administrator and navigate to the folder where you saved EWSManagedAPI.msi.
     
@@ -171,7 +171,7 @@ if($exchange -eq $NULL)
     Write-Warning "Unable to establish trust with Exchange Server $($exchangeServer). Ensure that $($metadataEndpoint) is accessible."
     if($ExchangeAutodiscoverDomain -eq $NULL -or $ExchangeAutodiscoverDomain -eq "")
     {
-        Write-Warning "If $($metadataEndpoint) does not exist you may specify an alternate FQDN using ExchangeAutodiscoverDomain."
+        Write-Warning "If $($metadataEndpoint) doesn't exist, you may specify an alternate FQDN using ExchangeAutodiscoverDomain."
     }
     return
 }
@@ -441,7 +441,7 @@ The final step is to establish OAuth trust, and service permissions, on the Exch
   
  **Establish OAuth Trust and Service Permission on Exchange**
   
-1. On your instance of Exchange Server open the Exchange Management PowerShell window as Administrator and change to the "C:\Program Files\Microsoft\Exchange Server\V15\Scripts" directory .
+1. On your instance of Exchange Server open the Exchange Management PowerShell window as Administrator and change to the "C:\Program Files\Microsoft\Exchange Server\V15\Scripts" directory.
     
 2. Run the following command:
     
@@ -465,14 +465,14 @@ Please review the following table if you encounter issues.
 |2  <br/> |UnsupportedVersion  <br/> |EWS client version is incompatible with SharePoint. Run the Check script to ensure the version meets minimum requirements. Alternatively, the Exchange server may be 2010 or earlier.  <br/> |
 |3  <br/> |InvalidUser  <br/> |The TeamMailboxDomain parameter is not a valid FQDN or SMTP address.  <br/> |
 |4  <br/> |UnauthorizedUser  <br/> |The script received a 401 from the Exchange Server, review the Exchange setup steps.  <br/> |
-|5  <br/> |ServerBusy  <br/> |Exchange timed out during AutoDiscovery. It should be intermittent, please retry, but if it is persistent, follow-up with the Exchange Administrator.  <br/> |
+|5  <br/> |ServerBusy  <br/> |Exchange timed out during AutoDiscovery. It should be intermittent, please retry, but if it's persistent, follow up with the Exchange Administrator.  <br/> |
 |6  <br/> |URLNotAvailable  <br/> |AutoDiscovery failed to return a URL for ECP/OWA, which means typically that the EWS client version is incompatible with SharePoint. It may also mean Site Mailboxes are not enabled on Exchange, which would require follow-up with the Exchange Administrator.  <br/> |
 |7  <br/> |OAuthNotSupported  <br/> |Unsuccessful in generating an OAuth token on behalf of SharePoint. This is typically caused by claims-based authentication being disabled on the SharePoint web application.  <br/> |
 |8  <br/> |OAuthException  <br/> |An error occurred during the OAuth handshake between SharePoint and Exchange. This is typically caused by server to server configuration issues, such as a realm value mismatch on either side, certificate issues for Exchange or SharePoint, etc. Review certificates and attempt to establish or reestablish trust.  <br/> |
 |9  <br/> |InvalidAutodiscoverDomain  <br/> |The AutoDiscover domain property is not set to a valid FQDN.  <br/> |
-|10  <br/> |UnknownError  <br/> |An unknown error condition has occurred. Run the Check script and confirm that a valid, trusted instance of SharePoint is available, review prerequisites, confirm AutoDiscover has been set-up properly with the Exchange Administrator.  <br/> |
+|10  <br/> |UnknownError  <br/> |An unknown error condition has occurred. Run the Check script and confirm that a valid, trusted instance of SharePoint is available, review prerequisites, confirm AutoDiscover has been set up properly with the Exchange Administrator.  <br/> |
 |101  <br/> |OAuthNotSupportedOverHttp  <br/> |If this error is thrown, your web application's default zone is not set to SSL, and AllowOauthoverHttp is also set to false. Run the Check script to ensure that any web application you intend to host site mailboxes are set with SSL in the default zone, as outlined in the prerequisites.  <br/> |
-|102  <br/> |AssociatedOwnersGroupNull  <br/> |One or both of the default Owners and Members groups for the site have been deleted. Each of these two default groups are required to exist on any site where users install site mailboxes. A site administrator should be able to direct a site owner to recreated these required groups.  <br/> |
+|102  <br/> |AssociatedOwnersGroupNull  <br/> |One or both of the default Owners and Members groups for the site have been deleted. Both of these two default groups are required to exist on any site where users install site mailboxes. A site administrator should be able to direct a site owner to recreate these required groups.  <br/> |
 |103  <br/> |ExchangeTeamMailboxDomainNotSet  <br/> |The ExchangeTeamMailboxDomain property has not been set.  <br/> |
 |104  <br/> |ExchangeAppPrincipalNotFound  <br/> |No Exchange app principals were found to be trusted. Typically, this means the New-SPTrustedSecureTokenService step was missed. Run the Check script and ensure that the app principal URL(s) outputted are the correct one(s).  <br/> |
 |105  <br/> |ExchangeAppPrincipalMissingPermissions  <br/> |The Exchange app principal being connected to doesn't have the right permissions on the SharePoint farm. Run the Check script and ensure that the Exchange app principal has the required permissions on the farm.  <br/> |
