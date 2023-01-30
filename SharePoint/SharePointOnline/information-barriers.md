@@ -49,6 +49,8 @@ When using information barriers with SharePoint, the following IB modes are supp
 
 ## Sharing sites for IB modes
 
+Sharing of sites with users is based on the IB mode of the site. 
+
 ### Open
 
 When a site has no segments and site's information barriers mode is set to *Open*:
@@ -93,6 +95,8 @@ When a site is associated with segment(s) and site's information barriers mode i
 
 ## Access control for IB modes
 
+Access to sites by users is based on the IB mode of the site.
+ 
 ### Open mode
 
 For a user to access a SharePoint site that has no segment and site's information barriers  mode is set to *Open*:
@@ -428,7 +432,7 @@ Set-SPOTenant -InformationBarriersSuspension $true
 
 ## Allow sharing of Open mode sites with mail-enabled security groups (preview)
 
-IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to be shared with [mail-enabled security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites and the membership of the group is not IB protected. When a SharePoint admin enables this support in your organization, you must ensure the security group membership is IB compliant.
+IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to be shared with [mail-enabled security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites. SharePoint admins can enable this support in your organization and we recommend you ensure the security group membership is IB compliant.
 
 Before enabling group support, verify that you've met the following prerequisites:
 
