@@ -95,7 +95,7 @@ When a site is associated with segment(s) and site's information barriers mode i
 
 ## Access control for IB modes
 
-Access of sites by user is based on the IB mode of the site.
+Access to sites by users is based on the IB mode of the site.
  
 ### Open mode
 
