@@ -60,7 +60,7 @@ An assessment can begin by working with your users in two main areas:
 
 ## Using the SharePoint Migration Assessment Tool
 
-The [SharePoint Migration Assessment Tool (SMAT)](./overview-of-the-sharepoint-migration-assessment-tool.md) is a simple command-line tool that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content.
+The [SharePoint Migration Assessment Tool (SMAT)](./overview-of-the-sharepoint-migration-assessment-tool.md) is a simple command-line tool that scans the contents of your SharePoint Server 2010, 2013, or 2016 farm to help identify any issues before you migrate your content.
 
 After the scan is complete, SMAT generates summary and detailed reports that identify areas that could affect your migration.
 
