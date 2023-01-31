@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."
@@ -73,7 +73,7 @@ Consider the following scenario:
 
 - You have recently connected sites in the farm to a previously existing instance of Workflow Manager.
 
-In this scenario, workflows that are created after you connect to the Workflow Manager installation finish successfully. However, workflows that are created before you connect to Workflow Manager don’t finish. Instead, they get stuck when they try to finish or they remain in a suspended state. For workflows that remain suspended, you receive an HTTP 500 error. Additionally, the following entry is logged in the ULS log: *Cannot get app principal permission information.*
+In this scenario, workflows that are created after you connect to the Workflow Manager installation finish successfully. However, workflows that are created before you connect to Workflow Manager don't finish. Instead, they get stuck when they try to finish or they remain in a suspended state. For workflows that remain suspended, you receive an HTTP 500 error. Additionally, the following entry is logged in the ULS log: *Cannot get app principal permission information.*
 
 ### Cause
 
@@ -122,7 +122,7 @@ To get the SPAuthenticationRealm value of ApplicationID that's stored in the sco
  
     Where \<WebID> is the placeholder for the ID of the SPWeb object.
 
-2.	In the query result, click the value in the SecuritySettings column to open the XML on a separate tab in SQL Server Management Studio.
+2. In the query result, click the value in the SecuritySettings column to open the XML on a separate tab in SQL Server Management Studio.
 
 3. In the XML file, located the ApplicationID element that contains the value. For example, locate the following element:
 

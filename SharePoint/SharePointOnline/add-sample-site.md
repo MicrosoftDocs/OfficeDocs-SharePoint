@@ -44,7 +44,7 @@ Browse the samples in the online [SharePoint look book](https://lookbook.microso
 
 Select a sample to learn more about it. You’ll see the site features, web parts used, and content included. To show you how to use these features, links are provided to a help topic for each feature and its web part(s) in the list.  
 
-After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a global or SharePoint admin in Microsoft 365.
+After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a Global Administrator or SharePoint Administrator in Microsoft 365.
 
 ![Lookbook 1](media/LookBookCover1.png)
 

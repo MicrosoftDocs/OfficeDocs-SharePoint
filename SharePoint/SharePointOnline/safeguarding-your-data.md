@@ -37,7 +37,7 @@ No engineer has standing access to the service. When engineers need access, they
   
 ## How you can safeguard your data
 
-One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
+One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your Global Administrators, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
   
 Other things we recommend to increase security: 
   
@@ -84,7 +84,7 @@ To manage content at rest:
     
 ## Highly available, always recoverable
  
-Our datacenters are geo-distributed within the region and fault tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. For more information, see [Where's my data?](https://o365datacentermap.azurewebsites.net/).
+Our datacenters are geo-distributed within the region and fault tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. For more information, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
   
 Metadata backups are kept for 14 days and can be restored to any point in time within a five-minute window. 
   

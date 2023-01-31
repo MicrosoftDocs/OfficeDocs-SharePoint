@@ -36,7 +36,7 @@ Before you create your first migration task, do the following checks:
 |[Required Endpoints](mm-prerequisites.md#required-endpoints)|Review the required Endpoints|
 |[Government cloud](mm-gov-cloud.md)|If you are on a Government cloud, make sure your settings are correctly configured before you begin.|
 |[Set up your Migration Manager agent](mm-setup-clients.md#set-up-an-agent)|You can set up as many agents as needed to scale your project.|
-|File size|File share migration supports migrating individual files of up to 100 GB.|
+|File size|File share migration supports migrating individual files of up to 250 GB.|
 
 
 ## Source and destination

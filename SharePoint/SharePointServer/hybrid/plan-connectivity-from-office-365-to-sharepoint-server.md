@@ -1,5 +1,5 @@
 ---
-title: "Plan connectivity from Microsoft 365 to SharePoint Server"
+title: Plan connectivity from Microsoft 365 to SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -17,7 +17,7 @@ ms.collection:
 - SPO_Content
 ms.localizationpriority: medium
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
-description: "Plan and prepare to configure inbound connectivity from Microsoft 365 to SharePoint Server hybrid environment."
+description: Plan and prepare to configure inbound connectivity from Microsoft 365 to SharePoint Server hybrid environment.
 ---
 
 # Plan connectivity from Microsoft 365 to SharePoint Server
@@ -92,7 +92,7 @@ The SharePoint admin associates the services and connection objects that are nee
   
 A SharePoint Server web application is composed of an Internet Information Services (IIS) website that acts as a logical unit for the site collections that you create. Each web application is represented by a different IIS website that has a unique or shared application pool, that has a unique public URL, and that can also be configured to use up to five internal URLs using Alternate Access Mapping (AAM). A given web application is associated with a single content database and is configured to use a specific authentication method to connect to the database. Multiple web applications can be configured to use different authentication methods, and optionally AAMs, to provide access to a single content database. 
   
-A web application's public URL is always used as the root URL in all links to sites and content accessed through the web application. Consider a web application with the public URL **https://spexternal.adventureworks.com** that has an internal URL **https://sharepoint** configured in AAM. When you browse to the internal URL https://sharepoint, SharePoint Server returns the website with the URL https://spexternal.adventureworks.com, and all links within the site will have URLs based on that path. 
+A web application's public URL is always used as the root URL in all links to sites and content accessed through the web application. Consider a web application with the public URL **`https://spexternal.adventureworks.com`** that has an internal URL **https://sharepoint** configured in AAM. When you browse to the internal URL https://sharepoint, SharePoint Server returns the website with the URL `https://spexternal.adventureworks.com`, and all links within the site will have URLs based on that path. 
   
 Alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. AAM lets you associate the external URL with the internal URL of a SharePoint in Microsoft 365 site inside your organization. This enables SharePoint Server to route requests for internal URLs configured in AAM to the corresponding primary web application. 
   
@@ -217,7 +217,7 @@ A Secure Channel SSL certificate provides authentication and encryption for the 
 This certificate must be either a wildcard or a SAN certificate and be issued by a public root certification authority. The subject field of this certificate must contain the host name of the external endpoint of the reverse proxy server or a wildcard URL that covers all host names in the namespace. It must use at least 2048-bit encryption.
   
 > [!IMPORTANT]
-> Wildcard certificates can secure only a single level of a DNS namespace. For example, if your external URL is **https://spexternal.public.adventureworks.com**, the subject of your wildcard certificate must be *.public.adventureworks.com, not *.adventureworks.com. 
+> Wildcard certificates can secure only a single level of a DNS namespace. For example, if your external URL is **`https://spexternal.public.adventureworks.com`**, the subject of your wildcard certificate must be *.public.adventureworks.com, not *.adventureworks.com. 
   
 In scenarios where SharePoint in Microsoft 365 is configured to request info from SharePoint Server, an SSL certificate is required to do the following:
   

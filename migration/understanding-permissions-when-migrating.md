@@ -1,6 +1,6 @@
 ---
 title: "File & folder permission when using SharePoint Migration Tool"
-ms.reviewer: 
+ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -12,37 +12,36 @@ ms.topic: conceptual
 ms.service: sharepoint-online
 ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
-mscollection: 
+mscollection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-ms.assetid: 
+ms.assetid:
 description: "Learn about what happens to the file and folder permissions when using the SharePoint Migration Tool (SPMT)."
 ---
 
 # File and folder permissions when using the SharePoint Migration Tool
 
-
 ## What happens to the permissions on a file when it is migrated?
 
 The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (Azure AD), can affect the permission settings on your files after they have been migrated to SharePoint in Microsoft 365.
 
- **Syncing your environment:** In order to maintain existing on-premises file permissions, there must be a corresponding user in SPO. The easiest way to accomplish this is to synchronize your Active Directory accounts to Azure Active Directory (Azure AD). 
-  
-  
-|How |**File share**|**SharePoint on-prem files**|
-|:-----|:-----|:-----|
-|User mapped between on-premises and SharePoint (either Dirsync has been run or a user mapping file provided)  <br/> |There are three types of permissions that will be migrated: **Read**, **Write**, and **Full control**.  <br/><br/> If a file has **Write** permission for user1, then the file will be set to **Contribute** for user1 in SPO. If a file has **Read** permission for user1, then the file will be set to **Read** for user1 in SPO. For **Full control** permission, the file will be migrated as **Full control** in SPO.  <br/><br/>**Note:** At this time, the special permissions, such as **Deny**, will not be saved.  <br/> |All the unique permissions on a file will be migrated to SPO. Inherited permissions will not be migrated.  <br/> |
-|No user mapping (not synced, no user mapping file)  <br/> |Files will be assigned the default permission of the location to which it has been migrated in SPO.  <br/> |Files will be assigned the default permission of the location to which it has been migrated in SPO.  <br/> |
-   
+ **Syncing your environment:** In order to maintain existing on-premises file permissions, there must be a corresponding user in SPO. The easiest way to accomplish this is to synchronize your Active Directory accounts to Azure Active Directory (Azure AD).
+
+|How|File share|SharePoint on-prem files|
+|---|---|---|
+|User mapped between on-premises and SharePoint (either Dirsync has been run or a user mapping file provided)|There are three types of permissions that will be migrated: **Read**, **Write**, and **Full control**. <p> If a file has **Write** permission for user1, then the file will be set to **Contribute** for user1 in SPO. If a file has **Read** permission for user1, then the file will be set to **Read** for user1 in SPO. For **Full control** permission, the file will be migrated as **Full control** in SPO. <p> **Note:** At this time, the special permissions, such as **Deny**, will not be saved.|All the unique permissions on a file will be migrated to SPO. Inherited permissions will not be migrated.|
+|No user mapping (not synced, no user mapping file)|Files will be assigned the default permission of the location to which it has been migrated in SPO.|Files will be assigned the default permission of the location to which it has been migrated in SPO.|
+
 ### Permissions conditions and results
 
 The SharePoint Migration Tool permission control is affected by various conditions.  The following table lists all the conditions and the corresponding results.
 
-|**Source**|**Preserve user permissions setting set to On**|**Migrating to**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
+|Source|Preserve user permissions setting set to On|Migrating to|Target library permission before migration|Target library permission after migration|Note|
+|---|---|---|---|---|---|
 |File share|No|Root folder|Inherited|Inherited|Role assignments of the target library and existing files won't be changed; migrated files have Inherited permission (Inherited role assignments from target library)|
 |File share|No|Root folder|Unique|Unique|Role assignments of the target library and existing files won't be changed; migrated files have Inherited permission (Inherited role assignments from target library)|
 |File share|No|Sub folder|Inherited|Inherited|Role assignments of the target library and existing files won't be changed; migrated files have Inherited permission (Inherited role assignments from target library)|
@@ -61,8 +60,6 @@ The SharePoint Migration Tool permission control is affected by various conditio
 |Document library |Yes|Sub folder|Unique|Unique|Same as File share migration with same condition|
 |Site/Web|No|NA|Inherited|Inherited|Role assignment of target site/web will be unchanged|
 |Site/Web|No|NA|Unique|Unique|Role assignment of target site/web will be unchanged|
-|Site/Web|Yes|NA|Inherited |Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
-|Site/Web(A) with Subsite B  (both migrated with SPMT)|Yes|NA|||Subsite B or sub web inherited from main Site A Subsite B/web unique from the new SharePoint main site A Site A is migrated as described for normal site migration.  Subsite B becomes unique and role assignment **will be replaced** by those in the source Subsite B|
+|Site/Web|Yes|NA|Inherited|Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
+|Site/Web(A) with Subsite B (both migrated with SPMT)|Yes|NA|||Subsite B or sub web inherited from main Site A Subsite B/web unique from the new SharePoint main site A Site A is migrated as described for normal site migration.  Subsite B becomes unique and role assignment **will be replaced** by those in the source Subsite B|
 |Site/Web|Yes|NA|Unique|Unique|Role assignment of source site/web will be added as new role assignments to the target site/web|
-
-

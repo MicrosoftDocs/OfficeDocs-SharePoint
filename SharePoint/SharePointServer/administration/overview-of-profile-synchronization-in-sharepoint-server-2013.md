@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c20ca79f-2086-4a32-974a-ed2a720d57fe
 description: "Learn about profile synchronization, also known asprofile sync, in SharePoint Server."
@@ -145,7 +145,7 @@ You can also import data directly from Active Directory Domain Services (AD DS).
   
 [Administer the User Profile service in SharePoint Server](user-profile-service-administration.md)
   
-[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md) ﻿ 
+[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md)  
   
 [Configure a managed domain to support profile synchronization for SharePoint Server](/azure/active-directory-domain-services/active-directory-ds-enable-sharepoint-profile-sync)
   

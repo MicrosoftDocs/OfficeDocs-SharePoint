@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:
@@ -40,7 +41,7 @@ Even if you choose not to allow users to add apps from the SharePoint Store, the
     
 1. Next to **App Purchases**, do one of the following:
     
-   - If you want users to be able to add apps, select **Yes**. (The setting uses the word "purchases" and mentions paid apps, but all apps in the SharePoint Store are now free.)
+   - If you want users to be able to add apps, select **Yes**.
     
    - If you do not want users to be able to get third-party apps, select **No**. 
 

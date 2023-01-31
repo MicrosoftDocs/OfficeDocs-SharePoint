@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint 2013 on a single server with a built-in database"
+title: Install SharePoint 2013 on a single server with a built-in database
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,13 +9,13 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6e2bcaab-58d3-47cb-b97e-34548732dfb8
-description: "Learn how to install SharePoint with a built-in database on a single server."
+description: Learn how to install SharePoint with a built-in database on a single server.
 ---
 
 # Install SharePoint 2013 on a single server with a built-in database
@@ -98,9 +98,9 @@ Because the prerequisite installer downloads components from the Microsoft Downl
     
   - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
-  - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+  - `[KB 2759112]`
     
-  - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+  - `[KB 2765317]`
     
 ### Run Setup
 

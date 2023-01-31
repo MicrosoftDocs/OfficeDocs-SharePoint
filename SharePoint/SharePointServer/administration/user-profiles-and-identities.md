@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 79240081-1495-4db7-b0c5-e5e4d4e59c37
 description: "Find the set of overview and planning topics for user profiles and identities for SharePoint Server."

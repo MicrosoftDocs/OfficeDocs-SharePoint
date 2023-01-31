@@ -1,7 +1,7 @@
 ---
 title: "deprecation of site mailboxes"
-ms.author: v-bshilpa
-author: Benny
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -166,7 +166,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
   
 ## Export site mailboxes to PST (using script)
 
-1. Copy [process-site-mailboxes.ps1](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/process-site-mailboxes.ps1) to a working directory.
+1. Copy [process-site-mailboxes.ps1](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/SharePoint/SharePointOnline/spodownloads/process-site-mailboxes.ps1) to a working directory.
 
 2. Start Windows PowerShell in administrator mode.
 
@@ -182,15 +182,15 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 4. Enter the admin username and password when prompted.
 
-5. You can review the list of site mailboxes by opening ‘SiteMailboxesList.csv’ file on a working directory, when it prompts you to review the file.
+5. You can review the list of site mailboxes by opening 'SiteMailboxesList.csv' file on a working directory, when it prompts you to review the file.
 
-6. Remove any site mailbox(es) from the list which you would not like to backup.
+6. Remove any site mailbox(es) from the list which you would not like to back up.
 
 7. Save 'SiteMailboxesList.csv', after reviewing it.
 
 8. Press 'y' when prompted "Do you like to proceed further? (Y/N)" to continue.
 
-9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the compliance center in Microsoft 365 Administrator dashboard.
+9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the Microsoft Purview compliance portal.
 
    >[!NOTE]
    > Use Compliance center dashboard to download PST messages on your screen.
@@ -232,12 +232,12 @@ You can hide the site mailbox by removing it from the SharePoint site but it wil
 
 2. Click **Settings** > **Site contents**.
 
-3. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **…** for more information.
+3. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **...** for more information.
 
 4. Click **Remove** and then click **OK** to remove the site mailbox app.
 
    >[!NOTE]
-   > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
+   > If you remove a mailbox from a site, it won't be displayed on the site, but it will still be visible in Outlook (if you're using Exchange).
 
 #### What else do I need to know?
 There are a couple of things worth noting about removing a site mailbox:
@@ -249,16 +249,16 @@ There are a couple of things worth noting about removing a site mailbox:
 
 If the SharePoint site is deleted, Exchange is notified to also delete the site mailbox.
 
-1.	Navigate to the SharePoint site you want to delete.
+1. Navigate to the SharePoint site you want to delete.
 
-2.	Select **Settings** at the top of the site and then click **Site information**.
+2. Select **Settings** at the top of the site and then click **Site information**.
 
     >[!NOTE]
-    > If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
+    > If you do not see **Site information** in the **Settings** panel, work with your SharePoint Administrator to get access.
 
-3.	At the bottom of the **Site Information** panel, select **Delete site**.
+3. At the bottom of the **Site Information** panel, select **Delete site**.
 
-4.	Check the confirmation box, and then click **Delete**.
+4. Check the confirmation box, and then click **Delete**.
 
 **Option 3**: Delete the site mailbox manually.
 

@@ -1,15 +1,15 @@
 ---
 title: "Update a web application URL and IIS bindings for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: serdars
+author: serdars
 manager: serdars
 ms.date: 
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server

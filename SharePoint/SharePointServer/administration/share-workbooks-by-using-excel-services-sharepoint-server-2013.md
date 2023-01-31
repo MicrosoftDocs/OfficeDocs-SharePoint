@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7acd8bf3-5bb5-4ae6-afa2-7af3c5cefa85
 description: "Excel Services in SharePoint Server enables you to share Excel content with other people using SharePoint Server. You can share an entire workbook, or choose to display only part of a workbook."

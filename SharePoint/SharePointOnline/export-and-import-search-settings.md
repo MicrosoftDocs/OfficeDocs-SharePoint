@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -20,7 +21,7 @@ description: "Learn how to export and import customized search configuration set
 
 # Export and import customized search configuration settings
 
-As a global or SharePoint admin in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
   
 ## Overview
 <a name="__toc351540657"> </a>
@@ -204,7 +205,7 @@ This issue only blocks the UI from displaying the list of search configuration f
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
 
- **Unable to export stale search configuration XML file**
+ **Unable to import stale search configuration XML file**
 
 If the search configuration file was exported a long time ago, the import might fail.
 

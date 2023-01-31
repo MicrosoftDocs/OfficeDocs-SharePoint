@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -34,6 +34,6 @@ Typically when you see this rule, it states that some Search service web parts a
   
 1. For more information, see [SharePoint 2013 Health Analyzer: Missing Server Side Dependencies](https://social.technet.microsoft.com/wiki/contents/articles/24495.sharepoint-2013-health-analyzer-missing-server-side-dependencies.aspx).
     
-2. For more information on cleanup of missing server side dependencies, see [Video: Cleanup of databases after upgrade procedure](../upgrade-and-update/video-cleanup-of-databases-after-upgrade-procedure.md).﻿
+2. For more information on cleanup of missing server side dependencies, see [Video: Cleanup of databases after upgrade procedure](../upgrade-and-update/video-cleanup-of-databases-after-upgrade-procedure.md).
     
 3. For additional information, see ["Missing Server Side Dependencies" error message in health analyzer in the Microsoft SharePoint Server 2013 central administration site](https://go.microsoft.com/fwlink/?LinkID=142689).

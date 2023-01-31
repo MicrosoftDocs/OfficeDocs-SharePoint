@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -46,7 +46,7 @@ Communication sites are a place to share news, showcase a story, or broadcast a 
 
 ### Create fast sites
 
-Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
+Fast site creation in SharePoint Server 2019 allows users to create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 
 - OneDrive personal site \[SPSPERS#10\]
 
@@ -93,7 +93,7 @@ Modern team sites bring a fresh and responsive user experience to team collabora
 SharePoint Server 2019 will continue to support creating classic team sites.
 
 ### Integration with Power Apps, Power BI and Power Automate
-SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Power Automate to connect with your on-premises data. These features needs to be configured via gateway.
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Power Automate to connect with your on-premises data. These features need to be configured via gateway.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
@@ -147,7 +147,7 @@ SharePoint Server 2019 now supports authenticating to SMTP servers when sending 
 
 ### Sync files with the new OneDrive sync app (OneDrive.exe)
 
-Users can use the new OneDrive sync app instead of the previous OneDrive sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](../install/new-onedrive-sync-client.md).
+Users can use the new OneDrive sync app (OneDrive.exe) instead of the previous OneDrive sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The new OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [configure-syncing-with-the-onedrive-sync-app](../install/configure-syncing-with-the-onedrive-sync-app.md).
 
 ### Use of # and % characters in file and folder names
 

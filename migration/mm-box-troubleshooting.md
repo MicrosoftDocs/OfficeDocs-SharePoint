@@ -53,3 +53,4 @@ Our incrementals are delta operations that compare files in your source to files
 During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
 
 This assumption is common if they are not in clear communication about how the sharing structure changes when they sign in to Microsoft 365. A clear communication strategy helps users understand the changes.
+

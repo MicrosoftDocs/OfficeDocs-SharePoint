@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -23,14 +23,14 @@ description: "Summary: Learn how to remove SharePoint Server during a configurat
 
  **Summary:** Learn how to remove SharePoint Server during a configuration failure. 
   
-When you choose **Uninstall** from **Uninstall or change a program**, the Setup Wizard starts and attempts to uninstall the product. If an error is encountered, the uninstall process will not complete and the error will be noted in the setup log file.
+When you choose **Uninstall** from **Uninstall or change a program**, the Setup Wizard starts and attempts to uninstall the product. If an error is encountered, the uninstall process won't complete and the error will be noted in the setup log file.
   
 > [!NOTE]
 > The setup log file is stored in the temp directory for the user account that is running setup (%USERTEMP% or %WINDIR%\Users\user account\AppData\Local\Temp) and is named "SharePoint Server Setup ( _YYYYMMDDHHMMSSrandomnumber_).log" where  _YYYYMMDD_ is the date and  _HHMMSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds) and the random number is used to differentiate between possible simultaneous attempts to run the setup program. 
   
 You can review the log file for error messages. After you understand why the error occurred, you can address the issue, and then you can choose to either stop the uninstall process, address the problem, and then run **Uninstall** again, or you can continue the uninstall process. 
   
-If you exit Setup when an error is encountered, the binary files will not be removed. However, tasks that were successfully completed will not be undone. This approach will enable you to restore the server to working condition by running the configuration wizard in **Repair** mode. 
+If you exit Setup when an error is encountered, the binary files won't be removed. However, tasks that were successfully completed won't be undone. This approach will enable you to restore the server to working condition by running the configuration wizard in **Repair** mode. 
   
 If you choose to continue with the uninstall process, the binary files will be removed. The resulting state of the computer will depend on when the configuration wizard failed. For example, the computer might still:
   
@@ -40,6 +40,6 @@ If you choose to continue with the uninstall process, the binary files will be r
     
 - Include services that are running.
     
-With the binary files removed, you will not be able to use the configuration wizard to clean up the configuration settings on the local computer or in the configuration database.
+With the binary files removed, you won't be able to use the configuration wizard to clean up the configuration settings on the local computer or in the configuration database.
   
 

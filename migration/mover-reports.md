@@ -15,11 +15,12 @@ ms.collection:
 search.appverid: MET150
 description: "Mover reports"
 ---
+
 # Reports
 
 ## Dashboard overview
 
-The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
+The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. The statistics include the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred. Any issues, errors, or failures that may have occurred are also indicated.
 
 ![migration manager dash](media/mover-migration-manager-dash.png)
 
@@ -33,8 +34,8 @@ The **Transfers** section of the **Migration Manager** dashboard provides a brie
 - **Issues**: Number of users that encountered errors during a scan or a transfer.
 - **Failures**: Number of users that failed to scan or transfer.
 
->[!Note]
->The total **Transfers** tally is from all users regardless of status.
+> [!NOTE]
+> The total **Transfers** tally is from all users regardless of status.
 
 ![migration manager transfers](media/migration-manager-transfers.png)
 
@@ -45,8 +46,8 @@ The **Files** section of the **Migration Manager** dashboard provides a total of
 - **Complete**: Number of files that have successfully scanned or transferred.
 - **Issues**: Number of files that have encountered issues and failed to scan or transfer.
 
->[!Note]
->The total number of **Files** is from both scanned and transferred users. Be aware that scanned files are marked as *Skipped* as they have yet to be transferred.
+> [!NOTE]
+> The total number of **Files** is from both scanned and transferred users. Be aware that scanned files are marked as *Skipped* as they have yet to be transferred.
 
 ![migration manager files](media/migration-manager-files.png)
 
@@ -57,8 +58,8 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 - **Complete**: Amount of data that has been successfully scanned and transferred.
 - **Issues**: Amount of data that encountered issues and has failed to scan or transfer.
 
->[!Note]
->The total amount of **Data** is from both scanned and transferred users. Be aware that scanned data is marked as *Skipped* as it has yet to be transferred.
+> [!NOTE]
+> The total amount of **Data** is from both scanned and transferred users. Be aware that scanned data is marked as *Skipped* as it has yet to be transferred.
 
 ![migration manager data](media/migration-manager-data.png)
 
@@ -66,28 +67,28 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 
 This provides the list of all current **Filters** that you can apply to the **Active Filter** search bar.
 
->[!Note]
->Applying the filters changes the statistic shown in the **Migration Manager** dashboard.
+> [!NOTE]
+> Applying the filters changes the statistic shown in the **Migration Manager** dashboard.
 
-|**Filter label**|**Label effect**|
-|:-----|:-----|
-|Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transferred, failed, and skipped.|
-|Data	|Filters based on data that has transferred, failed, or skipped.|
-|Success|	Displays all successful Data and Files transferred.|
-|Failed	|Displays all Data and Files that have failed to transfer.|
-|Skipped	|Displays all data and files that were skipped.|
-|Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
-|Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for example, path:@domain\<spam\>\<spam\>.com].|
-|Source|	Filters for specific source path [for example, path:foldername].|
-|Destination path	|Functions the same as **Destination**.|
-|Source path	|Functions the same as **Source**.|
-|Tags	 |Lists transfers with previously implemented custom tags.|
-|Notes	|Filters by keywords in previously implemented custom notes.|
-|Code|	Filters for specific status codes.|
-|Destination name|	Displays transfers with a specific destination name.|
-|Source name|	Displays transfers with a specific source name.|
+|Filter label|Label effect|
+|---|---|
+|Status|Filters by status (for example, Failed, Success, User Does Not Exist).|
+|Files|Filters based on files transferred, failed, and skipped.|
+|Data|Filters based on data that has transferred, failed, or skipped.|
+|Success|Displays all successful Data and Files transferred.|
+|Failed|Displays all Data and Files that have failed to transfer.|
+|Skipped|Displays all data and files that were skipped.|
+|Schedule|Displays all users with scheduled transfers (for example, Hourly, Daily, Weekly, Monthly).|
+|Path|Filters for specific source or destination path (for example, path:username).|
+|Destination|Filters for specific destination path (for example, path:@domain\<spam\>\<spam\>.com).|
+|Source|Filters for specific source path (for example, path:foldername).|
+|Destination path|Functions the same as **Destination**.|
+|Source path|Functions the same as **Source**.|
+|Tags|Lists transfers with previously implemented custom tags.|
+|Notes|Filters by keywords in previously implemented custom notes.|
+|Code|Filters for specific status codes.|
+|Destination name|Displays transfers with a specific destination name.|
+|Source name|Displays transfers with a specific source name.|
 
 ## Scan report
 
@@ -105,12 +106,12 @@ After the scan report is downloaded and opened, look for these key items:
 
 The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transferred, and info relating to the latest run.
 
-To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
+To download this report as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
 
 The CSV report provides the following information for each user pairing:
 
 |Statistic|Definition|
-|:-----|:-----|
+|---|---|
 |Schedule ID|Our internal reference unique to the user pairing created.|
 |Source|Source directory path.|
 |Destination|Destination directory path.|
@@ -122,7 +123,7 @@ The CSV report provides the following information for each user pairing:
 |MB Transferred|Total data (MB) transferred to the destination.|
 |Total Duration|Total duration of each time this user pairing has been run.|
 |Times run|Total number of times this user pairing has been run.|
-|Last Status|Last status of the user pairing. This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status|Last status of the user pairing. This status is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
 |Last Status Code|Internal reference number referring to the last status of the user pairing.|
 |Last Successful Files|Number of files transferred in the last run.|
 |Last Successful Bytes|Volume of data (bytes) transferred in the last run.|
@@ -143,7 +144,7 @@ The CSV report provides the following information for each user pairing:
 |Average File Velocity (files/hour)|Files transferred, divided by the total duration.|
 |Average Data Velocity (Bytes/hour)|Data (bytes) transferred, divided by the total duration.|
 |Average Data Velocity (MB/hour)|Data (MB) transferred, divided by the total duration.|
-|Completed Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this total will refer to the latest run; otherwise it will refer to a previous run. If this total is zero, it may mean that the schedule has not been run to completion before.|
 |Completed Bytes Transferred|Total data (bytes) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors).  If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
 |Completed MB Transferred|Total data (MB) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
 |Completed Successfully Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
@@ -152,7 +153,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report%20.csv)
+[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/migration/downloads/example_migration_report%20.csv)
 
 ## Migration table report
 
@@ -160,30 +161,29 @@ The **Migration Table Report** generates an overview of your entire migration ba
 
 To edit report columns, in the **Migration Manager**, select **Migration Actions**, and select **Customize Columns**. Here you can set and reorganize which **Columns** you want to display when you download the CSV report.
 
-To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Table Report**.
+To download this report as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Table Report**.
 
 ![migration table example](media/migration-table-example.png)
 
 Download an example CSV:
 
-[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
+[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/migration/downloads/example_migration_table_report.csv)
 
 ## Migration error report
 
 The **Migration Error Report** generates a simplified **Migration Report** that focuses on any problematic files, folders, permission errors, or general errors.
 
-To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Error Report**.
+To download this report as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Error Report**.
 
 ![migration error example](media/migration_error_example.png)
 
 Download an example CSV:
 
-
-[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
+[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/migration/downloads/example_migration_error_report.csv)
 
 ## Skipped files and folders
 
-When files and folders are “skipped,” Mover has deliberately skipped that item during the transfer. Typically, items are skipped because:
+When files and folders are "skipped," Mover has deliberately skipped that item during the transfer. Typically, items are skipped because:
 
 - That item with the same name and timestamp already exists in the destination.
 - They are set to be copied by a different user (to prevent data duplication).

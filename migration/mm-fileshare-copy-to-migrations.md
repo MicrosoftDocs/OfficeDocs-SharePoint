@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150to the migration list in Migration Manager."
 description: "Learn how to copy to migrations for file share migration."
 ---
@@ -51,6 +52,7 @@ After a file share has been scanned and determined ready, add it to your migrati
    :::image type="content" alt-text="Configure settings for your file share migration." source="media/mm-fileshare-copy-migrations-configure-settings-page.png":::
 
 
+
 ## Incremental migration
 
 After a migration task has completed, you can rerun it at a later date, allowing you to copy only those new or updated files in the source location. 
@@ -65,6 +67,11 @@ An incremental check of your SharePoint destination environment is performed. Fi
 |Time stamp on files or object in the source location is newer in the source. |The newer files are migrated.  |
 |Source is a file share.  |Validation for migration will be based on the file/folder path.  |
 |Source is an on-premises SharePoint Server/  |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  |
+|An already migrated file is renamed or path is changed but still in the same document library|Incremental migration will use the corresponding source file and overwrite the file.|
+|Migrated file is changed in the destination location, but file name remains the same|Incremental migration will not overwrite the changed file.|
+
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
 
 
 >[!NOTE]

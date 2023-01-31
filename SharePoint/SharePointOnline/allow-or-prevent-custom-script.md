@@ -1,5 +1,5 @@
 ---
-title: "Allow or prevent custom script"
+title: Allow or prevent custom script
 ms.reviewer: lucaband
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -27,12 +27,12 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
-description: "Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization."
+description: Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization.
 ---
 
 # Allow or prevent custom script
 
-As a global or SharePoint admin in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission.) 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission.) 
   
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
@@ -51,8 +51,8 @@ In the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank"
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-    >[!NOTE]
-    >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+    > [!NOTE]
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
 2. At the bottom of the page, select **classic settings page**.
 
@@ -81,17 +81,17 @@ To allow custom script on a particular site (previously called "site collection"
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command.
 
     ```PowerShell
     Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
     ```
-    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite)
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](https://pnp.github.io/powershell/cmdlets/Set-PnPSite.html)
     
     ```PowerShell
-    Set-PnPSite <SiteURL> -NoScriptSite $false
+    Set-PnPSite -Identity <SiteURL> -NoScriptSite $false
     ``` 
 
 If you change this setting for a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.

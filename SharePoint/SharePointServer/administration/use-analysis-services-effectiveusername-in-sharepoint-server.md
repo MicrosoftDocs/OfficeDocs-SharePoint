@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c3802be8-9c57-4b25-9666-c07b485aabf0
 description: "Use the EffectiveUserName option in Excel Services or PerformancePoint Services for per-user authentication with Analysis Services data sources."

@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 search.appverid:
@@ -21,7 +22,7 @@ description: "As a search administrator, you can temporarily remove items from t
 
 # Remove search results
 
-As a global or SharePoint admin in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
   
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 

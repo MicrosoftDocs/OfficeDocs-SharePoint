@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: b5d9b1b8-14cd-4f9b-956a-fa8a0808c9f6
 description: "Learn how to add a custom action to the hover panel in SharePoint Server."

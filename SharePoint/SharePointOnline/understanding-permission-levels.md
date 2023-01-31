@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: high
 ms.assetid: 87ecbb0e-6550-491a-8826-c075e4859848
 description: "Learn about permission levels in SharePoint and about the permissions that are associated with each level."
@@ -187,21 +188,22 @@ The following table describes the permissions that apply to sites, and show the 
   
 |**Permission**|**Description**|**Dependent permissions**|
 |:-----|:-----|:-----|
-|Manage Permissions  <br/> |Create and change permission levels on the website and assign permissions to users and groups.  <br/> |Approve Items, Enumerate Permissions, Open  <br/> |
-|View Web Analytics Data  <br/> |View reports on website usage.  <br/> |Approve Items, Open  <br/> |
-|Create Subsites  <br/> |Create subsites such as team sites, Meeting Workspace sites, and Document Workspace sites.  <br/> |View Pages, Open  <br/> |
-|Manage website  <br/> |Perform all administration tasks for the website, which includes managing content.  <br/> |View Pages, Open  <br/> |
+|Manage Permissions  <br/> |Create and change permission levels on the website and assign permissions to users and groups.  <br/> |View Items, Open Items, View Versions, View Pages, Browse Directories, Enumerate Permissions, Browse User Information, Open  <br/> |
+|View Web Analytics Data  <br/> |View reports on website usage.  <br/> |View Pages, Open  <br/> |
+|Create Subsites  <br/> |Create subsites such as team sites, Meeting Workspace sites, and Document Workspace sites.  <br/> |View Pages, Browse User Information, Open  <br/> |
+|Manage website  <br/> |Perform all administration tasks for the website, which includes managing content.  <br/> |View Pages, Add and Customize Pages, Browse Directories, Enumerate Permissions, Browse User Information, Open  <br/> |
 |Add and Customize Pages  <br/> |Add, change, or delete HTML pages or Web Part pages, and edit the website by using a Windows SharePoint Services-compatible editor.  <br/> |View Items, Browse Directories, View Pages, Open  <br/> |
 |Apply Themes and Borders  <br/> |Apply a theme or borders to the whole website.  <br/> |View Pages, Open  <br/> |
 |Apply Style Sheets  <br/> |Apply a style sheet (.css file) to the website.  <br/> |View Pages, Open  <br/> |
-|Create Groups  <br/> |Create a group of users who can be used anywhere within the site collection.  <br/> |View Pages, Open  <br/> |
+|Create Groups  <br/> |Create a group of users who can be used anywhere within the site collection.  <br/> |View Pages, Browse User Information, Open  <br/> |
 |Browse Directories  <br/> |Enumerate files and folders in a website, by using an interface such as SharePoint Designer or web-based Distributed Authoring and Versioning (Web DAV).  <br/> |View Pages, Open  <br/> |
-|Use Self-Service Site Creation  <br/> |Create a website by using Self-Service Site Creation.  <br/> |View Pages, Open  <br/> |
+|Use Self-Service Site Creation  <br/> |Create a website by using Self-Service Site Creation.  <br/> |View Pages, Browse User Information, Open  <br/> |
 |View Pages  <br/> |View pages in a website.  <br/> |Open  <br/> |
-|Enumerate Permissions  <br/> |Enumerate permissions on the website, list, folder, document, or list item.  <br/> |View Items, Open Items, View Versions, Browse Directories, View Pages, Open  <br/> |
+|Enumerate Permissions  <br/> |Enumerate permissions on the website, list, folder, document, or list item.  <br/> |View Items, Open Items, View Versions, Browse Directories, View Pages, Browse User Information, Open  <br/> |
 |Browse User Information  <br/> |View information about users of the website.  <br/> |Open  <br/> |
 |Manage Alerts  <br/> |Manage alerts for all users of the website  <br/> |View Items, Create Alerts, View Pages, Open  <br/> |
 |Use Remote Interfaces  <br/> |Use Simple Object Access Protocol (SOAP), Web DAV, or SharePoint Designer interfaces to access the website.  <br/> |Open  <br/> |
+|Use Client Integration Features  <br/> |Use features which launch client applications.  <br/> |Use Remote Interfaces, Open  <br/> |
 |Open\*  <br/> |Open a website, list, or folder to access items inside that container.  <br/> |No dependent permissions  <br/> |
 |Edit Personal User Information  <br/> |Allow a user to change personal information, such as adding a picture.  <br/> |Browse User Information, Open  <br/> |
    

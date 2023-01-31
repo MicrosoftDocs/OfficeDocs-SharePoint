@@ -18,23 +18,35 @@ msCollection:
 - M365-collaboration
 - m365solution-migratetom365
 - m365solution-overview
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 - intro-get-started
-description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
+description: "This article helps you understand which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Migrate your content to Microsoft 365
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+## Mover retirement
+
+Mover admin migration functionality has now been fully integrated into Migration Manager. Mover is in the process of being retired.  For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
 
 >[!Note]
->Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). 
+>Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
 >
->Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>
+>[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
 
+
+>[!Important]
+>
+>All FastTrack-led migrations will transition to Migration Manager except those with multi-parent folders who have reached velocity migrations. These exceptions will need to finish their migrations by December 31, 2022. 
+>
+>[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
 
 ## What's new
 
@@ -71,10 +83,3 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 >[!Note]
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
-
-**Mover acquisition**
-
->[!Note]
-> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
-
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://blogs.microsoft.com/blog/2019/10/21/microsoft-acquires-mover-to-simplify-and-speed-file-migration-to-microsoft-365/)

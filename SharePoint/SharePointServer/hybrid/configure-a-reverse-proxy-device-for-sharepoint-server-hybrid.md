@@ -1,5 +1,5 @@
 ---
-title: "Configure a reverse proxy device for SharePoint Server hybrid"
+title: Configure a reverse proxy device for SharePoint Server hybrid
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,15 +9,14 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - SPO_Content
 ms.localizationpriority: medium
 ms.assetid: 1780ec27-19f8-4d77-b787-8abc23921258
-
-description: "Learn about supported reverse proxy devices for SharePoint Server hybrid deployments."
+description: Learn about supported reverse proxy devices for SharePoint Server hybrid deployments.
 ---
 
 # Configure a reverse proxy device for SharePoint Server hybrid

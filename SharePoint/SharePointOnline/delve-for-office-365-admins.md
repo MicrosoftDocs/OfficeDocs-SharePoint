@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 search.appverid:
@@ -49,7 +50,7 @@ You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?l
 
 For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
 
-For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -133,7 +134,7 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you're using an Office 365 or Microsoft 365 plan that supports Delve**
 <a name="#BKMK_CheckPlan"></a>
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
@@ -155,7 +156,7 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you've assigned the correct user licenses**
 <a name="#BKMK_CheckLicense"></a>
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
@@ -264,7 +265,7 @@ Changing the Delve setting in the <a href="https://go.microsoft.com/fwlink/?link
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. If the Delve setting is disabled, users will not see the frequent sites and suggested sites in the SharePoint start page.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>

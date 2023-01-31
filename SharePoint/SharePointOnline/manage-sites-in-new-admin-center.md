@@ -47,20 +47,24 @@ For more info about tasks on the Active sites page, see:
 
 For all site types except channel sites, you can add or remove site admins and change the primary admin. For group-connected team sites, you can also add and remove group owners. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md).
 
-1. In the left column, select a site. 
+1. In the SharePoint admin center, select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
+
+2. In the left column, select a site. 
     
-2. Select **Permissions**. 
+3. Select **Permissions**. 
 
-3. Click **Manage** for the permissions that you want to update.
+4. Select **Manage** for the permissions that you want to update.
 
-4. Add or remove people or change their role, and then click **Save**.
+5. Add or remove people or change their role, and then select **Save**.
     
 ## Change a site's hub association
 <a name="hubsite"> </a>
   
-1. In the left column, select a site. 
+1. In the SharePoint admin center, select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
+
+2. In the left column, select a site. 
     
-2. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. [More info about hubs](planning-hub-sites.md) 
+3. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. For more information, see [More info about hubs](planning-hub-sites.md).
 
 ## View site details
 <a name="viewsitedetails"> </a>

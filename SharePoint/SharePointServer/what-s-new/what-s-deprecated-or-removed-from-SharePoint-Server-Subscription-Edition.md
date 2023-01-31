@@ -1,14 +1,14 @@
 ---
 title: "What's deprecated or removed from SharePoint Server Subscription Edition?"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: serdars
+author: serdars
 manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server

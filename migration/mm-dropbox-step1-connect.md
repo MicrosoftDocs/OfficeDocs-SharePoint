@@ -18,6 +18,7 @@ mscollection:
 - m365solution-scenario
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Steps to connect to Dropbox when using Migration Manager in the SharePoint Admin center."
@@ -40,7 +41,7 @@ Sign in to your Dropbox for Business administrator account to connect to your Mi
 
 </br></br>
 
-[**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
+## [**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
 
 </br></br>
 

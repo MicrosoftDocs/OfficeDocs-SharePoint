@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7021185c-1f2b-44a6-ba4a-8355dd8409e1
 description: "Learn how to use Excel to create and share a connection to SQL Server Analysis Services data that people can use to create data models, reports, scorecards, and dashboards."
@@ -70,7 +70,7 @@ You can use Excel to create a connection a cube that is stored in Analysis Servi
     
 4. In the **Search Keywords** box, type some words or phrases that will help users find the data connection when it is published to SharePoint Server 2013. 
     
-5. Next to **Excel Services**, click **Authentication Settings…**, and then take one of the following steps:
+5. Next to **Excel Services**, click **Authentication Settings...**, and then take one of the following steps:
     
   - If you want this connection to use Windows Authentication or the Effective User Name feature, select **Use the authenticated user's account**, and then click **OK**.
     
