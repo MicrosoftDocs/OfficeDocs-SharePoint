@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Setup Help"
+title: "Welcome to Set up Help"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -19,11 +19,11 @@ ms.assetid: 2fac1f94-0675-47c5-b9bd-97e2c5f6b869
 description: "Summary: Learn how to use the Setup help system in SharePoint Server."
 ---
 
-# Welcome to Setup Help
+# Welcome to Set up Help
 
  **Summary:** Learn how to use the Setup help system in SharePoint Server. 
   
-In this help system :
+In this help system:
   
 - [Enter your Product Key](enter-your-product-key.md)
     

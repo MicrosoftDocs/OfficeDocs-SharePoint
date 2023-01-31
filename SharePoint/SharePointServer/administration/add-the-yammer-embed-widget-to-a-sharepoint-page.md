@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 48fa0391-b996-4a46-8744-4b1777db3d2f
 description: "Learn how to use the Yammer Embed widget to include Yammer feeds on SharePoint pages."

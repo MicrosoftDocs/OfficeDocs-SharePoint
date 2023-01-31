@@ -45,6 +45,7 @@
 #### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 #### [Step 2: Create a migration task](spmt-create-task.md)
 #### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+#### [Scan and assess a SharePoint Server site with SPMT (public preview)](spmt-scan.md)
 ### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
@@ -53,7 +54,7 @@
 #### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
-### [Reports and error codes for cloud migrations](mm-cloud-reports.md)
+### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Reports and error codes for file share migrations](mm-reports.md)
@@ -80,6 +81,8 @@
 ### Stream Reference
 #### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
+### [Scan and assess a SharePoint Server site with SPMT](spmt-scan.md)
+### [SharePoint Migration Tool (SPMT) scan assessment error codes](spmt-scan-risk-codes.md)
 ### [File size limitations](mm-file-size-limitations.md)
 ###  Settings and prerequisites
 #### [Settings](spmt-settings.md)

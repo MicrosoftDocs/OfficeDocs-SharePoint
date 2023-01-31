@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: b607e000-9436-4cbb-b6aa-9e76d70a4314
 description: "Learn how to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle."

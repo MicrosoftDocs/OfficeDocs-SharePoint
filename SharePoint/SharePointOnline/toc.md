@@ -102,6 +102,7 @@
 ### [Delete sites](delete-site-collection.md)
 ### [Restore deleted sites](restore-deleted-site-collection.md)
 ### [Manage site admins](manage-site-collection-administrators.md)
+### [Review recent site actions](recent-actions-panel.md)
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change site addresses](change-site-address.md)
@@ -156,7 +157,7 @@
 #### [How sync works](sync-process.md)
 #### [B2B Sync](b2b-sync.md)
 #### [Block file types](block-file-types.md)
-#### [Sync Admin Reports (Preview)](sync-health.md)
+#### [Sync Admin Reports](sync-health.md)
 
 ## [Sharing]()
 ### [External sharing overview](external-sharing-overview.md)
@@ -165,7 +166,7 @@
 ### [Change external sharing for OneDrive](user-external-sharing-settings.md)
 ### [Change default sharing link](change-default-sharing-link.md)
 ### [External sharing notifications (OneDrive)](turn-on-external-sharing-notifications.md)
-
+### [File Requests](enable-file-requests.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
 ### [Restricted domains sharing](restricted-domains-sharing.md)
@@ -252,6 +253,7 @@
 #### [Search limits](search-limits.md)
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
 ## [Advanced]()
+### [Advanced management](advanced-management.md)
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)

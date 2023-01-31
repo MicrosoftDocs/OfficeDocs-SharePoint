@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
