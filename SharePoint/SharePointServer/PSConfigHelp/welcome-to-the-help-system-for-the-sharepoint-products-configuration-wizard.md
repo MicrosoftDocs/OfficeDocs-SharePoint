@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -23,7 +23,7 @@ description: "Summary: Learn how to get help for SharePoint Server."
 
  **Summary:** Learn how to get help for SharePoint Server. 
   
-In this help system :
+In this help system:
   
 - [Welcome to the SharePoint Products Configuration Wizard](welcome-to-the-sharepoint-products-configuration-wizard.md)
     
