@@ -63,6 +63,7 @@
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Troubleshooting](mm-troubleshoot.md)
+#### [Upload file share sources to scan using a CSV file](mm-fileshare-source-scan-csv-upload.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
