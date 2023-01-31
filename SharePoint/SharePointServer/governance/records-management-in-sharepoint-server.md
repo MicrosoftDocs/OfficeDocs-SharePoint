@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1b4765ef-3d28-4082-bb37-5d84e9996c44
 description: "Learn about records management and the records management planning process in SharePoint Server."

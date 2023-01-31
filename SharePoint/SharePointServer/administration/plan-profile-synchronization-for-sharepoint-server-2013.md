@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 8451dde9-bbd1-4285-bc24-71bd795fb912
 description: "Learn how to implement profile synchronization in SharePoint Server."

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: adbb853e-d8ef-48bb-9ca1-55612809c680
 description: "Find the set of Test Lab Guides (TLGs) for SharePoint to gain valuable hands-on experience before planning and deployment."

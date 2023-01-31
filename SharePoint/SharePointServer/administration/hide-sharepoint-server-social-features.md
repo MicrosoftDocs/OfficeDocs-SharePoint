@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: ff584a8c-871c-40bf-8ada-4a59615abbc9
 description: "Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server."
