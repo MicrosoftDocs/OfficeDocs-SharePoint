@@ -41,3 +41,5 @@ The following example uses Excel to create the CSV file.
 1. Start Excel. 
 2. Enter source paths. Enter one source path per row. *Required.* 
 3. Close and save as a Comma delimited (\*.csv) file.
+
+:::image type="content" source="media/mm-fileshare-scan-csv.png" alt-text="sample csv in excel":::
