@@ -22,7 +22,7 @@ description: Learn how to enable a file request in OneDrive or Sharepoint.
 
 # Enable File Requests in SharePoint or OneDrive 
 
-With the [file request feature](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af) in OneDrive, you can choose a folder where others can upload files using a link that you send them. People you request files from can only upload files; they can't see the content of the folder, edit, delete, or download files, or even see who else has uploaded files. 
+With the [file request feature](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af) in OneDrive or SharePoint, you can choose a folder where others can upload files using a link that you send them. People you request files from can only upload files; they can't see the content of the folder, edit, delete, or download files, or even see who else has uploaded files. 
 
 Admins can use the SharePoint Online Management Shell to disable or enable the **Request files** feature on OneDrive or SharePoint sites. If there's no change on sharing capability for all sites, then the file request feature can be enabled. 
 
@@ -39,7 +39,9 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 ## Enable or Disable Request Files for SharePoint
 
 > [!NOTE]
-> This is a newly released feature and may not be available to all tenants yet. 
+> This is a newly released feature and may not be available to all tenants yet.
+>
+> Note that if your tenant currently has Anyone Links enabled for SharePoint, we will be enabling this feature for SharePoint sites by default during the rollout. If you do not want File Requests to appear on SharePoint sites, you can opt out by running the following SharePoint Online management shell command: "Set-SPOTenant -CoreRequestFilesLinkEnabled $False".
 
 1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
 
