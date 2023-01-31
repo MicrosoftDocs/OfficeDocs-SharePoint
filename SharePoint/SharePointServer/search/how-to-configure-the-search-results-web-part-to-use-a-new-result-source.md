@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 104cd271-d4d5-4784-9278-5590b5ee2647
 description: "Learn how to configure the Search Results Web Part to use a new result source in SharePoint Server."
@@ -112,7 +112,7 @@ To save space, we'll only show you how to create a result source as a Site colle
     
      ![Enter Query](../media/OTCSP_TestQuery.png)
   
-    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section…).
+    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section...).
     
 7. Click **OK** to close the dialog, and then **Save**. 
     

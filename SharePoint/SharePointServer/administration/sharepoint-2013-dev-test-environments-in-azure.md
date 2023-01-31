@@ -1,5 +1,5 @@
 ---
-title: "SharePoint 2013 dev/test environments in Azure"
+title: SharePoint 2013 dev/test environments in Azure
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,13 +9,13 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9cf0367c-ed53-4f14-9864-4ab984e40819
-description: "Create a basic or high-availability SharePoint dev/test farm in Microsoft Azure."
+description: Create a basic or high-availability SharePoint dev/test farm in Microsoft Azure.
 ---
 
 # SharePoint 2013 dev/test environments in Azure
@@ -34,7 +34,7 @@ The high-availability SharePoint farm consists of nine virtual machines hosted i
   
 ![The nine servers of the SharePoint 2013 High-Availability Farm in Azure.](../media/5299635d-cf07-44f4-97a6-cb97a0137a2f.png)
   
-You can use the high-availability farm configuration to test higher client loads, high availability of the external SharePoint site, and SQL Server AlwaysOn Availability Groups for a SharePoint farm. You can also use this configuration for SharePoint app development in a high-availability environment.
+You can use the high-availability farm configuration to test higher client loads, high availability of the external SharePoint site, and SQL Server Always On Availability Groups for a SharePoint farm. You can also use this configuration for SharePoint app development in a high-availability environment.
   
 > [!NOTE]
 > You cannot create the SharePoint 2013 non-HA Farm or SharePoint 2013 HA Farm with an Azure Free Trial. 
@@ -136,7 +136,7 @@ Modify the **azuredeploy.parameters.json** file as needed for your basic SharePo
     
 - The virtual machine size of the SharePoint server (spVMSize).
     
-For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/).
+For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](/azure/virtual-machines/sizes).
   
 > [!NOTE]
 > Although you can specify the passwords for the various accounts in the azuredeploy. parameters.json file, this is not recommended for security reasons because the passwords are recorded in a text file that anyone with access to the file can easily see. 
@@ -292,7 +292,7 @@ Modify the **azuredeploy.parameters.json** file as needed for your high-availabi
     
 - The Windows Server AD domain name (domainName).
     
-For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/).
+For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](/azure/cloud-services/cloud-services-sizes-specs).
   
 > [!NOTE]
 > Although you can specify the passwords for the various accounts in the azuredeploy. parameters.json file, this is not recommended for security reasons because the passwords are recorded in a text file that anyone with access to the file can easily see. 
@@ -401,14 +401,14 @@ This can take some time to complete.
 ## Manage the SharePoint 2013 dev/test farms
 <a name="powershell"> </a>
 
-You can administer the servers of these farms through [Remote Desktop connections](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-connect-logon/).
+You can administer the servers of these farms through [Remote Desktop connections](/azure/virtual-machines/windows/connect-logon).
   
 From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](../install/configure.md).
   
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server dev/test environment in Azure](./sharepoint-server-dev-test-environment-in-azure.md) to create the following single-server, SharePoint dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -416,4 +416,4 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](.
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md)
+[SharePoint Server dev/test environment in Azure](./sharepoint-server-dev-test-environment-in-azure.md)

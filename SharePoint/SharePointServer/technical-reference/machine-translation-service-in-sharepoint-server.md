@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -33,7 +33,7 @@ Download and install:
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 
-- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/download/details.aspx?id=35590)
 
 Use the following to resolve alerts about the Machine Translation service:
   
@@ -368,7 +368,7 @@ Resolution 5: Create a new Machine Translation Service application
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/download/details.aspx?id=35590)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   

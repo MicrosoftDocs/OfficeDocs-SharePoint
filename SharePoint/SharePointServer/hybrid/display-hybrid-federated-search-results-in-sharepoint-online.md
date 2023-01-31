@@ -1,5 +1,5 @@
 ---
-title: "Display hybrid federated search results in SharePoint"
+title: Display hybrid federated search results in SharePoint
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 ms.collection:
@@ -18,7 +18,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.assetid: c24cffe8-fa32-43e4-95ed-42118ef9643d
-description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint in Microsoft 365 Search Center display results from both the SharePoint in Microsoft 365 and SharePoint Server search indexes."
+description: Configure a SharePoint hybrid environment so that user searches from the SharePoint in Microsoft 365 Search Center display results from both the SharePoint in Microsoft 365 and SharePoint Server search indexes.
 ---
 
 # Display hybrid federated search results in SharePoint in Microsoft 365
@@ -74,7 +74,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the **Protocol** section, select **Remote SharePoint**.
     
-   - In the **Remote Service URL** section, enter the address of the external endpoint of the reverse proxy device, such as https://spexternal.adventureworks.com. The reverse proxy device routes queries that are submitted in SharePoint in Microsoft 365 to the SharePoint Server deployment. For more info, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md). The external endpoint of the reverse proxy device is its Internet-facing endpoint. The address of that external endpoint is called the external URL. Get the value of the external URL from the External URL row in Table 3 of [the SharePoint hybrid worksheet](https://go.microsoft.com/fwlink/?LinkId=391835) that you have been maintaining, and enter it in the **Remote Service URL** text box. 
+   - In the **Remote Service URL** section, enter the address of the external endpoint of the reverse proxy device, such as `https://spexternal.adventureworks.com`. The reverse proxy device routes queries that are submitted in SharePoint in Microsoft 365 to the SharePoint Server deployment. For more info, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md). The external endpoint of the reverse proxy device is its Internet-facing endpoint. The address of that external endpoint is called the external URL. Get the value of the external URL from the External URL row in Table 3 of [the SharePoint hybrid worksheet](https://go.microsoft.com/fwlink/?LinkId=391835) that you have been maintaining, and enter it in the **Remote Service URL** text box. 
     
    - In the **Type** section, select **SharePoint Search Results**.
     
@@ -218,7 +218,7 @@ To validate your configuration for displaying search results from both SharePoin
     
 2. Go to the enterprise Search Center in SharePoint in Microsoft 365.
     
-    Typically, the enterprise Search Center in SharePoint in Microsoft 365 is at https://< _domain_>.sharepoint.com/search—for example, https://adventureworks.sharepoint.com/search.
+    Typically, the enterprise Search Center in SharePoint in Microsoft 365 is at https://< _domain_>.sharepoint.com/search—for example, `https://adventureworks.sharepoint.com/search`.
     
 3. In the enterprise Search Center, do the following:
     

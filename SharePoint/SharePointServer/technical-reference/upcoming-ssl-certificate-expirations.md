@@ -1,13 +1,13 @@
 ---
 title: "Upcoming SSL certificate expirations"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: serdars
+author: serdars
 manager: serdars
 audience: ITPro
 f1.keywords:
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server

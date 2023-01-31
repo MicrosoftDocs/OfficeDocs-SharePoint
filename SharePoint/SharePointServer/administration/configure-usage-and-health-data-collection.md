@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 33ed78c8-25fc-48ea-b0c1-50b540213cff
@@ -27,7 +27,7 @@ SharePoint Server writes usage and health data to the logging folder and to the 
 <a name="begin"> </a>
 
 > [!NOTE]
->  Administrators typically use the SharePoint Central Administration website and the SharePoint Management Shell to manage deployments. For information about accessibility for administrators, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md). >  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-2016-2019.md)> [Accessibility features in SharePoint](https://office.microsoft.com/sharepoint-foundation-help/accessibility-features-HA010369400.aspx)> [Keyboard shortcuts](https://office.microsoft.com/sharepoint-server-help/keyboard-shortcuts-HA010369395.aspx)> [Touch](/windows/desktop/wintouch/windows-touch-gestures-overview)
+>  Administrators typically use the SharePoint Central Administration website and the SharePoint Management Shell to manage deployments. For information about accessibility for administrators, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md). >  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-2016-2019.md)> [Accessibility features in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://office.microsoft.com/sharepoint-server-help/keyboard-shortcuts-HA010369395.aspx)> [Touch](/windows/desktop/wintouch/windows-touch-gestures-overview)
   
 ## Configure usage and health data collection by using Central Administration
 <a name="section1"> </a>

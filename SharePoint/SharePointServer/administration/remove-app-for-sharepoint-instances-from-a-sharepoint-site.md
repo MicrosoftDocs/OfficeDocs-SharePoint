@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 94a8041c-f047-4f03-b973-65eb85f8e4fc
@@ -33,7 +33,7 @@ Use the following procedure to remove an app from a SharePoint site.
     
 2. On the site, on the **Settings** menu, click **View Site Contents**.
     
-3. In the **Apps** section, point to the app that you want to remove, click **…**, and then click **Remove**.
+3. In the **Apps** section, point to the app that you want to remove, click **...**, and then click **Remove**.
     
 4. Click **OK** to confirm that you want to remove the app. 
     

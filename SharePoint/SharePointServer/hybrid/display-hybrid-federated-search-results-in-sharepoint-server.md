@@ -1,5 +1,5 @@
 ---
-title: "Display hybrid federated search results in SharePoint Server"
+title: Display hybrid federated search results in SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,7 +17,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.assetid: 69f8553c-3df5-4366-ac6a-941e619a84cf
-description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from the search indexes in SharePoint Server and in SharePoint in Microsoft 365."
+description: Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from the search indexes in SharePoint Server and in SharePoint in Microsoft 365.
 ---
 
 # Display hybrid federated search results in SharePoint Server
@@ -81,7 +81,7 @@ For more info about result sources, see the following resources:
     
   - In the **Protocol** section, select **Remote SharePoint**.
     
-  - In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from, such as **https://adventure-works.sharepoint.com**.
+  - In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from, such as **`https://adventure-works.sharepoint.com`**.
     
   - In the **Type** section, select **SharePoint Search Results**.
     

@@ -1,5 +1,5 @@
 ---
-title: "Hybrid picker in the SharePoint admin center"
+title: Hybrid picker in the SharePoint admin center
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid

@@ -1,8 +1,8 @@
 ---
-title: "Manage Business Connectivity Service Applications"
+title: Manage Business Connectivity Service Applications
 ms.reviewer: abloesch
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2ced10aa-db9a-4828-a7a5-e47a57c3a823
-description: "Learn how to create BCS connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site"
+description: Learn how to create BCS connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site.
 ---
 
 # Manage Business Connectivity Service Applications
@@ -212,7 +212,7 @@ To add an action to an ECT, follow these steps.
 6. In the URL field, for the action you want to open, enter the URL.
     
     > [!NOTE]
-    >  Under the control, you can find an example URL. The example shows how to add one (or more) parameter place-holders such as {0}, or {1} (http://www.adventure-works.com/sample.aspx?p0={0}&amp;p1={1} ). 
+    >  Under the control, you can find an example URL. The example shows how to add one (or more) parameter place-holders such as {0}, or {1} (`http://www.adventure-works.com/sample.aspx?p0={0}&amp;p1={1}` ). 
   
 7. If you want web parts on the site to be able to use this new action, select one of the following options:
     

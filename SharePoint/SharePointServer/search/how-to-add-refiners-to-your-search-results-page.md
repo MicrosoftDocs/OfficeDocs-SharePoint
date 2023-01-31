@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: e60ca2ca-7d89-488b-bb90-28568a1ad90d
 description: "Learn how to add refiners to your search results page in SharePoint Server."

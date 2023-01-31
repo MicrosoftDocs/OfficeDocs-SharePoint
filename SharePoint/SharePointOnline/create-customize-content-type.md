@@ -1,5 +1,5 @@
 ---
-title: "Create or customize a content type"
+title: Create or customize a content type
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,24 +16,22 @@ search.appverid:
 ms.collection:  
 - M365-collaboration
 ms.custom: admindeeplinkSPO
-description: "Learn how to create or customize a content type in the SharePoint admin center."
+description: Learn how to create or customize a content type in the SharePoint admin center.
 ---
 
 # Create or customize a content type
 
 Content types help make it easy to provide consistency across a site. You create or customize a content type with the characteristics that you want, such as a certain template, specific metadata, and so on. For example, when a user chooses an item from the **New Item** or **New Document** menu, you can ensure that customized content is used.
 
-Content types created in SharePoint admin center are saved to the SharePoint content type hub located at /sites/ContentTypeHub.
-
 ![New Document Menu](media/new-document-menu.png)
+
+Content types created in the SharePoint admin center are saved to the SharePoint content type hub located at /sites/ContentTypeHub.
 
 To learn more about content types, see [Introduction to content types and content type publishing](https://support.microsoft.com/office/e1277a2e-a1e8-4473-9126-91a0647766e5).
 
-To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
+To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
 
-To create a content type, follow these steps:
-
-**To create a content type**
+## Create a content type
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
@@ -43,19 +41,19 @@ To create a content type, follow these steps:
 
     ![Create content type](media/create-content-type.png)
 
-4. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
+4. In the **Category** section, you have two choices:
 
-5. In the **Category** section, you are provided two choices:
-
-    - To put the new content type in an existing category, select **Use an existing category**, and from the **Category** dropdown, select a category.
+    - To put the new content type in an existing category, select **Use an existing category**, and from the **Name** dropdown, select a category.
     
     - To put the content in a new category, select **Create a new category**, and in the **Category name** box, provide a name. 
+
+5. In the **Parent content type** section, from the **Parent category** and **Content type** dropdowns, select the content type that you want to base this content type on.
 
 6. Select **Create**.
 
 The new content type appears in the **Content type gallery**.
 
-## To change the name of a content type
+## Change the name of a content type
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 

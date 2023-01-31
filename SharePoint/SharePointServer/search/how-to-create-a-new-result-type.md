@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
 description: "Learn how to create a new result type in SharePoint Server."

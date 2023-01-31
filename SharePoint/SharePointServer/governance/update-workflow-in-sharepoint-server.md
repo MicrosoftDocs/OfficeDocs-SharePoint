@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: de173e89-b6d8-4d9e-8516-865c2735bfff
 description: "Walks through the steps required to keep workflow up to date in SharePoint Server."

@@ -88,7 +88,7 @@ At their core, the three types of building blocks share a common structure. For 
 |**Content authors** <br/> |**All members are content authors** who jointly create and edit content.  <br/> |**Small number of content authors** and a much larger number of content readers or consumers.  <br/> |**Hub site owner** defines the shared experiences for hub navigation and theme. **Hub site members** create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.  <br/> |
 |**Governance** <br/> (as allowed for your organization based on the settings in the Security &amp; Compliance center)  <br/> |Norms typically **determined by the team**. Practices are aligned in the best way to get work done.  <br/> |Policies often **determined by the organization** to ensure consistency of experience and effective management of organizational information.  <br/> |Governance **determined by each owner of the associated site based on the type of site and organizational policies**. The best experience for visitors is achieved when everyone has at least read permissions for associated sites (but this is not required).  <br/> |
 |**Permissions** <br/> |Microsoft 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions - but you may add a "reader" group to the hub to make it easier to provide read access to associated sites. For more information, see: [Hub permissions](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals). <br/> |
-|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global admin** or **SharePoint admin** in Microsoft 365  <br/> |
+|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global Administrator** or **SharePoint Administrator** in Microsoft 365  <br/> |
 |**Examples** <br/> | - Project team working together to complete deliverables and manage tasks.  <br/> - Holiday party planning committee planning the annual get-together.  <br/>  - HR performance management team.  <br/> - Executive committee—different leadership groups within the organization.  <br/> - Extranet site to work with Partner A.  <br/> | - Travel team publishing guidelines about corporate travel.  <br/> - Policies and procedures.  <br/> - Micro-site for a new corporate initiative.  <br/> - Resources for the sales team for a product or service.  <br/> | - HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.  <br/> - Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.  <br/>  - Location-specific hub that groups the communication and team sites for a specific location (for example, the New York office).  <br/> |
    
 ## What should be a hub site?
@@ -155,7 +155,7 @@ A good practice is to start with a consistent approach for all functions that ha
   
 ## How should I organize my hub site?
 
-Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by the global or SharePoint admin in Microsoft 365, planning, managing, and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
+Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by the Global Administrator or SharePoint Administrator in Microsoft 365, planning, managing, and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
   
 - Association
     
@@ -163,18 +163,21 @@ Hub sites provide two primary organizational experiences that you should think a
     
 ### Association
 
-A site becomes part of a hub family by [Associating a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint admins can [allow only certain site owners to associate sites with the hub](create-hub-site.md).
+A site becomes part of a hub family by [Associating a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint Administrators can [allow only certain site owners to associate sites with the hub](create-hub-site.md).
   
-After a SharePoint admin gives a site owner permission to associate their sites with a hub site, the site owner can then choose to associate the sites with the hub. When they do, the site inherits the hub site theme and shared navigation. Content from their site will roll up to the hub site in web parts where the source is "all sites in the hub," and the site will be included in the hub site search scope.
+After a SharePoint Administrator gives a site owner permission to associate their sites with a hub site, the site owner can then choose to associate the sites with the hub. When they do, the site inherits the hub site theme and shared navigation. Content from their site will roll up to the hub site in web parts where the source is "all sites in the hub," and the site will be included in the hub site search scope.
   
 Associating with the hub does not automatically add the site to the hub navigation. Hub site owners determine which sites are included in the navigation. They can also configure the News, Sites, Events, and Highlighted content to roll up activity from all associated sites or only selected sites.
   
 > [!NOTE]
-> Association with a hub does not change the permissions on a site. If you associate a site that has restricted access with a hub, only users who have access to the restricted site will see content rolled up on the hub. Information surfaced on the hub site is security trimmed: if you don't have access to the content, you won't see it. Something you may want to consider is adjusting permissions on the associated sites after you have assembled your hub family or [adding a hub "read" permission gorup to the hub](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals) and adding that permission group to associated sites. 
+> Association with a hub does not change the permissions on a site. If you associate a site that has restricted access with a hub, only users who have access to the restricted site will see content rolled up on the hub. Information surfaced on the hub site is security trimmed: if you don't have access to the content, you won't see it. Something you may want to consider is adjusting permissions on the associated sites after you have assembled your hub family or [adding a hub "read" permission group to the hub](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals) and adding that permission group to associated sites. 
   
 ### Navigation
 
 The hub site owner determines which sites are reflected in the shared navigation and can also include links to other resources. This navigation appears at the top, below the suite bar. Most of the time, you will want to add associated sites to your hub navigation. That's one of the benefits of the experiences that you can enable with a hub. Your hub navigation can have up to three levels, which lets you organize your hub family in a way that helps users discover and find relevant content.
+
+> [!NOTE]
+> The default navigation menu style for team sites hub navigation will be cascading. 
   
 However, you may not want to add every associated site to your navigation and you may want to consider adding sites that aren't associated to the navigation. Consider the following as you plan your hub navigation.
   
@@ -210,7 +213,7 @@ If you have only one hub, you'll miss the ability to easily surface related info
     
 - **Subsites**. Hub sites solve many or most of the use cases for which you previously used subsites. We recommend using hub sites going forward to organize the sites in your intranet. However, subsites will continue to be supported as a classic feature, and we'll add the new team site template as a subsite option.
 
-- **Should your home site be a hub?** It depends. Consider making your home site a hub if you have a unique set of sites that represent your "official" intranet where you want a distinct brand and search scope that you want to distinguish from other sites in the tenant. Consider leaving your home site as a "regular" site if you plan to have multiple hubs and you want your users to leverage the SharePoint app bar for global navigation. Every site in the internet does not have to be connected to a hub if your home site is not a hub. Some sites may be part of a hub and have both local and hub navigation but other sites may only have local navigation. In this scenario, your intranet global navigation is provided by the app bar, not a hub.
+- **Should your home site be a hub?** It depends. Consider making your home site a hub if you have a unique set of sites that represent your "official" intranet where you want a distinct brand and search scope that you want to distinguish from other sites in the tenant. Consider leaving your home site as a "regular" site if you plan to have multiple hubs and you want your users to leverage the SharePoint app bar for global navigation. Every site in the intranet does not have to be connected to a hub if your home site is not a hub. Some sites may be part of a hub and have both local and hub navigation but other sites may only have local navigation. In this scenario, your intranet global navigation is provided by the app bar, not a hub.
     
 Use hub sites when they align with your business outcomes and solve a need for your users.
 

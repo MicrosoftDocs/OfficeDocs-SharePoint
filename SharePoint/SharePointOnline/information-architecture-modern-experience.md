@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -29,6 +30,9 @@ description: "Learn how to organize and label your content and how your visitors
 Well-planned and executed information architecture is a prerequisite for an intelligent and high-performing intranet, hub, or site. The most important first step in planning an effective information architecture is understanding your users and helping them find what they need to complete tasks in a way that makes the most sense to them. 
 
 Information architecture also helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks. 
+
+> [!NOTE]
+> All navigation types (site, hub, global, and footer) are limited to 500 child links at each level. Additional nodes added after the limit has been reached will receive an error.
 
 **In this article:**
 

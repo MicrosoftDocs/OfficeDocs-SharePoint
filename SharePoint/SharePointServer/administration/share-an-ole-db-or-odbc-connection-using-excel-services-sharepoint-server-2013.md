@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cdaaf121-3fd3-4889-9020-9cf7606c8f6b
 description: "Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
@@ -77,7 +77,7 @@ Use the following procedures to create OLE DB or ODBC data connections
     
 4. In the **Search Keywords** box, enter some words or phrases that will help users find the data connection when it is published to SharePoint Server 2013. 
     
-5. Next to **Excel Services**, select **Authentication Settings…**.
+5. Next to **Excel Services**, select **Authentication Settings...**.
     
 6. Select **None**, and then select **OK**.
     

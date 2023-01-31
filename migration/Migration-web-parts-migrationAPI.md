@@ -16,6 +16,7 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "SharePoint web part support in the Migration API"
 ---
 # Migrate web parts by using the Migration API
@@ -57,7 +58,7 @@ For an explanation of the *SPWebPart* fields, see [SPWebPart](/openspecs/sharepo
             <xs:element name="EventReceivers" type="SPEventReceiverDefinitionCollection" minOccurs="0" maxOccurs="1" />
             <xs:element name="VersionEvents" type="SPFileVersionEventCollection" minOccurs="0" maxOccurs="1" />
         </xs:sequence>
-		……
+    ......
     </xs:complexType>
 
     <!-- SPWebPartCollection definition -->
@@ -157,14 +158,14 @@ For an explanation of the *SPWebPart* fields, see [SPWebPart](/openspecs/sharepo
 ## Security controls
 
 The security control design on the server side enables the following functionality:
- 
+
 - If *NoScript* is off, migrate all web parts.
 - If *NoScript* is on, first check web part level safety:
-    - If *SafeAgainstScript* is false, don't import it.
-    - If SafeAgainstScript is true, check the web part property level safety:
-        - If this web part has any property that has *RequiresDesignerPermission*, ignore that web part (or ignore this property if feasible).
-        - Otherwise, migrate this web part.
- 
+  - If *SafeAgainstScript* is false, don't import it.
+  - If SafeAgainstScript is true, check the web part property level safety:
+    - If this web part has any property that has *RequiresDesignerPermission*, ignore that web part (or ignore this property if feasible).
+    - Otherwise, migrate this web part.
+
 These web parts will be ignored by server-side code (treated as untrusted web part) when *NoScript* is turned on:
 
 - XsltListViewWebPart
@@ -203,49 +204,46 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
 ### Sample web part properties v2 XmlNode element 
 
 ```xml
-
-  <WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2" ID="1c845edf-42c6-4094-a105-302015642f43">
-	<Title>Content Editor</Title>
-	<FrameType>Default</FrameType>
-	<Description>Allows authors to enter rich text content.</Description>
-	<IsIncluded>true</IsIncluded>
-	<ZoneID>wpz</ZoneID>
-	<PartOrder>0</PartOrder>
-	<FrameState>Normal</FrameState>
-	<Height />
-	<Width />
-	<AllowRemove>true</AllowRemove>
-	<AllowZoneChange>true</AllowZoneChange>
-	<AllowMinimize>true</AllowMinimize>
-	<AllowConnect>true</AllowConnect>
-	<AllowEdit>true</AllowEdit>
-	<AllowHide>true</AllowHide>
-	<IsVisible>true</IsVisible>
-	<DetailLink />
-	<HelpLink />
-	<HelpMode>Modeless</HelpMode>
-	<Dir>Default</Dir>
-	<PartImageSmall />
-	<MissingAssembly></MissingAssembly>
-	<PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
-	<IsIncludedFilter />
-	<ExportControlledProperties>true</ExportControlledProperties>
-	<ConnectionID>00000000-0000-0000-0000-000000000000</ConnectionID>
-	<ID>g_d6def51c_7a91_40fe_9f59_de9ceed5c347</ID>
-	<Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
-	<TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
-	<ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
-	<Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
-	<PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
-  </WebPart>
+<WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2" ID="1c845edf-42c6-4094-a105-302015642f43">
+  <Title>Content Editor</Title>
+  <FrameType>Default</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>wpz</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly></MissingAssembly>
+  <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <ExportControlledProperties>true</ExportControlledProperties>
+  <ConnectionID>00000000-0000-0000-0000-000000000000</ConnectionID>
+  <ID>g_d6def51c_7a91_40fe_9f59_de9ceed5c347</ID>
+  <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>
 ```
-
 
 ### Sample web part properties v3 XmlNode element
 
 ```xml
-
-  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+<webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
     <metaData>
       <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
       <importErrorMessage></importErrorMessage>
@@ -319,7 +317,7 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
         <property name="SelectParameters" type="string" />
       </properties>
     </data>
-  </webPart>
+</webPart>
 ```
 
 ### Sample web part connection XmlNode element 
@@ -327,5 +325,4 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
 ```xml
 <WebPartPages:SPWebPartConnection ConsumerConnectionPointID="DFWP Filter Consumer ID" ConsumerID="g_bcca2ac1_f0f1_4640_af30_8a0730ca840e" ID="c1638508205" ProviderConnectionPointID="ITransformableFilterValues" ProviderID="g_7fc41891_2e27_4835_99c8_5b6f80feb20f"><WebPartPages:TransformableFilterValuesToParametersTransformer ConsumerFieldNames="PageType" ProviderFieldNames="Page Field"></WebPartPages:TransformableFilterValuesToParametersTransformer>
 </WebPartPages:SPWebPartConnection>
-
 ```

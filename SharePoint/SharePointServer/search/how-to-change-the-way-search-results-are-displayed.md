@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
 description: "Learn how to change the way search results are displayed in classic search in SharePoint Server."
@@ -25,7 +25,7 @@ This series will explain how to customize the way search results are displayed i
   
 As you know, Microsoft publishes thousands of articles across TechNet, MSDN and Office.com. To help in the publishing process, we use several SharePoint lists. Each item in a list represents an article or a media file. To quickly find information about a list item, we've set up a Search Center that searches across all of the lists.
   
-This series will show how to change the way search results are displayed from this…
+This series will show how to change the way search results are displayed from this...
   
 ![Default Search Results](../media/OTCSP_DefaultSearchResults.png)
   

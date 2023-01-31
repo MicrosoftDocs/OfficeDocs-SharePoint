@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c5c6fd31-d747-49c0-9784-b4f29bd82809
@@ -155,7 +155,7 @@ If you want to view logs by using tools other than Management Studio, you can ex
     
 3. Expand the **Views** node, right-click the view from which you want to extract data, and then click **Select Top 1000 Rows**.
     
-4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As…**.
+4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As...**.
     
 5. In the **Save Grid Results** window, specify the folder in which you want to save the file, specify the **Save as type** as CSV(Comma delimited), and then specify an appropriate file name. 
     

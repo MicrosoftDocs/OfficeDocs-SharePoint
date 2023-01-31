@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -24,11 +24,9 @@ description: "Find out the minimum hardware requirements that you need for insta
 
 [!INCLUDE [appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-  
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
-  
-    
+
 ## Hardware requirements for SharePoint servers
 
 The values in the following table are minimum values for installations on servers that are running SharePoint Server in a multiple server farm installation.
@@ -36,19 +34,18 @@ The values in the following table are minimum values for installations on server
 Ensure the following before you proceed with deployment of SharePoint environment:
 
 - For all installation scenarios:
-	- You have sufficient hard disk space for the base installation.
-	- You have sufficient hard disk space for diagnostics such as logging, debugging,
-	  creating memory dumps, and so on.
+  - You have sufficient hard disk space for the base installation.
+  - You have sufficient hard disk space for diagnostics such as logging, debugging, creating memory dumps, and so on.
 - For production environment
-	- You have additional free disk space for day-to-day operations.
-	- Maintain two times as much as free space as you have RAM
+  - You have additional free disk space for day-to-day operations.
+  - Maintain two times as much as free space as you have RAM
 
-|**Installation scenario**|**Deployment type and scale**|**Processor**|**RAM**|**Hard disk**|
-|:-----|:-----|:-----|:-----|:-----|
-|Single server role that uses SQL Server  <br/> |Development or evaluation installation with the minimum recommended services for development environments.  <br/> |64-bit, 4 cores <br/> |16 GB  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
-|Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores <br/> |24 GB   <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
-|SharePoint server in a multi-tier farm  <br/> |Development or evaluation installation with a minimum number of services.  <br/> |64-bit, 4 cores <br/> |12 GB  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
-|SharePoint server in a multi-tier farm  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores  <br/> |16 GB    <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> 
+|Installation scenario|Deployment type and scale|Processor|RAM|Hard disk|
+|---|---|---|---|---|
+|Single server role that uses SQL Server|Development or evaluation installation with the minimum recommended services for development environments.|64-bit, 4 cores|16 GB|80 GB for system drive  <br/> 100 GB for second drive|
+|Single server role that uses SQL Server|Pilot or user acceptance test installation running all available services.|64-bit, 4 cores|24 GB|80 GB for system drive  <br/> 100 GB for second drive and additional drives|
+|SharePoint server in a multi-tier farm|Development or evaluation installation with a minimum number of services.|64-bit, 4 cores|12 GB|80 GB for system drive  <br/> 80 GB for second drive|
+|SharePoint server in a multi-tier farm|Pilot or user acceptance test installation running all available services.|64-bit, 4 cores|16 GB|80 GB for system drive  <br/> 80 GB for second drive and additional drives|
 
 > [!NOTE]
 > Hard disk space and number of drives depends on the amount of content and the way you choose to distribute data for a SharePoint environment.
@@ -71,9 +68,3 @@ To provide fault tolerance in a stretched farm, use the standard best practice g
 <a name="hwforwebserver"> </a>
 
 SharePoint Server supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
-
-
-
-
-
-  

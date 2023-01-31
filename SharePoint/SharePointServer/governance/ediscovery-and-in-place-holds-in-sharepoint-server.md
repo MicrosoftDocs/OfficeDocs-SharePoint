@@ -1,5 +1,5 @@
 ---
-title: "eDiscovery and in-place holds in SharePoint Server"
+title: eDiscovery and in-place holds in SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -8,11 +8,11 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d6a85e37-4a3c-4c89-913c-563bb9c8a013
-description: "Learn about eDiscovery across SharePoint Server 2016 and Exchange Server 2016, or SharePoint Server 2013 and Exchange Server 2013, and the eDiscovery Center, eDiscovery cases, in-place holds, and exports."
+description: Learn about eDiscovery across SharePoint Server 2016 and Exchange Server 2016, or SharePoint Server 2013 and Exchange Server 2013, and the eDiscovery Center, eDiscovery cases, in-place holds, and exports.
 ---
 
 # eDiscovery and in-place holds in SharePoint Server
@@ -82,7 +82,7 @@ As the Search system crawls content, it creates a search index. The search index
 SharePoint Server 2013 introduced the concept of an in-place hold. When you apply an in-place hold to a site, content in the site remains in its original location. Users can still work with the content, but a copy of the content as it was at the time that you initiated the hold is preserved. Additionally, if an in-place hold is applied to a site, any new content that's created or added to the site after it was put on hold will be discoverable, and will be preserved if it's deleted. Also, users don't have to know that their content is on hold.
   
 > [!IMPORTANT]
-> If SharePoint Server runs on a server that uses Alternate Access Mapping (AAM), host-named site collections, or SSL termination format, then users will not be able to edit web pages in a site that has an in-place hold applied. To allow users to edit pages in sites that are on hold, you need to disable loopback checking as described in Method 2 of [KB article 896861](https://go.microsoft.com/fwlink/p/?LinkId=272340). 
+> If SharePoint Server runs on a server that uses Alternate Access Mapping (AAM), host-named site collections, or SSL termination format, then users will not be able to edit web pages in a site that has an in-place hold applied. To allow users to edit pages in sites that are on hold, you need to disable loopback checking as described in Method 2 of `KB article 896861`. 
   
 An in-place hold is applied at the level of a site. When a hold is placed on a SharePoint site, a preservation hold library is created, if one doesn't already exist. The preservation hold library is only visible to site collection administrators so most users can't view it. The search crawler also has special permissions to crawl content in the preservation hold library.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: a2ef35c4-6b29-4ad1-8652-48a019838ea0
 description: "Deploy Excel Services to your SharePoint Server farm by creating an Excel Services service application by using Central Administration."

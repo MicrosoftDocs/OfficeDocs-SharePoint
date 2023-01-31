@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -30,11 +30,11 @@ Typically when you see this rule, it states that the distributed cache service i
   
 - Distributed Cache
     
-- ﻿Front-end with Distributed Cache
+- Front-end with Distributed Cache
     
-- ﻿Single-Server Farm
+- Single-Server Farm
     
-- ﻿Custom
+- Custom
     
 For more information, see [Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
   

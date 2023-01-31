@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -41,7 +41,7 @@ The extensible hybrid app launcher is designed to help you get to your Microsoft
   
 If you want to change what you see in your SharePoint Server app launcher, make the change in the Microsoft 365 app launcher, and the changes will be reflected in the SharePoint Server app launcher within a day or so.
   
-(You can also [customize your SharePoint Server 2016 app launcher separately](../administration/custom-tiles-in-sharepoint-server-2016.md).)
+(You can also [customize your SharePoint Server app launcher separately](../administration/custom-tiles-in-sharepoint-server.md).)
   
 ## How can I enable this feature?
 

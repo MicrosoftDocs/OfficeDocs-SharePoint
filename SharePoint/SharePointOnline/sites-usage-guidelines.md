@@ -8,6 +8,7 @@ audience: admin
 recommendations: true
 ms.assetid: 
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.tgt_pltfrm: na
 ms.devlang: na
 f1.keywords:
@@ -128,7 +129,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 
 **Guidance:**</br>
 - Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
-- Setting this policy requires Microsoft 365 global admin permissions.
+- Setting this policy requires Microsoft 365 Global Administrator permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 
 

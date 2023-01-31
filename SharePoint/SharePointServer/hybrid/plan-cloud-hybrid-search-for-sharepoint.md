@@ -1,5 +1,5 @@
 ---
-title: "Plan cloud hybrid search for SharePoint"
+title: Plan cloud hybrid search for SharePoint
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -20,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: dc7d1bd3-8ca0-412a-b7e5-f357afa84299
-description: "Setting up cloud hybrid search for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution."
+description: Setting up cloud hybrid search for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution.
 ---
 
 # Plan cloud hybrid search for SharePoint in Microsoft 365
@@ -83,7 +83,7 @@ Before you get going, you should read [Learn about the search topology for cloud
   
 ### Step 1: How much on-premises content can I index in Microsoft 365?
 
-For each 1 TB of pooled storage space your tenant has in SharePoint in Microsoft 365, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
+For each 1 TB of pooled storage space your tenant has in SharePoint in Microsoft 365, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/) to increase this threshold.
   
 ### Step 2: What size cloud search architecture do I need?
 

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 5c23f9ea-d019-4750-abdf-0633bffa84f4
 description: "Learn how to install and configure SharePoint Server 2013 on multiple servers with Microsoft SQL Server 2012 by using the computers in the Base Configuration test lab."

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b35d9b02-2207-417c-bb90-870474b6f57c
@@ -82,5 +82,5 @@ When you flush the BLOB cache, you clear the contents of the BLOB cache for a we
 
 #### Other Resources
 
-[Scripting with Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=193051)
+[Scripting with Windows PowerShell](/powershell/scripting/windows-powershell/ise/how-to-write-and-run-scripts-in-the-windows-powershell-ise)
 

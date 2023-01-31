@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f17c0e05-bb64-4a7e-95f8-5a68d69917d3
@@ -81,7 +81,7 @@ To view the usage event definitions, do the following:
 > [!IMPORTANT]
 > One important aspect of how Usage analytics works is step 2 of the overview: *The usage event is recorded in the Event store*. In the Event store, each usage event must be recorded using *the URL of the item*. 
   
-This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example *http://www.contoso/sites/Pages/ContosoItemPage.aspx*. Because the same catalog item page is used to display many items, the usage event cannot be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example *http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12*. 
+This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example `http://www.contoso/sites/Pages/ContosoItemPage.aspx`. Because the same catalog item page is used to display many items, the usage event cannot be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example `http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12`. 
   
 ![Usage Event Recorded Using URL](../media/OTCSP_IntroductionRecommendations2.jpg)
   

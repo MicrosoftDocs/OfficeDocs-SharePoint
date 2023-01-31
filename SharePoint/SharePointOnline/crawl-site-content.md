@@ -1,5 +1,5 @@
 ---
-title: "Manually request crawling and reindexing of a site, a library or a list"
+title: Manually request crawling and reindexing of a site, a library or a list
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -11,12 +11,13 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 9afa977d-39de-4321-b4ca-8c7c7e6d264e
-description: "Manually request crawling and full reindexing of a site by clicking the Reindex site button. All of the site content is marked as changed and will be picked up during the next crawl and reindexed."
+description: Manually request crawling and full reindexing of a site by clicking the Reindex site button. All of the site content is marked as changed and will be picked up during the next crawl and reindexed.
 ---
 
 # Manually request crawling and reindexing of a site, a library or a list

@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 search.appverid:
@@ -21,7 +22,7 @@ description: "Use the search page in the classic SharePoint admin center to cust
 
 # SharePoint classic search administration overview
 
-As a global or SharePoint admin in Microsoft 365, you can customize and impact the search experiences for your users. You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can customize and impact the search experiences for your users. You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
   
 The changes you make from the search administration page are valid for the whole tenant, but you can also customize search on site collection level and on site level.
 
@@ -32,11 +33,10 @@ You can customize and tailor the classic search experience more than Microsoft S
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+> [!NOTE]
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 2. Under **Search**, select **Open**.
-
     
 ## What do you want to do?
 <a name="__top"> </a>

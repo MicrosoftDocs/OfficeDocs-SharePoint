@@ -1,5 +1,5 @@
 ---
-title: "Hardware and software requirements for SharePoint 2013"
+title: Hardware and software requirements for SharePoint 2013
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,13 +9,13 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a88d3f72-7ac3-4f08-b302-c4ca0a796268
-description: "Lists the minimum hardware and software requirements to install and run SharePoint."
+description: Lists the minimum hardware and software requirements to install and run SharePoint.
 ---
 
 # Hardware and software requirements for SharePoint 2013
@@ -309,7 +309,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=258859)
     
-- [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
+- [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
     
 - [The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)](https://go.microsoft.com/fwlink/p/?LinkId=258850)
     
@@ -319,7 +319,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
   - [Windows Server 2008 R2 SP1 (KB 2759112)](https://go.microsoft.com/fwlink/p/?LinkId=267536)
     
-  - [Windows Server 2012 and Windows 8 (KB 2765317)](https://go.microsoft.com/fwlink/p/?LinkId=268725)
+  - [Windows Server 2012 and Windows 8 (KB 2765317)](/windows/compatibility/windows-8-introduction)
     
 - [Windows Server 2012, Datacenter Edition or Standard Edition](https://go.microsoft.com/fwlink/p/?LinkId=262392)
     
@@ -349,7 +349,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Silverlight 3](https://go.microsoft.com/fwlink/p/?LinkId=166506)
     
-- [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
+- [Exchange Web Services Managed API, version 1.2](https://www.nuget.org/packages/Microsoft.Exchange.WebServices/1.2.0)
     
 - Microsoft SQL Server 2012 Native Client 64-bit edition - [ENU\x64\sqlncli.MSI](https://go.microsoft.com/fwlink/p/?LinkId=239568)
     

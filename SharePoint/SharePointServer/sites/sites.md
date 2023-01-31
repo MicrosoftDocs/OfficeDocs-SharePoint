@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: b35afb63-94d0-4f32-912e-4e64c555ffdf
 description: "Learn about planning, creating, and managing sites and site collections in SharePoint Server."

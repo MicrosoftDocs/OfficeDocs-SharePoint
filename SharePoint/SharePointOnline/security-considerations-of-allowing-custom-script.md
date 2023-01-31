@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -37,7 +38,7 @@ Every script that runs in a SharePoint page (whether it's an HTML page in a docu
     
 ## You can't audit the insertion of script
 
-As a global admin, security admin, or SharePoint admin, you can allow or block custom script capabilities for the whole organization or for specific site collections. (For info on how to do this, see [Allow or prevent custom script](allow-or-prevent-custom-script.md).) However, once you allow scripting, you can't identify:
+As a Global Administrator, security admin, or SharePoint Administrator, you can allow or block custom script capabilities for the whole organization or for specific site collections. (For info on how to do this, see [Allow or prevent custom script](allow-or-prevent-custom-script.md).) However, once you allow scripting, you can't identify:
   
 - What code has been inserted
     
@@ -74,4 +75,4 @@ The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) i
     
 - Solutions can be deployed in web parts and pages that use the classic experience or the new experience.
     
-- Only global admins, SharePoint admins, and people who have been given permission to manage the Apps site can add solutions. For info about giving users permission to manage the Apps site, see [Request app installation permissions](request-app-installation-permissions.md).
+- Only Global Administrators, SharePoint Administrators, and people who have been given permission to manage the Apps site can add solutions. For info about giving users permission to manage the Apps site, see [Request app installation permissions](request-app-installation-permissions.md).
