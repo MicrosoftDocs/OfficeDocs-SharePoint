@@ -35,8 +35,7 @@ Create a single column CSV file. There is only 1 column, source path.
 
  :::image type="content" source="media/mm-fileshare-addsource-upload.png" alt-text="upload a file share csv file":::
 
- **To create a CSV file for data migration**
-  
+
 The following example uses Excel to create the CSV file.
   
 1. Start Excel. 
