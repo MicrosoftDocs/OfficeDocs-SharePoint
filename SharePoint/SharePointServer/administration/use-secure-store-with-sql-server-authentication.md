@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 5dee7e15-3b81-40c5-978e-c10357bb7a3d
 description: "Use Secure Store in SharePoint Server to store SQL Server credentials."

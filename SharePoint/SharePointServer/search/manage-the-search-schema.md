@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.custom: admindeeplinkSPO
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 81890ff0-e2f9-4752-8e8e-2e8502c76311

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b30dfec9-22b5-4e59-b2fc-e1e3077222cb

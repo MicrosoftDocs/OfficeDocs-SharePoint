@@ -1,9 +1,10 @@
 ---
 title: "Creating and launching a healthy SharePoint portal"
-ms.reviewer: 
+ms.reviewer: andreye
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+ms.date: 01/20/2023
 recommendations: true
 audience: ITPro
 f1.keywords:
@@ -51,14 +52,14 @@ This set of guidance will walk you through best practices and recommendations be
 |![Document 3 blue 32](/office/media/icons/PNGs/document-3-blue-32.png "Look and feel")|[Portal design guidance](https://aka.ms/spdesignguidance)|Review the guidance while designing your sites|
 |![Page diagnostics tool](media/page-diag-tool.png "Modern diagnostics tool")|[Run the Page Diagnostics for SharePoint tool](/microsoft-365/enterprise/page-diagnostics-for-spo)|Validate your pages and follow the guidance|
 |![Bandwidth blue 32](/Office/media/icons/PNGs/bandwidth-blue-32.png "Optimize your Performance")|Optimize your Performance|Follow the guidance below and run the Page Diagnostics for SharePoint tool|
-| |![Global hyperlink blue 32](/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN") [Use CDN for better performance](/microsoft-365/Enterprise/office-365-cdn-quickstart)|Implement Public and Private Content Delivery Networks (CDN)|
-| |![Graph 4 blue 32](/Office/media/icons/PNGs/graph-4-blue-32.png "Batch REST calls") [Batch REST API calls to SharePoint](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)|Combine operations into fewer requests|
-| |![Analytics usage report blue 32](/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts") [Improve performance for slow web parts](/microsoft-365/Enterprise/modern-web-part-optimization)|Follow guidance to remediate common issues|
-| |![Bill blue](/Office/media/icons/bill-blue.png "Page weight") [Review page weight](/microsoft-365/Enterprise/modern-page-weight-optimization)|Follow guidance to reduce page weight in your site pages|
-| |![Task list planning blue 32](/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") [Limit the number of requests to a page](/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
-| |![Picture photo blue 32](/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](/microsoft-365/Enterprise/modern-image-optimization)|Follow basic image optimization for the web|
-| |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than two Iframes on a page|
-| |![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions") [Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
+|![Global hyperlink blue 32](/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN")|[Use CDN for better performance](/microsoft-365/Enterprise/office-365-cdn-quickstart)|Implement Public and Private Content Delivery Networks (CDN)|
+|![Graph 4 blue 32](/Office/media/icons/PNGs/graph-4-blue-32.png "Batch REST calls")|[Batch REST API calls to SharePoint](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)|Combine operations into fewer requests|
+|![Analytics usage report blue 32](/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts")|[Improve performance for slow web parts](/microsoft-365/Enterprise/modern-web-part-optimization)|Follow guidance to remediate common issues|
+|![Bill blue](/Office/media/icons/bill-blue.png "Page weight")|[Review page weight](/microsoft-365/Enterprise/modern-page-weight-optimization)|Follow guidance to reduce page weight in your site pages|
+|![Task list planning blue 32](/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page")|[Limit the number of requests to a page](/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
+|![Search document blue 32](/Office/media/icons/PNGs/search-document-blue-32.png "Limit the number of search requests on a page")|[Limit the number of search requests on a page](/Office365/Enterprise/modern-search-optimization)|Follow the guidance to limit the number of search requests on a page.|
+|![Picture photo blue 32](/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images")|[Optimize your images](/microsoft-365/Enterprise/modern-image-optimization)|Follow basic image optimization for the web|
+|![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames")|[Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than two Iframes on a page|
+|![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions")|[Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
 |![Task checklist planning blue 32](/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Modern portal limits")|[Modern portal limits](/Office365/Enterprise/modern-portal-limits)|Follow the limits for modern portals to further optimize performance|
 |![Globe Internet](/Office/media/icons/globe-internet.png "Network optimization")|[Network optimization](/microsoft-365/enterprise/urls-and-ip-address-ranges)|Configure your URLs and IP endpoints|
-

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2d8373ff-0808-40b7-8a21-5534720719f4
@@ -19,12 +19,12 @@ description: "Learn about the query variables that you can use when you configur
 # Query variables in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
-  
+
+Note: This article does not apply to Modern Microsoft Search experiences and APIs. To learn about Modern Search, see [Profile Query Variables](/MicrosoftSearch/manage-verticals#profile-query-variables).
+
 ## Query variables
 
 The following tables show the query variables for SharePoint Server and SharePoint in Microsoft 365, and examples on how they can be used.
-
-Note that not all query variables are supported in modern Microsoft Search experiences and APIs.
   
 **Site and site collection properties**
 
