@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -28,7 +28,7 @@ description: "Learn how to configure hybrid OneDrive with Microsoft 365."
 
 # Configure hybrid Microsoft OneDrive - roadmap
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article provides the roadmap for configuring Microsoft OneDrive hybrid, which allows your users to use OneDrive with SharePoint Server.
   

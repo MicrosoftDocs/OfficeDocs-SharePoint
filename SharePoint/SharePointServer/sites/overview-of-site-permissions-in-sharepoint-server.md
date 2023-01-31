@@ -8,8 +8,8 @@ ms.date: 8/17/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about the concepts behind SharePoint Server access control a
 
 # Overview of site permissions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article helps you understand the concepts behind access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   

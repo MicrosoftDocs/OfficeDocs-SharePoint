@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to attach and restore a read-only content database in Sh
 
 # Attach and restore read-only content databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can attach and restore a read-only content database in SharePoint Server by using PowerShell.
   
@@ -53,7 +53,7 @@ You can use only PowerShell to attach and restore a read-only content database.
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -72,7 +72,7 @@ You can use only PowerShell to attach and restore a read-only content database.
     > [!NOTE]
     > Attaching a content database by using the  `Mount-SPContentDatabase` cmdlet differs from attaching a database in SQL Server by using SQL Server tools.  `Mount-SPContentDatabase` associates the content database with a Web application so that the contents can be read. 
   
-For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps).
+For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

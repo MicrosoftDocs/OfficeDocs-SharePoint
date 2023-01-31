@@ -8,8 +8,8 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -25,7 +25,7 @@ description: "In SharePoint Server, you can redirect users to OneDrive in Micros
 
 # Plan hybrid OneDrive
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 In SharePoint Server, you can redirect users to Microsoft OneDrive when they select **OneDrive** in the nav bar (SharePoint Server 2010 and SharePoint Server 2013) or in the app launcher (SharePoint Server 2016). This is known as hybrid OneDrive.
   

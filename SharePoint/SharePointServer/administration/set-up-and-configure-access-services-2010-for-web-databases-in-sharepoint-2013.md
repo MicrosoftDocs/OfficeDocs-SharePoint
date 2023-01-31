@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f2d89390-aea4-4995-8b3f-b510c5d40247
@@ -18,12 +18,14 @@ description: "Learn how to use Access Services 2010 to modify and publish an Acc
 
 # Set up and configure Access Services 2010 for web databases in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Access Services 2010 is a service application that allows users to modify and publish in SharePoint 2013 an Access web database that was previously created in SharePoint Server 2010. 
   
 The Access client is not required to use the published web database. However, the Access client is required to make any changes to the database structure. 
-  
+ 
+> [!NOTE]
+>  Access Services 2010 has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010. 
     
 ## Set up SQL Server Reporting Services
 <a name="section1"> </a>

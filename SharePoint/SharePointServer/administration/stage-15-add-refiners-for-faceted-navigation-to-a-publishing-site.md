@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d43984b2-7a31-452f-afd4-c6837ee7a91d
@@ -18,7 +18,7 @@ description: "Learn how to add refiners for faceted navigation to a publishing s
 
 # Stage 15: Add refiners for faceted navigation to a publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -75,7 +75,7 @@ When you add the RWP to a page, it will display several default properties such 
   
 To verify that our refiners actually work, select **Green** and **Orange** from the color refiner, and then click **APPLY**. In an instant, only green and orange cameras display on the page. 
     
-     ![Verify Refiners](../media/OTCSP_ColorRefinerApplied.png)
+![Verify Refiners](../media/OTCSP_ColorRefinerApplied.png)
   
 So, we've verified that our refiners work. But, we're not completely there with user-friendliness. As things stand, the refiners are displayed as **REFINABLEINT01**, **REFINABLESTRING01**, **REFINABLESTRING03**. and so on Remember, these are the names of the refiner-enabled managed properties we used in in [Stage 14: Configure refiners for faceted navigation in SharePoint Server](stage-14-configure-refiners-for-faceted-navigation.md) when we configured the refiners. To visitors, these names make no sense at all. Therefore, we must fix them by changing their refiner display names. 
   
@@ -110,7 +110,7 @@ To change a refiner display name, you have to change a JavaScript file in the ma
   
 If we browse to the Digital cameras category, we can see that the category-specific refiner **MEGA PIXELS** appears. 
     
-     ![Refiner Mega Pixels](../media/OTCSP_RefinerMegaPixels.png)
+![Refiner Mega Pixels](../media/OTCSP_RefinerMegaPixels.png)
   
 So, our category-specific refiners now display for the correct category, and they all have user-friendly names. But, there is another small detail that would make our refiners even better. Right now we can't see any numeric details for the refiner values. For example, we can't see how many cameras are of the color *Silver*, or how many cameras have *14* mega-pixels. To see this info, we have to add **counts** to the refiner values. 
   

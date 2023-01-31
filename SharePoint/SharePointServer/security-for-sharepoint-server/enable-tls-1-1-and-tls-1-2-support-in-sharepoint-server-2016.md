@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "This article describes how to enable Transport Layer Security (TLS
 
 # Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 To enable TLS protocol versions 1.1 and 1.2 in your SharePoint 2016 environment, you need to install updates and change configuration settings in each of the following locations:
   
@@ -32,7 +32,7 @@ To enable TLS protocol versions 1.1 and 1.2 in your SharePoint 2016 environment,
 3. Client computers used to access your SharePoint sites
     
 > [!IMPORTANT]
-> If you do not update each of these locations, you run the risk of systems failing to ﻿connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, ﻿the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to ﻿SQL Server databases, or client computers may fail to connect to your SharePoint sites. 
+> If you do not update each of these locations, you run the risk of systems failing to connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to SQL Server databases, or client computers may fail to connect to your SharePoint sites. 
   
 ## Summary of the update process
 
@@ -48,10 +48,10 @@ Follow these steps to update your SharePoint server.
 |:-----|:-----|:-----|
 |[1.1 - Install ODBC Driver 11 for SQL Server update for TLS 1.2 support](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#ODBC1.1) <br/> |Required  <br/> |Required  <br/> |
 |[1.2 - Install SQL Server 2012 Native Client update for TLS 1.2 support](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#sql2012) <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2016, they may be necessary for other software ﻿that integrates with SharePoint Server 2016.  <br/> |
+|The following steps are **recommended**. Although not directly required by SharePoint Server 2016, they may be necessary for other software that integrates with SharePoint Server 2016.  <br/> |
 |[1.3 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#NET35x) <br/> |Recommended  <br/> |Recommended  <br/> |
 |[1.4 - Enable strong cryptography in .NET Framework 3.5](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#crypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |
-|The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
+|The following step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
 |[1.5 - Disable earlier versions of SSL and TLS in Windows Schannel](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#schannel) <br/> |Optional  <br/> |Optional  <br/> |
    
 ### 1.1 - Install ODBC Driver 11 for SQL Server update for TLS 1.2 support
@@ -74,7 +74,7 @@ SQL Server 2012 Native Client doesn't support TLS 1.1 or TLS 1.2 by default. You
 .NET Framework 3.5 doesn't support TLS 1.1 or TLS 1.2 by default.
   
 > [!IMPORTANT]
-> To add support for TLS 1.1 and TLS 1.2 in Windows Server 2012 R2, you must install a KB update, and then manually configure Windows Registry keys. > For Windows Server 2016, you only configure the registry keys. 
+> To add support for TLS 1.1 and TLS 1.2 in Windows Server 2012 R2, you must install a KB update, and then manually configure Windows Registry keys. 
   
 SharePoint Server 2016 is built on .NET Framework 4.x and doesn't use .NET Framework 3.5. However, certain prerequisite components and third party software that integrates with SharePoint Server 2016 may use .NET Framework 3.5. Microsoft recommends installing and configuring this update to improve compatibility with TLS 1.2.
   
@@ -232,7 +232,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 4. Double-click the **tls10-disable.reg**. 
     
-5. Click **Yes** to update your Windows ﻿Registry with these changes. 
+5. Click **Yes** to update your Windows Registry with these changes. 
     
 6. Restart your computer for the change to take effect.
     
@@ -401,9 +401,9 @@ Follow these steps to update your client computers that access your SharePoint s
 |[3.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#enableIE) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
 |[3.4 - Enable strong cryptography in .NET Framework 4.5 or higher](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#enablestrongcrypto4.5) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[3.5 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#NETFramework3.5x) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿step is **recommended**. Although not directly required by SharePoint Server 2016, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
+|The following step is **recommended**. Although not directly required by SharePoint Server 2016, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
 |[3.6 - Enable strong cryptography in .NET Framework 3.5](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#Enablecrypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
-|The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
+|The following step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
 |[3.7 - Disable earlier versions of SSL and TLS in Windows Schannel](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md#DisableSSL_TLS) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ### 3.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel
@@ -556,7 +556,7 @@ Microsoft has released an optional security update for .NET Framework 4.5, 4.5.1
   
  **For Windows 7 and Windows Server 2008 R2**
   
-- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see the KB article [Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014](https://support.microsoft.com/kb/2938782).
+- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see [MS14-026: Vulnerability in the .NET Framework could allow elevation of privilege: May 13, 2014](https://support.microsoft.com/topic/ms14-026-vulnerability-in-the-net-framework-could-allow-elevation-of-privilege-may-13-2014-0c1c8c0b-f2cc-6367-e54d-98f827259eab) (formerly published as KB article 2938782, "Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014").
     
 - To enable strong cryptography in .NET Framework 4.5.2 on Windows 7 and Windows Server 2008 R2, see the KB article [Description of the security update for the .NET Framework 4.5.2 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014](https://support.microsoft.com/kb/2954853).
     

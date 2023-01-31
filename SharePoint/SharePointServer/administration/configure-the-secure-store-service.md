@@ -8,8 +8,8 @@ ms.date: 7/14/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Configure storage of authorization credentials in Secure Store Ser
 
 # Configure the Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) before you begin the procedures in this article. 
   
@@ -184,7 +184,7 @@ Target applications are configured on the Secure Store Service Application page 
     
 7. When you create a target application of type Individual (see below), you can implement a custom Web page that lets users add individual credentials for the destination data source. This requires custom code to pass the credentials to the target application. If you did this, type the full URL of this page in the **Target Application Page URL** field. There are three options: 
     
-  - **Use default page**: Any Web sites that use the target application to access external data will have an individual sign-up page that was added automatically. The URL of this page will be http:/<samplesite>/_layouts/SecureStoreSetCredentials.aspx?TargetAppId=<TargetApplicationID>, where <TargetApplicationID> is the string typed in the **Target Application ID** box. By publicizing the location of this page, you can enable users to add their credentials for the external data source. 
+  - **Use default page**: Any websites that use the target application to access external data will have an individual sign-up page that was added automatically. The URL of this page will be http:/\<samplesite>/_layouts/SecureStoreSetCredentials.aspx?TargetAppId=\<TargetApplicationID>, where \<TargetApplicationID> is the string typed in the **Target Application ID** box. By publicizing the location of this page, you can enable users to add their credentials for the external data source. 
     
   - **Use custom page**: You provide a custom Web page that lets users provide individual credentials. Type the URL of the custom page in this field.
     
@@ -281,5 +281,5 @@ An audit log entry stores information about a Secure Store Service action, such 
 
 #### Other Resources
 
-[Secure Store Service cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Secure Store Service cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
 

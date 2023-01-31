@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
 description: "Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
@@ -17,7 +17,7 @@ description: "Learn about profile synchronization, also known as profile sync,in
 
 # Overview of profile synchronization in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 A user profile is a collection of properties that describes a SharePoint user. Features such as My Sites and People Search use user profiles to provide a rich, personalized experience for the users in your organization. You can create user profiles by importing data from directory services, such as Active Directory Domain Services (AD DS). You can augment user profiles by importing data from business systems, such as SAP or SQL Server. The process of importing profile data from external systems and writing data back to these systems is called profile synchronization.
   
@@ -31,11 +31,11 @@ A third option, if you're using Microsoft 365, is to use [hybrid profiles](../hy
   
 Which option is right for you?
   
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
 ||**Microsoft Identity Manager 2016** <br/> |**Active Directory Import** <br/> |**Hybrid profiles** <br/> |
-|Pros  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint in Microsoft 365.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
-|Cons  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
+|**Pros**  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint in Microsoft 365.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
+|**Cons**  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
    
 These three options are mutually exclusive. Each is further described in the following sections.
   
@@ -65,9 +65,9 @@ If you need capabilities that go beyond what SharePoint Active Directory Import 
   
 To learn how to configure MIM for use with SharePoint Server 2016, see the following resources:
   
-- [Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md)
+- [Install Microsoft Identity Manager for User Profiles in SharePoint Server](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md)
     
-- [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server.md)
     
 ### Hybrid profiles
 <a name="MIM"> </a>

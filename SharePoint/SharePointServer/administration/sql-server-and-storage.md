@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to plan for SQL Server and storage configuration for Sha
 
 # SQL Server and storage (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles provide information about SQL Server and storage configuration for SharePoint Server.
   

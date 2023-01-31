@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 552fcfbd-efd6-457e-924d-1d3bacea37dd
 description: "Learn how to change the order in which search results are displayed in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to change the order in which search results are displaye
 
 # How to change the order in which classic search results are displayed in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In the series [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) we explained how to customize the way search results are displayed by adding custom icons and properties. 
   
@@ -136,7 +136,7 @@ To save space, we'll only show you how to create a query rule as a Site collecti
   
     Now, before we move on, let's analyze what we entered:
     
-    - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) explains how to find managed property names. 
+    - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) explains how to find managed property names. 
     
     - The colon : means "contains".
     

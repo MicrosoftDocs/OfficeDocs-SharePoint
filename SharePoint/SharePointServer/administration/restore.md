@@ -8,8 +8,8 @@ ms.date: 9/14/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "The articles in this section contain restore solutions for the Sha
 
 # Restore solutions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about how to restore SharePoint Server 2016 data. These articles are written to meet the requirements of information technology (IT) professionals who are responsible for the planning, design, deployment, and operations of backup and recovery solutions. These solutions might be in enterprise, corporate, or branch office environments. The IT professionals who are responsible for backup and recovery solutions are expected to have an understanding of the technical details that are contained in this section.
   

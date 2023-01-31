@@ -8,8 +8,8 @@ ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,11 +21,11 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint S
 
 # Upgrade to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 The following articles provide information about performing an upgrade to SharePoint Server 2016.
   
-||**Content**|**Description**|
+|Image|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Get started with upgrades to SharePoint Server 2016](get-started-with-upgrade.md) <br/> |Find resources about how to start the upgrade process from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Upgrade databases from SharePoint 2013 to SharePoint Server 2016](upgrade-databases.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016.  <br/> |

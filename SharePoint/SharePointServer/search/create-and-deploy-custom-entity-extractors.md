@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 055e27eb-3e02-4470-a037-5896bab44736
@@ -18,7 +18,7 @@ description: "Learn to create custom entity extractors and how to use them to se
 
 # Create and deploy custom entity extractors in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You create and maintain the custom entity extractor file in a system external to SharePoint Server before you import it into SharePoint Server to make the custom entity extractor available to the search system.
   
@@ -29,7 +29,7 @@ To use custom entities as refiners in classic search, you first create a custom 
 ## Before you begin
 <a name="begin"> </a>
 
-Before you begin this operation, you must have have in place: 
+Before you begin this operation, you must have in place: 
   
 - A Search service application 
     
@@ -163,8 +163,7 @@ You can use the extracted custom entities as refiners in the search results page
 ## Overview of custom entity extractor types
 <a name="CustomDictionaryTypes"> </a>
 
-The following table shows what type of custom extraction dictionaries you can create and how the dictionary entries are matched with content in the search index, which dictionary name you should use when you deploy the dictionary and which managed property will contain the extracted entities.. 
-  
+The following table shows what type of custom extraction dictionaries you can create and how the dictionary entries are matched with content in the search index, which dictionary name you should use when you deploy the dictionary and which managed property will contain the extracted entities.  
 ****
 
 | **Custom entity extractor / custom entity extractor dictionary** |                                       **Description**                                       |                              **Example**                              |                     **Dictionary name to use in Windows PowerShell**                     |                                **Managed property that will contain the extracted entity**                                 |
@@ -178,5 +177,5 @@ The following table shows what type of custom extraction dictionaries you can cr
 <a name="CustomDictionaryTypes"> </a>
 
 
-[Import-SPEnterpriseSearchCustomExtractionDictionary](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchCustomExtractionDictionary?view=sharepoint-ps)
+[Import-SPEnterpriseSearchCustomExtractionDictionary](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchCustomExtractionDictionary?view=sharepoint-ps&preserve-view=true)
 

@@ -1,9 +1,10 @@
 ---
 title: "Searching and using keywords in the eDiscovery Center"
+description: "Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage."
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
-manager: serdars
+ms.author: robmazz
+author: robmazz
+manager: laurawi
 ms.date: 2/12/2018
 audience: ITPro
 f1.keywords:
@@ -12,22 +13,24 @@ ms.topic: article
 ms.custom:
 - DiscoverySearchSyntaxTips
 - WSSEndUser_DiscoverySearchSyntaxTips
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
-ms.collection: IT_Sharepoint_Server
-ms.assetid: c9b29461-20f6-4ae6-84ac-ce9bed3ceabb
-description: "Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage."
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
+- ediscovery
 ---
 
 # Searching and using keywords in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage. 
   
 Your organization may create an eDiscovery case if it receives a request for potential evidence to support litigation, an audit, or an investigation.
 
-Learn about [Core eDiscovery for SharePoint in Microsoft 365](/microsoft-365/compliance/get-started-core-ediscovery).
+Learn about [eDiscovery (Standard) for SharePoint](/microsoft-365/compliance/get-started-core-ediscovery).
   
 ## Filters and Queries
 <a name="__top"> </a>

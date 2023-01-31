@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -18,10 +18,10 @@ ms.assetid: 75113d71-7193-44ab-b79b-34cb9cf9aa94
 description: "Learn how to address problems that may occur after you upgrade a site to SharePoint Server 2016."
 ---
 
-# Troubleshoot site collection upgrade issues in SharePoint Server 2016
+# How to troubleshoot site collection upgrade issues in SharePoint Server 2016
 
+[!INCLUDE[applies to-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 When you upgrade a site collection to SharePoint Server 2016, errors can occasionally occur. This article helps you understand those errors and address them.
   
 ## Check upgrade status and log files
@@ -35,8 +35,8 @@ Upgrade status indicators and log files should give you an indication of what we
 2. If pages don't render, check the **Site Settings** page. If the **Site Settings** page works and the upgrade has succeeded, there might be issues with the master page or home page. If the **Site Settings** page doesn't work, check the site collection upgrade log file for information about the problem. 
     
 3. Review the site collection upgrade log files. You can review the site collection upgrade logs from the following locations:
-    
-  - **For site collection administrators:** There are also log files for site collection upgrade stored inside the site collection itself, in the Maintenance Logs catalog at (http://<SiteName>/_catalogs/MaintenanceLogs/YYYYMMDD-HHMMSS-SSS.txt , where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). 
+
+  - **For site collection administrators:** There are also log files for site collection upgrade stored inside the site collection itself, in the Maintenance Logs catalog at (`http://<SiteName>/_catalogs/MaintenanceLogs/YYYYMMDD-HHMMSS-SSS.txt`, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). 
     
   - **For farm administrators:** The site collection upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. The logs are named in the following format: SiteUpgrade-  _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). These file system logs have more information if you want details about issues. 
     

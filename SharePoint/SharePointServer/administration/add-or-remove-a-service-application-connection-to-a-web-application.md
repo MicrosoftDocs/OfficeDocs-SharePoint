@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to add or remove service application connections to a se
 
 # Add or remove service application connections from a web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When you create a service application in SharePoint Server, a service application connection is created. A service application connection is also referred to as an application proxy. A service application connection associates the service application to web applications via membership in a service application connection group (also referred to as application proxy group). 
   
@@ -70,7 +70,7 @@ You can add or remove service application connections to a service application c
    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -80,7 +80,7 @@ You can add or remove service application connections to a service application c
    Add-SPServiceApplicationProxyGroupMember -Identity < the service application proxy group > -Member <members to add to the service application proxy group>
    ```
 
-   For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
+   For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps&preserve-view=true).
     
 ### To remove a service application connection from a service application connection group by using PowerShell
 
@@ -97,7 +97,7 @@ You can add or remove service application connections to a service application c
    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -107,7 +107,7 @@ You can add or remove service application connections to a service application c
    Remove-SPServiceApplicationProxyGroupMember -Identity <SPServiceApplicationProxyGroupPipeBind> -Member <SPServiceApplicationProxyPipeBind >
    ```
 
-   For more information, see [Remove-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Remove-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
+   For more information, see [Remove-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Remove-SPServiceApplicationProxyGroupMember?view=sharepoint-ps&preserve-view=true).
     
 ## See also
 <a name="Section2"> </a>

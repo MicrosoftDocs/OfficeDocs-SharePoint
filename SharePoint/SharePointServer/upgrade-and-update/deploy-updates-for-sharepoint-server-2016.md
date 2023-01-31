@@ -8,8 +8,8 @@ ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,14 +20,14 @@ description: "Learn how to prepare for, download, install, and configure softwar
 
 # Deploy software updates for SharePoint Server 2016 and 2019
 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
-  
 Microsoft periodically releases software updates for SharePoint Server 2016 and 2019. The following articles provide information about the software update process for SharePoint Server 2016 and 2019.
   
 ## Articles about software updates for SharePoint Server 2016 and 2019
 
 |**Content**|**Description**|
-|:-----|:-----|:-----|
+|:-----|:-----|
 |[Software updates overview for SharePoint Server 2016](software-updates-overview.md) <br/> |Provides an overview of the software update process for SharePoint Server 2016.  <br/> |
 |[Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
 |[Video demo of Zero Downtime Patching in SharePoint Server 2016](video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md) <br/> |Learn how to patch a software update on servers in a SharePoint farm.  <br/> |   

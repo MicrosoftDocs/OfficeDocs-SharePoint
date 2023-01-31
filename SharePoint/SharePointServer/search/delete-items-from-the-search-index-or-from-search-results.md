@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 48d39f84-9698-4249-b7e0-b885c462622e
@@ -18,7 +18,7 @@ description: "Learn how to remove an item from the search index or SharePoint Se
 
 # Delete items from the search index or from search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 If you want to remove the metadata of an item from the search index or from the search results, you remove the URL of that item. To remove a URL from the search index, use the **Remove the Item from the Index** option that is available through the crawl log. To remove a URL from search results, use the **Search Result Removal** feature that allows for bulk URL removal. This can provide a more efficient method if many search results should be removed. 
   

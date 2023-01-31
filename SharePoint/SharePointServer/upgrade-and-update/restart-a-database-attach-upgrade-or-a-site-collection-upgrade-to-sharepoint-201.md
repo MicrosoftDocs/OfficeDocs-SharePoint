@@ -8,8 +8,8 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to restart a database-attach upgrade or a site collectio
 
 # Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 In some cases, you might have to restart upgrade to finish a database-attach upgrade from SharePoint 2010 Products to SharePoint 2013. For example: if a template or language pack is missing from the environment, or if you lose the connection to SQL Server, you will have to resolve the issue and then restart upgrade. You might also need to retry or restart a site collection upgrade if it was unable to complete.
   
@@ -45,7 +45,7 @@ If the upgrade ran into issues during the database-attach upgrade, you can resta
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. On the **Start** menu, click **All Programs**.
     
@@ -69,7 +69,7 @@ If the upgrade ran into issues during the database-attach upgrade, you can resta
   Get-SPContentDatabase -Identity <content_database_name>
   ```
 
-   For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
+   For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps&preserve-view=true) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
     
 ## Restart upgrade for a site collection
 <a name="DatabaseRestart"> </a>
@@ -118,7 +118,7 @@ Farm administrators can restart upgrade by using PowerShell.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. On the **Start** menu, click **All Programs**.
     

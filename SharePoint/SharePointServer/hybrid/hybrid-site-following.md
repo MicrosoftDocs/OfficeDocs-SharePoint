@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -25,7 +25,7 @@ description: "When a user follows a site, a link to that site is added to the us
 
 # Hybrid site following
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint in Microsoft 365, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the info from both locations into the SharePoint in Microsoft 365 list in Microsoft 365.
   

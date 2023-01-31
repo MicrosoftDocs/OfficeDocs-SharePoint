@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to restore a SharePoint Server farm."
 
 # Restore farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can restore a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, the backup schedule, and service level agreements that you have made with your organization.
   
@@ -91,7 +91,7 @@ You can use Microsoft PowerShell to restore a farm.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the SharePoint Management Shell.
     
@@ -130,7 +130,7 @@ You can use Microsoft PowerShell to restore a farm.
 
    Where _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
-For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
+For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps&preserve-view=true).
     
 For more information about how to restore the farm by using PowerShell_2nd_NoVer, see Restore-SPFarm.PShell_stsadm_deprecated
   

@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to back up customizations that are made to SharePoint Se
 
 # Back up customizations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can back up customizations that are made to SharePoint Server sites by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -69,7 +69,7 @@ Before you begin this operation, review the following list of possible customiza
 ## Back up solution packages in SharePoint Server
 <a name="proc1"> </a>
 
-Solution packages can be created by using SharePoint Designer or Visual Studio. We strongly recommend that all customizations be deployed as solution packages. For more information, see [Creating SharePoint Solution Packages](/visualstudio/sharepoint/creating-sharepoint-solution-packages?view=vs-2017).
+Solution packages can be created by using SharePoint Designer or Visual Studio. We strongly recommend that all customizations be deployed as solution packages. For more information, see [Creating SharePoint Solution Packages](/visualstudio/sharepoint/creating-sharepoint-solution-packages?view=vs-2017&preserve-view=true).
   
 A solution package is a deployable, reusable file that can contain a set of features, site definitions, and assemblies that apply to sites, and that you can enable or disable individually. Solution packages can include Web Parts, site or list definitions, custom columns, new content types, custom fields, custom actions, coded workflows, or workflow activities and conditions.
   
@@ -117,7 +117,7 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -131,7 +131,7 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     
    -  _\<UNC location\>_ is the UNC location of the directory where you store the backup file. 
     
-For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps).
+For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

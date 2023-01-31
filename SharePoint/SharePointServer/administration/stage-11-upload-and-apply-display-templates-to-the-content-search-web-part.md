@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1969091e-9013-49ae-b600-6d033b3b4cb5
@@ -18,7 +18,7 @@ description: "Learn how to upload and apply display templates to the Content Sea
 
 # Stage 11: Upload and apply display templates to the Content Search Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -124,7 +124,7 @@ Suddenly, our "Audio" page is looking like it has been to one of those makeover 
   
 Now our "Audio" page is looking really good. By using the paging arrows, we can easily browse through the different items in the "Audio" category.
     
-     ![Audio Paging](../media/OTCSP_AudioPaging.png)
+![Audio Paging](../media/OTCSP_AudioPaging.png)
   
 Now that our category page has a Contoso look, the next task is to apply display templates to the CSWP on our catalog item page.
   

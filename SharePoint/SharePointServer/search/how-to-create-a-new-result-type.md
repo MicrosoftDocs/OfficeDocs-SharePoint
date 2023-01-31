@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
 description: "Learn how to create a new result type in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to create a new result type in SharePoint Server."
 
 # How to create a new result type for classic search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article, you'll learn:
   
@@ -78,7 +78,7 @@ Before you create a new result type, you should create a new item display templa
   
 3. Open the new display template and change the \<title\> tag. Remember, the text in this tag is what will be shown when you do configurations in the SharePoint Server UI.
     
-    In our scenario, we changed the <title> tag to  *TechNet content*  . 
+    In our scenario, we changed the \<title> tag to  *TechNet content*. 
     
      ![Tech Net Title Tag](../media/OTCSP_TechNetTitleTag.png)
   
@@ -112,17 +112,17 @@ To save space, we'll only look at how to create a result type as a Site collecti
   
 3. On the Add Result Type page, here are the steps to follow:
     
-  - In the **Give it a name** field, enter a name for the new result type. 
+   - In the **Give it a name** field, enter a name for the new result type. 
     
-    In our scenario, we entered  *TechNet content*  . 
+     In our scenario, we entered  *TechNet content*  . 
     
-  - From the **Which source should results match** menu, select the result source that we have used to configure the query in our Search Result Web Part. 
+   - From the **Which source should results match** menu, select the result source that we have used to configure the query in our Search Result Web Part. 
     
-  - In the **What types of content should match? You can skip this rule to match all content** menu, all the default result type are listed. 
+   - In the **What types of content should match? You can skip this rule to match all content** menu, all the default result type are listed. 
     
     In our scenario, we chose **Select a value**. 
     
-  - Click **Show more conditions**. 
+   - Click **Show more conditions**. 
     
      ![Show More Conditions](../media/OTCSP_ShowMoreConditions.png)
   
@@ -152,6 +152,4 @@ To save space, we'll only look at how to create a result type as a Site collecti
     
 ### Next article in this series
 
-[How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
-  
-
+[How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md)

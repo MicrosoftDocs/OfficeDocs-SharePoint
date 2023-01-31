@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_OneDriveAdmin
@@ -22,7 +22,7 @@ description: "Learn the steps needed to set up OneDrive in a SharePoint Server o
 
 # Set up Microsoft OneDrive in a SharePoint Server on-premises environment
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > This article describes how to set up OneDrive in a SharePoint Server on-premises environment, and does not describe OneDrive in a Microsoft 365 environment. For more info about administering OneDrive, see [OneDrive admin help](/onedrive/onedrive). 

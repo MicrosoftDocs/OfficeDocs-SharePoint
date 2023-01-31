@@ -8,8 +8,8 @@ ms.date: 6/20/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -23,7 +23,7 @@ description: "Learn about the installation and configuration tasks that are requ
 
 # Install and configure SharePoint Server hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 By now, you've reviewed the [planning information for your hybrid solution](plan-sharepoint-server-hybrid.md). It's time to get started with the installation and configuration tasks for your chosen solution.
   

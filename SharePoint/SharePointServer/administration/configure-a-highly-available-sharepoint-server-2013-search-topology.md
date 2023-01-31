@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 716b294b-3e99-4862-aede-5a686d8b5b6c
 description: "Learn how to configure search for high availability by using the computers in the Configure SharePoint Server 2013 in a three-tier farm test lab."
@@ -17,7 +17,7 @@ description: "Learn how to configure search for high availability by using the c
 
 # Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology](configure-a-highly-available-sharepoint-server-2013-search-topology.md).
   

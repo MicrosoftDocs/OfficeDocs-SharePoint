@@ -8,8 +8,8 @@ ms.date: 2/21/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,10 +20,8 @@ description: "Learn how to upgrade My Sites in SharePoint Server 2013."
 
 # Upgrade My Sites to SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-## 
-
 My Sites are site collections owned by the user for the user to store their documents, connect with other users, follow and discover content, and so on. Upgrading My Sites differs from upgrading other site collections because My Sites consist of both the shared My Site Host site collection (also known as the My Site Host) and the My Site personal site collection (also known as the personal site collection). 
   
 - **My Site Host.** The My Site Host is a special site collection shared among all My Site users. The My Site Host is used to show the profile (person.aspx) and newsfeed pages (default.aspx) on the My Site. The My Site Host is also used for storing the user profile photos. 
@@ -50,7 +48,7 @@ Before you start to upgrade from SharePoint Server 2010 to SharePoint Server 201
 - Consider whether you have to upgrade from classic-mode to claims-based authentication in SharePoint Server 2013. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md)
     
 > [!IMPORTANT]
-> This list highlights some important things to consider when you perform an upgrade of My Sites. For a detailed discussion on upgrades, see [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md)
+> This list highlights some important things to consider when you perform an upgrade of My Sites. For a detailed discussion on upgrades, see [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-2013.md)
   
 ## Procedure to upgrade My Sites
 <a name="procUMS"> </a>
@@ -177,5 +175,4 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
-
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore)

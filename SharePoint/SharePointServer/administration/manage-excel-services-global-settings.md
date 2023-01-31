@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 0d74b6bb-0355-4d18-b5fb-def0aca566d9
 description: "Edit Excel Services settings for security, load balancing, memory, cache, and external data by using the SharePoint Central Administration website."
@@ -17,7 +17,7 @@ description: "Edit Excel Services settings for security, load balancing, memory,
 
 # Manage Excel Services global settings (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 

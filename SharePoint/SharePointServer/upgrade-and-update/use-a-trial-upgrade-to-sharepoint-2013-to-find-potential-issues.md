@@ -8,8 +8,8 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Prepare for upgrade to SharePoint 2013 by testing the upgrade proc
 
 # Use a trial upgrade to SharePoint 2013 to find potential issues
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Before you start an upgrade from SharePoint 2010 Products to SharePoint 2013, you should test the upgrade process to make sure that you know exactly what you have to do to have a successful upgrade. A trial upgrade to test the process can reveal the following issues:
   
@@ -125,7 +125,7 @@ To have an accurate test process, you must find all the customizations in your c
   
 After you identify all the customizations, copy them to the appropriate servers in your test farm. Ensure that the following customizations are deployed:
   
-- Solutions - by default legacy solutions are deployed to the /14 directories. Use the **CompatibilityLevel** parameter when you install the solutions to deploy them to the /15 directories. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-ps).
+- Solutions - by default legacy solutions are deployed to the /14 directories. Use the **CompatibilityLevel** parameter when you install the solutions to deploy them to the /15 directories. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution).
     
 - Custom Master Pages
     
@@ -196,7 +196,7 @@ Verify that the site collections that were not upgraded work as expected in 2010
   
 ### Run upgrade again, if it is necessary
 
-If you have to, you can restart the upgrade process for a database by using the **Upgrade-SPContentDatabase** Microsoft PowerShell cmdlet. For more information about this cmdlet, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps). For more information, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)).
+If you have to, you can restart the upgrade process for a database by using the **Upgrade-SPContentDatabase** Microsoft PowerShell cmdlet. For more information about this cmdlet, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase). For more information, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)).
   
 ## Upgrade site collections and My Sites
 <a name="UpgradeSites"> </a>
@@ -227,8 +227,8 @@ Repeat the testing process until you are sure that you have found all the issues
   
 [Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14))
   
-[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-0.md)
+[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)

@@ -9,7 +9,8 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.custom: admindeeplinkSPO
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 81890ff0-e2f9-4752-8e8e-2e8502c76311
@@ -18,7 +19,7 @@ description: "Learn how to view, add, edit, map, and delete crawled properties, 
 
 # Manage the search schema in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The search schema in SharePoint Server determines how content is collected in and retrieved from the search index in SharePoint Server.
   
@@ -237,7 +238,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
+  - For the tenant, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
 3. On the Managed Properties page, click **New Managed Property**.
@@ -270,7 +271,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
+  - For the tenant, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
 3. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](manage-the-search-schema.md#DefaultUnusedMPs) table for more details. Point to the managed property, click the arrow, and then click **Edit/Map property**.

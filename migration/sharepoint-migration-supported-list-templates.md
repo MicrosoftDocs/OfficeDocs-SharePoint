@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - Strat_SP_gtc
@@ -95,3 +96,6 @@ The following table details SharePoint List templates and which ones are support
 |1220|HealthRules|Health Rules. Value = 1220|No|
 |1221|HealthReports|Health Reports. Value = 1221|No|
 |1230|DeveloperSiteDraftApps|Draft Apps library in Developer Site. Value = 1230|No|
+
+> [!NOTE]
+> Sites Pages (for example, a Wiki Page Library) migration is available only when the source selected is _all lists, libraries, pages, and web parts_ because SPMT treats it as part of the whole site.

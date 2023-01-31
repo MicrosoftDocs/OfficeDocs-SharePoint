@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 411e0fa7-2a27-4883-93ac-a2fd228e40d8
 description: "Learn how to configure the unattended service account for PerformancePoint Services."
@@ -17,10 +17,13 @@ description: "Learn how to configure the unattended service account for Performa
 
 # Configure the unattended service account for PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The unattended service account is an Active Directory account that is used for accessing PerformancePoint Services data sources. This account is used by PerformancePoint Services on behalf of authorized users to provide access to external data sources for the purposes of creating and using dashboards and other PerformancePoint Services content. To configure the unattended service account, see [Configure the unattended service account for PerformancePoint Services](#section1) in this article. 
-  
+
+> [!NOTE]
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+
 > [!NOTE]
 > The unattended service account is a universal account that provides equal data access to all authorized users. If you need more fine-grained data access, see [Configure Secure Store for use with PerformancePoint Services](configure-secure-store-for-use-with-performancepoint-services.md). 
   

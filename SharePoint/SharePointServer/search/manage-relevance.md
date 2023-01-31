@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 76e31e76-afb3-4f2f-b3cb-f3b42886fb6e
@@ -18,7 +18,7 @@ description: "Learn how you can configure settings to provide the most relevant 
 
 # Manage search relevance in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about how you manage relevance to improve classic search results in SharePoint Server. Some settings also impact the modern search results, see [Differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 

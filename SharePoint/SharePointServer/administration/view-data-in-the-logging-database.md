@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c5c6fd31-d747-49c0-9784-b4f29bd82809
@@ -18,7 +18,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 
 # View data in the logging database in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 - [Introduction to the SharePoint logging database](#section1)
     
@@ -27,7 +27,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 - [Custom SQL views in the SharePoint logging database](#section3)
     
 > [!NOTE]
->  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
+>  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-2016-2019.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 ## Introduction to the SharePoint logging database
 <a name="section1"> </a>
@@ -101,53 +101,53 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
     
     The operation **Select Top 1000 Rows** is the following T-SQL query script: 
     
-  ```
-  /****** Script for SelectTopNRows command from SSMS ******/
-  SELECT TOP 1000 [PartitionId]
-        ,[RowId]
-        ,[LogTime]
-        ,[MachineName]
-        ,[FarmId]
-        ,[SiteSubscriptionId]
-        ,[UserLogin]
-        ,[CorrelationId]
-        ,[WebApplicationId]
-        ,[ServerUrl]
-        ,[SiteId]
-        ,[SiteUrl]
-        ,[WebId]
-        ,[WebUrl]
-        ,[DocumentPath]
-        ,[ContentTypeId]
-        ,[QueryString]
-        ,[BytesConsumed]
-        ,[HttpStatus]
-        ,[SessionId]
-        ,[ReferrerUrl]
-        ,[ReferrerQueryString]
-        ,[Browser]
-        ,[UserAgent]
-        ,[UserAddress]
-        ,[RequestCount]
-        ,[QueryCount]
-        ,[QueryDurationSum]
-        ,[ServiceCallCount]
-        ,[ServiceCallDurationSum]
-        ,[OperationCount]
-        ,[Duration]
-        ,[RequestType]
-        ,[Title]
-        ,[RowCreatedTime]
-    FROM [SharePoint_Logging].[dbo].[RequestUsage]
-  ```
+      ```
+      /****** Script for SelectTopNRows command from SSMS ******/
+      SELECT TOP 1000 [PartitionId]
+            ,[RowId]
+            ,[LogTime]
+            ,[MachineName]
+            ,[FarmId]
+            ,[SiteSubscriptionId]
+            ,[UserLogin]
+            ,[CorrelationId]
+            ,[WebApplicationId]
+            ,[ServerUrl]
+            ,[SiteId]
+            ,[SiteUrl]
+            ,[WebId]
+            ,[WebUrl]
+            ,[DocumentPath]
+            ,[ContentTypeId]
+            ,[QueryString]
+            ,[BytesConsumed]
+            ,[HttpStatus]
+            ,[SessionId]
+            ,[ReferrerUrl]
+            ,[ReferrerQueryString]
+            ,[Browser]
+            ,[UserAgent]
+            ,[UserAddress]
+            ,[RequestCount]
+            ,[QueryCount]
+            ,[QueryDurationSum]
+            ,[ServiceCallCount]
+            ,[ServiceCallDurationSum]
+            ,[OperationCount]
+            ,[Duration]
+            ,[RequestType]
+            ,[Title]
+            ,[RowCreatedTime]
+        FROM [SharePoint_Logging].[dbo].[RequestUsage]
+      ```
 
     The top 1000 rows of the table category **Request Usage** appear in the result window. 
     
 4. You can modify the T-SQL query in the SQL editor window. For example, if there are more than 1000 rows in the tables, you might want to view the top 5000 rows. To do that, change the script by replacing "SELECT TOP 1000" with "SELECT TOP 5000", and then click **Execute**.
-    
-If you want to view logs by using tools other than Management Studio, you can extract the monitoring information from the views and save as a text file or a CSV file. In the following procedure, Excel is used as an example. 
-  
- **To export and view the logging data by using Excel**
+
+If you want to view logs by using tools other than Management Studio, you can extract the monitoring information from the views and save as a text file or a CSV file. In the following procedure, Excel is used as an example.
+
+**To export and view the logging data by using Excel**
   
 1. Verify that the user account that is performing this procedure has the **db_owner** fixed database role. 
     
@@ -155,7 +155,7 @@ If you want to view logs by using tools other than Management Studio, you can ex
     
 3. Expand the **Views** node, right-click the view from which you want to extract data, and then click **Select Top 1000 Rows**.
     
-4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As…**.
+4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As...**.
     
 5. In the **Save Grid Results** window, specify the folder in which you want to save the file, specify the **Save as type** as CSV(Comma delimited), and then specify an appropriate file name. 
     

@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to export a site, list, or document library in SharePoin
 
 # Export sites, lists, or document libraries in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can export a site, list, or document library in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization. 
   
@@ -55,7 +55,7 @@ You can use PowerShell to export a site, list, or document library manually or a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -79,7 +79,7 @@ You can use PowerShell to export a site, list, or document library manually or a
     
     The  `NoFileCompression` parameter lets you specify that no file compression is performed during the export process. Using this parameter can lower resource usage up to 30% during the export process. Using this parameter will result in a backup folder being created instead of a compressed file. If you use the  `NoFileCompression` parameter in the  `Export-SPWeb` command, you must also use it when you import the content by using the  `Import-SPWeb` command. 
     
-For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps). 
+For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps&preserve-view=true). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -133,5 +133,5 @@ You can use Central Administration to export a site, list, or document library. 
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
 #### Other Resources
 
-[Use Windows PowerShell to administer SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Use Windows PowerShell to administer SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
 

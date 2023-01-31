@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7a690328-78c5-4dc2-b03f-30165ad186c1
@@ -18,7 +18,7 @@ description: "Learn about the default result types and display templates that ar
 
 # Result types and display templates that are used to display classic search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server includes many default search features that do a great job in helping users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business. To customize how search results look and what information they contain, you can create new result types and display templates or change existing ones. This article does not describe how you can do this, but gives an overview of the default result types and display templates that are used to display search results.
   

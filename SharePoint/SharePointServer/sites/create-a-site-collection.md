@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "How to create a SharePoint Server site collection in an existing w
 
 # Create a site collection in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 A site collection is a grouping of websites under a common top-level site that have the same owner and share administration settings, for example, permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. For info about creating site collections in SharePoint, see [Create a site collection](../../SharePointOnline/create-site-collection.md).
   
@@ -99,7 +99,7 @@ You typically use Microsoft PowerShell to create a site collection when you want
    New-SPSite -Url "<URL for the new site collection>" -OwnerAlias "<domain\user>" -Template $template
    ```
 
-    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) and [Get-SPWebTemplate](/powershell/module/sharepoint-server/Get-SPWebTemplate?view=sharepoint-ps).
+    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps&preserve-view=true) and [Get-SPWebTemplate](/powershell/module/sharepoint-server/Get-SPWebTemplate?view=sharepoint-ps&preserve-view=true).
     
     We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
     

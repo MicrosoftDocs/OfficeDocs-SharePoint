@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 937a136c-7cc1-4e61-8a2c-2161d484c13f
@@ -19,14 +19,14 @@ description: "Learn to configure SharePoint Server Health Analyzer rules by usin
 
 # Configure SharePoint Health Analyzer rules in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 ## Before you begin
 <a name="begin"> </a>
 
 Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:
   
-- [Plan browser support](../install/browser-support-planning-0.md)
+- [Plan browser support](../install/browser-support-planning-2016-2019.md)
     
 - [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)
     

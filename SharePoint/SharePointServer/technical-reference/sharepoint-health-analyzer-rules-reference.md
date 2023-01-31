@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to troubleshoot problems in SharePoint Server using Shar
 
 # SharePoint Health Analyzer rules reference for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The Health Analyzer rules in this section are arranged by categories, as they appear in the Health Analyzer Rule Definitions page in the SharePoint Central Administration website.
   
@@ -32,6 +32,12 @@ The following Health Analyzer rules relate to security in SharePoint Server:
 - [Accounts used by application pools or service identities are in the local machine Administrators group (SharePoint Server)](accounts-used-by-application-pools-or-service-identities-are-in-the-local-machin.md)
     
 - [Business Data Connectivity connectors are currently enabled in a partitioned environment (SharePoint Server)](business-data-connectivity-connectors-are-currently-enabled-in-a-partitioned-env.md)
+
+- [Upcoming SSL certificate expirations (SharePoint Server Subscription Edition)](upcoming-ssl-certificate-expirations.md)
+
+- [SSL certificates are about to expire (SharePoint Server Subscription Edition)](ssl-certificates-expire.md)
+
+- [SSL certificates have expired (SharePoint Server Subscription Edition)](ssl-certificates-have-expired.md)
     
 - [Web Applications using Claims authentication require an update (SharePoint Server)](web-applications-using-claims-authentication-require-an-update.md)
     
@@ -80,6 +86,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [Automatic Update setting inconsistent across farm servers (SharePoint Server 2016)](automatic-update-setting-inconsistent-across-farm-servers.md)
     
 - [Built-in accounts are used as application pool or service identities (SharePoint Server)](built-in-accounts-are-used-as-application-pool-or-service-identities.md)
+
+- [Certificate notification contacts haven't been configured (SharePoint Server Subscription Edition)](certificate-notification-contacts-haven't-been-configured.md)
     
 - [Missing server side dependencies (SharePoint Server)](missing-server-side-dependencies.md)
     
@@ -151,7 +159,7 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
     
 - [Verify that OAuth is configured correctly for the Machine Translation Service application proxy (SharePoint Server)](verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap.md)
     
-- [Verify that OAuth is configured correctly for the Machine Translation Service application (SharePoint Server)](verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap-0.md)
+- [Verify that OAuth is configured correctly for the Machine Translation Service application (SharePoint Server)](verify-oauth-configured-correctly-machine-translation.md)
     
 - [Immediate translations for the Machine Translation service are disabled (SharePoint Server)](immediate-translations-for-the-machine-translation-service-are-disabled.md)
     

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e8c0fccd-8364-4352-8778-c9c46a668b70
@@ -18,7 +18,7 @@ description: "Create a well-designed plan to install and configure search in Sha
 
 # Plan search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
 
@@ -28,7 +28,7 @@ The following articles provide information about the planning you need to do to 
 
 The following articles about planning search in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+| &nbsp; | Content | Description |
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of search architecture in SharePoint Server](search-architecture-overview.md) <br/> |Learn about the different search components and databases and their role within the search topology.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md) <br/> |Learn how to plan a small, medium or large enterprise search architecture.  <br/> |

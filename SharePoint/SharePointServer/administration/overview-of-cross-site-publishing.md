@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f6c7b56e-f684-45d9-8752-67fff01c1728
@@ -18,7 +18,7 @@ description: "Learn how you can use cross-site publishing and Search Web Parts t
 
 # Overview of cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Cross-Site Collection Publishing feature in SharePoint Server works in the following way: you use one or more authoring site collections to author and store content, and one or more publishing site collections to control the design of the site and to show the content. The functionality provided by this feature is referred to as cross-site publishing. The authoring site collection contains catalogs, such as Pages libraries and lists, which contain content that is tagged with metadata. These catalogs are indexed by the search system and made available to the publishing site collection. The publishing site collection issues queries for data that has been indexed and shows it on web pages by using Web Parts that use search technology (referred to in this article as Search Web Parts). You brand content on the publishing site by using master pages, page layouts, and display templates.
   

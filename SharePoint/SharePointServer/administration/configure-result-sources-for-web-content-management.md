@@ -9,17 +9,17 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3e5c9a22-816a-4eaf-90ba-3f208185e683
 
-description: "Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is Local SharePoint Results. You can specify a different result source as the default. In addition to the pre-configured result sources, SharePoint Server automatically creates a result source when you connect a publishing site to a catalog, and adds it to the result sources in the publishing site. This result source limits search results to the URL of the catalog. For more information about result sources, seePlan result sources and query rulesin Plan search for cross-site publishing sites in SharePoint Server 2016."
+description: "Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is Local SharePoint Results. You can specify a different result source as the default. In addition to the pre-configured result sources, SharePoint Server automatically creates a result source when you connect a publishing site to a catalog, and adds it to the result sources in the publishing site. This result source limits search results to the URL of the catalog. For more information about result sources, seePlan result sources and query rules in Plan search for cross-site publishing sites in SharePoint Server 2016."
 ---
 
 # Configure result sources for web content management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. In addition to the pre-configured result sources, SharePoint Server automatically creates a result source when you connect a publishing site to a catalog, and adds it to the result sources in the publishing site. This result source limits search results to the URL of the catalog. For more information about result sources, see "Plan result sources and query rules" in [Plan search for cross-site publishing sites in SharePoint Server 2016](plan-search-for-sharepoint-cross-site-publishing-sites.md). 
   
@@ -28,7 +28,7 @@ Result sources limit searches to certain content or to a subset of search result
 <a name="BKMK_Before"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-2016-2019.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 We recommend that you set up the publishing site, integrate a catalog, and configure category and catalog item pages before you begin to create result sources. This is because you can then more easily test and verify how the different result sources apply to the different Search Web Parts that you have on the site.
   
@@ -97,7 +97,7 @@ You can create a result source for a Search service application, a site collecti
   - **The Exchange protocol only enables you to discover Exchange Server 2013 content**vides results from Microsoft Exchange Server 2013 through a SharePoint Server 2016 eDiscovery Center. Click **Use AutoDiscover** to have the search system find an Exchange Server 2013 endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx.
     
     > [!NOTE]
-    >  The Exchange protocol only enables you to discover Exchange Server content, and only from a SharePoint Server eDiscovery Center. For more information, see [Configure communication between SharePoint Server and Exchange Server](../governance/configure-ediscovery-0.md). >  The Exchange Web Services Managed API must be installed on the computer on which the search service is running. For more information, see [Optional software supported in SharePoint Server 2016](../install/hardware-and-software-requirements.md#OptionalSoftware) in [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). 
+    >  The Exchange protocol only enables you to discover Exchange Server content, and only from a SharePoint Server eDiscovery Center. For more information, see [Configure communication between SharePoint Server and Exchange Server](../governance/configure-ediscovery-2019.md). >  The Exchange Web Services Managed API must be installed on the computer on which the search service is running. For more information, see [Optional software supported in SharePoint Server 2016](../install/hardware-and-software-requirements.md#OptionalSoftware) in [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). 
   
 5. In the **Type** section, select **SharePoint Search Results** to search the whole index, or **People Search Results** to enable query processing that is specific to people search. 
     
@@ -112,28 +112,27 @@ You can create a result source for a Search service application, a site collecti
 1. Click **Launch Query Builder**.
     
 2. In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables. 
-    
-  - 
-   **On the BASICS tab**
 
-|||
+ **On the BASICS tab**
+
+|**Filter type**|**Description**|
 |:-----|:-----|
 |**Keyword filter** <br/> |You can use keyword filters to add pre-defined query variables to the query transform. You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> For an overview of query variables, see [Query variables in SharePoint Server](../technical-reference/query-variables.md).  <br/> |
 |**Property filter** <br/> |You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema.  <br/> You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query.  <br/> |
    
-  - 
-   **On the SORTING tab**
+  
+ **On the SORTING tab**
 
-|||
+|**Sorting types**|**Description**|
 |:-----|:-----|
-|**Sort results** <br/> |In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results.  <br/> > [!NOTE]> Sorting of search results is case sensitive.           |
+|**Sort results** <br/> |In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results.  <br/> Note that sorting of search results is case sensitive.|
 |**Ranking Model** <br/> |If you selected  *Rank*  from the **Sort by** list, you can select the ranking model to use for sorting.  <br/> |
 |**Dynamic ordering** <br/> |You can click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are satisfied.  <br/> |
    
-  - 
+  
    **On the TEST tab**
 
-|||
+|**Query types**|**Description**|
 |:-----|:-----|
 |**Query text** <br/> |You can view the final query text, which is based on the original query template, the applicable query rules, and the variable values.  <br/> |
 |Click **Show more** to display the options in the following rows of this table.  <br/> ||

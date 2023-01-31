@@ -7,7 +7,7 @@ ms.audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -17,7 +17,7 @@ description: "Learn about deploying and managing virtual machines for SharePoint
 
 # Plan for virtualization of SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
 
 SharePoint Server may be deployed as a virtual server on Hyper-V or other platforms supported as part of the [Server Virtualization Validation Program](https://www.windowsservercatalog.com/svvp.aspx). Virtual machines provide increased flexibility for IT administrators.
 
@@ -49,4 +49,4 @@ Do not create a template from a virtual machine running SharePoint Server that i
 
 [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md)
 
-[Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+[Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)

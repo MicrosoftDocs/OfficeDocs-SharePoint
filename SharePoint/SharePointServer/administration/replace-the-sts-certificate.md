@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -18,7 +18,7 @@ description: "Learn how to replace the STS certificate with a new certificate fr
 
 # Replace the STS certificate for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 This topic provides information on replacing the SharePoint Security Token Service (STS) certificate in a SharePoint farm.
 
@@ -92,7 +92,7 @@ From an elevated Command Prompt, run the following to create and install the cer
 certreq -new request.inf
 certutil -store My "sts.contoso.com"
 ````
-copy the SerialNumber output from the second command and use it in the following command. Replace <SerialNumber> with the actual value.
+copy the SerialNumber output from the second command and use it in the following command. Replace \<SerialNumber\> with the actual value.
   
 ```
 certutil -exportPFX -p "P@ssw0rd1!" CA <SerialNumber> C:\sts.pfx
@@ -125,7 +125,7 @@ In this example, we import the PFX file using `certutil`, specifying the passwor
 
 ## Replace the STS Certificate in SharePoint
 
-Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps) for details on how to add a SharePoint Shell Administrator) to perform this operation.
+Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true) for details on how to add a SharePoint Shell Administrator) to perform this operation.
 
 Using the SharePoint Management Shell, we will specify the path to the PFX file, set the password, set the STS to use the new certificate, restart IIS, and finally restart the SharePoint Timer Service (SPTimerV4).
 
@@ -143,10 +143,6 @@ Complete the previous steps on all SharePoint server in the farm. This completes
 ## See Also
 
 [Hybrid for SharePoint Server](../hybrid/hybrid.md)
-
-[Export-PfxCertificate](/powershell/module/pkiclient/export-pfxcertificate?view=win10-ps)
-
-[Export-Certificate](/powershell/module/pkiclient/export-certificate?view=win10-ps)
 
 [Certreq](/windows-server/administration/windows-commands/certreq_1)
 

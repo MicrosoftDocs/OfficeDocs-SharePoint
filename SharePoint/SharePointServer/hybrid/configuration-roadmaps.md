@@ -8,8 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -24,7 +24,7 @@ description: "Learn about the roadmaps that guide you through the steps you need
 
 # SharePoint Server hybrid configuration roadmaps
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 These roadmaps guide you through the steps you need to follow to set up the hybrid features of your choice. Be sure to follow each step in the roadmap. (If you follow more than one roadmap, there's no need to repeat the steps that are the same. )
   

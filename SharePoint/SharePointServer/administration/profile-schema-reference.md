@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 05bdd5cb-2c97-40ca-bbac-bb91d300ad5c
@@ -18,7 +18,7 @@ description: "Understand the XML schema for profiles for use in scripted monitor
 
 # Profile schema reference in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When you run the BackupMonitoringSettings.ps1 Microsoft PowerShell script on a SharePoint farm, you create a file that's called a Profile. The Profile follows an XML schema. You can modify settings of elements of the schema to create a custom Profile. You can then use the custom Profile to automate configuration of the monitoring settings in a SharePoint environment. For an introduction to scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   
@@ -132,12 +132,12 @@ Use the following table for the LogLevel settings.
 
 **The elements of the LogLevel settings**
 
-|**Name**|**Value Type**|**Notes**|
+|Name|Value Type|Notes|
 |:-----|:-----|:-----|
 |Area  <br/> |String: **Read-Only** <br/> |The component or service that the LogLevel applies to.  <br/> |
 |Identity  <br/> |String: **Read-Only** <br/> |Specifies the names of the category or set of categories to set the throttle for; for example, "Unified Logging Service".  <br/> **Note:** <br/> If the Identity parameter is not specified, the event-throttling setting is applied to all categories in the farm.  <br/> |
-|EventSeverity  <br/> |String:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |Specifies the category level to be set. The category level is any one of the following values:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |
-|TraceSeverity  <br/> |String:[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |Specifies trace throttle to set the specified categories to. The trace log files are text files that are written to the trace log path that is defined on the Diagnostic Logging Settings page on the the SharePoint Central Administration website. The type must be any one of the following values::[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |
+|EventSeverity  <br/> |String:[None \| ErrorCritical \|Error \| Warning \|Information \| Verbose]  <br/> |Specifies the category level to be set. The category level is any one of the following values:[None \| ErrorCritical \|Error \| Warning \|Information \| Verbose]  <br/> |
+|TraceSeverity  <br/> |String:[None \| Unexpected \|Monitorable \| High \|Medium \| Verbose \| VerboseX]  <br/> |Specifies trace throttle to set the specified categories to. The trace log files are text files that are written to the trace log path that is defined on the Diagnostic Logging Settings page on the the SharePoint Central Administration website. The type must be any one of the following values::[None \| Unexpected \|Monitorable \| High \|Medium \| Verbose \| VerboseX]  <br/> |
    
 Use the following table for the TimerJob settings.
 

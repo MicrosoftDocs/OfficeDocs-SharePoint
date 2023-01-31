@@ -1,8 +1,8 @@
 ---
 title: "Plan an intelligent SharePoint intranet"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -15,6 +15,8 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365solution-spintranet
+- m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:

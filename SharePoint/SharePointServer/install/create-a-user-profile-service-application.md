@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 25d888b2-035a-40b4-a2b9-a496657a36e3
 description: "Learn how to configure a User Profile service application in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to configure a User Profile service application in Share
 
 # Create a User Profile service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The User Profile service is a shared service in SharePoint Server that provides a central location for configuring and managing [user profiles](user-profile-service-overview.md).
   

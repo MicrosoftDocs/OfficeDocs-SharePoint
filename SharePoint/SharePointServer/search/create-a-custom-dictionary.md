@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms:assetid: c686f4f8-deda-4e15-8fbb-b1e130f2c6d5
@@ -18,7 +18,7 @@ description: "Learn about word breakers, normalizations and thesaurus files, sup
 
 # Create a custom dictionary
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 A custom dictionary is a file that an administrator creates to specify tokens that the word breaker of a particular language should treat as indivisible at index time and at query time. Custom dictionary files are not provided with the product. You must create a separate custom dictionary for each language for which you want to modify the behavior of a word breaker.
 

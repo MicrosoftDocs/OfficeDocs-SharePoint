@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c6284830-1127-472d-9610-8a0b9b0298aa
 description: "Excel Services in SharePoint Server 2013 enables you to work with different external data sources to create reports, scorecards, and dashboards that remain up to date automatically."
@@ -17,7 +17,7 @@ description: "Excel Services in SharePoint Server 2013 enables you to work with 
 
 # Share data connections by using Excel and Excel Services (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Excel can connect to lots of different data sources. These include SQL Server, a SharePoint list, an Access database, an Azure DataMarket Feed, an OData feed, and so on. Many of the data connections that you can use in Excel are supported as data connections in Excel Services. This means that people can refresh data in Excel Services reports, scorecards, and dashboards that use those data connections. More specifically, Excel Services supports connections to SQL Server tables, SQL Server Analysis Services cubes, and custom OLE DB/ODBC data providers.
   

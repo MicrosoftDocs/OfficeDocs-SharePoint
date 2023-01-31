@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c75f3390-283f-4380-b740-e672ea8b933d
@@ -18,7 +18,7 @@ description: "Learn which connectors that by default are installed in SharePoint
 
 # Default connectors in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The crawler uses connectors to connect to content repositories. In previous SharePoint Server products, connectors were known as protocol handlers.
   
@@ -26,7 +26,7 @@ The crawler uses connectors to connect to content repositories. In previous Shar
 
 The following table lists the connectors that by default are installed in SharePoint Server, and to which content repositories they connect.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Connector** <br/> |**Content repository** <br/> |
 |Bcs  <br/> |Business Connectivity Services (internal protocol)  <br/> |

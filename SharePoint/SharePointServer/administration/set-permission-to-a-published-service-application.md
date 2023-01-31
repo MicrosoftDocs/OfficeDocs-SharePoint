@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to configure permissions to the Application Discovery an
 
 # Set permissions to published service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, you must establish a relationship between the publishing farm and the consuming farm by giving the consuming farm permission to the Application Discovery and Load Balancing Service Application on the publishing farm. After doing this, the consuming farm can be given permission to other service applications.
   
@@ -47,7 +47,7 @@ The first procedure explains how to set permission to the Application Discovery 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -57,7 +57,7 @@ The first procedure explains how to set permission to the Application Discovery 
    Get-SPFarm | Select Id
    ```
 
-   For more information, see [Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps).
+   For more information, see [Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps&preserve-view=true).
     
 4. On a server in the publishing farm, access the SharePoint Management Shell and at the PowerShell command prompt, type the following commands:
     
@@ -73,17 +73,17 @@ The first procedure explains how to set permission to the Application Discovery 
     
     For more information, see the following:
     
-  - [Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
+  - [Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps&preserve-view=true)
     
-  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
-  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
+  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
-  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true)
     
-  - [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
+  - [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps&preserve-view=true)
     
-  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
     
 ### To set permission to a published service application for a consuming farm by using PowerShell
 
@@ -100,7 +100,7 @@ The first procedure explains how to set permission to the Application Discovery 
    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -122,15 +122,15 @@ The first procedure explains how to set permission to the Application Discovery 
     
     For more information, see the following:
     
-  - [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+  - [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
     
-  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true)
     
-  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
+  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
-  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
     
-  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
 ## Set permission to the Application Discovery and Load Balancing Service Application and any other published service application for a consuming farm by using Central Administration
 <a name="section2"> </a>

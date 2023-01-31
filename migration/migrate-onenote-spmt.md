@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -40,3 +41,5 @@ When you open the OneNote application, they appear like this:
 Folders are migrated to SharePoint as **OneNote Notebook** content rather than a normal folder with files. They'll appear in SharePoint like this:
 
 ![OneNote migration setting6](media/onenote-file-5.png)
+
+For this **OneNote Notebook** to appear in your Notebooks list in OneNote, select the **Show Actions** ellipses next to the notebook name in the Document library, then select **Open > Open in app**. Remember to first close the OneNote application for the already migrated notebooks.

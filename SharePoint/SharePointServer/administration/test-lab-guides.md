@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: adbb853e-d8ef-48bb-9ca1-55612809c680
 description: "Find the set of Test Lab Guides (TLGs) for SharePoint to gain valuable hands-on experience before planning and deployment."
@@ -17,12 +17,12 @@ description: "Find the set of Test Lab Guides (TLGs) for SharePoint to gain valu
 
 # Test lab guides for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following articles and related resources provide information about TLGs for SharePoint 2013. 
   
   
-||**Content**|**Description**|
+|&nbsp; |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Lab icon](../media/mod_icon_lab_M.png)|[Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md) <br/> |Describes the steps to configure a three-tier farm (web front-end, application, and database tiers) by using SharePoint 2013.  <br/> |
 ||[Test Lab Guide: Configure intranet and team sites for SharePoint Server 2013](configure-intranet-and-team-sites.md) <br/> |Describes the steps to configure intranet and team sites in the SharePoint 2013 three-tier farm test lab.  <br/> |
@@ -55,7 +55,7 @@ You might need additional software to view these files. See the following table 
 
 The following resources about TLGs are available.
   
-||**Content**|**Description**|
+|&nbsp; |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![TechNet logo](../media/otc_LandingPage_55px_MSTechNetLogo.png)|[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=253772) <br/> [SharePoint Server 2013 Test Lab](https://go.microsoft.com/fwlink/?LinkId=268358) <br/> | Visit the central Test Lab Guides portal in the TechNet Wiki for a description of TLG content and links to all the published TLGs.  <br/>  Visit this portal page in the TechNet Wiki for all of the TLG content for SharePoint 2013.  <br/>  Visit the Resource Center to access videos, community sites, documentation, and more.  <br/> |
 |**Blogs** <br/> ![Blogs](../media/otc_LandingPage_55px_Blogs.jpg)|[Microsoft Test lab Guides](/archive/blogs/tlgs/) <br/> |Visit this blog for the latest information about TLG content published across Microsoft.  <br/> |

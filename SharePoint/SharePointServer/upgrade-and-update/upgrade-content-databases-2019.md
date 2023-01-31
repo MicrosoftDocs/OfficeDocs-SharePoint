@@ -8,8 +8,8 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn how to upgrade content databases from SharePoint Server 2016
 
 # Upgrade content databases to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2019. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2019.
   
@@ -29,7 +29,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
 
 ![Phase 4 of the upgrade process: Upgrade content databases](../media/UpgradeContentDatabase_2019.png)
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases-2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
@@ -100,9 +100,9 @@ The installation for SharePoint Server 2019 continues to use 16 as its major ver
 
 To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2016 environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)).
   
-You can also use the [Get-SPWeb](/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps) cmdlet in your SharePoint Server 2016 environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2019 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps).
+You can also use the [Get-SPWeb](/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps&preserve-view=true) cmdlet in your SharePoint Server 2016 environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2019 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps&preserve-view=true).
   
-Before you attach the content databases to the web applications, use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to verify that you have all the custom components that you must have for that database. 
+Before you attach the content databases to the web applications, use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet to verify that you have all the custom components that you must have for that database. 
   
  **To verify custom components are available by using PowerShell**
   
@@ -117,7 +117,7 @@ Before you attach the content databases to the web applications, use the [Test-S
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint 2019 Management Shell.    
  
@@ -127,8 +127,10 @@ Before you attach the content databases to the web applications, use the [Test-S
   Test-SPContentDatabase -Name DatabaseName -WebApplication URL
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+
   -  _DatabaseName_ is the name of the database that you want to test. 
     
   -  _URL_ is the URL for the web application that will host the sites. 
@@ -143,7 +145,7 @@ When you attach a content database, you upgrade the database and add the site co
 When you attach a content database, for a web application that spans multiple content databases, make sure that you attach the content database that contains the root site collection first. In other words, before you continue, examine the root of the web application in the SharePoint Server 2016 server farm to determine the first site collection. After you attach the database that contains the root site, attach the other content databases for the web application in any order. You do not have to create any site collections to store the content before you attach the database. This process attaches the content databases and the site collections inside that database. Make sure that you do not add new site collections until you have restored all the content databases. 
   
 > [!TIP]
-> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps). 
+> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps&preserve-view=true) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps&preserve-view=true). 
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
@@ -153,16 +155,16 @@ By default, when you created the web applications in the new SharePoint Server 2
 > If you are moving the content databases across domains or forests or to another environment that has different service accounts, make sure that the permissions for the service accounts are still correct before you attach the databases. 
   
 > [!NOTE]
-> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your servers in the SharePoint Server 2019 environment before you start the upgrade process. Use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
+> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your servers in the SharePoint Server 2019 environment before you start the upgrade process. Use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet to identify custom elements that your sites might be missing. 
   
  **To attach a content database to a web application by using PowerShell**
   
-1. You must use the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet to attach a content database to a web application. Using the SharePoint Central Administration pages to attach a content database is not supported for upgrading. 
+1. You must use the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet to attach a content database to a web application. Using the SharePoint Central Administration pages to attach a content database is not supported for upgrading. 
     
-     If you want to delay the sites upgrade, you can use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. 
+     If you want to delay the sites upgrade, you can use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet. 
     
     > [!NOTE]
-    > Using the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet to attach a content database is the recommended behavior and option for upgrading databases and site collections in SharePoint Server 2016. 
+    > Using the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet to attach a content database is the recommended behavior and option for upgrading databases and site collections in SharePoint Server 2016. 
   
     Ensure that the account that you use to attach the databases is a member of the **db_owner** fixed database role for the content databases that you want to upgrade. 
     
@@ -177,7 +179,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint 2019 Management Shell.    
    
@@ -187,15 +189,17 @@ By default, when you created the web applications in the new SharePoint Server 2
   Mount-SPContentDatabase -Name DatabaseName -DatabaseServer ServerName -WebApplication URL
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+
   -  _DatabaseName_ is the name of the database that you want to upgrade. 
     
   -  _ServerName_ is server on which the database is stored. 
     
   -  _URL_ is the URL for the web application that will host the sites. 
     
-For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
+For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps&preserve-view=true). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
   
 ## Verify upgrade for the first database
 <a name="Status"> </a>
@@ -242,7 +246,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint 2019 Management Shell.
    
@@ -287,7 +291,7 @@ After you upgrade the databases, you might want to perform additional steps to m
     
     For more information, see [Back up farms in SharePoint Server](../administration/back-up-a-farm.md).
     
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    

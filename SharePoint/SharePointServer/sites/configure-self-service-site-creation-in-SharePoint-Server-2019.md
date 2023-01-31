@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -18,7 +18,7 @@ description: "Learn how to configure self-service site creation in different web
 
 # Configure self-service site creation in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 The self-service site creation experience in SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
 

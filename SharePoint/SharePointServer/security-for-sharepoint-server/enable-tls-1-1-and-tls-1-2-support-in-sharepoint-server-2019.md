@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "This article describes how to enable Transport Layer Security (TLS
 
 # Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)] 
   
 SharePoint Server 2019 supports TLS protocol versions 1.0, 1.1, and 1.2 by default. However, to enable end-to-end support for TLS protocol versions 1.1 and 1.2 in your SharePoint 2019 environment, you may need to install updates or change configuration settings in the following locations:
   
@@ -358,7 +358,7 @@ Microsoft has released an optional security update for .NET Framework 4.5, 4.5.1
   
  **For Windows 7 and Windows Server 2008 R2**
   
-- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see the KB article [Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014](https://support.microsoft.com/kb/2938782).
+- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see [MS14-026: Vulnerability in the .NET Framework could allow elevation of privilege: May 13, 2014](https://support.microsoft.com/topic/ms14-026-vulnerability-in-the-net-framework-could-allow-elevation-of-privilege-may-13-2014-0c1c8c0b-f2cc-6367-e54d-98f827259eab) (formerly published as KB article 2938782, "Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014").
     
 - To enable strong cryptography in .NET Framework 4.5.2 on Windows 7 and Windows Server 2008 R2, see the KB article [Description of the security update for the .NET Framework 4.5.2 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014](https://support.microsoft.com/kb/2954853).
     

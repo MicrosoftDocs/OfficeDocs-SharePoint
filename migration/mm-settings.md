@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -42,6 +43,8 @@ The following table details the settings available in the Migration Manager. Onl
 
 **Filters**
 
+The relationship between these filters is AND.
+
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migrate hidden files|If set to **Off**, hidden files will **not** be migrated.|
@@ -56,4 +59,4 @@ The following table details the settings available in the Migration Manager. Onl
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto rerun|Upon failure, retry task up to four times.|
-|Migration Manager work folder|A temporary working folder is created named `%appdata%\Microsoft\SPMigration`. </br></br> Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
+|Migration Manager working folder|A temporary working folder is created named `%appdata%\Microsoft\SPMigration`. </br></br> Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|

@@ -9,12 +9,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Series of illustrations and posters showing the Content Migration solutions into Microsoft 365.
 ---

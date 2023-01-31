@@ -8,8 +8,8 @@ ms.date: 10/20/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -29,7 +29,7 @@ description: "Connect your on-premises SharePoint Server environment with OneDri
 
 # Configure hybrid Microsoft OneDrive
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
  **This article is part of a roadmap of procedures for configuring SharePoint in Microsoft 365 hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
@@ -68,7 +68,7 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
   
  **To configure hybrid OneDrive**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) for your organization.
 
 2. Under **Hybrid picker**, select **Open**.
     

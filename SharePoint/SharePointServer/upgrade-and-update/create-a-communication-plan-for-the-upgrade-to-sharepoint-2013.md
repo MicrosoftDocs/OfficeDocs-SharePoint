@@ -8,8 +8,8 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Communicate timelines, requirements, and how to obtain help with s
 
 # Create a communication plan for the upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 It is important that you communicate with users during the upgrade process from SharePoint 2010 Products to SharePoint 2013. Site users have to know what to expect when they visit their sites again after you have upgraded the environment. Site owners have to know how they can help prepare for upgrade and what they have to do to upgrade their site collections in SharePoint 2013 and My Sites in SharePoint 2013. Both site users and site owners have to know when the upgrade will occur. As part of the planning process, determine the following:
   
@@ -52,7 +52,7 @@ For small deployments in which sites were not customized extensively, the upgrad
     
 - **Services administrators** You must communicate with the administrators for service applications, such as the Business Data Connectivity service, to make sure that they are ready for the upgrade and they can review or reconfigure the appropriate settings in the new version. 
     
-- **IT or application Helpdesk leadership and personnel** If you have a helpdesk for your company, make sure that they know about the timing for the upgrade and are prepared for questions after upgrade. Helpdesk should be a key stakeholder for planning and testing so that they can be understand the potential changes from an upgrade and the effect that it will have on users. 
+- **IT or application Helpdesk leadership and personnel** If you have a helpdesk for your company, make sure that they know about the timing for the upgrade and are prepared for questions after upgrade. Helpdesk should be a key stakeholder for planning and testing so that they can understand the potential changes from an upgrade and the effect that it will have on users. 
     
 - **Site collection owners** You must notify site collection owners when the upgrade process is about to occur. Warn them about any issues that you find when you run the pre-upgrade checker or when you upgrade their sites. You must also communicate with site collection owners about their role in upgrade. Site collection owners can upgrade their own sites in SharePoint 2013. Site collection owners can run health checks and review upgrade evaluation sites before they upgrade their sites. 
     

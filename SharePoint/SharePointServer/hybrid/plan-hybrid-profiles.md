@@ -1,5 +1,5 @@
 ---
-title: "Plan hybrid profiles"
+title: Plan hybrid profiles
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -8,8 +8,8 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -20,12 +20,12 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: ec40c4af-0344-43d3-97ac-5f91282db978
-description: "When you have both SharePoint Server and Microsoft 365, by default, users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, users have a single profile in Microsoft 365 where they can maintain all of their profile information."
+description: When you have both SharePoint Server and Microsoft 365, by default, users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, users have a single profile in Microsoft 365 where they can maintain all of their profile information.
 ---
 
 # Plan hybrid profiles
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 When you have both SharePoint Server and Microsoft 365, by default, users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, users have a single profile in Microsoft 365 where they can maintain all of their profile information.
   
@@ -56,7 +56,7 @@ The bulk update process works like this:
     
 3. A timer job running in SharePoint in Microsoft 365 checks for queued import requests and performs the import operation based on the API calls and information in the provided file.
     
-For more info about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=786318).
+For more info about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint in Microsoft 365](https://devblogs.microsoft.com/microsoft365dev/introducing-bulk-upa-custom-profile-properties-update-api/).
   
 ## Working with Delve in SharePoint hybrid deployments
 <a name="MovingProfileData"> </a>

@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to restrict access to a service application by adding an
 
 # Restrict or enable access to a service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, you can restrict the access to a service application so that the service application is available to only specified web applications. 
   
@@ -143,7 +143,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -267,7 +267,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 ### To restore local farm-wide access to a service application by using Microsoft PowerShell
 
-1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows Powershell ](#ProcWPSGetFID).
+1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows PowerShell](#ProcWPSGetFID).
     
 2. To restore the retrieved local farm ID to the service application security object $security, type the following commands:
     
@@ -333,18 +333,16 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
   
 [Get-SPWebApplication](./create-a-web-application.md)
   
-[New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+[New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps)
+[Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps&preserve-view=true)
   
-[Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+[Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
   
-[Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
+[Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
   
-[Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+[Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps)
-  
-[Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
+[Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps&preserve-view=true)

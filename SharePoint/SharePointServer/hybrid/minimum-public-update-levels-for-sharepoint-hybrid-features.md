@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -24,7 +24,7 @@ description: "This article is a reference for which public updates are required 
 
 # Minimum public update levels for SharePoint hybrid features
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 SharePoint Server offers a variety of hybrid scenarios to help connect you on-premises SharePoint environment to Microsoft 365. Since these features have been released over time, they may require a minimum Public Update (PU) in order to work. This article is a reference for which updates are required for each hybrid feature.
   
@@ -60,7 +60,6 @@ The following table shows the minimum PU requirements for hybrid features in Sha
 |[Hybrid self-service site creation](./hybrid-self-service-site-creation.md) <br/> |November 2017  <br/> |
 |[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
-|[Hybrid auditing](/article/sharepoint-hybrid-auditing-in-preview-3a379540-f72b-406f-866a-d6121715ec8c?ui=en-US&rs=en-US&ad=US) <br/> |November 2016  <br/> |
 |[Hybrid federated search](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |RTM  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |RTM  <br/> |

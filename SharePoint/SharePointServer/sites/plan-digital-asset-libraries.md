@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: d8635abe-1b1b-42db-95ff-ab9341d957e2
 description: "Learn how to plan storage and performance, permissions and security, metadata and search, Web Parts, views and filters, and client support."
@@ -17,7 +17,7 @@ description: "Learn how to plan storage and performance, permissions and securit
 
 # Plan digital asset libraries in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 The SharePoint Server 2013 asset library is a special kind of document library. It is a collection of media files — such as image, audio, and video files — that is shared with other site users. 
   

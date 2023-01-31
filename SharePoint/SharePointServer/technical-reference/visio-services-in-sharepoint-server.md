@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Resolve alerts in Visio Services in SharePoint Server: symptoms, c
 
 # Visio Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Resolve alerts in Visio Services in SharePoint Servers 2019, 2016, and 2013: symptoms, causes, and possible resolutions.
 
@@ -48,7 +48,7 @@ In this section:
     
 - [Visio Graphics Service unable to connect to the application server returned by the application proxy ](#VisioApp)
     
-## Visio Graphics Service failed to initialize the rasterizer
+## Visio Graphics Service failed to initialize the rasterizer - #1
 <a name="Rasterizer"> </a>
 
  **Alert Name:**Visio Graphics Service failed to initialize the rasterizer
@@ -73,7 +73,7 @@ Restart Visio Services:
     
 3. In the **Service** column, locate **Visio Graphics Service**. Click **Stop**, and then click **Start**.
     
-## Visio Graphics Service failed to initialize the rasterizer
+## Visio Graphics Service failed to initialize the rasterizer - #2
 <a name="Rasterizer2"> </a>
 
  **Alert Name:**Visio Graphics Service failed to initialize the rasterizer

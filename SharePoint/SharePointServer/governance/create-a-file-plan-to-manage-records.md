@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 037fb582-6448-4baf-85d4-6e6221f21655
 description: "Learn how to create a file plan to identify what information that you will keep as records."
@@ -17,7 +17,7 @@ description: "Learn how to create a file plan to identify what information that 
 
 # Create a file plan to manage records in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The file plan is the primary records management planning document in SharePoint Server. Although file plans can differ across organizations, they typically:
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 79428586-0a1c-4fd8-ae49-e1e76eb022e1
@@ -18,7 +18,7 @@ description: "Learn how to configure properties of the Search Navigation Web Par
 
 # Configure properties of the Search Navigation Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Search Navigation Web Part is configured to display links to the search verticals **Everything**, **People**, **Conversations** and **Videos**. It uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed following the configuration of the search vertical. You can also create your own search vertical and add it to be displayed in the Search Navigation Web Part. 
   
@@ -45,7 +45,7 @@ For more information, see the following resources:
     
 - [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
     
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+- [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
     
 - [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     

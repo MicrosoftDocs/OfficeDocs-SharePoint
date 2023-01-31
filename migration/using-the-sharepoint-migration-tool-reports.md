@@ -9,10 +9,12 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
@@ -35,6 +37,7 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
+- [Hub site report](#hub-site-report)
 
 Performance report
 - [Performance Report](#performance-report)
@@ -57,7 +60,7 @@ These reports can be viewed while the migration is taking place or after the job
     
 ## Summary Reports
 
-Two types of summary reports are generated. The second type of summary report generated only if there is failures.
+Two types of summary reports are generated. The second type of summary report generated only if there are failures.
   
 - **SummaryReport.csv.** This report contains a single row of data that gives the total picture total size, number of files migrated, duration. 
     
@@ -108,7 +111,7 @@ This report is only generated if a failure occurs during the job run.
 |Result category |Failed reason category based on the job process. |
 |Message |Failed reason detail description. |
 |Error code |Failed reason errorcode. |
-|Package number |The package number for the package includes the failed item . |
+|Package number |The package number for the package includes the failed item. |
 |Migration job ID |The job id for the package includes the failed item. |
 |Incremental round |The last incremental round number that item failed. |
 |Task ID |The individual task number. |
@@ -171,7 +174,7 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 |Content type |The file type. |
 |Status |Status indicating at what stage the file is. |
 |Result category |General code associated with the item to indicate what happened with that item. |
-|Message |Detailed error or informational message . |
+|Message |Detailed error or informational message. |
 |Error code |Failed reason error code. |
 |Source item ID |ID of the item at the source. |
 |Destination item ID |ID of the item at the destination. |
@@ -185,9 +188,10 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 
 The **ItemReport.csv** is a detailed report that provides data on each file within the task.
 
+
 |Column name|Description|
 |:-----|:-----|
-|Source  |File path or URL of the location of the data being migrated. |
+|Source |File path or URL of the location of the data being migrated. |
 |Destination |the URL of the tenant and library to where the data will be migrated. |
 |File name |The name of the file migrated. |
 |Extension  |The extension, indicating the file type. |
@@ -195,7 +199,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Content type |The file type. |
 |Status |Status indicating at what stage the file is. |
 |Result category |General code associated with the item to indicate what happened with that item. |
-|Message |More detailed error or informational message generated. |```
+|Message |More detailed error or informational message generated. |
 |Source item ID |ID of the item at the source. |
 |Destination item ID |ID of the item at the destination. |
 |Package number |ID generated for the package number during the transition. |
@@ -217,10 +221,10 @@ The **ScanSummary.csv** report provides the total stats for the scan -- a proces
 |Total scanned files |Total number of files scanned. |
 |Folders with issues |The number of folders with potential issues for the migration. |
 |Items with issues |The number of files with potential issues for migration. |
-|Items filtered out |Number of files that where filtered out based on settings in the tool. |
+|Items filtered out |Number of files that were filtered out based on settings in the tool. |
 |Folders to be migrated |Number of folders that will be migrated. |
 |Items to be migrated |Number of files that will be migrated. |
-|Total items to be migrated |Total number of folder and files that will be migrated. |
+|Total items to be migrated |Total number of folders and files that will be migrated. |
 |Device name |Name of the device or computer that is running the migration job. |
    
 ### Structure report
@@ -239,6 +243,16 @@ Structure report at the task level.
 |Source structure ID |ID when available. |
 |Destination structure ID |ID when available. |
 |Time stamp |The time at which the action occurred. |
+
+### Hub site report
+
+|**Column**|**Description**|
+|:-----|:-----|
+|URL|URL of the SPO site|
+|HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
+|Result|Registered/Associated/Failed|
+|Error|	Error type. Blank if no error occurred.|
+|Message|Error message|
    
 
 ### Performance report

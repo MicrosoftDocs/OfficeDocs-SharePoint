@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -15,6 +16,15 @@ search.appverid: MET150
 description: "Mover Migration Connectors"
 ---
 # Connectors
+
+>[!Important]
+>We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
+>
+>*Ongoing migrations are not impacted by this change. However, you cannot create new connectors.* If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration using your existing connectors. FastTrack led migrations are not impacted at this time.
+>
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>
+>[Learn more about the Mover.io retirement](mover-retirement-timeline.md)
 
 ### What is a connector?
 
@@ -28,12 +38,12 @@ Our authorization is lost when you delete the **Connector**, delete your account
 
 ### Which connector to use for each Microsoft service
 
-|**Microsoft service**|**Which Mover connector to use**|
-|:-----|:-----|
+|Microsoft service|Which Mover connector to use|
+|---|---|
 |Azure Blob Storage|Azure Blob Storage Connector|
-|OneDrive Consumer|	OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|	Office 365 Connector|
-|OneDrive for Business (User)|	OneDrive for Business (User) Connector|
+|OneDrive Consumer|OneDrive Consumer Connector|
+|OneDrive for Business (Administrator)|Office 365 Connector|
+|OneDrive for Business (User)|OneDrive for Business (User) Connector|
 |SharePoint Online|Office 365 Connector|
 
 ## Deleting connectors
@@ -49,8 +59,8 @@ Using our app to remove our authorization with a particular cloud service is sim
 
 ![Delete connector](media/delete-connector.png)
 
->[!Note]
->Deleting a **Connector** is permanent and cannot be reversed. The **Connector** type disappears from the **Transfer Wizard**. To add a new **Connector**, select **Authorize New Connector**.
+> [!NOTE]
+> Deleting a **Connector** is permanent and cannot be reversed. The **Connector** type disappears from the **Transfer Wizard**. To add a new **Connector**, select **Authorize New Connector**.
 
 ## Reauthorizing connectors
 
@@ -64,7 +74,7 @@ The process to authorize a Connector again is very simple:
 4. Select **Reauthorize**.
 5. Follow the same steps you performed when you first created the **Connector** to renew the authorization tokens/permissions.
 
->[!Note]
->You are unable to change the display name of the **Connector**. If you want to rename it, you must delete and re-add the **Connector**.
+> [!NOTE]
+> You are unable to change the display name of the **Connector**. If you want to rename it, you must delete and re-add the **Connector**.
 
 **Connectors** are automatically deauthorized if they haven't transferred any data in the last 90 days. If you try to load a deauthorized **Connector** in the **Transfer Wizard**, an error message appears, along with a prompt to reauthorize the **Connector**.

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7e7709fc-d679-49f4-8057-e88bdd3a8cf9
@@ -18,7 +18,7 @@ description: "Learn how to plan effective information architecture to ensure tha
 
 # Information management and governance in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 How will you govern the information in your organization, such as documents, lists, websites, and webpages? How do you maximize the information's usability and manageability? Who has access to what information? How are you making information available internally and externally, and to whom?
   
@@ -128,7 +128,7 @@ The following table presents resources that are available to help information ar
   
 **Information architecture resources**
 
-|**To plan …**|**See …**|
+|**To plan ...**|**See ...**|
 |:-----|:-----|
 |The structure of sites and subsites  <br/> |[Plan sites and site collections in SharePoint Server](../sites/plan-sites-and-site-collections.md) <br/> |
 |Document libraries  <br/> |[Plan document libraries in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262215(v=office.14)) <br/> |

@@ -8,8 +8,8 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,14 +18,14 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: f14dddb4-ee1a-4471-95bc-2ce41613442a
 description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint in Microsoft 365. This gives you a single, consistent taxonomy no matter where your sites are located."
 ---
 
 # Plan hybrid SharePoint in Microsoft 365 taxonomy and hybrid content types
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint in Microsoft 365. This gives you a single, consistent taxonomy no matter where your sites are located.
   
@@ -46,7 +46,7 @@ Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint 
     
 - Hybrid content types requires the June 2017 public update or later.
     
-Configuration of both features uses the Hybrid Picker in the SharePoint admin center, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) as you plan your hybrid SharePoint taxonomy rollout. 
+Configuration of both features uses the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) as you plan your hybrid SharePoint taxonomy rollout. 
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   

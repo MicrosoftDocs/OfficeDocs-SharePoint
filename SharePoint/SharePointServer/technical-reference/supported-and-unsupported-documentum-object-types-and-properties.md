@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f753e138-04c2-4358-a12e-2a406a431ac9
@@ -18,7 +18,7 @@ description: "Learn which object types and properties the SharePoint Server Inde
 
 # Supported and unsupported Documentum object types and properties in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following sections list supported and unsupported object types and properties for the Indexing Connector for Documentum:
   

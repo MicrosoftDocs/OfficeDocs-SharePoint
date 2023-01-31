@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about WAN performance improvements, test results, and WAN te
 
 # Testing WAN connections for SharePoint 2013 architectures
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server 2013 is optimized to perform well over WAN connections. This article describes performance improvements and methods for testing WAN connections to help you determine if you need to deploy more than one farm geographically. It also includes example test results from companies that participated in the prerelease program.
     

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
 
 # A State Service Application has no database defined (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** A State Service Application has no database defined 
   
@@ -36,16 +36,16 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -53,34 +53,34 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
     
 3. If no database already exists that you can use, type the following command at the PowerShell command prompt:
     
-  ```
-  New-SPStateServiceDatabase -Name <DatabaseName> -DatabaseServer <ServerName> [-DatabaseCredentials <Credential>] [-ServiceApplication <ID>]
-  ```
+    ```
+    New-SPStateServiceDatabase -Name <DatabaseName> -DatabaseServer <ServerName> [-DatabaseCredentials <Credential>] [-ServiceApplication <ID>]
+    ```
 
     Where:
     
-  -  _\<DatabaseName\>_ is name of the database as a String. 
+   -  _\<DatabaseName\>_ is name of the database as a String. 
     
-  -  _\<ServerName\>_ is name of the database server. 
+   -  _\<ServerName\>_ is name of the database server. 
     
-  -  _\<Credential\>_ is SQL Server authentication credentials for the database. If this parameter is not used, Windows authentication will be used. 
+   -  _\<Credential\>_ is SQL Server authentication credentials for the database. If this parameter is not used, Windows authentication will be used. 
     
-  -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
+   -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
     
 4. In some environments, you must connect to an existing, empty SQL database. In this case, type the following command at the Windows PowerShell command prompt:
     
-  ```
-  Mount-SPStateServiceDatabase -Name <DatabaseName> -DatabaseServer <ServerName> [-DatabaseCredentials <Credential>] [-ServiceApplication <ID>]
-  ```
+    ```
+    Mount-SPStateServiceDatabase -Name <DatabaseName> -DatabaseServer <ServerName> [-DatabaseCredentials <Credential>] [-ServiceApplication <ID>]
+    ```
 
     Where:
     
-  -  _\<DatabaseNname\>_ is name of the database as a String. 
+   -  _\<DatabaseNname\>_ is name of the database as a String. 
     
-  -  _\<ServerName\>_ is name of the database server. 
+   -  _\<ServerName\>_ is name of the database server. 
     
-  -  _\<Credential\>_ is the SQL Server authentication credentials for the database. If this parameter is not used, Windows authentication will be used. 
+   -  _\<Credential\>_ is the SQL Server authentication credentials for the database. If this parameter is not used, Windows authentication will be used. 
     
-  -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
+   -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
     
-For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
+For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true). 

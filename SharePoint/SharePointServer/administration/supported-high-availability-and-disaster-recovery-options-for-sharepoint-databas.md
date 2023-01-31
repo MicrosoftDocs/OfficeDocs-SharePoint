@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn about supported high availability and disaster recovery opti
 
 # Supported high availability and disaster recovery options for SharePoint databases
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes the supported high availability and disaster recovery options for SharePoint Server databases. For detailed information about these databases, such as size and supported backup and recovery tools, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
@@ -47,7 +47,7 @@ The following tables provide the supported high availability and disaster recove
 For supported versions of SQL Server, see:
 - [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
 - [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
-- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md) 
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md) 
   
 **Configuration database**
 
@@ -56,9 +56,9 @@ For supported versions of SQL Server, see:
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |SharePoint_Config  <br/> |
 |Purpose  <br/> |The configuration database contains data about SharePoint databases, Internet Information Services (IIS) web sites, web applications, Trusted solutions, Web Part packages, and Site templates.  <br/> The configuration database also contains specific data for SharePoint Server farm settings, such as default quota settings and blocked file types.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No. This is a farm specific database.  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This is a farm specific database.  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This is a farm specific database.  <br/> |
    
 **Central Administration content database**
 
@@ -67,9 +67,9 @@ For supported versions of SQL Server, see:
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |SharePoint_AdminContent_\<GUID\>  <br/> |
 |Purpose  <br/> |This database stores all configuration data for the Central Administration site collection. If SQL Server 2016 RTM, Power Pivot for SharePoint Server 2016 or SQL Server 2012 Power Pivot for SharePoint 2013 is installed the Central Administration content database also stores the Excel Online and Excel worksheets and Power Pivot data files that are used in the Power Pivot Management Dashboard.  <br/> **Note:** Power Pivot for SharePoint Server 2016 is only available with SQL Server 2016 RTM.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No. This is a farm specific database.  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This is a farm specific database.  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This is a farm specific database.  <br/> |
    
 **Content database**
 
@@ -78,9 +78,9 @@ For supported versions of SQL Server, see:
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |WSS_Content  <br/> |
 |Purpose  <br/> |Content databases store all content for a site collection. This includes site documents or files in document libraries, list data, Web Part properties, audit logs, and some **apps for SharePoint data** if the apps are installed, in addition to user names and rights.  <br/> Content databases also store user data for SQL Server 2016 CTP 3.1 or later, Power Pivot for SharePoint Server 2016 and SQL Server 2012 Power Pivot for SharePoint 2013, if you installed it in your SharePoint Server environment. Additionally Content databases also store the Project Server 2016 extensions in SharePoint Server 2016.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ## SharePoint Servers 2016 and 2019 service application databases
 <a name="SAppDBsSPALL"> </a>
@@ -100,9 +100,9 @@ The following table provides the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** AppMng_Service_DB_\<GUID\>  <br/> **2013:** AppManagement  <br/> |
 |Purpose  <br/> |Stores app licenses and permissions that are downloaded from the SharePoint Store or App Catalog.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Business Data Connectivity service database
 
@@ -115,9 +115,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Bdc_Service_DB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores external content types and related objects.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Managed Metadata Service database
 
@@ -130,9 +130,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** Managed Metadata Service_\<GUID\>  <br/> **2013:** Managed Metadata Service Application_Metadata_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores managed metadata and syndicated content types.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 > [!NOTE]
 > The Managed Metadata Service is the Taxonomy service. This database cannot be attached to a Managed Metadata Service Application in read only mode.
@@ -148,9 +148,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** PerformancePoint Service Application_\<GUID\>  <br/> **2013:** PerformancePoint Service_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores temporary objects and saved user comments and settings.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Power Pivot Service database
 
@@ -168,10 +168,10 @@ The following table describes the supported high availability and disaster recov
 |:-----|:-----|
 |Default database name when it is installed with the Power Pivot for SharePoint Configuration Tool  <br/> |DefaultPowerPivotServiceApplicationDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores data refresh schedules, and workbook usage data for internal use by Power Pivot service applications.  <br/> |
-|Supports SQL Server synchronous mirroring in a farm for availability |Yes, but not recommended. Use AlwaysOn in Synchronous-Commit Mode instead.  <br/> |
-|Supports SQL Server AlwaysOn Availability Group in Synchronous-Commit Mode for availability  <br/> |Yes, recommended.  <br/> |
+|Supports SQL Server synchronous mirroring in a farm for availability |Yes, but not recommended. Use Always On in Synchronous-Commit Mode instead.  <br/> |
+|Supports SQL Server Always On Availability Group in Synchronous-Commit Mode for availability  <br/> |Yes, recommended.  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Project Server database
 
@@ -190,9 +190,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |ProjectWebApp  <br/> |
 |Purpose  <br/> | Each Project Web App database contains the following data:  <br/>  All Project and Portfolio Management (PPM) data  <br/>  Time tracking and Timesheet data  <br/>  Aggregated SharePoint project site data  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### SharePoint Search service databases
 
@@ -215,9 +215,9 @@ The following tables provide the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Search_Service_Application_DB_\<GUID\>  <br/> |
 |Purpose  <br/> | Stores the Search application configuration and system access control list (SACL) for the crawl component.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No. Taking a copy of the Search Administration database and using it to re-create the Search service application is supported.  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No. Taking a copy of the Search Administration database and using it to re-create the Search service application is supported.  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No. Taking a copy of the Search Administration database and using it to re-create the Search service application is supported.  <br/> |
    
 **Analytics Reporting database**
 
@@ -226,9 +226,9 @@ The following tables provide the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Search_Service_Application_AnalyticsReportingStoreDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores the results for usage analysis reports and extracts information from the Link database when it is needed.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
    
 **Crawl database**
 
@@ -237,9 +237,9 @@ The following tables provide the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Search_Service_Application_CrawlStoreDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores the state of the crawled data and the crawl history.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
    
 **Link database**
 
@@ -248,9 +248,9 @@ The following tables provide the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Search_Service_Application_LinkStoreDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores the information that is extracted by the content processing component and click through information.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
    
 ### Secure Store database
 
@@ -263,9 +263,9 @@ The following table provides the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores and maps credentials, such as account names and passwords.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### SharePoint Translation Services database
 
@@ -278,9 +278,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** TranslationService_\<GUID\>  <br/> **2013:** SharePoint Translation Services_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores information about pending and completed batch document translations with enabled file name extensions.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### State Service database
 
@@ -293,9 +293,9 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** StateService_\<GUID\>  <br/> **2013:** SessionStateService_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores temporary state information for InfoPath Forms Services, Exchange Server, the chart Web Part, and Visio Services.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |No  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
    
 ### Subscription Settings service application
 
@@ -308,9 +308,9 @@ The following table provides the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2019:** Subscription  <br/> **2013/2016:** SettingsServiceDB  <br/> |
 |Purpose  <br/> |Stores features and settings for hosted customers.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Usage and Health Data Collection database
 
@@ -323,9 +323,9 @@ The following table provides the supported high availability and disaster recove
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** WSS_Logging  <br/> **2013:** SharePoint_Logging  <br/> |
 |Purpose  <br/> |Stores health monitoring and usage data temporarily, and can be used for reporting and diagnostics.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes, but not recommended  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> **Note:** It is not possible to run PSConfig, (SharePoint Products Configuration Wizard or Microsoft PowerShell) to apply SharePoint CUs when this database is a member of an Always On Availability Group.  <br/> |Yes, but not recommended  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> **Note:** It is not possible to run PSConfig, (SharePoint Products Configuration Wizard or Microsoft PowerShell) to apply SharePoint CUs when this database is a member of an Always On Availability Group.  <br/> |Yes, but not recommended  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes, but not recommended  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This database is farm specific. However, you can copy it to a disaster recovery environment for data mining.  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |No. This database is farm specific. However, you can copy it to a disaster recovery environment for data mining.  <br/> |
    
 ### User Profile Service databases
 
@@ -346,9 +346,9 @@ The following tables describe the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores and manages users and their associated information. It also stores information about a user's social network in addition to memberships in distribution lists and sites.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 **Synchronization database**
 
@@ -357,9 +357,9 @@ The following tables describe the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |User Profile Service Application_SyncDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores configuration and staging data for use when profile data is synchronized with directory services such as Active Directory.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 **Social Tagging database**
 
@@ -368,9 +368,9 @@ The following tables describe the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |User Profile Service Application_SocialDB_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores social tags and notes created by users, alongside their respective URLs.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ### Word Automation Services database
 
@@ -383,16 +383,16 @@ The following table describes the supported high availability and disaster recov
 |Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |WordAutomationServices_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores information about pending and completed document conversions.  <br/> |
 |Supports SQL Server synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
 |Supports SQL Server asynchronous mirroring or log-shipping to another farm for disaster recovery <br/> |Yes  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server Always On Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 ## SQL Server System databases
 <a name="SQLSysDbs"> </a>
 
 SharePoint Server is built on SQL Server and uses the following SQL Server system databases: master, msdb, model, Resource, and tempdb. SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](/sql/relational-databases/databases/system-databases?viewFallbackFrom=sql-server-2014).
   
-You can only mirror user databases, put them in a SQL Server AlwaysOn availability group or log ship them. You can't use these approaches to provide high availability or disaster recovery for the system databases.
+You can only mirror user databases, put them in a SQL Server Always On availability group or log ship them. You can't use these approaches to provide high availability or disaster recovery for the system databases.
   
 ## SQL Server Reporting Services databases
 <a name="SQLRSDbs"> </a>
@@ -412,7 +412,7 @@ A Reporting Services report server is a stateless server that stores application
   
 - Use the high availability features of the SQL Server Database Engine to maximize the uptime of the report server databases. If you configure a Database Engine instance to run in a failover cluster, you can select that instance when you create a report server database.
     
-- Use SQL Server AlwaysOn Availability Groups with the Reporting Services databases and for data sources where applicable.
+- Use SQL Server Always On Availability Groups with the Reporting Services databases and for data sources where applicable.
     
 - Configure multiple report servers to run in a scale-out deployment, where all the servers share a single report server database. Deploying multiple report server instances on different servers can help increase the level of uninterrupted service.
     
@@ -424,6 +424,6 @@ A Reporting Services report server is a stateless server that stores application
 [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md)
 #### Other Resources
 
-[AlwaysOn Availability Groups (SQL Server): Interoperability and Coexistence with Other Database Engine Features](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server)
+[Always On Availability Groups (SQL Server): Interoperability and Coexistence with Other Database Engine Features](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server)
   
 [Database Mirroring: Interoperability and Coexistence](/sql/database-engine/database-mirroring/database-mirroring-interoperability-and-coexistence-sql-server?viewFallbackFrom=sql-server-2014)

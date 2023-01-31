@@ -8,8 +8,8 @@ ms.date: 10/3/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,8 +21,8 @@ description: "Learn about the process of upgrading databases, service applicatio
 
 # Overview of the upgrade process to SharePoint Server 2016
 
-  
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
+
 To upgrade from Microsoft SharePoint Server 2013 with the March 2013 Cumulative Update to SharePoint Server 2016, you use the database-attach method. In the database-attach method, you first create and configure a SharePoint Server 2016 farm. Then you copy the content and service application databases from the SharePoint Server 2013 with the March 2013 Cumulative Update farm, and then attach and upgrade the databases. This upgrades the data to the new version. Site owners can then upgrade individual site collections.
   
 SharePoint Server 2016 supports an upgrade from SharePoint Server 2013 with the March 2013 Cumulative Update (CU), version 15.0.4481.1005 or higher.
@@ -38,7 +38,7 @@ After you've configured a new SharePoint Server 2016 environment, you can copy t
 > [!NOTE]
 > SharePoint Server 2016 does not support SharePoint 2010 mode (that is, compatibility level 14) site collections. Any site collection that is in this mode will block the attachment of that content database to the SharePoint Server 2016 farm. You must upgrade all SharePoint 2010 mode sites to 2013 mode (that is, compatibility level 15) on the existing 2013 farm before you mount the database on the new SharePoint 2016 farm. For additional information about site creation modes, see the **Control the compatibility range for site creation modes** of [Manage site collection upgrades to SharePoint Server 2016](./manage-site-collection-upgrades-to-sharepoint-2013.md). 
   
-You can run the Microsoft PowerShell [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet on a SharePoint Server 2013 with the March 2013 Cumulative Update content database that isn't attached to the SharePoint Server 2016 farm to determine what site collections are running in SharePoint 2010 mode. The following Microsoft PowerShell command sample returns the list of all site collections that are in SharePoint 2010 mode. You would run this command on the SharePoint Server 2013 with the March 2013 Cumulative Update farm so that you could upgrade those site collections into 2013 mode before attaching the content databases to a 2016 farm. 
+You can run the Microsoft PowerShell [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet on a SharePoint Server 2013 with the March 2013 Cumulative Update content database that isn't attached to the SharePoint Server 2016 farm to determine what site collections are running in SharePoint 2010 mode. The following Microsoft PowerShell command sample returns the list of all site collections that are in SharePoint 2010 mode. You would run this command on the SharePoint Server 2013 with the March 2013 Cumulative Update farm so that you could upgrade those site collections into 2013 mode before attaching the content databases to a 2016 farm. 
   
 ```
 Get-SPSite -Limit All | ? { $_.CompatibilityLevel -eq 14 }

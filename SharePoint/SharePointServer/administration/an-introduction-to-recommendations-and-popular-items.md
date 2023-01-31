@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f17c0e05-bb64-4a7e-95f8-5a68d69917d3
@@ -18,7 +18,7 @@ description: "Get an introduction to recommendations and popular items features 
 
 # An introduction to recommendations and popular items in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, recommendations and popular items can be displayed because a feature known as  *Usage analytics*  tracks and analyzes how visitors interact with your website. You can use the results that Usage analytics produces to add content to your website, for example "People who viewed this item also viewed" or "Popular items in this category." 
   
@@ -54,14 +54,14 @@ To view the usage event definitions, do the following:
   
 1. On the server where SharePoint Server is installed, open the **SharePoint 2016 Management Shell**. 
     
-     ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
+   ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
   
 2. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
-  $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
-  ```
+    ```powershell
+    $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
+    $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
+    ```
 
   The default usage event definitions are displayed. Some of the usage event settings will be explained later in this series. For now, just notice that each event has an **EventTypeId** and an **EventName**. 
     
@@ -81,7 +81,7 @@ To view the usage event definitions, do the following:
 > [!IMPORTANT]
 > One important aspect of how Usage analytics works is step 2 of the overview: *The usage event is recorded in the Event store*. In the Event store, each usage event must be recorded using *the URL of the item*. 
   
-This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example *http://www.contoso/sites/Pages/ContosoItemPage.aspx*. Because the same catalog item page is used to display many items, the usage event cannot be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example *http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12*. 
+This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example `http://www.contoso/sites/Pages/ContosoItemPage.aspx`. Because the same catalog item page is used to display many items, the usage event cannot be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example `http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12`. 
   
 ![Usage Event Recorded Using URL](../media/OTCSP_IntroductionRecommendations2.jpg)
   

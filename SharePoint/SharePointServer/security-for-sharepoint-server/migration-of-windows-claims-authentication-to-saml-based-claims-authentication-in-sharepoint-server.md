@@ -7,8 +7,8 @@ ms.date: 6/21/2019
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to migrate Windows claims authentication to SAML based c
 
 # Migrate Windows claims to SAML claims
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 Identifies the steps required to migrate a web application that is going from Windows claims authentication to SAML-based authentication in SharePoint Server.
 
@@ -36,7 +36,7 @@ To run the identity migration, follow these steps:
 
 To migrate a web application to include all the content databases by using Windows PowerShell.
 
-1.	Check that you have the following memberships:
+1. Check that you have the following memberships:
 
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
@@ -45,9 +45,9 @@ To migrate a web application to include all the content databases by using Windo
 
 An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint cmdlets.
 
-**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
 
-2.	To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
+2. To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
 
 ```powershell
 $skipFile = "FileName.csv"
@@ -58,7 +58,7 @@ Convert-SPWebApplication -Identity $wa -From CLAIMS-WINDOWS -To CLAIMS-TRUSTED-D
 
 To migrate specific web applications and content databases by using Windows PowerShell.
 
-1.	Check that you have the following memberships:
+1. Check that you have the following memberships:
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
 - The Administrators group on the server on which you are running Windows PowerShell cmdlets.
@@ -66,10 +66,10 @@ To migrate specific web applications and content databases by using Windows Powe
 
 An administrator can use the Add-SPShellAdmin cmdlet to grant permissions to use SharePoint cmdlets.
 
-**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
 
  
-2.	To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
+2. To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
 
 ```powershell
 $skipFile = "FileName.csv"
@@ -86,4 +86,4 @@ $wa = Get-SPWebApplication -Identity "Name of web application"
 Convert-SPWebApplication -Identity $wa -From CLAIMS-TRUSTED-DEFAULT -To CLAIMS-WINDOWS -SourceSkipList $skipFile -Database $database 
 ```
 
-**NOTE**:   For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/get-spcontentdatabase?view=sharepoint-ps), [Get-SPWebApplication](/powershell/module/sharepoint-server/get-spwebapplication?view=sharepoint-ps), and [Convert-SPWebApplication](/powershell/module/sharepoint-server/convert-spwebapplication?view=sharepoint-ps).
+**NOTE**:   For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/get-spcontentdatabase?view=sharepoint-ps&preserve-view=true), [Get-SPWebApplication](/powershell/module/sharepoint-server/get-spwebapplication?view=sharepoint-ps&preserve-view=true), and [Convert-SPWebApplication](/powershell/module/sharepoint-server/convert-spwebapplication?view=sharepoint-ps&preserve-view=true).

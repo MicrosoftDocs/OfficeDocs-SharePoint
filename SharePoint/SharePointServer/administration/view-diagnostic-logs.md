@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ae1e3447-46e2-45f9-852a-ab39f23345d4
@@ -18,7 +18,7 @@ description: "Learn to view and filter log events by using Microsoft PowerShell,
 
 # View diagnostic logs in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can troubleshoot problems in the farm by using data from the Unified Logging Service (ULS) logs in SharePoint Server . The ULS logs can collect data at varying levels depending on the logging settings. Use PowerShell to filter the data, display it in various ways, and output the data to a data grid with which you can filter, sort, group, and export data to Excel 2016.
   
@@ -41,7 +41,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Go to the SharePoint Management Shell.
     
@@ -65,7 +65,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Area -eq <Area>}
   ```
 
-    Where  _\<Area\>_ is the value of the **Area** property. 
+ Where  _\<Area\>_ is the value of the **Area** property. 
     
   - **By category**: 
     
@@ -73,7 +73,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Category -eq <Category>
   ```
 
-    Where  _\<Category\>_ is the value of the **Category** property. 
+  Where  _\<Category\>_ is the value of the **Category** property. 
     
   - **By event ID**: 
     
@@ -81,7 +81,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.EventID -eq <EventID>}
   ```
 
-    Where  _\<EventID\>_ is the value of the **EventID** property. 
+  Where  _\<EventID\>_ is the value of the **EventID** property. 
     
   - **By message text**: 
     
@@ -89,7 +89,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Message -like "<string>"}
   ```
 
-    Where  _\<string\>_ is the string found in the event message. 
+  Where  _\<string\>_ is the string found in the event message. 
     
   - **By process**: 
     
@@ -97,17 +97,17 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Process -like "<Process>"}
   ```
 
-    Where  _\<Process\>_ is the value of the **Process** property. 
+  Where  _\<Process\>_ is the value of the **Process** property. 
     
-    By default, the command retrieves data from the default ULS log folder. To view and filter trace events that are on shared folder on a network, use the **Directory** parameter of the **Get-SPLogEvent** cmdlet. 
+  By default, the command retrieves data from the default ULS log folder. To view and filter trace events that are on shared folder on a network, use the **Directory** parameter of the **Get-SPLogEvent** cmdlet. 
     
-    To view more details about each trace event, use the **Format-List** cmdlet at the end of the command. For example, 
+  To view more details about each trace event, use the **Format-List** cmdlet at the end of the command. For example, 
     
   ```
   Get-SPLogEvent | Where-Object {$_.Area -eq "SharePoint Foundation"} | Format-List
   ```
 
-For more information, see [Get-SPLogEvent](/powershell/module/sharepoint-server/Get-SPLogEvent?view=sharepoint-ps). 
+For more information, see [Get-SPLogEvent](/powershell/module/sharepoint-server/Get-SPLogEvent?view=sharepoint-ps&preserve-view=true). 
   
 ## View and export diagnostic logs by using the PowerShell Out-GridView cmdlet
 <a name="section2"> </a>
@@ -140,7 +140,7 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Go to the SharePoint Management Shell.
     

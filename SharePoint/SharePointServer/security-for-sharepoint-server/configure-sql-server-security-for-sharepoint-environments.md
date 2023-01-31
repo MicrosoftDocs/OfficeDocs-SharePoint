@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to improve the security of SQL Server for SharePoint Ser
 
 # Configure SQL Server security for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 When you install SQL Server, the default settings help to provide a safe database. In addition, you can use SQL Server tools and Windows Firewall to add additional security to SQL Server for SharePoint Server environments. 
   
@@ -180,7 +180,7 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
 
 [SQL Server Security Blog](/archive/blogs/sqlsecurity/)
 
-[SQL Vulnerability Assessment](/sql/relational-databases/security/sql-vulnerability-assessment?view=sql-server-2017)
+[SQL Vulnerability Assessment](/sql/relational-databases/security/sql-vulnerability-assessment)
   
 [Securing SharePoint: Harden SQL Server in SharePoint Environments](/archive/blogs/rycampbe/securing-sharepoint-harden-sql-server-in-sharepoint-environments)
   

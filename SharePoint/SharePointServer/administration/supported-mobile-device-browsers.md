@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 68551945-009f-43c2-b38f-5248aaf6d540
 
@@ -18,7 +18,7 @@ description: "Learn about the different mobile device browsers supported in Shar
 
 # Mobile device browsers supported in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 provides browser support for multiple mobile devices. This article provides the list of supported device browsers for SharePoint Server 2013 and Office Web Apps.
   

@@ -8,17 +8,17 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Learn about the timer jobs in SharePoint Server."
+description: "Learn about the default timer jobs in SharePoint Server 2019."
 ---
 
 # Default timer jobs in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 ## Default timer jobs
 <a name="DefaultJobs"> </a>
@@ -121,7 +121,7 @@ The following table lists the default timer jobs for SharePoint Server 2019.
 | Identity column maintenance job                                                                                                            | Checks and reseeds identity column values.                                                                                                                                                                                                                                                                                          | Weekly               |
 | Immediate Alerts                                                                                                                           | Sends out immediate and scheduled alerts.                                                                                                                                                                                                                                                                                           | 1 Minute             |
 | Indexing Schedule Manager on \<server\>                                                                                                    |                                                                                                                                                                                                                                                                                                                                     | 5 Minutes            |
-| Information management policy                                                                                                              | This job performs background processing for information policies, such as calculating updated expiration dates for items with a n...                                                                                                                                                                                                | Weekly               |
+| Information management policy                                                                                                              | This job performs background processing for information policies, such as calculating updated expiration dates for items with a new policy.                                                                                                                                                                                                | Weekly               |
 | Internal App State Update                                                                                                                  | Retrieves and applies updated information on apps from App Catalogs.                                                                                                                                                                                                                                                                | Hourly               |
 | Large list automatic column index management job                                                                                           | Automatically manage list column indices for large lists.                                                                                                                                                                                                                                                                           | Daily                |
 | License Renewal                                                                                                                            | Renews all licenses of the apps from the SharePoint Store.                                                                                                                                                                                                                                                                          | Hourly               |

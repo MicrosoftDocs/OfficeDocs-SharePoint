@@ -8,8 +8,8 @@ ms.date: 06/23/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: sharepoint-server-itpro
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -46,7 +46,7 @@ Before you begin to install and configure SharePoint Server Subscription Edition
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).
 
 > [!IMPORTANT]
 > As a security best practice, we recommend that you install SharePoint Server Subscription Edition by using least-privilege administration.    
@@ -140,22 +140,22 @@ Use the following procedure to install and configure the configuration database 
     
 5. On the **Connect to a server farm** page, click **Create a new server farm**, and then click **Next**.
     
-6. On the **Specify Configuration Database Settings** page, do the following: 
-    
-1. In the **Database server** box, type the name of the computer that is running SQL Server. 
-    
-2. In the **Database name** box, type a name for your configuration database or use the default database name. The default name is SharePoint_Config. 
-    
-3. In the **Username** box, type the user name of the farm administrator service account. Ensure that you type the user name in the format DOMAIN\username.
+6. On the **Specify Configuration Database Settings** page, do the following:
 
-> [!IMPORTANT]
-> The farm administrator service account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the farm administrator service account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers.    
+    1. In the **Database server** box, type the name of the computer that is running SQL Server.
+
+    2. In the **Database name** box, type a name for your configuration database or use the default database name. The default name is SharePoint_Config.
+
+    3. In the **Username** box, type the user name of the farm administrator service account. Ensure that you type the user name in the format DOMAIN\username.
+
+        > [!IMPORTANT]
+        > The farm administrator service account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the farm administrator service account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers.
+
+    4. In the **Password** box, type the user password.
+
+    5. Click **Next**.
     
-4. In the **Password** box, type the user password. 
-    
-7. Click **Next**.
-    
-8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
+7. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
 
     Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm. Ensure that the passphrase meets the following criteria:
 
@@ -166,31 +166,31 @@ Use the following procedure to install and configure the configuration database 
     - Numerals (from 0 through 9)
     - Nonalphabetic characters (such as !, $, #, %)
     
-9. On the **Specify Server Role** page, choose the appropriate role, click **Next**.
+8. On the **Specify Server Role** page, choose the appropriate role, click **Next**.
     
     > [!NOTE]
     >  For a single server farm, we recommend choosing the **Single Server Farm** role, although you can select a **Custom** role if you want to individually manage the services instances that run on the server. You can change the role of a server later if you change your mind or want to expand your farm by adding additional servers. 
   
-10. On the **Configure SharePoint Central Administration Web Application** page, do the following:
+9. On the **Configure SharePoint Central Administration Web Application** page, do the following:
     - Either select the **Specify port number** check box and type the port number that you want the SharePoint Central Administration web application to use, or leave the **Specify port number** check box cleared if you want to use the default port number.
     - Click either **NTLM** or **Negotiate (Kerberos)**.
     
-11. Click **Next**.
+10. Click **Next**.
     
-12. On the **Completing the SharePoint Products Configuration Wizard** page, review your configuration settings to verify that they are correct, and then click **Next**.   
+11. On the **Completing the SharePoint Products Configuration Wizard** page, review your configuration settings to verify that they are correct, and then click **Next**.   
   
-13. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
-    
+12. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
+
     If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Server Subscription Edition are installed, in the`%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS` folder.
-    
+
     If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
-    
+
 ### Configure browser settings
 <a name="configurebrowser"> </a>
 
 After you run the SharePoint Products Configuration Wizard, you should confirm that SharePoint Server works correctly by configuring additional settings in Internet Explorer.
   
-If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-0.md).
+If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-2016-2019.md).
   
 To confirm that you have configured browser settings correctly, log on to the server by using an account that has local administrative credentials. Next, connect to the SharePoint Central Administration web site. If you are prompted for your user name and password when you connect, perform the following procedures:
 - Add the SharePoint Central Administration website to the list of trusted sites
@@ -313,3 +313,9 @@ After you install and configure SharePoint Server, your browser window opens to 
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server. 
 
+- **Configure Central Administration Access URL**
+
+  - **Using Alternative URL to Access Central Administration**: You can specify an alternative URL to access Central Administration by using Alternate Access Mapping (AAM). This can be done via the optional `-Url <String>` parameter in the PowerShell cmdlets `New-SPCentralAdministration` and `Set-SPCentralAdministration` and PSConfig.exe command line utility `PSConfig.exe -cmd adminvs`.
+
+  - **Using host name binding for Central Administration**: You can configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).</br>
+    To configure the SharePoint Central Administration website, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.</br>

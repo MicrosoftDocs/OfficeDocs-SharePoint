@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0112182a-6246-4d8a-8c07-39622be3c4a1
@@ -18,7 +18,7 @@ description: "Learn how to export and import customized search configuration set
 
 # Export and import customized search configuration settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can export and import customized search configuration settings between site collections and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models, and site search settings. It is also possible to export customized search configuration settings from a Search service application and import the settings to site collections and sites, but you cannot import customized search configuration settings to a Search service application. You can't export the default search configuration settings, and you can't import customized search configurations from SharePoint Server to SharePoint in Microsoft 365, or the other way around.
   
@@ -49,7 +49,7 @@ Before you begin this operation, review the information in [Overview of customiz
 >- [Plan browser support](../install/browser-support-planning.md)
 >- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
->- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>- [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
 >- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Export customized search configuration settings from a site collection

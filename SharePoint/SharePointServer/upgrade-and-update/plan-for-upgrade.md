@@ -8,8 +8,8 @@ ms.date: 7/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,11 +21,11 @@ description: "Find resources about how to plan to upgrade from SharePoint 2010 P
 
 # Plan for upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]   
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]   
   
 In order to have a successful upgrade to SharePoint 2013, you must plan for the upgrade. This section contains articles that help you plan and prepare for upgrading from SharePoint 2010 Products to SharePoint 2013.
   
-To understand how the upgrade process works, see the articles in [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md).
+To understand how the upgrade process works, see the articles in [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-2013.md).
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to plan for upgrade.
   
@@ -45,7 +45,7 @@ The following downloadable resources, articles, video recordings, and related re
 
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md)
   
-[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-0.md)
+[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
 

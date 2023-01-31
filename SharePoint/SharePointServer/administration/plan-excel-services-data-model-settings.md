@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 40f1d080-3523-444f-a389-0f37a40ae44a
 description: "Specify an instance of Analysis Services to be used with interactive data models in Excel Services."
@@ -17,7 +17,7 @@ description: "Specify an instance of Analysis Services to be used with interacti
 
 # Plan Excel Services Data Model settings in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In Excel Services, you can specify one or more instances of SQL Server 2012 SP1 Analysis Services (SSAS) for use in processing Data Models created in Excel 2016. In this configuration, SQL Server 2012 Analysis Services provides a backend service for Excel Services to load, query, and refresh Excel 2016 Data Models so that users can interact with these types of workbooks in the browser. SQL Server 2012 Analysis Services must be installed in SQL Server PowerPivot for SharePoint mode.
   

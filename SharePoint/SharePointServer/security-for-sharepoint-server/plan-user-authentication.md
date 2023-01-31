@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,13 +20,18 @@ description: "Plan how to use various user authentication methods to create a se
 
 # Plan for user authentication methods in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
-  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
+
+> [!NOTE]
+> The user authentication methods mentioned here applies to SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition.
+
 Learn the user authentication types and methods that are supported by SharePoint Server and how to determine which ones to use for web applications and zones.
 
 Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
   
-    
+> [!NOTE]
+> In SharePoint Server Subscription Edition, we now support OIDC 1.0 authentication. For more information on how to work with this new authentication type, see [OpenID Connect 1.0 authentication](/sharepoint/security-for-sharepoint-server/oidc-1-0-authentication).
+
 ## Introduction
 <a name="intro"> </a>
 
@@ -45,12 +50,11 @@ Your planning for user authentication types and methods should determine:
 - The authentication infrastructure needed to support the determined authentication types and methods
     
     > [!NOTE]
-    > Windows classic mode authentication is no longer supported in SharePoint Server 2016. 
-  
+    > Windows classic mode authentication is no longer supported in SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition.
 ## Claims-based authentication
 <a name="cba"> </a>
 
-User identity in AD DS is based on a user account. For successful authentication, the user provides the account name and proof of knowledge of the password. To determine access to resources, applications might have to query AD DS for account attributes and other information, such as group membership or role on the network. While this functionality works well for Windows environments, it does not scale out to third-party authentication providers and multi-vendor environments that support Internet, partner, or cloud-based computing models.
+User identity in AD DS is based on a user account. For successful authentication, the user provides the account name and proof of knowledge of the password. To determine access to resources, applications might have to query AD DS for account attributes and other information, such as group membership or role on the network. While this functionality works well for Windows environments, it doesn't scale out to third-party authentication providers and multi-vendor environments that support Internet, partner, or cloud-based computing models.
   
 With claims-based identities, a user obtains a digitally signed security token from a commonly trusted identity provider. The token contains a set of claims. Each claim represents a specific item of data about users such as their names, group memberships, and role on the network. Claims-based authentication is user authentication that uses claims-based identity technologies and infrastructure. Applications that support claims-based authentication obtain a security token from a user, rather than credentials, and use the information within the claims to determine access to resources. No separate query to a directory service such as AD DS is needed.
   
@@ -66,7 +70,7 @@ Due to the widespread use of claim-based authentication for user authentication,
   
 For claims-based authentication, SharePoint Server automatically changes all user accounts to claims identities. This changes results in a security token (also known as a claims token) for each user. The claims token contains the claims pertaining to the user. Windows accounts are converted into Windows claims. Forms-based membership users are transformed into forms-based authentication claims. SharePoint Server can use claims that are included in SAML-based tokens. Additionally, SharePoint developers and administrators can augment user tokens with more claims. For example, Windows user accounts and forms-based accounts can be augmented with extra claims that are used by SharePoint Server.
   
-You do not have to be a claims architect to use claims-based authentication in SharePoint Server. However, implementing SAML token-based authentication requires coordination with administrators of your claims-based environment, as described in [Plan for SAML token-based authentication](#plansaml). 
+You don't have to be a claims architect to use claims-based authentication in SharePoint Server. However, implementing SAML token-based authentication requires coordination with administrators of your claims-based environment, as described in [Plan for SAML token-based authentication](#plansaml). 
   
 ### Classic mode authentication in SharePoint Server 2013
 
@@ -74,13 +78,13 @@ In SharePoint 2013, when you create a web application in Central Administration,
   
 To configure a web application to use classic mode authentication, you must use the **New-SPWebApplication** PowerShell cmdlet to create it. SharePoint 2010 Products web applications that are configured for classic mode authentication retain their authentication settings when you upgrade to SharePoint 2013. However, we recommend that you migrate your web applications to claims-based authentication before upgrading to SharePoint 2013. 
   
-A SharePoint 2013 farm can include a mix of web applications that use both modes. Some services do not differentiate between user accounts that are traditional Windows accounts and Windows claims accounts. 
+A SharePoint 2013 farm can include a mix of web applications that use both modes. Some services don't differentiate between user accounts that are traditional Windows accounts and Windows claims accounts. 
   
 For more information about migrating before upgrading, see [Migrate from classic-mode to claims-based authentication](./security-for-sharepoint-server.md).
   
 For more information about migrating after upgrading, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14)).
   
-For information about how to create web applications that use classic mode authentication in SharePoint 2013, see [Create web applications that use classic mode authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg276326(v=office.14)). You cannot migrate a web application that uses claims-based authentication to use classic mode authentication.
+For information about how to create web applications that use classic mode authentication in SharePoint 2013, see [Create web applications that use classic mode authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg276326(v=office.14)). You can't migrate a web application that uses claims-based authentication to use classic mode authentication.
   
 > [!IMPORTANT]
 > Office Online can be used only by SharePoint 2013 web applications that use claims-based authentication. Office Online rendering and editing will not work on SharePoint 2013 web applications that use classic mode authentication. If you migrate SharePoint 2010 web applications that use classic mode authentication to SharePoint 2013, you must migrate them to claims-based authentication to allow them to work with Office Online. 
@@ -114,7 +118,7 @@ For more information, see [Plan for Windows authentication](#planwin) in this ar
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9627c892-e5c8-410c-8f26-4964a5292801?autoplay=false]
 
-Although not a Windows authentication type, SharePoint Server also supports anonymous authentication. Users can access SharePoint content without validating their credentials. Anonymous authentication is disabled by default. You typically use anonymous authentication when you use SharePoint Server to publish content that does not require security and is available for all users, such as a public Internet website.
+Although not a Windows authentication type, SharePoint Server also supports anonymous authentication. Users can access SharePoint content without validating their credentials. Anonymous authentication is disabled by default. You typically use anonymous authentication when you use SharePoint Server to publish content that doesn't require security and is available for all users, such as a public Internet website.
   
 In addition to enabling anonymous authentication, you must also configure anonymous access (permissions) on sites and site resources.
   
@@ -131,7 +135,7 @@ Forms-based authentication is a claims-based identity management system that is 
     
 - A Lightweight Directory Access Protocol (LDAP) data store such as Novell eDirectory, Novell Directory Services (NDS), or Sun ONE
     
-Forms-based authentication validates users based on credentials that users type in a logon form (typically a web page). Unauthenticated requests are redirected to a logon page, where a user must provide valid credentials and submit the form. The system issues a cookie for authenticated requests that contains a key for reestablishing the identity for subsequent requests.
+Forms-based authentication validates users based on credentials that users type in a logon form (typically a web page). Unauthenticated requests are redirected to a sign in page, where a user must provide valid credentials and submit the form. The system issues a cookie for authenticated requests that contains a key for reestablishing the identity for subsequent requests.
   
 **Watch the forms-based claims authentication in SharePoint 2013 and SharePoint Server 2016 video**
 
@@ -166,18 +170,18 @@ For more information, see [Plan for SAML token-based authentication](#plansaml).
   
 ### Choosing authentication types for LDAP environments
 
-Forms-based authentication or SAML token-based authentication can use LDAP environments. Use the authentication type that matches your current LDAP environment. If you do not already have an LDAP environment, we recommend that you use forms-based authentication because it is less complex. However, if your authentication environment already supports WS-Federation 1.1 and SAML 1.1, then we recommend SAML. SharePoint Server has a built-in LDAP provider. 
+Forms-based authentication or SAML token-based authentication can use LDAP environments. Use the authentication type that matches your current LDAP environment. If you don't already have an LDAP environment, we recommend that you use forms-based authentication because it's less complex. However, if your authentication environment already supports WS-Federation 1.1 and SAML 1.1, then we recommend SAML. SharePoint Server has a built-in LDAP provider. 
   
 ## Plan for Windows authentication
 <a name="planwin"> </a>
 
-The process of planning and implementing Windows authentication methods is similar for claims-based authentication. Claims-based authentication for a web application does not increase the complexity of implementing Windows authentication methods. This section summarizes the planning for the Windows authentication methods.
+The process of planning and implementing Windows authentication methods is similar for claims-based authentication. Claims-based authentication for a web application doesn't increase the complexity of implementing Windows authentication methods. This section summarizes the planning for the Windows authentication methods.
   
 ### NTLM and the Kerberos protocol
 
 Both NTLM and the Kerberos protocol are Integrated Windows authentication methods, which let users seamlessly authenticate without prompts for credentials. For example:
   
-- Users who access SharePoint sites from Internet Explorer use the credentials under which the Internet Explorer process is running to authenticate. By default, these credentials are the credentials that the user used to log on to the computer.
+- Users who access SharePoint sites from Internet Explorer use the credentials under which the Internet Explorer process is running to authenticate. By default, these credentials are the credentials that the user used to sign in the computer.
     
 - Services or applications that use Integrated Windows authentication methods to access SharePoint resources attempt to use the credentials of the running thread, which by default is the identity of the process, to authenticate.
     
@@ -215,13 +219,13 @@ The following steps summarize configuring Kerberos authentication:
     
 ### Digest and Basic
 
-With the Digest authentication method, the user account credentials are sent as an MD5 message digest to the Internet Information Services (IIS) service on the web server that hosts the web application or zone. With the Basic authentication method, the user account credentials are sent as plaintext. Therefore, you should not use the Basic authentication method unless you are also using SSL to encrypt the website traffic.
+With the Digest authentication method, the user account credentials are sent as an MD5 message digest to the Internet Information Services (IIS) service on the web server that hosts the web application or zone. With the Basic authentication method, the user account credentials are sent as plaintext. Therefore, you shouldn't use the Basic authentication method unless you're also using SSL to encrypt the website traffic.
   
 You might have to use these older authentication methods if your environment uses web browsers or services that only support Digest or Basic authentication to websites.
   
 Unlike the NTLM, Kerberos, and Anonymous authentication methods, you configure Digest and Basic authentication methods from the properties of the web site that corresponds to the web application or zone in the Internet Information Services (IIS) snap-in.
   
-If you are using claims-based authentication, see:
+If you're using claims-based authentication, see:
   
 - [Configure digest authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg576966(v=office.14))
     
@@ -230,7 +234,7 @@ If you are using claims-based authentication, see:
 ## Plan for forms-based authentication
 <a name="planfba"> </a>
 
-To use forms-based authentication to authenticate users against an identity management system that is not based on Windows or that is external, you must register the membership provider and role manager in the Web.config file. SharePoint Server uses the standard ASP.NET role manager interface to collect group information about the current user. Each ASP.NET role is treated as a domain group by the authorization process in SharePoint Server. You register role managers in the Web.config file exactly as you register membership providers for authentication.
+To use forms-based authentication to authenticate users against an identity management system that isn't based on Windows or that is external, you must register the membership provider and role manager in the Web.config file. SharePoint Server uses the standard ASP.NET role manager interface to collect group information about the current user. Each ASP.NET role is treated as a domain group by the authorization process in SharePoint Server. You register role managers in the Web.config file exactly as you register membership providers for authentication.
   
 If you want to manage membership users or roles from the Central Administration website, you must register the membership provider and the role manager in the Web.config file for the Central Administration website. Register the membership provider and the role manager in the Web.config file for the web application that hosts the content.
   
@@ -243,7 +247,7 @@ The architecture for implementing SAML token-based providers includes the follow
   
 - **SharePoint Security Token Service** This service creates the SAML tokens that the farm uses. The service is automatically created and started on all servers in a server farm. The service is used for inter-farm communication because all inter-farm communication uses claims-based authentication. This service is also used for authentication methods that are implemented for web applications that use claims-based authentication. These methods include Windows authentication, forms-based authentication, and SAML token-based authentication. 
     
-- **Token-signing certificate (ImportTrustCertificate)** This certificate is the one you export from an IP-STS and then copy to one server in the farm and add it to the farm's Trusted Root Authority list. Once you use this certificate to create an SPTrustedIdentityTokenIssuer, you cannot use it to create another one. To use the certificate to create a different SPTrustedIdentityTokenIssuer, you must delete the existing one first. Before you delete an existing one, you must disassociate it from all web applications that may be using it. 
+- **Token-signing certificate (ImportTrustCertificate)** This certificate is the one you export from an IP-STS and then copy to one server in the farm and add it to the farm's Trusted Root Authority list. Once you use this certificate to create an SPTrustedIdentityTokenIssuer, you can't use it to create another one. To use the certificate to create a different SPTrustedIdentityTokenIssuer, you must delete the existing one first. Before you delete an existing one, you must disassociate it from all web applications that may be using it. 
     
 - **Identity claim** The identity claim is the claim from a SAML token that is the unique identifier of the user. Only the owner of the IP-STS knows which value in the token will always be unique for each user. The identity claim is created as a regular claims mapping during the mapping of all desired claims. The claim that serves as the identity claim is declared when the SPTrustedIdentityTokenIssuer is created. 
     
@@ -273,7 +277,7 @@ The SPTrustedIdentityTokenIssuer object is created with several parameters, whic
     
 - A single  _Wreply_ parameter. 
     
-    Some IP-STS servers require the  _Wreply_ parameter, which is set to either true or false. False is the default. Use the  _Wreply_ parameter only if it is required by the IP-STS. 
+    Some IP-STS servers require the  _Wreply_ parameter, which is set to either true or false. False is the default. Use the  _Wreply_ parameter only if it's required by the IP-STS. 
     
 - Multiple realms.
     
@@ -285,17 +289,17 @@ To implement SAML token-based authentication with SharePoint Server, implement t
     
 2. Define the claim that will be used as the unique identifier of the user. This claim is known as the identity claim. The user principal name (UPN) or user e-mail name is frequently used as the user identifier. Coordinate with the administrator of the IP-STS to determine the correct identifier because only the owner of the IP-STS knows the value in the token that will always be unique per user. Identifying the unique identifier for the user is part of the claims-mapping process. You use Microsoft PowerShell to create claims mappings.
     
-3. Define extra claims mappings. Define the extra claims from the incoming token that the SharePoint Server farm will use. User roles are an example of a claim that can be used to assign permissions to resources in the SharePoint Server farm. All claims from an incoming token that do not have a mapping will be discarded.
+3. Define extra claims mappings. Define the extra claims from the incoming token that the SharePoint Server farm will use. User roles are an example of a claim that can be used to assign permissions to resources in the SharePoint Server farm. All claims from an incoming token that don't have a mapping will be discarded.
     
-4. Use PowerShell to create a new authentication provider to import the token-signing certificate. This process creates the **SPTrustedIdentityTokenIssuer**. During this process, you specify the identity claim and extra claims that you have mapped. Create and specify a realm that is associated with the first SharePoint web applications that you are configuring for SAML token-based authentication. After you create the **SPTrustedIdentityTokenIssuer**, you can create and add more realms for extra SharePoint web applications. This procedure enables you to configure multiple web applications to use the same **SPTrustedIdentityTokenIssuer**.
+4. Use PowerShell to create a new authentication provider to import the token-signing certificate. This process creates the **SPTrustedIdentityTokenIssuer**. During this process, you specify the identity claim and extra claims that you've mapped. Create and specify a realm that is associated with the first SharePoint web applications that you're configuring for SAML token-based authentication. After you create the **SPTrustedIdentityTokenIssuer**, you can create and add more realms for extra SharePoint web applications. This procedure enables you to configure multiple web applications to use the same **SPTrustedIdentityTokenIssuer**.
     
 5. For each realm that you add to the **SPTrustedIdentityTokenIssuer**, you must create an RP-STS entry on the IP-STS. You can create this entry before the SharePoint web application exists. Regardless, you must plan the URL before you create the web applications.
     
 6. For an existing or new SharePoint web application, configure it to use the newly created authentication provider. The authentication provider is displayed as a trusted identity provider in Central Administration when you create a web application. 
     
-You can configure multiple SAML token-based authentication providers. However, you can only use a token-signing certificate once in a farm. All configured providers are displayed as options in Central Administration. Claims from different trusted STS environments will not conflict.
+You can configure multiple SAML token-based authentication providers. However, you can only use a token-signing certificate once in a farm. All configured providers are displayed as options in Central Administration. Claims from different trusted STS environments won't conflict.
   
-If you implement SAML token-based authentication with a partner company and your own environment includes an IP-STS, we recommend that you and the administrator of your internal claims environment establish a one-way trust relationship from your internal IP-STS to the partner STS. This approach does not require you to add an authentication provider to your SharePoint Server farm. It also enables your claims administrators to manage the whole claims environment.
+If you implement SAML token-based authentication with a partner company and your own environment includes an IP-STS, we recommend that you and the administrator of your internal claims environment establish a one-way trust relationship from your internal IP-STS to the partner STS. This approach doesn't require you to add an authentication provider to your SharePoint Server farm. It also enables your claims administrators to manage the whole claims environment.
   
 > [!IMPORTANT]
 > You no longer have to set network load balancing to single affinity when you are using claims-based authentication in SharePoint Server. 
@@ -322,7 +326,7 @@ When you implement multiple authentication methods on the same zone, the followi
   
 - You can implement only one instance of forms-based authentication on a zone.
     
-- Central Administration allows you to use both an Integrated Windows method and Basic at the same time. Otherwise, you cannot implement more than one type of Windows authentication on a zone.
+- Central Administration allows you to use both an Integrated Windows method and Basic at the same time. Otherwise, you can't implement more than one type of Windows authentication on a zone.
     
 If multiple SAML token-based authentication providers are configured for a farm, all appear as options when you create a web application or a new zone. You can configure multiple SAML providers on the same zone.
   
@@ -336,17 +340,17 @@ In the diagram, users from different directory stores use the same URL to access
   
  **Planning to crawl content**
   
-The crawl component requires NTLM to access content. At least one zone must be configured to use NTLM authentication. If NTLM authentication is not configured on the default zone, the crawl component can use a different zone that is configured to use NTLM authentication.
+The crawl component requires NTLM to access content. At least one zone must be configured to use NTLM authentication. If NTLM authentication isn't configured on the default zone, the crawl component can use a different zone that is configured to use NTLM authentication.
   
  **Implement more than one zone**
   
 If you plan to implement more than one zone for web applications, use the following guidelines:
   
-- Use the default zone to implement your most secure authentication settings. If a request cannot be associated with a specific zone, the authentication settings and other security policies of the default zone are applied. The default zone is the zone that is created when you create a web application. Typically, the most secure authentication settings are designed for end-user access. Consequently, end users are likely to access the default zone.
+- Use the default zone to implement your most secure authentication settings. If a request can't be associated with a specific zone, the authentication settings and other security policies of the default zone are applied. The default zone is the zone that is created when you create a web application. Typically, the most secure authentication settings are designed for end-user access. So, end users are likely to access the default zone.
     
-- Use the minimum number of zones that are required to provide access to users. Each zone is associated with a new IIS site and domain for accessing the web application. Only add new access points when they are required.
+- Use the minimum number of zones that are required to provide access to users. Each zone is associated with a new IIS site and domain for accessing the web application. Only add new access points when they're required.
     
-- Ensure that at least one zone is configured to use NTLM authentication for the crawl component. Do not create a dedicated zone for the index component unless it is necessary.
+- Ensure that at least one zone is configured to use NTLM authentication for the crawl component. Don't create a dedicated zone for the index component unless it's necessary.
     
 The following diagram shows multiple zones that are implemented to accommodate different authentication types for a partner collaboration site.
   
@@ -354,4 +358,4 @@ The following diagram shows multiple zones that are implemented to accommodate d
 
 ![One zone for each authentication type](../media/Aut_multipleZones.gif)
   
-In the diagram, the default zone is used for remote employees. Each zone has a different URL associated with it. Employees use a different zone depending on whether they are working in the office or are working remotely.
+In the diagram, the default zone is used for remote employees. Each zone has a different URL associated with it. Employees use a different zone depending on whether they're working in the office or are working remotely.

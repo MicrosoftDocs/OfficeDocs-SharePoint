@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e70737ce-61fe-400d-b7f8-66d18cc958af
@@ -18,7 +18,7 @@ description: "Learn how to display recommendations and popular items on a ShareP
 
 # How to display recommendations and popular items in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This series of articles explains how to use the Usage analytics feature that was introduced in SharePoint Server to display "smart content" on your website. By "smart content" we mean content such as recommendations and popular items.
   

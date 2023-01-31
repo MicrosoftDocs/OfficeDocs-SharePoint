@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -34,7 +35,7 @@ Learn how to mitigate issues with sandbox solutions during migration.
   
 SharePoint does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
   
-https://dev.office.com/patterns-and-practices
+https://pnp.github.io/
   
 ## Data Migration
 

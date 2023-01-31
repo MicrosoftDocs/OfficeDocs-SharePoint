@@ -1,15 +1,15 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 5 Create the availability group and add the SharePoint databases"
 ms.reviewer: 
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,11 +21,11 @@ description: "Configure the SQL Server availability group for your high-availabi
 
 # SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
-In this final phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create a new SQL Server AlwaysOn Availability Group with the databases of the SharePoint farm, create the availability group listener, and then complete the SharePoint farm configuration.
+In this final phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create a new SQL Server Always On Availability Group with the databases of the SharePoint farm, create the availability group listener, and then complete the SharePoint farm configuration.
   
-See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Configure the availability group
 
@@ -65,9 +65,9 @@ Perform the following steps for every database that you are adding to the availa
     
 5. Select the **Options** item from the left navigation. 
     
-6. Ensure that **Recovery Model** is set to **FULL**. If it is not, change it to support AlwaysOn Functionality.
+6. Ensure that **Recovery Model** is set to **FULL**. If it is not, change it to support Always On Functionality.
     
-The following procedures must be repeated for every database that needs to be added to the availability group. Some SharePoint Server 2016 databases do not support SQL Server AlwaysOn Availability Groups. For more information, see [Supported high availability and disaster recovery options for SharePoint databases](./supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md).
+The following procedures must be repeated for every database that needs to be added to the availability group. Some SharePoint Server 2016 databases do not support SQL Server Always On Availability Groups. For more information, see [Supported high availability and disaster recovery options for SharePoint databases](./supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md).
   
  **To back up a database**
   
@@ -101,7 +101,7 @@ Keep the Remote Desktop session to the first SQL Server virtual machine open.
     
 4. In the left pane, right-click **Databases**, and then click **Restore Database**.
     
-5. In the **Source** section, select **Device**, and then click the ellipsis ( **…**) button.
+5. In the **Source** section, select **Device**, and then click the ellipsis ( **...**) button.
     
 6. In **Select backup devices**, click **Add**.
     
@@ -115,7 +115,7 @@ After at least one database is prepared (using the backup and restore method), y
   
 1. Return to the Remote Desktop session for the first SQL Server virtual machine.
     
-2. In **SQL Server Management Studio**, in the left pane, right-click **AlwaysOn High Availability**, and then click **New Availability Group Wizard**.
+2. In **SQL Server Management Studio**, in the left pane, right-click **Always On High Availability**, and then click **New Availability Group Wizard**.
     
 3. On the **Introduction** page, click **Next**.
     
@@ -219,7 +219,7 @@ Use these steps to configure the listener port:
   
 1. Connect to the first SQL Server virtual machine, launch SQL Server Management Studio, and connect to the local computer.
     
-2. Navigate to **AlwaysOn High Availability \> Availability Groups \> Availability Group Listeners**.
+2. Navigate to **Always On High Availability \> Availability Groups \> Availability Group Listeners**.
     
     You should now see the listener name that you created in Failover Cluster Manager.
     
@@ -245,9 +245,9 @@ Use these steps to test the connection to the listener:
 
   The sqlcmd connection automatically connects to whichever instance of SQL Server hosts the primary replica. 
     
-You use the health dashboard to check the AlwaysOn Availability Group for successful operation with these steps:
+You use the health dashboard to check the Always On Availability Group for successful operation with these steps:
   
-1. On the first SQL Server virtual machines, in the left pane of SQL Server Management Studio, expand **AlwaysOn High Availability \> Availability Groups**.
+1. On the first SQL Server virtual machines, in the left pane of SQL Server Management Studio, expand **Always On High Availability \> Availability Groups**.
     
 2. Right-click your Availability Group, and then click **Show Dashboard**.
     
@@ -258,7 +258,7 @@ You use the health dashboard to check the AlwaysOn Availability Group for succes
 Now that the SharePoint configuration and admin content databases have been added to the Availability Group and are synchronizing correctly, the next step is to ensure they are accessible in the event of a SQL Server node failure. To do this, the SQL Server database connection string for the SharePoint farm needs to be updated to match the DNS name of the SQL cluster internal load balancer.
   
 > [!NOTE]
-> With an on-premises SQL Server AlwaysOn deployment, the Availability Groups would use Listeners to present a connection point to the SharePoint Servers. In Azure IaaS there are network limitations which prevent this and so the internal load balancer DNS name must be used instead. Because of this situation, the SharePoint PowerShell cmdlets for managing availability group membership cannot be used. You must use database object method calls instead. 
+> With an on-premises SQL Server Always On deployment, the Availability Groups would use Listeners to present a connection point to the SharePoint Servers. In Azure IaaS there are network limitations which prevent this and so the internal load balancer DNS name must be used instead. Because of this situation, the SharePoint PowerShell cmdlets for managing availability group membership cannot be used. You must use database object method calls instead. 
   
 Use these steps to update the SharePoint database connection strings:
   
@@ -317,10 +317,10 @@ Your high availability SharePoint Server 2016 farm in Azure is complete.
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
-[SharePoint Server 2016 in Microsoft Azure](./sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-2016-farm-in-azure.md)
+[Designing a SharePoint Server farm in Azure](./designing-a-sharepoint-server-farm-in-azure.md)
   
 [Install SharePoint Server](../install/install.md)

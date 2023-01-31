@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to add a new database server to an existing SharePoint f
 
 # Add a database server to an existing farm in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 You can add more database servers at any time to respond to business or operations requirements. Because a database server contains the farm content, which can consist of diverse types of data and can have a fast growing document collection, the size of the farm databases can grow quickly. Storage capacity is often the key reason to add more database servers. Other reasons can include adding new features, improving performance and high availability.
   
@@ -47,7 +47,7 @@ Before you can use the new database server, you must prepare it so that it can b
   
 1. Verify that the user account that is performing this procedure is a member of the SQL Server database **dbcreator** fixed server role, the Farm Administrators SharePoint group, and Administrators group on the server. 
     
-2. Review [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+2. Review [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
 3. Install the operating system, and make sure that the following conditions are satisfied:
     
@@ -124,7 +124,7 @@ For detailed instruction, see Create a web application (SharePoint 2013).
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
     
 3. Verify that the following conditions are true:
     
@@ -136,9 +136,9 @@ For detailed instruction, see Create a web application (SharePoint 2013).
     
 4. Determine the size of the source site collection and verify that the destination hard disk has at least three times more free space than is required for the site collection.
     
-    Use the **Get-SPSiteAdministration** cmdlet to determine the size of a site collection. For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration?view=sharepoint-ps)
+    Use the **Get-SPSiteAdministration** cmdlet to determine the size of a site collection. For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration)
     
-5. Use the **Move-SPSite** cmdlet to move a site collection from the source content database to the new content database. For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps).
+5. Use the **Move-SPSite** cmdlet to move a site collection from the source content database to the new content database. For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite).
     
     For detailed instructions, see [Move site collections between databases in SharePoint Server](../administration/move-site-collections-between-databases.md).
     

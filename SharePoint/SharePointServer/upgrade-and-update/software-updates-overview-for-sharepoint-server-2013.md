@@ -8,8 +8,8 @@ ms.date: 2/22/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to deploy a software update to a SharePoint farm."
 
 # Software updates overview for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Administrators update SharePoint 2013 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
     
@@ -31,16 +31,15 @@ Before you begin the software update process, review the following information a
   
 - [Account permissions and security settings in SharePoint 2013](../install/account-permissions-and-security-settings-in-sharepoint-2013.md)
     
-- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md)
     
 ## Terminology
 <a name="terms"> </a>
 
 To understand how to implement software updates in SharePoint 2013, it is important to understand the terminology for the core components.
   
-||||
-|:-----|:-----|:-----|
 |**Term** <br/> |**Definition** <br/> |**Comment** <br/> |
+|:-----|:-----|:-----|
 |**Cumulative Update (CU)** <br/> |A CU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a CU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, cumulative update (CU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||
@@ -130,7 +129,7 @@ During this phase of the cycle, you learn about requirements to install the upda
   
 #### Requirements and prerequisites
 
-First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
+First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
   
 #### Update strategy
 

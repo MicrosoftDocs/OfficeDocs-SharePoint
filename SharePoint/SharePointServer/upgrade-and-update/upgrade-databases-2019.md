@@ -8,8 +8,8 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Find resources to help you perform the steps to upgrade databases 
 
 # Upgrade databases from SharePoint 2016 to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 The following articles provide information about upgrading databases to SharePoint Server 2019.
   

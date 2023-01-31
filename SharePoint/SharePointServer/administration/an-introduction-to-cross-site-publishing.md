@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5e1b1b4c-c090-4a49-9e05-cc7a88b0b694
@@ -18,7 +18,7 @@ description: "Get an introduction to cross-site publishing."
 
 # An introduction to cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To build our Contoso website, we'll use cross-site publishing, a publishing method introduced with SharePoint Server 2016. But before we start, let's get a bit more familiar with how cross-site publishing works.
   

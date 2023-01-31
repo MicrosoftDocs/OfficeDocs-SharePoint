@@ -14,7 +14,8 @@ ms.collection:
 - Strat_OD_share
 - M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -24,7 +25,7 @@ description: "Learn how global and SharePoint admins can change the organization
 
 # Manage sharing settings
 
-This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level sharing settings for Microsoft SharePoint and Microsoft OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
+This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can change their organization-level sharing settings for Microsoft SharePoint and Microsoft OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
 - [Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
@@ -36,25 +37,22 @@ To change the sharing settings for a site after you've set the organization-leve
 
 ## Video demonstration
 
-This video shows how the settings on the Sharing page in the SharePoint admin center affect the sharing options available to users.
+This video shows how the settings on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page in the SharePoint admin center</a> affect the sharing options available to users.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yw9m?autoplay=false]
 
 ## Change the organization-level external sharing setting
 <a name="__turn_external_sharing"> </a>
   
-
-1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
 2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
 
     > [!NOTE]
-    >  The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups.
+    > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups.
     > 
     > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
     > 
@@ -64,7 +62,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
     This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
-### Which option to select...
+### Which option to select
 
 | Select this option: | If you want to: |
 |:-----|:-----|
@@ -73,9 +71,8 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 |**Existing guests** <br/> |Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, go to the [Guests page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/GuestUsers)).  <br/> |
 |**Only people in your organization** <br/> | Turn off external sharing.
 
-
 > [!NOTE]
->  If you turn off external sharing for your organization and later turn it back on, guests who previously had access regain it. If you know that external sharing was previously turned on and in use for specific sites and you don't want guests to regain access, first turn off external sharing for those specific sites.
+> If you turn off external sharing for your organization and later turn it back on, guests who previously had access regain it. If you know that external sharing was previously turned on and in use for specific sites and you don't want guests to regain access, first turn off external sharing for those specific sites.
 > 
 > If you restrict or turn off external sharing, guests typically lose access within one hour of the change.  
 
@@ -109,7 +106,6 @@ If your administrator has set an expiration time for guest access, each guest th
 
 If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation. 
 
-
 ## File and folder links
 
 Choose the option you want to show by default when a user gets a link. 
@@ -128,12 +124,11 @@ Choose the option you want to show by default when a user gets a link.
   > [!IMPORTANT]
   > If you select "Anyone with the link," but the site or OneDrive is set to allow sharing only with guests who sign in or provide a verification code, the default link is "Only people in your organization." Users need to change the link type to "Specific people" to share files and folders in the site or OneDrive externally. 
 
-
 ### Advanced settings for "Anyone" links
 
 ![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
 
-**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed
+**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed. If you change the expiration time, existing links will keep their current expiration time if the new setting is longer, or be updated to the new setting if the new setting is shorter.
 
 **Link permissions** - You can restrict "Anyone" links so that they can only provide view permission for files or folders.
 
@@ -162,7 +157,6 @@ This setting is turned on by default at the organization level and off at the si
 > Historical data is included when this setting is enabled. Likewise, if the setting is turned off and back on at the organization level or site level, the views during the off period are included in the history.
 
 On the classic Sharing page, you can limit external sharing by security group and shorten sharing links or change their default permission.
-
 
 ## Need more help?
 

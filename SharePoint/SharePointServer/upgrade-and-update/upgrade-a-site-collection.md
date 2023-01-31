@@ -8,8 +8,8 @@ ms.date: 5/30/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,8 +20,8 @@ description: "Learn how site collection administrators can upgrade their sites t
 
 # Upgrade a site collection to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 In SharePoint Server 2016 the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
   
 > [!NOTE]
@@ -37,19 +37,19 @@ SharePoint Server 2016 introduces a new site collection upgrade experience. Ther
     
 - Manually triggered by using PowerShell.
     
- **Content databases upgrade**-  To upgrade the databases run the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. After the databases have been upgraded the site collections are automatically upgraded during database upgrade process by default. 
+ **Content databases upgrade**-  To upgrade the databases run the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet. After the databases have been upgraded the site collections are automatically upgraded during database upgrade process by default. 
   
 > [!NOTE]
 > This is the default behavior and recommended method to upgrade databases. 
   
 > [!IMPORTANT]
-> If you want to delay the sites upgrade, use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. > When the parameter is provided, the site collection is upgraded when first browsed. 
+> If you want to delay the sites upgrade, use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet. > When the parameter is provided, the site collection is upgraded when first browsed. 
   
  **On-browse upgrade** - You do not need to know whether the site collection has pending upgrade, SharePoint decides it for you during the upgrade process. Once the site is browsed, SharePoint checks if the site needs to be upgraded, if so, the site will be put in a queue and a timer job will pick it up for upgrade. 
   
 Farm administrators can use PowerShell to upgrade a site collection.
   
- **Manually trigger site upgrade** - You can use the [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps) cmdlet to manually upgrade the site collections. 
+ **Manually trigger site upgrade** - You can use the [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps&preserve-view=true) cmdlet to manually upgrade the site collections. 
   
 > [!NOTE]
 > This is a legacy option to upgrade a site collection. 
@@ -88,7 +88,7 @@ When you perform tests before upgrading your environment:
     
 You can review the site collection upgrade logs from the following locations:
   
-- **For site collection administrators:** If site collections are upgraded by using the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet, there are no separate SiteUpgrade*.log files. The SiteUpgrade logs are inside Upgrade*.log files. 
+- **For site collection administrators:** If site collections are upgraded by using the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true) cmdlet, there are no separate SiteUpgrade*.log files. The SiteUpgrade logs are inside Upgrade*.log files. 
     
     > [!NOTE]
     > You can retrieve the log files by using PowerShell . > From a PowerShell command prompt type the following syntax:  `Get-SPSiteUpgradeSessionInfo -Site <siteUrl> OR $site.UpgradeInfo`

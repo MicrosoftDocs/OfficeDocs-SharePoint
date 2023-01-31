@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 265ace67-3115-4987-ab2d-80c55e452d4b
@@ -18,7 +18,7 @@ description: "Learn how to extend an existing claims-based SharePoint Server web
 
 # Extend claims-based web applications in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can extend a web application that uses claims-based authentication by using Central Administration. When you extend a web application, you expose the same content to different sets of users by using an additional IIS web site to host the same content.
   
@@ -87,6 +87,6 @@ If you're using [cross-site publishing](overview-of-cross-site-publishing.md), b
 
 #### Other Resources
 
-[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps)
+[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps&preserve-view=true)
   
 [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))

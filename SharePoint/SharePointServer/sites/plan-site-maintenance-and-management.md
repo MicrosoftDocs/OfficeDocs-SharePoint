@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to control resource utilization through management of si
 
 # Plan for site maintenance and management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Every site and site collection in your SharePoint Server farm uses system resources, such as storage, processing, and network. If sites are unused or abandoned they use resources but don't deliver any business value, and so they are using storage space that could be used somewhere else. Out-of-control sites use system resources beyond what your original plan may have allocated to them. In both cases, access to system resources is being denied and performance will suffer, overhead increases, and manageability decreases. To help you avoid these issues, you need to plan for managing your sites and site collections. This article tells you about the tools you can use to manage sites and site collections in SharePoint Server.
   

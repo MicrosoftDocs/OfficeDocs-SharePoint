@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0fb9616f-3877-4ba8-a7a7-9f00b6d896cb
@@ -18,7 +18,7 @@ description: "Learn to configure health data collection timer jobs by using the 
 
 # Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Health Analyzer uses timer jobs to collect health data and then writes the data to the logging folder and to the Logging database. This data is used in reports to display health of the farm servers. You can reschedule these timer jobs, run them immediately, or enable or disable them. 
   
@@ -69,7 +69,7 @@ You can configure the health data collection timer job schedule by using PowerSh
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. On the **Start** menu, select **All Programs**. 
     
@@ -83,15 +83,15 @@ You can configure the health data collection timer job schedule by using PowerSh
   Set-SPTimerJob -Identity <SPTimerJobPipeBind> -Schedule <ScheduleString>
   ```
 
-    The value of the **Identity** parameter specifies the timer job. If you do not use the **Identity** parameter, all timer jobs are configured. To see a list of all the timer jobs, type the following command: 
+The value of the **Identity** parameter specifies the timer job. If you do not use the **Identity** parameter, all timer jobs are configured. To see a list of all the timer jobs, type the following command: 
     
   ```
   Get-SPTimerJob | Format-Table -property id,title
   ```
 
-     _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid **SPTimerJob** object. 
+  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid **SPTimerJob** object. 
     
-    Use the value of the **Schedule** parameter to specify the schedule, where  _\<ScheduleString\>_ is one of the following: 
+  Use the value of the **Schedule** parameter to specify the schedule, where  _\<ScheduleString\>_ is one of the following: 
     
   - **Every 5 minutes between 0 and 59**
     
@@ -111,7 +111,7 @@ You can configure the health data collection timer job schedule by using PowerSh
   Get-SPTimerJob | Format-Table -property id,title,schedule
   ```
 
-For more info, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps). 
+For more info, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps&preserve-view=true) and [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps&preserve-view=true). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

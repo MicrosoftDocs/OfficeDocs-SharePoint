@@ -9,16 +9,16 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 838d2f49-554b-4918-b3db-ba376be9d236
-description: "Learn how to improve search results by creating and managing query rules."
+description: "Learn how to improve search results by creating and managing query rules in SharePoint Server."
 ---
 
 # Create query rules for web content management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Without using any custom code, Search service application administrators, site collection administrators, and site owners can help searches respond to the intent of users by creating query rules. In a query rule, you specify conditions and correlated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results, such as by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint Server term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is satisfied, a correlated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library that you have shared as a catalog, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
   
@@ -31,7 +31,7 @@ For more information about query rules, see [Plan result sources and query rules
 <a name="BKMK_Before"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-2016-2019.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 We recommend that you set up your site, integrate a catalog, and set up your category pages and catalog item pages before you begin to create query rules. This is because you can then more easily test and verify how the different query rules apply to the different Search Web Parts you have on your site.
   
@@ -109,7 +109,7 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
     
 3. In the **Import from taxonomy** dialog, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. 
     
-4. Click **Save**
+4. Click **Save**.
     
 7. In the **Query Conditions** section, select one of the conditions listed in the following table. 
     
@@ -125,10 +125,10 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
 |**Result Type Commonly Clicked** <br/> |Select this option if you want the query rule to fire if other users frequently clicked a particular result type after they typed the same query.  <br/> |In the **Commonly clicked results match result type** menu, select a result type.  <br/> |In an Internet business scenario, you have a catalog of electronic products. Each product has a PDF datasheet. So when users query for a specific product, the search results will return two result types: one that links to the page that has the product details, and one that links to the PDF datasheet. You can create a query rule that will fire if the system over time recognizes that users frequently click the search result for the PDF datasheet. When you know the type of content the user is looking for, you can specify an action for this query rule.  <br/> |
 |**Advanced Query Text Match** <br/> |Select this option if you want to use a regular expression, a phrase, or a dictionary entry that will cause the query rule to fire.  <br/> |To match all phone numbers that are in a certain format, you specify a regular expression in the **Query matches this regular expression** box.  <br/> |To match all phone numbers that are in the format nnn-nnn-nnnn, you specify the regular expression "\(?(\d{3})\)?-?(\d{3})-(\d{4})".  <br/> |
    
-    To add conditions, click **Add Alternate Conditions**. 
+  To add conditions, click **Add Alternate Conditions**. 
     
-    > [!NOTE]
-    > The rule will fire when any condition is true. 
+  > [!NOTE]
+  > The rule will fire when any condition is true. 
   
 8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
@@ -161,7 +161,7 @@ When you configure the query condition for a result block, you can use query var
     
   - On the **BASIC** tab, select options from the following lists to define the query for the result block: 
     
-|||
+|**Query options**|**Description**|
 |:-----|:-----|
 |**Select a query** <br/> |Select a result source to specify which content should be searched.  <br/> |
 |**Keyword filter** <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -182,13 +182,13 @@ When you configure the query condition for a result block, you can use query var
     
   - On the **TEST** tab, you can preview the query that is sent. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |
@@ -246,7 +246,7 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **BASIC** tab, select options from the following lists to change ranked search results: 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Select a query** <br/> |Select a result source to specify which content should be searched.  <br/> |
 |**Keyword filter** <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -269,13 +269,13 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **TEST** tab, you can preview the query. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |

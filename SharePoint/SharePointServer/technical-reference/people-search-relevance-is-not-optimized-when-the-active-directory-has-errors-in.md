@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
 
 # People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 >[!IMPORTANT]
 >This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
@@ -46,25 +46,25 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $upaProxy = Get-SPServiceApplicationProxy <AppID>
-  ```
+   ```
+   $upaProxy = Get-SPServiceApplicationProxy <AppID>
+   ```
 
-    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](/powershell/module/sharepoint-server/Get-SPProfileLeader?view=sharepoint-ps).
+    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](/powershell/module/sharepoint-server/Get-SPProfileLeader?view=sharepoint-ps&preserve-view=true).
     
 4. Type the following command:
     
-  ```
-  Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
-  ```
+   ```
+   Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
+   ```
 
-    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps).
+    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps&preserve-view=true).
     
 5. You are prompted to confirm. Type **Y** to confirm. 
     
@@ -76,5 +76,5 @@ Repeat the commands to add more user accounts as company leaders.
 
 #### Other Resources
 
-[Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps)
+[Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps&preserve-view=true)
 

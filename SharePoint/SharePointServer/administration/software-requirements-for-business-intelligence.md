@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about the minimum software requirements to run business inte
 
 # Software requirements for business intelligence in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
   
 The business intelligence tools for SharePoint Server 2016 include the following:
   
@@ -110,14 +110,14 @@ The requirements for Excel Online in Office Online Server for SharePoint Server 
   
 - If you plan to use Excel Online with advanced data models, at least one SQL Server Analysis Services in SharePoint mode must be registered in the Office Online Server configuration. Excel Online can use multiple Analysis Services servers, but they must all use SQL Server Management Studio. For more information, see [Download SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms). Note that if you use multiple Analysis Services servers with Excel Online they don't need to be SQL Server 2016.
     
-    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](./configure-excel-services.md#SSAS).
+    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](/officeonlineserver/configure-excel-online-administrative-settings).
     
 - The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](./excel-services-overview.md) and [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). 
     
 - You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](/officeonlineserver/data-authentication-for-excel-online-in-office-online-server) and [Configure Analysis Services EffectiveUserName in Excel Online](/officeonlineserver/configure-excel-online-administrative-settings#configure-analysis-services-effectiveusername-in-excel-online).
     
 > [!NOTE]
-> For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](./configure-excel-services.md#EffectiveUserName). 
+> For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](/officeonlineserver/configure-excel-online-administrative-settings). 
   
 For information about planning for Excel Online, see [Plan Office Online Server](/webappsserver/plan-office-web-apps-server). For information about configuring Excel Online, see [Configure Excel Online administrative settings](./configure-excel-services.md).
   

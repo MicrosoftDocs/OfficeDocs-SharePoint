@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 75401651-ef01-4348-878e-8a636f0b072d
@@ -18,7 +18,7 @@ description: "How to configure outgoing email to relay email alerts and notifica
 
 # Plan outgoing email for a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Outgoing email is the foundation on which site administrators can implement several email notification features. These features help end users track changes and updates to individual site collections and allow site administrators to deliver status messages.
   
@@ -33,7 +33,7 @@ Properly configuring outgoing email is a requirement for implementing email aler
     In a large and growing site collection, users need a way to keep up with updates to lists, libraries, and discussions. Alerts help to keep users aware of changes. For example, if many users work on the same document, the owner of the document can set up alerts to be notified whenever there are changes to this document. Users can specify which areas of the site collection or which documents they want to track and decide how often they want to receive alerts.
     
     > [!NOTE]
-    > Users must have at least View permissions to set up alerts. 
+    > Users must have at least **View** permissions to set up alerts. 
   
 - **Administrative messages**
     
@@ -50,7 +50,7 @@ You must consider the following components when planning your outgoing email set
     
 - An address to use in the header of an alert message that identifies the sender of the message.
     
-- A Reply-to address that is displayed in the To field of a message when a user replies to an alert or notification.
+- A Reply-to address that is displayed in the **To** field of a message when a user replies to an alert or notification.
     
 - A character set to use in the body of alert messages.
     
@@ -71,11 +71,11 @@ When configuring outgoing email, you can configure the following two addresses:
   
 - **From address**
     
-    Alerts and notifications are sent from an administrative account on the server farm. This account is probably not the one you want to be displayed in the From field of an email message. The address that you use does not need to correspond to an actual email account; it can be a simple friendly address that is recognizable to an end user. For example, "Site administrator" might be an appropriate From address.
+    Alerts and notifications are sent from an administrative account on the server farm. This account is probably not the one you want to be displayed in the **From** field of an email message. The address that you use does not need to correspond to an actual email account; it can be a simple friendly address that is recognizable to an end user. For example, "Site administrator" might be an appropriate From address.
     
 - **Reply-to address**
     
-    This is the address that is displayed in the To field of a message when a user replies to an alert or notification. The Reply-to address should also be a monitored account to ensure that end users receive prompt feedback for issues they might have. For example, a help desk alias might be an appropriate Reply-to address.
+    This is the address that is displayed in the **To** field of a message when a user replies to an alert or notification. The Reply-to address should also be a monitored account to ensure that end users receive prompt feedback for issues they might have. For example, a help desk alias might be an appropriate Reply-to address.
     
 ### Character set
 
@@ -87,7 +87,7 @@ Be aware that if you select a specific language code, the text is less likely to
 
 The SMTP server authentication feature is only available in SharePoint Server 2019.
 
-SharePoint Server 2019 supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the From address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
+SharePoint Server 2019 supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the **From** address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
 
 > [!NOTE]
 > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
@@ -114,6 +114,34 @@ Set **Use TLS connection encryption** to Yes to require SharePoint to establish 
 
 > [!NOTE]
 > Although SharePoint can require TLS connection encryption when sending email to an SMTP server, it can't control whether connection encryption will be used when that SMTP server sends the email to other SMTP servers. Work with your email administrator to configure your SMTP servers to favor connection encryption.
+
+### Use client certificate authentication with an SMTP server
+
+> [!NOTE]
+> This Use client certificate authentication with an SMTP server feature is available only in SharePoint Server Subscription Edition.
+
+Client certificate authentication over SMTP is an optional, advanced authentication configuration that allows the "client" (in this scenario, SharePoint) to authenticate to the SMTP server using an X.509 certificate that the client presents to the server. This authentication is either "instead of" or "in addition to" the username/password credentials. This configuration isn't common, but it can be used in high security environments where standard username/password authentication isn't considered sufficient.
+
+> [!NOTE]
+> You don't have to use client certificate authentication to use TLS connection encryption to the SMTP server.
+
+Following are the requirements for SharePoint to use client certificate authentication with an SMTP server:
+
+1. The SMTP server must be configured to support STARTTLS for TLS connection encryption.
+2. The SMTP server must be configured to either accept or require client certificates when establishing TLS connections using STARTTLS.
+3. SharePoint must be configured to use TLS connection encryption to the SMTP server.
+4. SharePoint must be configured to use a client certificate when connecting to the SMTP server.
+5. SharePoint process accounts that send emails (which may include the SharePoint farm service account and the web application service account) must have permission to read the private key of the X.509 certificate.
+6. The X.509 certificate must meet the following requirements:
+    - The X.509 certificate must be in the "End Entity" certificate store in SharePoint.
+    - The X.509 certificate must use RSA or ECC (ECDSA) keys.  DSA keys are not supported.
+    - The X.509 certificate must have a private key.
+    - If the X.509 certificate has a Key Usage extension, the extension must contain the "Digital Signature" usage.
+    - If the X.509 certificate has an Extended Key Usage extension, the extension must contain the "Client Authentication" (OID: 1.3.6.1.5.5.7.3.2) usage.
+
+Example screenshot of how this is configured in Central Administration:
+
+:::image type="content" source="../media/outgoing-email-setting_1.png" alt-text="How use client certificate authentication with an SMTP server":::
 
 ### Email impersonation
 
@@ -153,18 +181,19 @@ You can configure each SharePoint web application to disable email impersonation
 1.  Launch the **SharePoint 2019 Management Shell**.
 2. Run the following commands:
 
-```powershell
-$webapp = Get-SPWebApplication <web application URL>
-$webapp.OutboundMailOverrideEnvelopeSender = $true
-$webapp.Update()
-```
+    ```powershell
+    $webapp = Get-SPWebApplication <web application URL>
+    $webapp.OutboundMailOverrideEnvelopeSender = $true
+    $webapp.Update()
+    ```
+
 #### Use an externally secured receive connector <a name="connector"> </a>
 
 Microsoft Exchange Server receive connectors can be configured to automatically trust all emails as authenticated, even if no authentication is performed. SharePoint will then send emails to this receive connector anonymously. Follow these steps to create an externally secured receive connector:
 
-1.	Create a dedicated "Custom" receive connector for the SharePoint farm.
-2.	Set the receive connector's permission group to "Exchange Servers."
-3.	Set the receive connector's authentication type to "externally secured."
+1. Create a dedicated "Custom" receive connector for the SharePoint farm.
+2. Set the receive connector's permission group to "Exchange Servers".
+3. Set the receive connector's authentication type to "externally secured".
 
 Due to the risk of spoofing in this configuration, it's recommended to restrict the IP addresses this receive connector will accept email messages from to just the servers in your SharePoint farm.
 
@@ -174,4 +203,3 @@ Due to the risk of spoofing in this configuration, it's recommended to restrict 
 #### Concepts
 
 [Configure outgoing email for a SharePoint Server farm](outgoing-email-configuration.md)
-

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 94a8041c-f047-4f03-b973-65eb85f8e4fc
@@ -18,7 +18,7 @@ description: "Learn how to remove apps for SharePoint from SharePoint sites."
 
 # Remove app for SharePoint instances from a SharePoint site
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Site owners can remove apps for SharePoint from their sites. Several circumstances might influence farm administrators and site owners to remove apps from their sites. For example, an app for SharePoint may no longer be needed or could become too much of a distraction to employees. The following procedures provide steps for removing (or uninstalling) an app. 
   
@@ -33,7 +33,7 @@ Use the following procedure to remove an app from a SharePoint site.
     
 2. On the site, on the **Settings** menu, click **View Site Contents**.
     
-3. In the **Apps** section, point to the app that you want to remove, click **…**, and then click **Remove**.
+3. In the **Apps** section, point to the app that you want to remove, click **...**, and then click **Remove**.
     
 4. Click **OK** to confirm that you want to remove the app. 
     

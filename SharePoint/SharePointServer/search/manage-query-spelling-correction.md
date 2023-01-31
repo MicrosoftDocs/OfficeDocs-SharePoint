@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: eabe099e-5eea-4b33-8241-8079d9409095
@@ -18,7 +18,7 @@ description: "Learn how to include single words in or exclude single words from 
 
 # Manage query spelling correction in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In the classic search experience, if a user enters a word in a search query that appears to be misspelled, the search results page displays query spelling corrections. This is also known as "Did you mean?". For example, if someone enters a query that contains the word "ampitheater", the query spelling correction would be "amphitheater".
   
@@ -103,7 +103,7 @@ You can edit the names of terms in the Query Spelling Exclusions and Query Spell
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Set-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
+[Set-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
+[Get-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps&preserve-view=true)
 

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cdd1d3d6-034e-458f-9324-c51d90fa9273
 
@@ -18,7 +18,7 @@ description: "Excel 2013 offers a wide range of business intelligence capabiliti
 
 # Business intelligence capabilities in Excel Service (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Excel offers certain business intelligence capabilities that make it easier than ever to explore and analyze data. Many of these features are supported by Excel Services. Read this article to learn about which capabilities in Excel are supported in SharePoint Server 2013 and Office Web Apps Server. 
   
@@ -79,7 +79,7 @@ After you have created reports, scorecards, and dashboards using Excel, you can 
 Office Web Apps Server is the online companion to Office Word, Excel, PowerPoint, and OneNote applications. Office Web Apps Server gives users a browser-based viewing and editing experience by providing a representation of an Office document in the browser. Organizations that have SharePoint Server 2013 might also be using Office Web Apps Server, and that has certain implications for which business intelligence capabilities are supported in a browser window.
   
 > [!IMPORTANT]
-> If your organization is using Office Web Apps Server together with SharePoint Server 2013, then your organization can use either Office Web Apps Server or SharePoint Server 2013 to display workbooks. This decision affects which business intelligence capabilities are supported in a browser window. > To enable people to interact with workbooks that contain a Data Model or Power View views in a browser window, configure Excel Services in SharePoint Server 2013 to display workbooks. This requires a SharePoint admin to run the **New-SPWOPISupressionSetting** cmdlet on the server where SharePoint Server 2013 in installed. For more information, see [New-SPWOPISuppressionSetting](/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps). 
+> If your organization is using Office Web Apps Server together with SharePoint Server 2013, then your organization can use either Office Web Apps Server or SharePoint Server 2013 to display workbooks. This decision affects which business intelligence capabilities are supported in a browser window. > To enable people to interact with workbooks that contain a Data Model or Power View views in a browser window, configure Excel Services in SharePoint Server 2013 to display workbooks. This requires a SharePoint admin to run the **New-SPWOPISupressionSetting** cmdlet on the server where SharePoint Server 2013 in installed. For more information, see [New-SPWOPISuppressionSetting](/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps&preserve-view=true). 
   
 The following table summarizes the business intelligence features that are supported by Office Web Apps Server and by SharePoint Server 2013.
   

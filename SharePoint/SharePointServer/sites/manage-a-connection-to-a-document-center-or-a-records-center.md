@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "How to connect a web application to a SharePoint Server document c
 
 # Manage a connection to a document center or a records center in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 A connection is a path used for sending documents to a document center or a records center. The connection specifies the web application that documents will be sent from, the document center or records center that they will be sent to, and certain aspects of how the documents are sent. A records center is a site that is designed for records management.
   

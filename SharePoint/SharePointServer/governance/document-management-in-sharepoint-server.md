@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 809fe3d9-6121-4e2e-8556-c48a39756365
 description: "Learn about the elements of a document management solution and the document management planning process in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn about the elements of a document management solution and the
 
 # Document management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article contains a high-level description of the various elements of a document management solution that is based on SharePoint Server.
   

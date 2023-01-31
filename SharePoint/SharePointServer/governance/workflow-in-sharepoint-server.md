@@ -8,8 +8,8 @@ ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 70d4b4eb-9df0-44e5-980f-542614273439
 description: "Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow."
@@ -17,7 +17,7 @@ description: "Workflows in SharePoint allow you to model and automate business p
 
 # Workflow in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow.
   

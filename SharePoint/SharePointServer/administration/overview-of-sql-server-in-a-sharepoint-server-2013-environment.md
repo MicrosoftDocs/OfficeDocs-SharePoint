@@ -8,8 +8,8 @@ ms.date: 3/9/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4dd5daa5-a22c-40c8-b250-6b4779714bb3
@@ -18,7 +18,7 @@ description: "Learn about the SharePoint Server relationship with SQL Server 200
 
 # Overview of SQL Server in a SharePoint Server 2013 environment
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 SharePoint Server 2013 supports several versions of SQL Server. Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI).
   
@@ -100,21 +100,21 @@ SQL Server 2012 with SP1 and SQL Server 2014 provide business intelligence solut
 ### High Availability Solutions
 <a name="HA"> </a>
 
-We recommend AlwaysOn Availability Groups for high availability in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services. Other high availability solutions are AlwaysOn Failover Cluster Instances, database mirroring, and log shipping. Both AlwaysOn Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
+We recommend Always On Availability Groups for high availability in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services. Other high availability solutions are Always On Failover Cluster Instances, database mirroring, and log shipping. Both Always On Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
   
 > [!NOTE]
-> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2012 or SQL Server 2014 and SharePoint Server 2013. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr). 
+> We recommend that you use Always On Availability Groups instead of database mirroring for your high availability solution with SQL Server 2012 or SQL Server 2014 and SharePoint Server 2013. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr). 
   
-For more information, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017).
+For more information, see [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server), and [Prerequisites, Restrictions, and Recommendations for Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017&preserve-view=true).
   
 ### Reporting Services SharePoint mode
 <a name="RSsp"> </a>
 
-SharePoint mode in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services is a SharePoint Server 2013 shared service that you configure in either the SharePoint Central Administration website or by using Reporting Services SharePoint mode Microsoft PowerShell cmdlets. For more information, see [PowerShell cmdlets (Reporting Services SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/powershell-cmdlets-for-reporting-services-sharepoint-mode?view=sql-server-2016). SharePoint mode supports SharePoint Server 2013 backup and restore for SQL Server Reporting Services service application and Unified Logging Service (ULS) trace logs. SharePoint mode also supports claims-based authentication. For more information, see the "SharePoint Mode" section of [What's New (Reporting Services)](/previous-versions/sql/sql-server-2012/ms170438(v=sql.110)). For more information about the SharePoint Microsoft PowerShell cmdlets for ULS, see [Logging and events cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+SharePoint mode in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services is a SharePoint Server 2013 shared service that you configure in either the SharePoint Central Administration website or by using Reporting Services SharePoint mode Microsoft PowerShell cmdlets. For more information, see [PowerShell cmdlets (Reporting Services SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/powershell-cmdlets-for-reporting-services-sharepoint-mode?view=sql-server-2016&preserve-view=true). SharePoint mode supports SharePoint Server 2013 backup and restore for SQL Server Reporting Services service application and Unified Logging Service (ULS) trace logs. SharePoint mode also supports claims-based authentication. For more information, see the "SharePoint Mode" section of [What's New (Reporting Services)](/previous-versions/sql/sql-server-2012/ms170438(v=sql.110)). For more information about the SharePoint Microsoft PowerShell cmdlets for ULS, see [Logging and events cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true).
   
 SharePoint mode requires that a report server component of Reporting Services must run within a SharePoint Server farm. This means that a SharePoint application server must exist with the Reporting Services shared service installed and at least one Reporting Services service application.
   
-For more information, see [Reporting Services Report Server (SSRS)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server) and [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).
+For more information, see [Reporting Services Report Server (SSRS)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server) and [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&preserve-view=true).
   
 ### Business intelligence features
 <a name="BI"> </a>
@@ -132,12 +132,16 @@ When you install SQL Server 2012 Analysis Services (SSAS) and SQL Server 2012 Re
     
 The xVelocity in-memory analytics engine in SQL Server 2012 supports both self-service BI and corporate BI. For more information, see [xVelocity in SQL Server 2012](/previous-versions/sql/sql-server-2012/hh922900(v=sql.110)).
   
-For more information, see [Guidance for Using SQL Server BI Features in a SharePoint Farm](https://technet.microsoft.com/library/hh231680.aspx), [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/sql/sql-server/install/guidance-for-using-sql-server-bi-features-in-a-sharepoint-2010-farm?view=sql-server-2014), and [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
+
+For more information, see [Guidance for Using SQL Server BI Features in a SharePoint Farm](https://technet.microsoft.com/library/hh231680.aspx), [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/sharepoint/administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment#sql-server-2012-and-sql-server-2014), and [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
+
+For more information, see [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
+
   
 ### Power Pivot for SharePoint 2013
 <a name="PP"> </a>
 
-SQL Server 2012 with SP1 is required to deploy Power Pivot for SharePoint 2013. Power Pivot for SharePoint 2013 is a SharePoint Server service application that becomes available when Analysis Services runs in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. SQL Server 2012 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2012 Analysis Services (SSAS), see [Analysis Services](/previous-versions/sql/sql-server-2012/bb522607(v=sql.110)). For more information about SQL Server 2014 Analysis Services, see [Analysis Services](/sql/analysis-services/analysis-services?view=sql-server-2014). The server that hosts Power Pivot for SharePoint 2013 can be outside a SharePoint Server 2013 farm.
+SQL Server 2012 with SP1 is required to deploy Power Pivot for SharePoint 2013. Power Pivot for SharePoint 2013 is a SharePoint Server service application that becomes available when Analysis Services runs in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. SQL Server 2012 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2012 Analysis Services (SSAS), see [Analysis Services](/previous-versions/sql/sql-server-2012/bb522607(v=sql.110)). For more information about SQL Server 2014 Analysis Services, see [Analysis Services](/sql/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true). The server that hosts Power Pivot for SharePoint 2013 can be outside a SharePoint Server 2013 farm.
   
 To configure Power Pivot for SharePoint you can use the SharePoint Central Administration website, the Power Pivot for SharePoint 2013 Configuration tool, or Microsoft PowerShell cmdlets. The following table lists each method and describes the process: 
   
@@ -147,7 +151,7 @@ To configure Power Pivot for SharePoint you can use the SharePoint Central Admin
 |Power Pivot for SharePoint 2013 Configuration Tool  <br/> |Evaluates an existing installation and determines what needs to be configured in the SharePoint farm and Power Pivot for SharePoint and then configures everything required.  <br/> |
 |Microsoft PowerShell cmdlets  <br/> |Provides cmdlets that you can use to build PowerShell script files (.ps1) and automate the configuration process for Power Pivot for SharePoint.  <br/> |
    
-The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule Data Refresh, and the PowerPivot Management Dashboard in Central Administration. For more information, see [PowerPivot for SharePoint (SSAS)](/sql/analysis-services/power-pivot-sharepoint/power-pivot-for-sharepoint-ssas?view=sql-server-2017).
+The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule Data Refresh, and the PowerPivot Management Dashboard in Central Administration. For more information, see [PowerPivot for SharePoint (SSAS)](/analysis-services/power-pivot-for-sharepoint-ssas).
   
 ## See also
 <a name="sec4"> </a>
@@ -156,7 +160,7 @@ The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule 
 
 [Supported Combinations of SharePoint and Reporting Services Components](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?viewFallbackFrom=sql-server-2014)
   
-[What's New (Analysis Services)](/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+[What's New (Analysis Services)](/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017&preserve-view=true)
   
 [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/editions-and-components-of-sql-server-2016)
   

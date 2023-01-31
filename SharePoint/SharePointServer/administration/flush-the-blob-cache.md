@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b35d9b02-2207-417c-bb90-870474b6f57c
@@ -18,7 +18,7 @@ description: "Learn how to clear the contents of the BLOB cache for a web applic
 
 # Flush the BLOB cache in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A BLOB cache is a disk-based cache that stores binary large objects (BLOBs) such as frequently used image, audio, and video files, and other files that are used to display web pages. Each SharePoint front-end server maintains its own BLOB cache. When you enable a BLOB cache, you specify the file types to include in the cache and also the location of the BLOB cache. The first time that a BLOB file is requested, the file is copied from the database to the BLOB cache on the front-end server. Future requests to the front-end server for that same file are then served from the file that is stored in the BLOB cache, instead of being served from the database. This reduces the network traffic and the load on the database server. 
   
@@ -50,7 +50,7 @@ When you flush the BLOB cache, you clear the contents of the BLOB cache for a we
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Copy the following code and paste it into a text editor, such as Notepad.
     
@@ -82,5 +82,5 @@ When you flush the BLOB cache, you clear the contents of the BLOB cache for a we
 
 #### Other Resources
 
-[Scripting with Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=193051)
+[Scripting with Windows PowerShell](/powershell/scripting/windows-powershell/ise/how-to-write-and-run-scripts-in-the-windows-powershell-ise)
 

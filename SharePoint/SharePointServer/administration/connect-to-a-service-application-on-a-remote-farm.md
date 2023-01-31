@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to connect to and consume a published service applicatio
 
 # Connect to service applications on remote farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In SharePoint Server, you can publish some service applications to make them available over remote connections. By publishing a service application, you can optimize resources and avoid redundancy, and provide enterprise-wide services without installing a dedicated enterprise services farm.
   
@@ -68,7 +68,7 @@ Before you begin this operation, review [Share service applications across farms
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -105,13 +105,13 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[New-SPBusinessDataCatalogServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplicationProxy?view=sharepoint-ps)
+[New-SPBusinessDataCatalogServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
   
-[New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps)
+[New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
   
-[New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps)
+[New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
   
-[New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps)
+[New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
   
-[New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps)
+[New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
 

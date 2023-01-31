@@ -16,6 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: d4fab46d-ba41-4c03-9d4c-32b5b33198b6
 ms.collection: M365-collaboration
+ms.custom: admindeeplinkSPO
 description: "Learn about the search schema and how you can view, create, or change managed properties, and map crawled properties to managed properties to create a customized search experience."
 ---
 
@@ -136,10 +137,10 @@ If you need a property of a different type, or one that has different characteri
   
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
  
@@ -182,10 +183,10 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -220,10 +221,10 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -251,10 +252,10 @@ If you need a property of a different type, or one that has different characteri
   
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -278,10 +279,10 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -307,10 +308,10 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -342,10 +343,10 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -372,22 +373,33 @@ If you need a property of a different type, or one that has different characteri
 <a name="DefaultUnusedMPs"> </a>
 
 The following table provides an overview of the default unused managed properties that you can reuse and rename using an Alias.
-  
-| **Managed property type** | **Count** |           **Managed property characteristics**           |     **Managed property name range**      |
-| :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
-| Date                      | 10        | Queryable                                                | Date00 to Date09                         |
-| Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
-| Date                      |  2        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateInvariant00 to RefinableDateInvariant01 |
-| Date                      |  5        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateSingle00 to RefinableDateSingle04 |
-| Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
-| Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
-| Double                    | 10        | Queryable                                                | Double00 to Double09                     |
-| Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
-| Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
-| Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
-| String                    | 200 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString199  |
-    
+
+| **Managed property type** | **Count** | **Multi** | **Query** | **Search** | **Retrieve** | **Refine** | **Sort** | **Managed property name range** | **Notes** |
+| :------------------------ | :-------- | :-------- | :-------- | :--------- | :----------- | :--------- | :------- |:------------------------------------------------------- | :--------------------------------------- |
+| Date                      | 10        |   -   | Query | - |     -    |    -   |   -  | Date00 to Date09                                           | |
+| Date                      | 20        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDate00 to RefinableDate19                         | |
+| Date                      |  2        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateInvariant00 to RefinableDateInvariant01       | \* |
+| Date                      |  5        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateSingle00 to RefinableDateSingle04             | |
+| Decimal                   | 10        |   -   | Query | - |     -    |    -   |   -  | Decimal00 to Decimal09                                     | |
+| Decimal                   | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDecimal00 to RefinableDecimal09                   | |
+| Double                    | 10        |   -   | Query | - |     -    |    -   |   -  | Double00 to Double09                                       | |
+| Double                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDouble00 to RefinableDouble09                     | |
+| Integer                   | 50        |   -   | Query | - |     -    |    -   |   -  | Int00 to Int49                                             | |
+| Integer                   | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableInt00 to RefinableInt49                           | |
+| String                    | 200       | Multi | Query | - | Retrieve | Refine | Sort | RefinableString00 to RefinableString199                    | |
+| String                    | 40        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringFirst00 to RefinableStringFirst39           | \* |
+| String                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringLn00 to RefinableStringLn09                 | \*\* |
+| String                    | 50        |   -   | Query | - | Retrieve | Refine | Sort | RefinableStringWbOff00 to RefinableStringWbOff49           | \*\*\* |
+| String                    | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | \*, \*\*\* |
+
+\* Mappings to crawled properties - Include content from the first crawled property that is not empty, based on the specified order.
+
+\*\* Language neutral word breaker
+
+\*\*\* Complete Matching
+
 ## Hide documents from Delve
+
 <a name="BKMK_HideFromDelveSteps"> </a>
 
 If you don't want a document to show up in Delve, you can create a HideFromDelve site column of the type **Yes/No**. This site column creates a new crawled property, ows_HideFromDelve, which is automatically mapped to the HideFromDelve managed property.

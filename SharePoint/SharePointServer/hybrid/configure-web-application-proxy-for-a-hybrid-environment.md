@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Learn how to configure Windows Server 2012 R2 with Web Application
 
 # Configure Web Application Proxy for a hybrid environment
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article describes Web Application Proxy and helps you set it up to use as a reverse proxy for a hybrid SharePoint Server environment.
   
@@ -63,7 +63,7 @@ You must import the Secure Channel SSL certificate into the Personal store of th
 > [!NOTE]
 > The default service account of the Web Application Proxy Service is the local computer **Network Service**. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The location of the **Secure Channel SSL certificate** is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**.  <br/> If the certificate contains a private key, you will need to provide the certificate password, which is recorded in **Row 4** (Secure Channel SSL Certificate password) of **Table 4b: Secure Channel SSL Certificate**.  <br/> |
    
@@ -76,7 +76,7 @@ For information about how to import an SSL certificate, see [Import a Certificat
   
 To configure a published application to accept and relay requests from your SharePoint in Microsoft 365 tenant, type the following Microsoft PowerShell command.
   
-```
+```powershell
 Add-WebApplicationProxyApplication -ExternalPreauthentication ClientCertificate -ExternalUrl <external URL> -BackendServerUrl <bridging URL> -name <friendly name of the published application> -ExternalCertificateThumbprint <certificate thumbprint> -ClientCertificatePreauthenticationThumbprint <certificate thumbprint> -DisableTranslateUrlInRequestHeaders:$False -DisableTranslateUrlInResponseHeaders:$False
 ```
 
@@ -84,13 +84,13 @@ Where:
   
 -  _\<externalUrl\>_ is the external URL for the web application. This is the public URL to which SharePoint in Microsoft 365 will send inbound requests for SharePoint Server content and resources. 
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The external URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
    
 -  _\<bridging URL\>_ is the internal URL you configured for the primary web application in your on-premises SharePoint Server farm. This is the URL to which Web Application Proxy will relay inbound requests from SharePoint in Microsoft 365. 
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| The bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a *host-named site collection*, use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
    
@@ -98,7 +98,7 @@ Where:
     
 -  _\<certificate thumbprint\>_ is the certificate thumbprint, as a string with no spaces, of the certificate to use for the address specified by the  _ExternalUrl_ parameter. This value should be entered twice, once for the _ExternalCertificateThumbprint_ parameter and again for the _ClientCertificatePreauthenticationThumbprint_ parameter. 
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This is the thumbprint of the **Secure Channel SSL certificate**. The location of this certificate file is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**. |
    
@@ -108,13 +108,13 @@ For additional info about the **Add-WebApplicationProxyApplication** cmdlet, see
 
 To validate the published application, use the **Get-WebApplicationProxyApplication** cmdlet. Enter the following Microsoft PowerShell command:
   
-```
+```powershell
 Get-WebApplicationProxyApplication |fl
 ```
 
 The output should resemble the content in the following table.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |ADFSRelyingPartyID  <br/> |:\<populated at run time\>  <br/> |
 |ADFSRelyingPartyName  <br/> |:\<relying party name\>  <br/> |

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn about the accounts to use to manage SharePoint Server deploy
 
 # Plan for administrative and service accounts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 To install SharePoint Server, you have to have appropriate administrative and service accounts on servers running SharePoint Server and SQL Server. After installation, you need to have appropriate administrative and service accounts to modify and maintain the environment. The accounts that you require to complete these groups of tasks are not necessarily the same. This article describes the accounts that you require after installation for a single-server environment and a server farm environment.
   
@@ -54,7 +54,7 @@ The following table describes the accounts that are used to configure SQL Server
 |:-----|:-----|:-----|
 |SQL Server service account| The SQL Server service account is used to run SQL Server. It is the service account for the following SQL Server services:  <br/>  MSSQLSERVER  <br/>  SQLSERVERAGENT  <br/>  If you do not use the default SQL Server instance, in the Windows Services console, these services will be shown as:  <br/>  MSSQL\<InstanceName\>  <br/>  SQLAgent\<InstanceName\>|Use either a domain user account or preferably, a [Group Managed Service Account](/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).  <br/> If you plan to back up to or restore from an external resource, permissions to the external resource must be granted to the appropriate account. If you use a domain user account or Group Managed Service Account for the SQL Server service account, grant permissions to that domain user account. However, if you use the Network Service or the Local System account, grant permissions to the external resource to the machine account (\<domain_name\>\\<SQL_hostname\>).  <br/> The instance name is arbitrary and was created when SQL Server was installed.|
 |Farm administrator user account| The farm administrator user account is a uniquely identifiable account assigned to a SharePoint admin. It is used to run:  <br/>  Setup  <br/>  SharePoint Products Configuration Wizard| Domain user account.  <br/>  Member of the Administrators group on each SharePoint server in the farm.  <br/>  Member of the following SQL Server role (optional): **sysadmin** fixed server role.  <br/>  If you run Windows PowerShell cmdlets that affect a database, this account must be a member of the **db_owner** fixed database role for the database or a member of the **sysadmin** fixed server role on SQL.|
-|Farm service account| The farm service account is used to perform the following tasks:  <br/>  Act as the application pool identity for the SharePoint Central Administration website.  <br/>  Run the Microsoft SharePoint Foundation Workflow Timer Service.  | Domain user account.  <br/>  More permissions are automatically granted for the server farm account on Web servers and application servers that are joined to a server farm.  <br/>  The server farm account is automatically added as a SQL Server login on the computer that runs SQL Server. The account is added to the following SQL Server security roles:  <br/> * **dbcreator** fixed server role  <br/> * **securityadmin** fixed server role  <br/> * **db_owner** fixed database role for all SharePoint databases in the server farm  <br/> This account must not be used interactively by an administrator. |
+|Farm service account| The farm service account is used to perform the following tasks:  <br/>  Act as the application pool identity for the SharePoint Central Administration website.  <br/>  Run the Microsoft SharePoint Foundation Workflow Timer Service.  | Domain user account.  <br/>  More permissions are automatically granted for the server farm account on Web servers and application servers that are joined to a server farm.  <br/>  The server farm account is automatically added as a SQL Server login on the computer that runs SQL Server. The account is added to the following SQL Server security roles:  <br/> * **dbcreator** fixed server role  <br/> * **securityadmin** fixed server role  <br/> * **db_owner** fixed database role for all SharePoint databases in the server farm  <br/> This account must not be used interactively by an administrator. <br/>Modify farm service account will need to restart IIS server by using `iisreset.exe` command. |
    
 ### Service application accounts
 
@@ -63,7 +63,9 @@ The following table describes the accounts that are used to set up and configure
 For more information about service application endpoints, see [Using Service Endpoints](/previous-versions/office/developer/sharepoint-2010/ee535060(v=office.14)).
   
 > [!NOTE]
-> Excel Services and User Profile Synchronization Service only apply to SharePoint 2013. 
+> Excel Services and User Profile Synchronization Service only apply to SharePoint 2013.<p>
+> Access Services and PerformancePoint Service do not apply to Subscription Edition.
+ 
   
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -279,7 +281,7 @@ This section lists account requirements by scenario:
 |:-----|:-----|:-----|
 |SQL Server service account  <br/> | The SQL Server service account is used to run SQL Server. It is the service account for the following SQL Server services:  <br/>  MSSQLSERVER  <br/>  SQLSERVERAGENT  <br/>  If you do not use the default SQL Server instance, in the Windows Services console, these services will be shown as:  <br/>  MSSQL\<InstanceName\>  <br/>  SQLAgent\<InstanceName\>  <br/> |Use either a domain user account or preferably, a [Group Managed Service Account](/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).  <br/> If you plan to back up to or restore from an external resource, permissions to the external resource must be granted to the appropriate account. If you use a domain user account or Group Managed Service Account for the SQL Server service account, grant permissions to that domain user account. However, if you use the Network Service or the Local System account, grant permissions to the external resource to the machine account (\<domain_name\>\\<SQL_hostname\>).  <br/> The instance name is arbitrary and was created when SQL Server was installed.  <br/> |
 |Farm administrator user account  <br/> | The farm administrator user account is a uniquely identifiable account assigned to a SharePoint admin. It is used to run:  <br/>  Setup  <br/>  SharePoint Products Configuration Wizard  <br/> | Domain user account.  <br/>  Member of the Administrators group on each SharePoint server in the farm.  <br/>  Member of the following SQL Server role (optional): **sysadmin** fixed server role.  <br/>  If you run Windows PowerShell cmdlets that affect a database, this account must be a member of the **db_owner** fixed database role for the database or a member of the **sysadmin** fixed server role on SQL.  <br/> |
-|Farm service account <br/> | The farm service account is used to perform the following tasks:  <br/>  Act as the application pool identity for the SharePoint Central Administration website.  <br/>  Run the Microsoft SharePoint Foundation Workflow Timer Service.  <br/> | Domain user account.  <br/>  More permissions are automatically granted for the server farm account on Web servers and application servers that are joined to a server farm.  <br/>  The server farm account is automatically added as a SQL Server login on the computer that runs SQL Server. The account is added to the following SQL Server security roles:  <br/> * **dbcreator** fixed server role  <br/> * **securityadmin** fixed server role  <br/> * **db_owner** fixed database role for all SharePoint databases in the server farm  <br/> This account must not be used interactively by an administrator. |
+|Farm service account <br/> | The farm service account is used to perform the following tasks:  <br/>  Act as the application pool identity for the SharePoint Central Administration website.  <br/>  Run the Microsoft SharePoint Foundation Workflow Timer Service.  <br/> | Domain user account.  <br/>  More permissions are automatically granted for the server farm account on Web servers and application servers that are joined to a server farm.  <br/>  The server farm account is automatically added as a SQL Server login on the computer that runs SQL Server. The account is added to the following SQL Server security roles:  <br/> * **dbcreator** fixed server role  <br/> * **securityadmin** fixed server role  <br/> * **db_owner** fixed database role for all SharePoint databases in the server farm  <br/> This account must not be used interactively by an administrator. <br/>Modify farm service account will need to restart IIS server by using `iisreset.exe` command. |
    
 #### Service application service accounts
 

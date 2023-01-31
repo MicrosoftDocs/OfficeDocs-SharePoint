@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c7f0ba55-d909-4665-85ba-706ef08d3ec8
@@ -18,7 +18,7 @@ description: "Learn about performance characteristics of features in SharePoint 
 
 # Performance and capacity test results and recommendations (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following articles describe the tested performance and capacity characteristics and effect of specific scenarios and feature sets in SharePoint Server 2013. These articles include information about the characteristics of the scenario or feature and how it was tested by Microsoft, including:
   
@@ -58,5 +58,4 @@ The following table describes the available articles. This list will be updated 
 
 [Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md)
   
-[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
-
+[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md)

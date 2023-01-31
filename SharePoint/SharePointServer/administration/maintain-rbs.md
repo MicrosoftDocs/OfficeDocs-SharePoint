@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to perform maintenance tasks that are associated with Re
 
 # Maintain RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You perform most of the maintenance tasks associated with RBS in SharePoint Server by using the RBS Maintainer, which is a tool in SQL Server. The RBS Maintainer performs periodic garbage collection and other maintenance tasks for a SharePoint Server RBS deployment. You can schedule these tasks for each database that uses RBS by using Windows Task Scheduler or SQL Server Agent. You must provision the RBS Maintainer by using command-line parameters or through an XML file. In the case of mirrored or replicated databases, you can run the RBS Maintainer against any single instance.
   
@@ -88,7 +88,7 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
     
     **aspnet_regiis -pef connectionStrings . -prov DataProtectionConfigurationProvider**
   
- **rename web.config Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config**
+    **rename web.config Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config**
     
     If you are using SQL authentication, the RBS Maintainer connection strings must be in an encrypted format. Therefore, to add connection strings, either the new strings must be encrypted or all the connection strings must be decrypted. Encrypted strings must be added one at a time. However all the connection strings can be decrypted at the same time by using the %windir%\Microsoft.net\Framework\ _\<version\>_\Aspnet_regiis.exe tool, which is distributed as a part of the Microsoft .NET Framework.
     
@@ -96,13 +96,13 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
     
     **rename Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config web.config**
   
- **aspnet_regiis -pdf connectionStrings**
+    **aspnet_regiis -pdf connectionStrings**
     
     Strings can then be added in decrypted form and the file can be encrypted and renamed to Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config by using the following commands:
     
     **aspnet_regiis -pef connectionStrings . -prov DataProtectionConfigurationProvider**
   
- **rename web.config Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config**
+    **rename web.config Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config**
     
 3. Create a Windows scheduler task to run the RBS Maintainer task for each applicable database. If you ran the RBS installer in GUI mode, it automatically created a Windows scheduler task. However, if you ran the RBS installer in command-line mode, you must follow these steps every time that you schedule a task to run the RBS Maintainer:
     

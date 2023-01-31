@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: db4bea29-65fb-4c48-828a-f96502fed697
 description: "Learn about different kinds of data sources that you can use in Excel and Excel Services."
@@ -17,7 +17,7 @@ description: "Learn about different kinds of data sources that you can use in Ex
 
 # Data sources supported in Excel Services (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 You can bring data into Excel using lots of data sources and connections. Many, but not all, of the data connections that you can use in Excel are supported in Excel Services. In addition, if your organization is using Office Web Apps Server, some data sources that you can use in Excel are not supported in Excel Web App.
   

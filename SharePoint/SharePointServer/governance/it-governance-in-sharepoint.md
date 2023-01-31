@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -22,7 +22,7 @@ description: "Learn about key factors in governing a SharePoint service and what
 
 # IT governance in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 How will you control the services that you offer? What will you provide with each service? What will you include in service-level agreements for each service? And how do you prevent proliferation of unmanaged servers? These questions should be answered as part of your IT governance plan. 
   

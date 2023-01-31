@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "How to delete and restore SharePoint Server site collection conten
 
 # Delete and restore site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 If you've created a team site to track progress on a specific project, and the project has ended, you might decide to delete the site collection after a certain amount of time has passed. 
   
@@ -114,7 +114,7 @@ After you perform this procedure, the site collection and all of its content and
     
 This command removes the specified site collection and all subsites. Gradual deletion reduces the load on the system during the deletion process.
     
-The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
+The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps&preserve-view=true).
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -124,7 +124,7 @@ The previous procedure illustrates a common way to use the **Remove-SPSite** cmd
 
 If you've accidentally deleted a site collection, you can restore it using PowerShell.
   
-When a site collection (that is, a **SPSite** object) is accidentally deleted in SharePoint Server, the deleted site collection is stored in the **SPDeletedSite** object, not the **SPSite** object. To restore a deleted site collection, you must use the [Restore-SPDeletedSite](/powershell/module/sharepoint-server/restore-spdeletedsite?view=sharepoint-ps) cmdlet or programmatically access the object model.
+When a site collection (that is, a **SPSite** object) is accidentally deleted in SharePoint Server, the deleted site collection is stored in the **SPDeletedSite** object, not the **SPSite** object. To restore a deleted site collection, you must use the [Restore-SPDeletedSite](/powershell/module/sharepoint-server/restore-spdeletedsite?view=sharepoint-ps&preserve-view=true) cmdlet or programmatically access the object model.
 
 SharePoint Server 2019 users can restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin. 
   

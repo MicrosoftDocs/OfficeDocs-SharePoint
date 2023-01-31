@@ -8,8 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -22,7 +22,7 @@ description: "Read about SharePoint hybrid solutions. Get details on cloud hybri
 
 # Plan SharePoint Server hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 After you have determined which hybrid solution is right for you, follow the associated planning article below to guide you through the planning and organization process.
   
@@ -34,8 +34,6 @@ After you have determined which hybrid solution is right for you, follow the ass
 |[Plan hybrid profiles](plan-hybrid-profiles.md) <br/> |Learn about hybrid profiles and your options for tying in external profile information.  <br/> |
 |[The extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |Learn how the hybrid extensible app launcher can bring Microsoft 365 tiles to SharePoint Server.  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |Learn how hybrid site following give you a single followed sites list for SharePoint Server and SharePoint in Microsoft 365.  <br/> |
-|[Plan server-to-server authentication](plan-server-to-server-authentication-0.md) <br/> |Use this article to plan for server-to-server authentication, which is required for all hybrid scenarios except hybrid OneDrive.  <br/> |
+|[Plan server-to-server authentication](plan-server-to-server-authentication-m365.md) <br/> |Use this article to plan for server-to-server authentication, which is required for all hybrid scenarios except hybrid OneDrive.  <br/> |
 |[Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md) <br/> |Learn how to plan for hybrid federated search in SharePoint Server.  <br/> |
 |[Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) <br/> |Learn how to plan for connectivity from SharePoint in Microsoft 365 to SharePoint Server through a reverse proxy device.  <br/> |
-   
-

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4692ebba-90eb-4d72-ac12-e90c4d4ee7ae
 description: "How to install Business Connectivity Services (BCS) to access an on-premises SQL Server external data source, surface external data in SharePoint Server and SharePoint Foundation lists, and take external data offline in Outlook."
@@ -17,7 +17,7 @@ description: "How to install Business Connectivity Services (BCS) to access an o
 
 # Deploy a Business Connectivity Services on-premises solution in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following scenario shows you how to create a no-code business solution in Microsoft Business Connectivity Services (BCS) by using the SQL Server AdventureWorks sample database. You learn how to:
   
@@ -77,7 +77,7 @@ Before you start your installation of the on-premises Microsoft Business Connect
     
 - You have an account that has permissions to administer the Secure Store Service service application
     
-- Download the [AdventureWorks sample database](https://go.microsoft.com/fwlink/?LinkId=260952) from Codeplex downloads for SQL Server. This database must be installed and functioning on your SQL Server 
+- Download the [AdventureWorks sample database](/sql/samples/adventureworks-install-configure) from Codeplex downloads for SQL Server. This database must be installed and functioning on your SQL Server 
     
 - Create an Active Directory directory Service (AD DS) security group and add the users who will be using this BCS solution, for example create a group that is named AdventureWorksBCSUsers
     
@@ -87,7 +87,7 @@ The AdventureWorks sample database is developed and published by Microsoft. The 
   
  **How to download and install the AdventureWorks sample database**
   
-1. From a browser, go to [AdventureWorks sample database](https://go.microsoft.com/fwlink/?LinkId=260952) and download the AdventureWorks2008R2_Data.mdf file. 
+1. From a browser, go to [AdventureWorks sample database](/sql/samples/adventureworks-install-configure) and download the AdventureWorks2008R2_Data.mdf file. 
     
 2. Install the Adventure Works2008R2 sample database by following the procedures in the "Readme for AdventureWorks 2008 R2 Sample Database" section of the [SQL Server Samples Readme (en-US)](https://go.microsoft.com/fwlink/?LinkId=260956) page. 
     
@@ -101,7 +101,7 @@ In this procedure, you create a SQL Server login and then assign that login to a
   
 1. Start SQL Server Management Studio.
     
-2. In the **Object Explorer**, expand the <database server name>, expand **Security**, and then expand **Logins**.
+2. In the **Object Explorer**, expand the \<database server name\>, expand **Security**, and then expand **Logins**.
     
 3. Right-click **Logins**, and then click **New Login**
     
@@ -231,7 +231,7 @@ These procedures walk you through building an external content type for Business
   
 1. Add a connection using SQL Server as the External Data Source Type.
     
-2. In the Set the Database Server box, enter <The name of the database server> and in the **Set the Database Name** box, enter AdventureWorks2008R2. Optionally, in the **Name** box, enter AdventureWorks Sample Database.
+2. In the Set the Database Server box, enter \<The name of the database server\> and in the **Set the Database Name** box, enter AdventureWorks2008R2. Optionally, in the **Name** box, enter AdventureWorks Sample Database.
     
 3. Select **Connect with Impersonated Custom Identity**.
     

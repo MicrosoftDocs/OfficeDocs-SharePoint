@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: dfe5a861-519a-4fc0-89b8-185df5e73284
 description: "Learn about the asset library and how you can use it to store and share image, audio, or video files."
@@ -17,7 +17,7 @@ description: "Learn about the asset library and how you can use it to store and 
 
 # Overview of managing digital assets in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes digital assets (also known as rich media) and defines key terms that are used in relation to managing digital assets in SharePoint Server 2013. It also explains aspects of managing digital assets by using the assets library in SharePoint Server 2013, describes the primary users of an asset library, and outlines common scenarios for using the asset library in SharePoint Server 2013.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3df3e82d-df89-4d3d-b320-96d921e2d697
@@ -18,7 +18,7 @@ description: "Learn how to configure the query in a Content Search Web Part on a
 
 # Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -92,7 +92,7 @@ The CSWP contains a default query. Therefore, it already displays some content (
   
 In the dialog box, note that "Audio" is shown in the upper-left corner. This is the category we navigated to, and from which we selected to edit the page. Also, note that in the **RelevantResults** section, the top three results, *Audio*, *Cameras*, and *Computers* are listed. These are the same three results that were shown in the Web Part when we added it. 
     
-     ![Default Query](../media/OTCSP_DefautQuery.png)
+![Default Query](../media/OTCSP_DefautQuery.png)
   
 3. From the **Select a query** list, select your catalog result source. In our scenario, it's *catalog - Products Results*. 
     
@@ -100,9 +100,9 @@ In the dialog box, note that "Audio" is shown in the upper-left corner. This is 
   
 A result source narrows the scope from which search results can be retrieved. In [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), when we connected our publishing site to our catalog, SharePoint Server 2016 automatically created a result source for our catalog. In our scenario, this result source is named *catalog - Products Results*. By selecting this result source, only search results from our catalog are retrieved. 
     
-    For more information about result sources, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules).
+For more information about result sources, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules).
     
-    When we selected this result source, the number of **RelevantResults** changed from 864 to 775. Because 775 is the number of items we have in our catalog, selecting this result source confirms that we're on the right way to configuring the query. 
+When we selected this result source, the number of **RelevantResults** changed from 864 to 775. Because 775 is the number of items we have in our catalog, selecting this result source confirms that we're on the right way to configuring the query. 
     
 4. In the **Restrict by tag** section, select **Restrict by current and child navigation terms**. 
     
@@ -110,15 +110,15 @@ A result source narrows the scope from which search results can be retrieved. In
   
 A key phrase in this selection is *navigation terms*. This refers to the category in the site navigation the visitor is browsing. In this particular case, the visitor is browsing the "Audio" category. 
     
-     ![Audio URL](../media/OTCSP_AudioURL.png)
+![Audio URL](../media/OTCSP_AudioURL.png)
   
 Remember, one of the first things we did in this series was import catalog content into a list. We also imported terms into the term set **Product Hierarchy**. In [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), we associated each item in the list with a term from the term set. In [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), we specified that the full site navigation should contain terms from the **Product Hierarchy** term set. Because we have used *the same term set* to tag the items in our catalog and to build our site navigation, we can use a term from our site navigation to search for catalog items that are tagged with that same term. 
     
-    Our query in the CSWP will therefore display search results for items that are in the  *catalog - Products Results result source*  , and are tagged with either "Audio", or any child of "Audio", for example "MP3 players" or "Speakers". 
+Our query in the CSWP will therefore display search results for items that are in the  *catalog - Products Results result source*  , and are tagged with either "Audio", or any child of "Audio", for example "MP3 players" or "Speakers". 
     
-    This selection reduced the relevant search results to 114, which is the number of items in our catalog that belong to the "Audio" group.
+This selection reduced the relevant search results to 114, which is the number of items in our catalog that belong to the "Audio" group.
     
-    Another key phrase from the selection **Restrict by current and child navigation** terms is  *current*  . More information about the importance of this phrase is provided in [About the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_AboutTheQueryConfiguration) in the next section 
+Another key phrase from the selection **Restrict by current and child navigation** terms is  *current*  . More information about the importance of this phrase is provided in [About the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_AboutTheQueryConfiguration) in the next section 
     
 5. Select **OK**, and save the page. 
     
@@ -128,11 +128,11 @@ Remember, one of the first things we did in this series was import catalog conte
   
 If we browse to the "Cameras" category, we'll see three other search results displayed.
     
-     ![Cameras Results](../media/OTCSP_CamerasResults.png)
+![Cameras Results](../media/OTCSP_CamerasResults.png)
   
 If we browse to the "MP3" category, we'll see three other different search results are displayed.
     
-     ![MP3 Results](../media/OTCSP_MP3Results.png)
+![MP3 Results](../media/OTCSP_MP3Results.png)
   
 If you are now thinking "OK, I understand how we got the correct search results for the "Audio" category, because that is the category we clicked, and where we changed the query in the Web Part. But why do we see different search results when we browse the catalog? And shouldn't we change the query for all the other categories also?"
   

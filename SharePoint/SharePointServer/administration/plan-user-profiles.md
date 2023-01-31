@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3e61c238-cc09-4369-b8d3-f1150c1ae89b
 
@@ -18,7 +18,7 @@ description: "Find resources about how to plan for user profiles for SharePoint 
 
 # Plan user profiles in SharePoint Server
 
- *[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+ *[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A user profile is a collection of properties that describes a single user, and also the policies and other settings associated with each property. User profiles help identify connections between users in an enterprise, such as their common managers, workgroups, group membership, and common web sites. They can also contain important information about a user, such as the products the user works on, the user's interests or areas of expertise, and the user's place in the organization's structure. By exposing this information in features such as My Sites, user profiles provide the basis for enterprise social networking in SharePoint Server. Some of the enterprise social networking features that user profiles support are as follows:
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f37b3b61-2b26-4635-a04a-a8a744e8c3ef
 description: "Videos that demonstrate the installation and configuration of workflow in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Videos that demonstrate the installation and configuration of work
 
 # Video series: Install and configure Workflow in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This six-part video series walks through the installation and configuration of the SharePoint 2013 Workflow Platform where communication between the SharePoint farm and the Workflow farm is using Secure Sockets Layer (SSL). These videos show the process in SharePoint Server 2013. The process is the same in SharePoint Server 2016.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 1d93093a-4da3-40c0-b0fd-f2567a32d2e9
 description: "Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources."
@@ -17,12 +17,15 @@ description: "Learn about the options available for using the Secure Store Servi
 
 # Use PerformancePoint Services with Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This series of articles describes how to configure data access in PerformancePoint Services by using the Secure Store Service to map user and group credentials to the credentials of external data sources.
   
 In Secure Store you specify a group of users to whom you want to grant access to a data source and a set of credentials that has access to that data source. The user information is stored in a Secure Store target application and the associated credentials are stored, encrypted, in the Secure Store database. You can then specify the target application in PerformancePoint Dashboard Designer, and PerformancePoint Services will use the stored credentials on behalf of the specified users to access data in Dashboard Designer and in the browser. 
-  
+
+> [!NOTE]
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+
 > [!NOTE]
 > These articles assume that you have already deployed a Secure Store Service Application. If you have not deployed Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). 
   

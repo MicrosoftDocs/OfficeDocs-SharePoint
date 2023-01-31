@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "How to edit SharePoint Server web parts and web part properties."
 
 # Edit existing web parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server web parts can be edited to change their view, appearance, layout and other properties. Editing a SharePoint Server web part can be fast and simple, and done right on the page where the web part is found. The procedure for editing a SharePoint Server web part is the same for all web parts, but the editable properties for each may be different. In all cases you'll be using your Web browser and be working on each SharePoint Server web part individually. This topic will cover this common procedure and describe the overall process for SharePoint Server web part editing. Specific properties for each web part will not be covered as help for these is available from right inside your browser on your SharePoint Server site page. 
 

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cf2a498-d879-4673-b4d4-2eaa36695ff9
@@ -18,7 +18,7 @@ description: "Learn about usage reports, query health reports, crawl health repo
 
 # View search diagnostics in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can access and analyze several query and crawl health reports, logs and usage reports from the Search service application in the SharePoint ServerCentral Administration to monitor the health of the search system.
   

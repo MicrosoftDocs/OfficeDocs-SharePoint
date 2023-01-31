@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -18,7 +18,7 @@ description: "Learn about the timer jobs in SharePoint Server."
 
 # Timer job reference for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 This article describes the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013. A timer job runs in a specific Windows service for SharePoint Server 2019. Timer jobs perform infrastructure tasks for the Timer service, such as clearing the timer job history and recycling the Timer service. Timer jobs also perform tasks for web applications, such as sending email alerts. A timer job contains a definition of the service to run and specifies how frequently the service is started. The SharePoint Timer service (SPTimerv4) runs timer jobs. Many features in SharePoint Server rely on timer jobs to run services according to a schedule.
 
@@ -44,7 +44,7 @@ On the **Timer Job Status** page, on the **View** menu, you can filter the timer
     
 - **Failed Jobs** Displays all the timer jobs on the farm that failed to finish.
  
-The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for scheduling. For every job that you schedule, you specify when the timer job will run, specified in a 24-hour time format. You must specify the time in local time instead of as an offset from Coordinated Universal Time (UTC). The time is stored in that format. By default, daily, weekly, and monthly schedules also include a window of execution. The timer service selects a random time within the window of execution interval to start the job on each applicable server. This capability helps to reduce the overall load of resource-intensive timer jobs that run on multiple servers on the farm. You can specify timer job schedules on the **Edit Timer Job** page or by using Microsoft PowerShell. For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/get-sptimerjob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/set-sptimerjob?view=sharepoint-ps).
+The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for scheduling. For every job that you schedule, you specify when the timer job will run, specified in a 24-hour time format. You must specify the time in local time instead of as an offset from Coordinated Universal Time (UTC). The time is stored in that format. By default, daily, weekly, and monthly schedules also include a window of execution. The timer service selects a random time within the window of execution interval to start the job on each applicable server. This capability helps to reduce the overall load of resource-intensive timer jobs that run on multiple servers on the farm. You can specify timer job schedules on the **Edit Timer Job** page or by using Microsoft PowerShell. For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/get-sptimerjob?view=sharepoint-ps&preserve-view=true) and [Set-SPTimerJob](/powershell/module/sharepoint-server/set-sptimerjob?view=sharepoint-ps&preserve-view=true).
 
 ## Default timer jobs
 <a name="DefaultJobs"> </a>

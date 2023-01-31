@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about how to use performance data to plan and manage the cap
 
 # Capacity management and sizing overview for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article provides an overview of how to effectively plan and manage the capacity of SharePoint Server 2013 environments. This article also describes how to maintain a good understanding of the capacity needs and capabilities of your deployment, by analysis of performance and volume data. It also reviews the major application impacts that affect capacity, including content characteristics and usage.
   
@@ -63,13 +63,13 @@ Consider the following questions to determine whether you should read this conte
   
 For information about how SharePoint Server 2013 scales to meet the demands of specific solutions and how to determine the hardware that will be required to support your requirements, see the following sections later in this article:
   
-- [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+- [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
 For information about how to evaluate SharePoint Server 2013 for your specific business requirements, see the following articles:
   
 - [What's new](../what-s-new/what-s-new.md)
     
-- [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+- [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
 ### Upgrading from Office SharePoint Server 2010
 
@@ -359,7 +359,7 @@ It is important to be aware that many of the limit values that are provided in t
   
 Thresholds and supported limits guidelines are determined by performance. In other words, you can exceed the default values of the limits, but as you increase the limit value, farm performance and the effective value of other limits might be affected. Many limits in SharePoint Server 2013 can be changed. However, you should understand how changing a given limit affects other parts of the farm.
   
-If you contact Microsoft Customer Support Services about a production system that does not meet the published minimum hardware specifications as described in [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md), support will be limited until the system is upgraded to the minimum requirements.
+If you contact Microsoft Customer Support Services about a production system that does not meet the published minimum hardware specifications as described in [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md), support will be limited until the system is upgraded to the minimum requirements.
   
 ### How limits are established
 
@@ -501,6 +501,6 @@ Large farm deployments introduce the breakdown of services and solutions across 
 
 [Software boundaries and limits for SharePoint 2013](software-boundaries-and-limits.md)
   
-[Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+[Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
   
 [Performance and capacity technical case studies (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc261716(v=office.14))

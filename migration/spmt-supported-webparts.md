@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint web parts"
-ms.reviewer: 
+ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -10,44 +10,44 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
-ms.custom: 
-ms.assetid: 
+ms.custom: admindeeplinkSPO
+ms.assetid:
 description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."
 ---
 
 # SPMT supported SharePoint web parts
 
-> [!Important]
->**Allow or prevent Custom Script (NoScript)** </br>
->With Microsoft 365 tenants, you can control whether users can run custom script on personal sites and self-service created sites. 
+> [!IMPORTANT]
+> **Allow or prevent Custom Script (NoScript)**
 >
->During migration, some web parts require this setting set to **allow**. Otherwise, the web part will not be migrated.
+> With Microsoft 365 tenants, you can control whether users can run custom script on personal sites and self-service created sites.
 >
->At least 24 hours before you start migration, do the following:
->1. From the SharePoint Admin Center, select Settings.
->2. Scroll down to "Custom Script".
->3. If using the modern experience, click on Go to the classic settings page
->4. Select both of the following:</br>
->*Allow users to run custom script on personal sites*</br>
->*Allow users to run customer script on self-service created sites*
+> During migration, some web parts require this setting set to **allow**. Otherwise, the web part will not be migrated.
 >
->Leave these settings in place for the duration of your migration.
-
-
- > [!NOTE]
- > Changes to this setting might take up to 24 hours to take effect.
+> At least 24 hours before you start migration, do the following:
+>
+> 1. From the SharePoint Admin Center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>.
+> 2. Scroll down to "Custom Script".
+> 3. If using the modern experience, click on Go to the classic settings page
+> 4. Select both of the following:
+>    - *Allow users to run custom script on personal sites*
+>    - *Allow users to run customer script on self-service created sites*
+>
+> Leave these settings in place for the duration of your migration.
+>
+> Changes to this setting might take up to 24 hours to take effect.
 
 For more information, see: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script)</br>
 
+The following table details the SharePoint web parts that are currently supported by the SharePoint Migration Tool (SPMT).
 
-The following table details the SharePoint web parts that are currently supported by the SharePoint Migration Tool (SPMT). 
-
-|**Category**|**Web part name**|**Supported**|
-|:-----|:-----|:-----|
+|Category|Web part name|Supported|
+|---|---|---|
 |Blog|Blog Archive|Yes|
 |Blog|Blog notification|Yes|
 |Blog|Blog tools|Yes|
@@ -99,20 +99,20 @@ The following table details the SharePoint web parts that are currently supporte
 |Filters|SQL server analysis services filters|No|
 |Forms|HTML Form web part|No|
 |Forms|InfoPath Form web part|No|
-|List|List Form |No|
+|List|List Form|No|
 |List|Document library|Yes|
 |List|List View|Yes|
 |Media and Content|Media|No|
 |Media and Content|Page Viewer|Yes|
 |Media and Content|Picture Library SlideShow|Yes|
 |Media and Content|Promoted Links|No|
-|Media and Content|Content Editor |Yes|
-|Media and Content|Getting Started |Yes|
+|Media and Content|Content Editor|Yes|
+|Media and Content|Getting Started|Yes|
 |Media and Content|Image Viewer|Yes|
-|Media and Content|Script Editor |Yes|
+|Media and Content|Script Editor|Yes|
 |Media and Content|SilverLight web Part|Yes|
-|Mysite|My Site First Run Experience |No|
-|Mysite|My Site Personal Site Upgrade On Navigation |No|
+|Mysite|My Site First Run Experience|No|
+|Mysite|My Site Personal Site Upgrade On Navigation|No|
 |OutLook|Outlook web access|No|
 |Performance Point|Performance Point web parts|No|
 |Search|Actions Links|No|
@@ -124,10 +124,10 @@ The following table details the SharePoint web parts that are currently supporte
 |Search|Federated Results|No|
 |Search|Paging|No|
 |Search|People Search|No|
-|Search|Refinement Script |No|
+|Search|Refinement Script|No|
 |Search|Related queries|No|
-|Search|Result Script |No|
-|Search|Search Navigation |No|
+|Search|Result Script|No|
+|Search|Search Navigation|No|
 |Search|Statistics|No|
 |Search|Taxonomy Refinement Panel|No|
 |Search-Driven Content|Catalog-item reuse|No|
@@ -139,19 +139,19 @@ The following table details the SharePoint web parts that are currently supporte
 |Search-Driven Content|Videos|No|
 |Search-Driven Content|Web Pages|No|
 |Search-Driven Content|Wiki pages|No|
-|Sharing|Shared With Me View |No|
+|Sharing|Shared With Me View|No|
 |Social Collaboration|Announcement|Yes|
-|Social Collaboration|Analytics Hash Tag |Yes|
+|Social Collaboration|Analytics Hash Tag|Yes|
 |Social Collaboration|Contact Details|Yes|
-|Social Collaboration|Micro Feed |Yes|
+|Social Collaboration|Micro Feed|Yes|
 |Social Collaboration|Note Board|Yes|
 |Social Collaboration|Organization Browser|Yes|
-|Social Collaboration|Followed Counts |No|
-|Social Collaboration|Site Feed |Yes|
+|Social Collaboration|Followed Counts|No|
+|Social Collaboration|Site Feed|Yes|
 |Social Collaboration|Site Users|Yes|
 |Social Collaboration|Tag cloud|No|
 |Social Collaboration|User Tasks|Yes|
 |SQL Server reporting|Service Report Viewer|No|
-|XSLT|XSlt Larges client |No|
-|XSLT|XSlt Larges Image |No|
+|XSLT|XSlt Larges client|No|
+|XSLT|XSlt Larges Image|No|
 |XSLT|XSlt List View|Yes|

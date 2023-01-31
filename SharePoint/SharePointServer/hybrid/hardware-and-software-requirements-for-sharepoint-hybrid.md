@@ -8,8 +8,8 @@ ms.date: 2/5/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -24,7 +24,7 @@ description: "Learn what prerequisites you'll need to configure hybrid for Share
 
 # Hardware and software requirements for SharePoint hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint in Microsoft 365 for enterprises.
   
@@ -41,7 +41,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
 
 The default STS certificate in the SharePoint farm is used by the hybrid picker to establish the token signing trust when configuring hybrid workloads. Using the inbuilt STS certificate is the recommended approach when configuring hybrid workloads. If however, you intend to use a publicly signed certificate instead of the inbuilt STS one then you must replace the inbuilt certificate with your own following the provided guidance.
   
-For more information, see [Replace the STS certificate](plan-server-to-server-authentication-0.md).
+For more information, see [Replace the STS certificate](plan-server-to-server-authentication-m365.md).
   
 ## Inbound connectivity requirements
 <a name="CertReq"> </a>

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 26272515-e0ec-4764-b148-3cf55e520995
@@ -18,7 +18,7 @@ description: "Learn how to plan for search-driven pages for SharePoint cross-sit
 
 # Plan search for cross-site publishing sites in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 Search-driven pages are pages that use search technology to dynamically show content. This article describes features that you will use when you set up search-driven pages, such as managed properties, refiners, result sources, and recommendations, and what you must consider when you set up and use these features. 
   
@@ -144,7 +144,7 @@ The following illustration shows how usage events are sent from Web Parts, throu
   
 **Overview of data flow for usage analytics, usage events, and recommendations**
 
-![Recommendations](../media/Recommendations.gif)
+![Usage analytics, usage events, and recommendations](../media/Recommendations.gif)
   
 For more information about the usage analytics framework, see [Overview of analytics processing in SharePoint Server](../search/overview-of-analytics-processing.md).
   

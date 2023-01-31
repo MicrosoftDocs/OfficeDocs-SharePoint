@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 
 # InfoPath form library forms cannot be filled out in a Web browser (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** InfoPath form library forms cannot be filled out in a Web browser 
   
@@ -34,7 +34,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 - The **Render form templates that are browser-enabled by users** check box in the SharePoint Central Administration website is cleared. 
     
 - The following Windows PowerShell command has been run:  `Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $false`.
-    
+ 
+> [!NOTE]
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+ 
 **Resolution: Enable browser rendering of user forms by using Central Administration**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group. 
@@ -62,7 +65,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -72,6 +75,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
   Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $true
   ```
 
-For more information, see [Set-SPInfoPathFormsService](/powershell/module/sharepoint-server/Set-SPInfoPathFormsService?view=sharepoint-ps).
+For more information, see [Set-SPInfoPathFormsService](/powershell/module/sharepoint-server/Set-SPInfoPathFormsService?view=sharepoint-ps&preserve-view=true).
   
 

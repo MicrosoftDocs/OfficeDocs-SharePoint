@@ -8,8 +8,8 @@ ms.date: 7/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Visio Services supports connections with Excel workbooks, SharePoi
 
 # Data authentication for Visio Services in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Data sources are categorized as internal or external as follows: 
   
@@ -151,7 +151,7 @@ Windows authentication requires that Visio Services present to SQL Server a set 
 |Data connection credentials  <br/> |The Windows credentials of the diagram viewer.  <br/> |The credentials specified in the Secure Store target application.  <br/> |The credentials of the Unattended Service Account.  <br/> |
 |Advantages  <br/> | The Kerberos protocol is an industry standard in credentials management.  <br/>  Kerberos ties into the existing Active Directory infrastructure.  <br/>  Kerberos delegation enables auditing of individual accesses to a data source.  <br/>  Given that the diagram viewer's identity is known, diagram creators can embed personalized database queries into diagrams.  <br/> | Secure Store is part of SharePoint Server and is easier to configure than Kerberos authentication.  <br/>  Mappings are flexible: a user can be mapped either 1-to-1 or many-to-1.  <br/>  Non-Windows credentials can be used to connect to data sources that do not accept Windows credentials.  <br/>  Mappings created for Visio can be re-used by other business intelligence applications such as Excel Online.  <br/> | The Unattended Service Account is the easiest authentication method to deploy and setup.  <br/>  The Unattended Service Account does not require much administrative overhead.  <br/> |
 |Drawbacks  <br/> | Additional administrative effort required to configure for SharePoint Server and Visio Services.  <br/> | Establishing and managing mapping tables requires some administrative overhead.  <br/>  Secure Store allows limited auditing. In the many-to-1 scenario, individual incoming users are mapped into the same credentials through a target application, effectively blending them into one user.  <br/> | Given that everyone is mapped to the same credentials, an administrator cannot distinguish who accessed a data source.  <br/> |
-|For the authentication operation to succeed …  <br/> | Kerberos constrained delegation must be set up on the SharePoint farm.  <br/> | Secure Store must be provisioned and configured on the farm. It must also contain appropriate mapping information for a particular incoming user. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/> | Secure Store must be provisioned and configured on the farm. It must also contain the credentials for the Unattended Service Account. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/>  The Unattended Service Account must be configured in Visio Services Global Settings.  <br/> |
+|For the authentication operation to succeed ...  <br/> | Kerberos constrained delegation must be set up on the SharePoint farm.  <br/> | Secure Store must be provisioned and configured on the farm. It must also contain appropriate mapping information for a particular incoming user. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/> | Secure Store must be provisioned and configured on the farm. It must also contain the credentials for the Unattended Service Account. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/>  The Unattended Service Account must be configured in Visio Services Global Settings.  <br/> |
    
 #### Kerberos constrained delegation
 

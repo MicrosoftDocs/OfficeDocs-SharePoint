@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to use a Microsoft PowerShell script to create an audien
 
 # Create an audience for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to use a Microsoft PowerShell script to create an audience.
   
@@ -28,7 +28,7 @@ Learn how to use a Microsoft PowerShell script to create an audience.
 
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
   - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
@@ -66,8 +66,8 @@ Learn how to use a Microsoft PowerShell script to create an audience.
   
   ```
 
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
+> [!NOTE]
+> You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
 4. Click SharePoint Management Shell.
     

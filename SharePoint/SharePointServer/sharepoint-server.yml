@@ -1,12 +1,12 @@
 ### YamlMime:Landing
 
-title: SharePoint Server # < 60 chars
-summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # < 160 chars
+title: Learn about SharePoint Server # < 60 chars
+summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server Subscription Edition, 2019, 2016, and 2013. # < 160 chars
 
 metadata:
   title: Learn about how to use SharePoint Server. # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Documentation for SharePoint Server # Required; article description that is displayed in search results. < 160 chars.
-  ms.prod: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
   ms.collection: 
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
@@ -19,63 +19,40 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  # Card (optional)
-  - title: References
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Get started
-            url: getting-started.md
-          - text: Migration
-            url: /sharepointmigration/migrate-to-sharepoint-online
-          - text: Hybrid
-            url: ./hybrid/hybrid.md
-          - text: Community
-            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
-          - text: Product feedback
-            url: https://sharepoint.uservoice.com/
-          - text: End user content
-            url: https://support.office.com/sharepoint
 
-  # Card
+# Card
   - title: Learn about SharePoint
     linkLists:
       - linkListType: overview
         links:
           - text: What is SharePoint?
-            url: https://products.office.com/sharepoint/collaboration        
+            url: https://products.office.com/sharepoint/collaboration 
+          - text: SharePoint Server Subscription Edition
+            url: what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md      
           - text: SharePoint Server 2019 overview
             url: https://www.youtube.com/watch?v=igkJVtG6eus
           - text: SharePoint blog
             url: https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog
+      - linkListType: whats-new
+        links:
+          - text: What's new in SharePoint Server
+            url: what-s-new/what-s-new.md
 
-  # Card
+# Card
   - title: Before you start
     linkLists:
       - linkListType: get-started
         links:
-          - text: Hardware and software requirements
+          - text: Hardware and software requirements for SharePoint Server Subscription Edition 
+            url: install/system-requirements-for-sharepoint-subscription-edition.md
+          - text: Hardware and software requirements for 2019
             url: install/hardware-and-software-requirements-2019.md
           - text: Hybrid
             url: hybrid/sharepoint-hybrid-sites-and-search.md
           - text: Security
             url: security-for-sharepoint-server/security-for-sharepoint-server.md
 
-    # Card
-  - title: Manage your environment
-    linkLists:
-      - linkListType: learn
-        links:
-          - text: Sites Administration
-            url: sites/sites.md
-          - text: Server Management
-            url: administration/server-management.md
-          - text: Backup and recovery
-            url: administration/backup-and-recovery-overview.md
-          - text: Monitor your environment
-            url: administration/monitoring-overview.md
-
-  # Card
+# Card
   - title: Install
     linkLists:
       - linkListType: deploy
@@ -91,11 +68,27 @@ landingContent:
           - text: SharePoint Server 2013 small scale farms
             url: install/single-server-with-sql-server.md
 
-  # Card
+# Card
+  - title: Manage your environment
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Sites Administration
+            url: sites/sites.md
+          - text: Server Management
+            url: administration/server-management.md
+          - text: Backup and recovery
+            url: administration/backup-and-recovery-overview.md
+          - text: Monitor your environment
+            url: administration/monitoring-overview.md
+
+# Card
   - title: Upgrade and update
     linkLists:
       - linkListType: deploy
         links:
+          - text: Upgrade to SharePoint Server Subscription Edition
+            url: upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md
           - text: Upgrade to SharePoint Server 2019
             url: upgrade-and-update/upgrade-to-sharepoint-server-2019.md
           - text: Upgrade to SharePoint Server 2016
@@ -105,9 +98,29 @@ landingContent:
           - text: Upgrade to SharePoint 2013
             url: upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md
           - text: Apply updates to SharePoint 2013
-            url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md
+            url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md            
 
-  # Card
+
+  
+# Card (optional)
+  - title: References
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Get started
+            url: getting-started.md
+          - text: Migration
+            url: /sharepointmigration/migrate-to-sharepoint-online
+          - text: Hybrid
+            url: ./hybrid/hybrid.md
+          - text: Community
+            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
+          - text: Product feedback
+            url: https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472
+          - text: End user content
+            url: https://support.office.com/sharepoint
+
+# Card
   - title: Legacy content
     linkLists:
       - linkListType: reference

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4de4007d-a45f-419d-9512-824421e14380
 description: "Learn how to use information management policies in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to use information management policies in SharePoint Ser
 
 # Plan for information management policy in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 An information management policy is a set of rules for a type of content. Each rule in a policy is a policy feature. For example, an information management policy feature could specify how long a type of content should be retained, or it could provide document auditing. Information management policies enable you to control who can access your organizational information, what they can do with it, and how long the information should be retained.
   

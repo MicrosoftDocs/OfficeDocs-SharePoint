@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1b308ac-730a-4329-8336-b3b2ac9f41bc
@@ -18,7 +18,7 @@ description: "Learn how to view and configure usage analytics reports in SharePo
 
 # View and configure usage analytics reports in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The previous article in this series, [Use recommendations and popular items on websites with anonymous users in SharePoint Server](use-recommendations-and-popular-items-on-websites-with-anonymous-users.md), explained how to display recommendations on a website with anonymous users. In this article you'll learn:
   
@@ -96,7 +96,7 @@ The **Ever** time period shows statistics from the first day a usage event was r
   $tenantConfig = $ssp.GetAnalyticsTenantConfiguration([Guid]::Empty)
   $event = $tenantConfig.EventTypeDefinitions | where-object {$_.EventTypeId -eq <EventTypeId>}
   $event
-  ```
+ ```
 
 *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to view. In the following example, we'll view the *Views* event. Therefore, we'll enter *1*. 
     
@@ -112,11 +112,11 @@ The **Recent** time period is defined by the *RecentPopularityTimeframe* propert
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   $event.RecentPopularityTimeFrame = <TimeFrame>
   $tenantConfig.Update($ssp)
-  ```
+ ```
 
 *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change. *TimeFrame* is the new time period we want to set for the usage event. 
     
-    In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
+In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
     
    ![Set Recent to 7](../media/OTCSP_SetRecentTo7.png)
   
@@ -124,7 +124,7 @@ The **Recent** time period is defined by the *RecentPopularityTimeframe* propert
     
   ```
   $event
-  ```
+ ```
 
    ![Recent Popluarity Set to 7](../media/OTCSP_RecentPopularitySetTo7.png)
   
@@ -139,7 +139,7 @@ In our Contoso catalog, we have a site column called *RetOnSale*. For each item,
   
 ![Ret On Sale Column](../media/OTCSP_RetOnSaleColumn.png)
   
-To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the *RetOnSale* site column. In our Contoso scenario, this is *RetOnSale* (see [How to find a managed property name](../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoFindaManagedPropertyName)).
+To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the  *RetOnSale*  site column. In our Contoso scenario, this is  *RetOnSale*  (see [How to find a managed property name](../search/display-values-custom-managed-properties.md#BKMK_HowtoFindaManagedPropertyName)).
   
 In the Search Schema, we can see that the *RetOnSale* managed property is *Queryable*. This means that we can use it to narrow the Most Popular Items report. 
   
@@ -210,7 +210,7 @@ If you want the usage analytics reports to be updated regardless of minimum numb
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   $event.TailTrimming = <TailTrimming>
   $tenantConfig.Update($ssp)
-  ```
+ ```
 
 Where *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to change, and *TailTrimming* is the minimum number of times the usage event has to occur within 24 hours for the usage analytics reports to be updated.
     
@@ -222,7 +222,7 @@ In the following example, we wanted the usage analytics reports for the *Views* 
     
   ```
   $event
-  ```
+ ```
 
    ![Tail Trimming Changed](../media/OTCSP_TailTrimmingChanged.png)
   

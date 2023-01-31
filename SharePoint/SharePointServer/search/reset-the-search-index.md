@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7a1835c3-6375-4647-b190-84676fc9f9b0
@@ -18,7 +18,7 @@ description: "Learn how to reset the SharePoint Server search index."
 
 # Reset the search index in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When you reset the search index in SharePoint Server, all content is immediately removed from the search index and users will not be able to retrieve search results. After you reset the search index, you must perform a full crawl of one or more content sources to create a new search index. Users will be able to retrieve search results again when the full crawl is finished and the new search index is created.
   

@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -25,6 +26,8 @@ When users search on a site, results can come from many places such as columns, 
   
 > [!NOTE]
 > Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index.
+> 
+> There are specific scenarios where users have permissions to see the content but are still unable to find it in the search results. For more details, see [Search results don't appear for group owners after creating a new Office 365 group](/sharepoint/troubleshoot/search/search-results-dont-appear-for-group-owners).
   
 ## Plan to make your content available in search results
 <a name="__toc356211699"> </a>

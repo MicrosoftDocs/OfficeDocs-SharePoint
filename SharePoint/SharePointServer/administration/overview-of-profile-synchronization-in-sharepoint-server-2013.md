@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: c20ca79f-2086-4a32-974a-ed2a720d57fe
 description: "Learn about profile synchronization, also known asprofile sync, in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn about profile synchronization, also known asprofile sync, in
 
 # Overview of profile synchronization in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 A user profile is a collection of properties that describes a SharePoint user. Features such as My Sites and People Search use user profiles to provide a rich, personalized experience for the users in your organization. You can create user profiles by importing data from directory services, such as Active Directory Domain Services (AD DS). You can augment user profiles by importing data from business systems, such as SAP or SQL Server. The process of importing profile data from external systems and writing data back to these systems is called profile synchronization.
   
@@ -145,7 +145,7 @@ You can also import data directly from Active Directory Domain Services (AD DS).
   
 [Administer the User Profile service in SharePoint Server](user-profile-service-administration.md)
   
-[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md) ﻿ 
+[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md)  
   
 [Configure a managed domain to support profile synchronization for SharePoint Server](/azure/active-directory-domain-services/active-directory-ds-enable-sharepoint-profile-sync)
   

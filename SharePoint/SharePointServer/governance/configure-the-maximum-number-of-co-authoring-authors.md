@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: dca8b241-85f9-486c-97eb-ed9ef23622b8
 description: "Learn how to limit the number of users who can co-author a Word document or PowerPoint presentation at the same time."
@@ -17,7 +17,7 @@ description: "Learn how to limit the number of users who can co-author a Word do
 
 # Configure the maximum number of co-authoring authors in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The CoauthoringMaxAuthors property lets you specify the maximum number of users who can co-author a Word document or PowerPoint presentation at the same time in SharePoint Server 2013. This article describes how to configure the CoauthoringMaxAuthors property by using Microsoft PowerShell.
   
@@ -38,7 +38,7 @@ You can limit the number of users who can co-author a document at the same time 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Paste the following code into a text editor, such as Notepad:
     

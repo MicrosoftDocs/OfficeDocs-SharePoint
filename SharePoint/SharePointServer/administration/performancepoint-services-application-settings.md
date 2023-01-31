@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: bf9068c7-9187-49bb-9946-c298389bf4b0
 
@@ -18,10 +18,13 @@ description: "Learn how to customize PerformancePoint Services application setti
 
 # PerformancePoint Services application settings
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 PerformancePoint Services has settings such as cache durations, filter behavior, and query time-out that affect performance, security, and connections to external data. These settings affect anyone who uses the same service application. The settings can be managed by using the SharePoint Central Administration website.
-  
+
+> [!NOTE]
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+
 ## PerformancePoint Services application settings
 
 ****

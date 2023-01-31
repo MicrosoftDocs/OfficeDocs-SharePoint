@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -20,7 +20,7 @@ description: "Learn about governance as an essential part of a successful ShareP
 
 # What is governance in SharePoint?
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Governance is the set of policies, roles, responsibilities, and processes that control how an organization's business divisions and IT teams work together to achieve its goals. Every organization has unique needs and goals that influence its approach to governance. Larger organizations will probably require more—and more detailed—governance than smaller organizations. A good governance plan can:
   

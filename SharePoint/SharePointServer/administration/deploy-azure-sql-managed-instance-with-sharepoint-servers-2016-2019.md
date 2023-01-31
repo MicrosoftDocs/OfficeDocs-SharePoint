@@ -7,8 +7,8 @@ manager: serdars
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to deploy Azure SQL Managed Instance (MI) with SharePoin
 
 # Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
 SharePoint Servers 2016 and 2019 now support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
 
@@ -31,7 +31,7 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
 ## Environment
 
-1. Create a resource group with a vNet and then create two subnets. You can use the [SQL Managed Instance Virtual Network Environment](https://github.com/Azure/azure-quickstart-templates/tree/master/101-sql-managed-instance-azure-environment) template to create an Azure Virtual Network with two subnets.
+1. Create a resource group with a vNet and then create two subnets. You can use the [SQL Managed Instance Virtual Network Environment](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.sql/sql-managed-instance-azure-environment) template to create an Azure Virtual Network with two subnets.
  
 2. Create subnet 1 (Default) and then create two VMs. First, set up VM 1 as an Active Directory Directory Services domain controller and configure your domain. For more information, see [Step-By-Step: Setting up Active Directory in Windows Server 2016](/archive/blogs/canitpro/step-by-step-setting-up-active-directory-in-windows-server-2016).  
 

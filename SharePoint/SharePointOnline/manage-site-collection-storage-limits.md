@@ -1,8 +1,8 @@
 ---
 title: "Manage site storage limits"
 ms.reviewer: trgreen
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -17,6 +17,7 @@ ms.collection:
 - m365initiative-spsitemanagement
 ms.custom: 
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -28,14 +29,14 @@ description: "In this article, you'll learn how to use the SharePoint admin cent
 
 # Manage site storage limits
 
-The amount of Microsoft SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a global admin in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
+The amount of Microsoft SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a Global Administrator in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
   
 ## View the total and available storage space for your organization
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. In the upper right of the page, see the amount of storage available and the total storage for your subscription. (If your organization has configured Multi-Geo in Microsoft 365, you can point to the bar to see the amount of storage used in the current geo location and all other geo locations.) 
 
@@ -47,18 +48,17 @@ The amount of Microsoft SharePoint space your organization has is based on your 
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>
 
-By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it. If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB (25600 GB). (Note that the total storage for your organization might be less than 25 TB.)  
+By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a Global Administrator or SharePoint Administrator, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it. If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB (25600 GB). (Note that the total storage for your organization might be less than 25 TB.)  
 
 If you prefer to fine-tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
 
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
-  
-   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-    >[!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+
+    > [!NOTE]
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select **Site storage limits**.
 
@@ -71,25 +71,27 @@ If you prefer to fine-tune the storage space allocated to each site, you can set
 
 Follow these steps to specify individual site storage limits when your storage management option is set to "manual." We recommend that you also set an email alert so that you and other site admins can be notified when sites are nearing the storage limit. To learn how to set the default storage limit for new sites, see [Manage site creation](manage-site-creation.md). 
   
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-2. Select a site, and then select **Storage**. 
+2. Click a site, or for a channel site, select the link in the **Channel sites** column.
+
+3. Under **Storage limit**, select **Edit**.
 
     ![Changing the storage limit for a site](media/site-storage-limit.png)
     
-3. Enter the maximum storage in GB for the site. 
+4. Enter the maximum storage in GB for the site. 
 
     > [!NOTE]
     > The max value you can enter is 25600 GB, although this may be more space than your organization has. To learn how your total storage is calculated, see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
     > 
     > If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
-4. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then, enter a value as a percent for how full you want the storage to be when the email is sent. 
+5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then, enter a value as a percent for how full you want the storage to be when the email is sent. 
  
-5. Select **Save**.
+6. Select **Save**.
 
 If a site runs out of storage, site admins can request more by following these steps:
 
@@ -97,7 +99,7 @@ If a site runs out of storage, site admins can request more by following these s
 2. Under **Site Collection Administration**, select **Storage Metrics**.
 3. Select **Request more quota** in the upper right.
 
-This sends a storage request email to the global and SharePoint admins in the organization.
+This sends a storage request email to the Global Administrators in the organization.
 
 ![Storage request email](media/request-more-storage.png)
     
@@ -112,7 +114,7 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Copy the following text with the variable declarations, and paste it into a text editor, such as Notepad. You must set all of the input values to be specific to your organization. Save the file, and then rename it "GetEmailWarning.ps1". 
     
@@ -179,7 +181,7 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
     
     - **\<SmtpServer\>** is the name of your mail server. 
     
-    - **\<SenderEmailAddress\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
+    - **\<SenderEmailAddress\>** is the Global Administrator or SharePoint Administrator account that appears in the From line in the warning email. 
     
     - **\<RecipientEmailAddress\>** is the admin account that will receive the email warning. 
     

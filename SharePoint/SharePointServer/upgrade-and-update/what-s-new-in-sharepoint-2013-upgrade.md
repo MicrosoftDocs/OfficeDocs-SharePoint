@@ -8,8 +8,8 @@ ms.date: 7/24/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "SharePoint 2013 includes new upgrade features, such as upgrade for
 
 # What's new in SharePoint 2013 upgrade
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 SharePoint 2013 does not support in-place upgrade for an existing environment. You must use the database-attach upgrade method to upgrade your databases to a new environment that is based on SharePoint 2013. Also, to provide more flexibility to farm administrators and site administrators, the upgrade process has changed to separate upgrade of the software and databases from upgrade of the sites. 
   

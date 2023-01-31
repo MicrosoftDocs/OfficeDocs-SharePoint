@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to add a server to an existing SharePoint farm so the se
 
 # Add web or application servers to farms in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 The procedures in this article apply to a SharePoint 2013 farm that consists of at least two tiers. This article does not describe how to convert a single-server deployment to a multiple-server farm.
   
@@ -70,7 +70,7 @@ In a three-tier farm that is running enterprise search, dedicated application se
 
 Before you start to install prerequisite software, you have to complete the following:
   
-- Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+- Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md).
     
 - Verify that you have the minimum level of permissions that are required to install and configure SharePoint 2013 on a new server. You must be a member of the Farm Administrators SharePoint group and the Administrators group on the local server to complete the procedures in this article. For more information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -87,7 +87,7 @@ Before you start to install prerequisite software, you have to complete the foll
 - An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 - Document the location of the SharePoint 2013 binary and log files on the existing farm servers. We recommend that the location of these files on the new server map to the locations used on the other servers in the farm. For more information, see [Configure diagnostic logging in SharePoint Server](../administration/configure-diagnostic-logging.md).
     
@@ -179,7 +179,7 @@ You add the new server to the farm by using one of the following procedures:
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
   
 2. Start the SharePoint Management Shell.
     

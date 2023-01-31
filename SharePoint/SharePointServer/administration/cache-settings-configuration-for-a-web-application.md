@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 478be4b7-1480-4f97-87c5-b18cd2436bce
@@ -18,7 +18,7 @@ description: "Learn how to configure the BLOB cache, page output cache profiles,
 
 # Configure cache settings for a web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes how to configure the disk-based BLOB cache, the page output cache profiles, and the object cache for a web application in SharePoint Server.
   

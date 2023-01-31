@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 482aeb81-e2aa-419f-a269-5b349a6c4721
@@ -18,7 +18,7 @@ description: "Learn how to implement log shipping for SharePoint Server in a dis
 
 # Configure log shipping in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 With log shipping, you back up the transaction logs from a primary database to a secondary database on a separate instance of SQL Server. In the scenario described here, SQL Server log shipping is used together with Distributed File System Replication (DFSR) to copy databases and transaction logs to the recovery farm in Microsoft Azure as illustrated below. 
   
@@ -38,7 +38,7 @@ In the illustration:
     
 - DFSR copies files from the file share in the on-premises environment to the file share in the Azure environment. In a WAN scenario, DFSR is more efficient than shipping the logs directly to the secondary server in Azure.
     
-- Log shipping replays the logs from the file share in the Azure environment to the primary replica in the SQL Server AlwaysOn availability group in the recovery environment.
+- Log shipping replays the logs from the file share in the Azure environment to the primary replica in the SQL Server Always On availability group in the recovery environment.
     
 - Log-shipped databases are not attached to the SharePoint Server farm until a recovery exercise is performed.
     
@@ -50,7 +50,7 @@ The following diagram shows the seven phases that the complete SharePoint Server
 ## Using log shipping for disaster recovery
 <a name="Use"> </a>
 
-Log shipping enables you to automatically send transaction log files for databases from a primary database server instance to a secondary database server instance. In our on-premises test environment, we use AlwaysOn availability groups with two replicas for high availability. We configured log shipping on both replicas. Each replica must be able to ship transaction logs. Only the replica that is active and owns the database can ship logs. However, if a failover event occurred and the secondary replica became active, it would have to ship transaction logs instead of the failed replica.
+Log shipping enables you to automatically send transaction log files for databases from a primary database server instance to a secondary database server instance. In our on-premises test environment, we use Always On availability groups with two replicas for high availability. We configured log shipping on both replicas. Each replica must be able to ship transaction logs. Only the replica that is active and owns the database can ship logs. However, if a failover event occurred and the secondary replica became active, it would have to ship transaction logs instead of the failed replica.
   
 After the transaction logs are received in the Azure environment, they are restored, one at a time, to each SharePoint database on the secondary database server. For more information about our test environment, see [Microsoft proof of concept environment](/office365/enterprise/sharepoint-server-2013-disaster-recovery-in-microsoft-azure#POC).
   
@@ -117,7 +117,7 @@ The log-shipping infrastructure used for our disaster-recovery solution environm
 
 ![The log shipping infrastructure and directional flow between the on-premises and Azure farms.](../media/AZarch_LSinfrastructure.png)
   
-The previous diagram shows the log shipping infrastructure and data flow. The diagram shows the SQL Server database servers and the file servers in the production farm and the Azure recovery farm. These farms are nearly identical, and each contains a primary and secondary replica for each AlwaysOn availability group. The file servers, FIL1 and AZ-FIL1, are configured the same, including the number of hard disks and disk sizes. Additional servers in the farm are not shown.
+The previous diagram shows the log shipping infrastructure and data flow. The diagram shows the SQL Server database servers and the file servers in the production farm and the Azure recovery farm. These farms are nearly identical, and each contains a primary and secondary replica for each Always On availability group. The file servers, FIL1 and AZ-FIL1, are configured the same, including the number of hard disks and disk sizes. Additional servers in the farm are not shown.
   
 To provide high availability, each replica in an availability group stores a backup (full, differential, and transaction logs) of the other replica. 
   
@@ -377,7 +377,7 @@ The required steps to configure, run, and validate log shipping are condensed an
 
 #### Concepts
 
-[Configure SQL Server AlwaysOn Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
+[Configure SQL Server Always On Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
 #### Other Resources
 
 [About Log Shipping (SQL Server)](/sql/database-engine/log-shipping/about-log-shipping-sql-server)

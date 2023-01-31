@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Convert SharePoint 2010 Products or SharePoint 2013 classic-mode w
 
 # Migrate from classic-mode to claims-based authentication in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Claims-based authentication is an essential component to enable the advanced functionality of SharePoint 2013. To move classic-mode web applications from SharePoint 2010 Products to SharePoint 2013, you can convert them to claims-based web applications within SharePoint 2010 Products, and then migrate them to SharePoint 2013. The procedures in this article illustrate various supported scenarios.
   
@@ -55,7 +55,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. From the PowerShell command prompt, type the following to set the specified user account as an administrator for the site:
     
@@ -83,7 +83,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
   $wa.Update()
   ```
 
-   For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps). 
+   For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true). 
     
 4. From the PowerShell command prompt, type the following to perform user migration:
     
@@ -97,7 +97,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
   $wa.ProvisionGlobally()
   ```
 
-   For more information, see [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps).
+   For more information, see [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true).
     
 After you complete the previous procedures, you might experience one or more of the following issues:Users who submit valid credentials when accessing the migrated web application might be notified that they do not have permissions. If this occurs, the portalsuperuseraccount property and the portalsuperreaderaccount property of the web application were probably configured prior to migration. If this is the case, update the portalsuperuseraccount property and the portalsuperreaderaccount property to use the new claims-based account name. After migration, you can find the new claims-based account name in the web application policy for the migrated web application.If existing alerts are not invoked after migration, you might have to delete and recreate the alerts.If Search crawl does not function on the web application after migration, make sure that the Search crawl account lists the new converted account name. If the new converted account name is not listed, you must manually create a new policy for the crawl account.
   
@@ -203,7 +203,7 @@ In SharePoint 2013, complete the following procedures to first create a classic-
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 - From the PowerShell command prompt, type the following:
     
@@ -226,7 +226,7 @@ In SharePoint 2013, complete the following procedures to first create a classic-
   -  _\<URL\>_ is the public URL for the web application. 
     
     > [!NOTE]
-    > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps). 
+    > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps&preserve-view=true). 
   
     > [!NOTE]
     > After you successfully create the web application, when you open the Central Administration page, you see a health rule warning that indicates that one or more web applications is enabled with classic authentication mode. This is a reflection of our recommendation to use claims-based authentication instead of classic mode authentication. 
@@ -267,7 +267,7 @@ In SharePoint 2013, complete the following procedure to create a classic-mode we
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. From the PowerShell command prompt, type the following:
     
@@ -281,7 +281,7 @@ In SharePoint 2013, complete the following procedure to create a classic-mode we
     
 3. Attach the two existing SharePoint 2010 Products content databases to the new SharePoint 2013 classic-mode web application. Verify that the content databases work correctly after you have attached them. For more information, see [Attach or detach content databases in SharePoint Server](../administration/attach-or-detach-content-databases.md).
     
-For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps) and [Get-SPManagedAccount](/powershell/module/sharepoint-server/Get-SPManagedAccount?view=sharepoint-ps).
+For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps&preserve-view=true) and [Get-SPManagedAccount](/powershell/module/sharepoint-server/Get-SPManagedAccount?view=sharepoint-ps&preserve-view=true).
   
 ## See also
 <a name="section1"> </a>

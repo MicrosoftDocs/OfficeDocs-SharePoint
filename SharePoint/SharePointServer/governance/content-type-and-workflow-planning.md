@@ -8,8 +8,8 @@ ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7af845bc-f245-459f-871d-0ee06c64a184
 description: "Learn how to integrate content types and workflows into your SharePoint Server document management solution."
@@ -17,7 +17,7 @@ description: "Learn how to integrate content types and workflows into your Share
 
 # Plan content types and workflows in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes content types and workflows and provides guidance about how to plan to integrate them into your SharePoint Server document management solution. A content type is a reusable collection of metadata (columns), workflow, behavior, and other settings for a category of items or documents in a SharePoint Server list or document library. Content types enable you to manage the settings for a category of information in a centralized, reusable way. A workflow lets you attach a business process to items in SharePoint Server. 
   

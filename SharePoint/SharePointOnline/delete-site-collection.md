@@ -3,8 +3,8 @@ title: "Delete a site"
 ms.reviewer: 
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,7 +15,8 @@ ms.collection:
 - M365-collaboration
 - m365initiative-spsitemanagement
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -26,7 +27,7 @@ description: "In this article, you'll learn how to delete SharePoint sites in th
 
 # Delete a site
 
-When you, as a global or SharePoint admin in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
+When you, as a Global Administrator or SharePoint Administrator in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
   
 - Document libraries and files.
     
@@ -43,12 +44,12 @@ You should notify the site admins and any subsite owners before you delete a sit
 
 ## Delete a site in the new SharePoint admin center
 
-By using the new SharePoint admin center, you can delete both classic and modern sites. Both global and SharePoint admins can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. Both Global Administrators and SharePoint Administrators can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
   
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.<br><br/>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
 2. In the left column, select a site.
 
@@ -63,10 +64,10 @@ By using the new SharePoint admin center, you can delete both classic and modern
 
 To reuse a URL from a deleted site (recreate a site), you need to permanently delete the site. After the site is permanently deleted, it might take up to 24 hours for the URL to become available. On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Microsoft 365 groups. 
 
-1. Go to the [Deleted sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185070" target="_blank">**Deleted sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-    >[!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Deleted sites page. <br><br/>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Deleted sites page.
+    > [!NOTE]
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Deleted sites page.
 
 2. In the left column, select a site.
 
@@ -79,7 +80,7 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
     
@@ -90,7 +91,6 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
  (Where `https://contoso.sharepoint.com/sites/sitetoremove` is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
 
 ## Summary of options
-
 
 |Site type  |How to delete  |How to permanently delete  |
 |---------|---------|---------|

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: de0a2fb6-4372-47fc-9871-584724b7e7c7
 description: "Learn how to change the text that is displayed in the Search Box Web Part in SharePoint Server."
@@ -17,13 +17,13 @@ description: "Learn how to change the text that is displayed in the Search Box W
 
 # How to change the text that is displayed in the Search Box Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article will be short and sweet, so let's get right to it.
   
 ## How to change the text that is displayed in the Search Box Web Part
 
-The following screen shot shows the default text that is displayed in the Search Box Web Part.
+The following screenshot shows the default text that is displayed in the Search Box Web Part.
   
 ![Default Text in Search Box](../media/OTCSP_DefaultText.png)
   
@@ -31,9 +31,9 @@ Here are the steps to change this text:
   
 1. In your mapped network drive, go to **Display Templates** --> **Search**, and open the file  *Control_SearchBox*  . For details about mapping your network drive, see [Stage 6: Upload and apply a new master page to a publishing site in SharePoint Server](../administration/stage-6-upload-and-apply-a-new-master-page-to-a-publishing-site.md).
     
-2. Replace the value for the  *promt*  variable with the text you want to display. Enclose the text in quotation marks. 
+2. Replace the value for the  *prompt* variable with the text you want to display. Enclose the text in quotation marks. 
     
-    The following screen shot shows how we changed this in our Search Center scenario.
+    The following screenshot shows how we changed this in our Search Center scenario.
     
      ![Replace the Prompt Text](../media/OTCSP_NewText.png)
   

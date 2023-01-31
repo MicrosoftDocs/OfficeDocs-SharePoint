@@ -8,8 +8,8 @@ ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Understand how to get the most out of testing upgrade and how to g
 
 # Best practices for upgrading to SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 To increase your chances of a successful and faster upgrade to SharePoint Server 2016, follow these best practices to test and complete an upgrade.
   
@@ -90,7 +90,7 @@ To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2
     
 5. Clean up before you upgrade
     
-    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade. .
+    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade.
     
 6. Back up your databases.
     

@@ -8,8 +8,8 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to verify when a database-attach upgrade to SharePoint S
 
 # Verify database upgrades in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]  
   
 After you upgrade databases to SharePoint Server 2019, you must verify that the content was successfully upgraded to the new version. You can verify the status of the database-attach upgrade (is it still in progress, or has it been completed successfully or with errors or failures?) to see whether issues remain for you to address. When you follow these steps as part of a trial upgrade, you can use them to identify customizations that have to be reworked before you attempt to upgrade your production environment. When you upgrade your production environment, it is even more important that you know whether the upgrade has completed and what issues remain to be addressed.
   

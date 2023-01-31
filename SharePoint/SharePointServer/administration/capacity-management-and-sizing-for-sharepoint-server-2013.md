@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 031b0634-bf99-4c23-8ebf-9d58b6a8e6ce
@@ -18,7 +18,7 @@ description: "Learn about the concepts and planning considerations for managing 
 
 # Capacity management and sizing for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The articles in this section help you to make the following decisions regarding the appropriate capacity for your SharePoint Server 2013 environment:
   

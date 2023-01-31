@@ -8,8 +8,8 @@ ms.date: 7/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Understand how to get the most out of testing upgrade and how to g
 
 # Best practices for upgrading from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
 
 To increase your chances of a successful and faster upgrade to SharePoint 2013, follow these best practices to test and complete an upgrade.
   
@@ -86,7 +86,7 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
     
 3. Plan for capacity.
     
-    Ensure that you have enough disk, processor, and memory capacity to handle upgrade requirements. For more information about system requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md). For more information about how to plan the disk space that is required for upgrade, see [Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14)) and [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
+    Ensure that you have enough disk, processor, and memory capacity to handle upgrade requirements. For more information about system requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md). For more information about how to plan the disk space that is required for upgrade, see [Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14)) and [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
     
 4. Clean up before you upgrade
     
@@ -120,7 +120,7 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
 
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md)
   
-[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md)
+[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-2013.md)
   
 [Plan for upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303429(v=office.14))
 

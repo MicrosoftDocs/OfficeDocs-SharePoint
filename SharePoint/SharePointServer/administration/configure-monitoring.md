@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 274c4c7a-e635-4bc9-85b3-9737620f9909
@@ -18,7 +18,7 @@ description: "Learn more about SharePoint diagnostic logging, SharePoint Health 
 
 # Configure monitoring in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 It may be necessary to configure your monitoring settings after your initial SharePoint deployment or upgrade.
   

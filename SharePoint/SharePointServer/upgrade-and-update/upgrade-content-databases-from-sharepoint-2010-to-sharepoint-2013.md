@@ -8,8 +8,8 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,19 +21,19 @@ description: "Learn how to upgrade content databases from SharePoint 2010 Produc
 
 # Upgrade content databases from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint 2013 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint 2013. This article explains the steps you take to attach and upgrade the content databases to SharePoint 2013.
   
 This article does not provide steps for how to upgrade a site collection. The process to upgrade site collections is separate from the process for upgrading the databases. For steps to upgrade a site collection, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
-**Phase 4 of the upgrade process: Upgrade content databases**
+**Phase 4 of the upgrade process: Upgrade content databases:**
 
 ![Stages in upgrade process for SharePoint 2013](../media/77510e88-3b41-4f68-ab89-53e11566efeb.png)
   
-|||
+|Phase|Description|
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013  (this phase) Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)| .  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png) | This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013  (this phase) Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)|
    
 > [!IMPORTANT]
 > This article applies to both SharePoint Foundation 2013 and SharePoint 2013. 
@@ -113,7 +113,7 @@ SharePoint 2013 can host sites in both SharePoint 2010 Products and SharePoint 2
     
 There are also two versions of the IIS support directories: _Layouts, _Layouts/15 and _ControlTemplates, _ControlTemplates/15.
   
- Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint 2010 Products should be installed in the /14 path, not the new /15 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-ps).
+ Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint 2010 Products should be installed in the /14 path, not the new /15 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution).
   
 For more information about how to update customizations for use in SharePoint 2013, see [Redeploying Customizations and Solutions in SharePoint Foundation 2010 and SharePoint Server 2010](/previous-versions/office/developer/sharepoint-2010/ee662217(v=office.14)). For more information about how to deploy customizations to your environment, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)).
   
@@ -122,11 +122,11 @@ For more information about how to update customizations for use in SharePoint 20
 
 To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint 2010 Products environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)) and [Clean up an environment before an upgrade to SharePoint 2013](clean-up-an-environment-before-an-upgrade-to-sharepoint-2013.md).
   
-You can also use the **Get-SPWeb** Microsoft PowerShell cmdlet in your SharePoint 2010 Products environment to see template that are associated with each site and then verify that the template is installed in your SharePoint 2013 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/Get-SPWeb?view=sharepoint-ps).
+You can also use the **Get-SPWeb** Microsoft PowerShell cmdlet in your SharePoint 2010 Products environment to see template that are associated with each site and then verify that the template is installed in your SharePoint 2013 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/Get-SPWeb).
   
 Before you attach the content databases to the web applications, use the **Test-SPContentDatabase** Microsoft PowerShell cmdlet to verify that you have all the custom components that you must have for that database. 
   
- **To verify custom components are available by using PowerShell**
+ **To verify custom components are available by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -139,7 +139,7 @@ Before you attach the content databases to the web applications, use the **Test-
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -165,7 +165,7 @@ When you attach a content database, you upgrade the database and add the site co
 When you attach a content database, for a web application that spans multiple content databases, make sure that you attach the content database that contains the root site collection first. When you attach a content database, include the root site for the web application in the first content database that you attach. In other words, before you continue, examine the root of the web application in the SharePoint 2010 Products server farm to determine the first site collection. After you attach the database that contains the root site, attach the other content databases for the web application in any order. You do not have to create any site collections to store the content before you attach the database. This process attaches the content databases and the site collections inside that database. Make sure that you do not add new site collections until you have restored all the content databases. 
   
 > [!TIP]
-> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps). 
+> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite). 
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
@@ -181,7 +181,7 @@ Ensure that the account that you use to attach the databases is a member of the 
 > [!NOTE]
 > One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint 2010 Products environment are installed on your front-end web servers in the SharePoint 2013 environment before you start the upgrade process. Use the **test-spcontentdatabase** Microsoft PowerShell cmdlet to identify custom elements that your sites might be missing. 
   
- **To attach a content database to a web application by using PowerShell**
+ **To attach a content database to a web application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -194,7 +194,7 @@ Ensure that the account that you use to attach the databases is a member of the 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -220,7 +220,7 @@ For more information, see Mount-SPContentDatabase.
 ## Verification: Verify upgrade for the first database
 <a name="Status"> </a>
 
-After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint 2013](verify-upgrade.md) and [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md).
+After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint 2013](verify-upgrade.md) and [Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md).
   
  **To view the Upgrade Status page**
   
@@ -228,7 +228,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     
 - In Central Administration, click **Upgrade and Migration**, and then click **Check upgrade status**.
     
- **To view the upgrade log file**
+ **To view the upgrade log file:**
   
 - The upgrade error log file and the upgrade log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\web server extensions\15\LOGS. The upgrade log file contains more detailed information than the upgrade error log. Be sure to check the summary at the bottom of the log files for information about the overall status and a count of the warnings and errors in the file.
     
@@ -249,7 +249,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     > [!NOTE]
     > The format of the upgrade log for SharePoint 2013 is based on the same structure as ULS. > The upgrade log file includes the name of the content database being upgraded. 
   
- **To view upgrade status for all databases by using PowerShell**
+ **To view upgrade status for all databases by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -262,7 +262,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -321,14 +321,14 @@ After you upgrade the databases, you might want to perform additional steps to m
     
 After your farm is ready, you can enable access to users, and then start to upgrade site collections. For information about how to upgrade site collections, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013.  <br/>  Next phase: [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md).  <br/> |
    
 ## See also
 <a name="Next"> </a>
 
-#### Other Resources
+### Other Resources
 
 [Checklist for database-attach upgrade (SharePoint 2013)](checklist-for-database-attach-upgrade-sharepoint-2013.md)
   

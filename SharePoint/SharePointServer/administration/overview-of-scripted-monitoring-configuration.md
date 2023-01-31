@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9e7368a1-9299-4827-b756-45fb3b4ad809
@@ -18,7 +18,7 @@ description: "Learn how to use Microsoft PowerShell and XML to automate the conf
 
 # Overview of scripted monitoring configuration in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can change the monitoring settings for SharePoint Server environments several ways. One way is to use the SharePoint Central Administration website. You might use this to make a single change to a small, local farm. Another way is to use PowerShell cmdlets directly. You might use this to make a single change to a local or remote farm. Still another way is to create your own PowerShell scripts. You might use these scripts to make multiple complex changes to local or remote farms that might be done repeatedly.
   
@@ -100,4 +100,4 @@ Scripted monitoring configuration consists of both PowerShell scripts and Profil
 [Run scripted monitoring configuration in SharePoint Server](run-scripted-monitoring-configuration.md)
 #### Other Resources
 
-[App Management Service cmdlets in SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[App Management Service cmdlets in SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)

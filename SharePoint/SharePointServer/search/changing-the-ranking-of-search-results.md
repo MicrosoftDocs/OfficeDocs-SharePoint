@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 35f58247-a349-461b-b4d4-8963c3b98df6
 description: "Learn how to change the ranking of classic search results in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to change the ranking of classic search results in Share
 
 # Changing the ranking of classic search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Audience:** SharePoint Server search administrators.
   

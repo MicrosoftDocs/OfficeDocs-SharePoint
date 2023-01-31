@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ddfbc04-e4a9-4f71-8afb-7e12e2e45805
@@ -18,7 +18,7 @@ description: "Use test results and recommendations to estimate performance and c
 
 # Estimate performance and capacity requirements for divisional collaboration environments (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This article describes guidance about performance and capacity planning for a divisional collaboration solution that is based on SharePoint Server 2013. The following information is included in this article:
   

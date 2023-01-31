@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
 description: "Learn how to change the way search results are displayed in classic search in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to change the way search results are displayed in classi
 
 # How to change the way search results are displayed in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server and SharePoint in Microsoft 365 include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
   
@@ -25,7 +25,7 @@ This series will explain how to customize the way search results are displayed i
   
 As you know, Microsoft publishes thousands of articles across TechNet, MSDN and Office.com. To help in the publishing process, we use several SharePoint lists. Each item in a list represents an article or a media file. To quickly find information about a list item, we've set up a Search Center that searches across all of the lists.
   
-This series will show how to change the way search results are displayed from this…
+This series will show how to change the way search results are displayed from this...
   
 ![Default Search Results](../media/OTCSP_DefaultSearchResults.png)
   
@@ -41,7 +41,7 @@ In this series, we'll cover:
     
 - [How to create a new result type in SharePoint Server](how-to-create-a-new-result-type.md)
     
-- [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
+- [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md)
     
 - [How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md)
     

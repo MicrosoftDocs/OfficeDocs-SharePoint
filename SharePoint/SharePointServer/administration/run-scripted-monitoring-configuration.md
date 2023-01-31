@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5d1e3bb7-35e5-4756-b93c-f0a86c2bc244
@@ -18,7 +18,7 @@ description: "Learn how to use Microsoft PowerShell scripts and Profile files to
 
 # Run scripted monitoring configuration in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Scripted monitoring configuration uses PowerShell scripts and XML files, which are known as **Profiles**, to back up, restore, or configure monitoring settings in the SharePoint Server 2016 environment. For more conceptual information about scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   
@@ -45,7 +45,7 @@ You can use scripted monitoring configuration to back up the monitoring settings
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -55,7 +55,7 @@ You can use scripted monitoring configuration to back up the monitoring settings
   .\BackupMonitoringSettings.ps1 "<ProfileFolder>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfileFolder\>_ is full path of the folder that you want to store the backup settings Profile in. The XML file name is in the form "BackupSetting_[DATE] @ [Time].xml". The script will create a new file every time that it is run. 
     
@@ -83,7 +83,7 @@ You can use scripted monitoring configuration to restore the monitoring settings
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -95,7 +95,7 @@ You can use scripted monitoring configuration to restore the monitoring settings
   .\AlterMonitoringSettings.ps1 "<ProfilePath>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfilePath\>_ is full path of the backup Profile that you want to use to restore the monitoring settings for the farm. 
     
@@ -118,7 +118,7 @@ You can use scripted monitoring configuration to change the monitoring settings 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -130,7 +130,7 @@ You can use scripted monitoring configuration to change the monitoring settings 
   .\AlterMonitoringSettings.ps1 "<ProfilePath>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfilePath\>_ is full path of the specific Profile that you want to use to configure the monitoring settings for the farm. 
     

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6485e76d-9c52-40eb-ae0f-4e00c321c7d8
 description: "Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server environment."
@@ -17,7 +17,7 @@ description: "Learn how to integrate a new Yammer Enterprise network into an exi
 
 # Integrate a new Yammer network into SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a new Yammer Enterprise network together with your existing SharePoint Server environment.
   

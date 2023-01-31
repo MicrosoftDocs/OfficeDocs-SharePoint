@@ -21,7 +21,7 @@ description: "Improve search results by creating and managing query rules. Query
 
 # Manage query rules
 
-As a global or SharePoint admin in Microsoft 365, you can improve search results in the classic search experience by creating and managing query rules. Query rules help searches respond to the intent of users. 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can improve search results in the classic search experience by creating and managing query rules. Query rules help searches respond to the intent of users. 
   
 In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
 
@@ -36,7 +36,8 @@ You can configure query rules for one or more result sources, and you can specif
 
 SharePoint has both a classic and a modern search experience. Only query rules that return promoted results and that are defined for the default result source can affect the modern search experience. Query rules which do query re-writes are not supported for modern experiences. Users might see such promoted results on the **All** tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md).
   
- 
+> [!IMPORTANT]
+> In December 2021, query rules with promoted results are deprecated for organization scoped queries in favor of [Bookmark and Q&A answers](/microsoftsearch/manage-bookmarks) in modern search experiences. Examples of organization scoped queries are SharePoint Home and office.com. <p>Promoted results will continue to work for all classic search experiences and for sites and hub sites with modern search experiences until Bookmark answers are available for these scenarios. Promoted results will also continue to work for environments where Bookmark and Q&A answers are not available.
   
 ## Promote a search result
 <a name="__toc343764778"> </a>

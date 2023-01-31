@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -72,7 +73,7 @@ Our infrastructure is secured from external attacks. The following classes of se
 
 *Runners* are our servers that move files. Because our services rely on outbound connections, our security policy is straightforward and secure. There is no outside access allowed to these servers. All outbound traffic is pushed through a point firewall, obfuscating the infrastructure behind.
 
-For maintenance, SSH access is allowed through a two stage process. Access to the management network is only possible with two factor authentication and SSH keys, then from there SSH access to the individual servers only via SSH keys. To further increase security, inbound SSH is only allowed from specific white-listed IP addresses.
+For maintenance, SSH access is allowed through a two stage process. Access to the management network is only possible with two factor authentication and SSH keys, then from there SSH access to the individual servers only via SSH keys. To further increase security, inbound SSH is only allowed from specific permitted IP addresses.
 
 ##### API servers
 

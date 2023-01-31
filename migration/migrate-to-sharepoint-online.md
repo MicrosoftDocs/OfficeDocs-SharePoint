@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: null
 search.appverid: MET150
 msCollection: 
@@ -17,65 +18,57 @@ msCollection:
 - M365-collaboration
 - m365solution-migratetom365
 - m365solution-overview
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
-description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
+- intro-overview
+- intro-get-started
+description: "This article helps you understand which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Migrate your content to Microsoft 365
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+## Mover retirement
+
+Mover admin migration functionality has now been fully integrated into Migration Manager. Mover is in the process of being retired.  For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+
+>[!Note]
+>Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
 >
-> **Got a minute?**
->![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 >
+>[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
 
 
+>[!Important]
+>
+>All FastTrack-led migrations will transition to Migration Manager except those with multi-parent folders who have reached velocity migrations. These exceptions will need to finish their migrations by December 31, 2022. 
+>
+>[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
 
-### What's new
+## What's new
 
-Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
+- Check out what's new and coming soon to [Migration Manager](mm-whats-new.md).
 
-
-## Migrate File Shares
-Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
-
-
-![Get started in file share migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**  [Migrating File shares](mm-get-started.md)
-
-![What's new in file share migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mm-whats-new.md)
-
-![Migrating file shares workflow](media/mm-flow-3box.png)
+- Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 
-</br>
-</br>
+## We're listening!
 
-## Migrate SharePoint Server sites and content
+Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page and filter on "Migration".  
 
-Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
+##  Where are you migrating from?
 
-![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**    [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
-
- 
-
-![What's new in SP migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)  [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
-
-![Migrating SPMT workflow](media/spmt-flow-3box.png)
-
-## Cloud to cloud migrations
-Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
-
-- Microsoft 365 tenant to tenant migration
-- Egnyte
-- Amazon S3
-- Azure Blob Storage
-- Google Cloud Storage
-
-![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
-
-![What's new in mover migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
+|Migrate from|Description|
+|:-----|:-----|
+|![Get started **Box**](/office/media/icons/get-started-blue.png)</br> [**BOX**](mm-box-overview.md)|Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. |
+|![Get started File share](/office/media/icons/get-started-blue.png) </br> [**FILE SHARES**](mm-get-started.md)|With a centralized way of connecting servers, creating tasks, and managing your migration tasks, migrate your file shares to Microsoft 365.|
+|![Get started Google Workspace](/office/media/icons/get-started-blue.png) </br> [**GOOGLE WORKSPACE**](mm-google-overview.md)|Migrate your Google Drives to Microsoft 365. |
+|![Get started Dropbox](/office/media/icons/get-started-blue.png) </br> [**DROPBOX**](mm-dropbox-overview.md)|Collaborate all in one place by migrating your Dropbox documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. |
+|![Get started SharePoint Server](/office/media/icons/get-started-blue.png)</br>  [**SHAREPOINT SERVER**](introducing-the-sharepoint-migration-tool.md)|Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. SharePoint Server 2010, 2013, and 2016 environments only.|
+|![Get started SharePoint Server workflows](/office/media/icons/get-started-blue.png)</br>  [**SHAREPOINT SERVER WORKFLOWS**](spmt-workflow-overview.md)|Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. With SPMT, you can migrate your **SharePoint Server 2010** out of the box (OOTB) approval and collect feedback workflows to PowerAutomate, List and library "out-of-box" (OOTB) approval workflows, and Workflow definitions and associations.|
 
 
 
@@ -86,16 +79,7 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 
 - **Azure Data Box**. Want to remove the dependency on your WAN link to transfer data?  The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md).</br>
 
-- **OneDrive sync app**  To migrate users' Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to OneDrive, you can use [Known Folder Move](/onedrive/redirect-known-folders). If users want to move other files from their local computer or a network file share to OneDrive or SharePoint, it's typically easiest for them to use the OneDrive sync app. Users can simply drag the files or folders to a folder they're syncing.  
+- **OneDrive sync app**  To migrate users' Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to OneDrive, you can use [Known Folder Move](/onedrive/redirect-known-folders). If users want to move other files from their local computer or a network file share to OneDrive or SharePoint, it's often easiest for them to use the OneDrive sync app. Users drag their files or folders to a folder they're syncing.  
 
 >[!Note]
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
-
-**Mover acquisition**
-
->[!Note]
-> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
->
->**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
->
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)

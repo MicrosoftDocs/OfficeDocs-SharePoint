@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f628e7df-ce37-4c33-aed3-7c6745d48a39
@@ -18,7 +18,7 @@ description: "Learn about pages that are created in a Search Center site in Shar
 
 # Manage the Search Center in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
  
 In a Search Center site, users get the **classic** search experience. When you create an Enterprise Search Center site collection as described in [Create a Search Center site in SharePoint Server](create-a-search-center-site.md), SharePoint Server creates a default search home page and a default search results page. In addition, several pages known as search verticals are created. Search verticals are customized for searching specific content, such as People, Conversations, and Videos, and they display search results that are filtered and formatted for a specific content type or class. 
   

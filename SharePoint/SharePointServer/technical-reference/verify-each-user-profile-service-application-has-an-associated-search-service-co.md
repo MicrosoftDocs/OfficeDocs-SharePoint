@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify e
 
 # Verify each User Profile Service Application has an associated Search Service Connection (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Summary:** The User Profile service presents URLs to end users in some Web Part and tag profile pages. These URLs are trimmed for security to make sure that users do not see URLs to which they do not have permissions. The User Profile service uses the Search service to perform this security trimming. If there is no Search service associated with the User Profile service application, security trimming does not work, and URLs are visible to everyone. Although users are denied access when they click a URL for which they do not have permissions, they nonetheless can see the URL in the search results. 
   

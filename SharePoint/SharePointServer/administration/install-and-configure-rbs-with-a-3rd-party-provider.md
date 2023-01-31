@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to install and configure Remote BLOB Storage (RBS) that 
 
 # Install and configure RBS with a 3rd party provider for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store BLOBs outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   
@@ -71,7 +71,7 @@ You must install RBS client library on all Web servers in the SharePoint farm. T
     
 2. On any web server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
     
-    For SharePoint 2013, [download the RBS_amd64.msi file](https://go.microsoft.com/fwlink/p/?LinkId=271938).
+    For SharePoint 2013, [download the RBS_amd64.msi file]((/install-and-configure-rbs).
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the name of the SQL Server instance. The operation should finish within approximately one minute. 
     

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Upgrade the Managed Metadata service application and site collecti
 
 # How to upgrade an environment that uses content type syndication (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]  
   
 Content type syndication, or content type publishing, occurs when you publish a content type from a content type "hub" site collection to one or more "consuming" site collections. For more information, see [Introduction to content types and content type publishing](https://go.microsoft.com/fwlink/p/?LinkId=285484) and [Plan to share terminology and content types (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee519603(v=office.14)).
   
@@ -182,7 +182,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
   Set-SPMetadataServiceApplication -Identity "<ServiceApplication>" -HubURI "<HubURI>"
   ```
 
-  For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps).
+  For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps&preserve-view=true).
     
 7. Upgrade the ContentTypeHub1 site collection to 2013 mode.
     

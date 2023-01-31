@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
@@ -48,7 +48,7 @@ The following table provides a summary of the new features that you can try out 
 |**Large file support** <br/> |SharePoint Server 2016 now supports uploading and downloading files larger than 2,047 MB.  <br/> |For more info, see [Large file support](#largefile).  <br/> |
 |**MinRole** <br/> |MinRole is a new feature in SharePoint Server 2016 that allows a SharePoint farm administrator to define each server's role in a farm topology.  <br/> |For more info, see [MinRole farm topology](#minrole).  <br/> |
 |**Mobile experience** <br/> |SharePoint Server 2016 offers an improved mobile navigation experience.  <br/> |For more info, see [Mobile experience](#mobile).  <br/> |
-|**New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)** <br/> |The November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) offers seven new features for SharePoint Server 2016.  <br/> |For more info, see [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md).  <br/> |
+|**New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)** <br/> |The November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) offers seven new features for SharePoint Server 2016.  <br/> |For more info, see [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-november-2016.md).  <br/> |
 |**New controls for working with OneDrive** <br/> |SharePoint Server 2016 provides controls at the top of your personal document folders that make common tasks in OneDrive more accessible.  <br/> |For more info, see [New controls for working with OneDrive](#newcontrols).  <br/> |
 |**New Recycle Bin in OneDrive and Team sites** <br/> |SharePoint Server 2016 adds a link for the Recycle Bin in the left navigation area of the OneDrive and Team sites.  <br/> |NA  <br/> |
 |**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more info, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
@@ -99,9 +99,9 @@ You can provision or unprovision Central Administration on individual servers in
     
 - Microsoft PowerShell cmdlets:
     
-  - [New-SPCentralAdministration](/powershell/module/sharepoint-server/New-SPCentralAdministration?view=sharepoint-ps)
+  - [New-SPCentralAdministration](/powershell/module/sharepoint-server/New-SPCentralAdministration)
     
-  - [Remove-SPCentralAdministration](/powershell/module/sharepoint-server/Remove-SPCentralAdministration?view=sharepoint-ps)
+  - [Remove-SPCentralAdministration](/powershell/module/sharepoint-server/Remove-SPCentralAdministration)
     
 - The  `psconfig.exe -cmd adminvs` operation 
     
@@ -431,7 +431,7 @@ You can now apply themes to your Suite Navigation.
 ### Use SMTP ports other than the default (25)
 <a name="smtpport"> </a>
 
-To configure SharePoint to use a non-default SMTP port open SharePoint Central Administration, browse to **System Settings** > **Configure outgoing email settings**, and set the **SMTP server port** to the port number of your SMTP server. To configure SharePoint to use a non-default SMTP port in PowerShell, use the  `Set-SPWebApplication` cmdlet with the **SMTPServerPort** <port number> parameter. For example: 
+To configure SharePoint to use a non-default SMTP port open SharePoint Central Administration, browse to **System Settings** > **Configure outgoing email settings**, and set the **SMTP server port** to the port number of your SMTP server. To configure SharePoint to use a non-default SMTP port in PowerShell, use the  `Set-SPWebApplication` cmdlet with the **SMTPServerPort** \<port number\> parameter. For example:
   
 ```
 $WebApp = Get-SPWebApplication -IncludeCentralAdministration | ? { $_.IsAdministrationWebApplication -eq $true }

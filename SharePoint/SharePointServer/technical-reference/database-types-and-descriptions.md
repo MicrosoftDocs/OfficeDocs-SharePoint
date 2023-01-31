@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,11 +19,11 @@ description: "Learn about sizing and location information for the databases that
 
 # Database types and descriptions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes the databases that are installed for SharePoint Server. Each database description includes information about sizing and placement. For more information see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
   
 All database names that are listed in this article are automatically created when you run the SharePoint Products Configuration Wizard. You do not have to use these naming conventions. You can either specify your own database names when you create them or change the names after they are created. For more information, see [Move or rename service application databases in SharePoint Server](../administration/move-or-rename-service-application-databases.md)
   
@@ -89,7 +89,7 @@ The configuration database also contains specific data for SharePoint Server far
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](/sql/relational-databases/logs/the-transaction-log-sql-server?viewFallbackFrom=sql-server-2014).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](/sql/relational-databases/logs/the-transaction-log-sql-server).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
@@ -331,7 +331,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 ### Subscription Settings Service database
 <a name="Sec2"> </a>
 
-The Microsoft SharePoint Foundation Subscription Settings service application database stores features and settings for hosted customers. The Subscription Settings service application and database are not created by the SharePoint Products Configuration Wizard — they must be created by using PowerShell cmdlets or SQL Server. For more information, see [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
+The Microsoft SharePoint Foundation Subscription Settings service application database stores features and settings for hosted customers. The Subscription Settings service application and database are not created by the SharePoint Products Configuration Wizard — they must be created by using PowerShell cmdlets or SQL Server. For more information, see [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication).
   
 **Subscription Settings database**
 
@@ -548,7 +548,7 @@ The State Service database stores temporary state information for InfoPath Forms
 ## SQL Server system databases
 <a name="Sec3"> </a>
 
-SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](/sql/relational-databases/databases/system-databases?viewFallbackFrom=sql-server-2014).
+SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](/sql/relational-databases/databases/system-databases).
   
 ### master database
 

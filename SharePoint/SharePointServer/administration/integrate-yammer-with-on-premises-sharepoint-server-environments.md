@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 555e6de4-eece-440c-857b-9601c65df4fe
 description: "Learn how to add Yammer functionality to a SharePoint Server environment and how to replace SharePoint Newsfeeds with Yammer."
@@ -17,7 +17,7 @@ description: "Learn how to add Yammer functionality to a SharePoint Server envir
 
 # Integrate Yammer with on-premises SharePoint Server environments
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
  
 Although SharePoint Server provides basic enterprise social features, Yammer Enterprise provides a richer enterprise social experience to drive increased collaboration and innovation across your organization. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, replacing SharePoint Server social features with Yammer, and embedding a Yammer feed into SharePoint pages. 
 
@@ -70,6 +70,6 @@ For more information, see [Social scenarios with Yammer and SharePoint Server](s
 
 #### Other Resources
 
-[Yammer - Admin Help](/yammer/)
-
-[Yammer Customer Success Center](https://go.microsoft.com/fwlink/p/?LinkID=331300)
+[Yammer Adoption](https://adoption.microsoft.com/yammer/)
+[Yammer Admin Guide](https://aka.ms/TheYammerAdminGuide)
+[Yammer Help Center](https://support.microsoft.com/office/yammer-help-center-8663922d-8f76-47c2-827a-ee86e8cac00f)

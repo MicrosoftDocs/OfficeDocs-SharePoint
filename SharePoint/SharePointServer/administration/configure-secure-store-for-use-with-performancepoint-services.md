@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 95e12c80-7a86-4655-ba11-a05b9587fee0
 description: "Configure PerformancePoint Services to use a Secure Store target application for external data refresh."
@@ -17,7 +17,7 @@ description: "Configure PerformancePoint Services to use a Secure Store target a
 
 # Configure Secure Store for use with PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 PerformancePoint Services supports two methods of using Secure Store Service to connect to external data:
   

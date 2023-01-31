@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to view SharePoint reports, timer job status, cache perf
 
 # View reports and logs in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The articles in this section are written to meet the requirements of information technology (IT) professionals who are responsible for the planning, design, deployment, and operations of monitoring. These solutions might be in enterprise, corporate, or branch-office environments. The IT professionals who are responsible for monitoring solutions are expected to have an understanding of the technical details that are contained in this section. However, service-level expertise is not needed to understand the enterprise-level discussions and decisions.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3f1d49bb-af3a-4156-b6d1-7035f9797f2d
@@ -18,7 +18,7 @@ description: "Learn how to add and configure the Recommended Items and Popular I
 
 # Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The previous article in this series, [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md), explained how to change the CSWP to log the  *Views*  usage event, and how you can use Microsoft PowerShell to start Usage analytics. 
   
@@ -116,17 +116,17 @@ If we break this down, we get the following:
   
 7. We want to show only one item per product group. Therefore, we select  *ProductCatalogGroupNumberOWSTEXT*  (the managed property of  *Group Number*  ). We only want to display one item per group. So we leave the value in **Show there results** as **1**. 
     
-     ![Group by Group Number](../media/OTCSP_GroupByGroupNumber.png)
+    ![Group by Group Number](../media/OTCSP_GroupByGroupNumber.png)
   
    In the **SEARCH RESULT PREVIEW**, we can now see that only one item per product group is shown. 
     
-     ![One Item Per Groeu](../media/OTCSP_OneItemPerGroeu.png)
+    ![One Item Per Groeu](../media/OTCSP_OneItemPerGroeu.png)
   
 8. Select **OK** to save the changes. 
     
 9. In the Web Part tool pane, in the **Number of items** to show field, enter how many items that you want to display in the Web Part. 
     
-     ![Number of Items to Show](../media/OTCSP_NumberOfItemsToShow.png)
+    ![Number of Items to Show](../media/OTCSP_NumberOfItemsToShow.png)
   
 10. Select **OK**, and save the page. 
     

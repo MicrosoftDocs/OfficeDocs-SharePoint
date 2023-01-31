@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bf94ede1-79cc-4016-99f3-a1eef244fdf3
@@ -18,7 +18,7 @@ description: "Configure domain names, service applications, and URLs for apps fo
 
 # Configure an environment for apps for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To enable users to install and use apps for SharePoint in their sites, configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article.
 
@@ -208,7 +208,7 @@ For more information, see Set-SPAppSiteSubscriptionName and Set-SPAppDomain.
 
 The SharePoint Store contains apps for SharePoint intended for use with sites that require Internet-facing endpoints. By default, these apps are not available (greyed out and cannot be purchased) because they are incompatible with most sites. However, if your farm is configured to allow internet-facing end points, you can turn on the Internet-facing endpoints feature to show these apps in the SharePoint Store. You turn on this feature in Central Administration.
   
- **To configure Internet-facing endpoints for apps**
+**To configure Internet-facing endpoints for apps**
   
 1. In Central Administration, click **Application Management**.
     

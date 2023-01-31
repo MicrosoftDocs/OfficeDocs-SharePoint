@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 70ea3042-e4b6-4f20-a314-56d686ea65d1
@@ -18,11 +18,11 @@ description: "Learn about the Federal Information Processing Standard (FIPS) wit
 
 # Federal Information Processing Standard security standards and SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server uses several Windows encryption algorithms for computing hash values that do not comply with Federal Information Processing Standard (FIPS) 140-2,  *Security Requirements for Cryptographic Modules*  . These algorithms are not used for security purposes; they are used for internal processing. For example, SharePoint Server uses MD5 to create hash values that are used as unique identifiers. 
   
-## 
+ 
 <a name="intro"> </a>
 
 Because SharePoint Server uses these algorithms, it does not support the Windows security policy setting that requires FIPS compliant algorithms for encryption and hashing. This Windows security policy is managed through the **FIPSAlgorithmPolicy** registry key in Windows, which is described in the "Configure FIPS policy for a mixed environment" section of the following topic: 

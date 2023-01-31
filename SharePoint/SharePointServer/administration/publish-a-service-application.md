@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to publish a service application in SharePoint Server."
 
 # Publish service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In SharePoint Server, some service applications can be published across farms and thereby be made available over remote connections.
   
@@ -95,9 +95,9 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps)
+[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
+[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps&preserve-view=true)
 

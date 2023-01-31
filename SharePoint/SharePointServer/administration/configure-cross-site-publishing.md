@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b08c20f6-a142-4001-a92a-cee49b1145b2
@@ -18,7 +18,7 @@ description: "Learn to create and tag catalog content in authoring sites and con
 
 # Configure cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Before you configure cross-site publishing, make sure that you understand the concepts and terminology in [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
   
@@ -148,9 +148,9 @@ By default, anonymous access is enabled when you share a library or list as a ca
   
 In this example, let's say that you have a list that contains data for different electronic products. The following items were specified when the list was shared as catalog:
   
-> Electronic products
+Electronic products
     
-    - Audio
+  - Audio
     
   - Car audio
     
@@ -214,7 +214,7 @@ After you create a term set on the authoring site collection, you have to make i
     
 4. In the **Term Store Management Tool**, click the group that contains all term sets within the site collection. 
     
-5. In the **Site Collection Access** section, type the URLs of the site collections to which you want to make the term set available — for example, http://<site>/sites/products. 
+5. In the **Site Collection Access** section, type the URLs of the site collections to which you want to make the term set available — for example, http://site/sites/products. 
     
 6. Click **Save**.
     

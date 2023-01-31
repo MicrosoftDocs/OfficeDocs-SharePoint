@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: a2ef35c4-6b29-4ad1-8652-48a019838ea0
 description: "Deploy Excel Services to your SharePoint Server farm by creating an Excel Services service application by using Central Administration."
@@ -17,7 +17,7 @@ description: "Deploy Excel Services to your SharePoint Server farm by creating a
 
 # Configure Excel Services (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 
@@ -142,5 +142,5 @@ Once you have created the service application, you are ready to start using Exce
 
 #### Other Resources
 
-[Excel Services cmdlets in SharePoint Server 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Excel Services cmdlets in SharePoint Server 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
 

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 92ba47ea-a881-4f31-9b8d-e2587edff16d
@@ -18,7 +18,7 @@ description: "Learn about the new features that are included in the September 20
 
 # New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](/officeupdates/sharepoint-updates).
   
@@ -37,7 +37,7 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
   
 [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md)
   
-[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md)
+[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-november-2016.md)
   
 [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b)
   
@@ -45,4 +45,4 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
 
 #### Other Resources
 
-[Deploy SharePoint Framework web parts to SharePoint Server 2016 with Feature Pack 2](https://dev.office.com/blogs/now-available-deploy-sharepoint-framework-web-parts-to-sharepoint-server-2016-with-feature-pack-2)
+[Deploy SharePoint Framework web parts to SharePoint Server 2016 with Feature Pack 2](https://devblogs.microsoft.com/microsoft365dev/now-available-deploy-sharepoint-framework-web-parts-to-sharepoint-server-2016-with-feature-pack-2)

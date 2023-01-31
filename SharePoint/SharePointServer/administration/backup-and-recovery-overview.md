@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Know backup and recovery scenarios, backup architecture, and recov
 
 # Overview of backup and recovery in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The SharePoint Server backup architecture and recovery processes include farm backup and recovery, granular backup and recovery, and recovery from an unattached content database. You can complete backup and recovery operations by using the SharePoint Central Administration website or PowerShell cmdlets. Note that some built-in backup and recovery tools may not meet all the requirements of your organization.
   

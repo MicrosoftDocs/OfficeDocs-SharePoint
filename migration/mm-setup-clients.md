@@ -10,10 +10,12 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Set up multiple Migration Manager agents
 ---
@@ -24,7 +26,7 @@ When migration file shares with Migration Manager, you first set up one or more 
 
 When you run the setup file, you are prompted for two sets of credentials.  You need SharePoint Admin credentials to access your destination, and Windows credentials with read access to the source. Those Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migrations tasks.
 
-After an agent is configured, anyone with the permission to go into the SharePoint admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
+After an agent is configured, anyone with the permission to go into the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can create tasks. The tasks will be automatically distributed to one of the configured agents.
 
 > [!Important]
 > Make sure to download the latest version of the agent setup file.
@@ -50,14 +52,15 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 
 ## Set up an agent
 
-1. From the new SharePoint admin center, select [Migration](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern).You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-2. Under "For file shares", select **Get started**.
-3. Select the **Agents** tab, and then select **Add**.
-4. Select **Download agent setup file**.
-5. Open the setup file. On the Welcome page, select **Next**.
-6. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
-7. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
-8. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
+1. Log into the computer or VM you choose to set up an agent with Windows credentials that have read access to all file shares you plan to migrate.
+2. From the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>.You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+3. Under "For file shares", select **Get started**.
+4. Select the **Agents** tab, and then select **Add**.
+5. Select **Download agent setup file**.
+6. Open the setup file. On the Welcome page, select **Next**.
+7. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
+8. Enter the password of the Windows account that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+9. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
 
 >[!Note]
 >**Multiple agents**.  If you have a large migration project and to set up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each computer or VM.  
@@ -69,7 +72,7 @@ A working folder named **%appdata%\Microsoft\SPMigration** is created for each a
 
 ## Multi-geo agent setup
 
-If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent. 
+If you have a Multi-Geo SharePoint tenant, the agent will be installed in <a href="https://go.microsoft.com/fwlink/?linkid=2185076" target="_blank">Geo locations</a> set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent. 
 
 Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
@@ -88,6 +91,8 @@ To install an agent to a different Geo location:
 
 The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo)
 
+>[!Important]
+> **Migration to Teams:** If you are migrating to Teams, the destination Teams site must be in the same GEO as your tenant admin.  If they are different, the Teams channel won't load when you select destination.  
 
 ## Installing the agent as an app
 

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 8bfb96e6-f27e-41f0-8038-609e82098dd9
@@ -18,7 +18,7 @@ description: "Learn about components and typical architectures for SharePoint Se
 
 # Plan the logical architecture for cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Cross-site publishing is a publishing method in SharePoint Server in which you use one or more authoring site collections to author and store content, and one or more publishing site collections to control the design of the site and to show content. The authoring site collection can contain catalogs such as Pages libraries, and lists of items that are tagged with metadata. These catalogs are indexed by the search system and made available to the publishing site collection. The publishing site collection takes the data that has been indexed and shows it on web pages by using Web Parts that use search technology (referred to in this article as Search Web Parts). For more information, see [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md).
   

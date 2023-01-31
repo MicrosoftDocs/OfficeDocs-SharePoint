@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: This Dis
 
 # This Distributed Cache host may cause cache reliability problems (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** This Distributed Cache host may cause cache reliability problems. 
   
@@ -43,7 +43,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: This Dis
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -72,7 +72,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: This Dis
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -85,7 +85,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: This Dis
    > [!NOTE]
    > This command stops the cache service and nonpersisted cached data will be lost. If you want to keep the cached data, use the graceful shutdown procedure that is described in [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), and then run the Remove-SPDistributedCacheServiceInstance cmdlet. The Remove-SPDistributedCacheServiceInstance cmdlet involves stopping and disabling the underlying AppFabric Caching service. Do not restart the AppFabric Caching service other than by running the Add-SPDistributedCacheServiceInstance cmdlet. 
   
-For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps).
+For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps&preserve-view=true).
     
 4. Verify that the server is removed from the cache cluster. To do this, in Central Administration, click **Manage services on server**, and then, on the **Services on Server** page, make sure that the Distributed Cache service is not listed. 
     

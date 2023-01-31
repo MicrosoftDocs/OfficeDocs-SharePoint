@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5c9d5c10-a7a8-43d1-ac36-a6f50f2d0cd1
@@ -18,7 +18,7 @@ description: "Learn how to plan for email integration in SharePoint Server."
 
 # Plan email integration for a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To enable communication in SharePoint Server is a critical component for creating web applications in which group members can interact with each other and keep up with changes to information through the use of alerts. The following site collection features depend on communications being properly set up:
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 2b98f39e-649f-4b00-b025-0775ac996268
 description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 organization."
@@ -17,7 +17,7 @@ description: "Learn how to integrate a Yammer network together with your SharePo
 
 # Integrate a Yammer network into SharePoint Server and Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 Apps for enterprise or Microsoft 365 Apps for business.
   

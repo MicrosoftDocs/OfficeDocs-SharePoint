@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Administrator guidance for multi-tenant hosts in SharePoint Server
 
 # General guidance for hosters in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013. 
   
@@ -94,9 +94,8 @@ Farm administrators can host multiple tenants on the same farm and centrally man
   
 SharePoint aligns its administrative functionality with common hosting roles, as summarized in the following table.
   
-||||
+|Role |Type of administrator  |Description |
 |:-----|:-----|:-----|
-|**Role** <br/> |Type of administrator  <br/> |**Description** <br/> |
 |Service Provider administrator  <br/> |**Farm Administrator** <br/> | Manages the farm-level settings and hardware.  <br/>  Controls database configurations.  <br/>  Installs all new approved features and solutions.  <br/>  Can brand the Tenant Administration pages.  <br/> |
 |Hosted company administrator  <br/> |**Tenant administrator** <br/> | Purchases space, features, and bandwidth from service provider.  <br/>  Controls the architecture of customer sites but not the content.  <br/>  Configure settings for tenant.  <br/>  Reviews usage statistics.  <br/> |
 |Hosted company  <br/> |**Site administrator** <br/> | Owns site collections.  <br/>  Configures site settings that are exposed by features and services.  <br/>  Reviews usage statistics.  <br/> |
@@ -144,8 +143,6 @@ Depending on the topology, the administrator experience can be significantly dif
 
 This section describes the different type of topologies that can be deployed for a SharePoint Server 2016 hosting environment.
   
-### 
-
 There three topologies available for hosting in SharePoint Server 2016 in an on-premises environment appear in the following table.
   
 ****
@@ -172,9 +169,8 @@ The service applications in SharePoint Server 2013 behave differently when you c
   
 The service applications available in a SharePoint Server 2013 on-premises environment appear in the following table.
   
-|||||
+|Service application |Stores tenant data |Supports partitioning |Supported for Multi-Tenancy |
 |:-----|:-----|:-----|:-----|
-|**Service application** <br/> |**Stores tenant data** <br/> |**Supports partitioning** <br/> |**Supported for Multi-Tenancy** <br/> |
 |Managed Metadata  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |User Profiles  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Business Data Connectivity  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |

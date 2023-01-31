@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 53598509-9821-4c0b-9ab4-a9e594ac8fec
 description: "Learn to configure scheduled data refresh in Power Pivot for SharePoint by using an account that you specify."
@@ -17,7 +17,7 @@ description: "Learn to configure scheduled data refresh in Power Pivot for Share
 
 # Configure scheduled data refresh for Power Pivot by using a specified account (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013. 

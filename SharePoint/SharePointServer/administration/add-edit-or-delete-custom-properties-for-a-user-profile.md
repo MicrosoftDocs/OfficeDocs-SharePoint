@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3cfb2148-9d1a-4022-a55a-a6d2963bef0e
 description: "Learn how to create, edit, and delete user profile properties in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to create, edit, and delete user profile properties in S
 
 # Add, edit, or delete custom properties in SharePoint Server user profiles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The **Manage Profile Service** page of a User Profile service application in SharePoint Server is a central location for managing available user profile properties and creating new properties. You need to be a member of the Farm Administrators SharePoint group or a Service Application Administrator for the User Profile service application to make changes. 
   

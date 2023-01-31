@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Info
 
 # The InfoPath Forms Services Maintenance timer job is not enabled (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** The InfoPath Forms Services Maintenance timer job is not enabled. 
   
@@ -29,7 +29,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Info
 The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Services to improve performance by caching form template data on each front-end web server.
   
  **Cause:** The timer job may have been disabled on the Job Definitions page on the SharePoint Central Administration website or the Microsoft PowerShell **Disable-SPTimerJob** cmdlet was used. 
-  
+
+> [!NOTE]
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+
  **Resolution: Enable the timer job by using the Central Administration web site**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group.
@@ -59,20 +62,20 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Enable-SPTimerJob "<FormsMaintenanceJobDefinition>"
-  ```
+   ```
+   Enable-SPTimerJob "<FormsMaintenanceJobDefinition>"
+   ```
 
-    Where:
+     Where:
     
-  -  _\<FormsMaintenanceJobDefintion\>_ is the actual name of the timer job to enable. 
+   -  _\<FormsMaintenanceJobDefintion\>_ is the actual name of the timer job to enable. 
     
-For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
+For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps&preserve-view=true).
   
 

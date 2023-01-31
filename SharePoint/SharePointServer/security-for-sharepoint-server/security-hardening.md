@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about security hardening for SharePoint Server and database 
 
 # Plan security hardening for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
     
 ## Secure server snapshots
@@ -129,7 +129,7 @@ Additionally, third parties that develop service applications can implement a th
     
 You can change the protocol and port binding for each service application. On the Service Applications page in Central Administration, select the service application, and then click **Publish**.
   
-The HTTP/HTTPS/net.tcp bindings can also be viewed and changed by using the [Get-SPServiceHostConfig](/powershell/module/sharepoint-server/Get-SPServiceHostConfig?view=sharepoint-ps) and [Set-SPServiceHostConfig](/powershell/module/sharepoint-server/Set-SPServiceHostConfig?view=sharepoint-ps) Microsoft PowerShell cmdlets. 
+The HTTP/HTTPS/net.tcp bindings can also be viewed and changed by using the [Get-SPServiceHostConfig](/powershell/module/sharepoint-server/Get-SPServiceHostConfig?view=sharepoint-ps&preserve-view=true) and [Set-SPServiceHostConfig](/powershell/module/sharepoint-server/Set-SPServiceHostConfig?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlets. 
   
 Communication between service applications and SQL Server takes place over the standard SQL Server ports or the ports that you configure for SQL Server communication.
   
@@ -188,7 +188,7 @@ Do not disable services that are installed by SharePoint Server (listed in the s
   
 If your environment disallows services that run as a local system, you can consider disabling the SharePoint Administration service only if you are aware of the consequences and can work around them. This service is a Win32 service that runs as a local system.
   
-This service is used by the SharePoint Timer service to perform actions that require administrative permissions on the server, such as creating Internet Information Services (IIS) Web sites, deploying code, and stopping and starting services. If you disable this service, you cannot complete deployment-related tasks from the Central Administration site. You must use Microsoft PowerShell to run the [Start-SPAdminJob](/powershell/module/sharepoint-server/Start-SPAdminJob?view=sharepoint-ps) cmdlet (or use the Stsadm.exe command-line tool to run the **execadmsvcjobs** operation) to complete multiple-server deployments for SharePoint Server and to run other deployment-related tasks. 
+This service is used by the SharePoint Timer service to perform actions that require administrative permissions on the server, such as creating Internet Information Services (IIS) Web sites, deploying code, and stopping and starting services. If you disable this service, you cannot complete deployment-related tasks from the Central Administration site. You must use Microsoft PowerShell to run the [Start-SPAdminJob](/powershell/module/sharepoint-server/Start-SPAdminJob?view=sharepoint-ps&preserve-view=true) cmdlet (or use the Stsadm.exe command-line tool to run the **execadmsvcjobs** operation) to complete multiple-server deployments for SharePoint Server and to run other deployment-related tasks. 
   
 ### Web.config file
 <a name="WebConfig"> </a>

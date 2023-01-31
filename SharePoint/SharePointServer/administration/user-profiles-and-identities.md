@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 79240081-1495-4db7-b0c5-e5e4d4e59c37
 description: "Find the set of overview and planning topics for user profiles and identities for SharePoint Server."
@@ -17,11 +17,11 @@ description: "Find the set of overview and planning topics for user profiles and
 
 # User profiles and identities
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]. 
   
 The following articles cover user profiles and identities in SharePoint Server .
   
-||**Content**|**Description**|
+|&nbsp;| Content | Description |
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2013](overview-of-profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2013.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2016](profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2016.  <br/> |

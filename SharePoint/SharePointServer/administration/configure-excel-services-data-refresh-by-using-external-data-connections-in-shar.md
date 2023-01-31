@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 0853bed9-1084-413b-bf91-427dc643a5e5
 description: "Configure Excel Services in SharePoint Server data refresh by using Secure Store and an external Office Data Connection (ODC) file."
@@ -17,11 +17,11 @@ description: "Configure Excel Services in SharePoint Server data refresh by usin
 
 # Configure Excel Services data refresh by using external data connections in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 provides three methods of using Secure Store Service to refresh the external data source in a workbook:
   
-- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-the-unattended-service-account-0.md).
+- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-unattended-service-account-2013.md).
     
 - You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) For more information, see [Configure Excel Services data refresh by using embedded data connections](./excel-services-overview.md).
     
@@ -31,13 +31,13 @@ By using an ODC file for your data connection, you separate your Excel workbooks
   
 Using Excel Services with an ODC file consists of the following steps:
   
-1. [Configure a data access account](#part1)
+1. [Configure a data access account](#configure-a-data-access-account)
     
-2. [Create a Secure Store target application](./excel-services-overview.md#part2)
+2. [Create a Secure Store target application](#create-a-secure-store-target-application)
     
-3. [Create and publish an ODC file](#part3)
+3. [Create and publish an ODC file](#create-and-publish-an-odc-file)
     
-4. [Configure an Excel workbook to use the published ODC file as a data connection](./excel-services-overview.md#part4)
+4. [Configure an Excel workbook to use the published ODC file as a data connection](#configure-an-excel-workbook-to-use-the-published-odc-file-as-a-data-connection)
     
 ## Configure a data access account
 <a name="part1"> </a>

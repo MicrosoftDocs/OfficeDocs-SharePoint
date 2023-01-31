@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -29,12 +30,12 @@ If your tenant resides in a government cloud, you may have additional steps to p
 
 Configuration values for government cloud tenants are listed below.  The default setting is **0**.
 
-|**Cloud**|**Setting value**|
+|Cloud|Setting value|
 |:-----|:-----|
 |Consumer|0|
 |GCC|0|
 |GCC High|2|
-|DoD|2|
+|DoD|3|
 
 
 </br>
@@ -64,5 +65,5 @@ For the complete list of all required endpoints:  [Prerequisites & Endpoints for
 
 |Government endpoints|For|
 |:-----|:-----|
-|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://\<spam\>\<spam\>*.blob.core.usgovcloudapi.\<spam\>\<spam\>net|Migration API Azure Government requirement|
+|https://\<spam\>\<spam\>*.queue.core.usgovcloudapi.\<spam\>\<spam\>net|Migration API Azure Government requirement|

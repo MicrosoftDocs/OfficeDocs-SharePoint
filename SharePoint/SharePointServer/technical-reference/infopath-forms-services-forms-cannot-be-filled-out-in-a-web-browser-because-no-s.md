@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,14 +20,17 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 
 # InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured. 
   
  **Summary:** InfoPath Forms Services depends on the Web application having a service connection to a State Service Proxy to store data across HTTP requests. Without a service connection, users cannot successfully open or fill browser-enabled InfoPath forms. 
   
  **Cause:** No service connection for the State Service is configured for the Web application that is in the Health Analyzer alert. 
-  
+ 
+> [!NOTE]
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+ 
  **Resolution: Configure a service connection by using the SharePoint Central Administration website**
   
 1. Verify that the user account performing this procedure is a member of the Farm Administrators group.
@@ -53,7 +56,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -63,6 +66,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
   New-SPStateServiceDatabase -Name "State Service Database" | New-SPStateServiceApplication -Name "StateServiceApp1" | New-SPStateServiceApplicationProxy -DefaultProxyGroup
   ```
 
-For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
+For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps&preserve-view=true).
     
 

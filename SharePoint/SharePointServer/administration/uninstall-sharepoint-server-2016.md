@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019"
+title: "Uninstall SharePoint Server 2016, 2019, or Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn about the limited set of supported methods to uninstall Shar
 
 # Uninstall SharePoint Servers 2016 or 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
 You remove SharePoint Server by uninstalling it from Control Panel. When you uninstall SharePoint Server, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   
@@ -28,6 +28,9 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 - SQL Server databases are detached but are not removed from the database server.
     
 - When you uninstall SharePoint Server, all user data remains in the database files.
+
+> [!NOTE]
+>  To uninstall SharePoint Server Subscription Edition on Windows Server Core, see [Uninstall SharePoint Server Subscription Edition](/sharepoint/install/uninstall-for-sharepoint-server-subscription-edition).
     
 ## Before you begin
 <a name="begin"> </a>
@@ -35,19 +38,17 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 Before you begin this operation, confirm that you have uninstalled all language packs that are on the server.
   
 ## Uninstall SharePoint Servers 2016 or 2019
-<a name="begin"> </a>
 
 Use this procedure to uninstall SharePoint Server 2016.
   
- **To uninstall SharePoint Servers 2016 or 2019**
+**To uninstall SharePoint Servers 2016 or 2019**
   
 1. Verify that you are a member of the Farm Administrators group or a member of the Administrators group on the local computer.
     
 2. On the computer that runs SharePoint Server, log on as a local or domain administrator.
     
 3. Start Control Panel.
-    
-  
+
 4. In the **Programs** area, click **Uninstall a program**.
     
 5. In the **Uninstall or change a program** dialog, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019**.
@@ -74,7 +75,7 @@ Use this procedure to uninstall SharePoint Server 2016.
 > If you did not remove the language template packs before you uninstalled and then reinstalled SharePoint Server, you must run **Repair** from the SharePoint Products Configuration Wizard for each language template pack on the server. After the repair operation is complete, you must restart the server. Finally, complete the language template pack configuration by running the SharePoint Products Configuration Wizard. 
   
 ## See also
-<a name="begin"> </a>
+
 
 #### Concepts
 

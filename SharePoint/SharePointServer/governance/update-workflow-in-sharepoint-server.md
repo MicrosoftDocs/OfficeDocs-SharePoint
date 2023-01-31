@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: de173e89-b6d8-4d9e-8516-865c2735bfff
 description: "Walks through the steps required to keep workflow up to date in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Walks through the steps required to keep workflow up to date in Sh
 
 # Update Workflow in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 ## Run cmdlets after software updates are installed
 

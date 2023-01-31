@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: b5d9b1b8-14cd-4f9b-956a-fa8a0808c9f6
 description: "Learn how to add a custom action to the hover panel in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to add a custom action to the hover panel in SharePoint 
 
 # How to add a custom action to the hover panel in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In [How to display values from custom managed properties in the hover panel in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md), we showed you how to display values from custom managed properties in the hover panel. In this article you'll learn:
   
@@ -59,7 +59,7 @@ Confused? Well, this is not easy. It takes a while to understand how things were
   
 Here are the steps to add a custom action to the hover panel:
   
-1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in classic search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) showed how to do this. 
+1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in classic search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) showed how to do this.
     
 2. In your mapped network drive, open an item display template. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed property: 
     

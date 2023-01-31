@@ -9,16 +9,16 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0dea3ea8-5a2c-4ae1-b96e-f74a5984e340
-description: "Learn how to plan to use refiners for faceted navigation in SharePoint Server 2016."
+description: "Learn how to plan to use refiners for faceted navigation in SharePoint Server 2016 - Part I."
 ---
 
 # Stage 12: Plan to use refiners for faceted navigation in SharePoint Server - Part I
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -98,17 +98,17 @@ To save space, we'll not look at the complete faceted navigation structure of ou
   
 |**Product Hierarchy term set**|**Refiners**|
 |:-----|:-----|
-|Electronics  <br/> |||**Price, Brand, Color** <br/> |
-||Audio  <br/> ||Inherit from Electronics  <br/> |
-|||Car audio  <br/> |Inherit from Audio  <br/> |
-|||Headphones  <br/> |Inherit from Audio  <br/> |
-|||MP3  <br/> |Inherit from Audio  <br/> |
-|||Speakers  <br/> |Inherit from Audio  <br/> |
-||Cameras  <br/> ||Inherit from Electronics + **Zoom, Screen size** <br/> |
-|||Camcorders  <br/> |Inherit from Cameras  <br/> |
-|||Camera accessories  <br/> |Inherit from Cameras  <br/> |
-|||Digital cameras  <br/> |Inherit from Cameras + **Mega pixels** <br/> |
-|||Digital SLR cameras  <br/> |Inherit from Cameras + **Max ISO** <br/> |
+|Electronics  <br/> |**Price, Brand, Color** <br/> |
+|Audio  <br/> |Inherit from Electronics  <br/> |
+|Car audio  <br/> |Inherit from Audio  <br/> |
+|Headphones  <br/> |Inherit from Audio  <br/> |
+|MP3  <br/> |Inherit from Audio  <br/> |
+|Speakers  <br/> |Inherit from Audio  <br/> |
+|Cameras  <br/> |Inherit from Electronics + **Zoom, Screen size** <br/> |
+|Camcorders  <br/> |Inherit from Cameras  <br/> |
+|Camera accessories  <br/> |Inherit from Cameras  <br/> |
+|Digital cameras  <br/> |Inherit from Cameras + **Mega pixels** <br/> |
+|Digital SLR cameras  <br/> |Inherit from Cameras + **Max ISO** <br/> |
    
 Now that we've identified which refiners to use, the next thing to consider is how we want the refiner values to be displayed.
   

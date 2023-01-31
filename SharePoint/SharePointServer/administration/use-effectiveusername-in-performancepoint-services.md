@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd5f42e5-81a9-47bc-a17e-1f9574324961
@@ -18,7 +18,7 @@ description: "Learn how to use the EffectiveUserName option when it connects to 
 
 # Use EffectiveUserName in PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 EffectiveUserName is a SQL Server Analysis Services connection string property that contains the name of the user who is accessing a report or dashboard. In SharePoint Server, you can use this property together with PerformancePoint Services to pass the identity of the user who is viewing the report or dashboard to SQL Server Analysis Services. This enables per-user identity without the requirement to configure Kerberos delegation. 
   

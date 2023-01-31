@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: adcaa180-eafe-4636-9547-6edadabd4fed
@@ -18,7 +18,7 @@ description: "Learn how to resolve alerts about Microsoft Project Server 2013 in
 
 # Project Server 2013 knowledge articles for Systems Center Operations Manager
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!NOTE]
 > The Project Server 2013 knowledge articles for Systems Center Operations Manager only appear in the SharePoint Server 2013 and SharePoint Foundation 2013 Monitoring Pack for System Center Operations Manager 2012. 

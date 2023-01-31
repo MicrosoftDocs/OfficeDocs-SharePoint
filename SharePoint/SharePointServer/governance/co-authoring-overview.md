@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f6accc60-23b8-4242-b12d-e118270251cf
 description: "Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint in Microsoft 365."
@@ -17,7 +17,7 @@ description: "Provides information about co-authoring and the permissions and so
 
 # Overview of co-authoring in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Audience**: IT Professionals
   

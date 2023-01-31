@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to migrate content into or out of Remote BLOB Storage (R
 
 # Migrate content into or out of RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After installing RBS and setting a content database to use RBS, all existing content in that database can be migrated into the database's active provider. You use the same Microsoft PowerShell command to migrate content into or out of RBS, or to another RBS provider. When RBS is implemented, SQL Server itself is regarded as an RBS provider. 
   

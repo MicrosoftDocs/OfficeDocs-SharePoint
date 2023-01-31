@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d8d31277-7cce-4302-a198-de5ae4cef1ca
@@ -18,7 +18,7 @@ description: "Use test results and recommendations in this article to estimate p
 
 # Estimate performance and capacity requirements for enterprise intranet collaboration environments (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article contains guidance on performance and capacity planning for an enterprise intranet collaboration solution that is based on SharePoint Server 2013. It includes the following: 
   
@@ -56,7 +56,7 @@ Before you read this article, read the following articles to make sure that you 
   
 - [Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md)
     
-- [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
+- [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md)
     
 These articles provide the following information:
   

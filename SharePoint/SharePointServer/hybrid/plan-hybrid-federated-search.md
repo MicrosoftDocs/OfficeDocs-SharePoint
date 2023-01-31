@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -22,7 +22,7 @@ description: "Plan to configure a SharePoint hybrid environment so that user sea
 
 # Plan hybrid federated search for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint in Microsoft 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint in Microsoft 365 search indexes.
   

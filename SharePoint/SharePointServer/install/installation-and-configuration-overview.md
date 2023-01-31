@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about how to install and configure SharePoint Server 2013 in
 
 # Overview of SharePoint 2013 installation and configuration
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Although SharePoint products farms vary in complexity and size, a combination of careful planning and a phased deployment that includes ongoing testing and evaluation significantly reduces the risk of unexpected outcomes. This article provides an overview for all types of SharePoint Server 2013 farm deployment.
   
@@ -98,7 +98,7 @@ In this phase, you get your servers ready to host the product. This includes the
   
 - Database server: The required version of SQL Server, including service packs and cumulative updates must be installed on the database server. The installation must include any additional features, such as SQL Analysis Services, and the appropriate SharePoint Server 2013 logins have to be added and configured. The database server must be hardened and, if it is required, databases must be created by the DBA. For more information, see:
     
-  - [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
     
@@ -106,7 +106,7 @@ In this phase, you get your servers ready to host the product. This includes the
     
   - [System requirements for SharePoint 2013](system-requirements-for-sharepoint-2013.md)
     
-  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Plan security hardening for SharePoint Server](../security-for-sharepoint-server/security-hardening.md)
     

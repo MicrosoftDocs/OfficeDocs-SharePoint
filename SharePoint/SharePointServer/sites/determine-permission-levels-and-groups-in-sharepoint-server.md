@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn how to define the correct SharePoint Server permission level
 
 # Determine permission levels and groups in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A SharePoint group is a set of users that can be managed together. A permission level is a set of permissions that can be assigned to a specific group for a specific securable object. SharePoint groups and permission levels are defined at the site collection level and are inherited from the parent object by default. This article describes default groups and permission levels and helps you decide whether to use them as they are, customize them, or create different groups and permission levels. 
     

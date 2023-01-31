@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4e9272a2-78f0-4257-a896-26ae55ff0e51
@@ -18,7 +18,7 @@ description: "Learn how to assign a category page and a catalog item page to a t
 
 # Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -91,7 +91,7 @@ In [Stage 7: Upload page layouts and create new pages in a publishing site in Sh
   
 In the **Target Page Settings** and **Catalog Item Page Settings** sections, there are four references pointing to two pages: *Category-Electronics.aspx* and *CatalogItem-Electronics.aspx*. 
     
-     ![Automatically Assigned Pages](../media/OTCSP_AutomaticallyAssignedPages.png)
+![Automatically Assigned Pages](../media/OTCSP_AutomaticallyAssignedPages.png)
   
 Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), when we connected our publishing site to our catalog? In that stage, a category page and a catalog item page were automatically created and added to the **Pages** library. What we didn't cover in Stage 5 is that references to these pages were added to this term set, as shown in the screen shot above. In the next steps we'll change these references so they point to our newly created category page and catalog item page. 
     
@@ -129,7 +129,7 @@ By setting this reference, when visitors browse to an item that is tagged with t
   
 After applying the new category page and catalog item page to all terms, you can browse to a category page to verify that the correct page is being used. In our scenario, when we browse to "Audio," there's not much to see.
     
-     ![Audio Page](../media/OTCSP_AudioPage.png)
+![Audio Page](../media/OTCSP_AudioPage.png)
   
 This is good, because when we created a category page in [Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md), we created an empty page. To display content, we'll have to add Search Web Parts. We'll explain how to do this in the next article.
     
@@ -144,7 +144,7 @@ The friendly URL appears in the **Configure Friendly URL for this term** section
   
 Similarly, when you select "Car audio," you'll see the friendly URL for this page.
   
-![Configure Friendly URL](../media/OTCSP_FURLCarAudio.png)
+![Configure Friendly URL for Car](../media/OTCSP_FURLCarAudio.png)
   
 If you want to change a friendly URL, for example from "audio" to "audio players," you should change the actual term itself. That way, the friendly URL and the term that is used to tag your content will remain consistent.
   

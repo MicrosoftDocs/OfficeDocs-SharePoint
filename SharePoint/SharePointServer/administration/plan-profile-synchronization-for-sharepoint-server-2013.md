@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 8451dde9-bbd1-4285-bc24-71bd795fb912
 description: "Learn how to implement profile synchronization in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to implement profile synchronization in SharePoint Serve
 
 # Plan profile synchronization for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Profile synchronization (also known as "profile sync") allows you to create user profiles by importing information from other systems that are used in your organization. Before you read this article you should understand the concepts introduced in the article [Overview of profile synchronization in SharePoint Server 2013](profile-synchronization-in-sharepoint-server-2013.md). Profile synchronization is also used in server-to-server authentication which enables servers to access and request resources from one another server on behalf of users. For more information, see [Server-to-server authentication and user profiles in SharePoint Server](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md).
   

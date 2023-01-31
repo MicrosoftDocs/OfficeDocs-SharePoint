@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,9 +20,9 @@ description: "Learn the critical decisions that you need to make in your SharePo
 
 # Plan sites and site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-Every SharePoint Server site belongs to only one site collection and a site collection is made up of one top-level site and all sites below it. As shown in the following figure, a site collection is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more info about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md). For more information about SharePoint Server site collections, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
+Every SharePoint Server site belongs to only one site collection and a site collection is made up of one top-level site and all sites below it. As shown in the following figure, a site collection is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more info about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md). For more information about SharePoint Server site collections, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   
 **Figure: Structure of a site collection in SharePoint Server**
 
@@ -84,7 +84,7 @@ All sites in a site collection are stored together in the same SQL database. Thi
     
 - Because all content in a site collection is stored in the same content database, the performance of database operations — such as backing up and restoring content — depends on the amount of content across the site collection, the size of the database, the speed of the servers hosting the database, and other factors. Depending on the amount of content and the configuration of the database, you might have to divide a site collection into multiple site collections to meet service-level agreements for backing up and restoring, throughput, or other requirements. 
     
-- Creating too many sites below a top-level site in a site collection might affect performance and usability. The maximum recommended number of sites and subsites in a site collection is 250,000 sites. We recommend staying below 2,000 subsites per site collection. The maximum recommended number of site collections per farm is 500,000 Personal Sites plus 250,000 for all other site templates. For more information, see [Site collection limits](../install/software-boundaries-and-limits-0.md#SiteCollection).
+- Creating too many sites below a top-level site in a site collection might affect performance and usability. The maximum recommended number of sites and subsites in a site collection is 250,000 sites. We recommend staying below 2,000 subsites per site collection. The maximum recommended number of site collections per farm is 500,000 Personal Sites plus 250,000 for all other site templates. For more information, see [Site collection limits](../install/software-boundaries-limits-2019.md#SiteCollection).
     
 Once you have your site collection plan in place, you can move on to planning the organization of the sites in those site collections.
   
@@ -159,7 +159,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-     If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+     If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -201,7 +201,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
    -  _\<file location and name.csv\>_ is the location where you want to save the csv file and the name you want to give it. For example, 'C:\FarmReports\1.csv'. 
     
-For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](/powershell/module/sharepoint-server/?view=sharepoint-ps). 
+For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](/powershell/module/sharepoint-server/).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -211,7 +211,7 @@ For more information, see the PowerShell reference for SharePoint Server article
 
 #### Concepts
 
-[Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md)
+[Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md)
   
 [Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server](../administration/overview-of-publishing-to-internet-intranet-and-extranet-sites.md)
 #### Other Resources

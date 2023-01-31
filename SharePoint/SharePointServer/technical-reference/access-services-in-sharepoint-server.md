@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,14 +19,14 @@ description: "Learn how to resolve alerts about Access Services in the SharePoin
 
 # Access Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to resolve alerts about Access Services in the SharePoint Servers 2019, 2016 and 2013 management pack for Systems Center Operations Manager (SCOM).
   
 The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server.
 
 > [!NOTE]
->  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
+>  Access Services 2010 has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 Download and install:
 
@@ -36,7 +36,7 @@ Download and install:
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 
-- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/download/details.aspx?id=35590)
 
 Use the following information to resolve the Access Services error messages:
   
@@ -145,11 +145,11 @@ No SQL database servers are configured for Access to provision new databases.
     
 ### Related topics
 
-[Get-SPAccessServicesDatabaseServerGroupMapping](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroupMapping?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServerGroupMapping](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroupMapping?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPAccessServicesDatabaseServerGroup](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroup?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServerGroup](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroup?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPAccessServicesDatabaseServer](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServer?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServer](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServer?view=sharepoint-ps&preserve-view=true)
   
 ## Partitioned SSS communication failure
 <a name="SSSFail"> </a>
@@ -343,7 +343,7 @@ Use  `new-SPAccessServicesApplicationProxy` to create a new default proxy.
   
 ### Related topics
 
-[New-SPAccessServicesApplication](/powershell/module/sharepoint-server/New-SPAccessServicesApplication?view=sharepoint-ps)
+[New-SPAccessServicesApplication](/powershell/module/sharepoint-server/New-SPAccessServicesApplication?view=sharepoint-ps&preserve-view=true)
   
 ## Failed to register database server
 <a name="NoDBServ"> </a>
@@ -382,7 +382,7 @@ One or more of the following might be the cause:
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/download/details.aspx?id=35590)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   

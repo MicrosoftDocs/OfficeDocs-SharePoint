@@ -8,8 +8,8 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Determine an approach to use to update servers or server farms in 
 
 # Prepare to deploy software updates for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]  
   
 This article describes the required and recommended tasks to complete before you install software updates on servers in a SharePoint 2013 farm.
   
@@ -155,11 +155,11 @@ You do not need to complete this procedure if you are downloading and installing
 1. Download the software update that you want to install.
     
 2. Extract the software update to a shared location by using the following command:
-    
-    <package> **/extract:** <path> 
-    
+
+    &lt;package&gt; **/extract:** &lt;path&gt;
+
     The **/extract** switch prompts you to provide a folder name for the files. Here's an example of a folder name for x64 systems: 
-    
+
     sps-kb999999-x64-fullfile-en-us.exe /extract:\<\\computername\updateshare\Updates\>
     
 3. Copy the extracted files from the shared location to an Updates folder that you create on the computer where you want to start to install the update. 

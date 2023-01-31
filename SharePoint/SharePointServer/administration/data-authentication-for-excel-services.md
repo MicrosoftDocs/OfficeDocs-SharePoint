@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 8fe00c69-317f-49c9-8669-832a5f85e42c
 description: "Summary Learn how Excel Services in SharePoint Server supports connections with SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources."
@@ -17,7 +17,7 @@ description: "Summary Learn how Excel Services in SharePoint Server supports con
 
 # Data authentication for Excel Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Retrieving data from a data source requires a user to be authenticated by the data source and then authorized to access the data that is contained therein. In the case of a workbook, Excel Services authenticates to the data source on behalf of the user who is viewing it in order to refresh the data to which the workbook is connected.
   
@@ -117,14 +117,13 @@ The authentication method to choose depends on various factors as outlined in th
   
 **Comparison of authentication methods**
 
-||||||
+|Authentication method <br/> |Kerberos delegation  <br/> |Secure Store  <br/> |Unattended Service Account  <br/> |Effective User Name  <br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Authentication method** <br/> |Kerberos delegation  <br/> |Secure Store  <br/> |Unattended Service Account  <br/> |Effective User Name  <br/> |
 |**Description** <br/> |Using constrained Kerberos delegation, the workbook viewer's Windows credentials are sent to the data source directly.  <br/> |Using the Secure Store Service, the viewer's Windows credentials are mapped to another set of credentials specified in a Secure Store target application.  <br/> |Using the Secure Store Service, all viewers are mapped to a unique set of credentials called the Unattended Service Account that is stored in a specific Secure Store target application specified in Excel Services Global Settings.  <br/> |Using the EffectiveUserName Global Setting, the user's domain user name is passed to Analysis Services data sources.  <br/> |
 |**Data connection credentials** <br/> |The Windows credentials of the workbook viewer.  <br/> |The credentials specified in the Secure Store target application.  <br/> |The credentials of the Unattended Service Account.  <br/> |The credentials of the Excel Services process identity.  <br/> |
 |**Advantages** <br/> | The Kerberos protocol is an industry standard in credentials management.  <br/>  Kerberos ties into the existing Active Directory infrastructure.  <br/>  Kerberos delegation permits auditing of individual accesses to a data source.  <br/>  Given that the workbook viewer's identity is known, workbook creators can embed personalized database queries into workbooks.  <br/> | The Secure Store Service is part of SharePoint Server and is easier to configure than Kerberos.  <br/>  Mappings are flexible: a user can be mapped either 1-to-1 or many-to-1.  <br/>  Non-Windows credentials can be used to connect to data sources that do not accept Windows credentials. (Requires the Unattended Service Account to be configured also.)  <br/>  Mappings created for Excel Services can be re-used by other business intelligence applications such as Visio Services.  <br/> | The Unattended Service Account is easy to deploy and setup.  <br/>  The Unattended Service Account does not require much administrative overhead.  <br/> | Per-user data security without the need to configure Kerberos delegation.  <br/>  Minimal configuration and administrative overhead.  <br/> |
 |**Drawbacks** <br/> | Additional administrative effort required to configure SharePoint Server 2013 and Excel Services.  <br/> | Establishing and managing mapping tables requires some administrative overhead.  <br/>  Secure Store permits limited auditing. In the many-to-1 scenario, individual incoming users are mapped into the same credentials through a target application, effectively blending them into one user.  <br/> | Given that everyone is mapped to the same credentials, an administrator cannot distinguish who accessed a data source.  <br/> | Only works with Analysis Services data sources.  <br/> |
-|**For the authentication operation to succeed …** <br/> | Kerberos delegation must be set up on the SharePoint Server 2013.  <br/> | The Secure Store Service must be provisioned and configured on the farm. It must also contain appropriate mapping information for a particular incoming user. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/> | The Secure Store Service must be provisioned and configured on the farm. It must also contain the credentials for the Unattended Service Account. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/>  Excel Services Global Settings must be configured to use the Unattended Service Account.  <br/> | The **EffectiveUserName** option must be enabled in Excel Services Global Settings.  <br/>  The user must be a member of the appropriate Analysis Services role.  <br/> |
+|**For the authentication operation to succeed ...** <br/> | Kerberos delegation must be set up on the SharePoint Server 2013.  <br/> | The Secure Store Service must be provisioned and configured on the farm. It must also contain appropriate mapping information for a particular incoming user. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/> | The Secure Store Service must be provisioned and configured on the farm. It must also contain the credentials for the Unattended Service Account. Additionally the mapping information may need to be updated periodically to reflect password changes on the mapped account.  <br/>  Excel Services Global Settings must be configured to use the Unattended Service Account.  <br/> | The **EffectiveUserName** option must be enabled in Excel Services Global Settings.  <br/>  The user must be a member of the appropriate Analysis Services role.  <br/> |
    
 #### Kerberos delegation
 
@@ -161,7 +160,7 @@ The unattended service account is used by Excel Services in these scenarios:
   
 Choose the unattended service account when you are connecting to small ad-hoc deployments in which security is less important or for which speed of deployment is essential.
   
-For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md). 
+For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-unattended-service-account-2013.md). 
   
 ### SQL Server Authentication
 

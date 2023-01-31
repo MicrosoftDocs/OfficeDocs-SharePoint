@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: df979ec9-bdf7-4d96-b3a6-37213c45e5da
@@ -18,7 +18,7 @@ description: "Learn how to change the Content Search Web Part display template a
 
 # Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > The examples in this series are based on an on-premises SharePoint Server deployment. 
@@ -53,13 +53,13 @@ In the previous blog post, we told you that managed property that's used to spec
     
     In our Contoso scenario, we want to map the site column called *Group Number*. Crawled properties don't contain spaces. Therefore, exclude the space, enter *GroupNumber* and select **Find**. 
     
-     ![Enter Group Number and Select Find](../media/OTCSP_Find.png)
+    ![Enter Group Number and Select Find](../media/OTCSP_Find.png)
   
     Two crawled properties are found. Select the crawled property with the *ows_ prefix*, and select **OK**. 
     
-     ![Map Property](../media/OTCSP_MapProperty.png)
+    ![Map Property](../media/OTCSP_MapProperty.png)
   
-If you are confused because two crawled properties that look about the same are found, you're not alone. This is somewhat tricky. The article [From site column to managed property - What's up with that?](from-site-column-to-managed-propertywhat-s-up-with-that.md) explains the naming convention for crawled and managed properties. If you are interested in an abbreviated version, here it is as follows: When mapping a crawled property to the *UsageAnalyticsID* managed property, you should select the crawled property with the **ows_** prefix! 
+    If you are confused because two crawled properties that look about the same are found, you're not alone. This is somewhat tricky. The article [From site column to managed property - What's up with that?](from-site-column-to-managed-propertywhat-s-up-with-that.md) explains the naming convention for crawled and managed properties. If you are interested in an abbreviated version, here it is as follows: When mapping a crawled property to the *UsageAnalyticsID* managed property, you should select the crawled property with the **ows_** prefix! 
     
 6. On the **Edit Managed Property** page, select the *ows_ProductCatalogItemNumber* crawled property and then **Remove Mapping**. 
     
@@ -81,41 +81,41 @@ On our Contoso site, we use a Content Search Web Part (CSWP) to display items on
     
 2. In the **ManagedPropertyMapping** element, add the following two properties: 
     
-  ```
-  'Original Path'{Original Path}:'OriginalPath',
-  'SiteID'{SiteID}:'SiteID',
-  ```
-
-   ![Two MPs](../media/OTCSP_TwoMPs.png)
+      ```powershell
+      'Original Path'{Original Path}:'OriginalPath',
+      'SiteID'{SiteID}:'SiteID',
+      ```
+    
+     ![Two MPs](../media/OTCSP_TwoMPs.png)
   
 3. Add the following JavaScript just above the HTML part of your display template:
     
-  ```javascript
-  //Log Views usage event on URL of catalog item
-      window.LogViewsToEventStore = function(url, site)
-      {    
-          SP.SOD.executeFunc("sp.js", "SP.ClientContext", function()
-          {
-              var spClientContext = SP.ClientContext.get_current();
-              if(!$isNull(spClientContext))
+      ```javascript
+      //Log Views usage event on URL of catalog item
+          window.LogViewsToEventStore = function(url, site)
+          {    
+              SP.SOD.executeFunc("sp.js", "SP.ClientContext", function()
               {
-                      var spWeb = spClientContext.get_web();
-                      var spUser = spWeb.get_currentUser();
-                      var spScope = "{00000000-0000-0000-0000-000000000000}";
-                      
-                      SP.Analytics.AnalyticsUsageEntry.logAnalyticsEvent2(spClientContext, 1, url, spScope, site, spUser);spClientContext.executeQueryAsync(null, null);                   
-              }
-          });
-      };
-      
-      var originalPath = $getItemValue(ctx, "Original Path");
-      var originalSite = $getItemValue(ctx, "SiteID");
-      LogViewsToEventStore(originalPath.value, originalSite.value);
-  ```
-
-   In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log. 
+                  var spClientContext = SP.ClientContext.get_current();
+                  if(!$isNull(spClientContext))
+                  {
+                          var spWeb = spClientContext.get_web();
+                          var spUser = spWeb.get_currentUser();
+                          var spScope = "{00000000-0000-0000-0000-000000000000}";
+                          
+                          SP.Analytics.AnalyticsUsageEntry.logAnalyticsEvent2(spClientContext, 1, url, spScope, site, spUser);spClientContext.executeQueryAsync(null, null);                   
+                  }
+              });
+          };
+          
+          var originalPath = $getItemValue(ctx, "Original Path");
+          var originalSite = $getItemValue(ctx, "SiteID");
+          LogViewsToEventStore(originalPath.value, originalSite.value);
+      ```
     
-   ![JavaScript](../media/OTCSP_JavaScript.png)
+     In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log.
+        
+     ![JavaScript](../media/OTCSP_JavaScript.png)
   
 4. Save the file.
     
@@ -141,7 +141,7 @@ After you have generated *Views* usage events, you have two options on how to co
   
 If you want results faster, you can use some Microsoft PowerShell scripts to speed up the process. Here's what you have to do:
   
-1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) requirements. 
+1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3&preserve-view=true) requirements. 
     
 2. On the server where SharePoint Server is installed, open the **SharePoint 2013 Management Shell** as an Administrator. 
     
@@ -149,32 +149,32 @@ If you want results faster, you can use some Microsoft PowerShell scripts to spe
   
 3. At the Microsoft PowerShell command prompt, type the following commands to start Search analytics. The output from Search analytics is used by Usage analytics to map usage events against the actual items in the search index.
     
-  ```
-  $job = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.AnalyticsJobDefinition
-  $sa = $job.GetAnalysis("Microsoft.Office.Server.Search.Analytics.SearchAnalyticsJob")
-  $sa.StartAnalysis()
-  ```
+      ```powershell
+      $job = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.AnalyticsJobDefinition
+      $sa = $job.GetAnalysis("Microsoft.Office.Server.Search.Analytics.SearchAnalyticsJob")
+      $sa.StartAnalysis()
+      ```
 
 4. Wait for the search analytics job to finish. To check the status of the search analytics job, type the following command:
     
-  ```
-  $sa.GetAnalysisInfo()
-  ```
+      ```powershell
+      $sa.GetAnalysisInfo()
+      ```
 
    As long as the search analytics job is running, **State** is **Running**. 
     
    ![SA Running](../media/OTCSP_SARunning.png)
   
-The search analytics job is finished when **State** is **Stopped** and **Status** is **100**. 
-    
-   ![SA Stopped](../media/OTCSP_SAstoped.png)
+    The search analytics job is finished when **State** is **Stopped** and **Status** is **100**. 
+        
+    ![SA Stopped](../media/OTCSP_SAstoped.png)
   
 5. The usage events are added to the Event store in 10-minute intervals. To push the usage events to the Event store, type the following commands:
     
-  ```
-  $job = Get-SPTimerJob -Identity ("job-usage-log-file-import")
-  $job.RunNow()
-  ```
+      ```powershell
+      $job = Get-SPTimerJob -Identity ("job-usage-log-file-import")
+      $job.RunNow()
+      ```
 
 ## View usage events in the Event store
 <a name="BKMK_ViewUsageEventsInTheEventStore"> </a>
@@ -245,12 +245,12 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
 
 1. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $job = get-sptimerjob -type microsoft.office.server.search.analytics.usageanalyticsjobdefinition 
-  $job.DisableTimerJobSchedule() 
-  $job.StartAnalysis("\\<hostname>\Analytics_<guid>\EventStore\myevents") 
-  $job.EnableTimerJobSchedule()
-  ```
+      ```powershell
+      $job = get-sptimerjob -type microsoft.office.server.search.analytics.usageanalyticsjobdefinition 
+      $job.DisableTimerJobSchedule() 
+      $job.StartAnalysis("\\<hostname>\Analytics_<guid>\EventStore\myevents") 
+      $job.EnableTimerJobSchedule()
+      ```
 
    Notice that one command contains two placeholders: *host name* and *guid*. The host name is the name of the server where SharePoint Server is installed. You can see the GUID in the file path of your EventStore. 
     
@@ -260,13 +260,13 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
   
 2. Check the status of the Usage analytics job by entering the following command:
     
-  ```
-  $job.GetAnalysisInfo()
-  ```
+      ```powershell
+      $job.GetAnalysisInfo()
+      ```
 
-  The Usage analytics job is finished when **State** is **Stopped** and **Status** is **100**. 
-    
-   ![UA Stopped](../media/OTCSP_UAstopped.png)
+     The Usage analytics job is finished when **State** is **Stopped** and **Status** is **100**. 
+        
+     ![UA Stopped](../media/OTCSP_UAstopped.png)
   
 Now that Usage analytics have processed the usage events, the next step is to display the results of the analysis on our Publishing site. To do that, we'll add and configure two Web Parts.
   

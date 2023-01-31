@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5310987c-4499-4092-ac0c-fc4c1bb1a58d
@@ -18,7 +18,7 @@ description: "Learn how to upload page layouts and create new pages in a publish
 
 # Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -127,7 +127,7 @@ To create a new page:
   
 After you select **OK**, the newly created page is shown in the **Pages** library. 
     
-     ![New Category Page](../media/OTCSP_NewCategoryPage.png)
+![New Category Page](../media/OTCSP_NewCategoryPage.png)
   
 4. In our Contoso scenario, we'll also need a catalog item page. To create this page, repeat Steps 3 and 4 from the previous procedure. However for **Page Layout**, select *ContosoElectroniceCatalogItemPageLayout*. 
     
@@ -135,7 +135,7 @@ After you select **OK**, the newly created page is shown in the **Pages** librar
   
 Our **Pages** library now contains two new pages: *ContosoCategoryPage* and *ContosoCatalogItemPage*. 
     
-     ![Two New Pages](../media/OTCSP_TwoNewPages.png)
+![Two New Pages](../media/OTCSP_TwoNewPages.png)
   
 Now that we have created these pages, the next step is to assign them to the terms that drive our site navigation.
   

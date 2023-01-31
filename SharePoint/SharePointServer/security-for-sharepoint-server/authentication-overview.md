@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Learn about how user authentication, app authentication, and serve
 
 # Authentication overview for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server requires authentication for the following types of interactions:
   
@@ -33,6 +33,9 @@ SharePoint Server requires authentication for the following types of interaction
 - On-premises servers that access on-premises SharePoint resources, or vice versa
 
 Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
+
+> [!NOTE]
+> In SharePoint Server Subscription Edition, we now support OIDC 1.0 authentication. For more information on how to work with this new authentication type, see [OpenID Connect 1.0 authentication](/sharepoint/security-for-sharepoint-server/oidc-1-0-authentication).
     
 ## User authentication in SharePoint Server
 <a name="userauth"> </a>
@@ -43,10 +46,10 @@ SharePoint Server supports claims-based authentication.
   
 The result of a claims-based authentication is a claims-based security token, which the SharePoint Security Token Service (STS) generates. 
   
-SharePoint Server supports Windows, forms-based, and Security Assertion Markup Language (SAML)-based claims authentication. For information about how these three authentication methods work, see the following videos.
+SharePoint Server supports Windows, forms-based, Security Assertion Markup Language(SAML) and Open ID Connect (OIDC)-based claims authentication. For information about how Windows, forms-based and SAML based authentication methods work, see the following videos. For information about how OIDC authentication works, check OIDC setup guide.  
   
 > [!NOTE]
-> The information in the videos applies to SharePoint Server 2013 and SharePoint Server 2016. 
+> This information in the videos applies to SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019 and SharePoint Server Subscription Edition. 
   
 **Windows claims authentication in SharePoint Server 2013 and 2016 video**
 
@@ -67,7 +70,7 @@ App authentication is the validation of a remote SharePoint app's identity and t
   
 For example, suppose that a user opens a SharePoint page that contains an IFRAME of a SharePoint app, and that IFRAME needs an external component, such as a server on the intranet or the Internet, to access a secured SharePoint resource in order to render the page. The external component of the SharePoint app must be authenticated and authorized so that SharePoint provides the requested information and the app can render the page for the user.
   
-If the SharePoint app does not require a SharePoint secured resource to render the page for the user, app authentication is not needed. For example, a SharePoint app that provides weather forecast information and only has to access a weather information server on the Internet does not have to use app authentication. 
+If the SharePoint app doesn't require a SharePoint secured resource to render the page for the user, app authentication isn't needed. For example, a SharePoint app that provides weather forecast information and only has to access a weather information server on the Internet doesn't have to use app authentication. 
   
 App authentication is a combination of two processes:
   
@@ -79,7 +82,7 @@ App authentication is a combination of two processes:
     
     Verifying that the application and the associated user for the request has the appropriate permissions to perform its operation, such as accessing a folder or list or executing a query
     
-To perform app authentication, the application obtains an access token either from the Microsoft Azure Access Control Service (ACS) or by self-signing an access token using a certificate that SharePoint Server trusts. The access token asserts a request for access to a specific SharePoint resource and contains information that identifies the app and the associated user, instead of the validation of the user's credentials. The access token is not a logon token. 
+To perform app authentication, the application obtains an access token either from the Microsoft Azure Access Control Service (ACS) or by self-signing an access token using a certificate that SharePoint Server trusts. The access token asserts a request for access to a specific SharePoint resource and contains information that identifies the app and the associated user, instead of the validation of the user's credentials. The access token isn't a sign in token. 
   
 For SharePoint Store apps, an example of the authentication process is as follows:
   
@@ -124,18 +127,18 @@ For SharePoint App Catalog apps, an example of the authentication process is as 
 > [!NOTE]
 > App Catalog apps can use either ACS or a self-signed certificate for their access tokens. 
   
-For more information, see [Plan for app authentication in SharePoint 2013 Preview](./plan-for-app-authentication-in-sharepoint-server.md).
+For more information, see [Plan for app authentication in SharePoint Server](./plan-for-app-authentication-in-sharepoint-server.md).
   
 ## Server-to-server authentication in SharePoint Server
 <a name="s2sauth"> </a>
 
 Server-to-server authentication is the validation of a server's request for resources that is based on a trust relationship established between the STS of the server that runs SharePoint Server and the STS of another server that supports the OAuth server-to-server protocol, such as on-premises running SharePoint Server, Exchange Server 2016, Skype for Business 2016, or Azure Workflow Service, and SharePoint Server running in Microsoft 365. Based on this trust relationship, a requesting server can access secured resources on the SharePoint server on behalf of a specified user account, subject to server and user permissions.
   
-For example, a server running Exchange Server 2016 can request resources of a server running SharePoint Server for a specific user account. This provision contrasts with app authentication, in which the app does not have access to user account credential information. The user can be currently signed in to the server making the resource request or not, depending on the service and the request.
+For example, a server running Exchange Server 2016 can request resources of a server running SharePoint Server for a specific user account. This provision contrasts with app authentication, in which the app doesn't have access to user account credential information. The user can be currently signed in to the server making the resource request or not, depending on the service and the request.
   
-When a server running SharePoint Server attempts to access a resource on a server or a server attempts to access a resource on a server running SharePoint Server, the incoming access request must be authenticated so that the server accepts the incoming access request and subsequent data. Server-to-server authentication verifies that the server running SharePoint Server and the user whom it is representing are trusted.
+When a server running SharePoint Server attempts to access a resource on a server or a server attempts to access a resource on a server running SharePoint Server, the incoming access request must be authenticated so that the server accepts the incoming access request and subsequent data. Server-to-server authentication verifies that the server running SharePoint Server and the user whom it's representing are trusted.
   
-The token that is used for a server-to-server authentication is a server-to-server token, not a logon token. The server-to-server token contains information about the server that requests access and the user account on whose behalf the server is acting.
+The token that is used for a server-to-server authentication is a server-to-server token, not a sign in token. The server-to-server token contains information about the server that requests access and the user account on whose behalf the server is acting.
   
 For on-premises servers, an example basic process is as follows:
   

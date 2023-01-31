@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
 ---
@@ -83,7 +84,7 @@ Traditionally, SharePoint permissions have been managed through a set of permiss
 
 While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Microsoft 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
 
-Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Microsoft 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
+Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Microsoft 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. Teams uses the SharePoint site that is connected to the Microsoft 365 group for files in standard channels and creates separate SharePoint sites for each private or shared channel. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
 
 For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact).
 
@@ -111,7 +112,7 @@ The two main decisions to consider for using OneDrive in collaboration scenarios
 
   - Do you want to restrict file sync in any way – such as only to managed devices?
 
-These settings are available in the [SharePoint admin center](https://admin.microsoft.com/sharepoint).
+These settings are available in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 OneDrive is an important part of the Microsoft 365 collaboration story. For information about how to deploy OneDrive in your organization, see [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise).
 
@@ -143,7 +144,7 @@ The sharing settings that you configure for SharePoint and OneDrive determine wh
 
   - Restrict sharing to specified domains.
 
-You can configure these settings for the entire organization, or for each site independently. For detailed information, see [Turn sharing on or off](./turn-external-sharing-on-or-off.md) and [Turn sharing on or off for a site](./change-external-sharing-site.md).
+You can configure these settings for the entire organization, or for each site independently (except private or shared channel sites). For detailed information, see [Turn sharing on or off](./turn-external-sharing-on-or-off.md) and [Turn sharing on or off for a site](./change-external-sharing-site.md).
 
 See [Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure) for additional guidance around sharing with people outside your organization.
 
@@ -153,7 +154,7 @@ When users share files and folders, a shareable link is created which has permis
   
     ![Diagram showing how anyone links can be passed from user to user](media/DMC_SharePointSharingLinks_Anyone.png)
       
-    An *anyone* link is a transferrable, revocable secret key. It's transferrable because it can be forwarded to others. It's revocable because by deleting the link, you can revoke the access of everyone who got it through the link. It's secret because it can't be guessed or derived. The only way to get access is to get the link, and the only way to get the link is for somebody to give it to you.  
+    An *anyone* link is a transferrable, revocable secret key. It's transferrable because it can be forwarded to others. It's revocable because by deleting the link, you can revoke the access of everyone who got it through the link. It's secret because it can't be guessed or derived. The only way to get access is to get the link, and the only way to get the link is for somebody to give it to you. *Anyone* links can't be used with files in a Teams shared channel site.
 
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They do not work for guests in the directory, only members).  
 
@@ -167,7 +168,7 @@ When users share files and folders, a shareable link is created which has permis
       
     A *specific people* link is a non-transferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link will not work if it's opened by anybody except for the person specified by the sender.  
       
-    *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient will need to authenticate as the user specified in the link.  
+    *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient will need to authenticate as the user specified in the link. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel. 
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
@@ -199,13 +200,13 @@ Creating a *People in your organization* link does not cause the file or folder 
 
 ### Classify and protect information
 
-Data loss prevention in Microsoft 365 provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
+Microsoft Purview Data Loss Prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
 
 By classifying your information and creating governance rules around them, you can create a collaboration environment where users can easily work with each other without accidentally or intentionally sharing sensitive information inappropriately.
 
 With data loss prevention policies in place, you can be relatively liberal with your sharing settings for a given site and rely on data loss prevention to enforce your governance requirements. This provides a friendlier user experience and avoids unnecessary restrictions that users might try to work around.
 
-For detailed information about data loss prevention, see [Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies).
+For detailed information about data loss prevention, see [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 **Sensitivity labels**
 
@@ -225,7 +226,7 @@ Examples include:
 
   - If a document contains the name of a confidential project, then guests cannot open the document even if it has been shared with them.
 
-Microsoft Cloud App Security offers additional granular conditions, actions, and alerts to help you secure your content. These include the ability to remove a user's permissions or quarantine the user when the specified condition is met.
+Microsoft Defender for Cloud Apps offers additional granular conditions, actions, and alerts to help you secure your content. These include the ability to remove a user's permissions or quarantine the user when the specified condition is met.
 
 **User notifications**
 
@@ -269,7 +270,7 @@ Examples include:
 
   - Block guests from signing in from risky locations
 
-  - Require multifactor authentication for mobile devices
+  - Require multi-factor authentication for mobile devices
 
 You can create access policies that are specifically for guests, allowing risk mitigation for people who most likely have unmanaged devices.
 
@@ -303,7 +304,7 @@ For info about how to view reports on SharePoint site usage, see [Microsoft 365 
 
 For info about how to view data loss prevention reports, see [View the reports for data loss prevention](/microsoft-365/compliance/view-the-dlp-reports).
 
-For info about how to view Cloud App Security reports, see [Generate data management reports](/cloud-app-security/built-in-reports).
+For info about how to view Defender for Cloud Apps reports, see [Generate data management reports](/cloud-app-security/built-in-reports).
 
 ### Manage threats
 

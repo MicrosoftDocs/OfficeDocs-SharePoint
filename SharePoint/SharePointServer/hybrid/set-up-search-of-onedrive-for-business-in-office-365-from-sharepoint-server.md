@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -23,7 +23,7 @@ description: "Provide an easy way for users of on-premises SharePoint Server to 
 
 # Set up Search of Microsoft OneDrive from SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 After you install Service Pack 1 for SharePoint Server, when your users select **OneDrive** or **Sites** on the nav bar, you can redirect them to Microsoft OneDrive for professionals and small businesses. To learn how to do this, see [Plan hybrid OneDrive](./plan-hybrid-onedrive-for-business.md).
   
@@ -353,7 +353,7 @@ To validate your configuration for displaying search results from OneDrive, you 
     
     Make sure that it's a query that should yield some search results from OneDrive.
     
-2. Press <Enter>, or select the search icon, and then wait for initial search results to appear.
+2. Press \<Enter>, or select the search icon, and then wait for initial search results to appear.
     
 3. After the initial search results appear, select the link for the search vertical for OneDrive that you created earlier in this article.
     

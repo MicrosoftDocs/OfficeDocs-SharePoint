@@ -1,5 +1,5 @@
 ---
-title: "Display hybrid federated search results in SharePoint"
+title: Display hybrid federated search results in SharePoint
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,20 +9,21 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.assetid: c24cffe8-fa32-43e4-95ed-42118ef9643d
-description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint in Microsoft 365 Search Center display results from both the SharePoint in Microsoft 365 and SharePoint Server search indexes."
+description: Configure a SharePoint hybrid environment so that user searches from the SharePoint in Microsoft 365 Search Center display results from both the SharePoint in Microsoft 365 and SharePoint Server search indexes.
 ---
 
 # Display hybrid federated search results in SharePoint in Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
@@ -55,7 +56,7 @@ Result sources can be created at the organization level, the site collection lev
   
 For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](../../SharePointOnline/manage-result-sources.md).
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
 
@@ -73,7 +74,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the **Protocol** section, select **Remote SharePoint**.
     
-   - In the **Remote Service URL** section, enter the address of the external endpoint of the reverse proxy device, such as https://spexternal.adventureworks.com. The reverse proxy device routes queries that are submitted in SharePoint in Microsoft 365 to the SharePoint Server deployment. For more info, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md). The external endpoint of the reverse proxy device is its Internet-facing endpoint. The address of that external endpoint is called the external URL. Get the value of the external URL from the External URL row in Table 3 of [the SharePoint hybrid worksheet](https://go.microsoft.com/fwlink/?LinkId=391835) that you have been maintaining, and enter it in the **Remote Service URL** text box. 
+   - In the **Remote Service URL** section, enter the address of the external endpoint of the reverse proxy device, such as `https://spexternal.adventureworks.com`. The reverse proxy device routes queries that are submitted in SharePoint in Microsoft 365 to the SharePoint Server deployment. For more info, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md). The external endpoint of the reverse proxy device is its Internet-facing endpoint. The address of that external endpoint is called the external URL. Get the value of the external URL from the External URL row in Table 3 of [the SharePoint hybrid worksheet](https://go.microsoft.com/fwlink/?LinkId=391835) that you have been maintaining, and enter it in the **Remote Service URL** text box. 
     
    - In the **Type** section, select **SharePoint Search Results**.
     
@@ -94,7 +95,7 @@ Query rules can be created at the organization level, the site collection level,
   
 For more info about query rules, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](../search/manage-query-rules.md)
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -178,7 +179,7 @@ Use the following procedure to validate your configuration for viewing search re
 > [!IMPORTANT]
 > If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more info, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -217,7 +218,7 @@ To validate your configuration for displaying search results from both SharePoin
     
 2. Go to the enterprise Search Center in SharePoint in Microsoft 365.
     
-    Typically, the enterprise Search Center in SharePoint in Microsoft 365 is at https://< _domain_>.sharepoint.com/search—for example, https://adventureworks.sharepoint.com/search.
+    Typically, the enterprise Search Center in SharePoint in Microsoft 365 is at https://< _domain_>.sharepoint.com/search—for example, `https://adventureworks.sharepoint.com/search`.
     
 3. In the enterprise Search Center, do the following:
     

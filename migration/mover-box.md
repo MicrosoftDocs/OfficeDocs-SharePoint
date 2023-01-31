@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -99,7 +100,7 @@ Authorizing Box as an Administrator or a Co-Administrator is straightforward. To
    
    A new window (tab) opens.
    
-9. Name your **Connector** <optional>.
+9. Name your **Connector** \<optional\>.
     
    ![Box co-admin name connector](media/name-connector-box-coadmin.png)
    

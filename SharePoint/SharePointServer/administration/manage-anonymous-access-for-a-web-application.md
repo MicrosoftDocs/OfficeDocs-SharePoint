@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 8b35493f-45d2-428f-b17b-55d69ee11138
@@ -18,7 +18,7 @@ description: "Learn how to grant or deny anonymous access to a web application i
 
 # Manage anonymous access for a web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can enable or disable anonymous access for a web application. If you enable anonymous access for a web application, site administrators can then grant or deny anonymous access at the site collection, site, or item level. If anonymous access is disabled for a web application, no sites within that web application can be accessed by anonymous users. 
 

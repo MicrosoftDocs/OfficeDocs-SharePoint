@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 59f3af85-89f9-43ba-b364-28a810cae42e
 description: "Learn how to specify how often SharePoint Server stores a version of a document that is being edited."
@@ -17,7 +17,7 @@ description: "Learn how to specify how often SharePoint Server stores a version 
 
 # Configure the co-authoring versioning period in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The CoauthoringVersionPeriod property specifies, in minutes, how often SharePoint stores a version of a document that is being edited. This article describes how to use Microsoft PowerShell to configure the CoauthoringVersionPeriod property. For more information about document library versioning, see [Configure versioning for co-authoring in SharePoint 2013](configure-versioning-for-co-authoring.md).
   
@@ -40,7 +40,7 @@ You can configure the CoauthoringVersionPeriod property by using the Microsoft P
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Paste the following code into a text editor, such as Notepad:
     

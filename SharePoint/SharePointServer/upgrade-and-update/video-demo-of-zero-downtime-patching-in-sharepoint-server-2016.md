@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Take a SharePoint tutorial that can help you learn how to patch a 
 
 # Video demo of Zero Downtime Patching in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]  
   
 ## Overview
 
@@ -30,9 +30,9 @@ One of the new features in SharePoint Server 2016 is Zero Downtime patching.
   
 Zero Downtime patching doesn't demand any server downtime while patching a SharePoint Server 2016 farm, but does require that your farm be set up in a Highly Available (HA) configuration (so that SharePoint roles are hosted on more than one server). That way, patching can be done in batches where certain of the redundant servers are taken out of load balancing, patched, replaced, and tested for soundness before the other servers follow through the same process.
   
-There is a two-step process to patch a server in a SharePoint Server 2016 farm. First, you install the binaries of the patch to each server, this is called the patch phase. Second, after you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase.
+There's a two-step process to patch a server in a SharePoint Server 2016 farm. First, you install the binaries of the patch to each server, this is called the patch phase. Second, after you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase.
   
-During Zero downtime patching, users can add and edit files and use search just as at any other time, accessing the servers still handled by the load balancer. Likewise, though the database schemas may differ between the patched and unpatched sides of the farm, SharePoint Server 2016 operates in a backward-compatible mode, and its databases are able to properly function, until patching completes.
+During Zero downtime patching, users can add and edit files and use search as at any other time, accessing the servers still handled by the load balancer. Likewise, though the database schemas may differ between the patched and unpatched sides of the farm, SharePoint Server 2016 operates in a backward-compatible mode, and its databases are able to properly function, until patching completes.
   
 This SharePoint tutorial explains how to patch a SharePoint Server 2016 HA farm from beginning to end, including the installation of the binary files on all servers, and the build-to-build (B2B) upgrade itself.
   
@@ -41,7 +41,7 @@ This SharePoint tutorial explains how to patch a SharePoint Server 2016 HA farm 
 > [!IMPORTANT]
 > During the demonstration, the graceful shut down of Distributed Cache Service was discussed and demonstrated. The environment depicted is a test farm and the process shown is NOT how a customer should do this in a live environment. 
   
- **Important**: If you are actively using areas such as Microblogs, Newsfeeds etc. you will instead need to use the following steps to gracefully shut down the Distributed Cache Service on each Distributed Cache Server during the patch and upgrade sequence: 
+ **Important**: If you're actively using areas such as Microblogs, Newsfeeds etc. you'll instead need to use the following steps to gracefully shut down the Distributed Cache Service on each Distributed Cache Server during the patch and upgrade sequence: 
   
  **Gracefully STOP Distributed Cache Service**
   
@@ -59,7 +59,7 @@ $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $insta
   
 $serviceInstance.Provision()
   
-For reference, here is an overview of the steps, however for further detail on SharePoint patching please watch the video.
+For reference, here's an overview of the steps, however for further detail on SharePoint patching watch the video.
   
 1. Remove the Front-end web server (SPWEB01) from the Load balancer.
     
@@ -101,7 +101,7 @@ For reference, here is an overview of the steps, however for further detail on S
 > [!NOTE]
 > We recommend to test pages throughout to ensure patching and upgrading of servers is complete. 
   
-During the video the following Microsoft PowerShell script was used to take Servers out of the Azure Service Management Internal Load Balancer.
+During the video, the following Microsoft PowerShell script was used to take Servers out of the Azure Service Management Internal Load Balancer.
   
 ```
 #Remove the SPWEB01 Azure Load Balanced EndPoint
@@ -147,9 +147,10 @@ Get-AzureVM -ServiceName $svc -Name $vmname | Add-AzureEndpoint -Name $epname -L
 
 ```
 
-For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](/previous-versions/azure/mt126007(v=azure.100)) and [Add-AzureEndpoint](https://msdn.microsoft.com/library/mt589127.aspx)
-  
-## Related Topics
+
+For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](/previous-versions/azure/mt126007(v=azure.100)) and [Add-AzureEndpoint](/powershell/module/servicemanagement/azure.service/add-azureendpoint).
+
+## Related articles
 
 [Install a software update for SharePoint Server 2016](install-a-software-update.md)
   

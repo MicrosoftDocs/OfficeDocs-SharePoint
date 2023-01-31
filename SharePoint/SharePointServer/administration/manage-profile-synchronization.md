@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d94f491-4f01-4ab8-8c4b-f086c2ccfb89
 
@@ -18,7 +18,7 @@ description: "Learn about articles to help you manage User Profile synchronizati
 
 # Manage user profile synchronization in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Profile Synchronization in SharePoint Server enables User Profile service administrators to synchronize user and group profile information that is stored in the SharePoint Server profile store with profile information that is stored in directory services and business systems across the enterprise.
   

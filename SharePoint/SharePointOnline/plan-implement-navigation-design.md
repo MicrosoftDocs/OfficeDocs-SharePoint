@@ -1,8 +1,8 @@
 ---
 title: "Get started planning and implementing SharePoint navigation design"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-spintranet
 - m365solution-scenario
 - M365-collaboration
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -55,8 +56,8 @@ Use this information, and your knowledge of your users, to organize groups of re
 
 Information architecture includes five primary elements:
 
-- **Portal navigational structure** – How you structure your sites so that users can find content including the [home site](./home-site.md) of your intranet.
-- **Hub structure and organization** – How you group together similar topics, tasks, and content.
+- **Portal navigational structure** – How you structure your sites so that users can find content including the [home site](home-site.md) of your intranet.
+- **Hub structure and organization** – How you [group together similar topics, tasks, and content](planning-hub-sites.md).
 - **Site and page architecture** – How content is organized on each site and page so that users can further navigate or consume content effectively.
 - **Metadata architecture** – How to structure and label your individual content items for browsing and searching as well as compliance and retention.
 - **Search experiences** – How your users “consume” information architecture in addition to browsing.
@@ -75,7 +76,7 @@ Information architecture includes five primary elements:
 **New navigational design for a hub:**
 
 >[!NOTE] 
->To edit hub navigation, you must be the hub owner or tenant administrator.
+>To edit hub navigation, you must be the hub owner or tenant administrator. The default navigation menu style for team sites hub navigation will be cascading.
 
 |Plan    |Build    |Manage   |
 | ------------- | ------------- | ------------- |

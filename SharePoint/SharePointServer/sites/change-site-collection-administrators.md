@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -18,7 +18,7 @@ description: "How to change site collection administrators for SharePoint Server
 ---
 
 # Change site collection administrators in SharePoint Server
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 A site collection administrator in SharePoint Server can configure the appearance and behavior of the site, configure search settings and site directory settings, and allocate storage space. A site collection must have one primary site collection administrator and can have one secondary site collection administrator. The primary and secondary site collection administrators receive administrative email alerts for the site collection. The primary and secondary site collection administrators are automatically added to the SharePoint Site Collection Administrators group. You can add as many additional accounts as you want to the SharePoint Site Collection administrators group, but only the primary and secondary site collection administrators will receive administrative alerts for the site collection. All members of the SharePoint Site Collection Administrators group have full administrative permissions to the site collection.
 

@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
@@ -17,12 +18,13 @@ ms.collection:
 - m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "Learn about the prerequisites and endpoints required when using Migration Manager in the modern SharePoint Admin Center."
 ---
 # Prerequisites & Endpoints for Migration Manager
 
-This article is a resource where you can find prerequisites and endpoint information when using Migration Manager in the modern SharePoint Admin Center.
+This article is a resource where you can find prerequisites and endpoint information when using the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the modern SharePoint admin center.
 
 
 ## Prerequisites
@@ -43,10 +45,14 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 ## Required endpoints
 
+Migration Manager agent sends requests to and receives responses from these endpoints.  They can never call Migration Manager.
+
+Two endpoints, https://production.odyssey.ops.mover.io and https://production-wus2-signalr.service.signalr.net, are used for SignalR connections. Migration Manager agent won’t open a port to accept remote connections.
+
+
 | Required endpoints | For |
 |:-----|:-----|
 |`https://secure.aadcdn.microsoftonline-p.com`|Authentication|
-|`https://api.office.com`|Microsoft 365 APIs for content move and validation.|
 |`https://graph.windows.net`|Microsoft 365 APIs for content move and validation.|
 |`https://spmtreleasescus.blob.core.windows.net`|Installation|
 |`https://*.queue.core.windows.net`|Migration API Azure requirement|
@@ -56,6 +62,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |`https://*.blob.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.queue.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.login.microsoftonline.com`|Sign into the MMA agent for SPO access|
+|`https://*.login.windows.net`|Sign into the MMA agent for SPO access|
 |`https://*.msauth.net`|Sign into the MMA agent for SPO access|
 |`https://spmt.sharepointonline.com`|SPMT Installation link.
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|

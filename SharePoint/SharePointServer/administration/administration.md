@@ -8,8 +8,8 @@ ms.date: 2/14/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
-ms.prod: sharepoint-server-itpro
+ms.topic: landing-page
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "The articles in this section help you operate and maintain servers
 
 # Administration of SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
   
 ## Articles about operations and maintenance in SharePoint Server
@@ -36,10 +36,10 @@ description: "The articles in this section help you operate and maintain servers
 |[Role conversion using MinRole in SharePoint Server 2016](role-conversion-using-minrole-in-sharepoint-server-2016.md) <br/> |Learn about how to convert your server roles in a SharePoint farm deployment using MinRole to help you select the right server role when provisioning SharePoint Server 2016.  <br/> |
 |[Administer search in SharePoint Server](../search/search-administration.md) <br/> |Learn how to manage the search schema and the search topology in SharePoint Server.  <br/> |
 |[Administer the User Profile service in SharePoint Server](user-profile-service-administration.md) <br/> |Learn how to administer the User Profile service in SharePoint Server 2016.  <br/> |
-   
+
 ## Related operations and maintenance articles for SharePoint Server
 
-- [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps)
+- [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps&preserve-view=true)
     
 - [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
     
@@ -54,5 +54,5 @@ Download the [System Center Management Pack](https://go.microsoft.com/fwlink/?Li
 [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
 #### Other Resources
 
-[About SharePoint](https://dev.office.com/sharepoint)
+[About SharePoint](https://support.microsoft.com/office/what-is-sharepoint-97b915e6-651b-43b2-827d-fb25777f446f)
 

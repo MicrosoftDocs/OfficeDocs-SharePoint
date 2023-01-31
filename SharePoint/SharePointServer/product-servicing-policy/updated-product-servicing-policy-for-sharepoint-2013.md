@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 # Updated Product Servicing Policy for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2013 and SharePoint Foundation 2013 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2013 and SharePoint Foundation 2013.
   

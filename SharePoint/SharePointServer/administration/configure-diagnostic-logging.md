@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: faab1eb4-5848-4970-b13f-ba6df14272fe
@@ -18,7 +18,7 @@ description: "Learn to configure diagnostic logging in SharePoint Server from th
 
 # Configure diagnostic logging in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
     
 ## Prerequisites
@@ -141,62 +141,62 @@ You can use PowerShell to configure diagnostic logging.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    - **securityadmin** fixed server role on the SQL Server instance. 
+        
+    - **db_owner** fixed database role on all databases that are to be updated. 
+        
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use PowerShell cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. From the SharePoint Management Shell, change the drive to which the server writes logs.
     
 3. At the PowerShell command prompt, type the following command:
-    
-  ```
-  Set-SPDiagnosticConfig -LogLocation D:\DiagnosticLogs
-  ```
+
+      ```powershell
+      Set-SPDiagnosticConfig -LogLocation D:\DiagnosticLogs
+      ```
 
 4. To restrict log disk space usage, at the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPDiagnosticConfig -LogMaxDiskSpaceUsageEnabled
-  ```
+      ```powershell
+      Set-SPDiagnosticConfig -LogMaxDiskSpaceUsageEnabled
+      ```
 
-    Or assign the maximum disk space for logs:
+Or assign the maximum disk space for logs:
     
   ```
   Set-SPDiagnosticConfig -LogDiskSpaceUsageGB 500
   ```
 
 5. To view the current logging level, at the PowerShell command prompt, type the following command:
-    
-  ```
-  Get-SPLogLevel
-  ```
+        
+      ```powershell
+      Get-SPLogLevel
+      ```
 
 6. To change the logging level, at the PowerShell command prompt, type the following command:
-    
-  ```
-  Set-SPLogLevel -TraceSeverity Monitorable
-  ```
+        
+      ```powershell
+      Set-SPLogLevel -TraceSeverity Monitorable
+      ```
 
-    To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
+To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
     
   ```
   Clear-SPLogLevel
   ```
 
 7. To enable event log flooding protection, at the PowerShell command prompt, type the following command:
-    
-  ```
-  Set-SPDiagnosticConfig -EventLogFloodProtectionEnabled
-  ```
+        
+      ```powershell
+      Set-SPDiagnosticConfig -EventLogFloodProtectionEnabled
+      ```
 
-For more information, see [Set-SPDiagnosticConfig](/powershell/module/sharepoint-server/Set-SPDiagnosticConfig?view=sharepoint-ps), [Set-SPLogLevel](/powershell/module/sharepoint-server/Set-SPLogLevel?view=sharepoint-ps) and [Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps). 
+For more information, see [Set-SPDiagnosticConfig](/powershell/module/sharepoint-server/Set-SPDiagnosticConfig?view=sharepoint-ps&preserve-view=true), [Set-SPLogLevel](/powershell/module/sharepoint-server/Set-SPLogLevel?view=sharepoint-ps&preserve-view=true) and [Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps&preserve-view=true). 
   
 ## See also
 <a name="section3"> </a>

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3fca2556-ebca-4395-8f66-b3a645c05878
 description: "Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn about how to plan for custom claims providers for the People
 
 # Plan for custom claims providers for People Picker in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can use the claims providers that are included with SharePoint Server, or you can create your own custom claims providers to connect to additional sources of claims and provide additional claims in the security token for a user. For example, if you have a customer relationship management (CRM) application that contains roles that are not found in the user repository in Active Directory Domain Services (AD DS), you can create a custom claims provider to connect to the CRM database and add CRM role data to a user's original security token. For more information about claims provider usage scenarios, see [Claims Provider](/sharepoint/dev/general-development/claims-provider-in-sharepoint).
   
@@ -49,7 +49,7 @@ Depending on the authentication method selected for a zone of a web application,
 |Forms-based authentication  <br/> |[SPFormsClaimProvider](/previous-versions/office/sharepoint-server/ee549669(v=office.15)) <br/> |
 |Security Assertion Markup Language (SAML) token-based authentication  <br/> |[SPTrustedClaimProvider](/previous-versions/office/sharepoint-server/ee550134(v=office.15)) <br/> |
    
-You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps) Microsoft PowerShell cmdlet. 
+You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlet. 
   
 > [!NOTE]
 > When a web application is configured to use SAML token-based authentication, the SPTrustedClaimProvider class does not provide search functionality to the People Picker web control. Any text entered in the People Picker control will automatically be displayed as if it was resolved, regardless of whether it is a valid user, group, or claim. If your SharePoint Server solution will use SAML token-based authentication, you should plan to create a custom claims provider to implement custom search and name resolution. 
@@ -81,7 +81,7 @@ To make sure that customer partners are never added to the extranet collaboratio
   
 You can set the IsUsedByDefault property by configuring it in a feature receiver that you create for your custom claims provider. 
   
-You can also override the settings of the IsEnabled and IsUsedByDefault properties by using the [Set-SPClaimProvider](/powershell/module/sharepoint-server/Set-SPClaimProvider?view=sharepoint-ps) PowerShell cmdlet. 
+You can also override the settings of the IsEnabled and IsUsedByDefault properties by using the [Set-SPClaimProvider](/powershell/module/sharepoint-server/Set-SPClaimProvider?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet. 
   
 > [!IMPORTANT]
 > Changing the IsEnabled property to False will disable the claims provider for the server farm. This can be useful if you have to troubleshoot issues that might be caused by a custom claims provider. In general, the IsEnabled property should be set to True. 

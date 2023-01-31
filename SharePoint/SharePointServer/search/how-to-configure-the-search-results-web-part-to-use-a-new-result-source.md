@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 104cd271-d4d5-4784-9278-5590b5ee2647
 description: "Learn how to configure the Search Results Web Part to use a new result source in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to configure the Search Results Web Part to use a new re
 
 # How to configure the Search Results Web Part to use a new result source in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In the previous article in this series, [How to create a Search Center Site Collection and enable crawling of your content in SharePoint Server](how-to-create-a-search-center-site-collection-and-enable-crawling-of-your-conten.md), we explained how you can create a Search Center Site Collection and enable crawling of your content. In this article, you'll learn:
   
@@ -88,9 +88,9 @@ To save space, we'll only show you how to create a result source as a Site colle
     
     Remember, in our scenario we only wanted search results to come from a particular site within the farm. Therefore, in the **Query text** field we added the following: 
     
-  ```
-  {searchTerms?} (contentclass:sts_listitem) path:http://<path>
-  ```
+    ```
+    {searchTerms?} (contentclass:sts_listitem) path:http://<path>
+    ```
 
      ![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
   
@@ -112,7 +112,7 @@ To save space, we'll only show you how to create a result source as a Site colle
     
      ![Enter Query](../media/OTCSP_TestQuery.png)
   
-    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section…).
+    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section...).
     
 7. Click **OK** to close the dialog, and then **Save**. 
     

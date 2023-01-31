@@ -1,5 +1,5 @@
 ---
-title: "Understanding multi-tenancy in SharePoint Server 2013"
+title: Understanding multi-tenancy in SharePoint Server 2013
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,19 +9,19 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3f03113d-627a-4cd2-adbd-2945bdee9a4b
 
-description: "Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server."
+description: Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server.
 ---
 
 # Understanding multi-tenancy in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes the components and services related to multi-tenancy in SharePoint Server 2013 and also provides architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013 for planning, designing, building, and managing a multi-tenant SharePoint Server 2013 hosting platform.
   
@@ -50,7 +50,7 @@ A SharePoint 2013 web application is composed of an Internet Information Service
   
 #### Host-named site collection
 
-Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as http://TeamA.contoso.com and http://TeamB.fabrikam.com. This lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you do not use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A would have a site collection at http://contoso.com/sites/teamA and Team B would have a site collection at http://fabrikam.com/sites/teamB.
+Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.fabrikam.com`. This lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you do not use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A would have a site collection at http://contoso.com/sites/teamA and Team B would have a site collection at http://fabrikam.com/sites/teamB.
   
 Host Named Site Collections are fundamentally the only way to scale for multi-tenancy environments, and provide ultimate flexibility with respect to the URL namespace used. If using path-based sites with multi-tenancy the software boundary for managed paths will be reached extremely quickly.
   
@@ -58,7 +58,7 @@ For additional information about how to plan for host-named site collections for
   
 #### Service groups (proxy groups)
 
-A  *service group*  , also known as  *proxy group*  , is a group of service applications that are selected for use by a web application. 
+A  *service group*, also known as  *proxy group*, is a group of service applications that are selected for use by a web application. 
   
 By default, all service applications are included in the default group unless another group is specified at the time that the service application is created. You can add and remove service applications from the default group at any time. When you create a web application, you can select the default group, or you can create a custom group of services. You create a custom group of services by selecting only the service applications that you want the web application to use.
   
@@ -926,7 +926,7 @@ The creation of the User Profile Service by using PowerShell as required when pr
   
 Two scripts are required, the first script creates the UPA and the second script calls the first script.
   
-The following Microsoft PowerShell script shows how to create the User Profile Service application in Partition Mode and add it to a custom Service Proxy group…
+The following Microsoft PowerShell script shows how to create the User Profile Service application in Partition Mode and add it to a custom Service Proxy group...
   
 > [!NOTE]
 > This script should **NOT** be run directly otherwise it will be impossible to start the User Profile Synchronization service instance. This script should be saved locally and its location noted. 
@@ -1059,7 +1059,7 @@ Information Rights Management support for multi-tenancy can be turned on by usin
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -1087,10 +1087,10 @@ This section describes the processes and approaches for provisioning tenants and
 <a name="begin"> </a>
 
 To create a tenant, follow the steps in the table. 
+
   
-|||
-|:-----|:-----|
 |**Tasks** <br/> |**Steps** <br/> |
+|:-----|:-----|
 |1. Create a site subscription.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```$sub = New-SPSiteSubscription```|
 |2. Assign a feature pack to the site subscription and configure custom OU by using People Picker.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Set-SPSiteSubscriptionConfig -id $sub -FeaturePack $customerFeatures -UserAccountDirectoryPath "OU=$customerName,OU=Customers,DC=contoso,DC=com"```|
 |3. Create one or more site collections to be assigned to the site subscription.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Write-Host "Creating Member Site..." New-SPSite -url "http://$customerName.contoso.com" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template sts#0 -ContentDatabase $contentDBName``````# create Tenant Admin site  Write-Host "Creating Tenant Admin site..." New-SPSite -url "http://$customerName.contoso.com/admin" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template tenantadmin#0 -AdministrationSiteType TenantAdministration -ContentDatabase $contentDBName``````Write-Host "Creating My Site Host..."     New-SPSite -url "http://$customerName.contoso.com/mysites" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template SPSMSITEHOST#0 -ContentDatabase $contentDBName```|

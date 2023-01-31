@@ -80,8 +80,6 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 ## What happens when users share
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
-
-![A sharing invitation in email](media/sharing-invitation.png)
   
  **Recipients who sign in**
   
@@ -104,7 +102,7 @@ Because these guests do not have a license in your organization, they are limite
     
 - They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
     
-If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a global admin, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
+If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a Global Administrator, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
 
  **Recipients who provide a verification code**
 
@@ -115,9 +113,11 @@ When users share files or folders, recipients will be asked to enter a verificat
 
 ![Enter Verification Code screen](media/verification-code.png)
 
-If the recipient has a work or school account, they only need to enter the code the first time. Then they will be added as a guest and can sign in with their organization's user name and password.
+If Azure AD B2B integration is not enabled, recipients will enter the code each time they access the file or folder and are not added to your directory.
 
-If the recipient doesn't have a work or school account, they need to use a code each time they access the file or folder, and they are not added to your directory.
+If Azure AD B2B integration is enabled, recipients may be prompted to sign in or use a one-time passcode, depending on your organization's Azure AD B2B settings.
+
+More information about Azure AD B2B integration can be found at [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
 > [!NOTE]
 > Sites can't be shared with people unless they have a Microsoft account or a work or school account in Azure AD.

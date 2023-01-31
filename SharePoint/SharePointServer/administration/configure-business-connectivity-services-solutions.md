@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f255d39a-8231-42e7-957d-c4855b9ab529
 description: "Find links to steps that will help you install and configure SharePoint Server Business Connectivity Services (BCS). Choose from on-premises, cloud-only, and hybrid BCS solutions."
@@ -17,7 +17,7 @@ description: "Find links to steps that will help you install and configure Share
 
 # Configure Business Connectivity Services solutions for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article is your starting place for the procedures to install common Microsoft Business Connectivity Services scenarios for SharePoint Server 2016. The Business Connectivity Services solution that you deploy will most likely look different from the solutions presented here, but you can model your installation on these examples. Also, you can select the individual procedures from here to build your own procedural documents for your Business Connectivity Services solution scenario.
   

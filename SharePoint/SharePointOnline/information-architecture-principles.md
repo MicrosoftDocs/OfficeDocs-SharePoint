@@ -1,8 +1,8 @@
 ---
 title: "Information architecture principles in SharePoint"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:

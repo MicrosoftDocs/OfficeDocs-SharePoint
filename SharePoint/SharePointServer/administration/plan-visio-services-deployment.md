@@ -8,8 +8,8 @@ ms.date: 7/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Best practices for deploying Visio Services include performance pl
 
 # Plan Visio Services deployment in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 As an integrated part of SharePoint Server, Visio Services is very easy to deploy. Planning your Visio Services deployment before rollout can help give you the best system performance and user satisfaction, and it can help you better manage system resources in your SharePoint Server farm and related systems. 
   

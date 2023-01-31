@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -25,7 +25,7 @@ description: "Summary: Learn how to complete server configuration in SharePoint 
   
 ## Setup completed successfully
 
-The Setup Wizard has just completed the following:
+The following steps are completed by the Setup Wizard:
   
 - Validate software prerequisites.
     
@@ -47,13 +47,13 @@ You can run the configuration wizard at the completion of the Setup Wizard or, i
   
 ### To run the SharePoint Products Configuration Wizard at the completion of the Setup Wizard
 
-- Select **Run the SharePoint Products Configuration Wizard now**, and then click **Close**. The configuration wizard automatically starts.
+- Select **Run the SharePoint Products Configuration Wizard now**, and then select **Close**. The configuration wizard automatically starts.
     
-To run the configuration wizard later, clear the **Run the SharePoint Products Configuration Wizard now** check box, and then click **Close**. When you are ready to run the configuration wizard, complete the procedure in [How to: Start the SharePoint Products Configuration wizard](how-to-start-the-sharepoint-products-configuration-wizard.md).
+To run the configuration wizard later, clear the **Run the SharePoint Products Configuration Wizard now** check box, and then select **Close**. When you're ready to run the configuration wizard, complete the procedure in [How to: Start the SharePoint Products Configuration wizard](how-to-start-the-sharepoint-products-configuration-wizard.md).
   
 ## Setup failed
 
-If an error was encountered, the setup process will not be completed and an error will be noted in the Setup log file. The Setup log file is stored in the temp directory for the user account that is running setup (%USERTEMP% or %WINDIR%\Users\user account\AppData\Local\Temp) and is named "SharePoint Server Setup (YYYYMMDDHHMMSSrandomnumber).log" where YYYYMMDD is the date and HHMMSS is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds) and the random number is used to differentiate between possible simultaneous attempts to run the setup program. You can review the log file for error messages. After you understand why the error occurred, you can address the issue, and then you can run Setup again .
+If an error was encountered, the setup process won't be completed and an error will be noted in the Setup log file. The Setup log file is stored in the temp directory for the user account that is running setup (%USERTEMP% or %WINDIR%\Users\user account\AppData\Local\Temp). The Setup log file is named "SharePoint Server Setup (YYYYMMDDHHMMSSrandomnumber).log". YYYYMMDD is the date,  HHMMSS is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds), and the random number is used to differentiate between possible simultaneous attempts to run the setup program. You can review the log file for error messages. After you understand why the error occurred, you can address the issue, and then you can run Setup again.
   
 > [!NOTE]
 > If you encounter a failure during the removal process, you can find more information in [Configuration failure during removal](configuration-failure-during-removal.md). 

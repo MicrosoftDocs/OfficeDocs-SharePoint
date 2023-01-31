@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -82,7 +83,7 @@ This scan report contains InfoPath forms that will require remediation prior to 
 |UnsupportedDataConnectionCount  <br/> |Number of unsupported data connections.  <br/> |
 |ManagedCode  <br/> |True - The XSN file has managed code associated with it. False - The XSN file does not have managed code associated with it.  <br/> |
 |ManagedCodeState  <br/> |ValidationRequired - Managed code may work in the target environment. It will require validation during the migration testing phase to be sure.  <br/> RemediationRequired - The form has managed code that will require remediation.  <br/> |
-|Mode  <br/> |The mode that the form was published in. For example, a mode of "Client" results in an InfoPath form that will only open in the InfoPath client. Whereas a mode of "Client Server" will open in both the browser and the InfoPath client. Forms with mode set to Client will not show up in this report.  <br/> |
+|Mode  <br/> |The mode that the form was published in. </br>A mode of "Client" results in an InfoPath form that will only open in the InfoPath client. Whereas a mode of "Client Server" will open in both the browser and the InfoPath client. Forms with mode set to Client will not show up in this report.  <br/> Three additional custom values are:</br>"WorkflowInitAssoc" - This value specifies that the form template (.xsn) file represents the form used to edit items in a workflow.</br>"List" - This value specifies that the form template (.xsn) file represents the form used to edit items in a list.</br>  "Entity" -This value specifies that the form template (.xsn) file represents the form used to edit items in an **external** list.|
 |PeoplePickerCount  <br/> |Number of people picker fields found in the form.  <br/> |
 |SolutionFormatVersion  <br/> |This field is no longer used and can be ignored.  <br/> |
 |ProductVersion  <br/> |Version of InfoPath used to publish the form.  <br/> |

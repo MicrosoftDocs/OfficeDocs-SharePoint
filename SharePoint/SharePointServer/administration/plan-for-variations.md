@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 45264de9-6859-45c1-9d6d-70035c471a2a
@@ -18,7 +18,7 @@ description: "Learn how to plan for variations, identify the source and target v
 
 # Plan for variations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
   
@@ -121,7 +121,7 @@ SharePoint Server has several features that enable you to support users in diffe
 
 Variations are used to create multilingual sites, and sites based on regional differences. Determine which variations are needed for your solution, and make a list of the sites that will belong to the variations hierarchy.
   
-If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). If you will be using variations for creating multilingual sites in SharePoint in Microsoft 365, all language packs are installed and available for use.
+If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md). If you will be using variations for creating multilingual sites in SharePoint in Microsoft 365, all language packs are installed and available for use.
   
 ## Specify the source variation site
 <a name="bkm_source"> </a>

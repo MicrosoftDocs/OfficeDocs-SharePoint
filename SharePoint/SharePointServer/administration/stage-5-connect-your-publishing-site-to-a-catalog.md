@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ad56091b-14cd-4e49-b6eb-95552b456079
@@ -18,7 +18,7 @@ description: "Learn how to connect your publishing site to a catalog in SharePoi
 
 # Stage 5: Connect your publishing site to a catalog in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -69,10 +69,10 @@ Remember, in [Stage 3: How to enable a list as a catalog in SharePoint Server](s
   
 Our **Products** list appears as an available catalog. To connect to it, select **Connect**. 
     
-     ![Connect](../media/OTCSP_Connect.png)
+![Connect](../media/OTCSP_Connect.png)
   
-    > [!TIP]
-    > If you click **Connect to a catalog** and there aren't any available catalogs, this might be because you have not yet crawled the catalog, as demonstrated in [Stage 4: Set up search and enable the crawling of your catalog content in SharePoint Server](stage-4-set-up-search-and-enable-the-crawling-of-your-catalog-content.md). 
+> [!TIP]
+> If you click **Connect to a catalog** and there aren't any available catalogs, this might be because you have not yet crawled the catalog, as demonstrated in [Stage 4: Set up search and enable the crawling of your catalog content in SharePoint Server](stage-4-set-up-search-and-enable-the-crawling-of-your-catalog-content.md). 
   
 Now that we've successfully navigated to the **Catalog Source Settings** page for our **Products** catalog, it's time to specify how the catalog should be integrated into our Contoso site. 
   
@@ -137,7 +137,7 @@ To view how the navigation of your site is set up:
   
 We are now going to build the full site navigation by integrating terms from the **Product Hierarchy** term set (from the Product Catalog Site Collection) into the **Site Navigation** term set. 
     
-     ![Pin Terms](../media/OTCSP_PinTerms.gif)
+![Pin Terms](../media/OTCSP_PinTerms.gif)
   
 In our scenario, the navigation structure of our Contoso site will be very simple, as it'll be made up of the terms from the **Product Hierarchy** term set only. 
     
@@ -270,7 +270,7 @@ In our Contoso website scenario, we'll neither create an Item Page, nor shall we
   
 Here's what our final **Catalog Source Settings** page will be like: 
     
-     ![Final Catalog Source Settings Page](../media/OTCSP_FinalCatalogSourceSettingsPage.png)
+![Final Catalog Source Settings Page](../media/OTCSP_FinalCatalogSourceSettingsPage.png)
   
 3. Select **OK**, and watch some cool things occur! 
     

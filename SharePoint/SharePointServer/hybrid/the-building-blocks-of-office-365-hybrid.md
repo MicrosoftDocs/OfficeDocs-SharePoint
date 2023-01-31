@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -25,7 +25,7 @@ description: "Watch this video to learn about the major pieces of a Microsoft 36
 
 # The building blocks of Microsoft 365 hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This chalk talk video covers the major pieces of Microsoft 365 hybrid deployments. This includes identity management, and a look at SharePoint in Microsoft 365, Exchange, and Skype for Business hybrid.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3d6d004c-b9b3-4f00-9966-467e0e63d1a5
@@ -18,9 +18,9 @@ description: "Learn about how compliance, eDiscovery, and large-scale document r
 
 # Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-Compliance feature sets, such as in-place holds and querying and exporting data under preservation, effect the processing and storage requirements in SharePoint Server 2013 when used.
+Compliance feature sets, such as in-place holds and querying and exporting data under preservation, effect the processing, and storage requirements in SharePoint Server 2013 when used.
   
     
 ## Storage requirements for in-place holds
@@ -31,7 +31,7 @@ An in-place hold preserves edited and deleted content to make the original versi
 ## Effect of eDiscovery queries and export on other Search queries
 <a name="eDisc"> </a>
 
-SharePoint Server 2013 has a site collection type called Case Manager that allows you to execute eDiscovery queries across your organization's SharePoint content and Exchange Server 2013 mailboxes. eDiscovery queries are usually complex and wide in scope. These queries require more processing time on the Search system and potentially affect the search response time that other users experience.
+SharePoint Server 2013 has a site collection type called Case Manager that allows you to execute eDiscovery queries across your organization's SharePoint content and Exchange Server 2013 mailboxes. eDiscovery queries are complex and wide in scope. These queries require more processing time on the Search system and potentially affect the search response time that other users experience.
   
 The following guidelines can help you understand how these queries affect Search experiences for other users:
   
@@ -55,11 +55,11 @@ Note that the effect of export on Exchange Server 2013 may be different. Exchang
 ## Large-scale document repositories with SharePoint Server 2013
 <a name="export"> </a>
 
-Aside from the compliance and eDiscovery features, the SharePoint Server 2013 large scale document repositories feature has not changed significantly from SharePoint Server 2010. In this section we refer to [Scale test report for very large scale document repositories (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/hh867542(v=office.14)), and point out differences for scenarios that involve SharePoint Server 2013 document repositories. The following sections summarize the main differences.
+Aside from the compliance and eDiscovery features, the SharePoint Server 2013 large scale document repositories feature has not changed significantly from SharePoint Server 2010. In this section, we refer to [Scale test report for very large scale document repositories (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/hh867542(v=office.14)), and point out differences for scenarios that involve SharePoint Server 2013 document repositories. The following sections summarize the main differences.
   
 ### Guidance for putting interactive service applications on front-end web servers
 
-Guidance for SharePoint Server 2010 advised you to put service applications on a separate tier. In SharePoint Server 2013 we recommend that you put the interactive service applications on computers that run as front-end web servers. For more information, see [Capacity planning for SharePoint Server 2013](capacity-planning.md).
+Guidance for SharePoint Server 2010 advised you to put service applications on a separate tier. In SharePoint Server 2013, we recommend that you put the interactive service applications on computers that run as front-end web servers. For more information, see [Capacity planning for SharePoint Server 2013](capacity-planning.md).
   
 ### Search in SharePoint Server 2013
 
@@ -73,7 +73,7 @@ Other improvements use SQL Server 2008 R2 with SP1 features and throughput to fi
   
 ### Column limits
 
-Column limits are updated in SharePoint Server 2013. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md).
+Column limits are updated in SharePoint Server 2013. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md).
   
 ## See also
 <a name="export"> </a>
@@ -81,6 +81,5 @@ Column limits are updated in SharePoint Server 2013. For more information, see [
 #### Concepts
 
 [Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013](compliance-and-ediscovery-capacity-and-performance.md)
-  
-  
-[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
+
+[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-2019.md)

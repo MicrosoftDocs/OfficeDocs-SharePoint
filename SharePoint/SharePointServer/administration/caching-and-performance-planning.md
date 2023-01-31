@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fd6a6c07-1979-4254-873c-f146fb630de5
@@ -18,7 +18,7 @@ description: "Learn about the BLOB cache, Bit Rate Throttling, and other SharePo
 
 # Plan for caching and performance in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server provides a disk-based binary large object (BLOB) cache that reduces database load and increases browser performance for users. This article describes the BLOB cache, tells you how and when to use it, and lists key considerations for planning to use it. This article also contains information about when to use Bit Rate Throttling, an Internet Information Services (IIS) 7.0 extension that improves video performance for users when serving videos as part of managing digital assets in SharePoint Server. Finally, this article also discusses the other types of caches that are available in SharePoint Server, describes the limitations of upload file size restrictions, and lists considerations for adjusting the size limit for file transfers on the server.
   

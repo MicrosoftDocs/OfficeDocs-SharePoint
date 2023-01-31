@@ -7,8 +7,8 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,11 +20,9 @@ description: "Learn how to upgrade My Sites site collections in SharePoint Serve
 
 # Upgrade My Sites to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
-## 
-
-My Sites are personal site collections that end users can use to store their documents, connect with other users, and follow and discover content. Upgrading My Sites differs from upgrading other site collections because My Sites consist of both the shared My Site Host site collection (also known as the My Site Host) and the My Site personal site collection (also known as the personal site collection). 
+My Sites are personal site collections that end users can use to store their documents, connect with other users, and follow and discover content. Upgrading My Sites differs from upgrading other site collections because My Sites consist of both the shared My Site Host site collection (also known as the My Site Host) and the My Site personal site collection (also known as the personal site collection).
   
 - **My Site Host.** The My Site Host is a special site collection shared among all My Site users. The My Site Host is used to show the profile (person.aspx) and newsfeed pages (default.aspx) on the My Site. The My Site Host is also used for storing the user profile photos. 
     
@@ -104,8 +102,8 @@ The personal site collections are upgraded automatically when a user visits thei
 > [!NOTE]
 > The upgrade of the personal site collection is not an instant process. The My Site is added to an upgrade queue. When the upgrade starts, the My Site remains available to use during the upgrade process. Users can work on their documents throughout the upgrade process. The My Site Host and personal site collection will display mixed user interface modes until the upgrade is complete. 
   
-#### Other Resources
+### Other Resources
 
 [Upgrade a site collection](upgrade-a-site-collection-2019.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 0d32d946-52d0-4913-bfdb-d3c1193cfc4a
 description: "Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation."
@@ -17,7 +17,7 @@ description: "Show the Yammer tile or the SharePoint Newsfeed link in SharePoint
 
 # Add Yammer to the SharePoint Server navigation
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 You can choose whether users see a link to Yammer or Newsfeed in the site navigation.
 

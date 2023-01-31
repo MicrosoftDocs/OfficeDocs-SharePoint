@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to move all databases associated with SharePoint Server 
 
 # Move all databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 You can use the SharePoint Central Administration website, or SQL Server tools to move all databases that are associated with SharePoint Server to a new database server.
   
 ## Before you begin
@@ -37,10 +37,10 @@ The procedures in this article explain how to move the following kinds of databa
 - Service application databases
     
 > [!IMPORTANT]
-> To move database files within the same instance of SQL Server we recommend that you use the **FILENAME** clause of the **ALTER DATABASE** statement. For more information, see [Move User Databases](/sql/relational-databases/databases/move-user-databases?viewFallbackFrom=sql-server-2014). 
+> To move database files within the same instance of SQL Server we recommend that you use the **FILENAME** clause of the **ALTER DATABASE** statement. For more information, see [Move User Databases](/sql/relational-databases/databases/move-user-databases). 
   
 > [!NOTE]
-> To move a database to another instance of SQL Server or to another server, we recommend that you use procedures found in [Database Detach and Attach (SQL Server)](/sql/relational-databases/databases/database-detach-and-attach-sql-server?viewFallbackFrom=sql-server-2014) or [Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?viewFallbackFrom=sql-server-2014). 
+> To move a database to another instance of SQL Server or to another server, we recommend that you use procedures found in [Database Detach and Attach (SQL Server)](/sql/relational-databases/databases/database-detach-and-attach-sql-server) or [Back Up and Restore of SQL Server Databases](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases). 
   
 The following are the minimum permissions that are required to perform this process:
   
@@ -85,7 +85,7 @@ Before you begin this operation, review the steps in this process:
 6. Make sure that all of the SQL Server logins, fixed server roles, fixed database roles, and permissions for the databases are configured correctly on the new destination database server.
     
     > [!NOTE]
-    > It is important that the destination server where you move the databases has the same database information that the current SQL Server instance has. For details about how to do this, see [How to transfer logins and passwords between instances of SQL Server](/troubleshoot/sql/security/transfer-logins-passwords-between-instances). For more information, see [Server-Level Roles](/sql/relational-databases/security/authentication-access/server-level-roles?viewFallbackFrom=sql-server-2014) and [Database-Level Roles](/sql/relational-databases/security/authentication-access/database-level-roles?viewFallbackFrom=sql-server-2014). 
+    > It is important that the destination server where you move the databases has the same database information that the current SQL Server instance has. For details about how to do this, see [How to transfer logins and passwords between instances of SQL Server](/troubleshoot/sql/security/transfer-logins-passwords-between-instances). For more information, see [Server-Level Roles](/sql/relational-databases/security/authentication-access/server-level-roles) and [Database-Level Roles](/sql/relational-databases/security/authentication-access/database-level-roles). 
   
 7. Attach the databases to the new destination server that runs SQL Server.
     
@@ -93,7 +93,7 @@ Before you begin this operation, review the steps in this process:
     
     If you do not want to use SQL Server connection aliases use one of the following procedures to update the database connections for your SharePoint Server farm.
     
-  - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery. 
+  - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server Always On Availability Groups for high availability or disaster recovery. 
     
   - [Scenario 2](#MAN): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
     
@@ -139,7 +139,7 @@ For SharePoint 2013:
     
 - SQL Server 2014
     
-The version of the existing SharePoint Server and Windows Server must also support the version of the new SQL Server where the DBs are being moved. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+The version of the existing SharePoint Server and Windows Server must also support the version of the new SQL Server where the DBs are being moved. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
   
 ### To close all open sessions of SharePoint Management Shell
 
@@ -175,7 +175,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
   - A database snapshot exists on the database.
     
-    For more information, see: [Database Detach and Attach (SQL Server)](/sql/relational-databases/databases/database-detach-and-attach-sql-server?viewFallbackFrom=sql-server-2014), [Detach a Database](/sql/relational-databases/databases/detach-a-database?viewFallbackFrom=sql-server-2014), and [sp_detach_db (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-detach-db-transact-sql).
+    For more information, see: [Database Detach and Attach (SQL Server)](/sql/relational-databases/databases/database-detach-and-attach-sql-server), [Detach a Database](/sql/relational-databases/databases/detach-a-database), and [sp_detach_db (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-detach-db-transact-sql).
     
 ### To move database files to the new server
 
@@ -207,7 +207,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
 2. On the destination database server, start Management Studio and transfer your logon credentials and permissions from the original instance to the destination instance. We recommend that you transfer permissions by running a script. An example script is available in [How to transfer logins and passwords between instances of SQL Server](/troubleshoot/sql/security/transfer-logins-passwords-between-instances). 
     
-    For more information about how to transfer SQL Server metadata between instances, see [Managing Metadata When Making a Database Available on Another Server Instance](/sql/relational-databases/databases/manage-metadata-when-making-a-database-available-on-another-server?viewFallbackFrom=sql-server-2014).
+    For more information about how to transfer SQL Server metadata between instances, see [Managing Metadata When Making a Database Available on Another Server Instance](/sql/relational-databases/databases/manage-metadata-when-making-a-database-available-on-another-server).
     
 ### To attach databases to the new instance of SQL Server
 
@@ -217,12 +217,12 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
   - The **db_owner** fixed database role 
     
-2. On the destination database server, attach the databases to the new instance. For more information, see [Attach a Database](/sql/relational-databases/databases/attach-a-database?viewFallbackFrom=sql-server-2014) and [sp_attach_db (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-attach-db-transact-sql).
+2. On the destination database server, attach the databases to the new instance. For more information, see [Attach a Database](/sql/relational-databases/databases/attach-a-database) and [sp_attach_db (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-attach-db-transact-sql).
     
 The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
 
 > [!IMPORTANT]
-> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
+> If you're using SharePoint Server and SQL Server Always On Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
@@ -248,7 +248,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
 9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
-10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?viewFallbackFrom=sql-server-2014) and [Windows Server Installation and Upgrade](/windows-server/get-started/installation-and-upgrade).
+10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) and [Windows Server Installation and Upgrade](/windows-server/get-started/installation-and-upgrade).
     
 You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server:
   
@@ -258,7 +258,7 @@ You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove ava
     
 - **Get-AvailabilityGroupStatus**
     
-Use the following procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery.
+Use the following procedure to update the database connections if you use SharePoint Server and SQL Server Always On Availability Groups for high availability or disaster recovery.
   
  <a name="PS"></a>**Scenario 1: To update the database connections by using PowerShell**
   
@@ -273,7 +273,7 @@ Use the following procedure to update the database connections if you use ShareP
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -302,9 +302,9 @@ Use the next procedure for the following scenarios:
     > [!NOTE]
     > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
-- If you use Availability Groups then you must manually add the databases to the availability groups as appropriate to their high availability/disaster recovery support. For more information, see [Add a Database to an Availability Group (SQL Server)](/sql/database-engine/availability-groups/windows/availability-group-add-a-database?viewFallbackFrom=sql-server-2014)
+- If you use Availability Groups then you must manually add the databases to the availability groups as appropriate to their high availability/disaster recovery support. For more information, see [Add a Database to an Availability Group (SQL Server)](/sql/database-engine/availability-groups/windows/availability-group-add-a-database)
     
-- If you use SQL Mirroring then make sure your mirroring is setup appropriately. For more information, see [Setting Up Database Mirroring (SQL Server)](/sql/database-engine/database-mirroring/setting-up-database-mirroring-sql-server?viewFallbackFrom=sql-server-2014) and [Database Mirroring (SQL Server)](/sql/database-engine/database-mirroring/database-mirroring-sql-server?viewFallbackFrom=sql-server-2014).
+- If you use SQL Mirroring then make sure your mirroring is setup appropriately. For more information, see [Setting Up Database Mirroring (SQL Server)](/sql/database-engine/database-mirroring/setting-up-database-mirroring-sql-server) and [Database Mirroring (SQL Server)](/sql/database-engine/database-mirroring/database-mirroring-sql-server).
     
  <a name="MAN"></a>**Scenario 2: To update the database connections by using Microsoft PowerShell**
   
@@ -325,7 +325,7 @@ Where \<GUID\> is the ID of the database that you move.
   $db.ChangeDatabaseInstance("<DBServerName>")
   ```
 
-Where \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
+Where \<DBServerName\> is the name or alias of the new SQL Server or is the Always On Availability Group listener DNS name.
     
   ```
   $db.Update()

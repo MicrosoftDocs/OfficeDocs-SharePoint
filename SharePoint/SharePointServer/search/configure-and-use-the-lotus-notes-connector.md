@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a7960bf4-d5be-4ad7-a430-724ef194ad39
@@ -18,7 +18,7 @@ description: "Learn about the administrative roles, required software, user acco
 
 # Configure and use the Lotus Notes connector for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
     
 ## Before you begin
 <a name="begin"> </a>
@@ -26,12 +26,12 @@ description: "Learn about the administrative roles, required software, user acco
 Before you begin this operation, review the following information about prerequisites:
   
 - [Required administrative roles](configure-and-use-the-lotus-notes-connector.md#LN_AdminRoles)
-    
+
 - [Required software](configure-and-use-the-lotus-notes-connector.md#LN_SWReq)
-    
+
 - [User accounts required to crawl Lotus Domino databases](configure-and-use-the-lotus-notes-connector.md#LN_UserAcc)
-    
-The procedures in this article must be repeated on all the servers in the SharePoint Server farm that host a crawl component. 
+
+The procedures in this article must be repeated on all the servers in the SharePoint Server farm that host a crawl component.
   
 ## Prerequisites
 <a name="LN_Prereqs"> </a>
@@ -62,9 +62,8 @@ The following software is required:
     
 The following table shows combinations of versions of the Lotus Notes Domino server and Lotus Notes client that the Lotus Notes Connector works with.
   
-|                     |                 |                 |                 |
-| :------------------ | :-------------- | :-------------- | :-------------- |
 | This server version | With client 6.x | With client 7.x | With client 8.x |
+| :----- | :----- | :----- | :----- |
 | Server 6.x          | YES             | NO              | NO              |
 | Server 7.x          | NO              | YES             | YES             |
 | Server 8.x          | NO              | NO              | YES             |

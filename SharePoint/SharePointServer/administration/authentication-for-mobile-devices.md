@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: ad6a501d-5d8c-4b87-af69-7f655b8c3d1e
 description: "This article contains information about the supported authentication types for select devices in SharePoint Server 2013."
@@ -17,7 +17,7 @@ description: "This article contains information about the supported authenticati
 
 # Authentication for mobile devices in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
 
 This article contains information about the supported authentication types for select devices in SharePoint Server 2013.
   

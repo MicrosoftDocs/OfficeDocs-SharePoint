@@ -1,24 +1,27 @@
 ---
 title: "Add content to a case and place sources on hold in the eDiscovery Center"
+description: "Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords."
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
-manager: serdars
+ms.author: robmazz
+author: robmazz
+manager: laurawi
 ms.date: 
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
-ms.collection: IT_Sharepoint_Server
-ms.assetid: 54d70de9-1ec2-4325-84f3-aeb588554479
-description: "Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords."
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
+- ediscovery
 ---
 
 # Add content to a case and place sources on hold in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. 
   
@@ -116,7 +119,7 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
     
 2. Click to the left of the eDiscovery Set to select it, so that a check mark appears besides its name.
     
-3. Click the three dots **…** to display the **Open Menu**.
+3. Click the three dots **...** to display the **Open Menu**.
     
 4. Click **Delete Item**.
     

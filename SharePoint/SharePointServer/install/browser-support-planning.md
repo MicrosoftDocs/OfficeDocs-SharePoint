@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn about how SharePoint supports Internet Explorer, Google Chro
 
 # Plan browser support in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 SharePoint 2013 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers could cause some SharePoint 2013 functionality to be downgraded, limited, or available only through alternative steps. 
   
@@ -88,10 +88,10 @@ Some functionality in SharePoint 2013 requires ActiveX controls. This produces l
   
 > [!NOTE]
 > Internet Explorer 10 does not support Active X controls when in immersive mode. The functionality for the controls listed below should only be expected to work in desktop mode. 
+
   
-||||||
+|Plugin name <br/> |DLL Filename <br/> |What it does <br/> |Supported browser version <br/> |Known limitations <br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Plugin name** <br/> |**DLL Filename** <br/> |**What it does** <br/> |**Supported browser version** <br/> |**Known limitations** <br/> |
 |Digital Signature  <br/> |Dsigctrl.dll, dsigres.dll  <br/> | Digital signing takes place in both the InfoPath client and on the InfoPath Forms Services server. Make sure that the following conditions exist:  <br/>  Forms that are signed on the client can be verified on the server.  <br/>  Forms that are signed on the server can be verified on the client.  <br/> |Internet Explorer versions 8, 9 and 10  <br/> |An inability to verify a form produces an error that states that the form cannot be signed.  <br/> |
 |NameCtrl  <br/> |Name.dll  <br/> |Enables a web page to display a contact card and presence status for people. Integrates through client-side APIs with Office 2016.  <br/> |Supported in Internet Explorer versions 8, 9, and 10.  <br/> Firefox, Google Chrome are also supported by using a plug-in.  <br/> Internet Explorer version 10 immersive mode is not supported.  <br/> ||
 |TaskLauncher  <br/> |Nameext.dll  <br/> |Used to export items in a task list to Project Server if Project 2010 is installed on the client computer.  <br/> |All browsers  <br/> |If software requirements are not met, an error message states that you need to install Project Server.  <br/> |

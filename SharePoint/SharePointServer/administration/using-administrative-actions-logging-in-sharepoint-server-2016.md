@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3a832d60-f14f-4663-93bd-f006e6148c02
@@ -19,7 +19,7 @@ description: "The Administrative Actions logging feature is included in the Nove
 
 # Using Administrative Actions logging in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 The Administrative Actions logging feature is included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). This feature enables logging of SharePoint Server 2016 administrative actions.
   
@@ -158,7 +158,7 @@ select * from [WSS_Logging].[dbo].[AdministrativeActions_Partition31]
 You can also retrieve Administrative Actions logs using the Windows PowerShell cmdlet, ** Merge-SPUsageLog **. 
   
 > [!IMPORTANT]
-> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](/powershell/module/Microsoft.PowerShell.Core/Enable-PSRemoting?view=powershell-5.1). 
+> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](/powershell/module/Microsoft.PowerShell.Core/Enable-PSRemoting). 
   
 The **Merge-SPUsageLog** cmdlet gathers, filters, and aggregates logs based on the your specified criteria. We recommend that you filter by using the StartTime and EndTime parameters to optimize performance of this cmdlet. 
   
@@ -172,11 +172,11 @@ Merge-SPUsageLog -Identity <SPUsageDefinitionPipeBind> [-AssignmentCollection <S
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 |Identity  <br/> |Required  <br/> |Microsoft.SharePoint.PowerShell.SPUsageDefinitionPipeBind  <br/> |Specifies the name of usage log file.  <br/> |
-|AssignmentCollection  <br/> |Optional  <br/> |Microsoft.SharePoint.PowerShell.SPAssignmentCollection  <br/> |Manages objects for the purpose of proper disposal. Use of objects, such as SPWeb or SPSite, can use large amounts of memory and use of these objects in Windows PowerShell scripts requires proper memory management. Using the SPAssignment object, you can assign objects to a variable and dispose of the objects after they are needed to free up memory. When SPWeb, SPSite, or SPSiteAdministration objects are used, the objects are automatically disposed of if an assignment collection or the Global parameter is not used.  <br/> > [!NOTE]> When the Global parameter is used, all objects are contained in the global store. If objects are not immediately used, or disposed of by using the Stop-SPAssignment command, an out-of-memory scenario can occur.           |
+|AssignmentCollection  <br/> |Optional  <br/> |Microsoft.SharePoint.PowerShell.SPAssignmentCollection  <br/> |Manages objects for the purpose of proper disposal. Use of objects, such as SPWeb or SPSite, can use large amounts of memory and use of these objects in Windows PowerShell scripts requires proper memory management. Using the SPAssignment object, you can assign objects to a variable and dispose of the objects after they are needed to free up memory. When SPWeb, SPSite, or SPSiteAdministration objects are used, the objects are automatically disposed of if an assignment collection or the Global parameter is not used.  <br/> > [!NOTE]> When the Global parameter is used, all objects are contained in the global store. If objects are not immediately used, or disposed of by using the Stop-SPAssignment command, an out-of-memory scenario can occur. <br/>|
 |DiagnosticLogPath  <br/> |Optional  <br/> |System.String  <br/> |Specifies the file to write diagnostic information to. A relative path is supported.  <br/> |
 |EndTime  <br/> |Optional  <br/> |System.DateTime  <br/> |Specifies the end time of the log entries returned. The type must be a valid DateTime format that is culture-specific to the administrative language, that is, 2/16/2007 12:15:12 for English-US. The default value is the current time.  <br/> If you want to specify UTC time, you must add a "Z" to the end of the parameter. For example, "2016-06-15 03:29:18.199 Z". If the "Z" is not specify, local computer time will be displayed instead of UTC.  <br/> |
 |OverWrite  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Overwrites the diagnostic log file if it already exists at the specified path.  <br/> |
-|Servers  <br/> |Optional  <br/> |System.String[]  <br/> |The server address or addresses to filter on. To obtain a list of valid addresses in the farm use Get-SPServer | Select Address.  <br/> |
+|Servers  <br/> |Optional  <br/> |System.String[]  <br/> |The server address or addresses to filter on. To obtain a list of valid addresses in the farm use Get-SPServer <br/> Select Address.  <br/> |
 |StartTime  <br/> |Optional  <br/> |System.DateTime  <br/> |Specifies the start time of the log entries returned. The type must be a valid DateTime format that is culture-specific to the administrative language, such as "2/16/2007 12:15:12" for English-US. The default value is one hour prior to the current time on the local computer.  <br/> If you want to specify UTC time, you must add a "Z" to the end of the parameter. For example, "2016-06-15 03:29:18.199 Z". If the "Z" is not specify, local computer time will be displayed instead of UTC.  <br/> |
    
  **Example 1:** This example merges the last hour of log data for "Administrative Actions" usage provider from all farm computers. 

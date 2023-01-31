@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to start and stop a service in SharePoint Server."
 
 # Start or stop a service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server includes services that reside on individual servers in the farm. In some cases, you can configure global service settings and start or stop a service. Services are managed directly in the SharePoint Central Administration website instead of through a separate administration site. You can also remotely monitor and manage services. Additionally, you can manage services by using Microsoft PowerShell. 
   
@@ -57,7 +57,7 @@ You can manage services by using Central Administration or by using PowerShell.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -69,7 +69,7 @@ You can manage services by using Central Administration or by using PowerShell.
 
    Where _\<ServiceGUID\>_ is the GUID of the service. If you do not know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
-For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
+For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps&preserve-view=true).
   
  **To stop a service by using PowerShell**
   
@@ -83,7 +83,7 @@ For more information, see [Start-SPServiceInstance](/powershell/module/sharepoin
 
     Where  _\<ServiceGUID\>_ is the GUID of the service. If you do not know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
-For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps&preserve-view=true). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 ## See also
 
@@ -92,5 +92,5 @@ For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint
 [Administration of SharePoint Server](administration.md)
 #### Other Resources
 
-[Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps)
+[Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps&preserve-view=true)
 

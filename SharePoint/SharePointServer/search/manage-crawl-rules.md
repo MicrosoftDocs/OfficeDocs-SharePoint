@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 984e2448-e53a-4b4e-bd4a-4340213218a2
@@ -18,19 +18,19 @@ description: "Learn how to specify a content access account, create crawl rules 
 
 # Manage crawl rules in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can add a crawl rule to include or exclude specific paths when you crawl content. When you include a path, you can provide alternative account credentials to crawl it. In addition to creating or editing crawl rules, you can test, delete, or reorder existing crawl rules.
   
 Use crawl rules to do the following:
   
-- **Prevent content on a site from being crawled.** For example, if you created a content source to crawl **http://www.contoso.com**, but you do not want the search system to crawl content from the subdirectory **http://www.contoso.com/downloads**, create a crawl rule to exclude content from that subdirectory.
+- **Prevent content on a site from being crawled.** For example, if you created a content source to crawl **'http://www.contoso.com'**, but you do not want the search system to crawl content from the subdirectory **'http://www.contoso.com/downloads'**, create a crawl rule to exclude content from that subdirectory.
     
-- **Crawl content on a site that would be excluded otherwise.** For example, if you excluded content from **http://www.contoso.com/downloads** from being crawled, but you want content in the subdirectory **http://www.contoso.com/downloads/content** to be crawled, create a crawl rule to include content from that subdirectory. 
+- **Crawl content on a site that would be excluded otherwise.** For example, if you excluded content from **'http://www.contoso.com/downloads'** from being crawled, but you want content in the subdirectory **'http://www.contoso.com/downloads/content'** to be crawled, create a crawl rule to include content from that subdirectory. 
     
 - **Specify authentication credentials.** If a site to be crawled requires different credentials than those of the default content access account, create a crawl rule to specify the authentication credentials. 
     
-You can use the asterisk (*) as a wildcard character in crawl rules. For example, to exclude JPEG files from crawls on **http://www.contoso.com**, create a crawl rule to exclude **http://www.contoso.com/\*.jpg**.
+You can use the asterisk (*) as a wildcard character in crawl rules. For example, to exclude JPEG files from crawls on **'http://www.contoso.com'**, create a crawl rule to exclude **'http://www.contoso.com/\*.jpg'**.
   
 The order of crawl rules is important, because the first rule that matches a particular set of content is the one that is applied. 
   

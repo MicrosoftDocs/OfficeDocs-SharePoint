@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c77f5006-d023-463f-8256-e4570d32dd1e
@@ -18,7 +18,7 @@ description: "Learn how to configure server-to-server authentication when you sh
 
 # Configure Server-to-Server authentication between publishing and consuming farms
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When a farm consumes the User Profile service application of a publishing farm, SharePoint issues requests using Server-to-Server authentication on behalf of the user for some features:
   
@@ -43,7 +43,7 @@ Verify that you have the following memberships:
   - Member of built-in Administrators group on the server on which you are running the PowerShell cmdlets.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.  
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
 
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>
@@ -107,6 +107,6 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.
 
 ### Other Resources
   
-[New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps)
+[New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps&preserve-view=true)
 
-[Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps)
+[Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps&preserve-view=true)

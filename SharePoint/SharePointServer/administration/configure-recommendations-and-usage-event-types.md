@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0830f8f5-4432-4a75-9974-0bb77268f2f1
@@ -18,7 +18,7 @@ description: "Usage events enable you to track how users interact with items on 
 
 # Configure recommendations and usage event types in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Usage events enable you to track how users interact with items on your site. Items can be documents, sites, or catalog items. When a user interacts with an item on your site, SharePoint Server generates a usage event for this action. For example, if you want to monitor how often a catalog item is viewed from a mobile phone, you can track this activity. 
   
@@ -49,13 +49,13 @@ There are three default usage event types in SharePoint Server. You can create u
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To get a site at the root site collection level:
   $Site = Get-SPSite "http://localhost"
   # To get a site below the root site collection level:
@@ -106,13 +106,13 @@ If you are using cross-site publishing, where you show catalog content on a publ
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view GUIDs for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -121,7 +121,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
     
-  ```
+  ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -134,13 +134,13 @@ If you are using cross-site publishing, where you show catalog content on a publ
   }
   ```
 
-  - <CustomUsageEventType> is the name of the custom event — for example,  *BuyEventType*  . 
+  - `CustomUsageEventType` is the name of the custom event — for example,  *BuyEventType*  . 
     
-  - <GUID> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
+  - `GUID` is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
     
 5. In an HTML editor, open the file that refers to the custom usage event, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a custom usage event type is referred to when a button is clicked: 
   <button onclick="Log<CustomUsageEventType>ToEventStore('<URL>')"></button>
   
@@ -167,13 +167,13 @@ If you are using cross-site publishing, where you show catalog content on a publ
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view GUIDs for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -182,7 +182,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The following example shows how to override the current SiteId, WebId and UserId.
     
-  ```
+  ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -204,7 +204,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
 5. In an HTML editor, open the file that refers to the custom usage event type, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a custom usage event type is referred to when the "Buy!" button is clicked:
   <button onclick="Log<CustomUsageEventType>ToEventStore('<URL>', new SP.Guid('{<SiteId GUID>}'), new SP.Guid('{<WebId GUID>}'), '<UserName>')">Buy!</button>
   
@@ -244,13 +244,13 @@ If you are using cross-site publishing, which shows catalog content on a publish
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -259,7 +259,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
     
-  ```
+  ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -280,7 +280,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 5. In an HTML editor, open the file that refers to the default usage event, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a default usage event type is referred to on a page load:
   <body onload="Log<DefaultUsageEventType>ToEventStore('<URL>')"> 
   ```
@@ -308,13 +308,13 @@ If you are using cross-site publishing, which shows catalog content on a publish
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -323,7 +323,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId and the UserId.
     
-  ```
+  ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -344,7 +344,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 5. In an HTML editor, open the file that refers to the default usage event type, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a default usage event type is referred to on a page load:
   <body onload="Log<DefaultUsageEventType>ToEventStore('<URL>', new SP.Guid('{<SiteId GUID>}'), new SP.Guid('{<WebId GUID>}'), '<UserName>')">
   
@@ -385,13 +385,13 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -437,13 +437,13 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -492,13 +492,13 @@ Users that are browsing the contents of a site without being connected to an acc
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -534,13 +534,13 @@ Users that are browsing the contents of a site without being connected to an acc
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -585,13 +585,13 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To get the SiteId GUID and the WebId GUID for a root site collection:
   $site = Get-SPSite "<RootSiteURL>"
   $web = $site.RootWeb

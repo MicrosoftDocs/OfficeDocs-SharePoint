@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: cdaf9810-59dc-4afb-af6a-36ceb3795da7
 
@@ -18,7 +18,7 @@ description: "Learn how to create an Excel Services dashboard that can be publis
 
 # Create an Excel Services dashboard using an OData data feed
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This article describes, step by step, how to use Excel 2016 to create a basic dashboard that contains two reports and two filters. The example dashboard described in this article resembles the following image:
   

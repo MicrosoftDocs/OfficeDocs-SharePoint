@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Setting up news for your organization using a hub site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Use a hub site to set up news for your organization"
+description: "How to use a SharePoint hub site to set up news for your organization"
 ---
 
 # Guided walkthrough: Setting up news for your organization using a hub site
@@ -73,7 +73,7 @@ Setting up your corporate communication site for "official" organization news al
 
 ![Image of a News web part showing news stories labeled "Corporate communications"](media/gw-newshub/nh-3.png)
 
-To enable this feature and specify the site for organization news, a SharePoint admin must use the [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
+To enable this feature and specify the site for organization news, a SharePoint Administrator must use the [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
 
 [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 

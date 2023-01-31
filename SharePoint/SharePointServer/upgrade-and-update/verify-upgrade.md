@@ -8,8 +8,8 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to verify when a database-attach upgrade to SharePoint 2
 
 # Verify database upgrades in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[applies to-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 After you upgrade databases to SharePoint 2013, you must verify that the content was successfully upgraded to the new version. You can verify the status of the database-attach upgrade (is it still in progress, or has it been completed successfully or with errors or failures?) to see whether issues remain for you to address. When you follow these steps as part of a trial upgrade, you can use them to identify customizations that have to be reworked before you attempt to upgrade your production environment. When you upgrade your production environment, it is even more important that you know whether the upgrade has completed and what issues remain to be addressed.
   
@@ -55,7 +55,7 @@ If you find blocking issues in the log file, you can resolve the issues and then
 
 The Upgrade Status page lists the upgrade sessions and gives details about the status of each session — whether it succeeded or failed, and how many errors or warnings occurred for each server. The Upgrade Status page also includes information about the log and error files for the upgrade process and suggests remedies for issues that might have occurred.
   
- **To view upgrade status in SharePoint Central Administration**
+ **To view upgrade status in SharePoint Central Administration:**
   
 1. Verify that you have the following administrative credentials:
     
@@ -99,9 +99,8 @@ After you determine whether upgrade was completed successfully, validate your en
 
 [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](restart-a-database-attach-upgrade-or-a-site-collection-upgrade-to-sharepoint-201.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
 [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md)
-

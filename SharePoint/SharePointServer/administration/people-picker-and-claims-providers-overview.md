@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Get an overview of People Picker and links to topics about how to 
 
 # People Picker and claims providers overview
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 People Picker is a web control that is used to find and select users, groups, and claims to grant permission to items such as lists, libraries, or sites in SharePoint. For web applications that use claims-based authentication, the People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. A claims provider in SharePoint issues claims, which SharePoint then packages into security tokens for users. Although People Picker is used by site, list, and library owners to assign permissions to sites and content in SharePoint, its behavior is heavily dependent on how authentication is configured for the whole web application. It is important to plan for People Picker and claims providers when you plan authentication methods for your SharePoint solution.
   

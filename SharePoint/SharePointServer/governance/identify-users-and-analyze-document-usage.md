@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 185da9e8-9ed1-4bf1-bfb5-2a5a874f2a19
 description: "Learn how to collect information about document users to plan your SharePoint Server document management solution."
@@ -17,7 +17,7 @@ description: "Learn how to collect information about document users to plan your
 
 # Identify users and analyze document usage in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The first step to plan your document management solution is to identify users and analyze how documents are used. This article contains guidance to identify users and analyze document usage for your solution that is based on SharePoint Server.
   

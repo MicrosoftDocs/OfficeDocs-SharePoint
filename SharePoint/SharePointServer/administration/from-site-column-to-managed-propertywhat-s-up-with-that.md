@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5fe4de15-946a-4944-aab3-3de379901add
@@ -18,7 +18,7 @@ description: "Learn how site columns are transformed into managed properties in 
 
 # From site column to managed property - What's up with that?
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 ## Quick overview
 
@@ -122,7 +122,7 @@ For creating an automatically **managed property** name, the following conventio
     
 If you want more information, there is an overview table with examples for all site column types in [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md).
   
-That might not have been as straightforward as our simple example, and there is one exception to the rule…
+That might not have been as straightforward as our simple example, and there is one exception to the rule...
   
 ### Naming convention for the default site columns in the Products list
 <a name="BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList"> </a>

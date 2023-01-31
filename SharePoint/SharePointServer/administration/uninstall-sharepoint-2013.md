@@ -8,8 +8,8 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "SharePoint Server 2013 and SharePoint Foundation 2013 support a li
 
 # Uninstall SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 You remove SharePoint 2013 by uninstalling it from Control Panel. When you uninstall SharePoint 2013, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   
@@ -84,7 +84,7 @@ Use this procedure to uninstall SharePoint 2013.
   
 [Remove a server from a farm in SharePoint 2013](remove-a-server-from-a-farm-in-sharepoint-2013.md)
   
-[Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
+[Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md)
   
 [Install SharePoint 2013 on a single server with a built-in database](../install/single-server-with-a-built-in-database.md)
   

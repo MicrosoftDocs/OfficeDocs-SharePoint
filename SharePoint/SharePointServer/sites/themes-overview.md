@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about the themes in SharePoint Server and how to use them to
 
 # Overview of themes in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Themes give you a quick and easy way to change the look and feel of any site in SharePoint Server. They are pre-designed collections of web page elements, such as fonts, color schemes, layout, and background pictures that come with SharePoint Server. In SharePoint Server, you can apply a theme to a site, and then preview it before committing the change. You can change the theme of a site any number of times. For more information about themes, see [Themes overview for SharePoint 2013](/sharepoint/dev/general-development/themes-overview-for-sharepoint). Note that this article still applies to SharePoint Server.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1c3fe21-9110-4861-9fc9-715745c9197a
@@ -18,7 +18,7 @@ description: "Learn how to redesign enterprise search topology so you can scale 
 
 # Redesign enterprise search topology for specific performance requirements in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 If your search environment has specific performance requirements that weren't met by following the guidance in [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md), then the solution is to scale the topology of your enterprise search architecture:
   
@@ -72,7 +72,7 @@ To deliver higher performance or to remove a bottleneck, you can add more search
     
 - If the analytics components don't complete their analyses quickly enough, scale up the processor resources, disk IOPS or network bandwidth of the servers hosting analytics components.
     
-Note that we don't support unlimited scale-out of the number of search components or databases. Look up the maximum limits in [Search limits](../install/software-boundaries-and-limits-0.md#Search) and stay within these limits to ensure timely and robust communication between the search components and databases. If it's necessary, reduce the capacity of your search architecture by reducing the number of search components. 
+Note that we don't support unlimited scale-out of the number of search components or databases. Look up the maximum limits in [Search limits](../install/software-boundaries-limits-2019.md#Search) and stay within these limits to ensure timely and robust communication between the search components and databases. If it's necessary, reduce the capacity of your search architecture by reducing the number of search components. 
   
 In the following sections we have guidelines for you on which search components or databases to scale to satisfy each requirement:
   
@@ -131,7 +131,7 @@ Here's what to do:
     
 3. Follow the guidelines to increase the ingestion speed in these time periods.
     
-|                                                              **Guideline**                                                              |
+| **Guideline**  |
 | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | [Improve freshness for a specific content source](redesign-for-specific-performance-requirements.md#BKMK_ImproveContentSourceFreshness) |
 | [Increase processing resources for crawling](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawl)                    |
@@ -280,7 +280,7 @@ Now that you've redesigned your search topology, your next step is to assign the
 ### One search component type per server
 <a name="BKMK_HostOne"> </a>
 
-Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](../install/software-boundaries-and-limits-0.md).
+Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](../install/software-boundaries-limits-2019.md).
   
 ### Separate bulk processing and real-time components from each other
 <a name="BKMK_HostBulkRealtime"> </a>
@@ -351,7 +351,7 @@ The minimum storage that the analytics reporting database requires can vary. Thi
 
 These are the minimum resources a server or virtual machine must have to host one index component, or to host one index component and one query processing component:
   
-|                                  |                   |                                                    |                       |
+| &nbsp; | &nbsp; |&nbsp; | &nbsp; |
 | :------------------------------- | :---------------- | :------------------------------------------------- | :-------------------- |
 | **Storage**                      | **Memory**        | **Processor**                                      | **Network bandwidth** |
 | 500 GB for the index<sup>1</sup> | 32 GB<sup>1</sup> | 64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>. | 2 Gbps                |
@@ -365,7 +365,7 @@ These are the minimum resources a server or virtual machine must have to host on
 
 These are the minimum resources a server or virtual machine must have to host one analytics processing component:
   
-|                                          |            |                                                   |                       |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :--------------------------------------- | :--------- | :------------------------------------------------ | :-------------------- |
 | **Storage**                              | **Memory** | **Processor**                                     | **Network bandwidth** |
 | 300 GB for local processing of analytics | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
@@ -377,7 +377,7 @@ If the server hosts one analytics processing component and one or more bulk proc
 
 These are the minimum resources a server or virtual machine must have to host one of these components:
   
-|              |            |                                                   |                       |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :----------- | :--------- | :------------------------------------------------ | :-------------------- |
 | **Storage**  | **Memory** | **Processor**                                     | **Network bandwidth** |
 | Not required | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
@@ -391,7 +391,7 @@ The query processing component requires good network bandwidth. It's the number 
 
 These are the minimum resources a server or virtual machine must have to host one or more search databases:
   
-|                                                                                                                                                                                                                         |                                                                 |                  |                       |
+|  &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :--------------- | :-------------------- |
 | **Storage**                                                                                                                                                                                                             | **Memory**                                                      | **Processor**    | **Network bandwidth** |
 | The storage that the analytics reporting database requires varies with how the search environment uses analytics, and how often. Use the current amount of storage for the analytics reporting database as a guideline. | 8 GB for small deployments.  <br/> <br/> 16 GB for medium deployments | 64-bit, 4 cores. | 2 Gbps                |

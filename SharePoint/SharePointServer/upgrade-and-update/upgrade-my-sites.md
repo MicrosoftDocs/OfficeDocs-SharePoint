@@ -8,8 +8,8 @@ ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,9 +20,7 @@ description: "Learn how to upgrade My Sites site collections in SharePoint Serve
 
 # Upgrade My Sites to SharePoint Server 2016
 
-
-  
-## 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 My Sites are personal site collections that end users can use to store their documents, connect with other users, and follow and discover content. Upgrading My Sites differs from upgrading other site collections because My Sites consist of both the shared My Site Host site collection (also known as the My Site Host) and the My Site personal site collection (also known as the personal site collection). 
   
@@ -165,5 +163,5 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection](upgrade-a-site-collection.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)
 

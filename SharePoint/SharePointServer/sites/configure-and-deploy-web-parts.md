@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn about securing and deploying web parts in SharePoint Server.
 
 # Configure and deploy web parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 SharePoint Server includes a set of web parts that users can add to pages after installing the product. If an organization needs custom web parts, a developer can write custom ASP.NET web parts and ask you to install them. This process typically requires testing and approval of the code before the web part can be deployed in a full-trust environment. A developer who uses Visual Studio can deploy a web part to SharePoint Server by right clicking the project and selecting **Deploy**. The destination for the web part is determined by the trust level established with the SharePoint server when the developer created the project in Visual Studio.
   
 SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](/previous-versions/msp-n-p/ff648667(v=pandp.10)) in "Securing Your ASP.NET Application and Web Services". 
@@ -110,7 +110,7 @@ An alternative to manually installing a web part to the Bin folder or manually c
   
  **To deploy the web part by using Microsoft PowerShell**
   
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. Open SharePoint Management Shell.
     
@@ -126,7 +126,7 @@ An alternative to manually installing a web part to the Bin folder or manually c
     
    -  _\<WebPartName\>_ is the name of the web part that is being deployed. 
     
-The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps). 
+The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps&preserve-view=true). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

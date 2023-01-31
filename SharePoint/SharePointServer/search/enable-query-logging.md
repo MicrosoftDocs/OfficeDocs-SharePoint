@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6259e195-2b83-454f-b635-8f228c1fd1ac
@@ -18,7 +18,7 @@ description: "Learn how to enable or disable query logging."
 
 # Enable query logging in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server search collects information about user search queries and search results that users select on their computers. SharePoint Server uses this information to improve the relevance of search results and to improve query suggestions. Site collection administrators, tenant administrators and administrators of the Search service application can also create reports based on this information. Query logging is enabled by default. Use this procedure to enable or disable query logging.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about the automatic password changes and how to deploy them 
 
 # Plan automatic password change in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To simplify password management, the automatic password change feature enables you to update and deploy passwords without having to perform manual password update tasks across multiple accounts, services, and web applications. You can configure the automatic password change feature to determine whether a password is about to expire and reset the password using a long, cryptographically-strong random string. To implement the automatic password change feature, you have to configure managed accounts.
   

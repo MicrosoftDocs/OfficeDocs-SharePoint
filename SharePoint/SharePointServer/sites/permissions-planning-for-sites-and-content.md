@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn about how to plan permissions for sites and site content for
 
 # Permissions planning for sites and content in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Some sites in an enterprise probably contain content that should not be available to all users. For example, proprietary technical information should be accessible only on a need-to-know basis. An intranet portal for employee benefits should be available only to full-time employees, whereas the home page of an Internet Web site is accessible by anonymous clients.
   

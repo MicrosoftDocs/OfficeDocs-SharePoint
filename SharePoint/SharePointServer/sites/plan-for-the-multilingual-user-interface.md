@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn about the multilingual user interface feature, how it works,
 
 # Plan for the multilingual user interface in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The multilingual user interface (MUI) feature enables users to display the user interface of a SharePoint Server or SharePoint in Microsoft 365 site in the language they prefer, instead of the default language that was selected when the site was created. This article describes the use and benefits of the MUI feature, explains how the feature works, and lists the other features and functionality that are supported by the feature. It also describes how to add and edit application content, and how to export and import content for translation. It explains how to use the MUI feature with managed metadata, and describes the limitations of the feature. Finally, this article describes how to plan for using the MUI feature in a SharePoint Server site solution.
   
@@ -28,7 +28,7 @@ For info about how to plan for multilingual sites, see [Plan for multilingual si
 ## How the multilingual user interface works
 <a name="MUIWorks"> </a>
 
-By default, when a new site is created, it is created in the default language of the SharePoint Server installation on the server. A farm administrator must install language packs on all web and application servers in the SharePoint farm before sites can be created in languages other than the default language. For more information, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
+By default, when a new site is created, it is created in the default language of the SharePoint Server installation on the server. A farm administrator must install language packs on all web and application servers in the SharePoint farm before sites can be created in languages other than the default language. For more information, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-uninstall-language-packs-2019.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
   
 After language packs are installed on the server, the **Language settings** link is added to the **Site Settings** page. Site collection administrators and site owners use the **Language Settings** page to specify which alternate languages the site will support. After the site collection administrator or site owner has enabled alternate languages for a site, the next time that a user logs on to the site, SharePoint Server uses one of the following rules to determine the language in which to display content to the user: 
   
@@ -44,7 +44,7 @@ The MUI feature only displays site's user interface elements in a user's preferr
   
 SharePoint Server provides three methods that you can use to change certain application content, such as list or library titles and descriptions: by using the user interface, by exporting and importing translations for a site, and by using the **SPUserResource** class in the **Microsoft.SharePoint** namespace. Not all user interface elements can be changed directly in the user interface. For example, user actions and commands can be changed only by using the **SPUserResource** class. For more information, see [SPUserResource class](/previous-versions/office/sharepoint-server/ee544319(v=office.15)).
   
-For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md). For information about how to let individual users change the language that is used to display their site's user interface, see [Choose the languages that you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307142).
+For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-uninstall-language-packs-2019.md). For information about how to let individual users change the language that is used to display their site's user interface, see [Choose the languages that you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307142).
   
 ## Use and benefits of the multilingual user interface feature
 <a name="MUIBene"> </a>
@@ -174,7 +174,7 @@ Planning to use the MUI feature with a SharePoint Server site involves the follo
 ### Determine site language requirements
 <a name="section1"> </a>
 
-Before you can use the MUI feature in SharePoint Server sites, the farm administrator must install language packs on all web and application servers so that they are available to use on sites. Decide which language packs are needed, and when they will be installed on the server. Site collection administrators or site owners must configure the language settings for individual sites to make specific languages available to site users. You must decide which languages are needed for each site, and plan to have the site collection administrators or site owners enable specific languages for the sites that they manage. For information about how to plan multilingual sites, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md). For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
+Before you can use the MUI feature in SharePoint Server sites, the farm administrator must install language packs on all web and application servers so that they are available to use on sites. Decide which language packs are needed, and when they will be installed on the server. Site collection administrators or site owners must configure the language settings for individual sites to make specific languages available to site users. You must decide which languages are needed for each site, and plan to have the site collection administrators or site owners enable specific languages for the sites that they manage. For information about how to plan multilingual sites, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md). For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-uninstall-language-packs-2019.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
   
 ### Plan to install Public Update
 <a name="section3"> </a>

@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Describes the process and cautions that are involved in sharing se
 
 # Share service applications across farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, some service applications can be shared across server farms.
   
@@ -37,18 +37,21 @@ By publishing a service application, you can optimize resources, avoid redundanc
     
 - Secure Store
     
-Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Server (N) farm but a SharePoint Server (N) farm cannot consume services from a SharePoint (N-1) farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint (N-1) farm experiences are limited to those that are available in SharePoint (N-1).
+To allow customers to upgrade multi-farm environments where a farm hosts service applications that are consumed by other farms, SharePoint consuming farms can consume services from a publishing farm running either the same major version or the next major version. Additionally, SharePoint 2016 consumer farms can consumes services from a SharePoint Subscription Edition publishing farm even though SharePoint Subscription Edition is two versions newer. SharePoint consumer farms don't support consuming services from a publishing farm running an older major version.
 
 Cross farm service publishing supported scenarios:
 
-- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm.
-
-- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm.
+|**Consuming farm**|**Supports consuming services from a SharePoint 2013 publishing farm?**|**Supports consuming services from a SharePoint 2016 publishing farm?**|**Supports consuming services from a SharePoint 2019 publishing farm?**|**Supports consuming services from a SharePoint Subscription Edition publishing farm?**|
+|:-----|:-----|:-----|:-----|:-----|
+|SharePoint 2013|Yes|Yes|No|No|
+|SharePoint 2016|No|Yes|Yes|Yes|
+|SharePoint 2019|No|No|Yes|Yes|
+|SharePoint Subscription Edition|No|No|No|Yes|
 
 > [!NOTE]
-> It is not supported to consume services from a server version which is more than one version behind. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019 as well as SharePoint 2010 cannot consume services from SharePoint 2016.
+> It is not supported to consume services from a server version which is more than one version behind unless it's listed as supported above. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019, SharePoint 2010 cannot consume services from SharePoint 2016, etc.
 
- **Important:** There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore does not work across versions in the following scenarios:
+ **Important:** There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore do not work across versions in the following scenarios:
   
 - Between a SharePoint 2010 farm and a SharePoint 2013 farm
     

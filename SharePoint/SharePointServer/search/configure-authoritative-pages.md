@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6bf64b3d-edf0-4d2a-a1f5-b53318a24a1a
@@ -18,7 +18,7 @@ description: "Learn how to specify authoritative pages and non-authoritative URL
 
 # Configure authoritative pages in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Static rank determines the relative importance of a page, and it is computed as the smallest number of clicks it would take a user to navigate from an authoritative page to a document. The closer a document is to the most authoritative page, the higher its static rank is.
   

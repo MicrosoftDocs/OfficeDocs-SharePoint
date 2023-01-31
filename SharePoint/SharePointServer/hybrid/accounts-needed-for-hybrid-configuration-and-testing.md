@@ -8,8 +8,8 @@ ms.date: 6/20/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -23,7 +23,7 @@ description: "Learn about the accounts you need to use when you configure a Shar
 
 # Accounts needed for hybrid configuration and testing
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 When you configure a SharePoint Server hybrid environment, you need several user accounts in both your on-premises Active Directory and Microsoft 365. These accounts also need different permissions and group or role memberships. Some of these accounts are used to deploy and configure software, and some are used to test specific functionality to help ensure that security and authentication systems are working as expected.
   

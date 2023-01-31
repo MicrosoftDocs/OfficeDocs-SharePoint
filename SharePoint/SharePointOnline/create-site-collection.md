@@ -1,8 +1,8 @@
 ---
 title: "Create a site"
 ms.reviewer: metorres
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.custom:
 - 'O365E_SitesMgmtModern'
 - 'How To'
 - 'seo-marvel-apr2020'
+- admindeeplinkSPO
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
@@ -34,17 +35,15 @@ description: "This article describes how global and SharePoint admins can create
 
 # Create a site
 
-This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections") in the SharePoint admin center. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
+This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](../SharePointServer/sites/create-a-site-collection.md).
 
 ## Create a team site or communication site
   
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
-    > 
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. Select **Create**.
@@ -52,7 +51,7 @@ For info about creating site collections in SharePoint Server, see [Create a sit
     ![The Create button on the Active sites page.](media/create-site-button.png)
 
     > [!TIP]
-    > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens the Active sites page of the SharePoint admin center in a new tab, and opens the Create a site panel.  
+    > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a> in a new tab, and opens the Create a site panel.  
 
 3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 Group.
 
@@ -61,15 +60,14 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
     > [!NOTE]
-    > If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md). 
-    
+    > If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md).   
  
 ## Create a classic site
 <a name="__toc323551189_1"> </a>
 
 We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. On the [Active sites page of the SharePoint admin center.](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and select **Create**.
     
     ![The Create button on the Active sites page.](media/create-site-button.png)
   

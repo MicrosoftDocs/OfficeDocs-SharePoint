@@ -8,8 +8,8 @@ ms.date: 7/19/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint 2
 
 # Upgrade from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
   
@@ -40,11 +40,9 @@ Download the following content for information about upgrade.
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md) <br/> |Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013.  <br/> |
+|[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-2013.md) <br/> |Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Plan for upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303429(v=office.14)) <br/> |Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
-|[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md) <br/> |Find resources about how to test and troubleshoot an upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
+|[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md) <br/> |Find resources about how to test and troubleshoot an upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Upgrade databases from SharePoint 2013 to SharePoint Server 2016](upgrade-databases.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint 2010 Products to SharePoint 2013.  <br/> |
-|[Upgrade site collections to SharePoint 2013](upgrade-site-collections-0.md) <br/> |Find out how to upgrade a site collection to SharePoint 2013.  <br/> |
+|[Upgrade site collections to SharePoint 2013](upgrade-site-collections-2013.md) <br/> |Find out how to upgrade a site collection to SharePoint 2013.  <br/> |
 |[Advanced upgrade scenarios for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff730260(v=office.14)) <br/> |Learn how to upgrade to SharePoint 2013 in advanced scenarios, such as from Office SharePoint Server 2007 or Windows SharePoint Services 3.0, from FAST Search Server, or when using content type syndication.  <br/> |
-   
-

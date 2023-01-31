@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -17,9 +18,9 @@ description: "Using Mover migration service, set up your Azure blob storage conn
 ---
 # Authorizing the Azure Blob Storage Connector
 
-Authorizing Azure Blob Storage is straightforward. To authorize or add an Azure Blob Storage account as a Connector, follow these simple steps:
+Authorizing Azure Blob Storage is straightforward. To authorize or add an Azure Blob Storage account as a Connector, follow these steps:
 
-1. In the Transfer Wizard click **Authorize New Connector**.
+1. In the *Transfer Wizard*, click **Authorize New Connector**.
 
 ![Auth New Connector](media/clear_auth.png)
 

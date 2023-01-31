@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint 2013 on a single server with SQL Server"
+title: Install SharePoint 2013 on a single server with SQL Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -8,19 +8,19 @@ ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itpro
+ms.topic: article
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6eae891d-5546-4945-aa2e-9dfcc9d0cc8d
-description: "Learn how to install SharePoint on a single server with SQL Server."
+description: Learn how to install SharePoint on a single server with SQL Server.
 ---
 
 # Install SharePoint 2013 on a single server with SQL Server
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 A single server installation consists of one server that runs both SQL Server and SharePoint 2013. You can install and configure SharePoint 2013 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage.
   
@@ -40,7 +40,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
   
 - Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2008](https://go.microsoft.com/fwlink/p/?LinkID=121171) and [Performance Tuning Guidelines for Windows Server 2008 R2](/windows-server/administration/performance-tuning/).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md).
     
 - Ensure that you perform a clean installation of SharePoint 2013.
     
@@ -97,9 +97,9 @@ Because the prerequisite installer downloads components from the Microsoft Downl
     
   - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
-  - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+  - `[KB 2759112]`
     
-  - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+  - `[KB 2765317]`
     
 ### Run Setup
 

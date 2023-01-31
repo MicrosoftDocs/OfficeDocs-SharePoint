@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,9 +20,9 @@ description: "Learn the critical decisions that you need to make when preparing 
 
 # Plan self-service site creation in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
-Organizations have two ways to create site collections in their web applications. One way is to restrict site collection creation to Farm Administrators. The Farm Administrators create site collections either through the SharePoint Central Administration website or through the SharePoint Management Shell. This provides tight control. Another way is to enable Self Service Site Creation, to let users with the necessary rights create site collections under predefined paths. For information about using Microsoft PowerShell to create self-service sites with the SPSiteMaster cmdlets, see [SharePointServer](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+Organizations have two ways to create site collections in their web applications. One way is to restrict site collection creation to Farm Administrators. The Farm Administrators create site collections either through the SharePoint Central Administration website or through the SharePoint Management Shell. This provides tight control. Another way is to enable Self Service Site Creation, to let users with the necessary rights create site collections under predefined paths. For information about using Microsoft PowerShell to create self-service sites with the SPSiteMaster cmdlets, see [SharePointServer](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > My Sites and the policies feature are not available in SharePoint Foundation 2013 and Self-Service Site Creation is disabled by default. 

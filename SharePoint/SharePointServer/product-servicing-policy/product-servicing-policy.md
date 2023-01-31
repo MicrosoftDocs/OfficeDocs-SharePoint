@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3824d521-ee4f-408e-b3fd-51da34e20538
 description: "These articles explain the updated product servicing policies of SharePoint Server."
@@ -17,7 +17,7 @@ description: "These articles explain the updated product servicing policies of S
 
 # Product Servicing Policy
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server and SharePoint Foundation each month that contain the latest functionality, performance, and stability improvements for the product.
   

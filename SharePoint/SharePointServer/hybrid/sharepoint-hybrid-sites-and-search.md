@@ -8,8 +8,8 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
-ms.prod: sharepoint-server-itpro
+ms.topic: conceptual
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
@@ -25,7 +25,7 @@ description: "A hybrid environment can help your company get started in the clou
 
 # SharePoint hybrid sites and search
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need.
   
@@ -72,7 +72,7 @@ Several hybrid features are bundled together to help ease deployment. The two fe
   
 The following table shows which hybrid features are included with each option.
   
-||**Hybrid OneDrive**|**Hybrid sites features**|
+|&nbsp;|**Hybrid OneDrive**|**Hybrid sites features**|
 |:-----|:-----|:-----|
 |OneDrive  <br/> |X  <br/> |X  <br/> |
 |Site following  <br/> ||X  <br/> |

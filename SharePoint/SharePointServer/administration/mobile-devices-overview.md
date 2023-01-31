@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 590a94c3-11f2-41b9-962d-b10d3e1f328e
 description: "Learn about the SharePoint mobility features, services, and browsing experiences with a deployment of SharePoint Server 2013."
@@ -17,7 +17,7 @@ description: "Learn about the SharePoint mobility features, services, and browsi
 
 # Overview of mobile devices and SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 offers new, optimized viewing experiences across different mobile platforms. Additionally, there are several features that are available to help improve both worker productivity and usability on the device. This article is intended for IT professionals to help understand the SharePoint Server 2013 mobile features that are available to your organization.
   

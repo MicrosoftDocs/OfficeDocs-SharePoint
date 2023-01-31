@@ -1,8 +1,8 @@
 ---
 title: "Information architecture models and examples"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -64,7 +64,7 @@ Common methods of organizing navigational design:
 
 **Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
 
-**Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
+**Governance considerations** - Many governance details may vary by region, for example site creation policies, data retention, and data storage policies. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
 
 **Maintenance considerations** - When the organization moves locations, navigation will need to be updated to reflect those changes. There are other [multi-geo considerations](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) to plan when enabling SharePoint, [Microsoft 365 groups](/microsoft-365/admin/create-groups/office-365-groups), and other Microsoft 365 apps globally. Multi-geo enables global businesses to control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and shared mailboxes) are stored and managed. 
 

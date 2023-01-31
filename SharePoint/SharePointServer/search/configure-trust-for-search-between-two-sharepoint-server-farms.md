@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3ebcdcdf-593e-44bd-b60d-16efd5f07a16
@@ -18,7 +18,7 @@ description: "Configure a SharePoint Server content farm that receives search qu
 
 # Configure trust for search between two SharePoint Server farms
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To configure an on-premises SharePoint Server content farm to return results from its search index to a separate on-premises SharePoint Server farm, you must perform the following two main procedures:
   
@@ -43,8 +43,8 @@ This article describes how to perform the first procedure in the list above: how
   
 For brevity in this article, the following terms are used:
   
-|                   |                                                                                                                                                                                                                             |
-| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| &nbsp; | &nbsp; |
+|---|---|
 | **SendingFarm**   | An on-premises SharePoint Server farm that has a search service that sends search queries to ReceivingFarm.                                                                                                                 |
 | **ReceivingFarm** | An on-premises SharePoint Server content farm that has a search index that receives search queries from SendingFarm. In this article, it is assumed that ReceivingFarm has at least one web application that hosts content. |
    
@@ -59,7 +59,7 @@ In order for SendingFarm to be able to get search results from the search index 
 >-  [Plan browser support](../install/browser-support-planning.md)
 >-  [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >-  [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)
->-  [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>-  [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
 >-  [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
 
 **To configure ReceivingFarm to trust SendingFarm**
@@ -74,11 +74,11 @@ In order for SendingFarm to be able to get search results from the search index 
     
 2. On a server in ReceivingFarm, start the SharePoint Management Shell.
     
-  - For Windows Server 2008 R2:
+   - For Windows Server 2008 R2:
     
-    In the SharePoint Server environment, on the **Start** menu, select **All Programs**, select **SharePoint 2016**, and then select **SharePoint Management Shell**.
+     In the SharePoint Server environment, on the **Start** menu, select **All Programs**, select **SharePoint 2016**, and then select **SharePoint Management Shell**.
     
-  - For Windows Server 2012:
+   - For Windows Server 2012:
     
     - In the SharePoint Server environment, on the **Start** page, select **SharePoint Management Shell**.
     
@@ -88,48 +88,48 @@ In order for SendingFarm to be able to get search results from the search index 
     
 3. On a server in ReceivingFarm, run the following commands at a PowerShell command prompt. The commands use the OAuth 2.0 web authorization protocol to configure a server-to-server trust, so that ReceivingFarm will trust SendingFarm.
     
-  ```
-  # Create a trusted security token issuer
-  $i = New-SPTrustedSecurityTokenIssuer -Name "SendingFarm" -IsTrustBroker:$false -MetadataEndpoint "https://<SendingFarm_web_application>/_layouts/15/metadata/json/1"
-  # Configure trust of the token-signing certificate'
-  # by adding the trust used to sign oAuth tokens'
-  # to the list of trusted root authorities'
-  # in ReceivingFarm
-  New-SPTrustedRootAuthority -Name "SendingFarm" -MetadataEndPoint https://<SendingFarm_web_application>/_layouts/15/metadata/json/1/rootcertificate
-  ```
+    ```
+    # Create a trusted security token issuer
+    $i = New-SPTrustedSecurityTokenIssuer -Name "SendingFarm" -IsTrustBroker:$false -MetadataEndpoint "https://<SendingFarm_web_application>/_layouts/15/metadata/json/1"
+    # Configure trust of the token-signing certificate'
+    # by adding the trust used to sign oAuth tokens'
+    # to the list of trusted root authorities'
+    # in ReceivingFarm
+    New-SPTrustedRootAuthority -Name "SendingFarm" -MetadataEndPoint https://<SendingFarm_web_application>/_layouts/15/metadata/json/1/rootcertificate
+    ```
 
     Where:
     
      _https://\<SendingFarm_web_application\>_ is any SSL-enabled web application in SendingFarm 
     
     > [!IMPORTANT]
-    > Web applications that include server-to-server authentication endpoints for incoming server-to-server requests, or that make outgoing server-to-server requests, should be configured to use Secure Sockets Layer (SSL). For information about how to configure a web application to use SSL, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). For information about how to configure HTTP support for server-to-server requests, see [Configure server-to-server authentication between SharePoint Server farms](../security-for-sharepoint-server/security-for-sharepoint-server.md#HTTP) in [Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md). 
+    > Web applications that include server-to-server authentication endpoints for incoming server-to-server requests, or that make outgoing server-to-server requests, should be configured to use Secure Sockets Layer (SSL). For information about how to configure a web application to use SSL, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). For information about how to configure HTTP support for server-to-server requests, see [Configure server-to-server authentication between SharePoint Server farms](../security-for-sharepoint-server/security-for-sharepoint-server.md) in [Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md). 
   
 4. On a server in ReceivingFarm, at a PowerShell command prompt, run the following command:
     
-  ```
-  # Use $realm to store the string'
-  # that comes after the "@" character'
-  # in the value of $i.NameId
-  $realm = $i.NameId.Split("@")
-  ```
+    ```
+    # Use $realm to store the string'
+    # that comes after the "@" character'
+    # in the value of $i.NameId
+    $realm = $i.NameId.Split("@")
+    ```
 
 5. On a server in ReceivingFarm, at a PowerShell command prompt, run the following commands to enable all web applications in ReceivingFarm to return search results to SendingFarm:
     
-  ```
-  $s1 = Get-SPSite -Identity https://<ReceivingFarm_web_application>
-  $sc1 = Get-SPServiceContext -Site $s1
-  # Set up an authentication realm for'
-  # a web application that hosts content in ReceivingFarm 
-  Set-SPAuthenticationRealm -ServiceContext $sc1 -Realm $realm[1]
-  # Get a reference to the application principal'
-  # for that web application in Farm B
-  $p = Get-SPAppPrincipal -Site https://<ReceivingFarm_web_application> -NameIdentifier $i.NameId
-  # Grant rights to the application principal'
-  # that SendingFarm will use'
-  # when it sends queries to ReceivingFarm
-  Set-SPAppPrincipalPermission -Site https://<ReceivingFarm_web_application> -AppPrincipal $p -Scope SiteCollection -Right FullControl
-  ```
+    ```
+    $s1 = Get-SPSite -Identity https://<ReceivingFarm_web_application>
+    $sc1 = Get-SPServiceContext -Site $s1
+    # Set up an authentication realm for'
+    # a web application that hosts content in ReceivingFarm 
+    Set-SPAuthenticationRealm -ServiceContext $sc1 -Realm $realm[1]
+    # Get a reference to the application principal'
+    # for that web application in Farm B
+    $p = Get-SPAppPrincipal -Site https://<ReceivingFarm_web_application> -NameIdentifier $i.NameId
+    # Grant rights to the application principal'
+    # that SendingFarm will use'
+    # when it sends queries to ReceivingFarm
+    Set-SPAppPrincipalPermission -Site https://<ReceivingFarm_web_application> -AppPrincipal $p -Scope SiteCollection -Right FullControl
+    ```
 
     Where:
     

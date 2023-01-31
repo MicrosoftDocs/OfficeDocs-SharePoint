@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 58901f1a-dbc9-46ca-8b51-e683ea5f2ce3
 description: "Learn how to integrate a single, active Yammer network together with your SharePoint Server environment."
@@ -17,7 +17,7 @@ description: "Learn how to integrate a single, active Yammer network together wi
 
 # Integrate a single Yammer network into SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a single, active Yammer network together with your SharePoint Server environment.
   

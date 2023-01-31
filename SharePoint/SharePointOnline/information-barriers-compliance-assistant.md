@@ -17,6 +17,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- purview-compliance
+- M365-collaboration
 ---
 
 # Information barriers compliance assistant (preview)
@@ -27,7 +31,7 @@ This article explains how you can enable the information barrier compliance assi
 
 1. Make sure you [define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 2. [Configure information barrier segments on a SharePoint Site.](information-barriers.md)
-3. [Install the Azure PowerShell module](/powershell/azure/install-az-ps?view=azps-2.3.2)
+3. [Install the Azure PowerShell module](/powershell/azure/install-az-ps)
 4. PowerShell account must have directory administrator access for the tenant.
 
 ## Enable the background compliance assistant
@@ -37,12 +41,12 @@ These steps create a new application in your organization's enterprise applicati
 1. Run the following PowerShell cmdlets.
 
     ```PowerShell
-    1. Connect-AzureAD
-    2. Connect-AzAccount
-    3. $appId="f46c682f-628c-48e6-b963-03309e34639e"
-    4. $sp=Get-AzADServicePrincipal -ServicePrincipalName$appId
-    5. if ($sp -eq $null) {New-AzADServicePrincipal -ApplicationId$appId}
-    6. StartProcess"https://login.microsoftonline.com/common/adminconsent?client\_id=$appId"
+    Connect-AzureAD
+    Connect-AzAccount
+    $appId="f46c682f-628c-48e6-b963-03309e34639e"
+    $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
+    if ($sp -eq $null) {New-AzADServicePrincipal -ApplicationId $appId}
+    Start-Process "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
     ```
 
 2. When prompted, sign in using your Office 365 work or school account.
@@ -70,7 +74,7 @@ To verify that a new application was properly created in your organization's ent
 
 8. In this example, the **M365-Group-Compliance-Assistant** is authorized to add/remove non-compliant information barrier users from your Microsoft 365 groups.
 
-You can use the [Microsoft 365 compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to search, review, and track audit log events for the M365-Group-Compliance-Assistant application. The audit activities associated with the compliance assistant are:
+You can use the [Microsoft Purview compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to search, review, and track audit log events for the M365-Group-Compliance-Assistant application. The audit activities associated with the compliance assistant are:
 
 - **IB assistant removed group member**: The IB non-compliant group member was removed from the group by the compliance assistant.
 - **IB assistant removed group owner**: The IB non-compliant owner was removed from the group by the compliance assistant.

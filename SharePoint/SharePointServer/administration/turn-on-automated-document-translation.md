@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Learn how to turn on the Machine Translation Service in SharePoint
 
 # Turn on automated document translation in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 On a publishing site collection that uses variations, site owners can choose to export a file and have it translated by a person (human translation), or they can choose to have it be translated automatically (machine translation). By default, the Machine Translation Service is turned off. Turning it on is a two-step process:
   
@@ -264,7 +264,7 @@ Refer to the following table in step 2.
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps).
+For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 ## Additional steps
 <a name="more"> </a>

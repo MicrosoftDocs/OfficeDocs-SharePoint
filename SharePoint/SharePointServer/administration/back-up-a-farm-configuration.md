@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to back up farm configurations in SharePoint Server."
 
 # Back up farm configurations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can back up a farm configuration by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
   
@@ -56,7 +56,7 @@ You can use PowerShell to back up the configuration from any configuration datab
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -76,7 +76,7 @@ You can use PowerShell to back up the configuration from any configuration datab
     
    - If you are not logged on with an account with **db_backupoperator** fixed database role on the database server where the configuration database is stored, you must specify the value for  `DatabaseCredentials` parameter. 
     
-For more information, see [Backup-SPConfigurationDatabase](/powershell/module/sharepoint-server/Backup-SPConfigurationDatabase?view=sharepoint-ps).
+For more information, see [Backup-SPConfigurationDatabase](/powershell/module/sharepoint-server/Backup-SPConfigurationDatabase?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

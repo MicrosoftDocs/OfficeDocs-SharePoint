@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -14,7 +15,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover Migration: Update a permission map"
 ---
-# Uploading a permission map <optional>
+# Uploading a permission map \<optional\>
 
 You can upload a permission map in CSV format. An uploaded file overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -34,16 +35,16 @@ Permission maps should have two specific entries:
 
 1. Any domain names that are wildcard matched, for example, `example.com, example.com` or `contoso.com, corp.contoso.com`. This instructs our app to match any users with those domain names in their source email to their new destination email domain.
 2. Imperfect matches. Users that are differently named between the source and destination domains need to be explicitly listed, for example, `firstname@contoso.com, firstname_lastname@contoso.com`.
-3. Groups can also be included for most connectors. These are explicitly required and are not matched with a domain wildcard, for example, `Sales Team, Global Sales Team`.
-4. All leading and trailing spaces are stripped from each path value, unless it is wrapped in quotation marks.
+3. Groups can also be included for most connectors. These are explicitly required and aren't matched with a domain wildcard, for example, `Sales Team, Global Sales Team`.
+4. All leading and trailing spaces are stripped from each path value, unless it's wrapped in quotation marks.
 
 Download an example CSV:
 
-[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
+[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/migration/downloads/example_permission_map_box.csv)
 
 ### Creating your CSV in Excel
 
-If you are using an Excel spreadsheet to create your CSV:
+If you're using an Excel spreadsheet to create your CSV:
 
 - Ensure you have two columns, one titled `Source User`, and one `Destination User`. Check the spelling on the domains, usernames, and groups listed.
 
@@ -55,7 +56,7 @@ For example:
 `joshua@example.com, jbadach@example.com`</br>
 `Sales Team,Global Sales Team`
 
-![excel overview](media/excel-overview.png)
+![Screenshot that shows the Excel overview.](media/excel-overview.png)
 
 ### Exporting a permission map
 
@@ -65,4 +66,4 @@ You can export a permission map in CSV format.
 2. Select **Save As**.
 3. From the **File Format** options, select **CSV**.
 
-![excel save as csv](media/excel-save-as-csv.png)
+![Screenshot that shows the Excel save as csv feature.](media/excel-save-as-csv.png)

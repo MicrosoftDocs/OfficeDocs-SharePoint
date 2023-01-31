@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,7 +19,7 @@ description: "Learn how to back up databases to snapshots in SharePoint Server b
 
 # Back up databases to snapshots in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can only back up databases to snapshots in SharePoint Server by using SQL Server Enterprise tools.
   
@@ -70,4 +70,4 @@ If you want to back up databases to snapshots, you must use SQL Server tools. Th
 
 [Database Snapshots (SQL Server)](/sql/relational-databases/databases/database-snapshots-sql-server?viewFallbackFrom=sql-server-2014)
   
-[Database Snapshots with AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/database-snapshots-with-always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014)
+[Database Snapshots with Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/database-snapshots-with-always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014)

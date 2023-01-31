@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 5a1b6cd9-358c-41af-8309-495640518eac
 description: "Learn how to integrate multiple active Yammer networks together with your SharePoint Server environment."
@@ -17,11 +17,12 @@ description: "Learn how to integrate multiple active Yammer networks together wi
 
 # Integrate multiple Yammer networks into SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 This scenario describes the prerequisites and recommended steps to integrate multiple active Yammer networks together with your SharePoint Server environment.
 
-    [!NOTE] Multiple active Yammer networks on one account are no longer supported after October 26, 2018. For more info, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
+> [!NOTE]
+> Multiple active Yammer networks on one account are no longer supported after October 26, 2018. For more info, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks).
   
 ## Scenario prerequisites
 

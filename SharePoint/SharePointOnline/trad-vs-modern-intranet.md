@@ -1,8 +1,7 @@
 ---
 title: How to think about your intelligent intranet
-ms.reviewer: holland-odsp
-ms.author: hokavian
-author: pamgreen-msft
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -15,6 +14,8 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365solution-spintranet
+- m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-may2020
 search.appverid:

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 3a080c72-df1f-43a2-8aee-a3ffd0c43ad2
 description: "Plan Excel Services trusted file location parameters, including session, workbook, calculation, memory, and external data settings."
@@ -17,7 +17,7 @@ description: "Plan Excel Services trusted file location parameters, including se
 
 # Plan Trusted File Locations in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 This article describes trusted file locations for Excel Services.
   

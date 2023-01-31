@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Describes logical architecture design choices for the most common 
 
 # SharePoint Server design samples: Corporate portal and extranet sites
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article discusses several design samples that can be used as starting-point architectures for SharePoint sites. The design samples described in this article illustrate standard architectures for the most common types of SharePoint sites that are deployed within a company or organization. 
     
@@ -155,12 +155,9 @@ The rest of this article discusses each of the logical components that appear in
 <a name="section3"> </a>
 
 This section describes the topologies of the server farms that are illustrated in the design sample and discusses scaling beyond a single farm.
-  
-### 
 
-#### 
+### Topology of the server farms
 
-#### Topology of the server farms
 
 Each server farm in the design sample is composed of six servers with the following fault-tolerant topology:
   
@@ -168,7 +165,7 @@ Each server farm in the design sample is composed of six servers with the follow
     
 - Two application servers
     
-- Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or AlwaysOn. AlwaysOn requires SQL Server 2012.
+- Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or Always On. Always On requires SQL Server 2012.
     
 The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
   
@@ -189,7 +186,7 @@ The following table lists the differences in the two approaches that are represe
   
 Table: Contrasting approaches for zone configurations in the design samples
   
-||**Corporate Portal with Host-named sites and Corporate Portal with Path-based sites**|**Extranet with Dedicated Zones for Authentication**|
+|**Approach**|**Corporate Portal with Host-named sites and Corporate Portal with Path-based sites**|**Extranet with Dedicated Zones for Authentication**|
 |:-----|:-----|:-----|
 |Mode of authentication  <br/> |Claims  <br/> |Claims  <br/> |
 |Zone configuration  <br/> |One zone with multiple authentication methods configured for different classes of users.  <br/> |Multiple zones with one method of authentication configured for each zone.  <br/> |
@@ -198,10 +195,8 @@ Table: Contrasting approaches for zone configurations in the design samples
 |User experience  <br/> |All users are prompted to choose the type of account they are using to log in.  <br/> |The authentication method is predetermined. Users are not required to select the account type by using a logon page.  <br/> |
    
 The following sections specifically discuss how authentication is incorporated by using the two different approaches.
-  
-### 
 
-#### Extranet with dedicated zones design sample
+### Extranet with dedicated zones design sample
 
 The extranet design sample illustrates three different classes of users, and each is assigned to a different zone. Within each web application, you can create up to five zones by using one of the available zone names: Default, Intranet, Internet, Custom, or Extranet. The search crawl account requires access to the Default zone by using Integrated Windows authentication (NTLM or the Kerberos protocol), which is accounted for in the design sample. The following table shows how zones are set up in the extranet design sample.
   
@@ -400,12 +395,8 @@ Although we recommend host-named site collections for most architectures, you sh
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups.
     
 For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
-  
-### 
 
-#### 
-
-#### Design goals for site collections
+### Design goals for site collections
 
 Site collections bridge logical architecture and information architecture. The design goals for site collections are to fulfill requirements for URL design and to create logical divisions of content. For each site collection, managed paths incorporate a second tier of top-level site collections. For more information about URL requirements and using managed paths, see [Zones and URLs](#section12) later in this article. Beyond the second tier of site collections, each site is a subsite. 
   
@@ -513,15 +504,11 @@ If you choose to associate site collections to specific content databases, you c
     
 4. Set the status of all other databases back to **Ready**.
     
-### 
-
-#### 
-
-#### Published intranet content
+### Published intranet content
 
 For published intranet content, the corporate portal design samples incorporate a single database for ease of management. Add databases based on target size goals, if needed. 
   
-#### My Sites
+### My Sites
 
 For My Sites, the corporate portal design samples achieve scale efficiency by managing databases to the maximum target size. The following settings are configured to achieve this goal:
   
@@ -545,11 +532,11 @@ The design samples provide the following example size settings based on a target
     
 When the site-level warning is reached, create a new database. After you create the new database, new My Sites are added to the content database that has the fewest site collections.
   
-#### Team sites
+### Team sites
 
 Team sites for most organizations are expected to be much larger than My Sites. Team sites are created under a managed path, allowing one content database per team site collection. The design sample provides database settings based on a 30-GB limit for site collections. Choose a limit that is appropriate for team sites in your organization. 
   
-#### Partner web
+### Partner web
 
 Similar to My Sites, partner web achieves scale efficiency by managing databases to the maximum target size. 
   
@@ -574,13 +561,11 @@ The design samples illustrate how to coordinate URLs across multiple sites withi
     
 - Port numbers are not included in URLs. In practice, port numbers are typically not used in production environments.
     
-### 
-
-#### Designing load-balanced URLs
+### Designing load-balanced URLs
 
 When you create a web application, you must choose a load-balanced URL to assign to the application. The URL that you choose applies to the Default zone. Additionally, you must create a load-balanced URL for each additional zone that you create within a web application. The load-balanced URL includes the protocol, scheme, hostname, and port, if used. The load-balanced URL must be unique across all web applications and zones. Consequently, each web application and each zone within each web application requires a unique URL across the design sample.
   
-#### Intranet
+### Intranet
 
 Each of the three site collections that make up the intranet requires a unique URL. In Corporate Portal design samples, the target audience for the intranet content is internal employees and remote employees. Employees use the same URLs for each of these sites regardless of whether they are on site or remote. This approach adds a layer of security to the SharePoint design (all traffic is SSL). However, this approach requires you to choose an alternative for additional configuration: 
   
@@ -588,9 +573,9 @@ Each of the three site collections that make up the intranet requires a unique U
     
 - Set up a split DNS environment to resolve internal requests within the internal network.
     
-#### Partner web site
+### Partner website
 
-In the design samples, internal employees, remote employees, and partner employees access the partner web site. In the Corporate Portal design samples, all users enter the same URL regardless of the authentication method. In the Extranet design sample, each different type of user enters a different URL. Although both individual partners and partner companies use SSL (HTTPS) to access the partner web site externally, each group requires a different URL to apply the benefits of separate zones—that is, different authentication methods and different zone policies. 
+In the design samples, internal employees, remote employees, and partner employees access the partner website. In the Corporate Portal design samples, all users enter the same URL regardless of the authentication method. In the Extranet design sample, each different type of user enters a different URL. Although both individual partners and partner companies use SSL (HTTPS) to access the partner web site externally, each group requires a different URL to apply the benefits of separate zones—that is, different authentication methods and different zone policies. 
   
 Because the Extranet design sample uses Direct Access or VPN for remote employee access, both remote employees and internal employees use the same URLs. If access for remote employees is configured through a reverse proxy device, remote employees would require a separate URL using SSL, requiring an additional zone. Finally, the Extranet design sample incorporates host-named site collections instead of a single top-level site collection. Consequently, each project site has a different URL. 
   
@@ -604,7 +589,7 @@ The following table shows example URLs that internal employees, remote employees
 |Individual partners  <br/> |https://project2.fabrikam.com  <br/> |
 |Partner companies  <br/> |https://TrustedPartnerProject1.fabrikam.com  <br/> |
    
-#### Using explicit and wildcard inclusions for URL paths
+### Using explicit and wildcard inclusions for URL paths
 
 Managed paths enable you to specify the paths in the URL namespace of a web application that are used for site collections. You can specify that one site collection or more than one site collection exists at a distinct path below the root site. Without managed paths, all sites below the root site collection are part of the root site collection.
   
@@ -618,73 +603,73 @@ When managed paths for host-named site collections are implemented, these manage
   
 The design sample incorporates the use of both types of managed paths (explicit inclusions and wildcard inclusions, as described in the following sections.
   
-#### Explicit inclusions: Published intranet content
+### Explicit inclusions: Published intranet content
 
 In the design samples, the published intranet site collection incorporates explicit inclusions for each subsite, for example, HR, Facilities, and Purchasing. Each of these site collections can be associated with a different content database, if needed. Unless host-named site collections are used, the use of explicit inclusions in this example assumes that no other types of sites are created in the web application, including wildcard inclusions.
   
 The use of explicit inclusions results in the URLs:
   
-- https://intranet.fabrikam.com
+- `https://intranet.fabrikam.com`
     
-- https://intranet.fabrikam.com/hr
+- `https://intranet.fabrikam.com/hr`
     
-- https://intranet.fabrikam.com/facilities
+- `https://intranet.fabrikam.com/facilities`
     
-- https://intranet.fabrikam.com/purchasing
+- `https://intranet.fabrikam.com/purchasing`
     
-In this example, the root site collection, http://intranet.fabrikam.com, represents the default home page for the intranet. This site is intended to host content for users.
+In this example, the root site collection, `http://intranet.fabrikam.com`, represents the default home page for the intranet. This site is intended to host content for users.
   
-#### Wildcard inclusions: Team Sites, My Sites, and Partner Web
+### Wildcard inclusions: Team Sites, My Sites, and Partner Web
 
 Team Sites, My Sites, and the partner web application incorporate the use of a wildcard inclusion. Wildcard inclusions are ideal for applications that allow users to create their own site collections and for web applications that include many site collections. A wildcard inclusion indicates that the next item after the wildcard is a root site of a site collection.
   
-#### Team sites
+### Team sites
 
 Within the Team Sites application, wildcard inclusion is used for each team site collection. Good governance practices recommend that you keep the number of top-level team sites within a manageable number. Also, the taxonomy for team sites should be logical for the way your business operates. 
   
 The use of wildcard inclusions results in the URLs: 
   
-- https://teams.fabrikam.com/sites/Team1
+- `https://teams.fabrikam.com/sites/Team1`
     
-- https://teams.fabrikam.com/sites/Team2
+- `https://teams.fabrikam.com/sites/Team2`
     
-- https://teams.fabrikam.com/sites/Team3
+- `https://teams.fabrikam.com/sites/Team3`
     
-In this example, the root site collection, https://teams.fabrikam.com, does not necessarily host content for users.
+In this example, the root site collection, `https://teams.fabrikam.com`, does not necessarily host content for users.
   
-#### My Sites
+### My Sites
 
 My Sites offer self-service site creation. When a user who browses the intranet first clicks **My Site**, a My Site is automatically created for the user. In the design sample, My Sites include a wildcard inclusion named /personal (http://my/personal). The My Site feature automatically appends the user name to the URL. 
   
 This results in URLs of the format:
   
-- https://my.fabrikam.com/personal/User1
+- `https://my.fabrikam.com/personal/User1`
     
-- https://my.fabrikam.com/personal/User2
+- `https://my.fabrikam.com/personal/User2`
     
-- https://my.fabrikam.com/personal/User3
+- `https://my.fabrikam.com/personal/User3`
     
-#### Partner web
+### Partner web
 
 If path-based site collections are used, you can implement the self-service site creation feature to allow employees to create secure sites for collaboration with external partners. If host-named site collections are used, you can implement a custom self-service site creation feature or administrators can create partner project sites by request.
   
 In Corporate Portal design samples, the partner web application includes a wildcard inclusion named /sites (http://partnerweb/sites). This results in URLs of the following format:
   
-- https://partnerweb.fabrikam.com/sites/Project1
+- `https://partnerweb.fabrikam.com/sites/Project1`
     
-- https://partnerweb.fabrikam.com/sites/Project2
+- `https://partnerweb.fabrikam.com/sites/Project2`
     
-- https://partnerweb.fabrikam.com/sites/Project3
+- `https://partnerweb.fabrikam.com/sites/Project3`
     
-#### Coordinating URLs with AAM and DNS
+### Coordinating URLs with AAM and DNS
 
 If path-based site collections are implemented, configure alternate access mappings (AAM) for each site URL in the farm. This makes sure that web requests are mapped to the correct site, especially in environments that use load balancing or reverse proxy technologies.
   
-Single-name URLs, such as http://teams, can be configured for intranet access. A client computer resolves these URLs by appending the DNS suffix of the client computer, such as fabrikam.com, and then issuing a DNS lookup for the name with the suffix. For example, when a client computer in the fabrikam.com domain requests http://teams, the computer sends a request to DNS for http://teams.fabrikam.com.
+Single-name URLs, such as http://teams, can be configured for intranet access. A client computer resolves these URLs by appending the DNS suffix of the client computer, such as fabrikam.com, and then issuing a DNS lookup for the name with the suffix. For example, when a client computer in the fabrikam.com domain requests http://teams, the computer sends a request to DNS for `http://teams.fabrikam.com`.
   
 DNS must be configured to use an A record, or AAAA for IPv6, for each fully qualified domain name (FQDN). The record points to the load-balanced IP address for the web servers that host a site. In a typical production deployment, servers are configured to use statically assigned IP addresses, in addition to statically assigned A or AAAA records in DNS.
   
-After a client browser receives the load-balanced IP address, the client browser connects to a front-end web server in the farm, and then sends an HTTP request that has the original single-name URL, http://teams. IIS and SharePoint Server recognize this as a request for the Intranet zone, based on the settings that are configured in alternate access mappings. If a user instead requests https://teams.fabrikam.com, the process is similar, but IIS and SharePoint Server receive this FQDN instead, and therefore recognize this request for the Default zone.
+After a client browser receives the load-balanced IP address, the client browser connects to a front-end web server in the farm, and then sends an HTTP request that has the original single-name URL, http://teams. IIS and SharePoint Server recognize this as a request for the Intranet zone, based on the settings that are configured in alternate access mappings. If a user instead requests `https://teams.fabrikam.com`, the process is similar, but IIS and SharePoint Server receive this FQDN instead, and therefore recognize this request for the Default zone.
   
 In environments that have multiple domains, enter CNAME records for DNS in the domains that the sites do not reside in. For example, if the Fabrikam network environment includes a second domain named europe.fabrikam.com, CNAME records are entered for these sites in the Europe domain. For the Team Sites intranet site (http://teams), a CNAME record named teams is added to the europe.fabrikam.com domain that points to teams.fabrikam.com. Then, when a client computer's DNS suffix is appended to DNS lookup requests, a request for http://teams from the Europe domain will issue a DNS lookup of teams.europe.fabrikam.com, and will be directed by the CNAME record to teams.fabrikam.com.
   

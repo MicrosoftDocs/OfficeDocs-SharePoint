@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 73f19541-9321-4abd-b014-98df79f84d2a
@@ -18,7 +18,7 @@ description: "Learn about best practices for crawling in SharePoint Server."
 
 # Best practices for crawling in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn about best practices for crawling in SharePoint Server.
   
@@ -98,11 +98,11 @@ Crawling content can significantly decrease the performance of the servers that 
 
 By default, in the first Search service application in a farm, the preconfigured content source **Local SharePoint sites** contains at least the following two start addresses: 
   
-- https://webAppUrl, which is for crawling the Default Zone URL specified for the existing Web Application(s)
+- `https://webAppUrl`, which is for crawling the Default Zone URL specified for the existing Web Application(s)
     
-- sps3s://myWebAppUrl, which is for crawling user profiles
+- `sps3s://myWebAppUrl`, which is for crawling user profiles
     
-However, if you are deploying "People Search", we recommend that you create a separate content source for the start address sps3s://myWebAppUrl and run a crawl for that content source first. The reason for the crawl execution is that after it finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
+However, if you are deploying "People Search", we recommend that you create a separate content source for the start address `sps3s://myWebAppUrl` and run a crawl for that content source first. The reason for the crawl execution is that after it finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
   
  **To crawl user profiles and then crawl SharePoint Server sites**
   
@@ -110,11 +110,11 @@ However, if you are deploying "People Search", we recommend that you create a se
     
 2. Follow the instructions in [Deploy people search in SharePoint Server](deploy-people-search.md). As part of those instructions, you do the following tasks:
     
-  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3s:// myWebAppUrl, where myWebAppUrl is the URL of the My Site host. 
+  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type `sps3s:// myWebAppUrl`, where `myWebAppUrl` is the URL of the My Site host. 
     
   - Start a crawl for the People content source that you created. 
     
-  - Delete the start address sps3s://myWebAppUrl from the preconfigured content source **Local SharePoint sites**.
+  - Delete the start address `sps3s://myWebAppUrl` from the preconfigured content source **Local SharePoint sites**.
     
 3. Wait about two hours after the crawl for the People content source finishes. 
     
@@ -151,23 +151,23 @@ However, if you crawl a zone of a web application other than the default zone, t
   
 For example, assume that you have the following AAMs for a web application named WebApp1:
   
-| **Default** |  **Public URL**  | **Authentication provider**  |
+| Default |  Public URL  | Authentication provider  |
 | :---------- | :--------------- | :--------------------------- |
-| Default     | https://contoso  | Windows authentication: NTLM |
-| Extranet    | https://fabrikam | Forms-based authentication   |
-| Intranet    | http://fabrikam  | Windows authentication: NTLM |
+| Default     |`https://contoso`  | Windows authentication: NTLM |
+| Extranet    | `https://fabrikam` | Forms-based authentication   |
+| Intranet    | `http://fabrikam`  | Windows authentication: NTLM |
    
-Now, say that you crawl the default zone, https://contoso. When users perform queries from https://contoso/searchresults.aspx, URLs of results from WebApp1 will all be relative to https://contoso, and therefore will be of the form https://contoso/ _path_/ _result_.aspx.
+Now, say that you crawl the default zone, `https://contoso`. When users perform queries from `https://contoso/searchresults.aspx`, URLs of results from WebApp1 will all be relative to `https://contoso`, and therefore will be of the form `https://contoso/ _path_/ _result_.aspx`.
   
-Similarly, when queries originate from the Extranet zone—in this case, https://fabrikam/searchresults.aspx—results from WebApp1 will all be relative to https://fabrikam, and therefore will be of the form https://fabrikam/ _path_/ _result_.aspx.
+Similarly, when queries originate from the Extranet zone—in this case, `https://fabrikam/searchresults.aspx—results` from WebApp1 will all be relative to `https://fabrikam`, and therefore will be of the form `https://fabrikam/ _path_/ _result_.aspx`.
   
 In both of the previous cases, because of the zone consistency between the query location and the search-result URLs, users will readily be able to view and open search results, without having to change to the different security context of a different zone.
   
-However, now instead say that you crawl a non-default zone such as the Intranet zone, http://fabrikam. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from https://contoso/searchresults.aspx, https://fabrikam/searchresults.aspx, or http://fabrikam/searchresults.aspx will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form http://fabrikam/ _path_/ _result_.aspx. This setting can cause unexpected or problematic behavior such as:
+However, now instead say that you crawl a non-default zone such as the Intranet zone, `http://fabrikam`. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from `https://contoso/searchresults.aspx`, `https://fabrikam/searchresults.aspx`, or `http://fabrikam/searchresults.aspx` will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form h`ttp://fabrikam/ _path_/ _result_.aspx`. This setting can cause unexpected or problematic behavior such as:
   
 - When users try to open search results, they might be prompted for credentials that they don't have. For example, forms-based authenticated users in the Extranet zone might not have Windows authentication credentials.
     
-- The results from WebApp1 will use HTTP, but users might be searching from the Extranet zone at https://fabrikam/searchresults.aspx. This search operation by the users might have security implications because the results will not use secure sockets layer (SSL) encryption.
+- The results from WebApp1 will use HTTP, but users might be searching from the Extranet zone at `https://fabrikam/searchresults.aspx`. This search operation by the users might have security implications because the results will not use secure sockets layer (SSL) encryption.
     
 - Refinements might not filter correctly, because they filter on the public URL for the default zone instead of the URL that was crawled. This incorrect filtering is because URL-based properties in the index will be relative to the non-default URL that was crawled.
     
@@ -191,7 +191,7 @@ For servers in your organization, you can set crawler impact rules based on know
 ## Use Active Directory groups instead of individual users for permissions
 <a name="BKMK_UseADGroups"> </a>
 
-The ability of a user or group to perform various activities on a site is determined by the permission level that you assign. If you add or remove users individually for site permissions, or if you use a SharePoint Server group to specify site permissions and you change the membership of the group, the crawler must perform a "security-only crawl", which updates all affected items in the search index to reflect the change. Similarly, adding or updating web application policy with different users or SharePoint Server groups will trigger a crawl of all content covered by that policy. This increases crawl load and can reduce search-results freshness. Therefore, to specify site permissions, it is best to use Active Directory Domain Services (AD DS) groups, because these groups does not require the crawler to update the affected items in the search index.
+The ability of a user or group to perform various activities on a site is determined by the permission level that you assign. If you add or remove users individually for site permissions, or if you use a SharePoint Server group to specify site permissions and you change the membership of the group, the crawler must perform a "security-only crawl", which updates all affected items in the search index to reflect the change. Similarly, adding or updating web application policy with different users or SharePoint Server groups will trigger a crawl of all content covered by that policy. This increases crawl load and can reduce search-results freshness. Therefore, to specify site permissions, it is best to use Active Directory Domain Services (AD DS) groups, because these groups don't require the crawler to update the affected items in the search index.
   
 ## Add a second crawl component to provide fault tolerance
 <a name="BKMK_AddSecond"> </a>
@@ -213,7 +213,7 @@ For more information, see the following articles:
 
 As the crawler crawls content, downloads the content to the crawl server (the server that hosts the crawl component), and feeds the content to content processing components, several factors can adversely affect performance. To improve crawl performance, you can do the following task:
   
-| **To address this potential performance bottleneck** |                                       **Implement this solution**                                        |
+| To address this potential performance bottleneck |  Implement this solution       |
 | :--------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | Slow response time from crawled servers              | Provide more CPU and RAM and faster disk I/O                                                             |
 | Low network bandwidth                                | Install 1 or 2 one-gigabit-per-second network adapters on each crawl server                          |
@@ -238,9 +238,9 @@ If necessary, you can manually pause or stop full or incremental crawls, and you
 - [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md)
     
 > [!NOTE]
-> Pausing a crawl has the disadvantage that references to crawl components can remain in the MSSCrawlComponentsState table in the search administration database. This can cause a problem if you want to remove any crawl components (say, because you want to remove a server that hosts those components from the farm). However, when you stop a crawl, references to crawl components in the MSSCrawlComponentsState table are deleted. Therefore, if you want to remove crawl components, it is better to stop crawls than to pause crawls. 
+> Pausing a crawl has the disadvantage that references to crawl components can remain in the `MSSCrawlComponentsState` table in the search administration database. This can cause a problem if you want to remove any crawl components (say, because you want to remove a server that hosts those components from the farm). However, when you stop a crawl, references to crawl components in the `MSSCrawlComponentsState` table are deleted. Therefore, if you want to remove crawl components, it is better to stop crawls than to pause crawls. 
   
-To confirm that no crawls are in progress, on the  _Search_service_application_name_: Manage Content Sources page, make sure that the value in the **Status** field for each content source is either **Idle** or **Paused**. (When a crawl is completed, or when you stop a crawl, the value in the **Status** field for the content source will change to **Idle**.)
+To confirm that no crawls are in progress, on the  `_Search_service_application_name_: Manage Content Sources` page, make sure that the value in the **Status** field for each content source is either **Idle** or **Paused**. (When a crawl is completed, or when you stop a crawl, the value in the **Status** field for the content source will change to **Idle**.)
   
 ## Remove crawl components from a crawl host before you remove the host from a farm
 <a name="BKMK_RemoveCrawlComponents"> </a>
@@ -280,7 +280,7 @@ We recommend that you test the crawl and query functionality in the server farm 
     
 3. Start a full crawl for that content source.
     
-    For more information, see [Start, pause, resume, or stop a crawl in SharePoint Server](start-pause-resume-or-stop-a-crawl.md). When the crawl is complete, on the  _Search_service_application_name_: Manage Content Sources page, the value in the **Status** column for the content source will be **Idle**. (To update the **Status** column, refresh the Manage Content Sources page by clicking **Refresh**.)
+    For more information, see [Start, pause, resume, or stop a crawl in SharePoint Server](start-pause-resume-or-stop-a-crawl.md). When the crawl is complete, on the  `_Search_service_application_name_: Manage Content Sources` page, the value in the **Status** column for the content source will be **Idle**. (To update the **Status** column, refresh the Manage Content Sources page by clicking **Refresh**.)
     
 4. When the crawl is complete, go to the Search Center and perform search queries to find those files.
     

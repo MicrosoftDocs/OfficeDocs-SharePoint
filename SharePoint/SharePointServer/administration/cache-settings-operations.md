@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ae2f59b-309e-4853-8ce7-99bc40de4c03
@@ -18,7 +18,7 @@ description: "Learn about the available caches and the settings that can be conf
 
 # Cache settings operations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server provides four types of caches that help improve the speed at which web pages load in the browser: the BLOB cache, the page output cache, the object cache, and the anonymous search results cache. The BLOB cache is enabled and configured in the Web.config file in the web application to which you want to apply the cache. The page output cache and object cache are usually configured in the user interface at the site collection level. Certain settings for these caches can also be configured at the web application level. The changes that you make to the Web.config file will be applied to all site collections and sites within the web application, and will supersede any configuration made at the site collection level or below.
   

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 9528dfeb-3f44-4c76-8d07-eb916e04b674
 
@@ -18,7 +18,7 @@ description: "Learn how to plan for using a mobile browser experience in SharePo
 
 # Plan for mobile views in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
  
 > [!IMPORTANT]
 > In 2016, the SharePoint mobile app was introduced with support for SharePoint Server 2013. Please see [Supporting the SharePoint mobile apps online and on-premises](supporting-the-sharepoint-mobile-apps-online-and-on-premises.md) for more details.
@@ -96,10 +96,10 @@ After you perform a full device inventory and understand the different mobile vi
 |Device channels (smartphone and slate-publishing site only)  <br/> |Defined by view design  <br/> |Yes - based on custom design  <br/> |Defined by view design  <br/> |Yes  <br/> |Yes  <br/> |
 |Classic view (smartphone)  <br/> |Yes  <br/> |No  <br/> |Hyperlink driven  <br/> |No  <br/> |No  <br/> |
    
-    > [!IMPORTANT]
-    > Although the classic view is presented as an option in the previous table, it is considered to be a legacy mobile browser view for SharePoint Server 2013. If your device browser is supported, and renders in HTML5, the contemporary view will be seen instead of the classic view. We recommend that you evaluate the other browser views, if possible, for your mobile environment. 
+> [!IMPORTANT]
+> Although the classic view is presented as an option in the previous table, it is considered to be a legacy mobile browser view for SharePoint Server 2013. If your device browser is supported, and renders in HTML5, the contemporary view will be seen instead of the classic view. We recommend that you evaluate the other browser views, if possible, for your mobile environment. 
   
-    It is again important to recognize the key advantages and potential disadvantages of these mobile views for your specific organization. For example, users might prefer to view a SharePoint site in its entirety on a smartphone because the look, feel, and navigation experience is similar to the desktop and is familiar. Or, a full-screen rendering is not preferable on a smartphone because of the reduced screen size and multiple touch gesture movements that are required to perform an operation. We highly recommend that you extensively test the mobile views available to you with users before deployment into a production environment.
+It is again important to recognize the key advantages and potential disadvantages of these mobile views for your specific organization. For example, users might prefer to view a SharePoint site in its entirety on a smartphone because the look, feel, and navigation experience is similar to the desktop and is familiar. Or, a full-screen rendering is not preferable on a smartphone because of the reduced screen size and multiple touch gesture movements that are required to perform an operation. We highly recommend that you extensively test the mobile views available to you with users before deployment into a production environment.
     
 - **Is there a customizable solution available so I can create my own unique SharePoint mobile view?**
     

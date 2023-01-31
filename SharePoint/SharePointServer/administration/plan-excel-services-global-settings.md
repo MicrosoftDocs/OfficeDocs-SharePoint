@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 955084c9-91e1-4f66-9ec4-09d2816c5c6f
 description: "Learn how to choose authorization (impersonation or process account) and encryption (IPsec or SSL) options for Excel Services in SharePoint Server."
@@ -17,7 +17,7 @@ description: "Learn how to choose authorization (impersonation or process accoun
 
 # Plan Excel Services Global Settings in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 When you deploy Excel Services, you need to plan for the following Global Settings:
   

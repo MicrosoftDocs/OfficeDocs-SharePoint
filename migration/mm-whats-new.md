@@ -10,9 +10,11 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
@@ -20,33 +22,77 @@ description: "Learn about the new features and updates to existing features in M
 
 # What's new in Migration Manager
 
-We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
+We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.  
 
 #### We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 ## Coming soon
+- Several enhancements are coming to Google Workspace migrations. New features include:
+  -  Filtering by factors such as dates, file types, and invalid characters
+  -  Downloading bulk reports
+  - Display of the estimated time it will take for your migration to complete.
 
+## January 2023
+- **Fixed:  Report aggregator script**. The Report aggregator script was incorrectly converting bytes to gigabytes. This has now been fixed. [Learn more: Download detailed task reports.](/sharepointmigration/mm-reports#download-detailed-task-level-reports-via-powershell) 
+
+
+## December 2022
+- **Fixed: Upload failures logs**. Items that failed in SPO upload process weren't listed in the migration log, and was inconsistent with the final migration result. This has been fixed. 
+- **Report fields refined**. The fields of downloaded reports have been improved for clarity and readability.
+
+
+## October 2022
+- **Change - Box Notes**. We're no longer able to convert Box notes to a .docx file during migration.
+
+## June 2022
+- **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
+- **Tag support for File share migrations**.  The tags feature File Share migrations lets you sort, organize, and navigate through a large quantity of sources and users.
+
+## May 2022
+- **Fixed: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that later fails to authorize the user's account and connect. This has been fixed.
+
+## April 2022
+
+- **Task increase**.  We now support up to 50,000 tasks per tenant for cloud migrations (GoogleDrive, Box, Dropbox and Egnyte). File share migrations already support 50,000 tasks.
+
+## March 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
-- **Tag support**.  A new tags feature is coming soon to allow you to sort, organize, and navigate through a large quantity of sources and users to find what you need. 
 
-## September
+## February 2022
 
-- **New feature**.  A "Reinstall recommended" message displays detailed information as to why it is needed. 
-- **Feature Improvement** File share migration now supports migrating individual files of up to 100 GB.
-- **Feature Improvement**  The error messages during agent installation have been improved.
-- **Fix.** Before, if the destination cross-geo site did not exist, the migration would fail. Fixed.
-- **Fix.**  Before, if the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
-- **Fix.** If the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
-- **Deprecated.** Several task reports have been deprecated, including the *performance recommendation.csv* report, as they contained inaccurate or unnecessary information. Users should use the customer-facing dashboard in Migration Manager for performance analysis and improvement recommendations.
+- **Workaround for Geo admins**. Migration currently doesn't fully support the Geo admin role. See [Workaround for Geo admins using Migration Manager](mm-troubleshoot.md)
+- **Workaround for Azured-acquired SharePoint admins**. SharePoint admins created via groups can't access Migration Manager scan and migration tabs.  See [Workaround for Group-inherited SharePoint Admins using Migration Manager](mm-troubleshoot.md)
+
+## January 2022
+
+- **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
+- **Tag support - cloud migrations**.  A new tag feature lets you sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
+
+
+## November 2021
+
+- **Bulk upload Google drives.**  You can now bulk upload your Google drives using a comma-separated (CSV) file. 
+- **Report creation failure fixed.** Mover API failed to create reports on scans and migrations involving more than 40,000 records. This has been fixed. 
+
+## September 2021
+
+
+- **Support for files up to 100 GB.** File share migration now supports migrating individual files of up to 100 GB.
+- **Improved agent installation messages.**  The error messages during agent installation have been improved.
+- **Reinstall recommended message.** A "Reinstall recommended" message displays detailed information as to why it's needed. 
+- **Cross-geo site fix.**  If the destination cross-geo site didn't exist, the migration would fail. This has been fixed.
+- **Agent service and Agent app on same computer upgrader issue fix.**  When the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
+- **Agent service and Agent app on same computer file share fix.** When the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
+- **Selected task reports deprecated.** Several task reports have been deprecated, including the *performance recommendation.csv* report, as they contained inaccurate or unnecessary information. Users should use the customer-facing dashboard in Migration Manager for performance analysis and improvement recommendations.
 
 
 
 ## August 2021
 
 - **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
-- **Fixed.**  Some transfers from Box, Google, and Dropbox saw many failures when moving files during high load periods. The errors would appear in the migration error report as "Failed to load migration job, please retry." The issues causing these errors has been fixed and the reliability of transfers has increased.
+- **Migrations during high load issues fixed.**  Some transfers from Box, Google, and Dropbox saw many failures when moving files during high load periods. The errors would appear in the migration error report as "Failed to load migration job, please retry." The issues causing these errors has been fixed and the reliability of transfers has increased.
 
 
 
@@ -58,7 +104,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## June 2021
 
 - **Scan file shares (preview).**  Scan and view your sources for migration readiness. Learn more: [Migration Manager Scan (preview)](mm-scan.md)
-- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now haave the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
+- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
 ## May 2021
 

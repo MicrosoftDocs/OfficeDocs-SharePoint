@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint 2013 across multiple servers for a three-tier farm"
+title: Install SharePoint 2013 across multiple servers for a three-tier farm
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -9,18 +9,18 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0dc9f7d6-0e82-4748-a951-3ced3f167803
-description: "Learn how to install SharePoint to create a server farm that includes web servers, an application server, and a database server."
+description: Learn how to install SharePoint to create a server farm that includes web servers, an application server, and a database server.
 ---
 
 # Install SharePoint 2013 across multiple servers for a three-tier farm
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 A three-tier farm configuration consists of two front-end web servers, an application server, and a database server. The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint 2013 solution on similar — or more complex farms.
   
@@ -68,7 +68,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
   
 - Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2008](https://go.microsoft.com/fwlink/p/?LinkID=121171) and [Performance Tuning Guidelines for Windows Server 2008 R2](/windows-server/administration/performance-tuning/).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md).
     
 - Ensure that you perform a clean installation of SharePoint 2013.
     
@@ -94,7 +94,7 @@ Organizations whose database administrators operate independently from SharePoin
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](https://download.microsoft.com/download/D/2/A/D2AE15B9-6F47-4328-878D-276F851C9E06/itpro-2013-db-poster.pdf).
   
-Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017) and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
+Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option) and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
   
 #### Public updates and hotfix packages
 
@@ -132,9 +132,9 @@ Use the following procedure to install prerequisites on each server in the farm.
     
   - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
-  - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+  - `[KB 2759112]`
     
-  - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+  - `[KB 2765317]`
     
 ## Install SharePoint 2013 on the farm servers
 <a name="InstallSP"> </a>

@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 4c50e9d2-a1f9-45a5-8466-829e056a92d0
 
@@ -18,7 +18,7 @@ description: "Learn how to create, publish and use a basic Excel Services dashbo
 
 # Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes, step by step, how to create a Data Model, how to create some reports and a slicer, and then how to publish the dashboard to SharePoint Server 2013. The example dashboard described in this article resembles the following image:
   
@@ -392,7 +392,7 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 
 |**Question**|**Action**|
 |:-----|:-----|
-|Which two countries sold more on the Internet than through resellers?  <br/> |Look at the bar chart. Notice that in Australia and German, Internet sales amounts are greater than reseller sales amounts.  <br/> |
+|Which two countries sold more on the Internet than through resellers?  <br/> |Look at the bar chart. Notice that in Australia and Germany, Internet sales amounts are greater than reseller sales amounts.  <br/> |
 |For the Volume Discount 41 to 60 promotion, which item had the highest sales amount?  <br/> |In the **Promotion** slicer, select **Volume Discount 41 to 60**. Notice the reports update to show reseller sales information only. In the PivotTable report, notice that Women's Mountain Shorts has the highest sales amount.  <br/> |
 |What product had the highest sales amounts for the reseller channel across all promotions?  <br/> |To answer this question, follow these steps.  <br/> Open the workbook in Excel. Make sure the slicer is cleared so that data for all promotions is displayed. In the PivotTable report, click a row in the Reseller Sales column. On the Data tab, click Sort to open the Sort by Value dialog. Under Sort Options, select Largest to Smallest, and then click OK. Notice that the PivotTable report shows Mountain-200 with the highest sales amount in the reseller channel. |
 |Is it possible to change the bar chart to display order quantities across different countries instead of sales amounts?  <br/> |Click the bar chart to open the **PivotChart Fields** list. In the **FactInternetSales** section, select **OrderQuantity** and clear **SalesAmount**. In the **FactResellerSales** section, select **OrderQuantity** and clear **SalesAmount**. The bar chart updates to display order quantities across the different countries.  <br/> |

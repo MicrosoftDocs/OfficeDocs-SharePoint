@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
 
 # The Security Token Service is not available (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** The Security Token Service is not available. 
   
@@ -58,4 +58,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
     
 **Resolution: Update the STS certificate**
 
- Confirm whether the STS certificate has expired by looking for Windows Application event log Event ID 8311 for source "SharePoint Foundation", category Topology, and with "NotTimeValid" in the message. This indicates an expired STS certificate. For more information on updating the STS certificate, please see [Replace the STS certificate for SharePoint Server](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/SharePoint/SharePointServer/administration/replace-the-sts-certificate.md).
+ Confirm whether the STS certificate has expired by looking for Windows Application event log Event ID 8311 for source "SharePoint Foundation", category Topology, and with "NotTimeValid" in the message. This indicates an expired STS certificate. For more information on updating the STS certificate, please see [Replace the STS certificate for SharePoint Server](/SharePoint/administration/replace-the-sts-certificate).
