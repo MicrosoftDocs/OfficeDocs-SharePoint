@@ -80,7 +80,7 @@
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ### Stream Reference
-#### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
+#### [Bulk upload Stream source paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
 ### [Scan and assess a SharePoint Server site with SPMT](spmt-scan.md)
 ### [SharePoint Migration Tool (SPMT) scan assessment error codes](spmt-scan-risk-codes.md)
@@ -129,7 +129,7 @@
 #### [Locked Sites](migration-assessment-scan-locked-sites.md)
 #### [Long OneDrive URLs](migration-assessment-scan-long-onedrive-urls.md)
 #### [Managed Metadata Columns](migration-assessment-scan-managed-metadata-columns.md)
-#### [Master Pages](migration-assessment-scan-master-pages.md)
+#### [Main Pages](migration-assessment-scan-master-pages.md)
 #### [Publishing Pages](migration-assessment-scanpublishing-pages.md)
 #### [Publishing Sites](migration-assessment-scan-publishing-sites.md)
 #### [Sandbox Solution](migration-assessment-scan-sandbox-solution.md)
