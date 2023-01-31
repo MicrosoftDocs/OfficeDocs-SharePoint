@@ -29,7 +29,7 @@ Migration Manager lets you use a comma-separated (CSV) file to bulk upload your 
 - **UTF-8**.  The encoding of the CSV file must be UTF-8.
 
 
-## Using a comma-separated value (CSV) file for bulk upload
+## Create and format your upload file
 
 Create a single column CSV file. There is only 1 column, source path.
 
