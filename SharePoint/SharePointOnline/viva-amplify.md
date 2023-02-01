@@ -44,18 +44,24 @@ To create a campaign, perform the following steps:
 7. Select **Add to list**.
    The chosen person is added as a member of your campaign.
 8. Select **Create a campaign**.
-   The campaign is successfully created.
+   The campaign is successfully created and is listed on the **Amplify Hub** screen.
 
-Once you've created your campaign, the created campaign screen appears, and it displays the detail of the created campaign. 
+Once your campaign is displayed on the **Amplify Hub** screen, select the campaign. You're taken to the screen that is specific to the created campaign.
 
-From this screen, select **Amplify Template** under the **Create** pane.
+1. Select **Amplify Template** under the **Create** pane.
 
-:::image type="content" source="campaign-screen.png" alt-text="The screen displaying details of the created campaign.":::
+   :::image type="content" source="campaign-screen.png" alt-text="The screen displaying details of the created campaign.":::
 
-You're taken to the **Distribution channels** screen.
+   You're taken to the screen on which the **Distribution channels** tab is selected by default.
 
-> [!NOTE]
-> Currently, Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels. 
+   :::image type="content" source="media/distribution-channels-screen.png" alt-text="Distribution channels screen you're taken to by default after selecting Amplify Template":::
+
+   > [!NOTE]
+   > Currently, Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels. 
+
+2. Enter a title in the portion that reads **Add a title**
+
+   :::image type="content" source="media/add-a-title.png" alt-text="The portion in the Distribution channels screen at which you enter a title.":::
 
 1. Hover over the screen and you'll be presented with the **+** icon.
 1. Select this icon, and the list of web parts are launched.
@@ -67,19 +73,41 @@ You're taken to the **Distribution channels** screen.
    > [!NOTE]
    > You have the auto save option and hence you don't need to manually save the content and for every subsequent change made.
 
-    When you use the chosen web part to make changes, [deviations](#deviations) occur. For more information, see [Deviations](#deviations) and [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
-  
+       For example: 
+    1. If you select the **Image** web part to insert images, you're taken to the **Recent images** screen.
+        1. Select **Stock images** and select the image you want to import into the article.
+        1. Once the image is imported into the article, click anywhere on the image pane. You're presented with the options bar.
+        :::image type="content" source="media/options-bar.png" alt-text="The menu bar for the web parts.":::
+        1. Click the "pencil" icon. The **Image** pane on the right side of the screen is displayed.
+           :::image type="content" source="media/image-pane.png" alt-text="The Image pane.":::
+           You can enter a link for the image to be accessed, text on the image by enabling the **Add text over image** option.
+
+    1. If you select the **Text** web part to add text, text boxes are displayed for you to add text.
+      :::image type="content" source="media/text-boxes-for-text-web-part.png" alt-text="Text boxes displayed after selecting Text web part.":::
+
+      You can add theme colors, insert images or tables within the text boxes.
+
+    1. If you select the **People** web part to add names and/or email address(es), you're presented with portions in which you can add names or email addresses.
+      :::image type="content" source="media/portion-for-email-name.png" alt-text="The portions in which you can add email addresses or names.":::
+        1. Click anywhere on the **People profiles** pane. You're presented with the options bar.
+           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The menu bar for the web parts.":::
+           You can enter names and/or email address(es) in **Small**, **Medium**, or **Large** layouts.
+
     > [!NOTE]
-    > Deviations are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel.
+    > Once you make changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the X button on the right-side pane. You're taken to **Distribution channels** pane.
     > 
-    > There are no deviations in the web parts when they're being trnspiled to the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
+    > :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
 
-1. Once you've created the content, select the **Preview** icon under **Outlook** that's on the **Distribution channels** pane on the right side of the screen.
+2. Once you've created content and made changes, click the preview icon under the distribution channel through which you want the content to be published.
 
-   > [!NOTE]
-   > You can also select **SharePoint**. In this procedure, selection of **Outlook** is emphasized because certain deviations occur. For more information on deviations, see [Deviations](#deviations).
+   :::image type="content" source="media/preview-icon.png" alt-text="The preview icon associated with the distribution channels.":::
 
-   You'll find the deviations specified in [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel), specific to the web part - **Image**/**Text**/**People** - you've chosen.
+When you make these changes through the web parts and preview the created content with its formatting changes, [deviations](#deviations) occur.
+
+> [!NOTE]
+> Deviations are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel. For more information, see [Deviations](#deviations) and [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+>
+> There are no deviations in the web parts when they're being transpiled to the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
 
 ## Deviations
 
