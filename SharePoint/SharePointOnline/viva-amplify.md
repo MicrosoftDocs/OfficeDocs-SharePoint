@@ -98,7 +98,7 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
     > 
     > :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
 
-2. Once you've created content and made changes, click the preview icon under the distribution channel through which you want the content to be published.
+2. Once you've created content and made changes, click the "preview" icon under the distribution channel through which you want the content to be published.
 
    :::image type="content" source="media/preview-icon.png" alt-text="The preview icon associated with the distribution channels.":::
 
@@ -108,6 +108,12 @@ When you make these changes through the web parts and preview the created conten
 > Deviations are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel. For more information, see [Deviations](#deviations) and [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 >
 > There are no deviations in the web parts when they're being transpiled to the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
+
+For example, when you click the "preview" icon under the **Outlook** distribution channel, you're presented with a message that reads as follows:
+
+**Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.**
+
+:::image type="content" source="media/VivaAmplify.png" alt-text="The deviation message for the Outlook distribution channel.":::
 
 ## Deviations
 
