@@ -73,7 +73,7 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
    > [!NOTE]
    > You have the auto save option and hence you don't need to manually save the content and for every subsequent change made.
 
-       For example: 
+   For example: 
     1. If you select the **Image** web part to insert images, you're taken to the **Recent images** screen.
         1. Select **Stock images** and select the image you want to import into the article.
         1. Once the image is imported into the article, click anywhere on the image pane. You're presented with the options bar.
@@ -90,7 +90,7 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
     1. If you select the **People** web part to add names and/or email address(es), you're presented with portions in which you can add names or email addresses.
       :::image type="content" source="media/portion-for-email-name.png" alt-text="The portions in which you can add email addresses or names.":::
         1. Click anywhere on the **People profiles** pane. You're presented with the options bar.
-           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The menu bar for the web parts.":::
+           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The menu bar containing options.":::
            You can enter names and/or email address(es) in **Small**, **Medium**, or **Large** layouts.
 
     > [!NOTE]
