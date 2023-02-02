@@ -17,7 +17,7 @@ ms.custom:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-ms.localizationpriority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_admin
 - M365-collaboration
