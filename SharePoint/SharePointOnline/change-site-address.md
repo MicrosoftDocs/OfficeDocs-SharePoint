@@ -165,7 +165,7 @@ The OneDrive sync app will automatically detect and seamlessly transfer syncing 
 If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
 
 **Microsoft 365 groups**<br>
-The email address of the group will not be renamed. The group name is updated only if site name is updated during the rename process. 
+The email address of the group will not be renamed. The group name is updated only if the site name is updated during the rename process. 
 
 **Teams (for Microsoft 365 group-connected sites)**<br>
 When the site address change is complete, users will be able to access their SharePoint files in the Teams app, with the following limitations.
