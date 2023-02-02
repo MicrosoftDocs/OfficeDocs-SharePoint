@@ -164,6 +164,9 @@ Site customizations and embedded code that refer to URLs might need to be fixed 
 The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
 If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
 
+**Microsoft 365 groups**<br>
+The email address of the group will not be renamed. The group name is updated only if site name is updated during the rename process. 
+
 **Teams (for Microsoft 365 group-connected sites)**<br>
 When the site address change is complete, users will be able to access their SharePoint files in the Teams app, with the following limitations.
 
