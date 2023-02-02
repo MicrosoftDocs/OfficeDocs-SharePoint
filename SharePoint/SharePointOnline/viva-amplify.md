@@ -71,7 +71,7 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
 1. Select the web part you want and create the content.
 
    > [!NOTE]
-   > You have the auto save option and hence you don't need to manually save the content and for every subsequent change made.
+   > You have the auto save option and hence you don't need to manually save the content for every subsequent change made.
 
    For example: 
     1. If you select the **Image** web part to insert images, you're taken to the **Recent images** screen.
