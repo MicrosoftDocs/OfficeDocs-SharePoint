@@ -34,7 +34,6 @@
 #### [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 ## [Classic to modern]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
-### [Microsoft Viva Amplify - Private preview](viva-amplify.md#microsoft-viva-amplify-private-preview))
 ### [Customization options](extend-and-develop.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
 ### [Automatic modernization of classic home pages](disable-auto-modernization-classic-home-pages.md)
