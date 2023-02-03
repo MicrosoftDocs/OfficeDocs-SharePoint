@@ -223,7 +223,7 @@
 ### [Updated Product Servicing Policy for SharePoint Server 2019](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2019.md)
 ### [Updated Product Servicing Policy for SharePoint Server 2016](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-2016.md)
 ### [Updated Product Servicing Policy for SharePoint 2013](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2013.md)
-#### [SharePoint Server Subscription Edition FAQ](../product-servicing-policy/faq/sp-se-faq.yml)
+#### [SharePoint Server Subscription Edition FAQ](../product-servicing-policy/faq/faq-subscription-edition.yml)
 ## [Sites](../sites/sites.md)
 ### [Plan sites and site collections](../sites/plan-sites-and-site-collections.md)
 #### [Sites and site collections overview](../sites/sites-and-site-collections-overview.md)
