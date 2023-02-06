@@ -121,7 +121,7 @@ For information on the default properties of sections and its columns, see [Add 
 
 However, the following formatting changes have occurred in the default properties of sections and its columns:
 
-1. When you use the **Two columns** and **Three columns** layout options to organize your content, the content gets stacked into a single column like the content published using the **One Column** layout option.
+1. When you use the **Two columns**, **Three columns**, **One-third left**, or the **One-third right** layout options to organize your content, the content gets stacked into a single column like the content published using the **One Column** layout option.
 
    :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook.":::
 
