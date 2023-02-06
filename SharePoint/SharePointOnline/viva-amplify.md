@@ -93,12 +93,10 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
            :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The options bar.":::
            You can enter names and/or email address(es) in **Small**, **Medium**, or **Large** layouts.
 
-    > [!NOTE]
-    > Once you make changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the **X** button on the right-side pane. You're taken to **Distribution channels** pane.
-    > 
-    > :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
+1. Once you've created the content and made changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the **X** button on the right-side pane. You're taken to **Distribution channels** pane.
+   :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
 
-2. Once you've created content and made changes, click the "preview" icon under the distribution channel through which you want the content to be published.
+2. Click the "preview" icon under the distribution channel through which you want the content to be published.
 
    :::image type="content" source="media/preview-icon.png" alt-text="The preview icon associated with the distribution channels.":::
 
@@ -113,7 +111,7 @@ For example, when you click the "preview" icon under the **Outlook** distributio
 
 :::image type="content" source="media/VivaAmplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
 
-When you click the link of this message, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
+When you click the link of the message **Learn more about formatting changes and editing**, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
 ## Formatting changes
 
