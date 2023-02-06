@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Viva Amplify - Private preview"
+title: "Formatting changes for Microsoft Viva Amplify - Private preview"
 ms.reviewer:
 ms.author: v-smandalika
 author: v-smandalika
@@ -17,13 +17,13 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
-description: Learn about Viva Amplify
+description: Learn about the formatting changes in Microsoft Viva Amplify
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
 ---
 
-# Microsoft Viva Amplify - Private preview
+# Formatting changes for Microsoft Viva Amplify - Private preview
 
 > [!NOTE]
 > Microsoft Viva Amplify is currently in Private preview and, hence, available only to Private preview customers.
@@ -46,64 +46,10 @@ To create a campaign, perform the following steps:
 8. Select **Create a campaign**.
    The campaign is successfully created and is listed on the **Amplify Hub** screen.
 
-Once your campaign is displayed on the **Amplify Hub** screen, select the campaign. You're taken to the screen that is specific to the created campaign.
+Once you create content using the created campaign and transpile it to the distribution channels, you'll know and view the formatting changes that occur.
 
-1. Select **Amplify Template** under the **Create** pane.
-
-   :::image type="content" source="media/campaign-screen.png" alt-text="The campaign screen.":::
-
-   You're taken to the screen on which the **Distribution channels** tab is selected by default.
-
-   :::image type="content" source="media/distribution-channels-screen.png" alt-text="The Distribution channels screen you're taken to by default after selecting Amplify Template.":::
-
-   > [!NOTE]
-   > Currently, Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels. 
-
-2. Enter a title in the portion that reads **Add a title**
-
-   :::image type="content" source="media/add-a-title.png" alt-text="The portion in the Distribution channels screen at which you enter a title.":::
-
-1. Hover over the screen and you'll be presented with the **+** icon.
-1. Select this icon, and the list of web parts are launched.
-
-   :::image type="content" source="media/list-of-web-parts.png" alt-text="The list of web parts being displayed.":::
-
-1. Select the web part you want and create the content.
-
-   > [!NOTE]
-   > You have the "auto save" option and hence you don't need to manually save the content for every subsequent change made.
-
-   For example:
-    1. If you select the **Image** web part to insert images, you're taken to the **Recent images** screen.
-        1. Select **Stock images** and select the image you want to import into the article.
-        1. Once the image is imported into the article, click anywhere on the image pane. You're presented with the options bar.
-        :::image type="content" source="media/options-bar.png" alt-text="The options bar for the web parts.":::
-        1. Click the "pencil" icon. The **Image** pane is displayed on the right side of the screen.
-           :::image type="content" source="media/image-pane.png" alt-text="The Image pane.":::
-           You can enter a link for the image to be accessed, and text on the image by enabling the **Add text over image** option.
-
-    1. If you select the **Text** web part to add text, text boxes are displayed for you to add text.
-      :::image type="content" source="media/text-boxes-for-text-web-part.png" alt-text="Text boxes displayed after selecting Text web part.":::
-
-      You can add theme colors, insert images or tables within the text boxes.
-
-    1. If you select the **People** web part to add names and/or email address(es), you're presented with portions in which you can add names or email addresses.
-      :::image type="content" source="media/portion-for-email-name.png" alt-text="The portions in which you can add email addresses or names.":::
-        1. Click anywhere on the **People profiles** pane. You're presented with the options bar.
-           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The options bar.":::
-           You can enter names and/or email address(es) in **Small**, **Medium**, or **Large** layouts.
-
-1. Once you've created the content and made changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the **X** button on the right-side pane. You're taken to **Distribution channels** pane.
-   :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
-
-2. Click the "preview" icon under the distribution channel through which you want the content to be published.
-
-   :::image type="content" source="media/preview-icon.png" alt-text="The preview icon associated with the distribution channels.":::
-
-   On clicking the "preview" icon, you'll know and view the formatting changes that occur.
-
-   > [!NOTE]
-   > Formatting changes are applicable only to the **Outlook** distribution channel and not to the **SharePoint** distribution channel because the **Main canvas** screen itself is a type of SharePoint site. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
+> [!NOTE]
+> Formatting changes are applicable only to the **Outlook** distribution channel and not to the **SharePoint** distribution channel because the **Main canvas** screen itself is a type of SharePoint site. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
 
 For example, when you click the "preview" icon under the **Outlook** distribution channel, you're presented with a message that reads as follows:
 
