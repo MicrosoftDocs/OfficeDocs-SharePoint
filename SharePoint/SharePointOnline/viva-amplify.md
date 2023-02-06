@@ -50,11 +50,11 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
 
 1. Select **Amplify Template** under the **Create** pane.
 
-   :::image type="content" source="campaign-screen.png" alt-text="The screen displaying details of the created campaign.":::
+   :::image type="content" source="media/campaign-screen.png" alt-text="The campaign screen.":::
 
    You're taken to the screen on which the **Distribution channels** tab is selected by default.
 
-   :::image type="content" source="media/distribution-channels-screen.png" alt-text="Distribution channels screen you're taken to by default after selecting Amplify Template":::
+   :::image type="content" source="media/distribution-channels-screen.png" alt-text="The Distribution channels screen you're taken to by default after selecting Amplify Template.":::
 
    > [!NOTE]
    > Currently, Microsoft Viva Amplify supports **Outlook** and **SharePoint** distribution channels. 
@@ -66,21 +66,21 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
 1. Hover over the screen and you'll be presented with the **+** icon.
 1. Select this icon, and the list of web parts are launched.
 
-   :::image type="content" source="list-of-web-parts.png" alt-text="The list of web parts being displayed.":::
+   :::image type="content" source="media/list-of-web-parts.png" alt-text="The list of web parts being displayed.":::
 
 1. Select the web part you want and create the content.
 
    > [!NOTE]
-   > You have the auto save option and hence you don't need to manually save the content for every subsequent change made.
+   > You have the "auto save" option and hence you don't need to manually save the content for every subsequent change made.
 
-   For example: 
+   For example:
     1. If you select the **Image** web part to insert images, you're taken to the **Recent images** screen.
         1. Select **Stock images** and select the image you want to import into the article.
         1. Once the image is imported into the article, click anywhere on the image pane. You're presented with the options bar.
-        :::image type="content" source="media/options-bar.png" alt-text="The menu bar for the web parts.":::
-        1. Click the "pencil" icon. The **Image** pane on the right side of the screen is displayed.
+        :::image type="content" source="media/options-bar.png" alt-text="The options bar for the web parts.":::
+        1. Click the "pencil" icon. The **Image** pane is displayed on the right side of the screen.
            :::image type="content" source="media/image-pane.png" alt-text="The Image pane.":::
-           You can enter a link for the image to be accessed, text on the image by enabling the **Add text over image** option.
+           You can enter a link for the image to be accessed, and text on the image by enabling the **Add text over image** option.
 
     1. If you select the **Text** web part to add text, text boxes are displayed for you to add text.
       :::image type="content" source="media/text-boxes-for-text-web-part.png" alt-text="Text boxes displayed after selecting Text web part.":::
@@ -90,11 +90,11 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
     1. If you select the **People** web part to add names and/or email address(es), you're presented with portions in which you can add names or email addresses.
       :::image type="content" source="media/portion-for-email-name.png" alt-text="The portions in which you can add email addresses or names.":::
         1. Click anywhere on the **People profiles** pane. You're presented with the options bar.
-           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The menu bar containing options.":::
+           :::image type="content" source="media/options-bar-people-web-part.png" alt-text="The options bar.":::
            You can enter names and/or email address(es) in **Small**, **Medium**, or **Large** layouts.
 
     > [!NOTE]
-    > Once you make changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the X button on the right-side pane. You're taken to **Distribution channels** pane.
+    > Once you make changes like adding text and links to images, adding tables and theme colors to text, or using multi-sized layouts, click the **X** button on the right-side pane. You're taken to **Distribution channels** pane.
     > 
     > :::image type="content" source="media/distribution-channels-pane.png" alt-text="The Distribution channels pane on the right side of the screen.":::
 
@@ -105,15 +105,13 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
    On clicking the "preview" icon, you'll know and view the formatting changes that occur.
 
    > [!NOTE]
-   > Formatting changes are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
-   >
-   > No formatting changes occur to the web parts of the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
+   > Formatting changes are applicable only to the **Outlook** distribution channel and not to the **SharePoint** distribution channel because the **Main canvas** screen itself is a type of SharePoint site. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
 
 For example, when you click the "preview" icon under the **Outlook** distribution channel, you're presented with a message that reads as follows:
 
 **[Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.](#formatting-changes)**
 
-:::image type="content" source="media/VivaAmplify.png" alt-text="The deviation message for the Outlook distribution channel.":::
+:::image type="content" source="media/VivaAmplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
 
 When you click the link of this message, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
@@ -155,7 +153,7 @@ For the **Outlook** distribution channel, there are:
 
 1. Theme colors for table aren't supported (Table style is changed to **default**.).
 
-   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The deviation of theme colors not being supported in Outlook.":::
+   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The formatting change of theme colors not being supported in Outlook.":::
 
 1. Table Alignment isn't supported. Tables can only be left aligned.
 
