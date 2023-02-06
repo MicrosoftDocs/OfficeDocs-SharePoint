@@ -34,7 +34,7 @@ Once you create a campaign, you can create the content on the **Main canvas** sc
 
 To create a campaign, perform the following steps:
 
-1. Launch the URL https://microsoft.sharepoint-df.com/_layouts/15/viva-amplify.aspx.
+1. Go to the Microsoft Viva Amplify portal.
 2. Provide your credentials and sign in to the Microsoft Viva Amplify portal.
 3. Select **+ Create a campaign**.
    The **Create a new campaign** screen is displayed.
@@ -102,22 +102,24 @@ Once your campaign is displayed on the **Amplify Hub** screen, select the campai
 
    :::image type="content" source="media/preview-icon.png" alt-text="The preview icon associated with the distribution channels.":::
 
-When you make these changes through the web parts and preview the created content with its formatting changes, [deviations](#deviations) occur.
+   On clicking the "preview" icon, you'll know and view the formatting changes that occur.
 
-> [!NOTE]
-> Deviations are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel. For more information, see [Deviations](#deviations) and [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
->
-> There are no deviations in the web parts when they're being transpiled to the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
+   > [!NOTE]
+   > Formatting changes are applicable only to the **Outlook** distribution channel and not to the SharePoint distribution channel. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
+   >
+   > No formatting changes occur to the web parts of the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site.
 
 For example, when you click the "preview" icon under the **Outlook** distribution channel, you're presented with a message that reads as follows:
 
-**Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.**
+**[Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.](#formatting-changes)**
 
 :::image type="content" source="media/VivaAmplify.png" alt-text="The deviation message for the Outlook distribution channel.":::
 
-## Deviations
+When you click the link of this message, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
-Deviations can be classified as:
+## Formatting changes
+
+Formatting changes can be classified as:
 
 1. **Modifications to certain web parts**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
 
@@ -128,17 +130,18 @@ Deviations can be classified as:
 
 1. **Removal of certain web parts**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
 
-For detailed information about such other deviations in web parts for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+For detailed information about such other formatting changes in web parts for the **Outlook** distribution channel, see [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
 
-### Deviations in Outlook distribution channel
+### Formatting changes in Outlook distribution channel
 
 For the **Outlook** distribution channel, there are:
 
-- [Deviations in Image web part](#deviations-in-image-web-part)
-- [Deviations in Text web part](#deviations-in-text-web-part)
-- [Deviations in People web part](#deviations-in-people-web-part)
+- [Formatting changes in Image web part](#formatting-changes-in-image-web-part)
+- [Formatting changes in Text web part](#formatting-changes-in-text-web-part)
+- [Formatting changes in People web part](#formatting-changes-in-people-web-part)
+- [Formatting changes in Section layout](#formatting-changes-in-sections-layout)
 
-#### Deviations in Image web part
+#### Formatting changes in Image web part
 
 1. Text on the image isn't supported (Text will be dropped.).
 
@@ -148,7 +151,7 @@ For the **Outlook** distribution channel, there are:
 
    :::image type="content" source="media/image-hyperlink-not-supported.png" alt-text="The image hyperlink not being supported in Outlook.":::
 
-#### Deviations in Text web part
+#### Formatting changes in Text web part
 
 1. Theme colors for table aren't supported (Table style is changed to **default**.).
 
@@ -158,7 +161,7 @@ For the **Outlook** distribution channel, there are:
 
    :::image type="content" source="media/table-alignment-not-supported.png" alt-text="The table alignment not being supported in Outlook.":::
 
-#### Deviations in People web part
+#### Formatting changes in People web part
 
 The **Small**, **Medium**, and **Large** layouts are supported.
 
@@ -166,7 +169,7 @@ The **Small**, **Medium**, and **Large** layouts are supported.
 
 However, even if you transpile the content using the **Medium** and **Large** layouts, the descriptions and links added in these two layouts will be dropped. The content's output defaults to the **Small** layout view.  
 
-#### Sections layout
+#### Formatting changes in Sections layout
 
 **Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
 
@@ -174,7 +177,7 @@ Each section consists of 1-3 columns.
 
 For information on the default properties of sections and its columns, see [Add sections and columns on a SharePoint modern page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
-However, the following deviations have occurred in the default properties of sections and its columns:
+However, the following formatting changes have occurred in the default properties of sections and its columns:
 
 1. When you use the **Two columns** and **Three columns** layout options to organize your content, the content gets stacked into a single column like the content published using the **One Column** layout option.
 
