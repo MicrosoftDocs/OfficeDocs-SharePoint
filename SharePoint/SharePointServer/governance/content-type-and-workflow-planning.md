@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 7af845bc-f245-459f-871d-0ee06c64a184
 description: "Learn how to integrate content types and workflows into your SharePoint Server document management solution."

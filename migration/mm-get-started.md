@@ -27,20 +27,20 @@ description: "Learn about how the Migration Manager tool in the modern SharePoin
 
 # Overview: Migrate your file shares to Microsoft 365
 
-Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, and world-class security.  Migration Manager helps you get there.
+Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, world-class security, and the rich features offered in Microsoft SharePoint, Teams, and OneDrive. Migration Manager helps you get there.
 
-With the ability to set up multiple computers as "agents", Migration Manager lets you scale your migration project as much as you need. Located in the modern SharePoint Admin Center, Migration Manager guides you through the setup of your agents and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
+With the ability to set up multiple servers as "agents", Migration Manager lets you scale your migration project as much as you need. Located in the modern SharePoint Admin Center, Migration Manager guides you through the setup of your agents and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports. Migration Manager also provides advanced features such as grouping agents to optimize performance, conduct pre-scans, and implement file exclusion metrics.
 
 ## How does it work?
 
 
 ![Set up migration agents](media/mm-flow-3box.png)
 
-- **Setup migration agents.** Download and install a setup file on each computer or virtual machine you want to connect to Migration Manager.
+- **Setup migration agents.** Download and install a lightweight agent on each computer or virtual machine you want to connect to Migration Manager. The agent runs as a service and authenticates to both your Microsoft 365 destination and your on-premises source.
 
-- **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination). Your tasks will be automatically assigned to the next available agent.
+- **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination), or upload a CSV file for multiple user migrations. Your tasks will be automatically assigned to the next available agent in the assigned agent group.
 
-- **Monitor and report.** Monitor progress across all agents and access reports from one central location. 
+- **Monitor and report.** Monitor progress across all agents, download summaries of migration jobs, and download detailed data on each individual migration.
 
 ## File size migration limit
 

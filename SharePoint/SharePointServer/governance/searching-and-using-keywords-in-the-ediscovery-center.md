@@ -13,7 +13,7 @@ ms.topic: article
 ms.custom:
 - DiscoverySearchSyntaxTips
 - WSSEndUser_DiscoverySearchSyntaxTips
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - tier1
