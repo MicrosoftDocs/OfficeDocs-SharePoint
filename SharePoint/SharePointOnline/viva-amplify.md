@@ -97,7 +97,7 @@ For the **Outlook** distribution channel, there are:
 
 1. Theme colors for table aren't supported (Table style is changed to **default**.).
 
-   :::image type="content" source="media/theme-color-not-supported.png" alt-text="":::
+   :::image type="content" source="media/theme-color-not-supported.png" alt-text="The screen depicting the formatting change of theme color not being supported":::
 
 1. Table Alignment isn't supported. Tables can only be left aligned.
 
