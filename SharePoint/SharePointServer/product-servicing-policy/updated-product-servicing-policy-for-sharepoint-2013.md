@@ -30,8 +30,8 @@ To ensure that customers have a high-quality experience, Microsoft is adopting t
 
 - SharePoint Server 2013 Service Pack 1 and SharePoint Foundation 2013 Service Pack 1 will remain the minimum supported build through to the end of mainstream support on April 10, 2018.
 - Starting with extended support on April 11, 2018 Microsoft will update the minimum supported build of SharePoint Server 2013 and SharePoint Foundation 2013.
-- To remain supported, you must be running SharePoint Server 2013's supported build or its higher version.
-- If you contact Microsoft support and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before Microsoft Support team can offer any further assistance.
+- To remain supported, you must be running SharePoint Server 2013's minimum supported build or its higher version.
+- If you contact the Microsoft support team and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before the Microsoft Support team can offer any further assistance.
   
 The product servicing policy timeline for SharePoint Server 2013 and SharePoint Foundation 2013 is described in the following table:
   

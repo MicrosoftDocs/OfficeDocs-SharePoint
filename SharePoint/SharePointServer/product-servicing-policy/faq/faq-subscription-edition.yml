@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: FAQs for SharePoint Server Subscription Edition product servicing policy
-  description: This article describes the frequently asked questions (FAQs) pertaining to the product servicing policy of the SharePoint Server Subscription Edition.
+  description: This article describes the frequently asked questions (FAQs) pertaining to the product servicing policy of SharePoint Server Subscription Edition.
   author: v-smandalika
   ms.author: v-smandalika
   ms.service: sharepoint-server-itpro
@@ -9,7 +9,7 @@ metadata:
   ms.date: 02/03/2023
 title: FAQs for SharePoint Server Subscription Edition product servicing policy
 summary: |
-  This article describes the questions about the product servicing policy for SharePoint Server Subscription Edition, and the answers for these questions.
+  This article describes frequently asked questions about the product servicing policy for SharePoint Server Subscription Edition, and the answers to those questions.
 
 sections:
   - name: Frequently Asked Questions
@@ -18,7 +18,7 @@ sections:
         answer: In previous versions of SharePoint Server, the support end date for each PU was tied to the anniversary of the product’s RTM date. This correlation effectively created a single month each year where customers had to update their SharePoint Server farms to remain in support. SharePoint Server Subscription Edition introduces our new continuous update model, also known as "evergreen". This update model is more flexible and allows Microsoft to introduce new feature experiences regularly. Giving each PU its own one-year window of support ensures that customers are up to date with the latest functionality, performance, and stability improvements while also giving customers flexibility to update their farms in a timeframe that works best for them.
           
       - question: Why is Microsoft adopting a one-year window of support for each PU?
-        answer: A one-year window of support for each PU balances the need to stay up to date with the latest functionality, performance, and stability improvements. This approach helps with the awareness that a faster update cadence may be difficult to achieve in some SharePoint Server environments. Microsoft encourages customers to go beyond these minimum supportability requirements and deploy new PUs as soon as they’re available, where possible.
+        answer: A one-year window of support for each PU balances the need to stay up to date with the latest functionality, performance, and stability improvements with the awareness that a faster update cadence may be difficult to achieve in some SharePoint Server environments. Microsoft encourages customers to go beyond these minimum supportability requirements and deploy new PUs as soon as they’re available, where possible.
           
       - question: Will Microsoft release service packs for SharePoint Server Subscription Edition?
         answer: No, Microsoft has no plans to release service packs for SharePoint Server Subscription Edition. Functionality, performance, and stability improvements for SharePoint Server Subscription Edition are delivered by way of our monthly PUs. New feature experiences are delivered in our Feature Updates.

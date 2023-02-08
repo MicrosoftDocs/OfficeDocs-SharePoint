@@ -30,8 +30,8 @@ To ensure that customers have a high-quality experience, Microsoft is adopting t
 
 - All SharePoint Server 2016 builds will be supported for at least one year from its release date.
 - Microsoft will update the minimum supported build of SharePoint Server 2016 on each anniversary of General Availability (GA).
-- You must be running SharePoint Server 2016's supported build or its higher version to remain supported.
-- If you contact Microsoft support and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before Microsoft Support team can offer any further assistance.
+- You must be running SharePoint Server 2016's minimum supported build or its higher version to remain supported.
+- If you contact the Microsoft support team and your farm isn't running the minimum supported build or its higher version, you might be required to upgrade to that build before the Microsoft Support team can offer any further assistance.
 
 The product servicing policy timeline for SharePoint Server 2016 is described in the following table:
 
