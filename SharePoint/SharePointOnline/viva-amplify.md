@@ -55,7 +55,7 @@ For example, when you click the "preview" icon under the **Outlook** distributio
 
 **[Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.](#formatting-changes)**
 
-:::image type="content" source="media/VivaAmplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
+:::image type="content" source="media/viva-amplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
 
 When you click the link of the message **Learn more about formatting changes and editing**, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
@@ -87,7 +87,7 @@ For the **Outlook** distribution channel, there are:
 
 1. Text on the image isn't supported (Text will be dropped.).
 
-   :::image type="content" source="media/text-on-image-not-supported.png" alt-text="The text on the image not being supported in Outlook.":::
+   :::image type="content" source="media/text-image-not-supported.png" alt-text="The text on the image not being supported in Outlook.":::
 
 1. Image Hyperlink isn't supported. Transpiled images aren't clickable to link.
 
@@ -97,7 +97,7 @@ For the **Outlook** distribution channel, there are:
 
 1. Theme colors for table aren't supported (Table style is changed to **default**.).
 
-   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The formatting change of theme colors not being supported in Outlook.":::
+   :::image type="content" source="media/theme-color-not-supported.png" alt-text="":::
 
 1. Table Alignment isn't supported. Tables can only be left aligned.
 
@@ -127,7 +127,7 @@ However, the following formatting changes have occurred in the default propertie
 
 1. Collapsible sections aren't supported, including section titles (which will be dropped).
 
-   :::image type="content" source="media/option-to-make-sections-collapsible.png" alt-text="The option to make sections collapsible.":::
+   :::image type="content" source="media/option-make-sections-collapsible.png" alt-text="The option to make sections collapsible.":::
    :::image type="content" source="media/section-title-being-dropped.png" alt-text="Section title being dropped.":::
 
 1. Dividers between sections aren't supported.
