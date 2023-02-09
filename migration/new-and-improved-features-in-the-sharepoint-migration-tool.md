@@ -32,6 +32,26 @@ Download and install SPMT using one of the links listed below.
 |:-----|:-----|:-----|:-----|:-----|
 |Last released build|[4.0.124.0](https://aka.ms/spmt-beta-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
 
+## SPMT 4.1?
+
+**New features**
+
+|Feature|Description|
+|:-----|:-----|
+|Workflows|We now support the migration of SharePoint Server 2019 and SharePoint Designer 2019 created workflows to Power Automate.| 
+|Modern Teams|Modern Teams sites can now be migrated to SharePoint|
+|Communication sites|Communication sites can now be migrated to SharePoint|
+Modern site pages|Modern site pages and new posts can be migrated along with the site structure.  If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated|
+|File and folder names|Files or folders with "#" or "%" in their name can be migrated and these special characters retained.|
+
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
 ## SPMT 4.0
 
 SPMT 4.0 is a major new release, incorporating new designs and an integrated SharePoint Server assessment feature, giving users a more streamlined and scenario driven experience.
