@@ -1,6 +1,6 @@
 ---
 title: "Add columns to a content type"
-ms.reviewer: anfra
+ms.reviewer: shrganguly
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -90,6 +90,9 @@ To make a column required, optional, or hidden, follow these steps.
 6. Under **Update sites and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, check the box.
 
 7. Select **Save**.
+
+> [!NOTE]
+>  In case of updating column name for an existing site column that is part of a published content type from the content type hub, please ensure that the language of the target site and language of the browser are same for the latest site column name to appear after correctly after the sync completes.
 
 ## Related topics
 
