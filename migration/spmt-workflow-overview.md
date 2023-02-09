@@ -19,14 +19,22 @@ ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Overview of how to migrate your SharePoint Server workflows to Power Automate using the SharePoint Migration Tool (SPMT)."
 ---
-# Overview: Migrate SharePoint Server 2010 & 2013 workflows to Power Automate
+# Overview: Migrate SharePoint Server workflows to Power Automate
 
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
-Workflows created with SharePoint Server 2010 or 2013, or SharePoint Server Designer 2010 or 2013,can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). The following workflows can be migrated:
+Workflows created with SharePoint Server or SharePoint Server Designer can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). 
 
-**SharePoint Server 2010 & 2013 out of the box (OOTB) workflows:**
+## What is supported
+
+**Supported versions**
+
+SharePoint Server 2010, 2013 workflows
+SharePoint Designer 2010, 2013 workflows
+
+
+**Supported SharePoint Server & SharePoint Designer out of the box (OOTB) workflows:**
 - Approval workflow
 - Collect feedback workflow
 - Collect signature workflow

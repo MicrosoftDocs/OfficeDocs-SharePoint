@@ -38,12 +38,12 @@ Download and install SPMT using one of the links listed below.
 
 |Feature|Description|
 |:-----|:-----|
-|Workflows|We now support the migration of SharePoint Server 2019 and SharePoint Designer 2019 created workflows to Power Automate.| 
+|SharePoint 2019|We now support the migration of SharePoint Server 2019 |
+|Workflows|SharePoint Designer 2010 and 2013 created workflows can now be migrated to Power Automate.| 
 |Modern Teams|Modern Teams sites can now be migrated to SharePoint|
 |Communication sites|Communication sites can now be migrated to SharePoint|
 Modern site pages|Modern site pages and new posts can be migrated along with the site structure.  If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated|
 |File and folder names|Files or folders with "#" or "%" in their name can be migrated and these special characters retained.|
-
 
 **Improvements**
 

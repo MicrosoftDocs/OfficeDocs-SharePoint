@@ -51,6 +51,7 @@
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
+#### [Sharepoint Designer workflows](spmt-workflow-migration-spd.md)
 #### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
