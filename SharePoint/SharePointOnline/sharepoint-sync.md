@@ -29,6 +29,18 @@ To upload files to the team site, users can simply copy or move them to the site
 
 Windows 10 devices come with the OneDrive sync app installed. Office 2016 and later installations also have the sync app installed.
 
+## SharePoint file sync and OneDrive shortcuts
+
+Users have two options when syncing files in SharePoint libraries and Teams. They can [sync files directly from the library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88) or they can [add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder.
+
+We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the file sync option from the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
+
+```PowerShell
+Set-SPOTenant -HideSyncButtonOnTeamSite $true
+```
+
+## Related topics
+
 [Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)
 
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
