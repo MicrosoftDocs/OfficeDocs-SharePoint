@@ -141,8 +141,8 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
 
     Enter the following preference key to enable the setting:
-•	<key>EnableSyncAdminReports</key>
-<integer>1</integer
+<br/>\<key\>EnableSyncAdminReports\</key\><br>
+<br/><integer>1</integer><br>
 
 
 10. Refresh the preferences cache.
