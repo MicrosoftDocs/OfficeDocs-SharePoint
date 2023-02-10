@@ -31,9 +31,14 @@ Windows 10 devices come with the OneDrive sync app installed. Office 2016 and la
 
 ## SharePoint file sync and OneDrive shortcuts
 
-Users have two options when syncing files in SharePoint libraries and Teams. They can [sync files directly from the library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88) or they can [add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder.
+Users have two options when syncing files in SharePoint libraries and Teams. They can:
 
-We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the file sync option from the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
+- [Add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33)
+- [Use the Sync button in the document library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88)
+
+Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder.
+
+We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the file sync option from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
 
 ```PowerShell
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
