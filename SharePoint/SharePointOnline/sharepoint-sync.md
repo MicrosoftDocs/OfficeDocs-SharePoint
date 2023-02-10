@@ -38,7 +38,7 @@ Users have two options when syncing files in SharePoint libraries and Teams. The
 
 Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder.
 
-We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the file sync option from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
+We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the Sync button from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
 
 ```PowerShell
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
