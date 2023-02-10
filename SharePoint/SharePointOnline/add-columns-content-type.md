@@ -92,7 +92,7 @@ To make a column required, optional, or hidden, follow these steps.
 7. Select **Save**.
 
 > [!NOTE]
->  In case of updating column name for an existing site column that is part of a published content type from the content type hub, please ensure that the language of the target site and language of the browser are same for the latest site column name to appear after correctly after the sync completes.
+>  When you update the column name of an existing site column that is part of a published content type from the content type hub, ensure that the language of the target site and the language of the browser are the same for the latest site column name to appear correctly after the sync completes.
 
 ## Related topics
 
