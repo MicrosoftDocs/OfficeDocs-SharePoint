@@ -142,7 +142,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
     Enter the following preference key to enable the setting:
 <br/>\<key\>EnableSyncAdminReports\</key\><br>
-<br/><integer>1</integer><br>
+<br/></integer\>1</integer\><br>
 
 
 10. Refresh the preferences cache.
