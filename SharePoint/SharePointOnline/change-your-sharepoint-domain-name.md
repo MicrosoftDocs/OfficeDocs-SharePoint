@@ -17,7 +17,7 @@ ms.custom:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-ms.localizationpriority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_admin
 - M365-collaboration
@@ -36,7 +36,7 @@ description: "Learn about changing the domain name in your SharePoint and OneDri
 
 When you first signed up for Microsoft 365, you created an onmicrosoft.com domain. Even if you later added a custom domain, the original onmicrosoft.com domain is used for all your SharePoint and OneDrive URLs. 
 
-If your organization has gone through a rebranding, merger, or acquisition and needs to change the domain in your SharePoint and OneDrive URLs, you can now do this using PowerShell. For example, if your organization name changed from Contoso to Fabrikam, you can now change your SharePoint URLs from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
+If your organization has gone through a rebranding, merger, or acquisition and needs to change the domain in your SharePoint and OneDrive URLs, you can do this using PowerShell. For example, if your organization name changed from Contoso to Fabrikam, you can change your SharePoint URLs from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 

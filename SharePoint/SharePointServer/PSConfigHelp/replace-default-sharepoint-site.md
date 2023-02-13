@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:
@@ -25,6 +25,6 @@ description: "Summary: Learn how to replace the default SharePoint site in Share
   
 When you perform an upgrade and an existing SharePoint product is already installed, a default SharePoint site might already exist on port 80.
   
-If you are certain that the existing default SharePoint web site is not required, you can disable the existing site and create a new one on port 80, or you can choose a different port on which to host the new site .
+If you're certain that the existing default SharePoint web site isn't required, you can disable the existing site and create a new one on port 80, or you can choose a different port on which to host the new site.
   
 
