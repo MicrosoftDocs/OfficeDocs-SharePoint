@@ -2,36 +2,20 @@
 
 
 
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/31/2023 | [Step 3: Copy to migrations tab for Dropbox migration](/SharepointMigration/mm-dropbox-step3-copy-to-migrations) | modified |
+| 1/31/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+| 1/31/2023 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 1/31/2023 | [Upload file share sources to Migration Manager using a CSV file.](/SharepointMigration/mm-fileshare-source-scan-csv-upload) | added |
+
+
 ## Week of January 02, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 1/6/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
-
-
-## Week of December 12, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/13/2022 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | modified |
-| 12/16/2022 | [SharePoint Migration Tool assessment risk errors ](/SharepointMigration/spmt-scan-risk-codes) | added |
-| 12/16/2022 | [Scan and review a SharePoint Server site using SPMT](/SharepointMigration/spmt-scan) | added |
-| 12/16/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 12/16/2022 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
-
-
-## Week of December 05, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/6/2022 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
-| 12/6/2022 | [Manage Loop components in SharePoint](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
-| 12/7/2022 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | added |
-| 12/7/2022 | Migration Manager error codes | removed |
-| 12/7/2022 | [Migration Manager File Share migration reports](/SharepointMigration/mm-reports) | modified |
-| 12/7/2022 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | modified |
-| 12/8/2022 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | modified |
-| 12/9/2022 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | modified |

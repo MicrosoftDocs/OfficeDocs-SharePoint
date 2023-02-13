@@ -38,7 +38,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Channel** - A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard*, *private*, and *shared*.
 
-- **Standard channel** - A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
+- **Standard channel** - A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels. It always shows up first in a team's list of channels, and it can't be deleted (every team must have at least one channel). 
 
 - **[Private channel](/MicrosoftTeams/private-channels)** - A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
