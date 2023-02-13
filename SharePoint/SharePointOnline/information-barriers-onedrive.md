@@ -208,6 +208,8 @@ Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_on
 
 When you add segments to a OneDrive, the site's IB mode is automatically updated to *Explicit*. An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive.
 
+If you've enabled information barriers in your organization after February 15, 2023 and configured OneDrive for information barriers for multi-segment support, see [Multi-segment support for users in OneDrive](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-onedrive) for more information about the multi-segment user experience and OneDrive.
+
 To remove segment from a OneDrive, run the following command.  
 
 ```PowerShell
