@@ -207,7 +207,9 @@ Set-SPOTenant -IBImplicitGroupBased $true
 
 ## View and manage segments as an administrator
 
-SharePoint Administrators or Global Administrators can view and manage segments on a SharePoint site. Your organization can have up to 5,000 segments and users can be assigned to multiple segments.
+SharePoint Administrators or Global Administrators can view and manage segments on a SharePoint site. Your organization can have up to 5,000 segments and users can be assigned to multiple segments. 
+
+If you've enabled information barriers in your organization after February 15, 2023 and configured OneDrive for information barriers for multi-segment support, see [Multi-segment support for users in SharePoint Online](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-sharePoint-online) for more information about the multi-segment user experience and SharePoint.  
 
 View and manage information barriers segments as follows:
 
