@@ -1,5 +1,5 @@
 ---
-title: Hybrid picker in the SharePoint admin center
+title: Hybrid Configuration Wizard in the SharePoint admin center
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -20,29 +20,29 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: dcac4cbf-7840-470a-9712-3b968c4f06d0
-description: Learn how to use the Hybrid Picker wizard in the SharePoint admin center.
+description: Learn how to use the Hybrid Configuration wizard in the SharePoint admin center.
 
 ---
 
-# Hybrid picker in the SharePoint admin center
+# Hybrid Configuration Wizard in the SharePoint admin center
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
-## What is the Hybrid Picker?
+## What is the Hybrid Configuration Wizard?
 
-Hybrid Picker is a wizard that can be downloaded to your SharePoint Server from Microsoft 365. The wizard helps automate certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365. The Hybrid Picker wizard is your assistant, designed to do some of the work for you.
+Hybrid Configuration Wizard is a wizard that can be downloaded to your SharePoint Server from Microsoft 365. The wizard helps automate certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365. The Hybrid Configuration Wizard is your assistant, designed to do some of the work for you.
 
-Use the Hybrid Picker wizard to redirect OneDrive to Microsoft 365, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Picker also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
+Use the Hybrid Configuration Wizard to redirect OneDrive to Microsoft 365, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Configuration Wizard also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
 
-## Using the Hybrid Picker
+## Using the Hybrid Configuration Wizard
 
-First, you need to make sure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Picker wizard.
+First, you need to make sure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Configuration Wizard.
 
- **Prerequisites to run the Picker**
+ **Prerequisites to run the Hybrid Configuration Wizard**
 
-The Picker requires the [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53321) in order to run. 
+The Hybrid Configuration Wizard requires the [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53321) in order to run. 
 
-The following are the account requirements to run the Hybrid Picker. You must be:
+The following are the account requirements to run the Hybrid Configuration Wizard. You must be:
 
 - A member of the Farm Administrators group.
 
@@ -52,16 +52,16 @@ The following are the account requirements to run the Hybrid Picker. You must be
 
 - Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
 
-- Able to launch the Hybrid Picker as a Farm Admin with elevated permissions.
+- Able to launch the Hybrid Configuration Wizard as a Farm Admin with elevated permissions.
 
 > [!IMPORTANT]
-> The Hybrid Picker wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid. 
+> The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid. 
 
-## SharePoint hybrid features offered in the Hybrid Picker
+## SharePoint hybrid features offered in the Hybrid Configuration Wizard
 
-Use the Hybrid Picker to either configure, or assist with the configuration of, hybrids that connect Microsoft 365 and your on-premises SharePoint environment. 
+Use the Hybrid Configuration Wizard to either configure, or assist with the configuration of, hybrids that connect Microsoft 365 and your on-premises SharePoint environment. 
 
-The Hybrid picker helps with or completes the setup of these hybrid features:
+The Hybrid Configuration Wizard helps with or completes the setup of these hybrid features:
 
 - **[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md)** - Choosing this option will redirect on-premises My Sites/OneDrive sites to SharePoint in Microsoft 365 and OneDrive. After the wizard completes, any click of the OneDrive link from on-premises redirects to OneDrive in the cloud. Your redirection is complete and users can begin to migrate any files to their online OneDrive. This option also sets up hybrid user profiles. When users click to view a profile, they will be redirected to the profile in Microsoft 365. 
 
@@ -78,11 +78,11 @@ The Hybrid picker helps with or completes the setup of these hybrid features:
 - **[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Microsoft 365 organization. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
 
 > [!TIP]
-> If the Hybrid Picker is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain. 
+> If the Hybrid Configuration Wizard is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain. 
 
-For all options, the hybrid picker configures a server-to-server trust between your SharePoint Server farm and Microsoft 365.
+For all options, the Hybrid Configuration Wizard configures a server-to-server trust between your SharePoint Server farm and Microsoft 365.
 
-Note that the hybrid picker does not uninstall features. If you run the hybrid picker and deselect a feature that you previously installed, it will remain installed.
+Note that the Hybrid Configuration Wizard does not uninstall features. If you run the Hybrid Configuration Wizard and deselect a feature that you previously installed, it will remain installed.
 
 To get started configuring hybrid features for your environment, choose from the following:
 
@@ -94,9 +94,9 @@ To get started configuring hybrid features for your environment, choose from the
 
 - [Configure hybrid SharePoint taxonomy and hybrid content types](configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)
 
-## Hybrid Picker Prerequisite Checking
+## Hybrid Configuration Wizard Prerequisite Checking
 
-While running the Hybrid Picker, the wizard will check basic SharePoint farm settings that would otherwise block setup of essential hybrid building-blocks (such as OAuth/S2S Trust). This is why you should launch the Hybrid Picker from a server that will be part of your SharePoint hybrid. Some of the settings that are detected and checked while the configuration is run, include whether the:
+While running the Hybrid Configuration Wizard, the wizard will check basic SharePoint farm settings that would otherwise block setup of essential hybrid building-blocks (such as OAuth/S2S Trust). This is why you should launch the Hybrid Configuration Wizard from a server that will be part of your SharePoint hybrid. Some of the settings that are detected and checked while the configuration is run, include whether the:
 
 - SharePoint Server farm exists
 
@@ -118,10 +118,10 @@ The results of this testing can be viewed as a report if any prerequisite isn't 
 
 ## Authentication realm update
 
-As part of hybrid configuration, the hybrid picker updates the on-premises farm's authentication realm to match the Microsoft 365 organization context ID. After the authentication realm is changed, existing SharePoint in Microsoft 365 add-ins fail to authenticate. The hybrid picker will attempt to fix this issue automatically. If the hybrid picker is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint in Microsoft 365](https://support.microsoft.com/help/4010011).
+As part of hybrid configuration, the Hybrid Configuration Wizard updates the on-premises farm's authentication realm to match the Microsoft 365 organization context ID. After the authentication realm is changed, existing SharePoint in Microsoft 365 add-ins fail to authenticate. The Hybrid Configuration Wizard will attempt to fix this issue automatically. If the Hybrid Configuration Wizard is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint in Microsoft 365](https://support.microsoft.com/help/4010011).
 
 ## See also
 
 #### Other Resources
 
-[You receive the error "Value cannot be null. Parameter name: My site URL or team site URL from Discovery Service is null or empty" when you use the SharePoint Hybrid Picker](https://support.microsoft.com/kb/3204761)
+[You receive the error "Value cannot be null. Parameter name: My site URL or team site URL from Discovery Service is null or empty" when you use the SharePoint Hybrid Configuration Wizard](https://support.microsoft.com/kb/3204761)
