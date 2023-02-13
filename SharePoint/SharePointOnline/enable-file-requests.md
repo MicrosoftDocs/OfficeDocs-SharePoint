@@ -15,7 +15,9 @@ ms.collection:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-search.appverid:
+search.appverid: 
+  - SPO160
+  - MET150
 ms.assetid:
 description: Learn how to enable a file request in OneDrive or Sharepoint.
 ---
