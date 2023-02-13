@@ -909,6 +909,11 @@
       "source_path": "OneDrive/user-external-sharing-settings.md",
       "redirect_url": "/sharepoint/user-external-sharing-settings",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center.md",
+      "redirect_url": "SharePoint/SharePointServer/hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md",
+      "redirect_document_id": false
     }
   ]
 }
