@@ -25,7 +25,7 @@ Yes, you can leverage the Hybrid picker on the <a href="https://go.microsoft.com
 
 ***Can I leverage SharePoint Hybrid picker to perform a clean-up of hybrid environment or deactivate the hybrid features that was activated by picker?***
 
-The Hybrid picker automates certain configuration steps to configure hybrid between on-premises SharePoint Server with SharePoint in Microsoft 365. This is not designed to undo the changes once the wizard completes. The Hybrid picker creates a Server-to-Server (S2S)/OAuth trust between the SharePoint in Microsoft 365 and SharePoint on-premises farm. After this is configured, re-running the wizard does not clean up the trust. You can refer to the documentation at [Hybrid picker in the SharePoint admin center](./hybrid-picker-in-the-sharepoint-online-admin-center.md#sharepoint-hybrid-features-offered-in-the-hybrid-picker).
+The Hybrid picker automates certain configuration steps to configure hybrid between on-premises SharePoint Server with SharePoint in Microsoft 365. This is not designed to undo the changes once the wizard completes. The Hybrid picker creates a Server-to-Server (S2S)/OAuth trust between the SharePoint in Microsoft 365 and SharePoint on-premises farm. After this is configured, re-running the wizard does not clean up the trust. You can refer to the documentation at [Hybrid Configuration Wizard in the SharePoint admin center](./hybrid-confiuration-wizard-in-the-sharepoint-online-admin-center.md#sharepoint-hybrid-features-offered-in-the-hybrid-picker).
 
 > [!IMPORTANT]
 > If the Hybrid picker is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain.

@@ -20,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: dcac4cbf-7840-470a-9712-3b968c4f06d0
-description: Learn how to use the Hybrid Configuration wizard in the SharePoint admin center.
+description: Learn how to use the Hybrid Configuration Wizard in the SharePoint admin center.
 
 ---
 
