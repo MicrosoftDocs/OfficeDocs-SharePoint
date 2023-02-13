@@ -44,7 +44,7 @@ When you're done exploring, [plan your hybrid deployment](plan-sharepoint-server
 |[SharePoint hybrid sites and search](sharepoint-hybrid-sites-and-search.md) <br/> |Learn about the available hybrid features related to sites and search that can help create a cohesive user experience between SharePoint Server and SharePoint in Microsoft 365.  <br/> |
 |[Learn about cloud hybrid search for SharePoint](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |Learn about cloud hybrid search, its advantages, and what search experiences are available for your users.  <br/> |
 |[Learn about hybrid federated search for SharePoint](learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |Learn about the different scenarios available for hybrid federated search and what search experiences they enable for your users.  <br/> |
-|[Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) <br/> |Learn about the hybrid picker configuration wizard and which hybrid scenarios it enables.  <br/> |
+|[Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) <br/> |Learn about the hybrid picker configuration wizard and which hybrid scenarios it enables.  <br/> |
    
 ## Related topics
 

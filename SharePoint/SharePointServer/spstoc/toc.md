@@ -359,7 +359,7 @@
 #### [Hybrid search in SharePoint](../hybrid/hybrid-search-in-sharepoint.md)
 ##### [Learn about cloud hybrid search for SharePoint](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md)
 ##### [Learn about hybrid federated search for SharePoint](../hybrid/learn-about-hybrid-federated-search-for-sharepoint.md)
-#### [Hybrid picker in the SharePoint admin center](../hybrid/hybrid-picker-in-the-sharepoint-online-admin-center.md)
+#### [Hybrid Configuration Wizard in the SharePoint admin center](../hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md)
 ### [Plan SharePoint Server hybrid](../hybrid/plan-sharepoint-server-hybrid.md)
 #### [Plan hybrid SharePoint taxonomy and hybrid content types](../hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)
 #### [Plan hybrid OneDrive](../hybrid/plan-hybrid-onedrive-for-business.md)

@@ -46,7 +46,7 @@ Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint 
     
 - Hybrid content types requires the June 2017 public update or later.
     
-Configuration of both features uses the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) as you plan your hybrid SharePoint taxonomy rollout. 
+Configuration of both features uses the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) as you plan your hybrid SharePoint taxonomy rollout.
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   
@@ -78,7 +78,7 @@ We recommend that you copy your content types to SharePoint in Microsoft 365 bef
   
 ## Get set up
 
-To get started configuring hybrid SharePoint taxonomy and hybrid content types, be sure you've reviewed the [prerequisites for the Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md), and then read [Configure hybrid SharePoint taxonomy and hybrid content types](configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md).
+To get started configuring hybrid SharePoint taxonomy and hybrid content types, be sure you've reviewed the [prerequisites for the Hybrid Configuration Wizard](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center), and then read [Configure hybrid SharePoint taxonomy and hybrid content types](configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md).
   
 ## See also
 

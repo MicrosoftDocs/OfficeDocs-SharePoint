@@ -57,7 +57,7 @@ To complete the configuration steps you'll need these items:
     
 - The search architecture plan you made for cloud hybrid search.
     
-- If you'll use the [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) wizard to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.3](https://www.microsoft.com/download/details.aspx?id=53321) installed.
+- If you'll use the [Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) wizard to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.3](https://www.microsoft.com/download/details.aspx?id=53321) installed.
     
 - If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902). You'll also need the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) and the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8).
     
