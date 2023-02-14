@@ -34,7 +34,9 @@ Download and install SPMT using one of the links listed below.
 
 ## SPMT 4.1
 
-**New features**
+SPMT 4.1 includes two major new features;  the support of SharePoint Server 2019 and SharePoint Designer workflows.
+
+**What's new in this release**
 
 |Feature|Description|
 |:-----|:-----|
