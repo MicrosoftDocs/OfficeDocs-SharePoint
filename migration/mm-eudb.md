@@ -39,11 +39,12 @@ Before the EUDB initiative, MMP has had one instance based in the United States 
 |April 1, 2023|New migration projects will initiate and be processed in the EU. All existing migration projects will automatically be recreated in the the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
 |October 31, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
 |December 31, 2023|All existing migrations in the US instance must be completed.|
-|May 30, 2024|Access to Stream migrations in the US instance expire.|
+|June 1, 2024|Access to Stream migrations in the US instance expire.|
 
 ## What does that mean for me?
 
 |If you are...|Impact|Recommendation|
 |:-----|:-----|:-----|
-|A EU customer, no existing migrations|No impact to you|No action required.|
-|A EU customer with active migrations|If you are an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We have recreated any existing migration projects in the EU, if you need to run them there. You will have until December 31, 2023 to complete active migrations.  However, starting January 1, 2024, you will no longer have access to projects process in the US or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
+|An EU customer, no existing migrations|No impact to you|No action required.|
+|An EU customer with active migrations|If you are an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We have recreated any existing migration projects in the EU, if you need to run them there. You will have until December 31, 2023 to complete active migrations.  However, starting January 1, 2024, you will no longer have access to projects process in the US or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
+|An EU customer with an active Stream migration|You have until May 301 2024 to access your US initiated Stream migration.  After that date, the migrations will be removed.|
