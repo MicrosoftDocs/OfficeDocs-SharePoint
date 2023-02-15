@@ -144,28 +144,32 @@ start $migration.ReportFolderPath
 
 ## Migrations report
 
-The migration task generates a workflow migration report titled *WorkflowMigrationReport.csv*.  The file under WF_xxx/Report/TaskReport_xxx/ folder.
+The migration task generates a workflow migration report titled *WorkflowMigrationReport.csv* for migrations, and *WorkflowScanReport.csv* for scans.  The reports are located in the *WF_xxx/Report/TaskReport_xxx/* folder.
 
 |Column name|Notes|
-|---|---|
-|Source association url|Source SharePoint object URL that associated with the workflow. Can be URL of list, library, site|
-|Destination association url|Destination SharePoint object URL that associated with the migrated Power Automate flow. Can be URL of list, library.|
-|Source workflow url|Location of the source workflow.|
-|Destination workflow url|The location where the workflow will be migrated.|
+|:-----|:-----|
+|Source association URL|Source SharePoint object URL that is associated with the workflow. It can be URL of list, library, site |
+|Destination association urURLl|Destination SharePoint object URL that is associated with the migrated Power Automate flow. It can be URL of list, library.|
+|Source workflow URL|Location of the source workflow.|
+|Destination workflow URL|The location where the workflow will be migrated.|
 |Source workflow ID|ID of the source workflow|
 |Destination flow ID|ID of the destination flow|
-|Source workflow name|The name of the source workflow.|
-|Destination flow name|The name of your destination flow.|
-|Solution name|The name of Power Automate solution that contains migrated flows. Flow owner can find migrated flows in the solution.|
+|Source workflow name|The name of the source workflow|
+|Destination flow name|The name of your destination flow|
+|Solution name|The name of Power Automate solution that contains the migrated flows. The flow owner can find migrated flows in the solution. |
 |Source workflow owner|The creator of source workflow instance|
-|Destination flow owner|The owner(s) of migrated PA flow|
-|Association type|Possible values: List, Site, or content type|
+|Destination flow owner|The owner(s) of migrated Power Automate flow|
+|Association type|Possible values: List, Site, or Content type|
 |Workflow version|Possible values: Workflow2010, Workflow2013|
 |Workflow template name|Workflow template name|
-|Status|Possible values: Migrated, Failed, or skipped|
-|Result category|Possible values: Migrated, SCAN FILTER, SCAN FAILURE, FLOW CREATE FAILURE|
+|Workflow accessed date|Latest execution/modification date of the workflow|
+|Total action count|The count of actions for SPD workflow|
+|Unsupported actions|List of actions which are not supported by migration tool|
+|Status|Possible values: Migrated, Failed, or Skipped, Scan Finished.|
+|Result category|Possible values: Migrated, Scan Finished, SCAN FILTER, MIGRATION SKIP, SCAN FAILURE, FLOW CREATE FAILURE|
 |Message|Error message|
 |Error code||
+
 
 ## Migration errors
 

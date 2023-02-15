@@ -33,7 +33,7 @@ The chart below shows the first action in a flow migrated from an **out-of-the-b
 
 ![out of the box workflows](media/spmt-workflow-ootb-options.png)
 
-### Migrated approval workflow
+## Migrated approval workflow
 
 The approval workflow is migrated with this structure:
 
@@ -46,7 +46,7 @@ For an auto or manually triggered Power Automate flow, the following workflow co
 |Manual approval PA flow|Four user inputs are supported in the migrated flow. They are: </br>- Approval type Options: First to respond, Wait until all approve.<br>- Approvers. Emails<br>- Request. Text<br>- CC. Emails<br>- Enable Content Approval. On/Off|
 | Auto triggered PA flow|The following configurations in workflow are migrated to destination flow. </br>- The approval type, **Everyone must approve** is used in the destination flow.</br>- Approvers. Emails</br>- Request. Text</br>- CC. Emails</br>- Enable Content Approval. On/Off|
 
-### Migrated collect feedback workflow
+## Migrated collect feedback workflow
 
 The collect feedback workflow is migrated with this structure:
 

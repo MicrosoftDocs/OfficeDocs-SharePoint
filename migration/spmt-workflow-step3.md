@@ -56,6 +56,6 @@ For full details on what SharePoint Server 2010 out-of-the-box (OOTB) workflows 
 
 ###  SharePoint Designer 2010 & 2013 workflows
 
-For full details on what actions are supported, including what SharePoint Designer workflows are migrated and what is not, see:
+For full details on what workflow actions and lookups are supported, and what is not, see:
 
 - [SharePoint Designer 2010 & 2013 Workflow migrations](spmt-workflow-migratoni-spd.md)

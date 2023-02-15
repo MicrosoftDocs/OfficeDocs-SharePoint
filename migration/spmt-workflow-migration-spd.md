@@ -78,7 +78,7 @@ The SharePoint Migration Tool (SPMT) 4.1 now supports the migration of SharePoin
 
 
 
-### Designer workflow actions not migrated
+## Designer workflow actions not migrated
 
 
 |Workflow action category|Workflow action|Workflow version|
@@ -117,7 +117,7 @@ The SharePoint Migration Tool (SPMT) 4.1 now supports the migration of SharePoin
 By default, the migration tool stops workflow migration and reports errors if there are one or more unsupported actions in the source workflow. You can let the tool continue the migration process by selecting “Convert to Compose action” option in the migration settings, “Handle Unsupported Action”. 
 
 
-### Lookups
+## Lookups
 
 Lookups are used in many workflow actions. Lookup types include
 
@@ -126,7 +126,7 @@ Lookups are used in many workflow actions. Lookup types include
 
 In Power Automate, “Dynamic content” is used to provide dynamic value, similar with lookup in workflow. 
 
-#### Lookup for string 
+### Lookup for string 
 
 Supported lookups for string include:
 
@@ -143,7 +143,7 @@ Unsupported lookups for string include:
 - Get field value of associated history list
 
 
-#### Lookup for user
+### Lookup for user
 
 Supported lookups for user include:
 
@@ -155,6 +155,6 @@ Unsupported lookups for user include:
 - Hierarchy manager
 
 
-#### Initiation Form Parameters
+## Initiation Form Parameters
 
 In the SharePoint Designer workflow, initiation form parameters can be configured for a manually started workflow. When workflows are run, these parameters are provided by the user, and their values are set as variables. After migration, initiation form parameters are converted to the inputs of the manual-triggered Power Automate flow.
