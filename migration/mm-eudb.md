@@ -25,21 +25,10 @@ The Migration Manager Platform (MMP) is the platform for migration tools to Shar
 
 The European Union Data Boundary (EUDB) is a geographically defined boundary within which Microsoft has committed to store and process customer data for our major commercial enterprise online services, including Azure, Dynamics 365, Power Platform, and Microsoft 365, subject to limited circumstances where customer data will continue to be transferred outside the EU Data Boundary.
 
-As part of Microsoft 365, MMP is mandated to be covered by the EUDB promise. This is due to the complexity of the migration business, and the architecture of MMP, the original deadline of Dec 31, 2022 has been extended to Mar 23, 2023.
+As part of Microsoft 365, MMP is mandated to be covered by the EUDB promise. Due to the complexity of the migration business, and the architecture of MMP, the original deadline of Dec 31, 2022 has been extended to Mar 23, 2023.
  
-Before the EUDB initiative, MMP has had 1 instance based in the US farm, serving all global migration traffic.
+Before the EUDB initiative, MMP has had one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023 with a phased implementation for existing active migration projects. 
 
-
-## Terms 
-- Migration: the business supported by the MMP product and refers to the migration of customer data from external platforms to Microsoft 365.
-- Move: the actual transfer of data from the US region to EU region.
-- Migration data: the data (e.g., files) customers migrated from external platforms to Microsoft 365. 
-- MMP only store Customer data for a very short period, no longer than 24 hours.
-- Application data: 
-- Task definitions: the user-created definitions of migration jobs. 
-- Transient data: logs, reports and other data generated at the runtime of the application.
-- Transient data has a retention window of 90 days.
-Transition plan
 
 
 ## Timeline
@@ -50,3 +39,12 @@ Transition plan
 |EU-A: |EU customers with active migrations aka - migration task run in the last 90 days||
 |EU-AP:| Pilot EU-A customers. Criteria: 10-20 customers who have active migrations. ||Hand pick tenants based on size and ensuring we are including all scenarios – FS, Google, Dropbox, Box, Egnyte and Stream. ||
 |EU-E:| EU customers with expired migrations aka – zero migration tasks run in the last 90 days||
+
+
+
+|Date|Change|
+|:-----|:-----|
+|February 24, 2023|Announcement made regarding EU Data Boundary changes|
+|April 1, 2023|Any existing migration project will automatically be recreated in the the EU instance.  Users in the EU can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
+|October 31, 2023|EU users can no longer access File share scans and cloud migration projects initiated in the US instance.|
+|May 30, 2024|Access to Stream migrations in the US instance expire.|
