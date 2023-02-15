@@ -36,53 +36,53 @@ Use the Hybrid Configuration Wizard to redirect OneDrive to Microsoft 365, lever
 
 ## Using the Hybrid Configuration Wizard
 
-First, you need to make sure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Configuration Wizard.
+First, you need to ensure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Configuration Wizard.
 
  **Prerequisites to run the Hybrid Configuration Wizard**
 
 The Hybrid Configuration Wizard requires the [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53321) in order to run. 
 
-The following are the account requirements to run the Hybrid Configuration Wizard. You must be:
+To run the Hybrid Configuration Wizard, you must be:
 
 - A member of the Farm Administrators group.
 
 - A service application administrator (Full Control) for the User Profile Service.
 
-- a Microsoft 365 Global Admin, either with or without multi-factor authentication (MFA) enabled for the account.
+- A Microsoft 365 Global Admin, either with or without multi-factor authentication (MFA) enabled for the account.
 
-- Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
+- Signed in to Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
 
 - Able to launch the Hybrid Configuration Wizard as a Farm Admin with elevated permissions.
 
 > [!IMPORTANT]
-> The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid. 
+> The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid.
 
-## SharePoint hybrid features offered in the Hybrid Configuration Wizard
+## SharePoint Hybrid features offered in the Hybrid Configuration Wizard
 
-Use the Hybrid Configuration Wizard to either configure, or assist with the configuration of, hybrids that connect Microsoft 365 and your on-premises SharePoint environment. 
+Use the Hybrid Configuration Wizard to configure, or assist with the configuration of, hybrids that connect Microsoft 365 and your on-premises SharePoint environment.
 
 The Hybrid Configuration Wizard helps with or completes the setup of these hybrid features:
 
-- **[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md)** - Choosing this option will redirect on-premises My Sites/OneDrive sites to SharePoint in Microsoft 365 and OneDrive. After the wizard completes, any click of the OneDrive link from on-premises redirects to OneDrive in the cloud. Your redirection is complete and users can begin to migrate any files to their online OneDrive. This option also sets up hybrid user profiles. When users click to view a profile, they'll be redirected to the profile in Microsoft 365. 
+- **[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md)** - Choosing this option will redirect on-premises My Sites/OneDrive sites to SharePoint in Microsoft 365 and OneDrive. After the wizard completes, any click of the OneDrive link from on-premises redirects to OneDrive in the cloud. Once your redirection is complete, the users can begin to migrate any files to their online OneDrive. This option also sets up hybrid user profiles. When users click to view a profile, they'll be redirected to the profile in Microsoft 365.
 
-- **[Hybrid Sites Features](sharepoint-hybrid-sites-and-search.md)** - Choosing this option sets up hybrid sites features, a suite of site integration features, and OneDrive redirection. Selecting this option configures hybrid OneDrive and hybrid user profiles, hybrid site following, and the hybrid app launcher. 
+- **[Hybrid Sites Features](sharepoint-hybrid-sites-and-search.md)** - Choosing this option sets up hybrid sites features, a suite of site integration features, and OneDrive redirection. Selecting this option configures hybrid OneDrive and hybrid user profiles, hybrid site following, and the hybrid app launcher.
 
-- **[Hybrid App Launcher](the-extensible-hybrid-app-launcher.md)** - This hybrid feature further integrates Microsoft 365 with your on-premises SharePoint Server farm by placing tiles like Office 365 Delve and Video (and custom Microsoft 365 tiles you may have) on the on-premises SharePoint Server App Launcher. This option also sets up hybrid OneDrive with user profile redirection, and sites features. 
+- **[Hybrid App Launcher](the-extensible-hybrid-app-launcher.md)** - This hybrid feature further integrates Microsoft 365 with your on-premises SharePoint Server farm by placing tiles like Office 365 Delve and Video (and custom Microsoft 365 tiles you may have) on the on-premises SharePoint Server App Launcher. This option also sets up hybrid OneDrive with user profile redirection, and sites features.
 
 - **[Business-to-business (B2B) extranet sites](../../SharePointOnline/create-b2b-extranet.md)** - Choosing this option installs extra features you can integrate with an extranet site you create in Microsoft 365. With Microsoft 365 extranet, partners can connect directly to a members-only site in Microsoft 365 without access to the corporate on-premises environment or any other Microsoft 365 site. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
 
-- **[Hybrid Taxonomy](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)** - This feature allows a centralized taxonomy that's readable and writable in the Microsoft 365 Cloud, to be used as a read-only copy on-premises. This feature includes Hybrid Content type (June 2017 PU required) which replicates the published content types in Microsoft 365 to on-premises. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
+- **[Hybrid Taxonomy](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)** - This feature allows a centralized taxonomy that's readable and writable in the Microsoft 365 Cloud, to be used as a read-only copy within the premises. This feature includes Hybrid Content type (June 2017 PU required) which replicates the published content types in Microsoft 365 to on-premises. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher.
 
-- **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server. 
+- **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server.
 
-- **[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Microsoft 365 organization. Implementing this option means you've performed one of the steps needed to set up cloud hybrid search; you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
+- **[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects it to your Microsoft 365 organization. Implementing this option means you've performed one of the steps needed to set up cloud hybrid search; you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include setting up of other hybrid features.
 
 - **Support for running on Windows Server core** - SharePoint Server Subscription added support for running on Windows Server Core, a leaner Windows Server deployment type that minimizes the number of OS features and services that are installed and that runs to support only those features and services that are essential for a server. However, the SharePoint Hybrid Configuration Wizard didn't support running on Windows Server Core due to some component dependencies that required Windows Server with Desktop Experience. Customers had to have at least one server in their SharePoint farm running on Windows Server with Desktop Experience if they wanted to use the SharePoint Hybrid Configuration Wizard to configure hybrid functionality within their farm.
 Starting with the 23H1 feature update, the SharePoint Hybrid Configuration Wizard has been redesigned to no longer have a dependency on components that require Windows Server with Desktop Experience. As a result, customers can now run the SharePoint Hybrid Configuration Wizard on Windows Server Core. Customers will no longer need to keep at least one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
 Although the SharePoint Hybrid Configuration Wizard has now added support for Windows Server Core, it also remains compatible with Windows Server with Desktop Experience.
 
 > [!TIP]
-> If the Hybrid Configuration Wizard is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain. 
+> If the Hybrid Configuration Wizard is run a second time with an enabled feature unchecked, this setting won't cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain.
 
 For all options, the Hybrid Configuration Wizard configures a server-to-server trust between your SharePoint Server farm and Microsoft 365.
 
@@ -100,7 +100,7 @@ To get started configuring hybrid features for your environment, choose from:
 
 ## Hybrid Configuration Wizard Prerequisite Checking
 
-While running the Hybrid Configuration Wizard, the basic SharePoint farm settings are checked which would otherwise block setup of essential hybrid building-blocks (such as OAuth/S2S Trust). The importance of settings' check is why you should launch the Hybrid Configuration Wizard from a server that will be part of your SharePoint hybrid. Some of the settings that are detected and checked while the configuration is run, include whether the:
+While running the Hybrid Configuration Wizard, the basic SharePoint farm settings are checked which would otherwise block the setup of essential hybrid building-blocks (such as OAuth/S2S Trust). The importance of settings' check is why you should launch the Hybrid Configuration Wizard from a server that will be part of your SharePoint hybrid. Some of the settings that are detected and checked while the configuration is run, include whether the:
 
 - SharePoint Server farm exists
 
@@ -116,9 +116,9 @@ While running the Hybrid Configuration Wizard, the basic SharePoint farm setting
 
 - UserProfileApplicationProxy is online
 
-- The SPO365LinkSettings cmdlet (used to set the MySiteHostURL) is accessible on the server 
+- The SPO365LinkSettings cmdlet (used to set MySiteHostURL) is accessible on the server 
 
-The results of this testing can be viewed as a report if any prerequisite isn't met. If all prerequisites are met you'll see green check-marks beside all the prerequisites, and can be able to continue your hybrid configuration.
+The results of this testing can be viewed as a report if any prerequisite isn't met. If all prerequisites are met, you'll see green check-marks beside all the prerequisites and can continue your hybrid configuration.
 
 ## Authentication realm update
 
