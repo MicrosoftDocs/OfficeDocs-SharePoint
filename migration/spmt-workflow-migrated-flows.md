@@ -20,20 +20,20 @@ ms.assetid:
 description: "Learn about how workflows will be structured when migrating from SharePoint Server to Power Automate using SPMT."
 ---
 
-# Migrated flow structure when using SPMT
+# Migrated flow structure for SharePoint 2010 OOTB workflows
 
-When SPMT migrates the workflow to Power Automate, it finds the Power Automate built-in actions that best match the functions in the original SharePoint workflow. Because of the feature gaps between SharePoint workflow and Power Automate, a converted flow may not carry the exact same behavior as the original one.
+When the Sharepoint Migration Tool (SPMT) migrates a workflow to Power Automate, it finds the Power Automate built-in actions that best match the functions in the original SharePoint workflow. Because of the feature gaps between SharePoint workflow and Power Automate, a converted flow may not carry the exact same behavior as the original one.
 
 SPMT will generate one or two Power Automate flows for one SharePoint workflow depending on its start options. 
 
 - If a workflow can be manually started, a list flow is generated with manual trigger. 
 - If a workflow can be auto started on create or update, a list flow is generated with auto-trigger. 
 
-The chart below shows the first action in a flow migrated from an out-of-the-box (OOTB) approval workflow (manual start) and the UI form when a user starts the flow. It lists the mapping of five user inputs between original workflow and converted flow.
+The chart below shows the first action in a flow migrated from an **out-of-the-box (OOTB)** approval workflow (manual start) and the UI form when a user starts the flow. It lists the mapping of five user inputs between original workflow and converted flow.
 
 ![out of the box workflows](media/spmt-workflow-ootb-options.png)
 
-### Migrated approval workflow
+## Migrated approval workflow
 
 The approval workflow is migrated with this structure:
 
@@ -46,7 +46,7 @@ For an auto or manually triggered Power Automate flow, the following workflow co
 |Manual approval PA flow|Four user inputs are supported in the migrated flow. They are: </br>- Approval type Options: First to respond, Wait until all approve.<br>- Approvers. Emails<br>- Request. Text<br>- CC. Emails<br>- Enable Content Approval. On/Off|
 | Auto triggered PA flow|The following configurations in workflow are migrated to destination flow. </br>- The approval type, **Everyone must approve** is used in the destination flow.</br>- Approvers. Emails</br>- Request. Text</br>- CC. Emails</br>- Enable Content Approval. On/Off|
 
-### Migrated collect feedback workflow
+## Migrated collect feedback workflow
 
 The collect feedback workflow is migrated with this structure:
 
