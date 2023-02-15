@@ -24,22 +24,14 @@ description: "Overview of how to migrate your SharePoint Server workflows to Pow
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
-Workflows created with SharePoint Server or SharePoint Server Designer can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). 
+Workflows created with SharePoint Server  or SharePoint Server Designer can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). 
 
 ## What is supported
 
-**Supported versions**
-
-SharePoint Server 2010, 2013 workflows
-SharePoint Designer 2010, 2013 workflows
-
-
-**Supported SharePoint Server & SharePoint Designer out of the box (OOTB) workflows:**
-- Approval workflow
-- Collect feedback workflow
-- Collect signature workflow
-- Three-state workflow
-- List library workflows and content-type workflows (not site workflows)
+Using the SharePoint Migration Tool (SPMT), you can now migrate:
+- **SharePoint Server 2010 out-of-the-box (OOTB) workflows** to Power Automate including: Approval, Collect Feedback, Collect Signature, and Three-state workflows
+- **SharePoint Server 2010 and 2013 Designer (SPD) workflows** to Power Automate
+- List, library workflows and content-type workflows (not site workflows)
 - Workflow definitions and associations (not workflow history data)
 
 >[!Note]
