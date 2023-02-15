@@ -34,24 +34,14 @@ Download and install SPMT using one of the links listed below.
 
 ## SPMT 4.1
 
-SPMT 4.1 includes two major new features;  the support of SharePoint Server 2019 and SharePoint Designer workflows.
+SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 and SharePoint Designer workflows.
 
 **What's new in this release**
 
-|Feature|Description|
-|:-----|:-----|
-|SharePoint 2019|We now support the migration of SharePoint Server 2019 |
-|Workflows|SharePoint Designer 2010 and 2013 created workflows can now be migrated to Power Automate.| 
-|Modern Teams|Modern Teams sites can now be migrated to SharePoint|
-|Communication sites|Communication sites can now be migrated to SharePoint|
-Modern site pages|Modern site pages and new posts can be migrated along with the site structure.  If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated|
-|File and folder names|Files or folders with "#" or "%" in their name can be migrated and these special characters retained.|
-
-**Improvements**
-
-|Issue|Fix|
-|:-----|:-----|
-|General|General improvements have been made to fix bugs in tool.|
+- **SharePoint Server 2019**. We now support the migration of SharePoint Server 2019 to Microsoft 365.  You can now migrate: 
+    - Modern team sites & Communication sites
+    - Modern site pages and new posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. File and folder names|Files or folders with "#" or "%" in their name can be migrated and these special characters retained.
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate.
 
 
 ## SPMT 4.0
