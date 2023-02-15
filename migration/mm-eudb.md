@@ -31,7 +31,7 @@ Before the EUDB initiative, MMP has had one instance based in the United States 
 
 
 
-## Timeline
+## Timeline for EU 
 
 |Customer|Description|Deadline|
 |:-----|:-----|:-----|
@@ -45,6 +45,7 @@ Before the EUDB initiative, MMP has had one instance based in the United States 
 |Date|Change|
 |:-----|:-----|
 |February 24, 2023|Announcement made regarding EU Data Boundary changes|
-|April 1, 2023|Any existing migration project will automatically be recreated in the the EU instance.  Users in the EU can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
-|October 31, 2023|EU users can no longer access File share scans and cloud migration projects initiated in the US instance.|
+|April 1, 2023|All existing migration projects will automatically be recreated in the the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
+|October 31, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
+|December 31, 2023|All existing
 |May 30, 2024|Access to Stream migrations in the US instance expire.|
