@@ -56,7 +56,7 @@ After configuring the required endpoints and configuring Power Automate, you're 
     ![Set your workflow settings](media/spmt-workflow-settings.png)
 
 12. Select **View all settings**, and choose your option under **Handle Unsupported Action**. If you select **Stop workflow migration and report error**, SPMT will report an error on a workflow if it contains unsupported actions. Otherwise the unsupported actions are converted to Compose actions during migration. 
-13. Click **Scan** to start scanning if “Only perform scanning” is selected; or click **Migrate** to start migration. 
+13. Select **Scan** to start scanning if “Only perform scanning” is selected; or select **Migrate** to start migration. 
 
 
 ## Migrate workflows using PowerShell
@@ -164,7 +164,7 @@ The migration task generates a workflow migration report titled *WorkflowMigrati
 |Workflow template name|Workflow template name|
 |Workflow accessed date|Latest execution/modification date of the workflow|
 |Total action count|The count of actions for SPD workflow|
-|Unsupported actions|List of actions which are not supported by migration tool|
+|Unsupported actions|List of actions that aren't supported by migration tool|
 |Status|Possible values: Migrated, Failed, or Skipped, Scan Finished.|
 |Result category|Possible values: Migrated, Scan Finished, SCAN FILTER, MIGRATION SKIP, SCAN FAILURE, FLOW CREATE FAILURE|
 |Message|Error message|
@@ -173,16 +173,16 @@ The migration task generates a workflow migration report titled *WorkflowMigrati
 
 ## Migration errors
 
-If a scan or migration fails, you will receive a "Scan Failure" or "Flow create failure" error.
+If a scan or migration fails, you'll receive a "Scan Failure", or "Flow create failure" error.
 
 |Error message|Error code|Recommended action|
 |:-----|:-----	|:-----|
-|SharePoint workflow template is not supported.|0x02110021|
-|SharePoint workflow associated with a site or site level content type is not supported.|0x02110022	|
+|SharePoint workflow template isn't supported.|0x02110021|
+|SharePoint workflow associated with a site or site level content type isn't supported.|0x02110022	|
 |SharePoint workflow is filtered out because no new instances are allowed. |0x02210032	|Confirm the workflow is still in use. If you want to continue the migration, reactivate the workflow.	|
 |SharePoint workflow is filtered out because no triggers are configured. |0x02210034|Confirm the workflow is still in use. If you want to continue the migration, please reactivate the workflow.|
 |SharePoint workflow is filtered out because no sharepoint object is associated. |0x02210033|Check your workflow and associate it with a list or library|
-|Workflow migration failed because flow approvers are not found. |0x02810053| Check the user mapping file or AAD lookup to make sure the approver in Workflow can be mapped to a AAD user.|
+|Workflow migration failed because flow approvers aren't found. |0x02810053| Check the user mapping file or AAD lookup to make sure the approver in Workflow can be mapped to a AAD user.|
 |SharePoint workflow subscription found without a workflow definition. |0x02110002|	Confirm your workflow’s status	|
 |SharePoint workflow is filtered out because its association list or content type is out of migration scope.|0x02210031|If you migrate workflows of a single list, try to perform workflow migration of its site. If the workflow is associated to a content type, manually create the content type on SPO list or library and try workflow migration again.|
 |SharePoint workflow is skipped because it has been migrated before. |0x02810055|
