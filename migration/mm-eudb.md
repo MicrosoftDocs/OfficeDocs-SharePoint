@@ -27,25 +27,23 @@ The European Union Data Boundary (EUDB) is a geographically defined boundary wit
 
 As part of Microsoft 365, MMP is mandated to be covered by the EUDB promise. Due to the complexity of the migration business, and the architecture of MMP, the original deadline of Dec 31, 2022 has been extended to Mar 23, 2023.
  
-Before the EUDB initiative, MMP has had one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023 with a phased implementation for existing active migration projects. 
+Before the EUDB initiative, MMP has had one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023 with a phased implementation schedule for existing customers with active migration projects.
 
 
 
 ## Timeline for EU 
 
-|Customer|Description|Deadline|
-|:-----|:-----|:-----|
-|EU-N:| brand new EU customers who don’t have a single EU migration||
-|EU-A: |EU customers with active migrations aka - migration task run in the last 90 days||
-|EU-AP:| Pilot EU-A customers. Criteria: 10-20 customers who have active migrations. ||Hand pick tenants based on size and ensuring we are including all scenarios – FS, Google, Dropbox, Box, Egnyte and Stream. ||
-|EU-E:| EU customers with expired migrations aka – zero migration tasks run in the last 90 days||
-
-
-
 |Date|Change|
 |:-----|:-----|
 |February 24, 2023|Announcement made regarding EU Data Boundary changes|
-|April 1, 2023|All existing migration projects will automatically be recreated in the the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
+|April 1, 2023|New migration projects will initiate and be processed in the EU. All existing migration projects will automatically be recreated in the the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
 |October 31, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
-|December 31, 2023|All existing
+|December 31, 2023|All existing migrations in the US instance must be completed.|
 |May 30, 2024|Access to Stream migrations in the US instance expire.|
+
+## What does that mean for me?
+
+|If you are...|Impact|Recommendation|
+|:-----|:-----|:-----|
+|A EU customer, no existing migrations|No impact to you|No action required.|
+|A EU customer with active migrations|If you are an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We have recreated any existing migration projects in the EU, if you need to run them there. You will have until December 31, 2023 to complete active migrations.  However, starting January 1, 2024, you will no longer have access to projects process in the US or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
