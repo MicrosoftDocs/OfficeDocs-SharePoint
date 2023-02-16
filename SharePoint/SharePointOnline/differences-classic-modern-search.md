@@ -40,7 +40,7 @@ You use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_b
   - Refinable
   - Company name extraction (to be deprecated as of November 15th, 2019)
 
-- In environments where vertical configuration is available the modern search experience only shows results from the standard result source (Local SharePoint Results).
+- In environments where vertical configuration is available the modern search experience only shows results from the standard result source (Local SharePoint Results). To learn more, see [Manage search verticals](/microsoftsearch/manage-verticals).
 - In environments where vertical configuration is not available the modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both modern and classic search experiences are impacted.
 - Depending on the search scenario, some Microsoft Search features might not work if the [classic global Search Center URL](./specify-default-search-center.md) is not set to point to the URL of the default classic Search Center. Depending on your tenant, this URL is "yourcompanyname.sharepoint.com/search" or "yourcompanyname.sharepoint.com/search/pages". Furthermore, ensure that the Search Center site collection exists and that all users have read access to it.
 - If you temporarily [remove a search result](remove-search-results.md), the result is removed in both search experiences.
