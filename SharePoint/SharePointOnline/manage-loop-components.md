@@ -116,4 +116,4 @@ To configure these Cloud Policy settings:
 ## Related topics
 
 - [Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
-- [Use Loop components in Outlook](https://support.microsoft.com/en-gb/office/use-loop-components-in-outlook-9b47c279-011d-4042-bd7f-8bbfca0cb136)
+- [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
