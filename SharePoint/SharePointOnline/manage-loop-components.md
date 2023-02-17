@@ -80,12 +80,6 @@ To configure these Cloud Policy settings:
     - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
     - If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
 
-## eDiscovery
-
-Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator's OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
-
-Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization's needs, you can temporarily disable these experiences as outlined in the [Settings management Loop components in Teams, Whiteboard](#settings-management-for-loop-components-in-teams-whiteboard) section.
-
 ## Settings management for Loop app
 
 The Loop app checks the following Cloud Policy settings:
@@ -112,6 +106,14 @@ To configure these Cloud Policy settings:
 10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
     - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
     - If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
+
+## eDiscovery
+
+Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator's OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
+
+Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization's needs, you can temporarily disable these experiences as outlined in the [Settings management Loop components in Teams, Whiteboard](#settings-management-for-loop-components-in-teams-whiteboard) section.
+
+Loop app content is not discoverable. Microsoft is working on an offline consumable export format. If you require this functionality, you can temporarily disable the Loop app as outlined in the [Settings management for Loop app](#settings-management-for-loop-app) section.
 
 ## Related topics
 
