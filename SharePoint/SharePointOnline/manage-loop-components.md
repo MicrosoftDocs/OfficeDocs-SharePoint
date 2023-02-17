@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how to manage Loop experiences (Loop app and Loop components) by using PowerShell and Cloud Policy."
 ---
 
-# Manage Loop components in SharePoint
+# Manage Loop experiences (Loop app and Loop components) in SharePoint
 
 Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid or .loop files and powered by Microsoft Fluid Framework. Administrators need to manage access to Loop experiences from SharePoint for some experiences and from Cloud Policy for others.
 
@@ -84,7 +84,7 @@ To configure these Cloud Policy settings:
 
 Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator's OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
 
-Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization's needs, you can temporarily disable these experiences as outlined in the [Settings management for Teams, Whiteboard](#settings-management-for-teams-whiteboard) section.
+Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization's needs, you can temporarily disable these experiences as outlined in the [Settings management Loop components in Teams, Whiteboard](#settings-management-for-loop-components-teams-whiteboard) section.
 
 ## Settings management for Loop app
 
