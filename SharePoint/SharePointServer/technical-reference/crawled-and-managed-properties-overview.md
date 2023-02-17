@@ -17,7 +17,7 @@ description: "Learn about the default managed properties, their settings, and th
 
 # Overview of crawled and managed properties in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 A  *crawled property*  is content and metadata that is extracted from an item, such as a document or a URL, during a crawl. A crawled property can be an author, title, or subject. To include the content and metadata of crawled properties in the search index, you map crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. For more information, see [Overview of the search schema in SharePoint Server](../search/search-schema-overview.md) and [Manage the search schema in SharePoint Server](../search/manage-the-search-schema.md).
 
@@ -26,6 +26,23 @@ Learn about [managing the search schema for SharePoint in Microsoft 365](../../S
 ## Managed properties overview
 
 The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column.
+
+### Managed properties for SharePoint in Microsoft 365.
+|Property name|Type|Multi-valued|Queryable|Searchable|Retrievable|Refinable|Sortable|Mapped crawled properties|Comment
+|---|---|---|---|---|---|---|---|---|---|
+|DepartmentId|Text|No|Yes|No|Yes|Yes|No|ows_DepartmentId|Site ID of the hub of the immediate hub. Applies to all items in the hub/associated sites.
+|RelatedHubSites|Text|Yes|Yes|No|Yes|No|No|ows_RelatedHubSites|Site ID's of associated hubs including hub hierarchies. Can be used instead of DepartmentId for most scenarios. Applies to all items in the hub/associated sites.
+|IsHubSite|Yes/No|No|Yes|No|Yes|No|No|ows_IsHubSite|Applies to the site result of a hub (contentclass=STS_Site)
+|ModifierAADIDs|Text|Yes|Yes|No|Yes|Yes|Yes||Semi-colon separated list of AADID's for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierDates|Date and Time|Yes|No|No|Yes|No|No||Semi-colon separated list of modification dates for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierNames|Text|Yes|Yes|No|Yes|No|No||Semi-colon separated list of the names for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierUPNs|Text|Yes|No|No|Yes|No|No||Semi-colon separated list of UPN's for modifiers of a file or page ordered in date descending order. (\*)
+|ChapterTitle|Text|Yes|Yes|Yes|Yes|No|No|ChapterTitle|Semi-colon separated list of [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/en-us/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
+|ChapterOffset|Text|Yes|No|No|Yes|No|No|ChapterOffset|Semi-colon separated list of time codes matching the chapter titles for [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
+
+\* Property is not guaranteed to contain data.
+
+See [Manage search schema - Default unused managed properties](../../SharePointOnline/manage-search-schema.md#default-unused-managed-properties) for a list of the reusable managed properties available in SharePoint Online.
 
 ### Managed properties in SharePoint Server 2013 through 2019
   
