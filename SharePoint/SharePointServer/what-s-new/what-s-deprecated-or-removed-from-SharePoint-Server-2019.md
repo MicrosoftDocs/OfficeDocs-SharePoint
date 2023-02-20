@@ -135,10 +135,6 @@ SharePoint Server 2019 Preview included a built-in PDF viewer which allowed Shar
 
 Since the feature was first introduced in SharePoint, Microsoft BI strategy has shifted away from heavy integration to a standalone BI solution, Power BI, to give customers a flexible, optional integration with SharePoint along with standalone capabilities.  Both [Power BI.com](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) offer the option to host and view Excel Workbooks with PowerPivot models today and is the preferred method for customers going forward to host and use their Excel Workbooks with PowerPivot models, or simply to migrate to PBIX files using the migration option in Power BI Desktop for Excel Workbooks.
 
-### SharePoint Workflow Manager (SharePoint Server 2019 Preview)
-
-Microsoft announced that SharePoint Server 2019 Preview would support a new workflow management application called SharePoint Workflow Manager to run SharePoint Server 2013 workflows. However, the SharePoint Workflow Manager application was canceled before its final release. The RTM release of SharePoint Server 2019 supports [Service Bus 1.1](https://support.microsoft.com/help/4077554/add-support-for-tls-1-1-and-tls-1-2-on-service-bus-for-windows-server) and [Microsoft Workflow Manager 1.0 CU5](https://support.microsoft.com/help/4055730/description-of-the-cumulative-update-5-for-workflow-manager-1-0) to run SharePoint Server 2013 workflows. For more information, see [Install and configure workflow in SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md).
-
 ### Tags and Notes
 
 The Tags and Notes feature has been removed from SharePoint Server 2019. This means that users cannot create new tags and notes or access any existing ones.
