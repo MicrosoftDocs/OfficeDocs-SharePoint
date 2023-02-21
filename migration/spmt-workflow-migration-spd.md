@@ -1,4 +1,5 @@
 ---
+ms.date: 02/08/2023
 title: "Migrate SharePoint Designer workflows with SPMT"
 ms.reviewer:
 ms.author: jhendr
@@ -158,3 +159,4 @@ Unsupported lookups for user include:
 ## Initiation Form Parameters
 
 In the SharePoint Designer workflow, initiation form parameters can be configured for a manually started workflow. When workflows are run, these parameters are provided by the user, and their values are set as variables. After migration, initiation form parameters are converted to the inputs of the manual-triggered Power Automate flow.
+

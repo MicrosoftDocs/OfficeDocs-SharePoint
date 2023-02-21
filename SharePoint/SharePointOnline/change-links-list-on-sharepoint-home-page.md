@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Add featured links to the SharePoint start page"
 ms.reviewer: dipadur
 ms.author: mikeplum
@@ -133,4 +134,5 @@ To view the SharePoint start page:
 > [!NOTE]
 > If you had custom promoted sites in classic view of the SharePoint Sites page, the Featured links section of the SharePoint start page is pre-populated with those sites. The pre-population of promoted sites in the Featured links list happens only once when the first user visits the new SharePoint start page. If you go back to classic view and change the promoted sites, the changes will not be reflected in the Featured links list on the SharePoint start page. 
   
+
 

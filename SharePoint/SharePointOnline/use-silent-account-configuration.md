@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
 ms.author: mikeplum
@@ -183,3 +184,4 @@ If you have a computer, you think should work with SilentAccountConfig, you can 
 
 > [!NOTE]
 > When using SilentAccountConfig, you do not need to specify EnableADAL=1.  This is only necessary when manually testing SSO in the above steps where we manually sign in (instead of using SilentAccountConfig to sign in).  However, if you want users who manually set up OneDrive sync to benefit from SSO to minimize how often they need to enter a password in sync, you can deploy the EnableADAL key on your users' computers.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage authoritative pages"
 ms.reviewer: 
 ms.author: serdars
@@ -61,3 +62,4 @@ In the same way, you can also add non-authoritative pages. A typical example of 
 <a name="__top"> </a>
 
 Classic search uses the list of authoritative pages to calculate the ranking of results. Static rank determines the relative importance of a page. Static rank is calculated as the smallest number of clicks that it would take a user to navigate from an authoritative page to a document. The closer a document is to the most authoritative page, the higher the static rank of the page is.
+

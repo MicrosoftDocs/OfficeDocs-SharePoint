@@ -1,4 +1,5 @@
 ---
+ms.date: 06/30/2020
 title: "Manage access to Azure AD-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: mikeplum
@@ -72,3 +73,4 @@ You can also use PowerShell to manage permission requests.
 - To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/Approve-SPOTenantServicePrincipalPermissionRequest?view=sharepoint-ps&preserve-view=true).
 - To reject a request, use the cmdlet [Deny-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/deny-spotenantserviceprincipalpermissionrequest?view=sharepoint-ps&preserve-view=true).
 - To remove access to a previously approved request, use the cmdlet [Revoke-SPOTenantServicePrincipalPermission](/powershell/module/sharepoint-online/revoke-spotenantserviceprincipalpermission?view=sharepoint-ps&preserve-view=true).
+

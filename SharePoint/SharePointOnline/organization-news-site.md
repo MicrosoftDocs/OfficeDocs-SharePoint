@@ -1,4 +1,5 @@
 ---
+ms.date: 05/22/2019
 title: "Create an organization news site"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -54,3 +55,4 @@ For more info about working with news, see [Use the News web part on a SharePoin
 
 - View a list of all your organization news sites: [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite) 
 - Remove a site from the list of organization news sites: [Remove-SPOOrgNewsSite](/powershell/module/sharepoint-online/remove-spoorgnewssite)
+

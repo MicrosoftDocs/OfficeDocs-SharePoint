@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Updated Product Servicing Policy for SharePoint 2019"
 ms.reviewer:
 ms.author: serdars
@@ -72,3 +73,4 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
 **Question**: **Why is the product lifecycle for SharePoint Server 2019 shorter than 10 years?**
 
 **Answer**: As previously announced in KB article [4086137](https://support.microsoft.com/help/4086137/office-2019-on-premises-release-details-february-1-2018), the Microsoft Office 2019 family of products will provide five years of mainstream support, followed by two years of extended support. This duration of support will allow Microsoft to better support our customers as we rapidly innovate these products and cloud services. SharePoint Server 2016 was released later than the other products in the Microsoft Office 2016 family and therefore has a later extended support end date.  To ensure that SharePoint Server 2019 doesn't end support earlier than previous versions of SharePoint Server, SharePoint Server 2019 will align its extended support end date with the SharePoint Server 2016 extended support end date.
+

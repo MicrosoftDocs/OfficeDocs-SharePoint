@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Copy configuration settings between farms in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -121,4 +122,5 @@ As part of farm backup, you can choose to back up only configuration settings. A
 #### Concepts
 
 [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
+
 

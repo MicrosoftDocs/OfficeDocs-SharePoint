@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Install SharePoint Servers 2016 or 2019 across multiple servers"
 ms.reviewer: 
 ms.author: serdars
@@ -248,3 +249,4 @@ After you install and configure SharePoint Server, your browser window opens to 
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019. 
+

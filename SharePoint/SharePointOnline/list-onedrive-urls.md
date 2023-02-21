@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "View the list of OneDrive URLs for users in your organization"
 ms.reviewer: 
 ms.author: mikeplum
@@ -105,3 +106,4 @@ https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
 ```
 
 Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.
+

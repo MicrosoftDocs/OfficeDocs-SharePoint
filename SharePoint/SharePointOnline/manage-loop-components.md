@@ -1,4 +1,5 @@
 ---
+ms.date: 01/31/2022
 title: "Manage Loop experiences (Loop app and Loop components) in SharePoint"
 ms.reviewer: dancost, tonchan
 ms.author: mikeplum
@@ -119,3 +120,4 @@ Loop app content is not discoverable. Microsoft is working on an offline consuma
 
 - [Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
 - [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
+

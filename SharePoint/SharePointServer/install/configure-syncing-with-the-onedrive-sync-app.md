@@ -1,4 +1,5 @@
 ---
+ms.date: 08/02/2018
 title: "Configure syncing with the new OneDrive sync app"
 ms.reviewer: 
 ms.author: serdars
@@ -152,3 +153,4 @@ When setting up SharePoint Server, you'll be prompted to select if clients shoul
 2. Select **Settings**.
 
 3. Select the **Settings** tab, and under **Privacy**, clear the option.
+
