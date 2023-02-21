@@ -21,7 +21,7 @@ description: Learn about monthly OneDrive customer office hours for commercial a
 
 The OneDrive product and engineering team now offers monthly customer office hours for commercial and education customers and partners. You can join this one-hour Teams meeting to ask us questions, share your feedback, and learn more about the features we're building for the future. You can sign up here: [Sign up for OneDrive Customer Office Hours](https://forms.office.com/r/dmYkcLhpFD).
 
-## OneDrive Customer Office Hours
+## OneDrive customer office hours
 
 **When:** Third Wednesday of each month, 8:00 a.m. - 9:00 a.m. PST 
 
