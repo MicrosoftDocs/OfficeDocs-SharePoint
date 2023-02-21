@@ -1,11 +1,10 @@
 ---
-ms.date: 05/28/2020
 title: "Use information barriers with SharePoint"
 description: "Learn about associating segments with a site, and what happens when segments are associated with a site."
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-recommendations: true
+ms.date: 02/24/2023
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:

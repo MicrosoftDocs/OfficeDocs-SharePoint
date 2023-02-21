@@ -1,11 +1,11 @@
 ---
-ms.date: 05/28/2020
 title: "Use information barriers with OneDrive"
 description: "Learn about associating segments with a OneDrive, and what happens when segments are associated with a OneDrive."
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 ms.reviewer: nibandyo
+ms.date: 02/24/2023
 audience: Admin
 f1.keywords:
 - NOCSH
