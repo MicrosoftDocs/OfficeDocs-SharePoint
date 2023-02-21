@@ -132,7 +132,7 @@ You can directly apply an authentication context to a SharePoint site by using t
 In the following example, we apply the authentication context we created above to a site called "research."
 
 ```powershell
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy "Contoso guest terms of use" -AuthenticationContextName "Sensitive information - guest terms of use"
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Sensitive information - guest terms of use"
 ```
 
 ## See also
