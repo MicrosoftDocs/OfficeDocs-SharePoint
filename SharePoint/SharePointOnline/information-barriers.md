@@ -1,4 +1,5 @@
 ---
+ms.date: 05/28/2020
 title: "Use information barriers with SharePoint"
 description: "Learn about associating segments with a site, and what happens when segments are associated with a site."
 ms.author: robmazz
@@ -453,3 +454,4 @@ Set-SPOTenant -ShowPeoplePickerGroupSuggestionsForIB $true
 
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 - [Information barriers in OneDrive](/onedrive/information-barriers)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Authorizing the Dropbox Connector
 ms.author: jhendr
 author: JoanneHendrickson
@@ -79,6 +80,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 If you aren't already connected after you have authorized your source, select **Dropbox**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select Dropbox source](media/execution-select-Dropbox-source.png)
+
 
 
 

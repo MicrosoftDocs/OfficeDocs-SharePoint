@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore Secure Store Service applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

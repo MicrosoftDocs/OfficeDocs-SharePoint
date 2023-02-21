@@ -1,4 +1,5 @@
 ---
+ms.date: 08/17/2018
 title: "Differences between the search experiences in SharePoint Server"
 ms.reviewer: 
 author: SerdarSoysal
@@ -36,3 +37,4 @@ Search administrators can customize the *classic* search experience, but only im
 - When you create a [promoted result](manage-query-rules.md) at the tenant level, users can see it in both search experiences. In the modern search experience, users only see promoted results when they’ve filtered to All result types (default filter) on the search results page and only when they search across all sites.
 
 Unlike the classic search results page, the modern search results page isn’t built with web parts. You can’t customize the modern search results page or create additional search results pages.
+

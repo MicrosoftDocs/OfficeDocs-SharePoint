@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Restore a deleted OneDrive"
 ms.reviewer: 
 ms.author: mikeplum
@@ -93,3 +94,4 @@ Remove-SPODeletedSite -Identity <URL>
 ## See also
 
 [OneDrive retention and deletion](retention-and-deletion.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/10/2020
 title: Provision the SharePoint Success Site from the look book
 ms.reviewer: 
 ms.author: matteva
@@ -122,3 +123,4 @@ Answer: Users who have Microsoft 365 user permissions, SharePoint Site visitor p
 ## Next steps
 
 Customize the SharePoint Success Site. You can [customize](./customize-sss.md) playlist content and the look and feel of the site to meet the needs of your organization.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/18/2021
 title: "Migration Manager Box FAQs"
 ms.reviewer: 
 ms.author: jhendr
@@ -62,3 +63,4 @@ Answer:  No. During a migration, only the most recent version of a file is trans
 
 **Question:**   **Does Migration Manager automatically notify users?**</br>
 Answer:  No.  We automatically suppress all emails to users so they aren't bombarded with excessive notifications about the data they now have access to.</br>
+

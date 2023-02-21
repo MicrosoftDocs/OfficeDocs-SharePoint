@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Machine Translation service in SharePoint Server knowledge articles"
 ms.reviewer: 
 ms.author: serdars
@@ -373,3 +374,4 @@ Resolution 5: Create a new Machine Translation Service application
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
 [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
+

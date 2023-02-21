@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage result sources"
 ms.reviewer: 
 ms.author: serdars
@@ -140,3 +141,4 @@ A result source might be no longer needed. The following procedure provides the 
 [Understanding result sources](https://support.office.com/article/3fb2c8c4-ecbd-4210-abf7-1f0df59a370b)
   
 [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1)
+

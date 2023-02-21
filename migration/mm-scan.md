@@ -1,4 +1,5 @@
 ---
+ms.date: 06/15/2021
 title: "Migration Manager Scan"
 ms.reviewer: 
 ms.author: jhendr
@@ -55,5 +56,6 @@ Once a scan is completed, highlight the row to look further into any issues that
 |Created on|The date the scan was created.|
 |Migration Readiness|Status of readiness checks. A value of "Warning" indicates file/subfolder level scan issues. Examples of issues discovered include invalid characters, or insufficient permissions to access the folder.|
 |Task ID|Unique identifier for a migration task.|
+
 
 

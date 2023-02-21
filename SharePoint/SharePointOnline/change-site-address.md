@@ -1,4 +1,5 @@
 ---
+ms.date: 05/07/2019
 title: "Change a site address"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -173,3 +174,4 @@ When the site address change is complete, users will be able to access their Sha
 |Uploading files to channels |Uploading files from a computer or OneDrive to a channel conversation will work after a user has visited the Files tab for any channel in the site. |
 |File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
+

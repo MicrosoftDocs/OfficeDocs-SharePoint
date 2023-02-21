@@ -1,4 +1,5 @@
 ---
+ms.date: 08/17/2022
 title: "File size limitations when migrating files to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
