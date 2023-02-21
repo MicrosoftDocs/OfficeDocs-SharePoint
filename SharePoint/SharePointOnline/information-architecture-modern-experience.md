@@ -55,7 +55,7 @@ Information architecture covers 6 main elements that relate to way finding in Sh
 - **Search experiences** – How your users “consume” information architecture in addition to browsing.
 - **Personalized content experiences** – How specific content is targeted to certain users and groups of users.
 
-Designing the optimal structure for hubs, sites, and pages requires sufficient planning. It also requires knowledge of the domain, content, understanding the user experience, awareness of design approaches, and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Over time you will learn about your users, which will allow for adjustment that make content more discoverable.
+Designing the optimal structure for hubs, sites, and pages requires sufficient planning. It also requires knowledge of the domain, content, understanding the user experience, awareness of design approaches, and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Over time you will learn about your users, which will allow for adjustments that make content more discoverable.
 
 ## Understand your role and how to collaborate 
 
