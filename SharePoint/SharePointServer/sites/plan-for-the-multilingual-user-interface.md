@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan for the multilingual user interface in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

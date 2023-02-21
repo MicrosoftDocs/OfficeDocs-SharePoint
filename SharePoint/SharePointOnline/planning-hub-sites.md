@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Planning your SharePoint hub sites"
 ms.reviewer: metorres
 manager: serdars
@@ -222,4 +223,5 @@ Use hub sites when they align with your business outcomes and solve a need for y
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
 **Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
+
 

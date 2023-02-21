@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Step 1: Configure endpoints and Power Automate for Sharepoint workflow migration"
 ms.reviewer:
 ms.author: jhendr
@@ -55,3 +56,4 @@ If you have never used Power Automate with this tenant before, you must configur
 4. To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you'd like to set as the default flow owner.
 
 ## Step 2:  [Migrate Workflows](spmt-workflow-step2.md)
+

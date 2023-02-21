@@ -1,4 +1,5 @@
 ---
+ms.date: 06/18/2020
 title: Create or customize a content type
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -98,3 +99,4 @@ You can make it even easier for users by adding the Timesheet content type to a 
 [Add columns to a content type](add-columns-content-type.md)
 
 [Create or customize a site content type](https://support.microsoft.com/office/27eb6551-9867-4201-a819-620c5658a60f)
+

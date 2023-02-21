@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Guided walkthrough: Creating a training site for your organization"
 ms.reviewer:
 ms.author: matteva
@@ -189,3 +190,4 @@ For more details on using the Microsoft Forms web part, see [Use the Microsoft F
 ### Want more?
 
 Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
+

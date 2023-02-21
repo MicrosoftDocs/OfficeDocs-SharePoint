@@ -1,4 +1,5 @@
 ---
+ms.date: 12/04/2020
 title: Mover - Deleting a migration
 ms.author: jhendr
 author: JoanneHendrickson

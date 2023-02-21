@@ -1,4 +1,5 @@
 ---
+ms.date: 03/14/2019
 title: "Migrating web parts using the Migration API"
 ms.reviewer: 
 ms.author: jhendr
@@ -326,3 +327,4 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
 <WebPartPages:SPWebPartConnection ConsumerConnectionPointID="DFWP Filter Consumer ID" ConsumerID="g_bcca2ac1_f0f1_4640_af30_8a0730ca840e" ID="c1638508205" ProviderConnectionPointID="ITransformableFilterValues" ProviderID="g_7fc41891_2e27_4835_99c8_5b6f80feb20f"><WebPartPages:TransformableFilterValuesToParametersTransformer ConsumerFieldNames="PageType" ProviderFieldNames="Page Field"></WebPartPages:TransformableFilterValuesToParametersTransformer>
 </WebPartPages:SPWebPartConnection>
 ```
+

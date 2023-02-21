@@ -1,4 +1,5 @@
 ---
+ms.date: 08/24/2020
 title: "Create a task Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -34,4 +35,5 @@ After an agent is configured, anyone with the permission to go into the <a href=
 4. Add a source.
 5. Add a destination.
 6. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Select **Next**.
+
 

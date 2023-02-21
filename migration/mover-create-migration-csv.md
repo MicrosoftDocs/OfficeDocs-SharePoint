@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2020
 title: Mover - Create a new migration with a CSV file
 ms.author: jhendr
 author: JoanneHendrickson
@@ -70,3 +71,4 @@ To use an Excel spreadsheet to create your CSV:
    1. Select **File**. 
    1. Select **Save As**.
    1. From the **File Format** options, select **CSV**.
+
