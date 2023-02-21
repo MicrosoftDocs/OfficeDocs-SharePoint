@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Connect to service applications on remote farms in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -114,4 +115,5 @@ Before you begin this operation, review [Share service applications across farms
 [New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
   
 [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps&preserve-view=true)
+
 

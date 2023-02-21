@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Plan for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
 ms.author: mikeplum
@@ -105,3 +106,4 @@ We recommend that you review [Customizing SharePoint](/sharepoint/extend-and-dev
 [OneDrive Adoption](https://adoption.microsoft.com/onedrive/)
 
 [SharePoint Adoption](https://adoption.microsoft.com/sharepoint/)
+

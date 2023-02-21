@@ -1,4 +1,5 @@
 ---
+ms.date: 01/16/2020
 title: Automatic modernization of classic home pages
 ms.reviewer: metorres
 ms.author: matteva
@@ -139,3 +140,4 @@ For more help in transitioning to modern, refer to the following resources:
 - [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages) 
 
 - [Enable the communication site experience on classic team sites](modernize-classic-team-site.md)
+

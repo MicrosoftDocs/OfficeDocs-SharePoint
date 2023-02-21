@@ -1,4 +1,5 @@
 ---
+ms.date: 11/10/2020
 title: "Planning considerations for a global intranet"
 ms.reviewer:
 ms.author: loreenl
@@ -102,3 +103,4 @@ After Multi-Geo is enabled for your tenant, you can set up and manage geo locati
 - Learn how to [plan and set up](/microsoft-365/enterprise/multi-geo-tenant-configuration) Multi-Geo for your organization
 
 - Learn how to [set up Multi-Geo](https://techcommunity.microsoft.com/t5/office-365-blog/now-available-multi-geo-in-sharepoint-and-office-365-groups/ba-p/263302) in the SharePoint admin center to enable Multi-Geo features [across the user experience](/microsoft-365/enterprise/multi-geo-user-experience)
+

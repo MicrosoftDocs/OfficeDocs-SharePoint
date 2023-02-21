@@ -1,4 +1,5 @@
 ---
+ms.date: 01/22/2019
 title: "Troubleshooting Migration Manager"
 ms.reviewer:
 ms.author: jhendr
@@ -332,3 +333,4 @@ The User Principal Name (UPN) referenced is invalid. In order to create or updat
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Configure InfoPath Forms Services"
 ms.reviewer: 
 ms.author: mikeplum
@@ -96,3 +97,4 @@ To make indexing InfoPath forms faster and easier, you can specify which user ag
 6. To remove a user agent from the list, select the name, and then select **Remove**.
     
 7. Select **OK**.
+

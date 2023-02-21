@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Migration planning for SharePoint and OneDrive rollout
 ms.reviewer: 
 ms.author: mikeplum
@@ -86,3 +87,4 @@ See these references for specific instructions on how to migrate from different 
 ## Related topics
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
+

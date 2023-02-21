@@ -1,4 +1,5 @@
 ---
+ms.date: 05/22/2019
 title: "Manage access to Fluid Framework"
 ms.reviewer: kaarins
 ms.author: mikeplum

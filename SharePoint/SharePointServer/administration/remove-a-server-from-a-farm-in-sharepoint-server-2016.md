@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Remove a server from a farm in SharePoint Servers 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
@@ -162,5 +163,6 @@ Before you remove a database server from a farm, make sure that you have moved a
     
    The page updates, and the server that you removed no longer appears in the list of servers.
     
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/14/2022
 title: Block the download of files from a SharePoint site or OneDrive (preview)
 ms.reviewer: samust
 ms.author: mikeplum
@@ -71,3 +72,4 @@ Blocking download may impact the user experience in some apps, including some Of
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2021
 title: "Certificate notification contacts haven't been configured"
 ms.reviewer: 
 ms.author: serdars
@@ -27,3 +28,4 @@ description: "Learn how to configure certificate notification contacts."
  **Cause:** SSL certificates have been assigned to resources in the farm but no certificate notification contacts have been configured.
   
  **Resolution: Configure at least one certificate notification contact from the Configure Certificate Management Settings page in Central Administration.**
+

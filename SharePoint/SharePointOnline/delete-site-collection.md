@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Delete a site"
 ms.reviewer: 
 manager: serdars
@@ -108,3 +109,4 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
 <a name="__toc323551190"> </a>
 
 [User instructions for deleting sites and subsites](https://support.office.com/article/bc37b743-0cef-475e-9a8c-8fc4d40179fb)
+

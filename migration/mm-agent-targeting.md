@@ -1,4 +1,5 @@
 ---
+ms.date: 03/11/2021
 title: Agent groups in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -58,5 +59,6 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 2. After entering your Task name under **Settings**, select an agent group from the dropdown list. 
 3. Select **All settings** to make certain they're set correctly for you. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
 4. Select **Run now**. The task will be added to the list waiting for the next available agent in that targeted group.  
+
 
 
