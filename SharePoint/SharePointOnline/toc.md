@@ -2,6 +2,7 @@
 ## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Intro to OneDrive](onedrive-overview.md)
+### [OneDrive office hours](onedrive-office-hours.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
