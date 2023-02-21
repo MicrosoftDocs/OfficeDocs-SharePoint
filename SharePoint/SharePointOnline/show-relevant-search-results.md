@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Show the right search results"
 ms.reviewer: 
 ms.author: serdars
@@ -58,3 +59,4 @@ You can influence the pages or documents that should appear at the top of your l
 ## Export and import search settings
   
 You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. Learn about [exporting and importing search settings](export-and-import-search-settings.md).
+

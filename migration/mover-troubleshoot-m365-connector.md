@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2020
 title: Mover migration - Troubleshoot Office 365 connector
 ms.author: jhendr
 author: JoanneHendrickson

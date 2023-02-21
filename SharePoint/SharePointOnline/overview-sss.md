@@ -1,4 +1,5 @@
 ---
+ms.date: 09/09/2020
 title: Introduction to the SharePoint Success Site
 ms.reviewer:
 ms.author: matteva
@@ -119,3 +120,4 @@ Answer: The Site collection administrator and Site owner permissions of M365 lea
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -118,3 +119,4 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
 [Extranet for Partners with Microsoft 365](create-b2b-extranet.md)
   
 [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)
+

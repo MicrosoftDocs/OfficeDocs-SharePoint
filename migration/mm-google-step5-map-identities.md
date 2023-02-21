@@ -1,4 +1,5 @@
 ---
+ms.date: 01/21/2021
 title: "Step 5: Map Google identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
@@ -86,3 +87,4 @@ Upload your own users and groups mappings using the M
 >Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

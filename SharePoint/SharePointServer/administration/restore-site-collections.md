@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore site collections in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -80,4 +81,5 @@ For more information, see [Restore-SPSite](/powershell/module/sharepoint-server/
 #### Concepts
 
 [Back up site collections in SharePoint Server](back-up-site-collections.md)
+
 

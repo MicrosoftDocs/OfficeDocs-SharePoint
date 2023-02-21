@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Provision the SharePoint Success Site
 ms.reviewer:
 ms.author: matteva
@@ -227,3 +228,4 @@ Answer: A site collection administrator or site owner of Microsoft 365 learning 
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 
 Answer: Any user or guest who has SharePoint site visitor permissions or higher.
+

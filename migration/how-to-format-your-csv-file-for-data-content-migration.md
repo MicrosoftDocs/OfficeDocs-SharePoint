@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Format your JSON or CSV file for data content migration - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
@@ -186,4 +187,5 @@ If you wish to leverage your system proxy settings, use one of these methods:
 |**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub registration of a destination site.|
 |**Destination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
 |**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT will not change the association a destination site.|
+
 

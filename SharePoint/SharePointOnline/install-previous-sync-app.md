@@ -1,4 +1,5 @@
 ---
+ms.date: 12/22/2020
 title: "Install the previous OneDrive sync app"
 ms.reviewer: garezni
 ms.author: mikeplum
@@ -158,3 +159,4 @@ To install the previous OneDrive for Business sync app with Office 2013, follow 
 
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.
+

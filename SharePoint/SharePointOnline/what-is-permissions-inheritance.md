@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "What is permissions inheritance?"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -79,4 +80,5 @@ Suppose that an employee at Northwind Traders hired consultants and wants to col
   
 When the employee shares the folder with the consultants, SharePoint automatically handles all the details of permissions and access, by breaking inheritance on the folder itself. The consultants can access all the documents in the folder but can't view or access any other information on the site. Even though inheritance is technically broken, if people are later added to the parent site collection, they will automatically be given permission to the shared folder.
   
+
 

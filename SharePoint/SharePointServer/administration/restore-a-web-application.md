@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore web applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -199,5 +200,6 @@ If you configured object cache user accounts for the web application, the restor
   
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
+
 
 

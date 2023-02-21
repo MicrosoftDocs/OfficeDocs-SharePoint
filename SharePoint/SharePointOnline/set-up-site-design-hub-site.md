@@ -1,4 +1,5 @@
 ---
+ms.date: 08/20/2018
 title: "Set up a site template for your hub site"
 ms.reviewer: metorres
 ms.author: mikeplum
@@ -69,4 +70,5 @@ Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing
 Replace \<ID\> with the site script ID from when you added the site script.  
 
 You can also let hub site owners set the hub site template by using a new option available in the UI. For info about the hub site settings available to site owners, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098). 
+
 

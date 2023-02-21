@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2021
 title: "SSL certificates are about to expire"
 ms.reviewer: 
 ms.author: serdars
@@ -27,3 +28,4 @@ description: "Learn how to replace the SSL certificates that are about to expire
  **Cause:** SSL certificates currently in use in the farm are about to expire.
   
  **Resolution: Renew or replace these certificates to ensure uninterrupted access to these resources. You can renew or replace these certificates from the Certificate Management page in Central Administration.**
+

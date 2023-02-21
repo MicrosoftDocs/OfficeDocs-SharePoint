@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Configure settings for the SharePoint Store"
 ms.reviewer: 
 ms.author: mikeplum
@@ -70,3 +71,4 @@ Documents stored on sites may contain apps for Office from several sources. You 
 [Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43)
 
 [Office Store and SharePoint Store Terms of Use](https://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405)
+

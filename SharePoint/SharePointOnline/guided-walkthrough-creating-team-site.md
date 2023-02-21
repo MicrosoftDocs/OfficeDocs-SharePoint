@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Guided walkthrough - Creating a Team site
 ms.reviewer: 
 ms.author: matteva
@@ -191,3 +192,4 @@ For more details on using the Site activity web part, see [Use the site activity
 Get inspired with more examples in the [SharePoint look book](https://sharepointlookbook.azurewebsites.net/).
 
 See other [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c?ui=en-us&rs=en-us&ad=us) for creating sties for your organization.
+

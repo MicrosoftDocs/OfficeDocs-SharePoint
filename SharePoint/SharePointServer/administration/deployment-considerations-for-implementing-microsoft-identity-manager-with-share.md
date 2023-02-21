@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

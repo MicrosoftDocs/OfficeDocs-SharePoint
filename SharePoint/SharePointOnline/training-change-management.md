@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Training and change management for rolling out SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
@@ -111,3 +112,4 @@ For more information about Viva Learning, see [Overview of Microsoft Viva Learni
 ## Related topics
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
+

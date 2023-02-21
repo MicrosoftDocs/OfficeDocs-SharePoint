@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2020
 title: Mover migration - Authorizing Office 365
 ms.author: jhendr
 author: JoanneHendrickson
@@ -84,3 +85,4 @@ Some steps in the authorization process can be completed by a global or SharePoi
 If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![Execution select Office 365 destination](media/execution-select-office-365-destination.png)
+
