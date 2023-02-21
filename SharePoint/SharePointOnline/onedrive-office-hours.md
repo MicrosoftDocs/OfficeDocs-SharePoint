@@ -14,16 +14,16 @@ ms.collection:
 search.appverid:
 - MET150
 recommendations: false
-description: Learn about monthly OneDrive customer office hours for commercial and education customers as well as partners.
+description: Learn about monthly OneDrive customer office hours for commercial and education customers and partners.
 ---
 
 # Microsoft OneDrive customer office hours
 
-The OneDrive product and engineering team now offers monthly customer office hours for commercial and education customers as well as partners. You can join this one-hour Teams meeting to ask us questions, share your feedback, and learn more about the features we're building for the future. You can sign up here: [Sign up for OneDrive Customer Office Hours](https://forms.office.com/r/dmYkcLhpFD).
+The OneDrive product and engineering team now offers monthly customer office hours for commercial and education customers and partners. You can join this one-hour Teams meeting to ask us questions, share your feedback, and learn more about the features we're building for the future. You can sign up here: [Sign up for OneDrive Customer Office Hours](https://forms.office.com/r/dmYkcLhpFD).
 
 ## OneDrive Customer Office Hours
 
-**When:** 3rd Wednesday of each month, 8:00 a.m. - 9:00 a.m. PST 
+**When:** Third Wednesday of each month, 8:00 a.m. - 9:00 a.m. PST 
 
 **Where:** Teams meeting
 
@@ -47,4 +47,4 @@ You can opt out of the meeting invitation list. This will ensure that you no lon
 
 **A note on privacy**
 
-OneDrive customer office hours is conducted via Microsoft Teams and all meeting participants including Microsoft employees will be able to see each other's name and work email address while in the office hours meeting and in the meeting chat.
+OneDrive customer office hours is conducted via Microsoft Teams. All meeting participants including Microsoft employees will be able to see each other's name and work email address while in the office hours meeting and in the meeting chat.
