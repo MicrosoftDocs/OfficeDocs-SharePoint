@@ -1,4 +1,5 @@
 ---
+ms.date: 09/03/2019
 title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -140,3 +141,4 @@ With Azure B2B collaboration integration, all guests are added to the directory 
 [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings)
+

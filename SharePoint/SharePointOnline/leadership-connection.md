@@ -1,4 +1,5 @@
 ---
+ms.date: 06/29/2021
 title: "Use Microsoft 365 to connect leaders and teams"
 ms.reviewer:
 ms.author: hokavian
@@ -163,3 +164,4 @@ Help others in your organization discover the leadership connection resource. Co
 [Use the SharePoint Leadership connection site template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
 
 [Viva Connections for leaders](https://resources.techcommunity.microsoft.com/viva-connections/leaders/)
+

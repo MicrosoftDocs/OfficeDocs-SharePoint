@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Find your Microsoft 365 tenant ID"
 ms.reviewer: 
 ms.author: mikeplum
@@ -35,3 +36,4 @@ Your tenant ID can be found in the **Tenant ID** box on the [Properties page](ht
   
 > [!NOTE]
 > For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true) and then use [Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).
+

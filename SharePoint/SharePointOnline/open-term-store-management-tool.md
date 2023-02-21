@@ -1,4 +1,5 @@
 ---
+ms.date: 07/23/2018
 title: "Open the Term Store Management Tool"
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -34,3 +35,4 @@ If you need to edit the local taxonomy for a site, you can open the term store m
   
 1. For a site that you own, go to the **Site Settings** page.
 2. Under **Site Administration**, select **Term store management**.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/07/2021
 title: Intelligent intranet overview
 ms.author: matteva
 author: MattEEvans
@@ -134,3 +135,4 @@ Learn more about forming a site owner or [intranet champions community](https://
 [Branding your SharePoint site](./branding-sharepoint-online-sites-modern-experience.md)<br>
 
 [SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/)
+

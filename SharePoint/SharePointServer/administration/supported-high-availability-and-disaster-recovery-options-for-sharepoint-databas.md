@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Supported high availability and disaster recovery options for SharePoint databases"
 ms.reviewer: 
 ms.author: serdars

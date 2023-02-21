@@ -1,4 +1,5 @@
 ---
+ms.date: 09/20/2018
 title: "Migrate your file share content to SharePoint using the Azure Data Box"
 ms.reviewer: 
 ms.author: jhendr

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/12/2018
 title: "Deploy OneDrive apps using Intune"
 ms.reviewer: 
 ms.author: mikeplum
@@ -40,3 +41,4 @@ To deploy apps in Intune, you use the [Microsoft Endpoint Manager admin center](
 Although the sync app comes with Windows 10, you might choose to switch to [per-machine installation](per-machine-installation.md).
 
 For info about configuring sync app settings using Intune, see [Use administrative templates in Intune](configure-sync-intune.md).
+

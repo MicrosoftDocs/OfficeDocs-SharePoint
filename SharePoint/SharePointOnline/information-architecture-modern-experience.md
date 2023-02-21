@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2018
 title: "Introduction to SharePoint information architecture"
 ms.reviewer: 
 ms.author: matteva
@@ -211,3 +212,4 @@ Search leverages your information architecture investments to help users find co
 You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more info, see [Make content easy to find](/microsoftsearch/make-content-easy-to-find) and [Search experiences in SharePoint](./get-started-with-modern-search-experience.md).
 
 [**Next: learn about SharePoint information architecture principles**](information-architecture-principles.md)
+

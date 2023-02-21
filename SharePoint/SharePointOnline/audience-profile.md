@@ -1,4 +1,5 @@
 ---
+ms.date: 07/26/2021
 title: "Define and scope audience"
 ms.reviewer: 
 ms.author: hokavian
@@ -141,6 +142,7 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 ## Up next:
 
 **Step 4:** [Get started planning for your scenario](choose-communication-method.md)
+
 
 
 

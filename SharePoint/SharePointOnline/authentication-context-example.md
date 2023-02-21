@@ -1,4 +1,5 @@
 ---
+ms.date: 06/07/2021
 title: "Conditional access policies for SharePoint sites"
 ms.reviewer: samust
 ms.author: mikeplum
@@ -142,3 +143,4 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -Conditional
 [Conditional Access: Cloud apps, actions, and authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+

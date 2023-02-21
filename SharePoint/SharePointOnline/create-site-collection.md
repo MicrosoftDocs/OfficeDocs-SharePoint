@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Create a site"
 ms.reviewer: metorres
 ms.author: mikeplum
@@ -104,3 +105,4 @@ We recommend using the new site templates for all your new sites. However, if yo
     
 4. Select **OK**.
    
+

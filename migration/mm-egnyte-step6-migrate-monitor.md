@@ -1,4 +1,5 @@
 ---
+ms.date: 05/12/2020
 title: "Step 6: Migrate and monitor Egnyte migration"
 ms.reviewer: 
 ms.author: jhendr
@@ -55,3 +56,4 @@ As a task row completes, another from the queue will start migrating or scanning
 >Migration Manager Egnyte Workspace isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

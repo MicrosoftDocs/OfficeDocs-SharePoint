@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Search limits for SharePoint"
 ms.reviewer: 
 ms.author: serdars
@@ -60,3 +61,4 @@ The following table lists the limits for SharePoint search.
 - [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
 - [Overview of the search schema in SharePoint Server 2013](../SharePointServer/search/search-schema-overview.md)
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)
+
