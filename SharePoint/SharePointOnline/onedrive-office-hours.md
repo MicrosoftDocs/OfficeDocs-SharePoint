@@ -47,4 +47,4 @@ You can opt out of the meeting invitation list. This will ensure that you no lon
 
 **A note on privacy**
 
-OneDrive customer office hours is conducted via Microsoft Teams. All meeting participants including Microsoft employees will be able to see each other's name and work email address while in the office hours meeting and in the meeting chat.
+OneDrive customer office hours are Microsoft Teams meetings. All meeting participants including Microsoft employees will be able to see each other's name and work email address while in the office hours meeting and in the meeting chat.
