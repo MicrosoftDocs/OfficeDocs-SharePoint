@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover reports
 author: JoanneHendrickson
 ms.author: jhendr
@@ -190,3 +191,4 @@ When files and folders are "skipped," Mover has deliberately skipped that item d
 - It was a scan. Items are not copied during a scan.
 
 In the log, a skipped item has a status of either Folder skipped, File skipped or Failure. The Additional info column in the log will give you more insight as to why the item did not migrate.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Secure external sharing in SharePoint"
 ms.reviewer: srice
 ms.author: mikeplum

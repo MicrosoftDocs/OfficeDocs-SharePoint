@@ -1,4 +1,5 @@
 ---
+ms.date: 10/03/2022
 title: "Microsoft Syntex Advanced Management (Preview) overview"
 ms.reviewer: daminasy
 ms.author: mikeplum
@@ -46,3 +47,4 @@ Articles that cover features that use Syntex Advanced Management are designated 
 **[Restricted Access Control for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not in the Microsoft 365 group won't have access even if they previously had site access permissions to a file.
 
 **[Block the download of files from a SharePoint site or OneDrive](block-download-from-sites.md)** - You can block download of files from SharePoint sites or OneDrive without needing to use Azure Active Directory conditional access policies. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps.
+

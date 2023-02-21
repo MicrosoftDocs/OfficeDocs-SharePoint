@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2020
 title: Mover Migration Manager 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -110,4 +111,5 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
 ![migration finalize mover](media/mover-finalize-mover.png)
+
 

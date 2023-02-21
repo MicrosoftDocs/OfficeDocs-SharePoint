@@ -1,4 +1,5 @@
 ---
+ms.date: 06/03/2020
 title: Mover Microsoft 365 Migration FAQ
 author: JoanneHendrickson
 ms.author: jhendr
@@ -176,3 +177,4 @@ At a maximum, only 50 user Transfer Rows can run simultaneously. This total incl
 If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest will be in the "Queued Transfer Rows."
 
 As a transfer row completes, another from the queue will start migrating or scanning automatically.  While 50 concurrent user transfer rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
+

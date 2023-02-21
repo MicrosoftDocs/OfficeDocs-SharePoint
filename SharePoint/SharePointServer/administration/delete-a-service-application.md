@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Delete a service application in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -109,4 +110,5 @@ For more information, see [Get-SPServiceApplication](/powershell/module/sharepoi
 #### Other Resources
 
 [Remove-SPServiceApplicationProxyGroup](/powershell/module/sharepoint-server/Remove-SPServiceApplicationProxyGroup?view=sharepoint-ps&preserve-view=true)
+
 

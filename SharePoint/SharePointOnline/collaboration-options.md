@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Plan sharing and collaboration options in SharePoint and OneDrive
 ms.reviewer: srice
 ms.author: mikeplum
@@ -122,3 +123,4 @@ If you've enabled *Anyone* links, you can choose if these links should expire af
 [SharePoint and OneDrive file sync](/sharepoint/sharepoint-sync)
 
 [Create a more secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
+

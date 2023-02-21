@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Running the Mover migration
 author: JoanneHendrickson
 ms.author: jhendr
@@ -145,3 +146,4 @@ To rerun or restart your transfer, complete the following steps:
 
 1. Select the or user(s) you want to rerun.
 2. To run the users again, at the top right, select **Start Migrating X Users**.
+

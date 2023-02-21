@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Use PowerShell cmdlets to migrate on-premises content - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
@@ -300,3 +301,4 @@ EncryptionKey                                       EncryptionMethod
 <a name="step7monitoring"> </a>
 
 [Cmdlet references are for SharePoint Online](/powershell/module/sharepoint-online/)
+

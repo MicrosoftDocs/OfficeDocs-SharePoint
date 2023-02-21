@@ -1,4 +1,5 @@
 ---
+ms.date: 05/13/2019
 title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
@@ -135,3 +136,4 @@ Using the steps below as a template, create your own custom guidance for SharePo
 
 **Resources:** </br>
 - [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy)
+

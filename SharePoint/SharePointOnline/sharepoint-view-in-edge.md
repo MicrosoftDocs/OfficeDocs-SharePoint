@@ -1,4 +1,5 @@
 ---
+ms.date: 09/08/2021
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
 ms.author: mikeplum
@@ -132,3 +133,4 @@ You may receive this error if this functionality is not supported in your curren
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
 - [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)
 - [OneDrive sync reports in the Apps Admin Center](/onedrive/sync-health)
+

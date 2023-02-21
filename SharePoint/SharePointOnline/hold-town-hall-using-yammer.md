@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Hold a town hall in Yammer and keep the conversation going
 ms.reviewer:
 ms.author: hokavian
@@ -193,4 +194,5 @@ These insights provide information that allows you to measure community growth b
 [Corporate communications overview](corporate-communications-overview.md)
 
 [Yammer live event guide](https://aka.ms/LiveEventsinYammerplaybook)
+
 

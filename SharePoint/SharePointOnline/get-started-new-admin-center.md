@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Get started with the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: mikeplum
