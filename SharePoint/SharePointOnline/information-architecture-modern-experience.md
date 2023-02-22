@@ -44,7 +44,7 @@ Information architecture also helps improve user adoption, satisfaction, and pro
 
 ## Information architecture elements in SharePoint
 
-Information architecture is about how you organize and label your content and how your visitors interact with the content to get work done. This includes elements like navigation, search, site hierarchy, taxonomy, and security. Modern SharePoint information architecture is also about how to ensure the right content gets to the right people and follows your organization’s content compliance regulations. 
+Information architecture is about how you organize and label your content and how your visitors interact with the content to get work done. On websites, information architecture includes elements like navigation, search, site hierarchy, taxonomy, and security. Modern SharePoint information architecture is also about how to ensure the right content gets to the right people and follows your organization’s content compliance regulations. 
 
 Information architecture covers 6 main elements that relate to way finding in SharePoint:
 
@@ -55,11 +55,11 @@ Information architecture covers 6 main elements that relate to way finding in Sh
 - **Search experiences** – How your users “consume” information architecture in addition to browsing.
 - **Personalized content experiences** – How specific content is targeted to certain users and groups of users.
 
-Designing the optimal structure for hubs, sites, and pages requires sufficient planning. It also requires knowledge of the domain, content, understanding the user experience, awareness of design approaches, and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Over time you will learn about your users, which will allow for adjustments that make content more discoverable.
+Designing the optimal structure for hubs, sites, and pages requires sufficient planning. It also requires knowledge of the domain, content, understanding the user experience, awareness of design approaches, and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Over time you'll learn about your users, which will allow for adjustments that make content more discoverable.
 
 ## Understand your role and how to collaborate 
 
-Information architecture for your organization will be the most effective by collaborating with many types of roles involved in your intranet such as: intranet owners, departmental business owners, IT administrators, and hub owners just to name a few. Learn more about how each role plays a part in planning, implementing, and managing ongoing maintenance for organizational information architecture. 
+Information architecture for your organization is most effective when many types of roles collaborate on your intranet, such as: intranet owners, departmental business owners, IT administrators, and hub owners just to name a few. Learn more about how each role plays a part in planning, implementing, and managing ongoing maintenance for organizational information architecture. 
 
 ![Information architecture roles](media/roles.png)
 
@@ -79,13 +79,13 @@ Information architecture for your organization will be the most effective by col
 
 ## Guiding principle: the world is flat
 
-Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
-In the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic, task, or unit of work. This will allow you to easily distribute management and accountability for each content collection and support your ability to move sites around in your navigational architecture without breaking links. Moreover, when a topic is no longer needed, you can easily archive or delete a site with minimal impact. 
+Classic SharePoint architecture is typically built using a hierarchical system of site collections and subsites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
+In the modern SharePoint experience, subsites aren't recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic, task, or unit of work. This will allow you to easily distribute management and accountability for each content collection and support your ability to move sites around in your navigational architecture without breaking links. Moreover, when a topic is no longer needed, you can easily archive or delete a site with minimal impact. 
 
 In the new flat world, you have several ways to connect sites and content to each other as part of your information architecture toolkit:
 
 - Use “roll up” web parts such as [News](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Highlighted content](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), or [Sites](https://support.office.com/article/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d) to dynamically surface content from other sites in an existing site.
-- Use [inline hyperlinks](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to provide additional detail about a topic to provide more information to your reader (as demonstrated in the previous bullet).
+- Use [inline hyperlinks](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to provide more detail about a topic to provide more information to your reader (as demonstrated in the previous bullet).
 - Add explicit links to related sites in your [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 - Connect families of related sites using [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
@@ -113,9 +113,9 @@ Many intranets include top navigation that persists on every site. Global naviga
 - Locations
 - Policies & Procedures/Tools & Resources/Safety & Security
 
-The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you will want to test your proposed navigation to make sure that it resonates with users.
+The goal of global navigation is to support browsing to content. Since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough information to help viewers find the content they need. Because the context for global navigation must be broad, it's challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you'll want to test your proposed navigation to make sure that it resonates with users.
 
-Global navigation is enabled with the [SharePoint app bar](./sharepoint-app-bar.md) on your [home site](./home-site.md). You will need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
+Global navigation is enabled with the [SharePoint app bar](./sharepoint-app-bar.md) on your [home site](./home-site.md). You need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
 
 ### Hub navigation
 
@@ -123,7 +123,7 @@ SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-
 
 ![Hub navigation](media/hub-nav.png)
 
-Hub navigation appears above the local navigation on each site, just below the suite bar, as shown in the image earlier in this article. Hub navigation is established in the site that is declared to be the hub. It is defined by the hub owner and is shared by all the associated sites.
+Hub navigation appears above the local navigation on each site, just below the suite bar, as shown in the image earlier in this article. Hub navigation is established in the site that is declared to be the hub. It's defined by the hub owner and is shared by all the associated sites.
 
 ![SharePoint hubs example](media/hub_nav_example.png)
 
@@ -162,7 +162,7 @@ Where you’ll see local navigation elements:
 
 ### Sites
 
-Your intranet and portals will be comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that provide further access into the site’s pages, lists, and libraries. 
+Your intranet and portals are comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that provide further access into the site’s pages, lists, and libraries. 
 
 One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](/microsoft-365/admin/create-groups/office-365-groups). Microsoft 365 groups provide a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
 
@@ -170,9 +170,9 @@ One component to modern SharePoint team sites that makes information architectur
 
 [Pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) within team or communication sites provide an opportunity to use dynamic web parts that automatically update content from other sites and pages like [News](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Highlighted content](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), or [Sites web parts](https://support.office.com/article/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d). Every page in each site tells a story for the reader. 
 
-Your sites will generally include three types of pages:
+Your sites generally include three types of pages:
 
-- The **home page** where you will provide an overview of your content and introduce the reader to what they will find on the site.
+- The **home page** where you'll provide an overview of your content and introduce the reader to what they'll find on the site.
 - **Navigation pages** that provide options or summary information for the reader and help them get to a decision point about where they want to go next.
 - **Destination pages** that are the end point of the reader’s journey. This is where you will present information to read, print, or download. If you have a lot of information on your destination page or you want to provide supplemental explanations for detailed topics, you can create an ancillary page.
 
