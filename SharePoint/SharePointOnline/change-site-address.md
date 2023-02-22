@@ -182,7 +182,7 @@ When the site address change is complete, users will be able to access their Sha
 
 If you need change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you subsequently want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
-For a case where you erroneously changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty*, the steps to follow are:
+For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* and want to refert back, the steps to follow are:
 1. Delete the redirect from *projectx* to *projecty* by using the Remove-SPOSite cmdlet on the *projectx* address.
 2. Initiate a new site address change from *projecty* to *projectx*.
 3. Delete the redirect from *projecty* to *projectx* by using the Remove-SPOSite cmdlet on the *projecty* address.
