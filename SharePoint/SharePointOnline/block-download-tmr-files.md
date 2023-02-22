@@ -41,7 +41,7 @@ Blocking the download of Teams meeting recording files allows users to remain pr
     ```PowerShell
     Set-SPOTenant -BlockDownloadFileTypePolicy <$true/$false(default)>  -BlockDownloadFileTypeIds  TeamsMeetingRecording
     ```
-    For example to turn this feature on, `Set-SPOTenant -BlockDownloadFileTypePolicy $true  -BlockDownloadFileTypeIds  TeamsMeetingRecording`
+    For example, to turn this feature on, run `Set-SPOTenant -BlockDownloadFileTypePolicy $true  -BlockDownloadFileTypeIds  TeamsMeetingRecording`.
 
 ## Exempting users in security groups from the policy
 
