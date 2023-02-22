@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2019
+ms.date: 02/22/2023
 title: "Change a site address"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -57,7 +57,7 @@ It can take about 10 minutes to change the site address (depending on the size o
 You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
 
 > [!NOTE]
-> If you make an error in the new name specified, please follow the [recommended steps to revert the change.](#reverting-an-erroneous-site-address-change)
+> If you need to revert a site address change, follow the steps in [Revert a site address change](#revert-a-site-address-change).
 
 ## Communicate the address change to users
 
@@ -178,13 +178,13 @@ When the site address change is complete, users will be able to access their Sha
 |File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
 
-## Reverting an erroneous site address change
+## Revert a site address change
 
-We recommend not attempting to just rename again from the erroneous address to the desired address. This can cause issues if you subsequently want to use the erroneous address for another site. Instead, we recommend taking actions to bring the sites back to their original address. To do so, you would need to use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md). 
+If you need change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you subsequently want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
 For a case where you erroneously changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty*, the steps to follow are:
 1. Delete the redirect from *projectx* to *projecty* by using the Remove-SPOSite cmdlet on the *projectx* address.
 2. Initiate a new site address change from *projecty* to *projectx*.
 3. Delete the redirect from *projecty* to *projectx* by using the Remove-SPOSite cmdlet on the *projecty* address.
 
-After following these steps, you should be back to the original state before the erroneous site address change.
+After following these steps, you should be back to the original state before the site address change.
