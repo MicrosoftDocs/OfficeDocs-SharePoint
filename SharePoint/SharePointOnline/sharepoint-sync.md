@@ -30,9 +30,26 @@ To upload files to the team site, users can simply copy or move them to the site
 
 Windows 10 devices come with the OneDrive sync app installed. Office 2016 and later installations also have the sync app installed.
 
-[Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)
+## SharePoint file sync and OneDrive shortcuts
 
-[Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
+Users have two options when syncing files in SharePoint libraries and Teams. They can
+
+- [Add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33).
+- [Use the Sync button in the document library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88).
+
+Both options allow essentially the same thing—users can access files on their local computer in Explorer or Finder. However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, OneDrive shortcuts offer improved performance versus using the sync button.
+
+We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the Sync button from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
+
+```PowerShell
+Set-SPOTenant -HideSyncButtonOnTeamSite $true
+```
+
+## Related topics
+
+[Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+
+Read about [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
 
 [Fix OneDrive sync problems](https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2)
 
