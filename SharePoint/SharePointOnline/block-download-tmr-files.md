@@ -24,7 +24,7 @@ description: Learn how administrators can block download of Teams meeting record
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of Teams Meeting Recording files from SharePoint sites or OneDrive. This feature can only be set for at the organization level.
+As a SharePoint administrator or Global administrator in Microsoft 365, you can block download of Teams meeting recording files from SharePoint or OneDrive. This feature can only be set at the organization level.
 
 Blocking download of Teams Meeting Recording files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access to play the meeting recordings with no ability to download or sync files. They also won't be able to access content through apps. After this feature is turned on then any "new" teams meeting recording file created by Teams service and saved in SharePoint and OneDrive. Note this feature do not apply for manually uploaded meeting recording files. Also this feature will not prevent download of files that were uploaded by Teams service prior to turning this feature on. If you want to do so then open a support ticket.   
 
