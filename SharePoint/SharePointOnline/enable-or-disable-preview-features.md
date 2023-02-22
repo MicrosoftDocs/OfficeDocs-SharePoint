@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Enable or disable preview features in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
@@ -31,3 +32,4 @@ The **Preview Features** setting in the classic SharePoint admin center is no lo
   
 > [!NOTE]
 > The **Preview Features** setting isn't related to the Targeted release option, which allows you to receive new updates and features as they become available. If you're interested in signing up for that, see [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365).
+

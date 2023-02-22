@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "External sharing overview"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -159,3 +160,4 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
 
 [Pricing - Active Directory External Identities](https://azure.microsoft.com/pricing/details/active-directory/external-identities/)
+

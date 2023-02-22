@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Publish service applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -100,4 +101,5 @@ Before you begin this operation, review [Share service applications across farms
 [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
 [Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps&preserve-view=true)
+
 

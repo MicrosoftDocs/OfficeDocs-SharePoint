@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Minimum public update levels for SharePoint hybrid features"
 ms.reviewer: 
 ms.author: serdars
@@ -91,3 +92,4 @@ The following table shows the minimum PU requirements for hybrid features in Sha
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |February 2015  <br/> |
+

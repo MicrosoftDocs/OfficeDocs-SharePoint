@@ -1,4 +1,5 @@
 ---
+ms.date: 04/19/2022
 title: "Migration Manager transaction logs"
 ms.reviewer: 
 ms.author: jhendr
@@ -19,4 +20,5 @@ search.appverid:
 description: Learn about Migration Manager transaction logs.
 ---
 # Migration Manager transaction logs
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/10/2020
 title: "Lock and unlock sites"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -59,3 +60,4 @@ Set-SPOTenant -NoAccessRedirectUrl 'https://www.contoso.com'
  ```
 
 For more info about the LockState parameter, see [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite). For more info about the NoAccessRedirectUrl parameter, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/20/2018
 title: Get started with the modern search experience
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Display template reference in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -106,4 +107,5 @@ You can use the display templates in the following table to change the appearanc
 |Item display template  <br/> |Word Item  <br/> |Item_Word  <br/> |Displays a search result that is customized for a Microsoft Word document.  <br/> |
 |Hover panel  <br/> |Word Hover Panel  <br/> |Item_Word_HoverPanel  <br/> |Displays a search result hover panel that is customized for a Microsoft Word document.  <br/> |
    
+
 

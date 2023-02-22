@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
 ms.author: mikeplum
@@ -825,4 +826,5 @@ If you disable this setting, the local  *OneDrive - {organization name}*  folder
 [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md)
 
 [Lists sync policies](/sharepoint/lists-sync-policies)
+
 

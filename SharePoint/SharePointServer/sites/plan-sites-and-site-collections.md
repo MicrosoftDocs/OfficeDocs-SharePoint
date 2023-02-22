@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan sites and site collections in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

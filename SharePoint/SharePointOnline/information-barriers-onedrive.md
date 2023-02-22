@@ -1,4 +1,5 @@
 ---
+ms.date: 05/28/2020
 title: "Use information barriers with OneDrive"
 description: "Learn about associating segments with a OneDrive, and what happens when segments are associated with a OneDrive."
 ms.author: robmazz
@@ -304,3 +305,4 @@ For more information about OneDrive segment auditing in Office 365, see [Search 
 
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 - [Information barriers in SharePoint](/sharepoint/information-barriers)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/05/2021
 title: "Step 1: Connect to Egnyte"
 ms.reviewer: jhendr
 author: JoanneHendrickson
@@ -94,6 +95,7 @@ Your new Egnyte application lets you connect to your Egnyte account.  However, i
 
 
 ## [**Step 2: Scan and assess**](mm-egnyte-step2-scan-assess.md)
+
 
 
 

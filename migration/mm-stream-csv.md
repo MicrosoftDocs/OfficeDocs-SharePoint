@@ -1,4 +1,5 @@
 ---
+ms.date: 09/24/2021
 title: "Bulk upload Stream source paths into Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -60,3 +61,4 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 :::image type="content" source="media/mm-stream-upload-csv.png" alt-text="stream upload":::
 
 4. View your added files in the **Scans** tab. Continue to the next step, "Add to Migrations".
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2018
 title: Branding your SharePoint site
 ms.reviewer: cathed
 ms.author: matteva
@@ -86,3 +87,4 @@ Check out the below resources that provide more details about how to use the mod
 [JSON schema](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-json-schema)
 
 [Theme generator](https://aka.ms/spthemebuilder)
+

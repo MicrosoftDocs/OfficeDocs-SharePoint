@@ -1,4 +1,5 @@
 ---
+ms.date: 05/21/2020
 title: How to think about your intelligent intranet
 ms.author: matteva
 author: MattEEvans
@@ -123,3 +124,4 @@ Signals your organization can benefit from modern:
 [Modernize your classic SharePoint pages](/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
 [SharePoint modernization scanner](/sharepoint/dev/transform/modernize-scanner)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Change your SharePoint domain name"
 ms.reviewer: jmcdowe
 ms.author: mikeplum
@@ -220,3 +221,4 @@ To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [Mo
 
 - [Frequently asked questions](/sharepoint/troubleshoot/administration/domain-rename-faq)
 - [Errors and how to fix them](/sharepoint/troubleshoot/administration/errors-when-renaming)
+

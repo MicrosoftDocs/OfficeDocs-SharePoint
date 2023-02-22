@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Default SharePoint groups"
 ms.reviewer: 
 ms.author: mikeplum
@@ -107,3 +108,4 @@ In SharePoint Server, you designate a site collection administrator when you cre
 In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
 If you are using SharePoint Server, you do not have a SharePoint admin or SharePoint admin center.
+

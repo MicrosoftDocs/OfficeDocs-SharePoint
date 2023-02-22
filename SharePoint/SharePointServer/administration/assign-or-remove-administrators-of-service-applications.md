@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Assign or remove administrators of service applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -169,4 +170,5 @@ For more information, see the following Microsoft PowerShell articles:
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
+
 
