@@ -1,4 +1,5 @@
 ---
+ms.date: 07/24/2018
 title: "What's deprecated or removed from SharePoint Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -170,3 +171,4 @@ Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight
 ## SharePoint Business Intelligence Scenarios
 
 For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](/archive/blogs/sqlrsteamblog/simplifying-our-sharepoint-integration-story). Microsoft recommends using [Power BI](https://powerbi.microsoft.com/), [Power BI Report Server](https://powerbi.microsoft.com/report-server/), or [SQL Server Reporting Services](/sql/reporting-services) in native mode for reporting needs.
+

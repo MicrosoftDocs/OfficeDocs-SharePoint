@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Search Center settings"
 ms.reviewer: 
 ms.author: serdars
@@ -44,3 +45,4 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you spec
     
 > [!NOTE]
 >  It may take up to 30 minutes before changes take effect.
+

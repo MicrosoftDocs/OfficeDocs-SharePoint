@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Guided walkthrough - Setting up news for your organization using a hub site
 ms.reviewer: 
 ms.author: matteva
@@ -250,3 +251,4 @@ It’s also important to think about the other places where users might consume 
 Get inspired with more examples in the [SharePoint look book](https://sharepointlookbook.azurewebsites.net/).
 
 See other [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c?ui=en-us&rs=en-us&ad=us) for creating sites for your organization.
+

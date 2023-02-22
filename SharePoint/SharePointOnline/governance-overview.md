@@ -1,4 +1,5 @@
 ---
+ms.date: 01/27/2020
 title: "SharePoint governance overview"
 ms.reviewer:
 ms.author: mikeplum
@@ -63,3 +64,4 @@ For lifecycle guidance for SharePoint sites together with related Microsoft 365 
 [Create a secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 [Limit accidental exposure to files when sharing with people outside your organization](/microsoft-365/solutions/share-limit-accidental-exposure)
+

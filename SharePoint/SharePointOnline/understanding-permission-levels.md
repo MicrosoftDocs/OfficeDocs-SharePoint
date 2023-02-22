@@ -1,4 +1,5 @@
 ---
+ms.date: 10/15/2018
 title: "Understanding permission levels in SharePoint"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -259,3 +260,4 @@ If you disable the limited-access user permission lockdown mode site collection 
 <a name="__toc313623995"> </a>
 
 Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](./default-sharepoint-groups.md).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Allow syncing only on computers joined to specific domains"
 ms.reviewer: 
 ms.author: mikeplum
@@ -56,3 +57,4 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 7. Select **Save**.
     
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction).
+

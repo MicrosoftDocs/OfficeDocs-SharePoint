@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2021
 title: "Setting migration task schedules in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -29,4 +30,5 @@ You can run your task now or schedule a time to have your migration task queued.
 Select the desired date and time. The time is expressed as UTC -7:00 (Pacific Time, US and Canada).
 
 ![Setting task date in the future](media/mm-task-scheduling-date.png)
+
 

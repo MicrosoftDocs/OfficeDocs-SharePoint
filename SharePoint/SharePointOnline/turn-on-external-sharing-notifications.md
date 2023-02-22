@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Control notifications"
 ms.reviewer: shahna
 ms.author: mikeplum
@@ -54,3 +55,4 @@ The Notifications page of the OneDrive admin center included three other setting
 
 For info about controlling SharePoint notifications, see [Control notifications](/sharepoint/notifications).
 To control whether sharing emails include "At a glance" content, see [Set-SPOTenant -IncludeAtAGlanceInShareEmails](/powershell/module/sharepoint-online/set-spotenant).
+

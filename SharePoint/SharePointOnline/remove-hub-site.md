@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Remove a hub site"
 ms.reviewer: metorres
 ms.author: mikeplum
@@ -44,3 +45,4 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 ## Related topics
 
 To learn how to use Microsoft PowerShell to manage and delete hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
+

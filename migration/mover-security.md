@@ -1,4 +1,5 @@
 ---
+ms.date: 08/05/2020
 title: Mover services migration security
 ms.author: jhendr
 author: JoanneHendrickson
@@ -88,3 +89,4 @@ All applications by Mover that have a web interface are secured using TLS strong
 During the process of a transfer, all files are downloaded to our Runner servers, located in Microsoft Azure, then processed through to Microsoft 365 Migration APIs. Each step relies on TLS cryptographic protocols.
 
 During mediation process, Mover temporarily maintains a copy of your file on an encrypted file system before it uploads it to Microsoft 365. As soon as the upload of the file has been verified, we immediately remove the file from our cache. We never keep a copy of your data. We facilitate the transfer of your data and we have no interest in, or benefit from, retaining your data.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover migration - setup your Azure Blob Storage Connector
 author: JoanneHendrickson
 ms.author: jhendr
@@ -35,3 +36,4 @@ Authorizing Azure Blob Storage is straightforward. To authorize or add an Azure 
 7. Click Authorize again, and voila!
 
 ![Azure connector name](media/name-connector-azure.png)
+

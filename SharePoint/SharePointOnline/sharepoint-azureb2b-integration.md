@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2019
 title: Azure AD B2B integration for SharePoint & OneDrive
 ms.reviewer: srice
 ms.author: mikeplum
@@ -83,3 +84,4 @@ You can disable the integration by running '[Set-SPOTenant](/powershell/module/s
 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant)
 
 [External sharing overview](./external-sharing-overview.md)
+

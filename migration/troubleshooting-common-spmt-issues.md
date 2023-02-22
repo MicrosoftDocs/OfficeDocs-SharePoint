@@ -1,4 +1,5 @@
 ---
+ms.date: 01/22/2019
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
@@ -138,3 +139,4 @@ This article describes common issues and errors you may encounter when using the
 | Migration failed due to invalid assembly name |The assembly name of the web part is critical for SPMT to migrate the web part. If the assembly of the web part cannot be parsed from its SOAP response the migration fails. |Check whether this web part is a supported "out-of-the box" (OOTB) web part. If it is supported, please file a bug and we will investigate.  However, if is a third-party web part, it is not supported. |
 |Migration failed due to web part connection failure. |The web part is connected to another web part that failed to migrate, causing both to fail. |Make sure the connected web part is migrated successfully. Retry your migration.|
 |Migration failed due to unable to map user |If the User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint site. This error occurs when SPMT cannot map to the user. |Confirm that Azure Active Directory is used to sync all on-premises users to SharePoint. See this link for more info.|
+

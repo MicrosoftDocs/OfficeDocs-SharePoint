@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Updated Product Servicing Policy for SharePoint Server Subscription Edition"
 ms.reviewer:
 ms.author: v-smandalika

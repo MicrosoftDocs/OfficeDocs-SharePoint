@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "SharePoint classic search administration overview"
 ms.reviewer: 
 ms.author: serdars
@@ -63,3 +64,4 @@ You can customize and tailor the classic search experience more than Microsoft S
 <a name="__top"> </a>
 
 [Search limits for SharePoint](search-limits.md)
+

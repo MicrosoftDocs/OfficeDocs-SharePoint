@@ -1,4 +1,5 @@
 ---
+ms.date: 01/04/2021
 title: "Prevent users from contacting Microsoft directly"
 ms.reviewer: 
 ms.author: mikeplum
@@ -92,3 +93,4 @@ For the standalone Mac sync app:
 For the Mac sync app installed through the Mac App Store:
 
 **defaults write com.microsoft.OneDrive-mac DisableReportProblemDialog 1**
+

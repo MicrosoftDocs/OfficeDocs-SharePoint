@@ -1,4 +1,5 @@
 ---
+ms.date: 01/07/2019
 title: "Remove users from SharePoint"
 ms.reviewer: waynewin
 ms.author: serdars
@@ -121,3 +122,4 @@ You'll have to browse to each site collection that the user or guest visited, an
 SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
+

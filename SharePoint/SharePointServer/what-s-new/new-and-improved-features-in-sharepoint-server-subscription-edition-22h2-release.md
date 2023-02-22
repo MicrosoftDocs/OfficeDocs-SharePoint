@@ -1,4 +1,5 @@
 ---
+ms.date: 08/01/2022
 title: "New and improved features in SharePoint Server Subscription Edition Version 22H2"
 ms.reviewer: 
 ms.author: v-nsatapathy
@@ -115,3 +116,4 @@ Previously, when creating a new site via the SharePoint start page, users couldn
 ### New SharePoint RESTful ListData.svc implementation
 
 *ListData.svc* has been rebuilt so that it no longer depends on the WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the **Early release** ring, the new design is activated. You can go back to the original architecture if the *ListData.svc* web service exhibits unexpected behavior by switching the farm back to the **Standard release** ring.
+

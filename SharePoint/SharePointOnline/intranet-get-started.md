@@ -1,4 +1,5 @@
 ---
+ms.date: 01/14/2020
 title: "Get started planning your intranet"
 ms.reviewer: 
 ms.author: matteva
@@ -100,3 +101,4 @@ Now that you are familiar with the key success factors, phases, roles, and tasks
 [Plan your intranet](./plan-intranet.md)
 
 [Plan your communication sites](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
+

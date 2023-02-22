@@ -1,4 +1,5 @@
 ---
+ms.date: 03/15/2019
 title: Install the sync app per-machine (Windows)
 ms.reviewer: gacarini
 ms.author: mikeplum
@@ -69,3 +70,4 @@ To verify that you have the per-machine installation, you can use the following 
 ## Revert back to the per-user sync app
 
 We don't support automated migration from per-machine to per-user. To revert back after installing per-machine, uninstall the sync app and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the "/allusers" parameter.
+

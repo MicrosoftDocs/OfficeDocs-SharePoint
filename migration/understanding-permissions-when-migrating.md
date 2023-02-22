@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2018
 title: "File & folder permission when using SharePoint Migration Tool"
 ms.reviewer:
 ms.author: jhendr
@@ -63,3 +64,4 @@ The SharePoint Migration Tool permission control is affected by various conditio
 |Site/Web|Yes|NA|Inherited|Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
 |Site/Web(A) with Subsite B (both migrated with SPMT)|Yes|NA|||Subsite B or sub web inherited from main Site A Subsite B/web unique from the new SharePoint main site A Site A is migrated as described for normal site migration.  Subsite B becomes unique and role assignment **will be replaced** by those in the source Subsite B|
 |Site/Web|Yes|NA|Unique|Unique|Role assignment of source site/web will be added as new role assignments to the target site/web|
+

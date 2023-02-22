@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Block syncing of specific file types"
 ms.reviewer: gacarini
 ms.author: mikeplum
@@ -58,5 +59,6 @@ This setting prevents file types from being uploaded but not downloaded. If user
    > When you configure this setting, it takes approximately 8 hours for the OneDrive sync app to detect it and apply the change.
 
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction). For info about using a policy to block upload of specific files, see [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded).
+
 
 
