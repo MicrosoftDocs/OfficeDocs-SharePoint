@@ -123,13 +123,13 @@ If apps in your organization refer to the site's URL, you might need to republis
 You need to recreate the Custom Form after the site address change. 
 
 **Hub sites**<br>
-If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
+If the site is associated with a hub, it must be reassociated after the site address is changed. 
 
 **InfoPath forms**<br>
 InfoPath forms that refer to URLs might not work after the site address is changed.
 
 **List View web part**<br>
-If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
+If a List View web part on a page is scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
 
 **Microsoft Forms**<br>
 If the site is a Microsoft 365 group-connected site that has forms in Microsoft Forms, any File Upload questions in forms will break. To fix this issue, recreate the file upload questions to allow responders to upload files again.
@@ -182,7 +182,7 @@ When the site address change is complete, users will be able to access their Sha
 
 If you need change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you subsequently want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
-For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* and want to refert back, the steps to follow are:
+For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* and want to revert back, the steps to follow are:
 1. Delete the redirect from *projectx* to *projecty* by using the Remove-SPOSite cmdlet on the *projectx* address.
 2. Initiate a new site address change from *projecty* to *projectx*.
 3. Delete the redirect from *projecty* to *projectx* by using the Remove-SPOSite cmdlet on the *projecty* address.
