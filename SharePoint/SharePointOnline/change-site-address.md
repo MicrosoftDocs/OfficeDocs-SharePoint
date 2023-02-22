@@ -56,6 +56,9 @@ It can take about 10 minutes to change the site address (depending on the size o
 
 You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
 
+> [!NOTE]
+> If you make an error in the new name specified, please follow the [recommended steps to revert the change.](#reverting-an-erroneous-site-address-change)
+
 ## Communicate the address change to users
 
 Before you change the address of a site, it's important to communicate the change to site users (generally anyone with the ability to edit or view the site). This can help reduce user confusion and calls to your help desk. [Review the effects](#effects-of-changing-a-site-address) of changing a site address and let users know the following information:
@@ -175,3 +178,13 @@ When the site address change is complete, users will be able to access their Sha
 |File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
 
+## Reverting an erroneous site address change
+
+We recommend not attempting to just rename again from the erroneous address to the desired address. This can cause issues if you subsequently want to use the erroneous address for another site. Instead, we recommend taking actions to bring the sites back to their original address. To do so, you would need to use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md). 
+
+For a case where you erroneously changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty*, the steps to follow are:
+1. Delete the redirect from *projectx* to *projecty* by using the Remove-SPOSite cmdlet on the *projectx* address.
+2. Initiate a new site address change from *projecty* to *projectx*.
+3. Delete the redirect from *projecty* to *projectx* by using the Remove-SPOSite cmdlet on the *projecty* address.
+
+After following these steps, you should be back to the original state before the erroneous site address change.
