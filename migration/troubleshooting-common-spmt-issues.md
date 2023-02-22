@@ -105,6 +105,7 @@ This article describes common issues and errors you may encounter when using the
 |0x01710004|Errors or timeout for Server Processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
 |0x0111000A|Scan File Failure: File size exceeds limit. See [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md) for current limits.|
+|0x01410001|While processing, SPMT was unable to open a file. Review your FailureSummaryReport.csv to identify which data source you can't access. Check your network status, and also try to access the data source directly through Windows Explorer or other tools. Try again.|
 
 
 ## Navigation errors
