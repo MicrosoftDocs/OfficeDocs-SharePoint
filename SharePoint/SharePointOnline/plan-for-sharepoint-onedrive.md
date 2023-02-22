@@ -25,7 +25,7 @@ This article and the other articles in this section include the core planning co
 
 SharePoint is deeply integrated with Microsoft Teams. As part of your SharePoint and OneDrive rollout, we recommend that you review [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 
-As you plan your rollout, in addition to the technical planning considerations provided here, consider theses questions:
+As you plan your rollout, in addition to the technical planning considerations provided here, consider these questions:
 
 - What are your high-level goals for rolling out OneDrive and SharePoint?
 - What are the file storage and collaboration needs of your organization?
