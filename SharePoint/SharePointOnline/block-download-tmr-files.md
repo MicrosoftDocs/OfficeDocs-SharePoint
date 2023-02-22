@@ -64,7 +64,7 @@ Blocking download may impact the user experience in some apps, including some Of
 
 ## Related topics
 
-[SharePoint and OneDrive unmanaged device access controls for administrators](/sharepoint/control-access-from-unmanaged-devices).
+[SharePoint and OneDrive unmanaged device access controls for administrators](/sharepoint/control-access-from-unmanaged-devices)
 
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
