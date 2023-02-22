@@ -48,4 +48,7 @@ Before the EUDB initiative, MMP has had one instance based in the United States 
 |:-----|:-----|:-----|
 |An EU customer, no existing migrations|No impact to you|No action required.|
 |An EU customer with active migrations|If you are an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We have recreated any existing migration projects in the EU, if you need to run them there. You will have until December 31, 2023 to complete active migrations.  However, starting January 1, 2024, you will no longer have access to projects process in the US or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
+|An EU customer with an active file share migration|After March 23, 2023, new scans will be processed in the EU. You can still access existing scan reports in the US instance until April 1, 2023.
+From TD3, access to US scans will not be in accessible.
+|
 |An EU customer with an active Stream migration|You have until May 31, 2024 to access your US initiated Stream migration.  After that date, the migrations will be removed.|Complete all your Stream migrations prior to June 1st, 2024.|
