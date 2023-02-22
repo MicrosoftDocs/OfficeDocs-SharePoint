@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2020
 title: "Prevent guest access to files while DLP rules are applied"
 ms.reviewer: samust
 ms.author: mikeplum
@@ -67,3 +68,4 @@ This feature is configured using PowerShell.
 
 > [!NOTE]
 > It might take up to 60 minutes for this new setting to take effect.
+

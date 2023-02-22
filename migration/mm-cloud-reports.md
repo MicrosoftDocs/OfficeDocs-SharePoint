@@ -1,4 +1,5 @@
 ---
+ms.date: 12/05/2022
 title: Migration Manager cloud migration reports
 ms.reviewer: JoanneHendrickson
 ms.author: jhendr
@@ -396,3 +397,4 @@ Status codes provide the final status of the scan and migration tasks.
 |600 |Queued to start. |
 |601 |Queued to start. |
 |620 |Running pre-checks |
+

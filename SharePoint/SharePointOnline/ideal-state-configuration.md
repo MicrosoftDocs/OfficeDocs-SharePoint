@@ -1,4 +1,5 @@
 ---
+ms.date: 05/04/2020
 title: "Recommended sync app configuration"
 ms.reviewer: gacarini
 ms.author: mikeplum
@@ -70,6 +71,7 @@ Windows users are familiar and comfortable with saving files to their Desktop, D
 
 - **On new PCs, enable the silent policy**. [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 - **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](redirect-known-folders.md#about-the-known-folder-move-policies)
+
 
 
 

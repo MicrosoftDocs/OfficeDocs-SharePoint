@@ -1,4 +1,5 @@
 ---
+ms.date: 03/22/2021
 title: "Migration Manager Prerequisites and Endpoints"
 ms.reviewer: 
 ms.author: jhendr
@@ -68,4 +69,5 @@ Two endpoints, https://production.odyssey.ops.mover.io and https://production-wu
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|
 |`https://production.odyssey.ops.mover.io`|Scan feature for Migration Manager requirement.|
 |`https://production-wus2-signalr.service.signalr.net`|Scan feature for Migration Manager requirement. Used to communicate with the server.|
+
 

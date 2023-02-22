@@ -1,4 +1,5 @@
 ---
+ms.date: 08/26/2020
 title: Add SharePoint Success Site content to your M365 Learning Pathways solution
 ms.author: matteva
 author: MattEEvans
@@ -74,3 +75,4 @@ You can add the Learning Pathways Web part to a SharePoint page, and then filter
 ![Image of the SharePoint Success Site playlist filters](media/sss-lp-filter.png)
 
 For more information about filtering content, see [Add and edit the Microsoft 365 learning pathways web part](/office365/customlearning/custom_addwebpart).
+

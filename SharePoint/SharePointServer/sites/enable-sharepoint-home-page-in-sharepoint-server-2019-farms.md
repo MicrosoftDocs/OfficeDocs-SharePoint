@@ -1,4 +1,5 @@
 ---
+ms.date: 10/22/2018
 title: "Enable SharePoint home page in SharePoint Server 2019 farms"
 ms.reviewer: 
 ms.author: serdars

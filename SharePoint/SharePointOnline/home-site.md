@@ -1,4 +1,5 @@
 ---
+ms.date: 10/07/2019
 title: "Set a site as your home site"
 ms.reviewer: dipadur
 ms.author: mikeplum
@@ -113,3 +114,4 @@ If your organization is using [Viva Connections](/viva/connections/viva-connecti
 [Creating and launching a healthy SharePoint portal](portal-health.md)
 
 Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Set up a new term set"
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -117,3 +118,4 @@ To edit custom properties
     
 To learn how to add a term to the new term set, see [Create and manage terms in a term set](create-and-manage-terms.md).
   
+

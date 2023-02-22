@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure site mailboxes in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -490,4 +491,5 @@ Please review the following table if you encounter issues.
 [Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019&preserve-view=true)
   
 [Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019&preserve-view=true)
+
 

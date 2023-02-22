@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Create and manage terms in a term set"
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -128,3 +129,4 @@ Merging this term with another will collapse its synonyms, translations and cust
 This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term are not deprecated.
 
 - Select **Deprecate term**. 
+

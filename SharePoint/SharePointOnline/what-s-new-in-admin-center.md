@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "What's new in the SharePoint admin center"
 ms.reviewer: daminasy
 ms.author: mikeplum
@@ -136,5 +137,6 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can select multiple sites and bulk edit sharing and hub association settings.
 
 - Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a> so you can access them directly from the new SharePoint admin center.
+
 
 

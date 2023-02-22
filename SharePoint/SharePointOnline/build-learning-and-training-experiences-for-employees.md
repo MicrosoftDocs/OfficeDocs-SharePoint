@@ -1,4 +1,5 @@
 ---
+ms.date: 09/23/2021
 title: Build Learning and Training Experiences for Employees
 ms.reviewer:
 ms.author: hokavian
@@ -162,3 +163,4 @@ Ask for feedback on the learning and training experience often using [Microsoft 
 [Overview of Viva Learning](/viva/learning/overview-viva-learning)
 
 [Use the SharePoint Learning central site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6)
+

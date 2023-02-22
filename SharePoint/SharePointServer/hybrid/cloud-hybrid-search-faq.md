@@ -1,4 +1,5 @@
 ---
+ms.date: 08/02/2019
 title: Cloud hybrid search service (Cloud SSA) FAQ
 ms.reviewer: mbiswas
 ms.author: serdars
@@ -387,3 +388,4 @@ Yes, you can submit your questions regarding Cloud search service application at
 ***Are there any eBook available to configure SharePoint hybrid capabilities?***
 
 Yes, you can download the eBook [Configuring Microsoft SharePoint hybrid capabilities (ISBN 9781509302437)](/archive/blogs/microsoft_press/free-ebook-configuring-microsoft-sharepoint-hybrid-capabilities).
+

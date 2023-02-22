@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Share service applications across farms in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -116,3 +117,4 @@ This article describes the steps that are required to publish and consume servic
 #### Other Resources
 
 [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](../upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/11/2019
 title: "Manage site redirects"
 ms.reviewer: adwood
 ms.author: mikeplum
@@ -64,3 +65,4 @@ Run the following command.
  ```PowerShell
  Get-SPOSite -Template REDIRECTSITE#0
  ```
+
