@@ -30,7 +30,6 @@ As part of Microsoft 365, MMP is mandated to be covered by the EUDB promise. Due
 Before the EUDB initiative, MMP has had one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023 with a phased implementation schedule for existing customers with active migration projects.
 
 
-
 ## Timeline for EU 
 
 |Date|Change|
