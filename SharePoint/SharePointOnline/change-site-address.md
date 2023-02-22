@@ -30,7 +30,7 @@ description: "In this article, you'll learn how global and SharePoint admins can
 # Change a site address
 
 > [!NOTE]
-> This feature is not available for Microsoft 365 Government GCC High customers.
+> This feature isn't available for Microsoft 365 Government GCC High customers.
 
 As a Global Administrator or SharePoint Administrator in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
@@ -39,16 +39,16 @@ As a Global Administrator or SharePoint Administrator in your organization, you 
 - Communication sites
 - Classic team sites
 
-Changing the site address is not supported in the following situations:
+Changing the site address isn't supported in the following situations:
 
 - The Publishing feature is currently activated or was previously activated for the site.
 - The site contains more than 15 million documents.
 
 You can change only the address of the site within the URL, for example:
 
-https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx*  
+https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-x*  
 to
-https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* 
+https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y* 
 
 You can't move the site from "/sites" to "/teams." For info about changing your SharePoint domain name, see [Change your SharePoint domain name](change-your-sharepoint-domain-name.md).
 
@@ -182,9 +182,9 @@ When the site address change is complete, users will be able to access their Sha
 
 If you need change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you subsequently want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
-For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* and want to revert back, the steps to follow are:
-1. Delete the redirect from *projectx* to *projecty* by using the Remove-SPOSite cmdlet on the *projectx* address.
-2. Initiate a new site address change from *projecty* to *projectx*.
-3. Delete the redirect from *projecty* to *projectx* by using the Remove-SPOSite cmdlet on the *projecty* address.
+For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-x* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y* and want to revert back, the steps to follow are:
+1. Delete the redirect from *project-x* to *project-y* by using the Remove-SPOSite cmdlet on the *project-x* address.
+2. Initiate a new site address change from *project-y* to *project-x*.
+3. Delete the redirect from *project-y* to *project-x* by using the Remove-SPOSite cmdlet on the *project-y* address.
 
 After following these steps, you should be back to the original state before the site address change.
