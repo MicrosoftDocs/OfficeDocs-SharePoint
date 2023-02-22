@@ -36,7 +36,7 @@ Blocking the download of Teams meeting recording files allows users to remain pr
     > If you installed a previous version of SharePoint Online Management Shell, go to **Add or remove programs** and uninstall SharePoint Online Management Shell.
 2. Connect to SharePoint as a [Global administrator or SharePoint administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3.  Run the following command.
+3.  Run the following command:
 
     ```PowerShell
     Set-SPOTenant -BlockDownloadFileTypePolicy <$true/$false(default)>  -BlockDownloadFileTypeIds  TeamsMeetingRecording
