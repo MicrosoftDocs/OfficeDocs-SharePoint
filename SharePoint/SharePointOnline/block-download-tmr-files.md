@@ -47,7 +47,9 @@ Blocking the download of Teams meeting recording files allows users to remain pr
 
  The following parameters can be used with this cmdlet to fine-tune it.
 
-  `-ExcludedBlockDownloadGroupIds <comma separated security group ids>` Exempts users from the mentioned security groups from this policy and they can fully download any meeting recording files for the organization.
+  `-ExcludedBlockDownloadGroupIds <comma separated security group ids>`
+  
+  This parameter exempts users from security groups from this policy so that they can fully download any meeting recording files of the organization.
 
 ## App impact
 
