@@ -36,7 +36,7 @@ Users have two options when syncing files in SharePoint libraries and Teams. The
 - [Add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33)
 - [Use the Sync button in the document library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88)
 
-Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder. However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, because OneDrive shortcuts can be added at the file or folder level, it offers improved performance versus syncing an entire library.
+Both options allow essentially the same thing - users can access files on their local computer in Explorer or Finder. However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, OneDrive shortcuts offers improved performance versus using the sync button.
 
 We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the Sync button from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
 
