@@ -30,23 +30,23 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature**|**Release rings**|**More information**|
 |:-----|:-----|:-----|
-|**Copy and move improvement in modern document library** <br/> |Standard release  <br/> |For more information, see [Copy and move improvement in modern document library](#copy-and-move-improvement-in-modern-document-library).<br/> |
-|**Bulk editing in modern lists** <br/> |Standard release <br/> |For more information, see [Bulk editing in modern lists](#bulk-editing-in-modern-lists).  <br/> |
-|**Column formatting enhancement** <br/> |Standard release <br/> |For more information, see [Column formatting enhancement](#column-formatting-enhancement). <br/> |
-|**Button web part** <br/> |Standard release  <br/> |For more information, see [Button web part](#button-web-part). <br/> |
-|**Choose the default site language in the modern self-service site creation pane** <br/> |Standard release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane). <br/> |
-|**New SharePoint RESTful ListData.svc implementation** <br/> |Standard release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](#new-sharepoint-restful-listdatasvc-implementation). <br/> |
-|**Unified "uber" patches** <br/> |Standard release <br/> |For more information, see [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview?branch=pr-en-us-4897) and [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update?branch=pr-en-us-4897). <br/> |
-|**Support for SharePoint Framework (SPFx) version 1.5.1** <br/> |Standard release <br/> |For more information, see [SharePoint Framework v1.5.1 release notes](/sharepoint/dev/spfx/release-1.5.1).  <br/> |
-|**SharePoint Hybrid Configuration Wizard supports running on Windows Server Core** <br/> |Standard release <br/> |  <br/> |
-|**New PowerShell cmdlets for variations feature** <br/> |Standard release <br/> |  <br/> |
-|**SharePoint Server recompiled with Visual C++ 2022** <br/> |Standard release <br/> |  <br/> |
-|**Private key management in certificate management** <br/> |Early release <br/> |  <br/> |
-|**Support for wildcard host header bindings** <br/> |Early release <br/> |  <br/> |
-|**Expanded usage of modern sharing dialog** <br/> |Early release <br/> |  <br/> |
-|**Column totals in modern list views** <br/> |Early release <br/> |  <br/> |
-|**Enhanced Quick Chart web part** <br/> |Early release <br/> |  <br/> |
-|**Improved file picker** <br/> |Early release <br/> |  <br/> |
+|**Copy and move improvement in modern document library** <br/> |Standard release  <br/> |For more information, see [Copy and move improvement in modern document library](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#copy-and-move-improvement-in-modern-document-library).<br/> |
+|**Bulk editing in modern lists** <br/> |Standard release <br/> |For more information, see [Bulk editing in modern lists](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#bulk-editing-in-modern-lists).  <br/> |
+|**Column formatting enhancement** <br/> |Standard release <br/> |For more information, see [Column formatting enhancement](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#column-formatting-enhancement). <br/> |
+|**Button web part** <br/> |Standard release  <br/> |For more information, see [Button web part](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#button-web-part). <br/> |
+|**Choose the default site language in the modern self-service site creation pane** <br/> |Standard release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane). <br/> |
+|**New SharePoint RESTful ListData.svc implementation** <br/> |Standard release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#new-sharepoint-restful-listdatasvc-implementation). <br/> |
+|**Unified "uber" patches** <br/> |Standard release <br/> |For more information, see [Unified "uber" patches](#unified-uber-patches), [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview?branch=pr-en-us-4897) and [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update?branch=pr-en-us-4897). <br/> |
+|**Support for SharePoint Framework (SPFx) version 1.5.1** <br/> |Standard release <br/> |For more information, see [Support for SharePoint Framework (SPFx) version 1.5.1](#sfsf), [SharePoint Framework v1.5.1 release notes](/sharepoint/dev/spfx/release-1.5.1).  <br/> |
+|**SharePoint Hybrid Configuration Wizard supports running on Windows Server Core** <br/> |Standard release <br/> |For more information, see [SharePoint Hybrid Configuration Wizard supports running on Windows Server Core](#sharepoint-hybrid-configuration-wizard-supports-running-on-windows-server-core).  <br/> |
+|**New PowerShell cmdlets for variations feature** <br/> |Standard release <br/> |For more information, see [New PowerShell cmdlets for variations feature](#new-powershell-cmdlets-for-variations-feature).  <br/> |
+|**SharePoint Server recompiled with Visual C++ 2022** <br/> |Standard release <br/> |For more information, see [SharePoint Server recompiled with Visual C++ 2022](#ssrwv). <br/> |
+|**Private key management in certificate management** <br/> |Early release <br/> |For more information, see [Private key management in certificate management](#private-key-management-in-certificate-management).  <br/> |
+|**Support for wildcard host header bindings** <br/> |Early release <br/> |For more information, see [Support for wildcard host header bindings](#support-for-wildcard-host-header-bindings). <br/> |
+|**Expanded usage of modern sharing dialog** <br/> |Early release <br/> |For more information, see [Expanded usage of modern sharing dialog](#expanded-usage-of-modern-sharing-dialog). <br/> |
+|**Column totals in modern list views** <br/> |Early release <br/> |For more information, see [Column totals in modern list views](#column-totals-in-modern-list-views). <br/> |
+|**Enhanced Quick Chart web part** <br/> |Early release <br/> |For more information, see [Enhanced Quick Chart web part](#enhanced-quick-chart-web-part). <br/> |
+|**Improved file picker** <br/> |Early release <br/> |For more information, see [Improved file picker](#improved-file-picker). <br/> |
 
 ## Detailed description of features
 
@@ -62,6 +62,7 @@ Some SharePoint customers were confused by the need to download and install two 
 To simplify this process of updating your SharePoint Server farm, Microsoft will now only release a single update each month for SharePoint Server Subscription Edition, starting with the March 2023 public update. This single "uber" update combines all of the fixes that would have previously been released in separate STS and WSSLOC updates. The single uber updates are cumulative, so you only need to install the latest uber update to be fully up to date with all of the latest fixes for SharePoint Server Subscription Edition. It isn’t necessary to install any of the previous STS or WSSLOC updates before installing the uber update. No additional STS or WSSLOC updates will be released after the February 2023 public updates.
 Customers should remember to run the SharePoint upgrade actions in their farm after installing a new update to complete the patching and upgrade process. For more information, see the [Upgrade to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition).
 
+<a name="sfsf"> </a>
 ### Support for SharePoint Framework (SPFx) version 1.5.1
 
 Previous versions of SharePoint Server Subscription Edition supported SharePoint Framework (SPFx) version 1.4.1. To expand the customization scenarios that SharePoint Server Subscription Edition supports, the 23H1 feature update adds support for SharePoint Framework (SPFx) version 1.5.1. This is one step on our long-term journey to improve and expand the capabilities of SharePoint Framework in SharePoint Server Subscription Edition.
@@ -84,8 +85,9 @@ Those cmdlets are:
  - `Test-SPVariation -Identity <SPWebPipeBind> [-Recurse] [-Label <String>]`
  - `Get-SPVariationJob -Identity <SPWebPipeBind>`
 
-For more information, see [sharepoint-server](/powershell/module/sharepoint-server/?view=sharepoint-server-ps).  
-  
+For more information, see [sharepoint-server](/powershell/module/sharepoint-server/).  
+
+<a name="ssrwv"> </a>
 ### SharePoint Server recompiled with Visual C++ 2022
 
 Previous versions of SharePoint Server Subscription Edition were compiled with the Visual C++ 2019 compiler for unmanaged code. The SharePoint Prerequisite Installer that comes with the SharePoint Server Subscription Edition installed the Visual C++ Redistributable Package for Visual Studio 2015-2019 to support the binaries compiled with that compiler.
