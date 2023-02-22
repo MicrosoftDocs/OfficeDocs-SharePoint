@@ -43,6 +43,8 @@ Different customers may have different interpretations of terms such as "depreca
  - SharePoint 2010 workflows 
  
  - Internet Explorer 11
+ 
+ - Infopath services
 
 ## Removed features
 
@@ -57,6 +59,8 @@ Different customers may have different interpretations of terms such as "depreca
  - Lists web service APIs for Groove sync app 
 
  - PerformancePoint Services 
+ 
+ - SharePoint Designer
  
  - Stsadm.exe command-line tool 
  
@@ -73,6 +77,10 @@ SharePoint 2010 workflows are deprecated but will remain supported for the Share
 ### Internet Explorer 11
 
 Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 is not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+
+### Infopath services
+
+Infopath services has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. There will not be a new InfoPath client shipped with this release. As we announced in the Microsoft 365 blog, InfoPath Services is a deprecated feature and customers are advised to explore alternatives for this feature.
 
 ### Access Services 2010
 
@@ -97,6 +105,10 @@ The Lists web service APIs for Groove sync app have been removed and are no long
 ### PerformancePoint Services
 
 PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we're making many new business intelligence investments in Power BI.
+
+### SharePoint Designer
+
+There will not be a new SharePoint Designer client shipped with this release. Microsoft will ensure that SharePoint Designer 2013 will work with SharePoint Server 2019 for the remainder of the client support lifecycle (2026). SharePoint Designer 2013 will not be supported beyond that timeframe. Customers are recommended to explore Visual Studio as a potential alternative to SharePoint Designer.
 
 ### Stsadm.exe command-line tool 
 
