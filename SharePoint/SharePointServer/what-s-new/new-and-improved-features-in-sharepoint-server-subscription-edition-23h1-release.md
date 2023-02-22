@@ -38,15 +38,15 @@ The following table provides the list of new features and updates to existing fe
 |**New SharePoint RESTful ListData.svc implementation** <br/> |Standard release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](#new-sharepoint-restful-listdatasvc-implementation). <br/> |
 |**Unified "uber" patches** <br/> |Standard release <br/> |For more information, see [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview?branch=pr-en-us-4897) and [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update?branch=pr-en-us-4897). <br/> |
 |**Support for SharePoint Framework (SPFx) version 1.5.1** <br/> |Standard release <br/> |For more information, see [SharePoint Framework v1.5.1 release notes](/sharepoint/dev/spfx/release-1.5.1).  <br/> |
-|**SharePoint Hybrid Configuration Wizard supports running on Windows Server Core** <br/> |Standard release <br/> |For more information, see  <br/> |
-|**New PowerShell cmdlets for variations feature** <br/> |Standard release <br/> |For more information, see  <br/> |
-|**SharePoint Server recompiled with Visual C++ 2022** <br/> |Standard release <br/> |For more information, see  <br/> |
-|**Private key management in certificate management** <br/> |Early release <br/> |For more information, see  <br/> |
-|**Support for wildcard host header bindings** <br/> |Early release <br/> |For more information, see  <br/> |
-|**Expanded usage of modern sharing dialog** <br/> |Early release <br/> |For more information, see  <br/> |
-|**Column totals in modern list views** <br/> |Early release <br/> |For more information, see  <br/> |
-|**Enhanced Quick Chart web part** <br/> |Early release <br/> |For more information, see  <br/> |
-|**Improved file picker** <br/> |Early release <br/> |For more information, see  <br/> |
+|**SharePoint Hybrid Configuration Wizard supports running on Windows Server Core** <br/> |Standard release <br/> |  <br/> |
+|**New PowerShell cmdlets for variations feature** <br/> |Standard release <br/> |  <br/> |
+|**SharePoint Server recompiled with Visual C++ 2022** <br/> |Standard release <br/> |  <br/> |
+|**Private key management in certificate management** <br/> |Early release <br/> |  <br/> |
+|**Support for wildcard host header bindings** <br/> |Early release <br/> |  <br/> |
+|**Expanded usage of modern sharing dialog** <br/> |Early release <br/> |  <br/> |
+|**Column totals in modern list views** <br/> |Early release <br/> |  <br/> |
+|**Enhanced Quick Chart web part** <br/> |Early release <br/> |  <br/> |
+|**Improved file picker** <br/> |Early release <br/> |  <br/> |
 
 ## Detailed description of features
 
@@ -76,7 +76,7 @@ Although the SharePoint Hybrid Configuration Wizard has now added support for Wi
 ### New PowerShell cmdlets for variations feature
 
 Previous versions of SharePoint Server included an `stsadm.exe -o variationsfixuptool` command to configure the variations feature of SharePoint. However, the `stsadm.exe` command line tool was removed in SharePoint Server Subscription Edition with no PowerShell cmdlets provided to replace this variations functionality.
-SharePoint Server Subscription Edition Version 23H1 introduces 4 new PowerShell cmdlets that will replace the functionality of the `stsadm.exe -o variationsfixuptool` command. 
+SharePoint Server Subscription Edition Version 23H1 introduces four new PowerShell cmdlets that replaces the functionality of the `stsadm.exe -o variationsfixuptool` command. 
 Those cmdlets are:
 
  - `Deploy-SPVariation -Identity <SPWebPipeBind> [-Recurse] [-Label <String>]`
@@ -94,14 +94,14 @@ To ensure SharePoint Server can take advantage of the latest capabilities and fi
 ### Private key management in certificate management
   
 SharePoint Server Subscription Edition introduced a new certificate management feature that allows SharePoint farm administrators to directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms. The certificate management feature would apply a standard set of permissions to the private keys of these certificates regardless of their use cases.
-To better support least privileges scenarios and minimize the permissions given to these private keys, SharePoint Server Subscription Edition Version 23H1 applies more granular and sophisticated permission management for these private keys. The permissions will be based on the certificate assignments and will be dynamically updated when the certificate assignments change.
-For example, if a certificate is assigned to perform client certificate authentication to an SMTP server, SharePoint will ensure the process that’s connecting to the SMTP server has the necessary permissions to use the private key of that certificate. If a certificate is no longer assigned to perform client certificate authentication to an SMTP server, SharePoint will remove permissions for that process so it no longer has access to the private key of that certificate.
+To better support least privileges scenarios and minimize the permissions given to these private keys, SharePoint Server Subscription Edition Version 23H1 applies more granular and sophisticated permission management for these private keys. The permissions are based on the certificate assignments and will be dynamically updated when the certificate assignments change.
+For example, if a certificate is assigned to perform client certificate authentication to an SMTP server, SharePoint ensures the process that’s connecting to the SMTP server has the necessary permissions to use the private key of that certificate. If a certificate is no longer assigned to perform client certificate authentication to an SMTP server, SharePoint removes permissions for that process so it no longer has access to the private key of that certificate.
 APIs have been added to the *Microsoft.SharePoint.Administration.CertificateManagement.SPServerCertificate* class to allow third party integration with this functionality.
   
 ### Support for wildcard host header bindings
   
 Previous versions of SharePoint Server Subscription Edition support host header bindings that would allow multiple SharePoint web applications to share the same TCP port. However, SharePoint Server only supported explicit host header bindings such as "sharepoint.example.com". Sometimes customers may want to support multiple host-named site collections across multiple web applications, all using the same TCP port.
-SharePoint Server Subscription Edition Version 23H1 adds support for specifying a wildcard host header binding for a web application. This will allow you to specify different wildcard bindings across multiple web applications that can share the same TCP port such as `*.external.example.com` and `*.internal.example.com`. You can then provision host-named site collections in the first web application using the `*.external.example.com` DNS naming scheme (such as `site1.external.example.com`, `site2.external.example.com`, etc.) and other host-named site collections in the second web application using the `*.internal.example.com` DNS naming scheme (such as `site1.internal.example.com`, `site2.internal.example.com`, etc.).
+SharePoint Server Subscription Edition Version 23H1 adds support for specifying a wildcard host header binding for a web application. This allows you to specify different wildcard bindings across multiple web applications that can share the same TCP port such as `*.external.example.com` and `*.internal.example.com`. You can then provision host-named site collections in the first web application using the `*.external.example.com` DNS naming scheme (such as `site1.external.example.com`, `site2.external.example.com`, etc.) and other host-named site collections in the second web application using the `*.internal.example.com` DNS naming scheme (such as `site1.internal.example.com`, `site2.internal.example.com`, etc.).
   
 ### Expanded usage of modern sharing dialog
   
