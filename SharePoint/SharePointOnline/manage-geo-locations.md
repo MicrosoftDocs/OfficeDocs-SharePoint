@@ -1,4 +1,5 @@
 ---
+ms.date: 06/26/2020
 title: "Manage geo locations in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: serdars
@@ -39,6 +40,7 @@ This article covers all the features on the geo locations page in the classic Sh
 |Switch between locations |   Select a different location on the map or from the list at the top of the navigation pane. |
 |Identify the central location | Look for the pin on the map. |
 |See list of satellite locations | Expand the list at the top of the navigation pane. |
+
 
 
 

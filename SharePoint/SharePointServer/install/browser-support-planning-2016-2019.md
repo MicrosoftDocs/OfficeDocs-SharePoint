@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan browser support in SharePoint Servers 2016 and 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -120,4 +121,5 @@ SharePoint Server 2016 supports the following versions:
 
 - For SharePoint Server 2019, Chrome or Safari on iOS10 or later
     
+
 

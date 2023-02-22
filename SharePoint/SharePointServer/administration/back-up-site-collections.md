@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Back up site collections in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -123,4 +124,5 @@ You can use Central Administration to back up a site collection.
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
 [Restore site collections in SharePoint Server](restore-site-collections.md)
+
 

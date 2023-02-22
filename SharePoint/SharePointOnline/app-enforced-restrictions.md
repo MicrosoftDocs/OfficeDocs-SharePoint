@@ -1,4 +1,5 @@
 ---
+ms.date: 10/07/2020
 title: "Use app-enforced restrictions"
 ms.reviewer: samust
 ms.author: mikeplum
@@ -43,3 +44,4 @@ These steps in the Azure AD admin center tell Azure to use the SharePoint site-l
     ![Selecting to control access using app enforced restrictions](media/azure-ca-policy-session.png)
 
 7. Enable the policy and select **Create**.
+

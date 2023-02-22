@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "How does the SharePoint Migration Tool work?"
 ms.reviewer: 
 ms.author: jhendr
@@ -74,3 +75,4 @@ There are two defenses in place that protect you if your key is lost or someone 
   
 >[!NOTE]
 >The SharePoint Migration Tool isn't available for users of Office 365 operated by 21Vianet in China.
+

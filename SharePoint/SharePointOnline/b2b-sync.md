@@ -1,4 +1,5 @@
 ---
+ms.date: 02/04/2019
 title: "B2B Sync"
 ms.reviewer: cagreen
 ms.author: mikeplum
@@ -292,3 +293,4 @@ On a Mac with the Standalone version of OneDrive, use the equivalent of the foll
 ```console
 defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
 ```
+

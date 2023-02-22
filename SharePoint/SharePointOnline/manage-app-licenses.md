@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage app licenses for a SharePoint environment"
 ms.reviewer: 
 ms.author: mikeplum
@@ -28,3 +29,4 @@ Each app in the SharePoint Store may have its own licensing requirements and pay
 ## See also
 
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "How to use SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
@@ -135,3 +136,4 @@ If you wish to leverage your system proxy settings, use one of these methods:
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [Microsoft 365 community support](/answers/products/m365)
+

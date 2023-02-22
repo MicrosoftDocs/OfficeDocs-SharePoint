@@ -1,4 +1,5 @@
 ---
+ms.date: 09/15/2020
 title: "deprecation of site mailboxes"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -269,3 +270,4 @@ Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailb
 ```
 
 Use `Remove-Mailbox` to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
+

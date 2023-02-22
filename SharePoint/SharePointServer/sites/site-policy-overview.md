@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Overview of site policies in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -72,4 +73,5 @@ Site policies are especially valuable when you use them together with self-servi
 [Overview of document deletion policies in SharePoint Server](https://go.microsoft.com/fwlink/?linkid=845552)
   
 [Overview of in-place hold in SharePoint Server](https://go.microsoft.com/fwlink/?linkid=845553)
+
 

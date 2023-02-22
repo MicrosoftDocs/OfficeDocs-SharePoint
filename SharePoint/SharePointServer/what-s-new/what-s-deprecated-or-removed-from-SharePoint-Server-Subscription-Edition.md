@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2021
 title: "What's deprecated or removed from SharePoint Server Subscription Edition?"
 ms.reviewer: 
 ms.author: serdars
@@ -117,5 +118,6 @@ The stsadm.exe command-line administration tool has been removed from SharePoint
 ### Update-SPHelp PowerShell cmdlet
 
 As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. The Update-Help cmdlet will now be able to download the latest help content for SharePoint PowerShell cmdlets.
+
 
 
