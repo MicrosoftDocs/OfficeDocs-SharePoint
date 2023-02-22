@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Hybrid OneDrive and SharePoint in Microsoft 365
 ms.reviewer: 
 ms.author: mikeplum
@@ -63,3 +64,4 @@ For more info about how to configure OneDrive in a hybrid scenario and how it wo
 ## Related topics
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
+

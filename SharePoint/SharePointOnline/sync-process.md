@@ -1,4 +1,5 @@
 ---
+ms.date: 03/22/2019
 title: "How sync works"
 ms.reviewer: 
 ms.author: mikeplum
@@ -84,4 +85,5 @@ File chunks are stored in multiple containers in Azure, each of which is given a
 ## Related topic
 
 - [SharePoint Authentication in Microsoft 365](/sharepoint/authentication)
+
 

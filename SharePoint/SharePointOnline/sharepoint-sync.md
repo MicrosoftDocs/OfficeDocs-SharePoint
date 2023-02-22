@@ -1,4 +1,5 @@
 ---
+ms.date: 07/20/2018
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
@@ -51,3 +52,4 @@ Set-SPOTenant -HideSyncButtonOnTeamSite $true
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
 [Fix OneDrive sync problems](https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2)
+

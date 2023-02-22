@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2020
 title: Mover migration - Upload a permission map
 ms.author: jhendr
 author: JoanneHendrickson
@@ -67,3 +68,4 @@ You can export a permission map in CSV format.
 3. From the **File Format** options, select **CSV**.
 
 ![Screenshot that shows the Excel save as csv feature.](media/excel-save-as-csv.png)
+

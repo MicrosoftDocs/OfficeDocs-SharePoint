@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Overview of SQL Server in a SharePoint Server 2016 environment"
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate"
 ms.reviewer: 
 ms.author: jhendr
@@ -19,25 +20,23 @@ ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Overview of how to migrate your SharePoint Server workflows to Power Automate using the SharePoint Migration Tool (SPMT)."
 ---
-# Overview: Migrate SharePoint Server 2010 workflows to Power Automate
+# Overview: Migrate SharePoint Server workflows to Power Automate
 
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
-Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
+Workflows created with SharePoint Server  or SharePoint Server Designer can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). 
 
-Using the SharePoint Migration Tool (SPMT), you can now migrate these workflows to Power Automate
+## What is supported
 
-**SharePoint Server 2010 out of the box (OOTB) workflows:**
-- Approval workflow
-- Collect feedback workflow
-- Collect signature workflow
-- Three-state workflow
-- List library workflows and content-type workflows (not site workflows)
+Using the SharePoint Migration Tool (SPMT), you can now migrate:
+- **SharePoint Server 2010 out-of-the-box (OOTB) workflows** to Power Automate including: Approval, Collect Feedback, Collect Signature, and Three-state workflows
+- **SharePoint Server 2010 and 2013 Designer (SPD) workflows** to Power Automate
+- List, library workflows and content-type workflows (not site workflows)
 - Workflow definitions and associations (not workflow history data)
 
 >[!Note]
-> Workflows created with  SharePoint Server Designer 2013 or SharePoint Server 2013 are currently not supported.
+>Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
 
 ## Steps

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/19/2020
 title: "Remove columns from a content type"
 ms.reviewer: anfra
 ms.author: mikeplum

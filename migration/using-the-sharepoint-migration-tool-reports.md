@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2018
 title: "Assess SharePoint Migration Tool reports"
 ms.author: jhendr
 author: JoanneHendrickson
@@ -265,3 +266,4 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |Local disk performance score<br/> |[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)|
 |Uploading speed score |[Improving your connectivity to Office 365 and Azure](spmt-performance-guidance.md#improving-your-connectivity-to-microsoft-365-and-azure)<br/> |
 |SharePoint throughput score|[Improving your migration performance when using SPMT](./sharepoint-online-and-onedrive-migration-speed.md)|
+

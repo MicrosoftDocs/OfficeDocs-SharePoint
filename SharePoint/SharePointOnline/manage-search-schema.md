@@ -1,4 +1,5 @@
 ---
+ms.date: 07/12/2018
 title: "Manage the search schema in SharePoint"
 ms.reviewer: 
 ms.author: serdars
@@ -459,3 +460,4 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
 [Overview of the search schema in SharePoint Server](../SharePointServer/search/search-schema-overview.md)
   
 [Manually request crawling and re-indexing of a site](crawl-site-content.md)
+

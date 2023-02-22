@@ -1,4 +1,5 @@
 ---
+ms.date: 06/19/2020
 title: "Publish a content type"
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -47,3 +48,4 @@ You can publish, unpublish, or republish content types in the content type hub a
 [Publish a content type from a content publishing hub](https://support.microsoft.com/office/58081155-118d-4e7a-9cc5-d43b5dbb7d02)
 
 [Introduction to content types and content type publishing](https://support.microsoft.com/office/e1277a2e-a1e8-4473-9126-91a0647766e5)
+

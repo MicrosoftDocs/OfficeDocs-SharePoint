@@ -1,4 +1,5 @@
 ---
+ms.date: 05/12/2020
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: serdars
@@ -206,3 +207,4 @@ In both the classic and new admin centers, you can select multiple sites and bul
 In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
 If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, the Storage limit and Storage used columns appear. The Storage used column isn't color coded. The Storage limit column can be sorted by size.
+

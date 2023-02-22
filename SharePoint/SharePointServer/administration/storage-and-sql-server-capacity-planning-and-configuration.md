@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: Storage and SQL Server capacity planning and configuration (SharePoint Server)
 ms.reviewer:
 ms.author: serdars
@@ -812,3 +813,4 @@ Thanks to Bill Baer, Microsoft Senior Product Marketing Manager and Brian Alderm
 #### Other Resources
 
 [Overview of SQL Server in a SharePoint Server 2013 environment](overview-of-sql-server-in-a-sharepoint-server-2013-environment.md)
+

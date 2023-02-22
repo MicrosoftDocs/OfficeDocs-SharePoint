@@ -1,4 +1,5 @@
 ---
+ms.date: 05/19/2022
 title: Mover retirement timeline
 author: JoanneHendrickson
 ms.author: jhendr
@@ -60,3 +61,4 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 
 **Question:** Is tenant-to-tenant migration supported in Migration Manager?</br>
 **Answer:**  No. Currently, Microsoft plans to offer a solution during 2023. The solution is expected to be a premium feature that's distinct from legacy Mover. In the interim, we recommend using a third-party solution for your Microsoft 365 tenant-to-tenant migration needs.
+

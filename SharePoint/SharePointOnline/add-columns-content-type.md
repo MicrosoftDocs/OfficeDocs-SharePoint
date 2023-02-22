@@ -1,6 +1,7 @@
 ---
+ms.date: 06/18/2020
 title: "Add columns to a content type"
-ms.reviewer: anfra
+ms.reviewer: shrganguly
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -91,6 +92,9 @@ To make a column required, optional, or hidden, follow these steps.
 
 7. Select **Save**.
 
+> [!NOTE]
+>  When you update the column name of an existing site column that is part of a published content type from the content type hub, ensure that the language of the target site and the language of the browser are the same for the latest site column name to appear correctly after the sync completes.
+
 ## Related topics
 
 [Remove columns from a content type](remove-columns-content-type.md)
@@ -100,3 +104,4 @@ To make a column required, optional, or hidden, follow these steps.
 [Add a content type to a list or library](https://support.microsoft.com/office/917366ae-f7a2-47ad-87a5-9689a1884e60)
 
 [Create, change, or delete a view of a list or library](https://support.microsoft.com/office/27ae65b8-bc5b-4949-b29b-4ee87144a9c9)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/13/2020
 title: "Remove SharePoint Server hybrid scenarios"
 ms.reviewer: troys
 ms.author: serdars

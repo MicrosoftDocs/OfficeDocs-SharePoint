@@ -1,4 +1,5 @@
 ---
+ms.date: 01/14/2020
 title: "Intelligent intranet roles and tasks"
 ms.reviewer:
 ms.author: matteva
@@ -245,3 +246,4 @@ Learn more about how you can [get started](intranet-get-started.md) creating or 
 [Plan your intranet](./plan-intranet.md)
 
 [Plan your communication site — get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182)
+
