@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2018
-title: "Change your SharePoint domain name"
+title: "Change your SharePoint subdomain name"
 ms.reviewer: jmcdowe
 ms.author: mikeplum
 author: MikePlumleyMSFT
