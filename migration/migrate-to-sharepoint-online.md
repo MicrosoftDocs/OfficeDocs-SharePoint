@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
@@ -83,3 +84,4 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 >[!Note]
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
+

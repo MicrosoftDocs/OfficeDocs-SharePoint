@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "View all site collections in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -80,3 +81,4 @@ We recommend that you use Microsoft PowerShell when performing command-line admi
 #### Other Resources
 
 [SharePoint planning guide](../../SharePointOnline/planning-guide.md)
+

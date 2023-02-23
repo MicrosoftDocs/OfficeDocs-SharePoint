@@ -1,4 +1,5 @@
 ---
+ms.date: 10/19/2021
 title: "Data access governance reports"
 ms.reviewer: karthig
 ms.author: mikeplum
@@ -98,6 +99,7 @@ After you run a report, select it to download the data. The report includes:
 
 - These reports work only if you have non-pseudonymized report data selected for your organization. To change this setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
 - Data in these reports might be delayed by up to 48 hours. In new tenants, it might take a few days for data to be available and for these reports to be generated successfully.
+
 
 
 

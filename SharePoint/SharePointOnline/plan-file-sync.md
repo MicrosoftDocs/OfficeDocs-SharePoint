@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Plan file sync for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
 ms.author: mikeplum
@@ -158,3 +159,4 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 ## Related topics
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore farms in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -252,4 +253,5 @@ The following list shows other recovery methods that you can use when you only n
     
 - [Restore content databases in SharePoint Server](restore-a-content-database.md)
     
+
 

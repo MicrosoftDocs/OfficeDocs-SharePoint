@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Set the OneDrive retention for deleted users"
 ms.reviewer: 
 ms.author: mikeplum
@@ -54,3 +55,4 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](retention-and-deletion.md)
   
 [Overview of retention policies](/office365/securitycompliance/retention-policies)
+

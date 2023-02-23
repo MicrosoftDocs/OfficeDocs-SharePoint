@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Authorizing the Office 365 Connector
 author: JoanneHendrickson
 ms.author: jhendr
@@ -186,3 +187,4 @@ Some steps in the authorization process can be completed by a global or SharePoi
 If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select source](media/execution-select-office-365-source.png) ![execution select source](media/execution-select-office-365-source.png)
+

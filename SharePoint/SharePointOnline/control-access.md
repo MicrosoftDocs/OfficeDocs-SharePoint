@@ -1,4 +1,5 @@
 ---
+ms.date: 06/26/2020
 title: "Control access in the new SharePoint admin center"
 ms.reviewer: trgreen
 manager: serdars
@@ -39,4 +40,5 @@ This article covers all the features on the control access page in the classic S
 | Unmanaged devices  |Unmanaged devices  <br/> (The same options are available.) |
 | Apps that don't use modern authentication |Apps that don't use modern authentication|
 | Control access based on network location  |Network location <br/> (This setting works the same way.)|
+
 

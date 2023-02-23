@@ -1,4 +1,5 @@
 ---
+ms.date: 09/13/2019
 title: "Report on sharing"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -65,6 +66,7 @@ The report contains the following columns:
 |Link ID|The GUID of the sharing link if user name is *Sharing Link*|
 |Link Type|The type of link (Anonymous, Company, Specific People) if user name is *Sharing Link*|
 |AccessViaLinkID|The **Link ID** used to access the item if a user's permission to an item is via a link.
+
 
 
 

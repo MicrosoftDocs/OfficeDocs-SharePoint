@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage query client types"
 ms.reviewer: 
 ms.author: serdars
@@ -82,3 +83,4 @@ You can use throttling tiers to prioritize query processing. When the resource l
     >  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
   
 6. Select **OK**.
+

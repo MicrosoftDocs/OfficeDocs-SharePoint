@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Manage a connection to a document center or a records center in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

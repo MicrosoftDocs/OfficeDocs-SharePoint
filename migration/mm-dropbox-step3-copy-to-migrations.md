@@ -1,4 +1,5 @@
 ---
+ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Dropbox migration"
 ms.reviewer: 
 ms.author: jhendr
@@ -53,3 +54,4 @@ After a Dropbox account has been scanned and determined ready, add it to your mi
 >Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

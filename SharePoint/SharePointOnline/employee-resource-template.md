@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Add the LGBTQ+ Employee Resource Group template
 ms.reviewer: 
 ms.author: hokavian
@@ -128,3 +129,4 @@ Once you are done customizing and proof-reading the site you are ready to share 
 [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) 
 
 [Customize your SharePoint site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) 
+

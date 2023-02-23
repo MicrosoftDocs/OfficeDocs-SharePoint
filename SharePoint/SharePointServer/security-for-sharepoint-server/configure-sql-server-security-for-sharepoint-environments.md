@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure SQL Server security for SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

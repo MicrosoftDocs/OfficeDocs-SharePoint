@@ -1,4 +1,5 @@
 ---
+ms.date: 11/29/2018
 title: "How UPN changes affect OneDrive"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -117,3 +118,4 @@ Any automated workflows that were created with Power Automate or SharePoint 2013
 ## See also
 
 [Info about UserPrincipalName attribute population in hybrid identity](/azure/active-directory/hybrid/plan-connect-userprincipalname)
+

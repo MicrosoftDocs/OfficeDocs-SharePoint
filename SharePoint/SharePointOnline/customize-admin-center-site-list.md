@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Customize the SharePoint admin center site list"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -115,5 +116,6 @@ To export the site list you're viewing as a .csv file that you can work with in 
 > [!NOTE]
 > The .csv file lists the hub as a GUID and the template as an ID (for example, STS#0).
   
+
 
 

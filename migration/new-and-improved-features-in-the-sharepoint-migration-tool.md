@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
@@ -744,3 +745,4 @@ In addition to several minor fixes, here are the primary improvements made in th
 [Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Remove search results"
 ms.reviewer: 
 ms.author: serdars
@@ -36,6 +37,7 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
    
 3. On the **search administration** page, select **Remove Search Results**.
     
-4. On the **Remove Search Results** page, in the **URLs to remove** box, enter the URLs that you want to remove from the search results. Enter one URL on each line. 
+4. On the **Remove Search Results** page, in the **URLs to remove** box, enter the URLs that you want to remove from the search results, for example, https://contoso.sharepoint.com/sites/site1. URLs cannot contain a wildcard (\*) character. Enter one URL on each line. 
     
 5. Select **Remove Now**. The URLs are immediately removed from your search results.
+

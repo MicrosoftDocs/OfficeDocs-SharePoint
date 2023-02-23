@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Crawl log permissions"
 ms.reviewer: 
 ms.author: serdars
@@ -43,3 +44,4 @@ A typical use case is in eDiscovery, where you can grant a security group permis
 4. In the **Crawl Log Permissions** box, enter names or email addresses. The names of valid users or user groups appear in the list as you enter letters in the box. 
     
 5. Select **OK**.
+

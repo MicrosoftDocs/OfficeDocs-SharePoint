@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage sites in the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -84,3 +85,4 @@ For info about the roles in this panel, see [About site permissions](site-permis
 ## Related topics
 
 [Manage site storage limits](manage-site-collection-storage-limits.md)
+
