@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2022
 title: Plan compliance requirements for SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
@@ -93,3 +94,4 @@ If your business requires information barriers, see [Learn about information bar
 [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
 [Control OneDrive and SharePoint access based on network authentication or app](/onedrive/control-access-based-on-network-location-or-app)
+

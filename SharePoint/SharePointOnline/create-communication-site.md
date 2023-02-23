@@ -1,4 +1,5 @@
 ---
+ms.date: 06/28/2021
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
 ms.author: evanatkin
@@ -195,3 +196,4 @@ In the example shown below, the web parts are in the second column of a three-co
 ### Want more?
 
 Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/)
+

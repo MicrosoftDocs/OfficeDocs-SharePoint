@@ -1,4 +1,5 @@
 ---
+ms.date: 01/31/2023
 title: "Upload file share sources to Migration Manager using a CSV file."
 ms.reviewer: 
 ms.author: jhendr
@@ -43,3 +44,4 @@ The following example uses Excel to create the CSV file.
 3. Close and save as a Comma delimited (\*.csv) file.
 
   :::image type="content" source="media/mm-fileshare-scan-csv.png" alt-text="sample csv in excel":::
+

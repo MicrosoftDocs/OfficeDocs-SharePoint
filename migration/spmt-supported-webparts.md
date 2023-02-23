@@ -1,4 +1,5 @@
 ---
+ms.date: 01/11/2019
 title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.reviewer:
 ms.author: jhendr
@@ -155,3 +156,4 @@ The following table details the SharePoint web parts that are currently supporte
 |XSLT|XSlt Larges client|No|
 |XSLT|XSlt Larges Image|No|
 |XSLT|XSlt List View|Yes|
+

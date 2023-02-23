@@ -1,4 +1,5 @@
 ---
+ms.date: 09/29/2022
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
@@ -43,3 +44,4 @@ Bulk edits are listed as one action item in the recent actions panel. Select a b
 Here’s an example of how bulk edits are grouped as one action in the recent actions panel:
 
 You deleted 4 SharePoint sites on May 21 at 6:15 PM. The bulk edit will show as one item named Deleted 4 sites on the recent actions panel. Select the Deleted 4 sites action and the list of deleted SharePoint sites appears.
+

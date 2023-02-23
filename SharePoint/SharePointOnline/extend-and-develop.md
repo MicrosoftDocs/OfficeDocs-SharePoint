@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Plan customizations, solutions, and apps for SharePoint"
 ms.reviewer: lucaband
 ms.author: mikeplum
@@ -83,3 +84,4 @@ The following table gives an example of older methods for customizing sites alon
 | Create a workflow using SharePoint Designer | Create a workflow using Power Automate |
 | Customize a SharePoint form using InfoPath | Customize a SharePoint form using a Power App |
 | Deploy a web part to a site using a sandbox solution | Use the SharePoint App Catalog to deploy a client-side web part to a site |
+

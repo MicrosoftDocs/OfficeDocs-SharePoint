@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: 
 ms.author: mikeplum
@@ -531,3 +532,4 @@ The example for this setting in the .plist file is:
 [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)
 
 [OneDrive sync reports in the Apps Admin Center (EnableSyncAdminReports)](sync-health.md)
+

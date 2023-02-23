@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "SharePoint Health Analyzer rules reference for SharePoint Server 2016"
 ms.reviewer: 
 ms.author: serdars
@@ -207,4 +208,5 @@ The following Health Analyzer rules relate to availability of SharePoint Server.
     
 - [Critical state of this rule indicates that the Word Automation Services is not running when it should be running (SharePoint Server)](critical-state-of-this-rule-indicates-that-the-word-automation-services-is-not-r.md)
     
+
 

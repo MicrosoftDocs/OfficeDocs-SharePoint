@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
 ms.author: mikeplum
@@ -74,3 +75,4 @@ Please let us know if you run into any problems while using this release.
 2. Click **Get help**.
     
 3. Type a brief description of your issue, and then click **Submit**. 
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 05/22/2019
 title: "Create an organization assets library"
 ms.reviewer: niwoon
 ms.author: mikeplum
@@ -98,3 +99,4 @@ If your organization needs to store and manage files for all your users to use, 
 - Update thumbnail URL: <br/>`Set-SPOOrgAssetsLibrary -LibraryUrl <String> -ThumbnailUrl <String>` <br/>[Learn more about this cmdlet](/powershell/module/sharepoint-online/set-spoorgassetslibrary).
 
 - Remove a library: <br/>`Remove-SPOOrgAssetsLibrary -LibraryUrl <String>` <br/>[Learn more about this cmdlet](/powershell/module/sharepoint-online/remove-spoorgassetslibrary).
+

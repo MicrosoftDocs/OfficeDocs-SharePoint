@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
 ms.reviewer: 
 ms.author: mikeplum
@@ -293,3 +294,4 @@ To finish setting up the External List, you have to grant permissions to the peo
     
     > [!NOTE]
     >  If you want to add a group that can use the External Lists, you must also give the group **Execute** rights. That enables users in the group to run a query to the external source, and view the results in SharePoint.
+

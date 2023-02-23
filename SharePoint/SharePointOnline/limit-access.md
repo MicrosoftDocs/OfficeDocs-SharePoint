@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Limit access"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -51,3 +52,4 @@ To enable this feature:
 
 > [!NOTE]
 > Users who aren't included in the security groups you added will lose access to their own OneDrive and any shared OneDrive content.
+

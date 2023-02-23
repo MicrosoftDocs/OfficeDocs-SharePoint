@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "OneDrive retention and deletion"
 ms.reviewer: 
 ms.author: mikeplum
@@ -79,3 +80,4 @@ The OneDrive deletion process works as follows:
     > The Recycle Bin is not indexed and therefore searches do not find content there. This means that an eDiscovery hold can't locate any content in the Recycle Bin in order to hold it. 
   
 Microsoft 365 retention settings from [retention policies and retention labels](/microsoft-365/compliance/retention) always take precedence to the standard OneDrive deletion process, so content included for OneDrive retention could be deleted before 30 days or retained for longer than the OneDrive retention period. Likewise, if a OneDrive is put on hold as part of an eDiscovery case, managers and secondary owners will be sent email about the pending OneDrive deletion, but the OneDrive won't be deleted until the hold is removed. <br>
+

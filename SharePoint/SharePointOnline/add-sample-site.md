@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2019
 title: Add a sample site to your tenant
 ms.reviewer: 
 ms.author: loreenl
@@ -79,3 +80,4 @@ From here, you can explore the site and edit the pages and content.
 [Create and use modern pages](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec)
 
 [SharePoint Design Guidance](https://spdesign.azurewebsites.net/)
+

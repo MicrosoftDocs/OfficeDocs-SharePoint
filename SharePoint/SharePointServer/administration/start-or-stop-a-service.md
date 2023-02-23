@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Start or stop a service in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -93,4 +94,5 @@ For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint
 #### Other Resources
 
 [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps&preserve-view=true)
+
 

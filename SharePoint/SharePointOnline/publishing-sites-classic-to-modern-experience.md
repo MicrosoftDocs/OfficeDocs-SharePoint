@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2018
 title: "Why move from publishing sites to communication sites? - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
@@ -228,3 +229,4 @@ To learn how to set up and use the multilingual feature for communication sites,
 
 > [!NOTE]
 > At this time, the multilingual feature is available for communication sites only.
+

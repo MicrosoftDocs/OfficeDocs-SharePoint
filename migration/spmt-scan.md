@@ -1,4 +1,5 @@
 ---
+ms.date: 11/09/2022
 title: "Scan and review a SharePoint Server site using SPMT"
 ms.reviewer: 
 ms.author: jhendr
@@ -57,4 +58,5 @@ Same as the migration experience, you can add a new scan by following the prompt
 5. The dashboard screen gives you a summary of the site content inventory and potential migration risks. Review the inventory and risk breakdown by scrolling down to the bottom of the dashboard.  Select **Download report** to view the full details.
 
     :::image type="content" source="media/spmt-4-scan-dashboard-results.png" alt-text="review the scan results on the dashboard":::
+
 

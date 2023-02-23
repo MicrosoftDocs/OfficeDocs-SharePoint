@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage sharing settings"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -173,3 +174,4 @@ You can also find help on security and permissions in these [YouTube videos from
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)
 
 [External sharing & collaboration with OneDrive, SharePoint & Teams (Ignite 2020)](https://www.youtube.com/watch?v=9VBbRQNDUD8)
+
