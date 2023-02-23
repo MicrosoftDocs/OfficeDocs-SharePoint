@@ -53,7 +53,7 @@ Blocking the download of Teams meeting recording files allows users to remain pr
 
 ## App impact
 
-Blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. 
+Blocking the download of Teams meeting recording files may impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. 
 
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
