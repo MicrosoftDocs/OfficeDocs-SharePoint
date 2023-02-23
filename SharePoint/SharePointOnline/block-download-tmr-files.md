@@ -17,7 +17,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: Learn how administrators can block download of Teams meeting recording files from SharePoint and OneDrive.
+description: Learn how administrators can block the download of Teams meeting recording files from SharePoint and OneDrive.
 ---
 
 # Block the download of Teams Meeting Recording files from SharePoint or OneDrive (preview)
