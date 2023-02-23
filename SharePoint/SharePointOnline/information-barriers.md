@@ -4,7 +4,7 @@ description: "Learn about associating segments with a site, and what happens whe
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 02/24/2023
+ms.date: 02/27/2023
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:
@@ -209,7 +209,8 @@ Set-SPOTenant -IBImplicitGroupBased $true
 
 SharePoint Administrators or Global Administrators can view and manage segments on a SharePoint site. Your organization can have up to 5,000 segments and users can be assigned to multiple segments.
 
-If you've enabled information barriers in your organization after February 15, 2023 and configured SharePoint for information barriers for multi-segment support, see [Multi-segment support for users in SharePoint Online](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-sharePoint-online) for more information about the multi-segment user experience and SharePoint.  
+> [!IMPORTANT]
+> Support for 5,000 segments and assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. Assigning users to multiple segments requires additional actions to change the information barriers mode for your organization. For more information, see [Use multi-segment support in information barriers)](/microsoft-365/compliance/information-barriers-multi-segment) for details. <br><br> For organizations in *Legacy* mode, the maximum number of segments supported is 250 and users are restricted to being assigned to only one segment. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).  
 
 View and manage information barriers segments as follows:
 

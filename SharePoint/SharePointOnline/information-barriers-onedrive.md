@@ -5,7 +5,7 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 ms.reviewer: nibandyo
-ms.date: 02/24/2023
+ms.date: 02/27/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -141,19 +141,22 @@ The following table shoes the effects of this example configuration:
 
 ## Enable SharePoint and OneDrive information barriers in your organization
 
-Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services can’t be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
+Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services can't be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
 
 ## Prerequisites
 
 1. Make sure you meet the [licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 2. [Create information barrier policies](/office365/securitycompliance/information-barriers-policies) that allow or block communication between the segments and activate the policies. Create segments and define the users in each.
 3. After you've configured and activated your information barrier policies, wait 24 hours for the changes to propagate through your organization.
-4. Enable information barriers for OneDrive. Enabling information barriers for SharePoint and OneDrive are configured in a single action and these services can’t be enabled separately. To enable information barriers for OneDrive, see the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers) article.
+4. Enable information barriers for OneDrive. Enabling information barriers for SharePoint and OneDrive are configured in a single action and these services can't be enabled separately. To enable information barriers for OneDrive, see the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers) article.
 5. Complete the steps in the following sections to customize and manage information barriers for OneDrive in your organization.
 
 ## Use PowerShell to view the segments associated with a OneDrive
 
 A global or SharePoint admin can view and change the segments associated with a user's OneDrive. Your organization can have up to 5,000 segments and users can be assigned to multiple segments.
+
+> [!IMPORTANT]
+> Support for 5,000 segments and assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. Assigning users to multiple segments requires additional actions to change the information barriers mode for your organization. For more information, see [Use multi-segment support in information barriers)](/microsoft-365/compliance/information-barriers-multi-segment) for details. <br><br> For organizations in *Legacy* mode, the maximum number of segments supported is 250 and users are restricted to being assigned to only one segment. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).
 
 1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin.
 
@@ -195,7 +198,10 @@ A global or SharePoint admin can view and change the segments associated with a 
 > [!NOTE]
 > Any changes you make will be overwritten if the user's segment changes.
 
-To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell. A OneDrive can have up to 5,000 associated segments.
+To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell.
+
+> [!IMPORTANT]
+> Support for 5,000 segments and assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. Assigning users to multiple segments requires additional actions to change the information barriers mode for your organization. For more information, see [Use multi-segment support in information barriers)](/microsoft-365/compliance/information-barriers-multi-segment) for details. <br><br> For organizations in *Legacy* mode, the maximum number of segments supported is 250 and users are restricted to being assigned to only one segment. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).
 
 ```PowerShell
 Set-SPOSite -Identity <site URL> -AddInformationSegment <segment GUID> 
@@ -209,7 +215,8 @@ Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_on
 
 When you add segments to a OneDrive, the site's IB mode is automatically updated to *Explicit*. An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive.
 
-If you've enabled information barriers in your organization after February 15, 2023 and configured OneDrive for information barriers for multi-segment support, see [Multi-segment support for users in OneDrive](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-onedrive) for more information about the multi-segment user experience and OneDrive.
+> [!IMPORTANT]
+> Support for assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. To determine if your organization is in *Legacy* mode, see [Use multi-segment support in information barriers)](/microsoft-365/compliance/information-barriers-multi-segment#enable-multiple-segment-support-for-users) and check the value of the `InformationBarrierMode` property. <br><br> Users are restricted to being assigned to only one segment for organizations in *Legacy* mode. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).
 
 To remove segment from a OneDrive, run the following command.  
 
