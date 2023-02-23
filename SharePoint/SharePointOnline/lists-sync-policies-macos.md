@@ -32,17 +32,17 @@ Lists sync gets packaged, installed, and updated through the OneDrive sync stand
 
 ## List of policies by string ID
 
-- (DisableNucleusSync) [Prevent Lists sync from running on the device](lists-sync-policies-macos#prevent-lists-sync-from-running-on-the-device)
+- (DisableNucleusSync) [Prevent Lists sync from running on the device](lists-sync-policies-macos.md#prevent-lists-sync-from-running-on-the-device)
 
-- (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies-macos#prevent-users-from-syncing-lists-shared-from-other-organizations)
+- (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies-macos.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
 
-- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to Lists sync with existing Microsoft account credentials being used across Microsoft apps on macOS](lists-sync-policies-macos#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-existing-microsoft-account-credentials-being-used-across-microsoft-apps-on-macos)
+- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to Lists sync with existing Microsoft account credentials being used across Microsoft apps on macOS](lists-sync-policies-macos.md#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-existing-microsoft-account-credentials-being-used-across-microsoft-apps-on-macos)
 
 ### Prevent Lists sync from running on the device
 
 By default, Lists sync is turned on for users of Microsoft Lists. If you set this preference, Lists sync will be blocked from running on the device.
 
-**Location**: [Lists Sync preferences](lists-sync-policies-macos#manage-lists-sync-settings-on-macos-using-property-list-files)
+**Location**: [Lists Sync preferences](lists-sync-policies-macos.md#manage-lists-sync-settings-on-macos-using-property-list-files)
 
 Prevent Lists sync from running on the device:
 
@@ -62,7 +62,7 @@ Re-enable Lists sync on the device:
 
 Enabling this setting prevents users at your organization from syncing lists that are shared from other organizations. After the setting is enabled (value 1) on a computer, lists shared from other organizations won't sync. Disable the setting (value 0) to allow your users to sync external lists.
 
-**Location**: [Lists Sync preferences](lists-sync-policies-macos#manage-lists-sync-settings-on-macos-using-property-list-files)
+**Location**: [Lists Sync preferences](lists-sync-policies-macos.md#manage-lists-sync-settings-on-macos-using-property-list-files)
 
 Prevent external List sync with:
 
@@ -82,7 +82,7 @@ Restore external List sync with:
 
 Lists sync is set up to automatically sign users in with credentials being used across other Microsoft apps on macOS like OneDrive. If you enable this setting, automatic sign-in and Lists sync setup would not occur.
 
-**Location**: [OneDrive group preferences](lists-sync-policies-macos#manage-lists-sync-settings-on-macos-using-property-list-files)
+**Location**: [OneDrive group preferences](lists-sync-policies-macos.md#manage-lists-sync-settings-on-macos-using-property-list-files)
 
 Prevent Lists sync silent configuration:
 
