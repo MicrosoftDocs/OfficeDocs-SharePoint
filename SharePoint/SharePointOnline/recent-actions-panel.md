@@ -1,5 +1,5 @@
 ---
-ms.date: 09/29/2022
+ms.date: 03/01/2023
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
