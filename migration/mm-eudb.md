@@ -51,6 +51,6 @@ MMP currently has one instance based in the United States (US) farm, serving all
 |If you have...|Impact to you|Recommendation|
 |:-----|:-----|:-----|
 |No existing migrations|None|No action required.|
-|Active migrations|You have until September 30, 2023 to complete active migrations. You can choose to finish your migration projects in the US project, or restart them in the EU. We've recreated your existing migration projects in the EU, if you wish to restart and rerun them there. As of October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
+|Active migrations|You have until September 30, 2023 to complete active migrations. You can choose to finish your migration projects in the US project, or restart them in the EU. We've recreated your existing migration projects in the EU, if you wish to restart them. As of October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
 |File share Scans|File share scans can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
 |Active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
