@@ -37,7 +37,7 @@ MMP currently has one instance based in the United States (US) farm, serving all
 ## Timeline overview
 
 |Date|Change|
-|:-----|:-----|
+|:-----------|:-----|
 |April 1, 2023|The file share scans tab becomes read only.|
 |April 1, 2023|All new migrations will be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU project or continue with their migration in the US project.|
 |September 30, 2023|All active migrations in the US instance must be completed.|
@@ -49,7 +49,7 @@ MMP currently has one instance based in the United States (US) farm, serving all
 
 
 |If you have...|Impact to you|Recommendation|
-|:-----|:-----|:-----|
+|:---------------|:-----|:-----|
 |No existing migrations|None|No action required.|
 |Active migrations|You have until September 30, 2023 to complete active migrations. You can choose to finish your migration projects in the US project, or restart them in the EU. We've recreated your existing migration projects in the EU, if you wish to restart them. As of October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
 |File share Scans|File share scans can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
