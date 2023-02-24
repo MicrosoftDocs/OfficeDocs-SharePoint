@@ -27,11 +27,11 @@ description: Learn about the changes to Migration Manager for the European Union
 >
 >Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024.
 
-The Migration Manager Platform (MMP) is the platform for the Migration Manager migration tool that enables migrations from file share and cloud storage platform sources to Microsoft 365. 
+The Migration Manager Platform (MMP) is the platform for Migration Manager, the tool enables migrations from file share and cloud storage platform sources to Microsoft 365. 
 
 The European Union Data Boundary (EUDB) is a geographically defined boundary within which Microsoft has committed to store and process customer data for our major commercial enterprise online services, including Azure, Dynamics 365, Power Platform, and Microsoft 365, subject to limited circumstances where customer data will continue to be transferred outside the EU Data Boundary.
 
-MMP currently has one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023 with a phased implementation schedule for existing customers with active migration projects.
+MMP currently has one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023. A phased implementation schedule for existing customers with active migration projects is listed below.
 
 
 ## Timeline overview
@@ -47,7 +47,7 @@ MMP currently has one instance based in the United States (US) farm, serving all
 ## What does that mean for me?
 
 
-|If you have...|Impact to you|Recommendation|
+|If you have...|How are you impacted|Recommendation|
 |:-----|:-----|:-----|
 |Have no existing migrations|None|No action required.||
 |Have active migrations|If you're an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We've recreated any existing migration projects in the EU, if you need to run them there. You'll have until September 30, 2023 to complete active migrations. After October 1, 2023, you'll no longer have access to US migrations or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
