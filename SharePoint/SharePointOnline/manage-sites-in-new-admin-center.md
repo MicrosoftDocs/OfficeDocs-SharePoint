@@ -35,6 +35,39 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**
 > [!NOTE]
 > The Active sites page lists the root website for each site collection. Subsites and redirect sites (REDIRECTSITE#0) created by changing a site address or replacing the root site aren't shown. 
 
+> [!NOTE]
+> The Active sites page in SharePoint admin center does not show all site types, for example, the `ContentTypeHub` sites, are intentionally excluded from the list.
+
+Following are the site types that are intentionally excluded from the list.
+
+1. Sites with the following URLs:
+  
+   |**URL**|**Description**|
+   |:-----|:-----|
+   |/sites/contentTypeHub |Content Hub Host |
+   |/sites/CompliancePolicyCenter |Policy Center |
+   |/portal/hub |Point Publishing Hub |
+   |/search |Search Site |
+   |/personal/ |Personal ODB Sites |
+
+2. Sites with the following templates:
+
+   |**ID**|**Name**|**Description**|
+   |:-----|:-----|:-----|
+   |6000 |REVIEWCTR# |Review Center |
+   |10043 |FunSite# |SharePoint Online Tenant Fundamental Site |
+   |65 |POINTPUBLISHINGHUB# |PointPublishing Hub |
+   |66 |POINTPUBLISHINGPERSONAL#0 |Personal blog |
+   |67 |POINTPUBLISHINGTOPIC#0 |PointPublishing Topic |
+   |3500 |POLICYCTR# |Compliance Policy Center |
+   |30003 |TestSite# |TestSite |
+   |3 |CENTRALADMIN# |Central Admin Site |
+   |54 |SPSMSITEHOST# |My Site Host |
+   |21 |SPSPERS# |SharePoint Portal Server Personal Space |
+   |16 |TENANTADMIN# |Tenant Admin Site |
+   |301 |REDIRECTSITE# |Redirect Site |
+   |70 |CSPCONTAINER# |CSP Container |
+
 For more info about tasks on the Active sites page, see:
 
 - [Create a site](create-site-collection.md)
