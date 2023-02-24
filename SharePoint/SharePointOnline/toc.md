@@ -190,6 +190,7 @@
 ### [Limit OneDrive access by security group](limit-access.md)
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
+### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2fSharePoint%2fHub%2fbreadcrumb%2ftoc.json&toc=%2fSharePoint%2fSharePointOnline%2ftoc.json)
 ### [Restrict site access to group members](restricted-access-control.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Compliance]()
