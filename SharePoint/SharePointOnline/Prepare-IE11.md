@@ -1,4 +1,5 @@
 ---
+ms.date: 03/31/2021
 title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11"
 ms.reviewer: aharmetz
 ms.author: matteva
@@ -63,3 +64,4 @@ To automate your business processes, we recommend that you create new custom for
 ## Use the list creation experience, rather than the old Import Spreadsheet app
 
 Follow the steps to [create a list based on a spreadsheet](https://support.microsoft.com/office/380cfeb5-6e14-438e-988a-c2b9bea574fa). The older Import Spreadsheet app under Add an app on the Site contents page relies on Internet Explorer 11 and will no longer be supported in Microsoft 365 after August 17, 2021.
+

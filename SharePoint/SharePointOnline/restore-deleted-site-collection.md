@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Restore deleted sites"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -57,3 +58,4 @@ In the new SharePoint admin center, you can delete and restore all the new types
 ## Related topics
 
 [Restore deleted items from the site collection recycle bin](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)
+

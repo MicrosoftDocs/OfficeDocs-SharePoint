@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan incoming email for a SharePoint Server farm"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ca092ed2-4aa2-4c2e-b273-661ca6a76e01
@@ -218,4 +219,5 @@ The advanced and automatic settings modes are similar in that they both enable f
 [Plan outgoing email for a SharePoint Server farm](outgoing-email-planning.md)
   
 [Configure outgoing email for a SharePoint Server farm](outgoing-email-configuration.md)
+
 

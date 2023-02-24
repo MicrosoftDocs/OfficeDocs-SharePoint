@@ -1,4 +1,5 @@
 ---
+ms.date: 01/07/2019
 title: "Migrate from My Sites to OneDrive in Office 365"
 ms.reviewer:
 ms.author: jhendr
@@ -60,7 +61,7 @@ An assessment can begin by working with your users in two main areas:
 
 ## Using the SharePoint Migration Assessment Tool
 
-The [SharePoint Migration Assessment Tool (SMAT)](./overview-of-the-sharepoint-migration-assessment-tool.md) is a simple command-line tool that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content.
+The [SharePoint Migration Assessment Tool (SMAT)](./overview-of-the-sharepoint-migration-assessment-tool.md) is a simple command-line tool that scans the contents of your SharePoint Server 2010, 2013, or 2016 farm to help identify any issues before you migrate your content.
 
 After the scan is complete, SMAT generates summary and detailed reports that identify areas that could affect your migration.
 
@@ -150,3 +151,4 @@ The following articles can help your users "make the switch" from My Sites to On
 ## Advanced support
 
 Your enterprise may have specific business needs that require you to use third-party services or applications to help with your migration to Microsoft 365. Explore the professional services and applications available from partners in the [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
+

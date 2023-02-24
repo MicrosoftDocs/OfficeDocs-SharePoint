@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "SQL Server and storage (SharePoint Server)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -32,4 +33,5 @@ The following articles provide information about SQL Server and storage configur
 |[Deploy Azure SQL Managed Instance with SharePoint Server 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md) <br/> |Describes how to deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019 that are hosted in Microsoft Azure.  <br/> |
 |[Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md) <br/> |Describes a process for planning storage and SQL Server capacity for a SharePoint Server deployment.  <br/> |
    
+
 

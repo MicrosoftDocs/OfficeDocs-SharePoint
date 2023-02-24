@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Search in SharePoint Server knowledge articles"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -1308,4 +1309,5 @@ If persistent or recurring, check the host controller and restart if it is neces
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
 [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
+
 

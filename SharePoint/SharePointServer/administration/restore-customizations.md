@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore customizations in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -172,4 +173,5 @@ Consult with the development team or customization vendor to determine whether t
 [Restore content databases in SharePoint Server](restore-a-content-database.md)
   
 [Restore site collections in SharePoint Server](restore-site-collections.md)
+
 

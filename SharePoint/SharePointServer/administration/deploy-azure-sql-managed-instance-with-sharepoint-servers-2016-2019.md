@@ -1,4 +1,5 @@
 ---
+ms.date: 05/20/2019
 title: "Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ ms.audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server

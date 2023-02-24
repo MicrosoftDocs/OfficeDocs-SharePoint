@@ -1,4 +1,5 @@
 ---
+ms.date: 06/05/2018
 title: "Box to OneDrive Migration Guide"
 ms.reviewer:
 ms.author: jhendr
@@ -198,3 +199,4 @@ We recommend *not* handling external sharing during the act of migration. Instea
   - Where possible, leverage the collaboration and security benefits of grouping content that's specific to external partners in a dedicated SharePoint team site. For more info, see [Use SharePoint as a business-to-business (B2B) extranet solution](/sharepoint/create-b2b-extranet).
 
   - If content can't be grouped as such, externally re-share on the file or folder level in the target team library.
+

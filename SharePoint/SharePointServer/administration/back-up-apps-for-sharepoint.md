@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Back up apps for SharePoint in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -126,4 +127,5 @@ You may have multiple site collections that host apps for SharePoint in your env
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
 [Restore apps for SharePoint in SharePoint Server](restore-apps-for-sharepoint.md)
+
 

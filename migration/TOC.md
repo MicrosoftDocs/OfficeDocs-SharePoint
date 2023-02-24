@@ -51,7 +51,8 @@
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
-#### [Migrated workflows](spmt-workflow-migrated-flows.md)
+#### [Sharepoint Designer workflows](spmt-workflow-migration-spd.md)
+#### [SharePoint Server 2010 OOTB migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
@@ -63,6 +64,7 @@
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Troubleshooting](mm-troubleshoot.md)
+#### [Upload file share sources to scan using a CSV file](mm-fileshare-source-scan-csv-upload.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
@@ -79,7 +81,7 @@
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ### Stream Reference
-#### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
+#### [Bulk upload Stream source paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
 ### [Scan and assess a SharePoint Server site with SPMT](spmt-scan.md)
 ### [SharePoint Migration Tool (SPMT) scan assessment error codes](spmt-scan-risk-codes.md)
@@ -128,7 +130,7 @@
 #### [Locked Sites](migration-assessment-scan-locked-sites.md)
 #### [Long OneDrive URLs](migration-assessment-scan-long-onedrive-urls.md)
 #### [Managed Metadata Columns](migration-assessment-scan-managed-metadata-columns.md)
-#### [Master Pages](migration-assessment-scan-master-pages.md)
+#### [Main Pages](migration-assessment-scan-master-pages.md)
 #### [Publishing Pages](migration-assessment-scanpublishing-pages.md)
 #### [Publishing Sites](migration-assessment-scan-publishing-sites.md)
 #### [Sandbox Solution](migration-assessment-scan-sandbox-solution.md)

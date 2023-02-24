@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "New and improved features in SharePoint Server 2016"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2021
 title: "Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)"
 ms.reviewer: 
 ms.author: v-jmathew
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
@@ -452,3 +453,4 @@ Users can set which properties are searched by the People Picker by following th
       } 
   } 
   ```
+

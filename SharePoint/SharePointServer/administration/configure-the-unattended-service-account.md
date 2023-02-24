@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: d21f7d68-c18b-4253-af8b-0765c86a331b
 description: "Configure Visio Services in SharePoint Server to refresh data by using the unattended service account."

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure eDiscovery in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096

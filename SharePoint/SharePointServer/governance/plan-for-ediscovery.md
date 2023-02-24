@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan for eDiscovery in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1350e659-04ba-423e-a1b3-c41563073473
@@ -98,3 +99,4 @@ Generally, when you export content for eDiscovery, you will also want to export 
 [Configure eDiscovery in SharePoint Server](configure-ediscovery-2019.md)
 
 [Search and place a hold on public folders using In-Place eDicovery](/Exchange/policy-and-compliance/ediscovery/search-public-folders)
+

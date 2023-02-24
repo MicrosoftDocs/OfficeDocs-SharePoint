@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore content from unattached content databases in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -100,4 +101,5 @@ You can recover content from an unattached content database by using Central Adm
 [Prepare to back up and restore farms in SharePoint Server](prepare-to-back-up-and-restore.md)
   
 [Attach or detach content databases in SharePoint Server](attach-or-detach-content-databases.md)
+
 

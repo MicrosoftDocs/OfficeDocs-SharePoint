@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Hide the OneDrive and SharePoint app tiles"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -66,3 +67,4 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 [Customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme)
   
 [Add custom tiles to the app launcher](/office365/admin/manage/customize-the-app-launcher)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/05/2020
 title: Mover Release Notes
 author: JoanneHendrickson
 ms.author: jhendr
@@ -485,3 +486,4 @@ Backend release with changes to help us determine the root cause for customer is
 ## Backend v1.13.4 (March 9, 2020)
 
 - User will see improved speeds both when initially loading the schedules table in the Migration Manager, and when refreshing the data in it. The table should load in under 60 seconds now for huge migrations (100K+ schedules with multiple runs per schedule). Most importantly, users should not see the table failing to load in the UI due to size (may fail due to other normal issues like network problems). Average migrations will load instantaneously. Ultimate goal is to improve UX so that the table would load instantaneously for migrations of all sizes.
+

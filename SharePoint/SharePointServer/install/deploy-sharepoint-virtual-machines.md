@@ -1,4 +1,5 @@
 ---
+ms.date: 07/01/2019
 title: "Deploying SharePoint Server on virtual machines"
 ms.author: serdars
 author: SerdarSoysal
@@ -7,7 +8,7 @@ ms.audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server

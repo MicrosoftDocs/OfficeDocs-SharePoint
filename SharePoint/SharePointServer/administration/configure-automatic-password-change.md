@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure automatic password change in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -204,4 +205,5 @@ For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-s
 
 If you must change the farm account to a different account, use the following Stsadm command:  `stsadm.exe -o updatefarmcredentials -userlogin DOMAIN\username -password password`
   
+
 

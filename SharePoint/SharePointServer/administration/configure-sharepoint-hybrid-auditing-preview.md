@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -24,3 +25,4 @@ description: "Learn about how SharePoint Auditing generates reports for on-premi
 > [!IMPORTANT]
 > Microsoft has ended support for the SharePoint Hybrid Auditing (Preview). It is no longer available in SharePoint Server 2016 as of the November 2019 Public Update ([KB4484143](https://support.microsoft.com/help/4484143). In addition, it has been disabled in the Microsoft 365 service. Existing data is available in the Unified Audit Log but no new data can be sent from SharePoint Server to the Unified Audit Log, even if the November 2019 Public Update or later has not yet been installed.
   
+

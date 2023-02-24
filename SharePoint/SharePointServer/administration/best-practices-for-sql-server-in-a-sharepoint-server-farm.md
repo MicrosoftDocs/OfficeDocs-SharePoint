@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Best practices for SQL Server in a SharePoint Server farm"
 ms.reviewer:
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -209,3 +210,4 @@ The SharePoint Server Content Publishing team thanks the following contributors 
 ### Other Resources
 
 [Securing SharePoint: Harden SQL Server in SharePoint Environments](/archive/blogs/rycampbe/securing-sharepoint-harden-sql-server-in-sharepoint-environments)
+

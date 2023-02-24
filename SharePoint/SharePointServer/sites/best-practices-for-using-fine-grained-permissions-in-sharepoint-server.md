@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -54,24 +54,24 @@ Before you begin this operation, review the following information about prerequi
 
 If your business requirement must use fine-grained permissions, consider the following recommended best practices:
   
-- Ensure that you do not have too many items at the same level of hierarchy in the document libraries, because the time that is required to process items in the views increases.
+- Ensure that you don't have too many items at the same level of hierarchy in the document libraries, because the time that is required to process items in the views increases.
     
 - Use event handlers to control edit permission. You can have an event handler that registers an event using the **SPEventReceiverType.ItemUpdating** and **SPEventReceiverType.ItemUpdated** methods, and then use code to control whether the update should be allowed. This is very powerful, because you can make security decisions based on any metadata of a list or item, without affecting the view-rendering performance. 
     
-- Use the **AddToCurrentScopeOnly** method to assign Limited Access membership in a SharePoint group. The key element in this principle is to redesign the architecture so that scope membership does not cause Access Control List (ACL) recalculation at the parent document library and web. For additional information about scope changes, Issue 3: Use fine-grained permissions by scope structure changes (2010 only). 
+- Use the **AddToCurrentScopeOnly** method to assign Limited Access membership in a SharePoint group. The key element in this principle is to redesign the architecture so that scope membership doesn't cause Access Control List (ACL) recalculation at the parent document library and web. For additional information about scope changes, Issue 3: Use fine-grained permissions by scope structure changes (2010 only). 
     
-When working with fine-grained permissions, it is easy to unintentionally encounter limits that prevent permissions from resolving. This section describes some of these limits and best practices on how to set them to allow permissions to resolve correctly.
+When working with fine-grained permissions, it's easy to unintentionally encounter limits that prevent permissions from resolving. This section describes some of these limits and best practices on how to set them to allow permissions to resolve correctly.
   
 ### Too many scopes in a list
 <a name="toomanyscopesinalist"> </a>
 
-There is a built-in limit of 50,000 scopes per list or document library. After 50,000 scopes are reached addition of new scopes in a given list or document library is prohibited.
+There's a built-in limit of 50,000 scopes per list or document library. After 50,000 scopes are reached addition of new scopes in a given list or document library is prohibited.
   
  **Best practices:**
   
 - Only set unique scopes on parent objects such as folders.
     
-- Do not create a system with many uniquely-permissioned objects below an object that has many scopes.
+- Don't create a system with many uniquely permissioned objects below an object that has many scopes.
     
 - If your business requires more than 50,000 uniquely permissioned items in a list or document library, then you must move some items to a different list or document library.
     
@@ -88,14 +88,14 @@ Change the built-in scope limit by using a Microsoft PowerShell script.
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the **SharePoint Management Shell**. 
     

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/30/2018
 title: "Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager"
 ms.reviewer: 
 ms.author: toresing
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."

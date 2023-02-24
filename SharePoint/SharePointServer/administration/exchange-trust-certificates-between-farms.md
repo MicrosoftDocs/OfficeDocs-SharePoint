@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Exchange trust certificates between farms in SharePoint Server"
 ms.reviewer:
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -269,3 +270,4 @@ You can manage trusts on a farm only after the relevant certificates have alread
 [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
 
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
+

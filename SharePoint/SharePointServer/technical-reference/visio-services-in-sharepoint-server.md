@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Visio Services in SharePoint Server knowledge articles"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -227,4 +228,5 @@ Resolution 5: Create a new Visio Services application:
 [System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 [System Center Monitoring Pack for SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkId=272568)
+
 

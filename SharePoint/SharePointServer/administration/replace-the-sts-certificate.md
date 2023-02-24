@@ -1,4 +1,5 @@
 ---
+ms.date: 11/19/2018
 title: "Replace the STS certificate for SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -147,4 +148,5 @@ Complete the previous steps on all SharePoint server in the farm. This completes
 [Certreq](/windows-server/administration/windows-commands/certreq_1)
 
 [Certutil](/windows-server/administration/windows-commands/certutil)
+
 

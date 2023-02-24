@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Back up customizations in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -215,4 +216,5 @@ Consult with the development team or customization vendor to determine whether t
 [Back up site collections in SharePoint Server](back-up-site-collections.md)
   
 [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
+
 

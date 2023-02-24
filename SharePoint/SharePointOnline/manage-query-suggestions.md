@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Customize query suggestions in SharePoint search"
 ms.reviewer: 
 ms.author: serdars
@@ -28,7 +29,7 @@ Automatic query suggestions are generated periodically for each result source an
 For example, in the following screenshot, "contoso" is automatically suggested.
 ![Screenshot of Query Suggestion.](media/query-suggestion.png)
   
-SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
+SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear only in the classic search experience.
 
 As an admin you can manually create your own lists of queries that always shall be suggested or phrases that never shall be suggested, and import them to SharePoint. 
 - Your list of queries that shall always be suggested only applies to modern search and only in tenant-wide scope.
@@ -69,3 +70,4 @@ You can edit a list of query suggestions that you've manually created. To edit a
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
 To prevent terms from appearing in the search box, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
+

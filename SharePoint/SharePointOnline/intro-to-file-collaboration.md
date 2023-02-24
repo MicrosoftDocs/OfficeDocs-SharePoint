@@ -1,4 +1,5 @@
 ---
+ms.date: 11/20/2019
 title: File collaboration in Microsoft 365 - SharePoint
 ms.reviewer: 
 ms.author: mikeplum
@@ -265,3 +266,4 @@ By default, file storage for team sites is managed automatically. If you prefer 
 ### Specify team site libraries to sync automatically
 
 To let users easily access team site files from File Explorer (as they might have previously accessed network file shares), you can specify particular team site libraries to sync on your users' computers automatically. To do this, use the OneDrive Group Policy object "[Configure team site libraries to sync automatically](/onedrive/use-group-policy#configure-team-site-libraries-to-sync-automatically)." Your users need to be running Windows 10 and OneDrive Files On-Demand must be enabled.
+

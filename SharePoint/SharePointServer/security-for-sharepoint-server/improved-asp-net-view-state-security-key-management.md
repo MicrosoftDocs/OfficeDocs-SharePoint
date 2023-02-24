@@ -1,4 +1,5 @@
 ---
+ms.date: 09/15/2021
 title: Improved ASP.NET view state security and key management
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
@@ -82,3 +83,4 @@ Using the following new PowerShell cmdlets, you can change the ASP.NET view stat
 
        If this parameter is not specified, the decryption and validation keys is deployed to all servers in the farm.
   
+

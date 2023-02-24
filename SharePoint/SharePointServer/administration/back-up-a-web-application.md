@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Back up web applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -157,3 +158,4 @@ You cannot back up the complete web application by using SQL Server tools. Howev
 [Back up farms in SharePoint Server](back-up-a-farm.md)
   
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
+

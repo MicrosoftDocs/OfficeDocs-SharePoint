@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore farm configurations in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -111,4 +112,5 @@ You can use Central Administration to restore a farm's configuration.
 #### Concepts
 
 [Back up farm configurations in SharePoint Server](back-up-a-farm-configuration.md)
+
 

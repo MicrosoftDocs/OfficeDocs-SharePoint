@@ -1,4 +1,5 @@
 ---
+ms.date: 07/24/2018
 title: "Upgrade My Sites to SharePoint Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -107,3 +108,4 @@ The personal site collections are upgraded automatically when a user visits thei
 [Upgrade a site collection](upgrade-a-site-collection-2019.md)
   
 [Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)
+

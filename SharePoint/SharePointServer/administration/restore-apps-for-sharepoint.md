@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Restore apps for SharePoint in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -133,4 +134,5 @@ To restore apps for SharePoint to a new farm you must also backup and restore an
 [Restore content databases in SharePoint Server](restore-a-content-database.md)
   
 [Restore site collections in SharePoint Server](restore-site-collections.md)
+
 

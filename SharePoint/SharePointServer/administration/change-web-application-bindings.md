@@ -4,12 +4,12 @@ ms.reviewer:
 ms.author: serdars
 author: serdars
 manager: serdars
-ms.date: 
+ms.date: 09/24/2021 
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -64,4 +64,5 @@ For example, you can run the following PowerShell command to change a SharePoint
  ```
  
  
+
 

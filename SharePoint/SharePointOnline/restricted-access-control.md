@@ -1,4 +1,5 @@
 ---
+ms.date: 10/11/2022
 title: "Restrict site access to members of a Microsoft 365 group"
 ms.reviewer: nibandyo
 manager: serdars
@@ -18,6 +19,9 @@ description: "Learn how to restrict site access to members of Microsoft 365 grou
 # Restrict site access to members of a Microsoft 365 group
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
+
+> [!NOTE]
+> This feature is currently in private preview. If you would like to participate in the preview, contact your Microsoft account manager.
 
 With restricted access control (preview), you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to users of the Microsoft 365 group associated with a SharePoint site. Users who are not added to the group membership won’t have access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams.
 
@@ -77,3 +81,4 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 [Manage site access based on sensitivity label](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
+

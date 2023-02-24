@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "System Center Operations Manager knowledge articles for SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -61,3 +62,4 @@ In this section:
 [Update Rollup 2 for System Center 2016 Operations Manager](https://support.microsoft.com/help/3209591/update-rollup-2-for-system-center-2016-operations-manager)
   
 [Update Rollup 2 for System Center 2016 Data Protection Manager](https://support.microsoft.com/help/3209593/update-rollup-2-for-system-center-2016-data-protection-manager)
+

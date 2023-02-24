@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Change a specific user's OneDrive storage space"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -137,3 +138,4 @@ If you are attempting to change the OneDrive storage for a user and are not able
 > This feature is not available for Microsoft 365 Government and Microsoft 365 operated by 21Vianet. 
 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+

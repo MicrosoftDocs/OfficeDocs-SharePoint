@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "The timer service failed to recycle (SharePoint Server)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -39,4 +40,5 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The time
     
 For more information, see [Default timer jobs in SharePoint Server 2019](default-timer-jobs-in-sharepoint-server-2019.md), [Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md), or [Default timer jobs in SharePoint 2013](default-timer-jobs-in-sharepoint-2013.md).
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/14/2018
 title: "Best Practices for SharePoint Server Installation"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -91,3 +92,4 @@ If a portion of your sites are already in the cloud, or if you intend on moving 
 - Implement only the necessary Web Application Policies, such as self-service site creation, Object Cache, and Search Crawler accounts, but try to avoid further usage of Web Application Policies as they are not available in SharePoint.
 
 - For security purposes, phase out the use of anonymous SharePoint Server sites.  Also note that anonymous site access is not available in SharePoint in Microsoft 365.
+

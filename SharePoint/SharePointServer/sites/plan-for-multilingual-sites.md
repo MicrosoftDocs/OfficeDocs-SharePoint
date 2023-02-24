@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan for multilingual sites in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -7,7 +8,7 @@ manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -184,3 +185,4 @@ If you plan to translate content on your variations sites, you must decide wheth
 [Language Packs for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=51492)
   
 [Language Packs for SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=37140)
+

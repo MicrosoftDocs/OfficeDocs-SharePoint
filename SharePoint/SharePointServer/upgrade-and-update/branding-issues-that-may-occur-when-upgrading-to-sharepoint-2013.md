@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -58,7 +58,7 @@ To make the new UI faster and more fluid, SharePoint 2013 introduced fundamental
     
 - Related classes are grouped in the CSS file.
     
-- Inline styles and the !mportant declaration are not used because they cannot be overridden.
+- Inline styles and the !important declaration are not used because they cannot be overridden.
     
 - Styles use a consistent structure and naming convention.
     

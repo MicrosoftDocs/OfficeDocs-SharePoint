@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Add or remove service application connections from a web application in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -115,4 +116,5 @@ You can add or remove service application connections to a service application c
 #### Concepts
 
 [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md)
+
 

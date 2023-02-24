@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure site mailboxes in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
@@ -490,4 +491,5 @@ Please review the following table if you encounter issues.
 [Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019&preserve-view=true)
   
 [Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019&preserve-view=true)
+
 

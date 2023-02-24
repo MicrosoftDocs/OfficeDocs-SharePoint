@@ -1,4 +1,5 @@
 ---
+ms.date: 01/27/2020
 title: "Planning intranet governance"
 ms.reviewer:
 ms.author: matteva
@@ -215,3 +216,4 @@ If your initial design plan identified key business outcomes or surveyed users t
 [SharePoint governance overview](./governance-overview.md)
 
 [How to think about your modern intranet](./trad-vs-modern-intranet.md)
+

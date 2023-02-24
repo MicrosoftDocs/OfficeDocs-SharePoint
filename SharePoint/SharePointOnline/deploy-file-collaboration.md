@@ -1,4 +1,5 @@
 ---
+ms.date: 07/08/2019
 title: "Plan & deploy a file collaboration environment - SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
@@ -333,4 +334,5 @@ As part of your migration, you can use the [Azure Information Protection scanner
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 
 [Tutorial: Automatically apply Azure Information Protection classification labels](/cloud-app-security/use-case-information-protection)
+
 

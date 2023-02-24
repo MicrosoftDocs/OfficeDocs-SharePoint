@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -27,7 +27,7 @@ Remote BLOB Storage (RBS) is an add-in that you can install when you install SQL
   
 Read the following articles about managing RBS.
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+| :::image type="icon" source="../media/mod_icon_buildingblock_M.png"::: Content | <br>Description |
 |:-----|:-----|
 |[Overview of RBS in SharePoint Server](rbs-overview.md) <br/> |Conceptual overview of how RBS works with SQL Server 2014 Service Pack 1 (SP1). It contains important information about RBS features and providers. We strongly recommend that you read this article before you implement RBS.  <br/> |
 |[Deciding to use RBS in SharePoint Server](rbs-planning.md) <br/> |Information to help you decide whether to use Remote BLOB Storage (RBS) in a SharePoint Server environment, and if you use RBS, to understand the benefits and costs of using RBS in your environment.  <br/> |

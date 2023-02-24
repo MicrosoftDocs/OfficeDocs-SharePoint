@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2018
 title: Guide to the modern experience in SharePoint
 ms.reviewer: 
 ms.author: loreenl

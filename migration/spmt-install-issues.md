@@ -1,4 +1,5 @@
 ---
+ms.date: 01/25/2019
 title: Troubleshooting SPMT installation issues
 ms.author: jhendr
 author: JoanneHendrickson
@@ -66,3 +67,4 @@ If you are on a government cloud, you must first take these steps:
 >**0** = Worldwide consumer cloud and GCC
 >**2** = GCC high
 >**3** = DoD
+

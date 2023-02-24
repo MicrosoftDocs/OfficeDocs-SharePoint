@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "What's new"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -41,4 +42,5 @@ Articles contain an overview of new and improved product features, updates, depr
 [What is SharePoint](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
   
 [About SharePoint](/sharepoint)
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/24/2018
 title: "New and improved features in SharePoint Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: overview
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
@@ -250,3 +251,4 @@ Customers can opt in and opt out of the telemetry experience at any time.
 [What is SharePoint?](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
 
 [New development capabilities for SharePoint 2019](/sharepoint/dev/general-development/sharepoint-2019-development-platform)
+

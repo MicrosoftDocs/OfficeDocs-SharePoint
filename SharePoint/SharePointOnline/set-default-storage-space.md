@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Set the default storage space for OneDrive users"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -100,3 +101,4 @@ This storage space setting applies to all new and existing users who are license
 ## See also
 
 [More info about using Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/24/2018
 title: "High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019"
 ms.reviewer:
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -78,3 +79,4 @@ Start the upgrade process to SharePoint Server 2019 by running the [Mount-SPCont
 ## See Also
 
 [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md)
+

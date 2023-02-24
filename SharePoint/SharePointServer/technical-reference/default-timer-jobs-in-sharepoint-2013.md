@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Default timer jobs in SharePoint 2013"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d1981c53-9445-454f-82f4-bce8379cdaea
@@ -190,4 +191,5 @@ The following table lists the default timer jobs for SharePoint 2013.
 [Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md)
 
 [Default timer jobs in SharePoint Server 2019](default-timer-jobs-in-sharepoint-server-2019.md)
+
 

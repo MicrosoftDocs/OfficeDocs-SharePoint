@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Back up the Secure Store Service in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -115,4 +116,5 @@ You can use Central Administration to back up the Secure Store Service.
 #### Concepts
 
 [Restore Secure Store Service applications in SharePoint Server](restore-a-secure-store-service-application.md)
+
 

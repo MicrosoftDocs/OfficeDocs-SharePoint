@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan browser support in SharePoint 2013"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -115,4 +116,5 @@ To learn about the different mobile device browsers supported, see [Mobile devic
 #### Other Resources
 
 [Plan for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261834(v=office.14))
+
 

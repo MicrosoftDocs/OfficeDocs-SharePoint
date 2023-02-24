@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2021
 title: "OpenID Connect 1.0 authentication"
 ms.reviewer: 
 ms.author: v-jmathew
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
@@ -35,3 +36,4 @@ You can set up OIDC authentication in SharePoint Server with either of these opt
 - Microsoft Azure Active Directory (Azure AD). For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
 
 - Active Directory Federation Services (AD FS). For more information, see [Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)](set-up-oidc-auth-in-sharepoint-server-with-adfs.md).
+

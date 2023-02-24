@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Plan browser support in SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -99,3 +100,4 @@ SharePoint Server Subscription Edition supports the following versions:
 - Latest version of Microsoft Edge or Chrome on Android 4.4 or later.
 
 - Microsoft Edge, Chrome or Safari on iOS10 or later
+

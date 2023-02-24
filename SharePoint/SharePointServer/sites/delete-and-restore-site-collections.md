@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Delete and restore site collections in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -136,4 +137,5 @@ SharePoint Server 2019 users can restore items that they've deleted themselves, 
 [Create a site collection in SharePoint Server](create-a-site-collection.md)
   
 [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md)
+
 

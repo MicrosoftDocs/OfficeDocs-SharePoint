@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Troubleshooting SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c4865d13-e373-47eb-9053-49d196fd89fc
@@ -32,4 +33,5 @@ We encourage you to give us your feedback. Your comments, suggestions, and troub
 ||[After installing .NET security patches to address CVE-2018-8421, SharePoint crawler may fail](after-installing-.NET-security-patches-to-address-CVE-2018-8421-SharePoint-crawler-may-fail.md) <br/> |Learn how to fix SharePoint Search after applying the September 2018 .NET 4.6 or later updates and the crawl fails.  <br/> |
    
 ## See also
+
 

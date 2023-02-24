@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2021
 title: "Upgrade to SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-jmathew
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
@@ -29,3 +30,4 @@ The following articles provide information about performing an upgrade to ShareP
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Get started with upgrades to SharePoint Server Subscription Edition](get-started-with-upgrade-subscription-edition.md) <br/> |Find resources about how to start the upgrade process from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition](upgrade-databases-subscription-edition.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Upgrade site collections to SharePoint Server Subscription Edition](upgrade-a-site-collection-subscription-edition.md) <br/> |Find out how to upgrade a site collection to SharePoint Server Subscription Edition.  <br/> |
+
