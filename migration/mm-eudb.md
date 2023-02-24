@@ -23,7 +23,9 @@ description: Learn about the changes to Migration Manager for the European Union
 
 >[!Important]
 >Beginning April 1, 2023, all new migrations, except for Stream, will be processed in the European Union (EU). 
->You may continue to run existing migrations until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US). Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. Learn more about changes to migration projects for the EU
+>You may continue to run existing migrations until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
+>
+>Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024.
 
 The Migration Manager Platform (MMP) is the platform for migration tools to SharePoint Online. It enables migrations from cloud storage platform sources to Microsoft 365. 
 
