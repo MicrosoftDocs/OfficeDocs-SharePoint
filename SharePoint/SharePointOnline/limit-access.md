@@ -31,8 +31,9 @@ Use this setting if you want to allow only users in specified security groups to
 
 To access and use this feature, your organization must have one of the following subscriptions: 
 
-- Office 365 E5/A5 
-- Microsoft 365 E5/A5 
+- Microsoft Syntex - SharePoint Advanced Management
+- Office 365 E5/A5
+- Microsoft 365 E5/A5
 
 ## Enablement
 
