@@ -42,6 +42,7 @@ MMP currently has one instance based in the United States (US) farm, serving all
 |April 1, 2023|All new migrations will be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU project or continue with their migration in the US project.|
 |September 30, 2023|All existing migrations in the US instance must be completed.|
 |October 1, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
+|February 15, 2024|Stream migrations must be completed. Migrations will be removed after this date.| 
 
 ## What does that mean for me?
 
