@@ -8,7 +8,7 @@ manager: roygles
 ms.date: 5/16/2014
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
+ms.service: sharepoint-online
 ms.localizationpriority: medium
 search.appverid:
 - WSU150
@@ -30,7 +30,7 @@ An information management policy is a set of rules for a type of content. Inform
   
 For example, an organization that must follow government regulations requiring that they demonstrate "adequate controls" of their financial statements might create one or more information management policies that audit specific actions in the authoring and approval process for all documents related to financial filings.
   
-For how-to information, see [Create and apply information management policies](create-info-mgmt-policies.md).
+For how-to information, see [Create and apply information management policies](https://support.microsoft.com/office/eb501fe9-2ef6-4150-945a-65a6451ee9e9).
   
 ## Features of information management policies
 <a name="__top"> </a>
