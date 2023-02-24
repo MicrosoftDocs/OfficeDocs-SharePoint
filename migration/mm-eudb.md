@@ -41,8 +41,6 @@ MMP currently has one instance based in the United States (US) farm, serving all
 |September 30, 2023|All existing migrations in the US instance must be completed.|
 |October 1, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
 
-|February 15, 2024|Access to Stream migrations in the US instance expire.|
-
 ## What does that mean for me?
 
 
