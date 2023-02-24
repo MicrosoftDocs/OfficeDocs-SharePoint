@@ -51,10 +51,6 @@ MMP currently has one instance based in the United States (US) farm, serving all
 |If you have...|Impact to you|Recommendation|
 |:-----|:-----|:-----|
 |No existing migrations|None|No action required.|
-|Active migrations|If you're an EU customer with active migrations in the US instance,you have until September 30, 2023 to complete those active migrations. You can choose to complete your migration projects in the US instance, or restart them in the EU instance. We've recreated any existing migration projects in the EU, if you need to run them there. After October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
-|An active file share migration|You can access any existing US scan reports until April 1, 2023 after which the become read only.|Create new scans starting April 1, 2023 |
-|File share Scans|File share scans can be accessed until April 1, 2023, when they change to read only. |Start running new scans in the EU.|
+|Active migrations|If you're an EU customer with active migrations in the US instance,you have until September 30, 2023 to complete those active migrations. You can choose to complete your migration projects in the US instance, or restart them in the EU instance. We've recreated any existing migration projects in the EU, if you need to run them there. As of October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
+|File share Scans|File share scans can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
 |Active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
-
->[!Note]
->An "active migration" is one that has been run in the last 90 days. 
