@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Add the Workplace transformation site
 ms.reviewer: 
 ms.author: matteva
@@ -245,3 +246,4 @@ Once the site has been customized and republished, it is ready to share with end
 3. Change the permission level (Read, Edit, or Full control) as needed.
 4. Enter an optional message to send to the person or clear the **Send email box** if you don't want to send an email.
 5. Select **Share**.
+

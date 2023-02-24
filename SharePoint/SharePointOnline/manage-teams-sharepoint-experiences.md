@@ -1,4 +1,5 @@
 ---
+ms.date: 12/20/2021
 title: Manage settings and permissions when SharePoint and Teams are integrated
 ms.reviewer: 
 ms.author: evanatkin
@@ -86,3 +87,4 @@ When channel sites get associated with a hub, the hub navigation gets inherited 
 [Create a Microsoft Team from SharePoint](https://support.microsoft.com/office/create-a-microsoft-team-from-sharepoint-545973b6-c38f-426a-b2b6-16405a561628)
 
 [Microsoft Teams can have standard or private channels](https://support.microsoft.com/office/teams-can-have-standard-or-private-channels-de3e20b0-7494-439c-b7e5-75899ebe6a0e)
+

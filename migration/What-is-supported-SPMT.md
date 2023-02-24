@@ -1,4 +1,5 @@
 ---
+ms.date: 05/16/2019
 title: "What does SPMT support?"
 audience: ITPro
 ms.reviewer: 
@@ -54,3 +55,4 @@ SharePoint Migration Tool (SPMT) supports migration of the following locations a
 
 > [!Note]
 > For a detailed list of features available in each release of SPMT, please read [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Step 3: Activate workflows after migration"
 ms.reviewer:
 ms.author: jhendr
@@ -59,3 +60,4 @@ For full details on what SharePoint Server 2010 out-of-the-box (OOTB) workflows 
 For full details on what workflow actions and lookups are supported, and what is not, see:
 
 - [SharePoint Designer 2010 & 2013 Workflow migrations](spmt-workflow-migration-spd.md)
+

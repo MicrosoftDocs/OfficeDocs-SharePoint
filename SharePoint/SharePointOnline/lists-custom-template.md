@@ -1,4 +1,5 @@
 ---
+ms.date: 07/06/2021
 title: "Custom list templates"
 ms.reviewer: hasaladi
 ms.author: mikeplum
@@ -102,4 +103,5 @@ You can also remove the associated site scripts that the list design is referenc
 ```PowerShell
 Remove-SPOSiteScript <Site script ID> 
 ```
+
 

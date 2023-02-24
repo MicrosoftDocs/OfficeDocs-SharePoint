@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Edit existing web parts in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -78,3 +79,4 @@ The procedure for editing a SharePoint Server web part involves editing the page
 [Use the Hero web part](https://support.office.com/client/Use-the-Hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645?NS=WSSENDUSER&Version=19&SysLcid=1033&UiLcid=1033&AppVer=OSU190&HelpId=WSSEndUser_CommSiteNewsEmptyStateTile_Hero)
 
 [What is a SharePoint communication site?](https://support.office.com/client/What-is-a-SharePoint-communication-site-94a33429-e580-45c3-a090-5512a8070732?NS=WSSENDUSER&Version=19&SysLcid=1033&UiLcid=1033&AppVer=OSU190&HelpId=WSSEndUser_CommSiteNewsEmptyStateTile_WhatIsACommunicationSite)
+

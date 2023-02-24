@@ -1,4 +1,5 @@
 ---
+ms.date: 08/06/2021
 title: "Distribute corporate news to your organization"
 ms.author: hokavian
 author: Holland-ODSP
@@ -161,3 +162,4 @@ The Feed automatically balances fresh and engaging content with corporate commun
 [Create an official organizational news site in SharePoint](/sharepoint/organization-news-site)
 
 [Overview of Viva Connections](/viva/connections/viva-connections-overview)
+

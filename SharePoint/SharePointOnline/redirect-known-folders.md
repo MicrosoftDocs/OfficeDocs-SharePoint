@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
 ms.author: mikeplum
@@ -117,3 +118,4 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share.
   3. Enable Known Folder Move Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
+

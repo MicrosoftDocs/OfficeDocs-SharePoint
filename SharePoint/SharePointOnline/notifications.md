@@ -1,4 +1,5 @@
 ---
+ms.date: 03/01/2021
 title: "Control notifications in the SharePoint mobile app"
 ms.reviewer: shahna
 ms.author: mikeplum
@@ -56,3 +57,4 @@ You can also control this setting in PowerShell by using [Set-SPOTenant -Notific
 For info about controlling OneDrive notifications, see [Control notifications](/onedrive/turn-on-external-sharing-notifications).
 
 To control whether sharing emails include "At a glance" content, see [Set-SPOTenant -IncludeAtAGlanceInShareEmails](/powershell/module/sharepoint-online/set-spotenant).
+

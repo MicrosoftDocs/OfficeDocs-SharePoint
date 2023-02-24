@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover Migration Connectors
 author: JoanneHendrickson
 ms.author: jhendr
@@ -78,3 +79,4 @@ The process to authorize a Connector again is very simple:
 > You are unable to change the display name of the **Connector**. If you want to rename it, you must delete and re-add the **Connector**.
 
 **Connectors** are automatically deauthorized if they haven't transferred any data in the last 90 days. If you try to load a deauthorized **Connector** in the **Transfer Wizard**, an error message appears, along with a prompt to reauthorize the **Connector**.
+

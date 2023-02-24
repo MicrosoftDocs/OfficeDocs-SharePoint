@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "About the SharePoint admin role in Microsoft 365"
 ms.reviewer: 
 ms.author: mikeplum
@@ -77,3 +78,4 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 [About Microsoft 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+

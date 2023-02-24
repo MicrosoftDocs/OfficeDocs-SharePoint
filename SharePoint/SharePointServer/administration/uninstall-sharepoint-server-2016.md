@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Uninstall SharePoint Server 2016, 2019, or Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
@@ -90,4 +91,5 @@ Use this procedure to uninstall SharePoint Server 2016.
 [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
   
 [Install SharePoint Servers 2016 or 2019 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
+
 

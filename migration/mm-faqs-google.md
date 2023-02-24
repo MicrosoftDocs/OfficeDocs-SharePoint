@@ -1,4 +1,5 @@
 ---
+ms.date: 03/18/2021
 title: "Migration Manager Google FAQs"
 ms.reviewer: 
 ms.author: jhendr
@@ -71,3 +72,4 @@ Answer: Google does not allow us to export drawings, forms, sites, and maps from
 
 **Question:**  Does Google calculate the size of their proprietary files?</br>
 Answer:  Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+

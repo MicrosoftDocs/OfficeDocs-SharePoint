@@ -1,4 +1,5 @@
 ---
+ms.date: 01/22/2019
 title: "SharePoint Migration Tool settings"
 ms.reviewer: 
 ms.author: jhendr
@@ -116,4 +117,5 @@ The following table details the settings available in SPMT.  Advanced settings s
  
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
   
+
 

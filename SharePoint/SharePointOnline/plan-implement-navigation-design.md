@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2020
 title: "Get started planning and implementing SharePoint navigation design"
 ms.reviewer: 
 ms.author: matteva
@@ -92,3 +93,4 @@ Information architecture includes five primary elements:
 |1. Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and choose [pilot scenarios](./plan-intranet.md#choose-pilot-scenarios). <br>2. Learn about [user needs](./information-architecture-principles.md#get-organized) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/). <br>3. Take an inventory of your current sites and subsites <br>4. Plan the [home site](./home-site.md). |1. Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content. <br>2. Set up [associations and permissions for hub sites](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098). <br>3. Release hubs and associated sites in phases. |1. Establish an intranet review team that ensures navigation and content are up to date and aligned with your organization. <br>2. Regularly review [hub and site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to track page traffic and popular content. <br>3. Make navigation changes based on your learning from user testing and analytics. |
 
 [**Next: learn how to get started planning and implementing SharePoint site navigation**](plan-navigation-modern-experience.md)
+

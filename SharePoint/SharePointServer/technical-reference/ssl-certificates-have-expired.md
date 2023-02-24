@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2021
 title: "SSL certificates have expired"
 ms.reviewer: 
 ms.author: serdars
@@ -27,3 +28,4 @@ description: "Learn how to replace SSL certificates that have expired."
  **Cause:** SSL certificates in use in the farm have expired.
   
  **Resolution: Renew or replace these certificates to ensure uninterrupted access to these resources. You can renew or replace these certificates from the Certificate Management page in Central Administration.**
+
