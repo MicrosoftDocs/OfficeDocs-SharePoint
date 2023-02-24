@@ -37,17 +37,17 @@ MMP currently has one instance based in the United States (US) farm, serving all
 |Date|Change|
 |:-----|:-----|
 |April 1, 2023|The Scans tab becomes read only. |
-|April 1, 2023|New migrations (using a new source) will initiate and be processed in the EU. All existing migration projects will automatically be recreated in the the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
+|April 1, 2023|New migrations (using a new source) will initiate and be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU instance or continue with their migration in the US instance.|
 |September 30, 2023|All existing migrations in the US instance must be completed.|
 |October 1, 2023|EU users no longer can access file share scans and cloud migration projects initiated in the US instance.|
 
 ## What does that mean for me?
 
 
-|If you have...|Impact|Recommendation|
+|If you have...|Impact to you|Recommendation|
 |:-----|:-----|:-----|
-|Have no existing migrations|No impact to you|No action required.||
-|Have active migrations|If you are an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We have recreated any existing migration projects in the EU, if you need to run them there. You will have until September 30, 2023 to complete active migrations. After October 1, 2023, you will no longer have access to projects process in the US or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
+|Have no existing migrations|None|No action required.||
+|Have active migrations|If you're an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We've recreated any existing migration projects in the EU, if you need to run them there. You'll have until September 30, 2023 to complete active migrations. After October 1, 2023, you'll no longer have access to US migrations or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
 |An active file share migration|You can access any existing US scan reports until April 1, 2023 after which the become read only.|Create new scans starting April 1, 2023 |
 |File share scans|File share scans will be until April 1, 2023, when they change to read only. |
 |An active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
