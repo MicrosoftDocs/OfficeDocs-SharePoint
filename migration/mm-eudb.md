@@ -43,7 +43,7 @@ A phased implementation schedule for existing EU customers is listed below.
 |April 1, 2023|The file share scans tab becomes read only.|
 |April 1, 2023|All new migrations will be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU project or continue with their migration in the US project.|
 |September 30, 2023|All active migrations in the US instance must be completed.|
-|October 1, 2023|EU users no longer can access scans or cloud migration projects initiated in the US instance.|
+|October 1, 2023|EU users can no longer can view scans or have access to migration projects initiated in the US instance.|
 |February 15, 2024|Stream migrations must be completed. Migrations will be removed after this date.| 
 
 
