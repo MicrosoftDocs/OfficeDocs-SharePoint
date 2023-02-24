@@ -1,10 +1,9 @@
 ---
-ms.date: 10/11/2022
+ms.date: 03/01/2023
 title: "Restrict site access to members of a Microsoft 365 group"
 ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
-ms.date: 03/01/2023
 ms.author: mactra
 author: MachelleTranMSFT
 audience: Admin
