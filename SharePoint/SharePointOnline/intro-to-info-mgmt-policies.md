@@ -27,7 +27,7 @@ description: Learn how to use information management policies to control and tra
 # Introduction to information management policies
 
 > [!NOTE]
-> To manage content in SharePoint, we recommend you use [Microsoft Purview risk and compliance](/microsoft-365/compliance) solutions rather than the older information management policies. For example, you can use [Microsoft 365 retention](/microsoft-365/compliance/retention) to automatically retain and delete content across SharePoint, Teams, Exchange, and other online services.
+> To manage content in SharePoint, we recommend you use [Microsoft Purview risk and compliance](/microsoft-365/compliance) solutions rather than the older information management policies. For example, you can use [Microsoft 365 retention](/microsoft-365/compliance/retention) to automatically retain and delete content across SharePoint, OneDrive, Teams, Exchange, and other online services.
 
 An information management policy is a set of rules for a type of content. Information management policies enable organizations to control and track things like how long content is retained and what actions users can take with that content. Information management policies can help organizations comply with legal or governmental regulations, or they can simply enforce internal business processes. 
   
