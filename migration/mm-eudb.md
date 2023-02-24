@@ -27,7 +27,7 @@ description: Learn about the changes to Migration Manager for the European Union
 >
 >Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024.
 
-The Migration Manager Platform (MMP) is the platform for Migration Manager, the tool enables migrations from file share and cloud storage platform sources to Microsoft 365. 
+The Migration Manager Platform (MMP) is the platform for Migration Manager, the tool that enables migrations from file share and cloud storage platform sources to Microsoft 365. 
 
 The European Union Data Boundary (EUDB) is a geographically defined boundary within which Microsoft has committed to store and process customer data for our major commercial enterprise online services, including Azure, Dynamics 365, Power Platform, and Microsoft 365, subject to limited circumstances where customer data will continue to be transferred outside the EU Data Boundary.
 
