@@ -30,11 +30,11 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 ## Advanced access policies for secure content collaboration
 
+**[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)** - With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
+
 **[Data access governance insights for SharePoint sites](data-access-governance-reports.md)** - These reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
 **[Restricted access control for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not in the Microsoft 365 group won't have access even if they previously had site access permissions to a file.
-
-**[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)** - With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
 
 **[Secure SharePoint document libraries](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label)** - When SharePoint is enabled for sensitivity labels, you can configure a default label for document libraries. Then, any new files uploaded to that library, or existing files edited in the library will have that label applied if they don't already have a sensitivity label, or they have a sensitivity label but with lower priority.
 
@@ -47,7 +47,6 @@ SharePoint Advanced Management features are administered by SharePoint administr
 ## ?
 
 **[Limit OneDrive access by security group](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
-
 
 ## Licensing
 
