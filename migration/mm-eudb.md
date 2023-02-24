@@ -38,7 +38,7 @@ MMP currently has one instance based in the United States (US) farm, serving all
 
 |Date|Change|
 |:-----|:-----|
-|April 1, 2023|The Scans tab becomes read only.|
+|April 1, 2023|The file share scans tab becomes read only.|
 |April 1, 2023|All new migrations will be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU project or continue with their migration in the US project.|
 |September 30, 2023|All existing migrations in the US instance must be completed.|
 |October 1, 2023|EU users no longer can access scans or cloud migration projects initiated in the US instance.|
@@ -47,10 +47,10 @@ MMP currently has one instance based in the United States (US) farm, serving all
 ## What does that mean for me?
 
 
-|If you have...|Impact to your|Recommendation|
+|If you have...|Impact to you|Recommendation|
 |:-----|:-----|:-----|
 |No existing migrations|None|No action required.|
 |Active migrations|If you're an EU customer with active migrations in the US instance, you have a choice. Continue to complete your migration projects in the US instance, or restart them in the EU instance.  We've recreated any existing migration projects in the EU, if you need to run them there. You'll have until September 30, 2023 to complete active migrations. After October 1, 2023, you'll no longer have access to US migrations or the reports that were generated.  An "active project" must have been run in the last 90 days. |We recommend completing any existing US initiated migrations in the US.|
 |An active file share migration|You can access any existing US scan reports until April 1, 2023 after which the become read only.|Create new scans starting April 1, 2023 |
-|Scans|File share scans can be accessed until April 1, 2023, when they change to read only. |
+|File share Scans|File share scans can be accessed until April 1, 2023, when they change to read only. |Start running new scans in the EU.|
 |Active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
