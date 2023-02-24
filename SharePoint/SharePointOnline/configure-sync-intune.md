@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2020
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
 ms.author: mikeplum
@@ -59,3 +60,4 @@ Profiles in Microsoft Intune let you configure settings and push them to devices
 - [Understanding ADMX-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies)
 - [Monitor device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-monitor)
 - [Deploy the OneDrive sync app to Windows 10 devices as part of Office 365](deploy-intune.md#deploy-the-onedrive-sync-app-to-windows-10-devices)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Customize the SharePoint Success Site 
 ms.reviewer: 
 ms.author: matteva
@@ -221,3 +222,4 @@ Key success factors to managing the SharePoint Success Site:
 To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
 
 To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+

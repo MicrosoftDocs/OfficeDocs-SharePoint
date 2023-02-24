@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "SharePoint and OneDrive unmanaged device access controls for administrators"
 ms.reviewer: samust
 ms.author: mikeplum
@@ -203,3 +204,4 @@ Blocking access and blocking download may impact the user experience in some app
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
+

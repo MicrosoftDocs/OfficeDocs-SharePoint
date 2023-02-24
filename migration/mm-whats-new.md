@@ -1,4 +1,5 @@
 ---
+ms.date: 10/19/2020
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -152,3 +153,4 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Installation issues**. Fixed issues that caused common agent installation failure.
 - **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](mm-reports.md#download-detailed-task-level-reports-via-powershell).
 - **General improvements**. Overall fit and finish to improve your experience.
+

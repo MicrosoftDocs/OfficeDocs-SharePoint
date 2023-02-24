@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Redirect and move macOS known folders to OneDrive"
 ms.reviewer: cagreen
 ms.author: mikeplum
@@ -100,3 +101,4 @@ The following settings control the Folder Backup feature:
     Use **KFMBlockOptIn** to prevent users from moving their Desktop and Documents folders to any OneDrive account.
 
 For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).
+

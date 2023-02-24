@@ -1,4 +1,5 @@
 ---
+ms.date: 10/11/2022
 title: "Restrict site access to members of a Microsoft 365 group"
 ms.reviewer: nibandyo
 manager: serdars
@@ -77,3 +78,4 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 [Manage site access based on sensitivity label](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
+

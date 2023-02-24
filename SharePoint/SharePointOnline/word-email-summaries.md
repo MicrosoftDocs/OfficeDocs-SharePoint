@@ -1,4 +1,5 @@
 ---
+ms.date: 09/10/2020
 title: "Summaries in sharing emails for Word docs"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -49,3 +50,4 @@ If you, as a Global Administrator or SharePoint Administrator in Microsoft 365, 
    ```PowerShell
    Set-SPOTenant -IncludeAtAGlanceInShareEmails $false 
    ```
+

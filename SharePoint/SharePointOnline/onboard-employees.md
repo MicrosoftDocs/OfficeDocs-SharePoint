@@ -1,4 +1,5 @@
 ---
+ms.date: 09/23/2021
 title: Onboard new employees into your organization
 ms.reviewer: 
 ms.author: hokavian
@@ -219,3 +220,4 @@ Gather insights from each platform along the way. Use these insights to inform m
 [Corporate communications overview](corporate-communications-overview.md)
 
 [Use the SharePoint New employee onboarding site template](https://support.microsoft.com/office/use-the-sharepoint-new-employee-onboarding-template-38b5b290-1703-4c94-beb3-907e0ad4a052)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 05/12/2020
 title: Create a task in SharePoint Migration Tool (SPMT)
 ms.author: jhendr
 author: JoanneHendrickson
@@ -157,3 +158,4 @@ When this setting is on, an incremental check of the SharePoint target environme
 
 
 ## [**Step 3: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
+

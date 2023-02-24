@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Set up a new group for term sets"
 ms.reviewer: anfra
 ms.author: mikeplum
@@ -42,3 +43,4 @@ To set up a new group for term sets, follow these steps.
 5. To edit the group managers or contributors, select **Edit** next to **Group managers**. The **Edit admins** panel appears. Enter the names or email addresses of the people you want to add, assign them to a role, and then click **Save**.
   
 7. To copy the unique identifier for this term group, select **Copy**.
+

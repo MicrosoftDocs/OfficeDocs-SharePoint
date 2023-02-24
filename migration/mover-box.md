@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover migration - Setting up your Box source connector
 ms.author: jhendr
 author: JoanneHendrickson
@@ -187,4 +188,5 @@ To remove our app's access to Box:
 If you are not already connected after you have authorized your source, select **Box**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select box source](media/execution-select-box-source.png)
+
 

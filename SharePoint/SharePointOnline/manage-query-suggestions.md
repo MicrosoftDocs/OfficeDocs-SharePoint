@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Customize query suggestions in SharePoint search"
 ms.reviewer: 
 ms.author: serdars
@@ -69,3 +70,4 @@ You can edit a list of query suggestions that you've manually created. To edit a
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
 To prevent terms from appearing in the search box, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
+

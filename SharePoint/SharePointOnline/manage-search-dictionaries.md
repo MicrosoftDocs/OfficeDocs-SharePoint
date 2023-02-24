@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage search dictionaries"
 ms.reviewer: 
 ms.author: serdars
@@ -149,3 +150,4 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 7. Enter the new name for the term.
     
 8. To save the edited term, select anywhere on the page.
+

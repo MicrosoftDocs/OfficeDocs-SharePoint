@@ -1,4 +1,5 @@
 ---
+ms.date: 06/18/2020
 title: "Add columns to a content type"
 ms.reviewer: shrganguly
 ms.author: mikeplum
@@ -103,3 +104,4 @@ To make a column required, optional, or hidden, follow these steps.
 [Add a content type to a list or library](https://support.microsoft.com/office/917366ae-f7a2-47ad-87a5-9689a1884e60)
 
 [Create, change, or delete a view of a list or library](https://support.microsoft.com/office/27ae65b8-bc5b-4949-b29b-4ee87144a9c9)
+

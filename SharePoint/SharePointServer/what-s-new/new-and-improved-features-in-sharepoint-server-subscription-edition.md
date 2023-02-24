@@ -1,4 +1,5 @@
 ---
+ms.date: 06/25/2021
 title: "New and improved features in SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
@@ -527,4 +528,5 @@ To support the new Remote Share Provider, SharePoint Server Subscription Edition
 [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 
 [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md)
+
 
