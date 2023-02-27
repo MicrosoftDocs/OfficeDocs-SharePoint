@@ -218,7 +218,7 @@ The Segments column lists the first segment associated with the site and shows w
 
 ![Segments column on the Active sites page.](media/info-barriers-segments-column.png)
 
-To view the complete list of segments associated with a site, select the site, and then select the **Policies** tab.
+To view the complete list of segments associated with a site, select the site name to open the details panel, and then select the **Policies** tab.
 
 ![Policies tab of the details panel listing all associated segments.](media/info-barriers-segments-details.png)
 

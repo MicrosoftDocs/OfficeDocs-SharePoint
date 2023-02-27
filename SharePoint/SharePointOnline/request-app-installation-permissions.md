@@ -49,7 +49,6 @@ To add site collection admins to the Apps site:
 
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-1. Select the Apps site, and then choose **Manage admins** from the **Permissions** dropdown menu.
+1. Select the Apps site, and then choose **Manage admins** from the **Permissions** dropdown menu on the command bar.
 
 1. Type and select the name of the person who you want to manage apps, and then select **Save**.
-

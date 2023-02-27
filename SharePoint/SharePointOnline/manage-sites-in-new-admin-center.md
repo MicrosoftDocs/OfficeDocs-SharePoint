@@ -52,7 +52,7 @@ For all site types except channel sites, you can add or remove site admins and c
 
 2. In the left column, select a site. 
     
-3. Select **Permissions**. 
+3. Select **Permissions** on the command bar. 
 
 4. Select **Manage** for the permissions that you want to update.
 
@@ -65,12 +65,12 @@ For all site types except channel sites, you can add or remove site admins and c
 
 2. In the left column, select a site. 
     
-3. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. For more information, see [More info about hubs](planning-hub-sites.md).
+3. Select **Hub** on the command bar. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. For more information, see [More info about hubs](planning-hub-sites.md).
 
 ## View site details
 <a name="viewsitedetails"> </a>
 
-For more info about a site, select the site name to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
+For more info about a site, select the site name or click anywhere on the site row except on the URL column to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
 ![The General tab of the details panel](media/general-tab-details-panel.png)
   

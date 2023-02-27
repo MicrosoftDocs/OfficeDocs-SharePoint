@@ -42,7 +42,7 @@ To change the external sharing setting:
     
 2. In the left column, select a site.
 
-3. Select **Sharing**.
+3. Select **Sharing** on the command bar.
      
 4. Select an external sharing option (see the table in the next section).
 

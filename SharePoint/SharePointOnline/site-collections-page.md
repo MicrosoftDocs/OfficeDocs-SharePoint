@@ -64,7 +64,7 @@ On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank"
 
 ## Properties
 
-The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
+The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row to open the details panel, except in the URL column.
 
 <br/>
 

@@ -77,7 +77,7 @@ Follow these steps to specify individual site storage limits when your storage m
     >[!NOTE]
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-2. Click a site, or for a channel site, select the link in the **Channel sites** column.
+2. Select the site name to open the details panel, or for a channel site, select the link in the **Channel sites** column.
 
 3. Under **Storage limit**, select **Edit**.
 

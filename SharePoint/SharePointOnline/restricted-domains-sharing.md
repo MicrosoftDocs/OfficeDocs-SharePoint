@@ -72,9 +72,9 @@ You can also limit domains at the site collection level. Note the following cons
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-2. Select the site that you want to restrict domains on.
+2. Select the site name that you want to restrict domains to open the details panel.
  
-3. On the **Policies** tab, under **External sharing**, select **Edit**.
+3. On the panel, select the **Policies** tab and select **Edit** under **External sharing**.
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     

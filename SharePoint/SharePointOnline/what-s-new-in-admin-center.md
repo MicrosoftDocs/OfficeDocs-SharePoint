@@ -102,7 +102,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
     ![A card showing details about a user.](media/people-card.png)
 
-- **Redesigned details panel**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md).
+- **Redesigned details panel**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, the details panel that appears when you select a site name has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md).
 
     ![The General tab of the details panel](media/general-tab-details-panel.png)
 
@@ -110,7 +110,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
     ![Default sharing link type settings](media/default-sharing-link-type-site.png)
 
-- **Site permission details**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Microsoft 365 groups. [Learn more about managing site permissions](site-permissions.md) 
+- **Site permission details**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, a new experience lets you manage all site admins in one details panel, such as view site members and visitors, and add site admins to sites that belong to Microsoft 365 groups. [Learn more about managing site permissions](site-permissions.md) 
 
     ![The permissions tab in the details panel.](media/permissions-panel.png)
 
