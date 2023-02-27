@@ -196,7 +196,9 @@
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
-### [Data access governance reports](data-access-governance-reports.md) 
+### [Data access governance reports](data-access-governance-reports.md)
+
+### [Default sensitivity label for a document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2fSharePoint%2fHub%2fbreadcrumb%2ftoc.json&toc=%2fSharePoint%2fSharePointOnline%2ftoc.json)
 
 ### [Use information barriers (SharePoint)](information-barriers.md)
 ### [Use information barriers (OneDrive)](information-barriers-onedrive.md)
