@@ -30,7 +30,7 @@ For example, the research department has a Microsoft 365 group containing all of
 
 To access and use this feature, your organization must have the following subscription:
 
-- [Microsoft Syntex-SharePoint Advanced Management](advanced-management.md)
+- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
 ## Enable restricted access control for your organization
 
