@@ -57,7 +57,7 @@ Mover admin migration functionality has now been fully integrated into Migration
 
 ### Transform your classic SharePoint Server pages
 
-If you are onboarding your classic on-premises SharePoint Server 2013 or 2016 content to classic content to SharePoint Online, help is here!  Learn more at:  [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages)|
+If you are onboarding your classic on-premises SharePoint Server pages to SharePoint Online, help is here!  Learn more at:  [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages)|
 
 ## We're listening!
 
