@@ -40,7 +40,7 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**
 
 Following are the site types that are intentionally excluded from the list.
 
-1. Sites with the following URLs:
+- Sites with the following URLs:
   
    |**URL**|**Description**|
    |:-----|:-----|
@@ -50,7 +50,7 @@ Following are the site types that are intentionally excluded from the list.
    |/search |Search Site |
    |/personal/ |Personal ODB Sites |
 
-2. Sites with the following templates:
+- Sites with the following templates:
 
    |**ID**|**Name**|**Description**|
    |:-----|:-----|:-----|
