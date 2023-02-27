@@ -48,7 +48,7 @@ Following are the site types that are intentionally excluded from the list.
    |/sites/CompliancePolicyCenter |Policy Center |
    |/portal/hub |Point Publishing Hub |
    |/search |Search Site |
-   |/personal/ |Personal ODB Sites |
+   |/personal/ |OneDrive sites |
 
 - Sites with the following templates:
 
