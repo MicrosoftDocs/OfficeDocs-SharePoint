@@ -29,25 +29,18 @@ description: "This article helps you understand which tool to use when migrating
 
 # Migrate your content to Microsoft 365
 
-Moving to Microsoft 365? Let us help you migrate your content easily and securely.
+Moving to Microsoft 365? **Migration Manager** will help you migrate your content easily and securely.
 
 ## Mover retirement
 
-Mover admin migration functionality has now been fully integrated into Migration Manager. Mover is in the process of being retired.  For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+Mover admin migration functionality is now retired. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
 
 >[!Note]
->Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
->
 >[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
->
->[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
-
 
 >[!Important]
->
->All FastTrack-led migrations will transition to Migration Manager except those with multi-parent folders who have reached velocity migrations. These exceptions will need to finish their migrations by December 31, 2022. 
->
->[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
+>All FastTrack-led migrations have transitioned to Migration Manager
+
 
 ## What's new
 
