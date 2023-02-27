@@ -77,7 +77,7 @@ Restore external List sync with:
 
 ### Prevent users from getting silently signed in to Lists sync with existing Microsoft account credentials being used across Microsoft apps on macOS
 
-Lists sync is set up to automatically sign users in with credentials being used across other Microsoft apps on macOS like OneDrive. If you enable this setting, automatic sign-in and Lists sync setup would not occur.
+Lists sync is set up to automatically sign users in with credentials being used across other Microsoft apps on macOS like OneDrive. If you enable this setting, automatic sign-in and Lists sync setup wouldn't occur.
 
 **Location**: [OneDrive group preferences](lists-sync-policies-macos.md#manage-lists-sync-settings-on-macos-using-property-list-files)
 
