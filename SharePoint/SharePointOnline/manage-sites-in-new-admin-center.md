@@ -44,28 +44,28 @@ Following are the site types that are intentionally excluded from the list.
   
    |**URL**|**Description**|
    |:-----|:-----|
-   |/sites/contentTypeHub |content hub host |
-   |/sites/CompliancePolicyCenter |policy center |
-   |/portal/hub |pointpublishing hub |
-   |/search |search site |
+   |/sites/contentTypeHub |Content hub host |
+   |/sites/CompliancePolicyCenter |Policy center |
+   |/portal/hub |Pointpublishing hub |
+   |/search |Search site |
    |/personal/ |OneDrive sites |
 
 - Sites with the following templates:
 
    |**ID**|**Name**|**Description**|
    |:-----|:-----|:-----|
-   |6000 |REVIEWCTR# |review center |
+   |6000 |REVIEWCTR# |Review center |
    |10043 |FunSite# |SharePoint online tenant fundamental site |
-   |65 |POINTPUBLISHINGHUB# |pointpublishing hub |
-   |66 |POINTPUBLISHINGPERSONAL#0 |personal blog |
-   |67 |POINTPUBLISHINGTOPIC#0 |pointpublishing topic |
-   |3500 |POLICYCTR# |compliance policy center |
-   |30003 |TestSite# |test site |
-   |3 |CENTRALADMIN# |central admin site |
-   |54 |SPSMSITEHOST# |my site host |
+   |65 |POINTPUBLISHINGHUB# |Pointpublishing hub |
+   |66 |POINTPUBLISHINGPERSONAL#0 |Personal blog |
+   |67 |POINTPUBLISHINGTOPIC#0 |Pointpublishing topic |
+   |3500 |POLICYCTR# |Compliance policy center |
+   |30003 |TestSite# |Test site |
+   |3 |CENTRALADMIN# |Central admin site |
+   |54 |SPSMSITEHOST# |My site host |
    |21 |SPSPERS# |SharePoint portal server personal space |
-   |16 |TENANTADMIN# |tenant admin site |
-   |301 |REDIRECTSITE# |redirect site |
+   |16 |TENANTADMIN# |Tenant admin site |
+   |301 |REDIRECTSITE# |Redirect site |
    |70 |CSPCONTAINER# |CSP container |
 
 For more info about tasks on the Active sites page, see:
