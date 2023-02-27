@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover transfer logs
 ms.author: jhendr
 author: JoanneHendrickson
@@ -61,3 +62,4 @@ You can view a user's transfer logs by doing one of the following:
 |Folder Already Exists|We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
 |Skipping because of incremental|Not an error by definition; it's just our incremental process at work.|
 |Scanned|Not an error by definition; it's just our scanner counting your data.|
+

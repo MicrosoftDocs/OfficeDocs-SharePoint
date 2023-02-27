@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -128,3 +129,4 @@ if ($i -gt 0) {
 ## Related topics
 
 [Plan hybrid OneDrive](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover Migration Tools overview and planning
 author: JoanneHendrickson
 ms.author: jhendr
@@ -204,4 +205,5 @@ To assist in this migration, we ask all employees to finish working and upload a
 On Monday, April 10, 2020, all employees will be using our new Office 365 domain.
 
 Questions and concerns can be directed to your immediate manager and/or our technical support staff via the usual channels.
+
 

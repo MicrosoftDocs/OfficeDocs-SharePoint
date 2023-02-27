@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Authorizing the G Suite Connector
 ms.author: jhendr
 author: JoanneHendrickson
@@ -196,3 +197,4 @@ Our app requires a Global Admin for authorization. The following table provides 
 If you are not already connected after you have authorized your source, click **G Suite Drive** and load the connector. An icon will appear and show you how many users you are migrating.
 
 ![Select G Suite Drive Source](media/execution-select-google-drive-source.png) 
+

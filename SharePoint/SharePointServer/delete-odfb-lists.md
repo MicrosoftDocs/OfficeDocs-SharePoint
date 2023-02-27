@@ -1,4 +1,5 @@
 ---
+ms.date: 05/04/2018
 title: "Deleting OneDrive experience settings"
 ms.reviewer:
 ms.author: serdars
@@ -199,3 +200,4 @@ foreach ($list in $listsToDelete)
     deleteList -listTitle $list["listTitle"] -listTemplateId $list["listTemplateId"]
 }
 ```
+

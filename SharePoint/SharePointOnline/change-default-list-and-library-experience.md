@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Change the default list and library experience"
 ms.reviewer: jdemaris
 manager: serdars
@@ -31,3 +32,4 @@ It's no longer possible to select the classic experience as the default for all 
 
 > [!NOTE]
 > Users can select the default experience for an individual list or library, overriding what you set. For info, see [Switch the default experience for lists or document libraries from new or classic](https://support.office.com/article/66dac24b-4177-4775-bf50-3d267318caa9).
+

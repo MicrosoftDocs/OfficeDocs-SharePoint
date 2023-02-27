@@ -1,4 +1,5 @@
 ---
+ms.date: 05/20/2019
 title: "Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019"
 ms.reviewer: 
 ms.author: serdars

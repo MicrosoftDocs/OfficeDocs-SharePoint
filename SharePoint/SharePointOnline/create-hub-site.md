@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Create a hub site in SharePoint"
 ms.reviewer: metorres
 ms.author: mikeplum
@@ -66,3 +67,4 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
 
 - For info about removing a hub site, see [Remove a hub site](remove-hub-site.md).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/21/2021
 title: "Step 2: Scan and assess file shares using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr

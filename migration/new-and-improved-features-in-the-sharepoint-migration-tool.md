@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
@@ -30,7 +31,20 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.0.124.0](https://aka.ms/spmt-beta-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.0](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+
+## SPMT 4.1
+
+SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 and SharePoint Designer workflows.
+
+**What's new in this release**
+
+- **SharePoint Server 2019**. We now support the migration of SharePoint Server 2019 to Microsoft 365.  You can now migrate: 
+    - Modern team sites & Communication sites
+    - Modern site pages and news posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. 
+    - Files or folders with "#" or "%" in their name can be migrated. These special characters are retained in migration.
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate.
+
 
 ## SPMT 4.0
 
@@ -731,3 +745,4 @@ In addition to several minor fixes, here are the primary improvements made in th
 [Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
+

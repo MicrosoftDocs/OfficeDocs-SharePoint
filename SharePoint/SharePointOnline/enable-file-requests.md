@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2023
 title: "Enable File Requests in SharePoint or OneDrive" 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,7 +16,9 @@ ms.collection:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-search.appverid:
+search.appverid: 
+  - SPO160
+  - MET150
 ms.assetid:
 description: Learn how to enable a file request in OneDrive or Sharepoint.
 ---
@@ -101,3 +104,4 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
   
 For more information on File Requests, see [Create a file request](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af).
   
+

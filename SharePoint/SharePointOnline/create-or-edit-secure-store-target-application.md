@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Create or edit a Secure Store Target Application"
 ms.reviewer: 
 ms.author: mikeplum
@@ -128,3 +129,4 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     > Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
   
 6. When you finish entering values for credential fields, select **OK**.
+

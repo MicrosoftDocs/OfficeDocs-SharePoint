@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Delve for admins"
 ms.reviewer: 
 ms.author: gretel
@@ -295,3 +296,4 @@ Admins
 - [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
   
 - [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365)
+

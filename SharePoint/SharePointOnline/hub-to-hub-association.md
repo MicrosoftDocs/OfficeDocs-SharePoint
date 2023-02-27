@@ -1,4 +1,5 @@
 ---
+ms.date: 09/11/2021
 title: "Associate a hub site to another hub site in the SharePoint admin center"
 ms.reviewer:
 ms.author: matteva
@@ -102,3 +103,4 @@ To view the parent hub association, select **Settings** and then **Hub site sett
 <br>
 
 [Set up your SharePoint hub site](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098)
+
