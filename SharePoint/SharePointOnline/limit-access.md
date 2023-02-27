@@ -1,6 +1,6 @@
 ---
 ms.date: 03/01/2023
-title: "Limit access"
+title: "Restrict OneDrive access by security group"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,10 +18,10 @@ ms.assetid:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
+description: "In this article, you'll learn how to allow only users in specified security groups to access OneDrive."
 ---
 
-# Limit OneDrive access by security group
+# Restrict OneDrive access by security group
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 

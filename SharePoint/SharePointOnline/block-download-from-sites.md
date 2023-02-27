@@ -29,6 +29,8 @@ As a SharePoint Administrator or Global Administrator in Microsoft 365, you can 
 
 Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users will see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help contact your It department."
 
+Note that you can block the download of Teams meeting recording files specifically if you need to. For more information, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](/microsoftteams/block-download-meeting-recording).
+
 ## How to set this policy for a SharePoint site
 
 1. To use PowerShell: [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
