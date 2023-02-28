@@ -68,7 +68,7 @@ Install and configure SharePoint Server. To do so, see [Install and deploy Share
 
 ### Prerequisites
 
-SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow the steps below to install it and review the official documentation for reference: [Create a standalone Azure Service Fabric Cluster](https://learn.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-for-windows-server).
+SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow the steps below to install it and review the official documentation for reference: [Create a standalone Azure Service Fabric Cluster](/azure/service-fabric/service-fabric-cluster-creation-for-windows-server).
 
 1. Download and install the Azure Service Fabric Runtime.
 1. Unzip the package.
@@ -79,7 +79,7 @@ SharePoint Workflow Manager requires Azure Service Fabric, which must be install
 1. Verify that Azure Service Fabric Runtime version 9.0.1048.9590 is available in the Program Center.
 
 > [!NOTE]
->The minimum version of Azure Service Fabric supported by SharePoint Workflow Manager is 9.0.1048.9590. You can install higher versions than that. If you want to upgrade your Azure Service Fabric, see [upgrade dependencies](https://learn.microsoft.com/azure/service-fabric/service-fabric-versions). If Windows Fabric is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+>The minimum version of Azure Service Fabric supported by SharePoint Workflow Manager is 9.0.1048.9590. You can install higher versions than that. If you want to upgrade your Azure Service Fabric, see [upgrade dependencies](/azure/service-fabric/service-fabric-versions). If Windows Fabric is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
 
 ### Upgrade existing Microsoft Workflow Manager
 
