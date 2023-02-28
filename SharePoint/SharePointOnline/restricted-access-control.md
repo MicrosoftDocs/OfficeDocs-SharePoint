@@ -32,6 +32,9 @@ To access and use this feature, your organization must have the following subscr
 
 - [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
+> [!NOTE]
+> Syntex Advanced Management licensing will take 4-5 weeks to roll out.
+
 ## Enable restricted access control for your organization
 
 To enable restricted access control in SharePoint, run the following command:
@@ -81,10 +84,12 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 Audit events are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
 
-1. Applied Restricted Access Control for site
-2. Removed Restricted Access Control for site
+1. Applying Restricted Access Control for site
+2. Removing Restricted Access Control for site
 
 ## Related articles
+
+[Microsoft Syntex Advanced Management overview](advanced-management.md)
 
 [Manage site access based on sensitivity label](authentication-context-example.md)
 
