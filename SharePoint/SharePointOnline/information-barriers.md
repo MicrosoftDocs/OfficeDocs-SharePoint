@@ -303,7 +303,7 @@ Get-SPOSite -Identity <site URL> | Select InformationBarriersMode
 
 You want to allow a Sales and Research user to collaborate on a SharePoint site in the presence of HR user.
 
-*Owner Moderated* is a new mode applicable to site (not connected to Microsoft 365 group) which allows incompatible segment users access to site. Only the site owner has the capability to invite incompatible segment users on this same site.
+*Owner Moderated* is a mode applicable to site (Teams-connected site, non-group connected sites) which allows incompatible segment users access to site. Only the site owner has the capability to invite incompatible segment users on this same site.
 
 To update a site's mode to *Owner Moderated*, run the following PowerShell command:
 
@@ -361,7 +361,7 @@ To enable Microsoft 365 group membership-based access and sharing control for al
 Set-SPOTenant -IBImplicitGroupBased $true
 ```
 
-## Private channel and information barriers (preview)
+## Private channel and information barriers
 
 When SharePoint Information barriers are enabled in your organization, any new private channel site automatically inherits its parent Microsoft Team's IB mode within 24 hours. The mode for a private channel is assigned as follows:
 
