@@ -46,7 +46,7 @@ Following are the site types that are intentionally excluded from the list.
    |:-----|:-----|
    |/sites/contentTypeHub |Content hub host |
    |/sites/CompliancePolicyCenter |Policy center |
-   |/portal/hub |Pointpublishing hub |
+   |/portal/hub |PointPublishing hub |
    |/search |Search site |
    |/personal/ |OneDrive sites |
 
@@ -56,13 +56,13 @@ Following are the site types that are intentionally excluded from the list.
    |:-----|:-----|:-----|
    |6000 |REVIEWCTR# |Review center |
    |10043 |FunSite# |SharePoint tenant fundamental site |
-   |65 |POINTPUBLISHINGHUB# |Pointpublishing hub |
+   |65 |POINTPUBLISHINGHUB# |PointPublishing hub |
    |66 |POINTPUBLISHINGPERSONAL#0 |Personal blog |
-   |67 |POINTPUBLISHINGTOPIC#0 |Pointpublishing topic |
+   |67 |POINTPUBLISHINGTOPIC#0 |PointPublishing topic |
    |3500 |POLICYCTR# |Compliance policy center |
    |30003 |TestSite# |Test site |
    |3 |CENTRALADMIN# |Central admin site |
-   |54 |SPSMSITEHOST# |MySite host |
+   |54 |SPSMSITEHOST# |My Site host |
    |21 |SPSPERS# |SharePoint Portal Server personal space |
    |16 |TENANTADMIN# |Tenant admin site |
    |301 |REDIRECTSITE# |Redirect site |
