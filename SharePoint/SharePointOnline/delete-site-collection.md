@@ -102,7 +102,7 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
 |Classic sites    | Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
 
 > [!NOTE]
-> Sites associated with a hub can be deleted like any other site based on their template.
+> Sites associated with a hub can be deleted like any other site based on their template. 
 
 
 ## See also

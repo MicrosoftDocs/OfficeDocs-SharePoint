@@ -47,7 +47,7 @@ Next, check the external sharing settings for the site that you want to share fr
 
 1. In the new SharePoint admin center, select **Sites** > <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>.
 
-2. Select the site that you want to share, and then select **Sharing**.
+2. Select the site that you want to share from, and then select **Sharing**.
 
 3. Make sure that either **New and existing guests** or **Anyone** is selected, and if you made changes, select **Save**.
 

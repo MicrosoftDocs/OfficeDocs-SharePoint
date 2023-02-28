@@ -53,8 +53,7 @@ For all site types except channel sites, you can add or remove site admins and c
 2. In the left column, select a site. 
     
 3. Select **Membership** on the command bar to open the details panel to update the permissions of the members.
-
-   :::image type="content" source="media/membership-details-panel.png" alt-text=":::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of tab selection on Membership panel":::":::
+   :::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of membership tab in details panel":::
 
 4. Add or remove people or change their role, and then select **Save**.
     
