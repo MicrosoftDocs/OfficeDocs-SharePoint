@@ -43,7 +43,7 @@ When using information barriers with SharePoint, the following IB modes are supp
 | **Mode** | **Description** | **Examples** |
 |:-------  |:----------------|:-------------|
 | **Open** | When a SharePoint site doesn't have segments, the site's IB mode is automatically set as *Open*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Open* mode configuration. | A Team site created for picnic event for your organization.  |
-| **Owner Moderated (preview)** | When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that aren't connected to a Microsoft 365 group. See [this section](#owner-moderated-mode-scenario-preview) for details on managing *Owner Moderated* site. | A site is created for collaboration between VP of Sales and Research in the presence of VP of HR (site owner).  |
+| **Owner Moderated** | When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that aren't connected to a Microsoft 365 group. See [this section](#owner-moderated-mode-scenario-preview) for details on managing *Owner Moderated* site. | A site is created for collaboration between VP of Sales and Research in the presence of VP of HR (site owner).  |
 | **Implicit** | When a site is provisioned by Microsoft Teams, the site's IB mode is set as *Implicit* by default. A SharePoint Administrator or Global Administrator can't manage segments with the *Implicit* mode configuration. | A Team is created for all Sales segment users to collaborate with each other. |
 | **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint Administrator adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
 
@@ -66,11 +66,8 @@ When a site has information barriers mode is set to *Owner Moderated*:
 
 - The option to share with *Anyone with the link* is disabled.
 - The option to share with *Company-wide link* is disabled.
-- The site and its content can be shared with existing members.
-- The site and its content can be shared only by the site owner per their IB policy.
-
->[!NOTE]
->Owner Moderated mode is supported for non-group connected sites only.
+- (For group connected sites) The site and its content can be shared with existing members.
+- (For non-group connected sites) The site and its content can be shared only by the site owner per their IB policy.
 
 ### Implicit
 
@@ -96,21 +93,19 @@ When a site is associated with segment(s) and site's information barriers mode i
 ## Access control for IB modes
 
 Access to sites by users is based on the IB mode of the site.
- 
+
 ### Open mode
 
 For a user to access a SharePoint site that has no segment and site's information barriers  mode is set to *Open*:
 
-- The user has site access permissions.
+- The user has site access permissions..
 
 ### Owner Moderated mode
 
 For a user to access a SharePoint site with site's information barriers mode is set to *Owner Moderated*:
 
-- The user has site access permissions.
-
->[!NOTE]
->Owner Moderated mode is only supported for non-group connected sites.
+- (For non-group connected sites) The user has site access permissions.
+- (For group connected sites) The user must be a member of the Microsoft 365 group connected to the site.
 
 ### Implicit mode
 
@@ -304,7 +299,7 @@ To view the IB mode of a site, run the following command:
 Get-SPOSite -Identity <site URL> | Select InformationBarriersMode
 ```
 
-### Owner Moderated mode scenario (preview)
+### Owner Moderated mode scenario
 
 You want to allow a Sales and Research user to collaborate on a SharePoint site in the presence of HR user.
 

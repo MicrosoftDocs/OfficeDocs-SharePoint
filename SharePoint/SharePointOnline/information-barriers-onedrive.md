@@ -43,7 +43,7 @@ When using information barriers with OneDrive, the following IB modes are suppor
 | **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
 | **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive-preview) for details on Owner Moderated site. |
 | **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
-| **Mixed (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode that the SharePoint admin can set on OneDrive of a segmented user. |
+| **Mixed** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode that the SharePoint admin can set on OneDrive of a segmented user. |
 
 >[!NOTE]
 >Starting July 12, 2022, *Inferred* mode has changed to *Mixed* mode. The functionality for the mode remains the same.
@@ -73,7 +73,7 @@ When a OneDrive has information barriers segments and the mode is set to *Explic
 - The option to share with *Company-wide link* is disabled.
 - Files and folders can be shared only with users whose segment matches that of the OneDrive.
 
-### Mixed (preview)
+### Mixed
 
 When a OneDrive has information barriers segments and the mode is set to *Mixed*:
 
@@ -108,7 +108,7 @@ For a user to access content in a OneDrive that has segments and the IB mode set
 >[!NOTE]
 >By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
 
-### Mixed mode (preview)
+### Mixed mode
 
 For a segmented user to access content in a OneDrive that has segments and the IB mode set as *Mixed*:
 
