@@ -106,13 +106,13 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
     ![The General tab of the details panel](media/general-tab-details-panel.png)
 
-- **Additional site-level sharing settings**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
+- **Additional site-level sharing settings**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, when you select a site and then select **Sharing** on the command bar, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
 
     ![Default sharing link type settings](media/default-sharing-link-type-site.png)
 
 - **Site permission details**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, a new experience lets you manage all site admins in one details panel, such as view site members and visitors, and add site admins to sites that belong to Microsoft 365 groups. [Learn more about managing site permissions](site-permissions.md) 
 
-    ![The permissions tab in the details panel.](media/permissions-panel.png)
+    ![The membership tab in the details panel.](media/membership-details-panel.png)
 
 - **Redesigned Settings page**. The <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>) has been redesigned to let you see the value for each setting without selecting each one for more info.
 

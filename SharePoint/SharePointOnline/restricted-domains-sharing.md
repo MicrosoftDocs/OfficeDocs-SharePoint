@@ -74,18 +74,18 @@ You can also limit domains at the site collection level. Note the following cons
     
 2. Select the site name that you want to restrict domains to open the details panel.
  
-3. On the panel, select the **Policies** tab and select **Edit** under **External sharing**.
+3. On the panel, select the **Settings** tab and select **More sharing settings** under **External file sharing**.
     
-2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
+4. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
+5. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
-4. List the domains (maximum of 500) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+6. List the domains (maximum of 500) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
 
-5. Select **Save**, and then select **Save** again.  
+7. Select **Save**, and then select **Save** again.  
 
     > [!NOTE]
     > To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) PowerShell cmdlet.

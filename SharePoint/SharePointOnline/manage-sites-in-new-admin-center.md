@@ -52,11 +52,11 @@ For all site types except channel sites, you can add or remove site admins and c
 
 2. In the left column, select a site. 
     
-3. Select **Permissions** on the command bar. 
+3. Select **Membership** on the command bar to open the details panel to update the permissions of the members.
 
-4. Select **Manage** for the permissions that you want to update.
+   :::image type="content" source="media/membership-details-panel.png" alt-text=":::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of tab selection on Membership panel":::":::
 
-5. Add or remove people or change their role, and then select **Save**.
+4. Add or remove people or change their role, and then select **Save**.
     
 ## Change a site's hub association
 <a name="hubsite"> </a>
@@ -76,9 +76,9 @@ For more info about a site, select the site name or click anywhere on the site r
   
 To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
-To view site admins, owners, members, and visitors, select the **Permissions** tab.
+To view site admins, owners, members, and visitors, select the **Membership** tab.
 
-![The Permissions tab of the details panel](media/permissions-tab-details-panel.png)
+:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of Membership tab selection on details panel":::
   
 For info about the roles in this panel, see [About site permissions](site-permissions.md).
 

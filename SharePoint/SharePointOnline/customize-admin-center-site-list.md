@@ -91,7 +91,7 @@ To create and save a custom view:
 When you select a built-in or custom view, you can add a card to your home page that shows the number of sites in the view and summarizes info about the set of sites. 
 
 1. Select the **Change view** arrow, and then select the view you want to track.
-2. Select **Track view**.
+2. Select **Track view** on the command bar.
 3. Select **Add card**.
 4. Go to your home page to see the card for the tracked view.
 
@@ -111,7 +111,7 @@ You can search for a site by name, URL, primary admin, or template. To do this, 
 ## Export to CSV
 <a name="export"> </a>
 
-To export the site list you're viewing as a .csv file that you can work with in Excel, select **Export**.
+To export the site list you're viewing as a .csv file that you can work with in Excel, go to **Active sites** page and select **Export** on the command bar.
   
 > [!NOTE]
 > The .csv file lists the hub as a GUID and the template as an ID (for example, STS#0).

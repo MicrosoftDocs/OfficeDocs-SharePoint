@@ -40,7 +40,7 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 >[!NOTE]
 >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-2. Select the site, select **Hub**, and then select **Register as hub site**.
+2. Select the site, select **Hub** on the command bar, and then select **Register as hub site**.
 
     ![Registering a site as a hub site](media/register-hub-site.png)
 
@@ -50,7 +50,6 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 3. Enter a display name for the hub site, and specify the individual users or security groups you want to allow to associate sites with the hub.
 
     ![The Register as hub site panel](media/register-hub-site-panel.png)
-
 
     > [!IMPORTANT] 
     > If you leave the **People who can associate sites with this hub** box empty, any user can associate their site with the hub.<br>If you later want to change the hub site display name or the list of people who can associate sites with the hub, you need to use PowerShell or go to hub site settings on the hub site.
