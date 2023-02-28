@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2018
+ms.date: 02/27/2023
 title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
