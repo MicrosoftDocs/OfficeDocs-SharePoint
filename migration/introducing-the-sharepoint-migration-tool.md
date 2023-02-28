@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2018
+ms.date: 02/27/2023
 title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
@@ -33,8 +33,13 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
 SPMT supports migration to SharePoint, OneDrive, and Teams from:
 
-- SharePoint Server 2010, 2013, and 2016
+- SharePoint Server 2010, 2013, 2016, and 2019
 - SharePoint Foundation 2010 and 2013
+- 
+SPMT also supports the migration of workflows from:
+
+- SharePoint Server 2010 out-of-the-box workflows (OOTB)
+- SharePoint Designer 2010 & 2013 workflows
 
 For a complete description of features, see [What does SPMT support?](what-is-supported-SPMT.md) 
 
