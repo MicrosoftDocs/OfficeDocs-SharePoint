@@ -15,7 +15,7 @@ ms.collection:
 search.appverid:
 - MET150
 recommendations: false
-description: "Learn about Microsoft Syntex - ShrePoint Advanced Management and how you can use it in your organization."
+description: "Learn about Microsoft Syntex - SharePoint Advanced Management and how you can use it in your organization."
 ---
 
 # Microsoft Syntex - SharePoint Advanced Management overview
