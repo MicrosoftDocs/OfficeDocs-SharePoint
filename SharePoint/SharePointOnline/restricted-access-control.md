@@ -18,6 +18,8 @@ description: "Learn how to enable restricted access control for SharePoint sites
 ---
 # Restrict access control for SharePoint sites
 
+[!INCLUDE[Advanced Management](includes/advanced-management.md)]
+
 With restricted access control, you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you'll  grant access to users of the Microsoft 365 group associated with a SharePoint site. Users who aren't added to the group membership can't access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams.
 
 Restricting site access based on group membership reduces the risk of oversharing within your organization. Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that stops sharing content with people who aren't a member of the Microsoft 365 group. Use and consult [data access governance reports](data-access-governance-reports.md) to see how data is currently being shared.
@@ -31,9 +33,6 @@ For example, the research department has a Microsoft 365 group containing all of
 To access and use this feature, your organization must have the following subscription:
 
 - [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
-
-> [!NOTE]
-> Syntex Advanced Management licensing will take 4-5 weeks to roll out.
 
 ## Enable restricted access control for your organization
 
