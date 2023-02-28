@@ -1,4 +1,5 @@
 ---
+ms.date: 06/05/2018
 title: "Migrate file shares to SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
@@ -182,3 +183,4 @@ Develop a plan for sending communications to your user base, providing clear sta
 - [SharePoint video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
 - [Work together with OneDrive](https://support.office.com/article/626cff9f-9a56-472b-a77d-b019d97eec8d)
 - [Learn more about OneDrive](https://support.office.com/article/38acc14b-fd86-466e-b802-baece8107c86)
+

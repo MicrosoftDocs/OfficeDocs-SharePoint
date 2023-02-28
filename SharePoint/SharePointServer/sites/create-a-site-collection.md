@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Create a site collection in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars

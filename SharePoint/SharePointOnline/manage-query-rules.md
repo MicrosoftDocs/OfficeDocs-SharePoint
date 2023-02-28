@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage query rules"
 ms.reviewer: 
 ms.author: serdars
@@ -224,3 +225,4 @@ When multiple query rules are active for a tenant, a site collection, or a site,
 |Query More Common in Source  <br/> |The query rule fires if users frequently sent this query from another source that you have already specified.  <br/> |In the **Query is more likely to be used in this source** list, select a result source.  <br/> |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical.  <br/> |
 |Result Type Commonly Clicked  <br/> |The query rule fires if other users frequently clicked a particular result type after typing the same query.  <br/> |In the **Commonly clicked results match result type** list, select a result type.  <br/> |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section).  <br/> |
 |Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |
+

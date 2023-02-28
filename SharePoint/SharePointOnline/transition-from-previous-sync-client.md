@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Transition from the previous OneDrive for Business sync app"
 ms.reviewer:
 ms.author: mikeplum
@@ -117,3 +118,4 @@ To help your users get started with the OneDrive sync app, you can refer them to
 - [Get started with the new OneDrive sync app for Mac](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
 
 - [Sync SharePoint files with the new OneDrive sync app](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88)
+

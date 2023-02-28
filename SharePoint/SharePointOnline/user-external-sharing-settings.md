@@ -1,4 +1,5 @@
 ---
+ms.date: 09/18/2018
 title: "Change the external sharing setting for a user's OneDrive"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -45,4 +46,5 @@ After you set the organization-wide sharing settings for Microsoft SharePoint an
 > [!NOTE]
 > You can also change the external sharing setting for a specific OneDrive user by using Microsoft PowerShell and running the cmdlet Set-SPOSite with the parameter -SharingCapability. For more info, see [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite).
     
+
 

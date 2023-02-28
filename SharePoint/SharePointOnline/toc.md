@@ -2,6 +2,7 @@
 ## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Intro to OneDrive](onedrive-overview.md)
+### [OneDrive office hours](onedrive-office-hours.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
@@ -194,7 +195,9 @@
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
-### [Data access governance reports](data-access-governance-reports.md) 
+### [Data access governance reports](data-access-governance-reports.md)
+
+### [Default sensitivity label for a document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 
 ### [Use information barriers (SharePoint)](information-barriers.md)
 ### [Use information barriers (OneDrive)](information-barriers-onedrive.md)

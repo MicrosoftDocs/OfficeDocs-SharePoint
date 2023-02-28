@@ -1,4 +1,5 @@
 ---
+ms.date: 10/11/2019
 title: "Migrate your files to Microsoft 365 with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -97,3 +98,4 @@ Develop a plan for sending communications to your user base, providing clear sta
 [Migration Manager settings](mm-settings.md)</br>
 [How to format your CSV or JSON file for bulk upload into the Migration Manager](mm-bulk-upload-format-csv-json.md)</br>
 [Migration Manager FAQs](mm-faqs.md)</br>
+

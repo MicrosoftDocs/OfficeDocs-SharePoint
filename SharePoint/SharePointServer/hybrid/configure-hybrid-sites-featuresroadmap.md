@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure hybrid sites features - roadmap"
 ms.reviewer: 
 ms.author: serdars
@@ -66,4 +67,5 @@ This video shows a walkthrough of configuring sites features.
 [Hardware and software requirements for SharePoint in Microsoft 365 hybrid](hardware-and-software-requirements-for-sharepoint-hybrid.md)
   
 [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md)
+
 

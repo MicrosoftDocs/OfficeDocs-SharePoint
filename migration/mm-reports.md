@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2018
 title: "Migration Manager File Share migration reports"
 ms.reviewer:
 ms.author: jhendr
@@ -263,3 +264,4 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |Local disk performance score|[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed)|
 |Uploading speed score|[Improving your connectivity to Office 365 and Azure](./mm-performance.md#improving-your-connectivity-to-office-365-and-azure)|
 |SharePoint throughput score|[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md)|
+

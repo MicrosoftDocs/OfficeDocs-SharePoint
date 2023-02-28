@@ -1,4 +1,5 @@
 ---
+ms.date: 08/18/2021
 title: "Step 3: Copy to migrations for file share migration"
 ms.reviewer: 
 ms.author: jhendr
@@ -78,3 +79,4 @@ An incremental check of your SharePoint destination environment is performed. Fi
 >Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
 >
 > This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

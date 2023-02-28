@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover migration - setting up the Google Cloud storage connector
 author: JoanneHendrickson
 ms.author: jhendr
@@ -47,4 +48,5 @@ Authorizing Google Cloud Storage is straightforward. To authorize or add a Googl
 ## Troubleshooting
 
 **Google Cloud Nearline:** Once you've authorized a Google Cloud Storage Connector, you simply have to create a Nearline bucket the same way you would a regular storage bucket. [Click here to read more in Google's support docs](https://cloud.google.com/storage/docs/storage-classes#nearline).
+
 
