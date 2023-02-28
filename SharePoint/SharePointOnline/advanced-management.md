@@ -25,10 +25,10 @@ Microsoft Syntex - SharePoint Advanced Management is a Microsoft 365 add-on that
 - Manage and govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities
 
+SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
+
 > [!IMPORTANT]
 > SharePoint Advanced Management is currently rolling out. Licenses and functionality will become available to organizations throughout March and early April.
-
-SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
 
 ## Advanced access policies for secure content collaboration
 
