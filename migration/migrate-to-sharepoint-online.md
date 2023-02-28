@@ -37,7 +37,7 @@ Moving to Microsoft 365? **Migration Manager** will help you migrate your conten
 >**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
 
 >[!Important]
->All FastTrack-led migrations have transitioned to Migration Manager
+>All FastTrack-led migrations have transitioned to Migration Manager.
 
 
 >[!Note]
