@@ -52,5 +52,5 @@ By using the new<a href="https://go.microsoft.com/fwlink/?linkid=2185219" target
 
 4. In the details panel, you can add or remove the owners, members, site admins, site owners, site members, and site visitors.
 
-:::image type="content" source="media/membership-details-panel.png" alt-text="Changing membership from details panel":::
+:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of changing membership from details panel":::
 
