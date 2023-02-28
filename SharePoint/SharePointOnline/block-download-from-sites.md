@@ -31,6 +31,10 @@ Blocking download of files allows users to remain productive while addressing th
 
 Note that you can block the download of Teams meeting recording files specifically if you need to. For more information, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](/microsoftteams/block-download-meeting-recording).
 
+## Requirements
+
+This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+
 ## How to set this policy for a SharePoint site
 
 1. To use PowerShell: [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).

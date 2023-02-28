@@ -33,10 +33,9 @@ Note that this capability can't be applied to the root site in SharePoint (for e
 ## Requirements and limitations
 
 Using authentication context with SharePoint sites requires one of the following licenses:
+
 - Microsoft Syntex - SharePoint Advanced Management
 - Microsoft 365 E5
-- Microsoft 365 E5 Compliance
-- Microsoft 365 E5 Information Protection and Governance
 
 Some apps don't work with authentication contexts. We recommend testing apps on a site with authentication context enabled before broadly deploying this feature.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 10/03/2022
+ms.date: 03/01/2023
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mikeplum
@@ -23,6 +23,9 @@ Microsoft Syntex - SharePoint Advanced Management is a Microsoft 365 add-on that
 
 - Manage and govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities
+
+> [!IMPORTANT]
+> SharePoint Advanced Management is currently rolling out. Licenses and functionality will become available to organizations throughout March and early April.
 
 Articles that cover features that use SharePoint Advanced Management are designated with  [!INCLUDE[Advanced Management](includes/advanced-management.md)] at the top.
 
@@ -50,9 +53,10 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 ## Licensing
 
-SharePoint Advanced Management is a per-user license. To use SharePoint Advanced Management, you must have a license for each user in your organization. Users must be licensed for SharePoint K, P1, or P2 via standalone or a Microsoft 365 suite.
+SharePoint Advanced Management is a per-user license. To use SharePoint Advanced Management, you must have a license for each user in your organization. Users must also be licensed for SharePoint K, P1, or P2 via standalone or a Microsoft 365 suite.
 
 You can purchase the *SharePoint Advanced Management Plan 1* add-on in the Microsoft 365 admin center, through a Channel Service Partner (CSP), or through volume licensing enrollment. Contact your Microsoft account manager for further information.
 
-SharePoint Advanced Management is available for Commercial, WW Commercial Public Sector, Education, Charity, and US GCC, GCC-High, and DoD customers.  
+SharePoint Advanced Management is available for Commercial, WW Commercial Public Sector, Education, Charity, and US GCC, GCC-High, and DoD customers.
 
+SharePoint Advanced Management is $3 per user per month for commercial customers.

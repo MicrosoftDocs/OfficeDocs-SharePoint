@@ -27,9 +27,18 @@ description: "In this article, you'll learn how to allow only users in specified
 
 You can use the restricted access control policy for OneDrive to allow only users in specified security groups to access OneDrive. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
 
+You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
+
+#### Audit events
+
+[Audit events](/microsoft-365/compliance/audit-log-activities) are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
+
+- Enabled Restricted OneDrive access and sharing
+- Disabled Restricted OneDrive access and sharing
+
 ## Requirements
 
-To access and use this feature, your organization must have one of the following subscriptions: 
+To access and use this feature, your organization must have one of the following subscriptions:
 
 - Microsoft Syntex - SharePoint Advanced Management
 - Office 365 E5/A5
@@ -47,7 +56,7 @@ To enable this feature:
 
    ![Limit access on the Access control page in the SharePoint admin center](media/limit-access.png)
 
-4. Add the security groups you want to be able to use OneDrive.
+4. Add the security groups (maximum of 10) you want to be able to use OneDrive.
 
 5. Select **Save**.
 
