@@ -105,12 +105,15 @@ The site will continue to be an organization news site. To remove it as an organ
 If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  
 
 **To add a home site after setting up Viva Connections:**
-1.	Add the URL for the communication site that you want to be a home site.
-2.	The new home site will automatically be in draft mode, which allows you to copy content from Teams to the home site if needed. While in draft mode, the Viva Connections experience will source content from Teams. Confirm that the home site is in draft mode, then select Save.
-3.	Copy content from the [Viva Connections dashboard](/viva/connections/create-dashboard) and navigation in Teams to the dashboard and [global navigation](/viva/connections/sharepoint-app-bar) that can be found in the home site **Settings**.
+1.	Go to **Settings** in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has admin permissions for your organization.
+2. Select **Home site**.
+3. Add the URL for the communication site that you want to be a home site.
+4. The new home site will automatically be in draft mode, which allows you to copy content from Teams to the home site if you've already customized content in the dashboard and in navigation (if needed). While in draft mode, the Viva Connections experience will continue to source content from Teams. 
+5. Confirm that the home site is in draft mode, then select **Save**.
+6. Copy content from the [Viva Connections dashboard](/viva/connections/create-dashboard) and navigation in Teams to the dashboard and [global navigation](/viva/connections/sharepoint-app-bar) that can be found in the home site **Settings**.
     - To edit the dashboard from the home site, select **Manage Viva Connections > Create dashboard**.
     - To edit navigation from the home site, select **Settings > Global navigation**.
-4.	Once content has been copied, turn **Draft mode** to **Off* and select Save. Once draft mode has been turned off, Viva Connections content will be sources from the home site and Viva Connections content can be edited from Teams too. 
+7. Once content has been copied, turn **Draft mode** to **Off** and select Save. Once draft mode has been turned off, Viva Connections content will be sources from the home site and Viva Connections content can be edited from Teams too. 
  
 **Add a home site after setting up Viva Connections using PowerShell:**
 1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
