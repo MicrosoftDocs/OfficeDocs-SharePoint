@@ -1,4 +1,5 @@
 ---
+ms.date: 04/27/2020
 title: "Manage security groups"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -44,3 +45,4 @@ As a SharePoint Administrator or Global Administrator in Microsoft 365, you rest
 By selecting **Anyone**, users in that security group can share links to files and folders externally that don’t require users to authenticate (for example, the **Anyone link** in the **Share** dialog box). Forwarded **Anyone links** will work internally or externally, but you can't track who has access to shared items or who has accessed shared items. Users in this group can also share to authenticated guests. This option is best for a security group preferring friction-free sharing, provided files and folders in SharePoint and OneDrive aren’t classified as sensitive.
 
 By selecting **Authenticated guests only**, sharing externally is strictly limited to those guests who authenticate. This option is best for sharing sensitive or proprietary information because it requires guests to verify their identity before they can access the file or folder. Authenticated guests can share with another authenticated guest, but can't forward these links.
+

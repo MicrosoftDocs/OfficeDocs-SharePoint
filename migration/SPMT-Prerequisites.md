@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2019
 title: "Prerequisites and Endpoints for SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
@@ -86,5 +87,6 @@ The following table lists the required endpoints for using the SharePoint Migrat
 | Optional Endpoint | Why |
 |:-----|:-----|
 |https:<span><span>//*.table.core.windows.net|Required only if you choose to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Step 2: Migrate SharePoint Server workflows with SPMT"
 ms.reviewer:
 ms.author: jhendr
@@ -189,3 +190,4 @@ If a scan or migration fails, you'll receive a "Scan Failure", or "Flow create f
 |SharePoint Workflow definition contains unsupported actions. |0x02110026|
 
 ## Step 3:  [Activate workflows](spmt-workflow-step3.md)
+

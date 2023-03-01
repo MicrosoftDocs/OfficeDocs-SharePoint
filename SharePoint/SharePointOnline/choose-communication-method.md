@@ -1,4 +1,5 @@
 ---
+ms.date: 07/26/2021
 title: "Choose a communication method"
 ms.reviewer: 
 ms.author: hokavian
@@ -51,3 +52,4 @@ Many communication solutions will follow a similar path to get started – plan,
 ## More Resources
 
 [Overview of corporate communications](corporate-communications-overview.md)
+

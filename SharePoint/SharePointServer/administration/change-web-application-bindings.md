@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: serdars
 author: serdars
 manager: serdars
-ms.date: 
+ms.date: 09/24/2021 
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -64,4 +64,5 @@ For example, you can run the following PowerShell command to change a SharePoint
  ```
  
  
+
 

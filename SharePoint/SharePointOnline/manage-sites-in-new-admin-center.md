@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage sites in the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -32,7 +33,7 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**
 ![Active sites page](media/active-sites-page.png)
   
 > [!NOTE]
-> The Active sites page lists the root website for each site collection. Subsites and redirect sites (REDIRECTSITE#0) created by changing a site address or replacing the root site. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different. 
+> The Active sites page lists the root website for each site collection. Subsites and redirect sites (REDIRECTSITE#0) created by changing a site address or replacing the root site aren't shown. 
 
 For more info about tasks on the Active sites page, see:
 
@@ -84,3 +85,4 @@ For info about the roles in this panel, see [About site permissions](site-permis
 ## Related topics
 
 [Manage site storage limits](manage-site-collection-storage-limits.md)
+

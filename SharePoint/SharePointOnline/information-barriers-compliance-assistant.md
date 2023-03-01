@@ -4,8 +4,8 @@ description: "Learn about the information barriers compliance assistant."
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-recommendations: true
 ms.reviewer: nibandyo
+ms.date: 02/27/2023
 audience: Admin
 f1.keywords:
 - CSH
@@ -84,3 +84,4 @@ To search the audit log for Microsoft 365 Groups activities, see [Search the aud
 
 >[!Note]
 >The compliance assistant runs periodically (every 24 hours). The assistant runs on group-connected SharePoint sites that do not have an associated team in Microsoft Teams. To enable the compliance assistant for SharePoint sites connected to Microsoft Teams, follow the instructions in the [Define information barrier policies](/microsoft-365/compliance/information-barriers-policies) article.
+

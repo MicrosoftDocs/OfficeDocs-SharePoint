@@ -1,4 +1,5 @@
 ---
+ms.date: 01/22/2021
 title: "Review the destination paths for your Dropbox migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -63,3 +64,4 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

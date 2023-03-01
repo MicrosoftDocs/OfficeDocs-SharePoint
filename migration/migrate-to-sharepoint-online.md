@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
@@ -28,25 +29,20 @@ description: "This article helps you understand which tool to use when migrating
 
 # Migrate your content to Microsoft 365
 
-Moving to Microsoft 365? Let us help you migrate your content easily and securely.
+Moving to Microsoft 365? **Migration Manager** will help you migrate your content easily and securely.
 
 ## Mover retirement
 
-Mover admin migration functionality has now been fully integrated into Migration Manager. Mover is in the process of being retired.  For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
-
->[!Note]
->Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
->
->[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
->
->[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
-
+>[!Important]
+>**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
 
 >[!Important]
->
->All FastTrack-led migrations will transition to Migration Manager except those with multi-parent folders who have reached velocity migrations. These exceptions will need to finish their migrations by December 31, 2022. 
->
->[Learn more about the Mover retirement timeline](mover-retirement-timeline.md)
+>All FastTrack-led migrations have transitioned to Migration Manager.
+
+
+>[!Note]
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+
 
 ## What's new
 
@@ -54,10 +50,14 @@ Mover admin migration functionality has now been fully integrated into Migration
 
 - Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
+### Transform your classic SharePoint Server pages
+
+If you are onboarding your classic on-premises SharePoint Server pages to SharePoint Online, help is here!  Learn more at:  [**Transform classic pages to modern pages**](/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
 ## We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page and filter on "Migration".  
+
 
 ##  Where are you migrating from?
 
@@ -69,11 +69,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 |![Get started Dropbox](/office/media/icons/get-started-blue.png) </br> [**DROPBOX**](mm-dropbox-overview.md)|Collaborate all in one place by migrating your Dropbox documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. |
 |![Get started SharePoint Server](/office/media/icons/get-started-blue.png)</br>  [**SHAREPOINT SERVER**](introducing-the-sharepoint-migration-tool.md)|Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. SharePoint Server 2010, 2013, and 2016 environments only.|
 |![Get started SharePoint Server workflows](/office/media/icons/get-started-blue.png)</br>  [**SHAREPOINT SERVER WORKFLOWS**](spmt-workflow-overview.md)|Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. With SPMT, you can migrate your **SharePoint Server 2010** out of the box (OOTB) approval and collect feedback workflows to PowerAutomate, List and library "out-of-box" (OOTB) approval workflows, and Workflow definitions and associations.|
-
+|![Get started classic SharePoint Server pages](/office/media/icons/get-started-blue.png)</br>[**SHAREPOINT SERVER CLASSIC PAGES**](/sharepoint/dev/transform/modernize-userinterface-site-pages)|Are you onboarding your classic on-premises SharePoint Server content to SharePoint Online? Here's how: [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages)|
 
 
 ## Other resources
-
 
 - **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.</br>
 
@@ -83,3 +82,4 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 >[!Note]
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
+
