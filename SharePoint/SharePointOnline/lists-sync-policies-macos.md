@@ -17,13 +17,13 @@ description: "Learn how to configure lists sync on Mac by using Group Policy obj
 
 # Use macOS preferences to control Lists sync settings
 
-This article describes macOS preferences for Microsoft Lists (and SharePoint Lists). For info about controlling OneDrive sync settings on macOS, see [Deploy and configure OneDrive on macOS](/sharepoint/deploy-and-configure-on-macos).
+This article describes macOS preferences for Microsoft Lists (and SharePoint lists). For info about controlling OneDrive sync settings on macOS, see [Deploy and configure OneDrive on macOS](/sharepoint/deploy-and-configure-on-macos).
 
 ## Manage Lists sync settings on macOS using property list files
 
-Lists sync gets packaged, installed, and updated through the OneDrive sync standalone (non-App Store) app's existing update mechanism. Due to this, some Lists sync preferences are listed under the OneDrive group domain. After the OneDrive sync app for Mac is installed, users can configure settings for Lists sync. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the Lists sync app for Mac are stored in property list `.plist` files.
+Lists sync gets packaged, installed, and updated through the OneDrive sync standalone (non-App Store) app's existing update mechanism. As a result, some Lists sync preferences are listed under the OneDrive group domain. After the OneDrive sync app for Mac is installed, users can configure settings for Lists sync. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the Lists sync app for Mac are stored in property list `.plist` files.
   
-|| Lists Sync preferences | OneDrive group preferences |
+|| Lists sync preferences | OneDrive group preferences |
 |:-----|:-----|:-----|
 |**.plist location**  |~/Library/Preferences/com.microsoft.SharePoint-mac.plist  |~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist  |
 
