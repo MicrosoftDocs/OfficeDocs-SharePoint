@@ -76,9 +76,9 @@ Before you change the address of a site, it's important to communicate the chang
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-2. To open the details pane, select the site name.
+2. To open the details panel, select the site name.
 
-3. On the **General** tab, under URL, select **Edit**.
+3. On the **General** tab, under **Site address**, select **Edit**.
 
     ![Changing the address of a site](media/change-site-address.png)
 
