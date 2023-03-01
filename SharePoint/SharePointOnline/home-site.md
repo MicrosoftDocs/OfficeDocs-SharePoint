@@ -1,5 +1,5 @@
 ---
-ms.date: 10/07/2019
+ms.date: 3/1/2023
 title: "Set a site as your home site"
 ms.reviewer: dipadur
 ms.author: mikeplum
@@ -100,10 +100,34 @@ To perform this task by using PowerShell, run `Remove-SPOHomeSite`.
 The site will continue to be an organization news site. To remove it as an organization news site, see [Create an organization news site](organization-news-site.md).
 
 
+
+## Add a home site after you’ve set up Viva Connections 
+If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  
+
+**To add a home site after setting up Viva Connections:**
+1.	Go to **Settings** in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has admin permissions for your organization.
+2. Select **Home site**.
+3. Add the URL for the communication site that you want to be a home site.
+4. The new home site will automatically be in draft mode, which allows you to copy content from Teams to the home site if you've already customized content in the dashboard and in navigation (if needed). While in draft mode, the Viva Connections experience will continue to source content from Teams. 
+5. Confirm that the home site is in draft mode, then select **Save**.
+6. Copy content from the [Viva Connections dashboard](/viva/connections/create-dashboard) and navigation in Teams to the dashboard and [global navigation](/viva/connections/sharepoint-app-bar) that can be found in the home site **Settings**.
+    - To edit the dashboard from the home site, select **Manage Viva Connections > Create dashboard**.
+    - To edit navigation from the home site, select **Settings > Global navigation**.
+7. Once content has been copied, turn **Draft mode** to **Off** and select Save. Once draft mode has been turned off, Viva Connections content will be sources from the home site and Viva Connections content can be edited from Teams too. 
+ 
+**Add a home site after setting up Viva Connections using PowerShell:**
+1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+> [!NOTE] 
+> If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+
+2.	Connect to SharePoint as a [Global Administrator or SharePoint administrator](sharepoint-admin-role.md). To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Run `set-spohomesite`
+
+
+
 ## Choose the default landing experience for Viva Connections desktop
-If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already has a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/edit-viva-home). 
-
-
+If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already have a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/edit-viva-home). 
 
 
 
