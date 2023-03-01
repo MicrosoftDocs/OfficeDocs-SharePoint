@@ -1,4 +1,5 @@
 ---
+ms.date: 01/21/2021
 title: "Step 2: Scan and assess Dropbox folders using Migration Manager"
 ms.reviewer:
 ms.author: jhendr
@@ -96,3 +97,4 @@ Asterisk (\*) = optional folder
 > Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+

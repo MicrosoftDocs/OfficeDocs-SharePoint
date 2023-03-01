@@ -1,4 +1,5 @@
 ---
+ms.date: 05/26/2020
 title: Mover post-migration tips 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -39,4 +40,5 @@ Your username remains the same; however, you must create a new password.
 From this point forward, log into your Office 365 account.
 
 If you have any questions or concerns, let us know.
+
 

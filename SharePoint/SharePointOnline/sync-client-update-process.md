@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "The OneDrive sync app update process"
 ms.reviewer: 
 ms.author: mikeplum
@@ -82,3 +83,4 @@ Execute <pathToExecutable>\OneDriveSetup.exe /update /restart
 Where pathToExecutable is a location on the local computer or an accessible network share and OneDriveSetup.exe is the target version downloaded from the release notes page. Running this command restarts OneDrive.exe on all computers. If you don't want to restart the sync app, remove the /restart parameter. See [Deploy using Microsoft Endpoint Configuration Manager](deploy-on-windows.md) for tips on how to set up the Microsoft Endpoint Configuration Manager deployment package.
 
 To deploy an updated version of the sync app for Mac, deploy the OneDrive.pkg with the target version by using your MDM solution.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/07/2019
 title: Teams and SharePoint integration
 ms.reviewer: 
 ms.author: evanatkin
@@ -121,3 +122,4 @@ Teams-connected sites are managed differently than the typical SharePoint site. 
 [Manage teams policies in Teams](/MicrosoftTeams/teams-policies)
 
 [Manage team settings and permissions in Teams](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc)
+

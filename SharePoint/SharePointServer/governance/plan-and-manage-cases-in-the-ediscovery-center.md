@@ -1,4 +1,5 @@
 ---
+ms.date: 03/20/2018
 title: "Plan and manage cases in the eDiscovery Center"
 description: "Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources."
 ms.reviewer: 
@@ -141,3 +142,4 @@ For more info about eDiscovery cases, see the following articles:
 [Create and run queries in the eDiscovery Center](./create-and-run-queries-in-the-ediscovery-center.md)
   
 [Export content and create reports in the eDiscovery Center](./export-content-and-create-reports-in-the-ediscovery-center.md)
+

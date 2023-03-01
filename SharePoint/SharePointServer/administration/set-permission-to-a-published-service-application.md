@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Set permissions to published service applications in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -171,4 +172,5 @@ This procedure explains how to set permission to any service application, but mo
 #### Concepts
 
 [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md)
+
 

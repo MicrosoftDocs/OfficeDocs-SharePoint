@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Overview of sites and site collections in SharePoint Server"
 ms.reviewer:
 ms.author: serdars
@@ -212,3 +213,4 @@ You can configure the following items for a site:
 [Overview of site navigation in SharePoint Server](site-navigation-overview.md)
 
 [Overview of site policies in SharePoint Server](site-policy-overview.md)
+

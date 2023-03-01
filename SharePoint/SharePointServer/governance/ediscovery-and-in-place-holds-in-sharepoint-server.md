@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: eDiscovery and in-place holds in SharePoint Server
 ms.reviewer: 
 ms.author: serdars
@@ -122,3 +123,4 @@ You can manage the discovery process for Exchange Servers 2013, 2016, and 2019 f
     
 To discover content in Exchange mailboxes, you must first configure a trust relationship between SharePoint and Exchange. You must also grant specific Exchange permissions to the users of the eDiscovery Center. For more information about these tasks, see [Configure eDiscovery in SharePoint Server](configure-ediscovery-2019.md).
   
+

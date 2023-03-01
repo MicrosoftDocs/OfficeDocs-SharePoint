@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -639,3 +640,4 @@ The **DisabledByDefault** registry value defines whether the protocol version is
 5. Click **Yes** to update your Windows Registry with these changes. 
     
 6. Restart your computer for the change to take effect.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/16/2018
 title: "Change the default sharing link for a site"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -76,3 +77,4 @@ For more information about this scenario, see [Use sensitivity labels to configu
 ## Related topics
 
 [Turn external sharing on or off for a site](change-external-sharing-site.md)
+

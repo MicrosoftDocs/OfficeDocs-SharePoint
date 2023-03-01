@@ -1,4 +1,5 @@
 ---
+ms.date: 05/19/2021
 title: "Reinstall your Migration Manager agent"
 ms.reviewer: 
 ms.author: jhendr
@@ -41,3 +42,4 @@ You may find it necessary to reinstall the Migration Manager agent on one of you
 8. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next.**
 9. Enter your Windows credentials that will provide access to all the file shares that contain the content you want to migrate. Select **Install.**
 10. Test agent access (optional) or select **Close.** After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
+

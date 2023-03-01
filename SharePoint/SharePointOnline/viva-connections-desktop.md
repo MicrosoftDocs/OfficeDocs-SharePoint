@@ -1,4 +1,5 @@
 ---
+ms.date: 03/05/2021
 title: Add Viva Connections desktop to Microsoft Teams (Desktop only)
 ms.reviewer: 
 ms.author: hokavian
@@ -17,6 +18,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
+ROBOTS: NOINDEX
 description: "Add Viva Connections desktop to integrate SharePoint resources into Microsoft Teams"
 ---
 
@@ -239,3 +241,4 @@ Follow these instructions:
 [Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)
 
 [Learn more about Viva Connections](viva-connections-overview.md)
+

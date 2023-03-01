@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Export and import customized search configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -210,3 +211,4 @@ Since you are unable to check the status of the search configuration file you im
 If the search configuration file was exported a long time ago, the import might fail.
 
 If the exported search configuration file is stale, you should export a new search configuration first and then use it to import the list of search configuration files.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Assign roles and permissions to manage term sets"
 ms.reviewer: vrchowdh
 ms.author: mikeplum
@@ -99,3 +100,4 @@ Site members can do the following tasks with managed metadata:
     
 In addition, site users who have appropriate permissions (such as site owners) can create new managed metadata columns for lists, libraries, or content types. When site users create these columns, they can create new term sets that apply only to the site (previously called "site collection"), and they can manage the terms within these term sets. 
   
+
