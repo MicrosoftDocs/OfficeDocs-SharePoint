@@ -1,6 +1,6 @@
 ---
-ms.date: 10/19/2021
-title: "Data access governance reports"
+ms.date: 03/01/2023
+title: "Data access governance insights for SharePoint sites"
 ms.reviewer: karthig
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -21,7 +21,7 @@ search.appverid: MET150
 description: "In this article, you'll learn about reports that can help you govern access to data in SharePoint."
 ---
 
-# Data access governance reports
+# Data access governance insights for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -99,8 +99,3 @@ After you run a report, select it to download the data. The report includes:
 
 - These reports work only if you have non-pseudonymized report data selected for your organization. To change this setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
 - Data in these reports might be delayed by up to 48 hours. In new tenants, it might take a few days for data to be available and for these reports to be generated successfully.
-
-
-
-
-

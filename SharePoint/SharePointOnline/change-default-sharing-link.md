@@ -57,7 +57,7 @@ For info about the changing this setting at the organization level, see [File an
     
 2. In the left column, click to select a site.
 
-3. Select **Sharing**.
+3. Select **Sharing** on the command bar.
 
 4. Under **Default sharing link type**, clear the **Same as organization-level setting** checkbox.
 
