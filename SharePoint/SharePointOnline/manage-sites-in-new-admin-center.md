@@ -52,11 +52,10 @@ For all site types except channel sites, you can add or remove site admins and c
 
 2. In the left column, select a site. 
     
-3. Select **Permissions**. 
+3. Select **Membership** on the command bar to open the details panel to update the permissions of the members.
+   :::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of membership tab in details panel":::
 
-4. Select **Manage** for the permissions that you want to update.
-
-5. Add or remove people or change their role, and then select **Save**.
+4. Add or remove people or change their role, and then select **Save**.
     
 ## Change a site's hub association
 <a name="hubsite"> </a>
@@ -65,20 +64,20 @@ For all site types except channel sites, you can add or remove site admins and c
 
 2. In the left column, select a site. 
     
-3. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. For more information, see [More info about hubs](planning-hub-sites.md).
+3. Select **Hub** on the command bar. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. For more information, see [More info about hubs](planning-hub-sites.md).
 
 ## View site details
 <a name="viewsitedetails"> </a>
 
-For more info about a site, select the site name to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
+For more info about a site, select the site name or click anywhere on the site row except on the URL column to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
 ![The General tab of the details panel](media/general-tab-details-panel.png)
   
 To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
-To view site admins, owners, members, and visitors, select the **Permissions** tab.
+To view site admins, owners, members, and visitors, select the **Membership** tab.
 
-![The Permissions tab of the details panel](media/permissions-tab-details-panel.png)
+:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of Membership tab selection on details panel":::
   
 For info about the roles in this panel, see [About site permissions](site-permissions.md).
 
