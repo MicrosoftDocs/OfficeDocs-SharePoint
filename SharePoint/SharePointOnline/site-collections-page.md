@@ -36,7 +36,7 @@ This article covers all the features on the classic site collections page and wh
 
 ## New (create a new private site collection)
 
-To create a site collection in the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, and then select **Create**. To create a classic site, select **Other options**.
+To create a site collection in the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, and then select **Create** on the command bar. To create a classic site, select **Other options**.
 
 <br/>
 
@@ -64,7 +64,7 @@ On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank"
 
 ## Properties
 
-The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
+The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row to open the details panel, except in the URL column.
 
 <br/>
 
@@ -79,14 +79,14 @@ The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" tar
 |Title|Site name column|
 |Complete Web Site Address link|URL column shows the path after the domain. You can copy the link to save the full URL to the Clipboard.|
 |Primary Administrator|Primary admin column.|
-|Other Administrators|For any sites that aren't connected to a Microsoft 365 group, select the site, and on the command bar, select **Permissions**, and then select **Manage admins**. (For group-connected sites, you have options for managing group owners and additional admins.)|
+|Other Administrators|For any sites that aren't connected to a Microsoft 365 group, select the site, and on the command bar, select **Membership** to open the details panel. (For group-connected sites, you have options for managing group owners and additional admins.)|
 |Number of subsites|Not available|
 |Storage Usage|Storage used (GB) column.|
 |Resource Usage, Server Resource Quota, Resource Usage Warning Level|These settings have had no effect for more than a year.|
 
 ## Owners
 
-To change the owners for any site that isn't connected to a Microsoft 365 group, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, select **Permissions** on the command bar, and then select **Manage admins**.
+To change the owners for any site that isn't connected to a Microsoft 365 group, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, select **Membership** on the command bar to open the details panel from where you can edit the membership information.
 
 <br/>
 
@@ -200,7 +200,7 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites that were listed in the classic SharePoint admin center are included on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>. A few are hidden because they're system sites that you shouldn't need to change. The Active sites page contains all the new team sites and communication sites that didn't appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
+Most of the sites that were listed in the classic SharePoint admin center are included on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>. A few are hidden because they're system sites that you shouldn't need to change. The Active sites page contains all the new team sites and communication sites that didn't appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Standard views** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
