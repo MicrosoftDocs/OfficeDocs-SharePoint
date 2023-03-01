@@ -1,5 +1,5 @@
 ---
-ms.date: 09/29/2022
+ms.date: 03/01/2023
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
@@ -19,9 +19,6 @@ description: "Learn how to review recent actions in SharePoint admin center."
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-> [!NOTE]
-> This feature is currently in private preview. If you would like to participate in the preview, contact your Microsoft account manager.
-
 With the recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
 Changes to site properties like site name, site deletion and storage quota, show as recent actions. The panel shows the previous and current values of site properties, which can be useful when tracking changes.
@@ -29,6 +26,12 @@ Changes to site properties like site name, site deletion and storage quota, show
 The recent actions panel only shows changes you made in the last 30 days. Changes made by other admins and organization-level changes won't show in the panel.
 
 You can also download a .csv file of all your changes made in the last 30 days.
+
+## Requirements
+
+To access and use this feature, your organization must have the following subscription:
+
+- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
 ## View recent actions of a site
 
@@ -45,3 +48,6 @@ Here’s an example of how bulk edits are grouped as one action in the recent ac
 
 You deleted 4 SharePoint sites on May 21 at 6:15 PM. The bulk edit will show as one item named Deleted 4 sites on the recent actions panel. Select the Deleted 4 sites action and the list of deleted SharePoint sites appears.
 
+## Related articles
+
+[Microsoft Syntex Advanced Management overview](advanced-management.md)
