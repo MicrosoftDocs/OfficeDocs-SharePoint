@@ -30,12 +30,14 @@ You can use authentication contexts to connect an [Azure AD conditional access p
 
 Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
 
-## Requirements and limitations
+## Requirements
 
 Using authentication context with SharePoint sites requires one of the following licenses:
 
 - Microsoft Syntex - SharePoint Advanced Management
 - Microsoft 365 E5
+
+## Limitations
 
 Some apps don't work with authentication contexts. We recommend testing apps on a site with authentication context enabled before broadly deploying this feature.
 

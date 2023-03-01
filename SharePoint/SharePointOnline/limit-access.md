@@ -29,13 +29,6 @@ You can use the restricted access control policy for OneDrive to allow only user
 
 You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
 
-#### Audit events
-
-[Audit events](/microsoft-365/compliance/audit-log-activities) are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
-
-- Enabled Restricted OneDrive access and sharing
-- Disabled Restricted OneDrive access and sharing
-
 ## Requirements
 
 To access and use this feature, your organization must have one of the following subscriptions:
@@ -62,4 +55,11 @@ To enable this feature:
 
 > [!NOTE]
 > Users who aren't included in the security groups you added will lose access to their own OneDrive and any shared OneDrive content.
+
+## Audit events
+
+[Audit events](/microsoft-365/compliance/audit-log-activities) are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
+
+- Enabled Restricted OneDrive access and sharing
+- Disabled Restricted OneDrive access and sharing
 

@@ -54,7 +54,7 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 SharePoint Advanced Management is a per-user license. To use SharePoint Advanced Management, you must have a license for each user in your organization. (It's not required for frontline workers with F licenses or for guests.) Users must also be licensed for SharePoint K, P1, or P2 via standalone or a Microsoft 365 suite.
 
-You can purchase the *SharePoint Advanced Management Plan 1* add-on in the Microsoft 365 admin center, through a Channel Service Partner (CSP), or through volume licensing enrollment. Contact your Microsoft account manager for further information.
+You can purchase the *SharePoint Advanced Management Plan 1* add-on in the Microsoft 365 admin center, through a Cloud Solution Provider (CSP), or through volume licensing enrollment. Contact your Microsoft account manager for further information.
 
 SharePoint Advanced Management is available for Commercial, WW Commercial Public Sector, Education, Charity, and US GCC, GCC-High, and DoD customers.
 
