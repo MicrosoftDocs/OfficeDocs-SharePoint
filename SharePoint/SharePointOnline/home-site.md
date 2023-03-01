@@ -102,7 +102,7 @@ The site will continue to be an organization news site. To remove it as an organ
 
 
 ## Add a home site after you’ve set up Viva Connections 
-If your organization is already using Viva Connections, you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  
+If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  
 
 **To add a home site after setting up Viva Connections:**
 1.	Add the URL for the communication site that you want to be a home site.
