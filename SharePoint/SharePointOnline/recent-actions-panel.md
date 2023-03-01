@@ -19,9 +19,6 @@ description: "Learn how to review recent actions in SharePoint admin center."
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-> [!NOTE]
-> This feature is currently in private preview. If you would like to participate in the preview, contact your Microsoft account manager.
-
 With the recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
 Changes to site properties like site name, site deletion and storage quota, show as recent actions. The panel shows the previous and current values of site properties, which can be useful when tracking changes.
