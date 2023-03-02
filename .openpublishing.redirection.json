@@ -909,6 +909,11 @@
       "source_path": "OneDrive/user-external-sharing-settings.md",
       "redirect_url": "/sharepoint/user-external-sharing-settings",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/viva-connections-desktop.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
     }
   ]
 }
