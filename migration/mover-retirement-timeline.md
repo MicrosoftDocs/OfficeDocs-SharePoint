@@ -63,6 +63,6 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
-**Question:** Is a tenant-to-tenant migration supported in Migration Manager?</br>
-**Answer:**  A new Cross Tenant OneDrive feature has been developed outside of Migration Manager and is now available. Learn more here: [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+**Question:** Is a tenant-to-tenant migration solution available?</br>
+**Answer:**  A new Cross-tenant OneDrive capability has been developed outside of Migration Manager and is now available. Learn more here: [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
 
