@@ -1,12 +1,11 @@
 ---
-ms.date: 06/16/2021
 title: "Information barriers compliance assistant (preview)"
 description: "Learn about the information barriers compliance assistant."
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-recommendations: true
 ms.reviewer: nibandyo
+ms.date: 02/27/2023
 audience: Admin
 f1.keywords:
 - CSH
