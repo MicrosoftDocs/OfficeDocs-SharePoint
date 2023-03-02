@@ -21,6 +21,11 @@ description: Learn about the changes to Migration Manager for the European Union
 
 # Migration Manager and the European Union Data Boundary (EUDB)
 
+>[!Note]
+>This article only applies to customers whose Microsoft 365 tenant exists within the boundaries of the European Union (EU).
+>
+>All migrated data will reside in the EU OneDrive-Sharepoint farm, regardless of this change.
+
 >[!Important]
 >Beginning April 1, 2023, all new European Union (EU) scans and migrations, except for Stream, will be processed in the EU. 
 >You may continue to run existing migrations until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
@@ -31,7 +36,7 @@ The Migration Manager Platform (MMP) is the platform for Migration Manager, the 
 
 The European Union Data Boundary (EUDB) is a geographically defined boundary within which Microsoft has committed to store and process customer data for our major commercial enterprise online services, including Azure, Dynamics 365, Power Platform, and Microsoft 365, subject to limited circumstances where customer data will continue to be transferred outside the EU Data Boundary.
 
-MMP currently has one instance based in the United States (US) farm, serving all global migration traffic. A second instance based in the European Union (EU) will be available starting April 1, 2023. 
+MMP currently has one project based in the United States (US) farm, serving all global migration traffic. A second project based in the European Union (EU) will be available starting April 1, 2023. 
 
 A phased implementation schedule for existing EU customers is listed below.
 
@@ -40,11 +45,11 @@ A phased implementation schedule for existing EU customers is listed below.
 
 |Date|Change|
 |:-----------|:-----|
-|April 1, 2023|The file share scans tab becomes read only.|
-|April 1, 2023|All new migrations will be processed in the EU. All existing migration projects will automatically be recreated in the EU instance.  Users can choose to restart their projects in the EU project or continue with their migration in the US project.|
-|September 30, 2023|All active migrations in the US instance must be completed.|
-|October 1, 2023|EU users can no longer can view scans or have access to migration projects initiated in the US instance.|
-|February 15, 2024|Stream migrations must be completed. Migrations will be removed after this date.| 
+|April 1, 2023|The file share **Scans** tab becomes read only for US projects.|
+|April 1, 2023|All new migrations will be processed in the EU. EU Admins can choose to restart their projects in the EU project or continue with their migration in the US project.|
+|September 30, 2023|All active migrations in the US project must be completed.|
+|October 1, 2023|Scans and migrations in the US project will no longer be accessible.|
+|February 15, 2024|Stream migrations initiated in the US project must be completed. Migrations will not be accessible after this date.| 
 
 
 ## What does that mean for me?
@@ -53,6 +58,30 @@ A phased implementation schedule for existing EU customers is listed below.
 |If you have...|Impact to you|Recommendation|
 |:---------------|:-----|:-----|
 |No existing migrations|None|No action required.|
-|Active migrations|You have until September 30, 2023 to complete active migrations. You can choose to finish your migration projects in the US project, or restart them in the EU. We've recreated your existing migration projects in the EU, if you wish to restart them. As of October 1, 2023, you'll no longer have access to US migrations or the reports that were generated. |We recommend completing any existing US initiated migrations in the US.|
+|Active migrations|You have until September 30, 2023 to complete active migrations. You can choose to restart your scans and migrations in the EU project starting April 1, 2023. As of October 1, 2023, you'll no longer have access to US projects. |We recommend completing existing US migration tasks or restart a new migration in the EU project at your earliest convenience.|
 |File share Scans|File share scans can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
 |Active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
+
+## Changing the Agent configuration for file share migrations
+
+>[!Important]
+>After April 1, The file share Scans tab becomes read-only for US projects. 
+>
+>Under the Devices tab the status changes for the Agent:
+>The **File Share (US)** device status will change from "Enabled' to "Cannot scan". 
+>The **File Share (EU)** device status will show "Enabled". The customer only can run the Scan tab's tasks in FileShare(EU).
+
+If running scan tasks in the US project is necessary, you must configure each agent to connect to the US instance. 
+
+1. Open **Task Manager**  > **Services** tab
+2. Right-click **SharePoint Migration Service** > **Stop**
+3. **Open** this file:
+    *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config*
+
+4. Under AppSettings, add the following:
+
+```powershell 
+ 
+<add key="UseUSScan" value="1" />
+
+```
