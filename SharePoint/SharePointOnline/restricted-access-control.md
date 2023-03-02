@@ -88,8 +88,8 @@ Audit events are available in Microsoft Purview compliance portal to help you mo
 
 ## Related articles
 
-[Microsoft Syntex Advanced Management overview](advanced-management.md)
+[Microsoft Syntex - SharePoint Advanced Management overview](advanced-management.md)
 
-[Manage site access based on sensitivity label](authentication-context-example.md)
+[Conditional access policy for sites and OneDrives](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
