@@ -93,3 +93,5 @@ If running scan tasks in the US project is important for your business, you must
 ```
 
 :::image type="content" source="media/mm-filesshare-scan-edit-eudb.png" alt-text="configure for us":::
+
+5. Return to **Task Manager**. Right-click **SharePoint Migration Service** and then select **Start**
