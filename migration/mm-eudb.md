@@ -65,16 +65,20 @@ A phased implementation schedule for existing EU customers is listed below.
 ## Changing the Agent configuration for file share migrations
 
 >[!Important]
->After April 1, The file share Scans tab becomes read-only for US projects. 
->
->Under the Devices tab the status changes for the Agent:
->The **File Share (US)** device status will change from "Enabled' to "Cannot scan". 
->The **File Share (EU)** device status will show "Enabled". The customer only can run the Scan tab's tasks in FileShare(EU).
+>After April 1,  the **Scans** tab for File Share migrations becomes read-only for US projects. 
 
-If running scan tasks in the US project is necessary, you must configure each agent to connect to the US instance. 
+File share Agents will automatically change as follows:
 
-1. Open **Task Manager**  > **Services** tab
-2. Right-click **SharePoint Migration Service** > **Stop**
+:::image type="content" source="media/mm-fileshare-agent-status.png" alt-text="fileshare agent status change":::
+
+Under the **Agents** tabs:
+- For **US projects** the agent state (status) will change from "Enabled' to "Cannot scan". 
+- For **EU projects** agent state (status) will show "Enabled". You can only run scans in the EU project.
+
+If running scan tasks in the US project is important for your business, you must configure each agent to connect to the US project. 
+
+1. Open the **Task Manager** app and then click the **Services** tab.
+2. Right-click **SharePoint Migration Service** and then select **Stop**.
 3. **Open** this file:
     *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config*
 
@@ -85,3 +89,5 @@ If running scan tasks in the US project is necessary, you must configure each ag
 <add key="UseUSScan" value="1" />
 
 ```
+
+:::image type="content" source="media/mm-filesshare-scan-edit-eudb.png" alt-text="configure for us":::
