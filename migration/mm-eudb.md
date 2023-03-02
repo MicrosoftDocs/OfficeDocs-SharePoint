@@ -69,13 +69,9 @@ A phased implementation schedule for existing EU customers is listed below.
 
 The state of File share Agents will automatically change as follows:
 
-:::image type="content" source="media/mm-fileshare-agent-status.png" alt-text="fileshare agent status change":::
-
 Under the **Agents** tabs:
 - For **US projects** the agent state (status) will change from "Enabled' to "Cannot scan". 
 - For **EU projects** agent state (status) will show "Enabled". You can only run scans in the EU project.
-
-:::image type="content" source="media/mm-fileshare-agent-status.png" alt-text="fileshare agent status change":::
 
 If running scan tasks in the US project is important for your business, you must configure each agent to connect to the US project. 
 
