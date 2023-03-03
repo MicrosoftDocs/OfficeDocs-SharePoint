@@ -1,6 +1,6 @@
 ---
-ms.date: 12/02/2021
-title: "Limit access"
+ms.date: 03/01/2023
+title: "Restrict OneDrive access by security group"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,21 +18,24 @@ ms.assetid:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
+description: "In this article, you'll learn how to allow only users in specified security groups to access OneDrive."
 ---
 
-# Limit OneDrive access by security group
+# Restrict OneDrive access by security group
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-Use this setting if you want to allow only users in specified security groups to access OneDrive. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
+You can use the restricted access control policy for OneDrive to allow only users in specified security groups to access OneDrive. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
+
+You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
 
 ## Requirements
 
-To access and use this feature, your organization must have one of the following subscriptions: 
+To access and use this feature, your organization must have one of the following subscriptions:
 
-- Office 365 E5/A5 
-- Microsoft 365 E5/A5 
+- Microsoft Syntex - SharePoint Advanced Management
+- Office 365 E5/A5
+- Microsoft 365 E5/A5
 
 ## Enablement
 
@@ -46,10 +49,17 @@ To enable this feature:
 
    ![Limit access on the Access control page in the SharePoint admin center](media/limit-access.png)
 
-4. Add the security groups you want to be able to use OneDrive.
+4. Add the security groups (maximum of 10) you want to be able to use OneDrive.
 
 5. Select **Save**.
 
 > [!NOTE]
 > Users who aren't included in the security groups you added will lose access to their own OneDrive and any shared OneDrive content.
+
+## Audit events
+
+[Audit events](/microsoft-365/compliance/audit-log-activities) are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
+
+- Enabled Restricted OneDrive access and sharing
+- Disabled Restricted OneDrive access and sharing
 
