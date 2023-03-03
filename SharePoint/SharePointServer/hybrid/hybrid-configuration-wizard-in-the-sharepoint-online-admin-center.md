@@ -34,6 +34,10 @@ Hybrid Configuration Wizard is a wizard that can be downloaded to your SharePoin
 
 Use the Hybrid Configuration Wizard to redirect OneDrive to Microsoft 365, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Configuration Wizard also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
 
+Starting 23H1 Sharepoint Subscription Edition feature update, the SharePoint Hybrid Configure Wizard has been redesigned so that the customers can run the HCW on Windows Server Core. With this update, the dependencies on components that required Windows Server with Desktop experience are no longer applicable. This means that the customers no longer need to have atleast one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
+
+SharePoint Hybrid Configuration Wizard now supports both Windows Server Core as well as Windows Server with Desktop Experience.
+
 ## Using the Hybrid Configuration Wizard
 
 First, you need to ensure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Configuration Wizard.
@@ -76,10 +80,6 @@ The Hybrid Configuration Wizard helps with or completes the setup of these hybri
 - **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server.
 
 - **[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects it to your Microsoft 365 organization. Implementing this option means you've performed one of the steps needed to set up cloud hybrid search; you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include setting up of other hybrid features.
-
-- **Support for running on Windows Server core** - SharePoint Server Subscription added support for running on Windows Server Core, a leaner Windows Server deployment type that minimizes the number of OS features and services that are installed and that runs to support only those features and services that are essential for a server. However, the SharePoint Hybrid Configuration Wizard didn't support running on Windows Server Core due to some component dependencies that required Windows Server with Desktop Experience. Customers had to have at least one server in their SharePoint farm running on Windows Server with Desktop Experience if they wanted to use the SharePoint Hybrid Configuration Wizard to configure hybrid functionality within their farm.
-Starting with the 23H1 feature update, the SharePoint Hybrid Configuration Wizard has been redesigned to no longer have a dependency on components that require Windows Server with Desktop Experience. As a result, customers can now run the SharePoint Hybrid Configuration Wizard on Windows Server Core. Customers will no longer need to keep at least one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
-Although the SharePoint Hybrid Configuration Wizard has now added support for Windows Server Core, it also remains compatible with Windows Server with Desktop Experience.
 
 > [!TIP]
 > If the Hybrid Configuration Wizard is run a second time with an enabled feature unchecked, this setting won't cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain.
