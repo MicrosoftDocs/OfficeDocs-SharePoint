@@ -84,7 +84,7 @@ We recommend replacing the root site at a time when site usage is low.
 
 4. Select the root site (https<i></i>://contoso.<i></i>sharepoint.com).
 
-5. Select **Replace site**.
+5. Select **Replace site** on the command bar.
 
     ![The Replace root site panel in the new SharePoint admin center](media/replace-root-site.png)
 
