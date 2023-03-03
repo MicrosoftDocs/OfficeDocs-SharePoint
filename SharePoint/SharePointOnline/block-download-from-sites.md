@@ -73,9 +73,8 @@ Blocking download may impact the user experience in some apps, including some Of
 
 ## Related topics
 
-[SharePoint and OneDrive unmanaged device access controls for administrators](/sharepoint/control-access-from-unmanaged-devices).
+[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)
 
-[Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
+[Restrict OneDrive access by security group](limit-access.md)
 
-[Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
-
+[Configure a default sensitivity label for a SharePoint document library](/sensitivity-labels-sharepoint-default-label)

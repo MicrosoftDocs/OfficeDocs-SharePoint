@@ -111,6 +111,9 @@ To create a conditional access policy
 
 You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
+> [!NOTE]
+> This capability requires a Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management license.
+
 In the following example, we apply the authentication context we created above to a site called "research."
 
 ```powershell
@@ -120,6 +123,9 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -Conditional
 ### Set a sensitivity label to apply the authentication context to labeled sites
 
 If you want to use a sensitivity label to apply the authentication context, update a sensitivity label (or create a new one) to use the authentication context.
+
+> [!NOTE]
+> Sensitivity labels require Microsoft 365 E5 or Microsoft 365 E3 plus the Advanced Compliance license.
 
 To update a sensitivity label
 1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
