@@ -63,3 +63,8 @@ To enable this feature:
 - Enabled Restricted OneDrive access and sharing
 - Disabled Restricted OneDrive access and sharing
 
+## Related topics
+
+[Restrict access control for SharePoint sites](restricted-access-control.md)
+
+[Data access governance insights for SharePoint sites](data-access-governance-reports.md)
