@@ -34,10 +34,6 @@ Hybrid Configuration Wizard is a wizard that can be downloaded to your SharePoin
 
 Use the Hybrid Configuration Wizard to redirect OneDrive to Microsoft 365, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Configuration Wizard also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
 
-Starting 23H1 Sharepoint Subscription Edition feature update, the SharePoint Hybrid Configure Wizard has been redesigned so that the customers can run the HCW on Windows Server Core. With this update, the dependencies on components that required Windows Server with Desktop experience are no longer applicable. This update means that the customers no longer need to have atleast one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
-
-SharePoint Hybrid Configuration Wizard now supports both Windows Server Core and Windows Server with Desktop Experience.
-
 ## Using the Hybrid Configuration Wizard
 
 First, you need to ensure you meet the prerequisites in your SharePoint Server on-premises farm, then you can run the Hybrid Configuration Wizard.
