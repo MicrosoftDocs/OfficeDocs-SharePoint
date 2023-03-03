@@ -41,11 +41,15 @@ Different customers may have different interpretations of terms such as "depreca
  
 ## Deprecated features
 
+ - InfoPath Forms Services
+ 
+ - Microsoft Workflow Manager
+ 
+ - SharePoint Designer 2013
+
  - SharePoint 2010 workflows 
  
  - Internet Explorer 11
- 
- - Infopath services
 
 ## Removed features
 
@@ -61,8 +65,6 @@ Different customers may have different interpretations of terms such as "depreca
 
  - PerformancePoint Services 
  
- - SharePoint Designer
- 
  - Stsadm.exe command-line tool 
  
  - Update-SPHelp PowerShell cmdlet
@@ -71,6 +73,17 @@ Different customers may have different interpretations of terms such as "depreca
 
 The following features and functionality have been deprecated or removed in SharePoint Server Subscription Edition.
 
+### InfoPath Forms Services
+
+InfoPath Forms Services are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, InfoPath Forms Services will no longer be supported. Microsoft recommends exploring Power Apps as a potential alternative to InfoPath forms.
+
+### Microsoft Workflow Manager
+Microsoft Workflow Manager is deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, InfoPath Forms Services will no longer be supported.
+
+### SharePoint Designer 2013
+
+SharePoint Designer 2013 is deprecated but will remain supported with SharePoint Server Subscription Edition until July 14, 2026. After that date, SharePoint Designer 2013 will no longer be supported. Customers will be able to continue using Visual Studio to create and edit their SharePoint 2013 workflows after that date.
+
 ### SharePoint 2010 workflows
 
 SharePoint 2010 workflows are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, SharePoint 2010 workflows will no longer be supported. Microsoft recommends exploring [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
@@ -78,10 +91,6 @@ SharePoint 2010 workflows are deprecated but will remain supported for the Share
 ### Internet Explorer 11
 
 Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 isn't supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
-
-### Infopath services
-
-Infopath services have been removed and are no longer supported by Microsoft in SharePoint Server Subscription Edition. There won't be a new InfoPath client shipped with this release. As we announced in the Microsoft 365 blog, InfoPath Services is a deprecated feature, and customers are advised to explore alternatives for this feature.
 
 ### Access Services 2010
 
@@ -106,10 +115,6 @@ The Lists web service APIs for Groove sync app have been removed and are no long
 ### PerformancePoint Services
 
 PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we're making many new business intelligence investments in Power BI.
-
-### SharePoint Designer
-
-There won't be a new SharePoint Designer client shipped with this release. SharePoint Designer 2013 remains supported for the SharePoint Server 2019 for the remainder of the client support lifecycle (2026). SharePoint Designer 2013 won't be supported beyond that timeframe. Customers are recommended to explore Visual Studio as a potential alternative to SharePoint Designer.
 
 ### Stsadm.exe command-line tool 
 
