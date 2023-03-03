@@ -102,7 +102,7 @@ The site will continue to be an organization news site. To remove it as an organ
 
 
 ## Add a home site after you’ve set up Viva Connections 
-If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  
+If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases. [Learn more about how Viva Connections and home sites work together to create employee experiences.](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) 
 
 **To add a home site after setting up Viva Connections:**
 1.	Go to **Settings** in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has admin permissions for your organization.
