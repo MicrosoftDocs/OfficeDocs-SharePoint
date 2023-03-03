@@ -36,7 +36,7 @@ Use the Hybrid Configuration Wizard to redirect OneDrive to Microsoft 365, lever
 
 Starting 23H1 Sharepoint Subscription Edition feature update, the SharePoint Hybrid Configure Wizard has been redesigned so that the customers can run the HCW on Windows Server Core. With this update, the dependencies on components that required Windows Server with Desktop experience are no longer applicable. This update means that the customers no longer need to have atleast one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
 
-SharePoint Hybrid Configuration Wizard now supports both Windows Server Core as well as Windows Server with Desktop Experience.
+SharePoint Hybrid Configuration Wizard now supports both Windows Server Core and Windows Server with Desktop Experience.
 
 ## Using the Hybrid Configuration Wizard
 
