@@ -23,7 +23,7 @@ description: "Learn about the new features and updates to existing features in S
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 22H2 feature.
+Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 22H2 feature update.
 
 ## Summary of the features
 
