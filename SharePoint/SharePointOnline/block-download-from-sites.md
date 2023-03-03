@@ -77,4 +77,4 @@ Blocking download may impact the user experience in some apps, including some Of
 
 [Restrict OneDrive access by security group](limit-access.md)
 
-[Configure a default sensitivity label for a SharePoint document library](/sensitivity-labels-sharepoint-default-label)
+[Configure a default sensitivity label for a SharePoint document library](/sensitivity-labels-sharepoint-default-label.md)
