@@ -56,12 +56,12 @@ The only platform available when you first install SharePoint Server is the Shar
 
 ## Install SharePoint Workflow Manager
 
-SharePoint Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. SharePoint Workflow Manager can be deployed by using the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
+SharePoint Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. 
    
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
 
-Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](../../Hub/index.yml).
+Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../../Hub/index.yml).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires either Microsoft Workflow Manager or SharePoint Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
@@ -90,7 +90,7 @@ You can upgrade to SharePoint Workflow Manager from any version of Microsoft Wor
 Follow the steps below to uninstall Microsoft Workflow Manager and install SharePoint Workflow Manager:
 
 1. Open Workflow Manager Configuration Wizard.
-1. Select **Leave Workflow Farm**.
+1. Select **Leave Workflow Manager Farm**.
 1. Confirm the subsequent steps until the end.
    > [!NOTE]
    >Each database used by Workflow Manager and Service Bus will need to be specified when rejoining the farm with SharePoint Workflow Manager. For example, the SQL Server instance and database name for the Workflow Manager farm management database and the Service Bus farm management database.
