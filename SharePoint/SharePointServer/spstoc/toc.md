@@ -386,7 +386,7 @@
 ##### [Configure Microsoft 365 for SharePoint hybrid](../hybrid/configure-office-365-for-sharepoint-hybrid.md)
 ##### [Set up SharePoint services for hybrid environments](../hybrid/set-up-sharepoint-services-for-hybrid-environments.md)
 ##### [Configure server-to-server authentication](../hybrid/configure-server-to-server-authentication.md)
-##### [Run Hybrid Picker](../hybrid/run-hybrid-picker.md)
+##### [Run Hybrid Configuration wizard](../hybrid/run-hybrid-picker.md)
 ##### [Configure inbound connectivity](../hybrid/configure-inbound-connectivity.md)
 ##### [Configure a reverse proxy device for SharePoint Server hybrid](../hybrid/configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md)
 ###### [Configure Web Application Proxy for a hybrid environment](../hybrid/configure-web-application-proxy-for-a-hybrid-environment.md)

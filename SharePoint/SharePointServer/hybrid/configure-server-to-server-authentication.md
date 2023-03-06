@@ -30,7 +30,7 @@ description: Learn how to build a server-to server trust between SharePoint Serv
 This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.
 
 > [!NOTE]
-> We recommend using the [SharePoint Hybrid Configuration Wizard](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to establish the Server-to-Server authentication between SharePoint Server and SharePoint in Microsoft 365. If you are unable to use the Hybrid Picker for any reason, follow the steps in this article to enable server-to-server authentication.
+> We recommend using the [SharePoint Hybrid Configuration wizard](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to establish the Server-to-Server authentication between SharePoint Server and SharePoint in Microsoft 365. If you are unable to use the Hybrid Configuration wizard for any reason, follow the steps in this article to enable server-to-server authentication.
 
 ## Configure server-to-server authentication
 

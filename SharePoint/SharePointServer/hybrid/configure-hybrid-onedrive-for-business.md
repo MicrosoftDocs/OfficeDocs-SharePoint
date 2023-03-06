@@ -74,7 +74,7 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
     
 3. Click **Go to Hybrid Picker Download Page**.
     
-4. On the SharePoint in Microsoft 365 Hybrid Picker page, select **click here**.
+4. On the SharePoint in Microsoft 365 Hybrid Configuration wizard page, select **click here**.
     
 5. Accept the security prompts to install and run the wizard.
     
