@@ -62,7 +62,7 @@ A phased implementation schedule for existing EU customers is listed below.
 |File share Scans|File share scans can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
 |Active Stream migration|Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
 
-## Changing the Agent configuration for file share migrations
+## How to change the agent configuration for file share migrations
 
 >[!Important]
 >After April 1,  the **Scans** tab for File Share migrations becomes read-only for US projects. 
