@@ -1,6 +1,6 @@
 ---
-ms.date: 03/01/2023
-title: "Restrict access control for SharePoint sites"
+ms.date: 03/07/2023
+title: "Restrict access to a SharePoint site by Microsoft 365 group"
 ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
@@ -16,7 +16,7 @@ ms.collection: M365-collaboration
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
-# Restrict access control for SharePoint sites
+# Restrict access to a SharePoint site by Microsoft 365 group membership
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -88,8 +88,8 @@ Audit events are available in Microsoft Purview compliance portal to help you mo
 
 ## Related articles
 
-[Microsoft Syntex Advanced Management overview](advanced-management.md)
+[Microsoft Syntex - SharePoint Advanced Management overview](advanced-management.md)
 
-[Manage site access based on sensitivity label](authentication-context-example.md)
+[Conditional access policy for sites and OneDrives](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
