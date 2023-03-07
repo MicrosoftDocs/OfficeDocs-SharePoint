@@ -63,7 +63,9 @@ SharePoint Server 2016, 2019, and Subscription Edition can handle certain upgrad
 ## Determine the update strategy
 <a name="verifystrategy"> </a>
 
-Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint Server 2016, 2019, or Subscription Edition environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md), [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md), and [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md)..
+Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint Server 2016, 2019, or Subscription Edition environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. 
+
+For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md), [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md), and [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).
 
 > [!NOTE]
 > Certain links in this article go to content that is about version-to-version upgrade rather than build-to-build upgrade. However, the general process is similar for the two types of upgrade. For example, the database upgrade phase is essentially the same for build-to-build upgrade and version-to-version upgrade.
@@ -123,7 +125,9 @@ The following illustration shows the steps that are required to install the upda
 
 9. Review the upgrade log files to verify that all the web servers were updated successfully.
 
-10. Run the SharePoint Products Configuration Wizard on the Central Administration server (APP-1). This upgrades the configuration database and upgrade each content database. For information about how to run the wizard, see [Install SharePoint Server 2016 across multiple servers](/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers) in the article [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md).
+10. Run the SharePoint Products Configuration Wizard on the Central Administration server (APP-1). This upgrades the configuration database and upgrade each content database. 
+
+    For information about how to run the wizard, see [Install SharePoint Server 2016 across multiple servers](/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers) in the article [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md).
 
 11. Run the SharePoint Products Configuration Wizard on the other application servers.
 
@@ -251,7 +255,9 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
 
 6. Run the SharePoint Products Configuration Wizard or PSConfig (as in step 4 of this procedure) on the web servers (WEB-1 to WEB-4).
 
-7. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2013](./verify-upgrade.md), [Verify database upgrades in SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases), [Verify database upgrades in SharePoint Server 2019](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-2019), and [Verify database upgrades in SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-subscription-edition) .
+7. Verify update completion and success. 
+   
+   For more information, see [Verify database upgrades in SharePoint 2013](./verify-upgrade.md), [Verify database upgrades in SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases), [Verify database upgrades in SharePoint Server 2019](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-2019), and [Verify database upgrades in SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-subscription-edition) .
 
 8. Add the upgraded web servers (WEB-1 to WEB-4) back into rotation in the load balancer.
 
@@ -262,7 +268,9 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
 
 To ensure high availability for existing content, this scenario uses read-only databases on the existing farm. You install the update on a new farm and route user traffic to the new farm after updates are complete.
 
-The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. For more information, see [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](./upgrade-content-databases.md), [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-databases-2019), and [Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-databases-subscription-edition).
+The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. 
+
+For more information, see [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](./upgrade-content-databases.md), [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-databases-2019), and [Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-databases-subscription-edition).
 
 ![Install a software update using database attach for high availability of existing content](../media/ba874356-d7e7-4b62-9494-982bb7102a07.jpg)
 
@@ -270,7 +278,9 @@ Use the preceding illustration as a guide to follow the recommended steps in the
 
 ### To install the update by using the database-attach method
 
-1. Create a new farm where you'll install the software update. This farm doesn't require front-end web servers. For more info, see [Create the SharePoint 2016 farm for a database attach upgrade](./create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md), [Create the SharePoint Server 2019 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade), and [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade).
+1. Create a new farm where you'll install the software update. This farm doesn't require front-end web servers. 
+   
+   For more info, see [Create the SharePoint 2016 farm for a database attach upgrade](./create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md), [Create the SharePoint Server 2019 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade), and [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade).
 
     > [!NOTE]
     > If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm.
