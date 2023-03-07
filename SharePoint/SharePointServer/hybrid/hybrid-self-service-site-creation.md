@@ -52,7 +52,7 @@ Configuring hybrid self-service site creation is done by using the Hybrid Config
 
 4. Under **Hybrid picker**, select **Open**.
     
-5. On the **SharePoint Hybrid Configuration Wizard** page, select **Hybrid Picker**.
+5. On the hybrid picker page, select **Hybrid Picker**.
     
 6. Follow the wizard, and when prompted, select **Hybrid self-service site creation**. 
     
