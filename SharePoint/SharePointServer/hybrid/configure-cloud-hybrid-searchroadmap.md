@@ -57,7 +57,7 @@ To complete the configuration steps you'll need these items:
     
 - The search architecture plan you made for cloud hybrid search.
     
-- If you'll use the [Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) wizard to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.3](https://www.microsoft.com/download/details.aspx?id=53321) installed.
+- If you'll use the [Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.2 or higher](https://dotnet.microsoft.com/download/dotnet-framework/net462) installed.
     
 - If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902). You'll also need the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) and the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8).
     
@@ -68,7 +68,7 @@ If you already completed step 1 when you configured a different hybrid solution,
 |Step  <br/> |Description  <br/> |
 |:-----|:-----|
 |**1. [Configure Microsoft 365 for SharePoint hybrid](./configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your on-premises user accounts with Microsoft 365.  <br/> |
-|**2. [Create a cloud Search service application in SharePoint Server](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateCloudSSA)** <br/> |Run the Hybrid Configuration Wizard on the application farm that hosts the SharePoint ServerCentral Administration website.  <br/> Alternatively, run the **CreateCloudSSA.ps1** PowerShellscript  <br/> |
+|**2. [Create a cloud Search service application in SharePoint Server](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateCloudSSA)** <br/> |Run the Hybrid Configuration Wizard on the application farm that hosts the SharePoint Server Central Administration website.  <br/> Alternatively, run the **CreateCloudSSA.ps1** PowerShell script.  <br/> |
 |**3. [Connect your cloud Search service application to your Microsoft 365 organization](configure-cloud-hybrid-searchroadmap.md#BKMK_ConnectCloudSSAToO365)** <br/> |If you used the Hybrid Configuration Wizard to create a cloud Search service application, skip this step. The Hybrid Configuration Wizard automatically connected your environments.  <br/> Otherwise, run the **Onboard-CloudHybridSearch.ps1** PowerShell script to onboard your cloud SSA and Microsoft 365 organization to cloud hybrid search. The script sets up the cloud SSA to interact with the Microsoft 365 organization and also sets up server-to-server authentication.  <br/> |
 |**4. [Set up search architecture in SharePoint Server for cloud hybrid search](configure-cloud-hybrid-searchroadmap.md#BKMK_SetupSearchArch)** <br/> |This step is optional. If you planned a search architecture that's different from the default one, set up the planned search architecture.  <br/> |
 |**5. [Create a content source for cloud hybrid search to crawl](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateOnPremContentSource)** <br/> |We recommend adding a small file share first, you can add more on-premises content later.  <br/> |
@@ -118,7 +118,7 @@ To create a cloud SSA by running the **CreateCloudSSA.ps1** PowerShell script, f
 > [!NOTE]
 > When you installed SharePoint Server, the user account from which you ran the installation was granted the appropriate permissions to run Windows PowerShell cmdlets. 
   
-On the application server that hosts the SharePoint ServerCentral Administration website, follow these steps:
+On the application server that hosts the SharePoint Server Central Administration website, follow these steps:
   
 1. Make sure you're using the same user account as when you installed SharePoint Server. This account is granted the appropriate permissions to run Window Powershell cmdlets.
     
@@ -160,7 +160,7 @@ This section guides you how to onboard your cloud SSA and Microsoft 365 organiza
     
 - **Configuring server-to-server authentication** - Server-to-server authentication allows servers to access and request resources from one another on behalf of users. 
     
-On the application server that hosts the SharePoint ServerCentral Administration website, follow these steps:
+On the application server that hosts the SharePoint Server Central Administration website, follow these steps:
   
 1. Ensure that the date and time of the server is synchronized with the other servers in the SharePoint Server farm.
     

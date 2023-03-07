@@ -40,7 +40,7 @@ First, you need to ensure you meet the prerequisites in your SharePoint Server o
 
  **Prerequisites to run the Hybrid Configuration Wizard**
 
-The Hybrid Configuration Wizard requires the [.NET Framework 4.6.2](https://www.microsoft.com/download/details.aspx?id=53321) in order to run. 
+The Hybrid Configuration Wizard requires the [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462) in order to run. 
 
 To run the Hybrid Configuration Wizard, you must be:
 
@@ -50,7 +50,7 @@ To run the Hybrid Configuration Wizard, you must be:
 
 - A Microsoft 365 Global Admin, either with or without multi-factor authentication (MFA) enabled for the account.
 
-- Signed in to Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
+- Signed in to Microsoft 365, SharePoint Server, and SharePoint Server Subscription Edition from a server in your SharePoint Server farm.
 
 - Able to launch the Hybrid Configuration Wizard as a Farm Admin with elevated permissions.
 
