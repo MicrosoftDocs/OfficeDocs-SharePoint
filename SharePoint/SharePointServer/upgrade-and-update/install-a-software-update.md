@@ -262,7 +262,7 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
 
 To ensure high availability for existing content, this scenario uses read-only databases on the existing farm. You install the update on a new farm and route user traffic to the new farm after updates are complete.
 
-The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. For more information, see [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](./upgrade-content-databases.md).
+The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. For more information, see [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](./upgrade-content-databases.md), [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-databases-2019), and [Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-databases-subscription-edition).
 
 ![Install a software update using database attach for high availability of existing content](../media/ba874356-d7e7-4b62-9494-982bb7102a07.jpg)
 
@@ -270,7 +270,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
 
 ### To install the update by using the database-attach method
 
-1. Create a new farm where you'll install the software update. This farm doesn't require front-end web servers. For more info, see [Create the SharePoint 2016 farm for a database attach upgrade](./create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md).
+1. Create a new farm where you'll install the software update. This farm doesn't require front-end web servers. For more info, see [Create the SharePoint 2016 farm for a database attach upgrade](./create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md), [Create the SharePoint Server 2019 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade), and [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade).
 
     > [!NOTE]
     > If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm.
@@ -284,8 +284,8 @@ Use the preceding illustration as a guide to follow the recommended steps in the
 
 3. Configure the service application databases on the existing farm so that they are in a read-only state. This prevents unexpected changes to service applications.
 
-   >[!NOTE]
-   >Steps 4 through 14 do not apply to SharePoint Foundation 2013, SharePoint Server 2016, and SharePoint Server 2019.
+   > [!NOTE]
+   > Steps 4 through 13 do not apply to SharePoint Foundation 2013, SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition.
 
 4. If you're patching the User Profile Service service application database, you must export the User Profile Synchronization Service encryption key from the old database, and then import the key to the new database. This key is also known as the Microsoft Identity Integration Server (MIIS) key, the Synchronization Service encryption key, and the Forefront Identity Manager 2010 (FIM 2010) key. If you don't export and then import the key correctly, the Synchronization Service won't start. To export the encryption key, complete these steps:
 
@@ -461,7 +461,7 @@ Perform the procedures in this section only when they're pointed to from other p
 
 ### Determine server availability groups for update with minimal downtime
 
-1. Start a SharePoint 2016 Management Shell on any server in the farm.
+1. Start a SharePoint Management Shell on any server in the farm.
 
 2. Determine the primary Search administration component and the server that hosts the component by typing the following commands at the PowerShell command prompt:
 
@@ -496,7 +496,7 @@ Perform the procedures in this section only when they're pointed to from other p
 Prior to restarting a server from running a software update or Configuration Wizard, you must stop Distributed Cache to prevent unallocated cache fractions. Follow the process outlined [here](../administration/manage-the-distributed-cache-service.md#perform-a-graceful-shutdown-of-the-distributed-cache-service-by-using-a-powershell-script) to gracefully shutdown Distributed Cache.
 
 >[!IMPORTANT]
-> Do not use `Stop-SPDistributedCacheServiceInstance -Graceful` as this will terminate Distributed Cache prior to the cache being transferred to another server in the farm.
+> Do not use `Stop-SPDistributedCacheServiceInstance -Graceful` for SharePoint Server 2013, SharePoint Server 2016, and SharePoint Server 2019 as this will terminate Distributed Cache prior to the cache being transferred to another server in the farm. But `Stop-SPDistributedCacheServiceInstance -Graceful` can be used for SharePoint Server Subscription Edition.
 
 ### Troubleshoot software updates on servers that host Search components
 
