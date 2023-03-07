@@ -54,7 +54,6 @@ A phased implementation schedule for existing EU customers is listed below.
 
 ## What does that mean for me?
 
-
 |If you have...|Impact to you|Recommendation|
 |:---------------|:-----|:-----|
 |No existing migrations|None|No action required.|
