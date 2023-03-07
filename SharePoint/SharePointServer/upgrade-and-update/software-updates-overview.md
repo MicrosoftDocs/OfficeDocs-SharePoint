@@ -60,7 +60,7 @@ Microsoft releases Public Updates each month. The first update is known as the l
 The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
 
 > [!NOTE]
-> From March 2023 PU, Microsoft will release a single “uber” patch for SharePoint Server Subscription Edition that contains all of the fixes that previously would have been released in those separate sts-x-none and wssloc patches.
+> From March 2023 PU, Microsoft will release a single “uber” patch for SharePoint Server Subscription Edition that contains all of the fixes that previously would have been released in those separate 'sts-x-none' and 'wssloc' patches.
 
 > [!IMPORTANT]
 > If a language dependent patch isn't available for a given month, update to the latest previously available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language independent update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
@@ -158,7 +158,9 @@ During this phase of the cycle, you learn about requirements to install the upda
   
 #### Requirements and prerequisites
 
-First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md), [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019), and [System requirements for SharePoint Server Subscription Edition](/sharepoint/install/system-requirements-for-sharepoint-subscription-edition). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
+First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md), [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019), and [System requirements for SharePoint Server Subscription Edition](/sharepoint/install/system-requirements-for-sharepoint-subscription-edition). 
+
+Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
   
 #### Update strategy
 
