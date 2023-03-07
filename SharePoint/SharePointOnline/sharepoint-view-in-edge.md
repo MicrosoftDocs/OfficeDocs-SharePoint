@@ -39,7 +39,9 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 2. Ensure that Window instances are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances that are enrolled for device management.
 
-3. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) policy for Microsoft Edge that allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer. Use the options below to enable View in File Explorer using group policy or Intune:
+3. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) policy for Microsoft Edge that allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer. 
+
+Use the options below to enable View in File Explorer using group policy or Intune:
 
    - **To enable by using group policy**:
 
