@@ -95,7 +95,7 @@ When you're ready to continue, perform only one of the following procedures in t
 ## Use the in-place method without backward compatibility
 <a name="usinginplace"> </a>
 
-In this scenario you disable incoming requests to the front-end web servers, thus effectively shutting down the entire farm. Then you install the update on all the farm servers. This strategy combines the update and the build-to-build upgrade phase that is described in the [Software updates overview for SharePoint Server 2016](./software-updates-overview-for-sharepoint-server-2013.md#updateprocess) section of [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md).
+In this scenario you disable incoming requests to the front-end web servers, thus effectively shutting down the entire farm. Then you install the update on all the farm servers. This strategy combines the update and the build-to-build upgrade phase that is described in the [Software updates overview for SharePoint Server 2016](/sharepoint/upgrade-and-update/software-updates-overview#software-update-process) section of [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md).
 
 The following illustration shows the steps that are required to install the update on the farm. You can use the illustration as a guide as you go through the steps in the procedure that follows ("To install an update without backward compatibility").
 
@@ -123,7 +123,7 @@ The following illustration shows the steps that are required to install the upda
 
 9. Review the upgrade log files to verify that all the web servers were updated successfully.
 
-10. Run the SharePoint Products Configuration Wizard on the Central Administration server (APP-1). This upgrades the configuration database and upgrade each content database. For information about how to run the wizard, see [Install SharePoint Server 2016 across multiple servers](../install/multiple-servers-for-a-three-tier-farm.md#CreateConfigure) in the article [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md).
+10. Run the SharePoint Products Configuration Wizard on the Central Administration server (APP-1). This upgrades the configuration database and upgrade each content database. For information about how to run the wizard, see [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers?branch=main#create-and-configure-the-farm) in the article [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md).
 
 11. Run the SharePoint Products Configuration Wizard on the other application servers.
 
@@ -182,7 +182,7 @@ The following illustration shows the steps that are required to install the upda
 
 6. Add the updated web servers (WEB-3 and WEB-4) back to the load-balancing rotation.
 
-7. Install the update on all application servers that host Search components (APP-1 and APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](#install-a-software-update-on-servers-that-host-search-components) which appears later in this article, and then return to the next step in this procedure. Don't run the SharePoint Products Configuration Wizard at this time.
+7. Install the update on all application servers that host Search components (APP-1 and APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](#install-a-software-update-on-servers-that-host-search-components) which appears later in this article, and then return to the next step in this procedure. Don't run the SharePoint Products Configuration Wizard at this time. 
 
 8. If your farm has additional application servers that don't host Search components, run the update executable file to install the update on these servers. Don't run the SharePoint Products Configuration Wizard on these servers at this time.
 
@@ -251,7 +251,7 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
 
 6. Run the SharePoint Products Configuration Wizard or PSConfig (as in step 4 of this procedure) on the web servers (WEB-1 to WEB-4).
 
-7. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2013](./verify-upgrade.md).
+7. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2013](./verify-upgrade.md), [Verify database upgrades in SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases), [Verify database upgrades in SharePoint Server 2019](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-2019), and [Verify database upgrades in SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/verify-upgrade-for-databases-subscription-edition) .
 
 8. Add the upgraded web servers (WEB-1 to WEB-4) back into rotation in the load balancer.
 
