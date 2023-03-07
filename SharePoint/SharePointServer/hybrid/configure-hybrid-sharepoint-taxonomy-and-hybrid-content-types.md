@@ -51,7 +51,7 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 
 ## Migrate your taxonomy from SharePoint Server
 
-If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint in Microsoft 365 before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint in Microsoft 365 to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
+If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint in Microsoft 365 before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint in Microsoft 365 to add to the shared taxonomy later, but if you do, you may need to run the Hybrid Configuration Wizard again to include them in the shared taxonomy.
   
 The migration process copies taxonomy groups from SharePoint Server to SharePoint in Microsoft 365. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet. 
   
@@ -118,7 +118,7 @@ The content types will be copied into https://contoso.sharepoint.com/sites/conte
 
 ## Configure hybrid SharePoint taxonomy
 
-Configuration of hybrid SharePoint taxonomy is done using the Hybrid Configuration wizard in the SharePoint admin center. The Hybrid Configuration wizard has a number of prerequisites. Be sure to read [Hybrid Configuration wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) before you follow the procedures in this section. 
+Configuration of hybrid SharePoint taxonomy is done using the Hybrid Configuration Wizard in the SharePoint admin center. The Hybrid Configuration Wizard has a number of prerequisites. Be sure to read [Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) before you follow the procedures in this section. 
   
 We also recommend that you back up your term store before you proceed.
   
@@ -134,9 +134,9 @@ For taxonomy replication to work properly, the account that runs the SharePoint 
     
 3. Add the timer service account to the **Term Store Administrators** box, and then select **Save**.
     
- **Configure hybrid SharePoint taxonomy using the Hybrid Configuration wizard**
+ **Configure hybrid SharePoint taxonomy using the Hybrid Configuration Wizard**
   
-The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Configuration wizard in the SharePoint admin center.
+The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Configuration Wizard in the SharePoint admin center.
   
  **To configure hybrid SharePoint taxonomy**
   
@@ -188,9 +188,9 @@ The [Stop-SPContentTypeReplication](/powershell/module/sharepoint-server/?view=s
 Stop-SPContentTypeReplication
 ```
 
-If you wish to reenable taxonomy replication again, you must run the Hybrid Configuration wizard again.
+If you wish to reenable taxonomy replication again, you must run the Hybrid Configuration Wizard again.
   
-If you simply want to reconfigure which taxonomy groups you are replicating, there's no need to stop replication. You can just run the Hybrid Configuration wizard again and specify the new taxonomy groups that you want to replicate.
+If you simply want to reconfigure which taxonomy groups you are replicating, there's no need to stop replication. You can just run the Hybrid Configuration Wizard again and specify the new taxonomy groups that you want to replicate.
   
 ## See also
 

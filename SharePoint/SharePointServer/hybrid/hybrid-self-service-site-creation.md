@@ -35,12 +35,12 @@ This setting can be configured independently for each web application in your fa
   
 Hybrid self-service site creation is available in SharePoint Server 2013 with the March 2017 PU. <br> Hybrid self-service site creation is available in SharePoint 2016 with November 2017 PU. 
   
-## Configure hybrid self-service site creation using the Hybrid Configuration wizard
+## Configure hybrid self-service site creation using the Hybrid Configuration Wizard
 
-Configuring hybrid self-service site creation is done by using the Hybrid Configuration wizard in the SharePoint admin center.
+Configuring hybrid self-service site creation is done by using the Hybrid Configuration Wizard in the SharePoint admin center.
   
 > [!NOTE]
-> If you've previously configured other hybrid features with the Hybrid Configuration wizard, you can go directly to the SharePoint Central Administration website to manage hybrid self-service site creation. In this case, the hybrid connection has been made and there's no need to run the Hybrid Configuration wizard again.
+> If you've previously configured other hybrid features with the Hybrid Configuration Wizard, you can go directly to the SharePoint Central Administration website to manage hybrid self-service site creation. In this case, the hybrid connection has been made and there's no need to run the Hybrid Configuration Wizard again.
   
  **To configure hybrid self-service site creation**
   
@@ -52,13 +52,13 @@ Configuring hybrid self-service site creation is done by using the Hybrid Config
 
 4. Under **Hybrid picker**, select **Open**.
     
-5. On the hybrid picker page, select **Hybrid Picker**.
+5. On the **SharePoint Hybrid Configuration Wizard** page, select **Hybrid Picker**.
     
 6. Follow the wizard, and when prompted, select **Hybrid self-service site creation**. 
     
 7. When prompted, select the web application with which you want to use hybrid self-service site creation.
     
-When the Hybrid Configuration wizard completes, hybrid self-service site creation will be enabled for the web application that you selected.
+When the Hybrid Configuration Wizard completes, hybrid self-service site creation will be enabled for the web application that you selected.
   
 ## Manage hybrid self-service site creation
 

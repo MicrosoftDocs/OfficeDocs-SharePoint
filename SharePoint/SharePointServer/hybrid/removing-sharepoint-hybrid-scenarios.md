@@ -58,7 +58,7 @@ See [Manage hybrid self-service site creation](./hybrid-self-service-site-creati
 
 ## Removing the Azure Access Control Service Application Proxy and SharePoint in Microsoft 365 Application Principal Management Service Application Proxy
 
-The final step to removing hybrid is to delete the **Azure Access Control Service Application Proxy** and **SharePoint Application Principal Management Service Application Proxy** created by the Hybrid Configuration wizard.
+The final step to removing hybrid is to delete the **Azure Access Control Service Application Proxy** and **SharePoint Application Principal Management Service Application Proxy** created by the Hybrid Configuration Wizard.
 
 1. In the **Central Administration** website, select **Application Management**.
 2. In the **Application Management** page, select **Manage service applications**.

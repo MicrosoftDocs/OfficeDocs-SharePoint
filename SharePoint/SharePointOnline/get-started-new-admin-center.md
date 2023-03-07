@@ -129,7 +129,7 @@ If you're used to working in the classic SharePoint admin center, to learn where
 |geo locations      |     [Advanced > Geo locations](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true)  |         |
 |access control      |    [Policies > Access control](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
 |data migration      |    [Migration](https://admin.microsoft.com/sharepoint?page=migration&modern=true)     |     The new Migration Manager lets you migrate from on-premises file shares and SharePoint Server sites as well as popular cloud providers. This feature isn't available if you're signed in as a global reader. [Learn more about Migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)    |
-|User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (Hybrid Configuration wizard). |   [More features](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
+|User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (Hybrid Configuration Wizard). |   [More features](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
 
 
 ## See also

@@ -1,5 +1,5 @@
 ---
-title: "Run Hybrid Configuration wizard"
+title: "Run Hybrid Configuration Wizard"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -21,21 +21,21 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: d10d1262-7127-424e-a0a8-1f3c5d42dd85
-description: "Learn to run Hybrid Configuration wizard in Microsoft 365 for enterprises."
+description: "Learn to run Hybrid Configuration Wizard in Microsoft 365 for enterprises."
 ---
 
-# Run Hybrid Configuration wizard
+# Run Hybrid Configuration Wizard
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedure in this article. **
   
-Hybrid Configuration wizard is located in Microsoft 365 for enterprises, and you can use it to help you configure certain hybrid scenarios between Microsoft 365 and SharePoint Server.
+Hybrid Configuration Wizard is located in Microsoft 365 for enterprises, and you can use it to help you configure certain hybrid scenarios between Microsoft 365 and SharePoint Server.
   
 > [!NOTE]
-> If you're using a pop-up blocker with your browser, be sure to turn it off before running the Hybrid Configuration wizard.
+> If you're using a pop-up blocker with your browser, be sure to turn it off before running the Hybrid Configuration Wizard.
   
- **To run Hybrid Configuration wizard**
+ **To run Hybrid Configuration Wizard**
   
 1. Log in to the console of a SharePoint Server farm server as a farm admin.
     
@@ -43,5 +43,4 @@ Hybrid Configuration wizard is located in Microsoft 365 for enterprises, and you
     
 3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176).
     
-4. To configure your hybrid features, follow the prompts in Hybrid Picker.
-    
+4. To configure your hybrid features, follow the prompts in Hybrid Configuration Wizard.

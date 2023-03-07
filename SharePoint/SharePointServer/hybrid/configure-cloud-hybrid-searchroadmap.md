@@ -68,8 +68,8 @@ If you already completed step 1 when you configured a different hybrid solution,
 |Step  <br/> |Description  <br/> |
 |:-----|:-----|
 |**1. [Configure Microsoft 365 for SharePoint hybrid](./configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your on-premises user accounts with Microsoft 365.  <br/> |
-|**2. [Create a cloud Search service application in SharePoint Server](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateCloudSSA)** <br/> |Run the Hybrid Configuration wizard on the application farm that hosts the SharePoint ServerCentral Administration website.  <br/> Alternatively, run the **CreateCloudSSA.ps1** PowerShellscript  <br/> |
-|**3. [Connect your cloud Search service application to your Microsoft 365 organization](configure-cloud-hybrid-searchroadmap.md#BKMK_ConnectCloudSSAToO365)** <br/> |If you used the Hybrid Configuration wizard to create a cloud Search service application, skip this step. The Hybrid Configuration wizard automatically connected your environments.  <br/> Otherwise, run the **Onboard-CloudHybridSearch.ps1** PowerShell script to onboard your cloud SSA and Microsoft 365 organization to cloud hybrid search. The script sets up the cloud SSA to interact with the Microsoft 365 organization and also sets up server-to-server authentication.  <br/> |
+|**2. [Create a cloud Search service application in SharePoint Server](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateCloudSSA)** <br/> |Run the Hybrid Configuration Wizard on the application farm that hosts the SharePoint ServerCentral Administration website.  <br/> Alternatively, run the **CreateCloudSSA.ps1** PowerShellscript  <br/> |
+|**3. [Connect your cloud Search service application to your Microsoft 365 organization](configure-cloud-hybrid-searchroadmap.md#BKMK_ConnectCloudSSAToO365)** <br/> |If you used the Hybrid Configuration Wizard to create a cloud Search service application, skip this step. The Hybrid Configuration Wizard automatically connected your environments.  <br/> Otherwise, run the **Onboard-CloudHybridSearch.ps1** PowerShell script to onboard your cloud SSA and Microsoft 365 organization to cloud hybrid search. The script sets up the cloud SSA to interact with the Microsoft 365 organization and also sets up server-to-server authentication.  <br/> |
 |**4. [Set up search architecture in SharePoint Server for cloud hybrid search](configure-cloud-hybrid-searchroadmap.md#BKMK_SetupSearchArch)** <br/> |This step is optional. If you planned a search architecture that's different from the default one, set up the planned search architecture.  <br/> |
 |**5. [Create a content source for cloud hybrid search to crawl](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateOnPremContentSource)** <br/> |We recommend adding a small file share first, you can add more on-premises content later.  <br/> |
 |**6. [Set up a separate Search Center in Office 365 to validate hybrid search results](configure-cloud-hybrid-searchroadmap.md#BKMK_SetupValidationSearchCenter)** <br/> |Keep the existing search experience unchanged by setting up a separate Search Center in Office 365 so you can validate and tune the new search experience there.  <br/> |
@@ -86,7 +86,7 @@ The cloud SSA lets you crawl and add metadata from on-premises content to the se
 > [!NOTE]
 > If your organization restricts computers from connecting to the internet, you need to allow access to the endpoints (FQDNs) that cloud hybrid search uses. Include the endpoints in your outbound allow lists. The endpoints are listed in the SharePoint in Microsoft 365 section of the article [Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) and are marked for use with Hybrid Search. 
   
-Use the Hybrid Configuration wizard to connect your SharePoint Server and Microsoft 365 environments and create the cloud Search service application.
+Use the Hybrid Configuration Wizard to connect your SharePoint Server and Microsoft 365 environments and create the cloud Search service application.
   
 On the application server that hosts the SharePoint Server Central Administration website:
   
@@ -97,13 +97,13 @@ On the application server that hosts the SharePoint Server Central Administratio
    - Application Administrator
    - Cloud Application Administrator
     
-3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Configuration wizard.
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Configuration Wizard.
     
-4. Follow the prompts in the Hybrid Configuration wizard and select the hybrid search feature.
+4. Follow the prompts in the Hybrid Configuration Wizard and select the hybrid search feature.
   
-The Hybrid Configuration wizard lets you choose between a cloud SSA with the default search architecture on the application server that hosts the SharePoint Server Central Administration website, or a cloud SSA with a search architecture on **two** application servers (supports [high availability](../search/plan-enterprise-search-architecture.md#BKMK_HiAvail))
+The Hybrid Configuration Wizard lets you choose between a cloud SSA with the default search architecture on the application server that hosts the SharePoint Server Central Administration website, or a cloud SSA with a search architecture on **two** application servers (supports [high availability](../search/plan-enterprise-search-architecture.md#BKMK_HiAvail))
     
-The Hybrid Configuration wizard saves you time because it also connects the cloud SSA to your Microsoft 365 organization (step 3).
+The Hybrid Configuration Wizard saves you time because it also connects the cloud SSA to your Microsoft 365 organization (step 3).
   
 ### Alternative methods for creating a cloud Search service application
 
@@ -152,7 +152,7 @@ If you want to make your own PowerShell script for creating a cloud SSA, first s
 <a name="BKMK_ConnectCloudSSAToO365"> </a>
 
 > [!NOTE]
-> If you used the Hybrid Configuration wizard to create a cloud Search service application, then you can skip this step.
+> If you used the Hybrid Configuration Wizard to create a cloud Search service application, then you can skip this step.
   
 This section guides you how to onboard your cloud SSA and Microsoft 365 organization to cloud hybrid search and covers:
   

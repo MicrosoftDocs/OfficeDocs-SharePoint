@@ -46,7 +46,7 @@ Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint 
     
 - Hybrid content types requires the June 2017 public update or later.
     
-Configuration of both features uses the Hybrid Configuration wizard in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) as you plan your hybrid SharePoint taxonomy rollout.
+Configuration of both features uses the Hybrid Configuration Wizard in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) as you plan your hybrid SharePoint taxonomy rollout.
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   
@@ -64,7 +64,7 @@ The Taxonomy Groups Replication SharePoint Server timer job polls SharePoint in 
   
 If you already have a taxonomy in SharePoint Server, you can copy it to SharePoint in Microsoft 365 by using PowerShell. This allows you to create your master taxonomy from your existing SharePoint Server and SharePoint in Microsoft 365 taxonomies, while maintaining the IDs of the terms, term sets, and term groups in those taxonomies.
   
-We recommend that you copy your taxonomy to SharePoint in Microsoft 365 before you set up hybrid SharePoint taxonomy. You can do so at a later time, but you'll have to rerun the Hybrid Configuration wizard in order to turn on replication for those groups.
+We recommend that you copy your taxonomy to SharePoint in Microsoft 365 before you set up hybrid SharePoint taxonomy. You can do so at a later time, but you'll have to rerun the Hybrid Configuration Wizard in order to turn on replication for those groups.
   
  **Local term sets**
   
