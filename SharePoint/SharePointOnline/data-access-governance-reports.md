@@ -25,7 +25,11 @@ description: "In this article, you'll learn about reports that can help you gove
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As security and compliance requirements increase across industries and the amount of business data grows exponentially, organizations need tools to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
+As sprawl and oversharing of SharePoint sites increase with exponential data growth, organizations need to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
+
+## Requirements
+
+This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
 
 ## Access the reports in the SharePoint admin center
 
