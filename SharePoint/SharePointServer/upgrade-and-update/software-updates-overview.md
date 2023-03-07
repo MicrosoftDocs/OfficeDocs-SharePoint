@@ -59,6 +59,9 @@ Microsoft releases Public Updates each month. The first update is known as the l
 
 The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
 
+> [!NOTE]
+> From March 2023 PU, Microsoft will release a single “uber” patch for SharePoint Server Subscription Edition that contains all of the fixes that previously would have been released in those separate sts-x-none and wssloc patches.
+
 > [!IMPORTANT]
 > If a language dependent patch isn't available for a given month, update to the latest previously available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language independent update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
   
@@ -107,7 +110,7 @@ The patch phase involves running the update on each SharePoint Server in the far
 > [!NOTE]
 > No specific order of installation in a farm is required.
 
-The patch phase has two steps, the patch deployment step and the binaries deployment step. During the patch deployment step, new binary files are copied to the server running SharePoint Server 2016. Services that use files that the patch has to replace are temporarily stopped. Stopping services reduces the requirement to restart the server to replace files that are being used. However, in some instances you have to restart the server.
+The patch phase has two steps, the patch deployment step and the binaries deployment step. During the patch deployment step, new binary files are copied to the server running SharePoint Server 2016, 2019, or Subscription Edition. Services that use files that the patch has to replace are temporarily stopped. Stopping services reduces the requirement to restart the server to replace files that are being used. However, in some instances you have to restart the server.
   
 The second step in the patch phase is the binaries deployment step. In this step, the installer copies support dynamic link library (.dll) files to the appropriate directories on the server that is running SharePoint Server 2016, 2019, or Subscription Edition. This step ensures that all the web applications are running the correct version of the binary files and will function correctly after the update is installed. The update phase is complete after the binaries deployment step.
   
@@ -155,7 +158,7 @@ During this phase of the cycle, you learn about requirements to install the upda
   
 #### Requirements and prerequisites
 
-First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
+First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md), [Hardware and software requirements for SharePoint Server 2019](/sharepoint/install/hardware-and-software-requirements-2019), and [System requirements for SharePoint Server Subscription Edition](/sharepoint/install/system-requirements-for-sharepoint-subscription-edition). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
   
 #### Update strategy
 
