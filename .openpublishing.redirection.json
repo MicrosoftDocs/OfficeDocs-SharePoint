@@ -918,7 +918,7 @@
     {
       "source_path": "SharePoint/SharepointOnline/viva-connections-desktop.md",
       "redirect_url": "/viva/connections/viva-connections-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
