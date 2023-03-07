@@ -23,7 +23,7 @@ description: "Learn how to install and configure workflow in SharePoint Server."
 This article contains the information and procedures required to configure Workflow Manager in SharePoint Server.
 
 > [!NOTE]
->There are two separate products. Microsoft Workflow Manager and SharePoint Workflow Manager. Microsoft Workflow Manager is no longer available to be installed, whereas SharePoint Workflow Manager has been released to replace it. Hence, the instructions outlined in this document explain how to install SharePoint Workflow Manager.
+>There are two separate workflow engine products that power the SharePoint 2013 Workflow platform: Microsoft Workflow Manager and SharePoint Workflow Manager is no longer available to be installed, whereas SharePoint Workflow Manager has been released to replace it. Hence, the instructions outlined in this document explain how to install SharePoint Workflow Manager.
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server. The SharePoint 2013 Workflow platform is not supported in SharePoint Foundation 2013. 
@@ -75,7 +75,7 @@ SharePoint Workflow Manager requires Azure Service Fabric, which must be install
 
 ### Install SharePoint Workflow Manager
 
-SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downloaded from [here](https://www.microsoft.com/en-us/download/details.aspx?id=104867).
+SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downloaded from [here](https://www.microsoft.com/download/details.aspx?id=104867).
 Install SharePoint Workflow Manager and SharePoint Workflow Manager Client both on all servers in the Workflow Manager farm.
 Install SharePoint Workflow Manager Client on all servers in the SharePoint Server farm.
 
@@ -178,7 +178,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
 > [!IMPORTANT]
 > You must install the SharePoint Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
-**To configure SharePoint Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
+u**To configure SharePoint Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
 1. Determine whether you need to install SharePoint Workflow Manager certificates in SharePoint 2013.
     
