@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2020
 title: "Information architecture principles in SharePoint"
 ms.reviewer: 
 ms.author: matteva
@@ -118,3 +119,4 @@ Once you have established a basic working structure for global, hub, or local le
 Learn more about navigation basics like how to write effective labels, how to test findability, and how to use menu styles.
 
 [**Next: learn about SharePoint information architecture models and examples**](information-architecture-models-examples.md)
+

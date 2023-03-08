@@ -1,4 +1,5 @@
 ---
+ms.date: 08/21/2020
 title: Guided walkthrough- Creating a Hub site for your organization
 ms.reviewer:
 ms.author: matteva
@@ -177,3 +178,4 @@ For more details on using the People web part, see [Show people profiles on your
 ### Want more?
 
 Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://lookbook.microsoft.com/details/5b5ef75c-2acc-410e-8c60-3ee01e7acfc8).
+

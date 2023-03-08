@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage site admins"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -45,6 +46,11 @@ By using the new<a href="https://go.microsoft.com/fwlink/?linkid=2185219" target
 
 2. In the left column, select a site.
   
-3. Select **Permissions**. For a group-connected team site, you can add and remove group owners and additional site admins. For other sites, you can add and remove site admins and change the primary admin. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md). 
+3. Select **Membership** on the command bar to open the details panel. For a group-connected team site, you can add and remove group owners and additional site admins. For other sites, you can add and remove site admins and change the primary admin. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md). 
 
 ![Changing admins for a team site](media/change-admins.png)
+
+4. In the details panel, you can add or remove the owners, members, site admins, site owners, site members, and site visitors.
+
+:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of changing membership from details panel":::
+

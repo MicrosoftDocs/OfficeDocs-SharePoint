@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -71,20 +72,20 @@ You can also limit domains at the site collection level. Note the following cons
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-2. Select the site that you want to restrict domains on.
+2. Select the site name that you want to restrict domains to open the details panel.
  
-3. On the **Policies** tab, under **External sharing**, select **Edit**.
+3. On the panel, select the **Settings** tab and select **More sharing settings** under **External file sharing**.
     
-2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
+4. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
+5. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
-4. List the domains (maximum of 500) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+6. List the domains (maximum of 500) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
 
-5. Select **Save**, and then select **Save** again.  
+7. Select **Save**, and then select **Save** again.  
 
     > [!NOTE]
     > To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) PowerShell cmdlet.
@@ -99,7 +100,7 @@ After you limit sharing by domain, here's what you'll see when you share a docum
     
     ![Screenshot of sharing error message when sharing with blocked user.](media/fb280460-388d-4596-9938-6b69101d11fb.png)
 
-- **Sharing OneDrive files with guests on domains that aren't allowed.** If a users tries to share a OneDrive file with a guest whose email domain isn't allowed, an error message will display and sharing will not be allowed.
+- **Sharing OneDrive files with guests on domains that aren't allowed.** If a user tries to share a OneDrive file with a guest whose email domain isn't allowed, an error message will display and sharing will not be allowed.
 
     ![Screenshot of error message when sharing OneDrive files with blocked users.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
   
@@ -118,3 +119,4 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
 [Extranet for Partners with Microsoft 365](create-b2b-extranet.md)
   
 [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)
+

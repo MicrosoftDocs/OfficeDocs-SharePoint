@@ -1,4 +1,5 @@
 ---
+ms.date: 12/02/2021
 title: "Migrated Flow structure when using SPMT"
 ms.reviewer:
 ms.author: jhendr
@@ -93,3 +94,4 @@ For auto or manual triggered three state Power Automate flow, the following conf
 |Email message|Initial|- SendEmail (Whether to send email)</br>- IncludeTaskAssignedTo (Whether to include task assigner in to-list)</br>- ToList (Email to-list)</br>- SubjectTextIncludeTitle (Whether to include task title in email subject text)</br>- SubjectText (Email subject text)</br>- BodyTextIncludeLink (Whether to include item link in email message)</br>- BodyText (Email body text)</br>|
 |Task|Middle|**Task Title**</br>- CustomMessageText2 (custom message)</br>- CustomMessageField2 (Field included in task title)</br>**Task Description**</br>- CustomMessageTextBody2 (Task description/custom message)</br>- CustomMessageBodyField2 (Field included in task body)</br>**Task Assign To**</br>- TaskAssignedToCustom2 (Task assigners is the value of an item field, or Task assigners are customized)</br>- AssignedToField2 (Task assigner field)</br>- CustomAssignedTo2 (Customized task assigners)|
 |E-mail message| Middle|- SendEmail2 (Whether to send email)</br> - IncludeTaskAssignedTo2 (Whether to include task assigner in to-list) </br>- ToList2 (Email to-list) </br>- SubjectTextIncludeTitle2 (Whether to include task title in email subject text)</br> - SubjectText2 (Email subject text)</br> - BodyTextIncludeLink2 (Whether to include item link in email message)</br>- BodyText2 (Email body text)|
+

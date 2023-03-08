@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Configure backup and restore permissions in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -138,4 +139,5 @@ You might also have to grant additional permissions to the users who run the bac
 [Prepare to back up and restore farms in SharePoint Server](prepare-to-back-up-and-restore.md)
   
 [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
+
 

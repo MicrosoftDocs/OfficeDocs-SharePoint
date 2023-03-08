@@ -1,4 +1,5 @@
 ---
+ms.date: 10/05/2020
 title: How does Migration Manager work for file share migrations
 ms.author: jhendr
 author: JoanneHendrickson
@@ -82,4 +83,5 @@ If your key is lost or obtained by someone else, there are two defenses in place
 
 >[!Important]
 >Only those who have the key have access to the container. Other users in the subscription or the tenant do not have access.
+
 

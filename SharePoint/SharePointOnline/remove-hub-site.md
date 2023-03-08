@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Remove a hub site"
 ms.reviewer: metorres
 ms.author: mikeplum
@@ -35,7 +36,7 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 >[!NOTE]
 >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-2. Select the site, select **Hub**, and then select **Unregister as hub site**.
+2. Select the site, select **Hub** on the command bar, and then select **Unregister as hub site**.
 
     ![Unregistering a hub site](media/unregister-hub-site.png)
 
@@ -44,3 +45,4 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 ## Related topics
 
 To learn how to use Microsoft PowerShell to manage and delete hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
+

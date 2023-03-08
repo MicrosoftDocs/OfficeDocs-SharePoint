@@ -1,4 +1,5 @@
 ---
+ms.date: 01/28/2019
 title: "Change the sharing settings for a site"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -41,13 +42,13 @@ To change the external sharing setting:
     
 2. In the left column, select a site.
 
-3. Select **Sharing**.
+3. Select **Sharing** on the command bar.
      
 4. Select an external sharing option (see the table in the next section).
 
     ![Changing the external sharing setting for a site](media/external-sharing-site.png)
 
-5. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box, and add the domains that you want to allow or block.
+5. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box by expanding **Advanced settings for external sharing**, and add the domains that you want to allow or block.
 
 6. If you want to change the default sharing link type or permissions for this site, clear the **Same as organization-level setting** check boxes and set the values that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
 
@@ -93,3 +94,4 @@ The table below shows the default sharing setting for each site type.
 [File collaboration in SharePoint with Microsoft 365](deploy-file-collaboration.md)
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)
+

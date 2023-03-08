@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2020
 title: "Plan and implement SharePoint site navigation"
 ms.reviewer: 
 ms.author: matteva
@@ -154,3 +155,4 @@ Curating a navigation experience for intranets and digital workplaces comprised 
 What really matters in navigation experiences is "information scent" – whether the [label for the link](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca#write-clear-and-intuitive-labels) provides an adequate clue about where the "click" will go. It is the quality of the label and whether the label fulfills its promise that has the highest impact on usability. Viewers are willing to click to find information if they are confident that with each click, they are headed in the right direction – closer to their goal.
 
 "Information scent" on SharePoint sites can be achieved with **clear, mutually exclusive labels** for links and labels lists and libraries that clearly tell viewers what they will find. You can improve your navigation by spending time testing to make sure that the navigation labels resonate with your viewers and following the guidance for labels recommended in this document. Your navigation outcomes will be most successful if you take the time to understand your viewers, their key "tasks and asks," and design navigation experiences that keep their promises.
+

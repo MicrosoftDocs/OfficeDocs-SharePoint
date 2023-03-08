@@ -1,4 +1,5 @@
 ---
+ms.date: 07/16/2018
 title: "Change the default sharing link for a site"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -56,7 +57,7 @@ For info about the changing this setting at the organization level, see [File an
     
 2. In the left column, click to select a site.
 
-3. Select **Sharing**.
+3. Select **Sharing** on the command bar.
 
 4. Under **Default sharing link type**, clear the **Same as organization-level setting** checkbox.
 
@@ -76,3 +77,4 @@ For more information about this scenario, see [Use sensitivity labels to configu
 ## Related topics
 
 [Turn external sharing on or off for a site](change-external-sharing-site.md)
+

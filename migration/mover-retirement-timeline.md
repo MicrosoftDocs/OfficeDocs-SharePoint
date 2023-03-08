@@ -1,4 +1,5 @@
 ---
+ms.date: 05/19/2022
 title: Mover retirement timeline
 author: JoanneHendrickson
 ms.author: jhendr
@@ -17,15 +18,19 @@ description: "Mover retirement timeline"
 ---
 # Mover.io retirement timeline
 
->[!Note]
->Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
->
->[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+Moving to Microsoft 365? **Migration Manager** will help you migrate your content easily and securely.
 
+## Mover retirement
 
 >[!Important]
->
->All FastTrack-led migrations will transition to Migration Manager except those with multi-parent folders who have reached velocity migrations. These exceptions will need to finish their migrations by December 31, 2022.
+>**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+
+>[!Important]
+>All FastTrack-led migrations have transitioned to Migration Manager
+
+>[!Note]
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+
 
 Mover's cloud migration scenarios are fully available in Migration Manager and have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
 
@@ -58,5 +63,6 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
-**Question:** Is tenant-to-tenant migration supported in Migration Manager?</br>
-**Answer:**  No. Currently, Microsoft plans to offer a solution during 2023. The solution is expected to be a premium feature that's distinct from legacy Mover. In the interim, we recommend using a third-party solution for your Microsoft 365 tenant-to-tenant migration needs.
+**Question:** Is a tenant-to-tenant migration solution available?</br>
+**Answer:**  A new Cross-tenant OneDrive capability has been developed outside of Migration Manager and is now available. Learn more here: [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+

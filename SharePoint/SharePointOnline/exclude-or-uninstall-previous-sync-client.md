@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
 ms.author: mikeplum
@@ -81,3 +82,4 @@ For more info about Office channels, see [Overview of update channels for Micros
 ## Related topics
 
 [Learn more about the Sync button update on SharePoint sites](https://support.office.com/article/9762aef3-d17f-4486-aae3-9c20bb979cbf)
+

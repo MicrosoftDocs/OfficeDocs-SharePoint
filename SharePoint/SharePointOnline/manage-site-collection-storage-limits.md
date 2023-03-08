@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Manage site storage limits"
 ms.reviewer: trgreen
 ms.author: mikeplum
@@ -76,9 +77,9 @@ Follow these steps to specify individual site storage limits when your storage m
     >[!NOTE]
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-2. Click a site, or for a channel site, select the link in the **Channel sites** column.
+2. In the left column, select the site, or for a channel site, select the link in the **Channel sites** column.
 
-3. Under **Storage limit**, select **Edit**.
+3. Select **Storage** on the command bar to open edit storage limit panel.
 
     ![Changing the storage limit for a site](media/site-storage-limit.png)
     
@@ -195,3 +196,4 @@ After the script successfully completes, a text file is created in the location 
 
 > [!NOTE]
 > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
+
