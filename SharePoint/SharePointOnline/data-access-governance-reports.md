@@ -2,8 +2,8 @@
 ms.date: 03/01/2023
 title: "Data access governance insights for SharePoint sites"
 ms.reviewer: karthig
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
