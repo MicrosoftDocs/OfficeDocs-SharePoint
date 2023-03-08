@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Backup and restore best practices in SharePoint Server"
 ms.reviewer:
 ms.author: serdars
@@ -166,3 +167,4 @@ Remote BLOB Storage (RBS) is supported in a SharePoint Server farm. There are bo
 ### Other Resources
 
 [Transparent Data Encryption](https://social.technet.microsoft.com/wiki/contents/articles/34201.configuring-tde-in-sharepoint-content-databases.aspx)
+

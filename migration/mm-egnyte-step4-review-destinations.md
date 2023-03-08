@@ -1,4 +1,5 @@
 ---
+ms.date: 01/22/2021
 title: "Review the destination paths for your Egnyte migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr

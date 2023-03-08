@@ -1,4 +1,5 @@
 ---
+ms.date: 10/30/2020
 title: "Using the scan feature in Mover"
 ms.reviewer:
 ms.author: jhendr
@@ -221,3 +222,4 @@ Establish a naming convention for who to migrate, such as shown here:
 Here is an example of how the comments should look in the Pre-Scan results tab:
 
 ![Scan comments](media/mover-excel-scan-comments.png)
+

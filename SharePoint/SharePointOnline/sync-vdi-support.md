@@ -1,4 +1,5 @@
 ---
+ms.date: 04/23/2019
 title: "Use the sync app on virtual desktops"
 ms.reviewer: sraja
 ms.author: mikeplum
@@ -53,3 +54,4 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 Learn more about [VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD](/windows/desktop/vstor/about-vhd).
 
 For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/18/2019
 title: "Modernize your root site"
 ms.reviewer: waynewin
 ms.author: mikeplum
@@ -83,7 +84,7 @@ We recommend replacing the root site at a time when site usage is low.
 
 4. Select the root site (https<i></i>://contoso.<i></i>sharepoint.com).
 
-5. Select **Replace site**.
+5. Select **Replace site** on the command bar.
 
     ![The Replace root site panel in the new SharePoint admin center](media/replace-root-site.png)
 
@@ -101,3 +102,4 @@ We recommend replacing the root site at a time when site usage is low.
 
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.
+

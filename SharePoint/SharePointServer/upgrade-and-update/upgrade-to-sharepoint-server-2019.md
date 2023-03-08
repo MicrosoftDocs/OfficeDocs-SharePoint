@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Upgrade to SharePoint Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ The following articles provide information about performing an upgrade to ShareP
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md) <br/> |Find out how to upgrade a site collection to SharePoint Server 2019.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Video: Cleanup of databases after upgrade procedure](video-cleanup-of-databases-after-upgrade-procedure.md) <br/> |Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Servers 2016 and 2019 databases after a successful upgrade procedure.  <br/> |
    
+
 

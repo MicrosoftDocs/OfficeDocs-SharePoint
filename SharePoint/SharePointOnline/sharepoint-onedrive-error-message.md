@@ -1,4 +1,5 @@
 ---
+ms.date: 02/27/2019
 title: "Sharing errors in SharePoint and OneDrive"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -290,3 +291,4 @@ Try sharing again.
 [Manage sharing settings](turn-external-sharing-on-or-off.md)
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)
+

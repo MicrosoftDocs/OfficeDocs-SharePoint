@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "SharePoint and OneDrive unmanaged device access controls for administrators"
 ms.reviewer: samust
 ms.author: mikeplum
@@ -78,7 +79,7 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
-    >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and  select **Policies** to expand, then  select **Access Control**.
 
 2. Select **Unmanaged devices**.
 
@@ -203,3 +204,4 @@ Blocking access and blocking download may impact the user experience in some app
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
+

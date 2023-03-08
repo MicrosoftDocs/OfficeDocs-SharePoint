@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
 ms.author: mikeplum
@@ -61,7 +62,7 @@ The following policies control the Known Folder Move feature:
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    :::image type="content" source="media/kfm-prompt-windows.png" alt-text="Screenshot of the dialog that prompts users to back up their important folders.":::
+    :::image type="content" source="media/kfm-prompt-windows-1.png" alt-text="Screenshot of the dialog that prompts users to back up their important folders.":::
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
@@ -117,3 +118,4 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share.
   3. Enable Known Folder Move Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
+

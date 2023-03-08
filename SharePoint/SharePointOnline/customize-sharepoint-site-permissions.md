@@ -1,4 +1,5 @@
 ---
+ms.date: 10/15/2018
 title: "Customize SharePoint site permissions"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -167,4 +168,5 @@ If you have customized a permission level or created a new permission level, you
     > [!NOTE]
     >  To see the Site Collection Administrators link, you must be a site collection administrator, or a Global Administrator or SharePoint Administrator in your organization. This link is not displayed to site owners. 
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/26/2020
 title: "Sharing settings in the new SharePoint admin center"
 ms.reviewer: srice
 manager: serdars
@@ -69,3 +70,4 @@ This article covers all the features on the sharing page in the classic SharePoi
 
 
  
+

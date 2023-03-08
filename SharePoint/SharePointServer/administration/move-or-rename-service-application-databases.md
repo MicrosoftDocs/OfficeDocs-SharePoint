@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2018
 title: "Move or rename service application databases in SharePoint Server"
 ms.reviewer:
 ms.author: serdars
@@ -956,3 +957,4 @@ In some environments, you must coordinate the rename and move procedures with th
 #### Concepts
 
 [Move all databases in SharePoint Server](move-all-databases.md)
+

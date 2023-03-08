@@ -1,4 +1,5 @@
 ---
+ms.date: 12/21/2018
 title: "Migration performance guide for SharePoint & OneDrive"
 ms.reviewer:
 ms.author: jhendr
@@ -206,3 +207,4 @@ We welcome feedback and encourage you to submit suggestions or questions that wi
 ## Related articles
 
 [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: mikeplum

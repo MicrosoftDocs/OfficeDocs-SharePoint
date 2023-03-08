@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: "Sign out inactive users"
 ms.reviewer: samust
 manager: serdars
@@ -98,3 +99,4 @@ If users don't select **Continue**, they're automatically signed out, and the fo
 > It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use **Get-SPOBrowserIdleSignOut**.
 >
 > For info about Microsoft 365 session lengths (regardless of activity), see [Session timeouts for Microsoft 365](/office365/enterprise/session-timeouts).
+

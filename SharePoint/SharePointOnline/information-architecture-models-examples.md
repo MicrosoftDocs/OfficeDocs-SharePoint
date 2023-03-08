@@ -1,4 +1,5 @@
 ---
+ms.date: 09/19/2020
 title: "Information architecture models and examples"
 ms.reviewer: 
 ms.author: matteva
@@ -157,3 +158,4 @@ This presents a convenient way to showcase links to all the external sites manag
 A site can only be associated to one hub. However, you can increase discovery by adding navigational links to other hubs or other sites in your hub navigation.
 
 [**Next: learn how to get started planning and implementing SharePoint navigational design**](plan-implement-navigation-design.md)
+

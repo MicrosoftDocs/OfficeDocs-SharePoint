@@ -1,4 +1,5 @@
 ---
+ms.date: 11/26/2019
 title: "Admin center site permissions reference"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -25,7 +26,7 @@ description: "Learn about site permissions that you can configure in the SharePo
 
 # Admin center site permissions reference
 
-On the **Permissions** tab, you can manage permissions for the site and also for any associated Microsoft 365 group or Microsoft Teams team. These roles are specific to the selected site or group and don't give users access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
+On the **Membership** tab, you can manage permissions for the site and also for any associated Microsoft 365 group or Microsoft Teams team. These roles are specific to the selected site or group and don't give users access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 ## Site admins
 
@@ -65,3 +66,4 @@ There are additional [permission levels](understanding-permission-levels.md) in 
 [External sharing overview](external-sharing-overview.md)
 
 [Overview of Microsoft 365 Groups for administrators](/office365/admin/create-groups/office-365-groups)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/11/2021
 title: "Associate a hub site to another hub site in the SharePoint admin center"
 ms.reviewer:
 ms.author: matteva
@@ -61,7 +62,7 @@ The following diagram illustrates how hub sites can be associated to other hubs 
 ![Image of the hub management panel in the SharePoint admin center](media/hub-settings-admin-2.png)
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
-2. Select the hub site that you'd like to make an association to, then select **Hub settings** in the command bar to open to hub settings panel.
+2. Select the hub site that you'd like to make an association. Then select **Hub** on the command bar and select **Edit hub site settings** to open to hub settings panel.
 3. Next, select a hub to associate to in the **Parent hub association** field. Hubs that are available for association will appear here.
 4. To confirm which hubs have already been associated with your hub site, select **View child hubs associated to this hub**.
 5. Select **Save**.
@@ -102,3 +103,4 @@ To view the parent hub association, select **Settings** and then **Hub site sett
 <br>
 
 [Set up your SharePoint hub site](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098)
+
