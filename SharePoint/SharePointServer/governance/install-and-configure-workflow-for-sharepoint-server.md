@@ -82,7 +82,7 @@ Install SharePoint Workflow Manager Client on all servers in the SharePoint Serv
 ### Install and configure SharePoint Server
 <a name="section3"> </a>
 
-Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../install/install).
+Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../install/install.md).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires either Microsoft Workflow Manager or SharePoint Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. To function correctly SharePoint 2013 Workflows require that the App Management Service and Site Subscription Service are provisioned. It is not required to set up a wildcard certificate and DNS registration but both instances need to be running.. 
@@ -225,7 +225,7 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
    > [!NOTE]
    >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService.
 
-9. Rerun, select, and confirm the subsequent steps until the end of the wizard.
+9. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.
    > [!NOTE]
    >You only need to run this step once on any server in the Workflow Manager farm.
 
