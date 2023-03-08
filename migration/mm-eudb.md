@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager and the European Union database (EUDB)"
+title: "Migration Manager and the European Union Data Boundary (EUDB)"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Learn about the changes to Migration Manager for the European Union and how data is processed.
+description: Learn about the changes to Migration Manager for the European Union DAta Boundary.
 ---
 
 # Migration Manager and the European Union Data Boundary (EUDB)
