@@ -43,10 +43,6 @@ Advantages of Azure AD B2B include:
 
 This integration isn't supported in the following Microsoft 365 services:
 - Office 365 operated by 21Vianet
-- GCC High and DoD
-
- > [!NOTE]
- > At this time, customers in national and restricted clouds who enable Azure B2B Integration with SharePoint Online won't be able to share files and folders with recipients outside those environments.
 
 ## Enabling the integration
 
