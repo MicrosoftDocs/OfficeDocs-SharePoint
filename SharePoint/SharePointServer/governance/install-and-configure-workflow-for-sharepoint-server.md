@@ -178,7 +178,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
 > [!IMPORTANT]
 > You must install the SharePoint Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
-u**To configure SharePoint Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
+**To configure SharePoint Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
 1. Determine whether you need to install SharePoint Workflow Manager certificates in SharePoint 2013.
     
