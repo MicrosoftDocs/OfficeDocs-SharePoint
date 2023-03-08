@@ -23,13 +23,13 @@ description: "Learn how to install and configure workflow in SharePoint Server."
 This article contains the information and procedures required to configure Workflow Manager in SharePoint Server.
 
 > [!NOTE]
->There are two separate workflow engine products that power the SharePoint 2013 Workflow platform: Microsoft Workflow Manager and SharePoint Workflow Manager is no longer available to be installed, whereas SharePoint Workflow Manager has been released to replace it. Hence, the instructions outlined in this document explain how to install SharePoint Workflow Manager.
+>There are two separate workflow engine products that power the SharePoint 2013 Workflow platform: Microsoft Workflow Manager and SharePoint Workflow Manager. Microsoft Workflow Manager is no longer available to be installed, whereas SharePoint Workflow Manager has been released to replace it. Hence, the instructions outlined in this document explain how to install SharePoint Workflow Manager.
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server. The SharePoint 2013 Workflow platform is not supported in SharePoint Foundation 2013. 
   
 > [!NOTE]
-> You can watch a video series that walks through the process of installing and configuring the SharePoint 2013 Workflow platform. To view the videos, see [Video series: Install and configure Workflow in SharePoint Server 2013](video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
+> You can watch a video series that walks through the process of installing and configuring the SharePoint 2013 Workflow platform. To view the videos, see [Video series: Install and configure Workflow in SharePoint Server 2013](video-series-install-and-configure-workflow-in-sharepoint-server-2013.md).
 
 Learn about [Workflows for SharePoint in Microsoft 365](../../SharePointOnline/extend-and-develop.md).
 ## Overview
@@ -85,7 +85,7 @@ Install SharePoint Workflow Manager Client on all servers in the SharePoint Serv
 Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../install/install.md).
   
 > [!NOTE]
-> The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires either Microsoft Workflow Manager or SharePoint Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. To function correctly SharePoint 2013 Workflows require that the App Management Service and Site Subscription Service are provisioned. It is not required to set up a wildcard certificate and DNS registration but both instances need to be running.. 
+> The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires either Microsoft Workflow Manager or SharePoint Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. To function correctly SharePoint 2013 Workflows require that the App Management Service and Site Subscription Service are provisioned. It is not required to set up a wildcard certificate and DNS registration but both instances need to be running. 
 
 ### Configure SharePoint Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>
