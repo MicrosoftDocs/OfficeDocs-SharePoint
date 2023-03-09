@@ -55,7 +55,7 @@ To run the Hybrid Configuration Wizard, you must be:
 - Able to launch the Hybrid Configuration Wizard as a Farm Admin with elevated permissions.
 
 > [!IMPORTANT]
-> The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid.
+> The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition installed. Launch it in the environment you want to use for your SharePoint hybrid.
 
 ## SharePoint Hybrid features offered in the Hybrid Configuration Wizard
 
