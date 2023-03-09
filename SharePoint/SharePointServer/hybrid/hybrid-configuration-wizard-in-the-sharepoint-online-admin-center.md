@@ -50,7 +50,7 @@ To run the Hybrid Configuration Wizard, you must be:
 
 - A Microsoft 365 Global Admin, either with or without multi-factor authentication (MFA) enabled for the account.
 
-- Signed in to Microsoft 365, SharePoint Server, and SharePoint Server Subscription Edition from a server in your SharePoint Server farm.
+- Signed in to Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
 
 - Able to launch the Hybrid Configuration Wizard as a Farm Admin with elevated permissions.
 
