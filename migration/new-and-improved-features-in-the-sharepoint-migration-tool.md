@@ -104,7 +104,6 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-
 ## SPMT 3.5.123.5
 
 **New features**
