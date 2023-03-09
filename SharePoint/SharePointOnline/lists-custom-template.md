@@ -25,7 +25,7 @@ description: "Add and remove custom templates and change who has permission to a
 As a Global Administrator or SharePoint Administrator in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
 
 > [!NOTE]
-> Custom list templates area only available in [targeted release](/microsoft-365/admin/manage/release-options-in-office-365). 
+> Custom list templates are only available in [targeted release](/microsoft-365/admin/manage/release-options-in-office-365). 
 
 You can create and manage custom list templates using Microsoft PowerShell:
 
