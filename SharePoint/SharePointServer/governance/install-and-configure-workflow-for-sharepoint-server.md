@@ -165,7 +165,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
     Before you can run the workflow pairing cmdlet, you must install SharePoint Workflow Manager Client on each of the servers in the SharePoint farm.
     
-3. Open the SharePoint Management Shell as an administrator by right-clicking the **SharePoint 2013 Management Shell** command and choosing **Run as administrator**.
+3. Open the SharePoint Management Shell as an administrator by right-clicking the **SharePoint Management Shell** command and choosing **Run as administrator**.
     
 4. Run the **Register-SPWorkflowService** cmdlet. The cmdlet should be run only once and can be run from any of the servers in the SharePoint farm. 
     
@@ -180,7 +180,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   
 **To configure SharePoint Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
-1. Determine whether you need to install SharePoint Workflow Manager certificates in SharePoint 2013.
+1. Determine whether you need to install SharePoint Workflow Manager certificates in SharePoint Server.
     
     Under some circumstances, you have to obtain and install SharePoint Workflow Manager certificates. If your installation requires that you obtain and install these certificates, you must complete that step before continuing. To learn whether you need to install certificates, and for instructions, see [Install Workflow Manager certificates in SharePoint Server](install-workflow-manager-certificates-in-sharepoint-server.md).
     
