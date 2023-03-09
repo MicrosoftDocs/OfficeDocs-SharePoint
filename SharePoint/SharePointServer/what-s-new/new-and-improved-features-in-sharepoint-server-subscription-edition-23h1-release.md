@@ -28,14 +28,14 @@ Learn about the new features and updates introduced in the SharePoint Server Sub
 
 The following table provides the list of new features and updates to existing features in SharePoint Server Subscription Edition.
 
-|**Feature**|**Release rings**|**More information**|
+|**Feature**|**Release ring**|**More information**|
 |:-----|:-----|:-----|
-|**Copy and move improvement in modern document library** <br/> |Standard release  <br/> |For more information, see [Copy and move improvement in modern document library](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#copy-and-move-improvement-in-modern-document-library).<br/> This was part of *Early release* in the 22H2 feature update.|
-|**Bulk editing in modern lists** <br/> |Standard release <br/> |For more information, see [Bulk editing in modern lists](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#bulk-editing-in-modern-lists).  <br/> This was part of *Early release* in the 22H2 feature update.|
-|**Column formatting enhancement** <br/> |Standard release <br/> |For more information, see [Column formatting enhancement](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#column-formatting-enhancement). <br/> This was part of *Early release* in the 22H2 feature update.|
-|**Button web part** <br/> |Standard release  <br/> |For more information, see [Button web part](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#button-web-part). <br/> This was part of *Early release* in the 22H2 feature update.|
-|**Choose the default site language in the modern self-service site creation pane** <br/> |Standard release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane). <br/> This was part of *Early release* in the 22H2 feature update.|
-|**New SharePoint RESTful ListData.svc implementation** <br/> |Standard release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#new-sharepoint-restful-listdatasvc-implementation). <br/> This was part of *Early release* in the 22H2 feature update.|
+|**Copy and move improvement in modern document library** <br/> |Standard release  <br/> |For more information, see [Copy and move improvement in modern document library](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#copy-and-move-improvement-in-modern-document-library).<br/> <br/>This was part of *Early release* in the Version 22H2 feature update.|
+|**Bulk editing in modern lists** <br/> |Standard release <br/> |For more information, see [Bulk editing in modern lists](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#bulk-editing-in-modern-lists). <br/> <br/> This was part of *Early release* in the Version 22H2 feature update.|
+|**Column formatting enhancement** <br/> |Standard release <br/> |For more information, see [Column formatting enhancement](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#column-formatting-enhancement). <br/> <br/> This was part of *Early release* in the Version 22H2 feature update.|
+|**Button web part** <br/> |Standard release  <br/> |For more information, see [Button web part](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#button-web-part).  <br/> <br/> This was part of *Early release* in the Version 22H2 feature update.|
+|**Choose the default site language in the modern self-service site creation pane** <br/> |Standard release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane). <br/> <br/> This was part of *Early release* in the Version 22H2 feature update.|
+|**New SharePoint RESTful ListData.svc implementation** <br/> |Standard release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release#new-sharepoint-restful-listdatasvc-implementation). <br/> <br/> This was part of *Early release* in the Version 22H2 feature update.|
 |**Unified "uber" patches** <br/> |Standard release <br/> |For more information, see [Unified "uber" patches](#unified-uber-patches). <br/>  |
 |**Support for SharePoint Framework (SPFx) version 1.5.1** <br/> |Standard release <br/> |For more information, see [Support for SharePoint Framework (SPFx) version 1.5.1](#sfsf).  <br/> |
 |**New PowerShell cmdlets for variations feature** <br/> |Standard release <br/> |For more information, see [New PowerShell cmdlets for variations feature](#new-powershell-cmdlets-for-variations-feature).  <br/> |
@@ -64,9 +64,9 @@ To simplify the process of updating your SharePoint Server farm, Microsoft will 
 
 The single uber updates are cumulative, so you only need to install the latest uber update to be fully up to date with all of the latest fixes for SharePoint Server Subscription Edition. It isn’t necessary to install any of the previous STS or WSSLOC updates before installing the uber update. No additional STS or WSSLOC updates will be released after the February 2023 public updates.
 
-Customers should remember to run the SharePoint upgrade actions in their farm after installing a new update to complete the patching and upgrade process. For more information, see the [Upgrade to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition).
+Customers should remember to run the SharePoint upgrade actions in their farm after installing a new update to complete the patching and upgrade process. For more information, see [Upgrade to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition).
 
-For more information, see [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview?branch=pr-en-us-4897) and [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update?branch=pr-en-us-4897).
+For more information, see [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview?branch=pr-en-us-4897), and [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update?branch=pr-en-us-4897).
 
 <a name="sfsf"> </a>
 ### Support for SharePoint Framework (SPFx) version 1.5.1
@@ -75,13 +75,6 @@ Previous versions of SharePoint Server Subscription Edition supported SharePoint
 
 This is one step on our long-term journey to improve and expand the capabilities of SharePoint Framework in SharePoint Server Subscription Edition.
 For more information about SharePoint Framework version 1.5.1, see [SharePoint Framework v1.5.1 release notes](/sharepoint/dev/spfx/release-1.5.1).
-
-### SharePoint Hybrid Configuration Wizard supports running on Windows Server Core
-
-SharePoint Server Subscription added support for running on Windows Server Core, a leaner Windows Server deployment type that minimizes the number of OS features and services that are installed and running to only those that are essential for a server. However, the SharePoint Hybrid Configuration Wizard didn't support running on Windows Server Core due to some component dependencies that required Windows Server with Desktop Experience. Customers had to have at least one server in their SharePoint farm running on Windows Server with Desktop Experience if they wanted to use the SharePoint Hybrid Configuration Wizard to configure hybrid functionality within their farm.
-
-Starting with the 23H1 feature update, the SharePoint Hybrid Configuration Wizard has been redesigned to no longer have a dependency on components that require Windows Server with Desktop Experience. As a result, customers can now run the SharePoint Hybrid Configuration Wizard on Windows Server Core. Customers will no longer need to keep at least one server in their farm running Windows Server with Desktop Experience to configure hybrid functionality within their farm.
-Although the SharePoint Hybrid Configuration Wizard has now added support for Windows Server Core, it also remains compatible with Windows Server with Desktop Experience.
 
 ### New PowerShell cmdlets for variations feature
 
@@ -140,4 +133,4 @@ For more information, see [Use the Quick Chart web part](https://support.microso
   
 ### Improved file picker
   
-SharePoint Server Subscription Edition Version 23H1 improves the modern file picker (used by the Quick Links and File Viewer web parts) to support more file types: more productivity documents (pdf, Visio), text and code (txt), videos (mp4, mkv, m4v, etc.), and audio (mp3, ogg, wav, etc.). 
+SharePoint Server Subscription Edition Version 23H1 improves the modern file picker used by the Quick Links and File Viewer web parts. The Quick Links web part file picker can now support more file types such as PDF, TXT, MP4, M4V, MP3, OGG, and WAV. The File Viewer web part file picker can now support PDF files.
