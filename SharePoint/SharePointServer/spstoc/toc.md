@@ -170,7 +170,7 @@
 #### [Software updates overview](../upgrade-and-update/software-updates-overview.md)
 #### [Install a software update](../upgrade-and-update/install-a-software-update.md)
 #### [Video demo of Zero Downtime Patching in SharePoint Server 2016](../upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md)
-#### [SharePoint Server 2016 zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
+#### [SharePoint Server zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
 #### [Video: How to enable Remote Windows PowerShell to use with SharePoint Server](../upgrade-and-update/video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md)
 ### [Upgrade from SharePoint 2010 to SharePoint 2013](../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md)
 #### [Get started with upgrade](../upgrade-and-update/get-started-with-upgrade-2013.md)
