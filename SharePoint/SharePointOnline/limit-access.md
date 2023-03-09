@@ -1,8 +1,8 @@
 ---
 ms.date: 03/01/2023
 title: "Restrict OneDrive access by security group"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
