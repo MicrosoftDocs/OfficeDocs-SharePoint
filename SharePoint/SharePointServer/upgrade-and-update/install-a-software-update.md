@@ -127,7 +127,7 @@ The following illustration shows the steps that are required to install the upda
 
 10. Run the SharePoint Products Configuration Wizard on the Central Administration server (APP-1). This upgrades the configuration database and upgrade each content database. 
 
-    For information about how to run the wizard, see [Install SharePoint Server 2016 across multiple servers](/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers) in the article [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md).
+    For information about how to run the wizard, see [Install SharePoint Server across multiple servers](/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers) for SharePoint Server 2016, 2019, or Subscription Edition. See [Install SharePoint 2013 across multiple servers for a three-tier farm](../install/multiple-servers-for-a-three-tier-farm.md) for SharePoint 2013.
 
 11. Run the SharePoint Products Configuration Wizard on the other application servers.
 
