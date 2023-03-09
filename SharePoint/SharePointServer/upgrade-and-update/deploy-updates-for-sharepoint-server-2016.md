@@ -37,7 +37,7 @@ Microsoft periodically releases software updates for SharePoint Server 2016, 201
 |[Software updates overview for SharePoint Server 2016, 2019 and Subscription Edition](software-updates-overview.md) <br/> |Provides an overview of the software update process for SharePoint Server 2016, 2019, and Subscription Edition.  <br/> |
 |[Install a software update for SharePoint Server 2016, 2019 and Subscription Edition](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
 |[Video demo of Zero Downtime Patching in SharePoint Server 2016](video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md) <br/> |Learn how to patch a software update on servers in a SharePoint farm.  <br/> |   
-|[SharePoint Server 2016 zero downtime patching steps](sharepoint-server-2016-zero-downtime-patching-steps.md) <br/> |Learn the steps to patch a software update on servers in a SharePoint farm.  <br/> |
+|[SharePoint Server zero downtime patching steps](sharepoint-server-2016-zero-downtime-patching-steps.md) <br/> |Learn the steps to patch a software update on servers in a SharePoint farm.  <br/> |
 |[Video: How to enable Remote Windows PowerShell to use with SharePoint Server](video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md) <br/> |Learn how to enable remote PowerShell to use with servers in a SharePoint farm.  <br/> |
 
 
