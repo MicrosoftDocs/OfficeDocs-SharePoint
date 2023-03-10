@@ -459,7 +459,9 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
 ## Related Topics
 <a name="__ref341258429"> </a>
 
-[Overview of crawled and managed properties in SharePoint](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md)
+[Overview of crawled and managed properties in SharePoint Online](../crawled-and-managed-properties-overview.md)
+
+[Overview of crawled and managed properties in SharePoint Server](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md)
   
 [Overview of the search schema in SharePoint Server](../SharePointServer/search/search-schema-overview.md)
   
