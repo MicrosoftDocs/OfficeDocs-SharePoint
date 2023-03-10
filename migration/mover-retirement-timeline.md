@@ -23,7 +23,9 @@ Moving to Microsoft 365? **Migration Manager** will help you migrate your conten
 ## Mover retirement
 
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
 
 >[!Important]
 >All FastTrack-led migrations have transitioned to Migration Manager
