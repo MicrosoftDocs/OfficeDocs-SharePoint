@@ -28,12 +28,12 @@ The following table lists the default managed properties and their attributes sp
 |Property name|Type|Multi-valued|Queryable|Searchable|Retrievable|Refinable|Sortable|Mapped crawled properties|Comment
 |---|---|---|---|---|---|---|---|---|---|
 |DepartmentId|Text|No|Yes|No|Yes|Yes|No|ows_DepartmentId|Site ID of the hub of the immediate hub. Applies to all items in the hub/associated sites.
-|RelatedHubSites|Text|Yes|Yes|No|Yes|No|No|ows_RelatedHubSites|Site ID's of associated hubs including hub hierarchies. Can be used instead of DepartmentId for most scenarios. Applies to all items in the hub/associated sites.
+|RelatedHubSites|Text|Yes|Yes|No|Yes|No|No|ows_RelatedHubSites|Site IDs of associated hubs including hub hierarchies. Can be used instead of DepartmentId for most scenarios. Applies to all items in the hub/associated sites.
 |IsHubSite|Yes/No|No|Yes|No|Yes|No|No|ows_IsHubSite|Applies to the site result of a hub (contentclass=STS_Site)
-|ModifierAADIDs|Text|Yes|Yes|No|Yes|Yes|Yes||Semi-colon separated list of AADID's for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierAADIDs|Text|Yes|Yes|No|Yes|Yes|Yes||Semi-colon separated list of AADIDs for modifiers of a file or page ordered in date descending order. (\*)
 |ModifierDates|Date and Time|Yes|No|No|Yes|No|No||Semi-colon separated list of modification dates for modifiers of a file or page ordered in date descending order. (\*)
 |ModifierNames|Text|Yes|Yes|No|Yes|No|No||Semi-colon separated list of the names for modifiers of a file or page ordered in date descending order. (\*)
-|ModifierUPNs|Text|Yes|No|No|Yes|No|No||Semi-colon separated list of UPN's for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierUPNs|Text|Yes|No|No|Yes|No|No||Semi-colon separated list of UPNs for modifiers of a file or page ordered in date descending order. (\*)
 |ChapterTitle|Text|Yes|Yes|Yes|Yes|No|No|ChapterTitle|Semi-colon separated list of [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/en-us/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
 |ChapterOffset|Text|Yes|No|No|Yes|No|No|ChapterOffset|Semi-colon separated list of time codes matching the chapter titles for [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
 
