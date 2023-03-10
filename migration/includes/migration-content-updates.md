@@ -2,6 +2,15 @@
 
 
 
+## Week of February 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/27/2023 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+| 2/27/2023 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
+
+
 ## Week of February 13, 2023
 
 
@@ -25,4 +34,3 @@
 | 1/31/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
 | 1/31/2023 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
 | 1/31/2023 | [Upload file share sources to Migration Manager using a CSV file.](/SharepointMigration/mm-fileshare-source-scan-csv-upload) | added |
-
