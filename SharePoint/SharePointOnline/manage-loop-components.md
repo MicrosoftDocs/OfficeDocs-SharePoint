@@ -110,11 +110,9 @@ To configure these Cloud Policy settings:
 
 ## eDiscovery
 
-Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator's OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
+Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium) and they render in preview. The HTML export format for review is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive for Business to view them in their native format.
 
-Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization's needs, you can temporarily disable these experiences as outlined in the [Settings management Loop components in Teams, Whiteboard](#settings-management-for-loop-components-in-teams-whiteboard) section.
-
-Loop app content is not discoverable. Microsoft is working on an offline consumable export format. If you require this functionality, you can temporarily disable the Loop app as outlined in the [Settings management for Loop app](#settings-management-for-loop-app) section.
+Microsoft is currently working on a 3P export API solution for Loop components.
 
 ## Related topics
 
