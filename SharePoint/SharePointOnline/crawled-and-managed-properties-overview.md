@@ -1,17 +1,16 @@
 ---
 title: "Overview of crawled and managed properties in SharePoint Online"
-ms.reviewer: 
+ms.reviewer: misvenso
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 3/10/2022
+ms.date: 03/10/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
 description: "Learn about the default managed properties for SharePoint Online, their settings, and the default mapping between crawled and managed properties."
 ---
 
