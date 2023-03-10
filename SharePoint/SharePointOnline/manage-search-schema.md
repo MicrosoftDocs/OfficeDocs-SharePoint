@@ -451,7 +451,7 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
     
 4. On the **Settings** page, under **General Settings**, select **Advanced settings**.
     
-5. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. All of the content in the document library or list are re-indexed during the next scheduled crawl.
+5. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. All of the content in the document library or list is re-indexed during the next scheduled crawl.
     
     > [!NOTE]
     > This may cause a massive load on the search system, so be sure to re-index only after you've made all the changes you want to be re-indexed. 
