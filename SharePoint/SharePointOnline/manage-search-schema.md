@@ -25,7 +25,7 @@ description: "Learn about the search schema and how you can view, create, or cha
 
 The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint in Microsoft 365.
 
-See [Overview of crawled and managed properties in SharePoint Online](../crawled-and-managed-properties-overview.md) for a list of crawled and managed properties specific to SharePoint Online.
+See [Overview of crawled and managed properties in SharePoint Online](crawled-and-managed-properties-overview.md) for a list of crawled and managed properties specific to SharePoint Online.
 
 See [Overview of crawled and managed properties in SharePoint Server](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md) for a list of existing crawled and managed properties in SharePoint.
   
@@ -459,7 +459,7 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
 ## Related Topics
 <a name="__ref341258429"> </a>
 
-[Overview of crawled and managed properties in SharePoint Online](../crawled-and-managed-properties-overview.md)
+[Overview of crawled and managed properties in SharePoint Online](crawled-and-managed-properties-overview.md)
 
 [Overview of crawled and managed properties in SharePoint Server](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md)
   

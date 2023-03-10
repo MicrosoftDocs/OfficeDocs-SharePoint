@@ -12,7 +12,7 @@ ms.topic: article
 ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
-description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
+description: "Learn about the default managed properties for SharePoint Server, their settings, and the default mapping between crawled and managed properties."
 ---
 
 # Overview of crawled and managed properties in SharePoint Server

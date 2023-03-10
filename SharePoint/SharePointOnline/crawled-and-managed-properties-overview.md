@@ -12,12 +12,12 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
-description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
+description: "Learn about the default managed properties for SharePoint Online, their settings, and the default mapping between crawled and managed properties."
 ---
 
 # Overview of crawled and managed properties in SharePoint Online
  
-A  *crawled property*  is content and metadata that is extracted from an item, such as a document or a URL, during a crawl. A crawled property can be an author, title, or subject. To include the content and metadata of crawled properties in the search index, you map crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. For more information, see [Overview of the search schema in SharePoint Server](../SharePointServer/search/search-schema-overview.md) and [Manage the search schema in SharePoint Online](manage-search-schema.md).
+A  *crawled property*  is content and metadata that is extracted from an item, such as a document or a URL, during a crawl. A crawled property can be an author, title, or subject. To include the content and metadata of crawled properties in the search index, you map crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. For more information, see [Overview of the search schema in SharePoint Server](../../SharePoint/SharePointServer/search/search-schema-overview.md) and [Manage the search schema in SharePoint Online](manage-search-schema.md).
   
 ## Managed properties overview
 
@@ -40,4 +40,4 @@ The following table lists the default managed properties and their attributes sp
 
 \* Property is not guaranteed to contain data.
 
-See [Manage search schema - Default unused managed properties](../../SharePointOnline/manage-search-schema.md#default-unused-managed-properties) for a list of the reusable managed properties available in SharePoint Online.
+See [Manage search schema - Default unused managed properties](manage-search-schema.md#default-unused-managed-properties) for a list of the reusable managed properties available in SharePoint Online.
