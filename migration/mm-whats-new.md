@@ -42,6 +42,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - 
 ## February 2023
 
+- **Fixed. Summary report timeout.** Extremely large reports would occasionally exceed database memory, leading to report download timeout. This has been fixed.
 - **Display of the estimated time**. There is now display of the estimated time it will take for your Google Drive migration to complete.
 
 ## January 2023
