@@ -30,10 +30,19 @@ We're continuously adding new features to Migration Manager and fixing issues we
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 ## Coming soon
+
 - Several enhancements are coming to Google Workspace migrations. New features include:
   -  Filtering by factors such as dates, file types, and invalid characters
   -  Downloading bulk reports
-  - Display of the estimated time it will take for your migration to complete.
+
+
+## March 2023
+
+- **Change**. Downloading your migration reports has been consolidated in the action menu bar. The *View logs* link has been removed to improve resource consumption and align with how Scan logs are downloaded.
+- 
+## February 2023
+
+- **Display of the estimated time**. There is now display of the estimated time it will take for your Google Drive migration to complete.
 
 ## January 2023
 - **Fixed:  Report aggregator script**. The Report aggregator script was incorrectly converting bytes to gigabytes. This has now been fixed. [Learn more: Download detailed task reports.](/sharepointmigration/mm-reports#download-detailed-task-level-reports-via-powershell) 
