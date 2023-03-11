@@ -39,7 +39,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## March 2023
 
 - **Change**. Downloading your migration reports has been consolidated in the action menu bar. The *View logs* link has been removed to improve resource consumption and align with how Scan logs are downloaded.
-- 
+
 ## February 2023
 
 - **Fixed. Summary report timeout.** Extremely large reports would occasionally exceed database memory, leading to report download timeout. This has been fixed.
