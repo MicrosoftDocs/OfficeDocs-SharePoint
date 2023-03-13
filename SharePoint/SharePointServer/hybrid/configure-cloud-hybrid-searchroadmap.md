@@ -101,7 +101,7 @@ On the application server that hosts the SharePoint Server Central Administratio
     
 4. Follow the prompts in the Hybrid Configuration Wizard and select the hybrid search feature.
   
-The Hybrid Configuration Wizard lets you choose between a cloud SSA with the default search architecture on the application server that hosts the SharePoint Server Central Administration website, or a cloud SSA with a search architecture on **two** application servers (supports [high availability](../search/plan-enterprise-search-architecture.md#BKMK_HiAvail))
+The Hybrid Configuration Wizard lets you choose between a cloud SSA with the default search architecture on the application server that hosts the SharePoint Server Central Administration website, or a cloud SSA with a search architecture on **two** application servers (supports [high availability](../search/plan-enterprise-search-architecture.md#BKMK_HiAvail)).
     
 The Hybrid Configuration Wizard saves you time because it also connects the cloud SSA to your Microsoft 365 organization (step 3).
   
