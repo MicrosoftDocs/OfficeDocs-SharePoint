@@ -31,7 +31,7 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.1.125.0](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.1](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 4.1
 
@@ -103,7 +103,6 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |Issue|Fix|
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
-
 
 ## SPMT 3.5.123.5
 

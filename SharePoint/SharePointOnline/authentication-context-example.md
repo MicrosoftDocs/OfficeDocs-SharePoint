@@ -2,8 +2,8 @@
 ms.date: 03/01/2023
 title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
