@@ -38,12 +38,12 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## March 2023
 
-- **Change**. Downloading your migration reports has been consolidated in the action menu bar. The *View logs* link has been removed to improve resource consumption and align with how Scan logs are downloaded.
+- **Fixed. Dropbox migrated permissions**. Customers were experiencing some Dropbox file and folder permissions not being migrated. This issue has been fixed.
 
 ## February 2023
 
 - **Fixed. Summary report timeout.** Extremely large reports would occasionally exceed database memory, leading to report download timeout. This has been fixed.
-- **Display of the estimated time**. There is now display of the estimated time it will take for your Google Drive migration to complete.
+- **Display of the estimated time**. There's now display of the estimated time it will take for your Google Drive migration to complete.
 
 ## January 2023
 - **Fixed:  Report aggregator script**. The Report aggregator script was incorrectly converting bytes to gigabytes. This has now been fixed. [Learn more: Download detailed task reports.](/sharepointmigration/mm-reports#download-detailed-task-level-reports-via-powershell) 
