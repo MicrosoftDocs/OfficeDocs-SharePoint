@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 09/12/2022
+ms.date: 03/14/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "Learn to secure environments and respond to associated threats fro
 
 # Configure AMSI integration with SharePoint Server
 
-[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-SUB-xxx-md](../includes/appliesto-xxx-xxx-2019-SUB-xxx-md.md)]
 
 ## Introduction
 
@@ -43,6 +43,7 @@ Before enabling AMSI integration, check the following prerequisites on each Shar
 
 - Windows Server 2016 or higher
 - SharePoint Server Subscription Edition Version 22H2 or higher
+- SharePoint Server 2019 build 16.0.10396.20000 or higher (KB 5002358: March 14, 2023 security update for SharePoint Server 2019)
 - Microsoft Defender with AV engine version at 1.1.18300.4 or higher (alternatively, a compatible AMSI-capable third-party antivirus/antimalware provider)
 
 ## Activate/Deactivate AMSI for SharePoint Server
