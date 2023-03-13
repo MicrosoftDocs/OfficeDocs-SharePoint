@@ -57,7 +57,7 @@ The aggregated newsfeed feature (available at newsfeed.aspx and typically access
 
 ### Custom Help
 
-To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
+To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-premises farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### Groove.exe (Previous OneDrive for Business sync app)
 
@@ -126,7 +126,7 @@ As announced by the Windows Server team, Microsoft is [deprecating](/windows-ser
 
 ### Multi-Tenancy
 
-As Microsoft continues to innovate in SharePoint, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren't available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint in Microsoft 365. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
+As Microsoft continues to innovate in SharePoint, an increasing number of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren't available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint in Microsoft 365. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
 
 ### PDF Viewer (SharePoint Server 2019 Preview)
 
@@ -154,7 +154,7 @@ Verify that you meet all of the following minimum requirements.
 Export-SPTagsAndNotesData -Site <http://site.contoso.com> -FilePath <tagsandnotes.zip>
 ```
 
-Where :
+Where:
   
 -  `<http://site.contoso.com>` is the URL to an existing SharePoint root site where you want to export the tags and notes from. 
     
