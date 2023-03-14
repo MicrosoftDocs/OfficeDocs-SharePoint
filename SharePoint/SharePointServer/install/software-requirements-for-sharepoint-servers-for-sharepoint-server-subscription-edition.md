@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 7/10/2021
+ms.date: 03/14/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -53,6 +53,9 @@ The SharePoint Server Subscription Edition prerequisite installer (`prerequisite
 2. [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?LinkId=2085155)
 
 3. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://go.microsoft.com/fwlink/?LinkId=2130438)
+
+    > [!NOTE]
+    > SharePoint Server Subscription Edition will require the Visual C++ 2015-2022 Redistributable (x64) as a software prerequisite starting with SharePoint Server Subscription Edition Version 23H1. This new software prerequisite replaces the Visual C++ Redistributable Package for Visual Studio 2015-2019. This new software prerequisite will not be installed by the prerequisiteinstaller.exe tool, but will be installed by the SharePoint Server Subscription Edition Version 23H1 feature update if it isn't already installed. To download and install it separately, see [Visual C++ 2015-2022 Redistributable (x64)](https://go.microsoft.com/fwlink/?LinkId=2224881).
 
 ### Prerequisite installer operation and command-line options
 
