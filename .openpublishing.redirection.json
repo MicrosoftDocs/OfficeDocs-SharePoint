@@ -911,7 +911,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/SharePointOnline/viva-connections-desktop.md",
+      "source_path": "SharePoint/SharePointServer/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center.md",
+      "redirect_url": "/SharePoint/hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharepointOnline/viva-connections-desktop.md",
       "redirect_url": "/viva/connections/viva-connections-overview",
       "redirect_document_id": false
     }
