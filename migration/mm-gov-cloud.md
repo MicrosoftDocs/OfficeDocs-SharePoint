@@ -49,7 +49,7 @@ If your are either a **GCC high** or **DoD** customer, you need to make a change
 
 1. Download the agent setup file.
 2. Open the setup file and remain on the **Welcome** page. 
-3. Open  *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\microsoft.sharepoint.migration.common.dll.config*.
+3. Open *C:\Users\<user>\AppData\Roaming\Microsoft\SPMigration\Bin\microsoft.sharepoint.migration.common.dll.config*.
 4. Change the value of *SPOEnvironmentType* from 0 to 2.
     </br>
   
