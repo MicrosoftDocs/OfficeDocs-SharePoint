@@ -54,6 +54,7 @@
 ##### [Certificates administrative action logging](../administration/certificates-administrative-action-logging.md)
 ##### [SSL certificate management in central administration](../administration/ssl-certificate-management-in-central-administration.md)
 ##### [New health analyzer rules for SSL certificates](../administration/new-health-analyzer-rules-for-ssl-certificates.md)
+##### [Private key management for SSL certificates](../administration/private-key-management-for-ssl-certificates.md)
 #### [Enable TLS and SSL support in SharePoint 2013](../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md)
 #### [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md)
 #### [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019](../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2019.md)
