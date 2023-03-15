@@ -22,16 +22,9 @@ description: Migration Manager Dropbox FAQs
 
 # Frequently Asked Questions: Migration Manager Dropbox
 
-**Question:**   **Can I still use Mover to migrate my Dropbox accounts?**</br>
-Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
-</br>
 
 **Question:**  **Is Migration Manager Dropbox available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  Currently Migration Manager Dropbox is not available for any of the Government clouds.
-</br>
-
-**Question:** **Are there are any caveats to this release?**</br>
-Answer.  Yes, this release only supports small to medium Dropbox accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>
