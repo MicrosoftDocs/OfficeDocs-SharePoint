@@ -36,11 +36,11 @@ There are several IT Admin settings provided to enable the Loop app and Loop exp
 |Loop app|Cloud Policy, Primary|**Create and view Loop files in Loop**|*Loop app only checks the setting in this row|
 |Loop experiences across Microsoft 365*|Cloud Policy, Primary|**Create and view Loop files in Microsoft apps that support Loop**|Applies to:<br/>- Outlook integration<br/>- Word for the web integration<br/>- Whiteboard integration<br/>Does NOT apply to:<br/>- Loop app<br/>- Teams integration|
 |Outlook integration of Loop experiences|Cloud Policy, Secondary|**Create and view Loop files in Outlook**|First checks **Create and view Loop files in Microsoft apps that support Loop**, then applies **Create and view Loop files in Outlook** if applicable|
-|Teams integration|SharePoint property, Primary|See [Settings management for Loop components in Teams](settings-management-for-loop-components-in-teams)|*Teams only checks the setting in this row|
+|Teams integration|SharePoint property, Primary|See [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams)|*Teams only checks the setting in this row|
 
 ## Settings management in Cloud Policy
 
-The Loop experiences (except for Microsoft Teams) check the following Cloud Policy settings. See [Available policy settings](available-policy-settings) to understand how each app checks these settings:
+The Loop experiences (except for Microsoft Teams) check the following Cloud Policy settings. See [Available policy settings](#available-policy-settings) to understand how each app checks these settings:
 
 - **Create and view Loop files in Microsoft apps that support Loop**
 - **Create and view Loop files in Outlook**
