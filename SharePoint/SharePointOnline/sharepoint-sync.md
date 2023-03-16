@@ -11,7 +11,9 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
+- Tier2
 ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
@@ -44,6 +46,8 @@ We recommend using OneDrive shortcuts as the more versatile option. If you want 
 ```PowerShell
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
 ```
+
+Removing the sync button blocks new syncs from being started but does not affect existing syncs.
 
 ## Related topics
 
