@@ -11,7 +11,9 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
+- Tier2
 ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
