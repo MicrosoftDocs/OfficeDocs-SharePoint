@@ -35,7 +35,7 @@ description: "Mover Release Notes"
 ## Frontend (legacy app) V1.19.10 (June 30, 2021)
 
 - Accessibilities fix.  Low vision users would face difficulty differentiating between normal text and disabled text when navigating through the User Actions Button DropDown Menu items on the Migration Manager page. This has been fixed.
-- Accessibilities fix. Screen reader users now have the tooltip contents announced to them when hovering on the information icons.  Previously when the Transfer wizard, Migration manager, or Account manager links were activated, the narrator would announce information about the respective page opened. However, screen readers were not properly announcing information icons with tooltips. One example of this was the Scheduling Info icon in the scheduling side panel. This has been fixed.
+- Accessibilities fix. Screen reader users now have the tooltip contents announced to them when hovering on the information icons.  Previously when the Transfer wizard, Migration manager, or Account manager links were activated, the narrator would announce information about the respective page opened. However, screen readers weren't properly announcing information icons with tooltips. One example of this was the Scheduling Info icon in the scheduling side panel. This has been fixed.
 
 ## Backend v1.20.8 May 17, 2021
 
@@ -43,7 +43,7 @@ description: "Mover Release Notes"
 
 ## Frontend v1.19.8 (April 27, 2021
 
-- Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds.
+- Accessibility. We've removed the option to close a "successful notification" message. It will now auto close in 5 seconds.
 
 ## Backend - v1.20.7 (April 27, 2021)
 
@@ -57,7 +57,7 @@ Reduces resolution times for customers who need to ensure their transactions (sc
 
 This release contains jolt command updates along with features and fixes for customers.
 
-- Fix.  Some customers had trouble loading their G Suite connector in the Transfer Wizard. This happened for customers that had a very large number of Shared Drives in their G Suite account. The connectors should load, although for customers with a large number of Shared Drives, the count will be an approximate only.
+- Fix.  Some customers had trouble loading their G Suite connector in the Transfer Wizard. This happened for customers that had a large number of Shared Drives in their G Suite account. The connectors should load, although for customers with a large number of Shared Drives, the count will be an approximate only.
 - Feature. File permissions option is turned on by default if the source connector is a Microsoft connector.
 
 ## Frontend v1.19.6 (March 11, 2021)
@@ -69,13 +69,13 @@ This release contains accessibility fixes.
 
 ## Backend v1.20.1 (February 24, 2021)
 
-- Fix.  Customers were still able to delete a connector. The stop gap was only added to the UX. Measures have been added to check if a connector is associated to a migration. If it is, the connector cannot be deleted.
+- Fix.  Customers were still able to delete a connector. The stop gap was only added to the UX. Measures have been added to check if a connector is associated to a migration. If it is, the connector can't be deleted.
 
 ## Backend v1.20.0 (February 16, 2021)
 
 - Fix.  Users that only signed in using their Microsoft account were unable to delete their account because the form would prompt them for their password. Users are now able to delete their accounts safely.
 - Feature. Account managers are able to delete managed users' accounts without being prompted for a password.
-- Improvement. Customers running migrations from Egnyte would sometimes get "Could not get folder ACLs" error messages in their user logs. This is not descriptive. Messaging has been improved to show the cause of the problem (usually, exceeding API quotas in Egnyte).
+- Improvement. Customers running migrations from Egnyte would sometimes get "Couldn't get folder ACLs" error messages in their user logs. This isn't descriptive. Messaging has been improved to show the cause of the problem (usually, exceeding API quotas in Egnyte).
 
 ## Backend v1.19.25 (February 9, 2021)
 
@@ -83,12 +83,12 @@ This release contains accessibility fixes.
 
 ## Backend v1.19.24 (February 8, 2021)
 
-- Fix. Broken Agent transfers for destinations that are not Office 365 has now been fixed.
+- Fix. Broken Agent transfers for destinations that aren't Office 365 has now been fixed.
 
 ## Backend v1.19.22 (December 16, 2020)
 
-- Fix.  Users could not authorize new Box (Single User) connectors after Box restricted some features from Mover's client. This issue is fixed.
-- Fix. Some users received the error "document library could not be found" when attempting transfers to certain SharePoint Online Document Libraries. This issue is fixed.
+- Fix.  Users couldn't authorize new Box (Single User) connectors after Box restricted some features from Mover's client. This issue is fixed.
+- Fix. Some users received the error "document library couldn't be found" when attempting transfers to certain SharePoint Online Document Libraries. This issue is fixed.
 - Fix.  Transfers from or into OneDrive Consumer that were throttled had issues when retrying the affected operations. An authorization related error message would appear on the User Log for these transfers. Retries now have proper authorization in place. This issue is fixed.
 
 ## Backend v1.19.21.5 (December 10, 2020)
@@ -113,14 +113,14 @@ This release fixes an issue with Box connector authorization.
 - Fix.  Accessibility: Navigating through the list of folders in the Transfer Wizard using multiple tab stops was making navigation harder for users with motor impairments. Fix has been added to navigate the list using the keyboard arrow keys.
 - Accessibility: The Transfer Summary panel will now display a tooltip for every value in the top details table containing the transaction information.
 - Accessibility: The Migration Manager "Active filters" auto-suggestions are now accessible with the keyboard by pressing the down and up arrow keys from the filter search box.
-- Accessibility: In the Migration Manager, Active Filters section, the info button had a tooltip with filtering instructions. However, the narrator would not read the content, even if the tooltip was in focus. To make the content accessible, the tooltip was eliminated and, instead, a proper link to the documentation page was added: https://aka.ms/MoverMigrationManagerFilters.
+- Accessibility: In the Migration Manager, Active Filters section, the info button had a tooltip with filtering instructions. However, the narrator wouldn't read the content, even if the tooltip was in focus. To make the content accessible, the tooltip was eliminated and, instead, a proper link to the documentation page was added: https://aka.ms/MoverMigrationManagerFilters.
 
 ## Backend v1.19.19 (November 26, 2020)
 
-- During a transfer, there might be a failure that is unrecoverable. It means the transfer completely failed and any rerun would not fix it, such as, Storage Quota Exceeded.
+- During a transfer, there might be a failure that is unrecoverable. It means the transfer completely failed and any rerun wouldn't fix it, such as, Storage Quota Exceeded.
 However, when this happens during our 302 processing, the status of this processing takes precedence.
 Unfortunately, this means that the original unrecoverable state is now lost. This has been fixed.
-If the transfer failed and it is an unrecoverable state, this state will now be preserved and displayed appropriately to the user.
+If the transfer failed and it's an unrecoverable state, this state will now be preserved and displayed appropriately to the user.
 
 ## Backend v1.19.18 (November 10, 2020)
 
@@ -131,15 +131,15 @@ If the transfer failed and it is an unrecoverable state, this state will now be 
 
 ## Backend v1.19.17 (November 3, 2020)
 
-- Fix.  When destinations did not support direct upload, transfers from the Agent to the destination would fail. Direct Upload destinations are now detected and handling has been corrected when the destination does not support direct upload.
+- Fix.  When destinations didn't support direct upload, transfers from the Agent to the destination would fail. Direct Upload destinations are now detected and handling has been corrected when the destination doesn't support direct upload.
 
-- Fix.  Added direct uploads to user log filters, both on success and failure. This fixes a defect in logging where Agents using the Direct Upload feature (which is now the default) would not have their log entries included in the user logs. This will enable correct feedback for users of the Agent.
+- Fix.  Added direct uploads to user log filters, both on success and failure. This fixes a defect in logging where Agents using the Direct Upload feature (which is now the default) wouldn't have their log entries included in the user logs. This will enable correct feedback for users of the Agent.
 
 ## Frontend v1.19.1 (October 28, 2020)
 
 This release fixes these customer issues:
 
-- Fix. When editing a source or destination path in Migration Manager with lots of items, the side panel would only render up to 100 items and the rest would appear blank. The file picker now displays all content.
+- Fix. When editing a source or destination path in Migration Manager with lots of items, the side panel would only render up to 100 items, and the rest would appear blank. The file picker now displays all content.
 
 - Fix.  When a customer entered a certain format for an email account as an admin, the email validation could fail even with a valid email addresses. This has been fixed.
 
@@ -153,7 +153,7 @@ This release fixes these customer issues:
 
 ## Backend v1.19.15 (October 14, 2020)
 
-- Improvement to ratelimit provider. In general, large migrations should now move faster.
+- Improvement to rate limit provider. In general, large migrations should now move faster.
 - Email auth removed. This is no longer supported.
 
 ## Backend v1.19.14 (October 8, 2020)
@@ -172,11 +172,11 @@ This release fixes these customer issues:
 
 ## Agent v1.3.5 (September 22, 2020)
 
-- A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents will not connect to Bifrost and not be able to transfer files.
+- A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents won't connect to Bifrost and not be able to transfer files.
 
 ## Backend v1.19.9 (September 15,2020)
 
-- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
+- Fix.  Previously, authorship information such as "Modified By" wasn't sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
 
 - Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
 
@@ -252,7 +252,7 @@ End of life notification and bug fix.
 
 - The connectors for Amazon WorkDocs and NetDocuments have reached end of life. The connectors were deprecated July 1, 2020, and existing users notified. These connectors are no longer available.
 
-- When a migration job failed to submit during a migration into Office 365, error entries were not being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
+- When a migration job failed to submit during a migration into Office 365, error entries weren't being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
 
 ## Backend v1.19.2 (July 31, 2020)
 
@@ -260,21 +260,21 @@ Migration Report improvements and bug fixes.
 
 - When authorizing the G Suite Admin source connector, the template showed the prescan warning. As prescan is no longer needed due to its integration into the regular scan and transfer process, the warning from the connector authorization template in the UI has been removed.
 
-- When authorizing or reauthorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
+- When authorizing or reauthorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they're already logged into Microsoft.
 
 - A fix has been made to distinguish OneNote notebooks and folders with ".one" extension. Previously, when running a transfer from an Office 365 source, folder names with.one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook.
 
-- A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover login page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
+- A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover sign in page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
 
 - A fix has been made to correct discrepancies in the migration reports metrics.  In the future, more fields will be added to this report to give users a better understanding of ongoing migrations.
 
 - When the user tries to authorize the Office 365 connector, and if the tenant lacks Microsoft 365 licenses, the connector authorization will fail, and the error message "Couldn't retrieve SharePoint Online site list. We suspect your tenant lacks SharePoint Online licenses" will be displayed in the UI.
 
-- When a transfer gets automatically re-queued, its status will now show as "Re-Queued" as opposed to "Queued". When it is running from an automatic re-queue, it will show as "Rerunning".
+- When a transfer gets automatically re-queued, its status will now show as "Re-Queued" as opposed to "Queued". When it's running from an automatic re-queue, it will show as "Rerunning".
 
 - Saving the permission map for a migration via the web UI that had a job_limit set or auto_job_limit set (migration scaler) caused those fields to set back to null, and the settings were lost. This issue is now fixed.
 
-- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently does not support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it.
+- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently doesn't support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it.
 
 ## Backend v1.19.0 (July 14, 2020)
 
@@ -286,7 +286,7 @@ Exciting new features for migrations out of G Suite and Box.
 ## Backend v1.18.1 (July 8, 2020)
 
 - Deprecation notices
-  - Starting July 1, 2020, Amazon WorkDocs and NetDocuments connectors have been deprecated. This means that users will not be able to authorize new Amazon WorkDocs or NetDocuments connectors. However, users will still be able to use existing Amazon WorkDocs and NetDocuments connectors until their end-of-life date of August 1, 2020. Users are encouraged to wrap up existing migrations involving these two connectors as soon as possible.
+  - Starting July 1, 2020, Amazon WorkDocs and NetDocuments connectors have been deprecated. This means that users won't be able to authorize new Amazon WorkDocs or NetDocuments connectors. However, users will still be able to use existing Amazon WorkDocs and NetDocuments connectors until their end-of-life date of August 1, 2020. Users are encouraged to wrap up existing migrations involving these two connectors as soon as possible.
 - Error reporting improvements
   - Improved error messages displayed in the User Log coming from the Agent connector.
 - Stability fixes
