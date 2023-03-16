@@ -33,9 +33,9 @@ There are several IT Admin settings provided to enable the Loop app and Loop exp
 
 |Configure|Setting Type|Specific Policy|Notes
 |---|---|---|---|
-|Loop experiences across Microsoft 365*|Cloud Policy, Primary|**Create and view Loop files in Microsoft apps that support Loop**|Applies to:<br/>- Outlook integration<br/>- Word for the web integration<br/>- Whiteboard integration|
-|Outlook integration of Loop experiences|Cloud Policy, Secondary|**Create and view Loop files in Outlook**|First checks **Create and view Loop files in Microsoft apps that support Loop**, then applies **Create and view Loop files in Outlook** if applicable|
 |Loop app|Cloud Policy, Primary|**Create and view Loop files in Loop**|*Loop app only checks the setting in this row|
+|Loop experiences across Microsoft 365*|Cloud Policy, Primary|**Create and view Loop files in Microsoft apps that support Loop**|Applies to:<br/>- Outlook integration<br/>- Word for the web integration<br/>- Whiteboard integration<br/>Does NOT apply to:<br/>- Loop app<br/>- Teams integration|
+|Outlook integration of Loop experiences|Cloud Policy, Secondary|**Create and view Loop files in Outlook**|First checks **Create and view Loop files in Microsoft apps that support Loop**, then applies **Create and view Loop files in Outlook** if applicable|
 |Teams integration|SharePoint property, Primary|See [Settings management for Loop components in Teams](settings-management-for-loop-components-in-teams)|*Teams only checks the setting in this row|
 
 ## Settings management in Cloud Policy
@@ -54,7 +54,7 @@ To configure these Cloud Policy settings:
 3. Select **Policy Management**.
 4. Create a new policy configuration or edit an existing one.
 5. In **Choose the scope**, choose the security group for which you want to apply the policy.
-    - **Note**: you MUST FIRST create a security group that defines which users in your organization this policy will apply to. You can learn more about creating groups in the Microsoft 365 Admin center [here](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or creating dynamic groups in AzureAD [here](/azure/active-directory/external-identities/use-dynamic-groups). If you do not create a group, the settings you configure will not apply to your users.
+    - **Note**: you MUST FIRST create a security group that defines which users in your organization this policy will apply to. You can learn more about creating groups in the Microsoft 365 Admin center [here](/microsoft-365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) or creating dynamic groups in AzureAD [here](/azure/active-directory/external-identities/use-dynamic-groups). If you do not create a group, the settings you configure will not apply to your users.
 6. In **Configure Settings**, choose one of the settings listed at the top of thie section.
 7. In configuration setting, choose one of the following:
     - For **Create and view Loop files in Microsoft apps that support Loop**
@@ -106,9 +106,9 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 
 ## eDiscovery
 
-Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium) and they render in preview. The HTML export format for review is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive for Business to view them in their native format.
+Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection, and render in review for both eDiscovery (Standard) and eDiscovery (Premium). The HTML offline export format is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive for Business to view them in their native format.
 
-Microsoft is currently working on a 3P export API solution for Loop components.
+Microsoft is currently working on a third-party export API solution for Loop components.
 
 The Loop app does not yet support eDiscovery workflows.
 
