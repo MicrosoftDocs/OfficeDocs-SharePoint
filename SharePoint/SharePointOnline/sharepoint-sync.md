@@ -45,7 +45,7 @@ We recommend using OneDrive shortcuts as the more versatile option. If you want 
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
 ```
 
-Removing the sync button blocks new sync from being started but does not affect existing syncs.
+Removing the sync button blocks new syncs from being started but does not affect existing syncs.
 
 ## Related topics
 
