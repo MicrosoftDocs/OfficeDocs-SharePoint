@@ -23,13 +23,13 @@ description: "Learn about the new features and updates to existing features in S
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 22H2 feature.
+Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 22H2 feature update.
 
 ## Summary of the features
 
 The following table provides a summary of the new features introduced in the SharePoint Server Subscription Edition Version 22H2 feature update.
 
-|**Feature**|**Release rings**|**More information**|
+|**Feature**|**Release ring**|**More information**|
 |:-----|:-----|:-----|
 |**Feature release rings** <br/> |Standard release <br/> |For more information, see [Feature release rings](#feature-release-rings). <br/> |
 |**AMSI integration** <br/> |Standard release <br/> |For more information, see [AMSI integration](#amsi-integration).  <br/> |
