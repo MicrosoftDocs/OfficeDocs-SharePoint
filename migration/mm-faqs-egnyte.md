@@ -23,10 +23,6 @@ description: Migration Manager Egnyte FAQs
 # Frequently Asked Questions: Migration Manager Egnyte
 
 
-**Question:**  **Is Migration Manager Egnyte available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  Currently Migration Manager Egnyte is not available for any of the Government clouds.
-</br>
-
 **Question:**   **What gets transferred?**</br>
 Answer: Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 </br>

@@ -35,9 +35,6 @@ Migration Manager lets you bulk upload your Egnyte folders using a comma-separat
 
 ## Formatting your CSV file
 
-![Format for bulk uploading Egnyte source files into Migration Manager](media/mm-dropbox-csv-format.png)
-
-
 1. Start Excel. 
 2. Enter one source per row.  The column heading is optional. Enter your source in one of the following ways: 
 
@@ -55,12 +52,5 @@ Migration Manager lets you bulk upload your Egnyte folders using a comma-separat
 
   ![Add new source to upload bulk file](media/mm-upload-cloud-csv.png)
 
-
 3. Select **Upload a CSV file**.  Browse to your file and then select **Add**.
-
-![Add Egnyte source paths](media/mm-dropbox-add-source-path.png)
-
-4. Assess your files, and then continue to the next step, [Copy to migrations](mm-box-step3-copy-to-migrations.md)
-
-
- 
+4. Assess your files, and then continue to the next step, [Copy to migrations](mm-box-step3-copy-to-migrations.md).
