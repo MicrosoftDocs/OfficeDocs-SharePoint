@@ -15,6 +15,7 @@ ms.topic: article
 ms.collection:
 - Strat_SP_admin
 - Microsoft 365-collaboration
+- Tier3
 search.appverid:
 - SPO160
 - MET150
@@ -54,8 +55,8 @@ To configure these Cloud Policy settings:
 3. Select **Policy Management**.
 4. Create a new policy configuration or edit an existing one.
 5. In **Choose the scope**, choose the security group for which you want to apply the policy.
-    - **Note**: you MUST FIRST create a security group that defines which users in your organization this policy will apply to. You can learn more about creating groups in the Microsoft 365 Admin center [here](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or creating dynamic groups in AzureAD [here](/azure/active-directory/external-identities/use-dynamic-groups). If you do not create a group, the settings you configure will not apply to your users.
-6. In **Configure Settings**, choose one of the settings listed at the top of thie section.
+    - **Note**: you MUST FIRST create a security group that defines which users in your organization this policy will apply to. You can [learn more about creating groups in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or creating dynamic groups in AzureAD [here](/azure/active-directory/external-identities/use-dynamic-groups). If you do not create a group, the settings you configure will not apply to your users.
+6. In **Configure Settings**, choose one of the settings listed at the top of this section.
 7. In configuration setting, choose one of the following:
     - For **Create and view Loop files in Microsoft apps that support Loop**
         - **Enabled**: Loop experience is available to users.
