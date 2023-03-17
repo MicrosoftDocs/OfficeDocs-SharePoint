@@ -20,6 +20,17 @@ description: "Using the Mover migration service to set up the Google Cloud stora
 # Setting up your source: Google Cloud Storage Connector
 
 
+
+>[!Important]
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>
+>All FastTrack-led migrations have transitioned to Migration Manager.
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
+>
+>A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+
+
 Authorizing Google Cloud Storage is straightforward. To authorize or add a Google Cloud Storage account as a Connector, follow these simple steps:
 
 - First, you'll need to log in to your Google Cloud Platform Dashboard/Console.
