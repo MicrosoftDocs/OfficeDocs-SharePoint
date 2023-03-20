@@ -12,7 +12,10 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
+- Highpri
+- Tier1
 description: "Learn how to review recent actions in SharePoint admin center."
 ---
 # Review recent SharePoint site actions
