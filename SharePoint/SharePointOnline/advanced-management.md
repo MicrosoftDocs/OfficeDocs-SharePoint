@@ -11,7 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: normal
-ms.collection:  
+ms.collection:
+- Highpri
+- Tier1
 search.appverid:
 - MET150
 recommendations: false
