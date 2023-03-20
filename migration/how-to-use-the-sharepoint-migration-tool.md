@@ -59,12 +59,7 @@ During migration, some web parts require this setting set to **allow**.  Otherwi
 At least 24 hours before you start migration, do the following:
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-
-   > [!NOTE]
-   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
-
 2. At the bottom of the page, select **classic settings page**.
-
 3. Under **Custom Script**, select:
 
    **Allow users to run custom script on personal sites**<br/>
