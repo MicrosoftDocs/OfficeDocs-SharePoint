@@ -62,20 +62,20 @@ Reports can be downloaded only from within Migration Manager.
 
 **Task level scan reports:**
 
-1. On the Scan tab, select a single row from the list of scanned tasks. Each row in the table represents a scan task.
-2. From the action bar, select **Download reports > Detailed**.</br>
+1. On the Scans tab, select a single row from the list of scanned tasks. Each row in the table represents a scan task.
+2. From the action bar, select **Download scan log**.</br>
 
 :::image type="content" source="media/mm-download-report-bar-scan.png" alt-text="download task level scan reports":::
 
 
 **Summary scan reports:**
 
-1. From the Scan tab action bar, select **Download reports > Summary**. Don't select an individual task as these reports include all task.
+1. From the Scan tab action bar, select **Download summary report**. Don't select an individual task as these reports include all task.
 
 
 **Task level migration reports:**
 
-1. On the Migration tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
+1. On the Migrations tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
 2. Select **Download CSV** to download the MigrationLog.csv. 
 
 
