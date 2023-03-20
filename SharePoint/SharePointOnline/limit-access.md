@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- Highpri
+- Tier1
 search.appverid:
 ms.assetid: 
 ms.custom:

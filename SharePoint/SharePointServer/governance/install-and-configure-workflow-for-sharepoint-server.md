@@ -65,7 +65,7 @@ SharePoint Workflow Manager requires Azure Service Fabric, which must be install
 1. The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.0.1048.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/8/3/6/836E3E99-A300-4714-8278-96BC3E8B5528/9.0.1048.9590/Microsoft.Azure.ServiceFabric.WindowsServer.9.0.1048.9590.zip). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 2. Open a PowerShell console as an elevated administrator and run the following command:
 
-    `.\ MicrosoftServiceFabric.9.0.1048.9590.exe /accepteula`
+    `.\MicrosoftServiceFabric.9.0.1048.9590.exe /accepteula`
 
 3. To verify the Azure Service Fabric is installed, you should be able to find it in the Programs and Features of the Control Panel.
 

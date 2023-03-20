@@ -77,6 +77,7 @@ If running scan tasks in the US project is important for your business, you must
 1. Open the **Task Manager** app and then select the **Services** tab.
 2. Right-click **SharePoint Migration Service** and then select **Stop**.
 3. **Open** this file:
+
     *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config*
 
 4. Under AppSettings, add the following:
