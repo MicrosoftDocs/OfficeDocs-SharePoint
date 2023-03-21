@@ -75,7 +75,7 @@ Reports can be downloaded only from within Migration Manager.
 
 **Task level migration reports:**
 
-1. On the Migrations tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
+1. On the Migrations tab, select a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online. Select **View logs**.
 2. Select **Download CSV** to download the MigrationLog.csv. 
 
 
