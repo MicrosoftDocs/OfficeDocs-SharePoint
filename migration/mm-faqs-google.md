@@ -26,7 +26,7 @@ description: Migration Manager Google FAQs
 Answer. Currently, Migration Manager is the tool to use to for migrating Google content.
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  No, currently this Migration Manager Google isn't available for any of the Government clouds.
+Answer.  No, Migration Manager Google isn't available for any of the Government clouds.
 </br>
 
 **Question:**   **What gets transferred?**</br>

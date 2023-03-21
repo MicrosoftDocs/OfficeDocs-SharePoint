@@ -14,6 +14,8 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- Highpri
+- Tier1
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
