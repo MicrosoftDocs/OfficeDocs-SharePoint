@@ -62,15 +62,15 @@ SharePoint Workflow Manager may be installed on the same servers as SharePoint o
 
 SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow these steps below to install it:
 
-1. The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.0.1048.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/8/3/6/836E3E99-A300-4714-8278-96BC3E8B5528/9.0.1048.9590/Microsoft.Azure.ServiceFabric.WindowsServer.9.0.1048.9590.zip). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
+1. The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/8/3/6/836E3E99-A300-4714-8278-96BC3E8B5528/9.1.1583.9590/Microsoft.Azure.ServiceFabric.WindowsServer.9.1.1583.9590.zip). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 2. Open a PowerShell console as an elevated administrator and run the following command:
 
-    `.\MicrosoftServiceFabric.9.0.1048.9590.exe /accepteula`
+    `.\ MicrosoftServiceFabric.9.1.1583.9590.exe /accepteula`
 
 3. To verify the Azure Service Fabric is installed, you should be able to find it in the Programs and Features of the Control Panel.
 
 > [!NOTE]
->SharePoint Workflow Manager supports the version 9.0 CU2 (9.0.1048.9590) of Azure Service Fabric and [higher versions](/azure/service-fabric/service-fabric-versions). You can install higher versions than that. If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+>SharePoint Workflow Manager supports the version 9.1 CU2 (9.1.1583.9590) of Azure Service Fabric and [higher versions](/azure/service-fabric/service-fabric-versions).  If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
 
 ### Install SharePoint Workflow Manager
 
@@ -79,7 +79,11 @@ Install both SharePoint Workflow Manager and SharePoint Workflow Manager Client 
 Install SharePoint Workflow Manager Client on all servers in the SharePoint Server farm.
 
 ### Install and configure SharePoint Server
-<a name="section3"> </a>
+
+#### Configure Workflow Manager farm and SharePoint Workflow Manager
+
+To create a Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard, see [Video series Install and configure Workflow](https://learn.microsoft.com/SharePoint/governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013#episode-3-install-and-configure-workflow-manager).
+
 
 Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../install/install.md).
   
@@ -222,7 +226,7 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
 7. If there is more than one server in your Workflow Manager farm, repeat the previous steps on all farm servers.
 8. Run the Workflow Manager Configuration Wizard and rejoin the previous farm with the databases you noted in the previous steps on all servers in your Workflow Manager farm.
    > [!NOTE]
-   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService.
+   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](https://learn.microsoft.com/archive/blogs/biztalknotes/reset-certificate-generation-key-for-workflowmanager-and-servicebus).
 
 9. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.
    > [!NOTE]
