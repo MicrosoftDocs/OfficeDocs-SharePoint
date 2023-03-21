@@ -62,7 +62,7 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 >While you can select multiple tasks to bulk download your reports, the reports are processed one at a time.
 
 
-**Scan reports:**
+#### Download Scan reports
 
 1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
@@ -74,7 +74,7 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 :::image type="content" source="media/mm-reports-download-action-panel.png" alt-text="action center side panel flies out to show the list of processed downloadable reports":::
 
 
-**Migration reports:**
+#### Download Migration reports
 
 1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
