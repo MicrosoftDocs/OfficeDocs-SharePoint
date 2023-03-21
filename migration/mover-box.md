@@ -19,6 +19,17 @@ description: "Setting up your Box source connector to migrate to Office 365."
 ---
 # Setting up your source:  Box
 
+>[!Important]
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>
+>All FastTrack-led migrations have transitioned to Migration Manager.
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
+>
+>A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+
+
+
 ## Box FAQ
 
 ### Role changes from Box to Office 365
