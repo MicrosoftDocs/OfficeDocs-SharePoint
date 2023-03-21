@@ -59,7 +59,7 @@ Your reports may also reference a failure or status code to provide specific det
 Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. You can select up to 100 tasks for each report type.
 
 >[!Note]
->While you can select multiple tasks to bulk download your reports, the reports are processed one at a time.
+>Reports are processed one at a time, even when selecting multiple tasks and downloading the reports in bulk.
 
 
 #### Download Scan reports
