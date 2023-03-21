@@ -57,36 +57,25 @@ Your reports may also reference a failure or status code to provide specific det
 
 ## How to download reports
 
-Reports can be downloaded only from within Migration Manager. 
+Reports can be downloaded only from within Migration Manager. Bulk download is supported.
 
 
-**Task level scan reports:**
+**Scan reports:**
 
-1. On the Scan tab, select a single row from the list of scanned tasks. Each row in the table represents a scan task.
-2. From the action bar, select **Download reports > Detailed**.</br>
-
-:::image type="content" source="media/mm-download-report-bar-scan.png" alt-text="download task level scan reports":::
+1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
+2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
 
-**Summary scan reports:**
+**Migration reports:**
 
-1. From the Scan tab action bar, select **Download reports > Summary**. Don't select an individual task as these reports include all task.
+1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
+2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-
-**Task level migration reports:**
-
-1. On the Migration tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
-2. Select **Download CSV** to download the MigrationLog.csv. 
-
-
-**Summary migration reports:**
-
-1. From the migration tab action bar, select **Download reports > Summary**. Don't select an individual row as these reports include all tasks.
 
 
 ## Scan reports
 
-The following reports are downloaded from the Scans tab from with Migration
+The following reports are downloaded from the **Scans** tab from with Migration Manager.
 
 ### ScanLog.csv 
 
