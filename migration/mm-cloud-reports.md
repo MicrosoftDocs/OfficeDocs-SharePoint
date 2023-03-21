@@ -70,7 +70,7 @@ Reports can be downloaded only from within Migration Manager.
 
 **Summary scan reports:**
 
-1. From the Scan tab action bar, select **Download summary report**. Don't select an individual task as these reports include all task.
+1. From the Scan tab action bar, select **Download summary report**. Don't select an individual task as these reports include all tasks.
 
 
 **Task level migration reports:**
