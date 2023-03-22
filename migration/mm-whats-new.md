@@ -37,7 +37,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 
 ## March 2023
-- 
+
 - **Change. Report downloads in the action menu bar.** Downloading your reports has been consolidated in the action menu bar. The View logs link has been removed to improve resource consumption and align with how Scan logs are downloaded. [Learn more about downloading summary and detailed reports](mm-cloud-reports.md)
 - **Fixed. Dropbox migrated permissions**. Customers were experiencing some Dropbox file and folder permissions not being migrated. This issue has been fixed.
 
