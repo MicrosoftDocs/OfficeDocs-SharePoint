@@ -58,7 +58,7 @@ A phased implementation schedule for existing EU customers is listed below.
 |If you have...|Impact to you|Recommendation|
 |:---------------|:-----|:-----|
 |No existing migrations|None|No action required.|
-|Active migrations</br> *except* **Stream**|You've until September 30, 2023 to complete active migrations. You can choose to restart your scans and migrations in the EU project starting April 1, 2023. As of October 1, 2023, you'll no longer have access to US projects. |We recommend completing existing US migration tasks or restart a new migration in the EU project at your earliest convenience.|
+|Active migrations*</br></br> (*except **Stream**)|You've until September 30, 2023 to complete active migrations. You can choose to restart your scans and migrations in the EU project starting April 1, 2023. As of October 1, 2023, you'll no longer have access to US projects. |We recommend completing existing US migration tasks or restart a new migration in the EU project at your earliest convenience.|
 |File share Scans|File share scans in the US project can be accessed until April 1, 2023, at which point they become read only.|Start running new scans in the EU.|
 |Active Stream migrations|Stream migrations created before April 15, 2023 may continue to run in the US project until February 15, 2024. After that date, the migrations will be removed. |Complete your Stream migration before February 15, 2024.|
 
