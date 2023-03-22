@@ -60,7 +60,7 @@ The following apps and scenarios don't work with authentication contexts:
 - Third-party apps
 - The OneDrive sync app won't sync sites with an authentication context
 - Copy or move files from a site with no authentication context to a site with an authentication context fails
-- associating an authentication context to the enterprise application catalog site collection is not supported 
+- Associating an authentication context to the enterprise application catalog site collection is not supported 
 
 ## Setting up an authentication context
 
