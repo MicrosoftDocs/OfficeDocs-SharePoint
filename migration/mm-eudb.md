@@ -36,7 +36,7 @@ The Migration Manager Platform (MMP) is the platform for Migration Manager, the 
 
 The European Union Data Boundary (EUDB) is a geographically defined boundary within which Microsoft has committed to store and process customer data for our major commercial enterprise online services, including Azure, Dynamics 365, Power Platform, and Microsoft 365, subject to limited circumstances where customer data will continue to be transferred outside the EU Data Boundary.
 
-MMP currently has one project based in the United States (US) farm, serving all global migration traffic. Starting April 1, 2023, a second project based in the European Union (EU) will be available for all migration projects except Stream. Stream's second project will be available on April 15, 2023.
+MMP currently has one project based in the United States (US) farm, serving all global migration traffic. Starting April 1, 2023, a second project based in the European Union (EU) will be available for all migration projects except Stream. Stream's second project will be available starting April 15, 2023.
 
 A phased implementation schedule for existing EU customers is listed below.
 
