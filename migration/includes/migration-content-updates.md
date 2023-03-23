@@ -2,6 +2,24 @@
 
 
 
+## Week of March 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/13/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 3/16/2023 | [Authorizing the Amazon S3 Connector](/SharepointMigration/mover-amazons3) | modified |
+| 3/16/2023 | [Mover migration - setup your Azure Blob Storage Connector](/SharepointMigration/mover-azureblob) | modified |
+| 3/16/2023 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
+| 3/16/2023 | [Authorizing the Dropbox Connector](/SharepointMigration/mover-dropbox) | modified |
+| 3/16/2023 | [Mover migration - setting up the Google Cloud storage connector](/SharepointMigration/mover-googlecloudstore) | modified |
+| 3/16/2023 | [Authorizing the G Suite Connector](/SharepointMigration/mover-gsuite) | modified |
+| 3/16/2023 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
+| 3/16/2023 | [Authorizing the Office 365 Connector](/SharepointMigration/mover-o365) | modified |
+| 3/16/2023 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
+| 3/16/2023 | [Mover services migration security](/SharepointMigration/mover-security) | modified |
+
+
 ## Week of March 06, 2023
 
 

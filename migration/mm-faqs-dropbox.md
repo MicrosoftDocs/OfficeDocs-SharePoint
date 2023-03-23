@@ -24,7 +24,7 @@ description: Migration Manager Dropbox FAQs
 
 
 **Question:**  **Is Migration Manager Dropbox available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  Currently Migration Manager Dropbox is not available for any of the Government clouds.
+Answer.  No. Migration Manager Dropbox is not available for any of the Government clouds.
 </br>
 
 **Question:**   **What gets transferred?**</br>
