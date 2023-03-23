@@ -82,7 +82,7 @@ Install SharePoint Workflow Manager Client on all servers in the SharePoint Serv
 
 #### Configure Workflow Manager farm and SharePoint Workflow Manager
 
-To create a Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard, see [Video series Install and configure Workflow](https://learn.microsoft.com/SharePoint/governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013#episode-3-install-and-configure-workflow-manager).
+To create a Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard, see [Video series Install and configure Workflow](/SharePoint/governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013#episode-3-install-and-configure-workflow-manager).
 
 
 Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint Server Subscription Edition](../install/install.md).
@@ -226,7 +226,7 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
 7. If there is more than one server in your Workflow Manager farm, repeat the previous steps on all farm servers.
 8. Run the Workflow Manager Configuration Wizard and rejoin the previous farm with the databases you noted in the previous steps on all servers in your Workflow Manager farm.
    > [!NOTE]
-   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](https://learn.microsoft.com/archive/blogs/biztalknotes/reset-certificate-generation-key-for-workflowmanager-and-servicebus).
+   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](/archive/blogs/biztalknotes/reset-certificate-generation-key-for-workflowmanager-and-servicebus).
 
 9. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.
    > [!NOTE]
