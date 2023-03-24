@@ -58,7 +58,7 @@ When a site has no segments and site's information barriers mode is set to *Open
 - The site and its contents can be shared based on the information barrier policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users.
 
 >[!TIP]
->If you want to allow sharing of *Open* mode sites with mail-enabled security groups, see the [Allow sharing of Open mode sites with mail-enabled security groups (preview)](#allow-sharing-of-open-mode-sites-with-mail-enabled-security-groups-preview) section in this article.
+>If you want to allow sharing of *Open* mode sites with mail-enabled security groups, see the [Allow sharing of Open mode sites with mail-enabled security groups](#allow-sharing-of-open-mode-sites-with-mail-enabled-security-groups) section in this article.
 
 ### Owner Moderated
 
