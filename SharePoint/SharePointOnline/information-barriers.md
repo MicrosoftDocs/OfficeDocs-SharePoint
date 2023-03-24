@@ -323,7 +323,7 @@ Audit events are available in the Microsoft Purview compliance portal to help yo
 - Changed information barriers mode of site
 - Disabled information barriers for SharePoint and OneDrive
 
-For more information about SharePoint segment auditing in Office 365, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#information-barriers-activities).
+For more information about SharePoint segment auditing in Office 365, see [Search the audit log in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#information-barriers-activities).
 
 ## Site creation and management by site owners
 
@@ -379,7 +379,7 @@ Private channel site access and sharing is governed by its IB mode:
     - Access is allowed to user who is currently a member of the private channel
     - Sharing is allowed using **People with existing access link**
 
-Private channel sites already configured in your organization will have their information barriers mode set as *Open*. To configure existing private channel sites to *Implicit* mode, run the following cmdlet in SharePoint Powershell module:
+Private channel sites already configured in your organization will have their information barriers mode set as *Open*. To configure existing private channel sites to *Implicit* mode, run the following cmdlet in SharePoint PowerShell module:
 
 ```powershell
 Set-Sposite -Identity <site URL> -InformationBarriersMode Implicit
@@ -428,7 +428,7 @@ Set-SPOTenant -InformationBarriersSuspension $true
 >[!NOTE]
 >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
-## Allow sharing of Open mode sites with mail-enabled security groups (preview)
+## Allow sharing of Open mode sites with mail-enabled security groups
 
 IB supports an opt-in capability available in the [SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for sites in *Open* mode to be shared with [mail-enabled security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) for site permissions, sharing, and audience targeting. This is only supported in *Open* mode sites. SharePoint admins can enable this support in your organization and we recommend you ensure the security group membership is IB compliant.
 
