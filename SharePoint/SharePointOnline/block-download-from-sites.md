@@ -2,8 +2,8 @@
 ms.date: 03/01/2023
 title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -14,6 +14,8 @@ ms.localizationpriority: medium
 ms.collection:
 - Strat_SP_admin
 - M365-collaboration
+- Highpri
+- Tier1
 search.appverid:
 - SPO160
 - MET150

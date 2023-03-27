@@ -2,6 +2,35 @@
 
 
 
+## Week of March 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/13/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 3/16/2023 | [Authorizing the Amazon S3 Connector](/SharepointMigration/mover-amazons3) | modified |
+| 3/16/2023 | [Mover migration - setup your Azure Blob Storage Connector](/SharepointMigration/mover-azureblob) | modified |
+| 3/16/2023 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
+| 3/16/2023 | [Authorizing the Dropbox Connector](/SharepointMigration/mover-dropbox) | modified |
+| 3/16/2023 | [Mover migration - setting up the Google Cloud storage connector](/SharepointMigration/mover-googlecloudstore) | modified |
+| 3/16/2023 | [Authorizing the G Suite Connector](/SharepointMigration/mover-gsuite) | modified |
+| 3/16/2023 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
+| 3/16/2023 | [Authorizing the Office 365 Connector](/SharepointMigration/mover-o365) | modified |
+| 3/16/2023 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
+| 3/16/2023 | [Mover services migration security](/SharepointMigration/mover-security) | modified |
+
+
+## Week of March 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/7/2023 | [Migration Manager and the European Union database (EUDB)](/SharepointMigration/mm-eudb) | added |
+| 3/7/2023 | [Migration Manager and the European Union Data Boundary (EUDB)](/SharepointMigration/mm-eudb) | modified |
+| 3/10/2023 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+| 3/10/2023 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
+
+
 ## Week of February 27, 2023
 
 
@@ -23,14 +52,3 @@
 | 2/15/2023 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
 | 2/15/2023 | [Step 2: Migrate SharePoint Server workflows with SPMT](/SharepointMigration/spmt-workflow-step2) | modified |
 | 2/15/2023 | [Step 3: Activate workflows after migration](/SharepointMigration/spmt-workflow-step3) | modified |
-
-
-## Week of January 30, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/31/2023 | [Step 3: Copy to migrations tab for Dropbox migration](/SharepointMigration/mm-dropbox-step3-copy-to-migrations) | modified |
-| 1/31/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
-| 1/31/2023 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
-| 1/31/2023 | [Upload file share sources to Migration Manager using a CSV file.](/SharepointMigration/mm-fileshare-source-scan-csv-upload) | added |

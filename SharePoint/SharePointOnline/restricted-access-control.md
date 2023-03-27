@@ -1,6 +1,6 @@
 ---
-ms.date: 03/01/2023
-title: "Restrict access control for SharePoint sites"
+ms.date: 03/07/2023
+title: "Restrict access to a SharePoint site by Microsoft 365 group"
 ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
@@ -12,11 +12,14 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
+- Highpri
+- Tier1
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
-# Restrict access control for SharePoint sites
+# Restrict access to a SharePoint site by Microsoft 365 group membership
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
