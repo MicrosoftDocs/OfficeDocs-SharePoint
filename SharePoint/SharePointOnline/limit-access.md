@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- Highpri
+- Tier1
 search.appverid:
 ms.assetid: 
 ms.custom:
@@ -41,13 +43,13 @@ To access and use this feature, your organization must have one of the following
 
 To enable this feature:
 
-1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](sharepoint-admin-role.md) for your organization.
 
-2. Select **Limit OneDrive access**.
+2. Select **Restrict OneDrive access**.
 
-3. Select **Limit OneDrive access to only users in specified security groups**.
+3. Select **Restrict OneDrive access to only users in specified security groups**.
 
-   ![Limit access on the Access control page in the SharePoint admin center](media/limit-access.png)
+    :::image type="content" source="media/restrictonedriveaccess.png" alt-text="Restrict OneDrive access on the Access control page in the SharePoint admin center":::
 
 4. Add the security groups (maximum of 10) you want to be able to use OneDrive.
 

@@ -47,7 +47,6 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
 
-
 ## Failure and status codes 
 
 Your reports may also reference a failure or status code to provide specific details as to the nature of issue. 
@@ -57,36 +56,34 @@ Your reports may also reference a failure or status code to provide specific det
 
 ## How to download reports
 
-Reports can be downloaded only from within Migration Manager. 
+Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. You can select up to 100 tasks for each report type.
+
+>[!Note]
+>Reports are processed one at a time, even when selecting multiple tasks and downloading the reports in bulk.
 
 
-**Task level scan reports:**
+#### Download Scan reports
 
-1. On the Scan tab, select a single row from the list of scanned tasks. Each row in the table represents a scan task.
-2. From the action bar, select **Download reports > Detailed**.</br>
+1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
+2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-:::image type="content" source="media/mm-download-report-bar-scan.png" alt-text="download task level scan reports":::
+:::image type="content" source="media/mm-reports-download-action-menu.png" alt-text="menu action bar for downloading detailed or summary reports":::
 
+3. Download the processed reports from the Action Center side panel.
 
-**Summary scan reports:**
-
-1. From the Scan tab action bar, select **Download reports > Summary**. Don't select an individual task as these reports include all task.
-
-
-**Task level migration reports:**
-
-1. On the Migration tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
-2. Select **Download CSV** to download the MigrationLog.csv. 
+:::image type="content" source="media/mm-reports-download-action-panel.png" alt-text="action center side panel flies out to show the list of processed downloadable reports":::
 
 
-**Summary migration reports:**
+#### Download Migration reports
 
-1. From the migration tab action bar, select **Download reports > Summary**. Don't select an individual row as these reports include all tasks.
+1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
+2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
+3. Download the processed reports from the Action Center side panel.
 
 
 ## Scan reports
 
-The following reports are downloaded from the Scans tab from with Migration
+The following reports are downloaded from the **Scans** tab from with Migration Manager.
 
 ### ScanLog.csv 
 
