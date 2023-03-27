@@ -229,9 +229,6 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
    > [!NOTE]
    >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](/archive/blogs/biztalknotes/reset-certificate-generation-key-for-workflowmanager-and-servicebus).
 
-   > [!NOTE]
-   > In some situations you might get a message that the Certificate Generation Key is invalid. If that happens, you should follow the instructions in the following article to reset the Certificate Generation Key: [Reset Certificate Generation Key for WorkFlowManager and ServiceBus](/archive/blogs/biztalknotes/reset-certificate-generation-key-for-workflowmanager-and-servicebus).
-
 9. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.
    > [!NOTE]
    >You only need to run this step once on any server in the Workflow Manager farm.
