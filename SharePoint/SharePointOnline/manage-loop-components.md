@@ -28,6 +28,8 @@ Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid or
 1. Cloud Policy
 2. SharePoint PowerShell command
 
+If you're new to Cloud Policy and looking to enable the Loop app for your organization during the public preview, you may appreciate a more step by step, all-in-one document for how to roll out Cloud Policy settings to your tenant. If so, check out this Tech Community blog: [Learn how to enable the Microsoft Loop app, now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-365-blog/learn-how-to-enable-the-microsoft-loop-app-now-in-public-preview/ba-p/3769013).
+
 ## Available policy settings
 
 There are several IT Admin settings provided to enable the Loop app and Loop experiences across Microsoft 365:

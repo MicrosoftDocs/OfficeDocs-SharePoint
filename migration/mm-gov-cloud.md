@@ -24,7 +24,7 @@ If your tenant resides in a government cloud, you may have additional steps to p
 
 - [Configuration values](#configuration-values)
 - [GCC High and DoD customers](#gcc-high-and-dod-customers)
-- [Endpoints for Goverment](#endpoints-for-government)
+- [Endpoints for Government](#endpoints-for-government)
 
 
 ## Configuration values
@@ -44,7 +44,7 @@ Configuration values for government cloud tenants are listed below.  The default
 
 ## GCC High and DoD customers
 
-If your are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. All other cloud customers do not have to make this change as the default is already set to 0.
+If you are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. All other cloud customers do not have to make this change as the default is already set to 0.
 
 
 1. Download the agent setup file.
