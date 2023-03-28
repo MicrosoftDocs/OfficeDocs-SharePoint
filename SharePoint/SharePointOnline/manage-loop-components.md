@@ -24,15 +24,11 @@ description: "Learn how to manage Loop experiences (Loop app and Loop components
 
 # Manage Loop experiences (Loop app and Loop components) in SharePoint
 
-## Looking for Loop app public preview instructions?
-
-If you're new to Cloud Policy and looking to enable the Loop app for your organization during the public preview, you may appreciate a more step by step, all-in-one document for how to roll out Cloud Policy settings to your tenant. If so, check out this Tech Community blog: [Learn how to enable the Microsoft Loop app, now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-365-blog/learn-how-to-enable-the-microsoft-loop-app-now-in-public-preview/ba-p/3769013).
-
-## How to enable or disable all Loop experiences
-
 Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid or .loop files. IT admins need to manage access to Loop experiences from **BOTH**:
 1. Cloud Policy
 2. SharePoint PowerShell command
+
+If you're new to Cloud Policy and looking to enable the Loop app for your organization during the public preview, you may appreciate a more step by step, all-in-one document for how to roll out Cloud Policy settings to your tenant. If so, check out this Tech Community blog: [Learn how to enable the Microsoft Loop app, now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-365-blog/learn-how-to-enable-the-microsoft-loop-app-now-in-public-preview/ba-p/3769013).
 
 ## Available policy settings
 
