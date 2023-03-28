@@ -27,10 +27,12 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 
 ## Unsupported files
 
-Migration Manager doesn't support the following file types:
+Migration Manager doesn't support the following file types: 
 
-- Google Drive: Drawings, Forms, Sites, and Maps
-- Box: Box Notes, default files (including Welcome to Box.pdf)
-- Dropbox: Dropbox Paper, default files (including Get started with Dropbox.pdf), and Google docs (gdoc/gslides/gsheet) created in Dropbox
-- Shortcut files
-- Files marked as restricted
+|Source|Unsupported files|
+|:-----|:-----|
+|Google Drive|Drawings, Forms, Sites, and Maps|
+|Box| Box Notes, default files (including Welcome to Box.pdf)|
+|Dropbox|Dropbox Paper, default files (including Get started with Dropbox.pdf)</br>Google docs (gdoc/gslides/gsheet) created in Dropbox|
+|General|Shortcut files|
+|General|Files marked as restricted|
