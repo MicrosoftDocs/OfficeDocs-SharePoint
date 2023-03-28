@@ -81,7 +81,7 @@ Install SharePoint Workflow Manager Client on all servers in the SharePoint Serv
 
 ### Install and configure SharePoint Server
 
-#### Configure Workflow Manager farm and SharePoint Workflow Manager
+### Configure Workflow Manager farm and SharePoint Workflow Manager
 
 To create a Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard, see [Video series Install and configure Workflow](/SharePoint/governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013#episode-3-install-and-configure-workflow-manager).
 
@@ -242,10 +242,8 @@ Follow these steps to validate that you have successfully installed and configur
   
  **To validate the installation**
   
-1. Add a user to your SharePoint site, and grant the user Site Designer permissions.
-    
-2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo).
-    
+1. Add a user to your SharePoint site, and grant the user Site Designer permissions.   
+2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo).    
 3. Run this workflow from the SharePoint user interface.
     
 ## Troubleshooting
