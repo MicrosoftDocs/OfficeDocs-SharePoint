@@ -32,6 +32,14 @@ There are also [Loop service requirements](#loop-service-requirements) covered b
 
 If you're new to Cloud Policy and looking to enable the Loop app for your organization during the public preview, you may appreciate a more step by step, all-in-one document for how to roll out Cloud Policy settings to your tenant. If so, check out this Tech Community blog: [Learn how to enable the Microsoft Loop app, now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-365-blog/learn-how-to-enable-the-microsoft-loop-app-now-in-public-preview/ba-p/3769013).
 
+## Loop service requirements
+
+The Loop app currently requires each user to have an Exchange Online license. If not, users will experience failures in the Loop app, be unable to create new Loop workspaces, will not receive notifications or signals when users collaborate and update, and other experiences may also fail.
+
+Loop's near real-time communications are enabled by the core services that run a WebSocket server. Coauthors in the same session need to establish secured WebSocket connections to this service to send and receive collaborative data such as changes made by others, live cursors, presence, etc. These experiences are crucial to Loop, and all the scenarios powered by Fluid framework. So, at the minimum, WebSocket will need to be unblocked from the user's endpoint.
+
+Just like other Microsoft 365 experiences, Loop also leverages core services across SharePoint and Microsoft 365. To effectively enable Loop experiences or OneDrive and SharePoint files-backed experiences powered by Fluid Framework, follow the instructions in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) to ensure connections to Loop services.
+
 ## Available policy settings
 
 There are several IT Admin settings provided to enable the Loop app and Loop experiences across Microsoft 365:
@@ -74,7 +82,7 @@ To configure these Cloud Policy settings:
         - **Enabled**: Loop app is available to users.
         - **Disabled**: Loop app is NOT available to users.
         - **Not configured**: Loop app is NOT available to users. (Loop during Public Preview is Opt-in by default)
-        **Note**: additional [Loop service requirements](#loop-service-requirements) covered below, including requiring an Exchange license
+        **Note**: see additional [Loop service requirements](#loop-service-requirements).
 8. Save the policy configuration.
 9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
@@ -104,21 +112,17 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android, and w
 
 To disable Loop components in Teams, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. If your organization has multiple regions (that is, organization URLs), you need to disable loop components for all the regions to have consistent results across the organization.
 
-## Loop service requirements
-
-The Loop app currently requires each user to have an Exchange license. If not, users will experience failures in the Loop app, be unable to create new Loop workspaces, will not receive notifications or signals when users collaborate and update, and other experiences may also fail.
-
-Loop's near real-time communications are enabled by the core services that run a WebSocket server. Coauthors in the same session need to establish secured WebSocket connections to this service to send and receive collaborative data such as changes made by others, live cursors, presence, etc. These experiences are crucial to Loop, and all the scenarios powered by Fluid framework. So, at the minimum, WebSocket will need to be unblocked from the user's endpoint.
-
-Just like other Microsoft 365 experiences, Loop also leverages core services across SharePoint and Microsoft 365. To effectively enable Loop experiences or OneDrive and SharePoint files-backed experiences powered by Fluid Framework, follow the instructions in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) to ensure connections to Loop services.
-
 ## eDiscovery
+
+### Loop components
 
 Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection, and render in review for both eDiscovery (Standard) and eDiscovery (Premium). The HTML offline export format is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive for Business to view them in their native format.
 
 Microsoft is currently working on a third-party export API solution for Loop components.
 
-The Loop app does not yet support eDiscovery workflows.
+### Loop app
+
+The Loop app and content created in the Loop app does not yet support eDiscovery workflows.
 
 ## Related topics
 
