@@ -55,7 +55,7 @@ Common methods of organizing navigational design:
 
 **Benefits** - Most users already have a well-established mental model for navigation broken down by department. This model scales many sizes and types of organizations and is a common method for [organizing and planning hubs](./planning-hub-sites.md).
 
-**Governance considerations**  - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](./information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences. 
+**Governance considerations**  - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](/microsoft-365/compliance/information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences. 
 
 **Maintenance considerations** - As the business grows and departments and team move, you will need to update global, hub, and local navigation to reflect organizational changes. 
 
@@ -85,7 +85,7 @@ Common methods of organizing navigational design:
 
 **Benefits** - Sometimes content is best organized by type, or portfolio, to display content in natural groupings or for specific audiences. Organizing your navigation by portfolio offers flexibility as your business scales and grows. 
 
-**Governance considerations** - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](./information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences.
+**Governance considerations** - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](/microsoft-365/compliance/information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences.
 
 **Maintenance considerations** - As the business and portfolios grow, the navigation needs to reflect organizational changes. 
 

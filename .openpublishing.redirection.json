@@ -921,17 +921,17 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/information-barriers.md",
+      "source_path": "SharePoint/SharePointOnline/information-barriers.md",
       "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint",
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/information-barriers-compliance-assistant.md",
+      "source_path": "SharePoint/SharePointOnline/information-barriers-compliance-assistant.md",
       "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint-assistant",
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/info-barriers-report.md",
+      "source_path": "SharePoint/SharePointOnline/info-barriers-report.md",
       "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint-report",
       "redirect_document_id": false
     },
