@@ -32,7 +32,7 @@ The following table lists the default managed properties and their attributes sp
 |IsHubSite|Yes/No|No|Yes|No|Yes|No|No|ows_IsHubSite|Applies to the site result of a hub (contentclass=STS_Site)
 |ModifierAADIDs|Text|Yes|Yes|No|Yes|Yes|Yes||Semi-colon separated list of AADIDs for modifiers of a file or page ordered in date descending order. (\*)
 |ModifierDates|Date and Time|Yes|No|No|Yes|No|No||Semi-colon separated list of modification dates for modifiers of a file or page ordered in date descending order. (\*)
-|ModifierNames|Text|Yes|Yes|No|Yes|No|No||Semi-colon separated list of the names for modifiers of a file or page ordered in date descending order. (\*)
+|ModifierNames|Text|Yes|Yes|Yes|Yes|No|No||Semi-colon separated list of the names for modifiers of a file or page ordered in date descending order. (\*)
 |ModifierUPNs|Text|Yes|No|No|Yes|No|No||Semi-colon separated list of UPNs for modifiers of a file or page ordered in date descending order. (\*)
 |ChapterTitle|Text|Yes|Yes|Yes|Yes|No|No|ChapterTitle|Semi-colon separated list of [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/en-us/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
 |ChapterOffset|Text|Yes|No|No|Yes|No|No|ChapterOffset|Semi-colon separated list of time codes matching the chapter titles for [auto-generated chapters on Teams meeting videos](https://support.microsoft.com/office/auto-generated-chapters-on-teams-meeting-videos-7af781d3-ed33-4aae-bb66-0abd4c6c4c98). (\*)
