@@ -201,11 +201,11 @@
 
 ### [Default sensitivity label for a document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 
-### [Use information barriers (SharePoint)](information-barriers.md)
-### [Use information barriers (OneDrive)](information-barriers-onedrive.md)
+### [Use information barriers (SharePoint)](/microsoft-365/compliance/information-barriers-sharepoint.md)
+### [Use information barriers (OneDrive)](/microsoft-365/compliance/information-barriers-onedrive.md)
 
-### [Configure information barriers compliance assistant](information-barriers-compliance-assistant.md)
-### [Create an information barriers policy report](info-barriers-report.md)
+### [Configure information barriers compliance assistant](/microsoft-365/compliance/information-barriers-sharepoint-assistant.md)
+### [Create an information barriers policy report](/microsoft-365/compliance/information-barriers-sharepoint-report.md)
 ### [Control notifications](notifications.md)
 ## [Content services]()
 ### [Term store]()
