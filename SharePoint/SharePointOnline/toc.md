@@ -205,7 +205,7 @@
 ### [Use information barriers (OneDrive)](/microsoft-365/compliance/information-barriers-onedrive?toc=/SharePoint/SharePointOnline/toc.json&bc=/SharePoint/SharePointOnline/breadcrumb/toc.json)
 
 ### [Configure information barriers compliance assistant](/microsoft-365/compliance/information-barriers-sharepoint-assistant?toc=/SharePoint/SharePointOnline/toc.json&bc=/SharePoint/SharePointOnline/breadcrumb/toc.json)
-### [Create an information barriers policy report](/microsoft-365/compliance/information-barriers-sharepoint-report.md)
+### [Create an information barriers policy report](/microsoft-365/compliance/information-barriers-sharepoint-report?toc=/SharePoint/SharePointOnline/toc.json&bc=/SharePoint/SharePointOnline/breadcrumb/toc.json)
 ### [Control notifications](notifications.md)
 ## [Content services]()
 ### [Term store]()
