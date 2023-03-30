@@ -201,7 +201,7 @@
 
 ### [Default sensitivity label for a document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 
-### [Use information barriers (SharePoint)](/microsoft-365/compliance/information-barriers-sharepoint.md)
+### [Use information barriers (SharePoint)](/microsoft-365/compliance/information-barriers-sharepoint?toc=/SharePoint/SharePointOnline/toc.json&bc=/SharePoint/SharePointOnline/breadcrumb/toc.json)
 ### [Use information barriers (OneDrive)](/microsoft-365/compliance/information-barriers-onedrive.md)
 
 ### [Configure information barriers compliance assistant](/microsoft-365/compliance/information-barriers-sharepoint-assistant.md)
