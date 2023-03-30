@@ -41,7 +41,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync app version 22.232 or later for Windows and macOS.
 
-- OneDrive sync apps on the Insiders or Production ring. Users on Deferred rings can access the dashboard once 22.232 has rolled out to the ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+- OneDrive sync apps on the Insiders, Production, or Deferred ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
 - [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -228,6 +228,8 @@ This section describes known limitations and considerations in sync reporting.
 **Folders in OneDrive:** Devices with folders in OneDrive will appear in reports as a device with 0-3 known folders. If a device has not enabled folders in OneDrive, it will appear in reports as a device that is **Not eligible** in the **Known Folders** section of the **Overview** tab. In the **Devices** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
 **Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+
+**Minimum time device is on for eligibility:** Devices need to be turned on for a minimum of 5 hours to be eligible for the report. Devices that are turned off frequently and not on for that amount of time, may be missing from the dashboard, even if the group policy is set.
 
 **Considerations:**
 
