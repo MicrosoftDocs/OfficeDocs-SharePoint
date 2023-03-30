@@ -2,6 +2,14 @@
 
 
 
+## Week of March 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/23/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
+
+
 ## Week of March 13, 2023
 
 
