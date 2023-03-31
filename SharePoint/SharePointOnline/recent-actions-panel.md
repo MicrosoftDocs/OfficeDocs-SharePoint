@@ -42,7 +42,7 @@ The non-premium version of recent actions panel lets you:
 - review actions made within the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
 
 > [!TIP]
-> The export capability is not supported in the non-premium version of recent actions panel. 
+> The export capability is not supported in the non-premium version of recent actions panel.
 
 ### Premium
 
