@@ -78,16 +78,16 @@ To configure these Cloud Policy settings:
 7. In configuration setting, choose one of the following:
     - For **Create and view Loop files in Microsoft apps that support Loop**
         - **Enabled**: Loop experience is available to users.
-        - **Disabled**: Loop experience is NOT available to users.
+        - **Disabled**: Loop experience is not available to users.
         - **Not configured**: Loop experience is available to users.
     - For **Create and view Loop files in Outlook**
         - **Enabled**: Loop experience is available to users.
-        - **Disabled**: Loop experience is NOT available to users.
+        - **Disabled**: Loop experience is not available to users.
         - **Not configured**: Loop experience is available to users.
     - For **Create and view Loop files in Loop**
         - **Enabled**: Loop app is available to users.
         - **Disabled**: Loop app is not available to users.
-        - **Not configured**: Loop app is NOT available to users.
+        - **Not configured**: Loop app is not available to users.
             - Loop during Public Preview is IT Admin Opt-in by default.
             - Ensure additional [Loop service requirements](#loop-service-requirements) are met.
 8. Save the policy configuration.
@@ -119,19 +119,17 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android, and w
 
 To disable Loop components in Teams, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. If your organization has multiple regions (that is, organization URLs), you need to disable loop components for all the regions to have consistent results across the organization.
 
-## eDiscovery
+## eDiscovery for Loop components
 
-### Loop components
-
-Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection, and render in review for both eDiscovery (Standard) and eDiscovery (Premium). The HTML offline export format is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive for Business to view them in their native format.
+Loop components created in Teams or Outlook are discoverable and have eDiscovery workflow support using the Microsoft Purview tool. Currently, these files are stored in the creator’s OneDrive and are available for search and collection, and render in review for both eDiscovery (Standard) and eDiscovery (Premium). The HTML offline export format is supported on eDiscovery (Premium). You can also download and re-upload the files to any OneDrive to view them in their native format.
 
 Microsoft is currently working on a third-party export API solution for Loop components.
 
-### Loop app
-
-The Loop app and content created in the Loop app does not yet support eDiscovery workflows.
+> [!NOTE]
+> The Loop app and content created in the Loop app does not yet support eDiscovery workflows.
 
 ## Related topics
 
-- [Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
-- [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
+[Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
+
+[Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
