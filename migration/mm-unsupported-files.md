@@ -68,3 +68,6 @@ Google's proprietary formats aren't compatible with anything other than a Google
 |.gsheet|.xlsx|
 |.gdoc|.docx|
 |.gslide|.pptx|
+
+>[!Note]
+> The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly those of Google.
