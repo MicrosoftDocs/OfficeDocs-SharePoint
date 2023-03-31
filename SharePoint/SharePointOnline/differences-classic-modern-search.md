@@ -39,7 +39,7 @@ You use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_b
 - The [search schema](manage-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The Microsoft Search experience doesn't support changing the sort order of results or building refiners based on metadata. Therefore, the following search schema settings don’t affect the Microsoft Search experience:
   - Sortable
   - Refinable
-  - Company name extraction (to be deprecated as of November 15th, 2019)
+  - Company name extraction (deprecated since November 15, 2019)
 
 - In environments where vertical configuration is available the modern search experience only shows results from the standard result source (Local SharePoint Results). To learn more, see [Manage search verticals](/microsoftsearch/manage-verticals).
 - In environments where vertical configuration is not available the modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both modern and classic search experiences are impacted.
