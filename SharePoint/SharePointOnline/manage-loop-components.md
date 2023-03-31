@@ -32,7 +32,7 @@ Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid or
 
 Just like other Microsoft 365 experiences, Loop also leverages core services across SharePoint and Microsoft 365. To effectively enable Loop experiences or OneDrive and SharePoint files-backed experiences powered by Fluid Framework, follow the instructions in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) to ensure connections to Loop services.
 
-#### Security group for cloud policy
+#### Security group for Cloud Policy
 
 You must create or use an existing security group that defines which users in your organization this policy will apply to. You can [learn more about creating groups in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or [learn more about creating dynamic groups in AzureAD](/azure/active-directory/external-identities/use-dynamic-groups). You'll need this group for the Cloud Policy setup procedure below.
 
