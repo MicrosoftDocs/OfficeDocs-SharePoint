@@ -33,24 +33,12 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 - Destination path URL that exceeds the file size limit set by Sharepoint or OneDrive
 
 
-## Unsupported files
-
-Migration Manager doesn't support the following file types: 
-
-|Source|Unsupported files|
-|:-----|:-----|
-|Google Drive|Drawings, Forms, Sites, and Maps|
-|Box| Box Notes, default files (including Welcome to Box.pdf)|
-|Dropbox|Dropbox Paper, default files (including Get started with Dropbox.pdf)</br>Google docs (gdoc/gslides/gsheet) created in Dropbox|
-|General|Shortcut files|
-|General|Files marked as restricted|
-
 ## What isn't migrated from Dropbox
 
 |File|Explanation|
 |:-----|:-----
 |Dropbox papers| Dropbox does not allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.papert files).|
-|Google docs *created in Dropbox*|Google docs that were created in Dropbox are not supported to export from Dropbox and convert to corresponding Microsoft Office formats.|
+|Google docs **created in Dropbox**|Google docs that were created in Dropbox are not supported. We are unable to export these files from Dropbox and convert them to corresponding Microsoft Office formats.|
 |Dropbox & Dropbox Paper getting started instruction files|These files may cause migration failures and will be ignored.|
 
 
