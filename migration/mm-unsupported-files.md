@@ -27,10 +27,11 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 
 ## General files that aren't migrated
 
-- Restricted files
+- Files marked as restricted
+- Shortcut files
 - 0 byte files (limitation on destination - OneDrive)
-- Single large file that exceeds the file size limit set by Sharepoint or OneDrive
-- Destination path URL that exceeds the file size limit set by Sharepoint or OneDrive
+- Single large files that exceeds the file size limit. Learn more at [File size limitations for migration to Microsoft 365](mm-file-size-limitations.md)
+- Destination path URL that exceed the file size limit set by Sharepoint or OneDrive (400 characters)
 
 
 ## What isn't migrated from Dropbox

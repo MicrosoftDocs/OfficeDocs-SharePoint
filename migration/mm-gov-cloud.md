@@ -16,11 +16,15 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
-description: "Explanation of Government Cloud configuration settings when using Migration Manager." 
+description: "Explanation of Government Cloud configuration settings when using Migration Manager for file share migrations." 
 ---
-# Government Cloud
+# Government cloud settings for Migration Manager 
+
+>[Important]
+>Migration Manager only supports File Share migration for the Government cloud. 
 
 If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.
+
 
 - [Configuration values](#configuration-values)
 - [GCC High and DoD customers](#gcc-high-and-dod-customers)
