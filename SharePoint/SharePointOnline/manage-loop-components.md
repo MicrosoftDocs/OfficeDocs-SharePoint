@@ -89,7 +89,7 @@ To configure these Cloud Policy settings:
         - **Disabled**: Loop app is not available to users.
         - **Not configured**: Loop app is not available to users.
             - Loop during Public Preview is IT Admin Opt-in by default.
-            - Ensure additional [Loop service requirements](#loop-service-requirements) are met.
+            - Ensure additional [Loop service requirements](#requirements) are met.
 8. Save the policy configuration.
 9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
