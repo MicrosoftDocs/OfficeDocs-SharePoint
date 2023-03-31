@@ -1,5 +1,5 @@
 ---
-ms.date: 03/30/2023
+ms.date: 03/31/2023
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
@@ -35,22 +35,22 @@ The recent actions panel only shows the changes you make to site properties. Cha
 
 ## Premium and non-premium features of recent actions panel
 
-### Premium
-
-With the [Microsoft Syntex - SharePoint Advanced Management subscription](advanced-management.md), you'll have access to premium features of recent actions panel. The premium version lets you:
-
-- review actions made within the last 30 days
-- export and download a.csv file detailing all the changes made within the last 30 days
-
 ### Non-premium
 
 The non-premium version of recent actions panel lets you:
 
-- review actions made within the current session
-- export and download a .csv containing only the actions made within the current session
+- review actions made within the current session. Once you close the browser or sign out, the recent actions panel will clear the history in the non-premium version.
 
-> [!WARNING]
-> Once you close the browser or sign out, the recent actions panel will clear the history in the non-premium version.
+> [!TIP]
+> The export capability is not supported in the non-premium version of recent actions panel. 
+
+### Premium
+
+With the [Microsoft Syntex - SharePoint Advanced Management subscription](advanced-management.md), you'll have access to premium features of recent actions panel. The premium version lets you:
+
+- review the last 30 actions made within the last 30 days in the recent actions panel
+- view additional details such as previous and current value of the settings changed and directly access the site details panel to review the change
+- export and download a.csv file detailing all the changes made within the last 30 days
 
 ## Requirements
 
@@ -67,8 +67,8 @@ To access and use the **premium** version of this feature, your organization mus
 
 :::image type="content" source="media/Exported_CSV.png" alt-text="Screenshot of .csv file of recent admin actions":::
 
-> [!CAUTION]
-> If you close your browser while actions are in-progress, they will not show in the .csv file. Failed actions are viewable in the recent actions panel, but are omitted in the exported .csv file.
+> [!NOTE]
+>If you close the browser while actions are in-progress, they will not be recorded in the panel or .csv file. Failed actions are recorded in the panel, but are removed once you exit the current session. The export .csv file will not contain failed actions.
 
 ## Bulk site edits
 
