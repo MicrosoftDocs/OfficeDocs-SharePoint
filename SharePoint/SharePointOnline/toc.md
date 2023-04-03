@@ -188,7 +188,7 @@
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 ### [Control access based on network location](control-access-based-on-network-location.md)
-### [Limit OneDrive access by security group](limit-access.md)
+### [Restrict OneDrive access by security group](limit-access.md)
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
