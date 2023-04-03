@@ -1,5 +1,5 @@
 ---
-ms.date: 03/01/2023
+ms.date: 03/28/2023
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mikeplum
@@ -38,7 +38,7 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 **[Restricted access control policy for OneDrive](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
 
-**[Data access governance insights for SharePoint sites](data-access-governance-reports.md)** - These reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
+**[Data access governance reports for SharePoint sites](data-access-governance-reports.md)** - These reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
 **[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)** - With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
 
