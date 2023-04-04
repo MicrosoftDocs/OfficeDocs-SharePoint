@@ -36,7 +36,7 @@ Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-shar
 >
 > - You must have administrator editing privileges to associate hubs to each other in the SharePoint admin center.
 > - Hub level associations do not change site permissions.
-> - Web parts configured to show content from all sites in the hub, will continue to show data from the original parent hub only
+> - Web parts configured to show content from all sites in the hub will continue to show data from the original parent hub only.
 
 ## How hub to hub associations work
 
