@@ -75,7 +75,7 @@ To configure these Cloud Policy settings:
 2. Select **Customization** from the left pane.
 3. Select **Policy Management**.
 4. Create a new policy configuration or edit an existing one.
-5. In **Choose the scope**, choose the group for which you want to apply the policy. See [Microsoft 365 Group for Cloud Policy](#microsoft-365-group-for-cloud-policy) for more information. If you do not apply to a group, your settings will not take effect in your tenant.
+5. In **Choose the scope**, choose the group for which you want to apply the policy. See [Microsoft 365 Groups for Cloud Policy](#microsoft-365-groups-for-cloud-policy) for more information. If you do not apply to a group, your settings will not take effect in your tenant.
 6. In **Configure Settings**, choose one of the settings listed at the top of this section.
 7. In configuration setting, choose one of the following:
     - For **Create and view Loop files in Microsoft apps that support Loop**
