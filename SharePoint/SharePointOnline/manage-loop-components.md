@@ -38,6 +38,8 @@ You must create or use an existing Microsoft 365 group that defines which users 
 
 You'll need this group for the Cloud Policy setup procedure below.
 
+If you prefer, you can also create other types of groups to use with Cloud Policy. See [learn more about creating groups in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or [learn more about creating dynamic groups in AzureAD](/azure/active-directory/external-identities/use-dynamic-groups).
+
 #### Exchange Online license
 
 The Loop app currently requires each user to have an Exchange Online license. If not, users will experience failures in the Loop app, be unable to create new Loop workspaces, will not receive notifications or signals when users collaborate and update, and other experiences may also fail.
