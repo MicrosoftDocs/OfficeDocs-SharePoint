@@ -132,6 +132,8 @@ Microsoft is currently working on a third-party export API solution for Loop com
 
 ## Related topics
 
+[Get started with Microsoft Loop - Microsoft Support](https://support.microsoft.com/en-us/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
+
 [Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
 
 [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
