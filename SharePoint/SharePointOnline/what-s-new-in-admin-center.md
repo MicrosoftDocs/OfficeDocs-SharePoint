@@ -82,7 +82,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 ## June 2020
 
 - **Improvements to the Export feature**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [export your customized view as a .csv file](customize-admin-center-site-list.md#export-to-csv).
-- **New Segments column on the Active sites page**. Organizations that use information barriers can now view and manage the segments associated with sites. [Learn about using information barriers with SharePoint](information-barriers.md)
+- **New Segments column on the Active sites page**. Organizations that use information barriers can now view and manage the segments associated with sites. [Learn about using information barriers with SharePoint](/microsoft-365/compliance/information-barriers-sharepoint)
 
 ## April 2020
 
