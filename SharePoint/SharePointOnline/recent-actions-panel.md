@@ -1,5 +1,5 @@
 ---
-ms.date: 03/31/2023
+ms.date: 04/10/2023
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
@@ -40,9 +40,6 @@ The recent actions panel only shows the changes you make to site properties. Cha
 The non-premium version of recent actions panel lets you:
 
 - review actions made within the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
-
-> [!TIP]
-> The export capability is not supported in the non-premium version of recent actions panel.
 
 ### Premium
 
