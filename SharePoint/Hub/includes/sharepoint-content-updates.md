@@ -2,6 +2,14 @@
 
 
 
+## Week of April 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
+
+
 ## Week of March 27, 2023
 
 
