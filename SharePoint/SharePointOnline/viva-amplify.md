@@ -35,18 +35,18 @@ Once you create a campaign, you can create the content on the **Main canvas** sc
 To create a campaign, perform the following steps:
 
 1. Go to the Microsoft Viva Amplify portal.
-2. Provide your credentials and sign in to the Microsoft Viva Amplify portal.
+2. Provide your credentials and sign in.
 3. Select **+ Create a campaign**.
    The **Create a new campaign** screen is displayed.
 4. Select **Create a campaign** on the bottom-left corner of the screen.
 5. Enter the details for the text boxes and select **Next**.
 6. From the **Add members to your campaign** text box, choose the person whom you want to add as a member of your campaign.
 7. Select **Add to list**.
-   The chosen person is added as a member of your campaign.
+   The chosen person is successfully added as a member of your campaign.
 8. Select **Create a campaign**.
-   The campaign is successfully created and is listed on the **Amplify Hub** screen.
+   The campaign is successfully created and listed on the **Amplify Hub** screen.
 
-Once you create content using the created campaign and transpile it to the distribution channels, you'll know and view the formatting changes that occur.
+You can create content using the created campaign and then transpile it to the distribution channels. Only after you transpile the content, you can view the formatting changes that occur.
 
 > [!NOTE]
 > Formatting changes are applicable only to the **Outlook** distribution channel and not to the **SharePoint** distribution channel because the **Main canvas** screen itself is a type of SharePoint site. For more information, see [Formatting changes](#formatting-changes) and [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
@@ -57,20 +57,17 @@ For example, when you click the "preview" icon under the **Outlook** distributio
 
 :::image type="content" source="media/viva-amplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
 
-When you click the link of the message **Learn more about formatting changes and editing**, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
+When you click **Learn more about formatting changes and editing**, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
 ## Formatting changes
 
 Formatting changes can be classified as:
 
-1. **Modifications to certain web parts**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior. 
+1. **Modifications to certain web parts**: When you use **Outlook** distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
 
-    For example:
+For example, in the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
 
-    - In the **Sections** layout, when you organize content into two or three columns, the same content gets stacked into a single column when being published.
-    - In the **Image** web part, properties such as "text on image" won't be supported.
-
-1. **Removal of certain web parts**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of incompatibility with Outlook.
+1. **Removal of certain web parts**: When you use **Outlook** distribution channel, certain web parts such as the spacer, the large people, and the countdown timer don't appear as they're removed automatically on account of their incompatibility with Outlook.
 
 For detailed information about such other formatting changes in web parts for the **Outlook** distribution channel, see [Formatting changes in Outlook distribution channel](#formatting-changes-in-outlook-distribution-channel).
 
@@ -79,29 +76,12 @@ For detailed information about such other formatting changes in web parts for th
 For the **Outlook** distribution channel, there are:
 
 - [Formatting changes in Image web part](#formatting-changes-in-image-web-part)
-- [Formatting changes in Text web part](#formatting-changes-in-text-web-part)
 - [Formatting changes in People web part](#formatting-changes-in-people-web-part)
 - [Formatting changes in Section layout](#formatting-changes-in-sections-layout)
 
 #### Formatting changes in Image web part
 
-1. Text on the image isn't supported (Text will be dropped.).
-
-   :::image type="content" source="media/text-image-not-supported.png" alt-text="The text on the image not being supported in Outlook.":::
-
-1. Image Hyperlink isn't supported. Transpiled images aren't clickable to link.
-
-   :::image type="content" source="media/image-hyperlink-not-supported.png" alt-text="The image hyperlink not being supported in Outlook.":::
-
-#### Formatting changes in Text web part
-
-1. Theme colors for table aren't supported (Table style is changed to **default**.).
-
-   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The screen depicting the formatting change of theme color not being supported":::
-
-1. Table Alignment isn't supported. Tables can only be left aligned.
-
-   :::image type="content" source="media/table-alignment-not-supported.png" alt-text="The table alignment not being supported in Outlook.":::
+Text on the image is now transpiled to appear on top of the image on Outlook endpoint.
 
 #### Formatting changes in People web part
 
@@ -119,9 +99,9 @@ Each section consists of 1-3 columns.
 
 For information on the default properties of sections and its columns, see [Add sections and columns on a SharePoint modern page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
-However, the following formatting changes have occurred in the default properties of sections and its columns:
+The sections and its columns too - much like other web parts - have experienced the following formatting changes in its default properties:
 
-1. When you use the **Two columns**, **Three columns**, **One-third left**, or the **One-third right** layout options to organize your content, the content gets stacked into a single column like the content published using the **One Column** layout option.
+1. When you use the **Two columns**, **Three columns**, **One-third left**, or the **One-third right** layout options to organize your content, the content gets stacked into a single column, similar to the **One Column** layout option's output.
 
    :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook.":::
 
