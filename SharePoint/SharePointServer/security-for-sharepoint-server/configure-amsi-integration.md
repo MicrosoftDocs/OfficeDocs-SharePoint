@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 09/12/2022
+ms.date: 03/14/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "Learn to secure environments and respond to associated threats fro
 
 # Configure AMSI integration with SharePoint Server
 
-[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
 ## Introduction
 
@@ -43,6 +43,8 @@ Before enabling AMSI integration, check the following prerequisites on each Shar
 
 - Windows Server 2016 or higher
 - SharePoint Server Subscription Edition Version 22H2 or higher
+- SharePoint Server 2019 build 16.0.10396.20000 or higher (KB 5002358: March 14, 2023 security update for SharePoint Server 2019)
+- SharePoint Server 2016 build 16.0.5391.1000 or higher (KB 5002385: April 11, 2023 security update for SharePoint Server 2016)
 - Microsoft Defender with AV engine version at 1.1.18300.4 or higher (alternatively, a compatible AMSI-capable third-party antivirus/antimalware provider)
 
 ## Activate/Deactivate AMSI for SharePoint Server
@@ -51,10 +53,10 @@ The AMSI integration with SharePoint Server is deactivated by default.
 
 Follow these steps to activate/deactivate the AMSI integration per web application:
 
-1. Open **SharePoint Central Administration**, and click **Application Management**.
+1. Open **SharePoint Central Administration**, and select **Application Management**.
 2. Under **Web Applications**, select **Manage web applications**.
-3. Click the web application for which you want to enable the AMSI integration, and select **Manage Features** in the toolbar.
-4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI integration, or click **Deactivate** to turn off AMSI integration.
+3. Select the web application for which you want to enable the AMSI integration, and select **Manage Features** in the toolbar.
+4. On the **SharePoint Server Antimalware Scanning** screen, select **Activate** to turn on AMSI integration, or select **Deactivate** to turn off AMSI integration.
 
 Alternatively, you can activate AMSI integration for a web application by running the following PowerShell commands:
 
@@ -69,11 +71,12 @@ Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web appli
 
 ## Other references
 
-**Performance effects of using Microsoft Defender as the primary AMSI solution**
+### Performance effects of using Microsoft Defender as the primary AMSI solution
 
 By default, [Microsoft Defender Antivirus](https://support.microsoft.com/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963) (MDAV), an AMSI-capable solution, is automatically enabled and installed on endpoints and devices that are running Windows 10, Windows Server 2016, and later. If you haven't installed an antivirus/anti-malware application, SharePoint Server AMSI integration will work with MDAV. If you install and enable another antivirus/anti-malware application, MDAV will automatically turn off. If you uninstall the other app, MDAV will automatically turn back on, and the SharePoint Server integration will work with MDAV. 
 
 The benefits of using MDAV on SharePoint Server include:
+
 - MDAV fetches signatures that match malicious content. If Microsoft learns about an exploit that can be blocked, a new MDAV signature can be deployed to block the exploit from affecting SharePoint.
 - Using existing technology to add signatures for the malicious content.
 - Using the expertise of Microsoft's malware research team for adding signatures.
@@ -81,7 +84,8 @@ The benefits of using MDAV on SharePoint Server include:
 
 There may be a performance impact on the web application because AMSI scanning uses CPU resources. There's no distinct performance impact observed from AMSI scanning when tested with MDAV and no changes to be made to the existing documented SharePoint Server antivirus exclusions. Each antivirus provider develops their own definitions that utilize AMSI technology. Therefore, your level of protection remains dependent on how quickly your specific solution can be updated to detect the latest threats.
 
-**Microsoft Defender version via the command line**
+### Microsoft Defender version via the command line
+
 > [!NOTE]
 > If you are using Microsoft Defender, you can use the command line and ensure to update the signatures with the latest version.
 
@@ -89,7 +93,7 @@ There may be a performance impact on the web application because AMSI scanning u
 2. Navigate to `%ProgramData%\Microsoft\Windows Defender\Platform\<antimalware platform version>`.
 3. Run `mpcmdrun.exe -SignatureUpdate`.
 
-This will determine your current engine version, check for updated definitions, and report.  
+These steps will determine your current engine version, check for updated definitions, and report.  
 
 ```powershell
 Copyright (C) Microsoft Corporation. All rights reserved.

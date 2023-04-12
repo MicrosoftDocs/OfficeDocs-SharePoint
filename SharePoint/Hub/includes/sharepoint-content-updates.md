@@ -2,63 +2,62 @@
 
 
 
-## Week of September 12, 2022
+## Week of April 03, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/12/2022 | [Video demo of Zero Downtime Patching in SharePoint Server 2016](/SharePoint/upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016) | modified |
-| 9/12/2022 | [Add the Hispanic Heritage Employee Resource Group site template](/SharePoint/hispanic-erg-template) | added |
-| 9/13/2022 | [Feature release rings](/SharePoint/administration/feature-release-rings) | added |
-| 9/13/2022 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | added |
-| 9/13/2022 | [New and improved features in SharePoint Server Subscription Edition Version 22H2](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release) | added |
-| 9/13/2022 | [Search in SharePoint Server knowledge articles](/SharePoint/technical-reference/search-in-sharepoint-server) | modified |
+| 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
 
 
-## Week of August 29, 2022
+## Week of March 27, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/2/2022 | [Identify business requirements for SharePoint and OneDrive](/SharePoint/business-requirements) | added |
-| 9/2/2022 | [Plan sharing and collaboration options in SharePoint and OneDrive](/SharePoint/collaboration-options) | added |
-| 9/2/2022 | [Plan compliance requirements for SharePoint and OneDrive](/SharePoint/compliant-environment) | added |
-| 9/2/2022 | [Hybrid OneDrive and SharePoint in Microsoft 365](/SharePoint/hybrid) | added |
-| 9/2/2022 | [Overview of OneDrive in Microsoft 365](/SharePoint/onedrive-overview) | added |
-| 9/2/2022 | [Plan file sync for SharePoint and OneDrive in Microsoft 365](/SharePoint/plan-file-sync) | added |
-| 9/2/2022 | [Plan for SharePoint and OneDrive in Microsoft 365](/SharePoint/plan-for-sharepoint-onedrive) | added |
-| 9/2/2022 | [Migration planning for SharePoint and OneDrive rollout](/SharePoint/plan-rollout-migration) | added |
-| 9/2/2022 | [Roll out SharePoint and OneDrive](/SharePoint/roll-out-sharepoint-onedrive) | added |
-| 9/2/2022 | [Training and change management for rolling out SharePoint and OneDrive](/SharePoint/training-change-management) | added |
+| 3/28/2023 | [Data access governance reports for SharePoint sites](/SharePoint/data-access-governance-reports) | modified |
+| 3/28/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
+| 3/30/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | added |
+| 3/31/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
+| 3/31/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
 
 
-## Week of August 22, 2022
+## Week of March 20, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/22/2022 | [Create or edit a Secure Store Target Application](/SharePoint/create-or-edit-secure-store-target-application) | modified |
-| 8/22/2022 | [Delete a site](/SharePoint/delete-site-collection) | modified |
-| 8/22/2022 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
-| 8/22/2022 | [Allow users to create modern pages](/SharePoint/let-users-create-modern-site-pages) | modified |
-| 8/22/2022 | [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/SharePoint/make-external-list) | modified |
-| 8/22/2022 | [Manage site storage limits](/SharePoint/manage-site-collection-storage-limits) | modified |
-| 8/22/2022 | [Manage site creation in SharePoint](/SharePoint/manage-site-creation) | modified |
-| 8/22/2022 | [Manage user profiles in the SharePoint admin center](/SharePoint/manage-user-profiles) | modified |
-| 8/22/2022 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
-| 8/22/2022 | [Restore deleted sites](/SharePoint/restore-deleted-site-collection) | modified |
-| 8/22/2022 | [About the SharePoint admin role in Microsoft 365](/SharePoint/sharepoint-admin-role) | modified |
-| 8/22/2022 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
-| 8/22/2022 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
-| 8/22/2022 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
-| 8/25/2022 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
-| 8/26/2022 | [Prevent guest access to files while DLP rules are applied](/SharePoint/sensitive-by-default) | modified |
+| 3/23/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
 
 
-## Week of August 15, 2022
+## Week of March 13, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/18/2022 | [Build Learning and Training Experiences for Employees](/SharePoint/build-learning-and-training-experiences-for-employees) | modified |
+| 3/14/2023 | [Private key management for SSL certificates](/SharePoint/administration/private-key-management-for-ssl-certificates) | added |
+| 3/14/2023 | [Hybrid Configuration Wizard in the SharePoint admin center](/SharePoint/hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center) | added |
+| 3/14/2023 | [New and improved features in SharePoint Server Subscription Edition Version 23H1](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release) | added |
+| 3/14/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 3/14/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
+| 3/14/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
+| 3/14/2023 | [Configure hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
+| 3/14/2023 | Hybrid picker in the SharePoint admin center | removed |
+| 3/14/2023 | [Plan hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
+| 3/14/2023 | [Run Hybrid Configuration Wizard](/SharePoint/hybrid/run-hybrid-picker) | modified |
+| 3/14/2023 | [Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016) | modified |
+| 3/14/2023 | [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update) | modified |
+| 3/14/2023 | [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview) | modified |
+| 3/14/2023 | [What's deprecated or removed from SharePoint Server 2019](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019) | modified |
+| 3/14/2023 | [What's deprecated or removed from SharePoint Server Subscription Edition?](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-subscription-edition) | modified |
+| 3/15/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
+| 3/17/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
 
+
+## Week of March 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/10/2023 | [Overview of crawled and managed properties in SharePoint Online](/SharePoint/crawled-and-managed-properties-overview) | added |
+| 3/10/2023 | [Manage the search schema in SharePoint](/SharePoint/manage-search-schema) | modified |
