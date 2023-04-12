@@ -69,5 +69,10 @@ Two endpoints, https://production.odyssey.ops.mover.io and https://production-wu
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|
 |`https://production.odyssey.ops.mover.io`|Scan feature for Migration Manager requirement.|
 |`https://production-wus2-signalr.service.signalr.net`|Scan feature for Migration Manager requirement. Used to communicate with the server.|
-
-
+|`https://api.prod.migrations.microsoft.com`|Migration Manager Web UI requirement|
+|`https://odyssey.prod.migrations.microsoft.com`|Scan feature for Migration Manager requirement.|
+|`https://odyssey-production-weu-1.service.signalr.net`|Scan feature for Migration Manager requirement.|
+|`https://odyssey-production-weu-2.service.signalr.net`|Scan feature for Migration Manager requirement.|
+|`https://odyssey-production-neu-1.service.signalr.net`|Scan feature for Migration Manager requirement.|
+|`https://odyssey-production-eus2-1.service.signalr.net`|Scan feature for Migration Manager requirement.|
+|`https://odyssey-production-wus2-2.service.signalr.net`|Scan feature for Migration Manager requirement.|
