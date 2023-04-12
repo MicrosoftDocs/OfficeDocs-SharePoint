@@ -197,5 +197,4 @@ When the site is on its way to success, take stock of any lessons learned in the
 
 [SharePoint look book](https://aka.ms/sharepointlookbook)
 
-[Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 
