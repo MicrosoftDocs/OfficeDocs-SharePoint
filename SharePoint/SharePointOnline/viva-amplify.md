@@ -83,6 +83,8 @@ For the **Outlook** distribution channel, there are:
 
 Text on the image is now transpiled to appear on top of the image on Outlook endpoint.
 
+:::image type="content" source="media/text-over-image.png" alt-text="The screenshot that depicts the display of the text on top of the image.":::
+
 #### Formatting changes in People web part
 
 The **Small**, **Medium**, and **Large** layouts are supported.
