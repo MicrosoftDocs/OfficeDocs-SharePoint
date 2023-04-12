@@ -21,8 +21,8 @@ description: "Videos that demonstrate the installation and configuration of work
   
 This six-part video series walks through the installation and configuration of the SharePoint 2013 Workflow Platform where communication between the SharePoint farm and the Workflow farm is using Secure Sockets Layer (SSL). These videos show the process in SharePoint Server 2013. The process is the same in SharePoint Server 2016.
 
-> [!NOTE]
-> This video series was created for Microsoft Workflow Manager, aka: "Classic WFM".  While many of the same concepts apply to SharePoint Workflow Manager, aka: "SPWFM", some of them do not.  For example, any steps about installing using the Web Platform Installer (WebPI) should be ignored as that is no longer available.  See [Install and configure workflow for SharePoint Server](https://learn.microsoft.com/en-us/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server) for installation steps and download links. 
+> [!IMPORTANT]
+> This video series was created for Microsoft Workflow Manager, aka: "Classic WFM".  While many of the same concepts apply to SharePoint Workflow Manager, aka: "SPWFM", some of them do not.  For example, any steps about installing using the Web Platform Installer (WebPI) should be ignored as that is no longer available.  See [Install and configure workflow for SharePoint Server](install-and-configure-workflow-for-sharepoint-server.md) for installation steps and download links. 
 
 ## Episode 1: Installation overview
 <a name="episode1"> </a>
