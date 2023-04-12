@@ -82,7 +82,7 @@ Get familiar with the [intranet lifecycle](https://github.com/MicrosoftDocs/Offi
 
 ### 3 - Implement plans and start building
 
-Start building [the home site](./home-site.md), [hubs](./planning-hub-sites.md), [sites](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182), and pages that will make up the framework of your intranet.  Consider using Microsoft Purview Information Barriers to ensure [confidential content](./information-barriers.md) is seen by the right users or use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to target specific content to certain groups of users. 
+Start building [the home site](./home-site.md), [hubs](./planning-hub-sites.md), [sites](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182), and pages that will make up the framework of your intranet.  Consider using Microsoft Purview Information Barriers to ensure [confidential content](/microsoft-365/compliance/information-barriers-sharepoint) is seen by the right users or use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to target specific content to certain groups of users. 
 
 - Get feedback from stakeholders and users along the way
 - Test site architecture with real users

@@ -46,12 +46,14 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
 
    :::image type="content" source="media/site-creation-screen.png" alt-text="The screenshot that shows the Site creation page." lightbox="media/site-creation-page.png":::
 
-3. If you want users to be able to create sites from these services, select **Show the options to create a site in SharePoint and create a shared library from OneDrive**.
+3. If you want users to be able to create sites, select **Users can create SharePoint sites**. This setting Controls whether users can create sites from SharePoint, OneDrive, the PnP PowerShell cmdlet, and the REST API. This setting doesn't affect whether users can create teams or Microsoft 365 groups and their connected sites.
+ 
+4. If you want users to be able to create sites from these services, select **Show the options to create a site in SharePoint and create a shared library from OneDrive**.
 
    > [!NOTE]
-   > Even if you clear this checkbox, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+   > Even if you clear these checkboxes, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-4. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
+5. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
 
 6. Select **Save**.
 
