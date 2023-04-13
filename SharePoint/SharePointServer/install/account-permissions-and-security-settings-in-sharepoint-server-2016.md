@@ -45,9 +45,9 @@ The following sections describe recommendations on SharePoint Service accounts.
 
 Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This recommendation is to reduce memory usage and increase performance while maintaining the appropriate level of security.
 
-- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint admin should use a separate account so that their activity performed on the farm is clearly identified.
+- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined in [SharePoint Farm Administrator account](#sharepoint-farm-administrator-account). Each SharePoint admin should use a separate account so that their activity performed on the farm is clearly identified.
 
-- If possible, use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and to grant permissions as outlined below. This usage of a security group simplifies the management of the SharePoint Farm Administrator accounts significantly.
+- If possible, use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and to grant permissions as outlined in [SharePoint Farm Administrator account](#sharepoint-farm-administrator-account). This usage of a security group simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
 - The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Insights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
 
@@ -55,13 +55,13 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 - A single account should be used for all Web Applications, named **Web Application pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Web Applications, except the Central Administration Web Application which - as noted above - is run by the SharePoint farm service account.
 
-- Except for the **Claims to Windows Token Service account**, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The **SharePoint Farm Administrator account** will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
+- Except for the Claims to Windows Token Service account, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The SharePoint Farm Administrator account will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
 
-- **Service Application Pool accounts**, except for the account running the **Claims to Windows Token Service**, should have *Deny logon locally* and *Deny logon through Remote Desktop Services* in the Local *Security Policy\User Rights Assignment*. These values are set via *secpol.msc*.
+- Service Application Pool accounts, except for the account running the Claims to Windows Token Service, should have *Deny logon locally* and *Deny logon through Remote Desktop Services* in the Local *Security Policy\User Rights Assignment*. These values are set via *secpol.msc*.
 
 - Use separate accounts for **Content access** (Search crawler), **Portal Super Reader**, **Portal Super User**, and **User Profile Service Application Synchronization**, if applicable.
 
-- The **Claims to Windows Token Service account** is a highly privileged account on the farm. Prior to deploying this service, verify if it's required. If necessary, use a separate account for this service.
+- The Claims to Windows Token Service account is a highly privileged account on the farm. Prior to deploying this service, verify if it's required. If necessary, use a separate account for this service.
 
 ### Service accounts recommendations overview
 
@@ -92,7 +92,7 @@ One of the following SharePoint components automatically configures most of the 
 
 ### SharePoint Farm Administrator account
 
-This account is used to set up each server in your farm by running the SharePoint Products Configuration Wizard (Psconfig), the initial Farm Configuration Wizard, and PowerShell. For the examples in this article, the **SharePoint Farm Administrator account** is used for farm administration, and you can use Central Administration to manage it. Some configuration options, for example, configuration of the SharePoint Server Search query server, require local administration permissions. The **SharePoint Farm Administrator account** has the following requirements:
+This account is used to set up each server in your farm by running the SharePoint Products Configuration Wizard (Psconfig), the initial Farm Configuration Wizard, and PowerShell. For the examples in this article, the SharePoint Farm Administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options, for example, configuration of the SharePoint Server Search query server, require local administration permissions. The SharePoint Farm Administrator account has the following requirements:
 
 - It must have domain user account permissions.
 
@@ -100,14 +100,14 @@ This account is used to set up each server in your farm by running the SharePoin
 
 - This account must have access to the SharePoint databases.
 
-- If you use any PowerShell operations that affect a database, the **SharePoint Farm Administrator account** must be a member of the *db_owner* role.
+- If you use any PowerShell operations that affect a database, the SharePoint Farm Administrator account must be a member of the *db_owner* role.
 
 - This account must be assigned to the *securityadmin* and *dbcreator* SQL Server security roles during setup and configuration.
 
 > [!NOTE]
 > The *securityadmin* and *dbcreator* SQL Server security roles might be required for this account during a complete version-to-version upgrade because new databases might have to be created and secured for services.
 
-After you run the configuration wizards, machine-level permissions for the **SharePoint Farm Administrator account** include:
+After you run the configuration wizards, machine-level permissions for the SharePoint Farm Administrator account include:
 
 - Membership in the *WSS_ADMIN_WPG* Windows security group.
 
@@ -122,11 +122,11 @@ After you run the configuration wizards, database permissions include:
 
 ### SharePoint Farm Service account
 
-The **SharePoint Farm service account**, which is also referred to as the **database access account**, is used as the application pool identity for Central Administration and as the process account for the SharePoint Timer Service. The **server farm account** has the following requirement:
+The SharePoint Farm service account, which is also referred to as the database access account, is used as the application pool identity for Central Administration and as the process account for the SharePoint Timer Service. The server farm account has the following requirement:
 
 - It must have domain user account permissions.
 
-Extra permissions are automatically granted to the **SharePoint Farm Service account** on SharePoint servers that are joined to a server farm.
+Extra permissions are automatically granted to the SharePoint Farm Service account on SharePoint servers that are joined to a server farm.
 
 After you run Setup, machine-level permissions include:
 
@@ -316,7 +316,7 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |%windir%\Tasks|Full control|Not applicable|Not applicable|
 |%COMMONPROGRAMFILES%Microsoft Shared\Web Server Extensions\16|Modify|Yes|This directory is the installation directory for core SharePoint Server files. If the access control list (ACL) is modified, feature activation, solution deployment, and other features won't function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI|Full control|Yes|This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service won't function correctly.|
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|This directory contains files used to extend IIS Websites with SharePoint Server. If this directory or its contents are altered, Web Application provisioning will not function correctly.|
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|This directory contains files used to extend IIS Websites with SharePoint Server. If this directory or its contents are altered, Web Application provisioning won't function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging won't function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the ACL is modified, Web Part rendering and other deserialization operations might fail.|
 |%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging won't function correctly. This registry key applies only to SharePoint Server.|
@@ -334,6 +334,7 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains the settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Read|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine won't function.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Read|Yes|This key contains the settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
+|HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg|Read|No|This key contains the settings that control remote access to the registry.|
 
 The following table shows the WSS_WPG file system permissions:
 
