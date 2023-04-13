@@ -229,7 +229,7 @@ This section describes known limitations and considerations in sync reporting.
 
 **Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
-**Minimum time device is on for eligibility:** Devices need to be turned on for a minimum of 5 hours to be eligible for the report. Devices that are turned off frequently and not on for that amount of time, may be missing from the dashboard, even if the group policy is set.
+**Minimum time device is on for eligibility:** Devices need to be turned on for a minimum of five hours to be eligible for the report. Devices that are turned off frequently and not on for that amount of time might be missing from the dashboard, even if the group policy is set.
 
 **Considerations:**
 
