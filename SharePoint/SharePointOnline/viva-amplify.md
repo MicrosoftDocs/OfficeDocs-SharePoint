@@ -55,7 +55,7 @@ For example, when you click the "preview" icon under the **Outlook** distributio
 
 **[Some properties like text on images, columns, and medium and large people web parts may have been changed for this distribution channel.](#formatting-changes)**
 
-:::image type="content" source="media/viva-amplify.png" alt-text="The formatting change message for the Outlook distribution channel.":::
+:::image type="content" source="media/viva-amplify.png" alt-text="The formatting change message for the Outlook distribution channel." lightbox="media/viva-amplify.png":::
 
 When you click **Learn more about formatting changes and editing**, you're taken to the screen that displays information about [formatting changes](#formatting-changes).
 
@@ -83,13 +83,13 @@ For the **Outlook** distribution channel, there are:
 
 Text on the image is now transpiled to appear on top of the image on Outlook endpoint.
 
-:::image type="content" source="media/text-over-image.png" alt-text="The screenshot that depicts the display of the text on top of the image.":::
+:::image type="content" source="media/text-over-image.png" alt-text="The screenshot that depicts the display of the text on top of the image." lightbox="media/text-over-image.png":::
 
 #### Formatting changes in People web part
 
 The **Small**, **Medium**, and **Large** layouts are supported.
 
-:::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
+:::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook." lightbox="media/only-small-layout-supported.png":::
 
 However, even if you transpile the content using the **Medium** and **Large** layouts, the descriptions and links added in these two layouts will be dropped. The content's output defaults to the **Small** layout view.  
 
@@ -105,13 +105,13 @@ The sections and its columns too - much like other web parts - have experienced 
 
 1. When you use the **Two columns**, **Three columns**, **One-third left**, or the **One-third right** layout options to organize your content, the content gets stacked into a single column, similar to the **One Column** layout option's output.
 
-   :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook.":::
+   :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook." lightbox="media/multi-column-layout-option-not-supported.png":::
 
 1. Collapsible sections aren't supported, including section titles (which will be dropped).
 
-   :::image type="content" source="media/option-make-sections-collapsible.png" alt-text="The option to make sections collapsible.":::
-   :::image type="content" source="media/section-title-being-dropped.png" alt-text="Section title being dropped.":::
+   :::image type="content" source="media/option-make-sections-collapsible.png" alt-text="The option to make sections collapsible." lightbox="media/option-make-sections-collapsible.png":::
+   :::image type="content" source="media/section-title-being-dropped.png" alt-text="Section title being dropped." lightbox="media/section-title-being-dropped.png":::
 
 1. Dividers between sections aren't supported.
 
-   :::image type="content" source="media/dividers-between-sections-not-supported.png" alt-text="Dividers between sections not being supported in Outlook.":::
+   :::image type="content" source="media/dividers-between-sections-not-supported.png" alt-text="Dividers between sections not being supported in Outlook." lightbox="media/dividers-between-sections-not-supported.png":::
