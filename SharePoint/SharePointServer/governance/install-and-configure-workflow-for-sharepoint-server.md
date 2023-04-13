@@ -82,7 +82,7 @@ SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downlo
 Install both SharePoint Workflow Manager and SharePoint Workflow Manager Client on all servers in the Workflow Manager farm. Install only the SharePoint Workflow Manager Client on all servers in the SharePoint Server farm.
 
 > [!NOTE]
-> While it is supported to install SharePoint Workflow Manager on servers running SharePoint Server, it is recommended that SharePoint Workflow Manager is installed on its own dedicated server for performance and reliability reasons.
+> Though it is supported to install SharePoint Workflow Manager on servers running SharePoint Server, it is recommended that SharePoint Workflow Manager is installed on its own dedicated server for performance and reliability reasons.
 
 ### Configure Workflow Manager farm and SharePoint Workflow Manager
 
