@@ -77,9 +77,12 @@ SharePoint Workflow Manager requires Azure Service Fabric, which must be install
 
 ### Install SharePoint Workflow Manager
 
-SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downloaded from [here](https://www.microsoft.com/download/details.aspx?id=104867).
-Install both SharePoint Workflow Manager and SharePoint Workflow Manager Client on all servers in the Workflow Manager farm.
-Install only the SharePoint Workflow Manager Client on all servers in the SharePoint Server farm.
+SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downloaded from [here](https://www.microsoft.com/download/details.aspx?id=104867), where the system requirements can be found as well.
+
+Install both SharePoint Workflow Manager and SharePoint Workflow Manager Client on all servers in the Workflow Manager farm. Install only the SharePoint Workflow Manager Client on all servers in the SharePoint Server farm.
+
+> [!NOTE]
+> While it is supported to install SharePoint Workflow Manager on servers running SharePoint Server, it is recommended that SharePoint Workflow Manager is installed on its own dedicated server for performance and reliability reasons.
 
 ### Configure Workflow Manager farm and SharePoint Workflow Manager
 
