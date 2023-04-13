@@ -252,19 +252,8 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 > [!IMPORTANT]
 > If you enable the EnableSyncAdminReports setting on devices that don't meet the [requirements](#requirements), it will have no effect. The app won't send reports.
 
-1. Confirm that the sync app is on the Insiders or Production ring.
 
-    Confirm with Command Prompt:
-
-    Windows users should open Command Prompt as an administrator, then run the following command:  
-
-    ```PowerShell
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
-    ```
-
-If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
-
-2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
+Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
     ```PowerShell
     reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
@@ -276,7 +265,7 @@ If the output from the script is **not** `dword:00000000`, your device is on the
 
     If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
-If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
+If the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
 ## Report a problem
 
