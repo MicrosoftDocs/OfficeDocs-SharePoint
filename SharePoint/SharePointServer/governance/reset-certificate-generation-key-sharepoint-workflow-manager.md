@@ -4,15 +4,13 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 3/7/2018
+ms.date: 14/4/2023
 audience: ITPro
 f1.keywords:
-- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
-ms.assetid: 70d4b4eb-9df0-44e5-980f-542614273439
-description: "Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow."
+description: "Learn how to generate key for SharePoint Workflow Manger."
 ---
 
 # Reset Certificate Generation Key for SharePoint Workflow Manager
