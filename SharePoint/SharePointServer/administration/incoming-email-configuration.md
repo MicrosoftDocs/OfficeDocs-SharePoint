@@ -30,12 +30,15 @@ When incoming email is enabled, SharePoint sites can receive and store email mes
 
 Before you begin this operation, make sure to review the following information:
   
-- Your system is running SharePoint Server 2016, SharePoint Server 2013, or SharePoint Foundation 2013.
+- Your system is running SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition.
     
 - Read and understand [Plan incoming email for a SharePoint Server farm](incoming-email-planning.md).
     
 - For the basic scenario, each SharePoint application server must be running the Simple Mail Transfer Protocol (SMTP) service and the SharePoint Foundation Web Application service.
-    
+
+> [!NOTE]
+> The basic scenario is not available for SharePoint Server 2019 or SharePoint Server Subscription Edition.
+
 - For the advanced scenario, you can use one or more servers in the server farm to run the SMTP service and to have a valid SMTP server address. Alternatively, you must know the name of a server outside the farm that is running the SMTP service and the location of the email drop folder.
     
 If you have not installed and configured the SMTP service and do not choose to use an email drop folder, you must complete the steps in [Install and configure the SMTP service](incoming-email-configuration.md#section2) before you configure incoming email. 
@@ -44,7 +47,10 @@ If you have not installed and configured the SMTP service and do not choose to u
 <a name="section2"> </a>
 
 Incoming email for SharePoint Server uses the SMTP service. You can use the SMTP service in one of two ways. You can install the SMTP service on one or more servers in the farm, or administrators can provide an email drop folder for email that is forwarded from the service on another server. For more information about the email drop folder option, see [Plan incoming email for a SharePoint Server farm](incoming-email-planning.md).
-  
+
+> [!NOTE]
+> The IIS 6 management features used by the IIS SMTP service have been [deprecated](/windows-server/get-started/removed-features-1709).  Administrators should instead use “Advanced Mode” and configure an e-mail drop folder, as detailed in [Does SharePoint 2019 still need the SMTP Service](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/does-sharepoint-2019-still-need-the-smtp-service/ba-p/307705).
+
 ### Install the SMTP service
 
 If you are not using a drop folder for email, the SMTP service must be installed on every application server in the farm that you want to configure for incoming email. To install the SMTP service, use the Add Roles and Features Wizard in Server Manager. After you complete the procedure, the SMTP service is installed on the application server.
@@ -123,6 +129,9 @@ After you configure the service, set it to start automatically.
 <a name="section3"> </a>
 
 You can use the following procedure to configure incoming email in a basic scenario by selecting the **Automatic** settings mode and using the default settings. After you complete the procedure, users can send email to lists and libraries. 
+
+> [!NOTE]
+> Automatic mode is not available in SharePoint Server 2019 or SharePoint Server Subscription Edition.
   
  **To configure incoming email in a basic scenario**
   
@@ -378,9 +387,13 @@ If you use the **E-mail server display address** option andif the email address 
 ### Add an SMTP connector in Microsoft Exchange Server 2016
 <a name="AddSMTPconnector"> </a>
 
-An SMTP connector gives you more controlover the message flow in your organization. Other reasons to use an SMTP connector are to set delivery restrictions or to specify a specific address space. If you use Exchange Server to route incoming email to SharePoint lists and libraries, you must have an SMTP connector so that all mail that is sent to the SharePoint domain uses the servers that are running the SMTP service.
+An SMTP connector gives you more control over the message flow in your organization. Other reasons to use an SMTP connector are to set delivery restrictions or to specify a specific address space. If you use Exchange Server to route incoming email to SharePoint lists and libraries, you must have an SMTP connector so that all mail that is sent to the SharePoint domain uses the servers that are running the SMTP service.
   
 Use the following procedure to add an SMTP connector in Exchange Server. After you complete the procedure, the SMTP connector ensures that incoming email messages are sent to the correct list and library in the farm.
+
+> [!Important] 
+> A “Send Connector” should only be selected if you are using a local IIS SMTP service on the SharePoint servers, which has been [deprecated](/windows-server/get-started/removed-features-1709) in Windows Server.  
+> If you are using an e-mail drop folder, which is required for SharePoint Server 2019 and SharePoint Server Subscription Edition, a **Foreign Connector** must be used, as outlined in [Does SharePoint 2019 still need the SMTP Service](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/does-sharepoint-2019-still-need-the-smtp-service/ba-p/307705).
   
  **To add an SMTP connector in Exchange Server**
   
@@ -413,51 +426,6 @@ Use the following procedure to add an SMTP connector in Exchange Server. After y
     The **Source server** page requires a server that contains transport roles.
     
 For more info, see [Learn more about Send connector types](/previous-versions/exchange-server/exchange-160/jj552891(v=exchg.160)) in the Exchange Server Technical Library. 
-  
-### Add an SMTP connector in Microsoft Exchange Server 2010
-<a name="AddSMTPcon"> </a>
-
-An SMTP connector gives you more control over the message flow in your organization. Other reasons to use an SMTP connector are to set delivery restrictions or to specify a specific address space. If you use Exchange Server to route incoming email to SharePoint lists and libraries, you must have an SMTP connector so that all mail that is sent to the SharePoint domain uses the servers that are running the SMTP service.
-  
-Use the following procedure to add an SMTP connector in Exchange Server. After you complete the procedure, the SMTP connector ensures that incoming email messages are sent to the correct list and library in the farm.
-  
- **To add an SMTP connector in Exchange Server**
-  
-1. Verify that the user account that is performing this procedure is a member of the Administrators group on the server that is running Exchange Server.
-    
-2. In Exchange Management Console, expand the Organization Configuration group, right-click **Hub Transport**, and point to **New Send Connector**.
-    
-    The **New Send Connector** wizard appears. 
-    
-3. On the **Introduction** page, do the following and then select **Next**.
-    
-  - In the **Name** box, enter a name for the SMTP connector. 
-    
-  - In the **Select the intended use for this Send connector** box, select the **Custom** usage type for the connector. 
-    
-4. On the **Address Space** page, select **Add**, and then select **SMTP Address Space**.
-    
-5. In the **SMTP Address Space** dialog, do the following: 
-    
-  - In the **Address** box, enter an email domain for the connector. 
-    
-  - In the **Cost** box, assign an appropriate cost. By default, the cost is 1. 
-    
-6. To return to the Address Space page, select **OK**, and then select **Next**.
-    
-7. On the **Network settings** page, select **Use domain name system (DNS) "MX" records to route mail automatically**, and then select **Next**.
-    
-8. On the **Source Server** page, select **Next**.
-    
-    The **Source server** page only appears on Hub Transport servers. By default, the Hub Transport server that you are currently working on is listed as a source server.
-    
-9. On the New Connector page, review your options, and to create the new send connector, select **New**. 
-    
-10. On the **Completion** page, ensure that the send connector was created, and then select **Finish**.
-    
-    In the **Hub Transport** pane, you can see that the send connector has been enabled automatically.
-    
-For more info, see [Create an SMTP Send Connector](/previous-versions/office/exchange-server-2010/aa997285(v=exchg.141)).
   
 ### Configure permissions to the email drop folder
 <a name="ConfigureDropFolderPerms"> </a>
