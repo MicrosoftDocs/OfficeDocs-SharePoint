@@ -255,15 +255,15 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
 Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
-    ```PowerShell
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
-    ```
+   ```PowerShell
+   reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
+   ```
 
-    The output should look like this:
+ The output should look like this:
 
-    :::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output":::
+:::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output.":::
 
-    If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
+If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
 If the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
