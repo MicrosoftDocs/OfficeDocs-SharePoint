@@ -440,6 +440,7 @@
 ### [Workflow in SharePoint Server](../governance/workflow-in-sharepoint-server.md)
 #### [Getting started with SharePoint Server workflow](../governance/getting-started-with-sharepoint-server-workflow.md)
 #### [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md)
+#### [Reset Certificate Generation Key for SharePoint Workflow Manager](../governance/reset-certificate-generation-key-sharepoint-workflow-manager.md)
 #### [Install Workflow Manager certificates in SharePoint Server](../governance/install-workflow-manager-certificates-in-sharepoint-server.md)
 ##### [Video series: Install and configure Workflow in SharePoint Server 2013](../governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
 #### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
