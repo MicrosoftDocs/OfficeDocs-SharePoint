@@ -15,16 +15,16 @@ description: "Learn how to generate key for SharePoint Workflow Manger."
 
 # Reset Certificate Generation Key for SharePoint Workflow Manager
 
-The SharePoint Workflow Manager (SPWFM) Certificate Generation Key is similar to the SharePoint farm passphrase in that you need it to join a SPWFM farm. When joining an existing SPWFM farm, for example during an upgrade or migration, the workflow configuration wizard prompts you for it.
+The SharePoint Workflow Manager (SPWFM) Certificate Generation Key is similar to the SharePoint farm passphrase in that you need it to join an SPWFM farm. When joining an existing SPWFM farm, for example during an upgrade or migration, the workflow configuration wizard prompts you for it.
 
-If you did not document this key when first configuring the workflow farm, and do not know what it is, you should reset it before you leave the workflow farm.
+If you didn't document this key when first configuring the workflow farm, and don't know what it is, you should reset it before you leave the workflow farm.
 
 > [!Important]
 > Resetting the Certificate Generation Key will also result in new Workflow and Service Bus certificates being generated. You will need to take extra steps to make sure the SharePoint servers trust these new certificates. Failure to do so will result in all 2013-platform workflows failing.
 
 ## Reset the Key
 
-You can use the following PowerShell script to reset the key, but you must run it on a SPWFM server still joined to the workflow farm. If you have multiple nodes / hosts in the workflow farm, it’s recommended that you simplify the process by having the other nodes leave the farm, with only one remaining.
+You can use the following PowerShell script to reset the key, but you must run it on an SPWFM server still joined to the workflow farm. If you have multiple nodes / hosts in the workflow farm, it’s recommended that you simplify the process by having the other nodes leave the farm, with only one remaining.
 
  ```
  # Just provide the new certificate key here, for example P@ssWord1
@@ -57,7 +57,7 @@ Write-host -ForegroundColor yellow "AFTER you have installed $PWD\WFsslCert.cer 
 
 ## Trust the new certs on the SharePoint side
 
-As mentioned above, resetting the Certificate Generation Key results in new certificates being generated. These are self-signed certificates that your SharePoint servers will not trust. You must take the following steps to make sure your SharePoint servers trust the new certificates.
+As mentioned above, resetting the Certificate Generation Key results in new certificates being generated. These are self-signed certificates that your SharePoint servers won't trust. You must take the following steps to make sure your SharePoint servers trust the new certificates.
 
 Trust the new workflow endpoint certificate on all SharePoint servers. You may have noticed that the PowerShell script above exported this certificate to the current directory as “WFsslCert.cer”. That’s the one your SharePoint servers need to trust. Copy it to each SharePoint server and install it to the Trusted Root Certification Authorities store. See [Install Workflow Manager certificates in SharePoint](/sharepoint/governance/install-workflow-manager-certificates-in-sharepoint-server) for detailed steps.
 
