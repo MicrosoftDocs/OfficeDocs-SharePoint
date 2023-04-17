@@ -38,6 +38,8 @@ This article describes how to remove users so they no longer appear in SharePoin
 - **Scenario 2: Site User ID Mismatch.**
  
     This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different ID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect ID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
+    
+ See [Fix site user ID mismatch in SharePoint or OneDrive](../sharing-and-permissions/fix-site-user-id-mismatch.md) for an automated solution to fix the issue. 
  
 ## Delete a user from the Microsoft 365 admin center
 
