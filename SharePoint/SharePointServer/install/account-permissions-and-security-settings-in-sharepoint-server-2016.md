@@ -53,7 +53,7 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 - A single account should be used for all Service Applications, named **Service Application Pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
 
-- A single account should be used for all Web Applications, named **Web Application pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Web Applications, except the Central Administration Web Application which - as noted above - is run by the SharePoint farm service account.
+- A single account should be used for all Web Applications, named **Web Application pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Web Applications, except the Central Administration Web Application which is run by the SharePoint farm service account.
 
 - Except for the Claims to Windows Token Service account, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The SharePoint Farm Administrator account will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
 
@@ -159,7 +159,7 @@ The default content access account is used within a specific service application
 
 - The default content access account must be a domain user account that has *read* access to external or secure content sources that you want to crawl by using this account.
 
-- For SharePoint Server sites that aren't part of the server farm, you have to explicitly grant this account full *read* permissions to the Web Applications that host the sites.
+- For SharePoint Server sites that aren't part of the server farm, you have to explicitly grant this account full *read* permission to the Web Applications that host the sites.
 
 - This account must not be a member of the Farm Administrators group.
 
@@ -169,7 +169,7 @@ Content access accounts are configured to access content by using the Search adm
 
 - The content access account must have *read* access to external or secure content sources that this account is configured to access.
 
-- For SharePoint Server sites that aren't part of the server farm, you have to explicitly grant this account full *read* permissions to the Web Applications that host the sites.
+- For SharePoint Server sites that aren't part of the server farm, you have to explicitly grant this account full *read* permission to the Web Applications that host the sites.
 
 ### Web Application Pool account
 
@@ -286,7 +286,7 @@ This section describes the permissions of groups that the SharePoint Servers 201
 *WSS_ADMIN_WPG* has *read* and *write* access to local resources. The application pool accounts for the Central Administration and Timer services are in *WSS_ADMIN_WPG*. The following table shows the *WSS_ADMIN_WPG* registry entry permissions:
 
 >[!NOTE]
->SharePoint 2013 uses the registry path "15.0" instead of "16.0" and file system path "15" instead of "16". Some paths listed below don't apply to SharePoint Foundation 2013.
+>SharePoint 2013 uses the registry path "15.0" instead of "16.0" and file system path "15" instead of "16". Some paths listed in the subsequent tables don't apply to SharePoint Foundation 2013.
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -384,7 +384,7 @@ The following table shows the local file system permissions:
 |%AllUsersProfile%\ Microsoft\SharePoint|Full control|No|This directory contains the file-system-backed cache of the farm configuration. If this directory is altered or deleted, processes might fail to start and administrative actions might fail.|
 |C:\Inetpub\wwwroot\wss|Full control|No|This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Websites. If this directory is altered or deleted, SharePoint sites will be unavailable and administrative actions might fail, unless custom IIS Website paths are provided for all IIS Websites extended with SharePoint Server.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI|Full control|Yes|This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service won't function correctly.|
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|If this directory or its contents are altered, Web Application provisioning won't function correctly.|
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|This directory contains configuration files used to provision Web applications and service applications. If this directory or its contents are altered, Web Application provisioning won't function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and runtime tracing logs. If this directory is altered, diagnostic logging won't function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the ACL is modified, Web Part rendering and other deserialization operations might fail.|
 |%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging won't function correctly. This registry key applies only to SharePoint Server.|
@@ -414,7 +414,7 @@ The following table shows the administrators file system permissions:
 |%AllUsersProfile%\ Microsoft\SharePoint|Full control|No|This directory contains the file-system-backed cache of the farm configuration. If this directory is altered or deleted, processes might fail to start and administrative actions might fail.|
 |C:\Inetpub\wwwroot\wss|Full Control|No|This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Websites. If this directory is altered or deleted, SharePoint sites will be unavailable and administrative actions might fail, unless custom IIS Website paths are provided for all IIS Websites that are extended with SharePoint Server.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI|Full control|Yes|This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service won't function correctly.|
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|If this directory or its contents are altered, Web Application provisioning won't function correctly.|
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|This directory contains configuration files used to provision Web applications and service applications. If this directory or its contents are altered, Web Application provisioning won't function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging won't function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the ACL is modified, Web Part rendering and other deserialization operations might fail.|
 |%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging won't function correctly. This registry key applies only to SharePoint Server.|
