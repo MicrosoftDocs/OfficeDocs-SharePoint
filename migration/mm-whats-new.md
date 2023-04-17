@@ -32,9 +32,12 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## Coming soon
 
 - Several enhancements are coming to Google Workspace migrations. New features include:
-  -  Filtering by factors such as dates, file types, and invalid characters
-  -  Downloading bulk reports
+  - Filtering by factors such as dates, file types, and invalid characters
+  - Downloading bulk reports
 
+## April 2023
+
+- **Important changes for European Union (EU) users.**  Beginning April 1, 2023, all new EU scans and migrations will be processed in the EU. For complete details, learn more at [Migration Manager and The European Union Data Boundary (EUDB)](mm-eudb.md)
 
 ## March 2023
 
