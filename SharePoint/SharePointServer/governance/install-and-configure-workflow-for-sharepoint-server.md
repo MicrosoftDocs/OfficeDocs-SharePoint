@@ -227,7 +227,7 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
 7. If there is more than one server in your Workflow Manager farm, repeat the previous steps on all farm servers.
 8. Run the Workflow Manager Configuration Wizard and rejoin the previous farm with the databases you noted in the previous steps on all servers in your Workflow Manager farm.
    > [!NOTE]
-   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](https://joshroark.com/sharepoint-workflow-manager-rest-the-certificate-generation-key/).
+   >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager).
 
 9. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.
    > [!NOTE]
