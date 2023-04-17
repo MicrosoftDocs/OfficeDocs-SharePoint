@@ -2,6 +2,23 @@
 
 
 
+## Week of April 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/10/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
+| 4/11/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
+
+
+## Week of April 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
+
+
 ## Week of March 27, 2023
 
 
@@ -44,12 +61,3 @@
 | 3/14/2023 | [What's deprecated or removed from SharePoint Server Subscription Edition?](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-subscription-edition) | modified |
 | 3/15/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
 | 3/17/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-
-
-## Week of March 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/10/2023 | [Overview of crawled and managed properties in SharePoint Online](/SharePoint/crawled-and-managed-properties-overview) | added |
-| 3/10/2023 | [Manage the search schema in SharePoint](/SharePoint/manage-search-schema) | modified |
