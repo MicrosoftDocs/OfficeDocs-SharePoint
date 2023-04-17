@@ -15,7 +15,7 @@ description: "Learn how to generate key for SharePoint Workflow Manger."
 
 # Reset Certificate Generation Key for SharePoint Workflow Manager
 
-The SharePoint Workflow Manager (SPWFM) Certificate Generation Key is similar to the SharePoint farm passphrase in that you need it to join a SPWFM farm. When joining an existing SPWFM farm, for example during an [upgrade or migration](https://joshroark.com/upgrading-sharepoint-and-wfm-at-the-same-time/), the workflow configuration wizard prompts you for it.
+The SharePoint Workflow Manager (SPWFM) Certificate Generation Key is similar to the SharePoint farm passphrase in that you need it to join a SPWFM farm. When joining an existing SPWFM farm, for example during an upgrade or migration, the workflow configuration wizard prompts you for it.
 
 If you did not document this key when first configuring the workflow farm, and do not know what it is, you should reset it before you leave the workflow farm.
 
@@ -29,7 +29,7 @@ You can use the following PowerShell script to reset the key, but you must run i
  ```
  # Just provide the new certificate key here, for example P@ssWord1
 # MAKE SURE YOU DOCUMENT THIS KEY SOMEWHERE SO YOU DON'T HAVE TO REPEAT THIS EXERCISE
-$CertKey = convertto-securestring "P@ssWord1" -asplaintext -force
+$CertKey = convertto-securestring "[YourPassword]" -asplaintext -force
  
 ### You should NOT have to change anything below this line ###
 # Set the key for WF
