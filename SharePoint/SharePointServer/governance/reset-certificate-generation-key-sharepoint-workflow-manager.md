@@ -35,19 +35,23 @@ $CertKey = convertto-securestring "[YourPassword]" -asplaintext -force
 # Set the key for WF
 $WFdb = (get-wffarm).wffarmdbconnectionstring
 Set-WFCertificateAutoGenerationKey  -WFFarmDBConnectionString $WFdb -key $CertKey -Verbose
+
 # Force the Update on the WF side
 Stop-WFHost
 Update-WFHost -CertificateAutoGenerationKey $CertKey
 "Starting Workflow Farm.  This could take a few minutes..."
 Start-WFHost
+
 # Set the key for SB
 $SBdb = (get-sbfarm).SBFarmDBConnectionString 
 Set-SBCertificateAutogenerationKey -SBFarmDBConnectionString $SBdb -key $CertKey  -Verbose
+
 # Force the Update on the SB side
 Stop-Sbfarm
 Update-SBHost -CertificateAutoGenerationKey $CertKey
 Write-host "Starting Service Bus Farm.  This could take a few minutes..."
 Start-SBfarm
+
 # Some steps you need to take on the SharePoint side
 Write-host -ForegroundColor yellow "Exporting the new WF endpoint cert to the current directory.  You MUST install this cert on all SharePoint servers."
 Write-host "$PWD\WFsslCert.cer"
@@ -59,11 +63,11 @@ Write-host -ForegroundColor yellow "AFTER you have installed $PWD\WFsslCert.cer 
 
 As mentioned above, resetting the Certificate Generation Key results in new certificates being generated. These are self-signed certificates that your SharePoint servers won't trust. You must take the following steps to make sure your SharePoint servers trust the new certificates.
 
-Trust the new workflow endpoint certificate on all SharePoint servers. You may have noticed that the PowerShell script above exported this certificate to the current directory as “WFsslCert.cer”. That’s the one your SharePoint servers need to trust. Copy it to each SharePoint server and install it to the Trusted Root Certification Authorities store. See [Install Workflow Manager certificates in SharePoint](/sharepoint/governance/install-workflow-manager-certificates-in-sharepoint-server) for detailed steps.
+ 1. Trust the new workflow endpoint certificate on all SharePoint servers. You may have noticed that the PowerShell script above exported this certificate to the current directory as “WFsslCert.cer”. That’s the one your SharePoint servers need to trust. Copy it to each SharePoint server and install it to the Trusted Root Certification Authorities store. See [Install Workflow Manager certificates in SharePoint](/sharepoint/governance/install-workflow-manager-certificates-in-sharepoint-server) for detailed steps.
 
-Refresh the SPTrustedSecurityTokenIssuer by running the RefreshMetadataFeed timer job on any SharePoint server. You can do that with this PowerShell:
+ 2. Refresh the SPTrustedSecurityTokenIssuer by running the RefreshMetadataFeed timer job on any SharePoint server. You can do that with this PowerShell:
 
-```
-$tj = Get-SPTimerJob | ? {$_.name -match "RefreshMetadataFeed"} 
-Start-SPTimerJob $tj
-```
+    ```
+    $tj = Get-SPTimerJob | ? {$_.name -match "RefreshMetadataFeed"} 
+    Start-SPTimerJob $tj
+    ```
