@@ -261,7 +261,7 @@ Confirm that the EnableSyncAdminReports setting is applied to the device. Run Co
 
  The output should look like this:
 
-    :::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output.":::
+:::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output.":::
 
 If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
