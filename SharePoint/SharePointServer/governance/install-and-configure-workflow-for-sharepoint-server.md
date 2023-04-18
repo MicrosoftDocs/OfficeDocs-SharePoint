@@ -35,7 +35,7 @@ Learn about [Workflows for SharePoint in Microsoft 365](../../SharePointOnline/e
 ## Overview
 <a name="section1"> </a>
 
-A new option exists when you build a workflow for SharePoint Server. This option is called **Platform Type**. The figure shows the **Platform Type** option when you are creating a new workflow by using SharePoint Designer 2013. 
+A new option exists when you build a workflow for SharePoint Server. This option is called **Platform Type**. The figure shows the **Platform Type** option when you're creating a new workflow by using SharePoint Designer 2013. 
   
 **Figure: SharePoint Server includes three workflow platform options.**
 
@@ -60,9 +60,9 @@ SharePoint Workflow Manager may be installed on the same servers as SharePoint o
    
 ### Prerequisites
 
-SharePoint Workflow Manager requires the server role of Web Server (IIS). If you are installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard will fail with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*.
+SharePoint Workflow Manager requires the server role of Web Server (IIS). If you're installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard will fail with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*.
 
-SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow these steps below to install it:
+SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 
 1. The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
@@ -211,7 +211,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
 
 ## Upgrade existing Microsoft Workflow Manager
 
-In order to update Microsoft Workflow Manager to SharePoint Workflow Manager, SharePoint Workflow Manager cannot be placed on top of Microsoft Workflow Manager. Installing this build requires first uninstalling any prior versions of Workflow Manager (Client) and Service Bus.
+In order to update Microsoft Workflow Manager to SharePoint Workflow Manager, SharePoint Workflow Manager can't be placed on top of Microsoft Workflow Manager. Installing this build requires first uninstalling any prior versions of Workflow Manager (Client) and Service Bus.
 
 You can upgrade to SharePoint Workflow Manager from any version of Microsoft Workflow Manager. 
 
@@ -226,7 +226,7 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
 4. Uninstall Microsoft Workflow Manager, Workflow Manager Client, Service Bus for Windows Server, and Windows Fabric if they're installed. You can uninstall them from the Control Panel. If Windows Fabric is installed, ensure you install Azure Service Fabric after uninstalling Windows Fabric.
 5. If the folder *%ProgramFiles%\Workflow Manager\1.0* already exists, you must manually remove it for the next steps to succeed.
 6. Install SharePoint Workflow Manager and SharePoint Workflow Manager Client.
-7. If there is more than one server in your Workflow Manager farm, repeat the previous steps on all farm servers.
+7. If there's more than one server in your Workflow Manager farm, repeat the previous steps on all farm servers.
 8. Run the Workflow Manager Configuration Wizard and rejoin the previous farm with the databases you noted in the previous steps on all servers in your Workflow Manager farm.
    > [!NOTE]
    >There is no need to delete the existing Workflow Service Application Proxy, and there is no need to re-register SPWorkflowService. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may reset it, see [Reset Certificate Generation Key](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager).
@@ -251,9 +251,9 @@ Follow these steps to validate that you have successfully installed and configur
 ## Troubleshooting
 <a name="section7"> </a>
 
-For security reasons, the Setup account cannot be used to create a workflow based on the SharePoint 2013 Workflow platform. If you try to create a workflow based on the SharePoint 2013 Workflow platform by using SharePoint Designer 2013, you receive a warning that the list of workflow actions do not exist, and the workflow is not created.
+For security reasons, the Setup account can't be used to create a workflow based on the SharePoint 2013 Workflow platform. If you try to create a workflow based on the SharePoint 2013 Workflow platform by using SharePoint Designer 2013, you receive a warning that the list of workflow actions don't exist, and the workflow isn't created.
   
-The user who deploys and runs a workflow must be added to the User Profile service. Check the User Profile service application page in Central Administration to confirm that the user you are using to validate workflow installation is in the User Profile service.
+The user who deploys and runs a workflow must be added to the User Profile service. Check the User Profile service application page in Central Administration to confirm that the user you're using to validate workflow installation is in the User Profile service.
   
 You can determine which ports SharePoint Server and Workflow Manager are using for both HTTP and HTTPS by using IIS Manager as shown in the figure.
   
@@ -265,6 +265,6 @@ Sharepoint Workflow Manager communicates by using TCP/IP or Named Pipes. Ensure 
   
 The SQL Browser Service must be running on the SQL Server instance that hosts the Workflow Manager databases.
   
-The System Account cannot be used to develop a workflow.
+The System Account can't be used to develop a workflow.
   
 To troubleshoot SharePoint Server, see [Troubleshooting SharePoint Server](../administration/troubleshoot.md).
