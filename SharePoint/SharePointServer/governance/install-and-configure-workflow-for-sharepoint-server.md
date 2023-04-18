@@ -73,7 +73,9 @@ SharePoint Workflow Manager requires Azure Service Fabric, which must be install
 3. To verify the Azure Service Fabric is installed, you should be able to find it in the Programs and Features of the Control Panel.
 
 > [!NOTE]
->SharePoint Workflow Manager supports the version 9.1 CU2 (9.1.1583.9590) of Azure Service Fabric and [higher versions](/azure/service-fabric/service-fabric-versions).  If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+> SharePoint Workflow Manager supports the version 9.1 CU2 (9.1.1583.9590) of Azure Service Fabric and [higher versions](/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+>  
+> It’s been reported that Azure Service Fabric might generate a large amount of logs squeezing the disk space regardless of the SharePoint Workflow Manager workload, and you can identify it under the `%ProgramData%\Microsoft Service Fabric\Log\Traces`. And you can't control the log size through the [cluster configuration](/azure/service-fabric/service-fabric-cluster-fabric-settings#diagnostics), with only Azure Service Fabric Runtime installed. You might need to delete expired logs manually, or for example, create a periodic task through the Windows Task Scheduler to do it.
 
 ### Install SharePoint Workflow Manager
 
