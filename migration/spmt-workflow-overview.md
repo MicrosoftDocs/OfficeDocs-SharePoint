@@ -54,8 +54,8 @@ Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_bla
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-- **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.  
+- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. The user account will be set as the owner of migrated flow, and there also needs to have 'Environment Maker' role. [Learn more about Environment Maker role](/power-platform/admin/database-security).
+- **Access to the source**: Your SharePoint Server account credentials must have read access to any workflow you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
 
