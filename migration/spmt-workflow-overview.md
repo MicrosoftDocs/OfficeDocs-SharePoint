@@ -55,8 +55,9 @@ Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_bla
 Make sure that you have:
 
 - **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-- **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.
+- **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.  
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
+
 
 ## General process
 
