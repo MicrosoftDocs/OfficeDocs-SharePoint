@@ -54,7 +54,7 @@ Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_bla
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. The user account will be set as the owner of migrated flow, therefore the account also needs to be assigned the *Environment Maker* role. [Learn more about Environment Maker role](/power-platform/admin/database-security).
+- **Access to the destination**: The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. As this user account will be set as the owner of migrated flow, it must also be assigned the *Environment Maker* role. [Learn more about Environment Maker role](/power-platform/admin/database-security).
 - **Access to the source**: Your SharePoint Server account credentials must have read access to any workflow you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
