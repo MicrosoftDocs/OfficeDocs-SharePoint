@@ -199,7 +199,7 @@ Several of these steps mention prerequisite procedures that are documented in [P
     
 6. If you want to use a remote Directory Management Service, select **Use remote** and complete the remainder of this step. Otherwise, select **No**, and proceed to step 8. 
     
-    If you select this option and you are using Exchange Server, you must configure the DNS Manager and add an SMTP connector. For more info, see [Configure DNS Manager](incoming-email-configuration.md#ConfigureDNSManager), [Add an SMTP connector in Microsoft Exchange Server 2016](incoming-email-configuration.md#AddSMTPconnector), and [Add an SMTP connector in Microsoft Exchange Server 2010](incoming-email-configuration.md#AddSMTPcon) later in this article. The AD DS has most likely already been configured, so you do not need to do this. 
+    If you select this option and you are using Exchange Server, you must configure the DNS Manager and add an SMTP connector. For more info, see [Configure DNS Manager](incoming-email-configuration.md#ConfigureDNSManager), [Add an SMTP connector in Microsoft Exchange Server 2016](incoming-email-configuration.md#AddSMTPconnector) later in this article. The AD DS has most likely already been configured, so you do not need to do this. 
     
   - In the **Directory Management Service URL** box, enter the URL of the Directory Management Service that you want to use. The URL is typically in the following format: http://  _server:adminport_/_vti_bin/SharePointEmailWS.asmx.
     
@@ -248,8 +248,6 @@ In this section:
 - [Configure DNS Manager](incoming-email-configuration.md#ConfigureDNSManager)
     
 - [Add an SMTP connector in Microsoft Exchange Server 2016](incoming-email-configuration.md#AddSMTPconnector)
-    
-    [Add an SMTP connector in Microsoft Exchange Server 2010](incoming-email-configuration.md#AddSMTPcon)
     
 - [Configure permissions to the email drop folder](incoming-email-configuration.md#ConfigureDropFolderPerms)
     
