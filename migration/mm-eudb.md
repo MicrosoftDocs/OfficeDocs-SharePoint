@@ -27,8 +27,8 @@ description: Learn about the changes to Migration Manager for the European Union
 >All migrated data will reside in the EU OneDrive-Sharepoint farm, regardless of this change.
 
 >[!Important]
->Beginning April 1, 2023, all new European Union (EU) scans and migrations, except for Stream, will be processed in the EU. 
->You may continue to run existing migrations until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
+>Beginning April 1, 2023, all new European Union (EU) scans and migrations, will be processed in the EU.
+>You may continue to run existing migrations, except for Steam, until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
 >
 >Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024.
 
