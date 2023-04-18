@@ -294,12 +294,12 @@ This section describes the permissions of groups that the SharePoint Servers 201
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office\16.0\Registration\{90150000-110D-0000-1000-0000000FF1CE}|Read, write|Not applicable|Not applicable|
 |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server|Read|No|This key is the root of the SharePoint Server registry settings tree. If this key is altered, SharePoint Server functionality will fail.|
 |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server\16.0|Full control|No|This key is the root of the SharePoint Server 2016 registry settings.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read, write|No|This key contains the settings for the document conversion service. Altering this key will break document conversion functionality.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains the settings for the document conversion service. Altering this key will break document conversion functionality.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read, write|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Search|Full control|Not applicable|Not applicable|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Search|Full control|Not applicable|Not applicable|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Full control|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server installation on the machine won't function.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains the settings used during setup. If this key is altered, diagnostic logging might fail, and setup or post-setup configuration might fail.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains settings used during setup. If this key is altered, diagnostic logging might fail, and setup or post-setup configuration might fail.|
 
 The following table shows the WSS_ADMIN_WPG file system permissions.
 
@@ -329,12 +329,12 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server\16.0|Read|No|This key is the root of the SharePoint Server registry settings.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Diagnostics|Read, write|No|This key contains the settings for the SharePoint Server diagnostic logging. If this key is altered, the Logging functionality will break.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read, write|No|This key contains the settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains the settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Diagnostics|Read, write|No|This key contains settings for the SharePoint Server diagnostic logging. If this key is altered, the Logging functionality will break.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read, write|No|This key contains settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Read|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine won't function.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Read|Yes|This key contains the settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
-|HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg|Read|No|This key contains the settings that control remote access to the registry.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Read|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
+|HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg|Read|No|This key contains settings that control remote access to the registry.|
 
 The following table shows the WSS_WPG file system permissions:
 
@@ -358,7 +358,7 @@ The following table shows the local service registry entry permission:
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read|No|This key contains the settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read|No|This key contains settings for the document conversion service. If this key is altered, the document conversion functionality will break.|
 
 The following table shows the local service file system permission:
 
@@ -372,10 +372,10 @@ The following table shows the local system registry entry permissions:
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read|No|This key contains the settings for the document conversion service. If this key is altered, the document conversion functionality will break. This registry key applies only to SharePoint Server.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read|No|This key contains settings for the document conversion service. If this key is altered, the document conversion functionality will break. This registry key applies only to SharePoint Server.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Full control|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server installation on the machine won't function.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure\FarmAdmin|Full control|No|This key contains the encryption key that is used to store secrets in the configuration database. If this key is altered, service provisioning and other features will fail.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains the settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
 
 The following table shows the local file system permissions:
 
@@ -405,7 +405,7 @@ The following table shows the administrators registry entry permissions:
 |:-----|:-----|:-----|:-----|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Full control|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server installation on the machine won't function.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure\FarmAdmin|Full control|No|This key contains the encryption key that is used to store secrets in the configuration database. If this key is altered, service provisioning and other features will fail.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains the settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
 
 The following table shows the administrators file system permissions:
 
