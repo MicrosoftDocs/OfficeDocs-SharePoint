@@ -23,6 +23,7 @@ description: "Learn about the report generated when migrating SharePoint Server 
 
 # Migration workflow report and error codes
 
+When migrating SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT), reports are automatically generated. Any error codes encountered are listed below.
 
 ## Workflow migration reports
 
@@ -30,7 +31,6 @@ The work migration task generates two reports, one for scans and the other for t
 
 - Workflow scans: **WorkflowScanReport.csv**
 - Workflow migrations: **WorkflowMigrationReport.csv**
-
 
 
 |Report column name|Notes|
