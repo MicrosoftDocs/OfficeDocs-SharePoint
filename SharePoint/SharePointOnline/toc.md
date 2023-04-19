@@ -134,6 +134,7 @@
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
 ### [Deploy the sync app]()
+#### [OneDrive in Citrix Virtual Apps Deployment Guide](onedrive-in-citrix-virtual-apps-deployment-guide.md)
 #### [Network utilization planning](network-utilization-planning.md)
 #### [Recommended sync app configuration](ideal-state-configuration.md)
 #### [Intune](deploy-intune.md)
