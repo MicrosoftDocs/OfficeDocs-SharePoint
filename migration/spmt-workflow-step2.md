@@ -148,7 +148,7 @@ start $migration.ReportFolderPath
 The migration task generates a report titled *WorkflowMigrationReport.csv* for migrations, and another *WorkflowScanReport.csv* for scans. The reports are located in the *WF_xxx/Report/TaskReport_xxx/* folder.
 
 >[!Note]
->[Learn more about SPMT Workflow reports and error codes](spmt-workflow-report-and-error-codes.md)
+>[Learn more about the workflow reports and error codes](spmt-workflow-report-and-error-codes.md)
 
 ## Step 3:  [Activate workflows](spmt-workflow-step3.md)
 
