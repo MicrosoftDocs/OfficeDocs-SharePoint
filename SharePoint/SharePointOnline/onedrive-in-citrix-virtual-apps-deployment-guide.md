@@ -1,6 +1,6 @@
 ---
 ms.date: 03/15/2019
-title: Install the sync app per-machine (Windows)
+title: OneDrive in Citrix Virtual Apps Deployment Guide
 ms.reviewer: gacarini
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -22,7 +22,7 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: In this article, you'll learn how to install the OneDrive sync app once for a Windows PC with multiple users.
+description: In this article, you'll learn how to enable OneDrive in Citrix Virtual Apps.
 ---
 
 # OneDrive in Citrix Virtual Apps Deployment Guide
