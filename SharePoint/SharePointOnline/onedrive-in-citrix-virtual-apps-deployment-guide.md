@@ -54,12 +54,12 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 ## How to setup OneDrive
 
 1. Install OneDrive Sync app per machine. See [Install the sync app per-machine](per-machine-installation.md).
-1. Install the latest version of FSLogix. See [Install FSLogix Applications.](/fslogix/how-to-install-fslogix)
+1. Install the latest version of FSLogix. See [Install FSLogix Applications](/fslogix/how-to-install-fslogix).
 
     > [!NOTE]
     > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version.
 
-1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md)
+1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md).
 
     > [!NOTE]
     > Silent sign-in should function if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
