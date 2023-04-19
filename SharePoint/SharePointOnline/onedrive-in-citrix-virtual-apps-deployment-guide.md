@@ -1,33 +1,30 @@
 ---
-ms.date: 03/15/2019
-title: OneDrive in Citrix Virtual Apps Deployment Guide
+ms.date: 04/19/2023
+title: Set up OneDrive in Citrix Virtual Apps
 ms.reviewer: gacarini
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
-- CSH
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
 ms.custom:
 - Adm_O365
-- seo-marvel-apr2020
-- onedrive-toc
 search.appverid:
 - MET150
 - BCS160
 ms.collection:
 - Strat_OD_admin
 - M365-collaboration
-ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
 description: In this article, you'll learn how to enable OneDrive in Citrix Virtual Apps.
 ---
 
-# OneDrive in Citrix Virtual Apps Deployment Guide
+# Set up OneDrive in Citrix Virtual Apps
 
-This deployment guide describes how to enable and use OneDrive in Citrix Virtual Apps. The reference links provided in this guide help IT administrators to deploy and manage the OneDrive sync app.
+This article describes how to enable and use OneDrive in Citrix Virtual Apps.
 
 ## Prerequisites:
 
@@ -62,7 +59,7 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
     > [!NOTE]
     > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version.
 
-1. Silently configure user accounts. See [Silently configure user accounts - OneDrive | Microsoft Learn.](use-silent-account-configuration.md)
+1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md)
 
     > [!NOTE]
-    > Silent sign-in should function if your machine is connected to Azure Active Directory (AAD). Make sure to turn off this setting if your computer is not AAD-joined.
+    > Silent sign-in should function if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
