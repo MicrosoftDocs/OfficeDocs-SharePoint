@@ -100,7 +100,7 @@ The wildcard inclusion managed path is the path under which separate site collec
     
 4. On the **Web Applications** tab, in the **Manage** group, click **Managed Paths**. 
     
-5. In the **Define Managed Paths** dialog, in the **Add a New Path** section, in the **Path** box, type the path that you want to append to the URL namespace, and then select **Wildcard inclusion**. For example, if your web application URL is http://mysites.contoso.com/ and you want users' individual site collections created under a path named "personal", type personal in the **Path** box. Separate My Sites site collections will be created for each user under http://mysites.contoso.com/personal/. 
+5. In the **Define Managed Paths** dialog, in the **Add a New Path** section, in the **Path** box, type the path that you want to append to the URL namespace, and then select **Wildcard inclusion**. For example, if your web application URL is https://mysites.contoso.com/ and you want users' individual site collections created under a path named "personal", type personal in the **Path** box. Separate My Sites site collections will be created for each user under https://mysites.contoso.com/personal/. 
     
 6. Click **Add Path**, and then click **OK**.
     
