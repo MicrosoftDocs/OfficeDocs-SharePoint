@@ -150,7 +150,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
   - \<CustomUsageEventType\> is the name of the custom event type.
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged — for example,  *http://contoso.com/faq*  . 
+  - \<URL\> is the full URL of the item to which the usage event should be logged — for example,  *https://contoso.com/faq*  . 
     
  **To add code to record a custom usage event and override site settings**
   
@@ -289,7 +289,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
   - \<DefaultUsageEventType\> is the name of the default usage event type — for example,  *Views*  . 
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  *http://contoso.com/careers* 
+  - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  *https://contoso.com/careers* 
     
 6. Save the file.
     
@@ -606,9 +606,9 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
 
    Where:
     
-  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of — for example,  _http://contoso.com/sites/catalog_.
+  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of — for example,  _https://contoso.com/sites/catalog_.
     
-  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  _http://contoso.com/sites/catalog_, and your subsite URL is  _http://contoso.com/sites/catalog/products_, type  _products_ for this placeholder. 
+  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  _https://contoso.com/sites/catalog_, and your subsite URL is  _https://contoso.com/sites/catalog/products_, type  _products_ for this placeholder. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

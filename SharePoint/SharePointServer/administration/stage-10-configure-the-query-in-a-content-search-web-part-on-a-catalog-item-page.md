@@ -134,7 +134,7 @@ So now you might be thinking "OK, that was easy, but what does **ProductCatalogG
     
   - The colon : means "contains"
     
-  - **{URLToken.1}** represents a value from the URL of the current page. The integer, in this case **1**, represents the value in the URL as counted from right to left. So, for example, in the URL *http://www.contoso.com/cameras/camcorders/563714875/6637146586*, the query variable {URLToken.1} represents the value *6637146586*. 
+  - **{URLToken.1}** represents a value from the URL of the current page. The integer, in this case **1**, represents the value in the URL as counted from right to left. So, for example, in the URL *https://www.contoso.com/cameras/camcorders/563714875/6637146586*, the query variable {URLToken.1} represents the value *6637146586*. 
     
     If we put the complete query together, it means the following:
     
