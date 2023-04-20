@@ -2,8 +2,8 @@
 ms.date: 03/01/2023
 title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -15,6 +15,8 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
+- Highpri
+- Tier1
 search.appverid:
 - MET150
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
@@ -35,7 +37,10 @@ Note that this capability can't be applied to the root site in SharePoint (for e
 Using authentication context with SharePoint sites requires one of the following licenses:
 
 - Microsoft Syntex - SharePoint Advanced Management
-- Microsoft 365 E5
+- Microsoft 365 E5/A5/G5
+- Microsoft 365 E5/A5/G5/F5 Compliance
+- Microsoft 365 E5/F5 Information Protection and Governance
+- Office 365 E5/A5/G5
 
 ## Limitations
 
@@ -111,6 +116,9 @@ To create a conditional access policy
 
 You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
+> [!NOTE]
+> This capability requires a Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management license.
+
 In the following example, we apply the authentication context we created above to a site called "research."
 
 ```powershell
@@ -120,6 +128,9 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -Conditional
 ### Set a sensitivity label to apply the authentication context to labeled sites
 
 If you want to use a sensitivity label to apply the authentication context, update a sensitivity label (or create a new one) to use the authentication context.
+
+> [!NOTE]
+> Sensitivity labels require Microsoft 365 E5 or Microsoft 365 E3 plus the Advanced Compliance license.
 
 To update a sensitivity label
 1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
