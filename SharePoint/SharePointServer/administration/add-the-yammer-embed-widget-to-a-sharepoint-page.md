@@ -39,6 +39,7 @@ There are three steps to the process:
 When the Yammer widget is embedded in a SharePoint page, the specified feed is displayed if the user is signed in. If the user is not signed in, they will be prompted to sign in.
 
 ## Step 1: Collect the feed information from Yammer
+
 How you collect the feed info depends on the feed type you select.
 
 ### Collect group feed information from Yammer
@@ -56,10 +57,12 @@ There are two options:
     2. Copy the feed ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/threads/inGroup?type=in_group&feedId=1170863, copy 1170863.
 
 ### Collect topic feed information from Yammer
+
 1. Using Yammer in a web browser, search for the topic by entering #*topic_name* in the Search box. For example, if looking for all conversations tagged with the EmployeeVolunteering tag, search for #EmployeeVolunteering.
 2. Select the topic, look at the URL, and copy the topic id. For example, in this URL,  https://www.yammer.com/contoso.com/topics/2084748#/Threads/AboutTopic?type=about_topic&feedId=2084748, copy 2084748.
 
 ### Collect user feed information from Yammer 
+
 1. Using Yammer in a web browser, click the icon or name of the person from anywhere in Yammer. 
 3. Copy the user ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/users/1906364, copy 1906364.
 
@@ -120,9 +123,13 @@ There are two options:
 2. Select the spot on the page where you want this information to appear.
 3. On the **Insert** tab, select **Embed Code**.
 
+> [!CAUTION]
+> Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, please contact your support team.
+
 ## See also
 
 #### Concepts
 
 [Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
+
 
