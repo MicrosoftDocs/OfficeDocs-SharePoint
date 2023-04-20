@@ -22,7 +22,7 @@ description: Learn about the changes to Migration Manager for the European Union
 # Migration Manager and the European Union Data Boundary (EUDB)
 
 >[!Note]
->This article only applies to customers whose Microsoft 365 tenant exists within the boundaries of the European Union (EU).
+>This article only applies to customers whose Microsoft 365 tenant exists within the boundaries of the European Union (EU). **Only customers who had existing migrations before April 1st** will see the US and EU projects listed in the UI.
 >
 >All migrated data will reside in the EU OneDrive-Sharepoint farm, regardless of this change.
 
@@ -63,7 +63,7 @@ A phased implementation schedule for existing EU customers is listed below.
 >  
 >- **No changes will be visible if you are a new customer or have never created a migration.** Migrations you create will be processed in the EU.
 >
->- [**Microsoft 365 Multi-Geo**](/microsoft-365/enterprise/microsoft-365-multi-geo)  capabilities add-on enabling customers to expand Microsoft 365 presence to multiple geographic regions or countries **isn't** in scope for the EU Data Boundary. 
+>- [**Microsoft 365 Multi-Geo**](/microsoft-365/enterprise/microsoft-365-multi-geo)  Capabilities Add-on that enables customers to expand their Microsoft 365 presence to multiple geographic regions or countries **isn't** in scope for the EU Data Boundary. 
 
 
 |If you have...|Impact to you|Recommendation|
