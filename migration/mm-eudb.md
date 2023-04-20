@@ -40,6 +40,8 @@ MMP currently has one project based in the United States (US) farm, serving all 
 
 A phased implementation schedule for existing EU customers is listed below.
 
+>[!Tip]
+>Learn more about the Microsoft commitment to our European Union (EU) and European Free Trade Association (EFTA) customers to help them process and store customer data in their region:  [EU Data Boundary for the Microsoft Cloud](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb)
 
 ## Timeline overview
 
