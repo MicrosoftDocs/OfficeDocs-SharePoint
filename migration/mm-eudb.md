@@ -26,6 +26,7 @@ description: Learn about the changes to Migration Manager for the European Union
 >
 >All migrated data will reside in the EU OneDrive-Sharepoint farm, regardless of this change.
 
+
 >[!Important]
 >Beginning April 1, 2023, all new European Union (EU) scans and migrations, will be processed in the EU.
 >You may continue to run existing migrations, except for Steam, until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
@@ -56,6 +57,14 @@ A phased implementation schedule for existing EU customers is listed below.
 
 
 ## What does that mean for me?
+
+>[!Important]
+>- **Only customers who had existing migrations before April 1st** will see the US and EU projects listed in the UI.
+>  
+>- **No changes will be visible if you are a new customer or have never created a migration.** Migrations you create will be processed in the EU.
+>
+>- [**Microsoft 365 Multi-Geo**](/microsoft-365/enterprise/microsoft-365-multi-geo)  capabilities add-on enabling customers to expand Microsoft 365 presence to multiple geographic regions or countries **isn't** in scope for the EU Data Boundary. 
+
 
 |If you have...|Impact to you|Recommendation|
 |:---------------|:-----|:-----|
