@@ -55,5 +55,11 @@ If you have never used Power Automate with this tenant before, you must configur
 3. Wait for "State" status to change to **Ready**.
 4. To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you'd like to set as the default flow owner.
 
+>[!Important]
+>The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. As this user account will be set as the owner of migrated flow, it must also be assigned the *Environment Maker* role. [Learn more about Environment Maker role](/power-platform/admin/database-security).
+>
+>Sign in to Power Automate using this account, navigate to Solutions, and verify you can create a new solution.
+
+
 ## Step 2:  [Migrate Workflows](spmt-workflow-step2.md)
 
