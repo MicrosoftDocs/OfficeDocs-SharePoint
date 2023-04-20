@@ -2,6 +2,14 @@
 
 
 
+## Week of April 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2023 | [Migration Manager Prerequisites and Endpoints](/SharepointMigration/mm-prerequisites) | modified |
+
+
 ## Week of March 27, 2023
 
 
@@ -37,23 +45,3 @@
 | 3/16/2023 | [Authorizing the Office 365 Connector](/SharepointMigration/mover-o365) | modified |
 | 3/16/2023 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
 | 3/16/2023 | [Mover services migration security](/SharepointMigration/mover-security) | modified |
-
-
-## Week of March 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/7/2023 | [Migration Manager and the European Union database (EUDB)](/SharepointMigration/mm-eudb) | added |
-| 3/7/2023 | [Migration Manager and the European Union Data Boundary (EUDB)](/SharepointMigration/mm-eudb) | modified |
-| 3/10/2023 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-| 3/10/2023 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
-
-
-## Week of February 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/27/2023 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-| 2/27/2023 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
