@@ -123,8 +123,7 @@ There are two options:
 2. Select the spot on the page where you want this information to appear.
 3. On the **Insert** tab, select **Embed Code**.
 
-> [!CAUTION]
-> Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, please contact your support team.
+Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, please contact your support team.
 
 ## See also
 
