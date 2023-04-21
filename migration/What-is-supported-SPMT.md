@@ -32,7 +32,7 @@ SharePoint Migration Tool (SPMT) supports migration of the following locations a
 **On-premises fileshares**
 - Local and network fileshares
 
-**SharePoint Server 2010, 2013, and 2016**
+**SharePoint Server 2010, 2013, 2016, and 2019**
 
 | Supported | Description | More info |
 |:-----|:-----|:-----|
