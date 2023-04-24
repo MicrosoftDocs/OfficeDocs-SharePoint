@@ -53,8 +53,8 @@ We support files up to 250 GB in size for file share to Microsoft 365 migrations
 
 |Requirement|Notes|
 |:-----|:-----|
-|System requirements| [Migration Manager system requirements](mm-prerequisites#prerequisites.md).|
-|Endpoints| [Migration Manager required endpoints](mm-prerequisites#required-endpoints.md). Make sure your computer or VM has the required endpoints open.|
+|System requirements| [Migration Manager system requirements](mm-prerequisites.md#prerequisites)|
+|Endpoints| [Migration Manager required endpoints](mm-prerequisites.md#required-endpoints). Make sure your computer or VM has the required endpoints open.|
 |SMB 2.0|For file share migration, the server hosting the source data must support SMB 2.0 or higher|
 |Access to the destination|You must either be a **Global admin** or a **OneDrive/SharePoint admin** on the Microsoft 365 tenant where you want to migrate your content. |
 |Access to the source|Windows credentials that have read access to any of the network file shares you plan to migrate. |
