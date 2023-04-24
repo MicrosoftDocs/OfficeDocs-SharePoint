@@ -21,7 +21,7 @@ search.appverid: MET150
 description: Set up multiple Migration Manager agents
 ---
 
-# Step 1: Setup Migration Manager agents
+# Step 1: Set up Migration Manager agents
 
 When migrating file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. Grouping provides agent flexibility, such as only assigning particular migrations to a particular set of agents, or separating out agents in groups based on geographical location to optimize performance.
 
