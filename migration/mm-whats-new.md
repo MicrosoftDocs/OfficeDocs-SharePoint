@@ -32,9 +32,12 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## Coming soon
 
 - Several enhancements are coming to Google Workspace migrations. New features include:
-  -  Filtering by factors such as dates, file types, and invalid characters
-  -  Downloading bulk reports
+  - Filtering by factors such as dates, file types, and invalid characters
+  - Downloading bulk reports
 
+## April 2023
+
+- **Important changes for European Union (EU) users.**  Beginning April 1, 2023, all new EU scans and migrations will be processed in the EU. For complete details, learn more at [Migration Manager and The European Union Data Boundary (EUDB)](mm-eudb.md)
 
 ## March 2023
 
@@ -47,22 +50,27 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Display of the estimated time**. There's now display of the estimated time it will take for your Google Drive migration to complete.
 
 ## January 2023
+
 - **Fixed:  Report aggregator script**. The Report aggregator script was incorrectly converting bytes to gigabytes. This has now been fixed. [Learn more: Download detailed task reports.](/sharepointmigration/mm-reports#download-detailed-task-level-reports-via-powershell) 
 
 
 ## December 2022
+
 - **Fixed: Upload failures logs**. Items that failed in SPO upload process weren't listed in the migration log, and was inconsistent with the final migration result. This has been fixed. 
 - **Report fields refined**. The fields of downloaded reports have been improved for clarity and readability.
 
 
 ## October 2022
+
 - **Change - Box Notes**. We're no longer able to convert Box notes to a .docx file during migration.
 
 ## June 2022
+
 - **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
 - **Tag support for File share migrations**.  The tags feature File Share migrations lets you sort, organize, and navigate through a large quantity of sources and users.
 
 ## May 2022
+
 - **Fixed: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that later fails to authorize the user's account and connect. This has been fixed.
 
 ## April 2022
@@ -70,6 +78,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Task increase**.  We now support up to 50,000 tasks per tenant for cloud migrations (GoogleDrive, Box, Dropbox and Egnyte). File share migrations already support 50,000 tasks.
 
 ## March 2022
+
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 
 ## February 2022

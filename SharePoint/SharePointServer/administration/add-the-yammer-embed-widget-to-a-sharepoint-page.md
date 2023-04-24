@@ -24,7 +24,7 @@ You can choose the type of Yammer feed to include.
 | Type           |Description            | Example     |
 |:--------------:|:----------------------|:-------------|
 |Group           |The feed for one group | On a team intranet page.|
-|Topic|All conversations tagged with one topic| On an benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
+|Topic|All conversations tagged with one topic| On a benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
 |User|All conversations that include messages from the specified user|On a directory page for the user.|
 |My Feed|The user's home feed|On a user's My site or home page. <br/> <br/>The Embed version of My feed shows slightly different messages than the ones included in the home feeds available in Yammer web, desktop, or mobile. In Embed My Feed, users will see messages from all threads in groups they are a member of and all threads in the All Company group. In Yammer web, desktop, and mobile, users can select Discovery, All, or Following feeds, but these aren't available in Embed. The Embed My Feed/Home feed type is closest to the All feed, but doesn't include public posts in public groups they don't belong to.|
 |Open Graph|Connect a specific file or other OpenGraph object to Yammer|Collecting feedback page on a proposal.| 
@@ -39,6 +39,7 @@ There are three steps to the process:
 When the Yammer widget is embedded in a SharePoint page, the specified feed is displayed if the user is signed in. If the user is not signed in, they will be prompted to sign in.
 
 ## Step 1: Collect the feed information from Yammer
+
 How you collect the feed info depends on the feed type you select.
 
 ### Collect group feed information from Yammer
@@ -56,10 +57,12 @@ There are two options:
     2. Copy the feed ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/threads/inGroup?type=in_group&feedId=1170863, copy 1170863.
 
 ### Collect topic feed information from Yammer
+
 1. Using Yammer in a web browser, search for the topic by entering #*topic_name* in the Search box. For example, if looking for all conversations tagged with the EmployeeVolunteering tag, search for #EmployeeVolunteering.
 2. Select the topic, look at the URL, and copy the topic id. For example, in this URL,  https://www.yammer.com/contoso.com/topics/2084748#/Threads/AboutTopic?type=about_topic&feedId=2084748, copy 2084748.
 
 ### Collect user feed information from Yammer 
+
 1. Using Yammer in a web browser, click the icon or name of the person from anywhere in Yammer. 
 3. Copy the user ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/users/1906364, copy 1906364.
 
@@ -120,9 +123,12 @@ There are two options:
 2. Select the spot on the page where you want this information to appear.
 3. On the **Insert** tab, select **Embed Code**.
 
+Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, please contact your support team.
+
 ## See also
 
 #### Concepts
 
 [Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
+
 
