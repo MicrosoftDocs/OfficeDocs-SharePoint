@@ -48,20 +48,16 @@ With the ability to set up multiple servers as "agents", Migration Manager lets 
 We support files up to 250 GB in size for file share to Microsoft 365 migrations.
 
 
-## Get started
+## Prerequisites & permissions
 
-Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-Make sure that you have:
-
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-
-- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate. 
-
-- **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
-
-- **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
-- **File size**:  File share migration supports migrating individual files of up to 250 GB.
+|Requirement|Notes|
+|:-----|:-----|
+|System requirements| [Migration Manager system requirements](mm-prerequisites#prerequisites.md).|
+|Endpoints| [Migration Manager required endpoints](mm-prerequisites#required-endpoints.md). Make sure your computer or VM has the required endpoints open.|
+|SMB 2.0|For file share migration, the server hosting the source data must support SMB 2.0 or higher|
+|Access to the destination|You must either be a **global admin** or **OneDrive/SharePoint admin** to the Microsoft 365 tenant where you want to migrate your content. |
+|Access to the source|Windows credentials that have read access to any of the network file shares you plan to migrate. |
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
