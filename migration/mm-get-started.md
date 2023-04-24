@@ -88,10 +88,4 @@ Develop a plan for sending communications to your user base, providing clear sta
 - [Work together with OneDrive](https://support.office.com/article/626cff9f-9a56-472b-a77d-b019d97eec8d)
 - [Learn more about OneDrive](https://support.office.com/article/38acc14b-fd86-466e-b802-baece8107c86)
 
-### Related links
-
-[How to set up agents in Migration Manager](mm-setup-clients.md)</br>
-[Migration Manager settings](mm-settings.md)</br>
-[How to format your CSV or JSON file for bulk upload into the Migration Manager](mm-bulk-upload-format-csv-json.md)</br>
-[Migration Manager FAQs](mm-faqs.md)</br>
-
+## [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
