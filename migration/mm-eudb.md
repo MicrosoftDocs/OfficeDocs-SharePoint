@@ -22,13 +22,14 @@ description: Learn about the changes to Migration Manager for the European Union
 # Migration Manager and the European Union Data Boundary (EUDB)
 
 >[!Note]
->This article only applies to customers whose Microsoft 365 tenant exists within the boundaries of the European Union (EU).
+>This article only applies to customers whose Microsoft 365 tenant exists within the boundaries of the European Union (EU). **Only customers who had existing migrations before April 1st** will see the US and EU projects listed in the UI.
 >
 >All migrated data will reside in the EU OneDrive-Sharepoint farm, regardless of this change.
 
+
 >[!Important]
->Beginning April 1, 2023, all new European Union (EU) scans and migrations, except for Stream, will be processed in the EU. 
->You may continue to run existing migrations until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
+>Beginning April 1, 2023, all new European Union (EU) scans and migrations, will be processed in the EU.
+>You may continue to run existing migrations, except for Steam, until September 30, 2023. Starting October 1, 2023, you will no longer have access to migration projects created in the United States (US).
 >
 >Stream migrations created before April 1, 2023 may continue to run in the US project until February 15, 2024.
 
@@ -40,6 +41,8 @@ MMP currently has one project based in the United States (US) farm, serving all 
 
 A phased implementation schedule for existing EU customers is listed below.
 
+>[!Tip]
+>Learn more about the Microsoft commitment to our European Union (EU) and European Free Trade Association (EFTA) customers to help them process and store customer data in their region:  [EU Data Boundary for the Microsoft Cloud](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb)
 
 ## Timeline overview
 
@@ -54,6 +57,14 @@ A phased implementation schedule for existing EU customers is listed below.
 
 
 ## What does that mean for me?
+
+>[!Important]
+>- **Only customers who had existing migrations before April 1st** will see the US and EU projects listed in the UI.
+>  
+>- **No changes will be visible if you are a new customer or have never created a migration.** Migrations you create will be processed in the EU.
+>
+>- [**Microsoft 365 Multi-Geo**](/microsoft-365/enterprise/microsoft-365-multi-geo)  Capabilities Add-on that enables customers to expand their Microsoft 365 presence to multiple geographic regions or countries **isn't** in scope for the EU Data Boundary. 
+
 
 |If you have...|Impact to you|Recommendation|
 |:---------------|:-----|:-----|

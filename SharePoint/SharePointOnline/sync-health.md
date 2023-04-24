@@ -41,7 +41,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync app version 22.232 or later for Windows and macOS.
 
-- OneDrive sync apps on the Insiders or Production ring. Users on Deferred rings can access the dashboard once 22.232 has rolled out to the ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+- OneDrive sync apps on the Insiders, Production, or Deferred ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
 - [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -229,6 +229,8 @@ This section describes known limitations and considerations in sync reporting.
 
 **Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
+**Minimum time device is on for eligibility:** Devices need to be turned on for a minimum of five hours to be eligible for the report. Devices that are turned off frequently and not on for that amount of time might be missing from the dashboard, even if the group policy is set.
+
 **Considerations:**
 
 **Network Impact** *How is my network impacted when my organization enables Sync Reports?*
@@ -250,31 +252,20 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 > [!IMPORTANT]
 > If you enable the EnableSyncAdminReports setting on devices that don't meet the [requirements](#requirements), it will have no effect. The app won't send reports.
 
-1. Confirm that the sync app is on the Insiders or Production ring.
 
-    Confirm with Command Prompt:
+Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
-    Windows users should open Command Prompt as an administrator, then run the following command:  
+   ```PowerShell
+   reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
+   ```
 
-    ```PowerShell
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
-    ```
+ The output should look like this:
 
-If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
+:::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output.":::
 
-2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
+If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
-    ```PowerShell
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
-    ```
-
-    The output should look like this:
-
-    :::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output":::
-
-    If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
-
-If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
+If the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
 ## Report a problem
 
