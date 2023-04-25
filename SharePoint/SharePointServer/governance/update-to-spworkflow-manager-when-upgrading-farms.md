@@ -246,19 +246,21 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 >[!Important]
 >You must repeat this certificate import step on all the SharePoint servers in the farm.
 
-## Validate the SPWFM endpoint
+### Validate the SharePoint Workflow Manager endpoint
 
-**Check from the SPWFM server first**
-1. Open IIS manager on the SPWFM server. 
-2. Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you will have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. Try both the http and https endpoints.
 
-**Check from your SharePoint servers**
-Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so we need to test connectivity from there as well. 
+1. **Check from the SPWFM server first**. 
+a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. 
+b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you will have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. 
+c. Test both the http and https endpoints.
 
-1. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. 
-2. Browse to the FQDN of the SPWFM endpoint. 
+2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there is  connectivity from there as well. 
+a. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. 
+b. Browse to the FQDN of the SPWFM endpoint. 
 
-For example: https://<span>apps<span>.contoso<span><span>.local<span>:12290/. The result should look like this:
+For example:
+
+**https://<span>apps<span>.contoso<span><span>.local<span>:12290/**. The result should look like this:
 
 :::image type="content" source="../media/sp-workflow-check-connectivity.png" alt-text="check connectivity":::
   
