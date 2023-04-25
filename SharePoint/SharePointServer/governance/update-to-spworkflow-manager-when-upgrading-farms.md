@@ -240,16 +240,26 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 1. On the Central Admin server, right-click on the **SPWFM certificate .cer** file and choose **Install Certificate**.
 2. Using the Certificate Import Wizard, choose **Local Machine > Place all certificates in the following store > Browse > Trusted Root Certification Authorities**.
  
+:::image type="content" source="../media/sp-workflow-certificate-store.png" alt-text="certificate store":::
+ 
 >[!Important]
 >You must repeat this certificate import step on all the SharePoint servers in the farm.
 
 ## Validate the SPWFM endpoint
 
-•	Check from the SPWFM server first
-Open IIS manager on the SPWFM server. Click on the "Workflow Management Site", and in the right-hand pane, choose "Browse *12290 (https)". That should open a browser and navigate to https://localhost:12290 . If you allowed connections over HTTP during setup, you will have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. Try both the http and https endpoints.
-•	Check from your SharePoint servers
-Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so we need to test connectivity from there as well. On one of the SharePoint servers, log in as either the SPWFM RunAs account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. Browse to the FQDN of the SPWFM endpoint. For example: https://apps.contoso.local:12290/. The result should look like this:
+**Check from the SPWFM server first**
+1. Open IIS manager on the SPWFM server. 
+2. Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you will have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. Try both the http and https endpoints.
 
+**Check from your SharePoint servers**
+Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so we need to test connectivity from there as well. 
+
+1. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. 
+2. Browse to the FQDN of the SPWFM endpoint. 
+
+For example: https://<span>apps<span>.contoso<span><span>.local<span>:12290/. The result should look like this:
+
+:::image type="content" source="../media/sp-workflow-check-connectivity.png" alt-text="check connectivity":::
   
 ### Register the Service
 
