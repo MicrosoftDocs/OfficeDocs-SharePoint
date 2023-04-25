@@ -14,23 +14,24 @@ ms.localizationpriority: medium
 description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow Manager when upgrading older SharePoint Server farms."
 ---
 
-# Workflow in SharePoint Server
+# Update from Workflow Manager to SharePoint Workflow Manager on a new farm
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 
 ## Overview
-When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, workflow manager will need to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since we're installing a fresh copy of SPWFM on new hardware and upgrading existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
+
+When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, WFM will need to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since you are installing a fresh copy of SPWFM on new hardware and upgrading the existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
 
 >[!Note]
->As you are upgrading an existing Workflow manager farm to SharePoint Workflow Manager, the WFM databases will be reused. Your existing registration and workflows should remain intact.
+>As you are upgrading an existing WFM farm to a SPWFM farm, the WFM databases will be reused. Your existing registration and workflows should remain intact.
 
 ## Prepare the old WFM farm
 
 You will need information from the "old" environment to properly configure the "new" environment. 
 
 ### Get the Certificate Generation Key
-As the upgrade steps require that you join an existing workflow farm, you will need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WorkFlow Manager and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
+As the upgrade steps require that you join an existing workflow farm, you will need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
 
 
 ### Check the Scope
