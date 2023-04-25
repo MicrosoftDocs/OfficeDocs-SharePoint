@@ -21,22 +21,22 @@ description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow 
 
 ## Overview
 
-When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, WFM will need to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since you are installing a fresh copy of SPWFM on new hardware and upgrading the existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
+When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, WFM will need to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since you're installing a fresh copy of SPWFM on new hardware and upgrading the existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
 
 >[!Note]
 >As you are upgrading an existing WFM farm to a SPWFM farm, the WFM databases will be reused. Your existing registration and workflows should remain intact.
 
 ## Step 1: Prepare the old Workflow Manager farm
 
-You will need information from the "old" environment to properly configure the "new" environment. 
+You'll need information from the "old" environment to properly configure the "new" environment. 
 
 ### Get the Certificate Generation Key
-As the upgrade steps require that you join an existing workflow farm, you will need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
+As the upgrade steps require that you join an existing workflow farm, you'll need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
 
 
 ### Check the Scope
 
-You will need to re-register the *SPWorkflowService* using the same scope name that was used in the old farm.
+You'll need to re-register the *SPWorkflowService* using the same scope name that was used in the old farm.
 
 1. To check the scope name, run the following PowerShell on one of the SharePoint servers in the “old” farm:
 
@@ -51,7 +51,7 @@ $wfmProxy.GetWorkflowServiceAddress($site)
 2. An address will display similar to this:
 *https://<span><span>apps.<span><span>contoso.<span><span>local:12290/SharePoint2013* 
 
-The part after the port number is the **scope name**. In this example, it's "SharePoint2013”. **Write down the scope name and save it for later.** You will need it when you run *Register-SPWorkflowService* in the new farm.  
+The part after the port number is the **scope name**. In this example, it's "SharePoint2013”. **Write down the scope name and save it for later.** You'll need it when you run *Register-SPWorkflowService* in the new farm.  
 
 
 ### Check the service account and admin group
@@ -94,7 +94,7 @@ Take note of the account and the group. When you rejoin the workflow farm in the
 
 ### Move the Content Databases
 
-To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but we will refer to a few items related to upgrading WFM.
+To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but we'll refer to a few items related to upgrading WFM.
 
 Using the database attach method, you can move SharePoint content databases from the old farm to the new farm.
 
@@ -251,10 +251,10 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 
 1. **Check from the SPWFM server first**. 
 a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. 
-b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you will have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. 
+b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. 
 c. Test both the http and https endpoints.
 
-2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there is  connectivity from there as well. 
+2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. 
 a. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. 
 b. Browse to the FQDN of the SPWFM endpoint. 
 
@@ -267,7 +267,7 @@ For example:
 ### Register the Service
 
 1. Sign in to any SharePoint server as either the SPWFM RunAs account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above.
-2. Run the **Register-SPWorkflowService** command to register the workflow service within SharePoint. You will need the SPWFM endpoint URI, the name of the Scope you gathered in the “Check the scope” step above, and will need to include the -Force parameter. 
+2. Run the **Register-SPWorkflowService** command to register the workflow service within SharePoint. You'll need the SPWFM endpoint URI, the name of the Scope you gathered in the “Check the scope” step above, and will need to include the -Force parameter. 
 
 Example:
 
@@ -291,4 +291,4 @@ b. Launch a new instance of that workflow and verify that it works. If you inclu
 a. Sign in to a client computer, and then open **SharePoint Designer**.
 b. Open one of your sites and go to Workflows. 
 c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. 
-d. Create a simple "log to history" 2013-platform workflow and test to make sure it’s successful.
+d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.
