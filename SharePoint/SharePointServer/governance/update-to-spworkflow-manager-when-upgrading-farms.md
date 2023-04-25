@@ -263,9 +263,14 @@ For example: https://<span>apps<span>.contoso<span><span>.local<span>:12290/. Th
   
 ### Register the Service
 
-Login to any SharePoint server as either the SPWFM RunAs account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above.
-Run the Register-SPWorkflowService command to register the workflow service within SharePoint. You will need the SPWFM endpoint URI, the name of the Scope we gathered in the “Check the scope” step above, and will need to include the -Force parameter. Example:
+1. Sign in to any SharePoint server as either the SPWFM RunAs account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above.
+2. Run the **Register-SPWorkflowService** command to register the workflow service within SharePoint. You will need the SPWFM endpoint URI, the name of the Scope you gathered in the “Check the scope” step above, and will need to include the -Force parameter. 
+
+Example:
+
+```powershell
 Register-SPWorkflowService -SPSite http://www.contoso.local -WorkflowHostUri https://spwfm.contoso.local:12290 -ScopeName SharePoint2013 -Force
+```
 
 ### Validate the Configuration
 
