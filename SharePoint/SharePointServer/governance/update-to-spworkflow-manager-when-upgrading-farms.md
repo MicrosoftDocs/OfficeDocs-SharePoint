@@ -117,11 +117,12 @@ Since workflows get their permission to SharePoint content through app principal
 >You will encounter [Issue 3: Workflows fail and return "Cannot get app principal permission information" error](/sharepoint/troubleshoot/workflows/upgrade-sharepoint-through-workflow-manager#issue-3-workflows-fail-and-return-cannot-get-app-principal-permission-information-error). While the problem can be corrected later, it is easier to avoid it by bringing the App Management database along during the upgrade/migration.
 
 
-These are the basic steps:
-- Backup the App Management database in the old farm using SQL Server backup.
-- Restore the App Management database to the new SQL server.
-- In Central Administration in the new farm, go to Manage Service Applications and create a new App Management Service. In the Database section, enter the SQL server name and database name of the App Management database that you restored from the old farm. -- Basically, we're creating a new service app by reusing the old database. That should upgrade the database to the current SharePoint version.
-- Make sure that this new App Management Service is in the default proxy group, and that your web applications are using it.
+#### These are the basic steps:
+
+- **Backup the App Management database** in the old farm using SQL Server backup.
+- **Restore the App Management database** to the new SQL server.
+- **Create a new App Management Service** In Central Administration in the new farm, go to Manage Service Applications and create a new App Management Service. In the Database section, enter the SQL server name and database name of the App Management database that you restored from the old farm. Basically, we're creating a new service app by reusing the old database. That should upgrade the database to the current SharePoint version.
+- **Confirm the service is in the default proxy group**. Make sure that this new App Management Service is in the default proxy group, and that your web applications are using it.
 
 >[!Note]
 >Like the content databases, if you are moving to a newer major version of SharePoint, you may have to complete an intermediate upgrade step. For example, only SharePoint 2016 and 2019 can be directly upgraded to SharePoint Server Subscription Edition (SPSE). SharePoint 2013 cannot. To upgrade a SharePoint 2013 content database to SPSE, you must first upgrade it to SharePoint 2016, then to SPSE.
@@ -249,14 +250,14 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 ### Validate the SharePoint Workflow Manager endpoint
 
 
-1. **Check from the SPWFM server first**. 
-a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. 
-b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. 
-c. Test both the http and https endpoints.
+1. **Check from the SPWFM server first**. </br>
+a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. </br>
+b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. </br>
+c. Test both the http and https endpoints.</br>
 
-2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. 
-a. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. 
-b. Browse to the FQDN of the SPWFM endpoint. 
+2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. </br>
+a. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. </br>
+b. Browse to the FQDN of the SPWFM endpoint. </br>
 
 For example:
 
@@ -277,18 +278,18 @@ Register-SPWorkflowService -SPSite http://www.contoso.local -WorkflowHostUri htt
 
 ### Validate the Configuration
 
-1. Check the workflow service app proxy
-Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. Select the link for the **Workflow Service Application Proxy**. It should show as connected. 
+1. Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. 
+2. Select the link for **Workflow Service Application Proxy**. It should show as connected. 
 
 Example:
 
 :::image type="content" source="../media/sp-workflow-status.png" alt-text="workflow status":::
 
-2. **Test an old workflow**. 
-a. Find a list that had a workflow assigned to it in the "old" farm. 
-b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.
-3. **Test a new workflow**
-a. Sign in to a client computer, and then open **SharePoint Designer**.
-b. Open one of your sites and go to Workflows. 
-c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. 
-d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.
+2. **Test an old workflow**</br>. 
+a. Find a list that had a workflow assigned to it in the "old" farm. </br>
+b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
+3. **Test a new workflow**</br>
+a. Sign in to a client computer, and then open **SharePoint Designer**.</br>
+b. Open one of your sites and go to Workflows. </br>
+c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. </br>
+d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.</br>
