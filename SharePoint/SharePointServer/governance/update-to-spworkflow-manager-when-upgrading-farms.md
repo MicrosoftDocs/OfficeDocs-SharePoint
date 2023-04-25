@@ -216,19 +216,29 @@ New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
  
 ### Trust the WFM SSL certificate on the SharePoint servers
 
-Because SharePoint must contact the SPWFM service endpoint, the SharePoint servers must trust the certificate it's using.
-Export the certificate
-On the SPWFM server, open IIS Manager. Right-click on the Workflow Management Site and choose Edit Bindings. Select the HTTPS binding on port 12290 and choose Edit. Click the "View" button next to SSL certificate.
- 
-Click the Details tab and choose “Copy to File…”
-Run through the Certificate Export Wizard to export the certificate without the private key as a “DER encoded binary X.509 (.CER)” certificate.
-Copy that .cer file to the SharePoint Central Administration server.
-Add the SPWFM certificate to the Farm Trust
-In Central Administration, to go Security | Manage Trust.
-Choose New, give it a name like “Workflow” or “SPWFM”, click the "Choose File" button, select the .cer file you copied to the machine and click OK.
-Add the SPWFM certificate to Trusted Root Authorities
-On the Central Admin server, right-click on the SPWFM certificate .cer file and choose Install Certificate.
-Using the Certificate Import Wizard, choose Local Machine | Place all certificates in the following store | Browse | Trusted Root Certification Authorities.
+Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers must trust the certificate it's using.
+
+#### Export the certificate
+
+1. On the SPWFM server, open **IIS Manager**. Right-click on the **Workflow Management Site** and choose **Edit Bindings**. Select the HTTPS binding on port 12290 and choose Edit. Select the "View" button next to SSL certificate.
+
+:::image type="content" source="../media/sp-workflow-iis-manager.png" alt-text="select iis manager":::
+
+2. Select the Details tab and choose “Copy to File…”
+3. Run through the Certificate Export Wizard to export the certificate without the private key as a**DER encoded binary X.509 (.CER)** certificate.
+4. Copy the **.cer** file to the SharePoint Central Administration server.
+
+
+#### Add the SPWFM certificate to the Farm Trust
+
+1. In Central Administration, to go **Security > Manage Trust**.
+2. Choose New, give it a name like “Workflow” or “SPWFM”.
+3. Select **Choose File**, and then select the **.cer** file you copied to the computer. Select **OK**.
+
+#### Add the SPWFM certificate to Trusted Root Authorities
+
+1. On the Central Admin server, right-click on the **SPWFM certificate .cer** file and choose **Install Certificate**.
+2. Using the Certificate Import Wizard, choose **Local Machine > Place all certificates in the following store > Browse > Trusted Root Certification Authorities**.
  
 >[!Important]
 >You must repeat this certificate import step on all the SharePoint servers in the farm.
