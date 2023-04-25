@@ -129,41 +129,47 @@ These are the basic steps:
 
 If the upgrade/migration includes moving databases to a new SQL server, you need to move all the WFM and Service Bus databases.
 
-1. Backup the databases on the old SQL server
-- SbGatewayDatabase
-- SbManagementDB
-- SBMessageContainer01
-- WFInstanceManagementDB
-- WFManagementDB
-- WFResourceManagementDB
+1. Backup the databases on the old SQL server:
+-  SbGatewayDatabase
+-  SbManagementDB
+-  SBMessageContainer01
+-  WFInstanceManagementDB
+-  WFManagementDB
+-  WFResourceManagementDB
+
 2. Restore the databases on the new SQL server.
 
 >[!Note]
->WFM versions do not align with SharePoint versions, which means if you're doing a multi-version upgrade of SharePoint, you do NOT have to also upgrade WFM on each step along the way. For example, when upgrading from SharePoint 2013 to SharePoint 2019, you must upgrade the content databases and App Management service application to SharePoint 2016 and then to 2019, but you do NOT have to upgrade WFM in the 2016 farm. Only a single upgrade from WFM (in the 2013 environment) to SPWFM (in the 2019 environment) is required.
+>WFM versions do not align with SharePoint versions, which means if you're doing a multi-version upgrade of SharePoint, you do NOT have to upgrade WFM on each step. 
+>
+>For example, when upgrading from SharePoint 2013 to SharePoint 2019, you must upgrade the content databases and App Management service application to SharePoint 2016 and then to 2019. But you do NOT have to upgrade WFM in the 2016 farm. Only a single upgrade from WFM (in the 2013 environment) to SPWFM (in the 2019 environment) is required.
 
 ## Prepare the new SPWFM server
 
 ### Verify the IIS Server Role
 
-If you're installing SPWFM on a non-SharePoint server, it may not already have the "Web Server (IIS)" server role installed, in which case, you need to install it.
-Unfortunately, there's nothing forcing you to install it, so if you don't, the Workflow Configuration Wizard will fail with "Could not load file or assembly 'Microsoft.Web.Administration".
+1. Check to see if you have the "Web Server (IIS)" server role installed on your new SPWFM server. Install it if it isn't on the server.
+
+If you're installing SPWFM on a non-SharePoint server, it may not already have it installed. Unfortunately, there's nothing forcing you to install it, so if you don't, the Workflow Configuration Wizard will fail with the error, "*Could not load file or assembly 'Microsoft.Web.Administration*".
 
 ### Download Azure Service Fabric
 
-On the SPWFM server, download the Azure Service Fabric package  and extract the files to a location on the machine like C:\Install.
+1. On the SPWFM server, download the Azure Service Fabric package and extract the files to a location on the computer. For example, C:\Install.
 
 >[!Note]
->The minimum version of Azure Service Fabric supported by SharePoint Workflow Manager is 9.0.1048.9590. You can install higher versions than that. If you want to upgrade your Azure Service Fabric, please refer to the supported versions page.
+>The minimum version of Azure Service Fabric supported by SharePoint Workflow Manager is 9.0.1048.9590. You can install higher versions than that. If you want to upgrade your Azure Service Fabric, refer to the supported versions page.
 
 
 >[!Important]
->The Cluster Creation step includes an automatic download of the latest version of the Service Fabric Runtime package (for example MicrosoftAzureServiceFabric.9.1.1583.9590.cab). If the SPWFM server does not have Internet access, this will fail. In that case, you must manually download the Service Fabric Runtime package, and then point to it using the -FabricRuntimePackagePath parameter when running CreateServiceFabricCluster.ps1.
+>The Cluster Creation step automatically downloads the latest version of the Service Fabric Runtime package. For example, *MicrosoftAzureServiceFabric.9.1.1583.9590.cab*. 
+>
+>If the SPWFM server does not have internet access, this will fail. In that case, you must manually download the Service Fabric Runtime package and point to it using the *-FabricRuntimePackagePath* parameter when running CreateServiceFabricCluster.ps1.
 
 ***Example:***
  
 *.\CreateServiceFabricCluster.ps1 -ClusterConfigFilePath .\ClusterConfig.Unsecure.DevCluster.json -AcceptEULA -FabricRuntimePackagePath .\MicrosoftAzureServiceFabric.9.1.1583.9590.cab*
 
-[Learn more about about offline installation of Azure Service Fabric](/azure/service-fabric/service-fabric-cluster-creation-for-windows-server#scenario-c-create-an-offline-internet-disconnected-cluster).
+- [Learn more about about offline installation of Azure Service Fabric](/azure/service-fabric/service-fabric-cluster-creation-for-windows-server#scenario-c-create-an-offline-internet-disconnected-cluster).
 
 ### Create Service Fabric Cluster
 
@@ -172,30 +178,40 @@ On the SPWFM server, run the following in Windows PowerShell as an administrator
 
 ### Install SPWFM and the SPWFM client on the SPWFM server
 
-On the SPWFM server, install the SharePoint Workflow Manager Client and SharePoint Workflow Manager (Download Link ).  
+1. On the SPWFM server, download and install the [SharePoint Workflow Manager Client and SharePoint Workflow Manager](/download/details.aspx?id=104867)
 
 ### Install the SPWFM Client on all SharePoint servers
 
-Download the installer for SharePoint Workflow Manager Client . Install the SharePoint Workflow Manager Client on all the SharePoint servers in the farm.
+1. [Download the installer for SharePoint Workflow Manager Client](/download/details.aspx?id=104867).
+2. Install the **SharePoint Workflow Manager Client** on all the SharePoint servers in the farm.
 
 ### Configure App Management and Subscriptions Settings services
 
-•	On the SharePoint server, if you haven't done so already, set up the App Management service using the upgraded App Management database from the old farm. See the “Move the App Management Database” step above.
-•	We also need a Subscription Settings service, which can be created new. You can use this PowerShell to create Subscription Settings Service:
+1. On the SharePoint server (if you haven't already) set up the **App Management** service using the upgraded App Management database from the old farm. See the “Move the App Management Database” step above.
+2. Create a new Subscription Settings service. 
+
+```powershell
 $sa = New-SPSubscriptionSettingsServiceApplication -ApplicationPool 'SharePoint Web Services Default' -Name 'Subscriptions Settings Service Application' -DatabaseName 'Subscription'
 New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
-•	Check the App Management and Subscription service apps. They should be in "Started" state.
- 
+```
 
-### Rejoin the Workflow Farm and Upgrade
+3. Check the App Management and Subscription service apps. They should be in "Started" state.
 
-Run the SPWFM configuration wizard
-•	On the SPWFM server, open “Workflow Manager Configuration” and click on “Join an existing Workflow Manager farm”
-•	Provide the SQL Server and database details that the previous WFM 'classic' install was using, and then run through the setup.
- 
-•	You will also need to provide the password for the service account and the Certificate Generation Key as noted above. 
-  
-•	On the SPWFM server, open “Workflow Manager Configuration” again and click on “Upgrade Workflow Manager Farm”, and let it run through.
+:::image type="content" source="../media/sp-app-management-start-state.png" alt-text="confirm app management is in the start state":::
+
+## Rejoin the Workflow Farm and Upgrade
+
+1. Run the SPWFM configuration wizard.
+2. On the SPWFM server, open “Workflow Manager Configuration” and select **Join an existing Workflow Manager farm**.
+3. Enter the SQL Server and database details that the previous WFM 'classic' install was using, and then run through the setup.
+
+:::image type="content" source="../media/sp-workflow-management-wizard.png" alt-text="workflow manager configuration wizard":::
+
+4. Enter the password for the service account and the Certificate Generation Key. 
+
+:::image type="content" source="../media/sp-workflow-management-wizard2.png" alt-text="Workflow wizard with data":::
+
+5. On the SPWFM server, open “Workflow Manager Configuration” again and select **Upgrade Workflow Manager Farm**, and let it run until finished.
 
  
 ### Trust the WFM SSL certificate on the SharePoint servers
