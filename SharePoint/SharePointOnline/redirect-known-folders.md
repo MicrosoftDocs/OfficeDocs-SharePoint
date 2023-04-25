@@ -106,8 +106,9 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 
 - If folders have been redirected to a location on a local PC:
 
-  1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
-  2. Enable Known Folder Move Group Policy. Known folders move to OneDrive.
+  1. Create a new Folder Redirection Policy to redirect Folder to local user profile without "move data to new location" checked and Policy removal option set to Leave folder in new location after policy removal and replace the old Redirection Policy.
+  2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
+  3. Enable Known Folder Move Group Policy. Known folders move to OneDrive.
 
 - If folders have been redirected to a network file share:
   
