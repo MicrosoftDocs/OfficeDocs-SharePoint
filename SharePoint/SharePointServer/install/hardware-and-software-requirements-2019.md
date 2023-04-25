@@ -94,7 +94,7 @@ This section provides minimum software requirements for each server in the farm.
 
 One of the following:
   
-- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 130. This includes SQL Server 2016, SQL Server 2017, SQL Server 2019, and any future version of SQL Server for Windows that supports database compatibility level 130. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
+- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 130. This includes SQL Server 2016, SQL Server 2017, SQL Server 2019, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 130. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
 
 - Microsoft Azure SQL Managed Instance (MI). This is only supported if your SharePoint Server farm is hosted in Microsoft Azure. For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
     
