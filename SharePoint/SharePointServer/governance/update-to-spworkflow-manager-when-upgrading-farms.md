@@ -100,12 +100,14 @@ Using the database attach method, you can move SharePoint content databases from
 >[!Note]
 >If you are moving to a newer major version of SharePoint, you may have to complete an intermediate upgrade step. For example, only SharePoint 2016 and 2019 can be directly upgraded to SharePoint Server Subscription Edition (SPSE). SharePoint 2013 cannot. To upgrade a SharePoint 2013 content database to SPSE, you must first upgrade it to SharePoint 2016, then to SPSE.
 
-Public Upgrade Docs:
-•	Upgrade to SharePoint Server Subscription Edition 
-•	Upgrade to SharePoint Server 2019 
-•	Upgrade to SharePoint Server 2016 
+Learn more at:
 
-Move the App Management database
+- [Upgrade to SharePoint Server Subscription Edition](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition)
+- [Upgrade to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-2019) 
+- [Upgrade to SharePoint Server 2016](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-2016) 
+
+### Move the App Management database
+
 Because workflows get their permission to SharePoint content through app principals that are stored in the App Management database, you must upgrade / migrate this database to the new farm as well.
 📕 Important! Failure to bring the App Management database along with the content, WFM and Service Bus databases will result in failure for any workflows that were created prior to the migration. You will run into issue #3 here: Issue 3: Workflows fail and return "Cannot get app principal permission information" error . As shown in that article, the problem can be resolved after the fact, but it's easier to avoid it by bringing the App Management database along during the upgrade / migration.
 These are the basic steps:
