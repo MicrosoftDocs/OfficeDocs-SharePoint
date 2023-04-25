@@ -145,7 +145,7 @@ If the upgrade/migration includes moving databases to a new SQL server, you need
 >
 >For example, when upgrading from SharePoint 2013 to SharePoint 2019, you must upgrade the content databases and App Management service application to SharePoint 2016 and then to 2019. But you do NOT have to upgrade WFM in the 2016 farm. Only a single upgrade from WFM (in the 2013 environment) to SPWFM (in the 2019 environment) is required.
 
-## Prepare the new SharePoint Workflow Manager server
+## Step 3: Prepare the new SharePoint Workflow Manager server
 
 ### Verify the IIS Server Role
 
@@ -200,7 +200,7 @@ New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
 
 :::image type="content" source="../media/sp-app-management-start-state.png" alt-text="confirm app management is in the start state":::
 
-### Rejoin the Workflow Farm and Upgrade
+## Step 4: Rejoin the Workflow Farm and Upgrade
 
 1. Run the SPWFM configuration wizard.
 2. On the SPWFM server, open “Workflow Manager Configuration” and select **Join an existing Workflow Manager farm**.
