@@ -275,8 +275,17 @@ Register-SPWorkflowService -SPSite http://www.contoso.local -WorkflowHostUri htt
 ### Validate the Configuration
 
 1. Check the workflow service app proxy
-Check the Workflow Service Application proxy in the Central Administration | Manage Service Applications. Click on the link for the Workflow Service Application Proxy. It should show as connected. Example:
- 
-2. Test an old workflow Find a list that had a workflow assigned to it in the "old" farm. Launch a new instance of that workflow and verify that it works. If you brought the App Management service app database along during the migration, and you ran Register-SPWorkflowService using the correct "Scope" name, workflows brought over from the old farm should continue to work.
-3. Test a new workflow
-Logon to a client machine, open SharePoint Designer, open one of your sites and go to Workflows. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. Create a simple "log to history" 2013-platform workflow and test to make sure it’s successful.
+Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. Select the link for the **Workflow Service Application Proxy**. It should show as connected. 
+
+Example:
+
+:::image type="content" source="../media/sp-workflow-status.png" alt-text="workflow status":::
+
+2. **Test an old workflow**. 
+a. Find a list that had a workflow assigned to it in the "old" farm. 
+b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.
+3. **Test a new workflow**
+a. Sign in to a client computer, and then open **SharePoint Designer**.
+b. Open one of your sites and go to Workflows. 
+c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. 
+d. Create a simple "log to history" 2013-platform workflow and test to make sure it’s successful.
