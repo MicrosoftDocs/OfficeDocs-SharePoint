@@ -108,8 +108,14 @@ Learn more at:
 
 ### Move the App Management database
 
-Because workflows get their permission to SharePoint content through app principals that are stored in the App Management database, you must upgrade / migrate this database to the new farm as well.
-📕 Important! Failure to bring the App Management database along with the content, WFM and Service Bus databases will result in failure for any workflows that were created prior to the migration. You will run into issue #3 here: Issue 3: Workflows fail and return "Cannot get app principal permission information" error . As shown in that article, the problem can be resolved after the fact, but it's easier to avoid it by bringing the App Management database along during the upgrade / migration.
+Since workflows get their permission to SharePoint content through app principals stored in the *App Management database*, you must also upgrade/migrate this database to the new farm.
+
+>[!Important]
+>You must move the *App Management database* along with the content, WFM, and Service Bus databases. If you don't, *all workflows created before the migration will fail*.
+>
+>You will encounter [Issue 3: Workflows fail and return "Cannot get app principal permission information" error](/sharepoint/troubleshoot/workflows/upgrade-sharepoint-through-workflow-manager#issue-3-workflows-fail-and-return-cannot-get-app-principal-permission-information-error). While the problem can be corrected later, it is easier to avoid it by bringing the App Management database along during the upgrade/migration.
+
+
 These are the basic steps:
 •	Backup the App Management database in the old farm using SQL Server backup.
 •	Restore the App Management database to the new SQL server.
