@@ -33,35 +33,73 @@ You will need information from the "old" environment to properly configure the "
 As the upgrade steps require that you join an existing workflow farm, you will need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WorkFlow Manager and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
 
 
-Check the Scope
-We'll need to re-register the SPWorkflowService using the same Scope name that was used in the old farm.
-To check the scope name, run the following PowerShell on one of the SharePoint servers in the “old” farm:
+### Check the Scope
+
+You will need to re-register the *SPWorkflowService* using the same scope name that was used in the old farm.
+
+1. To check the scope name, run the following PowerShell on one of the SharePoint servers in the “old” farm:
+
+```powershell
+
 Add-PSSnapin *sharepoint*
 $site = (Get-SPWebapplication -IncludeCentralAdministration | ?{$_.IsAdministrationWebApplication}).Sites[0]
 $wfmProxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq "Workflow Service Application Proxy"}
 $wfmProxy.GetWorkflowServiceAddress($site)
-It should display an address like https://apps.contoso.local:12290/SharePoint2013/ The part after the port number is the scope name. In this example, it's “SharePoint2013”
-Write that down. We'll need that later when we run Register-SPWorkflowService in the new farm.
 
-Check the service account and admin group
-On the WFM server in the "old" farm, open PowerShell and run: get-wffarm | select runasaccount, admingroup
+```
+2. An address will display similar to this:
+*https://<span><span>apps.<span><span>contoso.<span><span>local:12290/SharePoint2013* 
+
+The part after the port number is the **scope name**. In this example, it's "SharePoint2013”. **Write down the scope name and save it for later.** You will need it when you run *Register-SPWorkflowService* in the new farm.  
+
+
+### Check the service account and admin group
+
+1. On the WFM server in the "old" farm, open PowerShell.
+2. Run 
+
+ ```powershell 
+
+GET-wffarm | select runasaccount, admingroup 
+
+```
+
 Example:
- 
-Take note of the account and the group. When you rejoin the workflow farm in the new envrionment, you will need to supply the password for the RunAsAccount. Also, only users that are members of the AdminGroup will be able to browse the workflow endpoint URI and run the Register-SPWorkflowService command.
-Disjoin the old WFM farm
-📕 IMPORTANT You must run the wizard and leave the workflow farm on the "old" WFM server. You must do this for all nodes in the WFM farm so that the Workflow and Service Bus databases contain no hosts. If you skip this step, you will orphan the host entries in the Workflow and Service Bus databases, which will cause many problems in the new environment.
-•	Log on to the server hosting the WFM farm and open “Workflow Manager configuration”.
-•	Click on “Leave Workflow Manager farm” and run through the steps to leave the current farm.
-•	If you have multiple nodes (hosts) in your WFM farm, repeat this step on all of them.
-📒 Notes:
-•	Because SPWFM will be installed on new hardware in the new farm, there is no need to uninstall the WFM or Service bus components on the old WFM server(s).
-•	If you want your "old" WFM farm to remain functional during the migration, you can take backups of the Workflow and Service Bus databases as described below, and then run the wizard again to rejoin the farm. The point is that at the time of database backup, all nodes must be disjoined so that you're not moving any node info to the new farm.
 
-Move Databases
-Move Content Databases
-To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but I'll mention a few things as they relate to upgrading WFM.
-You can move SharePoint content databases from the old farm to the new farm using the database attach method.
-📒 Note: If you are moving to a newer major version of SharePoint, you may have to complete an intermediate upgrade step. For example, only SharePoint 2016 and 2019 can be directly upgraded to SharePoint Server Subscription Edition (SPSE). SharePoint 2013 cannot. So to upgrade a SharePoint 2013 content database to SPSE, you'd have to upgrade it to SharePoint 2016 first, then to SPSE.
+:::image type="content" source="../media/sp-get-wffarm.png" alt-text="display after running get-wffarm command":::
+
+
+Take note of the account and the group. When you rejoin the workflow farm in the new environment, you must supply the password for the *RunAsAccount*. Only users who are members of the AdminGroup will be able to browse the workflow endpoint URI and run the *Register-SPWorkflowService* command.
+
+
+### Disjoin the old WFM farm
+
+>[!Important]
+>You must run the wizard and leave the workflow farm on the "old" WFM server. 
+>You must do this for all nodes in the WFM farm so that the Workflow and Service Bus databases contain no hosts.
+>
+>If you skip this step, you will orphan the host entries in the Workflow and Service Bus databases, which will cause many problems in the new environment.
+
+1. Sign in to the server hosting the WFM farm and open “Workflow Manager configuration”.
+2. Select **Leave Workflow Manager farm** and run through the steps to leave the current farm.
+3. If you have multiple nodes (hosts) in your WFM farm, repeat this step for each node.
+
+>[!Note]
+>SharePoint Workflow Manager will be installed on your new hardware on the new farm. There is no need to uninstall Workflow Manager and the Service Bus components from your old servers. 
+>
+>If you want your "old" WFM farm to remain functional during the migration, backup the Workflow and Service Bus databases as described below, then rerun the wizard to rejoin the farm. To prevent moving any node info to the new farm, ensure all nodes are disjoined at the time of the database backup.
+
+## Move Databases
+
+### Move Content Databases
+
+To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but we will refer to a few items related to upgrading WFM.
+
+Using the database attach method, you can move SharePoint content databases from the old farm to the new farm.
+
+>[!Note]
+>If you are moving to a newer major version of SharePoint, you may have to complete an intermediate upgrade step. For example, only SharePoint 2016 and 2019 can be directly upgraded to SharePoint Server Subscription Edition (SPSE). SharePoint 2013 cannot. To upgrade a SharePoint 2013 content database to SPSE, you must first upgrade it to SharePoint 2016, then to SPSE.
+
 Public Upgrade Docs:
 •	Upgrade to SharePoint Server Subscription Edition 
 •	Upgrade to SharePoint Server 2019 
