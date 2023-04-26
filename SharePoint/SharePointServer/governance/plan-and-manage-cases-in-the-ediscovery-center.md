@@ -10,7 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.collection:
 - tier1
