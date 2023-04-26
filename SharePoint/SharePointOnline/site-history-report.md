@@ -1,9 +1,10 @@
 ---
 title: "View SharePoint site history in SharePoint admin center"
-ms.reviewer: rammenon
+ms.reviewer: cvelaga
 manager: serdars
 recommendations: true
 ms.author: mactra
+ms.date: 05/01/2023
 author: MachelleTranMSFT
 audience: Admin
 f1.keywords:
@@ -12,7 +13,7 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: M365-collaboration
-description: "Learn how to create and view SharePoint site history reports."
+description: "Learn how to view SharePoint site history reports."
 ---
 
 # View SharePoint site history in SharePoint admin center
@@ -42,4 +43,4 @@ You can create new reports, delete, and refresh their statuses from the site his
 4. Once the report is created, select Download report to export the data as a .csv file.
 
 > [!NOTE]
-The report will take hours to generate depending on the search criteria selected when creating the report.
+> The report will take hours to generate depending on the search criteria selected when creating the report.
