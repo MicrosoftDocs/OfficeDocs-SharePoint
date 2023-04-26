@@ -60,7 +60,7 @@ Here are the steps to configure the RIWP:
     
     ![Edit WP](../media/OTCSP_EditWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This option - when selected - opens a dialog. 
+3. In the Web Part tool pane, select **Change query**. Selecting this option opens a dialog. 
     
 4. In the **Build Your Query** dialog, select the following: 
     
@@ -74,15 +74,15 @@ You might be thinking "OK, that was easy, but what does it actually mean?" Under
     
   - **A token from the URL** means that we want to obtain recommendations for a value that is used in the URL. 
     
-  - **{URL.Token.2}** is a query variable that represents the second value in the URL as counted from right to left. For example, in the URL  https://www.contoso.com/computers/desktops/5637145799/5637146352, the query variable **{URLToken.2}** represents the value *5637145799*. Remember when we connected our publishing site to the catalog (see [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md)), we specified that the value of *Group Number* should be used as the second to last value in the URL of our catalog item page. That means the query variable **{URL.Token.2}** represents the value of *Group Number*. Also, we mapped [Change the mapping of the UsageAnalyticsID managed property](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_ChangeTheMappingFoTheUsageAnalyticsIDManagedPriperty) so the Usage analytics calculation would be based on *Group Number*. 
+  - **{URL.Token.2}** is a query variable that represents the second value in the URL as counted from right to left. For example, in the URL  `https://www.contoso.com/computers/desktops/5637145799/5637146352`, the query variable **{URLToken.2}** represents the value *5637145799*. Remember when we connected our publishing site to the catalog (see [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md)), we specified that the value of *Group Number* should be used as the second to last value in the URL of our catalog item page. That means the query variable **{URL.Token.2}** represents the value of *Group Number*. Also, we mapped [Change the mapping of the UsageAnalyticsID managed property](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_ChangeTheMappingFoTheUsageAnalyticsIDManagedPriperty) so the Usage analytics calculation would be based on *Group Number*. 
     
   - **Specify a URL** means that we want to specify from which site we get recommendations, in this case our Authoring site. 
     
-    But from these settings, it is not clear as to which managed property is used in the query. So, to view more information about the query, select **TEST**. The query that is issued by the Web Part is shown in the **Query text** section. 
+    But from these settings, it's not clear as to which managed property is used in the query. So, to view more information about the query, select **TEST**. The query that's issued by the Web Part is shown in the **Query text** section. 
     
      ![Query text](../media/OTCSP_QueryText.png)
   
-If we break it down, we get the following components:
+If we break the query down, we get the following components:
     
   - **recommendedfor** is the managed property that is used in the query. 
     
@@ -98,7 +98,7 @@ If we break it down, we get the following components:
     
     From the *URL of the Authoring site*, search for *document or list items* where the value of the managed property *recommendedfor* contains the value that is currently used as the second value in the URL, counting from right to left. 
     
-    Now we know what the query means. But we're not done with the configuration. In the **SEARCH RESULT PREVIEW** section, we can see that all items in a product group are displayed, for example, all *SV Keyboard E10* (notice that they all have the same value for Group Number in the URL). 
+    Now we know what the query means. But we're not done with the configuration. In the **SEARCH RESULT PREVIEW** section, we see that all items in a product group display, for example, all *SV Keyboard E10*. Notice that the items all have the same value for Group Number in the URL. 
     
      ![Recommended Items](../media/OTCSP_RecommendedItems.png)
   
@@ -181,7 +181,7 @@ In our Contoso scenario, we'll show the PIWP above the CSWP.
     
      ![Edit PIWP](../media/OTCSP_EditPIWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This option - when selected - opens a dialog.
+3. In the Web Part tool pane, select **Change query**. Selecting this option opens a dialog.
     
 4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site.
     
@@ -203,11 +203,11 @@ The query text means the following:
     
   - The colon : means "contains".
     
-  - 91eb9f0d-3e5a-41a8-8487-78dfe234ca7c is the GUID of the current category. In this example, the current category is *Cameras*. 
+  - `91eb9f0d-3e5a-41a8-8487-78dfe234ca7c` is the GUID of the current category. In this example, the current category is *Cameras*. 
     
   - **(IsDocument:"True" OR contentclass:"STS_ListItem")** narrows the search result down to only documents or list items. 
     
-    If we put this information together, the query provides us the following understandings:
+    If we put this information together, the query provides us with the following understandings:
     
     From the *URL of the Authoring site*, search for *document or list items* where the value of the managed property *owstaxIdMetadataAllTagsInfo* contains the GUID of the current navigation category or any of the children of the current navigation. 
     
