@@ -23,16 +23,19 @@ Moving to Microsoft 365? **Migration Manager** will help you migrate your conten
 ## Mover retirement
 
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>
+>All FastTrack-led migrations have transitioned to Migration Manager.
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
+>
+>A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
 
->[!Important]
->All FastTrack-led migrations have transitioned to Migration Manager
-
->[!Note]
->[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>[!Tip]
+>[**Individuals or students**: You may continue to use Mover. Learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 
 
-Mover's cloud migration scenarios are fully available in Migration Manager and have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
+Mover's cloud migration scenarios are fully available in Migration Manager.Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
 
 |Date|What|
 |:-----|:-----|
@@ -48,11 +51,10 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 ## FAQs
 
 **Question:**  Why are we retiring Mover.io?</br>
-**Answer:**    Mover's cloud migration functionality is now fully integrated into Migration Manager, Microsoft'ts recommended tool for file migrations. This simplifies the experience for you and helps us support you more effectively.
+**Answer:**    Mover's functionality is now fully integrated into Migration Manager.
 
 **Question:** Why are we starting the retirement now?</br>
 **Answer:**   Until now, we have been integrating the Mover’s cloud migration functionality into Migration Manager. Migration Manager now offers the full functionality of Mover along with an improved experience within the Microsoft admin center. 
-
 
 **Question:**  Will my current Mover migrations stop working?</br>
 **Answer:**    No. Microsoft is retiring the ability to create **new** connectors. Existing migrations will continue to operate on Mover until December 31, 2022.  See the timeline above. 
@@ -63,6 +65,6 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
-**Question:** Is tenant-to-tenant migration supported in Migration Manager?</br>
-**Answer:**  No. Currently, Microsoft plans to offer a solution during 2023. The solution is expected to be a premium feature that's distinct from legacy Mover. In the interim, we recommend using a third-party solution for your Microsoft 365 tenant-to-tenant migration needs.
+**Question:** Is a tenant-to-tenant migration solution available?</br>
+**Answer:**  A new Cross-tenant OneDrive capability has been developed outside of Migration Manager and is now available. Learn more here: [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
 

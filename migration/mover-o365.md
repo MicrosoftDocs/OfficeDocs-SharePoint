@@ -20,6 +20,17 @@ description: " Authorizing the Office 365 Connector"
 
 # Authorizing the Office 365 Connector
 
+>[!Important]
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>
+>All FastTrack-led migrations have transitioned to Migration Manager.
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
+>
+>A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+
+
+
 ## Office 365 FAQ
 
 ### Will there be unsupported files and characters?
@@ -49,7 +60,7 @@ When migrating to Office 365 from Office 365, the *modified by* author is preser
 
 ### Does the Mover app interact with the sync client in OneDrive for Business?
 
-We do not interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
+We don't interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
 
 ### What happens to shared data?
 
@@ -61,7 +72,7 @@ To prevent users from being spammed, the Mover app silences notifications during
 
 ### What happens to data shared to Office 365 Groups?
 
-Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
+Data shared to an Office 365 Group doesn't appear in the **Shared with me** section. Microsoft also doesn't notify users that they're now a member of an Office 365 Group.
 
 > [!NOTE]
 > This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
@@ -70,7 +81,7 @@ After the user has logged in:
 
 1. Navigate to the left hand menu.
 2. Scroll down the folder listings to **Groups**.
-  a. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
+  a. If the available groups aren't visible, to open the group directory, select the small arrow beside the **Groups** listing.
 3. Select the desired group.
 From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Office 365 Group.
 
@@ -84,13 +95,13 @@ During the migration setup (described later in this guide), you can edit the pat
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
-Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
+Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online doesn't do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
 ### How does library permissions inheritance affect migration?
 
 To set specific permissions on folders in a document library, inheritance must be disabled. Permissions inheritance is typically turned on by default, which makes all the data within the library subject to the permissions set on the library. This is similar behavior to team folders or team drives in other cloud services, whereby if users have access to the root level, they have access to everything contained within.
 
-If inheritance is not disabled at the root, any permissions we try to set on individual folders is overridden by the library access permissions.
+If inheritance isn't disabled at the root, any permissions we try to set on individual folders is overridden by the library access permissions.
 
 **To disable inheritance:**
 
@@ -108,7 +119,7 @@ For more info about SharePoint Online permissions inheritance, see **here**.
 
 ### Does Mover migrate SPO Group permissions?
 
-No, Mover does not migrate SPO Groups permissions. Mover only migrates Microsoft 365 users and groups permissions.
+No, Mover doesn't migrate SPO Groups permissions. Mover only migrates Microsoft 365 users and groups permissions.
 
 ### Does Mover support Microsoft Teams?
 
@@ -116,7 +127,7 @@ Microsoft Teams appears and operates the same as a SharePoint Online site.
 
 ### What is the item limit for SharePoint Online?
 
-Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
+Many sites claim that SharePoint has a 5,000-item limit. This isn't true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
 SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
@@ -148,7 +159,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
     ![Authorize windows](media/authorize-window.png)
 
-4. **Global or SharePoint admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
+4. **Global or SharePoint admin**: Follow the on-screen instructions. You're redirected to a Microsoft sign in screen where you can sign in with your Microsoft admin privileges and continue to authorize the connector.
 
     > [!WARNING]
     > If you are a **global admin**, a slightly different login screen appears.
@@ -157,11 +168,11 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
     ![global admin o365](media/permissions-o365-global-admin.png)</br>
 
-   To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+   To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You'll need to specifically assign your migrator users who may use the app.
 
    ![user assignment required](media/mover-user-assignment-setting.png)
 
-5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global or SharePoint admin**: After authorizing the connector, you're redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it's now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
    If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **https://aka.ms/office365moverauth**.
 
@@ -169,7 +180,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
    ![Authorize error image](media/authorize-error.png)
 
-6. **Global admin**: Log in to the Azure Portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
+6. **Global admin**: Sign in to the Azure portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
     ![Enterprise applications](media/enterprise-applications.png)
 
@@ -184,7 +195,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
 ## Connect your source Office 365 account
 
-If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
+If you aren't already connected after you've authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you're migrating.
 
 ![execution select source](media/execution-select-office-365-source.png) ![execution select source](media/execution-select-office-365-source.png)
 

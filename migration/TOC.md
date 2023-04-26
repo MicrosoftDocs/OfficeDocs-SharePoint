@@ -53,8 +53,10 @@
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 #### [Sharepoint Designer workflows](spmt-workflow-migration-spd.md)
 #### [SharePoint Server 2010 OOTB migrated workflows](spmt-workflow-migrated-flows.md)
+#### [Workflow migration reports and error codes](spmt-workflow-reports-and-error-codes.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
+### [Unsupported files](mm-unsupported-files.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
@@ -80,6 +82,9 @@
 ### Dropbox  Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+### Egnyte  Reference
+#### [FAQs](mm-faqs-egnyte.md)
+#### [Bulk upload Egnyte folders using a CSV file](mm-egnyte-bulk-upload.md)
 ### Stream Reference
 #### [Bulk upload Stream source paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference

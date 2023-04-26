@@ -34,14 +34,17 @@ Moving to Microsoft 365? **Migration Manager** will help you migrate your conten
 ## Mover retirement
 
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The full functionality of Mover has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
-
->[!Important]
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager. For the full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+>
 >All FastTrack-led migrations have transitioned to Migration Manager.
+>
+>**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
+>
+>A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
 
 
->[!Note]
->[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>[!Tip]
+>[**Individuals or students**: You may continue to use Mover. Learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 
 
 ## What's new
@@ -73,6 +76,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 
 ## Other resources
+
+- **Cross-tenant OneDrive migration**. During mergers or divestitures, you commonly need the ability to move your users OneDrive accounts into a new Microsoft 365 tenant. With Cross-tenant OneDrive migration, tenant administrators can use PowerShell to transition users into their new organization. To learn more, see [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration)</br>
 
 - **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.</br>
 

@@ -24,6 +24,10 @@ description: "Learn about the search schema and how you can view, create, or cha
 # Manage the search schema in SharePoint
 
 The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint in Microsoft 365.
+
+See [Overview of crawled and managed properties in SharePoint Online](crawled-and-managed-properties-overview.md) for a list of crawled and managed properties specific to SharePoint Online.
+
+See [Overview of crawled and managed properties in SharePoint Server](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md) for a list of existing crawled and managed properties in SharePoint.
   
 ## About the search schema
 <a name="__toc351360836"> </a>
@@ -447,7 +451,7 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
     
 4. On the **Settings** page, under **General Settings**, select **Advanced settings**.
     
-5. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. All of the content in the document library or list are re-indexed during the next scheduled crawl.
+5. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. All of the content in the document library or list is re-indexed during the next scheduled crawl.
     
     > [!NOTE]
     > This may cause a massive load on the search system, so be sure to re-index only after you've made all the changes you want to be re-indexed. 
@@ -455,7 +459,9 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
 ## Related Topics
 <a name="__ref341258429"> </a>
 
-[Overview of crawled and managed properties in SharePoint Server 2013](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md)
+[Overview of crawled and managed properties in SharePoint Online](crawled-and-managed-properties-overview.md)
+
+[Overview of crawled and managed properties in SharePoint Server](../SharePointServer/technical-reference/crawled-and-managed-properties-overview.md)
   
 [Overview of the search schema in SharePoint Server](../SharePointServer/search/search-schema-overview.md)
   

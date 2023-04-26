@@ -36,6 +36,7 @@ Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-shar
 >
 > - You must have administrator editing privileges to associate hubs to each other in the SharePoint admin center.
 > - Hub level associations do not change site permissions.
+> - Web parts configured to show content from all sites in the hub will continue to show data from the original parent hub only.
 
 ## How hub to hub associations work
 
@@ -55,14 +56,14 @@ The following diagram illustrates how hub sites can be associated to other hubs 
 
 - **Parent hub (level 1):** Think of associated hubs on level one as "Parent" hubs that determine the search scope for peer associated hubs.
 - **Associated child hub (level 2):** These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs.
-- **Associated child hub (level 3):** This level (and all proceeding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
+- **Associated child hub (level 3):** This level (and all preceding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
 
 ## Associate a hub to another hub
 
 ![Image of the hub management panel in the SharePoint admin center](media/hub-settings-admin-2.png)
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
-2. Select the hub site that you'd like to make an association to, then select **Hub settings** in the command bar to open to hub settings panel.
+2. Select the hub site that you'd like to make an association. Then select **Hub** on the command bar and select **Edit hub site settings** to open to hub settings panel.
 3. Next, select a hub to associate to in the **Parent hub association** field. Hubs that are available for association will appear here.
 4. To confirm which hubs have already been associated with your hub site, select **View child hubs associated to this hub**.
 5. Select **Save**.
