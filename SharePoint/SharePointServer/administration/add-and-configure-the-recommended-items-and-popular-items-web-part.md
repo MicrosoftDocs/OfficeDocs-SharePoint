@@ -60,7 +60,7 @@ Here are the steps to configure the RIWP:
     
     ![Edit WP](../media/OTCSP_EditWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This opens a dialog. 
+3. In the Web Part tool pane, select **Change query**. This option - when selected - opens a dialog. 
     
 4. In the **Build Your Query** dialog, select the following: 
     
@@ -70,7 +70,7 @@ Here are the steps to configure the RIWP:
     
     ![TIWP query](../media/OTCSP_RIWPQuery.png)
   
-You might be thinking "OK, that was easy, but what does it actually mean?" Understanding this can be is a bit difficult. Let's take a closer look.
+You might be thinking "OK, that was easy, but what does it actually mean?" Understanding this process can be a bit difficult. Let's take a closer look.
     
   - **A token from the URL** means that we want to obtain recommendations for a value that is used in the URL. 
     
@@ -78,11 +78,11 @@ You might be thinking "OK, that was easy, but what does it actually mean?" Under
     
   - **Specify a URL** means that we want to specify from which site we get recommendations, in this case our Authoring site. 
     
-    But from these settings, it is not clear which managed property is used in the query. So, to view more information about the query, select **TEST**. The query that is issued by the Web Part is shown in the **Query text** section. 
+    But from these settings, it is not clear as to which managed property is used in the query. So, to view more information about the query, select **TEST**. The query that is issued by the Web Part is shown in the **Query text** section. 
     
      ![Query text](../media/OTCSP_QueryText.png)
   
-If we break this down, we get the following:
+If we break it down, we get the following components:
     
   - **recommendedfor** is the managed property that is used in the query. 
     
@@ -98,13 +98,13 @@ If we break this down, we get the following:
     
     From the *URL of the Authoring site*, search for *document or list items* where the value of the managed property *recommendedfor* contains the value that is currently used as the second value in the URL, counting from right to left. 
     
-    Now we know what the query means. But we're not completely done with the configuration. In the **SEARCH RESULT PREVIEW** section, we can see that all items in a product group are displayed, for example all *SV Keyboard E10* (notice that they all have the same value for Group Number in the URL). 
+    Now we know what the query means. But we're not done with the configuration. In the **SEARCH RESULT PREVIEW** section, we can see that all items in a product group are displayed, for example, all *SV Keyboard E10* (notice that they all have the same value for Group Number in the URL). 
     
      ![Recommended Items](../media/OTCSP_RecommendedItems.png)
   
-    All items in the product group are shown because the Usage analytics calculation is performed on the group level. Remember, in [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md), we mapped *UsageAnalyticsId* to *ows_ProductCatalogGroupNumber*. But we only want to display one item per product group. Luckily, we can do this by grouping search results. 
+    All items in the product group are shown because the Usage analytics calculation is performed on the group level. Remember, in [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md), we mapped *UsageAnalyticsId* to *ows_ProductCatalogGroupNumber*. But we only want to display one item per product group, which can be done by grouping search results. 
     
-    To group search results, do the following:
+    To group search results, do the following steps:
     
 5. Select **REFINERS --\> Show more**. 
     
@@ -114,7 +114,7 @@ If we break this down, we get the following:
     
      ![Show all properties](../media/OTCSP_ShowAllProperties.png)
   
-7. We want to show only one item per product group. Therefore, we select  *ProductCatalogGroupNumberOWSTEXT*  (the managed property of  *Group Number*  ). We only want to display one item per group. So we leave the value in **Show there results** as **1**. 
+7. We want to show only one item per product group. Therefore, we select  *ProductCatalogGroupNumberOWSTEXT*  (the managed property of  *Group Number*). We only want to display one item per group. So we leave the value in **Show there results** as **1**. 
     
     ![Group by Group Number](../media/OTCSP_GroupByGroupNumber.png)
   
@@ -139,7 +139,7 @@ If we break this down, we get the following:
 
 Just as you do with the Content Search Web Part (CSWP), you use display templates to control how content should be displayed in a RIWP. [Stage 11: Upload and apply display templates to the Content Search Web Part in SharePoint Server](stage-11-upload-and-apply-display-templates-to-the-content-search-web-part.md) explains how to upload and apply display templates to the Content Search Web Part. You can do the same for the RIWP. The display template that is used by the RIWP contains important code that logs the two usage events: *Recommendation Displayed* and *Recommendation Clicked*. 
   
-In [An introduction to recommendations and popular items in SharePoint Server](an-introduction-to-recommendations-and-popular-items.md) we told you about the three default usage events in SharePoint Server. The usage events *Recommendation Displayed* and *Recommendation Clicked* are used to record statistics of how visitors have interacted with the content on your website. When an item is displayed as a recommendation, a *Recommendation Displayed* usage event is recorded. When an item is clicked on when it is displayed as a recommendation, a *Recommendation Clicked* usage event is recorded. We'll show you how you can view these statistics in a later article. 
+In [An introduction to recommendations and popular items in SharePoint Server](an-introduction-to-recommendations-and-popular-items.md), we told you about the three default usage events in SharePoint Server. The usage events *Recommendation Displayed* and *Recommendation Clicked* are used to record statistics of how visitors have interacted with the content on your website. When an item is displayed as a recommendation, a *Recommendation Displayed* usage event is recorded. When an item is clicked on when it is displayed as a recommendation, a *Recommendation Clicked* usage event is recorded. We'll show you how you can view these statistics in a later article. 
   
 In [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md), we changed the CSWP display template to log the *Views* usage event. The logging of the *Recommendation Displayed* and *Recommendation Clicked* usage events are performed in the RIWP. The default display template that is used by the RIWP is *Item_RecommendationsClickLogging*. This display template contains the two functions *LogRecsViewToEventStore* and *LogRecsClickToEventStore*. These two functions log the *Recommendation Displayed* and *Recommendation Clicked* usage events. 
   
@@ -158,7 +158,7 @@ After applying the changed display template to the RIWP, the recommended items a
 
 You can display the most popular, that is, *the most viewed* items within your catalog by adding a Popular Items Web Part (PIWP) to your category page. It's important to understand that when you add a PIWP to your catalog page, the PIWP will automatically show the most viewed items *within each category*. For example, if a visitor is viewing the *Cameras* category, the PIWP will show the most viewed items within the *Cameras* category. If a visitor is viewing the *Camcorders* category, the PIWP will show the most viewed items within the *Camcorders* category. 
   
-To add a PIWP, navigate to the page where you want to add the PIWP. In our Contoso scenario, we'll add a PIWP to our category page. Do the following:
+To add a PIWP, navigate to the page where you want to add the PIWP. In our Contoso scenario, we'll add a PIWP to our category page. Do the following steps:
   
 1. Select the **Settings** menu --> **Edit page**. 
     
@@ -181,17 +181,17 @@ In our Contoso scenario, we'll show the PIWP above the CSWP.
     
      ![Edit PIWP](../media/OTCSP_EditPIWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This will open a dialog. 
+3. In the Web Part tool pane, select **Change query**. This option - when selected - opens a dialog.
     
-4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site. 
+4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site.
     
-5. In the **Restrict by** tag section, select **Restrict by current and child navigation terms**. 
+5. In the **Restrict by** tag section, select **Restrict by current and child navigation terms**.
     
     No results are displayed in the **SEARCH RESULT PREVIEW** section. What's going on? 
     
      ![No Popular Results 2](../media/OTCSP_NoPopularResults2.png)
   
-    To see more about the query that the PIWP issues, select **TEST**. On the **TEST** tab we can see the **Query text**. 
+    To see more about the query that the PIWP issues, select **TEST**. On the **TEST** tab, we can see the **Query text**. 
     
      ![PIWP Query Text](../media/OTCSP_PIWPQueryText.png)
   
@@ -203,11 +203,11 @@ The query text means the following:
     
   - The colon : means "contains".
     
-  - 91eb9f0d-3e5a-41a8-8487-78dfe234ca7c is the GUID of the current category. In this example the current category is *Cameras*. 
+  - 91eb9f0d-3e5a-41a8-8487-78dfe234ca7c is the GUID of the current category. In this example, the current category is *Cameras*. 
     
   - **(IsDocument:"True" OR contentclass:"STS_ListItem")** narrows the search result down to only documents or list items. 
     
-    If we put this information together, we can understand that the query means the following:
+    If we put this information together, the query provides us the following understandings:
     
     From the *URL of the Authoring site*, search for *document or list items* where the value of the managed property *owstaxIdMetadataAllTagsInfo* contains the GUID of the current navigation category or any of the children of the current navigation. 
     
@@ -224,7 +224,7 @@ The query text means the following:
   
     After you've changed the mapping of the property, you must start a full crawl, as explained in [Stage 4: Set up search and enable the crawling of your catalog content in SharePoint Server](stage-4-set-up-search-and-enable-the-crawling-of-your-catalog-content.md).
     
-    There is one very important thing that you can't see in the query text, and that is how the search results are sorted. The PIWP sorts search results in a descending order on the *ViewsRecent* managed property. By default, the *ViewsRecent* managed property contains the number of views for an item within the last 14 days. Later in this series we'll explain how to change this, for example, to the past seven days. This means that the query issued by the PIWP will do the following: 
+    There is one important thing that you can't see in the query text, and that is how the search results are sorted. The PIWP sorts search results in a descending order on the *ViewsRecent* managed property. By default, the *ViewsRecent* managed property contains the number of views for an item within the last 14 days. Later in this series, we'll explain how to change this time range, for example, to the past 7 days. This default behavior of the property means that the query issued by the PIWP will do the following tasks: 
     
     From the *URL of the authoring site*, search for *document or list items* where the value of the managed property *owstaxIdMetadataAllTagsInfo* contains the GUID of the current navigation category, or any of the children of the current navigation. Sort the search results in *descending order of views for the past 14 days*. 
     
@@ -248,11 +248,11 @@ The query text means the following:
   
     Our PIWP is working the way it should. Nice!
     
-    So now you know how to configure the RIWP and the PIWP. When you you perform these tasks, you should be logged in to your own account.
+    So now you know how to configure the RIWP and the PIWP. When you perform these tasks, you should be logged in to your own account.
     
      ![Logged In User](../media/OTCSP_LoggedInUser.png)
   
-In the next article of this series, we'll explain how all this works if the website only has anonymous users, that is, users who are not logged in.
+In the next article of this series, we'll explain how all these configurations work if the website only has anonymous users, that is, users who are not logged in.
   
 ### Next article in this series
 

@@ -44,7 +44,7 @@ The My Site host site collection and individual site collections are described m
 
 The My Site host site collection is a special site collection that displays the newsfeed and profile pages of all users' My Sites. The site collection's site template must be the My Site host site template, available from the **Enterprise** tab of the **Create Site Collection** page. The My Site host site template can be used only once per User Profile service application, which is discussed later in this article. 
   
-My Sites require that a site collection exist at the web application root (which is displayed as **/** in the user interface). Without this, you will receive a message that states that there is no site collection at the root when you try to enable self-service site creation for the web application. Because we recommend that you use a dedicated web application to host My Sites, you should use the root path for the My Site host collection unless you have a specific requirement to create the site collection deeper in the uniform resource locator (URL) path. 
+My Sites require that a site collection exist at the web application root (which is displayed as **/** in the user interface). Without this site collection, you'll receive a message that states that there's no site collection at the root when you try to enable self-service site creation for the web application. Because we recommend that you use a dedicated web application to host My Sites, you should use the root path for the My Site host collection unless you have a specific requirement to create the site collection deeper in the uniform resource locator (URL) path. 
   
 Although not recommended, if you create the My Site host deeper in the path, it must be under an explicit inclusion managed path. Additionally, you must create a separate site collection at the web application root, although this site collection can be empty and created without a template.
   
@@ -52,17 +52,17 @@ The URL for a My Site host site collection is shared by all users of the same Us
   
 Although these URLs are the same for all users of a User Profile service application, the information displayed for each user is different. SharePoint Server determines the information to display based on the user's logon account. The information is targeted to that specific user and is provided by the SharePoint service applications referred to in this article.
   
-When a visitor views another user's My Site, the visitor can see only the user's profile page. This URL is http:// _hostname_/person.aspx?accountname= _account_, where  _hostname_ is the address of the site collection and  _account_ is the user name (and, if it is configured, the user's domain name). For example, https://contoso.com/my/person.aspx?accountname=sidney. 
+When a visitor views another user's My Site, the visitor can see only the user's profile page. This URL is http:// _hostname_/person.aspx?accountname= _account_, where  _hostname_ is the address of the site collection and  _account_ is the user name (and, if it's configured, the user's domain name). For example, https://contoso.com/my/person.aspx?accountname=sidney. 
   
 ### Individual site collections
 
 A user's individual site collection hosts the document library of the user's individual My Site. An individual site collection is created the first time that a user accesses the My Site. This ability to create an individual site collection requires the following configuration in SharePoint Server:
   
-- The web application that hosts My Sites has a wildcard inclusion managed path, such as sites or personal. This is the path under which the individual site collections will be created when users access their My Sites for the first time. 
+- The web application that hosts My Sites has a wildcard inclusion managed path, such as sites or personal. This path is the one under which the individual site collections will be created when users access their My Sites for the first time. 
     
 - The **Setup My Sites** settings for the User Profile service application are configured to use the URL of the My Site host site collection and the wildcard inclusion managed path for individual site collections. 
     
-- The web application is enabled for self-service site creation. This functionality enables the individual site collections to be created under the specified wildcard inclusion managed path. The self-service site creation feature has special security considerations for cross-site scripting. This strengthens the recommendation to host My Sites in a dedicated web application to isolate any scripts running in a My Site from affecting other sites in your environment. 
+- The web application is enabled for self-service site creation. This functionality enables the individual site collections to be created under the specified wildcard inclusion managed path. The self-service site creation feature has special security considerations for cross-site scripting. These considerations strengthen the recommendation to host My Sites in a dedicated web application to isolate any scripts running in a My Site from affecting other sites in your environment. 
     
 - Users must have **Create Personal Site** permissions to create a My Site. By default, this permission is enabled for all authenticated users. For more information, see [Plan users and user permissions](my-sites-planning.md#planusers) later in this article. 
     
@@ -74,8 +74,8 @@ With the  _account_ part of the URL, when you set up My Sites, you have three op
 
 |**Option**|**Description**|
 |:-----|:-----|
-|**User name (do not resolve conflicts)** <br/> |By using this option, the My Site name is the user name of the account. This is not a user's display name. For example, if a user's friendly name is Sidney Higa and the user's account is sidney, the site collection is named sidney. Only choose the first option if you are sure that all user names in your organization are unique. Otherwise users will encounter conflicts when they provision their My Sites. If a conflict occurs, the first user who creates a My Site with a user name is successful. However, the next user who tries to use the same user name cannot create a My Site.  <br/> |
-|**User name (resolve conflicts by using domain_username)** <br/> |By using this option, the first user who has a duplicate user name will have a My Site created by using the user name only, and a second user who has that same user name will have a My Site created by using both the domain name and user name. For example, the first user will have a My Site created under https://contoso.com/my/sidney/default.aspx while the second user will have a My Site created under https://contoso.com/my/CONTOSO_sidney/default.aspx. Choose this option when it is possible for a user name to exist multiple times in an organization, such as when you have multiple domains. Because a user name is guaranteed to be unique only within its own directory source, this option prevents two users who have the same user name but different domains from encountering issues when they create their My Sites.  <br/> |
+|**User name (do not resolve conflicts)** <br/> |By using this option, the My Site name is the user name of the account. This name isn't a user's display name. For example, if a user's friendly name is Sidney Higa and the user's account is sidney, the site collection is named sidney. Only choose the first option if you're sure that all user names in your organization are unique. Otherwise users will encounter conflicts when they provision their My Sites. If a conflict occurs, the first user who creates a My Site with a user name is successful. However, the next user who tries to use the same user name can't create a My Site.  <br/> |
+|**User name (resolve conflicts by using domain_username)** <br/> |By using this option, the first user who has a duplicate user name will have a My Site created by using the user name only, and a second user who has that same user name will have a My Site created by using both the domain name and user name. For example, the first user will have a My Site created under https://contoso.com/my/sidney/default.aspx while the second user will have a My Site created under https://contoso.com/my/CONTOSO_sidney/default.aspx. Choose this option when it's possible for a user name to exist multiple times in an organization, such as when you have multiple domains. Because a user name is guaranteed to be unique only within its own directory source, this option prevents two users who have the same user name but different domains from encountering issues when they create their My Sites.  <br/> |
 |**Domain and user name (will not have conflicts)** <br/> |By using this option, all My Site names are created by using both the domain name and user name. For example, https://contoso.com/my/CONTOSO_sidney/default.aspx. Choose this option when you want My Sites to be consistently named with the domain name and user name, regardless of whether conflicts with user names exist or not.  <br/> |
    
 ## Related service applications
@@ -92,11 +92,11 @@ The User Profile service application is required for My Sites.
   
 #### Plan for profile synchronization
 
-Although configuring the User Profile service application is required for My Sites, synchronizing profiles between SharePoint Server and directory services or business applications is optional but highly recommended. Profile synchronization provides rich functionality for My Sites by enabling the User Profile service application to collect information about users in an organization from directory services and business applications. As a result, consistent and timely information is always available on a user's My Site. Information about users can also be synchronized across the deployment among all site collections that use the same User Profile service application. User information can also be used by personalization features to increase the value of collaboration and relationships in an organization.
+Although configuring the User Profile service application is required for My Sites, synchronizing profiles between SharePoint Server and directory services or business applications is optional but recommended. Profile synchronization provides rich functionality for My Sites by enabling the User Profile service application to collect information about users in an organization from directory services and business applications. As a result, consistent and timely information is always available on a user's My Site. Information about users can also be synchronized across the deployment among all site collections that use the same User Profile service application. User information can also be used by personalization features to increase the value of collaboration and relationships in an organization.
   
 #### Plan policies and privacy
 
-SharePoint Server provides a default set of policies that you can configure to make the appropriate information available to meet the needs of an organization. You can also create and deploy custom policy features to meet specific needs. When planning for My Sites, you should define which information is needed for key business processes in an organization and which information might be unsuitable for sharing across an organization. Between these extremes is the information that should be shared only among some users. In the case of information that might be unsuitable for sharing across an organization, you must create policies to address these specific situations. 
+SharePoint Server provides a default set of policies that you can configure to make the appropriate information available to meet the needs of an organization. You can also create and deploy custom policy features to meet specific needs. When planning for My Sites, you should define which information is needed for key business processes in an organization and which information might be unsuitable for sharing across an organization. Between these extremes is the information that should be shared only among some users. If there's information that might be unsuitable for sharing across an organization, you must create policies to address these specific situations. 
   
 Additionally, My Site features might store or use personally identifiable information. When planning to deploy My Sites, make sure that you carefully plan how to control the behavior of these features — or turn off the features — to help protect the privacy of this information. These decisions are affected by several factors, such as corporate privacy practices, and regional or national/regional privacy laws.
   
@@ -114,7 +114,7 @@ For users to create My Sites, maintain their profiles, follow people and content
 By default, all authenticated users are granted all these permissions, but you can configure specific permissions depending on your needs. For example, you could allow only full-time employees to create My Sites, instead of all workers in your organization. There are seven different combinations of user permissions available to grant to users. However, not all of these permission combinations provide the expected results. As a best practice, simplify administration by granting permissions to security groups instead of specific users.
   
 > [!NOTE]
-> Changing user permissions in the User Profile service application is not recommended. Any changes that you make will not impact the user experience in a meaningful way. For example, if you remove the **Follow People and Edit Profile** permission the user will still be able to edit profiles and other users will still be able to follow people they choose. Additionally, if you remove the **Follow People and Edit Profile** permission for a My Site user the Tags and Notes feature is disabled. We do not recommend removing any social features. 
+> Changing user permissions in the User Profile service application isn't recommended. Any changes that you make will not impact the user experience in a meaningful way. For example, if you remove the **Follow People and Edit Profile** permission the user will still be able to edit profiles and other users will still be able to follow people they choose. Additionally, if you remove the **Follow People and Edit Profile** permission for a My Site user the Tags and Notes feature is disabled. We do not recommend removing any social features. 
   
 ### Managed metadata service application
 <a name="mmsapp"> </a>
@@ -133,18 +133,18 @@ Although not required for My Sites, the SharePoint Server Search service applica
 
 When a user searches for people, results contain links to the public profiles of users and links to contact them by email or messaging programs. When planning for My Sites, you might want to consider supplementing the default people search scope, and supplementing the **Search Center** tab with customized search scopes and tabs for more specific groups of users. 
   
-If the administrator of the User Profile service application differs from the administrator of the Search service application, the User Profile service application administrator should review the information architecture and site hierarchy to determine the key business concepts that might relate to specific groups of users for whom other users might search across sites. Then the User Profile service application administrator can work with the Search service application administrator to develop search scopes and people search tabs for those specific groups. User Profile service application administrators can also use their knowledge of the user profiles they manage to determine other useful groups of users, and to create additional specific search scopes and search tabs for those groups.
+If the administrator of the User Profile service application differs from the administrator of the Search service application, the User Profile service application administrator should review the information architecture and site hierarchy to determine the key business concepts that might relate to specific groups of users for whom other users might search across sites. Then the User Profile service application administrator can work with the Search service application administrator to develop search scopes and people search tabs for those specific groups. User Profile service application administrators can also use their knowledge of the user profiles they manage to determine other useful groups of users, and to create more specific search scopes and search tabs for those groups.
   
 Site collection administrators can also create site-level search scopes for users who are members of their site collections.
   
-People search planning also feeds back into user profile planning. Initial planning might reveal people or groups of users whom you want to make it easier to find. However, additional user profile properties might have to be created to allow for those users to be found easily. 
+People search planning also feeds back into user profile planning. Initial planning might reveal people or groups of users whom you want to make it easier to find. However, more user profile properties might have to be created to allow for those users to be found easily. 
   
 ### Expertise search
 <a name="searchapp"> </a>
 
 When planning My Sites, you should determine whether you want to enable users to locate colleagues within the organization based on the colleagues' expertise. People search and expertise tagging help users locate people inside an organization who have identified themselves as having significant experience with a particular subject. Users in your organization can add terms to their profile that describe areas in which they have experience. These terms are used by people search when a user searches for someone in the organization who has experience in a particular area.
   
-If email analysis is enabled, users can also find people by using email analysis in Outlook. Colleague suggestions are imported from Outlook if you are using Outlook email. If you are using Outlook, SharePoint Server analyzes sent email messages and then makes colleague and keyword suggestions based on this analysis. Users can then see these suggestions when they edit their profiles. 
+If email analysis is enabled, users can also find people by using email analysis in Outlook. Colleague suggestions are imported from Outlook if you're using Outlook email. If you're using Outlook, SharePoint Server analyzes sent email messages and then makes colleague and keyword suggestions based on this analysis. Users can then see these suggestions when they edit their profiles. 
   
 Although you can enable email analysis for all users in Outlook or only for specific groups by using Group Policy, users can opt out of this feature. If email analysis is disabled for all users, individual users can still opt in.
   
@@ -166,15 +166,15 @@ You can enable or disable these jobs, and configure their schedules to meet the 
 ## Planning for geographically distributed deployments
 <a name="geodist"> </a>
 
-When planning for My Sites, you must consider the location of the users in the organization and the number of farms or User Profile service applications that will host My Sites. If you have more than one farm or User Profile service application, you will likely have to configure trusted My Site host locations.
+When planning for My Sites, you must consider the location of the users in the organization and the number of farms or User Profile service applications that will host My Sites. If you have more than one farm or User Profile service application, you'll likely have to configure trusted My Site host locations.
   
 ### User Profile service deployment considerations for My Sites
 
-My Sites depend on the User Profile service application. In SharePoint Server, My Sites should be configured by using one User Profile service application. Server farm architectures using a single User Profile service application include the following:
+My Sites depend on the User Profile service application. In SharePoint Server, My Sites should be configured by using one User Profile service application. Server farm architectures using a single User Profile service application include:
   
 - A single server farm with a single User Profile service application.
     
-- An enterprise services farm sharing a single User Profile service application together with one or more consuming farms. The My Sites Host is located on one of the consuming farms. In SharePoint Server, the consuming farm must be physically located in the same datacenter as the enterprise services farm when you share the User Profile service application. Consuming the User Profile service application from another farm over a WAN connection is not supported. This means that both the User Profile service application and the My Site Host must be located in the same datacenter. 
+- An enterprise services farm sharing a single User Profile service application together with one or more consuming farms. The My Sites Host is located on one of the consuming farms. In SharePoint Server, the consuming farm must be physically located in the same datacenter as the enterprise services farm when you share the User Profile service application. Consuming the User Profile service application from another farm over a WAN connection isn't supported. This limitation means that both the User Profile service application and the My Site Host must be located in the same datacenter. 
     
 ### Trusted My Site host locations
 
@@ -182,14 +182,14 @@ The **Trusted My Site Host Locations** feature prevents a user from creating mor
   
 For example, in a server farm deployment that spans geographic regions, you might have separate User Profile service applications for each region or regional server farms in the environment. By default, a user can create a different My Site in each User Profile service application or server farm, which could cause unwanted results from both an administration perspective and a user perspective. When you have multiple My Sites for an individual user in an organization, server resource needs increase. Additionally, users might not understand or want multiple My Sites.
   
-To prevent individual users from creating multiple My Sites, configure trusted My Site host locations. When specified, users are redirected to the single My Site host location that is intended for their accounts regardless of where they are browsing when they attempt to create or access their My Sites. This feature ensures that each user can create only one My Site in an organization.
+To prevent individual users from creating multiple My Sites, configure trusted My Site host locations. When specified, users are redirected to the single My Site host location that is intended for their accounts regardless of where they're browsing when they attempt to create or access their My Sites. This feature ensures that each user can create only one My Site in an organization.
   
 Configuring trusted My Site host locations is optional.
   
 ## Planning for the multilingual user interface
 <a name="mui"> </a>
 
-When enabled, users can use the multilingual user interface feature for their My Sites. This feature is used to display the site's user interface in a secondary language that the user prefers instead of the default, primary language that was selected when the site was created. By default, when a new site is created, it is created in the default, primary language of the SharePoint Server installation on the server. A farm administrator must install language packs on the server before sites can be created in languages other than the default, primary language.
+When enabled, users can use the multilingual user interface feature for their My Sites. This feature is used to display the site's user interface in a secondary language that the user prefers instead of the default, primary language that was selected when the site was created. By default, when a new site is created, it's created in the default, primary language of the SharePoint Server installation on the server. A farm administrator must install language packs on the server before sites can be created in languages other than the default, primary language.
   
 For My Sites, the multilingual user interface feature is controlled by the **Language Options** setting when you configure My Site settings. The languages that are available to users correspond to the language packs installed in the server farm. For more information about language packs, see [Install or uninstall language packs for SharePoint Server 2016](install-uninstall-language-packs-2019.md). 
   
@@ -198,14 +198,14 @@ For My Sites, the multilingual user interface feature is controlled by the **Lan
 
 Because My Site users can edit their profiles, generate newsfeed activities, upload and download documents, and so on, plan carefully for the storage and capacity needs of your environment. Take into consideration the content databases for My Sites and the databases for the related services of My Sites.
   
-Additionally, SharePoint Server includes a default Personal Site quota template, which has a storage limit of 100 MB and no user limit. This quota template is used for each user's individual site collection in the user's My Site. Because feed activity is now stored in lists in the user's My Site, and those lists are not archived, storage needs will continue to grow. Therefore, consider increasing the personal site quota to 500 MB or more depending on the activity that you expect in the feeds.
+Additionally, SharePoint Server includes a default Personal Site quota template, which has a storage limit of 100 MB and no user limit. This quota template is used for each user's individual site collection in the user's My Site. Because feed activity is now stored in lists in the user's My Site, and those lists aren't archived, storage needs will continue to grow. Therefore, consider increasing the personal site quota to 500 MB or more depending on the activity that you expect in the feeds.
   
 Configuring quota templates is optional, but recommended. 
   
 ## Planning for file types
 <a name="files"> </a>
 
-Like other web applications in SharePoint Server, you can configure the file types that users can upload to or download from the web application that hosts My Sites. This is useful if you want to prevent users from uploading or downloading file types that can be large, such as media file types, or file types that can be run on the client computer, such as executable files.
+Like other web applications in SharePoint Server, you can configure the file types that users can upload to or download from the web application that hosts My Sites. This configuration is useful if you want to prevent users from uploading or downloading file types that can be large, such as media file types, or file types that can be run on the client computer, such as executable files.
   
 By default, SharePoint Server blocks certain file types. However, you can configure My Sites to allow these file types, or add other file types to block depending on the needs in your organization. 
   
