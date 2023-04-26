@@ -19,7 +19,7 @@ ms.collection:
 description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
 ---
 
-# Create and view SharePoint site change history
+# Create and view SharePoint site change history reports
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
