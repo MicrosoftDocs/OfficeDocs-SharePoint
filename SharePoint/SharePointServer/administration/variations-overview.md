@@ -20,7 +20,7 @@ description: "Learn about variations and the benefits and scenarios for using va
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
-The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. When users visit the root site, they're redirected to the appropriate variation site, based on the language setting of their web browser. Content on a target variation site can be translated into other languages before it's published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on sites for which the SharePoint Server Publishing Infrastructure feature was activated.
+The variations feature in SharePoint Server and SharePoint in Microsoft 365 syncs content from a source variation site to each target variation site to make the content available to specific audiences on different sites. When users visit the root site, they're redirected to the appropriate variation site, based on the language setting of their web browser. Content on a target variation site can be translated into other languages before it's published. You can use variations only on sites that are created by using one of the Publishing site templates, or on sites for which the SharePoint Server Publishing Infrastructure feature was activated.
   
 This article contains an overview of the variations feature. It describes the elements of the variations feature; provides an overview of site, list, and page creation for variation sites; lists some limitations of variations; and describes scenarios for using variations in SharePoint Server. This article doesn't describe the tasks that are involved in planning a solution that uses variations. For info about how to plan to use variations in your solution, see [Plan for variations in SharePoint Server](plan-for-variations.md). This article also doesn't describe how to create variation labels and hierarchies. For info about how to create a variation site, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
 
@@ -35,7 +35,7 @@ This article contains an overview of the variations feature. It describes the el
 ## Use and benefits of variations
 <a name="use"> </a>
 
-Many organizations have a global reach. However, even in domestic markets, organizations must reach a diverse user base that might speak many languages or that might have to have specific information that is based on regional differences. These types of organizations need websites that deliver customized content to suit different cultures, different markets, and different geographic regions. Producing and maintaining different versions of a site can be difficult and time-consuming. By using the variations feature as part of a SharePoint Server 2013 solution, site architects and site administrators can simplify the process of producing and maintaining these sites. The variations feature automates the creation, management, synchronization, and translation of sites, lists, and pages, which eliminates having to manually create a site and all associated lists and pages for each instance of a needed variation.
+Many organizations have a global reach. However, even in domestic markets, organizations have to reach a diverse user base speaking many languages or having specific information based on regional differences. These types of organizations need websites that deliver customized content to suit different cultures, different markets, and different geographic regions. Producing and maintaining different versions of a site can be difficult and time-consuming. By using the variations feature as part of a SharePoint Server 2013 solution, site architects and site administrators can simplify the process of producing and maintaining these sites. The variations feature automates the creation, management, synchronization, and translation of sites, lists, and pages, thereby eliminating the need to manually create a site and all associated lists and pages for each instance of a needed variation.
   
 ## Scenarios for using variations
 <a name="scenarios"> </a>
@@ -139,30 +139,32 @@ After the variations hierarchy is first created, when you add a new label to the
 ## Understanding site, list, and page creation
 <a name="pagecreation"> </a>
 
-By default, sites that are created below the source variation site, and lists and pages that are published on the source variation site or on any sites below it in the site hierarchy are automatically synced to the target variation sites. The following list types (or lists that inherit from these types) are supported:
+By default, the following components are synced automatically to the target variation sites: 
+
+- Sites that are created below the source variation site
+- Lists and pages that are published on the source variation site or on any sites below it in the site hierarchy
+
+The following list types (or lists that inherit from these types) are supported:
   
 - 100 - Generic list
-    
 - 101 - Document library
-    
 - 104 - Announcements list
-    
 - 109 - Picture library
-    
+
 If **Create Selectively** is enabled, you must manually create any sites, lists, and pages on the selected target variation sites. 
   
 This section describes the ways in which sites, lists, and pages are created on target variation sites.
   
 ### Site creation
 
-The first time that the Variations Create Hierarchies Job Definition timer job runs and creates the variations hierarchy from the list of variation labels, only the source variation and target variation sites are created. After the source variation site is created, you can create sites below it in the site hierarchy, and those sites are then created on the existing target variation sites the next time that the Variations Propagate Sites and Lists Job Definition timer job runs. If **Create Selectively** is enabled, use the **Site Variation Settings** page on any site that is below the source variation site to manually create a target variation of the current site on one or more target variation sites. The new site is created on the specified target variation site when the next Variations Propagate Sites and Lists Job Definition timer job runs. You can create a target variation of the current site anytime after **Create Selectively** is enabled.
+When the Variations Create Hierarchies Job Definition timer job runs for the first time and creates the variations hierarchy from the list of variation labels, only the source variation and target variation sites are created. After the source variation site is created, you can create sites below it in the site hierarchy, and those sites are then created on the existing target variation sites the next time that the Variations Propagate Sites and Lists Job Definition timer job runs. If **Create Selectively** is enabled, use the **Site Variation Settings** page on any site that is below the source variation site to manually create a target variation of the current site on one or more target variation sites. The new site is created on the specified target variation site when the next Variations Propagate Sites and Lists Job Definition timer job runs. You can create a target variation of the current site anytime after **Create Selectively** is enabled.
   
 > [!NOTE]
 > When source variation and target variation sites are created, they're created by using the default site definition provided by the template selected when the source label was created. No custom site configurations or settings are synced to the new sites. If you want the source variation and target variation sites to have custom site configurations or settings, such as navigation customizations, you must make those changes on each site after you create the variations hierarchy. 
   
 ### List and page creation
 
-List items are synced to variation target sites only when the list on the source variation site is configured to specify the target variation sites to which they should be synced. By default, when a list is configured to be synced to specific target variation sites, it's synced when the next Variations Propagate Sites and Lists Job Definition timer job runs. If a new item is added to a list that has already been synced to target variation sites, it's synced when the next Variations Propagate List Items Job Definition timer job runs. If a new target variation label is added after the variations hierarchy is created, the list will be created on the new target variation site. By default, content approval is enabled on target lists. When a new item is synced to a target list, it must be approved before it will appear in a Content Query Web Part on the target variation site.
+List items sync with variation target sites only when the list on the source variation site is configured to specify the target variation sites to which they should be synced. By default, list syncs with specific target variation sites only after it's configured so, and when the next Variations Propagate Sites and Lists Job Definition timer job runs. If a new item is added to a list that has already been synced to target variation sites, it's synced when the next Variations Propagate List Items Job Definition timer job runs. If a new target variation label is added after the variations hierarchy is created, the list will be created on the new target variation site. By default, content approval is enabled on target lists. When a new item is synced to a target list, it must be approved before it will appear in a Content Query Web Part on the target variation site.
   
 > [!NOTE]
 > Although you can specify individual pages that you want to sync to specific target labels, you can't sync individual list items. You can only specify a complete list to sync to specific target labels. 

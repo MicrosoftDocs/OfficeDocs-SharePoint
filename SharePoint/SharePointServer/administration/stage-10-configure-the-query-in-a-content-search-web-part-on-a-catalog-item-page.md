@@ -48,7 +48,7 @@ The various products featured in the Contoso catalog are all available in differ
   
 When displaying a product on our Contoso site, visitors should easily see that the product is available in other colors. For example, when visitors browse to a silver colored version of the  *Northwind Traders 50W Car Radio*  , they should easily see which other color options are available for that item. They should also be able to view details quickly about the product in another color, without having to go back to the category page. 
   
-So, on our catalog item page we want to display items that have the same  *Group Number*  . To do this, we must use the Content Search Web Part (CSWP). 
+So, on our catalog item page, we want to display items that have the same  *Group Number*. To do this configuration, we must use the Content Search Web Part (CSWP). 
   
 > [!NOTE]
 > The item details page that was automatically created when we connected our publishing site to our catalog as described in [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md) contained several Catalog Item Reuse Web Parts (CIRWP). There are scenarios where using CIRWPs to display item detail content would be appropriate. But, because the CIRWP is only able to display one item at a time, we can't use this Web Part for our Contoso scenario. 
@@ -77,28 +77,28 @@ A query variable is a placeholder that is replaced with a value when a query is 
   
 You might not have been aware of it, but in [Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md), when we configured the query in the CSWP on the catalog page, we used a query variable. When we selected **Restrict by current and child navigation terms**, a query variable was added to our query. That query variable was a placeholder for the navigation value in the URL (audio, camera, mp3, etc.). Whenever a visitor clicks a category, the query variable in the Web Part is replaced with the navigation value in the URL. As a result, the Web Part issued a query for catalog items that are tagged with "audio", "camera", "mp3", and so on 
   
-Coming back to our catalog item page, we want to display items that have the same Group Number. Remember in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md) how we added **Group Number** as one of the list columns to be used as a **Catalog Item URL Field**. We did this so the value of  *Group Number*  would be used in the URL. 
+Coming back to our catalog item page, we want to display items that have the same Group Number. Remember in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md) how we added **Group Number** as one of the list columns to be used as a **Catalog Item URL Field**. We did this configuration so the value of  *Group Number*  would be used in the URL. 
   
-The following screen shot shows our final Contoso site. Notice that the group number,  *5637145950*  , is used as the second to last value in the URL. 
+The following screenshot shows our final Contoso site. Notice that the group number,  *5637145950*, is used as the second to last value in the URL. 
   
 ![Item Car Radido](../media/OTCSP_ItemCarRadido.png)
   
-If we browse to another product, we'll see the group number for this product ( *5637145875*  , for example) is also used as the second to last value in the URL. 
+If we browse to another product, we'll see the group number for this product (*5637145875*, for example) is also used as the second to last value in the URL. 
   
 ![Item Camcorder](../media/OTCSP_ItemCamcorder.png)
   
 So, when you configure the query for the CSWP on our catalog item page, you should use a query variable that will represent the second to last value in the URL.
   
-Query variables are contained enclosed in braces as follows: {QueryVariable}. Don't worry about those braces, this isn't as scary or as complex as it might look.
+Query variables are contained enclosed in braces as follows: {QueryVariable}. Don't worry about those braces, this syntax isn't as scary or as complex as it might look.
   
-As mentioned above, when we configured the query in the CSWP on the catalog page we used a query variable. But we didn't have to deal with any scary looking braces. That was because the nice looking radio button, **Restrict by current and child navigation terms**, took care of it for us. To configure the query for our item catalog page, we must add a query variable with braces. Luckily, we'll have some friendly pull-down menus to help us along. So let's delve into the task of configuring the query. 
+As mentioned above, when we configured the query in the CSWP on the catalog page we used a query variable. But we didn't have to deal with any scary looking braces because the nice looking radio button, **Restrict by current and child navigation terms**, took care of it for us. To configure the query for our item catalog page, we must add a query variable with braces. Luckily, we'll have some friendly pull-down menus to help us along. So let's delve into the task of configuring the query. 
   
 ### How to configure a query in a Content Search Web Part on a catalog item page
 <a name="BKMK_HowToConfigureAQueryInAContentSearchWebPartOnACatalogItemPage"> </a>
 
 1. In the Web Part, select the **Web Part** menu > **Edit Web Part**. 
     
-2. In the Web Part tool pane, select **Change query**. This opens a dialog box. 
+2. In the Web Part tool pane, select **Change query**. This option opens a dialog box.
     
 3. In the dialog box, from the **Select a query** list, select your catalog result source. In our scenario, it's *catalog - Products Results*. 
     
@@ -108,7 +108,7 @@ As mentioned above, when we configured the query in the CSWP on the catalog page
     
      ![Switch Advanced Mode](../media/OTCSP_SwitchAdvancedMode.png)
   
-In Advanced Mode, in the **Query text** field, you'll see some text. This is the query text that represents our result source *catalog - Products Results*. (We saw the same query text in Stage 9, when we looked at [How to view details of the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_HowToViewDetailsOfTheQueryConfiguration).)
+In Advanced Mode, in the **Query text** field, you'll see some text. This text is the query text that represents our result source *catalog - Products Results*. (We saw the same query text in Stage 9, when we looked at [How to view details of the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_HowToViewDetailsOfTheQueryConfiguration).)
     
 ![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
   
@@ -136,9 +136,9 @@ So now you might be thinking "OK, that was easy, but what does **ProductCatalogG
     
   - **{URLToken.1}** represents a value from the URL of the current page. The integer, in this case **1**, represents the value in the URL as counted from right to left. So, for example, in the URL *https://www.contoso.com/cameras/camcorders/563714875/6637146586*, the query variable {URLToken.1} represents the value *6637146586*. 
     
-    If we put the complete query together, it means the following:
+    If we put the complete query together, it means:
     
-    From the result source  *catalog - Products Results*  , search for items where the value of the managed property  *ProductCatalogGroupNumberOWSTEXT*  contains the value that is currently used as the first value in the URL, counting from right to left. 
+    From the result source *catalog - Products Results*, search for items where the value of the managed property *ProductCatalogGroupNumberOWSTEXT*  contains the value that is currently used as the first value in the URL, counting from right to left. 
     
     In the last step of the procedure in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md), we defined that the item URL should contain both Group Number and Item Number as catalog Item and URL fields. This means that the first value in the URL, counting from right to left, is *Item Number*. We want to search for items that have the same *Group Number*. Therefore, we must make a small change to the query variable. 
     
@@ -152,13 +152,13 @@ Now the query in the Web Part will search for items where the value of the manag
     
      ![Test Query 2](../media/OTCSP_TestQuery2.png)
   
-Notice that five items are displayed under **RelevantResults**. This verifies that the query is correct, because we know that the *Northwind Traders 50W Car Radio* is available in five colors. 
+Notice that five items are displayed under **RelevantResults**. This result verifies that the query is correct, because we know that the *Northwind Traders 50W Car Radio* is available in five colors. 
     
 10. Select **OK** and save the page. 
     
      ![Query Results](../media/OTCSP_QueryResults.png)
   
-Even though three products are displayed instead of one, and we still don't have the Contoso look, this is progress. The query in the Web Part is now configured. In the next article we'll show you how to add display templates that will give our items the Contoso look.
+Even though three products are displayed instead of one, and we still don't have the Contoso look, this result denotes progress. The query in the Web Part is now configured. In the next article we'll show you how to add display templates that will give our items the Contoso look.
   
 #### Next article in this series
 
