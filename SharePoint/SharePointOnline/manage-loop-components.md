@@ -34,9 +34,9 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 
 #### Microsoft 365 Groups for Cloud Policy
 
-You must create or use an existing Microsoft 365 group that defines which users in your organization this policy will apply to. You can learn how to create a Microsoft 365 group by visiting [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
+It's not required if you choose to apply the Loop settings to all the users in your tenant. However, if you want to scope, you must create or use an existing Microsoft 365 group that defines which users in your organization this policy will apply to. You can learn how to create a Microsoft 365 group by visiting [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
 
-You'll need this group for the Cloud Policy setup procedure below.
+You'll be able to use this group for the Cloud Policy setup procedure below.
 
 If you prefer, you can also create other types of groups to use with Cloud Policy. See [learn more about creating groups in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) or [learn more about creating dynamic groups in AzureAD](/azure/active-directory/external-identities/use-dynamic-groups).
 
@@ -77,7 +77,7 @@ To configure these Cloud Policy settings:
 2. Select **Customization** from the left pane.
 3. Select **Policy Management**.
 4. Create a new policy configuration or edit an existing one.
-5. In **Choose the scope**, choose the group for which you want to apply the policy. See [Microsoft 365 Groups for Cloud Policy](#microsoft-365-groups-for-cloud-policy) for more information. If you do not apply to a group, your settings will not take effect in your tenant.
+5. In **Choose the scope**, choose either the "all users" option or select the group for which you want to apply the policy. See [Microsoft 365 Groups for Cloud Policy](#microsoft-365-groups-for-cloud-policy) for more information.
 6. In **Configure Settings**, choose one of the settings listed at the top of this section.
 7. In configuration setting, choose one of the following:
     - For **Create and view Loop files in Microsoft apps that support Loop**
