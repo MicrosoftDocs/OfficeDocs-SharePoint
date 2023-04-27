@@ -148,8 +148,8 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 
 > [!NOTE]
 >
-> 1. The security groups specified will automatically get access to the site permissions.
-> 2. The policy is enforced only when it is enabled on the site and has at least one security group added.
+> - The security groups specified will automatically get access to the site permissions.
+> - The policy is enforced only when it is enabled on the site and has at least one security group added.
 
 ### Remove restricted access control groups for a non-group site
 
