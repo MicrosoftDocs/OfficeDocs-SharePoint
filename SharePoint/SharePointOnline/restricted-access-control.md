@@ -214,5 +214,3 @@ Audit events are available in Microsoft Purview compliance portal to help you mo
 [Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
-
-
