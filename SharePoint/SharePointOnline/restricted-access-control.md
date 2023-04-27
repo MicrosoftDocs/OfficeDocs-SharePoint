@@ -27,7 +27,7 @@ With restricted access control, you can manage the access of a SharePoint site a
 
 Restricting site access based on group membership reduces the risk of oversharing within your organization. Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that stops sharing content with people who aren't a member of the group. Use and consult [data access governance reports](data-access-governance-reports.md) to see how data is currently being shared.
 
-For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
+For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its content. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
 
 [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
 
@@ -154,7 +154,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 ### Remove restricted access control groups for a non-group site
 
 You can remove the specified security group from restricted access control configuration. Members of
-the security group will no longer be able to access site contents while the policy is enforced on the site.
+the security group will no longer be able to access site content while the policy is enforced on the site.
 
 To remove a security group from a restricted access control configuration for the non-group site, run the following command:
 
