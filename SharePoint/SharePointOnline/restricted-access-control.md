@@ -188,6 +188,17 @@ To view the complete list of security groups added in the restricted access cont
 > [!NOTE]
 > The security groups added for this setting are also added to the **SharePoint members group** for the site. When disabling the setting, it is recommended to review site permissions and remove users who no longer need access to the site.
 
+## Restricted access control for shared channel sites
+
+For Shared Channel sites, only users in the resource tenant are subject to restricted access control. External users in the resource tenant will not be subjected to restricted access control policy and will be evaluated per the site’s existing site permissions only.
+
+**For example:**
+
+Consider a tenant Contoso which has set up a manual trust relation with another Azure AD organization Fabrikam, via B2B direct connect.  When restricted access control is enabled for a Shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
+
+> [!NOTE]
+> Information the user should notice even if skimmingSite permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
+
 ## Auditing
 
 Audit events are available in Microsoft Purview compliance portal to help you monitor restricted access control activities. Audit events are logged for the following activities:
