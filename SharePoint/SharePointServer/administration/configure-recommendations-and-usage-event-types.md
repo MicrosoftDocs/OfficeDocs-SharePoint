@@ -49,7 +49,7 @@ There are three default usage event types in SharePoint Server. You can create u
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -87,7 +87,7 @@ There are three default usage event types in SharePoint Server. You can create u
 ## Record a custom usage event
 <a name="BKMK_RecordCustomUsageEvent"> </a>
 
-After you have created a custom usage event type, as described in [Create a custom usage event type](configure-recommendations-and-usage-event-types.md#BKMK_CreateCustomUsageEventType), you have to add code to the place where the event occurs — for example, when a page loads, or when a user clicks a link or a button. This data is then sent to the analytics processing component, where it's recorded and processed.
+After you have created a custom usage event type, as described in [Create a custom usage event type](configure-recommendations-and-usage-event-types.md#BKMK_CreateCustomUsageEventType), you have to add code to the place where the event occurs—for example, when a page loads, or when a user clicks a link or a button. This data is then sent to the analytics processing component, where it's recorded and processed.
   
 If you're using cross-site publishing, where you show catalog content on a publishing site, you must record the usage event on the URL of the indexed item, and override some site settings. For example, if you have a catalog in an authoring site that you have published on a publishing site, when a user interacts with a catalog item on the publishing site, this usage event must be recorded on the item in the authoring site. Furthermore, the code that you add to record the usage event must override the SiteId and the WebId of the publishing site, and be replaced with the SiteId and the WebId of the authoring site.
   
@@ -106,7 +106,7 @@ If you're using cross-site publishing, where you show catalog content on a publi
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -150,7 +150,7 @@ If you're using cross-site publishing, where you show catalog content on a publi
     
   - \<CustomUsageEventType\> is the name of the custom event type.
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged — for example,  *https://contoso.com/faq*  . 
+  - \<URL\> is the full URL of the item to which the usage event should be logged—for example,  `https://contoso.com/faq`. 
     
  **To add code to record a custom usage event and override site settings**
   
@@ -167,7 +167,7 @@ If you're using cross-site publishing, where you show catalog content on a publi
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -244,7 +244,7 @@ If you're using cross-site publishing, which shows catalog content on a publishi
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -289,7 +289,7 @@ If you're using cross-site publishing, which shows catalog content on a publishi
     
   - \<DefaultUsageEventType\> is the name of the default usage event type — for example,  *Views*  . 
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  *https://contoso.com/careers* 
+  - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  `https://contoso.com/careers`. 
     
 6. Save the file.
     
@@ -308,7 +308,7 @@ If you're using cross-site publishing, which shows catalog content on a publishi
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -385,7 +385,7 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -462,7 +462,7 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
 
    Where:
     
-  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the **Recent** time frame — for example, *256.
+  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the **Recent** time frame—for example, *256*.
     
   - \<TimeFrame\> is the new **Recent** time frame that you want to apply to the user event type — for example, *7*. 
     
@@ -492,7 +492,7 @@ Users that are browsing the contents of a site without being connected to an acc
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -606,9 +606,9 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
 
    Where:
     
-  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of — for example,  _https://contoso.com/sites/catalog_.
+  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of—for example,  `https://contoso.com/sites/catalog`.
     
-  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  _https://contoso.com/sites/catalog_, and your subsite URL is  _https://contoso.com/sites/catalog/products_, type  _products_ for this placeholder. 
+  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  `https://contoso.com/sites/catalog` and your subsite URL is  `https://contoso.com/sites/catalog/products`, type  _products_ for this placeholder. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
