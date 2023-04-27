@@ -44,7 +44,7 @@ You can use variations to create sites, lists, and page content for specific lan
   
 You can also use variations to create content for specific locales. For example, a company based in North America might have target variation sites for the following locales: English (United States), English (Canada), French (Canada), and Spanish (Mexico). Most of the content is authored in English (United States), and the variation feature syncs that content to the target variation sites. Content on the French (Canada) and Spanish (Mexico) site is translated into French and Spanish, whereas content for English (Canada) is edited to account for regional differences in United States and Canadian English. Other content that is unique to a specific locale is created on the target variation sites for which it's needed.
   
-In SharePoint Server 2010, you could use variations to create sites for different mobile devices, or that used different branding. In SharePoint Server 2016, variations is used only for multilingual sites. To create sites for different mobile devices, use Device Channels. To create sites that use different branding, use cross-site publishing. [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
+In SharePoint Server 2010, you could use variations to create sites for different mobile devices, or that used different branding. In SharePoint Server 2016, variations are used only for multilingual sites. To create sites for different mobile devices, use Device Channels. To create sites that use different branding, use cross-site publishing. [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
   
 ## Elements of variations
 <a name="elements"> </a>

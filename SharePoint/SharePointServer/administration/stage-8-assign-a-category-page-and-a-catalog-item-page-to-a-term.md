@@ -138,7 +138,7 @@ This lack of much content is good, because when we created a category page in [S
 
 When you use managed navigation, the friendly URLs that visitors see are composed of the terms from the term set that drives site navigation. To see how friendly URLs are composed, on the **Term Store Management Tool** page, select a term, for example "Audio," and then select the **TERM-DRIVEN PAGES** tab. 
   
-The friendly URL appears in the **Configure Friendly URL for this term** section. 
+The friendly URL appears in the **Configure Friendly URL for this term** section.
   
 ![Configure Friendly URL](../media/OTCSP_FURLAudio.png)
   

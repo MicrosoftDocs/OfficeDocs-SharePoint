@@ -230,7 +230,7 @@ Once the **uPNSuffixes** attribute of a Customer OU is configured, its value wil
   
 #### User authentication
 
-User authentication is the validation of a user's identity against an authentication provider, which is a directory or database that contains the user's credentials and can confirm the user submitted them correctly. An example of an authentication provider is Active Directory Domain Services (AD DS). Other common names for an authentication provider are  *user directory*  and  *attribute store*  . 
+User authentication is the validation of a user's identity against an authentication provider, which is a directory or database that contains the user's credentials and can confirm the user submitted them correctly. An example of an authentication provider is Active Directory Domain Services (AD DS). Other common names for an authentication provider are  *user directory*  and *attribute store*. 
   
 An authentication method is a specific exchange of account credentials and other information that assert a user's identity. The result of the authentication method is proof, typically in the form of a token that contains claims, that an authentication provider has authenticated a user.
   
@@ -248,7 +248,7 @@ Planning for user authentication types and methods should determine the followin
     
 #### Active Directory Federation Services (AD FS)
 
-SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an alternative identity provider than AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
+SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an identity provider that's an alternative to AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
   
 For more information about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
@@ -1032,7 +1032,7 @@ Grant-ServiceAppPermission $upa $serviceUser "Full Control" $false
 
 #### Information Rights Management configuration
 
-Information Rights Management support for multi-tenancy can be turned on by using the the SharePoint Central Administration website or the updated Microsoft PowerShell cmdlets. 
+Information Rights Management support for multi-tenancy can be turned on by using the SharePoint Central Administration website or the updated Microsoft PowerShell cmdlets. 
   
  **Turn on Information Rights Management by using Central Administration**
   
@@ -1164,7 +1164,7 @@ Write-Host "Tenant Provisioning Script Completed!"
 
 ```
 
-This approach can be further customized to contain other tenant configuration such as for Workflow, Apps and IRM. Such script is encapsulated into a function or custom cmdlets, which enables it to be run repeatedly for future tenants.
+This approach can be further customized to contain other tenant configuration such as for Workflow, Apps and IRM. Such a script is encapsulated into a function or custom cmdlets, which enables it to be run repeatedly for future tenants.
   
 ## Workflow service
 <a name="begin"> </a>
