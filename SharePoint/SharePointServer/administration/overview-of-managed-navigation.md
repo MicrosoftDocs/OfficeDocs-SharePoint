@@ -272,7 +272,7 @@ Because managed navigation uses term sets to build the site navigation, it has t
   
 - There's no version control on terms. If you make a change to a term, you can't later revert the change back to an earlier version of the term.
     
-- There's no publishing workflow on terms. As soon as you make a change to a term, it will appear in the navigation with the change. Thus, when you use cross-site publishing a new term added to the navigation term set may be visible in the navigation on the publishing site before the associated content is indexed by search. You can choose to hide terms from the navigation until the content is published and indexed by search.
+- There's no publishing workflow on terms. As soon as you make a change to a term, it will appear in the navigation with the change. Thus when you use cross-site publishing, a new term added to the navigation term set may be visible in the navigation on the publishing site before the associated content is indexed by search. You can choose to hide terms from the navigation until the content is published and indexed by search.
     
 ## See also
 <a name="section6"> </a>
