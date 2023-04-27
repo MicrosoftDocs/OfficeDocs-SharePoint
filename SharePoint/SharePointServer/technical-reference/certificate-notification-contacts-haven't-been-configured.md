@@ -3,7 +3,7 @@ ms.date: 10/06/2021
 title: "Certificate notification contacts haven't been configured"
 ms.reviewer: 
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
