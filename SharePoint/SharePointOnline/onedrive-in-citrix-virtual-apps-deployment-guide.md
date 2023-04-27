@@ -1,5 +1,5 @@
 ---
-ms.date: 04/19/2023
+ms.date: 04/27/2023
 title: Set up OneDrive in Citrix Virtual Apps
 ms.reviewer: gacarini
 ms.author: mikeplum
@@ -48,7 +48,7 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
     `Type: REG_DWORD`<p>
     `Value: 1`
 
-  To ensure that the feature is correctly enabled, Launch a published command prompt (cmd.exe) and run `start ms-settings:printers`. If the feature is enabled, the printer setting window is displayed.
+To ensure that the feature is correctly enabled, open a command window (cmd.exe) and run `start ms-settings:printers`. If the feature is enabled, the printer setting window is displayed.
 
 **We recommend adding OneDrive.exe to `LogoffCheckSysModules`**.
 
@@ -57,7 +57,6 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
    `Type:REG_SZ` <p>
    `String:OneDrive.exe, Microsoft.Sharepoint.exe` <p> 
 
- 
 > [!IMPORTANT]
 > [FSLogix](/fslogix/how-to-install-fslogix) must be used in conjunction with Citrix Virtual Apps for OneDrive to be supported.
 
@@ -67,13 +66,13 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 1. Install the latest version of FSLogix. See [Install FSLogix Applications](/fslogix/how-to-install-fslogix).
 
     > [!NOTE]
-    > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version. See [OneDrive sync error FSLogix_unsupported_environment on VMs - SharePoint | Microsoft Learn](/sharepoint/troubleshoot/sync/fslogix-unsupported-environment-sync-error-vm).
+    > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version. See [OneDrive sync error FSLogix_unsupported_environment on VMs](/sharepoint/troubleshoot/sync/fslogix-unsupported-environment-sync-error-vm).
 
-1. Add OneDrive to HKLM\Software\Microsoft\Windows\CurrentVersion\Run by using the following command.
+1. Add OneDrive to `HKLM\Software\Microsoft\Windows\CurrentVersion\` by using the following command:
 
     `REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v OneDrive /t REG_SZ /d "\"C:\Program Files\Microsoft OneDrive\OneDrive.exe\" /background"`
 
 1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md).
 
     > [!NOTE]
-    > Silent sign-in should function if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
+    > Silent sign-in should work if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
