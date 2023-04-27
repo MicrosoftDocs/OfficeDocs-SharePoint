@@ -43,7 +43,7 @@ In this article, you'll learn:
     
 - [How to assign a category page and a catalog item page to a term](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_HowToAssignACategoryPageAndACatalogItemPageToATerm)
     
-- [About the friendly URL for category pages](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_AboutTheFriendlyURLForCategoryPages)
+- [About the friendly URL for category pages](#about-the-friendly-url-for-category-pages)
     
 ## Start stage 8
 
