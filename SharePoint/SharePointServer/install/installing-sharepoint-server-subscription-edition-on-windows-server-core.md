@@ -71,12 +71,13 @@ Perform the following steps to install SharePoint Server Subscription Edition on
 11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm.
 
     1. `New-SPConfigurationDatabase` to create a farm or `Connect-SPConfigurationDatabase` to join a farm.
-    2. `Install-SPHelpCollection -All`
-    3. `Initialize-SPResourceSecurity`
-    4. `Install-SPService`
-    5. `Install-SPFeature -AllExistingFeatures`
-    6. `New-SPCentralAdministration`
-    7. `Install-SPApplicationContent`
+    2. `Update-SPFlightsConfigFile -FilePath "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\CONFIG\SPFlightRawConfig.json"`
+    3. `Install-SPHelpCollection -All`
+    4. `Initialize-SPResourceSecurity`
+    5. `Install-SPService`
+    6. `Install-SPFeature -AllExistingFeatures`
+    7. `New-SPCentralAdministration`
+    8. `Install-SPApplicationContent`
 
     > [!Note]
     > You can also use the `PSCONFIG.EXE` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
