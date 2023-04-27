@@ -3,7 +3,7 @@ ms.date: 09/15/2021
 title: Improved ASP.NET view state security and key management
 ms.reviewer: 
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
