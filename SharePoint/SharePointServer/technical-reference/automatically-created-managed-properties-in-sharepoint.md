@@ -59,7 +59,7 @@ During the crawl of library content, the following actions are performed on the 
 |Date and Time|ows_q_DATE_SiteColumnName|SiteColumnNameOWSDATE|Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.|
 |Yes/No|ows_q_BOOL_SiteColumnName|SiteColumnNameOWSBOOL|For true, use value 1. For false, use value 0.|
 |Person or Group|ows_q_USER_SiteColumnName|SiteColumnNameOWSUSER|Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
-|Hyperlink or Picture|ows_q_URLH_SiteColumnName|SiteColumnNameOWSURLH|URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.|
+|Hyperlink or Picture|ows_q_URLH_SiteColumnName|SiteColumnNameOWSURLH|URL, description. For example, https://www.contoso.com, Welcome to the home page of Contoso.|
 |Publishing HTML|ows_r_HTML_SiteColumnName|SiteColumnNameOWSHTML|Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.|
 |Publishing Image|ows_q_IMGE_SiteColumnName|SiteColumnNameOWSIMGE|Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" \/>.|
 |Publishing Link|ows_q_LINK_SiteColumnName|SiteColumnNameOWSLINK|Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.|
