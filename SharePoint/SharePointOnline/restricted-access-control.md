@@ -29,7 +29,7 @@ Restricting site access based on group membership reduces the risk of oversharin
 
 For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
 
-[SharePoint PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
+[SharePoint PowerShell](introduction-sharepoint-online-management-shell.md) module is required to enable restricted access control.
 
 ## Requirements
 
@@ -88,7 +88,9 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Sites not connected to Teams or Microsoft 365 groups
 
-With Restricted access control, you can grant site access to members of selected Azure AD security groups using SharePoint [PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). **You can add up to 10 Azure AD security groups for a given site.** Users who aren't members of the added security groups can't access even if they previously had site access permissions to the site or the content.
+With Restricted access control, you can restrict site access to members of specified [Azure AD security groups](https://github.com/MicrosoftDocs/windowsserverdocs/blob/5c5a4c47fe35d6f302ccfac3a5c9a8d34bdfd05a/WindowsServerDocs/identity/ad-ds/manage/understand-security-groups.md) using SharePoint [PowerShell](introduction-sharepoint-online-management-shell.md). Users who aren't members of the specified security groups can't access even if they previously had site access permissions to the site or its content.  
+
+**You can apply restricted access control on a site with up to 10 security groups.**
 
 ### Enable restricted access control for non-group connected sites
 
@@ -167,7 +169,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 ```
 
 > [!NOTE]
-> The Security Groups removed from the restricted access control list will continue to have site permissions. We recommend SPO admin to review site permissions and remove users who should no longer have site access permissions.
+> The security groups removed from the restricted access control list will continue to have site permissions. We recommend SPO admin to review site permissions and remove users who should no longer have site access permissions.
 
 ### View restricted access control for a non-group site
 
@@ -188,13 +190,13 @@ Get-SPOSite -Identity <siteurl> | Select -EXPAND RestrictedAccessControlGroups
 
 ## Shared channel sites
 
-For Shared Channel sites, only users in the resource tenant are subject to restricted access control. Guests in the resource tenant are excluded from the restricted access control policy and will be evaluated per the site’s existing site permissions only.
+For [shared channel sites](/microsoftteams/shared-channels), only users in the resource tenant are subject to restricted access control. External users in the resource tenant are excluded from the restricted access control policy and will be evaluated per the site’s existing [site permissions](/microsoftteams/shared-channels) only.
 
 **For example:**
 
-Consider a tenant Contoso, which has set up a manual trust relation with another Azure AD organization Fabrikam, via B2B direct connect.  When restricted access control is enabled for a Shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
+Consider a tenant Contoso, which has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a Shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
 
-> [!NOTE]i
+> [!NOTE]
 > Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
 
 ## Auditing
@@ -212,3 +214,5 @@ Audit events are available in Microsoft Purview compliance portal to help you mo
 [Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)
 
 [Data Access Governance reports](data-access-governance-reports.md)
+
+
