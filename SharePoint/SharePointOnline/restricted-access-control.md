@@ -29,7 +29,7 @@ Restricting site access based on group membership reduces the risk of oversharin
 
 For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
 
-[SharePoint PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) module is required to enable restricted access control.
+[SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
 
 ## Requirements
 
@@ -88,7 +88,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Sites not connected to Teams or Microsoft 365 groups
 
-With Restricted access control, you can restrict site access to members of specified [Azure AD security groups](https://learn.microsoft.com/windows-server/identity/ad-ds/manage/understand-security-groups)using [SharePoint PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Users who aren't members of the specified security groups can't access even if they previously had site access permissions to the site or its content.  
+With Restricted access control, you can restrict site access to members of specified [Azure AD security groups](https://learn.microsoft.com/windows-server/identity/ad-ds/manage/understand-security-groups)using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't access even if they previously had site access permissions to the site or its content.  
 
 **You can apply restricted access control on a site with up to 10 security groups.**
 
