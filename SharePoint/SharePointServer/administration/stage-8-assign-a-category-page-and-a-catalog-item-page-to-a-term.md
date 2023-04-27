@@ -103,7 +103,7 @@ Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Serve
     
      ![Select Category Page](../media/OTCSP_SelectCategoryPage.png)
   
-By setting this reference, when visitors browse to "Audio" on the Contoso site, the page  *ContosoCategoryPage.aspx*  will be used to display information. It's important to understand that the visitors won't see the page name *ContosoCategoryPage.aspx*, but instead a friendly URL. More information about friendly URLs will be provided in [About the friendly URL for category pages](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_AboutTheFriendlyURLForCategoryPages), later in this article.
+By setting this reference, when visitors browse to "Audio" on the Contoso site, the page  *ContosoCategoryPage.aspx*  will be used to display information. It's important to understand that the visitors won't see the page name *ContosoCategoryPage.aspx*, but instead a friendly URL. More information about friendly URLs will be provided in [About the friendly URL for category pages](#AboutTheFriendlyURLForCategoryPages), later in this article.
     
 3. In the **Change target page for children of this term** section, repeat steps 3a and 3b. By setting this reference, when visitors browse to a child term of "Audio," for example "Speakers," the page *ContosoCategoryPage.aspx* is used to display information. 
     
