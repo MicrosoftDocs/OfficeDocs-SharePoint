@@ -1164,7 +1164,7 @@ Write-Host "Tenant Provisioning Script Completed!"
 
 ```
 
-This approach can be further customized to contain other tenant configuration such as for Workflow, Apps and IRM. Such a script is encapsulated into a function or custom cmdlets, which enables it to be run repeatedly for future tenants.
+This approach can be further customized to contain other tenant configuration such as for Workflow, Apps, and IRM. Such script is encapsulated into a function or custom cmdlets, which enables it to be run repeatedly for future tenants.
   
 ## Workflow service
 <a name="begin"> </a>
