@@ -23,7 +23,7 @@ description: Learn about the multi-tenancy feature and the underlying components
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-This article describes the components and services related to multi-tenancy in SharePoint Server 2013 and also provides architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013 for planning, designing, building, and managing a multi-tenant SharePoint Server 2013 hosting platform.
+This article describes the components and services that are related to multi-tenancy in SharePoint Server 2013 and also provides architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013 for planning, designing, building, and managing a multi-tenant SharePoint Server 2013 hosting platform.
   
 > [!NOTE]
 > Microsoft OneDrive with Yammer integration doesn't work for multi-tenancy or partitioned service applications for on-premises deployments. 
@@ -36,9 +36,9 @@ This article describes the components and services related to multi-tenancy in S
 
 ### What is multi-tenancy?
 
-Before we introduce the multi-tenancy functionality in SharePoint Server 2013, you should understand the general concept of multi-tenancy and its related characteristics; doing this will help you make the appropriate decisions for planning, designing, operating, and managing your multi-tenant SharePoint Server 2013 hosting platform.
+Before we introduce the multi-tenancy functionality in SharePoint Server 2013, you should understand the general concept of multi-tenancy and its related characteristics.  Understanding multi-tenancy and its related characteristics will help you make the appropriate decisions for planning, designing, operating, and managing your multi-tenant SharePoint Server 2013 hosting platform.
   
-Multi-tenancy refers to the ability to manage and partition data of sites and otherwise shared services or software in order to accommodate multiple tenants. This is in contrast to running multiple instances of a service, or setting up separate hardware. In Microsoft products and technologies, multi-tenancy of services creates a hosting environment wherein server farm resources are maximized. Before learning about hosting environments, it is important to understand the services architecture.
+Multi-tenancy refers to the ability to manage and partition data of sites and otherwise shared services or software to accommodate multiple tenants. This ability is in contrast to running multiple instances of a service, or setting up separate hardware. In Microsoft products and technologies, multi-tenancy of services creates a hosting environment wherein server farm resources are maximized. Before learning about hosting environments, it's important to understand the services architecture.
   
 ### Key components and services for enabling multi-tenancy in SharePoint Server 2013
 
@@ -50,39 +50,39 @@ A SharePoint 2013 web application is composed of an Internet Information Service
   
 #### Host-named site collection
 
-Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.fabrikam.com`. This lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you do not use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A would have a site collection at https://contoso.com/sites/teamA and Team B would have a site collection at https://fabrikam.com/sites/teamB.
+Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.fabrikam.com`. This provision lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you don't use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same hostname (DNS name). For example, Team A would have a site collection at `https://contoso.com/sites/teamA` and Team B would have a site collection at `https://fabrikam.com/sites/teamB`.
   
-Host Named Site Collections are fundamentally the only way to scale for multi-tenancy environments, and provide ultimate flexibility with respect to the URL namespace used. If using path-based sites with multi-tenancy the software boundary for managed paths will be reached extremely quickly.
+Host Named Site Collections are fundamentally the only way to scale for multi-tenancy environments, and provide ultimate flexibility with respect to the URL namespace used. If using path-based sites with multi-tenancy, the software boundary for managed paths will be reached quickly.
   
-For additional information about how to plan for host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
+For more information about how to plan for host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
 #### Service groups (proxy groups)
 
-A  *service group*, also known as  *proxy group*, is a group of service applications that are selected for use by a web application. 
-  
+A  *service group*, also known as  *proxy group*, is a group of service applications that are selected for a web application to use them.
+
 By default, all service applications are included in the default group unless another group is specified at the time that the service application is created. You can add and remove service applications from the default group at any time. When you create a web application, you can select the default group, or you can create a custom group of services. You create a custom group of services by selecting only the service applications that you want the web application to use.
   
-Custom groups are not reusable across multiple web applications. Each time that you select "custom" when you create a web application, you are selecting services only for the web application that you are creating.
+Custom groups aren't reusable across multiple web applications. Each time that you select "custom" when you create a web application, you're selecting services only for the web application that you're creating.
   
 #### Service proxy
 
 When you create a service application, a proxy for the service application is created at the same time. A proxy is a virtual entity that connects web applications to service applications. Proxies are listed on the Manage Service Applications page in the SharePoint Central Administration website.
   
-Proxies are automatically created if you use Central Administration or the SharePoint 2016 Products Configuration Wizard to create service applications. If you use Microsoft PowerShell to create service applications, proxies are not always automatically created and must be created by using Microsoft PowerShell.
+Proxies are automatically created if you use Central Administration or the SharePoint 2016 Products Configuration Wizard to create service applications. If you use Microsoft PowerShell to create service applications, proxies aren't always automatically created and must be created by using Microsoft PowerShell.
   
-Some proxies might include settings that can be changed. For example, if a web application is connected to multiple instances of the managed metadata service, you must indicate the proxies that are connected to the primary service application that hosts the corporate taxonomy. Generally speaking these settings move to tenant level configuration when using multi-tenancy.
+Some proxies might include settings that can be changed. For example, if a web application is connected to multiple instances of the managed metadata service, you must indicate the proxies that are connected to the primary service application that hosts the corporate taxonomy. These settings move to tenant level configuration when using multi-tenancy.
   
 #### Service applications
 
-A service application is a logical representation of a given service, and its security and management configuration which defines its operational behavior. Examples include Managed Metadata and User Profiles. Different service applications are implemented in different ways and this will influence the design of multi-tenant solutions.
+A service application is a logical representation of a given service, and its security and management configuration, which defines its operational behavior. Examples include Managed Metadata and User Profiles. Different service applications are implemented in different ways and this flexibility will influence the design of multi-tenant solutions.
   
 To determine the list of service applications that is available in SharePoint Server 2013 and their availability across SharePoint editions with multi-tenancy feature, see the **Services and Functionalities** section in [General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013.md)
   
 #### Feature packs and licensing
 
-A feature pack in SharePoint is a way to group a set of site-scoped or web-scoped features together. Once the SharePoint features are grouped, they can be associated with a site subscription (i.e., tenant). All site collections in that site subscription (tenant) can use only the site-scoped or web-scoped features that are part of the feature pack. This capability enables service providers to provide tiered service offerings based on different sets of features.
+A feature pack in SharePoint is a way to group a set of site-scoped or web-scoped features together. Once the SharePoint features are grouped, they can be associated with a site subscription (that is, tenant). All site collections in that site subscription (tenant) can use only the site-scoped or web-scoped features that are part of the feature pack. This capability enables service providers to provide tiered service offerings based on different sets of features.
   
-In SharePoint Server 2013, a new feature has been added for assigning different SharePoint licenses on a per-user basis. It also turns on SharePoint license checks at run time. This feature provides additional flexibility for a service provider to build different service offerings throughout a simplified deployment model. In previous SharePoint versions, service providers had to build different SharePoint deployment models for each SharePoint version. For additional information about SharePoint features, see the **SharePoint feature availability across on-premises solutions** section of the following article: [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
+In SharePoint Server 2013, a new feature has been added for assigning different SharePoint licenses on a per-user basis. It also turns on SharePoint license checks at run time. This feature provides more flexibility for a service provider to build different service offerings throughout a simplified deployment model. In previous SharePoint versions, service providers had to build different SharePoint deployment models for each SharePoint version. For more information about SharePoint features, see the **SharePoint feature availability across on-premises solutions** section of the following article: [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
   
 #### Information Rights Management
 
@@ -95,7 +95,7 @@ This section describes various considerations for architecting a multi-tenancy S
   
 ### Understand boundaries and limits in SharePoint Server 2013
 
-Understanding the software boundaries and limits of SharePoint Server 2013 will help you make the right decisions for selecting the appropriate architecture for a multi-tenancy SharePoint environment. For additional information about key boundaries and limits for a content database and site collection as they apply to a multi-tenancy environment of SharePoint Server 2013, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#ContentDB) and [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#SiteCollection).
+Understanding the software boundaries and limits of SharePoint Server 2013 will help you make the right decisions for selecting the appropriate architecture for a multi-tenancy SharePoint environment. For more information about key boundaries and limits for a content database and site collection as they apply to a multi-tenancy environment of SharePoint Server 2013, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#ContentDB) and [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#SiteCollection).
   
 #### Shared farm vs. dedicated farm
 
@@ -103,9 +103,9 @@ Using a shared farm to host multi-tenant site collections on a single web applic
   
 Use a dedicated web application and application pool per customer only if you need to satisfy requirements for isolation.
   
-Do not allow full-trust code to be deployed to sites.
+Don't allow full-trust code to be deployed to sites.
   
-Do not allow customizations that affect shared resources, such as the web.config file.
+Don't allow customizations that affect shared resources, such as the web.config file.
   
 Use host-named site collections to create multiple, root-level site collections (domain-named sites) throughout a web application.
   
@@ -113,13 +113,13 @@ Use host-named site collections to create multiple, root-level site collections 
 
 Use dedicated web applications for tenants that require customizations affecting resources that are shared across a web application, such as the web.config file.
   
-When combining multiple tenants in a single farm, use a dedicated SharePoint web application for all authenticated content and a separate dedicated web application for all anonymous content. This will require two separate subscriptions IDs for tenants with both types of content. This will also simplify licensing.
+When combining multiple tenants in a single farm, use a dedicated SharePoint web application for all authenticated content and a separate dedicated web application for all anonymous content. This method will require two separate subscriptions IDs for tenants with both types of content. This method will also simplify licensing.
   
 Some SharePoint features are bound to web application level, such as the Self-Service Site Collection Creation setting. After it's turned on, all tenants under the same web application will be able to create site collections.
   
 #### Single farm environment design
 
-In a multi-organization hosting environment in which tenant data and administration are isolated, the configuration of partitioned and shared services is very important. This example provides a practical implementation of partitioned services and also provides recommendations about how to deploy customer sites.
+In a multi-organization hosting environment in which tenant data and administration are isolated, the configuration of partitioned and shared services is important. This example provides a practical implementation of partitioned services and also provides recommendations about how to deploy customer sites.
   
 This example details the following ways in which customer sites can be deployed in a farm:
   
@@ -135,7 +135,7 @@ This example details the following ways in which customer sites can be deployed 
     
 Use a dedicated application pool per customer only if you need to satisfy requirements for isolation. Use dedicated web applications for tenants that require customizations affecting resources that are shared across a web application, such as the web.config file.
   
-When combining multiple tenants in a single web application, use a dedicated web application for all authenticated content and a separate dedicated web application for all anonymous content. This will require two separate subscriptions IDs for tenants with both types of content. This will also simplify licensing.
+When combining multiple tenants in a single web application, use a dedicated web application for all authenticated content and a separate dedicated web application for all anonymous content. This method will require two separate subscriptions IDs for tenants with both types of content. This method swill also simplify licensing.
   
 Do not allow full-trust code to be deployed to sites.
   
@@ -156,7 +156,7 @@ This tiered-environment design approach could provide different service level ag
 ## Security considerations
 <a name="begin"> </a>
 
-This section discusses various security considerations for planning and designing a multi-tenant SharePoint Server 2013 hosting platform. From this point forward, any section, such as the Organization Unit (OU) section, that talks about people picker configuration only works without additional customization with Windows authentication.
+This section discusses various security considerations for planning and designing a multi-tenant SharePoint Server 2013 hosting platform. From this point forward, any section, such as the Organization Unit (OU) section, that talks about people picker configuration only works without further customization with Windows authentication.
   
 SharePoint Server 2013 supports many authentication methods and authentication providers for the following authentication types:
   
@@ -166,7 +166,7 @@ SharePoint Server 2013 supports many authentication methods and authentication p
     
 - SAML token-based authentication
     
-The Windows authentication type takes advantage of your existing Windows authentication provider and the authentication protocols that a Windows domain environment uses to validate the credentials of connecting clients. Windows authentication methods, which are used by both claims-based authentication and classic mode, include the following:
+The Windows authentication type takes advantage of your existing Windows authentication provider and the authentication protocols that a Windows domain environment uses to validate the credentials of connecting clients. Windows authentication methods, which are used by both claims-based authentication and classic mode, include:
   
 - NTLM
     
@@ -176,7 +176,7 @@ The Windows authentication type takes advantage of your existing Windows authent
     
 - Basic
     
-Forms-based authentication is a claims-based identity management system that is based on ASP.NET membership and role provider authentication. Forms-based authentication can be used against credentials that are stored in an authentication provider, such as the following:
+Forms-based authentication is a claims-based identity management system that is based on ASP.NET membership and role provider authentication. Forms-based authentication can be used against credentials that are stored in an authentication provider, such as:
   
 - Active Directory Domain Services (AD DS)
     
@@ -186,15 +186,15 @@ Forms-based authentication is a claims-based identity management system that is 
     
 Forms-based authentication validates users based on credentials that users enter into a logon form (typically a webpage). Unauthenticated requests are redirected to a logon page, where a user must provide valid credentials and submit the form. The system issues a cookie for authenticated requests that contains a key for reestablishing the identity for later requests.
   
-To use forms-based authentication to authenticate users against an identity management system that is not based on Windows or one that is external, you must register the membership provider and role manager in several web.config files. SharePoint Server 2013 uses the standard ASP.NET role manager interface to collect group information about the current user. Each ASP.NET role is treated as a domain group by the authorization process in SharePoint Server 2013. You register a role manager in a web.config file exactly as you register a membership provider for authentication.
+To use forms-based authentication to authenticate users against an identity management system that isn't based on Windows or one that is external, you must register the membership provider and role manager in several web.config files. SharePoint Server 2013 uses the standard ASP.NET role manager interface to collect group information about the current user. Each ASP.NET role is treated as a domain group by the authorization process in SharePoint Server 2013. You register a role manager in a web.config file exactly as you register a membership provider for authentication.
   
 If you want to manage membership users or roles from the Central Administration website, you must register the membership provider and the role manager in the web.config file of the Central Administration website. You must also register the membership provider and the role manager in the web.config file of the web application that hosts the content and in the web.config file of the Security Token Service.
   
-SAML token-based authentication in SharePoint Server 2013 uses the SAML 1.1 protocol and the WS-Federation Passive Requestor Profile (WS-F PRP). It requires coordination with administrators of a claims-based environment, whether it is your own internal environment or a partner environment. If you use Active Directory Federation Services (AD FS) 2.0, you have a SAML token-based authentication environment.
+SAML token-based authentication in SharePoint Server 2013 uses the SAML 1.1 protocol and the WS-Federation Passive Requestor Profile (WS-F PRP). It requires coordination with administrators of a claims-based environment, whether it's your own internal environment or a partner environment. If you use Active Directory Federation Services (AD FS) 2.0, you have a SAML token-based authentication environment.
   
-For web applications that use claims-based authentication, People Picker is a control that is available within SharePoint Server 2013. The People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. For additional information about people picker configuration, see [People Picker and claims providers overview](./people-picker-and-claims-providers-overview.md).
+For web applications that use claims-based authentication, People Picker is a control that is available within SharePoint Server 2013. The People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. For more information about people picker configuration, see [People Picker and claims providers overview](./people-picker-and-claims-providers-overview.md).
   
-Zones represent different logical paths to gain access to the same sites in a web application. Each web application can include as many as five zones. When you create a web application, Central Administration creates the zone named **Default**. To create additional zones, extend the web application and select one of the remaining zone names: **Intranet**, **Extranet**, **Internet**, or **Custom**.
+Zones represent different logical paths to gain access to the same sites in a web application. Each web application can include as many as five zones. When you create a web application, Central Administration creates the zone named **Default**. To create more zones, extend the web application and select one of the remaining zone names: **Intranet**, **Extranet**, **Internet**, or **Custom**.
   
 ### Organizational Units
 
@@ -218,9 +218,9 @@ The SharePoint servers have a unique role not included in other servers in the d
   
 #### Customers OU
 
-This top-level OU lets all user accounts to be segregated from the rest of the directory. The next level of OUs contains the customer OUs. There is one OU for each customer. This lets all user accounts and computer accounts of a customer to be segregated from those of other customers. Furthermore this is the required OU structure to support User Profile Synchronization in multi-tenant deployments.
+This top-level OU lets all user accounts to be segregated from the rest of the directory. The next level of OUs contains the customer OUs. There's one OU for each customer. This OU lets all user accounts and computer accounts of a customer to be segregated from those accounts of other customers. Furthermore, this OU structure is the one required to support User Profile Synchronization in multi-tenant deployments.
   
-To give the users the impression they are logging into their own custom domain, use the Active Directory Service Interfaces Editor (ADSI Edit) or another AD tool to edit the **uPNSuffixes** attribute of each Customer OU as shown in the following diagram. 
+To give the users the impression they're logging into their own custom domain, use the Active Directory Service Interfaces Editor (ADSI Edit) or another AD tool to edit the **uPNSuffixes** attribute of each Customer OU as shown in the following diagram. 
   
 ![This diagram shows the ADSI Property Editor Dialog for the uPNSuffixes attribute](../media/ADSIEdit.jpg)
   
@@ -230,7 +230,7 @@ Once the **uPNSuffixes** attribute of a Customer OU is configured, its value wil
   
 #### User authentication
 
-User authentication is the validation of a user's identity against an authentication provider, which is a directory or database that contains the user's credentials and can confirm the user submitted them correctly. An example of an authentication provider is Active Directory Domain Services (AD DS). Other common names for an authentication provider are  *user directory*  and  *attribute store*  . 
+User authentication is the validation of a user's identity against an authentication provider, which is a directory or database that contains the user's credentials and can confirm the user submitted them correctly. An example of an authentication provider is Active Directory Domain Services (AD DS). Other common names for an authentication provider are  *user directory*  and *attribute store*. 
   
 An authentication method is a specific exchange of account credentials and other information that assert a user's identity. The result of the authentication method is proof, typically in the form of a token that contains claims, that an authentication provider has authenticated a user.
   
@@ -248,9 +248,9 @@ Planning for user authentication types and methods should determine the followin
     
 #### Active Directory Federation Services (AD FS)
 
-SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an alternative identity provider than AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
+SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an identity provider that's an alternative to AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
   
-For additional info about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
+For more information about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ## Management and operational considerations
 <a name="begin"> </a>
@@ -263,7 +263,7 @@ Capacity management is an ongoing process because no implementation remains stat
   
 #### App management
 
-The apps for SharePoint provide a new method to deliver specific information or functionality to a SharePoint site. An app for SharePoint is a small, easy-to-use, stand-alone app that solves a specific end-user or business need. Site owners can discover and download apps for SharePoint from a public SharePoint Store or from their organization's internal App Catalog and install them on their SharePoint sites. These apps for SharePoint integrate the best of the web with SharePoint Server 2013. They do not replace SharePoint features and solution packages, which customize or increase SharePoint sites. Unlike features and solutions, which farm or site collection administrators have to install, apps for SharePoint are stand-alone applications that owners of sites can add to their SharePoint sites. The apps for SharePoint have a simple life-cycle: they can be installed, upgraded, and uninstalled by site owners.
+The apps for SharePoint provide a new method to deliver specific information or functionality to a SharePoint site. An app for SharePoint is a small, easy-to-use, stand-alone app that solves a specific end-user or business need. Site owners can discover and download apps for SharePoint from a public SharePoint Store or from their organization's internal App Catalog and install them on their SharePoint sites. These apps for SharePoint integrate the best of the web with SharePoint Server 2013. They don't replace SharePoint features and solution packages, which customize or increase SharePoint sites. Unlike features and solutions, which farm or site collection administrators have to install, apps for SharePoint are stand-alone applications that owners of sites can add to their SharePoint sites. The apps for SharePoint have a simple life-cycle: they can be installed, upgraded, and uninstalled by site owners.
   
 The App Management Service in SharePoint Server 2013 is multi-tenancy aware. Most of app configuration and management functionality is exposed through the Tenant Administration site and allows each tenant administrator to configure their individual settings.
   
@@ -271,7 +271,7 @@ The App Management Service in SharePoint Server 2013 is multi-tenancy aware. Mos
 
 When performing tenant-agnostic backup and restore operations on a multi-tenant SharePoint Server 2013 hosting platform, you can follow the general guidance for performing backup and restore operations on SharePoint Server 2013 environments, see [Backup and restore in SharePoint Server](./backup-and-recovery-overview.md).
   
-Notice that in SharePoint Server 2013, the Workflow platform is separate from the SharePoint platform. Therefore, backup and restore operations on the Workflow Manager should be coordinated with SharePoint backup and restore operations to ensure both remain in sync with one another. For additional guidance about how to plan backup and restore operations for Workflow Service Manager, see [Disaster Recovery and Scope Restore in Workflow Manager 1.0](/previous-versions/dotnet/workflow-manager/jj730570(v=azure.10))
+Notice that in SharePoint Server 2013, the Workflow platform is separate from the SharePoint platform. Therefore, backup and restore operations on the Workflow Manager should be coordinated with SharePoint backup and restore operations to ensure both remain in sync with one another. For more guidance about how to plan backup and restore operations for Workflow Service Manager, see [Disaster Recovery and Scope Restore in Workflow Manager 1.0](/previous-versions/dotnet/workflow-manager/jj730570(v=azure.10))
   
 When you perform tenant-specific backup and restore operations on a multi-tenant SharePoint Server 2013 hosting platform, you might have to keep the following tenant-aware components in sync with one another: service applications, workflow, content databases, and site collections.
   
@@ -283,7 +283,7 @@ Service applications that are configured in Partition Mode have one or more asso
 
  **App Management Service**
   
-The App Management service is the service application used for managing the app for SharePoint feature that is introduced in SharePoint Server 2013. The apps for SharePoint provide a new method to deliver specific information or functionality to a SharePoint site. An app for SharePoint is a small, easy-to-use, stand-alone app that solves a specific end-user or business need. The App Management Service does not support Partition Mode, however it is natively Site Subscription aware. In the multi-tenant SharePoint environment, most of App Management functionality (that is, Manage App Catalog, Manage App Licenses, App Permissions, and so on.) is obtained by using the Tenant Administration Site.
+The App Management service is the service application used for managing the app for SharePoint feature that is introduced in SharePoint Server 2013. The apps for SharePoint provide a new method to deliver specific information or functionality to a SharePoint site. An app for SharePoint is a small, easy-to-use, stand-alone app that solves a specific end-user or business need. The App Management Service doesn't support Partition Mode, however it's natively Site Subscription aware. In the multi-tenant SharePoint environment, most of App Management functionality (that is, Manage App Catalog, Manage App Licenses, App Permissions, and so on.) is obtained by using the Tenant Administration Site.
   
 The following diagram shows App Management on the Tenant Administration Site.
   
@@ -291,11 +291,11 @@ The following diagram shows App Management on the Tenant Administration Site.
   
 #### Business Data Connectivity service
 
-Once configured in partition mode, all configuration of the Business Data Connectivity service moves to tenant administration. However the Tenant Administration site template does not include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section
+Once configured in partition mode, all configuration of the Business Data Connectivity service moves to tenant administration. However, the Tenant Administration site template doesn't include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section
   
 #### Secure Store service
 
-Once configured in partition mode, the generation of encryption keys remains a farm level configuration performed either via Central Administration or Windows PowerShell. The remainder of the Secure Store service configuration moves to tenant administration. However the Tenant Administration site template does not include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section.
+Once configured in partition mode, the generation of encryption keys remains a farm level configuration performed either via Central Administration or Windows PowerShell. The remainder of the Secure Store service configuration moves to tenant administration. However, the Tenant Administration site template doesn't include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section.
   
 #### Managed metadata service
 
@@ -359,7 +359,7 @@ Write-Host "Tenant Site Collection Restore Script Completed!"
 
 #### Monitoring
 
-There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For additional guidance about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](./monitoring-planning.md).
+There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For more guidance about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](./monitoring-planning.md).
   
 #### Feature pack management
 
@@ -501,13 +501,13 @@ Write-Host "Feature Pack Created! " + $ffp.ID
 
 In SharePoint Server 2013, a new licensing management capability has been added. Farm administrators can now assign licenses to users and enable runtime license checks. By using this new functionality, you can ensure that only users who have the appropriate license can use a specific feature. The functionality also simplifies the deployment model because you no longer have to build separate farms for standard and enterprise editions of SharePoint Server.
   
-User licenses are assigned by mapping claims to a known type of license. For example, a claim can be an Active Directory Domain Services (AD DS) Security group. By mapping the **ContosoFinanceDept** security group to an Enterprise license, you effectively assign an Enterprise license to all members of that group. Users who log on to SharePoint Server are assigned claims. SharePoint Server examines the claims of users to determine their license, if a user does not have a license to use a particular feature, SharePoint will block access to that feature at run time. 
+User licenses are assigned by mapping claims to a known type of license. For example, a claim can be an Active Directory Domain Services (AD DS) Security group. By mapping the **ContosoFinanceDept** security group to an Enterprise license, you effectively assign an Enterprise license to all members of that group. Users who log on to SharePoint Server are assigned claims. SharePoint Server examines the claims of users to determine their license, if a user doesn't have a license to use a particular feature, SharePoint will block access to that feature at run time. 
   
-This SharePoint Server 2013 license implementation is managed by using new Microsoft PowerShell cmdlets. By default, licensing is disabled in SharePoint Server. However administrators can opt to turn it on by using Microsoft PowerShell. For additional information about how to configure licensing in SharePoint Server 2013, see [Configure licensing in SharePoint Server](./monitoring-planning.md).
+This SharePoint Server 2013 license implementation is managed by using new Microsoft PowerShell cmdlets. By default, licensing is disabled in SharePoint Server. However administrators can opt to turn it on by using Microsoft PowerShell. For more information about how to configure licensing in SharePoint Server 2013, see [Configure licensing in SharePoint Server](./monitoring-planning.md).
   
 #### Lifecycle management
 
-Whilst this white paper outlines the key infrastructure considerations when designing a multi-tenant SharePoint 2013 solution and it provides baseline scripts for configuration the overall management of the lifecycle of operations is imperative. For example custom tenant administration, de-provisioning of subscriptions, archiving, user management, self-service password reset and quotas are all common areas which require some combination of additional Windows PowerShell and customization effort in order to deliver a complete service offering. Each service provider will have different requirements in this sphere and it is incredibly important to ensure that these requirements are part of the initial scoping and design work for the infrastructure platform.
+Whilst this white paper outlines the key infrastructure considerations when designing a multi-tenant SharePoint 2013 solution and it provides baseline scripts for configuration the overall management of the lifecycle of operations is imperative. For example, custom tenant administration, de-provisioning of subscriptions, archiving, user management, self-service password reset, and quotas are all common areas that require some combination of more Windows PowerShell and customization effort in order to deliver a complete service offering. Each service provider will have different requirements in this sphere and it's incredibly important to ensure that these requirements are part of the initial scoping and design work for the infrastructure platform.
   
 ## Setup and configuration
 <a name="begin"> </a>
@@ -517,9 +517,9 @@ This section outlines the general steps for setting up and configuring a multi-t
 ## Acknowledgements
 <a name="begin"> </a>
 
-This section provides details and contains PowerShell scripts that demonstrate the creation and configuration of various components. These scripts are generally provided to demonstrate the configuration requirements for multi-tenancy and therefore do not represent the optimal provisioning order, however they can serve as the basis for developing your own customized end-to-end scripting solution.
+This section provides details and contains PowerShell scripts that demonstrate the creation and configuration of various components. These scripts are provided to demonstrate the configuration requirements for multi-tenancy and therefore don't represent the optimal provisioning order, however they can serve as the basis for developing your own customized end-to-end scripting solution.
   
-The Microsoft PowerShell scripts contained in the following sub-sections are based (either whole or in part) on the work of **Spencer Harbar** (http://www.harbar.net) and are reproduced here with his gracious consent. Please refer to the following documents for his original work. 
+The Microsoft PowerShell scripts contained in the following sub-sections are based (either whole or in part) on the work of **Spencer Harbar** (http://www.harbar.net) and are reproduced here with his gracious consent. For more information on the original work of **Spencer Harbar**, see the following documents:
   
 - http://www.harbar.net/articles/sp2013mt.aspx
     
@@ -529,23 +529,23 @@ The PowerShell scripts provided include variables, which should be modified to s
   
 ### Deployment example
 
-This section presents a deployment example which makes use of a single hosting web application using host named site collections and host header managed paths. It is deployed on a single server for the sake of simplicity, this is the intended design model for multi-tenancy with SharePoint 2013 and can be extended to a deployment where service instance roles are articulated across multiple computers. The deployment example uses HTTP for the web application. In a real deployment SSL should be used to protect sign-in, content and the authorization tokens used with SharePoint Apps and other OAuth2 related services such as Workflow Manager.
+This section presents a deployment example that makes use of a single hosting web application using host named site collections and host header managed paths. It's deployed on a single server for the sake of simplicity. This deployment example is the intended design model for multi-tenancy with SharePoint 2013 and can be extended to a deployment where service instance roles are articulated across multiple computers. The deployment example uses HTTP for the web application. In a real deployment SSL should be used to protect sign-in, content and the authorization tokens used with SharePoint Apps and other OAuth2 related services such as Workflow Manager.
   
 #### DNS configuration
 
-Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
+Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For more guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
-If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For additional information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](./configure-an-environment-for-apps-for-sharepoint.md).
+If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For more information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](./configure-an-environment-for-apps-for-sharepoint.md).
   
 #### Active Directory configuration
 
-As described earlier, to support multi-tenancy in SharePoint, Active Directory must be correctly structured by creating a hierarchical Organization Unit structure to support User Profile Synchronization for each subscription. You also have to create appropriate service accounts for your environment. For additional information about how to plan service accounts for SharePoint Server 2013, see [Plan for administrative and service accounts in SharePoint Server](../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md). In this deployment example, the following three service accounts are used:
+As described earlier, to support multi-tenancy in SharePoint, Active Directory must be correctly structured by creating a hierarchical Organization Unit structure to support User Profile Synchronization for each subscription. You also have to create appropriate service accounts for your environment. For more information about how to plan service accounts for SharePoint Server 2013, see [Plan for administrative and service accounts in SharePoint Server](../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md). In this deployment example, the following three service accounts are used:
   
 - **SPFarm** - the SharePoint Farm Account 
     
-- **SPServices** - the Application Pool identity which hosts Service Application endpoints 
+- **SPServices** - the Application Pool identity that hosts Service Application endpoints 
     
-- **SPContent** - the Application Pool identity which hosts the Content Web Application 
+- **SPContent** - the Application Pool identity that hosts the Content Web Application 
     
 #### SharePoint farm creation and configuration
 
@@ -594,7 +594,7 @@ Write-Host "Farm Creation Done!"
 
 #### Proxy Group, Hosting Web Application and Managed Paths
 
-Initially a Managed Account is created for the application pool hosting the content web application. A new proxy group is created, followed by the web application. Finally, configuration of the Web Application to allow self-service site creation and the creation of shared managed paths is performed. It is extremely important to create a "root" site collection in the hosting web application even though this site collection will not be accessed by end users. This is required for supportability and correct operational behavior of SharePoint 2013.
+Initially, a Managed Account is created for the application pool hosting the content web application. A new proxy group is created, followed by the web application. Finally, configuration of the Web Application to allow self-service site creation and the creation of shared managed paths is performed. It's important to create a "root" site collection in the hosting web application even though this site collection won't be accessed by end users. This "root" site collection is required for supportability and correct operational behavior of SharePoint 2013.
   
 > [!NOTE]
 > This example uses HTTP for the web application. 
@@ -662,7 +662,7 @@ Write-Host "Proxy Group and Web Application done!"
 
 #### Non-partitioned services
 
-At this stage the non-partitioned service applications can be created. These service applications are either required in the farm for normal operations (for example the State Service) or do not require to be partitioned in order to support multi-tenancy as they do not store any data. To do this another managed account is required, and then each service application is created in turn.
+At this stage, the non-partitioned service applications can be created. These service applications are either required in the farm for normal operations (for example, the State Service) or don't require to be partitioned to support multi-tenancy as they don't store any data. To do this, another managed account is required, and then each service application is created in turn.
   
 The following Microsoft PowerShell script shows how to create the non-partitioned service applications.
   
@@ -759,7 +759,7 @@ Write-Host "Non Partitioned Service Applications done!"
 
 ### Partitioned Service applications creation and configuration
 
-The following sections describe the Microsoft PowerShell procedures necessary to create and configure each service application which supports partitioning. The same general pattern applies to each service application with the exception of Search and User Profiles. However there are small differences related to the service application proxies.
+The following sections describe the Microsoft PowerShell procedures necessary to create and configure each service application that supports partitioning. The same general pattern applies to each service application except for Search and User Profiles. However there are small differences related to the service application proxies.
   
 ### Business Data Connectivity service
 
@@ -806,7 +806,7 @@ $proxyGroup | Add-SPServiceApplicationProxyGroupMember -Member $proxy
 
 ### Machine Translation service
 
-The Machine Translation service supports multi-tenancy by creating its service application in Partition Mode. There is no tenant-specific configuration and the service is managed at the farm level. Its database is effectively acting as a queue and therefore has to be partition/tenant aware.
+The Machine Translation service supports multi-tenancy by creating its service application in Partition Mode. There's no tenant-specific configuration and the service is managed at the farm level. Its database is effectively acting as a queue and therefore has to be partition/tenant aware.
   
 The following Microsoft PowerShell script shows how to create the Machine Translation service application in Partition Mode.
   
@@ -830,7 +830,7 @@ $proxyGroup | Add-SPServiceApplicationProxyGroupMember -Member $proxy
 
 ### Secure Store service
 
-Once configured in partition mode, the generation of encryption keys remains a farm level configuration performed either via Central Administration or Windows PowerShell. The remainder of the Secure Store service configuration moves to tenant administration. However the Tenant Administration site template does not include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section.
+Once configured in partition mode, the generation of encryption keys remains a farm level configuration performed either via Central Administration or Windows PowerShell. The remainder of the Secure Store service configuration moves to tenant administration. However the Tenant Administration site template doesn't include the link to this page, which can be added using the customization technique in the Extending the Tenant Administration site template section.
   
 The following Microsoft PowerShell script shows how to create the Secure Store Service application in Partition Mode and add it to a custom Service Proxy group.
   
@@ -897,7 +897,7 @@ Write-Host "Search complete!"
 
 #### Word Automation Services
 
-The Word Automation Services service application supports Partition Mode. There is no cmdlet for creating a proxy.
+The Word Automation Services service application supports Partition Mode. There's no cmdlet for creating a proxy.
   
 The following Microsoft PowerShell script shows how to create the Word Automation Services service application in Partition Mode.
   
@@ -922,7 +922,7 @@ $proxyGroup | Add-SPServiceApplicationProxyGroupMember -Member $proxy
 
 #### User Profile Service
 
-The creation of the User Profile Service by using PowerShell as required when provisioning in partitioned mode presents a challenge when not running the Windows PowerShell as the SharePoint Farm account. In order to work around this, and in order to successfully start the User Profile Synchronization service, we leverage the **Start-Process** cmdlet and simulate executing the script as the farm account. 
+The creation of the User Profile Service by using PowerShell as required when provisioning in partitioned mode presents a challenge when not running the Windows PowerShell as the SharePoint Farm account. To work around this challenge, and in order to successfully start the User Profile Synchronization service, we use the **Start-Process** cmdlet and simulate executing the script as the farm account. 
   
 Two scripts are required, the first script creates the UPA and the second script calls the first script.
   
@@ -961,7 +961,7 @@ Get-SPServiceApplication | ? {$_.Name -eq $upaName}
 
 ```
 
-The second script below performs the necessary work to call the UPA creation script and start the required service instances. The location of the UPA creation script should be updated in the **$upaScriptFile** variable. Additionally some required permissions are set on the UPA. 
+The second script below performs the necessary work to call the UPA creation script and start the required service instances. The location of the UPA creation script should be updated in the **$upaScriptFile** variable. Additionally, some required permissions are set on the UPA. 
   
 ```
 $proxyGroupName = "Hosting Proxy Group"
@@ -1032,7 +1032,7 @@ Grant-ServiceAppPermission $upa $serviceUser "Full Control" $false
 
 #### Information Rights Management configuration
 
-Information Rights Management support for multi-tenancy can be turned on by using the the SharePoint Central Administration website or the updated Microsoft PowerShell cmdlets. 
+Information Rights Management support for multi-tenancy can be turned on by using the SharePoint Central Administration website or the updated Microsoft PowerShell cmdlets. 
   
  **Turn on Information Rights Management by using Central Administration**
   
@@ -1054,12 +1054,12 @@ Information Rights Management support for multi-tenancy can be turned on by usin
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -1076,7 +1076,7 @@ $subscription=Get-SPSiteSubscription "http://www.contoso.com"
 Set-SPSiteSubscriptionIRMConfig -identity $subscription -IrmEnabled -CertificateServerUrl "http://rms.contoso.com" 
 ```
 
-Generally such configuration is performed as part of tenant provisioning.
+Such configuration is performed as part of tenant provisioning.
   
 ## Tenant provisioning and management
 <a name="begin"> </a>
@@ -1095,7 +1095,7 @@ To create a tenant, follow the steps in the table.
 |2. Assign a feature pack to the site subscription and configure custom OU by using People Picker.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Set-SPSiteSubscriptionConfig -id $sub -FeaturePack $customerFeatures -UserAccountDirectoryPath "OU=$customerName,OU=Customers,DC=contoso,DC=com"```|
 |3. Create one or more site collections to be assigned to the site subscription.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Write-Host "Creating Member Site..." New-SPSite -url "http://$customerName.contoso.com" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template sts#0 -ContentDatabase $contentDBName``````# create Tenant Admin site  Write-Host "Creating Tenant Admin site..." New-SPSite -url "http://$customerName.contoso.com/admin" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template tenantadmin#0 -AdministrationSiteType TenantAdministration -ContentDatabase $contentDBName``````Write-Host "Creating My Site Host..."     New-SPSite -url "http://$customerName.contoso.com/mysites" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template SPSMSITEHOST#0 -ContentDatabase $contentDBName```|
    
-The following PowerShell script shows how to create a tenant admin site that uses the **TENANTADMIN#0** template. If the tenant is configured to use an Enterprise Feature Pack, the Microsoft PowerShell script performs additional operations, that is, it creates the My Sites collection. 
+The following PowerShell script shows how to create a tenant admin site that uses the **TENANTADMIN#0** template. If the tenant is configured to use an Enterprise Feature Pack, the Microsoft PowerShell script performs more operations, that is, it creates the My Sites collection. 
   
 ```
 Add-PSSnapin Microsoft.SharePoint.Powershell -EA 0  
@@ -1164,16 +1164,16 @@ Write-Host "Tenant Provisioning Script Completed!"
 
 ```
 
-This approach can be further customized to contain other tenant configuration such as for Workflow, Apps and IRM. Generally such script is encapsulated into a function or custom cmdlets which enables it to be run repeatedly for future tenants.
+This approach can be further customized to contain other tenant configuration such as for Workflow, Apps, and IRM. Such script is encapsulated into a function or custom cmdlets, which enables it to be run repeatedly for future tenants.
   
 ## Workflow service
 <a name="begin"> </a>
 
-SharePoint Server 2013 brings a major advancement to workflow, including enterprise features such as fully declarative authoring, REST and Service Bus messaging, elastic scalability, and managed service reliability. SharePoint 2013 can use a new workflow service built on the Windows Workflow Foundation components of the .NET Framework 4.5. The new service is called Workflow Manager and it is designed to play a central role in the enterprise.
+SharePoint Server 2013 brings a major advancement to workflow, including enterprise features such as fully declarative authoring, REST and Service Bus messaging, elastic scalability, and managed service reliability. SharePoint 2013 can use a new workflow service built on the Windows Workflow Foundation components of the .NET Framework 4.5. The new service is called Workflow Manager and it's designed to play a central role in the enterprise.
   
-The SharePoint 2013 Workflow platform becomes available to you, and your tools, only after you download and install the new Workflow Manager Service and configure it to communicate with the SharePoint Server 2013 farm. For additional information about how to install and configure the Workflow Manager Service for SharePoint 2013, see [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md).
+The SharePoint 2013 Workflow platform becomes available to you, and your tools, only after you download and install the new Workflow Manager Service and configure it to communicate with the SharePoint Server 2013 farm. For more information about how to install and configure the Workflow Manager Service for SharePoint 2013, see [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md).
   
-To configure the Workflow Service, use the **Register-SPWorkflowService** cmdlet to register the farm with the Workflow Service Manager in Partition Mode. In doing this, use the **SPSite** parameter to pass the URL of any existing tenant site collection from your Farm and use the **ScopeName** parameter to define a named workflow scope for your farm. 
+To configure the Workflow Service, use the **Register-SPWorkflowService** cmdlet to register the farm with the Workflow Service Manager in Partition Mode. In doing this farm registration, use the **SPSite** parameter to pass the URL of any existing tenant site collection from your Farm and use the **ScopeName** parameter to define a named workflow scope for your farm. 
   
 The following Windows PowerShell script shows how to register the SharePoint farm with the Workflow Service Manager in Partition Mode.
   
@@ -1186,7 +1186,7 @@ Register-SPWorkflowService -SPSite "http://tenant.contoso.com" -WorkflowHostUri 
 Write-Host "Farm Workflow Registration Script Completed!"
 ```
 
-To enable a specific tenant for SharePoint Workflow, you must configure the workflow service proxy. In doing this, obtain a reference to the root site collection of the tenant and register it with the workflow service proxy.
+To enable a specific tenant for SharePoint Workflow, you must configure the workflow service proxy. In doing this configuration, obtain a reference to the root site collection of the tenant and register it with the workflow service proxy.
   
 The following PowerShell script shows how to enable a tenant for SharePoint Workflow.
   
@@ -1207,7 +1207,7 @@ $wfProxy.Connect($site)
 Write-Host "Tenant Workflow Registration Script Completed!" 
 ```
 
-After the tenant is configured to use Workflow Service Manager, you are then able to use SharePoint Designer to create workflows using the SharePoint 2013 Workflow option as shown in the following diagram.
+After the tenant is configured to use Workflow Service Manager, you're then able to use SharePoint Designer to create workflows using the SharePoint 2013 Workflow option as shown in the following diagram.
   
 ![This diagram shows the SharePoint 2013 Workflow option in SharePoint Designer](../media/Workflow_Tenant.jpg)
   
@@ -1257,7 +1257,7 @@ The following feature definition shows how to add a new group, several links, an
 
 ```
 
-For additional information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](/previous-versions/office/developer/sharepoint-2010/ms465980(v=office.14)).
+For more information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](/previous-versions/office/developer/sharepoint-2010/ms465980(v=office.14)).
   
 #### Customizing the ribbon
 
@@ -1308,7 +1308,7 @@ The following XML shows how to replace the functionality of the **Disk Quota** b
 
 ```
 
-For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](/previous-versions/office/developer/sharepoint-2010/ee539395(v=office.14)).
+For more information about how to customize the Server ribbon, see [Customizing the Server Ribbon](/previous-versions/office/developer/sharepoint-2010/ee539395(v=office.14)).
   
 #### Extending a site subscription using custom properties
 

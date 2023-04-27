@@ -43,7 +43,7 @@ In this article, you'll learn:
     
 - [How to assign a category page and a catalog item page to a term](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_HowToAssignACategoryPageAndACatalogItemPageToATerm)
     
-- [About the friendly URL for category pages](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_AboutTheFriendlyURLForCategoryPages)
+- [About the friendly URL for category pages](#about-the-friendly-url-for-category-pages)
     
 ## Start stage 8
 
@@ -70,7 +70,7 @@ When you display information in a catalog format, the layout and structure of th
   
 ![Two Categories](../media/OTCSP_TwoCategories.jpg)
   
-Also, regardless of what type of product a visitor views, the catalog item page should be consistent. For example always display an image of a product in the upper-left corner, followed by tables of product specifications.
+Also, regardless of the type of product a visitor views, the catalog item page should be consistent. For example always display an image of a product in the upper-left corner, followed by tables of product specifications.
   
 ![Two Products](../media/OTCSP_TwoProducts.jpg)
   
@@ -93,7 +93,7 @@ In the **Target Page Settings** and **Catalog Item Page Settings** sections, the
     
 ![Automatically Assigned Pages](../media/OTCSP_AutomaticallyAssignedPages.png)
   
-Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), when we connected our publishing site to our catalog? In that stage, a category page and a catalog item page were automatically created and added to the **Pages** library. What we didn't cover in Stage 5 is that references to these pages were added to this term set, as shown in the screenshot above. In the next steps we'll change these references so they point to our newly created category page and catalog item page. 
+Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), when we connected our publishing site to our catalog? In that stage, a category page and a catalog item page were automatically created and added to the **Pages** library. What we didn't cover in Stage 5 is that references to these pages were added to this term set, as shown in the screenshot above. In the next steps, we'll change these references so they point to our newly created category page and catalog item page. 
     
 3. In the **Target page settings** section, do the following: 
     
@@ -103,7 +103,7 @@ Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Serve
     
      ![Select Category Page](../media/OTCSP_SelectCategoryPage.png)
   
-By setting this reference, when visitors browse to "Audio" on the Contoso site, the page  *ContosoCategoryPage.aspx*  will be used to display information. It's important to understand that the visitors won't see the page name  *ContosoCategoryPage.aspx*, but instead a friendly URL. More information about friendly URLs will be provided in [About the friendly URL for category pages](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_AboutTheFriendlyURLForCategoryPages), later in this article.
+By setting this reference, when visitors browse to "Audio" on the Contoso site, the page  *ContosoCategoryPage.aspx*  will be used to display information. It's important to understand that the visitors won't see the page name *ContosoCategoryPage.aspx*, but instead a friendly URL. More information about friendly URLs will be provided in [About the friendly URL for category pages](#about-the-friendly-url-for-category-pages), later in this article.
     
 3. In the **Change target page for children of this term** section, repeat steps 3a and 3b. By setting this reference, when visitors browse to a child term of "Audio," for example "Speakers," the page *ContosoCategoryPage.aspx* is used to display information. 
     
@@ -131,14 +131,13 @@ After applying the new category page and catalog item page to all terms, you can
     
 ![Audio Page](../media/OTCSP_AudioPage.png)
   
-This lack of much content is good, because when we created a category page in [Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md), we created an empty page. To display content, we'll have to add Search Web Parts, which we'll explain in the next article.
+This lack of much content is good, because when we created a category page in [Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md), we created an empty page. To display content, we'll have to add Search Web Parts, which We'll explain in the next article.
     
 ### About the friendly URL for category pages
-<a name="BKMK_AboutTheFriendlyURLForCategoryPages"> </a>
 
 When you use managed navigation, the friendly URLs that visitors see are composed of the terms from the term set that drives site navigation. To see how friendly URLs are composed, on the **Term Store Management Tool** page, select a term, for example "Audio," and then select the **TERM-DRIVEN PAGES** tab. 
   
-The friendly URL appears in the **Configure Friendly URL for this term** section. 
+The friendly URL appears in the **Configure Friendly URL for this term** section.
   
 ![Configure Friendly URL](../media/OTCSP_FURLAudio.png)
   
@@ -148,10 +147,9 @@ Similarly, when you select "Car audio," you'll see the friendly URL for this pag
   
 If you want to change a friendly URL, for example from "audio" to "audio players," you should change the actual term itself. That way, the friendly URL and the term that is used to tag your content will remain consistent.
   
-If this concept was somewhat confusing, don't worry. We'll explain more about how Search Web Parts work in the next article..
+If this concept was confusing, don't worry. We'll explain more about how Search Web Parts work in the next article.
   
 ### Next article in this series
-<a name="BKMK_AboutTheFriendlyURLForCategoryPages"> </a>
 
 [Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md)
   

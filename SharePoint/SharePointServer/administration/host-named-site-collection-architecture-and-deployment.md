@@ -62,7 +62,7 @@ When creating a Web application for host-named site collections, the URL of the 
 
 ![URLs of the Web app and root site collection.](../media/HNSC_Webapp_root_URL.jpg)
 
-This architecture is recommended to deploy sites because it's the same architecture that the Microsoft 365 environment uses. This configuration is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it's the most reliable configuration going forward.
+This architecture is recommended to deploy sites because it's the same architecture that the Microsoft 365 environment uses. So, this configuration is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it's the most reliable configuration going forward.
 
 The recommended configuration doesn't include the following elements:
 
@@ -164,15 +164,15 @@ Host headers are configured at the Web Application (IIS web site) level, they're
 
 It's important to understand the distinction between Host headers in IIS and Host Named Site Collections. Host headers at the IIS web site level are only intended for path-based site collections.
 
-When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS web site level makes it impossible to access host-named site collections through the IIS web site. This inaccessibility is because IIS will not respond to requests for host names that differ from the host header binding.
+When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS web site level makes it impossible to access host-named site collections through the IIS web site. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
 
 > [!IMPORTANT]
-> If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
+> If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
 
 ### Mix host-named site collections and path-based site collections in the same web application
 <a name="section1f"> </a>
 
-You can use host-named and path based site collections in the same web application. To ensure that both types of site collections are accessible to users, don't put host header bindings on the IIS website of your web application, including IIS websites for zones that are extended from the web application. If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS.
+You can use host-named and path based site collections in the same web application. To ensure that both types of site collections are accessible to users, don't put host header bindings on the IIS website of your web application, including IIS websites for zones that are extended from the web application. If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS.
 
 #### My Sites
 
@@ -200,6 +200,7 @@ If you don't intend to configure two or more IIS websites that share the same po
 
     > [!NOTE]
     > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+
 
 2. Open the **SharePoint Management Shell**.
 
@@ -369,7 +370,7 @@ The following example shows a host-named site collection created at https:
 New-SPSite 'https://portal.contoso.com' -HostHeaderWebApplication  (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
 ```
 
-This example creates a host-named site collection that has the URL, https://portal.contoso.com, in the SharePoint Server web application that has the URL https://webapp.contoso.com.
+This example creates a host-named site collection that has the URL, `https://portal.contoso.com`, in the SharePoint Server web application that has the URL `https://webapp.contoso.com`.
 
 ### Enable apps in environments with multiple zones
 <a name="section2h"> </a>
@@ -377,7 +378,7 @@ This example creates a host-named site collection that has the URL, https://port
 > [!NOTE]
 > This section applies only to SharePoint Server 2013.
 
-The March 2013 Public Update enables you to configure an app domain for each web application zone and use alternate access mapping and host-header web application configuration. Before the release of this update, you could only host one app domain, and it had to be in the Default zone. You couldn't use the app domain on alternate access mappings or host-header web application configurations.
+The March 2013 Public Update enables you to configure an app domain for each web application zone and use alternate access mapping and host-header web application configuration. Before the release of this update, you could only host one app domain and it had to be in the Default zone. You couldn't use the app domain on alternate access mappings or host-header web application configurations.
 
 To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotfix Package: March 12, 2013, see [Updates for SharePoint 2013](../../Hub/index.yml).
 
