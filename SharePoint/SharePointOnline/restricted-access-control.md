@@ -19,7 +19,7 @@ ms.collection:
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
-# Restrict access to a SharePoint site by Microsoft 365 group membership
+# Restrict access to a SharePoint site by group membership
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -37,9 +37,7 @@ To access and use this feature, your organization must have the following subscr
 
 - [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
-## Restricted access control for your organization
-
-### Enable restricted access control for your organization
+## Enable restricted access control for your organization
 
 To enable restricted access control in SharePoint, run the following command:
 
@@ -94,8 +92,6 @@ As a SharePoint administrator, you can grant access to members of selected Azure
 
 ### Enable restricted access control for a non-group-connected site
 
-This will restrict the site access to members of the specified security group.
-
 To apply restricted access control on a non-group connected site, run the following command:
 
 ```Powershell
@@ -103,7 +99,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true
 ```
 
 ```Powershell
-```Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>
+Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>
 ```
 
 > [!NOTE]
@@ -114,18 +110,20 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true
 **For example:**
 
 ```Powershell
-```Set-SPOSite -Identity https://contoso.sharepoint.com/sites/contosoteamsite -RestrictedAccessControl $true
-```Set-SPOSite -Identity https://contoso.sharepoint.com/sites/contosoteamsite -AddRestrictedAccessControlGroups AFD516B5-C350-4C2A-8339-600B93C56791
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/marketingdepartment -RestrictedAccessControl $true
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/conmarketingdepartment -AddRestrictedAccessControlGroups AFD516B5-C350-4C2A-8339-600B93C56791
 ```
 
+This will restrict the site access to members of the specified security group [Employees_MarketingDepartmenet]
+
 > [!TIP]
-> To identify corresponding GUID for a given security group (say Employees_FTE), run the following commands:
+> To identify corresponding GUID for a given security group (say Employees_MarketingDepartment), run the following commands:
 >
 > ```Powershell
 > Install-Module -Name MSOnline
 > Import-Module -Name MSOnline 
 > Connect- MsolService
-> $group = Get-MsolGroup | Where-Object {$_.DisplayName -eq " Employees_FTE "}
+> $group = Get-MsolGroup | Where-Object {$_.DisplayName -eq " Employees_MarketingDepartment "}
 > $group.ObjectId
 > ```
 
@@ -133,39 +131,39 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true
 
 You can add up to 10 Azure AD security groups whose members will be allowed access to the site. These can be managed as **Restricted access control groups** when the setting is applied. This will limit the site access to members of the specified security groups.
 
-### Add restricted access control to a security group
+### Edit restricted access control groups for a non-group site
 
-To enable restricted access control to a security group, run the following command:
+To edit a restricted access control group for a non-group site run the following command:
 
 ```Powershell
-```Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>
+Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>
 ```
 
 **For example:**
 
 ```Powershell
-```Set-SPOSite -Identity https://contoso.sharepoint.com/sites/HRPolicySite -RestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791,053e8286-f18a-40d6-a12a-a323b89c5d63
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -RestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791,053e8286-f18a-40d6-a12a-a323b89c5d63
 ```
 
 > [!NOTE]
 > 1. The security groups specified will automatically get access to the site permissions.
->2. The policy is enforced only when it is enabled on the site and has at least one security group added.
+> 2. The policy is enforced only when it is enabled on the site and has at least one security group added.
 
-### Remove restricted access control from a security group
+### Remove restricted access control groups for a non-group site
 
-You can remove the specified security group from restricted access control. Members of
+You can remove the specified security group from restricted access control configuration. Members of
 the security group will no longer be able to access site contents while the policy is enforced on the site.
 
-To remove restricted access control from a security group, run the following command:
+To remove a security group from a restricted access control configuration for the non-group site, run the following command:
 
 ```Powershell
-```Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>
+Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>
 ```
 
 **For example:**
 
 ```Powershell
-```Set-SPOSite -Identity https://contoso.sharepoint.com/sites/HRPolicySite -RemoveRestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -RemoveRestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791
 ```
 
 > [!NOTE]
@@ -176,13 +174,13 @@ To remove restricted access control from a security group, run the following com
 To view the restricted access control configuration for a site, run the following command:
 
 ```Powershell
-```Get-SPOSite -Identity <siteurl> | Select RestrictedAccessControl, RestrictedAccessControlGroups
+Get-SPOSite -Identity <siteurl> | Select RestrictedAccessControl, RestrictedAccessControlGroups
 ```
 
 To view the complete list of security groups added in the restricted access control configuration for a site, run the following command:
 
 ```Powershell
-```Get-SPOSite -Identity <siteurl> | Select -EXPAND RestrictedAccessControlGroups
+Get-SPOSite -Identity <siteurl> | Select -EXPAND RestrictedAccessControlGroups
 ```
 
 > [!NOTE]
@@ -196,8 +194,8 @@ For Shared Channel sites, only users in the resource tenant are subject to restr
 
 Consider a tenant Contoso which has set up a manual trust relation with another Azure AD organization Fabrikam, via B2B direct connect.  When restricted access control is enabled for a Shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
 
-> [!NOTE]
-> Information the user should notice even if skimmingSite permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
+> [!NOTE]i
+> Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
 
 ## Auditing
 
