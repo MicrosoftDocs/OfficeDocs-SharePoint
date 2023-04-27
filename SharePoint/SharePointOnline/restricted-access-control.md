@@ -29,7 +29,7 @@ Restricting site access based on group membership reduces the risk of oversharin
 
 For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
 
-[SharePoint PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps)module is required to enable restricted access control.
+[SharePoint PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) module is required to enable restricted access control.
 
 ## Requirements
 
