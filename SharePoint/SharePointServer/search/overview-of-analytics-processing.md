@@ -107,7 +107,7 @@ The Analytics Processing Component generates data that is used to create the fol
 ## Privacy protection of the data collected by the Analytics Processing Component
 <a name="BKMK_Reporting"> </a>
 
-Parts of the data that the Analytics Processing Component collects are related to personally identifiable information. SharePoint Server has different features to protect the privacy of this information.
+The Analytics Processing Component collects those parts of the data that are related to personally identifiable information. SharePoint Server has different features to protect the privacy of this information.
   
 For each usage event, the Analytics Processing Component logs the following information:
   

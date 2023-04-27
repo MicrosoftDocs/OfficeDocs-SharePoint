@@ -462,7 +462,7 @@ To run multiple web applications on the same server and port in combination with
 > [!NOTE]
 > You can create a web application that doesn't have a host header. If you create a web application that doesn't have a host header, you can't create multiple web applications with host-named site collections on the same web server.
 
-The process that creates multiple web applications for a host-named site collections includes the following tasks:
+The process that creates multiple web applications for a host-named site collection includes the following tasks:
 
 - Create the multiple web applications.
 

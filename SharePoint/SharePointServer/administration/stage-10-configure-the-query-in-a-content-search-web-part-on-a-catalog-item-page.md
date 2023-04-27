@@ -42,11 +42,11 @@ In this article, you'll learn:
 ### Defining how catalog items should be displayed on our Contoso site
 <a name="BKMK_DefiningHowCatalotItemsShouldBeDisplayedOnOurContosoSite"> </a>
 
-The various products featured in the Contoso catalog are all available in different colors. For example, by looking in our catalog list, you'll see that the  *Northwind Traders 50W Car Radio*  is available in five colors. The color versions of a product are grouped under a common  *Group Number*  . 
+The various products featured in the Contoso catalog are all available in different colors. For example, by looking in our catalog list, you'll see that the  *Northwind Traders 50W Car Radio*  is available in five colors. The color versions of a product are grouped under a common  *Group Number*. 
   
 ![Catalog Car Radio](../media/OTCSP_CatalogCarRadio.png)
   
-When displaying a product on our Contoso site, visitors should easily see that the product is available in other colors. For example, when visitors browse to a silver colored version of the  *Northwind Traders 50W Car Radio*  , they should easily see which other color options are available for that item. They should also be able to view details quickly about the product in another color, without having to go back to the category page. 
+When displaying a product on our Contoso site, visitors should easily see that the product is available in other colors. For example, when visitors browse to a silver colored version of the  *Northwind Traders 50W Car Radio*, they should easily see which other color options are available for that item. They should also be able to view details quickly about the product in another color, without having to go back to the category page. 
   
 So, on our catalog item page, we want to display items that have the same *Group Number*. To do this configuration, we must use the Content Search Web Part (CSWP). 
   
@@ -79,11 +79,11 @@ You might not have been aware of it, but in [Stage 9: Configure the query in a C
   
 Coming back to our catalog item page, we want to display items that have the same Group Number. Remember in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md) how we added **Group Number** as one of the list columns to be used as a **Catalog Item URL Field**. We did this confuration so the value of  *Group Number*  would be used in the URL.
   
-The following screen shot shows our final Contoso site. Notice that the group number,  *5637145950*  , is used as the second to last value in the URL. 
+The following screenshot shows our final Contoso site. Notice that the group number,  *5637145950*, is used as the second to last value in the URL. 
   
 ![Item Car Radido](../media/OTCSP_ItemCarRadido.png)
   
-If we browse to another product, we'll see the group number for this product ( *5637145875*  , for example) is also used as the second to last value in the URL. 
+If we browse to another product, we'll see the group number for this product (*5637145875*, for example) is also used as the second to last value in the URL. 
   
 ![Item Camcorder](../media/OTCSP_ItemCamcorder.png)
   
@@ -120,7 +120,7 @@ In Advanced Mode, in the **Query text** field, you'll see some text. This text i
     
      ![Query Set](../media/OTCSP_QuerySet.png)
   
- **ProductCatalogGroupNumberOWSTEXT** is the managed property name of the site column  *Group Number*  . (Earlier in this series, we looked at naming convention for this column in [Naming convention for the default site columns in the Products list](from-site-column-to-managed-propertywhat-s-up-with-that.md#BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList).) Selecting **Contains** and **Value of a token from URL** will create the query variable we want to use. 
+ **ProductCatalogGroupNumberOWSTEXT** is the managed property name of the site column  *Group Number*. (Earlier in this series, we looked at naming convention for this column in [Naming convention for the default site columns in the Products list](from-site-column-to-managed-propertywhat-s-up-with-that.md#BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList).) Selecting **Contains** and **Value of a token from URL** will create the query variable we want to use. 
     
 7. Select **Add property filter**. 
     
