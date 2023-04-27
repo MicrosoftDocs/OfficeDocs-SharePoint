@@ -134,7 +134,6 @@ After applying the new category page and catalog item page to all terms, you can
 This lack of much content is good, because when we created a category page in [Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md), we created an empty page. To display content, we'll have to add Search Web Parts, which We'll explain in the next article.
     
 ### About the friendly URL for category pages
-<a name="BKMK_AboutTheFriendlyURLForCategoryPages"> </a>
 
 When you use managed navigation, the friendly URLs that visitors see are composed of the terms from the term set that drives site navigation. To see how friendly URLs are composed, on the **Term Store Management Tool** page, select a term, for example "Audio," and then select the **TERM-DRIVEN PAGES** tab. 
   
@@ -151,7 +150,6 @@ If you want to change a friendly URL, for example from "audio" to "audio players
 If this concept was confusing, don't worry. We'll explain more about how Search Web Parts work in the next article.
   
 ### Next article in this series
-<a name="BKMK_AboutTheFriendlyURLForCategoryPages"> </a>
 
 [Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md)
   
