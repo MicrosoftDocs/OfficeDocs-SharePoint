@@ -321,7 +321,7 @@ If you're using cross-site publishing, which shows catalog content on a publishi
   
   ```
 
-4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId and the UserId.
+4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId, and the UserId.
     
   ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
