@@ -194,7 +194,7 @@ For [shared channel sites](/microsoftteams/shared-channels), only users in the r
 
 **For example:**
 
-Consider a tenant Contoso, which has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a Shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
+Consider a tenant Contoso, which has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
 
 > [!NOTE]
 > Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
