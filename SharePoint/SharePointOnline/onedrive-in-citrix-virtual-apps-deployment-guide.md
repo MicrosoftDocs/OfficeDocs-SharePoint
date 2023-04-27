@@ -48,7 +48,7 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
     `Type: REG_DWORD`<p>
     `Value: 1`
 
-  To ensure that the feature is correctly enabled, Launch a published command prompt (cmd.exe) and run start `ms-settings:printers`. If the feature is enabled, the printer setting window is displayed.
+  To ensure that the feature is correctly enabled, Launch a published command prompt (cmd.exe) and run `start ms-settings:printers`. If the feature is enabled, the printer setting window is displayed.
 
 **We recommend adding OneDrive.exe to `LogoffCheckSysModules`**.
 
