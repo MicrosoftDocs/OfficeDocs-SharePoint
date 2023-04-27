@@ -1,5 +1,5 @@
 ---
-ms.date: 04/27/2023
+ms.date: 05/01/2023
 title: "Restrict access to a SharePoint site by group membership"
 ms.reviewer: nibandyo
 manager: serdars
@@ -203,6 +203,7 @@ Audit events are available in Microsoft Purview compliance portal to help you mo
 
 1. Applying Restricted Access Control for site
 2. Removing Restricted Access Control for site
+3. Changing Restricted Access control groups for site
 
 ## Related articles
 
