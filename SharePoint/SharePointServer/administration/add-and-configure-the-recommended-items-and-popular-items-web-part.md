@@ -60,7 +60,7 @@ Here are the steps to configure the RIWP:
     
     ![Edit WP](../media/OTCSP_EditWP.png)
   
-3. In the Web Part tool pane, select **Change query**. Selecting this option opens a dialog. 
+3. In the Web Part tool pane, select **Change query**. This option opens a dialog. 
     
 4. In the **Build Your Query** dialog, select the following: 
     
@@ -98,7 +98,7 @@ If we break the query down, we get the following components:
     
     From the *URL of the Authoring site*, search for *document or list items* where the value of the managed property *recommendedfor* contains the value that is currently used as the second value in the URL, counting from right to left. 
     
-    Now we know what the query means. But we're not done with the configuration. In the **SEARCH RESULT PREVIEW** section, we see that all items in a product group display, for example, all *SV Keyboard E10*. Notice that the items all have the same value for Group Number in the URL. 
+    Now we know what the query means. But we're not done with the configuration. In the **SEARCH RESULT PREVIEW** section, we can see that all items in a product group are displayed, for example, all *SV Keyboard E10* (notice that they all have the same value for Group Number in the URL). 
     
      ![Recommended Items](../media/OTCSP_RecommendedItems.png)
   
@@ -181,7 +181,7 @@ In our Contoso scenario, we'll show the PIWP above the CSWP.
     
      ![Edit PIWP](../media/OTCSP_EditPIWP.png)
   
-3. In the Web Part tool pane, select **Change query**. Selecting this option opens a dialog.
+3. In the Web Part tool pane, select **Change query**. This optin opens a dialog.
     
 4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site.
     
@@ -257,5 +257,3 @@ In the next article of this series, we'll explain how all these configurations w
 ### Next article in this series
 
 [Use recommendations and popular items on websites with anonymous users in SharePoint Server](use-recommendations-and-popular-items-on-websites-with-anonymous-users.md)
-  
-

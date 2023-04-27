@@ -354,7 +354,7 @@ If you're using cross-site publishing, which shows catalog content on a publishi
     
   - \<DefaultUsageEventType\> is the name of the default event type—for example,  *Views*  . 
     
-  - \<URL\> is the URL in the managed property  *OriginalPath*  . 
+  - \<URL\> is the URL in the managed property *OriginalPath*.
     
   - \<SiteId GUID\> is the SiteId GUID of the authoring site. For information on how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
@@ -420,7 +420,7 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
 ## Change the Recent time period for a usage event type
 <a name="BKMK_ChangeRecentTimePeriod"> </a>
 
-The usage event type property **RecentPopularityTimeframe** is a numeric value that defines the **Recent** time period in the **Most Popular Items** report. The Most Popular Items report shows the most popular items per usage event type for all items in a library or list—for example, the most viewed items in a library or list. The report can be sorted by the time periods **Recent** or **Ever**. By default, the Recent time period is set to the last 14 days for each usage event. You can change this to a time period between one and 14 days.
+The usage event type property **RecentPopularityTimeframe** is a numeric value that defines the **Recent** time period in the **Most Popular Items** report. The Most Popular Items report shows the most popular items per usage event type for all items in a library or list—for example, the most viewed items in a library or list. The report can be sorted by the time periods **Recent** or **Ever**. By default, the Recent time period is set to the last 14 days for each usage event. You can change this value to a time period between one and 14 days.
   
  **To change the Recent time period for a usage event type**
   

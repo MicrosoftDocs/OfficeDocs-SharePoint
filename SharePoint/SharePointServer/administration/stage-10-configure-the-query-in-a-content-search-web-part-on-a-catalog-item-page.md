@@ -46,11 +46,11 @@ In this article, you'll learn:
 ### Defining how catalog items should be displayed on our Contoso site
 <a name="BKMK_DefiningHowCatalotItemsShouldBeDisplayedOnOurContosoSite"> </a>
 
-The various products featured in the Contoso catalog are all available in different colors. For example, by looking in our catalog list, you'll see that the  *Northwind Traders 50W Car Radio*  is available in five colors. The color versions of a product are grouped under a common  *Group Number*  . 
+The various products featured in the Contoso catalog are all available in different colors. For example, by looking in our catalog list, you'll see that the  *Northwind Traders 50W Car Radio*  is available in five colors. The color versions of a product are grouped under a common  *Group Number*. 
   
 ![Catalog Car Radio](../media/OTCSP_CatalogCarRadio.png)
   
-When displaying a product on our Contoso site, visitors should easily see that the product is available in other colors. For example, when visitors browse to a silver colored version of the  *Northwind Traders 50W Car Radio*  , they should easily see which other color options are available for that item. They should also be able to view details quickly about the product in another color, without having to go back to the category page. 
+When displaying a product on our Contoso site, visitors should easily see that the product is available in other colors. For example, when visitors browse to a silver colored version of the  *Northwind Traders 50W Car Radio*, they should easily see which other color options are available for that item. They should also be able to view details quickly about the product in another color, without having to go back to the category page. 
   
 So, on our catalog item page, we want to display items that have the same  *Group Number*. To do this configuration, we must use the Content Search Web Part (CSWP). 
   
@@ -102,7 +102,7 @@ As mentioned above, when we configured the query in the CSWP on the catalog page
 
 1. In the Web Part, select the **Web Part** menu > **Edit Web Part**. 
     
-2. In the Web Part tool pane, select **Change query**. This option opens a dialog box.
+2. In the Web Part tool pane, select **Change query**. This option opens a dialog box. 
     
 3. In the dialog box, from the **Select a query** list, select your catalog result source. In our scenario, it's *catalog - Products Results*. 
     
@@ -124,7 +124,7 @@ In Advanced Mode, in the **Query text** field, you'll see some text. This text i
     
      ![Query Set](../media/OTCSP_QuerySet.png)
   
- **ProductCatalogGroupNumberOWSTEXT** is the managed property name of the site column  *Group Number*  . (Earlier in this series, we looked at naming convention for this column in [Naming convention for the default site columns in the Products list](from-site-column-to-managed-propertywhat-s-up-with-that.md#BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList).) Selecting **Contains** and **Value of a token from URL** will create the query variable we want to use. 
+ **ProductCatalogGroupNumberOWSTEXT** is the managed property name of the site column  *Group Number*. (Earlier in this series, we looked at naming convention for this column in [Naming convention for the default site columns in the Products list](from-site-column-to-managed-propertywhat-s-up-with-that.md#BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList).) Selecting **Contains** and **Value of a token from URL** will create the query variable we want to use. 
     
 7. Select **Add property filter**. 
     

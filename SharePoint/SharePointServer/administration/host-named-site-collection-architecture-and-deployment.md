@@ -199,7 +199,8 @@ If you don't intend to configure two or more IIS websites that share the same po
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
 
     > [!NOTE]
-    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+
 
 2. Open the **SharePoint Management Shell**.
 
@@ -244,7 +245,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
 
     > [!NOTE]
-    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
 
 2. Open the **SharePoint Management Shell**.
 
@@ -434,9 +435,9 @@ The following two tables contrast three different design choices to implement si
 |:-----|:-----|:-----|:-----|
 |Site collection provisioning|Use Microsoft PowerShell or a custom site collection provisioning solution to provision sites.|Use Central Administration or Microsoft PowerShell to deploy sites.|Use Microsoft PowerShell or a custom site collection provisioning solution to provision sites.|
 |URL management|You can map all site collections in DNS to point to a single IP address that represents the web application.|If you implemented more than one zone, you configure alternate access mapping for each site URL. Each zone also requires a mapping in DNS.|Extra configuration is required to ensure that requests for sites that share the same port are mapped to the correct web application. Each unique host name also requires a mapping in DNS. This configuration is manual and you must complete it on each web server in a farm for each site.|
-|More URLs|You can assign up to five URLs to a host-named site collection, one per zone. It's not necessary to extend the web application to multiple zones. If a zone isn't implemented the default zone is used.|The number of URLs for a site collection is limited to five because this is the number of zones that is allowed.|You can assign up to five URLs to a host-named site collection, one per zone. It isn't necessary to extend the web application to multiple zones. If a zone isn't implemented the default zone is used.|
+|More URLs|You can assign up to five URLs to a host-named site collection, one per zone. It's not necessary to extend the web application to multiple zones. If a zone isn't implemented, the default zone is used.|The number of URLs for a site collection is limited to five because the allowed number of zones is five.|You can assign up to five URLs to a host-named site collection, one per zone. It's not necessary to extend the web application to multiple zones. If a zone isn't implemented, the default zone is used.|
 |Service applications|All sites in the farm use a single service application group.|You can implement custom service application groups for different web applications.|You can implement custom service application groups for different web applications.|
-|Zones|You don't have to implement multiple zones to implement different URLs for the same site collection. If a zone isn't implemented the default zone is used.|Zones are necessary to implement different URLs for the same site collection.|You don't have to implement multiple zones to implement different URLs for the same site collection. If a zone isn't implemented the default zone is used.|
+|Zones|You don't have to implement multiple zones to implement different URLs for the same site collection. If a zone isn't implemented, the default zone is used.|Zones are necessary to implement different URLs for the same site collection.|You don't have to implement multiple zones to implement different URLs for the same site collection. If a zone isn't implemented, the default zone is used.|
 |Authentication|With one web application, authentication options are limited to five zones. However, you can implement many authentication methods on one zone.|You can implement different authentication and zone designs for each web application.|You can implement different authentication and zone designs for each web application.|
 |Authentication|Provides client scripting isolation between domain URLs.|You can isolate web applications into dedicated application pools, if desired, to achieve process isolation.  <br/> Provides isolation between domain URLs.|You can isolate web applications into dedicated application pools, if desired, to achieve process isolation.  <br/> Provides isolation between domain URLs.|
 |Policy|You can use zones to assign different policies to host-named sites.|You can use policies at the web application level to enforce permissions, regardless of permissions that are configured on individual sites or documents. Additionally, you can implement different policies for different zones.|You can implement different policies for different web applications to enforce permissions, regardless of permissions that are configured on individual sites or documents.  <br/> Additionally, you can implement different policies for different zones.|
@@ -452,7 +453,7 @@ The following table summarizes the configuration that is necessary to manage URL
 |Within SharePoint Server|Create the web application.  <br/>  Create a root-site collection that isn't accessible to users (for example, `https://HNSC01.fabrikam.com`).  <br/>  Create the host-named site collections with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally add more URLs for each site collection and configure zones by using **Set-SPSiteUrl**. (In corporate portal design samples there's no need because there's only one zone.)|Create the web application with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally configure alternate access mapping. In the design sample, there's no need because there's only one zone).  <br/>  Create the root path-based site collection.|Create the web application.  <br/>  Create a root-site collection that isn't accessible to users (for example, `https://HNSC01.fabrikam.com`).  <br/>  Create the host-named site collections with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally add more URLs for each site collection and configure zones by using **Set-SPSiteUrl**. (In corporate portal design samples there's no need because there's only one zone.)|
 |Within IIS|Associate an SSL certificate (wildcard certificate or SAN certificate) for all host-named site (domain) in the web application.|Associate an SSL certificate in IIS for each zone (each zone is a separate web application in IIS).|Associate an SSL certificate (wildcard certificate or SAN certificate) for a host-named site (domain) in the web applications.  <br/>  On each web server in the farm and for each web application that shares a port:  <br/>  Configure a separate IP address to represent each web application.  <br/>  Edit the IIS web site binding manually to remove the host header binding that was created when the web application was created and replace this binding with an IP address binding.|
 
-If you use multiple web applications on different IP addresses, you might need to complete more configurations for the NIC, DNS, and the load balancer for each server.
+If you use multiple web applications on different IP addresses, you might need to complete extra configuration for the NIC, DNS, and the load balancer for each server.
 
 ### Create multiple web applications with host-named site collections
 <a name="section4a"> </a>
@@ -462,7 +463,7 @@ To run multiple web applications on the same server and port in combination with
 > [!NOTE]
 > You can create a web application that doesn't have a host header. If you create a web application that doesn't have a host header, you can't create multiple web applications with host-named site collections on the same web server.
 
-The process that creates multiple web applications for a host-named site collections includes the following tasks:
+The process that creates multiple web applications for a host-named site collection includes the following tasks:
 
 - Create the multiple web applications.
 
