@@ -139,6 +139,7 @@
 #### [Intune](deploy-intune.md)
 #### [Configuration Manager](deploy-on-windows.md)
 #### [Per-machine installation](per-machine-installation.md)
+#### [OneDrive in Citrix Virtual Apps](onedrive-in-citrix-virtual-apps-deployment-guide.md)
 ### [Sync app options]()
 #### [Sync on virtual desktops](sync-vdi-support.md)
 #### [Updates and rings](sync-client-update-process.md)
