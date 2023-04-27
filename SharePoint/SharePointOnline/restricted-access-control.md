@@ -132,7 +132,7 @@ After running the commands, you have restricted site access to members of the sp
 
 ### Edit restricted access control groups for a non-group site
 
-You can add up to 10 Azure AD security groups whose members will be allowed access to the site. The specified security groups can be managed as **Restricted access control groups** when the setting is applied. Restricted access control will now limit the site access to members of the specified security groups.
+You can add up to 10 Azure AD security groups whose members will be allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control will now limit the site access to members of the specified security groups.
 
 To edit a restricted access control group for a non-group site, run the following command:
 
