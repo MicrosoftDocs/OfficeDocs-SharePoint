@@ -103,9 +103,10 @@ Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separat
 ```
 
 > [!NOTE]
-> 1. For restricted access control to be enforced on the site, you must add at least one security group whose members are allowed site access.
-> 2. You can add up to 10 Security Groups for a given site.
-> 3. The users in the security group will automatically have access to the site.
+>
+> - For restricted access control to be enforced on the site, you must add at least one security group whose members are allowed site access.
+> - You can add up to 10 Security Groups for a given site.
+> - The users in the security group will automatically have access to the site.
 
 **For example:**
 
@@ -114,7 +115,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/marketingdepartment -
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/marketingdepartment -AddRestrictedAccessControlGroups AFD516B5-C350-4C2A-8339-600B93C56791
 ```
 
-After running the commands, you have restricted site access to members of the specified security group (Employees_MarketingDepartmenet).
+After running the commands, you have restricted site access to members of the specified security group (Employees_MarketingDepartment).
 
 > [!TIP]
 > To identify corresponding GUID for a given security group (say Employees_MarketingDepartment), run the following commands:
@@ -144,6 +145,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 ```
 
 > [!NOTE]
+>
 > 1. The security groups specified will automatically get access to the site permissions.
 > 2. The policy is enforced only when it is enabled on the site and has at least one security group added.
 
