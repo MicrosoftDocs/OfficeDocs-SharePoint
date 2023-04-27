@@ -40,7 +40,7 @@ Use the procedure described in this section to extend a claims-based SharePoint 
     
   - Click **Create a new IIS web site**, and then type the name of the web site in the **Name** box. 
     
-5. In the **IIS Web Site** section, in the **Port** box, type the port number you want to use to access the web application. If you are creating a new web site, this box contains a suggested port number. If you are using an existing web site, this box contains the current port number. 
+5. In the **IIS Web Site** section, in the **Port** box, type the port number you want to use to access the web application. If you're creating a new web site, this box contains a suggested port number. If you're using an existing web site, this box contains the current port number. 
     
     > [!NOTE]
     > The default port number for HTTP access is 80, and the default port number for HTTPS access is 443. To enable users to access the web application without typing in a port number, use the appropriate default port number. 
@@ -50,7 +50,7 @@ Use the procedure described in this section to extend a claims-based SharePoint 
     > [!NOTE]
     > In general, this box is empty unless you want to configure two or more IIS web sites to use the same port on the same server and DNS has been configured to point multiple server names to the same server. 
   
-7. In the **IIS Web Site** section, in the **Path** box, type the path to the site directory on the server. If you are creating a new web site, this box contains a suggested path. If you are using an existing web site, this box contains the current path of that web site. 
+7. In the **IIS Web Site** section, in the **Path** box, type the path to the site directory on the server. If you're creating a new web site, this box contains a suggested path. If you're using an existing web site, this box contains the current path of that web site. 
     
 8. In the **Security Configuration** section, select the authentication method that you want to use for the web application and choose whether or not to use **Use Secure Sockets Layer (SSL)**.
     
@@ -73,9 +73,9 @@ Use the procedure described in this section to extend a claims-based SharePoint 
 
 If you're using [cross-site publishing](overview-of-cross-site-publishing.md), be careful about extending the web application. Depending on which site collection you extend the web application for, it can break the friendly URLs to your catalog items. Here's what you should do:
   
-- On your authoring site, don't extend the web application. It'll break the friendly URLs to your catalog items. For example, the URL to your catalog item will not point to the friendly URL https://www.contoso.com/Computers/model101 but to the catalog item in your authoring site, for example https://www.contoso.com/sites/catalog/Lists/Products/DispForm.aspx?ID=1&amp;Source=http%3A%2F%. 
+- On your authoring site, don't extend the web application. It will break the friendly URLs to your catalog items. For example, the URL to your catalog item won't point to the friendly URL `https://www.contoso.com/Computers/model101`, but to the catalog item in your authoring site, for example `https://www.contoso.com/sites/catalog/Lists/Products/DispForm.aspx?ID=1&amp;Source=http%3A%2F%`. 
     
-- On your publishing site, if you want to extend the web application, for example to support different authentication providers, you have to extend the web application  *before*  you connect your publishing site to a catalog as described in [Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md). If you've already connected your publishing site to a catalog, do the following:
+- On your publishing site, if you want to extend the web application, for example to support different authentication providers, you have to extend the web application  *before*  you connect your publishing site to a catalog as described in [Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md). If you have already connected your publishing site to a catalog, do the following:
     
 1. Disconnect the publishing site from the catalog.
     

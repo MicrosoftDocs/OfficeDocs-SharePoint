@@ -35,7 +35,7 @@ We recommend that you perform all of the procedures in the order listed for best
 Because My Sites have dependencies on other service applications and features in SharePoint Server, ensure that you meet the prerequisites in this section before you perform the procedures in this task.
   
 > [!NOTE]
-> My Sites are hosted by a web application and rely on a User Profile service application. Both are described in this section. My Sites also requires a managed metadata service application. We recommend that you also have a Search service application to use with My Sites, but this is not required. Without the Search service application, some My Sites functionality is affected. For more information, see [Plan for My Sites in SharePoint Server](my-sites-planning.md). 
+> My Sites are hosted by a web application and rely on a User Profile service application. Both are described in this section. My Sites also requires a managed metadata service application. We recommend that you also have a Search service application to use with My Sites, but this isn't required. Without the Search service application, some My Sites functionality is affected. For more information, see [Plan for My Sites in SharePoint Server](my-sites-planning.md). 
   
 ### Web application
 <a name="webapp"> </a>
@@ -43,7 +43,7 @@ Because My Sites have dependencies on other service applications and features in
 Although you can use an existing web application, for optimal performance and security, we recommend that you create the My Site host site collection in a dedicated web application. For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
   
 > [!IMPORTANT]
-> If a My Site host site collection was created during initial deployment and configuration, we recommend that you do not use it because it was created in the default web application. Delete this site collection, and create a new web application that is dedicated to hosting My Sites. Then create a new My Site host site collection in the dedicated web application. 
+> If a My Site host site collection was created during initial deployment and configuration, we recommend that you don't use it because it was created in the default web application. Delete this site collection, and create a new web application that is dedicated to hosting My Sites. Then create a new My Site host site collection in the dedicated web application. 
   
 ### User Profile service application and profile synchronization
 <a name="upsapp"> </a>
@@ -59,17 +59,17 @@ Ensure you have a User Profile service application that you want to use for My S
 ## Create a My Site host site collection
 <a name="mysitehost"> </a>
 
-The My Site host site collection is a site collection that uses the Enterprise site template named **My Site Host**. This site collection must be created in the web application that you want to host My Sites. Generally, this site collection can be created at the root path of the web application, although it can be created as an explicit inclusion managed path deeper in the URL as long as there is a site collection created at the web application root. For more information about how to select the path for the My Site host collection, see [Plan for My Sites in SharePoint Server](my-sites-planning.md).
+The My Site host site collection is a site collection that uses the Enterprise site template named **My Site Host**. This site collection must be created in the web application that you want to host My Sites. Generally, this site collection can be created at the root path of the web application, although it can be created as an explicit inclusion managed path deeper in the URL as long as there's a site collection created at the web application root. For more information about how to select the path for the My Site host collection, see [Plan for My Sites in SharePoint Server](my-sites-planning.md).
   
  **To create a My Site host site collection**
   
 1. Verify that you have the following administrative credentials:
     
-  - To create a My Site host site collection, you must be a member of the Farm Administrators group on the computer running the SharePoint Central Administration website or a service application administrator for the services related to My Sites. If you are a service application administrator, you must also have permission to create site collections in the web application that you dedicate to host My Sites.
+  - To create a My Site host site collection, you must be a member of the Farm Administrators group on the computer running the SharePoint Central Administration website or a service application administrator for the services related to My Sites. If you're a service application administrator, you must also have permission to create site collections in the web application that you dedicate to host My Sites.
     
 2. In Central Administration, click **Application Management**, and then click **Create site collections**.
     
-3. On the **Create Site Collection** page, in the **Web Application** section, ensure that the selected web application is the web application that you want to host My Sites. If it is not, expand the list, and then click **Change Web Application**. In the **Select Web Application** dialog, select a different web application. 
+3. On the **Create Site Collection** page, in the **Web Application** section, ensure that the selected web application is the web application that you want to host My Sites. If it isn't, expand the list, and then click **Change Web Application**. In the **Select Web Application** dialog, select a different web application. 
     
 4. In the **Title and Description** section, type a title and description for the site collection. 
     
@@ -79,7 +79,7 @@ The My Site host site collection is a site collection that uses the Enterprise s
     
 7. In the **Primary Site Collection Administrator** section, and optionally in the **Secondary Site Collection Administrator** section, type an account in the format  _domain\username_ to specify an administrator for the site collection. 
     
-8. Optionally, in the **Quota Template** section, select a quota template for the My Site host site collection. This quota template does not affect the individual site collections that users create for their My Sites. For more information, see [Planning for storage requirements](my-sites-planning.md#storage) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
+8. Optionally, in the **Quota Template** section, select a quota template for the My Site host site collection. This quota template doesn't affect the individual site collections that users create for their My Sites. For more information, see [Planning for storage requirements](my-sites-planning.md#storage) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
     
 9. Click **OK**. Copy this site collection URL for later reference.
     
@@ -195,7 +195,7 @@ After you have a My Site host site collection and wildcard inclusion managed pat
     
 4. On the **Manage Profile Service** page, in the **My Site Settings** section, click **Setup My Sites**.
     
-5. On the **My Sites Settings** page, in the **Preferred Search Center** section, specify settings for the search center to direct users to when they search for people or documents from their **About Me** profile page. If you do not have a search center set up yet, you can skip this step and complete it later. For more information, see [Search service application](my-sites-planning.md#searchapp) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
+5. On the **My Sites Settings** page, in the **Preferred Search Center** section, specify settings for the search center to direct users to when they search for people or documents from their **About Me** profile page. If you don't have a search center set up yet, you can skip this step and complete it later. For more information, see [Search service application](my-sites-planning.md#searchapp) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
     
 6. In the **My Site Host** section, type the URL of the My Site host site collection that you created earlier in this task. 
     
@@ -205,28 +205,28 @@ After you have a My Site host site collection and wildcard inclusion managed pat
     
 9. In the **Site Naming Format** section, select a naming format for the My Sites site collections that will be created when users view their My Sites for the first time. For more information about these formats, see [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
     
-10. In the **Language Options** section, there is an option to specify whether users can select a preferred language for their My Site. However, the current behavior is to default to the installation language for SharePoint. [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md)
+10. In the **Language Options** section, there's an option to specify whether users can select a preferred language for their My Site. However, the current behavior is to default to the installation language for SharePoint. [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md)
 
   > [!NOTE]
-  > This section is not present in SharePoint Server 2019.
+  > This section isn't present in SharePoint Server 2019.
     
-11. In the **Read Permission Level** section, specify the users or groups that can view other users' My Sites when they are created. By default, this includes all authenticated users. However, you can select a more specific group or users depending on the needs of your deployment. 
+11. In the **Read Permission Level** section, specify the users or groups that can view other users' My Sites when they're created. By default, this includes all authenticated users. However, you can select a more specific group or users depending on the needs of your deployment. 
     
-12. In the **Security Trimming Options** section, specify how system generated posts are checked for permissions before they are displayed in feeds and on the **Tags and Notes** page. 
+12. In the **Security Trimming Options** section, specify how system generated posts are checked for permissions before they're displayed in feeds and on the **Tags and Notes** page. 
     
 13. In the **Newsfeed** section, enable system generated posts to the feed on My Sites by selecting **Enable activities in My Site newsfeeds**. This option is selected by default. This is important in hosted environments where tenants can share the same User Profile service but have different requirements on whether they can enable newsfeeds for their users. 
     
-14. In the **E-mail Notifications** section, specify an email address to use as the sender email address for My Site email notifications. This account does not have to be a real monitored email address. If you want to receive notifications for newsfeed activities, such as replies to your posts or when someone follows you, select **Enable newsfeed email notifications**.
+14. In the **E-mail Notifications** section, specify an email address to use as the sender email address for My Site email notifications. This account doesn't have to be a real monitored email address. If you want to receive notifications for newsfeed activities, such as replies to your posts or when someone follows you, select **Enable newsfeed email notifications**.
     
     > [!IMPORTANT]
     > You must add the IP address of the farm's outbound SMTP server to the safe list in Exchange Server 2013 to prevent My Site email notifications from being sent to the Junk folder. 
   
-15. In the **My Site Cleanup** section, specify a new owner of a My Site if the existing My Site user is removed from the profile database. For example, if a user leaves the company and is no longer in the profile database, the user's My Site will be deleted together with any content. However, before it is deleted, a new owner can recover any important content. Select **Enable access delegation** for the My Site cleanup job to first attempt to assign ownership of the My Site to the user's manager. If no manager is found, the My Site is assigned to the user specified in **Secondary Owner**. The new owner has two weeks to retrieve content from the My Site before it is deleted.
+15. In the **My Site Cleanup** section, specify a new owner of a My Site if the existing My Site user is removed from the profile database. For example, if a user leaves the company and is no longer in the profile database, the user's My Site will be deleted together with any content. However, before it's deleted, a new owner can recover any important content. Select **Enable access delegation** for the My Site cleanup job to first attempt to assign ownership of the My Site to the user's manager. If no manager is found, the My Site is assigned to the user specified in **Secondary Owner**. The new owner has two weeks to retrieve content from the My Site before it's deleted.
     
-16. In the **Privacy Settings** section, select **Make My Sites Public** to make all users' My Sites public. This option is not selected by default. 
+16. In the **Privacy Settings** section, select **Make My Sites Public** to make all users' My Sites public. This option isn't selected by default. 
     
     > [!NOTE]
-    > When a user's My Site is public, the user's list of followers, the user's list of people they are following, and all activities (including new follow notifications, social tagging and rating of content, birthdays, job title changes, workplace anniversary, updating Ask Me About, posting on a note board, and new blog posts) will be public. Any policies set within **People and Privacy** on the **Manage Policies** page is overridden. 
+    > When a user's My Site is public, the user's list of followers, the user's list of people they're following, and all activities (including new follow notifications, social tagging and rating of content, birthdays, job title changes, workplace anniversary, updating Ask Me About, posting on a note board, and new blog posts) will be public. Any policies set within **People and Privacy** on the **Manage Policies** page is overridden. 
   
 17. Click **OK**.
     
@@ -265,7 +265,7 @@ There are other timer jobs related to My Sites that you might want to review and
     
 3. On the **Job Definitions** page, in the **View** list, select **Service**. The **Service** list appears. 
     
-  - If the **Service** list does not display **User Profile Service**, in **Service**, click **No selection**, then click **Change Service**. On the **Select Service** page, use the arrows in the upper-right corner to locate **User Profile Service**, and then click it. The **Job Definitions** page updates with the User Profile service jobs. 
+  - If the **Service** list doesn't display **User Profile Service**, in **Service**, click **No selection**, then click **Change Service**. On the **Select Service** page, use the arrows in the upper-right corner to locate **User Profile Service**, and then click it. The **Job Definitions** page updates with the User Profile service jobs. 
     
 4. Click the activity feed job for the User Profile service application that you created in [Prerequisites](configure-my-sites.md#prereq) earlier in this article. The job name is in the format  _User_Profile_service_name_ - **Activity Feed Job**, where  _User_Profile_service_name_ is the name that you specified for your User Profile service application. 
     
@@ -396,6 +396,6 @@ If your organization wants to provide important information to users, it can do 
 ### Start related services
 <a name="startsvcs"> </a>
 
-If the related services for My Sites have not been started yet, start them so that My Sites functionality is available in your environment. For more information, see [Start or stop a service in SharePoint Server](../administration/start-or-stop-a-service.md).
+If the related services for My Sites haven't been started yet, start them so that My Sites functionality is available in your environment. For more information, see [Start or stop a service in SharePoint Server](../administration/start-or-stop-a-service.md).
   
 

@@ -23,7 +23,7 @@ description: "Learn about the naming conventions for automatically created crawl
 ## How site columns become managed properties
 <a name="BKMK_FromSiteColumnsToManagedProperties"> </a>
 
-When you add columns to a SharePoint library or list, you can choose to add regular columns or site columns. For information about the difference between regular columns and site columns, see [Introduction to columns](/previous-versions/office/developer/sharepoint-2010/ms450825(v=office.14)). In SharePoint, only site columns that contain values will automatically become managed properties when they are crawled. Regular columns will not automatically become managed properties when they are crawled.
+When you add columns to a SharePoint library or list, you can choose to add regular columns or site columns. For information about the difference between regular columns and site columns, see [Introduction to columns](/previous-versions/office/developer/sharepoint-2010/ms450825(v=office.14)). In SharePoint, only site columns that contain values will automatically become managed properties when they're crawled. Regular columns won't automatically become managed properties when they're crawled.
 
 Before you can share content in a library or list with other site collections, you must share the library or list as a catalog, and then start a full crawl of the content. For more information, see "Share a library or list as a catalog" in [Configure cross-site publishing in SharePoint Server](../administration/configure-cross-site-publishing.md).
 
@@ -54,9 +54,9 @@ During the crawl of library content, the following actions are performed on the 
 |Multiple lines of text|ows_r_MTXT_SiteColumnName|SiteColumnNameOWSMTXT|As is.|
 |Choice|ows_q_CHCS_SiteColumnName|SiteColumnNameOWSCHCS|The text value of the choice.|
 |Choice (allow multiple selections)|ows_q_CHCM_SiteColumnName|SiteColumnNameOWSCHCM|Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.|
-|Number|ows_q_NMBR_SiteColumnName|SiteColumnNameOWSNMBR|Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
-|Currency|ows_q_CURR_SiteColumnName|SiteColumnNameOWSCURR|Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
-|Date and Time|ows_q_DATE_SiteColumnName|SiteColumnNameOWSDATE|Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.|
+|Number|ows_q_NMBR_SiteColumnName|SiteColumnNameOWSNMBR|Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format can't be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
+|Currency|ows_q_CURR_SiteColumnName|SiteColumnNameOWSCURR|Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format can't be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
+|Date and Time|ows_q_DATE_SiteColumnName|SiteColumnNameOWSDATE|Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format can't be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.|
 |Yes/No|ows_q_BOOL_SiteColumnName|SiteColumnNameOWSBOOL|For true, use value 1. For false, use value 0.|
 |Person or Group|ows_q_USER_SiteColumnName|SiteColumnNameOWSUSER|Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
 |Hyperlink or Picture|ows_q_URLH_SiteColumnName|SiteColumnNameOWSURLH|URL, description. For example, https://www.contoso.com, Welcome to the home page of Contoso.|
@@ -64,7 +64,7 @@ During the crawl of library content, the following actions are performed on the 
 |Publishing Image|ows_q_IMGE_SiteColumnName|SiteColumnNameOWSIMGE|Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" \/>.|
 |Publishing Link|ows_q_LINK_SiteColumnName|SiteColumnNameOWSLINK|Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.|
 |Managed Metadata|ows_taxId_SiteColumnName|owstaxIdSiteColumnName|See "Data format for Managed Metadata" below.|
-|Integer\*|ows_q_INTG_SiteColumnName|SiteColumnNameOWSINTG|Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
+|Integer\*|ows_q_INTG_SiteColumnName|SiteColumnNameOWSINTG|Textual representation of the integer.  <br/> This format can't be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.|
 |GUID\*|ows_q_GUID_SiteColumnName|SiteColumnNameOWSGUID|Values separated by hyphens, enclosed in brackets. For example, {147C6BA1-709C-4401-964A-27AC36B62C54}.|
 |Grid Choice\*|ows_q_CHCG_SiteColumnName|SiteColumnNameOWSCHCG|For each row, row name separated by semi-colon and hash mark, followed by the selected value.|
 |ContentTypeIDFieldType\*|ows_q_CTID_SiteColumnName|SiteColumnNameOWSCTID|Name:#ContentTypeID;#|
