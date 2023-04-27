@@ -73,7 +73,7 @@ Use the procedure described in this section to extend a claims-based SharePoint 
 
 If you're using [cross-site publishing](overview-of-cross-site-publishing.md), be careful about extending the web application. Depending on which site collection you extend the web application for, it can break the friendly URLs to your catalog items. Here's what you should do:
   
-- On your authoring site, don't extend the web application. It'll break the friendly URLs to your catalog items. For example, the URL to your catalog item will not point to the friendly URL http://www.contoso.com/Computers/model101 but to the catalog item in your authoring site, for example http://www.contoso.com/sites/catalog/Lists/Products/DispForm.aspx?ID=1&amp;Source=http%3A%2F%. 
+- On your authoring site, don't extend the web application. It'll break the friendly URLs to your catalog items. For example, the URL to your catalog item will not point to the friendly URL https://www.contoso.com/Computers/model101 but to the catalog item in your authoring site, for example https://www.contoso.com/sites/catalog/Lists/Products/DispForm.aspx?ID=1&amp;Source=http%3A%2F%. 
     
 - On your publishing site, if you want to extend the web application, for example to support different authentication providers, you have to extend the web application  *before*  you connect your publishing site to a catalog as described in [Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md). If you've already connected your publishing site to a catalog, do the following:
     
