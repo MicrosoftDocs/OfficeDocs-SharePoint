@@ -25,7 +25,11 @@ description: "Learn how to configure the query in a Content Search Web Part on a
   
 ## Quick Overview
 
-[Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md) explained how to add a Content Search Web Part to a page and how to configure the query for a catalog page. The next step is to do the same for the catalog item page. 
+[Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md) explains: 
+- How to add a Content Search Web Part to a page
+- How to configure the query for a catalog page 
+
+The next step is to do the same for the catalog item page. 
   
 In this article, you'll learn:
   
@@ -68,14 +72,14 @@ Our catalog item page only has one Web Part zone. To add a CSWP to our catalog i
   
 ![CSWP Added](../media/OTCSP_CSWPadded.png)
   
-As was the case when we added a CSWP to our category page, the Web Part displays some content (Audio, Cameras and Computers), but does not display the content we want. To make the Web Part display Contoso catalog content, we must configure the query in the Web Part. To configure the query, we'll use what's known as a query variable. But first, let's take a look at what query variables are and how they're used when you configure a query.
+As was the case when we added a CSWP to our category page, the Web Part displays only content such as Audio, Cameras and Computers but not the content we want. To make the Web Part display Contoso catalog content, we must configure the query in the Web Part. To configure the query, we'll use what's known as a query variable. But first, let's take a look at what query variables are and how they're used when you configure a query.
   
 ### About query variables
 <a name="BKMK_AboutQueryVariables"> </a>
 
 A query variable is a placeholder that is replaced with a value when a query is run. Let's look at this definition within the context of our Contoso scenario.
   
-You might not have been aware of it, but in [Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md), when we configured the query in the CSWP on the catalog page, we used a query variable. When we selected **Restrict by current and child navigation terms**, a query variable was added to our query. That query variable was a placeholder for the navigation value in the URL (audio, camera, mp3, etc.). Whenever a visitor clicks a category, the query variable in the Web Part is replaced with the navigation value in the URL. As a result, the Web Part issued a query for catalog items that are tagged with "audio", "camera", "mp3", and so on 
+You might not have been aware of it, but in [Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md), we used a query variable when we configured the query in the CSWP on the catalog page. When we selected **Restrict by current and child navigation terms**, a query variable was added to our query. That query variable was a placeholder for the navigation value in the URL (audio, camera, mp3, etc.). Whenever a visitor clicks a category, the query variable in the Web Part is replaced with the navigation value in the URL. As a result, the Web Part issued a query for catalog items that are tagged with "audio", "camera", "mp3", and so on 
   
 Coming back to our catalog item page, we want to display items that have the same Group Number. Remember in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md) how we added **Group Number** as one of the list columns to be used as a **Catalog Item URL Field**. We did this configuration so the value of  *Group Number*  would be used in the URL. 
   
@@ -146,7 +150,7 @@ So now you might be thinking "OK, that was easy, but what does **ProductCatalogG
     
      ![URL Token 2](../media/OTCSP_URLToken2.png)
   
-Now the query in the Web Part will search for items where the value of the managed property *ProductCatalogGroupNumberOWSTEXT* contains the value that is currently used as the second value in the URL, counting from right to left. 
+Now, the query in the Web Part will search for items whose *ProductCatalogGroupNumberOWSTEXT* value is the one currently used as the second value in the URL, counting from right to left.
     
 9. To test that this query returns the correct results, select **Test query**. 
     
