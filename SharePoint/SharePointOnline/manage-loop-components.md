@@ -34,7 +34,7 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 
 #### Microsoft 365 Groups for Cloud Policy
 
-It's not required if you choose to apply the Loop settings to all the users in your tenant. However, if you want to scope, you must create or use an existing Microsoft 365 group that defines which users in your organization this policy will apply to. You can learn how to create a Microsoft 365 group by visiting [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
+This section is not required if you choose to apply the Loop settings to all the users in your tenant; however, if you want to scope, you must create or use an existing Microsoft 365 group that defines which users in your organization this policy will apply to. You can learn how to create a Microsoft 365 group by visiting [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
 
 You'll be able to use this group for the Cloud Policy setup procedure below.
 
