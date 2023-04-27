@@ -181,7 +181,7 @@ In our Contoso scenario, we'll show the PIWP above the CSWP.
     
      ![Edit PIWP](../media/OTCSP_EditPIWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This optin opens a dialog.
+3. In the Web Part tool pane, select **Change query**. This option opens a dialog.
     
 4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site.
     
