@@ -39,8 +39,8 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 
 **Citrix**:
 
-- CVAD 7 2203 LTSR CU1 or later 
-- VDA 2212 enables Shellbridge by default, all earlier versions require Shellbridge to be enabled manually  
+- CVAD 7 2203 LTSR CU1 or later. 
+- VDA 2212 enables Shellbridge by default, all earlier versions require Shellbridge to be enabled manually.  
 - To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH or Windows 11 RDSH) add the following registry details: 
 
     `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`<p>
@@ -52,10 +52,10 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 
 **We recommend adding OneDrive.exe to `LogoffCheckSysModules`**.
 
-    `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI` <p>
-    `Value Name:LogoffCheckSysModules` <p>
-    `Type:REG_SZ` <p>
-    `String:OneDrive.exe, Microsoft.Sharepoint.exe` 
+   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI` <p>
+   `Value Name:LogoffCheckSysModules` <p> 
+   `Type:REG_SZ` <p>
+   `String:OneDrive.exe, Microsoft.Sharepoint.exe` <p> 
 
  
 > [!IMPORTANT]
@@ -67,7 +67,7 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 1. Install the latest version of FSLogix. See [Install FSLogix Applications](/fslogix/how-to-install-fslogix).
 
     > [!NOTE]
-    > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version.
+    > All non-persistent VDI environments require the latest version of FSLogix. Ensure you install the latest version. See [OneDrive sync error FSLogix_unsupported_environment on VMs - SharePoint | Microsoft Learn](/sharepoint/troubleshoot/sync/fslogix-unsupported-environment-sync-error-vm).
 
 1. Add OneDrive to HKLM\Software\Microsoft\Windows\CurrentVersion\Run by using the following command.
 
