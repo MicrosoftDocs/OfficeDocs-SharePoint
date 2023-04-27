@@ -117,7 +117,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 > When you enable the EnableSyncAdminReports setting on devices, it can take up to three days for reports to be available. Devices will appear in the report after this time. Forcing a specific device to report data is unsupported.
 
 > [!NOTE]
-> OneDrive sync health reports can also be enabled using administrative templates in Intune, for more information, see [Use administrative templates in Intune](configure-sync-intune.md).
+> OneDrive sync health reports can also be enabled using administrative templates in Intune. For more information, see [Use administrative templates in Intune](configure-sync-intune.md).
 
 # [macOS](#tab/macos)
 
