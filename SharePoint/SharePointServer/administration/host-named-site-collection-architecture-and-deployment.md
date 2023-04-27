@@ -369,7 +369,7 @@ The following example shows a host-named site collection created at https:
 New-SPSite 'https://portal.contoso.com' -HostHeaderWebApplication  (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
 ```
 
-This example creates a host-named site collection that has the URL, https://portal.contoso.com, in the SharePoint Server web application that has the URL https://webapp.contoso.com.
+This example creates a host-named site collection that has the URL, `https://portal.contoso.com`, in the SharePoint Server web application that has the URL `https://webapp.contoso.com`.
 
 ### Enable apps in environments with multiple zones
 <a name="section2h"> </a>
