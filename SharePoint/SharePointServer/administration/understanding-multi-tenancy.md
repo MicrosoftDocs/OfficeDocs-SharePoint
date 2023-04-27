@@ -38,7 +38,7 @@ This article describes the components and services that are related to multi-ten
 
 Before we introduce the multi-tenancy functionality in SharePoint Server 2013, you should understand the general concept of multi-tenancy and its related characteristics.  Understanding multi-tenancy and its related characteristics will help you make the appropriate decisions for planning, designing, operating, and managing your multi-tenant SharePoint Server 2013 hosting platform.
   
-Multi-tenancy refers to the ability to manage and partition data of sites and otherwise shared services or softwares to accommodate multiple tenants. This ability is in contrast to running multiple instances of a service, or setting up separate hardwares. In Microsoft products and technologies, multi-tenancy of services creates a hosting environment wherein server farm resources are maximized. Before learning about hosting environments, it's important to understand the services architecture.
+Multi-tenancy refers to the ability to manage and partition data of sites and otherwise shared services or software to accommodate multiple tenants. This ability is in contrast to running multiple instances of a service, or setting up separate hardware. In Microsoft products and technologies, multi-tenancy of services creates a hosting environment wherein server farm resources are maximized. Before learning about hosting environments, it's important to understand the services architecture.
   
 ### Key components and services for enabling multi-tenancy in SharePoint Server 2013
 
