@@ -51,7 +51,7 @@ To access and use this feature, your organization must have the following subscr
 
 4. Once the report is created, select **Download report** to export the data as a .csv file. The **Create a copy** button allows you to create more reports with similar parameters.
 
-:::image type="content" source="media/4-change-history-report-downloaded.png" alt-text="screenshot of .a change report downloaded as .csv file.":::
+:::image type="content" source="media/4-change-history-report-downloaded.png" alt-text="screenshot of.a change report downloaded as .csv file.":::
 
 > [!NOTE]
 > The report will take hours to generate depending on the search criteria selected when creating the report.
