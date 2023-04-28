@@ -25,13 +25,13 @@ description: Find out the minimum hardware and software requirements you need to
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
-> If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
+> If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this article, support will be limited until the system is upgraded to the minimum requirements. 
   
     
 ## Hardware requirements: Location of physical servers
 <a name="hwLocServers"> </a>
 
-Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms for SharePoint Server 2019 are supported. 
+Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms are supported for SharePoint Server 2019.
   
 For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
   
