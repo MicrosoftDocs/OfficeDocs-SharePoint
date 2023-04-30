@@ -2,6 +2,14 @@
 
 
 
+## Week of April 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/24/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+
+
 ## Week of April 17, 2023
 
 
@@ -24,14 +32,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 3/31/2023 | [Unsupported file types in Migration Manager](/SharepointMigration/mm-unsupported-files) | added |
-
-
-## Week of March 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/20/2023 | [Bulk upload Egnyte folders into Migration Manager](/SharepointMigration/mm-egnyte-bulk-upload) | added |
-| 3/20/2023 | [Migration Manager Egnyte FAQs](/SharepointMigration/mm-faqs-egnyte) | added |
-| 3/21/2023 | [Migration Manager cloud migration reports](/SharepointMigration/mm-cloud-reports) | modified |
-| 3/22/2023 | [Migration Manager and the European Union Data Boundary (EUDB)](/SharepointMigration/mm-eudb) | modified |
