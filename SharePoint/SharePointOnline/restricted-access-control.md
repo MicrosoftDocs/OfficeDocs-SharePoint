@@ -39,9 +39,9 @@ To access and use this feature, your organization must do as follows:
 - download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
 - enable **restricted access control for your organization**:
   1.  Run the following command:
-    ```Powershell
-    Set-SPOTenant -EnableRestrictedAccessControl $true
-    ```
+      ```Powershell
+      Set-SPOTenant -EnableRestrictedAccessControl $true
+      ```
 
   1. Wait for approximately 1 hour.
   1. Manage restricted access control for that site.
