@@ -43,8 +43,8 @@ To access and use this feature, your organization must do as follows:
       Set-SPOTenant -EnableRestrictedAccessControl $true
       ```
 
-  1. Wait for approximately 1 hour.
-  1. Manage restricted access control for that site.
+  2. Wait for approximately 1 hour.
+  3. Manage restricted access control for that site.
 
 > [!NOTE]
 > If you have Microsoft 365 Multi-Geo, you must run this command for each geo-location you want to use restricted access control.
