@@ -35,7 +35,7 @@ For example, the Contoso tenant's research department has a Microsoft 365 group 
 
 To access and use this feature, your organization must do as follows:
 
-- subscribe to **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** before following these steps.
+- subscribe to **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** before following these instructions.
 - download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
 - enable **restricted access control for your organization**:
   1.  Run the following command:
