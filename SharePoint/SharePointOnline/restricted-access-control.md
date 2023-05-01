@@ -38,7 +38,7 @@ To access and use this feature, your organization must:
 - have the **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** subscription.
 - download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
 - enable **restricted access control for your organization** by running the following command:
-
+  1.  Run the following command:
     ```Powershell
     Set-SPOTenant -EnableRestrictedAccessControl $true
     ```
