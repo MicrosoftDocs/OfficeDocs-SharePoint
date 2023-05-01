@@ -53,7 +53,7 @@
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 #### [Sharepoint Designer workflows](spmt-workflow-migration-spd.md)
 #### [SharePoint Server 2010 OOTB migrated workflows](spmt-workflow-migrated-flows.md)
-#### [Workflow migration reports and error codes](spmt-workflow-reports-and-error-codes.md)
+#### [Workflow migration reports and error codes](spmt-workflow-report-and-error-codes.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
