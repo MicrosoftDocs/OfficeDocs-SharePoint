@@ -25,9 +25,9 @@ description: "Learn how to enable restricted access control for SharePoint sites
 
 With restricted access control, you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to specified users in the group associated with a SharePoint site. Users who aren't added to the specified group can't access even if they previously had site access permissions to a file. **The restricted access control policy applies to Microsoft 365 group-connected sites, non-group connected sites and Microsoft Teams.**
 
-Restricting site access based on group membership reduces the risk of oversharing within your organization. Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that stops sharing content with people who aren't a member of the group. Use and consult [data access governance reports](data-access-governance-reports.md) to see how data is currently being shared.
+Restricting site access based on group membership reduces the risk of oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group
 
-For example, the research department has a Microsoft 365 group containing all of their department members. They don’t want anyone outside of the department to have access to the research department site or its content. To restrict site access to the research department's Microsoft 365 group, you enable restricted access control using PowerShell.
+For example, the Contoso tenant's research department has a Microsoft 365 group containing all their department members. The department doesn't want anyone outside of the department to access the research department site or its content. They enable restricted access control on the site to restrict access to the research department's Microsoft 365 group. Only users who are members of the Microsoft 365 group can access the site and its content.
 
 [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
 
@@ -188,11 +188,11 @@ Get-SPOSite -Identity <siteurl> | Select -EXPAND RestrictedAccessControlGroups
 
 ## Shared channel sites
 
-For [shared channel sites](/microsoftteams/shared-channels), only users in the resource tenant are subject to restricted access control. External users in the resource tenant are excluded from the restricted access control policy and will be evaluated per the site’s existing [site permissions](/microsoftteams/shared-channels) only.
+For [shared channel sites](/microsoftteams/shared-channels), only internal users in the resource tenant are subject to restricted access control. External users are excluded from restricted access control policy and only evaluated per the site’s existing [site permissions](/microsoftteams/shared-channels).
 
 **For example:**
 
-Consider a tenant Contoso, which has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
+The Contoso tenant has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
 
 > [!IMPORTANT]
 > Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
