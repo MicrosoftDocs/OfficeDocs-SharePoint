@@ -1,6 +1,6 @@
 ---
 ms.date: 05/01/2023
-title: "Restrict access to a SharePoint site"
+title: "Restrict SharePoint site access by group membership"
 ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
@@ -25,9 +25,9 @@ description: "Learn how to enable restricted access control for SharePoint sites
 
 With restricted access control, you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to specified users in the group associated with a SharePoint site. Users who aren't added to the specified group can't access even if they previously had site access permissions to a file. **The restricted access control policy applies to Microsoft 365 group-connected sites, non-group connected sites and Microsoft Teams.**
 
-Restricting site access based on group membership reduces the risk of oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group
+Restricting site access based on group membership reduces the risk of oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group.
 
-For example, the Contoso tenant's research department has a Microsoft 365 group containing all their department members. The department doesn't want anyone outside of the department to access the research department site or its content. They enable restricted access control on the site to restrict access to the research department's Microsoft 365 group. Only users who are members of the Microsoft 365 group can access the site and its content.
+For example, the Contoso tenant's research department has a Microsoft 365 group containing all their department members. The department doesn't want anyone outside of the department to access the research team site or its content. They enable restricted access control on the site to restrict access to the research department's Microsoft 365 group. Only users who are members of the Microsoft 365 group can access the site and its content.
 
 [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
 
@@ -128,7 +128,7 @@ After running the commands, you have restricted site access to members of the sp
 > $group.ObjectId
 > ```
 
-### Edit restricted access control groups for a non-group site
+### Manage restricted access control groups for a non-group site
 
 You can add up to 10 Azure AD security groups whose members will be allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control will now limit the site access to members of the specified security groups.
 
