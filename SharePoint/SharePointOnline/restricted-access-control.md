@@ -33,7 +33,7 @@ For example, the Contoso tenant's research department has a Microsoft 365 group 
 
 ## Requirements
 
-To access and use this feature, your organization must:
+To access and use this feature, your organization must do as follows:
 
 - subscribe to **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** before following these steps.
 - download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
