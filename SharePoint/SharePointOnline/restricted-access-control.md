@@ -1,6 +1,6 @@
 ---
-ms.date: 05/01/2023
-title: "Restrict SharePoint site access by group membership"
+ms.date: 05/02/2023
+title: "Restrict SharePoint site access"
 ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
@@ -33,17 +33,15 @@ For example, the Contoso tenant's research department has a Microsoft 365 group 
 
 ## Requirements
 
-To access and use this feature, your organization must have the following subscription:
+To access and use this feature, your organization must:
 
-- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+- have the **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** subscription.
+- download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
+- enable **restricted access control for your organization** by running the following command:
 
-## Organization-level
-
-To enable restricted access control for your organization, run the following command:
-
-```Powershell
-Set-SPOTenant -EnableRestrictedAccessControl $true
-```
+    ```Powershell
+    Set-SPOTenant -EnableRestrictedAccessControl $true
+    ```
 
 Then, wait for approximately 1 hour before managing restricted access control for that site.
 
@@ -166,7 +164,7 @@ Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma sepa
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -RemoveRestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791
 ```
 
-> [!NOTE]
+> [!TIP]
 > The security groups removed from the restricted access control list will continue to have site permissions. We recommend SPO admin to review site permissions and remove users who should no longer have site access permissions.
 
 ### View restricted access control for a non-group site
@@ -201,13 +199,15 @@ The Contoso tenant has set up a manual trust relation with another Azure AD orga
 
 Audit events are available in [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center) to help you monitor restricted access control activities. Audit events are logged for the following activities:
 
-1. Applying Restricted Access Control for site
-2. Removing Restricted Access Control for site
-3. Changing Restricted Access control groups for site
+1. Applying restricted access control for site
+2. Removing restricted access control for site
+3. Changing restricted access control groups for site
 
 ## Related articles
 
 [Microsoft Syntex - SharePoint Advanced Management overview](advanced-management.md)
+
+[Restrict OneDrive access by security group](limit-access.md)
 
 [Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)
 
