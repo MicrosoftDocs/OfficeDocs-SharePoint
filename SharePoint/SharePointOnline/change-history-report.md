@@ -23,7 +23,7 @@ description: "Learn how to view SharePoint site change history reports in ShareP
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can create change history reports in the SharePoint admin center</a> to review SharePoint site property changes made within the last 180 days.
+You can create change history reports in the [SharePoint admin center](get-started-new-admin-center.md) to review SharePoint site property changes made within the last 180 days.
 
 Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
 
@@ -33,7 +33,7 @@ Create up to five reports for a given date range and filter by sites and users. 
 > You can export data for up to 180 days with a change history report depending on the user license. The report may contain data for users that go back 180 days as well as data for others that don’t. Since the type of user license isn’t shown on the report, it may appear as if data is missing for some users.
 
 > [!NOTE]
-> Admins assigned the [global reader role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) do not have the permissions to create or delete a report but can download to review the changes.
+> Admins assigned the [global reader role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true%3Do365-worldwide) do not have the permissions to create or delete a report but can download to review the changes.
 
 ## Requirements
 
