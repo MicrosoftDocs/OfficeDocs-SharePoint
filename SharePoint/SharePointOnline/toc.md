@@ -193,7 +193,7 @@
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
-### [Restrict site access to group members](restricted-access-control.md)
+### [Restrict SharePoint site access](restricted-access-control.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
