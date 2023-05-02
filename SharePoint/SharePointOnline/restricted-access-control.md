@@ -19,7 +19,7 @@ ms.collection:
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
-# Restrict access to a SharePoint site
+# Restrict SharePoint site access
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
