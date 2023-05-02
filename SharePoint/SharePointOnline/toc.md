@@ -1,563 +1,288 @@
 # [SharePoint and OneDrive](introduction.md)
-
 ## [Introduction]()
-
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
-
 ### [Intro to OneDrive](onedrive-overview.md)
-
 ### [OneDrive office hours](onedrive-office-hours.md)
-
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
-
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
-
 ### [Governance overview](governance-overview.md)
-
 ### [SharePoint and Teams integration]()
-
 #### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
-
 #### [Manage collaboration experiences](manage-teams-sharepoint-experiences.md)
-
 ## [Get started]()
-
 ### [Plan for SharePoint and OneDrive](plan-for-sharepoint-onedrive.md)
-
 #### [Business requirements](business-requirements.md)
-
 #### [Hybrid](hybrid.md)
-
 #### [Sync](plan-file-sync.md)
-
 #### [Migration](plan-rollout-migration.md)
-
 ### [Compliance]()
-
 #### [Plan compliance requirements](compliant-environment.md)
-
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
-
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
-
 ### [Choose collaboration options](collaboration-options.md)
-
 ### [Roll out OneDrive and SharePoint]()
-
 #### [Training and change management](training-change-management.md)
-
 #### [Create sites using guided walkthroughs]()
-
 ##### [Create a SharePoint communication site](create-communication-site.md)
-
 ##### [Create a SharePoint team site](guided-walkthrough-creating-team-site.md)
-
-##### [Create a fundraising site SharePoint](create-a-giving-site-for-your-organization.md)
-
-##### [Create a leadership site SharePoint](guided-walkthrough-creating-leadership-site.md)
-
+##### [Create a fundraising site SharePoint ](create-a-giving-site-for-your-organization.md)
+##### [Create a leadership site SharePoint ](guided-walkthrough-creating-leadership-site.md)
 ##### [Create a training site SharePoint](create-training-site.md)
-
-##### [Create a landing site SharePoint](guided-walkthrough-creating-organization-site.md)
-
+##### [Create a landing site SharePoint ](guided-walkthrough-creating-organization-site.md)
 ##### [Create a SharePoint hub site](create-hub-site-for-your-organization.md)
-
 ##### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
-
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-
 #### [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
-
 ## [Classic to modern]()
-
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
-
 ### [Customization options](extend-and-develop.md)
-
 ### [Lists and libraries](change-default-list-and-library-experience.md)
-
 ### [Automatic modernization of classic home pages](disable-auto-modernization-classic-home-pages.md)
-
 ### [Enable the communication site experience on classic team sites](modernize-classic-team-site.md)
-
 ### [Classic and modern search differences](differences-classic-modern-search.md)
-
 ## [The admin center]()
-
 ### [SharePoint admin role](sharepoint-admin-role.md)
-
 ### [Overview](get-started-new-admin-center.md)
-
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
-
 ### [Customize the site list](customize-admin-center-site-list.md)
-
 ## [Performance]()
-
 ### [Performance](modern-experience-performance.md)
-
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
-
 ## [Guide to the intelligent intranet]()
-
 ### [Intelligent intranet overview](intelligent-internet-overview.md)
-
 ### [How to think about your intelligent intranet](trad-vs-modern-intranet.md)
-
 ### [Intranet roadmap]()
-
 #### [Intranet roadmap](intranet-team-overview.md)
-
 #### [Intranet roles and tasks](intranet-roles-tasks.md)
-
 #### [Intranet roadmap summary](intranet-get-started.md)
-
 ### [Plan your intranet](plan-intranet.md)
-
 ### [Considerations when planning for a global intranet](set-up-global-intranet.md)
-
 ### [Intranet governance](intranet-governance.md)
-
 ## [Organizational communication]()
-
 ### [Corporate communications overview](corporate-communications-overview.md)
-
 #### [Step 1: Plan your communications strategy](plan-communication-strategy.md)
-
 #### [Step 2: Review communication tools](review-communication-apps.md)
-
 #### [Step 3: Scope and define your audience](audience-profile.md)
-
 #### [Step 4: Choose a communication solution](choose-communication-method.md)
-
 ### [Set up Viva Connections](guide-to-setting-up-viva-connections.md)
-
 ### [Get a home site for your intranet](home-site-plan.md)
-
 ### [Distribute organizational news](distribute-corporate-news-to-your-organization.md)
-
 ### [Connect leaders and your organization](leadership-connection.md)
-
 ### [Onboard new employees](onboard-employees.md)
-
 ### [Hold a town hall using Yammer](hold-town-hall-using-yammer.md)
-
 ### [Build learning and training experiences](build-learning-and-training-experiences-for-employees.md)
-
 ## [Navigation]()
-
 ### [Introduction](information-architecture-modern-experience.md)
-
 ### [Principles](information-architecture-principles.md)
-
 ### [Models and examples](information-architecture-models-examples.md)
-
 ### [Plan navigation design](plan-implement-navigation-design.md)
-
 ### [Implement site navigation](plan-navigation-modern-experience.md)
-
 ## [Hubs]()
-
 ### [Planning hub sites](planning-hub-sites.md)
-
 ### [Create a hub site](create-hub-site.md)
-
 ### [Remove hub site](remove-hub-site.md)
-
 ### [Set up site design](set-up-site-design-hub-site.md)
-
 ## [Lists]()
-
 ### [Control Microsoft Lists](control-lists.md)
-
 ### [Custom list templates](lists-custom-template.md)
-
 ### [Configure lists sync on Windows](lists-sync-policies.md)
-
 ### [Configure lists sync on Mac](lists-sync-policies-macos.md)
-
 ## [Sample sites]()
-
 ### [Add a sample site to your tenant](add-sample-site.md)
-
 ### [Add New Employee Onboarding sites](provision-neo-hub.md)
-
 ### [Add the Hispanic Heritage Employee Resource site](hispanic-erg-template.md)
-
 ### [Add the LGBTQ+ Employee Resource site](employee-resource-template.md)
-
 ### [Add the SharePoint success site]()
-
 #### [Overview](overview-sss.md)
-
 #### [Provision](provision-sss.md)
-
 #### [Customize](customize-sss.md)
-
 ### [Add the Workplace transformation site](change-management-template.md)
-
 ## [Publishing]()
-
 ### [How page recommendations work](sharepoint_page-recommendations.md)
-
 ## [Site administration]()
-
 ### [Create sites](create-site-collection.md)
-
 ### [Delete sites](delete-site-collection.md)
-
 ### [Restore deleted sites](restore-deleted-site-collection.md)
-
 ### [Manage site admins](manage-site-collection-administrators.md)
-
 ### [Review recent site actions](recent-actions-panel.md)
-
 ### [Manage site creation](manage-site-creation.md)
-
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
-
 ### [Change site addresses](change-site-address.md)
-
 ### [Manage site redirects](manage-site-redirects.md)
-
 ### [Lock and unlock sites](manage-lock-status.md)
-
 ### [Root site](modern-root-site.md)
-
 ### [Plan, build, and launch a home site](home-site-plan.md)
-
 ### [Set up a home site](home-site.md)
-
 ### [Advanced management](advanced-management.md)
-
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
-
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
-
-### [Create guidelines for site usage](sites-usage-guidelines.md)
-
+### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ### [Create an organization assets library](organization-assets-library.md)
-
 #### [Support for organization fonts in PowerPoint for the web](support-for-organization-fonts-in-PowerPoint-for-the-web.md)
-
 ### [Create an organization news site](organization-news-site.md)
 
 ## [OneDrive users and storage]()
-
 ### [Pre-provision accounts](pre-provision-accounts.md)
-
 ### [Set default storage space](set-default-storage-space.md)
-
 ### [Change user storage](change-user-storage.md)
-
 ### [Set retention](set-retention.md)
-
 ### [Restore deleted OneDrive](restore-deleted-onedrive.md)
-
 ### [Retention and deletion](retention-and-deletion.md)
-
 ### [List OneDrive URLs](list-onedrive-urls.md)
-
 ### [Effects of username changes](upn-changes.md)
 
 ## [Sync]()
-
 ### [File sync overview](sharepoint-sync.md)
-
 ### [Deploy the sync app]()
-
 #### [Network utilization planning](network-utilization-planning.md)
-
 #### [Recommended sync app configuration](ideal-state-configuration.md)
-
 #### [Intune](deploy-intune.md)
-
 #### [Configuration Manager](deploy-on-windows.md)
-
 #### [Per-machine installation](per-machine-installation.md)
-
 #### [OneDrive in Citrix Virtual Apps](onedrive-in-citrix-virtual-apps-deployment-guide.md)
-
 ### [Sync app options]()
-
 #### [Sync on virtual desktops](sync-vdi-support.md)
-
 #### [Updates and rings](sync-client-update-process.md)
-
 #### [Transition from previous sync app](transition-from-previous-sync-client.md)
-
 #### [Exclude or uninstall previous sync app](exclude-or-uninstall-previous-sync-client.md)
-
 #### [Prevent installation](prevent-installation.md)
-
 ### [Configure sync on Windows]()
-
 #### [Use silent account configuration](use-silent-account-configuration.md)
-
 #### [Known Folder Move](redirect-known-folders.md)
-
 #### [OneDrive policies](use-group-policy.md)
-
 #### [Use administrative templates in Intune](configure-sync-intune.md)
-
 #### [Set Files On-Demand states](files-on-demand-windows.md)
-
 ### [Configure sync on Mac]()
-
 #### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
-
 #### [Known Folder Move](redirect-known-folders-macos.md)
-
 #### [Set Files On-Demand states](files-on-demand-mac.md)
-
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
-
 ### [Advanced sync settings]()
-
 #### [How sync works](sync-process.md)
-
 #### [B2B Sync](b2b-sync.md)
-
 #### [Block file types](block-file-types.md)
-
 #### [Sync Admin Reports](sync-health.md)
 
 ## [Sharing]()
-
 ### [External sharing overview](external-sharing-overview.md)
-
 ### [Manage sharing settings](turn-external-sharing-on-or-off.md)
-
 ### [Change external sharing for a site](change-external-sharing-site.md)
-
 ### [Change external sharing for OneDrive](user-external-sharing-settings.md)
-
 ### [Change default sharing link](change-default-sharing-link.md)
-
 ### [External sharing notifications (OneDrive)](turn-on-external-sharing-notifications.md)
-
 ### [File Requests](enable-file-requests.md)
-
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
-
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
-
 ### [Restricted domains sharing](restricted-domains-sharing.md)
-
 ### [Report on sharing](sharing-reports.md)
-
 ### [Create a B2B extranet](create-b2b-extranet.md)
-
 ### [Advanced permissions customization]()
-
 #### [Customize site permissions](customize-sharepoint-site-permissions.md)
-
 #### [What is permissions inheritance?](what-is-permissions-inheritance.md)
-
 #### [Understanding permission levels](understanding-permission-levels.md)
-
 #### [Create a permission level](how-to-create-and-edit-permission-levels.md)
-
 ### [Reference]()
-
 #### [Default SharePoint groups](default-sharepoint-groups.md)
-
 #### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
-
 ## [Security and access control]()
-
 ### [Authentication](authentication.md)
-
 ### [Safeguarding your data](safeguarding-your-data.md)
-
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
-
 ### [Control access based on network location](control-access-based-on-network-location.md)
-
 ### [Restrict OneDrive access by security group](limit-access.md)
-
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
-
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
-
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
-
 ### [Restrict SharePoint site access](restricted-access-control.md)
-
 ### [Sign out inactive users](sign-out-inactive-users.md)
-
 ## [Compliance]()
-
 ### [Block guest access to newly added files](sensitive-by-default.md)
-
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
-
 ### [Data access governance reports](data-access-governance-reports.md)
 
 ### [Default sensitivity label for a document library](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 
 ### [Use information barriers (SharePoint)](/microsoft-365/compliance/information-barriers-sharepoint?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
-
 ### [Use information barriers (OneDrive)](/microsoft-365/compliance/information-barriers-onedrive?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 
 ### [Configure information barriers compliance assistant](/microsoft-365/compliance/information-barriers-sharepoint-assistant?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
-
 ### [Create an information barriers policy report](/microsoft-365/compliance/information-barriers-sharepoint-report?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
-
 ### [Control notifications](notifications.md)
-
 ## [Content services]()
-
 ### [Term store]()
-
 #### [Introduction](managed-metadata.md)
-
 #### [Open the term store](open-term-store-management-tool.md)
-
 #### [Set up new group for term sets](set-up-new-group-for-term-sets.md)
-
 #### [Create and manage terms](create-and-manage-terms.md)
-
 #### [Set up new term set](set-up-new-term-set.md)
-
 #### [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md)
-
 ### [Content types]()
-
 #### [Create a content type](create-customize-content-type.md)
-
 #### [Add columns](add-columns-content-type.md)
-
 #### [Remove columns](remove-columns-content-type.md)
-
 #### [Publish](publish-content-type.md)
-
 ## [Search]()
-
 ### [Search](get-started-with-modern-search-experience.md)
-
 ### [Overview](overview-of-search.md)
-
 ### [View search usage reports](view-search-usage-reports-modern-sites.md)
-
 ### [Manage search: the admin center](manage-search-the-admin-center.md)
-
 ### [Make sure content can be found]()
-
 #### [Overview](make-sure-content-can-be-found.md)
-
 #### [Make site content searchable](make-site-content-searchable.md)
-
 #### [Crawl site content](crawl-site-content.md)
-
 #### [Remove search results](remove-search-results.md)
-
 ### [Make search results look great]()
-
 #### [Overview](make-search-results-look-great.md)
-
 #### [Manage Search Center](manage-search-center.md)
-
 #### [Specify default Search Center](specify-default-search-center.md)
-
 #### [Override default Search Center](override-default-search-center.md)
-
 #### [Search Box Web Part](search-box-web-part.md)
-
 #### [Search Navigation Web Part](search-navigation-web-part.md)
-
 #### [Refinement Web Part](refinement-web-part.md)
-
 #### [Use result types and display templates](use-result-types-and-display-templates.md)
-
 #### [About display templates](about-display-templates.md)
-
 #### [Make pages load faster](make-pages-load-faster.md)
-
 #### [Switch from an Enterprise Search Center to Basic](switch-from-enterprise-search-center-to-basic.md)
-
 ### [Show relevant search results]()
-
 #### [Overview](show-relevant-search-results.md)
-
 #### [Manage search schema](manage-search-schema.md)
-
 #### [Manage query rules](manage-query-rules.md)
-
 #### [Manage query suggestions](manage-query-suggestions.md)
-
 #### [Manage result sources](manage-result-sources.md)
-
 #### [Manage result types](manage-result-types.md)
-
 #### [Manage search dictionaries](manage-search-dictionaries.md)
-
 #### [Manage authoritative pages](manage-authoritative-pages.md)
-
 #### [Export and import search settings](export-and-import-search-settings.md)
-
 ### [Check logs, limits, and reports]()
-
 #### [Overview](check-logs-limits-and-reports.md)
-
 #### [Set crawl log permissions](set-crawl-log-permissions.md)
-
 #### [Query throttling](query-throttling.md)
-
 #### [Search limits](search-limits.md)
-
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
-
 ## [Advanced]()
-
 ### [User profiles]()
-
 #### [Manage user profiles](manage-user-profiles.md)
-
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)
-
 #### [About user profile synchronization](user-profile-sync.md)
-
 #### [Remove users from SharePoint](remove-users.md)
-
 ### [BCS connections]()
-
 #### [Manage BCS applications](manage-business-connectivity-service-applications.md)
-
 #### [Create or edit Secure Store Target Application](create-or-edit-secure-store-target-application.md)
-
 #### [Make External List](make-external-list.md)
-
 ### [Customizations and apps]()
-
 #### [Apps overview](request-app-installation-permissions.md)
-
 #### [Manage apps](use-app-catalog.md)
-
 #### [Manage app requests](manage-app-requests.md)
-
 #### [Manage API access](api-access.md)
-
 #### [Allow or prevent custom script](allow-or-prevent-custom-script.md)
-
 #### [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md)
-
 #### [Configure SharePoint Store settings](configure-sharepoint-store-settings.md)
-
 ### [Settings]()
-
 #### [Required URLs and ports](required-urls-and-ports.md)
-
 #### [Configure InfoPath Forms Services](configure-infopath-forms-services.md)
-
 #### [Hide app tiles on app launcher](hide-app-tiles-on-app-launcher.md)
-
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
-
 #### [Manage loop components](manage-loop-components.md)
-
 ### [Hybrid](../SharePointServer/hybrid/hybrid.md)
-
 ### [Migration](/sharepointmigration/migrate-to-sharepoint-online)
-
 ### [Multi-Geo](/Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)
