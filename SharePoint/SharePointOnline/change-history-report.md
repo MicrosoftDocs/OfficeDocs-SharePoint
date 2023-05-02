@@ -1,6 +1,6 @@
 ---
 ms.date: 05/01/2023
-title: "Create and view SharePoint site change history reports"
+title: "View SharePoint site change history"
 ms.reviewer: cvelaga
 manager: serdars
 recommendations: true
@@ -16,10 +16,10 @@ ms.collection:
 - M365-collaboration
 - Highpri
 - Tier1
-description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
+description: "Learn how to view SharePoint site change history reports in SharePoint admin center."
 ---
 
-# Create and view SharePoint site change history reports
+# View SharePoint site change history
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
