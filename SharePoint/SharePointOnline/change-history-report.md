@@ -1,5 +1,5 @@
 ---
-ms.date: 05/01/2023
+ms.date: 05/02/2023
 title: "View SharePoint site change history"
 ms.reviewer: cvelaga
 manager: serdars
@@ -23,7 +23,7 @@ description: "Learn how to view SharePoint site change history reports in ShareP
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can create change history reports in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> to review SharePoint site property changes made within the last 180 days.
+You can create change history reports in the SharePoint admin center</a> to review SharePoint site property changes made within the last 180 days.
 
 Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
 
