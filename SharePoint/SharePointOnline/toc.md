@@ -110,6 +110,7 @@
 ### [Change site addresses](change-site-address.md)
 ### [Manage site redirects](manage-site-redirects.md)
 ### [Lock and unlock sites](manage-lock-status.md)
+### [View site change history](change-history-report.md)
 ### [Root site](modern-root-site.md)
 ### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Set up a home site](home-site.md)
