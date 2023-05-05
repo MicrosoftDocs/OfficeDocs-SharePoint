@@ -1,5 +1,5 @@
 ---
-ms.date: 04/10/2023
+ms.date: 05/05/2023
 title: "Review recent SharePoint site actions"
 ms.reviewer: cvelaga
 manager: serdars
@@ -33,27 +33,16 @@ The recent actions panel only shows the changes you make to site properties. Cha
 > [!NOTE]
 > Recent actions panel is not available for global readers. GDAP administrators will not be able to see the previous and current values of the administrator actions.
 
-## Non-premium and premium features of recent actions panel
-
-### Non-premium
-
-The non-premium version of recent actions panel lets you:
-
-- review actions made within the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
-
-### Premium
-
-With the [Microsoft Syntex - SharePoint Advanced Management subscription](advanced-management.md), you'll have access to premium features of recent actions panel. The premium version lets you:
-
-- review the last 30 actions made within the last 30 days in the recent actions panel.
-- view additional details such as previous and current value of the settings changed and directly access the site details panel to review the change.
-- export and download a. csv file detailing all the changes made within the last 30 days.
-
 ## Requirements
 
-To access and use the **premium** version of this feature, your organization must have the following subscription:
+The following **premium** features require [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
-- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+- Review the last 30 actions made within the last 30 days in the recent actions panel.
+- View additional details such as previous and current value of the settings changed and directly access the site details panel to review the change.
+- Export and download a. csv file detailing all the changes made within the last 30 days.
+
+> [!IMPORTANT]
+> Without Microsoft Syntex - SharePoint Advanced Management, you can only view actions made in the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
 
 ## View recent actions of a site
 
