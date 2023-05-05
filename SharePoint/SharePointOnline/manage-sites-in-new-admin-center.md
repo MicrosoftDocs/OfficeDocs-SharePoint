@@ -1,7 +1,7 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/21/2023
 title: "Manage sites in the SharePoint admin center"
-ms.reviewer: trgreen
+ms.reviewer: daminasy
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -32,15 +32,9 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**
   
 ![Active sites page](media/active-sites-page.png)
   
-> [!NOTE]
-> The Active sites page lists the root website for each site collection. Subsites and redirect sites (REDIRECTSITE#0) created by changing a site address or replacing the root site aren't shown. 
+The Active sites page lists the root website for each site collection. Subsites and the following sites aren't included.
 
-> [!NOTE]
-> The Active sites page in SharePoint admin center does not show all site types, for example, the `ContentTypeHub` sites, are intentionally excluded from the list.
-
-Following are the site types that are intentionally excluded from the list.
-
-- Sites with the following URLs:
+- Sites with these URLs:
   
    |**URL**|**Description**|
    |:-----|:-----|
@@ -50,7 +44,7 @@ Following are the site types that are intentionally excluded from the list.
    |/search |Search site |
    |/personal/ |OneDrive sites |
 
-- Sites with the following templates:
+- Sites with these templates:
 
    |**ID**|**Name**|**Description**|
    |:-----|:-----|:-----|
@@ -81,7 +75,7 @@ For more info about tasks on the Active sites page, see:
 
 For all site types except channel sites, you can add or remove site admins and change the primary admin. For group-connected team sites, you can also add and remove group owners. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md).
 
-1. In the SharePoint admin center, select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
+1. In the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
 
 2. In the left column, select a site. 
     
@@ -93,7 +87,7 @@ For all site types except channel sites, you can add or remove site admins and c
 ## Change a site's hub association
 <a name="hubsite"> </a>
   
-1. In the SharePoint admin center, select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
+1. In the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
 
 2. In the left column, select a site. 
     

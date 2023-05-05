@@ -41,4 +41,5 @@ This article focuses on the following SSL certificate management operations:
 - [Certificates administration action logging](certificates-administrative-action-logging.md)
 - [SSL certificate management in central administration](ssl-certificate-management-in-central-administration.md)
 - [New health analyzer rules for SSL certificates](new-health-analyzer-rules-for-ssl-certificates.md)
+- [Private key management for SSL certificates](private-key-management-for-ssl-certificates.md)
 

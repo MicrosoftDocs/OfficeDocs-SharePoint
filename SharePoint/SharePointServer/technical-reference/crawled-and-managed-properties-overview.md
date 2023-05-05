@@ -12,7 +12,7 @@ ms.topic: article
 ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
-description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
+description: "Learn about the default managed properties for SharePoint Server, their settings, and the default mapping between crawled and managed properties."
 ---
 
 # Overview of crawled and managed properties in SharePoint Server
@@ -21,9 +21,11 @@ description: "Learn about the default managed properties, their settings, and th
   
 A  *crawled property*  is content and metadata that is extracted from an item, such as a document or a URL, during a crawl. A crawled property can be an author, title, or subject. To include the content and metadata of crawled properties in the search index, you map crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. For more information, see [Overview of the search schema in SharePoint Server](../search/search-schema-overview.md) and [Manage the search schema in SharePoint Server](../search/manage-the-search-schema.md).
 
-Learn about [managing the search schema for SharePoint in Microsoft 365](../../SharePointOnline/manage-search-schema.md).
+Learn about [managing the search schema for SharePoint Online in Microsoft 365](../../SharePointOnline/manage-search-schema.md).
   
 ## Managed properties overview
+
+For a list of default managed properties and their attributes for SharePoint Online see [Overview of crawled and managed properties in SharePoint Server](../../SharePointOnline/crawled-and-managed-properties-overview.md).
 
 The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column.
 

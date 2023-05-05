@@ -3,7 +3,7 @@ ms.date: 07/02/2021
 title: "What's deprecated or removed from SharePoint Server Subscription Edition?"
 ms.reviewer: 
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -41,7 +41,13 @@ Different customers may have different interpretations of terms such as "depreca
  
 ## Deprecated features
 
- - SharePoint 2010 workflows 
+ - InfoPath Forms Services
+ 
+ - Microsoft Workflow Manager
+ 
+ - SharePoint 2010 workflows
+ 
+ - SharePoint Designer 2013
  
  - Internet Explorer 11
 
@@ -67,13 +73,24 @@ Different customers may have different interpretations of terms such as "depreca
 
 The following features and functionality have been deprecated or removed in SharePoint Server Subscription Edition.
 
+### InfoPath Forms Services
+
+InfoPath Forms Services are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, InfoPath Forms Services will no longer be supported. Microsoft recommends exploring Power Apps as a potential alternative to InfoPath forms.
+
+### Microsoft Workflow Manager
+Microsoft has released SharePoint Workflow Manager as the new workflow engine to power the SharePoint 2013 Workflow platform for SharePoint Server and replace Microsoft Workflow Manager.  We recommend that all customers using SharePoint 2013 workflows upgrade to SharePoint Workflow Manager as soon as they’re able to.  Microsoft will focus all future investments and maintenance on SharePoint Workflow Manger rather than Microsoft Workflow Manager, including providing support beyond the year 2026. For more information, see [Install and configure workflow for SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
+
 ### SharePoint 2010 workflows
 
 SharePoint 2010 workflows are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, SharePoint 2010 workflows will no longer be supported. Microsoft recommends exploring [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
 
+### SharePoint Designer 2013
+
+SharePoint Designer 2013 is deprecated but will remain supported with SharePoint Server Subscription Edition until July 14, 2026. After that date, SharePoint Designer 2013 will no longer be supported. Customers will be able to continue using Visual Studio to create and edit their SharePoint 2013 workflows after that date.
+
 ### Internet Explorer 11
 
-Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 is not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 isn't supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
 
 ### Access Services 2010
 
@@ -85,7 +102,7 @@ Access Services 2013 has been removed and is no longer supported by Microsoft in
 
 ### Classic authentication mode for content web applications
 
-Classic authentication mode has been removed and is no longer supported by Microsoft for content web applications in SharePoint Server Subscription Edition. Content web applications will now only support claims authentication mode. The Central Administration web application will continue to use and support classic authentication mode.  
+Classic authentication mode has been removed and is no longer supported by Microsoft for content web applications in SharePoint Server Subscription Edition. Content web applications will now only support claims authentication mode. The Central Administration web application continues to use and support classic authentication mode.  
 
 ### Groove sync app support
 
