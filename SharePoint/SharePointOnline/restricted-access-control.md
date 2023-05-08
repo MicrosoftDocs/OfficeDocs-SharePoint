@@ -23,6 +23,9 @@ description: "Learn how to enable restricted access control for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
+> [!NOTE]
+> This feature is currently rolling out and may not yet be fully available for all organizations.
+
 With restricted access control, you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to specified users in the group associated with a SharePoint site. Users who aren't added to the specified group can't access even if they previously had site access permissions to a file. **The restricted access control policy applies to Microsoft 365 group-connected sites, non-group connected sites and Microsoft Teams.**
 
 Restricting site access based on group membership reduces the risk of oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group.
