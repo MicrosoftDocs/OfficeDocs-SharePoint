@@ -2,6 +2,16 @@
 
 
 
+## Week of May 01, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/2/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 5/2/2023 | [View SharePoint site change history](/SharePoint/change-history-report) | added |
+| 5/5/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
+
+
 ## Week of April 24, 2023
 
 
@@ -51,15 +61,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-
-
-## Week of March 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/28/2023 | [Data access governance reports for SharePoint sites](/SharePoint/data-access-governance-reports) | modified |
-| 3/28/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-| 3/30/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | added |
-| 3/31/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-| 3/31/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
