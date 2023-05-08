@@ -34,7 +34,7 @@ Moving to Microsoft 365? **Migration Manager** will help you migrate your conten
 ## Mover retirement
 
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte has been fully integrated into Migration Manager. For full details see: [Mover retirement timeline](mover-retirement-timeline.md).
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte has been fully integrated into Migration Manager. For full details see: [Mover retirement timeline](mover-retirement-timeline.md).  Migration Manager does not support the migration of Amazon S3 or Azure blob storage.
 >
 >All FastTrack-led migrations have transitioned to Migration Manager.
 >

@@ -114,7 +114,7 @@ This release fixes an issue with Box connector authorization.
 - Fix.  Accessibility: 'Start copy' button was getting activated before loading of folders in 'Select Source' step in the Transfer Wizard. If the user invoked 'Start Copy', the transfer would get triggered by copying all items from the root of the source and destination. A fix has been made to wait for folders to be fully loaded before activating the Start Copy button.
 - Fix.  Accessibility: Navigating through the list of folders in the Transfer Wizard using multiple tab stops was making navigation harder for users with motor impairments. Fix has been added to navigate the list using the keyboard arrow keys.
 - Accessibility: The Transfer Summary panel will now display a tooltip for every value in the top details table containing the transaction information.
-- Accessibility: The Migration Manager "Active filters" auto-suggestions are now accessible with the keyboard by pressing the down and up arrow keys from the filter search box.
+- Accessibility: The Migration Manager "Active filters" autosuggestions are now accessible with the keyboard by pressing the down and up arrow keys from the filter search box.
 - Accessibility: In the Migration Manager, Active Filters section, the info button had a tooltip with filtering instructions. However, the narrator wouldn't read the content, even if the tooltip was in focus. To make the content accessible, the tooltip was eliminated and, instead, a proper link to the documentation page was added: https://aka.ms/MoverMigrationManagerFilters.
 
 ## Backend v1.19.19 (November 26, 2020)
@@ -135,7 +135,7 @@ If the transfer failed and it's an unrecoverable state, this state will now be p
 
 - Fix.  When destinations didn't support direct upload, transfers from the Agent to the destination would fail. Direct Upload destinations are now detected and handling has been corrected when the destination doesn't support direct upload.
 
-- Fix.  Added direct uploads to user log filters, both on success and failure. This fixes a defect in logging where Agents using the Direct Upload feature (which is now the default) wouldn't have their log entries included in the user logs. This will enable correct feedback for users of the Agent.
+- Fix.  Added direct uploads to user log filters, both on success and failure. This fixes a defect in logging where Agents using the Direct Upload feature (which is now the default) wouldn't have their log entries included in the user logs. This enables correct feedback for users of the Agent.
 
 ## Frontend v1.19.1 (October 28, 2020)
 
@@ -242,11 +242,11 @@ This release fixes these customer issues:
 
 - While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
 
-- A message will display if you are trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
+- A message displays if you're trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
 
-- You will not see Google pre-scan warnings when connecting to a G Suite source connector in the Transfer Wizard.
+- You won't see Google prescan warnings when connecting to a G Suite source connector in the Transfer Wizard.
 
-- All non-success notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
+- All nonsuccess notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
 
 ## Backend v1.19.3 (August 6, 2020)
 
@@ -262,27 +262,27 @@ Migration Report improvements and bug fixes.
 
 - When authorizing the G Suite Admin source connector, the template showed the prescan warning. As prescan is no longer needed due to its integration into the regular scan and transfer process, the warning from the connector authorization template in the UI has been removed.
 
-- When authorizing or reauthorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they're already logged into Microsoft.
+- When authorizing or reauthorizing an Office 365 connector, a picker shows accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they're already logged into Microsoft.
 
 - A fix has been made to distinguish OneNote notebooks and folders with ".one" extension. Previously, when running a transfer from an Office 365 source, folder names with.one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook.
 
 - A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover sign in page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
 
-- A fix has been made to correct discrepancies in the migration reports metrics.  In the future, more fields will be added to this report to give users a better understanding of ongoing migrations.
+- A fix has been made to correct discrepancies in the migration reports metrics.  In the future, more fields are added to this report to give users a better understanding of ongoing migrations.
 
-- When the user tries to authorize the Office 365 connector, and if the tenant lacks Microsoft 365 licenses, the connector authorization will fail, and the error message "Couldn't retrieve SharePoint Online site list. We suspect your tenant lacks SharePoint Online licenses" will be displayed in the UI.
+- When the user tries to authorize the Office 365 connector, and if the tenant lacks Microsoft 365 licenses, the connector authorization fails, and the error message "Couldn't retrieve SharePoint Online site list. We suspect your tenant lacks SharePoint Online licenses" will be displayed in the UI.
 
-- When a transfer gets automatically re-queued, its status will now show as "Re-Queued" as opposed to "Queued". When it's running from an automatic re-queue, it will show as "Rerunning".
+- When a transfer gets automatically requeued, its status will now show as "Re-Queued" as opposed to "Queued". When it's running from an automatic requeue, it shows as "Rerunning".
 
 - Saving the permission map for a migration via the web UI that had a job_limit set or auto_job_limit set (migration scaler) caused those fields to set back to null, and the settings were lost. This issue is now fixed.
 
-- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently doesn't support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it.
+- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently doesn't support moving those files to a destination.  When completed, the transfer status row displays yellow, indicating that some files are unsupported and that rerunning won't fix it.
 
 ## Backend v1.19.0 (July 14, 2020)
 
 Exciting new features for migrations out of G Suite and Box.
 
-- For migrations out of G Suite, requesting a "Google Pre-scan" was required before running the regular scans or transfers in order to prevent data duplication. The Google Pre-scan process has now been integrated into our regular migration scan and transfer processes, eliminating the need to request a Google Pre-scan from our support team. For more information, please refer to: <https://aka.ms/MoverGSuite>.
+- For migrations out of G Suite, requesting a "Google Prescan" was required before running the regular scans or transfers in order to prevent data duplication. The Google Prescan process has now been integrated into our regular migration scan and transfer processes, eliminating the need to request a Google Prescan from our support team. For more information, please refer to: <https://aka.ms/MoverGSuite>.
 - For migrations out of Box, all Box Notes will now be automatically converted to Microsoft Word documents in the destination. For more information, please refer to: <https://aka.ms/MoverBox>.
 
 ## Backend v1.18.1 (July 8, 2020)
@@ -299,7 +299,7 @@ Exciting new features for migrations out of G Suite and Box.
 - Accessibility fixes
   - Removed double tab stops in Authorize New Connector links in the Transfer Wizard.
   - Fixed Migration Manager stats to display properly in all zoom levels, and in devices of all screen sizes.
-  - Enabled outlines on all links throughout the application when they have focus. This will help users locate the current element in focus when navigating the application using the keyboard.
+  - Enabled outlines on all links throughout the application when they have focus. This helps users locate the current element in focus when navigating the application using the keyboard.
   - Removed "Coming Soon" video in the Migration Manager when the user has no migrations.
   - Removed prompt to provide feedback when users close their accounts. It's natural for users to delete their accounts when their migrations are done. Alternatively, they can contact support to provide feedback.
   - Added a light version for the "Sign in with Microsoft" button for users browsing the application using a high-contrast browser mode.
@@ -309,9 +309,9 @@ Exciting new features for migrations out of G Suite and Box.
 ## Frontend & Backend v1.18.0 (June 25, 2020)
 
 - Error reporting improvements
-  - During a migration into Office 365, we would skip processing of source files over 15 GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100 GB files now, migration of files over 15 GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15 GB. Support for 100 GB files will be announced once they are fully supported for migrations into Office 365.
-  - When running a migration from a non-existent source directory, the transfer would fail appropriately and the user log would have a yellow row in it. However, this row in the user log would sometimes contain no error message. This has been fixed so that a proper error message is included detailing that the source directory does not exist.
-  - During a migration into Office 365, while a file may be uploaded properly, its batch may fail to be submitted for processing. In these cases, the UI would show the file as failed, but the user log would not contain any entries showing that the file failed. This has been fixed by ensuring that there always exists a user log entry per file when a migration job (batch) within a transfer fails to submit.
+  - During a migration into Office 365, we would skip processing of source files over 15 GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100 GB files now, migration of files over 15 GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15 GB. Support for 100 GB files will be announced once they're fully supported for migrations into Office 365.
+  - When running a migration from a nonexistent source directory, the transfer would fail appropriately and the user log would have a yellow row in it. However, this row in the user log would sometimes contain no error message. This has been fixed so that a proper error message is included detailing that the source directory doesn't exist.
+  - During a migration into Office 365, while a file may be uploaded properly, its batch may fail to be submitted for processing. In these cases, the UI would show the file as failed, but the user log wouldn't contain any entries showing that the file failed. This has been fixed by ensuring that there always exists a user log entry per file when a migration job (batch) within a transfer fails to submit.
   - In the Migration Manager table, if there are skips because the file is unsupported on the source or destination, or if we are not allowed to download the file, then it will now show up as a failure and not as a regular incremental skip. Transactions that were mostly successful but only had these unsupported file issues, will end with status code 227 "Some files are unsupported" and the row will appear yellow in the Migration Manager.
 - New features
   - On the Account Page, in the Admin Panel, a user is now able to add managers to their account in bulk. The user can enter a list of comma-separated email addresses to be added as account managers.
@@ -320,29 +320,29 @@ Exciting new features for migrations out of G Suite and Box.
 
 - The Migration Manager table now includes an "information" icon in each row to make it more intuitive for users to know that additional information on the row can be viewed by clicking on that icon. This action will open the Transfer Summary side panel.
 - In the Migration Manager, when opening the Transfer Summary side panel for a given entry in the table, the Transfer Logs table within the side panel would empty itself about 10 seconds after its initial load. This has been fixed now and the Transfer Logs table should remain visible and will be updated with new data as it becomes available.
-- Fixing a Migration Manager screen issue. When the user no longer has the mouse focus on the side panel, the panel will close.
+- Fixing a Migration Manager screen issue. When the user no longer has the mouse focus on the side panel, the panel closes.
 - Fixing the incorrect display of "Connectors don't exist anymore!" when in fact the connectors do exist.
 
 ## Backend v1.16.4 (June 3, 2020)
 
-A new backend release with some stability improvements. We are setting FTP, SFTP, and WebDAV connectors as private due to lack of usage and to focus our product.
+A new backend release with some stability improvements. We're setting FTP, SFTP, and WebDAV connectors as private due to lack of usage and to focus our product.
 
-- Some users were having problems viewing transfers user logs and scan reports. The files were sometimes being delivered in an intermediate format. This has been fixed by ensuring the files are completely processed before being delivered to users.
+- Some users were having problems viewing transfers user logs and scan reports. The files were sometimes being delivered in an intermediate format. This has been fixed by ensuring the files are processed before being delivered to users.
 - The FTP, SFTP, and WebDAV connectors are marked as private. So users will no longer be able to authorize new connectors of those types. Existing FTP, SFTP and WebDav connectors will continue to work until July 1, 2020. Current users have been notified regarding this via email.
 
 ## Frontend v1.16.1.1 (June 1, 2020)
 
 This frontend release focuses on improving accessibility to our application for keyboard and screen reader users.
 
-- The option to create a (legacy) Mover account has been removed from the UI. That is, users will now be required to use the "Sign In with Microsoft Account" feature instead. In the future, legacy Mover accounts will not be supported anymore.
+- The option to create a (legacy) Mover account has been removed from the UI. That is, users will now be required to use the "Sign In with Microsoft Account" feature instead. In the future, legacy Mover accounts won't be supported anymore.
 - Improved accessibility in the app for keyboard and screen reader users.
-  - Keyboard users will be able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They will be able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus that allow them to select which columns to display on the table and in what order. In addition to this, screen reader users will get better prompts when interacting with the Migration Actions dropdown menu.
-  - Keyboard users will now be able to navigate the Migration Manager table. They will be able to sort the table, open the Transfer Summary side panel for rows, and apply tag filters. Screen reader users will have a much improved experience when interacting with the table, including proper ARIA labels and descriptions for actions they can take on elements on the table.
+  - Keyboard users will be able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They'll be able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus that allow them to select which columns to display on the table and in what order. In addition to this, screen reader users get better prompts when interacting with the Migration Actions dropdown menu.
+  - Keyboard users will now be able to navigate the Migration Manager table. They are able to sort the table, open the Transfer Summary side panel for rows, and apply tag filters. Screen reader users have a much improved experience when interacting with the table, including proper ARIA labels and descriptions for actions they can take on elements on the table.
   - In the Transfer Wizard, when selecting Authorize New Connector (either source or destination), the Connector Type Picker is now accessible using the keyboard. The Authorize buttons on each connector type now have enhanced ARIA labels that will better inform screen-reader users what the button does.
   - In the Transfer Wizard screen, the connector picker (both source and destination) would show some connector types or connector names truncated on some screen sizes. Tool tips have been added on these items so now users will be able to view the names in full and not just the truncated version.
   - In the Transfer Wizard screen, the Manage/Connect drop down has been improved so the Narrator says the proper text for the correct  button.
   - In the Migration Manager screen, the helper tool tip for Filters will now be automatically be shown when focusing into the "information" icon, which is now accessible by tabbing into it.
-  - End users will be able to navigate into and out of the File Picker both in the Transfer Wizard (when connecting to a single user connector) and in the Migration Manager (when editing source or destination on a specific schedule).
+  - End users are able to navigate into and out of the File Picker both in the Transfer Wizard (when connecting to a single user connector) and in the Migration Manager (when editing source or destination on a specific schedule).
 
 ## Backend v1.16.3.1 (May 29, 2020)
 
@@ -354,7 +354,7 @@ New release of our Mover backend that includes an exciting new feature for previ
 
 - Support added for converting Box Notes to OneNote notebooks. Migrations from Box to OneDrive Consumer, OneDrive for Business (Single User) or Office 365 will be able to convert Box Notes to OneNote notebooks. This feature is now in public preview and will require support assistance to enable it for customers.
 - During a transfer, if an update of an item that already existed in the destination (and was changed in the source) failed on its first attempt, subsequent attempts will always fail with unpredictable errors. This has been addressed and subsequent (internal) attempts on these cases are done properly now and will have a chance of completing successfully.
-- Some users were experiencing an issue in which the Migration Manager table would show some schedules with status "Not Run" when they were indeed run, sometimes multiple times. This has been corrected and will not happen going forward. Problematic schedules have been fixed to reflect the proper status.
+- Some users were experiencing an issue in which the Migration Manager table would show some schedules with status "Not Run" when they were indeed run, sometimes multiple times. This has been corrected and won't happen going forward. Problematic schedules have been fixed to reflect the proper status.
 
 ## Backend v1.16.1 (May 25, 2020)
 
@@ -364,7 +364,7 @@ Backend release with stability improvements. There are no customer facing change
 
 Backend release improving experience to some of our users.
 
-- The Migration Manager table will get populated a bit faster for the average migration, while large migrations (1000s of users) will see a considerable speed improvement.
+- The Migration Manager table gets populated a bit faster for the average migration, while large migrations (1000s of users) will see a considerable speed improvement.
 - In the Migration Manager overview, some migrations with many users that have been scanned/migrated a large number o times would sometimes fail to populate the table. This has been fixed by optimizing how migrations get populated in order to increase performance.
 
 ## Frontend v1.15.4 (May 13, 2020)
@@ -377,14 +377,14 @@ A large frontend release, with little UX impact, but library upgrades.
 
 Backend release to improve experience to some of our users.
 
-- When Downloading User Logs in zip format, the file name for each log includes a reference to the source and destination directories, but not of more relevant information to the user. This is now improved by changing the structure of individual file names to be: `{endDate}_{sourcePath}_{txid}.moverlog.{extension}`. This makes the files behave better when sorting them as they are prefixed by the transaction end date. As well, the source path is now cleaned up to only show more relevant parts. Reference to the destination directory is not included anymore as it tends to be irrelevant when the source directory is already included.
+- When Downloading User Logs in zip format, the file name for each log includes a reference to the source and destination directories, but not of more relevant information to the user. This is now improved by changing the structure of individual file names to be: `{endDate}_{sourcePath}_{txid}.moverlog.{extension}`. This makes the files behave better when sorting them as they're prefixed by the transaction end date. As well, the source path is now cleaned up to only show more relevant parts. Reference to the destination directory isn't included anymore as it tends to be irrelevant when the source directory is already included.
 - When duplicating a schedule in the Migration Manager view, certain schedules were failing with "Failed to duplicate `N` schedules", where `N` is the number of failed schedules. This is now fixed and the user is able to duplicate all schedules.
 
 ## Backend v1.15.9 (May 7, 2020)
 
 A backend release went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
 
-- Migrations going into Office 365 will not skip 0-byte file anymore and will be successfully transferred to the destination. However, migrations going into OneDrive Consumer or OneDrive for Business (Single User) will still skip 0-byte files as those services still restrict non-administrator transfers from creating zero-byte files.
+- Migrations going into Office 365 won't skip 0-byte file anymore and will be successfully transferred to the destination. However, migrations going into OneDrive Consumer or OneDrive for Business (Single User) will still skip 0-byte files as those services still restrict non-administrator transfers from creating zero-byte files.
 
 ## Frontend v1.15.3 (May 1, 2020)
 
@@ -402,7 +402,7 @@ A small deploy fixing a frontend issue. But also testing part of our infrastruct
 
 Release to address customer issues with migrations.
 
-- When Downloading User Logs in zip format, if the source and destination directories are too long (their) system cannot open the (downloaded) zip file because there is a filename length limitation of 255 characters (in zip files). This is now fixed, they can download and open zip file (even when source and destination directories are very long).
+- When Downloading User Logs in zip format, if the source and destination directories are too long (their) system can't open the (downloaded) zip file because there's a filename length limitation of 255 characters (in zip files). This is now fixed, they can download and open zip file (even when source and destination directories are long).
 - When scanning is done on a migration/schedule the scanner reports are generated and available for download in the Migration Manager UI. The generated reports include a Common Path report that was missing a new line character at the end of the headers, causing a malformed row formatting with the first common path record in the same row as the header. A fix has been implemented to ensure the report is presented in proper CSV format and is readable.
 
 ## Backend v1.15.7 (April 23, 2020)
@@ -429,7 +429,7 @@ A backend release that includes customer fixes, expanding support for Dropbox an
 - In Dropbox, shared folders without an owner were making transfers fail at the containing folder. This is now fixed by letting the transfers traverse everything except those problematic folders (as opposed to their containing folders). Shared folders can have no owner because the original owner is no longer part of the Dropbox business account. Users are properly informed of this through the corresponding entry in the user log.
 - In Dropbox, archived Team Folders would make a transfer fail when listing the containing folder. This has now been fixed and archived Team Folders are handled properly.
 - Transferring Google Documents out of Google Drive or G Suite (Admin) was previously restricted to documents at most 10 MB in size. This restriction is no longer in place and users should be able to export larger Google Documents into their Office 365 counterparts.
-- There was an issue where users could not create folders at the root of a Single User connector. This has been fixed and users should be able to create folders at the root of Single User connectors now.
+- There was an issue where users couldn't create folders at the root of a Single User connector. This has been fixed and users should be able to create folders at the root of Single User connectors now.
 - Connectors were not being deleted immediately when the user deleted their account. Instead, connectors would get deleted when the account retention policy monitor would clean them up. This has been changed so that connectors are deleted right away.
 
 ## Backend v1.15.4 (April 9, 2020)

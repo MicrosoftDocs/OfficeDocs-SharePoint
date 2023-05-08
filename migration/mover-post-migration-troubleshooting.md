@@ -47,7 +47,7 @@ Alternatively, you can select multiple users, and from the **User Actions** drop
 
 ## Incremental feature
 
-Our incrementals are delta operations which compare files in your source to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cut-over of users occurs. These incremental passes are an important part of our process.
+Our incrementals are delta operations that compare files in your source to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the final cut-over of users occurs. These incremental passes are an important part of our process.
 
 **Technical clarification**: We compare what you have in your source to what is in Office 365 and we only transfer anything that doesn't already exist, or has a newer timestamp.
 
@@ -55,22 +55,22 @@ Our incrementals are delta operations which compare files in your source to file
 
 During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
 
-This is common if they are not in clear communication about how the sharing structure changes when they log in to Office 365. This can be mitigated with a clear communication strategy.
+This is common if they aren't in clear communication about how the sharing structure changes when they sign in to Office 365. This can be mitigated with a clear communication strategy.
 
 ### Waiting for Microsoft
 
 After all your files have been uploaded to Microsoft, the status of the transfer changes from *Running* to *Waiting for Microsoft*. We must wait for Microsoft to complete their processing.
 
-It is normal for this process to take a few hours, and ultimately depends on how much data there is to process.
+It's normal for this process to take a few hours, and ultimately depends on how much data there's to process.
 
 ### Document parser error
 
-Large HTML or XML documents (256MB+) fail to transfer if the **Document Parser** is enabled for the destination site during the migration.
+Large HTML or XML documents (256 MB+) fail to transfer if the **Document Parser** is enabled for the destination site during the migration.
 
 The following error appears:
 
 `File too large for Microsoft Doc Parser. Please contact Microsoft support and request the Doc Parser be disabled for this site.`
 
-If this error message appears, you must contact Microsoft support directly to disable the **Document Parser** on the target site for the duration of the migration.
+If this error message appears, you must contact Microsoft support directly to disable the **Document Parser** on the target site during the migration.
 
 If you require assistance with your communication strategy, ask us for help.
