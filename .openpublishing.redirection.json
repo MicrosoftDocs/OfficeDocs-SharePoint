@@ -939,6 +939,11 @@
       "source_path": "SharePoint/SharepointOnline/viva-connections-desktop.md",
       "redirect_url": "/viva/connections/viva-connections-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/intelligent-internet-overview.md",
+      "redirect_url": "/sharepoint/intelligent-intranet-overview",
+      "redirect_document_id": true
     }
   ]
 }
