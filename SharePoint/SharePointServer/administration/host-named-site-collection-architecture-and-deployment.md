@@ -25,7 +25,7 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 Host-named site collections can be used to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they're expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
 
 > [!NOTE]
-> The host-named site collections feature is more appropriate when you need to have multiple site collections with each collection having its own DNS name. Otherwise, you can use path-based site collections.
+> Host-named site collections are the appropriate method to deploy sites in SharePoint Server when you need to have multiple site collections, with each collection having its own DNS name. Otherwise, you can use path-based site collections.
 
 ## Architecture and design for host-named site collections
 <a name="section1"> </a>
