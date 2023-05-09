@@ -22,14 +22,17 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they're expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
+Host-named site collections can be used to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they're expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
+
+> [!NOTE]
+> The host-named site collections feature is more appropriate when you need to have multiple site collections with each collection having its own DNS name. Otherwise, you can use path-based site collections.
 
 ## Architecture and design for host-named site collections
 <a name="section1"> </a>
 
-Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.contoso.com`. This example shows that you to deploy many sites with unique DNS names in the same web application. It also enables hosters to scale an environment to many customers. If you don't use host-named site collections, your SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A has a site collection at `http://contoso.com/sites/teamA`, and Team B has a site collection at `http://contoso.com/sites/teamB`.
+Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.contoso.com`. This example shows that you to deploy many sites with unique DNS names in the same web application. It also enables hosters to scale an environment to many customers. 
 
-We recommend host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (described later in this article). This article describes how to implement host-named site collections in a recommended configuration with SharePoint Server. Information about advanced configurations is included at the end of this article: [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md).
+This article describes how to implement host-named site collections in a recommended configuration with SharePoint Server. Information about advanced configurations is included at the end of this article: [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md).
 
 ### Recommended architecture for host-named site collections
 <a name="section1a"> </a>
@@ -141,7 +144,7 @@ The protocol used for a host-named site collection depends on the value of the U
 ### When to use path-based site collections
 <a name="section1d"> </a>
 
-Although we recommend host-named site collections for most architectures, you should use the traditional path-based site collections and alternate access mapping if any of the following conditions apply:
+Use the traditional path-based site collections and alternate access mapping if any of the following conditions apply:
 
 - You need to use the Self Service Site Creation feature that is part of the default installation of SharePoint Server.
 
