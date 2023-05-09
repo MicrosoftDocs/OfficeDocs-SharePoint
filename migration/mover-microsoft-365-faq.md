@@ -18,15 +18,14 @@ description: "Frequently asked questions when using Microsoft Mover to migrate t
 ---
 # Microsoft 365 FAQ
 
-
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte has been fully integrated into Migration Manager. For full details see: [Mover retirement timeline](mover-retirement-timeline.md).  Migration Manager does not support the migration of Amazon S3 or Azure blob storage.
 >
 >All FastTrack-led migrations have transitioned to Migration Manager.
 >
 >**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
 >
->A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+>A cross tenant migration solution for SharePoint is currently being developed and in private preview.  To learn more, see [How to participate in the Cross-tenant SharePoint migration preview](/microsoft-365/enterprise/cross-tenant-sharepoint-migration).
 
 ## Data migrated by Mover
 
@@ -38,10 +37,10 @@ Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts
 
 ## Unsupported files and characters
 
-We automatically process file and folder names to ensure they are accepted by Microsoft 365:
+We automatically process file and folder names to ensure they're accepted by Microsoft 365:
 
-- Files larger than `15 GB` are not migrated.
-- Files with a size of `0 bytes` (zero-byte files) are not migrated.
+- Files larger than `15 GB` aren't migrated.
+- Files with a size of `0 bytes` (zero-byte files) aren't migrated.
 - The following characters in file or folder names are removed:
 `" * : < > ? / \ |`
 
@@ -52,7 +51,7 @@ We automatically process file and folder names to ensure they are accepted by Mi
 
 In some possible circumstances with older sites, any file or folder ending in `_files` could fail. If you experience these errors, contact Support.
 
-Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see [Types of files that cannot be added to a list or library](https://support.microsoft.com/office/types-of-files-that-cannot-be-added-to-a-list-or-library-30be234d-e551-4c2a-8de8-f8546ffbf5b3)
+Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see [Types of files that can't be added to a list or library](https://support.microsoft.com/office/types-of-files-that-cannot-be-added-to-a-list-or-library-30be234d-e551-4c2a-8de8-f8546ffbf5b3)
 
 ## Character limits for files and folders
 
@@ -62,7 +61,7 @@ Microsoft currently has no file type limitations, meaning you can upload data wi
 
 ## What happens to long paths?
 
-During a pre-scan, our app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Microsoft 365 is 400 characters. The path length is calculated when going in to Microsoft 365 and includes your tenant URL, user site, path, and any character encoding.
+During a prescan, our app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Microsoft 365 is 400 characters. The path length is calculated when going in to Microsoft 365 and includes your tenant URL, user site, path, and any character encoding.
 
 **Example**:
 
@@ -70,9 +69,9 @@ This path is 93 characters long despite *Documents/Old Docs* being only 18 chara
 
 `https://example-my.sharepoint.com /personal /example_user /%2FDocuments%2FOld%20Docs`
 
-If a file exists that has a very long path, our app skips it, and reports it in your log files.
+If a file exists that has a long path, our app skips it, and reports it in your log files.
 
-To save time and headaches, before you migrate, you are encouraged to shorten any identified long paths.
+To save time and headaches, before you migrate, you're encouraged to shorten any identified long paths.
 
 ![Turn this into this](media/turnthis-intothis-dropbox.png)
 
@@ -82,7 +81,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No|
 |Azure Blob Storage|No|No|*Read clarification note below|No|No||
-|Box (co-admin)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
+|Box (coadmin)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
 |Box (single user)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
 |Dropbox (single user)|No|No|*Read clarification note below|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox.|
 |Dropbox Business (admin)|No|No|*Read clarification note below|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox.|
@@ -103,7 +102,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
-We do not interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
+We don't interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
 
 ## What happens to shared data?
 
@@ -115,7 +114,7 @@ To prevent users from being spammed, the Mover app silences notifications during
 
 ## What happens to data shared to Microsoft 365 Groups?
 
-Data shared to a Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of a Microsoft 365 Group.
+Data shared to a Microsoft 365 Group doesn't appear in the **Shared with me** section. Microsoft also doesn't notify users that they're now a member of a Microsoft 365 Group.
 
 > [!NOTE]
 > This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
@@ -124,7 +123,7 @@ After the user has logged in:
 
 1. Navigate to the left hand menu.
 2. Scroll down the folder listings to **Groups**.
-  a. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
+  a. If the available groups aren't visible, to open the group directory, select the small arrow beside the **Groups** listing.
 3. Select the desired group.
 From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Microsoft 365 Group.
 
@@ -138,13 +137,13 @@ During the migration setup (described later in this guide), you can edit the pat
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
-Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
+Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint doesn't do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
 ## How does library permissions inheritance affect migration?
 
 To set specific permissions on folders in a document library, inheritance must be disabled. Permissions inheritance is typically turned on by default, which makes all the data within the library subject to the permissions set on the library. This is similar behavior to team folders or team drives in other cloud services, whereby if users have access to the root level, they have access to everything contained within.
 
-If inheritance is not disabled at the root, any permissions we try to set on individual folders are overridden by the library access permissions.
+If inheritance isn't disabled at the root, any permissions we try to set on individual folders are overridden by the library access permissions.
 
 **To disable inheritance:**
 
@@ -158,7 +157,7 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info see [SharePoint permissions inheritance](/sharepoint/what-is-permissions-inheritance).
+For more info, see [SharePoint permissions inheritance](/sharepoint/what-is-permissions-inheritance).
 
 ## Does Mover support Microsoft Teams?
 
@@ -166,7 +165,7 @@ Microsoft Teams appears and operates the same as a SharePoint site.
 
 ## What is the item limit for SharePoint?
 
-Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
+Many sites claim that SharePoint has a 5,000-item limit. This isn't true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
 SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
@@ -176,7 +175,7 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 Permissions are handled in different ways depending on the source/destination connectors used.
 
-- When migrating data from a Single User Connector, permissions will not be applied to any migrated data.
+- When migrating data from a Single User Connector, permissions won't be applied to any migrated data.
 - When migrating from a non-Microsoft Administrative connector (such as G Suite or Dropbox), apply permissions at the folder level with the child folders inheriting those permissions.
 - When migrating from one Office 365 tenant to another Office 365 tenant using Office 365 (OneDrive/SharePoint Admin), apply permissions at the file level.
 
@@ -184,7 +183,7 @@ Permissions are handled in different ways depending on the source/destination co
 
 At a maximum, only 50 user Transfer Rows can run simultaneously. This total includes both scanning and migrating.
 
-If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest will be in the "Queued Transfer Rows."
+If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest is in the "Queued Transfer Rows."
 
-As a transfer row completes, another from the queue will start migrating or scanning automatically.  While 50 concurrent user transfer rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
+As a transfer row completes, another from the queue starts migrating or scanning automatically.  While 50 concurrent user transfer rows are the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
 
