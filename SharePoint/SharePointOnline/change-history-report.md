@@ -1,6 +1,6 @@
 ---
-ms.date: 05/02/2023
-title: "View SharePoint site change history"
+ms.date: 05/10/2023
+title: "Create change history reports for SharePoint sites"
 ms.reviewer: cvelaga
 manager: serdars
 recommendations: true
@@ -16,10 +16,10 @@ ms.collection:
 - M365-collaboration
 - Highpri
 - Tier1
-description: "Learn how to view SharePoint site change history reports in SharePoint admin center."
+description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
 ---
 
-# View SharePoint site change history
+# Create change history reports for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -45,13 +45,13 @@ To access and use this feature, your organization must have the following subscr
 
 1. To create a change history report, go to the **Change history** page and select **Create new report**.  
 
-2. A panel appears on the right where you can specify the type of information you want to include in your change history report. Select **Create report** to generate a new report.
+2. A panel appears where you can specify the type of information you want to include in your change history report. Select **Create report** to generate a new report.
 
 3. The new report is listed on the change history page. Select the report to open the change history report panel and monitor its status.
 
 4. Once the report is created, select **Download report** to export the data as a .csv file. The **Create a copy** button allows you to create more reports with similar parameters.
 
-:::image type="content" source="media/4-change-history-report-downloaded.png" alt-text="screenshot of.a change report downloaded as .csv file.":::
+   :::image type="content" source="media/4-change-history-report-downloaded.png" alt-text="Screenshot of a change report downloaded as .csv file.":::
 
 > [!NOTE]
 > The report will take hours to generate depending on the search criteria selected when creating the report.
@@ -60,7 +60,7 @@ To access and use this feature, your organization must have the following subscr
 
 To view change history reports, expand **Reports** and select **Change history**.
 
-You can create new reports, delete, and refresh their statuses from the change history page. This page will only show five reports at a time. The best practice is to delete a previous report before creating a new one.
+You can create new reports, delete, and refresh their statuses from the change history page. This page can only show five reports at a time. The best practice is to delete a previous report before creating a new one.
 
 :::image type="content" source="media/2a-create-a-report-form-filled.png" alt-text="screenshot of change history dashboard with a prefilled new report panel":::
 
