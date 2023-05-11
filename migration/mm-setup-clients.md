@@ -37,7 +37,7 @@ After an agent is configured, anyone with the permission to go into the <a href=
 
 |Category|Guidance|
 |:-----|:-----|
-|Determine how many agents you need|[How many agents to create](#how-many-agents-to-create)|
+|Determine how many agents you need|[How many agents to create](#agents-and-performance-considerations)|
 |Have the right credentials to use|SharePoint or OneDrive admin for migration destination and an on-premises account for source that has access to ALL network file shares you plan to migrate. Confirm that you have SharePoint or OneDrive Admin credentials to access the "destination" of where you are migrating your content. Verify that the on-premises credentials you plan on using to configure the agent has access to **all** the network file shares you plan to migrate.  |
 |Virtual machines or computers to use:|Determine how many VMs or computers you plan on using for your migration project. List the computers or VMs before you start.|
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
