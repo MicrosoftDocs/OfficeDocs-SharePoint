@@ -23,6 +23,9 @@ description: "Learn how to create and view SharePoint site change history report
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
+> [!NOTE]
+> This feature is currently rolling out and may not yet be fully available for all organizations.
+
 You can create change history reports in the [SharePoint admin center](get-started-new-admin-center.md) to review SharePoint site property changes made within the last 180 days.
 
 Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
