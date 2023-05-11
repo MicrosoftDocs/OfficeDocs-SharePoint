@@ -52,22 +52,19 @@ After an agent is configured, anyone with the permission to go into the <a href=
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
 
-## Create Agents
+## Agents and performance considerations
 
-The key to achieving the best performance in your migration is using the fewest number of agents possible to complete the migration within your timeframe.
+One factor to achieving the best performance in your migration is using the **fewest number of agents needed** to complete the migration within your timeframe. Using more agents than needed can increase the throttling rate when reports are uploaded.
 
-For example:  If your migration can be done within the desired time slot using 10 agents and at an acceptable speed, don't use 20 agents. Using more agents means higher traffic and a higher API request rate. 
-
-Using more agents than needed may increase the reports uploading throttling rate.
+**Example:** If your migration can be done within the desired time slot using 10 agents and at an acceptable speed, don't use 20 agents. Using more agents means higher traffic and a higher API request rate. 
 
 ### Determine how many agents you need
 
-Using more than actually needed agents may increase the reports uploading throttling rate.
-
-o calculate the minimum required number of agents to use for the migration:
+To calculate the minimum required number of agents to use for your migration:
 
 1. Run a test migration with 20 to 30 tasks using 1 agent to test the throughput per agent. Record the time.
 2. Estimate the number of tasks for your entire migration. Take the length of time it took 1 test agent to process, and calculate the number of agents for the migration. Factor in the overall length of time you have to complete your migration project.
+3. If you have already created more agents than you need, they can be disabled by selecting the agent within Migration Manager.
 
 ## Set up an agent
 
