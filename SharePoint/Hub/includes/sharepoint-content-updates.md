@@ -2,6 +2,14 @@
 
 
 
+## Week of May 08, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/10/2023 | [Create change history reports for SharePoint sites](/SharePoint/change-history-report) | modified |
+
+
 ## Week of May 01, 2023
 
 
@@ -53,11 +61,3 @@
 |------|------------|--------|
 | 4/10/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
 | 4/11/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
-
-
-## Week of April 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
