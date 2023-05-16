@@ -316,7 +316,7 @@ b. Open one of your sites and go to Workflows. </br>
 c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. </br>
 d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.</br>
 
-3. **Test an old workflow**</br>. 
+3. **Test an old workflow**</br> 
 a. Find a list that had a workflow assigned to it in the "old" farm. </br>
 b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
 
