@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
-ms.date: 04/25/2023
+ms.date: 05/16/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -31,7 +31,8 @@ When upgrading older SharePoint farms that are using Classic Workflow Manager (W
 You'll need information from the "old" environment to properly configure the "new" environment. 
 
 ### Get the Certificate Generation Key
-As the upgrade steps require that you join an existing workflow farm, you'll need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, reset the Certificate Generation Key for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
+As the upgrade steps require that you join an existing workflow farm, you'll need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, [**reset the Certificate Generation Key**](
+/sharepoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager) for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
 
 
 ### Check the Scope
@@ -141,6 +142,32 @@ If the upgrade/migration includes moving databases to a new SQL server, you need
 
 2. Restore the databases on the new SQL server.
 
+
+#### Restore the databases on the new SQL server
+
+>[!Important]
+>You must restore the 6 databases to the new SQL server using **the same database names** that were used previously.  If you change the database names, the workflow configuration wizard will time out when trying to start the Service Bus services.  
+
+#### Create a SQL alias 
+
+The workflow manager configuration wizard only prompts you to enter connection information for 2 of the 6 databases.  The connection strings for the other 4 databases are stored within the 2 databases that you specify.  This is why it's important to restore the databases with the same names that were used previously.  
+To keep the previous DB connection strings working, you must also create a SQL alias on the new SPWFM server(s).
+- Find the name of the "old" SQL server by running this SQL query against the "SbManagementDB" database:
+```sql
+select Name, Value as "SQLServerName" from store.serviceconfig where name = 'SBGatewayDatabaseServer'
+```  
+Example:  
+![image.png](/.attachments/image-dd5bc44d-ccd4-48ff-ac50-f6f42e7c572c.png)
+- On the SPWFM server, go to Start | Run and type in "cliconfg"  
+![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
+- On the Alias tab, click Add.
+- Choose TCP/IP for the Network library.
+- In the "Server Alias" box, type in the name of the "old" SQL server. Example: "SQL"
+- In the "Server name" box, type in the name of the "new" SQL server (Example: "New_SQL"), and click ok.
+
+![image.png](/.attachments/image-d2e1ea83-9999-4af9-95b7-23590d176464.png)
+
+
 >[!Note]
 >WFM versions do not align with SharePoint versions, which means if you're doing a multi-version upgrade of SharePoint, you do NOT have to upgrade WFM on each step. 
 >
@@ -154,24 +181,23 @@ If the upgrade/migration includes moving databases to a new SQL server, you need
 
 If you're installing SPWFM on a non-SharePoint server, it may not already have it installed. Unfortunately, there's nothing forcing you to install it, so if you don't, the Workflow Configuration Wizard will fail with the error, "*Could not load file or assembly 'Microsoft.Web.Administration*".
 
-### Download Azure Service Fabric
+### Install Azure Service Fabric
 
-1. On the SPWFM server, download the Azure Service Fabric package and extract the files to a location on the computer. For example, C:\Install.
+SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow these steps below to install it:
 
->[!Note]
->The minimum version of Azure Service Fabric supported by SharePoint Workflow Manager is 9.0.1048.9590. You can install higher versions than that. If you want to upgrade your Azure Service Fabric, refer to the supported versions page.
+The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
+Open a PowerShell console as an elevated administrator and run the following command:
 
->[!Important]
->The Cluster Creation step automatically downloads the latest version of the Service Fabric Runtime package. For example, *MicrosoftAzureServiceFabric.9.1.1583.9590.cab*. 
->
->If the SPWFM server does not have internet access, this will fail. In that case, you must manually download the Service Fabric Runtime package and point to it using the *-FabricRuntimePackagePath* parameter when running CreateServiceFabricCluster.ps1.
+`.\MicrosoftServiceFabric.9.1.1583.9590.exe /accepteula`
 
-***Example:***
- 
-*.\CreateServiceFabricCluster.ps1 -ClusterConfigFilePath .\ClusterConfig.Unsecure.DevCluster.json -AcceptEULA -FabricRuntimePackagePath .\MicrosoftAzureServiceFabric.9.1.1583.9590.cab*
+To verify the Azure Service Fabric is installed, you should be able to find it in the Programs and Features of the Control Panel.
 
-- [Learn more about about offline installation of Azure Service Fabric](/azure/service-fabric/service-fabric-cluster-creation-for-windows-server#scenario-c-create-an-offline-internet-disconnected-cluster).
+>[!Note] 
+>SharePoint Workflow Manager supports the version 9.1.1583.9590 of Azure Service Fabric and [higher versions](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). You can install higher versions than that. If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+
+### Offline install of Azure Service Fabric
+If your SPWFM machine has no access to the Internet, you may need to install it differently.  See [Offline Install of Azure Service Fabric](https://supportability.visualstudio.com/SharePointOn-Prem/_wiki/wikis/SharePointOn-Prem/885997/Azure-Service-Fabric?anchor=offline-install-of-asf).
 
 ### Create Service Fabric Cluster
 
@@ -216,7 +242,7 @@ New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
 5. On the SPWFM server, open “Workflow Manager Configuration” again and select **Upgrade Workflow Manager Farm**, and let it run until finished.
 
  
-### Trust the WFM SSL certificate on the SharePoint servers
+### Trust the SPWFM SSL certificate on the SharePoint servers
 
 Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers must trust the certificate it's using.
 
@@ -256,7 +282,7 @@ b.  A browser will open; navigate to https://localhost:12290. If you allowed con
 c. Test both the http and https endpoints.</br>
 
 2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. </br>
-a. On one of the SharePoint servers, sign in with either the **SPWFM RunAs** account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above. </br>
+a. Sign in to one of your SharePoint Servers with either the **SPWFM RunAs** account, or as a user that is a member of AdminGroup. See “Check the service account and admin group” step above. </br>
 b. Browse to the FQDN of the SPWFM endpoint. </br>
 
 For example:
@@ -278,18 +304,19 @@ Register-SPWorkflowService -SPSite http://www.contoso.local -WorkflowHostUri htt
 
 ### Validate the Configuration
 
-1. Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. 
-2. Select the link for **Workflow Service Application Proxy**. It should show as connected. 
+1. Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. Select the link for **Workflow Service Application Proxy**. It should show as connected. 
 
 Example:
 
 :::image type="content" source="../media/sp-workflow-status.png" alt-text="workflow status":::
 
-2. **Test an old workflow**</br>. 
-a. Find a list that had a workflow assigned to it in the "old" farm. </br>
-b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
-3. **Test a new workflow**</br>
+2. **Test a new workflow**</br>
 a. Sign in to a client computer, and then open **SharePoint Designer**.</br>
 b. Open one of your sites and go to Workflows. </br>
 c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. </br>
 d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.</br>
+
+3. **Test an old workflow**</br>. 
+a. Find a list that had a workflow assigned to it in the "old" farm. </br>
+b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
+
