@@ -3,7 +3,7 @@ ms.date: 06/25/2021
 title: "New and improved features in SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
