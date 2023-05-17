@@ -191,7 +191,7 @@ If you're installing SPWFM on a non-SharePoint server, it may not already have i
 
 SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 
-The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
+The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](https://learn.microsoft.com/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
 Open a PowerShell console as an elevated administrator and run the following command:
 
@@ -200,7 +200,12 @@ Open a PowerShell console as an elevated administrator and run the following com
 To verify the Azure Service Fabric is installed, you should be able to find it in the Programs and Features of the Control Panel.
 
 >[!Note] 
->SharePoint Workflow Manager supports the version 9.1.1583.9590 of Azure Service Fabric and [higher versions](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). You can install higher versions than that. If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
+>SharePoint Workflow Manager supports version 9.1.1583.9590 of Azure Service Fabric and higher versions.You can install higher versions than that. Learn more at [Service Fabric supported versions](https://learn.microsoft.com/azure/service-fabric/service-fabric-versions). 
+>
+>If you want to directly upgrade your Azure Service Fabric without uninstalling, be aware of the upgrade dependencies.  Learn more at [Service Fabric supported versions](https://learn.microsoft.com/azure/service-fabric/service-fabric-versions). 
+
+>[!Important]
+>If **Windows Fabric** is already installed on your computer, you must uninstall it before installing Azure Service Fabric.
 
 
 ### Install SPWFM and the SPWFM client on the SPWFM server
