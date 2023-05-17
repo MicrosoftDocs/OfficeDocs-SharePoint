@@ -1,10 +1,10 @@
 ---
-title: "Upgrade to SharePoint Workflow Manager when upgrading older SharePoint Server farms
+title: "Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
-ms.date: 05/16/2023
+ms.date: 05/17/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow Manager when upgrading older SharePoint Server farms."
 ---
 
-# Update from Workflow Manager to SharePoint Workflow Manager on a new farm
+# Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
