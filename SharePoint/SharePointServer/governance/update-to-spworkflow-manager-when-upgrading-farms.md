@@ -162,7 +162,7 @@ select Name, Value as "SQLServerName" from store.serviceconfig where name = 'SBG
 Example:  
 
 
-
+:::image type="content" source="../media/sp-workflow-gatewaydatabaseserver.png" alt-text="example 1 in creating a sql alias":::
 
 - On the SPWFM server, go to Start | Run and type in "cliconfg"  
 
