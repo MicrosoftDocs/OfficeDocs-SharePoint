@@ -168,13 +168,10 @@ Example:
 
 :::image type="content" source="../media/sp-worflow-createalias.png" alt-text="Example on creating a sql alias":::![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
 
-
 - On the Alias tab, click Add.
 - Choose TCP/IP for the Network library.
 - In the "Server Alias" box, type in the name of the "old" SQL server. Example: "SQL"
 - In the "Server name" box, type in the name of the "new" SQL server (Example: "New_SQL"), and click ok.
-
-![image.png](/.attachments/image-d2e1ea83-9999-4af9-95b7-23590d176464.png)
 
 
 >[!Note]
