@@ -153,13 +153,22 @@ If the upgrade/migration includes moving databases to a new SQL server, you need
 The workflow manager configuration wizard only prompts you to enter connection information for 2 of the 6 databases.  The connection strings for the other 4 databases are stored within the 2 databases that you specify.  This is why it's important to restore the databases with the same names that were used previously.  
 To keep the previous DB connection strings working, you must also create a SQL alias on the new SPWFM server(s).
 - Find the name of the "old" SQL server by running this SQL query against the "SbManagementDB" database:
+
 ```sql
 select Name, Value as "SQLServerName" from store.serviceconfig where name = 'SBGatewayDatabaseServer'
+
 ```  
+
 Example:  
-![image.png](/.attachments/image-dd5bc44d-ccd4-48ff-ac50-f6f42e7c572c.png)
+
+
+
+
 - On the SPWFM server, go to Start | Run and type in "cliconfg"  
-![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
+
+:::image type="content" source="../media/sp-worflow-createalias.png" alt-text="Example on creating a sql alias":::![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
+
+
 - On the Alias tab, click Add.
 - Choose TCP/IP for the Network library.
 - In the "Server Alias" box, type in the name of the "old" SQL server. Example: "SQL"
@@ -196,13 +205,6 @@ To verify the Azure Service Fabric is installed, you should be able to find it i
 >[!Note] 
 >SharePoint Workflow Manager supports the version 9.1.1583.9590 of Azure Service Fabric and [higher versions](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). You can install higher versions than that. If you want to directly upgrade your Azure Service Fabric without uninstallation, note that there are [upgrade dependencies](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-versions). If **Windows Fabric** is already installed on your machine, you must uninstall it before installing Azure Service Fabric.
 
-### Offline install of Azure Service Fabric
-If your SPWFM machine has no access to the Internet, you may need to install it differently.  See [Offline Install of Azure Service Fabric](https://supportability.visualstudio.com/SharePointOn-Prem/_wiki/wikis/SharePointOn-Prem/885997/Azure-Service-Fabric?anchor=offline-install-of-asf).
-
-### Create Service Fabric Cluster
-
-On the SPWFM server, run the following in Windows PowerShell as an administrator. Make sure you have navigated to the unzipped path above.
-.\CreateServiceFabricCluster.ps1 -ClusterConfigFilePath .\ClusterConfig.Unsecure.DevCluster.json -AcceptEULA
 
 ### Install SPWFM and the SPWFM client on the SPWFM server
 
@@ -304,7 +306,7 @@ Register-SPWorkflowService -SPSite http://www.contoso.local -WorkflowHostUri htt
 
 ### Validate the Configuration
 
-1. Check the Workflow Service Application proxy in the ** Central Administration > Manage Service Applications**. Select the link for **Workflow Service Application Proxy**. It should show as connected. 
+1. Check the Workflow Service Application proxy in the **Central Administration > Manage Service Applications**. Select the link for **Workflow Service Application Proxy**. It should show as connected. 
 
 Example:
 
