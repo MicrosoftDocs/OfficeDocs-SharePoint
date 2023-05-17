@@ -21,23 +21,23 @@ description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow 
 
 ## Overview
 
-When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, WFM will need to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since you're installing a fresh copy of SPWFM on new hardware and upgrading the existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
+When upgrading older SharePoint farms that are using Classic Workflow Manager (WFM) to a newer version of SharePoint, WFM needs to be upgraded to SharePoint Workflow Manager (SPWFM) as well. Since you're installing a fresh copy of SPWFM on new hardware and upgrading the existing WFM databases, this procedure is essentially a mix of the new install and upgrade procedures with some added steps.
 
 >[!Note]
 >As you are upgrading an existing WFM farm to a SPWFM farm, the WFM databases will be reused. Your existing registration and workflows should remain intact.
 
 ## Step 1: Prepare the old Workflow Manager farm
 
-You'll need information from the "old" environment to properly configure the "new" environment. 
+You need information from the "old" environment to properly configure the "new" environment. 
 
 ### Get the Certificate Generation Key
-As the upgrade steps require that you join an existing workflow farm, you'll need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, [**reset the Certificate Generation Key**](
+As the upgrade steps require that you join an existing workflow farm, you need the WFM "Certificate Generation Key" when rejoining. If you don't know what that key is and have no written record, [**reset the Certificate Generation Key**](
 /sharepoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager) for WFM and Service Bus before proceeding. You must join the existing workflow farm with the proper Certificate Generation Key.
 
 
 ### Check the Scope
 
-You'll need to re-register the *SPWorkflowService* using the same scope name that was used in the old farm.
+You need to re-register the *SPWorkflowService* using the same scope name that was used in the old farm.
 
 1. To check the scope name, run the following PowerShell on one of the SharePoint servers in the “old” farm:
 
@@ -49,10 +49,10 @@ $wfmProxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq "Workflow Service 
 $wfmProxy.GetWorkflowServiceAddress($site)
 
 ```
-2. An address will display similar to this:
+2. An address displays similar to this:
 *https://<span><span>apps.<span><span>contoso.<span><span>local:12290/SharePoint2013* 
 
-The part after the port number is the **scope name**. In this example, it's "SharePoint2013”. **Write down the scope name and save it for later.** You'll need it when you run *Register-SPWorkflowService* in the new farm.  
+The part after the port number is the **scope name**. In this example, it's "SharePoint2013”. **Write down the scope name and save it for later.** You need it when you run *Register-SPWorkflowService* in the new farm.  
 
 
 ### Check the service account and admin group
@@ -71,7 +71,7 @@ Example:
 :::image type="content" source="../media/sp-get-wffarm.png" alt-text="display after running get-wffarm command":::
 
 
-Take note of the account and the group. When you rejoin the workflow farm in the new environment, you must supply the password for the *RunAsAccount*. Only users who are members of the AdminGroup will be able to browse the workflow endpoint URI and run the *Register-SPWorkflowService* command.
+Take note of the account and the group. When you rejoin the workflow farm in the new environment, you must supply the password for the *RunAsAccount*. Only users who are members of the AdminGroup are able to browse the workflow endpoint URI and run the *Register-SPWorkflowService* command.
 
 
 ### Disjoin the old WFM farm
@@ -95,7 +95,7 @@ Take note of the account and the group. When you rejoin the workflow farm in the
 
 ### Move the Content Databases
 
-To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but we'll refer to a few items related to upgrading WFM.
+To maintain parity between the SharePoint sites and the workflows that run on them, you must move the content databases along with the App Management service and WFM databases. Upgrading SharePoint content is outside the scope of this document, but we refer to a few items related to upgrading WFM.
 
 Using the database attach method, you can move SharePoint content databases from the old farm to the new farm.
 
@@ -132,7 +132,7 @@ Since workflows get their permission to SharePoint content through app principal
 
 If the upgrade/migration includes moving databases to a new SQL server, you need to move all the WFM and Service Bus databases.
 
-1. Backup the databases on the old SQL server:
+1. Back up the databases on the old SQL server:
 -  SbGatewayDatabase
 -  SbManagementDB
 -  SBMessageContainer01
@@ -150,7 +150,7 @@ If the upgrade/migration includes moving databases to a new SQL server, you need
 
 #### Create a SQL alias 
 
-The workflow manager configuration wizard only prompts you to enter connection information for 2 of the 6 databases.  The connection strings for the other 4 databases are stored within the 2 databases that you specify.  This is why it's important to restore the databases with the same names that were used previously.  
+The workflow manager configuration wizard only prompts you to enter connection information for 2 of the six databases.  The connection strings for the other four databases are stored within the two databases that you specify.  This is why it's important to restore the databases with the same names that were used previously.  
 To keep the previous DB connection strings working, you must also create a SQL alias on the new SPWFM server(s).
 - Find the name of the "old" SQL server by running this SQL query against the "SbManagementDB" database:
 
@@ -168,10 +168,10 @@ Example:
 
 :::image type="content" source="../media/sp-worflow-createalias.png" alt-text="Example on creating a sql alias":::![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
 
-- On the Alias tab, click Add.
+- On the Alias tab, select Add.
 - Choose TCP/IP for the Network library.
 - In the "Server Alias" box, type in the name of the "old" SQL server. Example: "SQL"
-- In the "Server name" box, type in the name of the "new" SQL server (Example: "New_SQL"), and click ok.
+- In the "Server name" box, type in the name of the "new" SQL server (Example: "New_SQL"), and select ok.
 
 
 >[!Note]
@@ -185,11 +185,11 @@ Example:
 
 1. Check to see if you have the "Web Server (IIS)" server role installed on your new SPWFM server. Install it if it isn't on the server.
 
-If you're installing SPWFM on a non-SharePoint server, it may not already have it installed. Unfortunately, there's nothing forcing you to install it, so if you don't, the Workflow Configuration Wizard will fail with the error, "*Could not load file or assembly 'Microsoft.Web.Administration*".
+If you're installing SPWFM on a non-SharePoint server, it may not already have it installed. Unfortunately, there's nothing forcing you to install it, so if you don't, the Workflow Configuration Wizard fails with the error, "*Could not load file or assembly 'Microsoft.Web.Administration*".
 
 ### Install Azure Service Fabric
 
-SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime is not already installed, follow these steps below to install it:
+SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 
 The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
@@ -277,7 +277,7 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 
 1. **Check from the SPWFM server first**. </br>
 a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. </br>
-b.  A browser will open; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. </br>
+b.  A browser opens; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. </br>
 c. Test both the http and https endpoints.</br>
 
 2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. </br>
@@ -293,7 +293,7 @@ For example:
 ### Register the Service
 
 1. Sign in to any SharePoint server as either the SPWFM RunAs account, or a user that is a member of AdminGroup. See “Check the service account and admin group” step above.
-2. Run the **Register-SPWorkflowService** command to register the workflow service within SharePoint. You'll need the SPWFM endpoint URI, the name of the Scope you gathered in the “Check the scope” step above, and will need to include the -Force parameter. 
+2. Run the **Register-SPWorkflowService** command to register the workflow service within SharePoint. You need the SPWFM endpoint URI, the name of the Scope you gathered in the “Check the scope” step above, and will need to include the -Force parameter. 
 
 Example:
 
