@@ -61,9 +61,9 @@ This recommended configuration in the diagram includes the following elements:
 
 The number of sites within the web application and the URLs for sites aren't important for this example.
 
-When creating a Web application for host-named site collections, the URL of the Web application and the root site collection will be `http://<_webapp.contoso.com_>/`.
+When creating a web application for host-named site collections, the URL of the web application and the root site collection will be `http://<_webapp.contoso.com_>/`.
 
-![URLs of the Web app and root site collection.](../media/HNSC_Webapp_root_URL.jpg)
+![URLs of the web app and root site collection.](../media/HNSC_webapp_root_URL.jpg)
 
 This architecture is recommended to deploy sites because it's the same architecture that the Microsoft 365 environment uses. So, this configuration is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it's the most reliable configuration going forward.
 
@@ -89,7 +89,7 @@ SharePoint Server supports both host-named and path-based site collections. The 
 |Creating sites|You can use Microsoft PowerShell to create host-named site collections. You can't use Central Administration to create host-named site collections.|You can use Central Administration or PowerShell to create path-based site collections.|
 |URLs|Each host-named site collection in a web application is assigned a unique DNS name.  <br/> You can use zones to assign up to five URLs to host-named sites, including vanity URLs.|All path-based site collections in a web application share the same host name (DNS name) as the web application. You can extend a web application to implement up to five zones and create different host names for each zone. However, the host name for a zone applies to all site collections within the web application.|
 |Root site collection and search|A root site collection is required to crawl content in a web application. A root site collection can be a site collection that users can't access.|Typically, a single path-based site collection serves as the root site collection within a web application. You can use managed paths to create more site collections within the web application.|
-|URL mapping|Use PowerShell commands to manage URLs (Set-SPSiteURL, Remove-SPSiteURL, Get-SPSiteURL).|Use Alternate Access Mappings to manage URLs.|
+|URL mapping|Use PowerShell commands to manage URLs (`Set-SPSiteURL`, `Remove-SPSiteURL`, `Get-SPSiteURL`).|Use Alternate Access Mappings to manage URLs.|
 |Self-service site creation|You need to use a custom solution for self-service site creation with host-named site collections.  <br/> The Self Service Site Creation feature that is part of the default installation of SharePoint Server doesn't work with host-named site collections.|When you use the Self Service Site Creation feature that is part of the default installation of SharePoint Server, you create path-based sites.|
 |Managed paths|Managed paths for host-named site collections apply at the farm level and are available for all web applications.  <br/> You have to use PowerShell to create managed paths for host-named site collections.|Managed paths for path-based sites apply at the web application level.  <br/> You can use Central Administration or Microsoft PowerShell to create managed paths for path-based site collections.|
 
@@ -98,11 +98,11 @@ SharePoint Server supports both host-named and path-based site collections. The 
 
 PowerShell cmdlets manage URL mappings for host-named site collections and enable you to map URLs to a single site collection:
 
-- Set-SPSiteUrl — Add or change a URL mapping for a site.
+- `Set-SPSiteUrl` — Add or change a URL mapping for a site.
 
-- Remove-SPSiteUrl — Remove a URL mapping from a site.
+- `Remove-SPSiteUrl` — Remove a URL mapping from a site.
 
-- Get-SPSiteUrl — See all URLs and associated zones for a site collection.
+- `Get-SPSiteUrl`— See all URLs and associated zones for a site collection.
 
 These cmdlets provide URL mapping functionality for host-named site collections that is similar to alternate access mapping.
 
@@ -139,7 +139,7 @@ The cmdlets that manage URLs only operate on the root site collection for a host
 
 Off-box termination of SSL occurs when a proxy server terminates an SSL request and uses HTTP to forward the request to a web server. To achieve off-box SSL termination with host-named site collections, the device that terminates the SSL connection, such as a reverse proxy server, must be capable of generating a custom HTTP header: **Front-End-Https: On**. For more information, see [Use host-named site collections with off-box SSL termination](host-named-site-collection-architecture-and-deployment.md).
 
-The protocol used for a host-named site collection depends on the value of the Url parameter that you specified when you used the Set-SPSiteURL cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
+The protocol used for a host-named site collection depends on the value of the URL parameter that you specified when you used the `Set-SPSiteUR`L cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
 
 ### When to use path-based site collections
 <a name="section1d"> </a>
@@ -161,13 +161,13 @@ Use the traditional path-based site collections and alternate access mapping if 
 ### Use host headers and host-named site collections
 <a name="section1e"> </a>
 
-Host headers allow the web server to host multiple web sites on the same IP Address and Port combination. If the incoming HTTP request includes a host header name, and a matching host header is configured in IIS, IIS will respond with the content from the appropriate web site.
+Host headers allow the web server to host multiple websites on the same IP Address and Port combination. If the incoming HTTP request includes a host header name, and a matching host header is configured in IIS, IIS will respond with the content from the appropriate website.
 
-Host headers are configured at the Web Application (IIS web site) level, they're one of the website bindings properties.
+Host headers are configured at the web Application (IIS website) level, they're one of the website bindings properties.
 
-It's important to understand the distinction between Host headers in IIS and Host Named Site Collections. Host headers at the IIS web site level are only intended for path-based site collections.
+It's important to understand the distinction between Host headers in IIS and Host Named Site Collections. Host headers at the IIS website level are only intended for path-based site collections.
 
-When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS web site level makes it impossible to access host-named site collections through the IIS web site. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
+When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS website level makes it impossible to access host-named site collections through the IIS website. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
 
 > [!IMPORTANT]
 > If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
@@ -199,7 +199,7 @@ If you don't intend to configure two or more IIS websites that share the same po
 
    - The Administrators group on the server on which you're running the Microsoft PowerShell cmdlet.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+    An administrator can use the **`Add-SPShellAdmin`** cmdlet to grant permissions to use SharePoint Server cmdlets.
 
     > [!NOTE]
     > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
@@ -216,7 +216,7 @@ If you don't intend to configure two or more IIS websites that share the same po
 ### Create a root site collection
 <a name="section2b"> </a>
 
-A root site collection is a requirement for any Web application. It's also necessary for crawling content. This site collection must have the same URL as the Web application. Currently, SharePoint prevents the creation of a host-named site collection with the same URL as a Web application. Therefore, the root site collection is created as a path-based site collection.
+A root site collection is a requirement for any web application. It's also necessary for crawling content. This site collection must have the same URL as the web application. Currently, SharePoint prevents the creation of a host-named site collection with the same URL as a web application. Therefore, the root site collection is created as a path-based site collection.
 
 ![A web application with a root site.](../media/HNSC_rootsite.jpg)
 
@@ -233,7 +233,7 @@ Only the root site collection of the web application appears in the content sour
 
 You must use Microsoft PowerShell to create a host-named site collection. You can't use the SharePoint ServerCentral Administration web application to create a host-named site collection, but you can use Central Administration to manage the site collection after you have created it.
 
-You can create a host-named site collection by using the Microsoft PowerShell New-SPSite cmdlet with the -HostHeaderWebApplication parameter, as shown in the following example:
+You can create a host-named site collection by using the Microsoft PowerShell `New-SPSite` cmdlet with the -`HostHeaderWebApplication` parameter, as shown in the following example:
 
 **To create host-named site collections**:
 
@@ -245,7 +245,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
 
    - The Administrators group on the server on which you're running the Microsoft PowerShell cmdlet.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+    An administrator can use the **`Add-SPShellAdmin`** cmdlet to grant permissions to use SharePoint Server cmdlets.
 
     > [!NOTE]
     > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
@@ -391,7 +391,7 @@ To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotf
 ### Determine host-named site collections in existing web applications
 <a name="section3a"> </a>
 
-When you migrate from SharePoint Server 2010 to SharePoint Server, we recommend that you determine how SharePoint Server 2010 sites were created. If sites were created as path-based sites, consider migrating these sites to host-named site collections. If host-named and path-based sites were implemented together, identify the sites that were created as path-based sites and consider migrating these sites to host-named site collections. To accomplish this migration, look for the 'HostHeaderIsSiteName' flag.
+When you migrate from SharePoint Server 2010 to SharePoint Server, we recommend that you determine how SharePoint Server 2010 sites were created. If sites were created as path-based sites, consider migrating these sites to host-named site collections. If host-named and path-based sites were implemented together, identify the sites that were created as path-based sites and consider migrating these sites to host-named site collections. To accomplish this migration, look for the **`HostHeaderIsSiteName`** flag.
 
 The following example determines if a site within a given web application is created as host-named or path based:
 
@@ -454,7 +454,7 @@ The following table summarizes the configuration that is necessary to manage URL
 |&nbsp;|Host-named site collections with all sites in a farm consolidated into one web application|Path-based site collections with alternate access mapping and multiple web applications|Host-named site collections with multiple web applications in a farm|
 |:-----|:-----|:-----|:-----|
 |Within SharePoint Server|Create the web application.  <br/>  Create a root-site collection that isn't accessible to users (for example, `https://HNSC01.fabrikam.com`).  <br/>  Create the host-named site collections with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally add more URLs for each site collection and configure zones by using **Set-SPSiteUrl**. (In corporate portal design samples there's no need because there's only one zone.)|Create the web application with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally configure alternate access mapping. In the design sample, there's no need because there's only one zone).  <br/>  Create the root path-based site collection.|Create the web application.  <br/>  Create a root-site collection that isn't accessible to users (for example, `https://HNSC01.fabrikam.com`).  <br/>  Create the host-named site collections with the host header (for example, `https://intranet.fabrikam.com`).  <br/>  Optionally add more URLs for each site collection and configure zones by using **Set-SPSiteUrl**. (In corporate portal design samples there's no need because there's only one zone.)|
-|Within IIS|Associate an SSL certificate (wildcard certificate or SAN certificate) for all host-named site (domain) in the web application.|Associate an SSL certificate in IIS for each zone (each zone is a separate web application in IIS).|Associate an SSL certificate (wildcard certificate or SAN certificate) for a host-named site (domain) in the web applications.  <br/>  On each web server in the farm and for each web application that shares a port:  <br/>  Configure a separate IP address to represent each web application.  <br/>  Edit the IIS web site binding manually to remove the host header binding that was created when the web application was created and replace this binding with an IP address binding.|
+|Within IIS|Associate an SSL certificate (wildcard certificate or SAN certificate) for all host-named site (domain) in the web application.|Associate an SSL certificate in IIS for each zone (each zone is a separate web application in IIS).|Associate an SSL certificate (wildcard certificate or SAN certificate) for a host-named site (domain) in the web applications.  <br/>  On each web server in the farm and for each web application that shares a port:  <br/>  Configure a separate IP address to represent each web application.  <br/>  Edit the IIS website binding manually to remove the host header binding that was created when the web application was created and replace this binding with an IP address binding.|
 
 If you use multiple web applications on different IP addresses, you might need to complete extra configuration for the NIC, DNS, and the load balancer for each server.
 
