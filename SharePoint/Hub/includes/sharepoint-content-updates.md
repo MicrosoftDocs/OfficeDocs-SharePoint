@@ -2,6 +2,14 @@
 
 
 
+## Week of May 15, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/17/2023 | [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](/SharePoint/governance/update-to-spworkflow-manager-when-upgrading-farms) | added |
+
+
 ## Week of May 08, 2023
 
 
@@ -52,12 +60,3 @@
 | 4/17/2023 | [OneDrive sync reports in the Apps Admin Center](/SharePoint/sync-health) | modified |
 | 4/17/2023 | [Reset Certificate Generation Key for SharePoint Workflow Manager](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager) | added |
 | 4/18/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
-
-
-## Week of April 10, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/10/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
-| 4/11/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
