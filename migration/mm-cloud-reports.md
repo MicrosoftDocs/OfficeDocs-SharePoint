@@ -89,7 +89,7 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 
 ## Scan reports
 
-The following reports are downloaded from the **Scans** tab in Migration Manager. When you select detail reports, all 5 reports are downloaded.
+The following reports are downloaded from the **Scans** tab in Migration Manager. 
 
 ### Scan TransactionItem.csv 
 
@@ -117,7 +117,7 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |SourceSubType|Type of subfolder in the source.|
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
-|SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
+|SourceAclsUnique |The number of users and groups with whom the item is shared and that is different from its parent. |
 |DestinationPath |Full path of the item in the destination. |
 |DestinationPathDepth |Path depth of the item in the destination.  |
 |DestinationBasename |Base name of the item in the destination. If the item is a root folder, this column is blank. |
@@ -194,7 +194,7 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ScannedData-Byte |Data size in Byte scanned in the source. |
 |ScannedFolders |Number of folders scanned in the source. |
 |ScannedFiles |Number of files scanned in the source. |
-|UniquePermissions |Number of users and groups with whom the item is shared and that are different from its parent. |
+|UniquePermissions |Number of users and groups with whom the item is shared and that is different from its parent. |
 |MaximumPathLength |The max path length among all the items in the source. |
 |TotalDataBytes|Data size in Byte that is ready to be migrated. |
 |TotalDataMB|Data size in MB that is ready to be migrated.|
@@ -234,7 +234,7 @@ The TransactionItem.csv report details the final migration status for all items 
 |SourceSubType|File or folder in the destination. |
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
-|SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
+|SourceAclsUnique |The number of users and groups with whom the item is shared and that is different from its parent. |
 |DestinationPath |Full path of the item in the destination. |
 |DestinationPathDepth |Path depth of the item in the destination.  |
 |DestinationBasename |Base name of the item in the destination. If the item is a root folder, this column is blank. |
@@ -245,7 +245,7 @@ The TransactionItem.csv report details the final migration status for all items 
 |DestinationSize |Data size of the item in the destination. |
 
 
-### Migrattion ProjectError.csv 
+### Migration ProjectError.csv 
 
 The Projecterror.csv report details all item level errors that ever occurred during the migration process of all tasks. 
 
@@ -257,7 +257,7 @@ The Projecterror.csv report details all item level errors that ever occurred dur
 |FullPath|Full path of the item in the source. |
 |Action|Operation step of the item that goes wrong during the migration process. |
 |ResultCode|Failure code of the item. It shows "null" when item status is "Success". To learn more, see [Failure codes](#failure-codes). |
-|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank.To learn more, see [Failure codes](#failure-codes). |
+|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column is blank.To learn more, see [Failure codes](#failure-codes). |
 
 
 ### Migration Summary.csv 
@@ -394,7 +394,7 @@ Status codes provide the final status of the scan and migration tasks.
 |411 |Invalid root path |
 |422 |User for schedule not found |
 |423 |Connector not found |
-|490 |Ended by company name Admin. Try again..|
+|490 |Ended by company name Admin. Try again.|
 |491 |Microsoft migration reporting communication failure. Try again.|
 |500 |Unknown, contact support |
 |600 |Queued to start. |
