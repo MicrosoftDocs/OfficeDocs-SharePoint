@@ -77,6 +77,8 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 
 :::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
 
+:::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
+
 
 #### Download Migration reports
 
@@ -87,9 +89,9 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 
 ## Scan reports
 
-The following reports are downloaded from the **Scans** tab from with Migration Manager.
+The following reports are downloaded from the **Scans** tab in Migration Manager. When you select detail reports, all 5 reports are downloaded.
 
-### TransactionItem.csv 
+### Scan: TransactionItem.csv 
 
 The TransactionItem.csv report details the last scan for all items. Each row in the .csv file represents an item of the selected task. 
 
@@ -125,7 +127,7 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |DestinationSubType|Subtype of a destination item.|
 |DestinationSize |Data size of the item in the destination. |
 
-### FileExtension.csv 
+### Scan:  FileExtension.csv 
 
 The FileExtension.csv report details the extension types in each task. 
 
@@ -138,7 +140,7 @@ The FileExtension.csv report details the extension types in each task.
 |SourceExtension|Extension type exists in the task. |
 |TotalSize|Total data size of the extension type in the task. |
 
-### LargeFileSize.csv
+### Scan report: LargeFileSize.csv
 
 The LargeFileSize.csv report details all items larger than 15 GB that can't be migrated. 
 
@@ -151,7 +153,7 @@ The LargeFileSize.csv report details all items larger than 15 GB that can't be m
 |SourceSize |Data size in Byte of the item in the source. |
 |SourceSizeInGB |Data size in GB of the item in the source. |
 
-### LongPath.csv
+### can report: LongPath.csv
 
 The LongPath.csv report details all items with path lengths larger than 300 and that can't be migrated. 
 
@@ -163,7 +165,7 @@ The LongPath.csv report details all items with path lengths larger than 300 and 
 |FullPath |Full path of the item in the source. |
 |SourcePathLength |Path length of the item in the source. |
 
-### ProjectError.csv 
+### Scan report: ProjectError.csv 
 
 The ProjectError.csv report details all item level scan errors that have occurred. 
 
