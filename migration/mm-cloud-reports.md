@@ -30,18 +30,18 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 
 |Scan report|Description|
 |:-----|:-----|:-----|
-|[ScanLog.csv](#scanlogcsv)|Details of the last scan for all items.|
-|[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
-|[LargeFileSizes.csv](#largefilesizescsv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|[ScanErrors.csv](#scanerrorscsv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|[TransactionItem.csv](#transaction-itemcsv)|Details of the last scan for all items.|
+|[FileExtension.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
+|[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|[ProjectError.csv](#projectrrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
 |[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
 
 |Migration report|Description|
 |:-----|:-----|:-----|
-|[MigrationLog.csv](#migrationlogcsv)|Lists the final migration status of all items of the selected task.|
-|[Migration errors.csv](#migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[TransactionItem.csv](#transactionitemcsv)|Lists the final migration status of all items of the selected task.|
+|[ProjectError.csv](proejcterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
 >[!Note]
@@ -85,9 +85,9 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 
 The following reports are downloaded from the **Scans** tab from with Migration Manager.
 
-### ScanLog.csv 
+### TransactionItem.csv 
 
-The scanLog.csv report details the last scan for all items. Each row in the .csv file represents an item of the selected task. 
+The TransactionItem.csv report details the last scan for all items. Each row in the .csv file represents an item of the selected task. 
 
 |Column|Description|
 |:-----|:-----|
@@ -121,9 +121,9 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |DestinationSubType|Subtype of a destination item.|
 |DestinationSize |Data size of the item in the destination. |
 
-### FileExtensions.csv 
+### FileExtension.csv 
 
-The FileExtensions.csv report details the extension types in each task. 
+The FileExtension.csv report details the extension types in each task. 
 
 |Column |	Description| 
 |:-----	|:------|
@@ -134,9 +134,9 @@ The FileExtensions.csv report details the extension types in each task.
 |SourceExtension|Extension type exists in the task. |
 |TotalSize|Total data size of the extension type in the task. |
 
-### LargeFileSizes.csv
+### LargeFileSize.csv
 
-The LargeFileSizes.csv report details all items larger than 15 GB that can't be migrated. 
+The LargeFileSize.csv report details all items larger than 15 GB that can't be migrated. 
 
 |Column |Description |
 |:------|:-----|
@@ -147,9 +147,9 @@ The LargeFileSizes.csv report details all items larger than 15 GB that can't be 
 |SourceSize |Data size in Byte of the item in the source. |
 |SourceSizeInGB |Data size in GB of the item in the source. |
 
-### LongPaths.csv
+### LongPath.csv
 
-The LongPaths.csv report details all items with path lengths larger than 300 and that can't be migrated. 
+The LongPath.csv report details all items with path lengths larger than 300 and that can't be migrated. 
 
 |Column |Description |
 |:-----|:-----|
@@ -159,9 +159,9 @@ The LongPaths.csv report details all items with path lengths larger than 300 and
 |FullPath |Full path of the item in the source. |
 |SourcePathLength |Path length of the item in the source. |
 
-### ScanErrors.csv 
+### ProjectError.csv 
 
-The ScanErrors.csv report details all item level scan errors that have occurred. 
+The ProjectError.csv report details all item level scan errors that have occurred. 
 
 |Column|Description
 |:-----|:-----| 
@@ -202,9 +202,9 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 
 ## Migration reports
 
-### MigrationLog.csv 
+### TransactionItem.csv 
 
-The MigrationLog.csv report details the final migration status for all items of the selected task. Each row in the .csv file represents an item of the selected task. 
+The TransactionItem.csv report details the final migration status for all items of the selected task. Each row in the .csv file represents an item of the selected task. 
 
 |Column |Description |
 |:-----|:-----|
@@ -239,9 +239,9 @@ The MigrationLog.csv report details the final migration status for all items of 
 |DestinationSize |Data size of the item in the destination. |
 
 
-### Migration errors.csv 
+### ProjectError.csv 
 
-The Migration errors.csv report details all item level errors that ever occurred during the migration process of all tasks. 
+The Projecterror.csv report details all item level errors that ever occurred during the migration process of all tasks. 
 
 |Column |Description |
 |:-----|:-----|
