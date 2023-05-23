@@ -42,7 +42,7 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 |:-----|:-----|
 |[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
 |[ProjectError.csv](migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migrationsummary.csv](#migrationsummarycsv)|Task level summary of all migration tasks. |
+|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
@@ -260,9 +260,9 @@ The Projecterror.csv report details all item level errors that ever occurred dur
 |TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank.To learn more, see [Failure codes](#failure-codes). |
 
 
-### Migration summary.csv 
+### Migration Summary.csv 
 
-The Migration summary.csv report is a task level summary of all migration tasks.
+The Migration Summary.csv report is a task level summary of all migration tasks.
 
 |Column |Description |
 |:-----|:-----|
