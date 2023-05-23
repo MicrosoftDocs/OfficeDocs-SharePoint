@@ -29,7 +29,7 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 Use these reports to help manage, audit, and troubleshoot your migration process.
 
 |Scan report|Description|
-|:-----|:-----|:-----|
+|:-----|:-----|
 |[TransactionItem.csv](#transaction-itemcsv)|Details of the last scan for all items.|
 |[FileExtension.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
 |[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
@@ -39,17 +39,17 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 
 
 |Migration report|Description|
-|:-----|:-----|:-----|
+|:-----|:-----|
 |[TransactionItem.csv](#transactionitemcsv)|Lists the final migration status of all items of the selected task.|
 |[ProjectError.csv](proejcterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
+|[Migrationsummary.csv](#migrationsummarycsv)|Task level summary of all migration tasks. |
 
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
 
 ## Failure and status codes 
 
-Your reports may also reference a failure or status code to provide specific details as to the nature of issue. 
+Your reports may reference a failure or status code to provide specific details as to the nature of the issue. 
   
 - [Failure codes](#failure-codes): Result codes or "failure codes" represent item level errors during both the scan and migration process.  
 - [Status codes](#status-codes): Status codes provide the final status of the scan and migration tasks.  
@@ -67,11 +67,15 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-:::image type="content" source="media/mm-reports-download-action-menu.png" alt-text="menu action bar for downloading detailed or summary reports":::
+:::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
-3. Download the processed reports from the Action Center side panel.
+3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. For example:  
 
-:::image type="content" source="media/mm-reports-download-action-panel.png" alt-text="action center side panel flies out to show the list of processed downloadable reports":::
+:::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
+
+4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
+
+:::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
 
 
 #### Download Migration reports
