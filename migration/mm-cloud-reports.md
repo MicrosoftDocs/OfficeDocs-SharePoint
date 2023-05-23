@@ -31,7 +31,7 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 |Scan report|Description|
 |:-----|:-----|
 |[TransactionItem.csv](#scan-transactionitemcsv)|Details of the last scan for all items.|
-|[FileExtension.csv](#fileextentioncsv)|Provides the statistics of extension types existing in each task.|
+|[FileExtension.csv](#fileextensioncsv)|Provides the statistics of extension types existing in each task.|
 |[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
 |[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
 |[ProjectError.csv](#scan-projecterrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
