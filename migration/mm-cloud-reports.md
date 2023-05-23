@@ -41,7 +41,7 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 |Migration report|Description|
 |:-----|:-----|
 |[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
-|[ProjectError.csv](migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
 >[!Note]
