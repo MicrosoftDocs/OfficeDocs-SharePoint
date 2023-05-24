@@ -35,6 +35,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
     - For SharePoint, enter site URL and location
     - For Teams, select the team and the channel
+    - For Forms, 
 
 3. Select **Save path**.
 
