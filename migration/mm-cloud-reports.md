@@ -28,21 +28,21 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 
 Use these reports to help manage, audit, and troubleshoot your migration process.
 
-|Scan report|Description|
-|:-----|:-----|
-|[TransactionItem.csv](#scan-transactionitemcsv)|Details of the last scan for all items.|
-|[FileExtension.csv](#fileextensioncsv)|Provides the statistics of extension types existing in each task.|
-|[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|[ProjectError.csv](#scan-projecterrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+|Report type|Scan report|Description|
+|:-----|:-----|:-----|
+|Detailed|[TransactionItem.csv](#scan-transactionitemcsv)|Details of the last scan for all items.|
+|Summary|[FileExtension.csv](#fileextensioncsv)|Provides the statistics of extension types existing in each task.|
+|Summary|[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|Summary|[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|Summary|[ProjectError.csv](#scan-projecterrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|Summary|[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
 
-|Migration report|Description|
-|:-----|:-----|
-|[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
-|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
+|Report type|Migration report|Description|
+|:-----|:-----|:-----|
+|Detailed|[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
+|Summary|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|Summary|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
@@ -101,11 +101,7 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |TransactionId |Whenever a task is run, it becomes a transaction. The transaction ID is used for debugging.|
 |Name |Display name of the source account. |
 |SourcePath |Source path of the selected source account. |
-|StartTime|Time at the start of the scan.|
 |OperationStep |Operation step of the item. |
-|Duration|Time elapsed for the operation step.|
-|MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries.|
-|Retries|The maximum times for which the operation is allowed to retry.|
 |Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
 |ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". For a listing of all result codes, see [Failure codes](#failure-codes). |
 |FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". For a listing of all result codes, see [Failure codes](#failure-codes). |
@@ -114,7 +110,6 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
 |SourceExtension |File extension of the item in the source. If the item is a root folder, this column is blank. |
 |SourceType |Type of folder in the source. |
-|SourceSubType|Type of subfolder in the source.|
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that is different from its parent. |
@@ -124,7 +119,6 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |DestinationExtension |File extension of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationLocation |The web URI of the item in destination. |
 |DestinationType |File or folder in the destination. |
-|DestinationSubType|Subtype of a destination item.|
 |DestinationSize |Data size of the item in the destination. |
 
 ### FileExtension.csv 
@@ -177,7 +171,7 @@ The ProjectError.csv report details all item level scan errors that have occurre
 |FullPath|Full path of the item in the source. 
 |Action|Operation step of the item that goes wrong during the scan process. 
 |ResultCode|Failure code of the item. It shows "null" when item status is "Success". To learn more, see [Failure codes](#failure-codes). |
-|TopFailureReason|Primary reason for the task failing the scan.|
+|FailureReason|Primary reason for the task failing the scan.|
 
 
 ### ScanSummary.csv 
@@ -187,23 +181,23 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |Column |Description |
 |:-----|:-----|
 |TaskId |ID of the selected task, used for debugging. |
+|StartTime|	Start time of the latest scan, expressed in UTC.|
+|EndTime	|End time of the latest scan, expressed in UTC.|
 |TransactionId |Every time when task is run, it's a transaction. Transaction ID is used for debugging. |
 |Name |Display name of the selected task in the source. |
 |SourcePath |Source path of the selected task. |
 |Tags |Predefined tags of the task. |
-|ScannedData-Byte |Data size in Byte scanned in the source. |
-|ScannedFolders |Number of folders scanned in the source. |
-|ScannedFiles |Number of files scanned in the source. |
+|FoldersReadyToBeMigrated|Number of folders that are ready to be migrated.|
+|FilesReadyToBeMigrated|Number of files that are ready to be migrated.|
+|DataReadyToBeMigrated|Data size in Byte that is ready to be migrated.|
 |UniquePermissions |Number of users and groups with whom the item is shared and that is different from its parent. |
 |MaximumPathLength |The max path length among all the items in the source. |
-|TotalDataBytes|Data size in Byte that is ready to be migrated. |
-|TotalDataMB|Data size in MB that is ready to be migrated.|
-|TotalFiles|Number of files that are ready to be migrated. |
+|FoldersScanned|Number of folders scanned in the source.|
+|FilesScanned|Number of files scanned in the source.|
+|DataScanned|Data size in Byte that scanned in the source.|
 |ScanStatusCode |Scan status code of the scanned task. To learn more, see [Status codes](#status-codes).  |
-|ScanStatus |Scan status of the scanned task. |
 |MostRecentScan |The most recent scan time in UTC of the task. |
-|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". To learn more, see [Failure codes](#failure-codes). |
-|TopFailureReason|Primary reason for the task failing the scan.|
+
 
 
 ## Migration reports
@@ -218,11 +212,7 @@ The TransactionItem.csv report details the final migration status for all items 
 |TransactionId |Every time when task is run, it becomes a transaction. Transaction ID is used for debugging. |
 |Name |Display name of the source account. |
 |SourcePath |Source path of the selected source account. |
-|StartTime|The time the step of migrating the item started.|
 |OperationStep |Operation step of the item. |
-|Duration|Time elapsed for the operation step.|
-|MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries|
-|Retries|The maximum times for which the operation is allowed to retry. |
 |Status |Final migration status of the item. |
 |ResultCode|Failure code of the item. It shows "none" when item status is "Success". To learn more, see [Failure codes](#failure-codes).  |
 |FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. To learn more, see [Failure codes](#failure-codes). |
@@ -231,7 +221,6 @@ The TransactionItem.csv report details the final migration status for all items 
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
 |SourceExtension |File extension of the item in the source. If the item is a root folder, this column is blank. |
 |SourceType |Type of folder in the source. |
-|SourceSubType|File or folder in the destination. |
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that is different from its parent. |
@@ -241,7 +230,6 @@ The TransactionItem.csv report details the final migration status for all items 
 |DestinationExtension |File extension of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationLocation |The web URI of the item in destination. |
 |DestinationType |File or folder in the destination. |
-|DestinationSubType|Subtype of a destination item.|
 |DestinationSize |Data size of the item in the destination. |
 
 
@@ -257,7 +245,7 @@ The Projecterror.csv report details all item level errors that ever occurred dur
 |FullPath|Full path of the item in the source. |
 |Action|Operation step of the item that goes wrong during the migration process. |
 |ResultCode|Failure code of the item. It shows "null" when item status is "Success". To learn more, see [Failure codes](#failure-codes). |
-|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column is blank.To learn more, see [Failure codes](#failure-codes). |
+|FailureReason|Failure description of the failed item. If the item status is "Success", this column is blank.To learn more, see [Failure codes](#failure-codes). |
 
 
 ### Migration Summary.csv 
@@ -268,17 +256,24 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |:-----|:-----|
 |TaskId |ID of the selected task, used for debugging. |
 |TransactionId |Every time when task is run, it's a transaction. Transaction ID is used for debugging. |
+|StartTime|Start time of the latest migration, expressed in UTC.|
+|EndTime|End time of the latest migration, expressed in UTC.|
 |Name |Display name of the selected task in the source. |
 |SourcePath |Source path of the selected task. |
 |Tags |Predefined tags of the task. |
 |StatusCode |Status code of the migration task. To learn more, see [Status codes](#status-codes).   |
 |FoldersCreated |Folder created in the destination for the migration. |
-|FilesSkipped|Number of files copied to destination in the transaction ran before. |
-|FilesSuccessful |Total number of files ever copied to destination. |
-|FilesFailed |Number of files that failed to copy to destination during the latest transaction. |
-|DataSkipped|Data copied to destination in the transaction ran before. |
-|DataSuccessful|Total data size ever copied to destination. |
-|DataFailed |Data size that failed to copy to destination during the latest transaction. |
+|FilesTotalCopied|To date, the total files that have been migrated to the destination from all migrations ever initiated.|
+|FilesLatestCopied|Files that migrated to the destination in the latest migration.|
+|FilesAlreadyCopied|Files already migrated to the destination from previous migrations or already exist in the destination.|
+|FilesFiltered|Files not migrated due to migration filter setting.|
+|FilesFailed|Files that failed in the migrating process.|
+|DataTotalCopied|File level permission migration is set to be on or off.|
+|DataLatestCopied|Data size (in bytes) migrated to the destination in the latest migration.|
+|DataAlreadyCopied|Data size (in bytes) already migrated to the destination from previous migrations or already exists in the destination.|
+|DataFiltered|Data size (in bytes) not migrated due to migration filter setting.|
+|DataFailed|Data size (in bytes) that failed in the migrating process.|
+|FilePermissions| File-level permission migration is set to be on or off. The default setting is **Off**. |
 
 
 ## Failure codes
