@@ -77,7 +77,7 @@ You can either use the following test string in your query string:
 amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
 ```
  
-For example: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h.
+**For example**: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h.
 
 Or you can include the following HTTP header in your request:
 
@@ -85,7 +85,7 @@ Or you can include the following HTTP header in your request:
 amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
 ```
 
-For example, send a request that looks like this:
+**For example**:send a request that looks like this:
 
 ```
 GET /sites/sitename HTTP/1.1
