@@ -85,7 +85,7 @@ Or you can include the following HTTP header in your request:
 amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
 ```
 
-**For example**:send a request that looks like this:
+**For example**: send a request that looks like this:
 
 ```
 GET /sites/sitename HTTP/1.1
