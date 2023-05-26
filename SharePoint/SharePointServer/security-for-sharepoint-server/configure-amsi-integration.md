@@ -69,6 +69,39 @@ Or deactivate AMSI integration for a web application via this PowerShell comma
 Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL>  
 ```
 
+## Test and verify AMSI integration with SharePoint Server
+
+You can either use the following test string in your query string:
+
+```
+amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+```
+ 
+For example: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h.
+
+Or you can include the following HTTP header in your request:
+
+```
+amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+```
+
+For example, send a request that looks like this:
+
+```
+GET /sites/sitename HTTP/1.1
+Host: servername
+amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+```
+
+Microsoft Defender detects this as the following exploit:
+ 
+```
+Exploit:Script/SharePointEicar.A
+```
+
+> [!NOTE]
+> If you are using a malware detection engine other than Microsoft Defender, then you should check with your malware detection engine vendor to determine the best way to test your integration with the AMSI feature in SharePoint Server.
+
 ## Other references
 
 ### Performance effects of using Microsoft Defender as the primary AMSI solution
