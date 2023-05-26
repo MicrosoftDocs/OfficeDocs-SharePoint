@@ -63,9 +63,9 @@ There are several IT Admin settings provided to enable the Loop app and Loop exp
 
 |Scenario|Policies Configured|
 |---|---|
-|Enable Loop app and Loop components everywhere|**Create and view Loop workspaces in Loop** = Enabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
-|Enable Loop components everywhere<br/>Disable the Loop app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
-|Enable Loop components everywhere, but Disable in eCommunication (Outlook, Teams)<br/>Disable Loop app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>**Create and view Loop files in Outlook** = Disabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $false`|
+|Enable Loop workspaces in the app and Loop components everywhere|**Create and view Loop workspaces in Loop** = Enabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
+|Enable Loop components everywhere<br/>Disable Loop workspaces in the app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
+|Enable Loop components everywhere, but Disable in eCommunication (Outlook, Teams)<br/>Disable Loop workspaces in the app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>**Create and view Loop files in Outlook** = Disabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $false`|
 
 ## Settings management in Cloud Policy
 
