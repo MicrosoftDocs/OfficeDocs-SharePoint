@@ -47,8 +47,8 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
    4. Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016 ([KB 4461507](https://support.microsoft.com/help/4461507)) or for SharePoint Server 2019 ([KB 4462221](https://support.microsoft.com/help/4462221)).
 
    > [!NOTE]
-    - > You can join other VMs to Active Directory in subnet 1.
-    - > No additional updates need to be installed for SharePoint Server Subscription Edition.
+   - > You can join other VMs to Active Directory in subnet 1.
+   - > No additional updates need to be installed for SharePoint Server Subscription Edition.
 
 3. Create an Azure SQL Managed Instance in subnet 2, within this resource group (ManagedInstance).
 
