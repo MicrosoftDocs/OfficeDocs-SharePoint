@@ -23,12 +23,12 @@ description: "Learn how to deploy Azure SQL Managed Instance (MI) with SharePoin
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-SharePoint Servers (2016, 2019 and Subscription Edition) now support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
+SharePoint Servers (2016, 2019, and Subscription Edition) support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
 
 > [!IMPORTANT]
 > SharePoint Server farms must be hosted in Microsoft Azure to support Azure SQL Managed Instance. The SharePoint Server farm and the managed instance must be hosted in the same Azure region. SharePoint Server farms don't support managed instances when hosted in customer data centers.
 
-Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database Managed Instance with SharePoint Servers 2016, 2019 and Subscription Edition.  
+Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database Managed Instance with SharePoint Servers 2016, 2019, or Subscription Edition.  
 
 ## Environment
 
@@ -47,8 +47,9 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
    4. Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016 ([KB 4461507](https://support.microsoft.com/help/4461507)) or for SharePoint Server 2019 ([KB 4462221](https://support.microsoft.com/help/4462221)).
 
    > [!NOTE]
-   - > You can join other VMs to Active Directory in subnet 1.
-   - > No additional updates need to be installed for SharePoint Server Subscription Edition.
+   > You can join other VMs to Active Directory in subnet 1.
+   >
+   > No additional updates need to be installed for SharePoint Server Subscription Edition.
 
 3. Create an Azure SQL Managed Instance in subnet 2, within this resource group (ManagedInstance).
 
