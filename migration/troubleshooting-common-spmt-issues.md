@@ -34,7 +34,7 @@ This article describes common issues and errors you may encounter when using the
 
 |Message|Do this|
 |-----|-----|
-|*We are unable to connect to the site you provided*|Check if the list exists or if you can access it in the source site and target site from your computer.</br></br> Confirm you have signed into SPMT with an account that has access to the site.</br></br>Confirm the URL you entered is correct and follows the proper format. </br>Example:  \<spam\>\<spam\>https://\<spam\>\<spam\>contoso.sharepoint.com/teams/SiteTitle\<spam\>\<spam\>| 
+|*We are unable to connect to the site you provided*|Check if the list exists or if you can access it in the source site and target site from your computer.</br></br> Confirm you have signed into SPMT with an account that has access to the site. </br></br>Confirm the URL you entered is correct and follows the proper format. </br>Example:  \<spam\>\<spam\>https://\<spam\>\<spam\>contoso.sharepoint.com/teams/SiteTitle\<spam\>\<spam\>| 
 |*Invalid source folder*|Confirm the path you entered is correct and follows the proper format</br></br>Confirm the user of SPMT has read access to the folder|
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|
