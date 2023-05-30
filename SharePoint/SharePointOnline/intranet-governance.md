@@ -101,7 +101,7 @@ Each organization will have its own set of policies and guidelines. General topi
 - [Site navigation](./plan-navigation-modern-experience.md) – for individual sites and the intranet as a whole.
 - [Site designs](/sharepoint/dev/declarative-customization/site-design-overview) - including guidance for items like the positions of key web parts on departmental home pages. Do you want all sites to follow a similar pattern so that users can easily find key content as they move from site to site? If so, then you may want to apply site designs to ensure that it is easy for site owners to follow your design patterns.
 - [Metadata architecture and content types](./managed-metadata.md) - for example, policies for enterprise content types and organization-wide metadata).
-- Guidelines for Teams chat and Yammer conversations - including more than just [messaging policies](/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Yammer conversation](https://support.microsoft.com/office/join-the-conversation-in-yammer-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
+- Guidelines for Teams chat and Viva Engage conversations - including more than just [messaging policies](/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Viva Engage conversation](https://support.microsoft.com/office/join-the-conversation-in-viva-engage-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
 - [User profiles](https://support.microsoft.com/office/update-your-profile-0ddb9ebf-2850-4533-b07f-cba2c90acbc1) – including expectations for the About me statement and expectations for skills and expertise (for example, how well do you have to know a topic to list it in the skills and expertise area of your profile?).
 - Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
 
@@ -186,8 +186,8 @@ No matter who is in your “village,” it is critically important that everyone
 - Hub Owners
 - Site Members/Editors
 - Site Visitors
-- Yammer Community Owners
-- Yammer Community Members
+- Viva Engage Community Owners
+- Viva Engage Community Members
 - Team Owners
 - Team Members
 - Intranet/SharePoint/Microsoft 365 Champions

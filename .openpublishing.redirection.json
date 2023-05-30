@@ -944,6 +944,11 @@
       "source_path": "SharePoint/SharePointOnline/intelligent-internet-overview.md",
       "redirect_url": "/sharepoint/intelligent-intranet-overview",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/hold-town-hall-using-yammer.md",
+      "redirect_url": "SharePoint/SharePointOnline/hold-town-hall-using-viva-engage.md",
+      "redirect_document_id": true
     }
   ]
 }

@@ -53,7 +53,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 **6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more. [Learn how](#add-video-with-the-stream-web-part)
 
-![Image of the Yammer and Hero web parts](media/gw-leadership/long-78.png)
+![Image of the Viva Engage and Hero web parts](media/gw-leadership/long-78.png)
 
 **7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-yammer-web-part)
 
@@ -197,15 +197,15 @@ For more details on using the Stream web part, see [Use the Stream web part](htt
 
 [Back to top](#lets-get-started)
 
-## Keep communication fresh with the Yammer web part
+## Keep communication fresh with the Viva Engage web part
 
-With Yammer, you can have organization-wide conversations. Now you can have those conversations right on your page with the Yammer **Conversations** web part. In this example, the conversation is being pulled from a Yammer group called Leadership.
+With Viva Engage, you can have organization-wide conversations. Now you can have those conversations right on your page with the Viva Engage **Conversations** web part. In this example, the conversation is being pulled from a Viva Engage group called Leadership.
 
 In this Leadership site example shown above, this web part is in the first column of a two-column section.
 
-![Image of the Yammer web part](media/gw-leadership/gw-17.png)
+![Image of the Viva Engage web part](media/gw-leadership/gw-17.png)
 
-For more details on using the Yammer web part, see [Use a Yammer web part in SharePoint Online](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+For more details on using the Viva Engage web part, see [Use a Viva Engage web part in SharePoint Online](https://support.microsoft.com/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
 [Back to top](#lets-get-started)
 
