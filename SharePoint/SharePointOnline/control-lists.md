@@ -88,9 +88,10 @@ Where the template ID is:
 - Loans: '7C920B56-2D7A-02DA-94B2-57B46E0FF1CE'
 - Gift ideas: '008F8143-9644-0238-B4B5-C03E4F0FF1CE'
 - Recipe tracker: 'A1755E7D-8E3A-4141-89FC-6C77EB0FF1CE'
-- Expense tracker: '96D6DBE5-D7C3-430A-867A-0B72EB4065AB'
+- Expense tracker: '96D6DBE5-D7C3-030A-867A-0B72EB0FF1CE'
 - Travel requests with approvals: '4EB20749-6360-417C-83DD-06135C0FF1CE'
 - Content scheduler with approvals: 'C381BD64-C1A1-4D9E-BE9C-0571900FF1CE'
+- Playlist: '3A867B4A-7429-0E1A-B02E-BF4B240FF1CE'
 
 To re-enable a built-in template, use the parameter `EnableModernListTemplateIds`.
 
