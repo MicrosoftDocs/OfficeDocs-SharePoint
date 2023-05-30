@@ -48,15 +48,16 @@ Using the SharePoint Migration Tool (SPMT), you can now migrate:
 |[Step 3: Activate workflows](spmt-workflow-step2.md)|Sign in to Power Automate to activate the newly migrated workflows.|
 
 
-## Get started
+## Prerequisites
 
 Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-- **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.
+- **Access to the destination**: The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. As this user account will be set as the owner of migrated flow, it must also be assigned the *Environment Maker* role. [Learn more about Environment Maker role](/power-platform/admin/database-security).
+- **Access to the source**: Your SharePoint Server account credentials must have read access to any workflow you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
+
 
 ## General process
 

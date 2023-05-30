@@ -3,7 +3,7 @@ ms.date: 05/13/2019
 title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
-author: jhendr
+author: JoanneHendrickson
 manager: serdars
 audience: admin
 recommendations: true

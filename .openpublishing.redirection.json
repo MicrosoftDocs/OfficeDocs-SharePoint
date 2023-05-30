@@ -916,9 +916,34 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/information-barriers-onedrive.md",
+      "redirect_url": "/Microsoft-365/Compliance/information-barriers-onedrive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/information-barriers.md",
+      "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/information-barriers-compliance-assistant.md",
+      "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint-assistant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/info-barriers-report.md",
+      "redirect_url": "/Microsoft-365/Compliance/information-barriers-sharepoint-report",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharepointOnline/viva-connections-desktop.md",
       "redirect_url": "/viva/connections/viva-connections-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/intelligent-internet-overview.md",
+      "redirect_url": "/sharepoint/intelligent-intranet-overview",
+      "redirect_document_id": true
     }
   ]
 }

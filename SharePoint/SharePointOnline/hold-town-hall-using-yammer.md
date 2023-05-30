@@ -93,7 +93,7 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 
 ### E. Use Yammer to host your town hall event
-Yammer enables people to connect with each other across an entire organization. It helps unite people who don't often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf)
+Yammer enables people to connect with each other across an entire organization. It helps unite people who don't often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Yammer](https://aka.ms/LiveEventsinYammerplaybook)
 
 > [!NOTE]
 > To host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).

@@ -32,7 +32,7 @@ You can view the statistics for all usage event types in Popularity Trends and M
 ## Create a custom usage event type
 <a name="BKMK_CreateCustomUsageEventType"> </a>
 
-There are three default usage event types in SharePoint Server. You can create up to twelve custom usage event types by using Microsoft PowerShell.
+There are three default usage event types in SharePoint Server. You can create up to 12 custom usage event types by using Microsoft PowerShell.
   
  **To create a custom usage event type**
   
@@ -42,14 +42,14 @@ There are three default usage event types in SharePoint Server. You can create u
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -74,7 +74,7 @@ There are three default usage event types in SharePoint Server. You can create u
     
   -  \<SiteName\> is the name of the site for which you want to create a custom usage event. 
     
-  - \<EventTypeName\> is the name of the new custom usage event type that you want to create — for example,  *BuyEventType*  . 
+  - \<EventTypeName\> is the name of the new custom usage event type that you want to create—for example,  *BuyEventType*  . 
     
     This procedure creates a random GUID for the usage event type. Use this GUID when you add code to record the custom usage event, as described in [Record a custom usage event](configure-recommendations-and-usage-event-types.md#BKMK_RecordCustomUsageEvent).
     
@@ -87,9 +87,9 @@ There are three default usage event types in SharePoint Server. You can create u
 ## Record a custom usage event
 <a name="BKMK_RecordCustomUsageEvent"> </a>
 
-After you have created a custom usage event type, as described in [Create a custom usage event type](configure-recommendations-and-usage-event-types.md#BKMK_CreateCustomUsageEventType), you have to add code to the place where the event occurs — for example, when a page loads, or when a user clicks a link or a button. This data is then sent to the analytics processing component, where it is recorded and processed.
+After you have created a custom usage event type, as described in [Create a custom usage event type](configure-recommendations-and-usage-event-types.md#BKMK_CreateCustomUsageEventType), you have to add code to the place where the event occurs—for example, when a page loads, or when a user clicks a link or a button. This data is then sent to the analytics processing component, where it's recorded and processed.
   
-If you are using cross-site publishing, where you show catalog content on a publishing site, you must record the usage event on the URL of the indexed item, and override some site settings. For example, if you have a catalog in an authoring site that you have published on a publishing site, when a user interacts with a catalog item on the publishing site, this usage event must be recorded on the item in the authoring site. Furthermore, the code that you add to record the usage event must override the SiteId and the WebId of the publishing site, and be replaced with the SiteId and the WebId of the authoring site.
+If you're using cross-site publishing, where you show catalog content on a publishing site, you must record the usage event on the URL of the indexed item, and override some site settings. For example, if you have a catalog in an authoring site that you have published on a publishing site, when a user interacts with a catalog item on the publishing site, this usage event must be recorded on the item in the authoring site. Furthermore, the code that you add to record the usage event must override the SiteId and the WebId of the publishing site, and be replaced with the SiteId and the WebId of the authoring site.
   
  **To add code to record a custom usage event**
   
@@ -99,14 +99,14 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -119,7 +119,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
   
   ```
 
-4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
+4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part, and add the following code:
     
   ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url)
@@ -134,9 +134,9 @@ If you are using cross-site publishing, where you show catalog content on a publ
   }
   ```
 
-  - `CustomUsageEventType` is the name of the custom event — for example,  *BuyEventType*  . 
+  - `CustomUsageEventType` is the name of the custom event—for example,  *BuyEventType*  . 
     
-  - `GUID` is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
+  - `GUID` is the numeric ID of the usage event type—for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
     
 5. In an HTML editor, open the file that refers to the custom usage event, and add the following code:
     
@@ -150,7 +150,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
   - \<CustomUsageEventType\> is the name of the custom event type.
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged — for example,  *http://contoso.com/faq*  . 
+  - \<URL\> is the full URL of the item to which the usage event should be logged—for example,  `https://contoso.com/faq`. 
     
  **To add code to record a custom usage event and override site settings**
   
@@ -160,14 +160,14 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -180,7 +180,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
   
   ```
 
-4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The following example shows how to override the current SiteId, WebId and UserId.
+4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part. The following example shows how to override the current SiteId, WebId and UserId.
     
   ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
@@ -198,9 +198,9 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
    Where:
     
-  - \<CustomUsageEventType\> is the name of the custom event type — for example,  *BuyEventType*  . 
+  - \<CustomUsageEventType\> is the name of the custom event type—for example,  *BuyEventType*  . 
     
-  - \<GUID\> is the numeric ID of the usage event type — for example, *4e605543-63cf-4b5f-aab6-99a10b8fb257*  . 
+  - \<GUID\> is the numeric ID of the usage event type—for example, *4e605543-63cf-4b5f-aab6-99a10b8fb257*  . 
     
 5. In an HTML editor, open the file that refers to the custom usage event type, and add the following code:
     
@@ -212,7 +212,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
    Where:
     
-  - \<CustomUsageEventType\> is the name of the custom event type — for example, BuyEventType.
+  - \<CustomUsageEventType\> is the name of the custom event type—for example, BuyEventType.
     
   - \<URL\> is the URL found in the managed property OriginalPath.
     
@@ -225,9 +225,9 @@ If you are using cross-site publishing, where you show catalog content on a publ
 ## Record a default usage event
 <a name="BKMK_RecordDefaultUsageEvent"> </a>
 
-If you want to add code that refers to a default usage event type — for example, views, you have to add code to the place where the event occurs.
+If you want to add code that refers to a default usage event type—for example, views, you have to add code to the place where the event occurs.
   
-If you are using cross-site publishing, which shows catalog content on a publishing site, you must record the usage event on the URL of the indexed item, and override some site settings. For example, if you have a catalog in an authoring site that you have published on a publishing site, when a user interacts with a catalog item on the publishing site, this usage event must be recorded on the item in the authoring site. Furthermore, the code that you add to record the usage event must override the SiteId and WebId of the publishing site, and be replaced with the SiteId and WebId of the authoring site.
+If you're using cross-site publishing, which shows catalog content on a publishing site, you must record the usage event on the URL of the indexed item, and override some site settings. For example, if you have a catalog in an authoring site that you have published on a publishing site, when a user interacts with a catalog item on the publishing site, this usage event must be recorded on the item in the authoring site. Furthermore, the code that you add to record the usage event must override the SiteId and WebId of the publishing site, and be replaced with the SiteId and WebId of the authoring site.
   
  **To add code to record a default usage event**
   
@@ -237,14 +237,14 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -257,7 +257,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
   
   ```
 
-4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
+4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part, and add the following code:
     
   ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url)
@@ -274,9 +274,9 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
    Where:
     
-  - \<DefaultUsageEventType\> is the name of the default usage event type — for example, *Views*. 
+  - \<DefaultUsageEventType\> is the name of the default usage event type—for example, *Views*. 
     
-  - \<EventTypeId\> is the numeric ID of the usage event type — for example, *1*. 
+  - \<EventTypeId\> is the numeric ID of the usage event type—for example, *1*. 
     
 5. In an HTML editor, open the file that refers to the default usage event, and add the following code:
     
@@ -287,9 +287,9 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
    Where:
     
-  - \<DefaultUsageEventType\> is the name of the default usage event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default usage event type—for example,  *Views*  . 
     
-  - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  *http://contoso.com/careers* 
+  - \<URL\> is the full URL of the item to which the usage event should be logged—for example,  `https://contoso.com/careers`. 
     
 6. Save the file.
     
@@ -301,14 +301,14 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -321,7 +321,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
   
   ```
 
-4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId and the UserId.
+4. In an HTML editor, open the file where the custom usage event should be logged—for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId, and the UserId.
     
   ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
@@ -338,9 +338,9 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
    Where:
     
-  - \<DefaultUsageEventType\> is the name of the default event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default event type—for example,  *Views*  . 
     
-  - \<EventTypeId\> is the numeric ID of the usage event type — for example,  *1*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type—for example,  *1*  . 
     
 5. In an HTML editor, open the file that refers to the default usage event type, and add the following code:
     
@@ -352,9 +352,9 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
    Where:
     
-  - \<DefaultUsageEventType\> is the name of the default event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default event type—for example,  *Views*  . 
     
-  - \<URL\> is the URL in the managed property  *OriginalPath*  . 
+  - \<URL\> is the URL in the managed property *OriginalPath*.
     
   - \<SiteId GUID\> is the SiteId GUID of the authoring site. For information on how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
@@ -378,14 +378,14 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -410,9 +410,9 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
 
    Where:
     
-  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the weight — for example, *256*. 
+  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the weight—for example, *256*. 
  
-  - \<RecommendationWeightNumber\> is the level of importance that you want to apply to the user event type — for example, *4*. 
+  - \<RecommendationWeightNumber\> is the level of importance that you want to apply to the user event type—for example, *4*.
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -420,7 +420,7 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
 ## Change the Recent time period for a usage event type
 <a name="BKMK_ChangeRecentTimePeriod"> </a>
 
-The usage event type property **RecentPopularityTimeframe** is a numeric value that defines the **Recent** time period in the **Most Popular Items** report. The Most Popular Items report shows the most popular items per usage event type for all items in a library or list — for example, the most viewed items in a library or list. The report can be sorted by the time periods **Recent** or **Ever**. By default, the Recent time period is set to the last 14 days for each usage event. You can change this to a time period between one and 14 days.
+The usage event type property **RecentPopularityTimeframe** is a numeric value that defines the **Recent** time period in the **Most Popular Items** report. The Most Popular Items report shows the most popular items per usage event type for all items in a library or list—for example, the most viewed items in a library or list. The report can be sorted by the time periods **Recent** or **Ever**. By default, the Recent time period is set to the last 14 days for each usage event. You can change this value to a time period between one and 14 days.
   
  **To change the Recent time period for a usage event type**
   
@@ -430,14 +430,14 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -462,9 +462,9 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
 
    Where:
     
-  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the **Recent** time frame — for example,  *256*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the **Recent** time frame—for example, *256*.
     
-  - \<TimeFrame\> is the new **Recent** time frame that you want to apply to the user event type — for example, *7*. 
+  - \<TimeFrame\> is the new **Recent** time frame that you want to apply to the user event type—for example, *7*. 
     
     > [!NOTE]
     > The system updates any changes to the Recent time period only after the Usage Analytics Timer Job has run. 
@@ -485,14 +485,14 @@ Users that are browsing the contents of a site without being connected to an acc
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -517,7 +517,7 @@ Users that are browsing the contents of a site without being connected to an acc
 
    Where:
     
-  - \<EventTypeId\> is the numeric ID of the usage event type that you want to enable for the logging of anonymous users — for example, *256*. 
+  - \<EventTypeId\> is the numeric ID of the usage event type that you want to enable for the logging of anonymous users—for example, *256*. 
     
  **To disable the logging of usage events of anonymous users**
   
@@ -527,14 +527,14 @@ Users that are browsing the contents of a site without being connected to an acc
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -557,7 +557,7 @@ Users that are browsing the contents of a site without being connected to an acc
 
    Where:
     
-  - \<EventTypeId\> is the numeric ID of the usage event type that you want to disable for the logging of anonymous users — for example, *256*. 
+  - \<EventTypeId\> is the numeric ID of the usage event type that you want to disable for the logging of anonymous users—for example, *256*. 
     
     > [!NOTE]
     > For the default usage event type  *Views*  , you cannot disable the logging of anonymous users. 
@@ -578,14 +578,14 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Administrators group on the server on which you're running the PowerShell cmdlets.
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -606,9 +606,9 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
 
    Where:
     
-  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of — for example,  _http://contoso.com/sites/catalog_.
+  -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of—for example,  `https://contoso.com/sites/catalog`.
     
-  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  _http://contoso.com/sites/catalog_, and your subsite URL is  _http://contoso.com/sites/catalog/products_, type  _products_ for this placeholder. 
+  -  _\<SubSiteLocation\>_ is the remainder of the URL path to the subsite after the root site URL. For example, if your root site URL is  `https://contoso.com/sites/catalog` and your subsite URL is  `https://contoso.com/sites/catalog/products`, type  _products_ for this placeholder. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
