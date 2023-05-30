@@ -948,7 +948,7 @@
     {
       "source_path": "SharePoint/SharePointOnline/hold-town-hall-using-yammer.md",
       "redirect_url": "SharePoint/SharePointOnline/hold-town-hall-using-viva-engage.md",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }

@@ -55,7 +55,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ![Image of the Viva Engage and Hero web parts](media/gw-leadership/long-78.png)
 
-**7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-yammer-web-part)
+**7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-viva-engage-web-part)
 
 **8. Showcase images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-a-second-hero-web-part)
 

@@ -89,18 +89,18 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 - Develop the schedule and time limits for the town hall.
 - Assign roles to moderators and brief them on key tasks. If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions.
-- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412).
+- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-viva-engage-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-viva-engage-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412).
 
 
 ### E. Use Viva Engage to host your town hall event
 Viva Engage enables people to connect with each other across an entire organization. It helps unite people who don't often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Viva Engage](https://aka.ms/LiveEventsinYammerplaybook)
 
 > [!NOTE]
-> To host a live event in Viva Engage, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Viva Engage groups. For more information, see [Enforce Office 365 identity for Viva Engage users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Viva Engage and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
+> To host a live event in Viva Engage, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Viva Engage groups. For more information, see [Enforce Office 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) and [Viva Engage and Microsoft 365 groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups).
 
 ## Promote the town hall 
 
-Promote the town hall before the event date where your target audience usually gets announcements and updates. Then [manage engagement during the during the town hall](#host-a-town-hall-in-yammer) and [after the town hall.](#post-event-engagement)
+Promote the town hall before the event date where your target audience usually gets announcements and updates. Then [manage engagement during the during the town hall](#host-a-town-hall-in-viva-engage) and [after the town hall.](#post-event-engagement)
 
 #### Promote in Viva Engage
 
@@ -145,7 +145,7 @@ ensure smooth transitions. A run through with the latest content, notes or demo 
 #### Step 1: Get set up in Viva Engage
 
 Creating and producing live events in Viva Engage requires Microsoft Stream and/ or Teams licenses and specific permissions. Viva Engage administrators can schedule live meetings in Viva Engage.
-For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Viva Engage](/viva/engage/manage-viva-engage-groups/yammer-live-events).
+For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events).
 
 #### Step 2: Test equipment
 
@@ -157,7 +157,7 @@ Audience members and moderators can engage during the event using the conversati
 
 ![Screenshot of the mobile Viva Engage home page.](media/th9.png)   ![Screenshot of the desktop Viva Engage home page.](media/th10.png)
 
-Viva Engage allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. Learn more about [using Q&A in a Viva Engage community](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).
+Viva Engage allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. Learn more about [using Q&A in a Viva Engage community](https://support.microsoft.com/office/use-questions-and-answers-in-a-viva-engage-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).
 
 ## Post-event engagement
 
@@ -175,7 +175,7 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 ![Screenshot of the Viva Engage attendee insights dashboard.](media/th11.png)
 
-[Viva Engage event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
+[Viva Engage event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-viva-engage-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
 
 ### Measure community engagement
 
