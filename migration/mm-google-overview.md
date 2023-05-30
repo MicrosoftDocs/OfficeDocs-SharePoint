@@ -37,7 +37,7 @@ Collaborate all in one place by migrating your Google documents, data, and users
 - **Step 3:** [Copy to Migrations list](mm-google-step3-copy-to-migrations.md). After a Google Drive has been scanned and determined ready, add them to your migration list.
 - **Step 4:** [Review destination paths](mm-google-step4-review-destinations.md).  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
 - **Step 5:** [Map identities](mm-google-step5-map-identities.md).   Map your groups and users in Google Drive to an account in Microsoft 365 to migrate your Google Drive permission settings.
-- **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md). After reviewing your migration setup, migrate your Google accounts and monitor the progress
+- **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md). After reviewing your migration setup, migrate your Google accounts and monitor the progress.
 
 
 ## Get started
