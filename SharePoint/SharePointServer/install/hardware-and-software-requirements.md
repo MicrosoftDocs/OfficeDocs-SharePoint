@@ -25,12 +25,12 @@ description: Find out the minimum hardware and software requirements you need to
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 > [!IMPORTANT]
-> If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements.
+> If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this article, support will be limited until the system is upgraded to the minimum requirements.
 
 ## Hardware requirements: Location of physical servers
 <a name="hwLocServers"> </a>
 
-Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms for SharePoint Server 2016 are supported.
+Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms are supported for SharePoint Server 2016.
 
 For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
 
@@ -95,7 +95,7 @@ This section provides minimum software requirements for each server in the farm.
 
 One of the following:
 
-- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 110. This includes SQL Server 2012, SQL Server 2014, SQL Server 2016, SQL Server 2017, SQL Server 2019, and any future version of SQL Server for Windows that supports database compatibility level 110. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
+- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 110. This includes SQL Server 2012, SQL Server 2014, SQL Server 2016, SQL Server 2017, SQL Server 2019, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 110. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
 
 - Microsoft Azure SQL Managed Instance (MI). This is only supported if your SharePoint Server farm is hosted in Microsoft Azure. For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
 

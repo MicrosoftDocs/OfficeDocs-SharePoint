@@ -129,7 +129,8 @@ If your organization is already using [Viva Connections](/viva/connections/viva-
 ## Choose the default landing experience for Viva Connections desktop
 If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already have a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/edit-viva-home). 
 
-
+> [!NOTE] 
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## See also
 
