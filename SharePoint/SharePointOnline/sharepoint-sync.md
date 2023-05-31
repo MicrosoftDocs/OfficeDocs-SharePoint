@@ -1,5 +1,5 @@
 ---
-ms.date: 07/20/2018
+ms.date: 05/31/2023
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
@@ -39,9 +39,17 @@ Users have two options when syncing files in SharePoint libraries and Teams. The
 - [Add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33).
 - [Use the Sync button in the document library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88).
 
-Both options allow essentially the same thing—users can access files on their local computer in Explorer or Finder. However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, OneDrive shortcuts offer improved performance versus using the sync button.
+## Deciding between OneDrive sync options
 
-We recommend using OneDrive shortcuts as the more versatile option. If you want to remove the Sync button from all the SharePoint libraries in your organization, you can use the [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet:
+Both OneDrive shortcuts and OneDrive Sync options allow essentially the same thing — users can access files on their local computer in Explorer or Finder.
+
+However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, OneDrive shortcuts offer improved performance versus using the sync button.
+
+We recommend using OneDrive shortcuts as the more versatile option.
+
+### Turn off OneDrive sync
+
+You can turn off OneDrive sync from all the SharePoint libraries in your organization by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
 
 ```PowerShell
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
@@ -56,4 +64,3 @@ Removing the sync button blocks new syncs from being started but does not affect
 Read about [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
 
 [Fix OneDrive sync problems](https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2)
-
