@@ -37,7 +37,7 @@ Deploying SharePoint Server with an Azure SQL Managed Instance lets you move you
  
 2. Create subnet 1 (Default) and then create two VMs. First, set up VM 1 as an Active Directory Directory Services domain controller and configure your domain. For more information, see [Step-By-Step: Setting up Active Directory in Windows Server 2016](/archive/blogs/canitpro/step-by-step-setting-up-active-directory-in-windows-server-2016).  
 
-3. Install SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition in VM 2:
+3. Install SharePoint Server 2016 or SharePoint Server 2019 or SharePoint Server Subscription Edition in VM 2:
        
    1. Run **`PrerequitsiteInstaller.exe`**.
          
