@@ -38,6 +38,9 @@ The following diagram outlines the SharePoint authentication process. It walks t
 The Federation Authentication (FedAuth) cookie is for each top-level site in SharePoint such as the root site, OneDrive, and the admin center site. The root Federation Authentication (rtFA) cookie is used across all of SharePoint. When a user visits a new top-level site or another company's page, the rtFA cookie is used to authenticate them silently without a prompt. When a user signs out of SharePoint, the rtFA cookie is deleted.
   
 ![SharePoint Authentication Process](media/480bc4e7-d28e-42e0-9901-a58ca5fd6ee9.png)
+
+> [!NOTE]
+> For information about SharePoint authentication in hybrid scenarios, see [The building blocks of Microsoft 365 hybrid](/hybrid/the-building-blocks-of-office-365-hybrid).
   
 ## Session and persistent cookies
 
