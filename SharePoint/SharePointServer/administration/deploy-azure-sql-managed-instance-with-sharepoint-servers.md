@@ -1,6 +1,6 @@
 ---
 ms.date: 05/20/2019
-title: "Deploy Azure SQL Managed Instance with SharePoint Servers"
+title: "Deploy SharePoint Server with Azure SQL Managed Instance"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -16,14 +16,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn how to deploy Azure SQL Managed Instance (MI) with SharePoint Servers 2016, 2019 and Subscription Edition."
+description: "Learn how to deploy SharePoint Servers 2016, 2019, and Subscription Edition with Azure SQL Managed Instance (MI)."
 ---
 
-# Deploy Azure SQL Managed Instance with SharePoint Servers
+# Deploy SharePoint Server with Azure SQL Managed Instance
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-SharePoint Servers (2016, 2019, and Subscription Edition) support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
+SharePoint Servers 2016, 2019, and Subscription Edition support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
 
 > [!IMPORTANT]
 > SharePoint Server farms must be hosted in Microsoft Azure to support Azure SQL Managed Instance. The SharePoint Server farm and the managed instance must be hosted in the same Azure region. SharePoint Server farms don't support managed instances when hosted in customer data centers.
@@ -36,20 +36,20 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
  
 2. Create subnet 1 (Default) and then create two VMs. First, set up VM 1 as an Active Directory Directory Services domain controller and configure your domain. For more information, see [Step-By-Step: Setting up Active Directory in Windows Server 2016](/archive/blogs/canitpro/step-by-step-setting-up-active-directory-in-windows-server-2016).  
 
-3. Install SharePoint Server 2016 or SharePoint Server 2019, or Subscription Edition in VM 2:
+3. Install SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition in VM 2:
        
    1. Run **`PrerequitsiteInstaller.exe`**.
          
    2. Run **`Setup.exe`**.
          
-   3. Install the May 2019 sts core patch for SharePoint Server 2016 ([KB 4464549](https://support.microsoft.com/help/4464549)) or for SharePoint Server 2019 ([KB 4464556](https://support.microsoft.com/help/4464556)).
+   3. If you're using SharePoint Server 2016 or SharePoint Server 2019, install the May 2019 (or newer) sts core patch for SharePoint Server 2016 ([KB 4464549](https://support.microsoft.com/help/4464549)) or for SharePoint Server 2019 ([KB 4464556](https://support.microsoft.com/help/4464556)).
          
-   4. Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016 ([KB 4461507](https://support.microsoft.com/help/4461507)) or for SharePoint Server 2019 ([KB 4462221](https://support.microsoft.com/help/4462221)).
+   4. If you're using SharePoint Server 2016 or SharePoint Server 2019, Install the April 2019 (or newer) wssloc MUI/language pack patch for SharePoint Server 2016 ([KB 4461507](https://support.microsoft.com/help/4461507)) or for SharePoint Server 2019 ([KB 4462221](https://support.microsoft.com/help/4462221)).
 
    > [!NOTE]
    > You can join other VMs to Active Directory in subnet 1.
    >
-   > No additional updates need to be installed for SharePoint Server Subscription Edition.
+   > No updates need to be installed for SharePoint Server Subscription Edition.
 
 3. Create an Azure SQL Managed Instance in subnet 2, within this resource group (ManagedInstance).
 

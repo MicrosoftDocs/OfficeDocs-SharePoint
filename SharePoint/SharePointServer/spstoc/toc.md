@@ -455,7 +455,7 @@
 #### [SQL Server and storage](../administration/sql-server-and-storage.md)
 
 ##### [Overview of SQL Server in SharePoint Server 2016 and 2019 environments](../administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md)
-##### [Deploy Azure SQL Managed Instance with SharePoint Serves](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers.md)
+##### [Deploy SharePoint Server with Azure SQL Managed Instance](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers.md)
 ##### [Overview of SQL Server in a SharePoint Server 2013 environment](../administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment.md)
 ##### [Storage and SQL Server capacity planning and configuration](../administration/storage-and-sql-server-capacity-planning-and-configuration.md)
 ##### [Database management](../administration/database-management.md)
