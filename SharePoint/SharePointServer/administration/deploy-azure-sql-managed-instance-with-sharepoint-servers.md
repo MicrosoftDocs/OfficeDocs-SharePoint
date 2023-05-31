@@ -23,12 +23,13 @@ description: "Learn how to deploy SharePoint Servers 2016, 2019, and Subscriptio
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-SharePoint Servers 2016, 2019, and Subscription Edition support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
+SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition support Azure SQL Managed Instance (MI). SQL MI is a deployment option of Azure SQL Database and is compatible with the current version of SQL Server (on-premises), Enterprise Edition Database Engine. 
 
 > [!IMPORTANT]
 > SharePoint Server farms must be hosted in Microsoft Azure to support Azure SQL Managed Instance. The SharePoint Server farm and the managed instance must be hosted in the same Azure region. SharePoint Server farms don't support managed instances when hosted in customer data centers.
 
-Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database Managed Instance with SharePoint Servers 2016, 2019, or Subscription Edition.  
+Deploying SharePoint Server with an Azure SQL Managed Instance lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy SharePoint Servers 2016, 2019, or Subscription Edition with an Azure SQL Managed Instance.  
+
 
 ## Environment
 
