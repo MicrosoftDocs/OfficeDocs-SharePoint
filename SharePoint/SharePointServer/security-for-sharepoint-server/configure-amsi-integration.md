@@ -71,11 +71,13 @@ Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web appli
 
 ## Test and verify AMSI integration with SharePoint Server
 
-The new Antimalware Scan Interface (AMSI) feature introduced in SharePoint Server Subscription Edition, SharePoint 2019, and SharePoint 2016 can be tested and verified in their integrated working environment.
+You can now test and verify the Antimalware Scan Interface (AMSI) feature by including a test string in the requests that you send to the SharePoint Server. The test string isn’t dangerous, but if AMSI integration is enabled in SharePoint Server and is using Microsoft Defender as its malware detection engine, then Microsoft Defender detects the string and blocks the request as if it was malicious.
 
-Microsoft Sharepoint team along with the Microsoft Defender team has created a test string that customers can include in requests sent to SharePoint Server. The test string isn’t dangerous, but if AMSI integration is enabled in SharePoint Server and is using Microsoft Defender as its malware detection engine, then Microsoft Defender detects the string and blocks the request as if it was malicious. This is conceptually similar to the [EICAR test file](https://www.eicar.org/download-anti-malware-testfile/), although our string is slightly different to avoid URL encoding confusion.
+The test string is similar to [EICAR test file](https://www.eicar.org/download-anti-malware-testfile/) but differs slighly to avoid URL encoding confusion.
 
-Now to test and verify, you can either use the following test string in your query string:
+You can verfiy the test string by using either in a query string or including in a HTTP header in your request to the SharePoint Server.
+
+Query string:
 
 ```
 amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
@@ -83,7 +85,7 @@ amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
  
 **For example**: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h.
 
-Or you can include the following HTTP header in your request:
+HTTP header:
 
 ```
 amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
