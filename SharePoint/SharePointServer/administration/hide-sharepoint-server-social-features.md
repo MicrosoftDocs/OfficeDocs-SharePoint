@@ -12,26 +12,26 @@ ms.topic: article
 ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: ff584a8c-871c-40bf-8ada-4a59615abbc9
-description: "Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server."
+description: "Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Viva Engage in SharePoint Server."
 ---
 
 # Hide SharePoint Server social features
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-The Yammer Embed widget for SharePoint lets you embed Yammer feeds into on-premises SharePoint Server sites to make them more social and engaging. Before you can do that, you have to do the following steps:
+The Viva Engage Embed widget for SharePoint lets you embed Viva Engage feeds into on-premises SharePoint Server sites to make them more social and engaging. Before you can do that, you have to do the following steps:
 
 - Remove the Newsfeed Web Parts from My Sites and Team Sites.
 
 - Hide the user interface controls that provide social features.
 
-- Install the Yammer Embed widget for SharePoint.
+- Install the Viva Engage Embed widget for SharePoint.
 
-- Add the Yammer feeds to your sites.
+- Add the Viva Engage feeds to your sites.
 
 This article takes you through the steps required to do the first two steps: removing the Newsfeed Web Parts and hiding the user interface controls.
 
-For information about how to add a Yammer feed on your sites, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
+For information about how to add a Viva Engage feed on your sites, see [Add the Viva Engage Embed widget to a SharePoint page](add-the-viva-engage-embed-widget-to-a-sharepoint-page.md).
 
 ## Which SharePoint Server enterprise social features are removed?
 
@@ -180,7 +180,7 @@ A My Site host admin has to apply the following steps to each web server in the 
 ### Hide user interface controls that provide social features in SharePoint Server 2013
 <a name="proc3"> </a>
 
-To hide the user interface controls that provide the SharePoint Server 2013 social features, you'll create a custom cascading style sheet (CSS) file and add it to a Master Page. This removes SharePoint Server 2013 social features and replaces them with equivalent Yammer features. First, you create a custom CSS file and upload it to the Style Library for your My Site. Then, based on the type of Master Page your site uses, you reference the CSS file in your Master Page by using one of the following methods described in this article:
+To hide the user interface controls that provide the SharePoint Server 2013 social features, you'll create a custom cascading style sheet (CSS) file and add it to a Master Page. This removes SharePoint Server 2013 social features and replaces them with equivalent Viva Engage features. First, you create a custom CSS file and upload it to the Style Library for your My Site. Then, based on the type of Master Page your site uses, you reference the CSS file in your Master Page by using one of the following methods described in this article:
 
 - Register the CSS file for a custom Master Page
 
@@ -328,7 +328,7 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
 ## Additional steps
 <a name="more"> </a>
 
-To finish the integration of Yammer into your on-premises SharePoint Server environment, you have to install the Yammer Embed widget for SharePoint. For more information, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
+To finish the integration of Viva Engage into your on-premises SharePoint Server environment, you have to install the Viva Engage Embed widget for SharePoint. For more information, see [Add the Viva Engage Embed widget to a SharePoint page](add-the-viva-engage-embed-widget-to-a-sharepoint-page.md).
 
 ## Acknowledgements
 <a name="more"> </a>
@@ -340,4 +340,4 @@ The SharePoint Server 2013 Content Publishing team thanks Vidya Srinivasan and B
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
+[Integrate Viva Engage with on-premises SharePoint Server environments](integrate-viva-engage-with-on-premises-sharepoint-server-environments.md)
