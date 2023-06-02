@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -33,13 +33,13 @@ The steps in this article apply to team sites, communication sites, and classic 
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site).
 
+> [!IMPORTANT]
+> [Azure Active Directory external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization. Be sure to review Azure AD guest access settings as part of your SharePoint and OneDrive sharing setup.
+
 To change the external sharing setting:
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
-
-    > [!NOTE]
-    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
-    
+  
 2. In the left column, select a site.
 
 3. Select **Sharing** on the command bar.
@@ -50,11 +50,16 @@ To change the external sharing setting:
 
 5. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box by expanding **Advanced settings for external sharing**, and add the domains that you want to allow or block.
 
+    > [!IMPORTANT]
+    > [Allowed or blocked domains in Azure AD](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive. Be sure to review Azure AD collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
+
+
 6. If you want to change the default sharing link type or permissions for this site, clear the **Same as organization-level setting** check boxes and set the values that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
 
     ![Changing the default sharing link settings](media/default-sharing-link-settings.png)
 
 7. Select **Save**.
+
 
 ### Which option to select...
 
