@@ -76,6 +76,9 @@ Make sure that you have:
 
 Google doesn't allow us to export Drawings, Sites, and Maps from Drive. These aren't migrated.
 
+>[!Note]
+>Google Forms are now supported.
+
 ### Docs, Slides, and Sheets
 
 Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
@@ -93,7 +96,7 @@ Google's proprietary formats aren't compatible with anything other than a Google
 
 ### File size of Google proprietary files
 
-Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 won't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 

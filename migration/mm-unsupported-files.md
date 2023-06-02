@@ -56,9 +56,12 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 Google doesn't allow us to export the following from Drive.
 
 - Google Drawings
-- Google Forms
 - Google Sites
 - Google maps
+
+>[!Note]
+>Google Forms is now supported and will be migrated. 
+
 
 ### Google Docs, Slides, and Sheets are converted
 

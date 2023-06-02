@@ -70,6 +70,9 @@ Answer: No. During a migration, we only transfer permissions for user drives. Pe
 **Question:**  What can't Migration Manager migrate from Google?</br>
 Answer: Google does not allow us to export drawings, sites, and maps from Google Drive. [Learn more about what isn't migrated](/sharepointmigration/mm-google-overview#what-isnt-migrated)
 
+**Question:**  Does Migration Manager migrate Google Forms?</br>
+Answer:  Yes. Migration Manager now will migrate Google Forms.
+
 **Question:**  Does Google calculate the size of their proprietary files?</br>
-Answer:  Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+Answer:  Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
