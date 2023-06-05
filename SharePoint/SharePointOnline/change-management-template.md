@@ -69,7 +69,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
    ![Image of the Workplace transformation site design model](media/change-management-model.png)
 
-**1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Viva Engage community chats](https://support.microsoft.com/office/join-and-create-a-community-in-viva-engage-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
+**1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Viva Engage community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 <br>
 
 **2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](/office365/customlearning/).

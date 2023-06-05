@@ -80,7 +80,7 @@ Town halls are designed to reach the entire organization or large groups within 
 ### C. Define the town hall message
 Craft a message that's well organized, detailed, and to the point. To engage your audience and make sure the messages in the town hall are understood by everyone:
 
-- Make the presentation visual to create the most engagement. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of [broadcasting a live event in Viva Engage using Teams](https://support.microsoft.com/office/broadcast-a-live-event-in-classic-viva-engage-using-teams-333a5ea6-c73e-4717-8c53-7ea8f8de2724). Learn to [configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing) to display your PowerPoint deck during your town hall. 
+- Make the presentation visual to create the most engagement. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of [broadcasting a live event in Viva Engage using Teams](https://support.microsoft.com/office/broadcast-a-live-event-in-classic-yammer-using-teams-333a5ea6-c73e-4717-8c53-7ea8f8de2724). Learn to [configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing) to display your PowerPoint deck during your town hall. 
 - Provide town hall objectives to attendees beforehand. Share these objectives via email or the event SharePoint site.
 - Only share the most relevant information. Ensure the most important information is highlighted to reserve time and to keep your audience engaged.
 
@@ -157,7 +157,7 @@ Audience members and moderators can engage during the event using the conversati
 
 ![Screenshot of the mobile Viva Engage home page.](media/th9.png)   ![Screenshot of the desktop Viva Engage home page.](media/th10.png)
 
-Viva Engage allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. Learn more about [using Q&A in a Viva Engage community](https://support.microsoft.com/office/use-questions-and-answers-in-a-viva-engage-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).
+Viva Engage allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. Learn more about [using Q&A in a Viva Engage community](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).
 
 ## Post-event engagement
 
@@ -167,7 +167,7 @@ After the event, plan to share the event recording in a shared location. Use Sha
 
 Members of your organization can watch the recording of the event stream after the event. Communities created in Viva Engage during the event can continue the conversation and watch the recording of the town hall on the Viva Engage platform. Moderators can also provide automatic recaps for those who may have missed the town hall.
 
-Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Viva Engage web part](https://support.microsoft.com/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed), add it to your news feed in [Viva Connections](/viva/connections/viva-connections-overview), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
+Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Viva Engage web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed), add it to your news feed in [Viva Connections](/viva/connections/viva-connections-overview), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
 
 [Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment) for video storage and advanced sharing options. Increase your event recording's discoverability and shareability by adding it to your organization's Stream portal. Access additional video analytics including views over time and viewer engagement by saving your town hall recording to Stream.
 
@@ -175,7 +175,7 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 ![Screenshot of the Viva Engage attendee insights dashboard.](media/th11.png)
 
-[Viva Engage event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-viva-engage-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
+[Viva Engage event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
 
 ### Measure community engagement
 
@@ -183,7 +183,7 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 Viva Engage's insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location, and department.
 
-These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more. Learn more about [viewing community insights in Viva Engage](https://support.microsoft.com/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20viva-engage.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.).
+These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more. Learn more about [viewing community insights in Viva Engage](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20viva-engage.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.).
 
 ## More resources
 

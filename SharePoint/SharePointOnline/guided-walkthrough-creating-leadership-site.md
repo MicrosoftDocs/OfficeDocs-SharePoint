@@ -205,7 +205,7 @@ In this Leadership site example shown above, this web part is in the first colum
 
 ![Image of the Viva Engage web part](media/gw-leadership/gw-17.png)
 
-For more details on using the Viva Engage web part, see [Use a Viva Engage web part in SharePoint Online](https://support.microsoft.com/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+For more details on using the Viva Engage web part, see [Use a Viva Engage web part in SharePoint Online](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
 [Back to top](#lets-get-started)
 
