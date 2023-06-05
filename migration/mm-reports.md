@@ -37,7 +37,6 @@ When an organization migrates their on-premises file shares to Microsoft 365, Mi
 |Task level|[Structure Report](#structure-report)|
 |Task level|[Structure Failure Report](#structure-failure-report)|
 |Task level|[Structure Failure Summary](#structure-failure-summary)|
-|Performance report|[Performance Report](#performance-report)|
 
 ## How to view the reports
 
