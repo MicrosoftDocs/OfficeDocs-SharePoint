@@ -48,11 +48,11 @@ By using Viva Engage groups, you can create a workspace dedicated to a certain t
 - By using **private groups**, you can limit membership and participation to invitation or approval only from group administrators. You can hide private groups from the group's directory.
     
 > [!NOTE]
->Viva Engage groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Viva Engage Enterprise, if you [Enforce Microsoft 365 identity for Viva Engage users](/viva-/engage/configure-your-viva-engage-network/enforce-office-365-identity), groups can be [Viva Engage and Microsoft 365 Groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups). 
+>Viva Engage groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Viva Engage, if you [Enforce Microsoft 365 identity for Viva Engage users](/viva-/engage/configure-your-viva-engage-network/enforce-office-365-identity), groups can be [Viva Engage and Microsoft 365 Groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups). 
   
 ## Viva Engage users
 
-Users are the core of the enterprise social network, and you can add users individually or in bulk from the Viva Engage **Admin** page. Viva Engage Enterprise users can be [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
+Users are the core of the enterprise social network, and you can add users individually or in bulk from the Viva Engage **Admin** page. Viva Engage users can be [Manage Viva Engage users across their lifecycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
   
 Viva Engage users exist in a limited number of states, as shown in the following diagram:
 

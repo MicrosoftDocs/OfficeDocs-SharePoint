@@ -33,7 +33,7 @@ For this scenario, we assume that:
     
 - You have one single, established Viva Engage Basic or Enterprise network that has active users.
     
-    For information about how users are managed in Viva Engage Enterprise, see [Manage Viva Engage users across their life cycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
+    For information about how users are managed in Viva Engage, see [Manage Viva Engage users across their life cycle from Microsoft 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
     
 ## Scenario challenges
 
@@ -47,14 +47,14 @@ If you are using Viva Engage Basic, one of the top issues in this scenario is th
 
 |**Challenge**|**Description**|
 |:-----|:-----|
-|Same user and email address in AD DS and Viva Engage  <br/> |The same user exists in both AD DS and Viva Engage with the same user name and email address. For this user, there is no change in the user name after you set up directory synchronization and Viva Engage Enterprise.  <br/> |
-|Different user account  <br/> |User B used a different email address when they signed up for Viva Engage. For this user, there is a change after you set up Viva Engage Enterprise. For this scenario, you should let the affected users know about the changes to their logon credentials. The reason for the different logon credentials might be because the user joined the Basic network by using an alias, not their primary email address. It can also occur because the user changed their name. You can manage and make these email address changes by using the [Bulk Update Users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) page.  <br/> |
+|Same user and email address in AD DS and Viva Engage  <br/> |The same user exists in both AD DS and Viva Engage with the same user name and email address. For this user, there is no change in the user name after you set up directory synchronization and Viva Engage .  <br/> |
+|Different user account  <br/> |User B used a different email address when they signed up for Viva Engage. For this user, there is a change after you set up Viva Engage . For this scenario, you should let the affected users know about the changes to their logon credentials. The reason for the different logon credentials might be because the user joined the Basic network by using an alias, not their primary email address. It can also occur because the user changed their name. You can manage and make these email address changes by using the [Bulk Update Users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) page.  <br/> |
 |Different domain  <br/> |In a scenario where you have multiple Viva Engage networks, you have disconnected users. This scenario is no longer supported after October 26, 2018. By merging networks, everyone in your organization can use a single Viva Engage network. This scenario is covered in more detail in [Integrate multiple Viva Engage networks into SharePoint Server](integrate-multiple-viva-engage-networks-into-sharepoint-server.md).  <br/> |
-|Non-existent users  <br/> |When a user is removed or disabled in Microsoft 365, if you have set up Viva Engage to [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity), the user is removed from Viva Engage Enterprise.  <br/> |
+|Non-existent users  <br/> |When a user is removed or disabled in Microsoft 365, if you have set up Viva Engage to [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity), the user is removed from Viva Engage .  <br/> |
    
 ## Step 1: Set up directory synchronization
 
-Microsoft 365 uses Azure Active Directory for identity management, and Viva Engage Enterprise can be set up to [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+Microsoft 365 uses Azure Active Directory for identity management, and Viva Engage  can be set up to [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
 For more information, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization) and [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
   

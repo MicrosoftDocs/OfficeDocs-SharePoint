@@ -947,52 +947,52 @@
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/add-the-yammer-embed-widget-to-a-sharepoint-page.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/add-the-viva-engage-embed-widget-to-a-sharepoint-page.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/add-the-viva-engage-embed-widget-to-a-sharepoint-page",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/add-yammer-to-the-navigation-bar-for-sharepoint-server.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/add-viva-engage-to-the-navigation-bar-for-sharepoint-server.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/add-viva-engage-to-the-navigation-bar-for-sharepoint-server",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-a-new-yammer-network-into-sharepoint-server.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-new-viva-engage-network-into-sharepoint-server.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-new-viva-engage-network-into-sharepoint-server",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-a-single-yammer-network-into-sharepoint-server.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-single-viva-engage-network-into-sharepoint-server.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-single-viva-engage-network-into-sharepoint-server",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-a-yammer-network-into-sharepoint-server-and-office-365.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-viva-engage-network-into-sharepoint-server-and-office-365.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-viva-engage-network-into-sharepoint-server-and-office-365",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-a-yammer-network-into-sharepoint-server-with-social-features.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-viva-engage-network-into-sharepoint-server-with-social-features.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-a-viva-engage-network-into-sharepoint-server-with-social-features",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-multiple-yammer-networks-into-sharepoint-server.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-multiple-viva-engage-networks-into-sharepoint-server.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-multiple-viva-engage-networks-into-sharepoint-server",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/integrate-yammer-with-on-premises-sharepoint-server-environments.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-viva-engage-with-on-premises-sharepoint-server-environments.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/integrate-viva-engage-with-on-premises-sharepoint-server-environments",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/social-scenarios-with-yammer-and-sharepoint-server.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/social-scenarios-with-viva-engage-and-sharepoint-server.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/social-scenarios-with-viva-engage-and-sharepoint-server",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/yammer-networks-groups-and-users-overview.md",
-      "redirect_url": "/SharePoint/SharePointServer/administration/viva-engage-networks-groups-and-users-overview.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/viva-engage-networks-groups-and-users-overview",
       "redirect_document_id": false
     }
 
