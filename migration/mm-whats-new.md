@@ -31,15 +31,15 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 
-- Multi-project support on a single source. Ability to manage multiple migration projects of the same cloud source, including Google, Box, Dropbox, and Egnyte. 
-- Migrate File level permission for individual Google Drives.
-- Bulk report downloading optimizations.
+- **Multi-project support on a single source.** The ability to manage multiple migration projects of the same cloud source, including Google, Box, Dropbox, and Egnyte. 
+- **Migrate File level permission** for individual Google Drives.
+- **Improvements to bulk downloads**. Bulk report downloading optimizations.
  
 ## May 2023
 
-- **New. Overview page.** Provide a guided tour to walk through key migration steps and present general overviews of each core migration step.
-- **New. Migration filter setting.**  You can now filter content to be migrated by factors such as dates, file types, and invalid characters. Filter from the migration setting panel that displays when scanned tasks are "copied to migration."
-- **Change. Summary report limit increase.** When bulk-downloading a scan or migration summary report for selected tasks, you can select up to 1000 tasks. The previous limit was 100. 
+- **New. Overview page.** A new guided tour can be accessed from the overview page, to walk you through key migration steps and present general overviews of each core migration step. Links to relevant documentation are available at each stage.
+- **New. Migration filter setting.**  You can now filter content to be migrated by factors such as dates, file types, and invalid characters. Select filters from the migration setting panel that displays when scanned tasks are "copied to migration."
+- **Change. Summary report limit increase.** When bulk-downloading a scan or migration summary report for selected tasks, you can select up to 1000 tasks. The previous limit was 100.
 
 
 ## April 2023
