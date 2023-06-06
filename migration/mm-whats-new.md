@@ -25,15 +25,22 @@ description: "Learn about the new features and updates to existing features in M
 
 We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.  
 
-#### We're listening!
+## We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 ## Coming soon
 
-- Several enhancements are coming to Google Workspace migrations. New features include:
-  - Filtering by factors such as dates, file types, and invalid characters
-  - Downloading bulk reports
+- Multi-project support on a single source. Ability to manage multiple migration projects of the same cloud source, including Google, Box, Dropbox, and Egnyte. 
+- Migrate File level permission for individual Google Drives.
+- Bulk report downloading optimizations.
+ 
+## May 2023
+
+- **New. Overview page.** Provide a guided tour to walk through key migration steps and present general overviews of each core migration step.
+- **New. Migration filter setting.**  You can now filter content to be migrated by factors such as dates, file types, and invalid characters. Filter from the migration setting panel that displays when scanned tasks are "copied to migration."
+- **Change. Summary report limit increase.** When bulk-downloading a scan or migration summary report for selected tasks, you can select up to 1000 tasks. The previous limit was 100. 
+
 
 ## April 2023
 
