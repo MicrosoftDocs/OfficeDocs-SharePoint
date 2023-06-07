@@ -435,14 +435,14 @@ It's more complex to implement host-named site collections with multiple web app
 
 > [!IMPORTANT]
 > The new feature in the SharePoint Server Subscription Edition Version 23H1 allows users to [assign wildcard host header bindings to their web applications](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md). This new feature can help you use multiple web applications with host-named site collections in the following ways:
-> 
-1. > You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
-> 
-2. > The wildcard host headers assigned to each web application must be unique. For example, web application 1 could be `*.internal.example.com`, web application 2 could be `*.external.example.com`, etc.
->
-3. > The host-named site collections in these web applications will have to conform its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
-> 
-4. > Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `.external.example.com`, but it can't be `external..exampe.com`, `..example.com`, `external*.example.com`, `*external.example.com`, etc.
+    > 
+    1. > You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
+    > 
+    2. > The wildcard host headers assigned to each web application must be unique. For example, web application 1 could be `*.internal.example.com`, web application 2 could be `*.external.example.com`, etc.
+    >
+    3. > The host-named site collections in these web applications will have to conform its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
+    > 
+    4. > Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `.external.example.com`, but it can't be `external..exampe.com`, `..example.com`, `external*.example.com`, `*external.example.com`, etc.
 
 
 The following two tables contrast three different design choices to implement site collections. These tables are intended to help you understand the consequences of each approach and how configuration varies depending on the architecture.
