@@ -1,6 +1,6 @@
 ---
 ms.date: 03/31/2023
-title: "Manage Loop experiences (Loop app and Loop components) in SharePoint"
+title: "Manage Loop experiences (Loop workspaces and Loop components) in SharePoint"
 ms.reviewer: dancost, tonchan
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,10 +19,10 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to manage Loop experiences (Loop app and Loop components) by using PowerShell and Cloud Policy."
+description: "Learn how to manage Loop experiences (Loop workspaces and Loop components) by using PowerShell and Cloud Policy."
 ---
 
-# Manage Loop experiences (Loop app and Loop components) in SharePoint
+# Manage Loop experiences (Loop workspaces and Loop components) in SharePoint
 
 Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid or .loop files. IT admins need to manage access to Loop experiences from **BOTH**:
 1. Cloud Policy
@@ -54,10 +54,18 @@ There are several IT Admin settings provided to enable the Loop app and Loop exp
 
 |Configure|Setting Type|Specific Policy|Notes
 |---|---|---|---|
-|Loop app|Cloud Policy, Primary|**Create and view Loop files in Loop**|*Loop app only checks the setting in this row|
-|Loop experiences across Microsoft 365*|Cloud Policy, Primary|**Create and view Loop files in Microsoft apps that support Loop**|Applies to:<br/>- Outlook integration<br/>- Word for the web integration<br/>- Whiteboard integration<br/>Does NOT apply to:<br/>- Loop app<br/>- Teams integration|
-|Outlook integration of Loop experiences|Cloud Policy, Secondary|**Create and view Loop files in Outlook**|First checks **Create and view Loop files in Microsoft apps that support Loop**, then applies **Create and view Loop files in Outlook** if applicable|
-|Teams integration|SharePoint property, Primary|See [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams)|*Teams only checks the setting in this row|
+|Loop app workspaces|Cloud Policy|**Create and view Loop workspaces in Loop**|*Loop app only checks the setting in this row|
+|Loop component experiences across Microsoft 365*|Cloud Policy|**Create and view Loop files in Microsoft apps that support Loop**|Applies to:<br/>- Outlook integration<br/>- Word for the web integration<br/>- Whiteboard integration<br/>Does NOT apply to:<br/>- Loop app<br/>- Teams integration|
+|Outlook integration of Loop experiences|Cloud Policy|**Create and view Loop files in Outlook**|First checks **Create and view Loop files in Microsoft apps that support Loop**, then applies **Create and view Loop files in Outlook** if applicable|
+|Teams integration|SharePoint property|See [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams)|*Teams only checks the setting in this row|
+
+## Example configurations
+
+|Scenario|Policies Configured|
+|---|---|
+|Enable Loop workspaces in the app and Loop components everywhere|**Create and view Loop workspaces in Loop** = Enabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
+|Enable Loop components everywhere<br/>Disable Loop workspaces in the app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $true`|
+|Enable Loop components everywhere, but Disable in eCommunication (Outlook, Teams)<br/>Disable Loop workspaces in the app during public preview|**Create and view Loop workspaces in Loop** = Disabled<br/>**Create and view Loop files in Microsoft apps that support Loop** = Enabled<br/>**Create and view Loop files in Outlook** = Disabled<br/>[Teams-only] `Set-SPOTenant -IsLoopEnabled $false`|
 
 ## Settings management in Cloud Policy
 
@@ -65,7 +73,8 @@ The Loop experiences (except for Microsoft Teams) check the following Cloud Poli
 
 - **Create and view Loop files in Microsoft apps that support Loop**
 - **Create and view Loop files in Outlook**
-- **Create and view Loop files in Loop**
+- **Create and view Loop workspaces in Loop**
+    - Note: this policy was previously mistitled 'Create and view Loop files in Loop'
 
 See the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for more information on the settings above.
 
@@ -88,11 +97,12 @@ To configure these Cloud Policy settings:
         - **Enabled**: Loop experience is available to users.
         - **Disabled**: Loop experience is not available to users.
         - **Not configured**: Loop experience is available to users.
-    - For **Create and view Loop files in Loop**
-        - **Enabled**: Loop app is available to users.
-        - **Disabled**: Loop app is not available to users.
-        - **Not configured**: Loop app is not available to users.
+    - For **Create and view Loop workspaces in Loop**
+        - **Enabled**: Loop app and creation of workspaces is available to users.
+        - **Disabled**: Loop app creation of workspaces is not available to users.
+        - **Not configured**: Loop app and creation of workspaces is not available to users.
             - Loop during Public Preview is IT Admin Opt-in by default.
+            - Loop app will still open Loop components when workspaces is disabled. If this is not rolled out to your environment, Loop component will open in Office.com.
             - Ensure additional [Loop service requirements](#requirements) are met.
 8. Save the policy configuration.
 9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
@@ -134,8 +144,12 @@ Microsoft is currently working on a third-party export API solution for Loop com
 
 ## Related topics
 
-[Get started with Microsoft Loop - Microsoft Support](https://support.microsoft.com/en-us/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
+[Get started with Microsoft Loop - Microsoft Support](https://support.microsoft.com/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
 
 [Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
 
 [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
+
+[Use Loop components in Word for the web](https://support.microsoft.com/office/use-loop-components-in-word-for-the-web-645cc20d-5c98-4bdb-b559-380c5a27c5e5)
+
+[Loop components in Whiteboard](https://support.microsoft.com/office/loop-components-in-whiteboard-c5f08f54-995e-473e-be6e-7f92555da347)

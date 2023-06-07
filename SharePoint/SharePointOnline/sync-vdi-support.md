@@ -45,7 +45,7 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 >
 > For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required.
 >
-> The OneDrive sync app is not supported in remote app scenarios.
+> The OneDrive sync app is supported in a remote app scenario hosted as a [Citrix Virtual App](onedrive-in-citrix-virtual-apps-deployment-guide.md).
 >
 > The OneDrive sync app with FSLogix does not support running multiple instances of the same container simultaneously.
 
