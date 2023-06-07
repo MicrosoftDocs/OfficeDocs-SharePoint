@@ -26,6 +26,7 @@ description: "Learn how to evaluate the environment, prepare, and migrate conten
 
 # My Sites to OneDrive migration guide
 
+
 This guide will help you prepare to migrate from My Sites to OneDrive in Microsoft 365.
 
 Most migrations include these phases: planning, assessing and remediating, preparing the target environment, migrating and onboarding users.

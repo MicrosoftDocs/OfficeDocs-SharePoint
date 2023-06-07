@@ -20,13 +20,13 @@ description: "Setting up your Box source connector to migrate to Office 365."
 # Setting up your source:  Box
 
 >[!Important]
->**Mover is now retired for all Admin led migrations**. The ability to migrate from external cloud sources has been fully integrated into Migration Manager.
+>**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte has been fully integrated into Migration Manager. For full details see: [Mover retirement timeline](mover-retirement-timeline.md).  Migration Manager does not support the migration of Amazon S3 or Azure blob storage.
 >
 >All FastTrack-led migrations have transitioned to Migration Manager.
 >
 >**Tenant to tenant migration**. Cross-tenant OneDrive migration is now available outside of Migration Manager. Learn more here: [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).  
 >
->A cross tenant migration solution for SharePoint is currently being developed and scheduled for release in Spring 2023.
+>A cross tenant migration solution for SharePoint is currently being developed and in private preview.  To learn more, see [How to participate in the Cross-tenant SharePoint migration preview](/microsoft-365/enterprise/cross-tenant-sharepoint-migration).
 
 
 
@@ -34,7 +34,7 @@ description: "Setting up your Box source connector to migrate to Office 365."
 
 ### Role changes from Box to Office 365
 
-When moving from Box to OneDrive for Business, user roles *on folders* will change. Mover does not explicitly set a user as an owner of data during a migration.
+When moving from Box to OneDrive for Business, user roles *on folders* change. Mover doesn't explicitly set a user as an owner of data during a migration.
 
 Ownership of files and folders is always implicitly set by virtue of copying data into a user in OneDrive for Business. 
 
@@ -61,7 +61,7 @@ Our app will automatically convert Box Notes to Word Document.
 
 We automatically unlock locked Box files and download them.
 
-The file(s) remain unlocked after this process, so if you want to re-lock the files, you must do so from Box directly.
+The file(s) remain unlocked after this process, so if you want to relock the files, you must do so from Box directly.
 
 ### Disable email notifications
 
@@ -73,14 +73,14 @@ When logged in as a Box admin, disable this setting from:  https://app.box.com/m
 
 ### Box data reporting
 
-We've found that Box occasionally has hiccups with reporting storage quotas in their service. If you discover that there is a discrepancy between what we are reporting and what Box's dashboard and/or reporting informs you, you must contact their support team and ask them to refresh/recalculate the storage quotas on your account (frequently, you need to escalate this beyond their first-level support).
+We've found that Box occasionally has hiccups with reporting storage quotas in their service. If you discover that there's a discrepancy between what we are reporting and what Box's dashboard and/or reporting informs you, you must contact their support team and ask them to refresh/recalculate the storage quotas on your account (frequently, you need to escalate this beyond their first-level support).
 
 For more info about this issue, see **here** and **here**.
 
 
 ## Authorizing Box (Co-Admin)
 
-Authorizing Box as an Administrator or a Co-Administrator is straightforward. To authorize or add a Multi-User Box account as a connector, follow these simple steps:
+Authorizing Box as an Administrator or a Co-Administrator is straightforward. To authorize or add a Multi-User Box account as a connector, follow these steps:
 
 1. Navigate to **[Add Mover as a Custom Application](https://app.box.com/master/custom-apps)**.
 
@@ -118,7 +118,7 @@ Authorizing Box as an Administrator or a Co-Administrator is straightforward. To
    
 10. Select **Authorize** again.
 
-11. If you are not logged in, to grant access, you can use either your Box credentials, or a SSO account.
+11. If you aren't logged in, to grant access, you can use either your Box credentials, or an SSO account.
 
     ![Log into grant access to box](media/log-in-to-grant-access-to-box.png)
     
@@ -134,11 +134,11 @@ You should now be connected to Box with Co-Admin authorization!
  
 Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
 
-1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/apps
+1. Under **Enterprise Settings**, navigate to **Apps**. Here's a shortcut link: https://app.box.com/master/settings/apps
 
    ![enterprise settings](media/box-admin-console.png)
    
-2. In the **Recommended Apps** section, ensure "Enable for 3rd party apps that are Added by Default only" is checked.
+2. In the **Recommended Apps** section, ensure "Enable for third party apps that are Added by Default only" is checked.
 
    ![box third party settings](media/recommended-apps.png)
    
@@ -150,13 +150,13 @@ Your organization may default all apps to disabled. See the following quick guid
 
 ### Unable to sign in to Box
 
-If you are unable to sign in to Box, you may have turned on the option to *Disable unpublished apps by default* without providing the two App IDs required. 
+If you're unable to sign in to Box, you may have turned on the option to *Disable unpublished apps by default* without providing the two App IDs required. 
 
 
  1. Under Global app settings, look for the setting **Disable unpublished apps by default**.  By default, this setting is turned off.
 ![screen showing disable unpublished apps option default off](media/mover-disable-unpublished-apps.png)
 
-2. If you have turned this setting on, you need to enter the following two App IDs in the **Except for** box.
+2. If you have turned on this setting, you need to enter the following two App IDs in the **Except for** box.
 
 
     `7ypzdr66s3m80h3hutop34u7yml8928x` </br>
@@ -175,10 +175,10 @@ For authorization, our app requires an **Administrator** or **Co-Administrator**
 |Read and write all files and folders stored in Box    |Read, create, update, and overwrite data in Box.|
 |Manage Enterprise    |Manage any data found in the authorized Box directory.|
 |Admin can make calls on behalf of Users    |Grants permission for our app to contact Box servers on behalf of users' accounts.|
-|Admin or co-admin can make calls for any content in their enterprise    |Grants our app permission to contact Box servers on behalf of administrators or co-administrators regarding any data found in your business's Box directory.|
+|Admin or coadmin can make calls for any content in their enterprise    |Grants our app permission to contact Box servers on behalf of administrators or coadministrators regarding any data found in your business's Box directory.|
 
 ## Removing app access
-Deleting or disabling the account used to Authorize Box (Co-Admin) does not remove our app's access to Box.
+Deleting or disabling the account used to Authorize Box (Co-Admin) doesn't remove our app's access to Box.
 
 To remove our app's access to Box:
 
@@ -196,7 +196,7 @@ To remove our app's access to Box:
 
 ## Connecting your source Box account
 
-If you are not already connected after you have authorized your source, select **Box**, and load the connector. An icon appears, and shows you how many users you are migrating.
+If you aren't already connected after you have authorized your source, select **Box**, and load the connector. An icon appears, and shows you how many users you're migrating.
 
 ![execution select box source](media/execution-select-box-source.png)
 

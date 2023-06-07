@@ -10,7 +10,7 @@ audience: Admin
 f1.keywords: CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -47,21 +47,19 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
-   > [!NOTE]
-   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
-
 2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
 
     > [!NOTE]
     > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups.
     > 
     > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
-    > 
-    > The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, on the Org settings page \> SharePoint. 
 
     ![External sharing settings](media/externalsharing.png)
 
     This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+
+> [!IMPORTANT]
+> [Azure Active Directory external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization. Be sure to review Azure AD guest access settings as part of your SharePoint and OneDrive sharing setup.
   
 ### Which option to select
 
@@ -86,6 +84,9 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 3000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
     
 You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
+
+> [!IMPORTANT]
+> [Allowed or blocked domains in Azure AD](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive. Be sure to review Azure AD collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
 
 **Allow only users in specific security groups to share externally**
 

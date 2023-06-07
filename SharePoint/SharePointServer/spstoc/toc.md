@@ -444,6 +444,7 @@
 #### [Install Workflow Manager certificates in SharePoint Server](../governance/install-workflow-manager-certificates-in-sharepoint-server.md)
 ##### [Video series: Install and configure Workflow in SharePoint Server 2013](../governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
 #### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
+#### [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](../governance/update-to-spworkflow-manager-when-upgrading-farms.md)
 ## [Administration](../administration/administration.md)
 ### [Server Management](../administration/server-management.md)
 #### [Feature release rings](../administration/feature-release-rings.md)
