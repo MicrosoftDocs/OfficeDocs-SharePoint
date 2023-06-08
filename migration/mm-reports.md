@@ -23,7 +23,7 @@ description: "Learn about the reports available when using Migration Manager to 
 
 # Migration Manager: Reports and errors for file share migration
 
-When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
+When an organization migrates their on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report. Use these reports to help manage, audit, and troubleshoot your migration process.
 
 >[!Note]
 >These reports are for file share migration only. For cloud migrations, learn more at: [Reports and errors for cloud migrations](mm-cloud-reports.md)
@@ -37,7 +37,6 @@ When migrating your on-premises file shares to Microsoft 365, Migration Manager 
 |Task level|[Structure Report](#structure-report)|
 |Task level|[Structure Failure Report](#structure-failure-report)|
 |Task level|[Structure Failure Summary](#structure-failure-summary)|
-|Performance report|[Performance Report](#performance-report)|
 
 ## How to view the reports
 
@@ -45,26 +44,26 @@ These reports can be viewed while the migration is taking place or after the job
 
 **Viewing task level reports:**
 
-1. To see the report on a task, select the task name from the list. A panel will appear to the right.
+1. To see the report on a task, select the task name from the list.
 2. Select **Download task report**. The report will download after the task is complete.
 
 **Viewing summary reports:**
 
-1. Select one or more completed tasks from the list. Click **Summary report**.
-2. An aggregate summary report will be downloaded to your computer.
+1. Select one or more completed tasks from the list. Select **Summary report**.
+2. An aggregate summary report is downloaded to your computer.
 
-## Download detailed task level reports via Powershell
+## Download detailed task level reports via PowerShell
 
-To download task level reports, run the following Powershell cmdlet.
+To download task level reports, run the following PowerShell cmdlet.
 
-1. [Download the powershell script](https://spmt.sharepointonline.com/download/ReportAggregator.zip) and extract the files.
+1. [Download the PowerShell script](https://spmt.sharepointonline.com/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*.
 3. Enter your tenant credentials.
 4. From the Task Filter pane, select how you want to filter your reports:
 
    ![Screen to choose how to filter Migratino Manager reports](media/mm-reports-powershell-filter.png).
 
-5. The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
+5. The aggregated report zip file is found in the same folder as the PowerShell cmdlet.
 
 ## Summary Report
 
@@ -83,7 +82,7 @@ When assessing your migration jobs, we recommend that you first look at these su
 |Total scanned items|Total number of files and list items, including those that will be filtered out because of settings or potential scan issues.|
 |Total to be migrated items|The total number of files and list items that were expected to migrate excluding those filtered out based on settings or potential scan issues.|
 |Migrated items|The total number of files migrated.|
-|Items not migrated|Number of files that did not migrate.|
+|Items not migrated|Number of files that didn't migrate.|
 |Total bytes|Total number of bytes scanned in source destination.|
 |Total GB|Total number of gigabytes scanned in source destination.|
 |Migrated bytes|The total number of bytes of data migrated.|
@@ -139,7 +138,7 @@ The **ItemSummary.csv** report is a summary report at the task level.
 
 ### Item Failure Report
 
-The **ItemFailureReport.csv**, is only generated if an error resulting in a file being unable or failing to migrate.
+The **ItemFailureReport.csv:** This report is only generated if an error resulting in a file being unable or failing to migrate.
 
 |Column|Description|
 |---|---|
@@ -186,7 +185,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 
 ### Scan Summary
 
-The **ScanSummary.csv** report provides the total stats for the scan -- a process that takes place before the actual migration begins.
+The **ScanSummary.csv** report provides the total stats for the scan. This process that takes place before the actual migration begins.
 
 |Column|Description|
 |---|---|
@@ -214,15 +213,15 @@ Structure report at the task level.
 |Operation|Skipped, created or updated.|
 |Status|Success, partial success, failure|
 |Details|Reason for failure.|
-|Source structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL.|
-|Destination structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL.|
+|Source structure URL|Displays the source URL. The URL is listed for the site collection, site, and list. Fields, content types, and views display its container's URL.|
+|Destination structure URL|Displays the destination URL. The URL is listed for the site collection, site, and list. Fields, content types, and views display its container's URL.|
 |Source structure ID|ID when available.|
 |Destination structure ID|ID when available.|
 |Time stamp|The time at which the action occurred.|
 
 ### Structure failure report
 
-This is a failure report at the task level. This report will only be generated if there is a failure.
+This report lists the failures at the task level. This report is only generated if there's a failure.
 
 |Column|Description|
 |---|---|
@@ -231,8 +230,8 @@ This is a failure report at the task level. This report will only be generated i
 |Operation|Skipped, created or updated.|
 |Status|Success, partial success, failure|
 |Details|Reason for failure.|
-|Source structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL.|
-|Destination structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL.|
+|Source structure URL|Displays the source URL. The URL is listed for site collections, sites, and lists. Fields, content types, and views display its container's URL.|
+|Destination structure URL|Displays the destination URL. The URL is listed for site collections, sites, and lists. Fields, content types, and views display its container's URL.|
 |Source structure ID|ID when available.|
 |Destination structure ID|ID when available.|
 |Time stamp|The time at which the action occurred.|
@@ -248,20 +247,8 @@ This is an aggregate of all the task failure reports. This will only be generate
 |Operation|Skipped, created or updated.|
 |Status|Success, partial success, failure|
 |Details|Reason for failure.|
-|Source structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL.|
-|Destination structure URL|Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL.|
+|Source structure URL|Display the source URL. The URL is listed for site collections, sites, and lists. Fields, content types, and views display its container's URL.|
+|Destination structure URL|Display the destination URL. The URL is listed for site collections, sites, and lists. Fields, content types, and views display its container's URL.|
 |Source structure ID|ID when available.|
 |Destination structure ID|ID when available.|
 |Time stamp|The time at which the action occurred.|
-
-## Performance report
-
-This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores cannot predict how fast the migration will perform, they can help identify areas that could be impacting your migration performance.
-
-|Column|Recommendation|
-|---|---|---|
-|Reading source speed score|[Improving the speed at which the source can be read](./mm-performance.md#improving-the-speed-at-which-the-source-can-be-read)|
-|Local disk performance score|[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed)|
-|Uploading speed score|[Improving your connectivity to Office 365 and Azure](./mm-performance.md#improving-your-connectivity-to-office-365-and-azure)|
-|SharePoint throughput score|[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md)|
-
