@@ -139,7 +139,7 @@ The cmdlets that manage URLs only operate on the root site collection for a host
 
 Off-box termination of SSL occurs when a proxy server terminates an SSL request and uses HTTP to forward the request to a web server. To achieve off-box SSL termination with host-named site collections, the device that terminates the SSL connection, such as a reverse proxy server, must be capable of generating a custom HTTP header: **Front-End-Https: On**. For more information, see [Use host-named site collections with off-box SSL termination](host-named-site-collection-architecture-and-deployment.md).
 
-while off-box termination of SSL isn't recommended because it results in unencrypted traffic being sent from the proxy server to the web server, it is still supported.
+Off-box termination of SSL is supported but not recommended because it results in unencrypted traffic being sent from the proxy server to the web server.
 
 The protocol used for a host-named site collection depends on the value of the URL parameter that you specified when you used the `Set-SPSiteURL` cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
 
@@ -434,7 +434,6 @@ If you use more than one web application, you add more operational overhead and 
 It's more complex to implement host-named site collections with multiple web applications in a farm because you must complete more configuration steps. For example, URLs with host-named sites might be spread across multiple web applications that share the same port in a single farm. This scenario requires more configuration steps to ensure that requests are mapped to the correct web applications. You have to manually configure the mappings on each web server in the farm by configuring a separate IP address to represent each web application. You also have to create and manage host-header bindings to assign unique IP addresses for each site. Scripts can manage and replicate this configuration across servers; however, this replication of configuration adds complexity to the solution. Each unique URL also requires a mapping in DNS. Generally speaking, if multiple web applications are a requirement, we recommend path-based site collections with alternate access mapping.
 
 > [!IMPORTANT]
-> 
 > The new feature in the SharePoint Server Subscription Edition Version 23H1 allows users to [assign wildcard host header bindings to their web applications](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md). This new feature can help you use multiple web applications with host-named site collections in the following ways:
 > 
 1. > You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
