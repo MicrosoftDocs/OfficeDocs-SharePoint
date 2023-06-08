@@ -89,7 +89,7 @@ SharePoint Server supports both host-named and path-based site collections. The 
 |Creating sites|You can use Microsoft PowerShell to create host-named site collections. You can't use Central Administration to create host-named site collections.|You can use Central Administration or PowerShell to create path-based site collections.|
 |URLs|Each host-named site collection in a web application is assigned a unique DNS name.  <br/> You can use zones to assign up to five URLs to host-named sites, including vanity URLs.|All path-based site collections in a web application share the same host name (DNS name) as the web application. You can extend a web application to implement up to five zones and create different host names for each zone. However, the host name for a zone applies to all site collections within the web application.|
 |Root site collection and search|A root site collection is required to crawl content in a web application. A root site collection can be a site collection that users can't access.|Typically, a single path-based site collection serves as the root site collection within a web application. You can use managed paths to create more site collections within the web application.|
-|URL mapping|Use PowerShell commands to manage URLs (`Set-SPSiteURL`, `Remove-SPSiteURL`, `Get-SPSiteURL`).|Use Alternate Access Mappings to manage URLs.|
+|URL mapping|Use PowerShell commands to manage URLs (`Set-SPSiteUrl`, `Remove-SPSiteUrl`, `Get-SPSiteUrl`).|Use Alternate Access Mappings to manage URLs.|
 |Self-service site creation|You need to use a custom solution for self-service site creation with host-named site collections.  <br/> The Self Service Site Creation feature that is part of the default installation of SharePoint Server doesn't work with host-named site collections.|When you use the Self Service Site Creation feature that is part of the default installation of SharePoint Server, you create path-based sites.|
 |Managed paths|Managed paths for host-named site collections apply at the farm level and are available for all web applications.  <br/> You have to use PowerShell to create managed paths for host-named site collections.|Managed paths for path-based sites apply at the web application level.  <br/> You can use Central Administration or Microsoft PowerShell to create managed paths for path-based site collections.|
 
@@ -119,7 +119,7 @@ For example, the following URLs could provide access to the same Internet site:
 
 - www.Contoso.com
 
-- www.Contoso.uk
+- www.Contoso.uk    
 
 - www.Contoso.ca
 
@@ -141,7 +141,7 @@ Off-box termination of SSL occurs when a proxy server terminates an SSL request 
 
 Off-box termination of SSL is supported but not recommended because it results in unencrypted traffic being sent from the proxy server to the web server.
 
-The protocol used for a host-named site collection depends on the value of the URL parameter that you specified when you used the `Set-SPSiteURL` cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
+The protocol used for a host-named site collection depends on the value of the URL parameter that you specified when you used the `Set-SPSiteUrl` cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
 
 ### When to use path-based site collections
 <a name="section1d"> </a>
@@ -337,12 +337,14 @@ You can configure a single web application that uses SSL and then create multipl
 
 You need to acquire a wildcard certificate or subject alternate name (SAN) certificate and then use a host-named site collection URL format that matches that certificate. For example, if you acquire a \*.contoso.com wildcard certificate, you must generate host-named site collection URLs such as `https://site1.contoso.com`, `https://site2.contoso.com`, and so on, to enable these sites to pass browser SSL validation. However, if you require unique second-level domain names for sites, you must create multiple web applications rather than multiple host-named site collections.
 
+> [!IMPORTANT]
+> If you are using SharePoint Server Subscription Edition, use the new [certificate management](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md) feature to install and assign SSL certificates to your web applications. This feature allows you to install and manage your SSL certificates directly in SharePoint instead of manually configuring SSL certificates in IIS.
+
 To configure SSL for host-named site collections, enable SSL when you create the web application. This setting will create an IIS website with an SSL binding instead of an HTTP binding. After you create the web application, open IIS Manager and assign a certificate to that SSL binding. You can then create site collections in that web application.
 
 If you're implementing multiple zones with host-named site collections, ensure that the configuration of certificates and bindings (SSL or HTTP) is appropriate for each zone and corresponding IIS site.
 
-> [!IMPORTANT]
-> If you are using SharePoint Server Subscription Edition, use the new [certificate management](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md) feature to install and assign SSL certificates to your web applications. This feature allows you to install and manage your SSL certificates directly in SharePoint instead of manually configuring SSL certificates in IIS.
+
 
 ### Use host-named site collections with off-box SSL termination
 <a name="section2g"> </a>
@@ -436,13 +438,13 @@ It's more complex to implement host-named site collections with multiple web app
 > [!IMPORTANT]
 > The new feature in the SharePoint Server Subscription Edition Version 23H1 allows users to [assign wildcard host header bindings to their web applications](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md). This new feature can help you use multiple web applications with host-named site collections in the following ways:
 > 
-1. > You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
+> 1. You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
 > 
-2. > The wildcard host headers assigned to each web application must be unique. For example, web application 1 could be `*.internal.example.com`, web application 2 could be `*.external.example.com`, etc.
+> 2. The wildcard host headers assigned to each web application must be unique. For example, web application 1 could be `*.internal.example.com`, web application 2 could be `*.external.example.com`, etc.
 >
-3. > The host-named site collections in these web applications will have to conform its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
+> 3. The host-named site collections in these web applications will have to conform its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
 > 
-4. > Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `.external.example.com`, but it can't be `external..exampe.com`, `..example.com`, `external*.example.com`, `*external.example.com`, etc.
+> 4. Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `.external.example.com`, but it can't be `external..exampe.com`, `..example.com`, `external*.example.com`, `*external.example.com`, etc.
 
 
 The following two tables contrast three different design choices to implement site collections. These tables are intended to help you understand the consequences of each approach and how configuration varies depending on the architecture.
