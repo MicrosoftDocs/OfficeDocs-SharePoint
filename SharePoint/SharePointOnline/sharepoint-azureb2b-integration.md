@@ -33,7 +33,7 @@ Enabling this integration doesn't change your sharing settings. For example, if 
 
 Once the integration is enabled you and your users don't have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before Azure AD B2B integration was enabled, SharePoint will automatically create a B2B guest account. This guest account is created for the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest won't be added to the directory and the file will need to be reshared.)
 
-SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently not enabled by default.
+SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is enabled by default for new tenants.
 
 Advantages of Azure AD B2B include:
 - Invited people outside your organization are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
