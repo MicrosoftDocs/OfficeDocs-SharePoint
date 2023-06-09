@@ -167,9 +167,9 @@ Host headers allow the web server to host multiple websites on the same IP Addre
 
 Host headers are configured at the web Application (IIS website) level, they're one of the website bindings properties.
 
-It's important to understand the distinction between Host headers in IIS and Host Named Site Collections. Host headers at the IIS website level are only intended for path-based site collections.
+It's important to understand the distinction between Host headers in IIS and host-named site collections. Host headers at the IIS website level are only intended for path-based site collections.
 
-When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS website level makes it impossible to access host-named site collections through the IIS website. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
+When using host-named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS website level makes it impossible to access host-named site collections through the IIS website. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
 
 > [!IMPORTANT]
 > If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
@@ -333,23 +333,24 @@ Get-SPSiteUrl -Identity (Get-SPSite 'http://teams.contoso.com')
 ### Configure SSL certificates for host-named site collections
 <a name="section2f"> </a>
 
+> [!IMPORTANT]
+> If you are using SharePoint Server Subscription Edition, use the new [certificate management](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md) feature to install and assign SSL certificates to your web applications. This feature allows you to install and manage your SSL certificates directly in SharePoint instead of manually configuring SSL certificates in IIS.
+
 You can configure a single web application that uses SSL and then create multiple host-named site collections within that web application. To browse to a site over SSL, you have to install and assign a server certificate to the IIS website. Each host-named site collection in a web application will share the single server certificate that you assigned to the IIS website.
 
 You need to acquire a wildcard certificate or subject alternate name (SAN) certificate and then use a host-named site collection URL format that matches that certificate. For example, if you acquire a \*.contoso.com wildcard certificate, you must generate host-named site collection URLs such as `https://site1.contoso.com`, `https://site2.contoso.com`, and so on, to enable these sites to pass browser SSL validation. However, if you require unique second-level domain names for sites, you must create multiple web applications rather than multiple host-named site collections.
-
-> [!IMPORTANT]
-> If you are using SharePoint Server Subscription Edition, use the new [certificate management](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md) feature to install and assign SSL certificates to your web applications. This feature allows you to install and manage your SSL certificates directly in SharePoint instead of manually configuring SSL certificates in IIS.
 
 To configure SSL for host-named site collections, enable SSL when you create the web application. This setting will create an IIS website with an SSL binding instead of an HTTP binding. After you create the web application, open IIS Manager and assign a certificate to that SSL binding. You can then create site collections in that web application.
 
 If you're implementing multiple zones with host-named site collections, ensure that the configuration of certificates and bindings (SSL or HTTP) is appropriate for each zone and corresponding IIS site.
 
-
-
 ### Use host-named site collections with off-box SSL termination
 <a name="section2g"> </a>
 
 You can use host-named site collections with off-box SSL termination. There are several requirements to use SSL termination with host-named site collections:
+
+> [!NOTE]
+> Off-box termination of SSL is supported but not recommended because it results in unencrypted traffic being sent from the proxy server to the web server.
 
 - At least one IIS site should have a binding on port 80 (or whatever port the terminator forwards the request to). Microsoft recommends that you use the IIS site of a web application (or the IIS site of a zone for a web application) with HTTP/80.
 
