@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 6/24/2021
+ms.date: 4/27/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -74,12 +74,13 @@ SharePoint Server repair steps are as follows:
 
 3. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to repair the server in the farm.
 
-    1. `Install-SPHelpCollection -All`
-    2. `Initialize-SPResourceSecurity`
-    3. `Install-SPService`
-    4. `Install-SPFeature -AllExistingFeatures`
-    5. `New-SPCentralAdministration` (If hosting the Central Administration site on this server)
-    6. `Install-SPApplicationContent`
+    1. `Update-SPFlightsConfigFile -FilePath "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\CONFIG\SPFlightRawConfig.json"`
+    2. `Install-SPHelpCollection -All`
+    3. `Initialize-SPResourceSecurity`
+    4. `Install-SPService`
+    5. `Install-SPFeature -AllExistingFeatures`
+    6. `New-SPCentralAdministration` (If hosting the Central Administration site on this server)
+    7. `Install-SPApplicationContent`
 
     > [!Note]
     > You can also use the `PSCONFIG.EXE` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
