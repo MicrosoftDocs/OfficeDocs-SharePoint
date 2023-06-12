@@ -55,7 +55,7 @@ Site admins are users that have permission to manage sites, including any subsit
 >
 > There is a separate role within SharePoint called the **Term Store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
 > 
-> To manage API access in the SharePoint admin center, the application administrator role or the Global Administrator role might be required, for more information, see [Manage access to Azure AD-secured APIs](api-access.md).
+> To manage API access in the SharePoint admin center, the application administrator role or the Global administrator role might be required. For more information, see [Manage access to Azure AD-secured APIs](api-access.md).
  
 ## Key tasks of the SharePoint admin
 <a name="BK_KeyTasks"> </a>
