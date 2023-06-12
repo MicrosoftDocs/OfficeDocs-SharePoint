@@ -1,6 +1,6 @@
 ---
-ms.date: 07/11/2018
-title: "External sharing overview"
+ms.date: 06/12/2023
+title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -36,11 +36,11 @@ ms.assetid: c8a462eb-0723-4b0b-8d0a-70feafe4be85
 description: "Learn about the external sharing options in SharePoint in Microsoft 365. These options allow users in your organization to share content with people outside the organization."
 ---
 
-# External sharing overview
+# Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 
-The external sharing features of Microsoft SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+The external sharing features of SharePoint and OneDrive let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
-Planning for external sharing should be included as part of your overall permissions planning for SharePoint in Microsoft 365. This article describes what happens when users share, depending on what they're sharing and with whom. 
+Planning for external sharing should be included as part of your overall permissions planning for SharePoint and OneDrive. This article describes what happens when users share, depending on what they're sharing and with whom. 
 
 If you want to get straight to setting up sharing, choose the scenario you want to enable:
 
@@ -51,17 +51,17 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 (If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
 > [!NOTE]
-> External sharing is turned on by default for your entire SharePoint environment and the sites in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
-  
+> External sharing is turned on by default for your entire SharePoint and OneDrive environment. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
+
 ## How the external sharing settings work
 
-SharePoint has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
+SharePoint has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied. OneDrive sharing settings can be the same as or more restrictive than the SharePoint settings.
   
-Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow unauthenticated sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests, who sign in, and with internal users. 
+Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow unauthenticated sharing using "Anyone" links, users can still share with guests, who sign in, and with internal users. 
 
 > [!IMPORTANT]
 > Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Microsoft 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
-  
+
 **Security and privacy**
   
 If you have confidential information that should never be shared externally, we recommend storing the information in a site that has external sharing turned off. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
@@ -81,8 +81,8 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 ## What happens when users share
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
-  
- **Recipients who sign in**
+
+**Recipients who sign in**
   
 When users share *sites*, recipients will be prompted to sign in with:
 - A Microsoft account
