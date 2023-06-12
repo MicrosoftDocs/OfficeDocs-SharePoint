@@ -105,7 +105,7 @@ To configure these Cloud Policy settings:
             - Loop app will still open Loop components when workspaces is disabled. If this is not rolled out to your environment, Loop component will open in Office.com.
             - Ensure additional [Loop service requirements](#requirements) are met.
 8. Save the policy configuration.
-9. Reassign priority for any group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
+9. Reassign priority for any group if required. If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.
 10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
     - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
     - If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
