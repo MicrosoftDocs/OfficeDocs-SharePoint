@@ -24,7 +24,7 @@ ms.collection:
 
 # SharePoint Workflow Manager Farm Restore and Disaster Recovery - Overview
 
-Use the steps in this article to move your SharePoint Workflow Manager (SPWFM) databases to a new SQL Server instance. This movement may be done as part of a disaster recovery (DR) effort, a migration, or if you simply must rename the SPWFM databases. These steps could also be used as an alternative method for upgrading or migrating from “Classic Workflow Manager” (WFM) to SharePoint Workflow Manager (SPWFM) on a new hardware. However, it's a bit more complex than the recommended procedure, detailed in [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](https://learn.microsoft.com/en-us/sharepoint/governance/update-to-spworkflow-manager-when-upgrading-farms). If you choose to use this "farm restore" procedure to upgrade/migrate, keep in mind that the SharePoint content databases and App Management Service Application database also need to be upgraded along the way to keep your existing workflows intact.
+Use the steps in this article to move your SharePoint Workflow Manager (SPWFM) databases to a new SQL Server instance. This movement may be done as part of a disaster recovery (DR) effort, a migration, or if you simply must rename the SPWFM databases. These steps could also be used as an alternative method for upgrading or migrating from “Classic Workflow Manager” (WFM) to SharePoint Workflow Manager (SPWFM) on a new hardware. However, it's a bit more complex than the recommended procedure, detailed in [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](update-to-spworkflow-manager-when-upgrading-farms.md). If you choose to use this "farm restore" procedure to upgrade/migrate, keep in mind that the SharePoint content databases and App Management Service Application database also need to be upgraded along the way to keep your existing workflows intact.
 
 > [!IMPORTANT]
 > The Workflow Configuration Wizard only prompts you for the database connection information, and for the names of the Service Bus Management and Workflow Management databases. The connection information for the other four Service Bus and Workflow databases are stored within those two management databases. Since that connection information isn't updated by the wizard, you can't use the wizard to change SQL servers or database names. In that case, you must use the procedures specified in [Scenario 1: Using an SQL alias](#scenario-1-using-an-sql-alias) and [Scenario 2: Without using a SQL alias (Farm Restore)](#scenario-2-without-using-a-sql-alias-farm-restore) to restore the workflow farm:
@@ -75,7 +75,7 @@ WFResourceManagementDB
 
 If you have multiple SPWFM servers, choose one on which you can run the restore-process. We'll refer to this server as "the SPWFM server" going forward.
 
-On the SPWFM server, we need to run through some PowerShell to restore everything using the restored databases. In this PowerShell process, it's advised to run one step at a time and not just run everything as a single script. That way if one step fails, you can troubleshoot it thereby preventing it from going on to the next step and potentially making a mess.
+On the SPWFM server, we need to run through some PowerShell commands to restore everything using the restored databases. In this PowerShell process, it's advised to run one step at a time and not just run everything as a single script. That way if one step fails, you can troubleshoot it thereby preventing it from going on to the next step and potentially making a mess.
 
 > [!IMPORTANT]
 > You're setting a new "**Certificate Generation Key**" in the restored farm. You'll want to store this value somewhere, as it's required any time you rejoin the farm or when you join additional servers to the farm.
@@ -204,7 +204,7 @@ It should show that all the services are running, and that there are no errors.
 
 At this point, if everything looks good, if you had more servers in the SPWFM farm, you should be able to add them back to the farm by running the Workflow Manager Configuration wizard and choosing to join an existing farm.
 
-The "Certificate Generation Key" was set in the script above, so you'll have to use that when joining the farm.
+The "Certificate Generation Key" was set in the script above; so you'll have to use that when joining the farm.
 
 ### Validate on the SharePoint side
 
@@ -212,7 +212,7 @@ The "Certificate Generation Key" was set in the script above, so you'll have to 
 
 Because new SPWFM certificates were created as part of this procedure, the following steps must be implemented to ensure the SharePoint servers trust them:
 
-1. Complete the steps in the [Trust the SPWFM SSL certificate on the SharePoint servers]( https://learn.microsoft.com/en-us/sharepoint/governance/update-to-spworkflow-manager-when-upgrading-farms#trust-the-spwfm-ssl-certificate-on-the-sharepoint-servers) section to trust the SPWFM endpoint certificate on all the SharePoint servers.
+1. Complete the steps in the [Trust the SPWFM SSL certificate on the SharePoint servers](update-to-spworkflow-manager-when-upgrading-farms.md) section to trust the SPWFM endpoint certificate on all the SharePoint servers.
 1. Refresh the SPWFM Outbound Certificate used in **SPTrustedSecurityTokenIssuer** by running the RefreshMetadataFeed timer job on any SharePoint server:
 
 ```powershell
