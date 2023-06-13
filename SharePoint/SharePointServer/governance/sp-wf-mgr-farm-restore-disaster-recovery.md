@@ -204,7 +204,7 @@ It should show that all the services are running, and that there are no errors.
 
 At this point, if everything looks good, if you had more servers in the SPWFM farm, you should be able to add them back to the farm by running the Workflow Manager Configuration wizard and choosing to join an existing farm.
 
-The "Certificate Generation Key" was set in the script above; so you'll have to use that when joining the farm.
+The "Certificate Generation Key" was set in the script [above](#step-1-set-the-variables); so you'll have to use that when joining the farm.
 
 ### Validate on the SharePoint side
 
@@ -222,7 +222,7 @@ Because new SPWFM certificates were created as part of this procedure, the follo
 
 #### Validate the SPWFM endpoint
 
-On one of the SharePoint servers, sign in either as the SPWFM RunAs account or as a user that is a member of AdminGroup, as defined in the script above. Browse to the FQDN of the SPWFM endpoint, for example, `https://apps.contoso.local:12290/`. The result should look like as shown in the following screenshot:
+On one of the SharePoint servers, sign in either as the SPWFM RunAs account or as a user that is a member of AdminGroup, as defined in the script [above](#step-1-set-the-variables). Browse to the FQDN of the SPWFM endpoint, for example, `https://apps.contoso.local:12290/`. The result should look like as shown in the following screenshot:
 
 :::image type="content" source="../media/validate-spwfm-endpoint.png" alt-text="The result of the SPWFM endpoint's validation process." lightbox="../media/validate-spwfm-endpoint.png":::
 
