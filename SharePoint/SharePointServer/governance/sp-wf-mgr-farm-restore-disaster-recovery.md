@@ -22,7 +22,7 @@ ms.collection:
 - ediscovery
 ---
 
-# SharePoint Workflow Manager Farm Restore and Disaster Recovery - Overview
+# SharePoint Workflow Manager Farm Restore and Disaster Recovery
 
 Use the steps in this article to move your SharePoint Workflow Manager (SPWFM) databases to a new SQL Server instance. This movement may be done as part of a disaster recovery (DR) effort, a migration, or if you simply must rename the SPWFM databases. These steps could also be used as an alternative method for upgrading or migrating from “Classic Workflow Manager” (WFM) to SharePoint Workflow Manager (SPWFM) on a new hardware. However, it's a bit more complex than the recommended procedure, detailed in [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](update-to-spworkflow-manager-when-upgrading-farms.md). If you choose to use this "farm restore" procedure to upgrade/migrate, keep in mind that the SharePoint content databases and App Management Service Application database also need to be upgraded along the way to keep your existing workflows intact.
 
