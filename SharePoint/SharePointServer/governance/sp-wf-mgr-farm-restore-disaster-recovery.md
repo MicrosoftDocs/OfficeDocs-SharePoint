@@ -45,24 +45,24 @@ If you're open to using an SQL alias, then moving SPWFM databases to a new SQL s
 
 1. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that.
 
-You need to keep the same database names for the 6 Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
+You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
 
 1. Create an SQL alias using *cliconfg.exe* on **all** the SPWFM servers. For more information on creating the alias, see the [Create a SQL alias](update-to-spworkflow-manager-when-upgrading-farms.md#create-a-sql-alias).
 
 1. Restart your SPWFM servers/services.
-   Since we are using an SQL alias to map the "old" SQL server name to the "new" SQL server, SPWFM is unaware that there have been changes. The services should come up and connect to the databases on the new SQL server.
+   Since we're using an SQL alias to map the "old" SQL server name to the "new" SQL server, SPWFM is unaware that there have been changes. The services should come up and connect to the databases on the new SQL server.
 
 ## Scenario 2: Without using a SQL alias (Farm Restore)
 
-If for some reason you can't use an SQL alias, or if you need to change the names of the 6 Service Bus and Workflow databases, then you'll have to complete a Workflow "Farm Restore".  This process, while not too complicated, has many potential failure points. 
+If for some reason you can't use an SQL alias, or if you need to change the names of the six Service Bus and Workflow databases, then you'll have to complete a Workflow "Farm Restore".  This process, while not too complicated, has many potential failure points. 
 
 > [!TIP]
 > As such, it's _strongly_ recommended to use an SQL alias and keep your database names the same, as described above in [Scenario 1](#scenario-1-using-an-sql-alias).
 
 ### Move the WFM and SB databases
 
-- Using this procedure, we only need 4 out of the 6 WFM/SB databases. We do **NOT** need the WFManagementDB and SbManagementDB databases which will be created new as part of this procedure.
-- Back up the 4 databases you need on the "old" SQL server and restore them to your "new" SQL server. In the following example, the databases have been restored with the default database names:
+- Using this procedure, we only need 4 out of the six WFM/SB databases. We do **NOT** need the WFManagementDB and SbManagementDB databases, which will be created new as part of this procedure.
+- Back up the four databases you need on the "old" SQL server and restore them to your "new" SQL server. In the following example, the databases have been restored with the default database names:
 
 ```powershell
 SbGatewayDatabase
@@ -202,7 +202,7 @@ It should show that all the services are running, and that there are no errors.
 
 #### Join other servers to workflow farm
 
-At this point, if everything looks good, if you had additional servers in the SPWFM farm, you should be able to add them back to the farm by running the Workflow Manager Configuration wizard and choosing to join an existing farm.
+At this point, if everything looks good, if you had more servers in the SPWFM farm, you should be able to add them back to the farm by running the Workflow Manager Configuration wizard and choosing to join an existing farm.
 
 The "Certificate Generation Key" was set in the script above, so you'll have to use that when joining the farm.
 
@@ -230,9 +230,9 @@ On one of the SharePoint servers, sign in either as the SPWFM RunAs account or a
 
 ### Register the SharePoint farm
 
-If you used these steps to simply move Workflow (WF) and Service Bus (SB) databases to a new SQL server, then the SharePoint farm is already registered and you are **not** required to complete this step.
+If you used these steps to move Workflow (WF) and Service Bus (SB) databases to a new SQL server, then the SharePoint farm is already registered and you are **not** required to complete this step.
 
-However, if you used these steps to migrate your SB and WF databases to a _new_ SPWFM farm, for example, as part of a SharePoint farm upgrade/migration, then you will need to run the following `Register-SPWorkflowService` command to connect the SharePoint farm with the SPWFM farm.
+However, if you used these steps to migrate your SB and WF databases to a _new_ SPWFM farm, for example, as part of a SharePoint farm upgrade/migration, then you'll need to run the following `Register-SPWorkflowService` command to connect the SharePoint farm with the SPWFM farm.
 
 ```powershell
 $Scope = "SharePoint" # Use the Scope Name you were using previously
@@ -243,4 +243,4 @@ Register-SPWorkflowService -SPSite $site -WorkflowHostUri $wfURI -ScopeName $Sco
 
 ### Publish a New Workflow
 
-If you used this procedure to upgrade/migrate, and if your SharePoint web application URLs have changed as part of this migration (for example, from `http://sp2013.contoso.local` to `https://spse.contoso.local`), workflows that were created prior to the workflow migration/farm restore won't at first. You'll need to publish a new workflow first.  For more information, see [Issue 1: Site URL is changed](/sharepoint/troubleshoot/workflows/upgrade-sharepoint-through-workflow-manager#issue-1-site-url-is-changed).
+If you used this procedure to upgrade/migrate, and if your SharePoint web application URLs have changed as part of this migration (for example, from `http://sp2013.contoso.local` to `https://spse.contoso.local`), workflows that were created prior to the workflow migration/farm restore won't work at first. You'll need to publish a new workflow first.  For more information, see [Issue 1: Site URL is changed](/sharepoint/troubleshoot/workflows/upgrade-sharepoint-through-workflow-manager#issue-1-site-url-is-changed).
