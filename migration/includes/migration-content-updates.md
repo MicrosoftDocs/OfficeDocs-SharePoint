@@ -2,6 +2,23 @@
 
 
 
+## Week of June 05, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/5/2023 | [Migration Manager File Share migration reports](/SharepointMigration/mm-reports) | modified |
+| 6/6/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
+## Week of May 29, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/31/2023 | [Troubleshoot SharePoint Migration Tool](/SharepointMigration/troubleshooting-common-spmt-issues) | modified |
+
+
 ## Week of May 22, 2023
 
 
@@ -38,11 +55,3 @@
 | 5/8/2023 | [Mover migration - Troubleshoot Office 365 connector](/SharepointMigration/mover-troubleshoot-m365-connector) | modified |
 | 5/8/2023 | [Mover migration - Upload a permission map](/SharepointMigration/mover-upload-permission-map) | modified |
 | 5/11/2023 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
-
-
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/24/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |

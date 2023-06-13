@@ -39,6 +39,9 @@ Collaborate all in one place by migrating your Google documents, data, and users
 - **Step 5:** [Map identities](mm-google-step5-map-identities.md)   Map your groups and users in Google Drive to an account in Microsoft 365 to migrate your Google Drive permission settings.
 - **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Google accounts and monitor the progress
 
+>[!Tip]
+>Watch this video to help get started:  [Migrate Google files to Microsoft 365 with Migration Manager](https://youtu.be/GZ4kTX31U-A)
+
 
 ## Get started
 
