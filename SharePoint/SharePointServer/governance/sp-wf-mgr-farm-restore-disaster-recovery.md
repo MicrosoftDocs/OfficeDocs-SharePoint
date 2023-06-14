@@ -43,11 +43,11 @@ If you're open to using an SQL alias, then moving SPWFM databases to a new SQL s
 - Workflow Manager Backend
 - World Wide Web Publishing Service
 
-1. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that.
+2. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that.
 
 You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
 
-1. Create an SQL alias using *cliconfg.exe* on **all** the SPWFM servers. For more information on creating the alias, see the [Create a SQL alias](update-to-spworkflow-manager-when-upgrading-farms.md#create-a-sql-alias).
+3. Create an SQL alias using *cliconfg.exe* on **all** the SPWFM servers. For more information on creating the alias, see the [Create a SQL alias](update-to-spworkflow-manager-when-upgrading-farms.md#create-a-sql-alias).
 
 1. Restart your SPWFM servers/services.
    Since we're using an SQL alias to map the "old" SQL server name to the "new" SQL server, SPWFM is unaware that there have been changes. The services should come up and connect to the databases on the new SQL server.
@@ -82,7 +82,7 @@ On the SPWFM server, we need to run through some PowerShell commands to restore 
 
 Using your Administrator privileges, run PowerShell ISE on the SPWFM server and perform the following steps to restore the Workflow farm:
 
-#### Step 1: Set the variables
+#### Set the variables
 
 The variables being referred to are the variables that the rest of the commands will use.  After setting these variables appropriately for your environment, you shouldn't have to make any changes within any of the subsequent commands.
 
@@ -109,7 +109,7 @@ $myPassword = convertto-securestring $newPass -asplaintext -force
 $restoreTime = Get-Date 
 ```
 
-#### Step 2: Restore the Service Bus farm
+#### Restore the Service Bus farm
 
 ```powershell
 # Restore the Service Bus farm
@@ -212,7 +212,7 @@ The "Certificate Generation Key" was set in the script [above](#step-1-set-the-v
 
 Because new SPWFM certificates were created as part of this procedure, the following steps must be implemented to ensure the SharePoint servers trust them:
 
-1. Complete the steps in the [Trust the SPWFM SSL certificate on the SharePoint servers](update-to-spworkflow-manager-when-upgrading-farms.md) section to trust the SPWFM endpoint certificate on all the SharePoint servers.
+1. Complete the steps in the [Trust the SPWFM SSL certificate on the SharePoint servers](update-to-spworkflow-manager-when-upgrading-farms.md#trust-the-spwfm-ssl-certificate-on-the-sharepoint-servers) section to trust the SPWFM endpoint certificate on all the SharePoint servers.
 1. Refresh the SPWFM Outbound Certificate used in **SPTrustedSecurityTokenIssuer** by running the RefreshMetadataFeed timer job on any SharePoint server:
 
 ```powershell
