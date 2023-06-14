@@ -26,7 +26,7 @@ description: "In this article, you learn about syncing SharePoint and OneDrive f
 
 When users install the OneDrive sync app for Windows or Mac, and sync the files on a team site, they can work with the files in File Explorer or Finder. They can also easily save files to the team site from the programs they use.
 
-If you add, change, or delete files and folders on the site, the changes also apply to the files and folders on your computer and vice versa. 
+If you add, change, or delete files and folders on the site, the changes also apply to the files and folders on your computer and vice versa.
 
 To upload files to the team site, users can copy or move them to the site in File Explorer or Finder. They can also use File Explorer or Finder to easily organize the document library by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
 
