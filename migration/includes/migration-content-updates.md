@@ -2,6 +2,15 @@
 
 
 
+## Week of June 05, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/5/2023 | [Migration Manager File Share migration reports](/SharepointMigration/mm-reports) | modified |
+| 6/6/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
 ## Week of May 29, 2023
 
 
