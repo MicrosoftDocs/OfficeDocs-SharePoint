@@ -19,16 +19,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "In this article, you'll learn about syncing SharePoint and OneDrive files using the OneDrive sync app for Windows and Mac."
+description: "In this article, you learn about syncing SharePoint and OneDrive files using the OneDrive sync app for Windows and Mac."
 ---
 
 # Sync in SharePoint and OneDrive
 
 When users install the OneDrive sync app for Windows or Mac, and sync the files on a team site, they can work with the files in File Explorer or Finder. They can also easily save files to the team site from the programs they use.
 
-When users add, change, and delete files and folders on the site, the files and folders are automatically added, changed, or deleted on their computer and vice versa.
+If you add, change, or delete files and folders on the site, the changes also apply to the files and folders on your computer and vice versa. 
 
-To upload files to the team site, users can simply copy or move them to the site in File Explorer or Finder. They can also use File Explorer or Finder to easily organize the document library by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
+To upload files to the team site, users can copy or move them to the site in File Explorer or Finder. They can also use File Explorer or Finder to easily organize the document library by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
 
 Windows 10 devices come with the OneDrive sync app installed. Office 2016 and later installations also have the sync app installed.
 
@@ -41,7 +41,7 @@ Users have two options when syncing files in SharePoint libraries and Teams. The
 
 ## Deciding between OneDrive sync options
 
-Both OneDrive shortcuts and OneDrive Sync options allow essentially the same thing — users can access files on their local computer in Explorer or Finder.
+Both OneDrive shortcuts and OneDrive Sync options allow essentially the same thing—users can access files on their local computer in Explorer or Finder.
 
 However, adding OneDrive shortcuts allows content to be accessed on all devices, whereas sync is related to a specific device. Additionally, OneDrive shortcuts offer improved performance versus using the sync button.
 
@@ -55,9 +55,9 @@ You can turn off OneDrive sync from all the SharePoint libraries in your organiz
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
 ```
 
-Removing the sync button blocks new syncs from being started but does not affect existing syncs.
+Removing the sync button blocks new syncs from being started but doesn't affect existing syncs.
 
-## Related topics
+## Related articles
 
 [Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
