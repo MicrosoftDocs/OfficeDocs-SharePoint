@@ -946,6 +946,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "SharePoint/SharePointOnline/manage-loop-components.md",
+      "redirect_url": "/microsoft-365/loop/loop-components-sharepoint",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "SharePoint/SharePointServer/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md",
       "redirect_url": "/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers",
       "redirect_document_id": false
