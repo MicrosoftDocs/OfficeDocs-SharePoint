@@ -46,7 +46,7 @@ Migration Manager lets you bulk upload your Dropbox drives using a comma-separat
 
 **For team folders:**
 
-  - **Before update:**<br>/[team folder name]    *Example:*  MyTeamFolder
+  - **[Before Dropbox update:](https://help.dropbox.com/plans/upcoming-business-team-changes?fallback=true)**<br>/[team folder name]    *Example:*  MyTeamFolder
   - **After update:**<br> [root namespace]/[team folder name]   *Example:*  MyNameSpace/MyTeamFolder
 
 3. Close and save as a comma delimited (*.csv) file. The encoding of the CSV file must be UTF-8.
