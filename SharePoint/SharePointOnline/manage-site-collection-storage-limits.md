@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2018
-title: "Manage site storage limits"
+title: Manage site storage limits in SharePoint in Microsoft 365
 ms.reviewer: trgreen
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -28,16 +28,13 @@ ms.assetid: 77389c2c-8e7e-4b16-ab97-1c7103784b08
 description: "In this article, you'll learn how to use the SharePoint admin center to manage the storage limits for sites in your organization."
 ---
 
-# Manage site storage limits
+# Manage site storage limits in SharePoint in Microsoft 365
 
-The amount of Microsoft SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a Global Administrator in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
+The amount of SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a Global Administrator in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
   
 ## View the total and available storage space for your organization
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
-
-    >[!NOTE]
-    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. In the upper right of the page, see the amount of storage available and the total storage for your subscription. (If your organization has configured Multi-Geo in Microsoft 365, you can point to the bar to see the amount of storage used in the current geo location and all other geo locations.) 
 
@@ -58,9 +55,6 @@ If you prefer to fine-tune the storage space allocated to each site, you can set
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-    > [!NOTE]
-    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
-    
 2. Select **Site storage limits**.
 
     ![Managing site storage limits](media/site-storage-limits.png)
@@ -74,9 +68,6 @@ Follow these steps to specify individual site storage limits when your storage m
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-    >[!NOTE]
-    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
-    
 2. In the left column, select the site, or for a channel site, select the link in the **Channel sites** column.
 
 3. Select **Storage** on the command bar to open edit storage limit panel.
@@ -87,8 +78,6 @@ Follow these steps to specify individual site storage limits when your storage m
 
     > [!NOTE]
     > The max value you can enter is 25600 GB, although this may be more space than your organization has. To learn how your total storage is calculated, see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
-    > 
-    > If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
 5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then, enter a value as a percent for how full you want the storage to be when the email is sent. 
  
@@ -101,99 +90,3 @@ If a site runs out of storage, site admins can request more by following these s
 3. Select **Request more quota** in the upper right.
 
 This sends a storage request email to the Global Administrators in the organization.
-
-![Storage request email](media/request-more-storage.png)
-    
-### Monitor site storage limits by using PowerShell
-
-If you manage storage limits manually, you need to regularly monitor them to make sure they aren't affecting site performance. We recommend that you also set up your own alert emails to notify site admins before a site reaches the limit. The built-in storage quota warning emails are typically sent weekly for sites that have reached the specified warning level. So site admins often receive the storage quota warning email too late. For example, if the Disk Quota Warning timer job (which triggers the warning email) is scheduled weekly and sends the email warning every Sunday, but a site reaches the quota warning limit on Monday, the site admin doesn't receive the alert email for six days. This site could reach the maximum storage limit and be set to read-only before the site admin receives the alert email. 
-  
-You can use the following Microsoft PowerShell script to monitor your sites. This script pulls the data, composes, and then sends a storage warning alerts to the site admin.
-  
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
-
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. Copy the following text with the variable declarations, and paste it into a text editor, such as Notepad. You must set all of the input values to be specific to your organization. Save the file, and then rename it "GetEmailWarning.ps1". 
-    
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
-  
-    ```powershell
-    #Connect to SharePoint admin center using an admin account
-    #Specify the URL to your SharePoint admin center site, e.g. https://contoso-admin.sharepoint.com
-    
-    $url = 'https://contoso-admin.sharepoint.com'
-    
-    #Specify a folder path to output the results into
-    $path = '.\'
-    
-    #SMTP details
-    $Smtp = '<SmtpServer>'
-    $From = '<SenderEmailAddress>'  
-    $To = '<RecipientEmailAddress>'
-    $Subject = 'Site Storage Warning'  
-    $Body = 'Storage Usage Details'
-    
-    if($url -eq '') {
-        $url = Read-Host -Prompt 'Enter the SharePoint admin center URL'
-    }
-    
-    Connect-SPOService -Url $url
-    
-    #Local variable to create and store output file  
-    $filename = (Get-Date -Format o | foreach {$_ -Replace ":", ""})+'.csv'  
-    $fullpath = $path+$filename
-    
-    #Enumerating all sites and calculating storage usage  
-    $sites = Get-SPOSite
-    $results = @()
-    
-    foreach ($site in $sites) {
-        $siteStorage = New-Object PSObject
-        
-        $percent = $site.StorageUsageCurrent / $site.StorageQuota * 100  
-        $percentage = [math]::Round($percent,2)
-    
-        $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Title" -Value $site.Title
-        $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Url" -Value $site.Url
-        $siteStorage | Add-Member -MemberType NoteProperty -Name "Percentage Used" -Value $percentage
-        $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Used (MB)" -Value $site.StorageUsageCurrent
-        $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Quota (MB)" -Value $site.StorageQuota
-    
-        $results += $siteStorage
-        $siteStorage = $null
-    }
-    
-    $results | Export-Csv -Path $fullpath -NoTypeInformation
-    
-    #Sending email with output file as attachment  
-    Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attachments $fullpath -Body $Body -Priority high
-    ```
-
-4. Where:
-
-    - **$url** is the URL of your SharePoint admin center. If the `$url` variable is left empty, you will be prompted to enter the URL of your admin center site.
-    
-    - **$path** is the file system path you want the CSV file to output to.
-    
-    - **\<SmtpServer\>** is the name of your mail server. 
-    
-    - **\<SenderEmailAddress\>** is the Global Administrator or SharePoint Administrator account that appears in the From line in the warning email. 
-    
-    - **\<RecipientEmailAddress\>** is the admin account that will receive the email warning. 
-    
-5. In SharePoint Online Management Shell, change to the local directory where you saved the script file.
-    
-    ```
-    ./GetEmailWarning.ps1
-    ```
-
-After the script successfully completes, a text file is created in the location that you specified in the **$path** variable in the script. 
-
-> [!NOTE]
-> If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
-

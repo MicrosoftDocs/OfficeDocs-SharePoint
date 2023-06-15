@@ -939,6 +939,21 @@
       "source_path": "SharePoint/SharepointOnline/viva-connections-desktop.md",
       "redirect_url": "/viva/connections/viva-connections-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/intelligent-internet-overview.md",
+      "redirect_url": "/sharepoint/intelligent-intranet-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/manage-loop-components.md",
+      "redirect_url": "/microsoft-365/loop/loop-components-sharepoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md",
+      "redirect_url": "/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers",
+      "redirect_document_id": false
     }
   ]
 }
