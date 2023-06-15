@@ -3,7 +3,7 @@ ms.date: 07/11/2018
 title: "Delve for admins"
 ms.reviewer: 
 ms.author: gretel
-author: gretel
+author: GreteLittmann
 manager: pamgreen
 recommendations: true
 audience: Admin

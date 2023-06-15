@@ -65,7 +65,6 @@ When a report is ready, select it to view the data. Each sharing link report inc
 - Up to 100 sites with highest number of [sharing links](modern-experience-sharing-permissions.md) created in the last 30 days.
 - The policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 - The primary admin for each site.
-  :::image type="content" source="media/anyone-links-screen.png" alt-text="Report for Anyone links":::
 
 ### Download the reports
 
