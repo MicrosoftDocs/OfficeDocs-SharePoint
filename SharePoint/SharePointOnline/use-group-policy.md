@@ -601,19 +601,17 @@ Find *User Configuration policies* under User Configuration\Policies\Administrat
 ### Allow users to choose how to handle Office file sync conflicts
 <a name="EnableHoldTheFile"> </a>
 
-This setting specifies what happens when conflicts occur between Office file versions during sync. By default, users can decide if they want to merge changes or keep both copies. Users can also change settings in the OneDrive sync app to always keep both copies. (This option is available for Office 2016 or later only. With earlier versions of Office, both copies are always kept.)
+This setting specifies what happens when conflicts occur between Office file versions during sync. (This option is available for Office 2016 or later only. With earlier versions of Office, both copies are always kept.)
  
-If you enable this setting, users can decide if they want to merge changes or keep both copies. Users can also configure the sync app to always fork the file and keep both copies, as follows.
-  
-![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
+If you enable this setting, users can decide if they want to merge changes or keep both copies.
   
 Enabling this policy sets the following registry key value to 1:
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "EnableHoldTheFile"=dword:00000001`
 
-If you disable this setting, the Sync conflicts setting on the Office tab is disabled, and when a sync conflict occurs, both copies of the file are kept.
+If you disable this setting, when a sync conflict occurs, both copies of the file are kept.
   
-To enable this setting, you must enable [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For more info about the Office settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+To enable this setting, you must enable [Coauthor and share in Office desktop apps](#coauthor-and-share-in-office-desktop-apps).
   
 ### Coauthor and share in Office desktop apps
 <a name="EnableAllOcsiClients"> </a>
@@ -622,17 +620,13 @@ This setting lets multiple users use the Microsoft 365 Apps for enterprise, Offi
 
 > [!IMPORTANT]
 > We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
-  
-If you enable or don't configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office applications to sync Office files that I open** is selected, by default.
-  
-![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
 
 Enabling this policy sets the following registry key value to 1:
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "EnableAllOcsiClients"=dword:00000001`
-  
-If you disable this setting, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files is disabled. The **Users can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more info about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
+If you disable this setting, coauthoring and in-app sharing for Office files is disabled. When file conflicts occur, both copies of the file are kept.
+  
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 
 
