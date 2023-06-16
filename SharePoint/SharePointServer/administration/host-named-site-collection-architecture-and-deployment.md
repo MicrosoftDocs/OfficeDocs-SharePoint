@@ -22,8 +22,7 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-Host-named site collections can be used to deploy sites in SharePoint Server. Users who wish to have multiple site collections, with each site collection having its own DNS collection, can opt for host-named site collections to
-deploy sites in SharePoint Server.
+Host-named site collections are an optional approach to deploy sites in SharePoint Server. Users who wish to have multiple site collections, with each site collection having its own DNS name, can opt to deploy host-named site collections. Otherwise, users should deploy path-based site collections.
 
 Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
 
@@ -37,7 +36,7 @@ This article describes how to implement host-named site collections in a recomme
 ### Recommended architecture for host-named site collections
 <a name="section1a"> </a>
 
-The recommended configuration for deploying sites is using host-named site collections with all sites located within a single web application, as illustrated in the following diagram.
+The recommended configuration for deploying host-named site collections is to place all host-named site collections within a single web application, as illustrated in the following diagram.
 
 **Recommended configuration for host-named site collections**
 
@@ -65,7 +64,7 @@ When creating a web application for host-named site collections, the URL of the 
 
 ![URLs of the web app and root site collection.](../media/HNSC_webapp_root_URL.jpg)
 
-This architecture is recommended to deploy sites because it's the same architecture that the Microsoft 365 environment uses. So, this configuration is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it's the most reliable configuration going forward.
+This architecture is recommended to deploy host-named site collections because it's the same architecture that the Microsoft 365 environment uses. So, this configuration is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it's the most reliable configuration going forward.
 
 The recommended configuration doesn't include the following elements:
 
@@ -111,7 +110,7 @@ These cmdlets provide URL mapping functionality for host-named site collections 
 Host-named site collections are available through any zone. Host-named site collections aren't limited to the default zone. If needed, you can implement multiple zones and use zones and host-named site collections to configure different authentication settings or policies.
 
 > [!NOTE]
-> To use different zones you need to extend existing web application.
+> To use different zones, you need to extend the existing web application into the new zones.
 
 You can assign up to five URLs to a single site collection by assigning one URL per zone. Even if you follow the recommended architecture by implementing only one zone, you can still assign up to five URLs to host-named site collections. This provision is because if a zone isn't implemented by extending the web application, SharePoint Server uses the default zone.
 
@@ -171,6 +170,8 @@ It's important to understand the distinction between Host headers in IIS and hos
 
 When using host-named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS website level makes it impossible to access host-named site collections through the IIS website. This inaccessibility is because IIS won't respond to requests for host names that differ from the host header binding.
 
+ You can use a wildcard host header binding in IIS, but you must ensure that all of the site collections within the web application conform to the wildcard host header pattern.
+
 > [!IMPORTANT]
 > If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
 
@@ -214,6 +215,8 @@ If you don't intend to configure two or more IIS websites that share the same po
   ```PowerShell
   New-SPWebApplication -Name 'Contoso Sites' -port 80 -ApplicationPool ContosoAppPool -ApplicationPoolAccount (Get-SPManagedAccount 'Contoso\JDoe') -AuthenticationProvider (New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication)
   ```
+
+This syntax creates a host-named site collection that has the URL, https://portal.contoso.com in the SharePoint Server web application named "Contoso Sites".
 
 ### Create a root site collection
 <a name="section2b"> </a>
@@ -437,15 +440,15 @@ If you use more than one web application, you add more operational overhead and 
 It's more complex to implement host-named site collections with multiple web applications in a farm because you must complete more configuration steps. For example, URLs with host-named sites might be spread across multiple web applications that share the same port in a single farm. This scenario requires more configuration steps to ensure that requests are mapped to the correct web applications. You have to manually configure the mappings on each web server in the farm by configuring a separate IP address to represent each web application. You also have to create and manage host-header bindings to assign unique IP addresses for each site. Scripts can manage and replicate this configuration across servers; however, this replication of configuration adds complexity to the solution. Each unique URL also requires a mapping in DNS. Generally speaking, if multiple web applications are a requirement, we recommend path-based site collections with alternate access mapping.
 
 > [!IMPORTANT]
-> The new feature in the SharePoint Server Subscription Edition Version 23H1 allows users to [assign wildcard host header bindings to their web applications](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md). This new feature can help you use multiple web applications with host-named site collections in the following ways:
+> SharePoint Server Subscription Edition Version 23H1 allows users to [assign wildcard host header bindings to their web applications](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md). This new feature can help you use multiple web applications with host-named site collections in the following ways:
 > 
-> 1. You no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
+> 1. Users no longer need to manually assign unique IP address bindings to their web applications on each of their SharePoint servers. Users running SPSE Version 23H1 can instead assign wildcard host headers to each of their web applications, which is simpler to manage.
 > 
 > 2. The wildcard host headers assigned to each web application must be unique. For example, web application 1 could be `*.internal.example.com`, web application 2 could be `*.external.example.com`, etc.
 >
-> 3. The host-named site collections in these web applications will have to conform its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
+> 3. The host-named site collections in these web applications will have to conform to its web application's wildcard host header pattern. For example, if a web application has a wildcard host header of `*.external.example.com`, then it can host host-named site collections with DNS names like `site1.external.example.com`, `site2.external.example.com`, etc.
 > 
-> 4. Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `.external.example.com`, but it can't be `external..exampe.com`, `..example.com`, `external*.example.com`, `*external.example.com`, etc.
+> 4. Wildcard host header bindings can only have a single wildcard character as the left-most label in the DNS name. For example, a valid wildcard host header can be `*.external.example.com`, but it can't be `external.*.example.com`, `*.*.example.com`, `external*.example.com`, `*external.example.com`, etc.
 
 
 The following two tables contrast three different design choices to implement site collections. These tables are intended to help you understand the consequences of each approach and how configuration varies depending on the architecture.
