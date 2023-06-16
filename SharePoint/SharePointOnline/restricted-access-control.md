@@ -1,5 +1,5 @@
 ---
-ms.date: 05/02/2023
+ms.date: 06/16/2023
 title: "Restrict SharePoint site access"
 ms.reviewer: nibandyo
 manager: serdars
@@ -26,11 +26,11 @@ description: "Learn how to enable restricted access control for SharePoint sites
 > [!NOTE]
 > This feature is currently rolling out and may not yet be fully available for all organizations.
 
-With restricted access control, you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to specified users in the group associated with a SharePoint site. Users who aren't added to the specified group can't access even if they previously had site access permissions to a file. **The restricted access control policy applies to Microsoft 365 group-connected sites, non-group connected sites and Microsoft Teams.**
+With restricted access control, you can manage the access of a SharePoint site and its content at access time. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to specified users in the group associated with a SharePoint site. Users not added to the specified group can't open the site at access time or open the site content even if they previously had access permissions to the site or the file. **The restricted access control policy applies to Microsoft 365 group-connected sites, non-group connected sites and Microsoft Teams.**
 
-Restricting site access based on group membership reduces the risk of oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group.
+Restricting site access based on group membership reduces the risk of site oversharing within your organization. To view how data is shared in your organization, use [data access governance reports](data-access-governance-reports.md). Restricted access control provides an extra layer of security to safeguard site content at site access time or when opening the content. By enabling restricted site access, you apply a policy that prevents access of content by users who aren't a member of the specified group.
 
-For example, the Contoso tenant's research department has a Microsoft 365 group containing all their department members. The department doesn't want anyone outside of the department to access the research team site or its content. They enable restricted access control on the site to restrict access to the research department's Microsoft 365 group. Only users who are members of the Microsoft 365 group can access the site and its content.
+For example, the Contoso tenant's research department has a Microsoft 365 group containing all their department members. The department doesn't want anyone outside of the department to access the research team site or its content. They enable restricted access control on the site to restrict site access to the research department's Microsoft 365 group. Only users who are members of the Microsoft 365 group can visit the site or open its content.
 
 [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) module is required to enable restricted access control.
 
@@ -54,7 +54,7 @@ To access and use this feature, your organization must do as follows:
 
 ## Teams and Microsoft 365 group-connected sites
 
-You can enable restricted access control for your group-connected or Teams-connected sites using Microsoft 365 group membership. Restricted access control grants access to members of the Microsoft 365 group connected to the site. Users who aren't ***members of the Microsoft 365 group*** can't access the site and its content.
+You can enable restricted access control for your group-connected or Teams-connected sites using Microsoft 365 group membership. Restricted access control grants access to members of the Microsoft 365 group connected to the site when accessing the site or opening its content. Users who aren't ***members of the Microsoft 365 group*** can't access the site and its content.
 
 ### Enable restricted access control for group-connected sites
 
@@ -90,7 +90,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Sites not connected to Teams or Microsoft 365 groups
 
-With restricted access control, you can ***restrict site access to members of specified [Azure AD security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't access even if they previously had site access permissions to the site or its content. **You can apply restricted access control on a site with up to 10 security groups.**
+With restricted access control, you can ***restrict site access to members of specified [Azure AD security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. **You can apply restricted access control on a site with up to 10 security groups.**
 
 ### Enable restricted access control for non-group connected sites
 
@@ -132,7 +132,7 @@ After running the commands, you have restricted site access to members of the sp
 
 ### Manage restricted access control groups for a non-group site
 
-You can add up to 10 Azure AD security groups whose members will be allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control will now limit the site access to members of the specified security groups.
+You can add up to 10 Azure AD security groups whose members are allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control limits the site access to members of the specified security groups.
 
 To edit a restricted access control group for a non-group site, run the following command:
 
@@ -154,7 +154,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 ### Remove restricted access control groups for a non-group site
 
 You can remove the specified security group from restricted access control configuration. Members of
-the security group will no longer be able to access site content while the policy is enforced on the site.
+the security group are no longer be able to access site content while the policy is enforced on the site.
 
 To remove a security group from a restricted access control configuration for the non-group site, run the following command:
 
@@ -194,10 +194,15 @@ For [shared channel sites](/microsoftteams/shared-channels), only internal users
 
 **For example:**
 
-The Contoso tenant has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso will be subjected to restricted access control policy. Fabrikam users will continue to be evaluated for site permissions only.  
+The Contoso tenant has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso are now subjected to restricted access control policy. Fabrikam users continue to be evaluated for site permissions only.  
 
 > [!IMPORTANT]
 > Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
+
+## Known experiences
+
+1. Restricted access control policy is enforced only when the user is opening the SharePoint site or opening the content in the SharePoint site.  
+2. Unified Search connected experiences don't enforce restricted access control policy. Users see search results if they have existing access permissions to the content or the site.
 
 ## Auditing
 
