@@ -41,7 +41,8 @@ To access and use this feature, your organization must do as follows:
 - subscribe to **[Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)** before following these instructions.
 - download the latest **[SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)**
 - enable **restricted access control for your organization**:
-  1.  Run the following command:
+  1. Run the following command:
+
       ```Powershell
       Set-SPOTenant -EnableRestrictedAccessControl $true
       ```
@@ -201,8 +202,8 @@ The Contoso tenant has set up a manual trust relation with another Azure AD orga
 
 ## Known experiences
 
-1. Restricted access control policy is enforced only when the user is opening the SharePoint site or opening the content in the SharePoint site.  
-2. Unified Search connected experiences don't enforce restricted access control policy. Users see search results if they have existing access permissions to the content or the site.
+1. Restricted access control policy is enforced only when the user is opening the SharePoint site or opening the content in the SharePoint site. This behavior is like any other conditional access policies configured for a site.
+2. Unified Search connected experiences don't enforce restricted access control policy. Users see search results if they have existing access permissions to the content or the site. When the user selects a search result item to open the site content, they're denied access if they aren't part of the policy.
 
 ## Auditing
 
