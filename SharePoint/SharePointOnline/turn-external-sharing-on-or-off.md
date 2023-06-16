@@ -59,8 +59,8 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
     This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
 > [!IMPORTANT]
-> [Azure Active Directory external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization. Be sure to review Azure AD guest access settings as part of your SharePoint and OneDrive sharing setup.
-  
+> [Azure Active Directory external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization for site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Azure AD guest access settings as part of your SharePoint and OneDrive sharing setup.
+
 ### Which option to select
 
 | Select this option: | If you want to: |
@@ -86,7 +86,7 @@ This is useful if you want to limit sharing with particular partners, or help pr
 You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
 
 > [!IMPORTANT]
-> [Allowed or blocked domains in Azure AD](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive. Be sure to review Azure AD collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
+> [Allowed or blocked domains in Azure AD](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Azure AD collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
 
 **Allow only users in specific security groups to share externally**
 
@@ -94,7 +94,7 @@ For info about this setting, see [Manage security groups](./manage-security-grou
 
 **Guests must sign in using the same account to which sharing invitations are sent**
 
-By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account.
+By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account. This setting only applies to sharing that doesn't use Azure AD B2B collaboration.
 
 **Allow guests to share items they don't own**
 
@@ -106,7 +106,7 @@ If your administrator has set an expiration time for guest access, each guest th
 
 **People who use a verification code must reauthenticate after this many days**
 
-If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation by entering a code sent to that account. 
+If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation by entering a code sent to that account. If Azure B2B collaboration is enabled, the [Azure AD setting](/azure/active-directory/external-identities/one-time-passcode) is used instead of this setting.
 
 ## File and folder links
 

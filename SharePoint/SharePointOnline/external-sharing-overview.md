@@ -1,5 +1,5 @@
 ---
-ms.date: 06/12/2023
+ms.date: 06/16/2023
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
 ms.author: mikeplum
@@ -59,8 +59,8 @@ SharePoint has external sharing settings at both the organization level and the 
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow unauthenticated sharing using "Anyone" links, users can still share with guests, who sign in, and with internal users. 
 
-> [!IMPORTANT]
-> Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Microsoft 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
+> [!NOTE]
+> Even if your organization-level setting allows external sharing, not all new sites allow it by default. See [Default site sharing settings](/microsoft-365/solutions/microsoft-365-guest-settings#default-site-sharing-settings) for more information.
 
 **Security and privacy**
   
@@ -98,7 +98,7 @@ If your authenticated guests need greater capability such as OneDrive storage or
 
 You can stop sharing with guests by removing their permissions from the shared item, or by removing them as a guest in your directory.
   
-You can stop sharing with people who have an "Anyone" link by going to the file or folder that you shared and deleting the link.
+You can stop sharing with people who have an *Anyone* link by going to the file or folder that you shared and deleting the link or by turning off *Anyone* links for the site.
 
 [Learn how to stop sharing an item](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) 
   
