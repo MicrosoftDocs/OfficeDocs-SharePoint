@@ -36,6 +36,27 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 
 To change the sharing settings for a site after you've set the organization-level sharing settings, see [Change sharing settings for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a specific user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 
+### SharePoint and OneDrive integration with Azure AD B2B
+
+There are two external sharing models used in SharePoint and OneDrive:
+
+- SharePoint external user authentication
+
+- SharePoint and OneDrive integration with Azure AD B2B
+
+When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+
+The following table shows the differences between the two sharing models.
+
+|Sharing method|Files and folders|Sites|
+|:--|:----------------|:----|
+|SharePoint external user authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
+|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+
+*A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
+
+For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+
 ## Video demonstration
 
 This video shows how the settings on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page in the SharePoint admin center</a> affect the sharing options available to users.
