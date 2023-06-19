@@ -103,8 +103,6 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
 
-These recipients are added to your directory as guests provided that [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md) is enabled.
-
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
 - They can use Office.com for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license.
@@ -118,7 +116,7 @@ If your authenticated guests need greater capability such as OneDrive storage or
 ## Stopping sharing
 
 You can stop sharing with guests by removing their permissions from the shared item, or by removing them as a guest in your directory.
-  
+
 You can stop sharing with people who have an *Anyone* link by going to the file or folder that you shared and deleting the link or by turning off *Anyone* links for the site.
 
 [Learn how to stop sharing an item](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) 
