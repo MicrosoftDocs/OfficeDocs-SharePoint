@@ -57,7 +57,7 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 
 There are two external sharing models used in SharePoint and OneDrive:
 
-- SharePoint external user authentication
+- SharePoint external authentication
 
 - SharePoint and OneDrive integration with Azure AD B2B
 
@@ -67,7 +67,7 @@ The following table shows the differences between the two sharing models.
 
 |Sharing method|Files and folders|Sites|
 |:--|:----------------|:----|
-|SharePoint external user authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
+|SharePoint external authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
 |Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
 
 *A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
