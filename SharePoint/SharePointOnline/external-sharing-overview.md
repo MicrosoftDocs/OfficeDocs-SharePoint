@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 06/19/2023
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
 ms.author: mikeplum
@@ -19,7 +19,7 @@ ms.custom:
 -  seo-marvel-apr2020
 -  Adm_O365
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -52,6 +52,25 @@ If you want to get straight to setting up sharing, choose the scenario you want 
   
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint and OneDrive environment. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
+
+### SharePoint and OneDrive integration with Azure AD B2B
+
+There are two external sharing models used in SharePoint and OneDrive:
+
+- SharePoint external user authentication
+
+- SharePoint and OneDrive integration with Azure AD B2B
+
+When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+
+The following table shows the differences between the two sharing models.
+
+|Sharing method|Files and folders|Sites|
+|:--|:----------------|:----|
+|SharePoint external user authentication<br>(Azure AD B2B integration not enabled)|No guest account created<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B integration always used)|
+|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+
+For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
 ## How the external sharing settings work
 
