@@ -67,8 +67,10 @@ The following table shows the differences between the two sharing models.
 
 |Sharing method|Files and folders|Sites|
 |:--|:----------------|:----|
-|SharePoint external user authentication<br>(Azure AD B2B integration not enabled)|No guest account created<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
+|SharePoint external user authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
 |Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+
+*Guest may already exist from another sharing workflow, such as sharing a team.
 
 For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
