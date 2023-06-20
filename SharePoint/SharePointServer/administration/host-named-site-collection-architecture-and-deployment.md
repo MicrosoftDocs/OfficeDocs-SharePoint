@@ -234,7 +234,7 @@ Only the root site collection of the web application appears in the content sour
 ### Create host-named site collections
 <a name="section2c"> </a>
 
-You must use Microsoft PowerShell to create a host-named site collection. You can't use the SharePoint ServerCentral Administration web application to create a host-named site collection, but you can use Central Administration to manage the site collection after you have created it.
+You must use Microsoft PowerShell to create a host-named site collection. You can't use the SharePoint Server Central Administration web application to create a host-named site collection, but you can use Central Administration to manage the site collection after you have created it.
 
 You can create a host-named site collection by using the Microsoft PowerShell `New-SPSite` cmdlet with the -`HostHeaderWebApplication` parameter, as shown in the following example:
 
