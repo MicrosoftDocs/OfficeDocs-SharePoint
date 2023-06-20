@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 06/20/2023
 title: "Restrict SharePoint site access"
 ms.reviewer: nibandyo
 manager: serdars
@@ -91,7 +91,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Sites not connected to Teams or Microsoft 365 groups
 
-With restricted access control, you can ***restrict site access to members of specified [Azure AD security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. **You can apply restricted access control on a site with up to 10 security groups.**
+With restricted access control, you can ***restrict site access to members of specified [Azure AD security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. **You can apply restricted access control on a site with up to 10 security groups.** [Dynamic membership](/azure/active-directory/enterprise-users/groups-create-rule) of security groups is also supported for restricted access control policy.
 
 ### Enable restricted access control for non-group connected sites
 
@@ -108,7 +108,7 @@ Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separat
 > [!NOTE]
 >
 > - For restricted access control to be enforced on the site, you must add at least one security group whose members are allowed site access.
-> - You can add up to 10 Security Groups for a given site.
+> - You can add up to 10 security Groups for a given site.
 > - The users in the security group will automatically have access to the site.
 
 **For example:**
@@ -157,7 +157,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -
 You can remove the specified security group from restricted access control configuration. Members of
 the security group are no longer be able to access site content while the policy is enforced on the site.
 
-To remove a security group from a restricted access control configuration for the non-group site, run the following command:
+**To remove a security group from a restricted access control configuration for the non-group site, run the following command:**
 
 ```Powershell
 Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>
@@ -168,6 +168,20 @@ Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma sepa
 ```Powershell
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -RemoveRestrictedAccessControlGroups afd516b5-c350-4c2a-8339-600b93c56791
 ```
+
+**To reset restricted access control configuration for a site, run the following command:**
+
+```powershell
+Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl
+```
+
+**For example:**
+
+```powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/LegalDepartmentSite -ClearRestrictedAccessControl
+```
+
+This command resets the restricted access control configuration for the given site by setting RestrictedAccessControl flag to false and clearing RestrictedAccessControlGroups for the given site.
 
 > [!TIP]
 > The security groups removed from the restricted access control list will continue to have site permissions. We recommend SPO admin to review site permissions and remove users who should no longer have site access permissions.
