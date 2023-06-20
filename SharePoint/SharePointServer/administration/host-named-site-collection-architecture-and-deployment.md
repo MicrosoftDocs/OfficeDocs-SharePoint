@@ -216,8 +216,6 @@ If you don't intend to configure two or more IIS websites that share the same po
   New-SPWebApplication -Name 'Contoso Sites' -port 80 -ApplicationPool ContosoAppPool -ApplicationPoolAccount (Get-SPManagedAccount 'Contoso\JDoe') -AuthenticationProvider (New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication)
   ```
 
-This syntax creates a host-named site collection that has the URL, https://portal.contoso.com in the SharePoint Server web application named "Contoso Sites".
-
 ### Create a root site collection
 <a name="section2b"> </a>
 
@@ -262,8 +260,7 @@ You can create a host-named site collection by using the Microsoft PowerShell `N
     ```PowerShell
     New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
     ```
-
-This syntax creates a host-named site collection that has the URL, https://portal.contoso.com, in the SharePoint Server web application that has the URL, https://portal.contoso.com.
+This syntax creates a host-named site collection that has the URL, https://portal.contoso.com in the SharePoint Server web application named "Contoso Sites".
 
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>
