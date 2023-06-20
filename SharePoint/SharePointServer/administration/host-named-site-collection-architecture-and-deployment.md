@@ -265,7 +265,7 @@ This syntax creates a host-named site collection that has the URL, https://porta
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>
 
-You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#WebApplication).
+You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server](../install/software-boundaries-limits-2019.md#Web-application-limits)
 
 Managed paths for host-named site collections behave differently from managed paths for path-based site collections. Managed paths for host-named site collections are available to all host-named site collections within the farm regardless of the web application that the host-named site collection is in. In contrast, managed paths for path-based site collections only apply to sites within the same web application. Managed paths for path-based site collections don't apply to path-based site collections in other web applications. Managed paths for one type of site collection don't apply to the other type of site collection.
 
