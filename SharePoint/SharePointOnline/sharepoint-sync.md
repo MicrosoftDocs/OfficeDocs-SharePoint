@@ -1,5 +1,5 @@
 ---
-ms.date: 06/14/2023
+ms.date: 06/20/2023
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
@@ -26,7 +26,7 @@ description: "In this article, you learn about syncing SharePoint and OneDrive f
 
 When users install the OneDrive sync app for Windows or Mac, and sync the files on a team site, they can work with the files in File Explorer or Finder. They can also easily save files to the team site from the programs they use.
 
-If you add, change, or delete files and folders on the site, the changes also apply to the files and folders on your computer and vice versa.
+If the user adds, changes, or deletes files and folders on the site, the changes also apply to the files and folders of the user's computer and vice versa.
 
 To upload files to the team site, users can copy or move them to the site in File Explorer or Finder. They can also use File Explorer or Finder to easily organize the document library by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
 
@@ -47,7 +47,7 @@ However, adding OneDrive shortcuts allows content to be accessed on all devices,
 
 We recommend using OneDrive shortcuts as the more versatile option.
 
-### Turn off OneDrive sync
+### Turn off OneDrive sync for SharePoint libraries
 
 You can turn off OneDrive sync from all the SharePoint libraries in your organization by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
 
