@@ -64,7 +64,7 @@ A SharePoint group is a collection of users who all have the same set of permiss
 
 You can add users to a group at any time.
   
-1. On your website or team site, click **Share**
+1. On your website or team site, click **Share**.
   
     ![Click the share button to send invites to new members](media/d4917a74-658e-4ca8-8f61-5b83e9a5b532.png)
   
@@ -77,9 +77,9 @@ You can add users to a group at any time.
   
 3. If you want to add more names, repeat these steps. 
     
-4. Enter a message to send to the new users in the Add a message box.
+4. Enter a message to send to the new users in the **Add a message** box.
 
-5. Select Share
+5. Select **Share**.
 
     
 ### Remove users from a group
