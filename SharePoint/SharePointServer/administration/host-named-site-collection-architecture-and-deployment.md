@@ -173,7 +173,7 @@ When using host-named site collections, SharePoint is responsible for resolving 
  You can use a wildcard host header binding in IIS, but you must ensure that all of the site collections within the web application conform to the wildcard host header pattern.
 
 > [!IMPORTANT]
-> If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md).
+> If an existing web application has a host header binding set, IIS won't return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint Server](update-a-web-application-url-and-iis-bindings.md).
 
 ### Mix host-named site collections and path-based site collections in the same web application
 <a name="section1f"> </a>
