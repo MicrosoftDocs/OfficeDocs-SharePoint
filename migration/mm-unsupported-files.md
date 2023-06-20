@@ -38,8 +38,8 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 
 |File|Explanation|
 |:-----|:-----
-|Dropbox papers| Dropbox does not allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.papert files).|
-|Google docs **created in Dropbox**|Google docs that were created in Dropbox are not supported. We are unable to export these files from Dropbox and convert them to corresponding Microsoft Office formats.|
+|Dropbox papers| Dropbox doesn't allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.papert files).|
+|URL hyperlink files|Dropbox doesn't allow us to download URL hyperlink files that end with ".url" or ".web".|
 |Dropbox & Dropbox Paper getting started instruction files|These files may cause migration failures and will be ignored.|
 
 
