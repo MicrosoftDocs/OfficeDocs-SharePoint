@@ -39,8 +39,8 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 |File|Explanation|
 |:-----|:-----
 |Dropbox papers| Dropbox doesn't allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.papert files).|
-|URL hyperlink files|Dropbox doesn't allow us to download URL hyperlink files that end with ".url" or ".web".|
 |Dropbox & Dropbox Paper getting started instruction files|These files may cause migration failures and will be ignored.|
+|URL hyperlink files|Dropbox doesn't allow us to download URL hyperlink files that end with ".url" or ".web".|
 
 
 ## What isn't migrated from Box
