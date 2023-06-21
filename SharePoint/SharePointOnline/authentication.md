@@ -40,7 +40,7 @@ The Federation Authentication (FedAuth) cookie is for each top-level site in Sha
 ![SharePoint Authentication Process](media/480bc4e7-d28e-42e0-9901-a58ca5fd6ee9.png)
 
 > [!NOTE]
-> For information about SharePoint authentication in hybrid scenarios, see [The building blocks of Microsoft 365 hybrid](/hybrid/the-building-blocks-of-office-365-hybrid).
+> For information about SharePoint authentication in hybrid scenarios, see [The building blocks of Microsoft 365 hybrid](../SharePointServer/hybrid/the-building-blocks-of-office-365-hybrid.md).
   
 ## Session and persistent cookies
 
