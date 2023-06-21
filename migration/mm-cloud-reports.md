@@ -268,7 +268,7 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |FilesAlreadyCopied|Files already migrated to the destination from previous migrations or already exist in the destination.|
 |FilesFiltered|Files not migrated due to migration filter setting.|
 |FilesFailed|Files that failed in the migrating process.|
-|DataTotalCopied|File level permission migration is set to be on or off.|
+|DataTotalCopied|Total data size (in bytes) that has been migrated to the destination from all migrations ever initiated.|
 |DataLatestCopied|Data size (in bytes) migrated to the destination in the latest migration.|
 |DataAlreadyCopied|Data size (in bytes) already migrated to the destination from previous migrations or already exists in the destination.|
 |DataFiltered|Data size (in bytes) not migrated due to migration filter setting.|
