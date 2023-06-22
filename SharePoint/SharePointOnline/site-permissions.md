@@ -1,5 +1,5 @@
 ---
-ms.date: 11/26/2019
+ms.date: 06/12/2023
 title: "Admin center site permissions reference"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -12,7 +12,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
 layout: ContentPage
 ms.collection:  
@@ -26,7 +26,15 @@ description: "Learn about site permissions that you can configure in the SharePo
 
 # Admin center site permissions reference
 
-On the **Membership** tab, you can manage permissions for the site and also for any associated Microsoft 365 group or Microsoft Teams team. These roles are specific to the selected site or group and don't give users access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
+On the **Membership** tab, you can manage permissions for the site and also for any associated Microsoft 365 group or Microsoft Teams team. These roles are specific to the selected site or group and don't give users access to the SharePoint admin center</a>.
+
+## Owners
+
+Microsoft 365 group owners can manage group membership, privacy, and classification, as well as the associated SharePoint site. If the Microsoft 365 group is associated with a team, then the group owners are also team owners.
+
+## Members
+
+Microsoft 365 group members can participate in the group and have access to the associated SharePoint site. If the Microsoft 365 group is associated with a team, then the group members are also team members and can send messages and participate in channels if allowed by the team owner.
 
 ## Site admins
 
@@ -34,13 +42,9 @@ Site admins (formerly called site collection administrators) have the highest le
 
 If there's a Microsoft 365 group or team connected to the site, then group or team owners are automatically included as site admins and group or team members are automatically included as site members. Managing site permissions through group or team membership is recommended over giving people permissions directly to the site. This method allows for easier administration and consistent access for users across group and team resources.
 
-### Microsoft 365 group owners
+### Non-primary admins
 
-Microsoft 365 group owners can manage group membership, privacy, and classification, as well as the associated SharePoint site. If the Microsoft 365 group is associated with a team, then the group owners are also team owners.
-
-### Additional admins
-
-Additional admins are site admins only and can only manage the SharePoint site. They have no access to the associated Microsoft 365 group or team unless they have also been directly added to the group or team.
+Additional admins beyond the **Primary** admin are site admins only and can only manage the SharePoint site. They have no access to the associated Microsoft 365 group or team unless they have also been directly added to the group or team.
 
 ## Site owners
 

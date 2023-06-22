@@ -283,7 +283,6 @@
 #### [Configure InfoPath Forms Services](configure-infopath-forms-services.md)
 #### [Hide app tiles on app launcher](hide-app-tiles-on-app-launcher.md)
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
-#### [Manage loop components](manage-loop-components.md)
 ### [Hybrid](../SharePointServer/hybrid/hybrid.md)
 ### [Migration](/sharepointmigration/migrate-to-sharepoint-online)
 ### [Multi-Geo](/Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)
