@@ -87,13 +87,13 @@ The following sites are considered out-of-scope and excluded from an inactive si
 1. To create an inactive site policy, go to the **SharePoint admin center**.
 2. Expand **Policies** and select **Site lifecycle management**.
 3. Select **+ Create policy** and select **Next**.:::image type="content" source="media/Site lifecycle management/2-inactive-site-policy-create-policy.png" alt-text="screenshot of site lifecycle management create a new policy" lightbox="media/Site lifecycle management/2-inactive-site-policy-create-policy.png":::
-4. Set your policy scope parameters and select **Next**.
+4. Set your policy scope parameters and select **Next**. During this step, you can:
 
-   During this step, you can:
-   - set how long after the last site activity before the site is considered inactive
-   - filter by site creation source
-   - filter by sensitivity label
-   - exclude specific sites from the policy:::image type="content" source="media/Site lifecycle management/3-inactive-site-policy-create-policy-set-scope.png" alt-text="screenshot of site lifecycle management set policy scope" lightbox="media/Site lifecycle management/3-inactive-site-policy-create-policy-set-scope.png":::
+- set how long after the last site activity before the site is considered inactive
+- filter by site creation source
+- filter by sensitivity label
+- exclude specific sites from the policy :::image type="content" source="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope" lightbox="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+
 5. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/Site lifecycle management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy" lightbox="media/Site lifecycle management/5-inactive-site-policy-name-policy.png":::
 6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/Site lifecycle management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished" lightbox="media/Site lifecycle management/6-inactive-site-policy-finish.png":::
 
