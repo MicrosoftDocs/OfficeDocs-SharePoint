@@ -64,7 +64,7 @@ You can disable or enable the OCV feedback function using one of the following o
       Enable-OCVForUser  -UserSid $user.Sid 
       ```
 
-     This `$user` is obtained from Step 1. 
+     This `**$user**` is obtained from Step 1. 
   
 ## To disable OCV feedback for current Farm 
 
