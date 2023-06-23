@@ -268,7 +268,7 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |FilesAlreadyCopied|Files already migrated to the destination from previous migrations or already exist in the destination.|
 |FilesFiltered|Files not migrated due to migration filter setting.|
 |FilesFailed|Files that failed in the migrating process.|
-|DataTotalCopied|File level permission migration is set to be on or off.|
+|DataTotalCopied|Total data size (in bytes) that has been migrated to the destination from all migrations ever initiated.|
 |DataLatestCopied|Data size (in bytes) migrated to the destination in the latest migration.|
 |DataAlreadyCopied|Data size (in bytes) already migrated to the destination from previous migrations or already exists in the destination.|
 |DataFiltered|Data size (in bytes) not migrated due to migration filter setting.|
@@ -287,7 +287,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MAUTHACCESSTOKEN|Connector authorization failure. Failed to get access token.|Unexpected error. Try again.|
 |MAUTHACCESSTOKENINVALID|Connector authorization failure. The API request failed because the access token is invalid or expired.|Retry.|
 |MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service isn't allowing to connect as it doesn't recognize the caller.|Try again.|
-|MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|To authorize this connector, you need to grant permissions to the Mover application. Try again.|
+|MAUTHMOVERAPP|Microsoft 365 migration app needs to be authorized in source account.|Sign in to the source account and grant permission to the Microsoft 365 migration app. Try again.|
 |MAUTHNOCODE|Connector authorization failed as auth code isn't provided.|Try again.|
 |MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|Unexpected error. Try again.|
 |MAUTHNOIDTOKEN|Connector authorization failure. Failed to get ID token from access token.|Unexpected error. Try again.|
