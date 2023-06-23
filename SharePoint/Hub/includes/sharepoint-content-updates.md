@@ -2,6 +2,17 @@
 
 
 
+## Week of June 12, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/12/2023 | [Overview of external sharing in SharePoint and OneDrive in Microsoft 365](/SharePoint/external-sharing-overview) | modified |
+| 6/12/2023 | [Admin center site permissions reference](/SharePoint/site-permissions) | modified |
+| 6/14/2023 | Manage Loop experiences (Loop workspaces and Loop components) in SharePoint | removed |
+| 6/16/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+
+
 ## Week of June 05, 2023
 
 
@@ -30,11 +41,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 5/17/2023 | [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](/SharePoint/governance/update-to-spworkflow-manager-when-upgrading-farms) | added |
-
-
-## Week of May 08, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/10/2023 | [Create change history reports for SharePoint sites](/SharePoint/change-history-report) | modified |
