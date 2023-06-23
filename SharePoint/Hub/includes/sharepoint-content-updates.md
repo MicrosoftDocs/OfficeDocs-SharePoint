@@ -2,6 +2,29 @@
 
 
 
+## Week of June 12, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/12/2023 | [Overview of external sharing in SharePoint and OneDrive in Microsoft 365](/SharePoint/external-sharing-overview) | modified |
+| 6/12/2023 | [Admin center site permissions reference](/SharePoint/site-permissions) | modified |
+| 6/14/2023 | Manage Loop experiences (Loop workspaces and Loop components) in SharePoint | removed |
+| 6/16/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+
+
+## Week of June 05, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/5/2023 | [Deploy SharePoint Server with Azure SQL Managed Instance](/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers) | renamed |
+| 6/6/2023 | [Manage site storage limits in SharePoint in Microsoft 365](/SharePoint/manage-site-collection-storage-limits) | modified |
+| 6/6/2023 | [Manage sharing settings for SharePoint and OneDrive in Microsoft 365](/SharePoint/turn-external-sharing-on-or-off) | modified |
+| 6/7/2023 | [Installing SharePoint Server Subscription Edition on Windows Server Core](/SharePoint/install/installing-sharepoint-server-subscription-edition-on-windows-server-core) | modified |
+| 6/7/2023 | [Repair SharePoint Server Subscription Edition](/SharePoint/install/repair-sharepoint-server-subscription-edition) | modified |
+
+
 ## Week of May 29, 2023
 
 
@@ -18,21 +41,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 5/17/2023 | [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](/SharePoint/governance/update-to-spworkflow-manager-when-upgrading-farms) | added |
-
-
-## Week of May 08, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/10/2023 | [Create change history reports for SharePoint sites](/SharePoint/change-history-report) | modified |
-
-
-## Week of May 01, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/2/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
-| 5/2/2023 | [View SharePoint site change history](/SharePoint/change-history-report) | added |
-| 5/5/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
