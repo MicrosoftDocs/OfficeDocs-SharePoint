@@ -1,5 +1,5 @@
 ---
-title: Set up SharePoint and OneDrive in Microsoft 365 with a wizard
+title: Set up SharePoint and OneDrive in Microsoft 365 with a step-by-step guide
 ms.date: 06/23/2023
 ms.reviewer: salarson
 ms.author: mikeplum
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Learn how to roll out SharePoint and OneDrive in your organization by using a wizard in the Microsoft 365 admin center
+description: Learn how to roll out SharePoint and OneDrive in your organization by using a step-by-step guide in the Microsoft 365 admin center
 ---
 
-# Set up SharePoint and OneDrive in Microsoft 365 with a wizard
+# Set up SharePoint and OneDrive in Microsoft 365 with a step-by-step guide
 
-The Microsoft SharePoint setup guide is a wizard experience in the Microsoft 365 admin center that provides step-by-step instructions for setting up and configuring SharePoint to meet specific organizational needs. The setup guide incorporates Microsoft's best practices for SharePoint and recommendations on how to optimize SharePoint for performance, security, and user experience.
+The Microsoft SharePoint setup guide is a step-by-step guide in the Microsoft 365 admin center that provides instructions for setting up and configuring SharePoint to meet specific organizational needs. The setup guide incorporates Microsoft's best practices for SharePoint and recommendations on how to optimize SharePoint for performance, security, and user experience.
 
 The setup guide covers a wide range of topics related to SharePoint, including:
 
