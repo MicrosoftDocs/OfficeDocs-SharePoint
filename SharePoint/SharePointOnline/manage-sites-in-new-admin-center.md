@@ -62,17 +62,7 @@ The Active sites page lists the root website for each site collection. Subsites 
    |301 |REDIRECTSITE# |Redirect site |
    |70 |CSPCONTAINER# |CSP container |
 
-> [!NOTE] 
-
-> You will likely see differing usage results when comparing the SharePoint site usage report from the Microsoft 365 admin center by going to the Reports > [Usage]( https://go.microsoft.com/fwlink/p/?linkid=2074756) page versus the [Active sites page]( https://go.microsoft.com/fwlink/?linkid=2185220) of the SharePoint admin center. Particularly, the number of sites present in the Microsoft 365 admin center will likely be higher as the Microsoft 365 admin center report will include all sites, even the sites listed above as not included in SharePoint admin center Active sites. Here are examples of why that is:  
-
-> -  Changing the site address in the SharePoint admin center will create a re-direct site. The re-direct site usage will continue to appear in the Microsoft 365 admin center by going to Reports > [Usage]( https://go.microsoft.com/fwlink/p/?linkid=2074756). The same re-direct site will not appear on the [Active sites page](https://go.microsoft.com/fwlink/?linkid=2185220) from the SharePoint admin center because it is no longer active. See [Effects of changing a site address](https://learn.microsoft.com/sharepoint/change-site-address).  
-
-> -  Any Teams, Private or Shared channels can be associated to a SharePoint site. The number of Channel sites appears on the SharePoint site usage report from the Microsoft 365 admin center by going to the Reports > [Usage](https://go.microsoft.com/fwlink/p/?linkid=2074756) page. While [Active sites page] (https://go.microsoft.com/fwlink/?linkid=2185220) from the SharePoint admin center has a link to the Channel sites, you will need to click on the Channel sites link to view the site usage.  
-
-> -  A Search Center site will appear in the Microsoft 365 admin center by going to Reports > [Usage]( https://go.microsoft.com/fwlink/p/?linkid=2074756), but will not appear on the [Active sites page] (https://go.microsoft.com/fwlink/?linkid=2185220) from the SharePoint admin center. The Seach Center is not considered an Active site.  
-
-> - The MySite will appear in the Microsoft 365 admin center by going to Reports > [Usage]( https://go.microsoft.com/fwlink/p/?linkid=2074756), but will not appear on the [Active sites page] (https://go.microsoft.com/fwlink/?linkid=2185220) from the SharePoint admin center. The MySite is not considered an Active site.  
+Note that you may see differences between the sites in the active sites list and those listed in the [SharePoint site usage report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) because the site templates and URLs listed above are included in the SharePoint site usage report.
 
 For more info about tasks on the Active sites page, see:
 
