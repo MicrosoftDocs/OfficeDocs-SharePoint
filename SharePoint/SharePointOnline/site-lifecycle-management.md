@@ -43,22 +43,22 @@ You can create a policy that automates the detection of inactive sites and initi
 
 ### Site owner notifications
 
-The notifications inform SharePoint site owners a site has been inactive for an X amount of months. If they want to keep the site, they should select the **Certify site** button found in the notification email.
+The notifications inform SharePoint site owners a site has been inactive for an X number of months. If they want to keep the site, they should select the **Certify site** button found in the notification email.
 
 If a site owner doesn't act after three consecutive email notifications, site lifecycle management withholds sending notifications for the next three instances (90 days) known as the **cool off period**. The site is then labeled as **unactioned**.
 
 To summarize the possible outcomes, if a site owner:
 
-- confirms a site is **active** via the notification email, the site will not receive further site inactivity notifications unless the site becomes inactive again.
+- confirms a site is **active** via the notification email, the site withholds further site inactivity notifications unless the site becomes inactive again.
 - takes no action after three consecutive email notifications, the cool off period begins and the site is considered **unactioned**.
 
 #### Cool off period
 
-Notifications are withheld for 90 days during the cool off period. Once the period ends, notifications will restart if the site is still inactive.
+Notifications are withheld for 90 days during the cool off period. Once the period ends, notifications restart if the site is still inactive.
 
 #### Unactioned sites
 
-Unactioned sites will appear in the policy execution report as **Unactioned by Site Owner** during the cool off period. You can download the policy execution report and filter out sites marked **Unactioned by Site Owner**.
+Unactioned sites appear in the policy execution report as **Unactioned by Site Owner** during the cool off period. You can download the policy execution report and filter out sites marked **Unactioned by Site Owner**.
 
 ## Types of inactive site policies
 
