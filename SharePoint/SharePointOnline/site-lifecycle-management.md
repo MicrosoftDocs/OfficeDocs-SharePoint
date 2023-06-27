@@ -49,7 +49,7 @@ If a site owner doesn't act after three consecutive email notifications, site li
 
 To summarize the possible outcomes, if a site owner:
 
-- confirms a site is **active** via the notification email, the site withholds further site inactivity notifications unless the site becomes inactive again.
+- confirms a site is **active** via the notification email, the policy withholds further site inactivity notifications unless the site becomes inactive again.
 - takes no action after three consecutive email notifications, the cool off period begins and the site is considered **unactioned**.
 
 #### Cool off period
