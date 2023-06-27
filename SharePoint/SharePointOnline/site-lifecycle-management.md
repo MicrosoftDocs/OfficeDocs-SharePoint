@@ -76,7 +76,7 @@ Site lifecycle management lets you configure several key parameters for an inact
 - types of site templates
 - site creation source
 - sensitivity labels
-- and exclusion of up to 100 sites
+- exclusion of up to 100 sites
 
 ### Out-of-scope sites
 
@@ -94,12 +94,7 @@ The following sites are considered out-of-scope and excluded from an inactive si
 
 3. Select **+ Create policy** and select **Next**.:::image type="content" source="media/Site lifecycle management/2-inactive-site-policy-create-policy.png" alt-text="screenshot of site lifecycle management create a new policy" lightbox="media/Site lifecycle management/2-inactive-site-policy-create-policy.png":::
 
-4. Enter your policy scope parameters and select **Next**. During this step, you can:
-
-- set how long since the last site activity before a site is considered inactive
-- filter by site creation source
-- filter by sensitivity label
-- exclude specific sites from the policy :::image type="content" source="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope" lightbox="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+4. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope" lightbox="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
 
 5. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/Site lifecycle management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy" lightbox="media/Site lifecycle management/5-inactive-site-policy-name-policy.png":::
 
