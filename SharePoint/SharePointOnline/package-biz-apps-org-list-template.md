@@ -1,6 +1,6 @@
 ---
-ms.date: 06/23/2023
-title: "Package biz apps into organizational list templates"
+ms.date: 06/27/2023
+title: "Package Power Automate flows into organizational list templates"
 ms.reviewer: hasaladi
 ms.author: v-smandalika
 author: v-smandalika
@@ -20,7 +20,7 @@ ms.collection:
 description: "Learn how to package biz apps into organizational list templates."
 ---
 
-# Package biz apps into organizational list templates
+# Package Power Automate flows into organizational list templates
 
 There are a number of steps by which you can create a packaged SharePoint list template that contains in-built custom flows. The objective is to assemble and register a packaged file that contains the site script actions needed to create the list and the flows, and a Dataverse solution archive (zip) that contains the flow definitions.
 
@@ -73,11 +73,11 @@ Once you have your source SharePoint list set up and are ready to work on integr
 1. Launch SharePoint Online Management Shell.
 1. Run the following command to connect to the tenant's admin service:
 
-   `[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)  -Url <Link to SPO admin portal> -Credential <full username of the admin user>`
+   `Connect-SPOService -Url <Link to SharePoint admin portal> -Credential <full username of the admin user>`
 
 4.	Run the following command to extract a site script file from the target list:
 
-    `[Get-SPOSiteScriptFromList](/powershell/module/sharepoint-online/get-spositescriptfromlist)  -ListUrl <full URL of the target list> | Out-File manifest.json`
+    `Get-SPOSiteScriptFromList -ListUrl <full URL of the target list> | Out-File manifest.json`
 
 5.	Open the *manifest.json* file in your favorite text (or code) editor and manually add an action with the verb "importBusinessApps", the relative path of your solution file inside the overall template package and the target listName (in this case, the title of the listName binding). This value should be the same as the *listName* property of the "CreateSPList" action.
 
@@ -113,3 +113,10 @@ Once you have your source SharePoint list set up and are ready to work on integr
    `Add-SPOListDesign -Title "<list design title>" -Description "<list design description>" -SiteScripts $pkg.Id`
 
    If the list design was successfully created, you should be able to view it in the **From your organization**" area of the **Create List** dialog.
+
+## Related topics
+
+[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)
+
+[Get-SPOSiteScriptFromList](/powershell/module/sharepoint-online/get-spositescriptfromlist)
+
