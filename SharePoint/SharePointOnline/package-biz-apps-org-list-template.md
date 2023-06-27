@@ -60,7 +60,7 @@ Once you have your source SharePoint list set up and are ready to work on integr
 10.	Save the changes and close all file editors that you've opened for these files.
 11.	Go back to the root folder of the solution; select all files (solution.xml, customizations.xml, and so on) and folders; right-click and choose **Compress to ZIP file** from the context menu.
 
-    :::image type="content" source="media/select-all-files-compress-to-zip-file.png" alt-text="Selecting all the files and compressing them to a zip." lightbox="media/select-all-files-compress-to-zip-file.png":::
+    :::image type="content" source="media/select-all-files-compress-to-zip-file.png" alt-text="Screenshot that shows selecting all the files and compressing them to a zip." lightbox="media/select-all-files-compress-to-zip-file.png":::
  
     You can keep this resulting zip file, and you can also choose to discard the original solution zip file that earlier downloaded (as specified in Step 6 of this procedure).
 
@@ -83,7 +83,7 @@ Once you have your source SharePoint list set up and are ready to work on integr
 
     For example:
 
-    :::image type="content" source="media/adding-verb-json-file.png" alt-text="Adding a verb in the .json file." lightbox="media/adding-verb-json-file.png":::
+    :::image type="content" source="media/adding-verb-json-file.png" alt-text="Screenshot that shows adding a verb in the .json file." lightbox="media/adding-verb-json-file.png":::
 
 ## Assembling the final SharePoint package zip file
 
