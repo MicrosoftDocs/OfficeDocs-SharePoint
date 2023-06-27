@@ -26,9 +26,9 @@ There are a number of steps by which you can create a packaged SharePoint list t
 
 Once you have your source SharePoint list set up and are ready to work on integrating flows with it, and on assembling a template with these components, perform the following the steps:
 
-## Obtaining solution zip file
+## Obtaining the Dataverse solution zip file
 
-1. Sign in to Power Automate portal by launching https://flow.microsoft.com/(or choose **Integrate > Power Automate > See your flows**" in the SharePoint Portal).
+1. Sign in to Power Automate portal by launching [https://flow.microsoft.com](https://flow.microsoft.com) (or choose **Integrate > Power Automate > See your flows**" in the SharePoint Portal).
 1. Create a new Dataverse solution by referring to [Overview of solution-aware flows](/power-automate/overview-solution-flows).
 
    For an introduction to Dataverse solutions, see [Solution concepts](/power-platform/alm/solution-concepts-alm).
@@ -120,3 +120,4 @@ Once you have your source SharePoint list set up and are ready to work on integr
 
 [Get-SPOSiteScriptFromList](/powershell/module/sharepoint-online/get-spositescriptfromlist)
 
+[Add-SPOSiteScriptPackage](/powershell/module/sharepoint-online/add-spositescriptpackage)
