@@ -1,5 +1,5 @@
 ---
-ms.date: 3/1/2023
+ms.date: 06/15/2023
 title: "Set a site as your home site"
 ms.reviewer: dipadur
 ms.author: mikeplum
@@ -29,20 +29,28 @@ description: "Learn how to set a communication site as the home site for your or
 ---
 
 # Set a site as your home site
+
+> [!NOTE]
+> - After June 2023, users will be redirected to the Viva Connections admin center if trying to set up or manage a home site from the SharePoint Admin Center (SPAC). Learn more about Viva Connections here.  
+> - After June 2023, users will be able to set multiple home sites by using multiple Viva Connections experiences in the M365 admin center.   The feature is currently under private preview and will start rolling out broadly by the end of June 2023.   
+> - Starting in mid-June, customers should check to verify if they have access to the new Viva Connections admin center in the MAC. If so, please refer to the Set up Viva Connections in the Microsoft 365 admin center on how to use the Viva Connections admin center. If not, please continue using the current SPAC panel along with this article for support.
   
 A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the main landing site for your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. It also allows your users to search for content (such as sites, news, and files) across your organization. You can set the home site in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or by using PowerShell.
 
+After June 2023, users will be redirected to the Viva Connections admin center if trying to set up or manage a home site from the SharePoint Admin Center (SPAC). 
+
 Before you begin, make sure you've reviewed how to [plan, build, and launch a home site](./home-site-plan.md). 
 
-> [!NOTE]
-> You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
-
 > [!IMPORTANT]
-> If you want your home site to also be the root site, or top-level site of your intranet, first [replace your root site with the site](modern-root-site.md), and then set up the home site. If you set up a home site first, and then replace it with your root site, you may lose home site settings and need to reapply them.  
+> If you want your home site to also be the root site, or top-level site of your intranet, keep in mind that employees across your organization will still have access to the root site. Setting up the root site as a home site for multiple Viva Connections experiences may show some root site content that everyone has access to on the feed of another Viva Connections experience using a home site.  
 
 ## Use the SharePoint admin center
 
-After you create and customize the communication site that you want to use as your home site, follow these steps to set it as your home site. 
+After you create and customize the communication site that you want to use as your home site, follow these steps to set it as your home site.
+
+> [!NOTE]
+> - After June 2023, users will be redirected to the Viva Connections admin center if trying to set up or manage a home site from the SharePoint Admin Center (SPAC). Learn more about Viva Connections here. 
+> - Starting in mid-June, customers should check to verify if they have access to the new Viva Connections admin center in the MAC. If so, please refer to the Set up Viva Connections in the Microsoft 365 admin center on how to use the Viva Connections admin center. If not, please continue using the current SPAC panel along with this article for support.
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -62,7 +70,7 @@ On the Settings page, the home site URL will appear in the Current value column.
 > [!NOTE] 
 > It might take up to 10 minutes for the change to take effect and the Global navigation and Set up Viva Connections options to appear.
 
-## Use PowerShell
+## Use PowerShell to set your home site
 
 Follow these steps if you want to use PowerShell to set your home site. To run this cmdlet, you must be a site admin of the site.
 
@@ -102,18 +110,7 @@ The site will continue to be an organization news site. To remove it as an organ
 
 
 ## Add a home site after you’ve set up Viva Connections 
-If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases. [Learn more about how Viva Connections and home sites work together to create employee experiences](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
-
-**To add a home site after setting up Viva Connections:**
-1.	Go to **Settings** in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has admin permissions for your organization.
-2. Select **Home site**.
-3. Add the URL for the communication site that you want to be a home site.
-4. The new home site will automatically be in draft mode, which allows you to copy content from Teams to the home site if you've already customized content in the dashboard and in navigation (if needed). While in draft mode, the Viva Connections experience will continue to source content from Teams. 
-5. Confirm that the home site is in draft mode, then select **Save**.
-6. Copy content from the [Viva Connections dashboard](/viva/connections/create-dashboard) and navigation in Teams to the dashboard and [global navigation](/viva/connections/sharepoint-app-bar) that can be found in the home site **Settings**.
-    - To edit the dashboard from the home site, select **Manage Viva Connections > Create dashboard**.
-    - To edit navigation from the home site, select **Settings > Global navigation**.
-7. Once content has been copied, turn **Draft mode** to **Off** and select Save. Once draft mode has been turned off, Viva Connections content will be sources from the home site and Viva Connections content can be edited from Teams too. 
+If your organization is already using [Viva Connections](/viva/connections/viva-connections-overview), you can add a home site at any time. If you add a home site after you’ve set up content in the Viva Connections dashboard and navigation in Microsoft Teams, you may need to copy some content to the home site in some cases.  For more information on this process, see [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center#add-a-sharepoint-home-site-after-setting-up-a-connections-experience).
  
 **Add a home site after setting up Viva Connections using PowerShell:**
 1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
@@ -127,7 +124,7 @@ If your organization is already using [Viva Connections](/viva/connections/viva-
 
 
 ## Choose the default landing experience for Viva Connections desktop
-If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already have a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/edit-viva-home). 
+If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already have a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/set-up-admin-center#choose-the-landing-destination-in-the-viva-connections-app). 
 
 > [!NOTE] 
 > If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
@@ -140,3 +137,4 @@ If your organization is using [Viva Connections](/viva/connections/viva-connecti
 
 Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
 
+Learn more about [how Viva Connections and home sites work together to create employee experiences](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
