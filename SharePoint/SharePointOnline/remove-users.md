@@ -90,7 +90,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 The preceding steps removed access to Microsoft 365 and SharePoint. However, the user or guest still appears in people searches and in the SharePoint Online Management Shell when you use the Get-SPOUser cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
 
-### Site by site in SharePoint 
+### Browsing site by site in SharePoint 
 
 You'll have to browse to each site collection that the user or guest visited, and then follow these steps:
  
@@ -109,10 +109,10 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-3. Run the following command:
+3. Run the following command for each site collection that the user or guest visited:
 
    ```PowerShell
-   Remove-SPOUser -Site https://fabrikam.sharepoint.com -LoginName jondoe@fabrikam.com
+   Remove-SPOUser -Site https://fabrikam.sharepoint.com/sites/sc1 -LoginName jondoe@fabrikam.com
    ```
    > [!NOTE]
    >  Replace the _jondoe@fabrikam.com_ placeholder with the person in question.  
