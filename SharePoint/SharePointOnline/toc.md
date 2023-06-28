@@ -86,6 +86,7 @@
 ## [Lists]()
 ### [Control Microsoft Lists](control-lists.md)
 ### [Custom list templates](lists-custom-template.md)
+#### [Package flows into list templates](package-biz-apps-org-list-template.md)
 ### [Configure lists sync on Windows](lists-sync-policies.md)
 ### [Configure lists sync on Mac](lists-sync-policies-macos.md)
 ## [Sample sites]()
