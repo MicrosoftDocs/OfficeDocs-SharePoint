@@ -44,7 +44,7 @@ This article describes the OneDrive Group Policy objects (GPOs) that admins can 
 
 1. Install the OneDrive sync app for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to %localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\ or Program Files\Microsoft OneDrive\BuildNumber\adm\ (depending on the OS architecture)), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
+2. Browse to %localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\ (for [per-machine sync app](per-machine-installation.md) browse to %ProgramFiles(x86)%\Microsoft OneDrive\BuildNumber\adm\ or %ProgramFiles%\Microsoft OneDrive\BuildNumber\adm\ (depending on the OS architecture)), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
 
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
