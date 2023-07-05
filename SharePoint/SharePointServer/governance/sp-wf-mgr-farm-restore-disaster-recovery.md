@@ -1,11 +1,11 @@
 ---
-title: "SharePoint Workflow Manager Farm Restore and Disaster Recovery"
+title: "SharePoint Workflow Manager farm restore and disaster recovery"
 description: "The steps that enable you move your SharePoint Workflow Manager (SPWFM) databases to a new SQL Server instance."
-ms.reviewer: 
+ms.reviewer: dansimp
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
-ms.date: 6/13/2023
+ms.date: 7/5/2023
 audience: ITPro
 f1.keywords:
 - CSH
@@ -35,24 +35,22 @@ If you're open to using an SQL alias, then moving SPWFM databases to a new SQL s
 
 1. Stop all SPWFM services on all SPWFM servers, or if possible, shut down the servers to drop existing connections to the Workflow (WF) and Service Bus (SB) databases. SPWFM-related services include:
 
-- Service Bus Gateway
-- Service Bus Message Broker
-- Service Bus Resource Provider
-- Service Bus VSS
-- Service Fabric Host Service
-- Workflow Manager Backend
-- World Wide Web Publishing Service
+    - Service Bus Gateway
+    - Service Bus Message Broker
+    - Service Bus Resource Provider
+    - Service Bus VSS
+    - Service Fabric Host Service
+    - Workflow Manager Backend
+    - World Wide Web Publishing Service
 
-2. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that.
-
-You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
+2. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that. You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
 
 3. Create an SQL alias using *cliconfg.exe* on **all** the SPWFM servers. For more information on creating the alias, see the [Create a SQL alias](update-to-spworkflow-manager-when-upgrading-farms.md#create-a-sql-alias).
 
 1. Restart your SPWFM servers/services.
    Since we're using an SQL alias to map the "old" SQL server name to the "new" SQL server, SPWFM is unaware that there have been changes. The services should come up and connect to the databases on the new SQL server.
 
-## Scenario 2: Without using a SQL alias (Farm Restore)
+## Scenario 2: Without using an SQL alias (farm restore)
 
 If for some reason you can't use an SQL alias, or if you need to change the names of the six Service Bus and Workflow databases, then you'll have to complete a Workflow "Farm Restore".  This process, while not too complicated, has many potential failure points. 
 
@@ -61,7 +59,7 @@ If for some reason you can't use an SQL alias, or if you need to change the name
 
 ### Move the WFM and SB databases
 
-- Using this procedure, we only need 4 out of the six WFM/SB databases. We do **NOT** need the WFManagementDB and SbManagementDB databases, which will be created new as part of this procedure.
+- Using this procedure, we only need four out of the six WFM/SB databases. We do **NOT** need the WFManagementDB and SbManagementDB databases, which will be created new as part of this procedure.
 - Back up the four databases you need on the "old" SQL server and restore them to your "new" SQL server. In the following example, the databases have been restored with the default database names:
 
 ```powershell
@@ -194,7 +192,7 @@ Alternatively, you can run the Workflow Manager Configuration Wizard and select 
 
 #### Check Status
 
-After upgrade, give it a minute or two to start services; then check the status by running this PowerShell:  
+After upgrade, give it a minute or two to start services; then check the status by running this PowerShell command:  
 
 `Get-WFFarm; Get-WFFarmStatus; Get-SBFarm; Get-SBFarmStatus` 
  
