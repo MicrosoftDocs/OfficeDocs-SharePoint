@@ -27,7 +27,7 @@ ms.collection:
 Use the steps in this article to move your SharePoint Workflow Manager (SPWFM) databases to a new SQL Server instance. This movement may be done as part of a disaster recovery (DR) effort, a migration, or if you simply must rename the SPWFM databases. These steps could also be used as an alternative method for upgrading or migrating from “Classic Workflow Manager” (WFM) to SharePoint Workflow Manager (SPWFM) on a new hardware. However, it's a bit more complex than the recommended procedure, detailed in [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](update-to-spworkflow-manager-when-upgrading-farms.md). If you choose to use this "farm restore" procedure to upgrade/migrate, keep in mind that the SharePoint content databases and App Management Service Application database also need to be upgraded along the way to keep your existing workflows intact.
 
 > [!IMPORTANT]
-> The Workflow Configuration Wizard only prompts you for the database connection information, and for the names of the Service Bus Management and Workflow Management databases. The connection information for the other four Service Bus and Workflow databases are stored within those two management databases. Since that connection information isn't updated by the wizard, you can't use the wizard to change SQL servers or database names. In that case, you must use the procedures specified in [Scenario 2: Without using a SQL alias (Farm Restore)](#scenario-2-without-using-a-sql-alias-farm-restore) to restore the workflow farm.
+> The Workflow Configuration Wizard only prompts you for the database connection information, and for the names of the Service Bus Management and Workflow Management databases. The connection information for the other four Service Bus and Workflow databases are stored within those two management databases. Since that connection information isn't updated by the wizard, you can't use the wizard to change SQL servers or database names. In that case, you must use the procedures specified in [Scenario 2: Without using a SQL alias (Farm Restore)](#scenario-2-without-using-an-sql-alias-farm-restore) to restore the workflow farm.
 
 ## Scenario 1: Using an SQL alias
 
@@ -43,7 +43,7 @@ If you're open to using an SQL alias, then moving SPWFM databases to a new SQL s
     - Workflow Manager Backend
     - World Wide Web Publishing Service
 
-2. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that. You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-a-sql-alias-farm-restore).
+2. Move the WF and SB databases physically from the original SQL Server instance to the target SQL Server instance. Database backup and restore works well for that. You need to keep the same database names for the six Service Bus and Workflow databases during the move. If you need to change database names, then you'll have to use [Scenario 2](#scenario-2-without-using-an-sql-alias-farm-restore).
 
 3. Create an SQL alias using *cliconfg.exe* on **all** the SPWFM servers. For more information on creating the alias, see the [Create a SQL alias](update-to-spworkflow-manager-when-upgrading-farms.md#create-a-sql-alias).
 
@@ -52,7 +52,7 @@ If you're open to using an SQL alias, then moving SPWFM databases to a new SQL s
 
 ## Scenario 2: Without using an SQL alias (farm restore)
 
-If for some reason you can't use an SQL alias, or if you need to change the names of the six Service Bus and Workflow databases, then you'll have to complete a Workflow "Farm Restore".  This process, while not too complicated, has many potential failure points. 
+If for some reason you can't use an SQL alias, or if you need to change the names of the six Service Bus and Workflow databases, then you'll have to complete a Workflow "Farm Restore".  This process, while not too complicated, has many potential failure points.
 
 > [!TIP]
 > As such, it's _strongly_ recommended to use an SQL alias and keep your database names the same, as described above in [Scenario 1](#scenario-1-using-an-sql-alias).
