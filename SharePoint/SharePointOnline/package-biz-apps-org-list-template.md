@@ -1,6 +1,6 @@
 ---
-ms.date: 06/27/2023
-title: "Package Power Automate flows into organizational list templates"
+ms.date: 06/23/2023
+title: "Package biz apps into organizational list templates"
 ms.reviewer: hasaladi
 ms.author: v-smandalika
 author: v-smandalika
@@ -20,15 +20,15 @@ ms.collection:
 description: "Learn how to package biz apps into organizational list templates."
 ---
 
-# Package Power Automate flows into organizational list templates
+# Package biz apps into organizational list templates
 
 There are a number of steps by which you can create a packaged SharePoint list template that contains in-built custom flows. The objective is to assemble and register a packaged file that contains the site script actions needed to create the list and the flows, and a Dataverse solution archive (zip) that contains the flow definitions.
 
 Once you have your source SharePoint list set up and are ready to work on integrating flows with it, and on assembling a template with these components, perform the following the steps:
 
-## Obtaining the Dataverse solution zip file
+## Obtaining solution zip file
 
-1. Sign in to Power Automate portal by launching [https://flow.microsoft.com](https://flow.microsoft.com) (or choose **Integrate > Power Automate > See your flows**" in the SharePoint Portal).
+1. Sign in to Power Automate portal by launching https://flow.microsoft.com/(or choose **Integrate > Power Automate > See your flows**" in the SharePoint Portal).
 1. Create a new Dataverse solution by referring to [Overview of solution-aware flows](/power-automate/overview-solution-flows).
 
    For an introduction to Dataverse solutions, see [Solution concepts](/power-platform/alm/solution-concepts-alm).
@@ -42,26 +42,35 @@ Once you have your source SharePoint list set up and are ready to work on integr
     1. **The URL of the SharePoint site that the original list resided in**: Replace with **{ContextSharePointSiteUrl}**.
     1. **The ID of the original SharePoint list**: Replace with **{ContextSharePointListId}**.
 
-    **For example** [Before replacements]:
+    **For example**:
 
-    "parameters": {
+    **[Before replacements]**
+
+
+```powershell-interactive
+"parameters": {
     "dataset": "https://microsoft.sharepoint-df.com/teams/AlinTest ",
     "table": "d6ac2804-7a1c-4cd4-98c8-56b85a9294b7"
-                  }
+              }
+```
 
+   **For example**:
 
-    **For example** [After replacements]:
+   **[After replacements]**
 
-    "parameters": {
+    
+```powershell-interactive
+"parameters": {
     "dataset": "{ContextSharePointSiteUrl}",
     "table": "{ContextSharePointListId}"
-                  }
+              }
+```
 
 10.	Save the changes and close all file editors that you've opened for these files.
 11.	Go back to the root folder of the solution; select all files (solution.xml, customizations.xml, and so on) and folders; right-click and choose **Compress to ZIP file** from the context menu.
 
-    :::image type="content" source="media/select-all-files-compress-to-zip-file.png" alt-text="Screenshot that shows selecting all the files and compressing them to a zip." lightbox="media/select-all-files-compress-to-zip-file.png":::
- 
+    :::image type="content" source="media/select-all-files-compress-to-zip-file.png" alt-text="Selecting all the files and compressing them to a zip." lightbox="media/select-all-files-compress-to-zip-file.png":::
+
     You can keep this resulting zip file, and you can also choose to discard the original solution zip file that earlier downloaded (as specified in Step 6 of this procedure).
 
 ## Obtaining the site script action file (manifest.json)
@@ -73,17 +82,17 @@ Once you have your source SharePoint list set up and are ready to work on integr
 1. Launch SharePoint Online Management Shell.
 1. Run the following command to connect to the tenant's admin service:
 
-   `Connect-SPOService -Url <Link to SharePoint admin portal> -Credential <full username of the admin user>`
+   `[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)  -Url <Link to SPO admin portal> -Credential <full username of the admin user>`
 
 4.	Run the following command to extract a site script file from the target list:
 
-    `Get-SPOSiteScriptFromList -ListUrl <full URL of the target list> | Out-File manifest.json`
+    `[Get-SPOSiteScriptFromList](/powershell/module/sharepoint-online/get-spositescriptfromlist)  -ListUrl <full URL of the target list> | Out-File manifest.json`
 
 5.	Open the *manifest.json* file in your favorite text (or code) editor and manually add an action with the verb "importBusinessApps", the relative path of your solution file inside the overall template package and the target listName (in this case, the title of the listName binding). This value should be the same as the *listName* property of the "CreateSPList" action.
 
     For example:
 
-    :::image type="content" source="media/adding-verb-json-file.png" alt-text="Screenshot that shows adding a verb in the .json file." lightbox="media/adding-verb-json-file.png":::
+    :::image type="content" source="media/adding-verb-json-file.png" alt-text="Adding a verb in the .json file." lightbox="media/adding-verb-json-file.png":::
 
 ## Assembling the final SharePoint package zip file
 
@@ -113,11 +122,3 @@ Once you have your source SharePoint list set up and are ready to work on integr
    `Add-SPOListDesign -Title "<list design title>" -Description "<list design description>" -SiteScripts $pkg.Id`
 
    If the list design was successfully created, you should be able to view it in the **From your organization**" area of the **Create List** dialog.
-
-## Related topics
-
-[Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)
-
-[Get-SPOSiteScriptFromList](/powershell/module/sharepoint-online/get-spositescriptfromlist)
-
-[Add-SPOSiteScriptPackage](/powershell/module/sharepoint-online/add-spositescriptpackage)
