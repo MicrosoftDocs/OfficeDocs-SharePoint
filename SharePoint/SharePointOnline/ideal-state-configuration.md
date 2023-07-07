@@ -32,9 +32,9 @@ description: "View our recommendations for deploying and configuring the OneDriv
 For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the OneDrive sync app.
 
 
-|![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud symbol](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Document symbol](/office/media/icons/document.png) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
+|![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud symbol](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
 |---------|---------|---------|---------|---------|---------|
-|Allow traffic. Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled and enable Storage Sense policies      |     Keep Office collaboration enabled    |     Enable the policy    |     Enable the policies    |
+|Allow traffic. Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled and enable Storage Sense policies      |     Enable the policy    |     Enable the policies    |
 
 
 ## Updates and rings
@@ -55,11 +55,6 @@ For the best performance, reliability, and user experience, follow these "ideal 
 
 - **Keep Files On-Demand enabled**. OneDrive Files On-Demand helps users access all their files (individual or shared) without having to download them and use storage space. This setting is on by default for Windows 10 and Mac. To check this setting for Windows, see [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand). To check it for Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 - **Use Storage Sense policies on PCs**. These policies let you automatically clean up "locally available" files users haven't explicitly pinned as "always available". [More info about Storage policies](/windows/client-management/mdm/policy-csp-storage)
-
- 
-## Office integration
-
-- **Keep Office file collaboration enabled** Office uses differential sync to sync only changes instead of the entire file each time. This makes sync faster and reduces network bandwidth. This setting is on by default on Windows and Mac. For more info, see [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For info about this setting for Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
 ## Silent account configuration
 
