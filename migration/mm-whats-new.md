@@ -36,8 +36,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
  
 ## June 2023
 
-• **New. File level permission migration.** For Google Drive migration, customers can now enable File Level Permission (FLP) migration in the "Settings - Sharing & metadata" section, located in the top right corner.
-• **Change. Summary report bulk download optimization.** Streamlined the download process by disabling the option to download all summary report when no drives are selected. To download multiple summary reports efficiently, use the multi-select or select-all function on drives.
+- **New. File level permission migration.** For Google Drive migration, customers can now enable File Level Permission (FLP) migration in the "Settings - Sharing & metadata" section, located in the top right corner.
+- **Change. Summary report bulk download optimization.** Streamlined the download process by disabling the option to download all summary report when no drives are selected. To download multiple summary reports efficiently, use the multi-select or select-all function on drives.
 
 ## May 2023
 
