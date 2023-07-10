@@ -2,6 +2,19 @@
 
 
 
+## Week of July 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/6/2023 | [SharePoint Workflow Manager farm restore and disaster recovery](/SharePoint/governance/sp-wf-mgr-farm-restore-disaster-recovery) | added |
+| 7/6/2023 | Control access in the new SharePoint admin center | removed |
+| 7/6/2023 | Enable or disable preview features in SharePoint | removed |
+| 7/6/2023 | Manage app licenses for a SharePoint environment | removed |
+| 7/6/2023 | [Package biz apps into organizational list templates](/SharePoint/package-biz-apps-org-list-template) | modified |
+| 7/6/2023 | Sharing settings in the new SharePoint admin center | removed |
+
+
 ## Week of June 26, 2023
 
 
@@ -45,13 +58,3 @@
 | 6/6/2023 | [Manage sharing settings for SharePoint and OneDrive in Microsoft 365](/SharePoint/turn-external-sharing-on-or-off) | modified |
 | 6/7/2023 | [Installing SharePoint Server Subscription Edition on Windows Server Core](/SharePoint/install/installing-sharepoint-server-subscription-edition-on-windows-server-core) | modified |
 | 6/7/2023 | [Repair SharePoint Server Subscription Edition](/SharePoint/install/repair-sharepoint-server-subscription-edition) | modified |
-
-
-## Week of May 29, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/30/2023 | [Manage Loop experiences (Loop workspaces and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-| 5/31/2023 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
-| 5/31/2023 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
