@@ -73,7 +73,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Report fields refined**. The fields of downloaded reports have been improved for clarity and readability.
 
 
-## October 2022
+### October 2022
 
 - **Change - Box Notes**. We're no longer able to convert Box notes to a .docx file during migration.
 
