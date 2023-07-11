@@ -45,7 +45,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
 
 > [!IMPORTANT]
-> PowerShell 5.0 and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters.
+> PowerShell 5.0x and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters.
 
 **Minimum requirements (expect slow performance)**
 
@@ -57,7 +57,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 |Network card |High-speed Internet connection |
 |Operating system |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2 |
 |Microsoft Visual C++ 2015 Redistributable |Required for OneNote migration.|
-|PowerShell |PowerShell 5.0 or higher required to support migration of file paths of up to 400 characters.|
+|PowerShell |PowerShell 5.x required to support migration of file paths of up to 400 characters. PowerShell 6.0 or higher is not supported.|
 
 ## Before you begin
 
