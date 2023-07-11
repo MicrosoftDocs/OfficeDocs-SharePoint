@@ -24,12 +24,12 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 
 Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
-A scan/migration task displays as a row in the Migration Manager scan/migration list. It equals to: 
+A scan/migration task presents as a row in the Migration Manager scan/migration list. The task equals to: 
 
-- Google Drive:  A personal or S\shared Drive .
-- Dropbox:  A member or team folder.
-- Box: A user, Admin, or Co-admin. 
-- Egnyte: A private or hhared folder
+- **Google Drive:** Personal or Shared Drive
+- **Dropbox:** Member or Team folder
+- **Box:** User, Admin, or Co-admin
+- **Egnyte:** Private or Shared folder
 
 ## Reports
 
