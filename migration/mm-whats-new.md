@@ -1,5 +1,5 @@
 ---
-ms.date: 10/19/2020
+ms.date: 07/11/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
