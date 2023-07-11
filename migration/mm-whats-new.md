@@ -1,5 +1,5 @@
 ---
-ms.date: 10/19/2020
+ms.date: 07/11/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -33,6 +33,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Multi-project support on a single source.** The ability to manage multiple migration projects of the same cloud source, including Google, Box, Dropbox, and Egnyte. 
 - **Scan/Migration status update.** Enhancements made to better organize and manage scan/migration drives.
+- **File Level Permission support for Dropbox and Box.** Support for File Level Permission (FLP) migration for Dropbox and Box.
  
 ## June 2023
 
