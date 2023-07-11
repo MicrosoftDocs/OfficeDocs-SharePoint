@@ -39,17 +39,17 @@ For the best performance, reliability, and user experience, follow these "ideal 
 
 ## Updates and rings
 
-- **Allow access to oneclient.sfx.ms and g.live.com**. Computers must be able to reach these URLs to apply updates and bug fixes, and enable or disable features. Updates are installed automatically, so you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users. 
-- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Enterprise Channel for Windows and Office. For more info about the rings, see [Sync app update process](sync-client-update-process.md). To set the update ring on Windows, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To set it on Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md#tier).
+- **Allow access to oneclient.sfx.ms and g.live.com**. Computers must be able to reach these URLs to apply updates and bug fixes, and enable or disable features. Updates are installed automatically; so, you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users. 
+- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Enterprise Channel for Windows and Office. For more information about the rings, see [Sync app update process](sync-client-update-process.md). To set the update ring on Windows, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To set it on Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md#tier).
 
 ## Windows Notification Service
   
-- **Make sure connection to the service is enabled**. Work with your network team to make sure proxies:  
+- **Make sure connection to the service is enabled**. Work with your network team to ensure proxies:  
 
     -    Allow network traffic to bypass *.wns.windows.com 
-    -    Avoid HTTPS decryption for *.wns.windows.com. 
+    -    Avoid HTTPS decryption for *.wns.windows.com
  
-    This applies to both Windows and Mac. [See the complete list of required URL and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
+    This requirement applies to both Windows and Mac. [See the complete list of required URL and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
 
 ## Files On-Demand and Storage Sense
 
@@ -58,11 +58,11 @@ For the best performance, reliability, and user experience, follow these "ideal 
 
 ## Silent account configuration
 
-- **Silently configure user accounts on PCs**. When you enable the silent account configuration policy, users are signed in automatically so they don't need to open OneDrive or enter their password. For more info, see [Use silent account configuration](use-silent-account-configuration.md).
+- **Silently configure user accounts on PCs**. When you enable the silent account configuration policy, users are signed in automatically; so, they don't need to open OneDrive or enter their password. For more information, see [Use silent account configuration](use-silent-account-configuration.md).
 
 ## Known Folder Move
 
-Windows users are familiar and comfortable with saving files to their Desktop, Documents, and Pictures folders from years of developing it as a habit. When you redirect and move these folders to OneDrive, users can continue saving files to these locations and they're backed up and available from any device. For more info, see [Redirect known folders](redirect-known-folders.md).
+Windows users are familiar and comfortable with saving files to their Desktop, Documents, and Pictures folders from years of developing it as a habit. When you redirect and move these folders to OneDrive, users can continue saving files to these locations, and they're backed up and available from any device. For more information, see [Redirect known folders](redirect-known-folders.md).
 
 - **On new PCs, enable the silent policy**. [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 - **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](redirect-known-folders.md#about-the-known-folder-move-policies)
