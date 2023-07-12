@@ -18,28 +18,28 @@ description: "Learn how to determine your audience profile"
 ---
 
 # Step 3: Scope audience size and determine audience preferences
-Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you will be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for communications. 
+Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you'll be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for communications. 
 <br>
 
 ### Best practices when scoping audience:
 
 - **Estimate the size of your audience** <br> Know the general size of your target audience so that you can choose the right tools and methods to reach them. For example, some live event options have a maximum capacity of 25,000 people.
-- **Understand where your audience usually gets information** <br> It's best to meet users in apps they are already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
-- **Learn more about how your target audience typically communicates** <br> Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Viva Engage and Teams for the rest of the organization. 
+- **Understand where your audience usually gets information** <br> It's best to meet users in apps they're already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
+- **Learn more about how your target audience typically communicates** <br> Some audiences won't be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Viva Engage and Teams for the rest of the organization. 
 - **Target specific audiences using Microsoft 365 groups** <br> Organize your audience into Microsoft 365 Groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
 
 
 
 ## Start by understanding your audience's work environment and device preferences
-Audience size will help you narrow down potential communication solution(s) in combination with considerations for how, when, and where your audience gets work done. Corporate communications should aim to meet workers where they are and make it easy to engage and participate. Keep in mind that a given individual in your organization may be in more than one group. 
+Audience size will help you narrow down potential communication solution(s) in combination with considerations for how, when, and where your audience gets work done. Corporate communications should aim to meet workers where they're and make it easy to engage and participate. Keep in mind that a given individual in your organization may be in more than one group. 
 <br>
 
 
 #### Frontline workers
-Frontline workers are team members who do not sit at a desk or in front of a desktop computer for most of their work. This audience includes healthcare workers, factory workers, retail personal, sales teams, and support teams. 
+Frontline workers are team members who don't sit at a desk or in front of a desktop computer for most of their work. This audience includes healthcare workers, factory workers, retail personal, sales teams, and support teams. 
 - This audience is likely using their mobile device most of the time to get work done
 - Communications need to be concise, easy to access, and visually engaging
-- It is unlikely that this audience will be able to attend an event all at once, therefore you should plan to record and share the event in a news post or email
+- It's unlikely that this audience will be able to attend an event all at once, therefore you should plan to record and share the event in a news post or email
 - Consider using Viva Connections to create an engaging communication experience that helps organizations stay connected
 <br>
 
@@ -50,11 +50,11 @@ In-office workers typically sit at a desk and use a computer for most their work
 
 
 #### Remote audiences
-Remote audiences do not work in a centralized office location and may even work from their home. This audience includes full-time employees and vendor and contract workers like gig workers, agencies, consultants, and other roles where most work takes place at a desk or in front of a computer.
+Remote audiences don't work in a centralized office location and may even work from their home. This audience includes full-time employees and vendor and contract workers like gig workers, agencies, consultants, and other roles where most work takes place at a desk or in front of a computer.
 
 - This audience uses a combination of devices but primary uses a desktop device
 - Remote audiences are good candidates for live events, moderated Q&A, and live chats in Viva Engage or Microsoft Teams since most people can participate together
-- Remote audiences are more likely to suffer from meeting fatigue and looking at a screen most of the day, so diversified communications that do not require a camera or desktop screen is ideal
+- Remote audiences are more likely to suffer from meeting fatigue and looking at a screen most of the day, so diversified communications that don't require a camera or desktop screen is ideal
 <br>
 
 #### Hybrid audiences
