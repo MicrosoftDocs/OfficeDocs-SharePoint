@@ -960,6 +960,26 @@
       "source_path": "SharePoint/SharePointServer/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md",
       "redirect_url": "/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/control-access.md",
+      "redirect_url": "/sharepoint/manage-sites-in-new-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/sharing-settings.md",
+      "redirect_url": "/sharepoint/manage-sites-in-new-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/manage-app-licenses.md",
+      "redirect_url": "/sharepoint/request-app-installation-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/enable-or-disable-preview-features.md",
+      "redirect_url": "/microsoft-365/admin/manage/release-options-in-office-365",
+      "redirect_document_id": false
     }
   ]
 }
