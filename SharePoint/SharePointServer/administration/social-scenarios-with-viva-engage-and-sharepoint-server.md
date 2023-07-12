@@ -24,7 +24,7 @@ This article provides links to common scenarios and the specific steps you need 
   
 We recommend that you reserve some time to complete all of the steps for the scenario that you choose to implement, and, if applicable, get the IT help you need. 
   
- [!NOTE]
+> [!NOTE]
 > If your SharePoint Server is hosted in a cloud environment, such as Microsoft Azure Infrastructure as a Service (IaaS), the guidance in these articles also applies. 
   
 ## Scenarios for Viva Engage and SharePoint Server
