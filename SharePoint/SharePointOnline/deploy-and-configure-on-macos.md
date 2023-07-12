@@ -297,7 +297,7 @@ The example for this setting in the .plist file is:
 
 <a name="EnableSyncAdminReports"> </a>
 
-This setting lets the OneDrive sync app to report device and health data that's to be included in sync admin reports. You must enable this setting on the devices you want to get reports from.
+This setting lets the OneDrive sync app report device and health data that's to be included in sync admin reports. You must enable this setting on the devices you want to get reports from.
 
 If you disable or don't configure this setting, OneDrive sync app device and health data won't appear in the sync admin reports.
 
