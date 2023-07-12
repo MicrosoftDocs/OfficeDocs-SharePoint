@@ -25,7 +25,7 @@ Learn about the needs and preferences of your audience before you get started pl
 
 - **Estimate the size of your audience** <br> Know the general size of your target audience so that you can choose the right tools and methods to reach them. For example, some live event options have a maximum capacity of 25,000 people.
 - **Understand where your audience usually gets information** <br> It's best to meet users in apps they are already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
-- **Learn more about how your target audience typically communicates** <br> Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Yammer and Teams for the rest of the organization. 
+- **Learn more about how your target audience typically communicates** <br> Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Viva Engage and Teams for the rest of the organization. 
 - **Target specific audiences using Microsoft 365 groups** <br> Organize your audience into Microsoft 365 Groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
 
 
@@ -53,7 +53,7 @@ In-office workers typically sit at a desk and use a computer for most their work
 Remote audiences do not work in a centralized office location and may even work from their home. This audience includes full-time employees and vendor and contract workers like gig workers, agencies, consultants, and other roles where most work takes place at a desk or in front of a computer.
 
 - This audience uses a combination of devices but primary uses a desktop device
-- Remote audiences are good candidates for live events, moderated Q&A, and live chats in Yammer or Microsoft Teams since most people can participate together
+- Remote audiences are good candidates for live events, moderated Q&A, and live chats in Viva Engage or Microsoft Teams since most people can participate together
 - Remote audiences are more likely to suffer from meeting fatigue and looking at a screen most of the day, so diversified communications that do not require a camera or desktop screen is ideal
 <br>
 
@@ -73,7 +73,7 @@ Understanding the size of your audience will help you narrow down what Microsoft
 
 | Audience example  | Size  | Potential apps and method      | 
 | :------------------- | :-------------------  |:------------------- | :------------------- |
-| Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
+| Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Viva Engage community <br> Host a Teams live event <br> Host a Viva Engage live event| 
 | Entire departments or regions    |5,000 to 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
 | **All employees**            | Up to 25,000                  | *All of the above, in addition to:* <br><br> Use Viva Connections to bring news, events, and tools into one place |
 |   | 25,000 to 100,000  | Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
