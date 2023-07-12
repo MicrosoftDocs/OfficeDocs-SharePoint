@@ -35,7 +35,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ![Illustration of a mobile device connecting with people around the world.](media/cc-viva-connections.png)
 
-**Goals:** You need to engage, inform, and connect thousands of frontline and hybrid workers while in the field on a mobile device or at their desk. You want to streamline and target content from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
+**Goals:** You need to engage, inform, and connect thousands of frontline and hybrid workers while in the field on a mobile device or at their desk. You want to streamline and target content from across SharePoint, Microsoft Teams, Viva Engage, and Stream into one curated and branded employee experience. 
 <br>
 
 **Considerations:** Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. 
@@ -73,7 +73,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
-**Get started:** [Learn more about how to plan and produce a town hall using Yammer.](hold-town-hall-using-yammer.md)
+**Get started:** [Learn more about how to plan and produce a town hall using Viva Engage.](hold-town-hall-using-viva-engage.md)
 
 
 
