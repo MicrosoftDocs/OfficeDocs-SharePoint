@@ -20,7 +20,7 @@ ms.collection:
 
 # Introduction to roles, tasks, and timelines
 
-When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams are not very large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
+When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams aren't very large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
 
 ## Roles and tasks at-a-glance
 
@@ -149,9 +149,9 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up to date, and what's no longer needed and can be deleted or archived.
 
-Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
+Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you'll create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
 
-Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
+Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You'll get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
 [Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
@@ -165,7 +165,7 @@ Video is a great way to communicate to the people in your organization for execu
 
 SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups.
 
-*Start by* — Determining who needs access, who should not have access, and how you will grant access requests.
+*Start by* — Determining who needs access, who shouldn't have access, and how you'll grant access requests.
 
 *You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
@@ -229,7 +229,7 @@ Help work groups connect and engage across your organization using Viva Engage. 
 
 *Start by* — Finding news, announcements, and events to amplify on your site.
 
-*You'll know you're done when* — You are regularly promoting news and events that start conversations and engage and connect wide audiences.
+*You'll know you're done when* — You're regularly promoting news and events that start conversations and engage and connect wide audiences.
 
 ## Up next
 
