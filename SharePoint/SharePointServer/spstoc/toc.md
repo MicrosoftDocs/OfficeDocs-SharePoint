@@ -438,6 +438,7 @@
 ##### [Configure the maximum number of co-authoring authors](../governance/configure-the-maximum-number-of-co-authoring-authors.md)
 ##### [Disable co-authoring](../governance/disable-co-authoring.md)
 ### [Workflow in SharePoint Server](../governance/workflow-in-sharepoint-server.md)
+#### [SharePoint Workflow Manager Farm Restore and Disaster Recovery](../governance/sp-wf-mgr-farm-restore-disaster-recovery.md)
 #### [Getting started with SharePoint Server workflow](../governance/getting-started-with-sharepoint-server-workflow.md)
 #### [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md)
 #### [Reset Certificate Generation Key for SharePoint Workflow Manager](../governance/reset-certificate-generation-key-sharepoint-workflow-manager.md)
