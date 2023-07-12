@@ -69,7 +69,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
    ![Image of the Workplace transformation site design model](media/change-management-model.png)
 
-**1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
+**1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Viva Engage community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 <br>
 
 **2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](/office365/customlearning/).
@@ -106,7 +106,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 - **Get started –** Give employees a jumping-off place to dive into messages form leadership, view the change management checklist, and RSVP to an upcoming event.
 <br>
 
-- **Community –** Help recognize and celebrate success within the organization and give employees and opportunity to connect in a change management Yammer community.
+- **Community –** Help recognize and celebrate success within the organization and give employees and opportunity to connect in a change management Viva Engage community.
 <br>
 
 - **Training –** Embed curated training playlist that can be easily viewed and bookmarked on any device.
@@ -188,9 +188,9 @@ Learn how to customize web parts and content that will appear on certain pages o
 **News and news post templates -** Use pre-populated news templates to create news posts in the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#:~:text=%20Use%20the%20News%20web%20part%20on%20a,but%20there%20may%20be%20one%20or...%20More) on the **Community page**. Find the templates by navigating to **Setting > Site Content > Site pages > Templates**.
 <br> 
 
-   ![Image of the Yammer web part](media/hyrbid-yammer.png)
+   ![Image of the Viva Engage web part](media/hyrbid-yammer.png)
 
-**Yammer -** Replace the graphic and connect the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Yammer community.
+**Viva Engage -** Replace the graphic and connect the [Viva Engage conversations web part](https://support.microsoft.com/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Viva Engage community.
 <br>
 
    ![Image of the People web part](media/hybrid-people.png)
