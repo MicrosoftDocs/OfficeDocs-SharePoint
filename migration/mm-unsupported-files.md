@@ -61,7 +61,7 @@ Google doesn't allow us to export these items from Drive.
 - Google maps
 
 >[!Note]
->Unorganized or "orphaned" files are not scanned. [Learn why files go missing in Google Drive](https://support.google.com/drive/answer/1716222?hl=en&co=GENIE.Platform%3DDesktop&sjid=1671723489479156884-NA#zippy=%2Cfind-a-file-you-dont-think-you-deletedA)
+>Unorganized or "orphaned" files are not scanned.
 
 ### Google Docs, Slides, and Sheets are converted
 
