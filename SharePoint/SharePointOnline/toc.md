@@ -70,7 +70,7 @@
 ### [Distribute organizational news](distribute-corporate-news-to-your-organization.md)
 ### [Connect leaders and your organization](leadership-connection.md)
 ### [Onboard new employees](onboard-employees.md)
-### [Hold a town hall using Yammer](hold-town-hall-using-yammer.md)
+### [Hold a town hall using Viva Engage](hold-town-hall-using-viva-engage.md)
 ### [Build learning and training experiences](build-learning-and-training-experiences-for-employees.md)
 ## [Navigation]()
 ### [Introduction](information-architecture-modern-experience.md)

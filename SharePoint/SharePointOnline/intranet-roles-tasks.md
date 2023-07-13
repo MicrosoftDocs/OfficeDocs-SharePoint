@@ -20,7 +20,7 @@ ms.collection:
 
 # Introduction to roles, tasks, and timelines
 
-When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams are not very large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
+When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams aren't very large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
 
 ## Roles and tasks at-a-glance
 
@@ -149,9 +149,9 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up to date, and what's no longer needed and can be deleted or archived.
 
-Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
+Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you'll create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
 
-Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
+Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You'll get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
 [Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
@@ -165,7 +165,7 @@ Video is a great way to communicate to the people in your organization for execu
 
 SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups.
 
-*Start by* — Determining who needs access, who should not have access, and how you will grant access requests.
+*Start by* — Determining who needs access, who shouldn't have access, and how you'll grant access requests.
 
 *You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
@@ -173,7 +173,7 @@ SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed
 
 The [main intranet portal for your organization](home-site-plan.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
-The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
+The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Viva Engage feeds](/viva/engage/viva-engage-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
 *Start by* — Considering the goals from the perspective of your organization's communications team, your executive sponsor, your IT department, and end users. Design the portal home page with simplicity and scalability in mind.
 
@@ -225,11 +225,11 @@ Enable users to work on any device. When users keep files on their local device 
 
 #### Build culture and community
 
-Help work groups connect and engage across your organization using Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event or when you want to provide examples on pages that provide instructions. [Microsoft Stream](https://support.office.com/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your organization's own video site. To display video content, use the [Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site.
+Help work groups connect and engage across your organization using Viva Engage. [Learn more about the Viva Engage Highlights and Viva Engage Conversations web parts](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event or when you want to provide examples on pages that provide instructions. [Microsoft Stream](https://support.office.com/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your organization's own video site. To display video content, use the [Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site.
 
 *Start by* — Finding news, announcements, and events to amplify on your site.
 
-*You'll know you're done when* — You are regularly promoting news and events that start conversations and engage and connect wide audiences.
+*You'll know you're done when* — You're regularly promoting news and events that start conversations and engage and connect wide audiences.
 
 ## Up next
 

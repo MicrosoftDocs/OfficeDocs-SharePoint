@@ -122,10 +122,10 @@ You can set up a search vertical so that you can search content stored in OneDri
 ## (Optional) Customize the Microsoft 365 navigation experience (SharePoint Server 2013)
 <a name="CustomNav"> </a>
 
-Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Yammer or Newsfeed, and Sites. If you intend for your users to use only OneDrive, you can remove the other links. If you want to allow your users to interact with Yammer or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the nav bar.
+Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Viva Engage or Newsfeed, and Sites. If you intend for your users to use only OneDrive, you can remove the other links. If you want to allow your users to interact with Viva Engage or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the nav bar.
   
 > [!NOTE]
-> Turn on the appropriate navigation bar links for the set of SharePoint in Microsoft 365 service features that you have purchased. For example, if you have OneDrive with Office on the web, then you would turn on only the OneDrive link, and not the Sites or Newsfeed links. OneDrive with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they selected the links. You can, however, still choose to turn on Yammer as your social network and then turn on the Yammer/Newsfeed navigation link. 
+> Turn on the appropriate navigation bar links for the set of SharePoint in Microsoft 365 service features that you have purchased. For example, if you have OneDrive with Office on the web, then you would turn on only the OneDrive link, and not the Sites or Newsfeed links. OneDrive with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they selected the links. You can, however, still choose to turn on Viva Engage as your social network and then turn on the Viva Engage/Newsfeed navigation link. 
   
  **To customize the navigation bar**
   
