@@ -126,7 +126,7 @@ In the past, users would have to frequently switch between tools to collaborate.
 ![The files library lets you collaborate on files with your team](media/sp-collabguide06.png)
 
 > [!NOTE]
-> When a user attaches a file to a chat, it's automatically uploaded to the user's individual library in OneDrive. When a user attaches a file to a Teams channel, it's automatically uploaded to the library for that team. Files shared with Yammer groups are now also saved in SharePoint.
+> When a user attaches a file to a chat, it's automatically uploaded to the user's individual library in OneDrive. When a user attaches a file to a Teams channel, it's automatically uploaded to the library for that team. Files shared with Viva Engage groups are now also saved in SharePoint.
 
 ### Access to all files in OneDrive
 
