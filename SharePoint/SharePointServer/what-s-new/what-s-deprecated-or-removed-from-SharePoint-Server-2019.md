@@ -53,7 +53,7 @@ Access Services 2013 will remain supported, but deprecated, for the SharePoint S
 
 ### Aggregated Newsfeed
 
-The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Yammer and/or Teams. The Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
+The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Viva Engage and/or Teams. The Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
 
 ### Custom Help
 

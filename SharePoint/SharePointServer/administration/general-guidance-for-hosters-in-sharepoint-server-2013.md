@@ -189,7 +189,7 @@ The service applications available in a SharePoint Server 2013 on-premises envir
 |Visio Graphics  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
 |Excel Calculation  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Performance Point  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|Yammer  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Viva Engage  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |SharePoint Integration for OneDrive  <br/> |No  <br/> |No  <br/> |No  <br/> |
    
 > [!NOTE]

@@ -44,7 +44,7 @@ When entering a new organization, knowing where resources are located, who to go
 
 |Icon                  | Phase                | Tasks          |
 | :-------------------: | :-------------------: |:----------------|
-| ![Planning icon.](media/th-lb2.png)  | **Plan** | - Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Yammer |
+| ![Planning icon.](media/th-lb2.png)  | **Plan** | - Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Viva Engage |
 | ![Building icon.](media/oe-10.png)  | **Build**  | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in Microsoft 365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding |
 | ![Launching icon.](media/oe-11.png)| **Launch**  | - Send out invites, instructions, and resources using Outlook Mail and Calender.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
 
@@ -75,7 +75,7 @@ The size of your onboarding group will determine the platforms and resources you
 | Groups of 1-19                |Groups of 20 or more              |
 | :--------------- | :---------------- |
 | ![Small group icon.](media/oe-user.png)  | ![Large group icon.](media/oe-users.png) |
-|Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces  | Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces <br> Yammer   |
+|Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces  | Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces <br> Viva Engage   |
 
 #### Define the desired outcome and priority content
 Spend time defining what success looks like when orientation is complete. In many organizations, onboarding happens for more than one part of the business, consider offering an onboarding structure that allows the new employee to become familiar with the organization and the team they will be working with. Consider setting up modules that guide employees through onboarding and lets them know about their progress.  
@@ -110,13 +110,13 @@ The goal of every onboarding process is to make sure each new employee feels ful
  
 
 ### Step 3: Review Microsoft 365 onboarding tools 
-A great option is to use Teams live meetings, live events, and chat functionality to welcome new employees and provide an engaging experience for those that can attend in-person as well as remote. Direct users to information and contacts on a SharePoint communications site. Consider using a NEO Yammer channel where new people can ask questions and get answers. You can even consider using SharePoint spaces for virtual training or facility tours. Then, bring it all together using Viva Connections, which integrates SharePoint content into Microsoft Teams. 
+A great option is to use Teams live meetings, live events, and chat functionality to welcome new employees and provide an engaging experience for those that can attend in-person as well as remote. Direct users to information and contacts on a SharePoint communications site. Consider using a NEO Viva Engage channel where new people can ask questions and get answers. You can even consider using SharePoint spaces for virtual training or facility tours. Then, bring it all together using Viva Connections, which integrates SharePoint content into Microsoft Teams. 
 
 - **Microsoft Teams meeting** - Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting. 
 
-- **SharePoint communication site** - Create a SharePoint communication site using the [New employee onboarding site template](https://support.microsoft.com/office/new-employee-onboarding-template-38b5b290-1703-4c94-beb3-907e0ad4a052?ui=en-US&rs=en-US&ad=US). Use the site to direct new employees to relevant resources, contacts, and conversations in new employee Yammer communities.  
+- **SharePoint communication site** - Create a SharePoint communication site using the [New employee onboarding site template](https://support.microsoft.com/office/new-employee-onboarding-template-38b5b290-1703-4c94-beb3-907e0ad4a052?ui=en-US&rs=en-US&ad=US). Use the site to direct new employees to relevant resources, contacts, and conversations in new employee Viva Engage communities.  
 
-- **Yammer channel** – Create a [Yammer channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.  
+- **Viva Engage channel** – Create a [Viva Engage channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Viva Engage web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.  
 
 - **Microsoft Viva** – [Viva modules](/viva/microsoft-viva-overview) are personalized employee experiences that display as apps in Microsoft Teams. Use [Viva Connections](/viva/connections/viva-connections-overview) to bring onboarding resources and tools into one place. Content in the Viva Connections experience can be [targeted to specific audiences](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Use [Viva Learning](/viva/learning/) to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. 
 
@@ -190,13 +190,13 @@ In Viva Learning, managers of an organization or team can assign learning and tr
  | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and resources. |
 
 
-### Create Virtual Communities for new employees in Yammer
-![Yammer homepage screenshot.](media/th4.png)
+### Create Virtual Communities for new employees in Viva Engage
+![Viva Engage homepage screenshot.](media/th4.png)
 <br>
 
-Give new employees the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for new employees within the organizational platform.
+Give new employees the opportunity to connect with each other and build a supportive virtual community in Viva Engage. Viva Engage is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Viva Engage allows you to set up a community specifically for new employees within the organizational platform.
 
-Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq). 
+Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](/viva/engage/get-started-with-viva-engage/new-viva-engage-faq). 
 
 
 ### Ask for feedback using Microsoft Forms

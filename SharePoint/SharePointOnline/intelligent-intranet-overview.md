@@ -40,7 +40,7 @@ Learn how to move through the [process of creating an intranet](https://aka.ms/I
 
 Use SharePoint and other Microsoft 365 products to create communication channels that serve specific audiences. Learn how to [create and share organizational news](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) and [use the News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) into key landing pages and portals.
 
-Integrate [Yammer](https://support.microsoft.com/office/what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5) and the [Yammer web parts](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) to embed conversations and highlights in sites. Use the power of video to [share pre-recorded messages](/stream/portal-upload-video) and [record organizational events](/stream/live-event-overview) for later viewing. Use content services like [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure key audience are targeted specific content. 
+Integrate [Viva Engage](https://support.microsoft.com/office/what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5) and the [Viva Engage web parts](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) to embed conversations and highlights in sites. Use the power of video to [share pre-recorded messages](/stream/portal-upload-video) and [record organizational events](/stream/live-event-overview) for later viewing. Use content services like [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure key audience are targeted specific content. 
 
 ### Enhance collaboration and sharing
 
@@ -71,7 +71,7 @@ Learn more about [how to think about your intelligent intranet](./trad-vs-modern
 
 ### 2 - Understand and align 
 
-[Get started planning](./plan-intranet.md) your intelligent intranet. Learn more about [intranet governance](./intranet-governance.md) before you start building and ensure you have a plan in place to manage intranet governance. Explore various opportunities to [engage viewers](./workplace-communications.md) in workplace communications using Yammer, Teams, live events, and site templates. 
+[Get started planning](./plan-intranet.md) your intelligent intranet. Learn more about [intranet governance](./intranet-governance.md) before you start building and ensure you have a plan in place to manage intranet governance. Explore various opportunities to [engage viewers](./workplace-communications.md) in workplace communications using Viva Engage, Teams, live events, and site templates. 
 
 - Work with business owners and IT to prioritize projects
 - Audit existing content before migrating
@@ -86,7 +86,7 @@ Start building [the home site](./home-site.md), [hubs](./planning-hub-sites.md),
 
 - Get feedback from stakeholders and users along the way
 - Test site architecture with real users
-- Use engaging communication apps like Yammer and Stream
+- Use engaging communication apps like Viva Engage and Stream
 - Plan launch communications
 
 Learn more about [intranet way finding](./information-architecture-modern-experience.md) and how to implement [multi-geo features](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) if needed.
@@ -113,7 +113,7 @@ Learn more about forming a site owner or [intranet champions community](https://
 |**Capability or feature**|**Description**|**Licensing**|
 |:-----|:-----|:-----|
 |Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|Microsoft 365 E5<br> Microsoft 365 E3|
-|Social and intranet|Use SharePoint and Yammer to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Social and intranet|Use SharePoint and Viva Engage to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|Microsoft 365 E5<br> Microsoft 365 E3|
 |Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|Microsoft 365 E5<br> Microsoft 365 E3|
 |Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|Microsoft 365 E5<br> Microsoft 365 E3|
 
