@@ -24,6 +24,13 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 
 Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
+A scan/migration task presents as a row in the Migration Manager scan/migration list. The task equals to: 
+
+- **Google Drive:** Personal or Shared Drive
+- **Dropbox:** Member or Team folder
+- **Box:** User, Admin, or Co-admin
+- **Egnyte:** Private or Shared folder
+
 ## Reports
 
 Use these reports to help manage, audit, and troubleshoot your migration process.
@@ -58,10 +65,21 @@ Your reports may reference a failure or status code to provide specific details 
 
 ## How to download reports
 
-Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. You can select up to 100 tasks for each report type.
+Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. 
+
+There are limits on the number of tasks can be selected for bulk download for each report type: 
+
+|Report type|Number of tasks allowed per download|
+|:-----|:-----|
+|Scan summary report|1000| 
+|Scan detailed report|100 |
+|Migration summary report|1000|
+|Migration detailed report|100|
 
 >[!Note]
->Reports are processed one at a time, even when selecting multiple tasks and downloading the reports in bulk.
+>For each report type, only one can be processed at a time. For example, there can’t be two scan summary reports running simultaneously.
+>
+>The option to download all summary reports when no drives are selected is disabled. To download multiple summary reports efficiently, use the multi-select or select-all function on tasks.
 
 
 ### Download Scan reports

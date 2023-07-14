@@ -1,5 +1,5 @@
 ---
-ms.date: 10/19/2020
+ms.date: 07/11/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -33,6 +33,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Multi-project support on a single source.** The ability to manage multiple migration projects of the same cloud source, including Google, Box, Dropbox, and Egnyte. 
 - **Scan/Migration status update.** Enhancements made to better organize and manage scan/migration drives.
+- **File Level Permission support for Dropbox and Box.** Support for File Level Permission (FLP) migration for Dropbox and Box.
  
 ## June 2023
 
@@ -104,7 +105,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
 - **Tag support - cloud migrations**.  A new tag feature lets you sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
-## Release in 2021
+## Released in 2021
 
 ### November 2021
 
