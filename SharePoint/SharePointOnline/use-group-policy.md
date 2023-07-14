@@ -89,6 +89,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
+- (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
+
 - (DisableNucleusSilentConfig) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from getting silently signed in to Lists sync with their Windows credentials](/sharepoint/lists-sync-policies#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials).
 
 - (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
@@ -300,6 +302,19 @@ If you disable or don't configure this setting, the reminder will appear until u
 
 Enabling this policy sets the following registry key value to 1:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog =dword:00000001`
+
+### Hide the messages to sync Consumer OneDrive files
+<a name="syncconsumeronedrive"> </a>
+
+This setting determines whether a user will be prompted to sync their Consumer files using a detected known Microsoft Account (MSA).
+
+**Enable**: Enable this setting if you want to suppress the messages from being displayed to your users, yet allow them to manually configure their Consumer accounts to sync with their OneDrive Consumer files.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableNewAccountDetection"=dword:00000001`
+
+**Disable**: Disable this setting or don't configure it, to allow your users to be prompted to sync their Consumer files.
 
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
