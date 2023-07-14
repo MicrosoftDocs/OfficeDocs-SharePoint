@@ -359,7 +359,7 @@ If you are using Exchange Server and are routing email internally in your organi
     
     The A resource record now appears in DNS Manager. 
     
-If you use the **E-mail server display address** option andif the email address to which you are sending email messages is not the same as your server name, you must create a local domain. 
+If you use the **E-mail server display address** option and if the email address to which you are sending email messages is not the same as your server name, you must create a local domain. 
   
  **<a name="CreateALocalDomain"></a>To create a local domain**
   
