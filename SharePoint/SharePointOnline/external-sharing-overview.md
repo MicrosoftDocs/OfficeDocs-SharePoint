@@ -1,5 +1,5 @@
 ---
-ms.date: 06/12/2023
+ms.date: 06/19/2023
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
 ms.author: mikeplum
@@ -19,7 +19,7 @@ ms.custom:
 -  seo-marvel-apr2020
 -  Adm_O365
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -53,14 +53,35 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint and OneDrive environment. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
 
+### SharePoint and OneDrive integration with Azure AD B2B
+
+There are two external sharing models used in SharePoint and OneDrive:
+
+- SharePoint external authentication
+
+- SharePoint and OneDrive integration with Azure AD B2B
+
+When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+
+The following table shows the differences between the two sharing models.
+
+|Sharing method|Files and folders|Sites|
+|:--|:----------------|:----|
+|SharePoint external authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
+|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+
+*A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
+
+For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+
 ## How the external sharing settings work
 
 SharePoint has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied. OneDrive sharing settings can be the same as or more restrictive than the SharePoint settings.
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow unauthenticated sharing using "Anyone" links, users can still share with guests, who sign in, and with internal users. 
 
-> [!IMPORTANT]
-> Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Microsoft 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
+> [!NOTE]
+> Even if your organization-level setting allows external sharing, not all new sites allow it by default. See [Default site sharing settings](/microsoft-365/solutions/microsoft-365-guest-settings#default-site-sharing-settings) for more information.
 
 **Security and privacy**
   
@@ -82,8 +103,6 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
 
-These recipients are added to your directory as guests provided that [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md) is enabled.
-
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
 - They can use Office.com for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license.
@@ -97,8 +116,8 @@ If your authenticated guests need greater capability such as OneDrive storage or
 ## Stopping sharing
 
 You can stop sharing with guests by removing their permissions from the shared item, or by removing them as a guest in your directory.
-  
-You can stop sharing with people who have an "Anyone" link by going to the file or folder that you shared and deleting the link.
+
+You can stop sharing with people who have an *Anyone* link by going to the file or folder that you shared and deleting the link or by turning off *Anyone* links for the site.
 
 [Learn how to stop sharing an item](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) 
   
