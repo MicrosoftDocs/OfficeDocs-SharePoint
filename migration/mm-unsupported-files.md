@@ -61,7 +61,7 @@ Google doesn't allow us to export these items from Drive.
 - Google maps
 
 >[!Note]
->Unorganized or "orphaned" files are not scanned. To learn more about unorganized files, see the Google support site.
+>We don't scan unorganized or "orphaned" files. As a result, they won't be migrated or shown in any of our reports. To learn more about unorganized files, see the Google support site.
 
 ### Google Docs, Slides, and Sheets are converted
 
