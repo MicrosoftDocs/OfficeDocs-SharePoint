@@ -62,6 +62,8 @@ The Active sites page lists the root website for each site collection. Subsites 
    |301 |REDIRECTSITE# |Redirect site |
    |70 |CSPCONTAINER# |CSP container |
 
+Note that you may see differences between the sites in the active sites list and those listed in the [SharePoint site usage report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) because the site templates and URLs listed above are included in the SharePoint site usage report.
+
 For more info about tasks on the Active sites page, see:
 
 - [Create a site](create-site-collection.md)
