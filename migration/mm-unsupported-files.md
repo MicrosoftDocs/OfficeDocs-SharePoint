@@ -60,6 +60,9 @@ Google doesn't allow us to export these items from Drive.
 - Google Sites
 - Google maps
 
+>[!Note]
+>We don't scan unorganized or "orphaned" files. As a result, they won't be migrated or shown in any of our reports. To learn more about unorganized files, see the Google support site.
+
 ### Google Docs, Slides, and Sheets are converted
 
 Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When you migrate your content from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
