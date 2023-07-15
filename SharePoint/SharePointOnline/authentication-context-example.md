@@ -61,7 +61,7 @@ The following apps and scenarios don't work with authentication contexts:
 - The OneDrive sync app won't sync sites with an authentication context
 - Copy or move files from a site with no authentication context to a site with an authentication context fails
 - Associating an authentication context to the enterprise application catalog site collection is not supported
-- “Visualize SharePoint List in Power BI” feature does not currently support authentication context
+- The “Visualize SharePoint List in Power BI” feature does not currently support authentication context
 
 ## Setting up an authentication context
 
