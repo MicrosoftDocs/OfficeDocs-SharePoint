@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 07/17/2023
 title: "Find your Microsoft 365 tenant ID"
 ms.reviewer: 
 ms.author: mikeplum
@@ -30,7 +30,7 @@ Your Microsoft 365 tenant ID is a globally unique identifier (GUID) that is diff
   
 **To find your Microsoft 365 tenant ID in the Azure AD admin center**
 
-Your tenant ID can be found in the **Tenant ID** box on the [Properties page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+Your tenant ID can be found in the **Tenant ID** box on the [Overview page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView).
 
 ![The Directory Properties pane in the Azure Admin Center dashboard](media/tenant-id-image.png)
   
