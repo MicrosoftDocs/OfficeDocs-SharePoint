@@ -24,6 +24,13 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 
 Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
+A scan/migration task presents as a row in the Migration Manager scan/migration list. The task equals to: 
+
+- **Google Drive:** Personal or Shared Drive
+- **Dropbox:** Member or Team folder
+- **Box:** User, Admin, or Co-admin
+- **Egnyte:** Private or Shared folder
+
 ## Reports
 
 Use these reports to help manage, audit, and troubleshoot your migration process.
@@ -44,8 +51,10 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 |Summary|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |Summary|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
->[!Note]
->These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
+>[!Important]
+>These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
+>
+>These reports expire in 90 days. Microsoft doesn't retain the raw data (the log files).
 
 ## Failure and status codes 
 
@@ -56,10 +65,21 @@ Your reports may reference a failure or status code to provide specific details 
 
 ## How to download reports
 
-Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. You can select up to 100 tasks for each report type.
+Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. 
+
+There are limits on the number of tasks can be selected for bulk download for each report type: 
+
+|Report type|Number of tasks allowed per download|
+|:-----|:-----|
+|Scan summary report|1000| 
+|Scan detailed report|100 |
+|Migration summary report|1000|
+|Migration detailed report|100|
 
 >[!Note]
->Reports are processed one at a time, even when selecting multiple tasks and downloading the reports in bulk.
+>For each report type, only one can be processed at a time. For example, there can’t be two scan summary reports running simultaneously.
+>
+>The option to download all summary reports when no drives are selected is disabled. To download multiple summary reports efficiently, use the multi-select or select-all function on tasks.
 
 
 ### Download Scan reports
@@ -268,7 +288,7 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |FilesAlreadyCopied|Files already migrated to the destination from previous migrations or already exist in the destination.|
 |FilesFiltered|Files not migrated due to migration filter setting.|
 |FilesFailed|Files that failed in the migrating process.|
-|DataTotalCopied|File level permission migration is set to be on or off.|
+|DataTotalCopied|Total data size (in bytes) that has been migrated to the destination from all migrations ever initiated.|
 |DataLatestCopied|Data size (in bytes) migrated to the destination in the latest migration.|
 |DataAlreadyCopied|Data size (in bytes) already migrated to the destination from previous migrations or already exists in the destination.|
 |DataFiltered|Data size (in bytes) not migrated due to migration filter setting.|
@@ -287,7 +307,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MAUTHACCESSTOKEN|Connector authorization failure. Failed to get access token.|Unexpected error. Try again.|
 |MAUTHACCESSTOKENINVALID|Connector authorization failure. The API request failed because the access token is invalid or expired.|Retry.|
 |MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service isn't allowing to connect as it doesn't recognize the caller.|Try again.|
-|MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|To authorize this connector, you need to grant permissions to the Mover application. Try again.|
+|MAUTHMOVERAPP|Microsoft 365 migration app needs to be authorized in source account.|Sign in to the source account and grant permission to the Microsoft 365 migration app. Try again.|
 |MAUTHNOCODE|Connector authorization failed as auth code isn't provided.|Try again.|
 |MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|Unexpected error. Try again.|
 |MAUTHNOIDTOKEN|Connector authorization failure. Failed to get ID token from access token.|Unexpected error. Try again.|
