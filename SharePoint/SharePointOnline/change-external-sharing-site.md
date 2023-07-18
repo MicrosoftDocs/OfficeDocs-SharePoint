@@ -68,7 +68,7 @@ To change the external sharing setting:
 |Existing guests  |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (These users have **#EXT#** in their user principal name.)  |
 |Only people in your organization  |Prevent all site users from sharing any site content externally.  |
 
-The settings available are dependent on your organization-level setting. If you enable external sharing for a site and it's later turned off for your organization, external sharing will become unavailable at the site level and any shared links will stop working. If it's turned back on for the organization, the site sharing setting will return to what it was before and the shared links will resume working.
+The settings available are dependent on your organization-level setting. If you enable external sharing for a site and it's later turned off for your organization, external sharing will become unavailable at the site level and any shared links will stop working. If it's turned back on for the organization, the site sharing setting returns to what it was before and the shared links resume working.
 
 > [!NOTE]
 > You might have site content shared with a Microsoft 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site, guests of the group may not be able to access site content. To enable or disable Microsoft 365 Group guest member access, see [Manage guest access in Microsoft 365 Groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups).
