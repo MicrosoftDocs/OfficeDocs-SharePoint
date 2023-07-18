@@ -16,6 +16,8 @@ description: "Learn how to configure the One Customer Voice (OCV) feedback."
 
 # Configure the One Customer Voice (OCV) feedback
 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
+
 Microsoft aspires to bring the best possible experiences for users around the world through its innovative product offerings. Play a key role in helping Microsoft build the features that you need as we develop our products or services.
 
 SharePoint Server uses One Customer Voice (OCV) as our 1st-party solution to collect customer feedback from the farm administrators. Your feedback goes directly to our engineers and helps us shape the future of SharePoint Server and services for our users.
@@ -61,10 +63,10 @@ You can disable or enable the OCV feedback function using one of the following o
   2.  Use the following cmdlet to enable the OCV for current admin: 
 
       ```
-      Enable-OCVForUser  -UserSid $user.Sid 
+      Enable-OCVForUser-UserSid $user.Sid 
       ```
 
-     This **$user** is obtained from Step 1. 
+     This `$user` is obtained from Step 1. 
   
 ## To disable OCV feedback for current Farm 
 
