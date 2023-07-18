@@ -65,8 +65,7 @@ This `$user` is obtained from Step 1.
       ```
       Enable-OCVForUser-UserSid $user.Sid 
       ```
-
-     This `$user` is obtained from Step 1. 
+This `$user` is obtained from Step 1. 
   
 ## To disable OCV feedback for current Farm 
 
