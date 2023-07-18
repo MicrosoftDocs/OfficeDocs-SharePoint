@@ -38,7 +38,7 @@ There are two basic ways that you, as an administrator, can deploy the OneDrive 
 ## Manage OneDrive settings on macOS using property list (.plist) files
 
 After the OneDrive sync app for Mac is installed, users can configure settings for the app. These settings are called preferences. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the OneDrive sync app for Mac are stored in property list (.plist) files.
-  
+
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
 |**.plist location**  |~/Library/Preferences/com.microsoft.OneDrive.plist  |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  |
@@ -76,6 +76,7 @@ Use the following keys to pre-configure or change settings for your users. The k
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
 - [EnableAllOcsiClients](deploy-and-configure-on-macos.md#enableallocsiclients)
 - [EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)
+- [EnableSyncAdminReports](deploy-and-configure-on-macos.md#enablesyncadminreports)
 - [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
@@ -290,6 +291,21 @@ The example for this setting in the .plist file is:
 <array>
 <string>(Keyword such as *.PST)</string>
 </array>
+```
+
+### EnableSyncAdminReports
+
+<a name="EnableSyncAdminReports"> </a>
+
+This setting lets the OneDrive sync app report device and health data that's to be included in sync admin reports. You must enable this setting on the devices you want to get reports from. For more information about these reports, see [OneDrive sync reports in the Apps Admin Center](/sharepoint/sync-health?tabs=macos).
+
+If you disable or don't configure this setting, OneDrive sync app device and health data won't appear in the sync admin reports.
+
+The following example shows how this setting looks like in the .plist file:
+
+```xml
+<key>EnableSyncAdminReports</key>
+<integer>1</integer>
 ```
 
 ### FilesOnDemandEnabled
