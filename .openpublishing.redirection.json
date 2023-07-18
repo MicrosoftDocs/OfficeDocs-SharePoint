@@ -1026,6 +1026,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/get-started-new-admin-center.md",
+      "redirect_url": "/sharepoint/manage-sites-in-new-admin-center",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/enable-or-disable-preview-features.md",
       "redirect_url": "/microsoft-365/admin/manage/release-options-in-office-365",
       "redirect_document_id": false
