@@ -71,24 +71,26 @@ Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web appli
 
 ## Test and verify AMSI integration with SharePoint Server
 
-You can now test and verify the Antimalware Scan Interface (AMSI) feature by including a test string in the requests that you send to the SharePoint Server. The test string isn’t dangerous, but if AMSI integration is enabled in SharePoint Server and is using Microsoft Defender as its malware detection engine, then Microsoft Defender detects the string and blocks the request as if it was malicious.
+You can test the Antimalware Scan Interface (AMSI) feature to verify that it's working correctly. This involves sending a request to SharePoint Server with a special test string that Microsoft Defender recognizes is for testing purposes. This test string isn't dangerous, but Microsoft Defender will treat it as if it was malicious so you can confirm how it will behave when it encounters malicious requests. 
 
-The test string is similar to [EICAR test file](https://www.eicar.org/download-anti-malware-testfile/) but differs slighly to avoid URL encoding confusion.
+If AMSI integration is enabled in SharePoint Server and is using Microsoft Defender as its malware detection engine, the presence of this test string will result in the request being blocked by AMSI instead of being processed by SharePoint.
 
-You can verfiy the test string by using either in a query string or including in a HTTP header in your request to the SharePoint Server.
+The test string is similar to the [EICAR test file](https://www.eicar.org/download-anti-malware-testfile/) but differs slightly to avoid URL encoding confusion.
 
-Query string:
+You can test AMSI integration by adding the test string as either a query string or an HTTP header in your request to SharePoint Server.
+
+### Use a query string to test AMSI integration
 
 ```
-amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 ```
  
-**For example**: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h.
+**For example**: send a request to https://servername/sites/sitename?amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 
-HTTP header:
+### Use an HTTP header to test AMSI integration
 
 ```
-amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 ```
 
 **For example**: send a request that looks like the following.
@@ -96,7 +98,7 @@ amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
 ```
 GET /sites/sitename HTTP/1.1
 Host: servername
-amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h
+amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 ```
 
 Microsoft Defender detects this as the following exploit:
