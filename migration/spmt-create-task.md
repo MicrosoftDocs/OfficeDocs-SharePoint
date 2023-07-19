@@ -21,13 +21,10 @@ search.appverid: MET150
 description: "Learn now to create a migration task using the SharePoint Migration Tool (SPMT)."
 ---
 
-# Step 2: Create a migration task with SPMT
+# Step 3: Create a migration task with SPMT
 
 When creating a migration task, you can choose to migrate your sites, just your SharePoint Server lists or document libraries, or choose to modernize your site collection structure.  A bulk method is also available, letting you enter all your task information into a CSV or JSON file and uploading the file into SPMT.
 
-
-> [!NOTE]
-> The site structure feature shown in the "Site migration" steps, is currently in **public preview** and subject to change without notice.
 
 ## Migration types
 
@@ -46,18 +43,21 @@ When creating a migration task, you can choose to migrate your sites, just your 
 
 ## Site migration
 
+>[!Note]
+>If you haven't scanned your site, learn how [Scan and assess a SharePoint Server site](spmt-scan.md)
+
 1. Start SPMT, and then enter your Microsoft 365 username and password.
 2. Select **Add new migration**.
 
-:::image type="content" source="media/spmt-new-first-action-page.png" alt-text="SPMT first page to take action":::
+   :::image type="content" source="media/spmt-new-first-action-page.png" alt-text="SPMT first page to take action":::
 
 3. Under **Select a method**, choose **Single source URL**.
 
-:::image type="content" source="media/spmt-select-migration-method.png" alt-text="select method of migration":::
+   :::image type="content" source="media/spmt-select-migration-method.png" alt-text="select method of migration":::
 
 4. Select **Site migration** as your migration type.
 
-:::image type="content" source="media/spmt-select-migration-type.png" alt-text="select your type of migration":::
+   :::image type="content" source="media/spmt-select-migration-type.png" alt-text="select your type of migration":::
 
 5. Enter the URL of the SharePoint Server site that you want to migrate, and then select **Next**.
 Note:  If not already logged in you may be prompted for the username and password to the SharePoint Server site; it can be UserID or user email. 

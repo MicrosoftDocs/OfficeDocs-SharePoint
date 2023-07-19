@@ -1,6 +1,6 @@
 ---
-ms.date: 11/09/2022
-title: "Scan and review a SharePoint Server site using SPMT"
+ms.date: 07/19/2023
+title: "Step 2 - Scan and assess a SharePoint Server site using SPMT"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -23,14 +23,9 @@ ms.custom:
 - seo-marvel-mar2020
 description: "Learn how to scan and review a SharePoint Server site using the SharePoint Migration Tool."
 --- 
-# Scan and assess a SharePoint Server site with SPMT
+# Step 2:  Scan and assess a SharePoint Server site with SPMT
 
-> [!NOTE]
-> This feature is currently in public preview and subject to change without notice. Normal service level agreements do not apply.
->
->To use this feature, download the [SPMT 4.0 public preview](https://aka.ms/spmt-beta-page).
-
-The SharePoint Migration Tool (SPMT) 4.0 integrates SharePoint Server assessment directly in the tool. You can now scan your source sites before migration, review the assessment results, and make any changes before you start your migration.
+The SharePoint Migration Tool (SPMT) 4.0 and higher integrates SharePoint Server assessment directly in the tool. You can scan your source sites before migration, review the assessment results, and make any changes before you start your migration.
 
 To learn more about scan assessment risk codes, see [SPMT scan assessment error codes](/sharepointmigration/spmt-scan-risk-codes)]
 
