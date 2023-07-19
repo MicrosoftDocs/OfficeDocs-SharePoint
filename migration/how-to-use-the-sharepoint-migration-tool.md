@@ -1,6 +1,6 @@
 ---
-ms.date: 03/13/2018
-title: "How to use SharePoint Migration Tool"
+ms.date: 07/19/2023
+title: "Step 1 - Install the SharePoint Migration Tool (SPMT)"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

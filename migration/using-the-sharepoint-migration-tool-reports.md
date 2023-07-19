@@ -1,6 +1,6 @@
 ---
 ms.date: 04/05/2018
-title: "Assess SharePoint Migration Tool reports"
+title: "Step 4 - Monitor and reporting status of your SPMT migration tasks"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
