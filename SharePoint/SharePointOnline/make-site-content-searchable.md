@@ -88,7 +88,7 @@ As a site owner, you can decide whether items in lists and libraries on your sit
 To prevent items from the list or library to appear in search results, select **No**.
 
 > [!NOTE]
-> The Preservation Hold library is a hidden system location that isn't designed to be used interactively but instead, automatically stores files when this is needed for compliance reasons. Additionally, because the libary is marked as hidden, the content will not be crawled and, therefore, will not show via end user search results. 
+> The Preservation Hold library is a hidden system location that isn't designed to be used interactively but instead, automatically stores files when this is needed for compliance reasons. Additionally, because the libary is marked as hidden, the content will be crawled only for eDiscovery searches and will not show via site admin or end user search results. 
   
 ## Show contents of ASPX pages in search results
 <a name="__toc356211703"> </a>
