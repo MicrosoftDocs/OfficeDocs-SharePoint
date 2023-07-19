@@ -140,7 +140,7 @@ The following diagram shows how you should set up your site architecture so that
 
 When you use variations on your publishing site as described in scenario 3, your sites are not hosted on the top-level domain of the respective country/region code, such as www.contoso.com, www.contoso.no, and www.contoso.de. Instead, the URLs are www.contoso.com/en-us, www.contoso.com/nb-no, and www.contoso.com/de-de. When sites aren't hosted on the top-level domain of the respective country/region code, search engines such as Bing or Google might rank search results identically for all language versions of your site.
   
-For example, consider a company that sells washing machines in different countries. The most popular washing machine in a small country, for example Norway, differs from the most popular washing machine in a large country, for example Germany. This means that if someone searches for a Contoso washing machine in Norway, it's possible that the search results will show the most popular washing machine in Germany high up in the search results because overall this is the most popular washing machine.
+For example, consider a company that sells washing machines in different countries/regions. The most popular washing machine in a small country, for example Norway, differs from the most popular washing machine in a large country, for example Germany. This means that if someone searches for a Contoso washing machine in Norway, it's possible that the search results will show the most popular washing machine in Germany high up in the search results because overall this is the most popular washing machine.
   
 To show differences in local search engine rankings, you must use locale-specific site collections on your publishing site (scenario 1 and 2).
   

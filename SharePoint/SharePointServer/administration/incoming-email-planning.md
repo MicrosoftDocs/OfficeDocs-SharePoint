@@ -49,7 +49,10 @@ Before configuring incoming email, you must perform the following tasks:
 - The advanced scenario mainly applies to a multiple server farm. If you're using the advanced scenario, you can use one or more servers in the server farm to run the SMTP service and to have a valid SMTP server address. Alternatively, you must know the name of a server outside the farm that is running the SMTP service and the location of the email drop folder.
     
 For more information about installing the SMTP service, see [Configure incoming email for a SharePoint Server farm](incoming-email-configuration.md).
-  
+
+> [!Important] 
+> The “Automatic Mode” used in the "basic scenario" utilizes a local IIS SMTP service.  That functionality was [removed from SharePoint Server 2019](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019.md#incoming-email-automatic-mode) and SharePoint Server Subscription Edition.  Administrators should instead use “Advanced Mode” and configure an e-mail drop folder, as detailed in [Does SharePoint 2019 still need the SMTP Service](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/does-sharepoint-2019-still-need-the-smtp-service/ba-p/307705).
+
 ## Key decisions for planning incoming email
 <a name="section2"> </a>
 
@@ -58,6 +61,9 @@ When planning incoming email, you must decide whether to use a basic or an advan
 ### Using a basic scenario
 
 You can enable a basic incoming email scenario by installing the SMTP service on the server running SharePoint Server and enabling incoming email by using the automatic settings mode with all default settings. In this scenario, email is delivered directly to your SMTP server and SharePoint Server periodically checks for email in the default email drop folder that is automatically configured by the SMTP service.
+
+> [!NOTE]
+> Automatic mode is not available in SharePoint Server 2019 or SharePoint Server Subscription Edition.
   
 Selecting the automatic settings mode and accepting all the default settings is the easiest way to enable incoming email because all configuration settings are made for you and, therefore, little expertise is required. For most organizations, this configuration is all that is needed.
   
@@ -193,7 +199,7 @@ As a farm administrator, you have two settings modes from which to choose when e
   
   
 > [!NOTE]
-> Automatic mode is not available in SharePoint Server 2019.
+> Automatic mode is not available in SharePoint Server 2019 or SharePoint Server Subscription Edition.
 
 The following table describes the configuration options and whether they are configured on the **Configure Incoming E-Mail Settings** page in Central Administration by using the automatic settings mode or the advanced settings mode. 
   
