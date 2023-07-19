@@ -55,7 +55,7 @@ For site migrations, you
 
 3. Under **Select a method**, choose **Single source URL**.
 
-:::image type="content" source="media/spmt-select-method.png" alt-text="select method of migration":::
+:::image type="content" source="media/spmt-select-migratoin-method.png" alt-text="select method of migration":::
 
 4. Select **Site migration** as your migration type.
 
