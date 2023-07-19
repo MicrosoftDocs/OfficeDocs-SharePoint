@@ -87,8 +87,6 @@ Note:  If not already logged in you may be prompted for the username and passwor
 14. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
 
-
-
 ## List and document library migration
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
