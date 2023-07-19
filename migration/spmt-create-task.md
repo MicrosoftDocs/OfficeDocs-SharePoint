@@ -46,8 +46,6 @@ When creating a migration task, you can choose to migrate your sites, just your 
 
 ## Site migration
 
-For site migrations, you 
-
 1. Start SPMT, and then enter your Microsoft 365 username and password.
 2. Select **Add new migration**.
 
@@ -55,7 +53,7 @@ For site migrations, you
 
 3. Under **Select a method**, choose **Single source URL**.
 
-:::image type="content" source="media/spmt-select-migratoin-method.png" alt-text="select method of migration":::
+:::image type="content" source="media/spmt-select-migration-method.png" alt-text="select method of migration":::
 
 4. Select **Site migration** as your migration type.
 
@@ -64,7 +62,7 @@ For site migrations, you
 5. Enter the URL of the SharePoint Server site that you want to migrate, and then select **Next**.
 Note:  If not already logged in you may be prompted for the username and password to the SharePoint Server site; it can be UserID or user email. 
 6. For site migration, select **This site and all subsites**.
-7. Under select a destination, either **Microsoft Teams** or **SharePoint**.
+7. Under select a destination, choose **SharePoint**.
 8. Enter the SharePoint site where you want to migrate your content.
 9. Select a site structure.  Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
 
