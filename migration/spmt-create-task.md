@@ -82,9 +82,9 @@ Note:  If not already logged in you may be prompted for the username and passwor
 
     ![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
 
-13. Review and edit destination URL for each subsite as needed.
+13. Review your migration. Select **Next** to review your migration settings.
 
-14. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+14. Select **Start** to begin migration your content.
 
 
 ## List and document library migration
