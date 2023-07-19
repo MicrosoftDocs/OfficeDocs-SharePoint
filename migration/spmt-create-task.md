@@ -44,7 +44,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 ## Site migration
 
 >[!Note]
->If you haven't scanned your site, learn how [Scan and assess a SharePoint Server site](spmt-scan.md)
+>If you haven't scanned your site, learn more: [Scan and assess a SharePoint Server site](spmt-scan.md)
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
 2. Select **Add new migration**.
@@ -156,5 +156,5 @@ When this setting is on, an incremental check of the SharePoint target environme
 >We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
 
 
-## [**Step 3: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
+## [**Step 4: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
 

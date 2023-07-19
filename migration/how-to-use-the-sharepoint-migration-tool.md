@@ -110,25 +110,9 @@ If you wish to leverage your system proxy settings, use one of these methods:
 7. Restart SPMT.
 </br></br>
 
-## [**Step 2: Create a migration task**](spmt-create-task.md) 
+## [**Step 2: Scan and assess a SharePoint site (site migration only)**](spmt-scan.md) 
 </br></br>    
 
 > [!NOTE]
 > Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.
-
-   
-## Related Topics
-<a name="BKMK_Settings"> </a>
-
-[Introducing the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
-  
-[How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
-  
-[How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
-  
-[Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
-  
-[SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
-  
-[Microsoft 365 community support](/answers/products/m365)
 
