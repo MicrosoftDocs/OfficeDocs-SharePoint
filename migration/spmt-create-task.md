@@ -89,40 +89,26 @@ Note:  If not already logged in you may be prompted for the username and passwor
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
 2. Select Select **Add new migration**.
-3. Select **SharePoint Server**.
-4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.
-5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-6. Select the document library where your files are located from the dropdown list.
-7. Enter the URL of the SharePoint site where you want your files migrated.
-8. Select the document library to where your files will be copied.
-9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add another task**.
+3. Under **Select a method**, choose **List or document library migration**.
+4. Enter the URL of the list or library you want to migrate. Select a list or library from the dropdown list.  Select **Next**.
+5. Select a destination:  **Microsoft Teams**, **SharePoint**, or **OneDrive**. Enter the URL, email address, or Team name where you want to migrate. Select **Next**.
+6. Enter the list destination. Select **Next**.
+7.Select **Next** to review settings. Select **Start** to begin migration.
 
 ## Workflow migration
 
-> [!TIP]
-> For a complete overview and solution on migrating SharePoint Server workflows, see:
->
-> - [**Migrating SharePoint Workflows with SPMT**](/sharepointmigration/spmt-workflow-overview)
+For a complete overview and step by step solution on migrating SharePoint Server workflows, see:
+<br>
+[**Migrating SharePoint Workflows with SPMT**](/sharepointmigration/spmt-workflow-overview)
 
-Steps:
-
-1. Start SPMT, and then enter your Microsoft 365 username and password.
-2. Select **Start your first migration**.
-3. Select **Workflow migration**.
-4. Enter the URL of the SharePoint Server workflow you want to migrate and select which workflows to include in the migration. Select **Next**.
-5. Enter your destination; the SharePoint site and list where you want to migrate your content.  If the site or the list doesn't currently exist, they will be created for you. Select **Next**.
-6. Review your migrations.  Select **Add another task** to select another set of files to migrate.
 
 ## Bulk migration
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
-2. Select **Start your first migration**.
+2. Select **Add a new migration**.
 3. Select **JSON or CSV file for bulk migration.**
-
-    ![select the bulk upload option](media/spmt-csv-json-select.png)
-
 4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.
 
    > [!NOTE]
@@ -131,7 +117,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
    > If any errors appear in your file, it is detected on a line-by-line basis. The error indicates which line or lines contain(s) the errors. You cannot proceed until you correct the errors in your file.
 
 5. If you want to select another set of data files to migrate, select **Add another migration**. If not, select **Next**.  Or choose if you want to save this task for later.
-6. Review your settings, and the select **Migrate**.
+6. Review your settings, and the select **Start**.
 
 ## Resuming migration jobs
 
