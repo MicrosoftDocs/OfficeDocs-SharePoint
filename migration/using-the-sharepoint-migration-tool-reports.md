@@ -1,5 +1,5 @@
 ---
-ms.date: 04/05/2018
+ms.date: 07/19/2023
 title: "Step 4 - Monitor and reporting status of your SPMT migration tasks"
 ms.author: jhendr
 author: JoanneHendrickson
