@@ -1,5 +1,5 @@
 ---
-ms.date: 06/22/2023
+ms.date: 07/19/2023
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: serdars
