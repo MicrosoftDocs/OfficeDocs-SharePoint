@@ -37,7 +37,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 
 ## Before you begin
 
-- **Username and password**. When you first open SPMT, you are prompted for your Microsoft 365 username and password. The credentials you provide must be to the migration *destination*.
+- **Username and password**. When you first open SPMT, you're prompted for your Microsoft 365 username and password. The credentials you provide must be to the migration *destination*.
 - **Proxy connections are not supported.** Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library".
 - If you have already signed in to the destination site already while using SPMT, you won't be prompted again for the same site credentials.
 
@@ -88,7 +88,7 @@ Note:  If not already logged in you may be prompted for the username and passwor
 ## List and document library migration
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
-2. Select Select **Add new migration**.
+2. Select **Add new migration**.
 3. Under **Select a method**, choose **List or document library migration**.
 4. Enter the URL of the list or library you want to migrate. Select a list or library from the dropdown list.  Select **Next**.
 5. Select a destination:  **Microsoft Teams**, **SharePoint**, or **OneDrive**. Enter the URL, email address, or Team name where you want to migrate. Select **Next**.
@@ -132,7 +132,7 @@ If you need to close SPMT before a submitted job has completed, you can restart 
 
 2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
 
-3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs will be resumed. If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site.
+3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs are resumed. If you're migrating files from an on-premises SharePoint Server, you're prompted for your username and password for that site.
 
 ## Incremental migration
 
@@ -145,8 +145,8 @@ When this setting is on, an incremental check of the SharePoint target environme
 
 |Status|Result|
 |---|---|
-|Modified time of the source file is earlier than the modified time of the target file.|File will not be migrated.|
-|Files or lists exist in the SharePoint target location.|Migration will skip those existing objects during scan.|
+|Modified time of the source file is earlier than the modified time of the target file.|File won't be migrated.|
+|Files or lists exist in the SharePoint target location.|Migration skips those existing objects during scan.|
 |Time stamp on files or object in the source location is newer in the source.|The newer files are migrated.|
 |Source is a file share.|Validation for migration will be based on the file/folder path.|
 |Source is an on-premises SharePoint Server.|Validation for migration will be based on list item GUID. Use the folder path as a fallback.|
