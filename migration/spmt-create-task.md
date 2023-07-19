@@ -25,6 +25,7 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
 When creating a migration task, you can choose to migrate your sites, just your SharePoint Server lists or document libraries, or choose to modernize your site collection structure.  A bulk method is also available, letting you enter all your task information into a CSV or JSON file and uploading the file into SPMT.
 
+
 > [!NOTE]
 > The site structure feature shown in the "Site migration" steps, is currently in **public preview** and subject to change without notice.
 
@@ -45,37 +46,32 @@ When creating a migration task, you can choose to migrate your sites, just your 
 
 ## Site migration
 
+For site migrations, you 
+
 1. Start SPMT, and then enter your Microsoft 365 username and password.
-2. Select **Start your first migration**.
-3. Select **SharePoint Server**.
-4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.
-5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-6. For site migration, select **Include all subsites**.  Don't select a document library or list as the site will be migrated.
-7. Enter the URL of the SharePoint site where you want your files migrated.
-8. Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
+2. Select **Add new migration**.
 
-    ![choose your site structure ](media/spmt-site-structure-choice.png)
+:::image type="content" source="media/spmt-new-first-action-page.png" alt-text="SPMT first page to take action":::
 
-9. If you chose **Switch to modern site structure**, select if you want the promoted level-one subsites associated with a hub.
+3. Under **Select a method**, choose **Single source URL**.
 
-   ![select a site structure hub association](media/spmt-select-hub-association.png)
+:::image type="content" source="media/spmt-select-method.png" alt-text="select method of migration":::
 
-10. If you chose to associate with a hub, select if you want to register your destination as a hub or associate the sites with an existing hub.
+4. Select **Site migration** as your migration type.
 
-    ![spmt-site-structure-associate-destination-register-hub](media/spmt-site-structure-associate-destination-as-hub.png)
+:::image type="content" source="media/spmt-select-migration-type.png" alt-text="select your type of migration":::
 
-11. If you selected to associate the promoted level-one subsites with an existing hub, select the hub name from the dropdown list, and select **Next**.
-
-    ![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
-
-12. Review and edit destination URL for each subsite as needed.
-
-13. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+5. Enter the URL of the SharePoint Server site that you want to migrate, and then select **Next**.
+Note:  If not already logged in you may be prompted for the username and password to the SharePoint Server site; it can be UserID or user email. 
+6. For site migration, select **This site and all subsites**.
+1. Select a destination, either **Microsoft Teams** or **SharePoint**.
+1. Enter the SharePoint site where you want to migratino your content.
+1. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
 ## List and document library migration
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
-2. Select **Start your first migration**.
+2. Select Select **Add new migration**.
 3. Select **SharePoint Server**.
 4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.
 5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
