@@ -108,7 +108,7 @@ Exploit:Script/SharePointEicar.A
 ```
 
 > [!NOTE]
-> If you are using a malware detection engine other than Microsoft Defender, then you should check with your malware detection engine vendor to determine the best way to test your integration with the AMSI feature in SharePoint Server.
+> If you are using a malware detection engine other than Microsoft Defender, then you should check with your malware detection engine vendor to determine the best way to test its integration with the AMSI feature in SharePoint Server.
 
 ## Other references
 
