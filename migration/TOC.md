@@ -43,9 +43,10 @@
 ### Migrate SharePoint Server sites and content with SPMT
 #### [Overview](introducing-the-sharepoint-migration-tool.md)
 #### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
-#### [Step 2: Create a migration task](spmt-create-task.md)
-#### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-#### [Scan and assess a SharePoint Server site with SPMT (public preview)](spmt-scan.md)
+#### [Step 2: Scan and assess (for site migration only)](spmt-scan.md)
+#### [Step 3: Create a migration task](spmt-create-task.md)
+#### [Step 4: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+
 ### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
