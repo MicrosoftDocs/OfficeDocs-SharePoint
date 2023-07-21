@@ -16,7 +16,7 @@ description: "Learn how to configure the One Customer Voice (OCV) feedback."
 
 # Configure the One Customer Voice (OCV) feedback
 
-[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 Microsoft aspires to bring the best possible experiences for users around the world through its innovative product offerings. Play a key role in helping Microsoft build the features that you need as we develop our products or services.
 
@@ -63,7 +63,7 @@ This `$user` is obtained from Step 1.
   2.  Use the following cmdlet to enable the OCV for current admin: 
 
       ```
-      Enable-OCVForUser-UserSid $user.Sid 
+      Enable-OCVForUser -UserSid $user.Sid
       ```
 This `$user` is obtained from Step 1. 
   
