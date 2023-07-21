@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c5b49fbd-4c1a-4188-a509-373298e92c1b
-description: "SharePoint server supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6)."
+description: "SharePoint Server supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6)."
 ---
 
 # IP support in SharePoint Server
@@ -26,9 +26,9 @@ SharePoint Server supports the following environments:
   
 - IPv4-only
     
-    In an IPv4-only environment, the network infrastructure supports address assignment, name registration and resolution, and routing for only IPv4-based network traffic. If the network infrastructure doesn't support IPv6 traffic, SharePoint uses IPv4 traffic.
+    In an IPv4-only environment, the network infrastructure supports address assignment, name registration and resolution, and routing for only IPv4-based network traffic.
     > [!NOTE]
-    > Even in an IPv4-only environment, the recommendation is that you leave IPv6 enabled on your Windows-based computers.
+    > Even in an IPv4-only environment, the recommendation is that you leave IPv6 enabled on your Windows-based computers. If the network infrastructure doesn't support IPv6 traffic, SharePoint uses IPv4 traffic.
     
 - Mixed IPv4 and IPv6
     
@@ -46,13 +46,13 @@ In a SharePoint environment, "mixed" can be defined as one of the following like
     
 - Your client computers are using only IPv4, but the server computers are using both IPv4 and IPv6.
 
-By default, the IPv6 protocol and the IPv4 protocol are both installed and enabled in Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista, and Windows Server 2008. When both IPv4 and IPv6 are enabled, IPv6 is preferred over IPv4 when you're using names and Domain Name System (DNS) name query responses contain both types of addresses. Additionally, you can remove the IPv4 protocol so that the computer runs only IPv6.
+By default, the IPv6 protocol and the IPv4 protocol are both installed and enabled on Windows 7 and newer client operating systems, and Windows Server 2008 and newer server operating systems. When both IPv4 and IPv6 are enabled, IPv6 is preferred over IPv4 when you're using names and Domain Name System (DNS) name query responses contain both types of addresses. Additionally, you can remove the IPv4 protocol so that the computer runs only IPv6.
   
 To determine which versions are being used on your network, you can use the IPConfig.exe tool. If the display of the [IPConfig](/previous-versions/windows/it-pro/windows-2000-server/cc940124(v=technet.10)) command at a Command Prompt contains rows named "IPv6 Address" or "Temporary IPv6 Address," you have IPv6 in your environment. If all of the IPv6 addresses begin with "fe80" and correspond to rows named "Link-Local IPv6 Address," you don't have IPv6 in your environment. For more information, see [IPConfig](/previous-versions/windows/it-pro/windows-2000-server/cc940124(v=technet.10)).
   
 The following list shows other important considerations about IPv6:
   
-- For any computer that is authenticated by using a domain controller and is only running IPv6 in a SharePoint Server environment, the domain controller must be running Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2. Ensure that you use the correct service pack and any other software prerequisites. For more information, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
+- For any computer that is authenticated by using a domain controller and is only running IPv6 in a SharePoint Server environment, the domain controller must be running Windows Server 2008 and newer server operating systems. Ensure that you use the correct service pack and any other software prerequisites. For more information, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
     
 - All versions of SQL Server supported for SharePoint Server also support IPv6. For more information about IPv6 support for SQL Server 2008, see [Connecting Using IPv6](https://go.microsoft.com/fwlink/p/?LinkId=183115). 
     
