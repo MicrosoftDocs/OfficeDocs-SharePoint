@@ -29,7 +29,7 @@ description: "In this article, you learn how to allow only users in specified se
 
 You can use restricted access control policy for OneDrive to allow only users in specified security groups to access OneDrive. Restricted access control of a OneDrive account and its content is managed using SharePoint PowerShell or SharePoint admin center. Even if other users outside of these security groups are licensed for OneDrive, they can't access to their own OneDrive or any shared OneDrive content.
 
-You can use restricted access cintril to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
+You can use restricted access control to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
 
 ## Requirements
 
