@@ -203,15 +203,19 @@ To access and use this feature, your organization must:
 
 - Subscribe to Microsoft Syntex - SharePoint Advanced Management.
 - Enable restricted access control for your organization in SharePoint admin center:
-   1. Expand **Policies** and select **Access control**.
-   2. Select **Site access restriction**.
-   3. Select **Allow access restriction** box to manage restricted access control for the site.
+  1. Expand **Policies** and select **Access control**.
+  2. Select **Site access restriction**.
+  3. Select **Allow access restriction** box.
+
+Now you can manage restricted access control for SharePoint sites from the SharePoint admin center. :::image type="content" source="media/RAC SPAC/1-RAC-SPAC-dashboard.png" alt-text="RAC SPAC dashboard":::
 
 ### Teams and Microsoft 365 group-connected site (SharePoint admin center)
 
-You can enable restricted access control for your group-connected or Teams-connected sites using Microsoft 365 group membership. Members of the Microsoft 365 group connected to the site are granted access to the site and its content. Users who aren't members of the Microsoft 365 group can't access the site and its content.
+You can enable restricted access control for your group-connected or Teams-connected sites using Microsoft 365 group membership. Members of the Microsoft 365 group connected to the site are granted access to the site and its content. Users who aren't members of the Microsoft 365 group can't access the site and its content. :::image type="content" source="media/RAC SPAC/Teams and M365 connected sites/2-RAC-SPAC-Teams-M365-connected-sites.png" alt-text="Group-connected site enabled":::
 
 #### Enable restricted access control for group-connected sites using SharePoint admin center
+
+To enable restricted access control for a group-connected site:
 
 1. Go to SharePoint admin center, expand **Sites** and select **Active sites**.
 2. Select the site you want to manage and the site details panel appears.
@@ -236,6 +240,8 @@ To remove restricted access control policy from a group-connected or Teams-conne
 4. Deselect the **Restrict access to this site** box.
 5. Select **Save**.
 
+Restricted access control is disabled for the site.
+
 ### Sites not connected to Teams or Microsoft 365 groups (SharePoint admin center)
 
 With restricted access control, you can restrict site access to members of specified Azure AD security groups. Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. You can apply restricted access control on a site with up to 10 security groups. Dynamic membership of security groups is also supported for restricted access control policy.
@@ -249,16 +255,11 @@ To apply restricted access control policy to a non-group connected site:
 3. In **Settings** tab, select **Edit** in the **Restricted site access** section.
 4. Enter the security group you want to add in the **Add security group** field and select **Save**.
 
-> [!NOTE]
-> For restricted access control to be enforced on the site, you must add at least one security group.
->
-> You can add up to 10 security groups for a given site.
->
-> All users in the security group will automatically have access to the site.
+For restricted access control to be enforced on the site, you must add at least one security group. You can add up to 10 security groups for a given site. All users in the security group will automatically have access to the site. :::image type="content" source="media/RAC SPAC/Non-group connected sites/3-RAC-SPAC-Teams-non-group-connected-sites-enabled.png" alt-text="enable rac on non-group connected site"::: :::image type="content" source="media/RAC SPAC/Non-group connected sites/4-RAC-SPAC-non-group-connected-sites-enabled-added-security-groups.png" alt-text="rac security groups added to non-group connected sites":::
 
-#### Remove restricted access control security groups from a non-group site using SharePoint admin center
+#### Remove security groups from a non-group site using SharePoint admin center
 
-To remove restricted access control security group from non-group site:
+To remove restricted access control security groups from a non-group site:
 
 1. In SharePoint admin center, expand **Sites** and select **Active sites**.
 2. Select the site you want to manage and the site details panel appears.
@@ -278,8 +279,7 @@ To remove restricted access control policy from a non-group connected site:
 4. Deselect the **Restrict SharePoint site access to only users in specified security groups** box.
 5. Select **Save**.
 
-> [!NOTE]
-> The security groups added for this setting are also added to the ***SharePoint members group*** for the site. When disabling the setting, it is recommended to review site permissions and remove users who no longer need access to the site.
+The security groups added to this setting are also added to the ***SharePoint members group*** for the site. When disabling the setting, it is recommended to review site permissions and remove users who no longer need access to the site.
 
 ## Shared channel sites
 
