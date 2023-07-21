@@ -38,8 +38,8 @@ Using authentication context with SharePoint sites requires one of the following
 
 - Microsoft Syntex - SharePoint Advanced Management
 - Microsoft 365 E5/A5/G5
-- Microsoft 365 E5/A5/G5/F5 Compliance
-- Microsoft 365 E5/F5 Information Protection and Governance
+- Microsoft 365 E5/A5 Compliance
+- Microsoft 365 E5 Information Protection and Governance
 - Office 365 E5/A5/G5
 
 ## Limitations
