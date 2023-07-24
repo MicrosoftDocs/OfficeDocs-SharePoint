@@ -2,6 +2,23 @@
 
 
 
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/17/2023 | [Deploy and configure the OneDrive sync app for Mac](/SharePoint/deploy-and-configure-on-macos) | modified |
+| 7/17/2023 | [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](/SharePoint/administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013) | modified |
+| 7/18/2023 | [Configure the One Customer Voice (OCV) feedback](/SharePoint/administration/configure-ocv) | added |
+| 7/18/2023 | Get started with the SharePoint admin center | removed |
+| 7/18/2023 | [Recommended sync app configuration](/SharePoint/ideal-state-configuration) | modified |
+| 7/18/2023 | [About the SharePoint Administrator role in Microsoft 365](/SharePoint/sharepoint-admin-role) | modified |
+| 7/18/2023 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
+| 7/20/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 7/20/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
+| 7/21/2023 | [Restrict OneDrive access](/SharePoint/limit-access) | modified |
+
+
 ## Week of July 10, 2023
 
 
@@ -192,14 +209,3 @@
 | 6/20/2023 | [Host-named site collection architecture and deployment in SharePoint Server](/SharePoint/administration/host-named-site-collection-architecture-and-deployment) | modified |
 | 6/20/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
 | 6/20/2023 | [Sync in SharePoint and OneDrive](/SharePoint/sharepoint-sync) | modified |
-
-
-## Week of June 12, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/12/2023 | [Overview of external sharing in SharePoint and OneDrive in Microsoft 365](/SharePoint/external-sharing-overview) | modified |
-| 6/12/2023 | [Admin center site permissions reference](/SharePoint/site-permissions) | modified |
-| 6/14/2023 | Manage Loop experiences (Loop workspaces and Loop components) in SharePoint | removed |
-| 6/16/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
