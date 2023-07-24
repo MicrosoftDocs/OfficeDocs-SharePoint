@@ -51,6 +51,8 @@ Different customers may have different interpretations of terms such as "depreca
  
  - Internet Explorer 11
 
+ - Basic authentication
+
 ## Removed features
 
  - Access Services 2010 
@@ -91,6 +93,12 @@ SharePoint Designer 2013 is deprecated but will remain supported with SharePoint
 ### Internet Explorer 11
 
 Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 isn't supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+
+### Basic authentication
+
+For many years, applications have used Basic authentication to connect to servers, services, and API endpoints. Basic authentication simply means the application sends a username and password with requests, making it easier for attackers to capture user credentials, which increases the risk of those stolen credentials being reused against other endpoints or services.
+
+With these threats and risks in mind, Basic authentication is deprecated but will remain supported for the SharePoint Server Subscription Edition until July 14, 2026. After that date, Basic authentication will no longer be supported and will eventually be removed in SharePoint Server Subscription Edition for all scenarios. Microsoft recommends exploring Trusted Identity provider as the replacement for authentication.
 
 ### Access Services 2010
 
