@@ -2,6 +2,16 @@
 
 
 
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/19/2023 | [Step 1 - Install the SharePoint Migration Tool (SPMT)](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
+| 7/19/2023 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
+| 7/19/2023 | [Step 2 - Scan and assess a SharePoint Server site using SPMT](/SharepointMigration/spmt-scan) | modified |
+
+
 ## Week of July 10, 2023
 
 
@@ -72,12 +82,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 6/20/2023 | [Unsupported file types in Migration Manager](/SharepointMigration/mm-unsupported-files) | modified |
-
-
-## Week of June 12, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/15/2023 | [Bulk upload Dropbox drives into Migration Manager](/SharepointMigration/mm-dropbox-bulk-upload-source-paths-csv) | modified |
-| 6/16/2023 | [Bulk upload Dropbox drives into Migration Manager](/SharepointMigration/mm-dropbox-bulk-upload-source-paths-csv) | modified |
