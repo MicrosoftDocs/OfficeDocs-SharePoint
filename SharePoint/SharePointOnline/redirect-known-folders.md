@@ -101,6 +101,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 
 > [!NOTE]
 > Extending the scope of folders that are synced by One Drive using Windows Folder Redirection Group Policy is not supported.
+
 - If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
