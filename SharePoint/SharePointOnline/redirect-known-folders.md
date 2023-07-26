@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 07/26/2023
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
 ms.author: mikeplum
