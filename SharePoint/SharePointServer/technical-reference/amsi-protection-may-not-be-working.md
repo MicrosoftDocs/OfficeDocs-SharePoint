@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Learn what to do, if AMSI protection is not working."
+description: "Learn what to do, if AMSI protection isn't working."
 ---
 
 # Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)
@@ -24,7 +24,7 @@ description: "Learn what to do, if AMSI protection is not working."
 
 **Summary:** Antimalware Scan Interface (AMSI) protection is enabled for one or more web applications in the SharePoint farm. However, SharePoint didn't receive the expected response from the antimalware scan engine when verifying that this protection is working. Web applications may not be protected on the servers listed in the Failing Servers section of this health analyzer report.
 
-**Cause:** AMSI running prerequisites are not met, or the real-time protection service of the antimalware scan engine is not enabled.
+**Cause:** AMSI running prerequisites aren't met, or the real-time protection service of the antimalware scan engine isn't enabled.
 
 **Resolution: Ensure the prerequisites to activate AMSI**
 
