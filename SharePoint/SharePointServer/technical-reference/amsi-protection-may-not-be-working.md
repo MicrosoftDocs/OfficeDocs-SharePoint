@@ -28,7 +28,7 @@ description: "Learn what to do, if AMSI protection isn't working."
 
 **Resolution: Ensure the prerequisites to activate AMSI**
 
-For example, AMSI would only work on Windows Server 2016 or higher. For more information on other prerequisites, see [Prerequisites](/sharepoint/security-for-sharepoint-server/configure-amsi-integration#prerequisites).
+For example, AMSI would only work on Windows Server 2016 or higher. For more information on other prerequisites, see [Prerequisites](/sharepoint/security-for-sharepoint-server/configure-amsi-integration#prerequisites) or you can [deactivate](/sharepoint/security-for-sharepoint-server/configure-amsi-integration#activatedeactivate-amsi-for-sharepoint-server) AMSI for SharePoint Server to turn off this health rule alarm.
 
 **Resolution: Enable the real-time protection service**
 
@@ -48,3 +48,4 @@ Ensure that real-time protection is enabled on every server listed in the Failin
   
  7. Ensure Real-time protection is set to On.
 
+If you're using an antimalware scan engine other than Microsoft Defender, refer to its documentation to ensure that real-time protection is enabled.
