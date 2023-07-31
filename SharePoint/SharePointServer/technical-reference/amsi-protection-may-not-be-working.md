@@ -32,7 +32,7 @@ For example, AMSI would only work on Windows Server 2016 or higher. For more inf
 
 **Resolution: Enable the real-time protection service**
 
-If you're using Microsoft Defender as your antimalware scan engine, ensure that real-time protection is enabled on each server listed in the Failing Servers section of this health report.
+Ensure that real-time protection is enabled on each server listed in the Failing Servers section of this health report, if you're using Microsoft Defender as your antimalware scan engine.
 
  1. Select the Start button.
     
