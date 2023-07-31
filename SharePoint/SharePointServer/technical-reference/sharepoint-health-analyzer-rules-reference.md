@@ -45,6 +45,8 @@ The following Health Analyzer rules relate to security in SharePoint Server:
 - [The server farm account should not be used for other services (SharePoint Server)](the-server-farm-account-should-not-be-used-for-other-services.md)
     
 - [The unattended Service Account Application ID is not specified or has an invalid value (SharePoint Server)](the-unattended-service-account-application-id-is-not-specified-or-has-an-invalid.md)
+
+- [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](amsi-protection-may-not-be-working.md)
     
 ## Performance
 
