@@ -1031,6 +1031,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "sharepoint/sharepointonline/viva-amplify.md",
+      "redirect_url": "https://support.microsoft.com/topic/formatting-changes-for-viva-amplify-9eaa49f0-8cc8-404f-ab52-7dfa5a07dec6",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/enable-or-disable-preview-features.md",
       "redirect_url": "/microsoft-365/admin/manage/release-options-in-office-365",
       "redirect_document_id": false
