@@ -34,7 +34,7 @@ For example, AMSI would only work on Windows Server 2016 or higher. For more inf
 
 If you're using Microsoft Defender as your antimalware scan engine, ensure that real-time protection is enabled on each server listed in the Failing Servers section of this health report.
 
- 1. Click the Start button.
+ 1. Select the Start button.
     
  2. Select Settings.
   
