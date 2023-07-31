@@ -46,7 +46,7 @@ The following Health Analyzer rules relate to security in SharePoint Server:
     
 - [The unattended Service Account Application ID is not specified or has an invalid value (SharePoint Server)](the-unattended-service-account-application-id-is-not-specified-or-has-an-invalid.md)
 
-- [AMSI protection may not be working](amsi-protection-may-not-be-working.md)
+- [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](amsi-protection-may-not-be-working.md)
     
 ## Performance
 
