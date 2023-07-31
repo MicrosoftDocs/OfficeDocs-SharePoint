@@ -29,7 +29,7 @@ description: Learn how Global and SharePoint Administrators can change site-leve
 
 You must be a Global Administrator or SharePoint Administrator in Microsoft 365 to change the sharing settings for a site. Site owners aren't allowed to change these settings.
 
-The steps in this article apply to team sites, communication sites, and classic sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about changing your organization-level settings, see [Manage sharing settings](turn-external-sharing-on-or-off.md).
+The steps in this article apply to team sites, communication sites, and classic sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about changing your organization-level settings, see [Manage sharing settings](turn-external-sharing-on-or-off.md). Note that guest sharing settings for Microsoft 365 Groups and Teams affect connected SharePoint sites.
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site).
 

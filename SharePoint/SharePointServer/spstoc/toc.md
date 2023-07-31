@@ -896,6 +896,7 @@
 #### [The Net.Pipe Listener Adapter isn't available](../technical-reference/the-net-pipe-listener-adapter-isn-t-available.md)
 #### [One or more services have started or stopped unexpectedly](../technical-reference/one-or-more-services-have-started-or-stopped-unexpectedly.md)
 #### [The current server is running low on memory](../technical-reference/the-current-server-is-running-low-on-memory.md)
+#### [AMSI protection may not be working](../technical-reference/amsi-protection-may-not-be-working.md)
 ### [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md)
 #### [Default timer jobs in SharePoint Server 2019](../technical-reference/default-timer-jobs-in-sharepoint-server-2019.md)
 #### [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md)
