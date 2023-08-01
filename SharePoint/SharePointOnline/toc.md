@@ -270,7 +270,6 @@
 ### [BCS connections]()
 #### [Manage BCS applications](manage-business-connectivity-service-applications.md)
 #### [Create or edit Secure Store Target Application](create-or-edit-secure-store-target-application.md)
-#### [Make External List](make-external-list.md)
 ### [Customizations and apps]()
 #### [Apps overview](request-app-installation-permissions.md)
 #### [Manage apps](use-app-catalog.md)
