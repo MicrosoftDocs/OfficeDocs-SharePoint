@@ -103,7 +103,7 @@ SharePoint has external sharing settings at both the organization level and the 
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/solutions/microsoft-365-guest-settings#default-site-sharing-settings) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings#default-site-sharing-settings) for more information.
 
 [Shared channels in teams](/MicrosoftTeams/shared-channels) do not use guest accounts for sharing with people outside the organization. However, external sharing must be enabled for people outside the organization to be invited to shared channels.
 
