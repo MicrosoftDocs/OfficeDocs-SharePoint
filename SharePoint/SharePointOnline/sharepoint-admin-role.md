@@ -50,7 +50,7 @@ For info about adding or removing a site admin, see [Manage site admins](manage-
 
 #### Term store administration
 
-There is a separate role within SharePoint called the Term Store administrator. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md).
+There is a separate role within SharePoint called the Term Store administrator. Users assigned to this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md).
 
 #### API access
 
