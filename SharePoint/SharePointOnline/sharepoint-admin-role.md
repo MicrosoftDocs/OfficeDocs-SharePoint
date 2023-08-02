@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2023
+ms.date: 08/02/2023
 title: "About the SharePoint Administrator role in Microsoft 365"
 ms.reviewer: 
 ms.author: mikeplum
@@ -40,8 +40,6 @@ Global Administrators in Microsoft 365 can assign users the SharePoint Administr
 
 For info about assigning a user the SharePoint administrator role, see [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles). If a user's role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
-![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
-
 #### Site management
 
 Global Administrators and SharePoint Administrators don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
@@ -52,7 +50,7 @@ For info about adding or removing a site admin, see [Manage site admins](manage-
 
 #### Term store administration
 
-There is a separate role within SharePoint called the **Term Store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md).
+There is a separate role within SharePoint called the Term Store administrator. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md).
 
 #### API access
 
