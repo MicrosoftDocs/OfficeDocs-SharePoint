@@ -127,16 +127,15 @@ Inactive sites detected during the cool off period are shown in the policy execu
 |**Site owner emails**     |Email addresses of site owners who have received inactive site activity email notifications           |
 |**Last site activity**     |Date of last activity detected by inactive site policy across SharePoint site and connected workloads (Exchange, Yammer, or Teams)         |
 |**Date created**     |Date when the inactive site was created         |
-|**Storage used**     |Storage consumed by inactive site         |
-|**Inactive site status**     |Stage of the policy with the inactive site. There are four possible stages:
-
-- **First notification**: The first notification has been shared with the site owner of the inactive site.
-- **30 days since first notification**: The second notification has been shared with the site owner of the inactive site.
-- **60 days since first notification**: The third notification has been shared with the site owner of the inactive site.
-- **No owner action**: No action was taken by the site owner after three consecutive notifications.
-|Action status     |Status of the notification to the site owner:
-- **Success** denotes the notification was delivered to the site owner.
-- **Failure** denotes the notification to the site owner has failed.         |
+|**Storage used**     |Storage consumed by inactive site    |
+**Inactive site status**     |Stage of the policy with the inactive site. There are four possible stages:|
+    |**First notification**: The first notification has been shared with the site owner of the inactive site.|
+    |**30 days since first notification**: The second notification has been shared with the site owner of the inactive site.|
+    |**60 days since first notification**: The third notification has been shared with the site owner of the inactive site.|
+    |**No owner action**: No action was taken by the site owner after three consecutive notifications.|
+|**Action status**     |Status of the notification to the site owner:         |
+| |**Success** denotes the notification was delivered to the site owner.|
+| |**Failure** denotes the notification to the site owner has failed.|
 
 ## Related articles
 
