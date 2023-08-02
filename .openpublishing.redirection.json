@@ -1036,6 +1036,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/make-external-list.md",
+      "redirect_url": "/sharepoint/manage-business-connectivity-service-applications",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/enable-or-disable-preview-features.md",
       "redirect_url": "/microsoft-365/admin/manage/release-options-in-office-365",
       "redirect_document_id": false
