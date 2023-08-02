@@ -87,7 +87,7 @@ Giving people permissions to a site, group, or team gives them access to all sit
 
   - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited. *Anyone* links can't be used with files in a Teams shared channel site.
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests or external participants in Teams shared channels).
-  - *Specific people* links only work for the people that users specify when they share the item. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel.
+  - *Specific people* links only work for the people that users specify when they share the item. For files in a Teams shared channel site, *specific people* links can't be sent to people outside the organization unless they're in the channel.
 
 You can [change the type of link that is presented to users by default](./change-default-sharing-link.md) for each site.
 
