@@ -52,7 +52,7 @@ If a site owner doesn't act after three consecutive email notifications, site li
 
 To summarize the possible outcomes, if a site owner:
 
-- confirms a site is **active** via the notification email, the policy withholds further site inactivity notifications unless the site becomes inactive again.
+- confirms a site is **active** via the notification email, the policy withholds further site inactivity notifications unless the site becomes inactive again after one year.
 - takes no action after three consecutive email notifications, the cool off period begins and the site is considered **unactioned**.
 
 #### Cool off period
@@ -66,39 +66,6 @@ Unactioned sites appear in the policy execution report as **Unactioned by Site O
 #### Sites managed by multiple inactive site policies
 
 Admins can create up to five inactive site policies using site lifecycle management. Depending on the configured parameters, a site may come under the scope of multiple policies. In such cases, the system checks to avoid spamming site owners. If at least 30 days have passed since the last notification sent by any other policy, the site is still identified as inactive, but no additional notification is sent to the owner. The site's status in the policy execution report will be **Notified by another policy**.
-
-## Types of inactive site policies
-
-When configuring a site lifecycle policy, you can choose between a **simulation policy** or an **active policy**.
-
-- The **simulation policy** runs once and generates a report based on the configured parameters. If the policy fails, the admin should delete it and create a new simulation policy. A simulation policy can be converted to an active policy.
-
-- The **active policy** runs monthly, generating reports and sending notifications to respective owners to attest their detected inactive site. If an active policy fails for a particular month, it will run again on the next schedule.
-
-### Configurable parameters for inactive site policies
-
-Site lifecycle management lets you configure several key parameters for an inactive site policy like:
-
-- period of inactivity
-- types of site templates
-- site creation source
-- sensitivity labels
-- exclusion of up to 100 sites
-
-### Out-of-scope sites
-
-The following sites are considered out-of-scope and excluded from an inactive site policy:
-
-- ownerless site
-- OneDrive site
-- site with retention policies applied
-- site with any other compliance policies applied
-- locked site
-- site created by system users
-- app catalog site
-- root site
-- home site
-- tenant admin site
 
 ## Create an inactive site policy
 
@@ -114,9 +81,79 @@ The following sites are considered out-of-scope and excluded from an inactive si
 
 6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/Site lifecycle management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished" lightbox="media/Site lifecycle management/6-inactive-site-policy-finish.png":::
 
+## Types of inactive site policies
+
+When configuring a site lifecycle policy, you can choose between a **simulation policy** or an **active policy**.
+
+- The **simulation policy** runs once and generates a report based on the configured parameters. If the policy fails, the admin should delete it and create a new simulation policy. A simulation policy can be converted to an active policy.
+
+- The **active policy** runs monthly, generating reports and sending notifications to respective owners to attest their detected inactive site. If an active policy fails during a particular month, it will run again on the next schedule.
+
+### Scope of inactive site policies
+
+Site lifecycle management lets you configure several key parameters for an inactive site policy like:
+
+- period of inactivity
+- types of site templates
+- site creation source
+- sensitivity labels
+- exclusion of up to 100 sites
+
+#### In-scope site activity
+
+Inactive site policies then analyzes activity across SharePoint, Teams, Viva Engage (formerly Yammer), and Exchange to determine when a site was last active:
+
+**SharePoint**:
+
+- files viewed
+- files edited
+- files shared internally and externally
+- files synced
+- pages viewed and visited
+  
+**Viva Engage (formerly Yammer)**:
+
+- messages posted
+- conversations read
+- messages liked
+
+**Teams** (all actions across shared, private, and public channels are analyzed):
+
+- channel messages posted in a team across all channels
+- posts in Teams and all channels
+- replies to messages
+- mentions in messages
+- reactions to messages
+- urgent messages sent
+- meetings (recurring, ad hoc, one-time)
+
+**Exchange**:
+
+- emails received in the Exchange mailbox
+
+> [!NOTE]
+> Communication sites, classic sites, and Teams
+
+### Out-of-scope site activity
+
+The following sites are considered out-of-scope and excluded from an inactive site policy:
+
+- ownerless site
+- OneDrive site
+- site with retention policies applied
+- site with any other compliance policies applied
+- locked site
+- site created by system users
+- app catalog site
+- root site
+- home site
+- tenant admin site
+
 ## Reporting
 
 Inactive sites detected during the cool off period are shown in the policy execution report. The report is available for download as a .csv file and also lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/Site lifecycle management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report" lightbox="media/Site lifecycle management/8-inactive-site-policy-downloaded-csv-report.png":::
+
+See the following table which explains the reporting categories found in the policy execution report:
 
 |Column name  |Column meaning  |
 |---------|---------|
@@ -125,7 +162,7 @@ Inactive sites detected during the cool off period are shown in the policy execu
 |**Template**     |Template of inactive site         |
 |**Sensitivity label**     |Sensitivity label of inactive site       |
 |**Site owner emails**     |Email addresses of site owners who have received inactive site activity email notifications           |
-|**Last site activity**     |Date of last activity detected by inactive site policy across SharePoint site and connected workloads (Exchange, Yammer, or Teams)         |
+|**Last site activity**     |Date of last activity detected by inactive site policy across SharePoint site and connected workloads (Exchange, Viva Engage (formerly Yammer), or Teams)         |
 |**Date created**     |Date when the inactive site was created         |
 |**Storage used**     |Storage consumed by inactive site    |
 **Inactive site status**     |Stage of the policy with the inactive site. There are four possible stages:|
