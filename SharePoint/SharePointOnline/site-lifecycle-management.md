@@ -155,7 +155,7 @@ Inactive sites detected during the cool off period are shown in the policy execu
 
 See the following table which explains the reporting categories found in the policy execution report:
 
-|Column name  |Column meaning  |
+|Reporting category  | Meaning  |
 |---------|---------|
 |**Site name**     |Name of inactive site         |
 |**URL**     |URL of inactive site         |
