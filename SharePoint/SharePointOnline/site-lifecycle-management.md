@@ -51,7 +51,7 @@ The **active policy** runs monthly, generating reports and sending notifications
 
 ### Site owner notifications
 
-The notifications inform SharePoint site owners a site has been inactive for an X number of months. If they want to keep the site, they should select the **Certify site** button found in the notification email. Once a site owner certifies a site as active, the site lifecycle management system wouldn't consider it inactive for one year.
+The notifications inform SharePoint site owners a site has been inactive for an X number of months. If they want to keep the site, they should select the **Certify site** button found in the notification email. Once a site owner certifies a site as active, the site lifecycle management system won't flag it as inactive for one year.
 
 > [!NOTE]
 > When certifying a site, site owners may get a 403 error if tenant-level restricted access control settings are active, blocking site access. Before creating an inactive site policy, check for any such settings that could disrupt site attestation by the respective site owner.
@@ -61,7 +61,7 @@ If a site owner doesn't act after three consecutive email notifications, site li
 To summarize the possible outcomes, if a site owner:
 
 - confirms a site is **active** via the notification email, the policy withholds further site inactivity notifications unless the site becomes inactive again after one year.
-- takes no action after three consecutive email notifications, the cool off period begins and the site is considered **unactioned**.
+- takes no action after three consecutive email notifications, the cool off period begins, and the site is considered **unactioned**.
 
 #### Cool off period
 
