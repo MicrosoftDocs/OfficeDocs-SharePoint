@@ -37,9 +37,17 @@ To access and use this feature, your organization must have the following subscr
 
 - [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
-## Site lifecycle management policies
+## Site lifecycle management
 
-You can create a policy that automates the detection of inactive sites and initiates a workflow that notifies site owners via email. Site owners can then confirm the active status of a site.
+You can create an inactive site policy that automates the detection of site activity and initiates a workflow that notifies site owners via email. Site owners can then confirm the active status of a site.
+
+### Types of inactive site policies
+
+When configuring a site lifecycle policy, you can choose between a **simulation policy** or an **active policy**.
+
+The **simulation policy** runs once and generates a report based on the configured parameters. If the policy fails, the admin should delete it and create a new simulation policy. A simulation policy can be converted to an active policy.
+
+The **active policy** runs monthly, generating reports and sending notifications to respective owners to attest their detected inactive site. If an active policy fails during a particular month, it will run again on the next schedule.
 
 ### Site owner notifications
 
@@ -81,14 +89,6 @@ Admins can create up to five inactive site policies using site lifecycle managem
 
 6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/Site lifecycle management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished" lightbox="media/Site lifecycle management/6-inactive-site-policy-finish.png":::
 
-## Types of inactive site policies
-
-When configuring a site lifecycle policy, you can choose between a **simulation policy** or an **active policy**.
-
-- The **simulation policy** runs once and generates a report based on the configured parameters. If the policy fails, the admin should delete it and create a new simulation policy. A simulation policy can be converted to an active policy.
-
-- The **active policy** runs monthly, generating reports and sending notifications to respective owners to attest their detected inactive site. If an active policy fails during a particular month, it will run again on the next schedule.
-
 ### Scope of inactive site policies
 
 Site lifecycle management lets you configure several key parameters for an inactive site policy like:
@@ -101,42 +101,18 @@ Site lifecycle management lets you configure several key parameters for an inact
 
 #### In-scope site activity
 
-Inactive site policies then analyzes activity across SharePoint, Teams, Viva Engage (formerly Yammer), and Exchange to determine when a site was last active:
+Inactive site policies can analyze activity across SharePoint, Teams, Viva Engage (formerly Yammer), and Exchange to determine when a site was last active. Communication sites, classic sites, Teams-connected sites, and group-connected sites are considered in-scope for site activity detection.
 
-**SharePoint**:
+|Site type  | Activity  |
+|---------|---------|
+|**SharePoint**     |files viewed, files edited, files shared internally and externally, files synced, pages viewed, pages visited          |
+|**Viva Engage (formerly Yammer)**     |messages posted, conversations read, messaged liked         |
+|**Teams**     |channel messages posted in a team across all channels, messages posted in Teams and all channels, replies to messages, mentions in messages, reactions to messages, urgent messages sent, meetings (recurring, ad hoc, one-time)          |
+|**Exchange**     | emails received in the Exchange mailbox        |
 
-- files viewed
-- files edited
-- files shared internally and externally
-- files synced
-- pages viewed and visited
-  
-**Viva Engage (formerly Yammer)**:
+#### Out-of-scope site activity
 
-- messages posted
-- conversations read
-- messages liked
-
-**Teams** (all actions across shared, private, and public channels are analyzed):
-
-- channel messages posted in a team across all channels
-- posts in Teams and all channels
-- replies to messages
-- mentions in messages
-- reactions to messages
-- urgent messages sent
-- meetings (recurring, ad hoc, one-time)
-
-**Exchange**:
-
-- emails received in the Exchange mailbox
-
-> [!NOTE]
-> Communication sites, classic sites, and Teams
-
-### Out-of-scope site activity
-
-The following sites are considered out-of-scope and excluded from an inactive site policy:
+The following sites are considered out-of-scope and excluded from site activity detection:
 
 - ownerless site
 - OneDrive site
