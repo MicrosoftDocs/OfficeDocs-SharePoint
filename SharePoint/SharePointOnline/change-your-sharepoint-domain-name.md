@@ -1,7 +1,7 @@
 ---
 ms.date: 07/11/2018
 title: "Change your SharePoint domain name"
-ms.reviewer: jmcdowe
+ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
