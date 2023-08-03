@@ -170,7 +170,7 @@ See the following table which explains the reporting categories found in the pol
 | |**30 days since first notification**: The second notification has been shared with the site owner of the inactive site.|
 | |**60 days since first notification**: The third notification has been shared with the site owner of the inactive site.|
 | |**No owner action**: No action was taken by the site owner after three consecutive notifications.|
-| |**Action status**     |Status of the notification to the site owner:         |
+|**Action status**     |Status of the notification to the site owner:         |
 | |**Success** denotes the notification was delivered to the site owner.|
 | |**Failure** denotes the notification to the site owner has failed.|
 
