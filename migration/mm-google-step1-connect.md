@@ -28,7 +28,7 @@ description: "Steps to connect to Google when using Migration Manager in the Sha
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 
 
-1. In the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>. 
+1. In the SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>. 
 2. Under **Google Workspace**, select **Get started**.
 3. Select **Connect to Google Workspace**. 
 4. On the *Install the migration app* page, select **Install and authorize** if you haven't already installed the Microsoft 365 migration app in the Google Workspace Marketplace. 
