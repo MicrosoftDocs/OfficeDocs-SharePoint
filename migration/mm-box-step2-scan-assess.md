@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/03/2023
 title: "Step 2: Scan and assess Box accounts using Migration Manager"
 ms.reviewer:
 ms.author: jhendr
@@ -25,23 +25,18 @@ description: "Step 2:  Scan and assess Box users using Migration Manager."
 
 # Step 2: Scan and assess Box users
 
-After you connect, add the source paths to scan and assess your Box user accounts.
+After you connect, scan and assess your Box user accounts.
 
-1. Select **Add source paths** and choose a method; to auto-discover users in Box, target a single source path, or bulk upload the source paths using a CSV file.
-
-![add source paths manually in Box](media/mm-add-source-path.png)
-
-![add source path selections](media/mm-add-source-path-choices-box.png)
-
-2. After adding the source, highlight any or all of the accounts and then select **Scan**.
+1. Select **Add users** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Box</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
+2. Choose to **Automatically start scanning now** or choose to scan later.
+3. Select **Add**.
+4. Highlight any or all of the accounts and then select **Scan** if you chose not to auto scan earlier.
 
 >[!Important]
 > The total number cannot exceed 50,000 tasks.
 
-3. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
+5. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes User item counts, migration readiness, and any issues that need attention. 
 4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-
-   ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
 
 
 ## Download reports
