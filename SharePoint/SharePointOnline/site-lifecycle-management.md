@@ -29,7 +29,7 @@ description: "Learn how to manage site lifecycle policies for SharePoint sites."
 
 SharePoint sites are growing rapidly, and one of the major challenges faced by [SharePoint administrators](sharepoint-admin-role.md) is managing the lifecycle of the large number of sites.
 
-The site lifecycle management feature from Microsoft Syntex- SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md). :::image type="content" source="media/Site lifecycle management/1-inactive-site-policy-dashboard.png" alt-text="screenshot of site lifecycle management dashboard" lightbox="media/Site lifecycle management/1-inactive-site-policy-dashboard.png":::
+The site lifecycle management feature from Microsoft Syntex- SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md). :::image type="content" source="media/site-lifecycle-management/1-inactive-site-policy-dashboard.png" alt-text="screenshot of site lifecycle management dashboard" lightbox="media/site-lifecycle-management/1-inactive-site-policy-dashboard.png":::
 
 ## Requirements
 
@@ -43,13 +43,13 @@ To access and use site lifecycle management, your organization must have the fol
 
 2. Expand **Policies** and select **Site lifecycle management**.
 
-3. Select **+ Create policy** and select **Next**.:::image type="content" source="media/site-lifecycle-management/2-inactive-site-policy-create-policy.png" alt-text="screenshot of site lifecycle management create a new policy." lightbox="media/Site lifecycle management/2-inactive-site-policy-create-policy.png":::
+3. Select **+ Create policy** and select **Next**.:::image type="content" source="media/site-lifecycle-management/2-inactive-site-policy-create-policy.png" alt-text="screenshot of site lifecycle management create a new policy." lightbox="media/site-lifecycle-management/2-inactive-site-policy-create-policy.png":::
 
-4. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/Site lifecycle management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+4. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
 
-5. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy." lightbox="media/Site lifecycle management/5-inactive-site-policy-name-policy.png":::
+5. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
 
-6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/site-lifecycle-management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished." lightbox="media/Site lifecycle management/6-inactive-site-policy-finish.png":::
+6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/site-lifecycle-management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished." lightbox="media/site-lifecycle-management/6-inactive-site-policy-finish.png":::
 
 ## Site lifecycle management
 
@@ -115,7 +115,7 @@ The following sites are considered out-of-scope and excluded from site activity 
 
 ## Reporting
 
-Inactive sites detected during the cool off period are shown in the policy execution report. The report is available for download as a .csv file and also lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/Site lifecycle management/8-inactive-site-policy-downloaded-csv-report.png":::
+Inactive sites detected during the cool off period are shown in the policy execution report. The report is available for download as a .csv file and also lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
 
 See the following table, which explains the reporting categories found in the policy execution report:
 
