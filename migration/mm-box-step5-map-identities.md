@@ -39,7 +39,6 @@ Map your groups and users in Box to those in Microsoft 365 to migrate your Box s
 1. To edit a single mapping, highlight the row. Enter the mapping Microsoft 365 user account. 
 2. Select **Save**.
 
-
 ## Import users and groups
 
 If you have many mappings to edit, you can choose to upload a CSV file containing your users and groups mappings. Download the  file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
