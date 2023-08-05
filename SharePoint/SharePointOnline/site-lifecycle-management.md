@@ -43,13 +43,13 @@ To access and use site lifecycle management, your organization must have the fol
 
 2. Expand **Policies** and select **Site lifecycle management**.
 
-3. Select **+ Create policy** and select **Next**.:::image type="content" source="media/site-lifecycle-management/2-inactive-site-policy-create-policy.png" alt-text="screenshot of site lifecycle management create a new policy." lightbox="media/site-lifecycle-management/2-inactive-site-policy-create-policy.png":::
+3. Select **+ Create policy** and select **Next**.
 
 4. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
 
 5. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
 
-6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.:::image type="content" source="media/site-lifecycle-management/6-inactive-site-policy-finish.png" alt-text="screenshot of site lifecycle management create scope finished." lightbox="media/site-lifecycle-management/6-inactive-site-policy-finish.png":::
+6. Select **Done**. Your policy is now created and can be viewed and managed from the **Site lifecycle management** dashboard.
 
 ## Site lifecycle management
 
