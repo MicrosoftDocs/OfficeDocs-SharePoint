@@ -70,13 +70,11 @@ Site owners are notified monthly for thee months and then no notifications are s
 
 If a site falls under multiple inactive site policies, site lifecycle management avoids spamming site owners with notification emails. If a notification was sent within the last 30 days from any inactive site policy, the site remains inactive, and no more notifications are sent. The policy execution report shows the site's status as "Notified by another policy".
 
-## Known limitations
-
-### Scope of inactive site policies
+## Scope of inactive site policies
 
 You can configure parameters for an inactive site policy like inactive time period, template type, site creation source, sensitivity labels and exclusion of up to 100 sites.
 
-#### In-scope site activity
+### In-scope site activities
 
 Inactive site policies analyze activity across SharePoint and connected platforms like Teams, Viva Engage (formerly Yammer), and Exchange to detect a site's last activity.
 
@@ -87,7 +85,7 @@ Inactive site policies analyze activity across SharePoint and connected platform
 |**Teams**     |Posted channel messages in a team across all channels, posted messages in Teams and all channels, replied to messages, mentioned in messages, reacted to messages, sent urgent messages, conducted meetings (recurring, ad hoc, one-time)          |
 |**Exchange**     | Received emails in the Exchange mailbox       |
 
-#### In-scope site templates
+### In-scope site templates
 
 Site lifecycle management also reviews activity of communication sites, classic sites, Teams-connected sites, and group-connected sites with the following site template types:
 
@@ -98,20 +96,20 @@ Site lifecycle management also reviews activity of communication sites, classic 
 |Teams-connected site|STS#3 or Group#0|
 |Group-connected site|STS#3 or Group#0|
 
-#### Out-of-scope site activity
+### Out-of-scope sites
 
 The following sites are considered out-of-scope and excluded from site activity detection:
 
-- ownerless site
-- OneDrive site
-- site with retention policies applied
-- site with other compliance policies applied
-- locked site
-- site created by system users
-- app catalog site
-- root site
-- home site
-- tenant admin site
+- ownerless sites
+- OneDrive sites
+- sites with retention policies applied
+- sites with other compliance policies applied
+- locked sites
+- sites created by system users
+- app catalog sites
+- root sites
+- home sites
+- tenant admin sites
 
 ## Reporting
 
