@@ -113,7 +113,7 @@ The following sites are considered out-of-scope and excluded from site activity 
 
 ## Reporting
 
-Inactive sites detected during the cool off period are shown in the policy execution report. The report is available for download as a .csv file and also lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
+Sites that have been inactive for six months are listed in the policy execution report. The report is available for download as a .csv file and lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
 
 See the following table, which explains the reporting categories found in the policy execution report:
 
