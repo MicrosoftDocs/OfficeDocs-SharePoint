@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 2: Scan and assess Dropbox folders using Migration Manager"
 ms.reviewer:
 ms.author: jhendr
