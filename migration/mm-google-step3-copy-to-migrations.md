@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 3: Copy to migrations tab for Google migration"
 ms.reviewer: 
 ms.author: jhendr
@@ -23,34 +23,21 @@ search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Google Drive."
 ---
 
-# Step 3: Copy to migrations tab for Google migration
+# Step 3: Copy to Drive migrations tab for Google migration
 
-After a Google user has been scanned and determined ready, add them to your migration list.  
+After your Google Drives have been scanned, the drive status will show if it's error free and "Ready to migrate".  
 
+1. From the **Drives** tab, select all Drives that have a status of "Ready to migrate". 
+2. From the menu bar, select **Copy to Drive migrations**. You can also select one or multiple drives.
+3. A panel appears to confirm your choices.  **Review your migration settings** and customize as needed.  The changes will be saved *after* the Drive has been copied.  
+4. Select **Copy to Migrations**.
 
+:::image type="content" source="media/mm-google-copy-drives-with-settings.png" alt-text="copy google drive and review settings":::
 
-1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
-
-![Migrations tab](media/mm-box-migration-tab.png)
-
-2. Select the users that are ready to be added to the migrations list.
-3. Select **Copy to migrations**
-
-
-![Google copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
-
- You can also select multiple users.
-
-![Google copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
-
-
-5. Select the **Migrations** tab, and proceed to the next step.
-
-![Migrations tab](media/mm-box-migration-tab.png)
+5. If a success message appears; select **Go to Drive migrations**.
 
 
 ## Go to [**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
-
 
 >[!NOTE]
 >Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
