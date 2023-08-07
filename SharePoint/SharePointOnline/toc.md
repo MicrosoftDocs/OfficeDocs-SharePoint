@@ -176,6 +176,7 @@
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
 ### [Restricted domains sharing](restricted-domains-sharing.md)
+### [Limit sharing by security group](manage-security-groups.md)
 ### [Report on sharing](sharing-reports.md)
 ### [Create a B2B extranet](create-b2b-extranet.md)
 ### [Advanced permissions customization]()
