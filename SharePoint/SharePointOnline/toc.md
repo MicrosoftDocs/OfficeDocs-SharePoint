@@ -170,6 +170,7 @@
 ### [Manage sharing settings](turn-external-sharing-on-or-off.md)
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Change external sharing for OneDrive](user-external-sharing-settings.md)
+### [Sharable links overview](shareable-links-anyone-specific-people-organization.md)
 ### [Change default sharing link](change-default-sharing-link.md)
 ### [External sharing notifications (OneDrive)](turn-on-external-sharing-notifications.md)
 ### [File Requests](enable-file-requests.md)

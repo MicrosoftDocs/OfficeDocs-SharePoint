@@ -2,6 +2,19 @@
 
 
 
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | added |
+| 7/31/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 8/1/2023 | Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store | removed |
+| 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |
+
+
 ## Week of July 24, 2023
 
 
@@ -198,12 +211,3 @@
 | 7/6/2023 | Manage app licenses for a SharePoint environment | removed |
 | 7/6/2023 | [Package biz apps into organizational list templates](/SharePoint/package-biz-apps-org-list-template) | modified |
 | 7/6/2023 | Sharing settings in the new SharePoint admin center | removed |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/26/2023 | [Set up SharePoint and OneDrive in Microsoft 365 with a step-by-step guide](/SharePoint/setup-wizard) | added |
-| 6/27/2023 | [Package Power Automate flows into organizational list templates](/SharePoint/package-biz-apps-org-list-template) | added |
