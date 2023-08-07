@@ -28,9 +28,6 @@ description: "Step 2:  Scan and assess Google users using Migration Manager."
 After you have connected to Google, add the source paths to scan and assess your Google Drives.
 
 1. Select **Add source paths** and choose a method: to look for new users in Google Drives, target a single source path, or bulk upload the source paths using a CSV file.
-
-![add source paths manually in Google](media/mm-google-add-source-paths.png)
-
 2. After adding the source, highlight any or all of the drives and then select **Scan**.
 
 >[!Important]
@@ -38,8 +35,6 @@ After you have connected to Google, add the source paths to scan and assess your
 
 3. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
 4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-
-   ![Summary of scanned Google drives ](media/mm-google-table-summary.png)
 
 
 ## Download reports
