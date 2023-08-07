@@ -2,6 +2,18 @@
 
 
 
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | Migration Manager transaction logs | removed |
+| 8/4/2023 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 8/4/2023 | [Step 3: Copy to migrations tab for Box migration](/SharepointMigration/mm-box-step3-copy-to-migrations) | modified |
+| 8/4/2023 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
+| 8/4/2023 | [Step 5: Map Box identities with Migration Manager](/SharepointMigration/mm-box-step5-map-identities) | modified |
+
+
 ## Week of July 17, 2023
 
 
@@ -74,11 +86,3 @@
 | 7/14/2023 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
 | 7/8/2022 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
 | 7/14/2023 | [Migration Manager Prerequisites and Endpoints](/SharepointMigration/mm-prerequisites) | modified |
-
-
-## Week of June 19, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/20/2023 | [Unsupported file types in Migration Manager](/SharepointMigration/mm-unsupported-files) | modified |

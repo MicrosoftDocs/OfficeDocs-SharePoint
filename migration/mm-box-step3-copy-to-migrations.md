@@ -26,7 +26,6 @@ description: "Step 3: Copy to migrations using Migration Manager."
 # Step 3: Copy to migrations using Migration Manager
 
 
-
 After a Box user has been scanned and determined ready, add them to your migration list.  
 
 1. Select the **Users** tab. The table will list all users that have been copied to migration.
