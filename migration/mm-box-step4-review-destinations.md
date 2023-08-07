@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2021
+8ms.date: 01/07/2023
 title: "Review the destination paths for your Box migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
