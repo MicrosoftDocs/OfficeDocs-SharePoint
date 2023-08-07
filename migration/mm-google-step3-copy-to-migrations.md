@@ -25,11 +25,11 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 
 # Step 3: Copy to Drive migrations tab for Google migration
 
-After your Google Drives has been scanned, the drive status will show if it is error free and "Ready to migrate".  
+After your Google Drives have been scanned, the drive status will show if it's error free and "Ready to migrate".  
 
 1. From the **Drives** tab, select all Drives that have a status of "Ready to migrate". 
 2. From the menu bar, select **Copy to Drive migrations**. You can also select one or multiple drives.
-3. A panel will appear to confirm your choices.  **Review your migration settings** and customize as needed.  Note that the changes won't be saved until the Drive has been copied.  
+3. A panel appears to confirm your choices.  **Review your migration settings** and customize as needed.  The changes will be saved *after* the Drive has been copied.  
 4. Select **Copy to Migrations**.
 
 :::image type="content" source="media/mm-google-copy-drives-with-settings.png" alt-text="copy google drive and review settings":::
