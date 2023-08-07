@@ -28,25 +28,13 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 After a Google user has been scanned and determined ready, add them to your migration list.  
 
 
-
 1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
-
-![Migrations tab](media/mm-box-migration-tab.png)
 
 2. Select the users that are ready to be added to the migrations list.
 3. Select **Copy to migrations**
-
-
-![Google copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
-
  You can also select multiple users.
-
-![Google copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
-
-
 5. Select the **Migrations** tab, and proceed to the next step.
 
-![Migrations tab](media/mm-box-migration-tab.png)
 
 
 ## Go to [**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
