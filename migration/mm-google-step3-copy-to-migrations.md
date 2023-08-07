@@ -23,15 +23,18 @@ search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Google Drive."
 ---
 
-# Step 3: Copy to migrations tab for Google migration
+# Step 3: Copy to Drive migrations tab for Google migration
 
-After a Google user has been scanned and determined ready, add them to your migration list.  
+After your Google Drives has been scanned, the drive status will show if it is error free and "Ready to migrate".  
 
-1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
-2. Select the users that are ready to be added to the migrations list.
-3. Select **Copy to migrations**
- You can also select multiple users.
-5. Select the **Migrations** tab, and proceed to the next step.
+1. From the **Drives** tab, select all Drives that have a status of "Ready to migrate". 
+2. From the menu bar, select **Copy to Drive migrations**. You can also select one or multiple drives.
+3. A panel will appear to confirm your choices.  **Review your migration settings** and customize as needed.  Note that the changes won't be saved until the Drive has been copied.  
+4. Select **Copy to Migrations**.
+
+:::image type="content" source="media/mm-google-copy-drives-with-settings.png" alt-text="copy google drive and review settings":::
+
+5. If a success message appears; select **Go to Drive migrations**.
 
 
 ## Go to [**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
