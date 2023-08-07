@@ -35,14 +35,8 @@ Map your groups and users in Egnyte to those in Microsoft 365 to migrate your Eg
 
 1. Select the Migrations tab.
 2. Select **Map identities** on the menu bar.
-
-![Map Egnyte identities](media/mm-box-upload-destinations-bulk.png)
-</br>
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values using a CSV file.
 
-
-
-</br>
 
 ## Mapping individual identities
 

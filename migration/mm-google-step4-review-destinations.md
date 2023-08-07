@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2021
+ms.date: 08/07/2023
 title: "Review the destination paths for your Google migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -27,9 +27,10 @@ description: Review your destination paths for your Google migration while using
 In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
 ## Single destination edit
-If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
-1. Highlight the row. Under **Destination**, select **Edit.**
+If a destination is missing on a single user, highlight the row and update the value. 
+
+1. Highlight the row, a panel will display. Under **Destination**, select **Edit.**
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination. Depending on your selection:
 
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
@@ -44,7 +45,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
 
-![upload destinations for Google accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
+![upload destinations for Google accounts bulk](media/mm-google-bulk-upload-destination-panel.png)
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
