@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2020
+ms.date: 08/07/2023
 title: Create a task in SharePoint Migration Tool (SPMT)
 ms.author: jhendr
 author: JoanneHendrickson
@@ -23,14 +23,14 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
 # Step 3: Create a migration task with SPMT
 
-When creating a migration task, you can choose to migrate your sites, just your SharePoint Server lists or document libraries, or choose to modernize your site collection structure.  A bulk method is also available, letting you enter all your task information into a CSV or JSON file and uploading the file into SPMT.
+When creating a migration task, you can choose to migrate your sites, just your SharePoint Server lists or document libraries, or migrate your SharePoint workflows to Power Automate.  A bulk method is also available, letting you enter all your task information into a CSV or JSON file and uploading the file into SPMT.
 
 
 ## Migration types
 
 |How|Description|
 |:-----|:-----|
-|[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.  **Note**. This site structure feature is currently in public preview.)|
+|[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.|
 |[List and document library migration](#list-and-document-library-migration)|Enter the site and select the document library where your files are located.|
 |[Workflow migration](#workflow-migration)|Migrate SharePoint Server workflows to Power Automate.|
 |[Bulk migration using a CSV or JSON file](#bulk-migration)|If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
@@ -119,20 +119,6 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
 5. If you want to select another set of data files to migrate, select **Add another migration**. If not, select **Next**.  Or choose if you want to save this task for later.
 6. Review your settings, and the select **Start**.
 
-## Resuming migration jobs
-
-If you need to close SPMT before a submitted job has completed, you can restart the tool from any computer.
-
-> [!NOTE]
-> To resume a submitted migration job, it has to have been running  *at least* **5 minutes**. It pauses at the point you closed the SPMT. If your submitted job was running less than five minutes before the tool closed, you must resubmit the job.
-
-**To resume migration jobs**:
-
-1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**.
-
-2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
-
-3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs are resumed. If you're migrating files from an on-premises SharePoint Server, you're prompted for your username and password for that site.
 
 ## Incremental migration
 

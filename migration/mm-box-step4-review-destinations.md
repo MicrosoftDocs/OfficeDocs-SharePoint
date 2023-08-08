@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2021
+8ms.date: 01/07/2023
 title: "Review the destination paths for your Box migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -28,7 +28,7 @@ In this step, review the destination paths of the accounts you have moved to the
 
 ## Single destination edit
 
-If a destination is missing, highlight the row. A panel appears to the right. Under **Destination**, select **Edit**.  
+If a destination is missing on a single user, highlight the row and update the value.
 
 1. Highlight the row. Under **Destination**, select **Edit.**
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.  Depending on your selection:
@@ -42,7 +42,6 @@ If a destination is missing, highlight the row. A panel appears to the right. Un
 ## Upload destinations using a CSV file
 
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  The *MigrationDestinations.csv* file consists of six columns populated with your users' data for reference. The only field you can update is the destination path.  
-
 
 >[!Important]
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
