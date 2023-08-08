@@ -57,6 +57,6 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 2. Highlight a single row and select  **Download scan log** from the menu bar, to troubleshoot the details of individual files. 
 
 >[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
+>Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
 >
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+> This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
