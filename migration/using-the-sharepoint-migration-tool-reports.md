@@ -1,5 +1,5 @@
 ---
-ms.date: 07/19/2023
+ms.date: 08/07/2023
 title: "Step 4 - Monitor and reporting status of your SPMT migration tasks"
 ms.author: jhendr
 author: JoanneHendrickson
@@ -28,21 +28,29 @@ After you select **Migrate**, the progress of your migration task appears. As th
 The SharePoint Migration Tool generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
 
 
-Summary report: 
-- [Summary Report](#summary-report)
-- [Failure Summary Report](#failure-summary-report)
+## Monitor your migration
 
-Task level reports:
-- [Item Summary](#item-summary)
-- [Item Failure Report](#item-failure-report)
-- [Item Report](#item-report)
-- [Scan Summary](#scan-summary)
-- [Structure Report](#structure-report)
-- [Hub site report](#hub-site-report)
+The **migration job** progress shows the overall progress of the migration job. Users can pause and resume all migration tasks, check the time elapsed and time remaining, and observe migration performance suggestions.
 
-Performance report
-- [Performance Report](#performance-report)
-  
+The **migration task** progress shows the progress of individual migration tasks. Users can pause/resume or delete a migration task, check the time elapsed and the time remaining, watch migration stats, and view reports.
+
+   :::image type="content" source="media/spmt-migration-progress.png" alt-text="progress of migratin job and task":::
+
+## Resuming migration jobs
+
+If you need to close SPMT before a submitted job has completed, you can restart the tool from any computer.
+
+> [!NOTE]
+> To resume a submitted migration job, it has to have been running  *at least* **5 minutes**. It pauses at the point you closed the SPMT. If your submitted job was running less than five minutes before the tool closed, you must resubmit the job.
+
+**To resume migration jobs**:
+
+1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**.
+
+2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
+
+3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs are resumed. If you're migrating files from an on-premises SharePoint Server, you're prompted for your username and password for that site.
+
 ## How to view the reports
 
 These reports can be viewed while the migration is taking place or after the jobs are complete.
@@ -256,7 +264,7 @@ Structure report at the task level.
 |Message|Error message|
    
 
-### Performance report
+## Performance report
 
 This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores cannot predict how fast the migration will perform, they can help identify areas that could be impacting your migration performance.
 
