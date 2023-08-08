@@ -36,20 +36,6 @@ The **migration task** progress shows the progress of individual migration tasks
 
    :::image type="content" source="media/spmt-migration-progress.png" alt-text="progress of migratin job and task":::
 
-## Resuming migration jobs
-
-If you need to close SPMT before a submitted job has completed, you can restart the tool from any computer.
-
-> [!NOTE]
-> To resume a submitted migration job, it has to have been running  *at least* **5 minutes**. It pauses at the point you closed the SPMT. If your submitted job was running less than five minutes before the tool closed, you must resubmit the job.
-
-**To resume migration jobs**:
-
-1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**.
-
-2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
-
-3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs are resumed. If you're migrating files from an on-premises SharePoint Server, you're prompted for your username and password for that site.
 
 ## How to view the reports
 
@@ -57,13 +43,13 @@ These reports can be viewed while the migration is taking place or after the job
   
  **Viewing task level reports:**
   
-1. After the migration has begun, click **View reports**.
+1. After the migration has begun, select **View reports**.
     
-2. A file folder will open listing the task level reports that have been generated for that specific task.
+2. A file folder opens listing the task level reports that have been generated for that specific task.
     
  **Viewing summary reports:**
   
-1. After migration completes, click **Migration details**.
+1. After migration completes, select **Migration details**.
      
 2. A folder with the summary reports opens.
     
@@ -75,7 +61,7 @@ Two types of summary reports are generated. The second type of summary report ge
     
 - **FailureSummary.csv.** This report is created only when failures or errors happen during the migration process. 
     
-When assessing your migration jobs, we recommend that you first look at these summary reports. If a FailureSummary.csv file was not created, then no failures occurred during the task run.
+When assessing your migration jobs, we recommend that you first look at these summary reports. If a FailureSummary.csv file wasn't created, then no failures occurred during the task run.
   
 ### Summary Report
 
@@ -90,10 +76,10 @@ When assessing your migration jobs, we recommend that you first look at these su
 |Migrated bytes |The total number of bytes of data migrated. |
 |Migrated GB in current round |The total size of the files migrated, expressed in gigabytes. |
 |GB not migrated in current round |The total size of the files not migrated, expressed in gigabytes. |
-|Total scanned items |Total number of files and list items, including those that will be filtered out because of settings or potential scan issues. |
+|Total scanned items |Total number of files and list items, including those that is filtered out because of settings or potential scan issues. |
 |Total to be migrated in current round |The total number of files that were expected to migrate excluding those filtered out based on settings or potential scan issues. |
 |Migrated items in current round |The total number of files migrated. |
-|Items not migrated in current round |Number of files that did not migrate. |
+|Items not migrated in current round |Number of files that didn't migrate. |
 |Warning count in current round |Number of warnings generated. |
 |Start time |The time the migration task began. |
 |End time |The time the migration task ended. |
@@ -113,7 +99,7 @@ This report is only generated if a failure occurs during the job run.
 |Source |File path or URL of the location of the data being migrated. |
 |Destination |The URL of the Site and library to where the data will be migrated. |
 |File name |Failed file or folder name or list items |
-|Extension |If it is a folder, then the extension is empty, else if it is a file, then extension is file extension. |
+|Extension |If it's a folder, then the extension is empty, else if it's a file, then extension is file extension. |
 |File size |Failed file or folder size or item size |
 |Content type |Folder or file. |
 |Status |Status of the file or folder that shows as "Failed" in this report. |
@@ -121,7 +107,7 @@ This report is only generated if a failure occurs during the job run.
 |Message |Failed reason detail description. |
 |Error code |Failed reason errorcode. |
 |Package number |The package number for the package includes the failed item. |
-|Migration job ID |The job id for the package includes the failed item. |
+|Migration job ID |The job ID for the package includes the failed item. |
 |Incremental round |The last incremental round number that item failed. |
 |Task ID |The individual task number. |
 |Device name |The name of the device or computer that is running the migration job. |
@@ -219,7 +205,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
    
 ### Scan Summary
 
-The **ScanSummary.csv** report provides the total stats for the scan -- a process that takes place before the actual migration begins. 
+The **ScanSummary.csv** report provides the total stats for the scan. The scan process takes place before the migration begins. 
   
 |**Column**|**Description**|
 |:-----|:-----|
@@ -233,7 +219,7 @@ The **ScanSummary.csv** report provides the total stats for the scan -- a proces
 |Items filtered out |Number of files that were filtered out based on settings in the tool. |
 |Folders to be migrated |Number of folders that will be migrated. |
 |Items to be migrated |Number of files that will be migrated. |
-|Total items to be migrated |Total number of folders and files that will be migrated. |
+|Total items to be migrated |Total number of folders and files that are migrated. |
 |Device name |Name of the device or computer that is running the migration job. |
    
 ### Structure report
@@ -258,7 +244,7 @@ Structure report at the task level.
 |**Column**|**Description**|
 |:-----|:-----|
 |URL|URL of the SPO site|
-|HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
+|HubSiteUrl|URL of the hub site. This column is empty if the site isn't hub site|
 |Result|Registered/Associated/Failed|
 |Error|	Error type. Blank if no error occurred.|
 |Message|Error message|
@@ -266,7 +252,7 @@ Structure report at the task level.
 
 ## Performance report
 
-This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores cannot predict how fast the migration will perform, they can help identify areas that could be impacting your migration performance.
+This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores can't predict how fast the migration performs, they can help identify areas that could be impacting your migration performance.
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
