@@ -56,4 +56,4 @@ Same as the migration experience, you can add a new scan by following the prompt
 
 
 
-## [**Step 3: Create a migration task**](using-the-sharepoint-migration-tool-reports.md)
+## [**Step 3: Create a migration task**](spmt-create-task.md)
