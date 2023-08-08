@@ -36,20 +36,6 @@ The **migration task** progress shows the progress of individual migration tasks
 
    :::image type="content" source="media/spmt-migration-progress.png" alt-text="progress of migratin job and task":::
 
-## Resuming migration jobs
-
-If you need to close SPMT before a submitted job has completed, you can restart the tool from any computer.
-
-> [!NOTE]
-> To resume a submitted migration job, it has to have been running  *at least* **5 minutes**. It pauses at the point you closed the SPMT. If your submitted job was running less than five minutes before the tool closed, you must resubmit the job.
-
-**To resume migration jobs**:
-
-1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**.
-
-2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
-
-3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs are resumed. If you're migrating files from an on-premises SharePoint Server, you're prompted for your username and password for that site.
 
 ## How to view the reports
 
