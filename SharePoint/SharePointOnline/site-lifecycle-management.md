@@ -61,7 +61,7 @@ The active policy runs monthly and generates reports, sending notifications to t
 
 The notifications inform SharePoint site owners that a site has been inactive for X months. To keep the site, the owner should select the **Certify site** button in the notification email. Once the owner certifies the site as active, site lifecycle management doesn't check the activity of the confirmed site for one year.
 
-Site owners are notified monthly for thee months and then no notifications are sent for the next three months. After six months, monthly notifications resume if the site is inactive. The policy execution report lists the inactive site as unactioned by site owner. You can download the policy execution report and filter out sites marked unactioned by site owner.
+Site owners are notified monthly for thee months and then no notifications are sent for the next three months. After six months, monthly notifications resume if the site is inactive. The policy execution report lists the inactive site as unactioned by site owner. You can download the policy execution report and filter out sites that are marked as "no owner action".
 
 > [!TIP]
 > Before creating an inactive site policy, check for any tenant-level restricted access control settings that could disrupt site attestation by the respective site owner.
