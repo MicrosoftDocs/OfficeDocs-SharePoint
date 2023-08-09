@@ -48,7 +48,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md). 
 > - This feature isn't available for organizations that have set up multi-geo. 
-> - If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed.
+> - If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), or still has a .de your domain name can't be changed.
 > - When you rename your SharePoint domain, we create a redirect at the previous address which will expire 1 year after the rename.
 > - You can only rename your SharePoint domain once. If you need additional renames, submit a support request by selecting [Rename a SharePoint Tenant more than once](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20more%20than%20once).
 > - Changing your SharePoint domain name back to the original name after you rename it isn't supported. For example, if you change your SharePoint domain from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`, changing it back to `contoso.sharepoint.com` isn't supported.
@@ -114,6 +114,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 |---------|---------|---------|
 | Business Productivity Online Suite (BPOS) sites | If your tenant still has Microsoft Business Productivity Online Suite (BPOS) sites remaining in it, your domain name can't be changed. | BPOS sites and its configuration need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with BPOS sites](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20BPOS%20sites). |
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
+| Historical German cloud (.de) tenants | If your tenant was originally in the German cloud with a .de domain, your domain name can't be changed. This applies even if your tenant was subsequently migrated to the regular cloud but still retains the .de domain. | No action available. |
 | Locked sites and OneDrive accounts | Any site or OneDrive that has been locked (the LockState is NoAccess) can't be renamed. | Before changing your domain name, review any sites and OneDrive accounts that have been locked to determine if the lock should be removed. [Lock and unlock sites](manage-lock-status.md)|
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
