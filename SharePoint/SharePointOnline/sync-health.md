@@ -311,4 +311,3 @@ We value your feedback. To submit feature suggestions and report issues, you can
 
 :::image type="content" source="media/sync-feedback.png" alt-text="Screenshot of Feedback form.":::
 
-
