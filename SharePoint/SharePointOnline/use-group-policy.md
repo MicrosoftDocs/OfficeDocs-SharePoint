@@ -89,6 +89,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
+- (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
+
 - (DisableNucleusSilentConfig) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from getting silently signed in to Lists sync with their Windows credentials](/sharepoint/lists-sync-policies#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials).
 
 - (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
@@ -300,6 +302,19 @@ If you disable or don't configure this setting, the reminder will appear until u
 
 Enabling this policy sets the following registry key value to 1:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog =dword:00000001`
+
+### Hide the messages to sync Consumer OneDrive files
+<a name="syncconsumeronedrive"> </a>
+
+This setting determines whether a user will be prompted to sync their Consumer files using a detected known Microsoft Account (MSA).
+
+**Enable**: Enable this setting if you want to suppress the messages from being displayed to your users, yet allow them to manually configure their Consumer accounts to sync with their OneDrive Consumer files.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableNewAccountDetection"=dword:00000001`
+
+**Disable**: Disable this setting or don't configure it, to allow your users to be prompted to sync their Consumer files.
 
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
@@ -536,6 +551,8 @@ For more information, see [Redirect and move Windows known folders to OneDrive](
 
 > [!IMPORTANT]
 > [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
+>
+> The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Azure Active Directory (Azure AD).
   
 If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so that they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app attempts to take over syncing the user's OneDrive from the previous app, and preserves the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
 
