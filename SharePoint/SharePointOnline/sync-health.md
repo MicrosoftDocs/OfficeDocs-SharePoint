@@ -58,8 +58,10 @@ In this section, you'll learn how to set up sync reports on Windows and macOS de
 
 This tab provides how-to steps for enabling sync reports on Windows devices.
 
+### Prerequisite
+
 > [!NOTE]
-> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
+> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports and Intune "Sync Admin Reports" settings are no longer supported. We recommend that you update your Group Policy Object(s) or Intune OneDrive profile(s) to use the new "Enable sync health reporting for OneDrive" as soon as possible.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
@@ -74,50 +76,73 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
 
-6. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
+6. Enable the OneDrive EnableSyncAdminReports setting via Group Policy Object or Intune.
 
-    > [!IMPORTANT]
-    > **You must enable this setting on the devices from which you want to get reports.** This setting does not affect users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
+> [!IMPORTANT]
+> **You must enable this setting on the devices from which you want to get reports using one of the below methods.** This setting does not affect users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
 
-    You can enable this setting in multiple ways:
+### Group Policy
 
-    - Edit the registry
+You can enable this setting in multiple ways:
 
-        a. Go to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
+- Edit the registry
 
-        b. Right-click > **New** > **DWORD (32-bit) Value**
+    a. Go to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-        c. Name: EnableSyncAdminReports
+    b. Right-click > **New** > **DWORD (32-bit) Value**
 
-        d. Type: REG_DWORD
+    c. Name: EnableSyncAdminReports
 
-        e. Data: 1
+    d. Type: REG_DWORD
 
-        :::image type="content" source="media/createregkey.png" alt-text="Screenshot image depicting the creation of a new key in the Registry Editor":::
+    e. Data: 1
 
-    - Run Command Prompt as an administrator, and then run the following command:
+    :::image type="content" source="media/createregkey.png" alt-text="Screenshot image depicting the creation of a new key in the Registry Editor":::
 
-       ```PowerShell
-        reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1
-       ```
+- Run Command Prompt as an administrator, and then run the following command:
 
-    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy).
+   ```PowerShell
+    reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1
+   ```
 
-    To apply the setting on a single PC, follow these steps:
+- Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy).
 
-    - Open Group Policy Editor (gpedit.msc).
+To apply the setting on a single PC, follow these steps:
 
-    - Go to Computer Configuration\Administrative Templates\OneDrive.
+- Open Group Policy Editor (gpedit.msc).
 
-    - Choose **Enable sync health reporting for OneDrive**.
+- Go to Computer Configuration\Administrative Templates\OneDrive.
 
-    - Select **Enabled** and then press **OK**.
+- Choose **Enable sync health reporting for OneDrive**.
+
+- Select **Enabled** and then press **OK**.
+  
+### Intune
+
+To apply the setting through Intune, we recommend that you use the "Settings Catalog" profile type:
+
+-  Go to [Microsoft Intune Admin Center](https://intune.microsoft.com) and sign in as a global admin, Intune admin role, or an account with sufficient RBAC permissions.
+
+-  Click on Devices, Windows, and then click on "Configuration profiles".
+
+-  Edit or create a new OneDrive profile (Platform - "Windows 10 and later", Profile type - "Settings Catalog").
+
+-  If creating a new profile, provide a name for the profile and go to the Configuration settings tab. If editing a profile, you will by default go direct to the Configuration settings tab.
+
+-  Click on "Add setting" and the Settings picker will be displayed on the right side of the UI.
+
+-  In the search bar, add "OneDrive". Alternatively you can scroll down to the OneDrive settings.
+
+-  Click on the checkbox next to the "Enable sync health reporting for OneDrive" setting name.
+
+-  Close the Settings picker from the "X" at the top right.
+
+-  Click on the toggle switch to set "Enable sync health reporting for OneDrive" to "Enabled".
+
+-  If creating a new profile, continue through the wizard, assing scope tags if required, and assigning the profile as required. If you are editing the profile, click on the "Review + save" button.
 
 > [!IMPORTANT]
 > When you enable the EnableSyncAdminReports setting on devices, it can take up to three days for reports to be available. Devices will appear in the report after this time. Forcing a specific device to report data is unsupported.
-
-> [!NOTE]
-> OneDrive sync health reports can also be enabled using administrative templates in Intune. For more information, see [Use administrative templates in Intune](configure-sync-intune.md).
 
 # [macOS](#tab/macos)
 
