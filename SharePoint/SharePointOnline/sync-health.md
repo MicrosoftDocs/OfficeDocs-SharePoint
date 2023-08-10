@@ -61,7 +61,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 ### Prerequisite
 
 > [!NOTE]
-> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports and Intune "Sync Admin Reports" settings are no longer supported. We recommend that you update your OneDrive policy/profile to use the new "Enable sync health reporting for OneDrive" as soon as possible.
+> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports and Intune "Sync Admin Reports" settings are no longer supported. We recommend that you update your Group Policy Object(s) or Intune OneDrive profile(s) to use the new "Enable sync health reporting for OneDrive" as soon as possible.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
