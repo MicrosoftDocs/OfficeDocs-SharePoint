@@ -1,5 +1,5 @@
 ---
-ms.date: 10/05/2021
+ms.date: 08/11/2023
 title: "Overview: Migrate Egnyte using Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
@@ -21,14 +21,12 @@ ms.collection:
 - highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
-ROBOTS: NOINDEX
-description: "Overview of how to migrate your Egnyte content using Migration Manager"
+description: "Overview of how to migrate your Egnyte content using Migration Manager."
 ---
 # Overview: Migrate Egnyte using Migration Manager
 
 Collaborate all in one place by migrating your Egnyte documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-![Migration Manager main landing page](media/mm-egnyte-landing.png)
 
 ## How does it work?
 
@@ -54,7 +52,7 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
+- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it's likely that it won't allow you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
 
 **Sample request email:**
 
