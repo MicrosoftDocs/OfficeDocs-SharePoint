@@ -29,6 +29,8 @@ description: Migrate Google spreadsheet requirements Migration Manager deep scan
 
 You must grant Google Spreadsheet permissions before Migration Manager can run a **deep scan** on Google Sheets. 
 
+## Set permissions
+
 To confirm you have granted this permission: 
 
 1. Sign in with your Google admin credentials to the Google Marketplace.
