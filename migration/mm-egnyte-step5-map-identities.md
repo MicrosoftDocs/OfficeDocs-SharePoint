@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 5: Map Egnyte identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
