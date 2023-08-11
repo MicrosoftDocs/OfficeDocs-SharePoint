@@ -20,7 +20,7 @@ ms.collection:
 - highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
-description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
+description: Migrate Google spreadsheet requirements Migration Manager deep scan of Google spreadsheet
 ---
 # Google Sheets permissions with Migration Manager Deep Scan
 
