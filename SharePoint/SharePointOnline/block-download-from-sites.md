@@ -62,7 +62,7 @@ The following parameters can be used with this cmdlet to fine-tune it.
 
  `-ReadOnlyForBlockDownloadPolicy $true` Marks the site as read-only in addition to preventing downloads. 
 
-You also can attach a block download policy to a site label.
+You also can attach a block download policy to a site sensitivity label.
   
 ```PowerShell
 Set-Label -Identity 'Internal' -AdvancedSettings @{BlockDownloadPolicy="true" | “false” }
