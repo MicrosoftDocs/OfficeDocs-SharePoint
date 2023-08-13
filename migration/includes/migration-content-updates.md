@@ -2,6 +2,26 @@
 
 
 
+## Week of August 07, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/7/2023 | [Step 2: Scan and assess Dropbox folders using Migration Manager](/SharepointMigration/mm-dropbox-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Dropbox migration](/SharepointMigration/mm-dropbox-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Review the destination paths for your Dropbox migration with Migration Manager](/SharepointMigration/mm-dropbox-step4-review-destinations) | modified |
+| 8/7/2023 | [Step 2: Scan and assess Egnyte folders using Migration Manager](/SharepointMigration/mm-egnyte-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Egnyte migration](/SharepointMigration/mm-egnyte-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Review the destination paths for your Egnyte migration with Migration Manager](/SharepointMigration/mm-egnyte-step4-review-destinations) | modified |
+| 8/7/2023 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Google migration](/SharepointMigration/mm-google-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
+| 8/7/2023 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
+| 8/7/2023 | [Step 4 - Monitor and reporting status of your SPMT migration tasks](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 8/8/2023 | [Step 4 - Monitor and reporting status of your SPMT migration tasks](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 8/11/2023 | [Migrate your file shares to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+
+
 ## Week of July 31, 2023
 
 
