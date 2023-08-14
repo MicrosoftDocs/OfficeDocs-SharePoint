@@ -24,6 +24,9 @@ description: Migrate Google spreadsheets with Migration Manager.
 ---
 # Migrate Google Sheets with Migration Manager
 
+>[!Note]
+>The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
+
 A sheet scan is a scanning feature that exposes issues such as incompatible formulas and invalid embedded links in Google Sheets when exported and transferred to Microsoft Excel files. Migration Manager generates sheet reports listing issues discovered in the sheet scan process.
 The sheet scan is turned off by default. Once you enable it in project settings, it's automatically run as part of the general scan process.
 
@@ -34,9 +37,17 @@ Learn more:
 
 ## Prerequisite
 
-You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. Learn how here:
+You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. 
 
-- [Google Sheets permissions with Migration Manager sheet scan](mm-google-gsheet-permission.md)
+### Set Google Sheets permissions
+
+1. Sign in with your Google admin credentials to the Google Marketplace.
+2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” permission shows **Granted**.  
+
+  :::image type="content" source="media/mm-google-permission-gsheet.png" alt-text="google permissions granting for gsheet":::
+
+3. If it hasn't been granted, select **Grant access** at the top of the screen to grant permission.
+4. Once permission has been granted, Migration Manager can run seep scans for Google Sheets spreadsheet files.
 
 ## Enable Sheet scan
 
