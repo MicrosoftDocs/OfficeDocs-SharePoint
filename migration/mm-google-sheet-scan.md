@@ -34,7 +34,7 @@ Learn more:
 
 ## Prerequisite
 
-You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. This is done by signing into the Google Marketplace with your admin credentials. Learn more:
+You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. Learn how here:
 
 - [Google Sheets permissions with Migration Manager sheet scan](mm-google-gsheet-permission.md)
 
