@@ -2,6 +2,17 @@
 
 
 
+## Week of August 07, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/7/2023 | [How shareable links work in OneDrive and SharePoint in Microsoft 365](/SharePoint/shareable-links-anyone-specific-people-organization) | added |
+| 8/7/2023 | [Plan and deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 8/10/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 8/11/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
+
+
 ## Week of July 31, 2023
 
 
@@ -198,16 +209,3 @@
 | 7/14/2023 | [Configure incoming email for a SharePoint Server farm](/SharePoint/administration/incoming-email-configuration) | modified |
 | 7/14/2023 | [Plan incoming email for a SharePoint Server farm](/SharePoint/administration/incoming-email-planning) | modified |
 | 7/14/2023 | [Use OneDrive policies to control sync settings](/SharePoint/use-group-policy) | modified |
-
-
-## Week of July 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/6/2023 | [SharePoint Workflow Manager farm restore and disaster recovery](/SharePoint/governance/sp-wf-mgr-farm-restore-disaster-recovery) | added |
-| 7/6/2023 | Control access in the new SharePoint admin center | removed |
-| 7/6/2023 | Enable or disable preview features in SharePoint | removed |
-| 7/6/2023 | Manage app licenses for a SharePoint environment | removed |
-| 7/6/2023 | [Package biz apps into organizational list templates](/SharePoint/package-biz-apps-org-list-template) | modified |
-| 7/6/2023 | Sharing settings in the new SharePoint admin center | removed |
