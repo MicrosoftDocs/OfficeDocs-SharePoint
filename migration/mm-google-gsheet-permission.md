@@ -27,7 +27,7 @@ description: Migrate Google spreadsheet requirements Migration Manager deep scan
 >[!Note]
 >The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
 
-You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. 
+You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets.
 
 ## Set permissions
 
