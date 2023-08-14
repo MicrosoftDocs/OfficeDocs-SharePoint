@@ -1,6 +1,6 @@
 ---
 ms.date: 08/11/2023
-title: "Migrate Google spreadsheet requirements Migration Manager deep scan of Google spreadsheets"
+title: "Migrate Google spreadsheet requirements Migration Manager sheet scan of Google spreadsheets"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -22,12 +22,12 @@ ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migrate Google spreadsheet requirements Migration Manager deep scan of Google spreadsheet
 ---
-# Google Sheets permissions with Migration Manager Deep Scan
+# Google Sheets permissions with Migration Manager sheet scan
 
 >[!Note]
->The "deep scan" feature mentioned in this article is currently in **private preview** and not generally available.
+>The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
 
-You must grant Google Spreadsheet permissions before Migration Manager can run a **deep scan** on Google Sheets. 
+You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. 
 
 ## Set permissions
 
@@ -41,6 +41,6 @@ To confirm you have granted this permission:
 
 3. If it hasn't been granted, select **Grant access** at the top of the screen to grant permission.
 
-4. Once permission has been granted, Migration Manger can run deep scans for Google Sheets spreadsheet files.
+4. Once permission has been granted, Migration Manger can run seep scans for Google Sheets spreadsheet files.
 
  
