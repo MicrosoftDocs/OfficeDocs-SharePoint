@@ -1,5 +1,5 @@
 ---
-ms.date: 
+ms.date: 08/14/2023
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
