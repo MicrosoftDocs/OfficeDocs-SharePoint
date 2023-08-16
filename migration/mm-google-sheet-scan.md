@@ -35,11 +35,11 @@ Learn more:
 - [How to run a general scan process in Migration Manager](mm-google-step2-scan-assess.md)
 - [How to start a Google Drive migration project in Migration Manager](mm-google-overview.md)
 
-## Prerequisite
+## Prerequisites
 
 You must grant the **Microsoft 365 Migration** app access to all your Google Sheets spreadsheets in  Google Marketplace. Spreadsheet access must be granted before Migration Manager can run a **sheet scan** on your Google Sheets. 
 
-### Set Google Sheets permissions
+### Grant access to Google Sheets
 
 1. Sign in with your Google admin credentials to [Google Marketplace](https://admin.google.com/ac/apps/gmail/marketplace/appdetails/888375727339).
 2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” status shows **Granted**.  
