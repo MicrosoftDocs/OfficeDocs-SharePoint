@@ -1,6 +1,6 @@
 ---
 ms.date: 08/16/2023
-title: "Migrate Google spreadsheets with Migration Manager"
+title: "Scan Google Sheet spreadsheets with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -20,9 +20,9 @@ ms.collection:
 - highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
-description: Migrate Google spreadsheets with Migration Manager.
+description: Migrate Google Sheet spreadsheets with Migration Manager.
 ---
-# Scan Google Sheets with Migration Manager
+# Scan Google Sheet spreadsheets with Migration Manager
 
 >[!Note]
 >The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
