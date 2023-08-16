@@ -89,7 +89,7 @@ Replace TenantID with the **Directory (tenant) ID** saved in the third step ment
 | issuer     | `https://sts.windows.net/<tenantid>/` |
 | jwks_uri     | `https://login.microsoftonline.com/common/discovery/keys` |
 
-Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and save the **x5c** certificate string of the first key for later use in SharePoint setup (if the first key doesn’t work, try the second or third key).
+Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and save all the **x5c** certificate strings for later use in SharePoint setup.
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
@@ -144,9 +144,20 @@ In this step, you create a `SPTrustedTokenIssuer` that will store the configurat
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
+$oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
+
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
-$encodedCertStr = <x5c cert string>
-$signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
+
+$encodedCertStrs = @()
+$encodedCertStrs += <x5c cert string 1>
+$encodedCertStrs += <x5c cert string 2>
+...
+$signingCert = @()7
+foreach ($encodedCertStr in $encodedCertStrs) {
+
+     $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
+}
+
 # Set the AAD OIDC URL where users are redirected to authenticate. Please replace <tenantid> accordingly
 $authendpointurl = "https://login.microsoftonline.com/<tenantid>/oauth2/authorize"
 $registeredissuernameurl = " https://sts.windows.net/<tenantid>/"
@@ -156,7 +167,8 @@ $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
+
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $metadataendpointurl -Scope "openid profile"
 ```
 
 Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
@@ -200,6 +212,8 @@ With the following PowerShell example, we can use metadata endpoint from Azure A
 ```powershell
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+
+$oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Set the AAD metadata endpoint URL. Please replace <TenantID> with the value saved in step #3 in AAD setup section  
 $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration"
