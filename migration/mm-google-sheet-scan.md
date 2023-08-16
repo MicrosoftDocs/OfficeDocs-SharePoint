@@ -1,5 +1,5 @@
 ---
-ms.date: 08/14/2023
+ms.date: 08/16/2023
 title: "Migrate Google spreadsheets with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -22,7 +22,7 @@ ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migrate Google spreadsheets with Migration Manager.
 ---
-# Migrate Google Sheets with Migration Manager
+# Scan Google Sheets with Migration Manager
 
 >[!Note]
 >The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
@@ -35,19 +35,19 @@ Learn more:
 - [How to run a general scan process in Migration Manager](mm-google-step2-scan-assess.md)
 - [How to start a Google Drive migration project in Migration Manager](mm-google-overview.md)
 
-## Prerequisite
+## Prerequisites
 
-You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. 
+You must grant the **Microsoft 365 Migration** app access to all your Google Sheets spreadsheets in  Google Marketplace. Spreadsheet access must be granted before Migration Manager can run a **sheet scan** on your Google Sheets. 
 
-### Set Google Sheets permissions
+### Grant access to Google Sheets
 
-1. Sign in with your Google admin credentials to the Google Marketplace.
-2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” permission shows **Granted**.  
+1. Sign in with your Google admin credentials to [Google Marketplace](https://admin.google.com/ac/apps/gmail/marketplace/appdetails/888375727339).
+2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” status shows **Granted**.  
 
   :::image type="content" source="media/mm-google-permission-gsheet.png" alt-text="google permissions granting for gsheet":::
 
-3. If it hasn't been granted, select **Grant access** at the top of the screen to grant permission.
-4. Once permission has been granted, Migration Manager can run seep scans for Google Sheets spreadsheet files.
+3. If it hasn't been granted, select **Grant access** at the top of the page to grant access.
+4. Once access has been granted, Migration Manager can run sheet scans for Google Sheets spreadsheet files.
 
 ## Enable Sheet scan
 
@@ -67,7 +67,7 @@ To download Sheet Scan reports, select one or multiple scan tasks, and then sele
 |Report type|Download menu|Tasks selection limit|Report name|Report Description|
 |:-----|:-----|:-----|:-----|:-----|
 |Sheet Summary|Download report – Sheet summary|Can select up to 1000 tasks|SheetSummary.csv|A summary of Google Sheets of each selected task|
-|Sheet detailed|Download report – Sheet detailed|Can select up to 100 tasks|-SheetItem.csv</br>- - SheetIssue.csv|-List all the Google Sheets files scanned and whether they have issues or not</br>- Issue details of selected tasks
+|Sheet detailed|Download report – Sheet detailed|Can select up to 100 tasks|- SheetItem.csv</br>-  SheetIssue.csv|**SheetItem.csv**: Lists all the Google Sheets files scanned and whether they have issues or not</br>**SheetIssue.csv**: Lists issue details of selected tasks
 
 
 ### SheetSummary.csv
