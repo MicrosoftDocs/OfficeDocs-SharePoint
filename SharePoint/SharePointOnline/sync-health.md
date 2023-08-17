@@ -193,7 +193,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  Select the toggle switch to set "Enable sync health reporting for OneDrive" to **Enabled**.
 
--  If creating a new profile, continue through the wizard, assing scope tags if required, and assigning the profile as required. If you are editing the profile, click on the "Review + save" button.
+-  If creating a new profile, continue through the step-by-step guide, assigning scope tags if required, and assigning the profile as required. If you are editing the profile, select **Review + save**.
 
 > [!IMPORTANT]
 > When you enable the EnableSyncAdminReports setting on devices, it can take up to three days for reports to be available. Devices will appear in the report after this time. Forcing a specific device to report data is unsupported.
