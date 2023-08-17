@@ -169,7 +169,7 @@ To apply the setting on a single device, follow these steps:
 
 - Choose **Enable sync health reporting for OneDrive**.
 
-- Select **Enabled** and then press **OK**.
+- Select **Enabled** and then select **OK**.
   
 ### Intune
 
