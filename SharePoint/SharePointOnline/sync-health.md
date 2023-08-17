@@ -89,7 +89,7 @@ You can enable this setting in multiple ways:
 
     a. Go to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-    b. Right-click > **New** > **DWORD (32-bit) Value**
+    b. **Right-click** > **New** > **DWORD (32-bit) Value**
 
     c. Name: EnableSyncAdminReports
 
