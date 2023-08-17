@@ -1,11 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "Sharepoint/SharepointOnline/home-site.md",
-      "redirect_url": "/viva/connections/home-site-plan",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
       "redirect_url": "/sharepoint/search/create-custom-ranking-model",
       "redirect_document_id": true
@@ -573,6 +568,11 @@
     {
       "source_path": "SharePoint/SharePointOnline/home-site-plan.md",
       "redirect_url": "/viva/connections/home-site-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/home-site.md"
+      "redirect_url": "/viva/connections/home-site-plan"
       "redirect_document_id": false
     },
     {
