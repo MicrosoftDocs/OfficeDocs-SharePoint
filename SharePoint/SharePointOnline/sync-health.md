@@ -123,7 +123,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  Go to [Microsoft Intune Admin Center](https://intune.microsoft.com) and sign in as a global admin, Intune admin, or an account with sufficient RBAC permissions.
 
--  Click on Devices, Windows, and then click on "Configuration profiles".
+-  Select **Devices** > **Windows**, and then select **Configuration profiles**.
 
 -  Edit or create a new OneDrive profile (Platform - "Windows 10 and later", Profile type - "Settings Catalog").
 
