@@ -1,5 +1,5 @@
 ---
-ms.date: 08/16/2023
+ms.date: 08/17/2023
 title: "Scan Google Sheet spreadsheets with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -56,7 +56,6 @@ To enable a Google Sheet scan in a Google Drive migration project:
 1. Select **Project Settings** in the top-right toolbar.
 2. Select the **Advanced** tab.
 3. Select **Enable Google Sheet scan** setting. Once enabled, the sheet scan is automatically included as part of the general scan.
-4. After you have updated this setting, a Google Spreadsheet permissions check is triggered. Make sure Google Sheets spreadsheets permission is granted.  
 
 
 ## Sheet scan reports
