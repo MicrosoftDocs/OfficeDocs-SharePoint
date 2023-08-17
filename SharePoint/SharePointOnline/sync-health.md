@@ -107,7 +107,7 @@ You can enable this setting in multiple ways:
 
 - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy).
 
-To apply the setting on a single PC, follow these steps:
+To apply the setting on a single device, follow these steps:
 
 - Open Group Policy Editor (gpedit.msc).
 
