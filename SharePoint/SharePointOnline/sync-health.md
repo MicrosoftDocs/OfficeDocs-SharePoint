@@ -137,7 +137,6 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  Close the Settings picker from the **X** at the top right.
 
-=======
 
 - Edit the registry
 
