@@ -79,7 +79,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 6. Enable the OneDrive EnableSyncAdminReports setting via Group Policy Object or Intune.
 
 > [!IMPORTANT]
-> **You must enable this setting on the devices from which you want to get reports using one of the below methods.** This setting does not affect users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
+> **You must enable this setting on the devices from which you want to get reports using one of the following methods.** This setting does not affect users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you are done.
 
 ### Group Policy
 
