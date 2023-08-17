@@ -142,8 +142,6 @@ In this step, you create a `SPTrustedTokenIssuer` that will store the configurat
 
 ```powershell
 # Define claim types
-$email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
-
 $oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
@@ -211,8 +209,6 @@ With the following PowerShell example, we can use metadata endpoint from Azure A
 
 ```powershell
 # Define claim types
-$email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
-
 $oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Set the AAD metadata endpoint URL. Please replace <TenantID> with the value saved in step #3 in AAD setup section  
