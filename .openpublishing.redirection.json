@@ -571,11 +571,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/SharePointOnline/home-site.md"
-      "redirect_url": "/viva/connections/home-site-plan"
-      "redirect_document_id": false
-    },
-    {
       "source_path": "SharePoint/SharePointOnline/sharepoint-app-bar.md",
       "redirect_url": "/viva/connections/sharepoint-app-bar",
       "redirect_document_id": false
@@ -1048,6 +1043,11 @@
     {
       "source_path": "SharePoint/SharePointOnline/enable-or-disable-preview-features.md",
       "redirect_url": "/microsoft-365/admin/manage/release-options-in-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/home-site.md",
+      "redirect_url": "/viva/connections/home-site-plan",
       "redirect_document_id": false
     }
   ]
