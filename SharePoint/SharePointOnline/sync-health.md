@@ -127,7 +127,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  Edit or create a new OneDrive profile (Platform - "Windows 10 and later", Profile type - "Settings Catalog").
 
--  If creating a new profile, provide a name for the profile and go to the Configuration settings tab. If editing a profile, you will by default go direct to the Configuration settings tab.
+-  If creating a new profile, provide a name for the profile and go to the Configuration settings tab. If editing a profile, you will by default go directly to the Configuration settings tab.
 
 -  Click on "Add setting" and the Settings picker will be displayed on the right side of the UI.
 
