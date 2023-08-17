@@ -175,7 +175,7 @@ To apply the setting on a single device, follow these steps:
 
 To apply the setting through Intune, we recommend that you use the "Settings Catalog" profile type:
 
--  Go to [Microsoft Intune Admin Center](https://intune.microsoft.com) and sign in as a global admin, Intune admin role, or an account with sufficient RBAC permissions.
+-  Go to [Microsoft Intune Admin Center](https://intune.microsoft.com) and sign in as a global admin, Intune admin, or an account with sufficient RBAC permissions.
 
 -  Click on Devices, Windows, and then click on "Configuration profiles".
 
