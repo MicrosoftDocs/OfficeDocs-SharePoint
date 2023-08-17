@@ -129,7 +129,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  If creating a new profile, provide a name for the profile and go to the Configuration settings tab. If editing a profile, you will by default go directly to the Configuration settings tab.
 
--  Click on "Add setting" and the Settings picker will be displayed on the right side of the UI.
+-  Select **Add setting** and the Settings picker will be displayed on the right side of the UI.
 
 -  In the search bar, add "OneDrive". Alternatively you can scroll down to the OneDrive settings.
 
