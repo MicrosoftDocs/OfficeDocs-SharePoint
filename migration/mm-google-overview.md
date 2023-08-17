@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/11/2023
 title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -25,10 +25,8 @@ description: Overview of how to migrate from Google Workspace to Microsoft 365 w
 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
 
+Collaborate all in one place by migrating your Google Workspace documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
-
-![Migration Manager main landing page](media/mm-main-landing-google.png)
 
 ## How does it work?
 
@@ -100,7 +98,7 @@ Google only started calculating the size of its proprietary files, including Goo
 
 ### Files marked as restricted
 
-Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, you'll receive an error stating:
+Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, this error will appear:
 
 `Permissions issue: File marked as restricted or not copyable`
 
