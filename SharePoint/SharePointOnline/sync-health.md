@@ -143,7 +143,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
     a. Go to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-    b. Right-click > **New** > **DWORD (32-bit) Value**
+    b. **Right-click** > **New** > **DWORD (32-bit) Value**
 
     c. Name: EnableSyncAdminReports
 
