@@ -133,7 +133,7 @@ To apply the setting through Intune, we recommend that you use the "Settings Cat
 
 -  In the search bar, add "OneDrive". Alternatively you can scroll down to the OneDrive settings.
 
--  Click on the checkbox next to the "Enable sync health reporting for OneDrive" setting name.
+-  Check the checkbox next to the "Enable sync health reporting for OneDrive" setting name.
 
 -  Close the Settings picker from the "X" at the top right.
 
