@@ -115,7 +115,6 @@
 ### [Create inactive site policy](site-lifecycle-management.md)
 ### [Root site](modern-root-site.md)
 ### [Plan, build, and launch a home site](home-site-plan.md)
-### [Set up a home site](home-site.md)
 ### [Advanced management](advanced-management.md)
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
