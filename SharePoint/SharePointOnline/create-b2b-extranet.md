@@ -1,6 +1,6 @@
 ---
 title: "Use SharePoint as a business-to-business (B2B) extranet solution"
-ms.reviewer: sesham
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
