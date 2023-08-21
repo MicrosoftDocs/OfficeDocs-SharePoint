@@ -1,7 +1,7 @@
 ---
 ms.date: 07/11/2018
 title: "Set up a new term set"
-ms.reviewer: anfra
+ms.reviewer: shrganguly
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
