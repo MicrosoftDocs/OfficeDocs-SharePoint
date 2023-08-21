@@ -1,7 +1,7 @@
 ---
 ms.date: 07/23/2018
 title: "Open the Term Store Management Tool"
-ms.reviewer: anfra
+ms.reviewer: shrganguly
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
