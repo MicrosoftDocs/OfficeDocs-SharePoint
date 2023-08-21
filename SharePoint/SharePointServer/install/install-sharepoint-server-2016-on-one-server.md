@@ -56,7 +56,7 @@ Before you begin to install and configure SharePoint Servers 2016 or 2019 on a s
   
 ## Install SharePoint Servers 2016 or 2019 on a single server
 
-To install and configure SharePoint Server 2016 or 2019 on a single server, you must follow these steps:
+To install and configure SharePoint Server 2016 or 2019 on a single server, follow these steps:
   
 1. Run the [Microsoft SharePoint Products and Technologies Preparation Tool](#run-the-microsoft-sharepoint-products-preparation-tool), which installs all prerequisites to use SharePoint Server. 
 2. Run [Setup](#run-setup), which installs binaries, configures security permissions, and edits registry settings for SharePoint Servers 2016 or 2019.
@@ -145,7 +145,7 @@ Use the following procedure to install and configure the configuration database 
 
     If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Servers 2016 and 2019 are installed, in the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS` folder.
 
-    If you're prompted for your user name and password, you might have to add the SharePoint Central Administration web site to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
+    If you're prompted for your user name and password, you might have to add the SharePoint Central Administration web site to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](#configure-browser-settings).
 
 ### Configure browser settings
 
@@ -164,8 +164,7 @@ If you receive a proxy server error message, perform the following procedure:
 
 **To add the SharePoint Central Administration website to the list of trusted sites:**
   
-1. Verify that the user account that completes this procedure has the following credentials:
-   - The user account is a member of the Administrators group on the computer on which you're performing the procedure.
+1. Verify that the user account that completes this procedure is a member of the Administrators group on the computer in which you're performing the procedure.
 2. In Internet Explorer, on the **Tools** menu, click **Internet Options**.
 3. On the **Security** tab, in the **Select a zone to view or change security settings** area, click **Trusted Sites**, and then click **Sites**.
 4. Clear the **Require server verification (https:) for all sites in this zone** check box. 
@@ -175,8 +174,7 @@ If you receive a proxy server error message, perform the following procedure:
 
 **To disable Internet Explorer Enhanced Security settings:**
   
-1. Verify that the user account that completes this procedure has the following credentials: 
-   - The user account is a member of the Administrators group on the computer on which you're performing the procedure.
+1. Verify that the user account that completes this procedure is a member of the Administrators group on the computer in which you're performing the procedure.
 2. Click **Start**, point to **All Apps**, point to **Administrative Tools**, and then click **Server Manager**.
 3. In **Server Manager**, select the root of **Server Manager**.
 4. In the **Security Information** section, click **Configure IE ESC**. The **Internet Explorer Enhanced Security Configuration** dialog appears.
