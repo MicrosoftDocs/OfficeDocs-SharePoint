@@ -1,7 +1,7 @@
 ---
 ms.date: 05/05/2023
 title: "Review recent SharePoint site actions"
-ms.reviewer: cvelaga
+ms.reviewer: daminasy
 manager: serdars
 recommendations: true
 ms.author: mactra

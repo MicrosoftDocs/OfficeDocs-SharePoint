@@ -1,7 +1,7 @@
 ---
 ms.date: 07/11/2018
 title: "Assign roles and permissions to manage term sets"
-ms.reviewer: vrchowdh
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
