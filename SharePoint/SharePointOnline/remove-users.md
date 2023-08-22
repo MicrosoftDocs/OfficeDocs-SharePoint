@@ -1,6 +1,6 @@
 ---
 ms.date: 01/07/2019
-title: "Remove users from SharePoint"
+title: Troubleshoot user profile removal issues in SharePoint
 ms.reviewer: waynewin
 ms.author: serdars
 author: SerdarSoysal
@@ -24,10 +24,10 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you'll learn how to remove users from SharePoint in different scenarios."
+description: "In this article, you'll learn how to troubleshoot user profile removal issues in SharePoint."
 ---
 
-# How to remove users from SharePoint
+# Troubleshoot user profile removal issues in SharePoint
 
 This article describes how to remove users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
 
