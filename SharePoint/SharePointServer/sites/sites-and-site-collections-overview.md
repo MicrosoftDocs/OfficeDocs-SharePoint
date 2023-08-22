@@ -31,7 +31,7 @@ Learn about [Planning your SharePoint hub sites in Microsoft 365](../../SharePoi
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
 
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. These site collections will make it easier when migrating your SharePoint farm to SharePoint in Microsoft 365.
+The SharePoint Server modern experience, available in both SharePoint Server 2019 and SharePoint Server Subscription Edition, is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. These site collections will make it easier when migrating your SharePoint Server farm to SharePoint in Microsoft 365.
 
 The following guidelines show the relationship between SharePoint Server sites and site collections, and content databases:
 
@@ -58,7 +58,7 @@ Because site collections and sites exist in a parent-child relationship, there a
 
 - For site collection administrators, a site collection provides a unified mechanism and scope for administration. For example, security, policies, and features can be managed for a whole site collection; Site Collection Web Analytics Reports, audit log reports, and other data can help administrators track site collection security and performance.
 
-  SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint in Microsoft 365, or keep the classic experience. Using the modern experience site collections is inline with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint.
+  SharePoint Server 2019 and SharePoint Server Subscription Edition offers the choice to create modern Team and Communication sites like in SharePoint in Microsoft 365, or keep the classic experience. Using the modern experience site collections is inline with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint.
 
 - For farm administrators, site collections can be moved between content databases. By this movement, farm administrators can manage the size of their content databases.
 
@@ -68,11 +68,11 @@ Because site collections and sites exist in a parent-child relationship, there a
 
 Every site collection starts as a single, top-level site. Because it is a site, its structure and functionality is based on a site template. SharePoint Server provides many site templates, plus you can also create and use your own as needed. The following tables describe the site collection templates that are available in SharePoint Servers 2016 and 2019.
 
-**Table: Site templates in SharePoint Servers 2016 and 2019**
+**Table: Site templates in SharePoint Servers 2016, 2019, and SharePoint Server Subscription Edition**
 
 |Type|Name|Description|Availability|
 |:-----|:-----|:-----|:-----|
-|**Collaboration**|Team Site|A place to work together with a group of people.  <br/> **SharePoint Server 2019** offers a modern and classic team site.|Site collection and site|
+|**Collaboration**|Team Site|A place to work together with a group of people.  <br/> **SharePoint Server 2019** and **SharePoint Server Subscription Edition** offers a modern and classic team site.|Site collection and site|
 |**Collaboration**|Blog|A site for a person or team to post ideas, observations, and expertise that site visitors can comment on.|Site collection and site|
 |**Collaboration**|Developer Site|A site for developers to build, test, and publish apps for Office.|Site collection only|
 |**Collaboration**|Project Site|A site for managing and collaborating on a project. This site template brings all status, communication, and artifacts relevant to the project into one place.|Site collection and site|
@@ -91,7 +91,7 @@ Every site collection starts as a single, top-level site. Because it is a site, 
 |**Publishing**|Publishing Portal|A starter hierarchy for an Internet-facing site or a large intranet portal. This site can be customized easily with distinctive branding. Typically, this site has many more readers than contributors and it is used to publish web pages with approval workflows.|Site collection only|
 |**Publishing**|Enterprise Wiki|A site for publishing knowledge that you capture and want to share across the enterprise.|Site collection and site|
 |**Publishing**|Product Catalog|A site for managing product catalog data that can be published to an Internet-facing site through search.|Site collection only|
-|**Publishing**|Communication Site|Available in SharePoint Server 2019 only as a modern experience. A site for publishing dynamic, modern content to people in your organization to keep them informed and engaged on topics, events, or projects.|Site collection only|
+|**Publishing**|Communication Site|Available in SharePoint Server 2019 and SharePoint Server Subscription Edition as a modern experience. A site for publishing dynamic, modern content to people in your organization to keep them informed and engaged on topics, events, or projects.|Site collection only|
 |**Custom**|\<Select template later...\>|Create an empty site and pick a template for the site at a later time.|Site collection only|
 
 The following table describes the 2013 experience version site templates that are available in SharePoint 2013.
