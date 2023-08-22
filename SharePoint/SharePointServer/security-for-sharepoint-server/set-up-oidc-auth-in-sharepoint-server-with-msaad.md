@@ -145,14 +145,12 @@ In this step, you create a `SPTrustedTokenIssuer` that will store the configurat
 $oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
-
 $encodedCertStrs = @()
 $encodedCertStrs += <x5c cert string 1>
 $encodedCertStrs += <x5c cert string 2>
 ...
-$signingCert = @()7
+$signingCert = @()
 foreach ($encodedCertStr in $encodedCertStrs) {
-
      $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
 }
 
@@ -165,7 +163,6 @@ $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-
 New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $metadataendpointurl -Scope "openid profile"
 ```
 
