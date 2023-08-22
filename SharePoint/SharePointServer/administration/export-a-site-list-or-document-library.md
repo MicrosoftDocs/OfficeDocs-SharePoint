@@ -60,9 +60,9 @@ You can use PowerShell to export a site, list, or document library manually or a
      ```
 
     Where:
-       -  _\<SiteURL\>_ is URL for the site, list, or library that you're exporting. 
-       -  _\<Path and FileName\>_ is path and name for the site, list, or library that you're exporting. 
-       -  _\<URL of Site, List, or Library\>_ is the URL for the site, list, or library where you're exporting. 
+     - _\<SiteURL\>_ is URL for the site, list, or library that you're exporting. 
+     - _\<Path and FileName\>_ is path and name for the site, list, or library that you're exporting. 
+     - _\<URL of Site, List, or Library\>_ is the URL for the site, list, or library where you're exporting. 
 
      The `UseSqlSnapshot` parameter lets SharePoint create a snapshot of the content database before starting the export, then export the site’s content from that snapshot instead of the live database. This allows users to continue to interact with the site without impacting the data integrity of the export. Once the export is finished, it will automatically remove the snapshot. Database snapshots require the Enterprise Edition of SQL Server.
 
