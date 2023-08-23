@@ -1046,6 +1046,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/find-settings.md",
+      "redirect_url": "/sharepoint/turn-external-sharing-on-or-off",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/home-site.md",
       "redirect_url": "/viva/connections/home-site-plan",
       "redirect_document_id": false

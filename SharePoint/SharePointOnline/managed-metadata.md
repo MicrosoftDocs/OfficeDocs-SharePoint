@@ -1,6 +1,6 @@
 ---
 title: "Introduction to managed metadata"
-ms.reviewer: vrchowdh
+ms.reviewer: shrganguly
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
