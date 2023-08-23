@@ -38,8 +38,8 @@ Using authentication context with SharePoint sites requires one of the following
 
 - Microsoft Syntex - SharePoint Advanced Management
 - Microsoft 365 E5/A5/G5
-- Microsoft 365 E5/A5/G5/F5 Compliance
-- Microsoft 365 E5/F5 Information Protection and Governance
+- Microsoft 365 E5/A5 Compliance
+- Microsoft 365 E5 Information Protection and Governance
 - Office 365 E5/A5/G5
 
 ## Limitations
@@ -49,7 +49,7 @@ Some apps don't work with authentication contexts. We recommend testing apps on 
 The following apps and scenarios don't work with authentication contexts:
 
 - Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
-- Yammer
+- Viva Engage
 - Teams web app
 - OneNote app can't be added to channel if the associated SharePoint site has an authentication context
 - Teams private channel won't provision a SharePoint site if the main team site has an authentication context
@@ -60,6 +60,8 @@ The following apps and scenarios don't work with authentication contexts:
 - Third-party apps
 - The OneDrive sync app won't sync sites with an authentication context
 - Copy or move files from a site with no authentication context to a site with an authentication context fails
+- Associating an authentication context to the enterprise application catalog site collection is not supported
+- The “Visualize SharePoint List in Power BI” feature does not currently support authentication context
 
 ## Setting up an authentication context
 

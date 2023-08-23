@@ -2,62 +2,62 @@
 
 
 
-## Week of April 10, 2023
+## Week of August 14, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/10/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
-| 4/11/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
+| 8/17/2023 | Set a site as your home site | removed |
+| 8/18/2023 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | added |
 
 
-## Week of April 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/6/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-
-
-## Week of March 27, 2023
+## Week of August 07, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/28/2023 | [Data access governance reports for SharePoint sites](/SharePoint/data-access-governance-reports) | modified |
-| 3/28/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-| 3/30/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | added |
-| 3/31/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-| 3/31/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 8/7/2023 | [How shareable links work in OneDrive and SharePoint in Microsoft 365](/SharePoint/shareable-links-anyone-specific-people-organization) | added |
+| 8/7/2023 | [Plan and deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 8/10/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 8/11/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
 
 
-## Week of March 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/23/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
-
-
-## Week of March 13, 2023
+## Week of July 31, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/14/2023 | [Private key management for SSL certificates](/SharePoint/administration/private-key-management-for-ssl-certificates) | added |
-| 3/14/2023 | [Hybrid Configuration Wizard in the SharePoint admin center](/SharePoint/hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center) | added |
-| 3/14/2023 | [New and improved features in SharePoint Server Subscription Edition Version 23H1](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release) | added |
-| 3/14/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
-| 3/14/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
-| 3/14/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
-| 3/14/2023 | [Configure hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
-| 3/14/2023 | Hybrid picker in the SharePoint admin center | removed |
-| 3/14/2023 | [Plan hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
-| 3/14/2023 | [Run Hybrid Configuration Wizard](/SharePoint/hybrid/run-hybrid-picker) | modified |
-| 3/14/2023 | [Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016) | modified |
-| 3/14/2023 | [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update) | modified |
-| 3/14/2023 | [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview) | modified |
-| 3/14/2023 | [What's deprecated or removed from SharePoint Server 2019](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019) | modified |
-| 3/14/2023 | [What's deprecated or removed from SharePoint Server Subscription Edition?](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-subscription-edition) | modified |
-| 3/15/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
-| 3/17/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
+| 7/31/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | added |
+| 7/31/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 8/1/2023 | Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store | removed |
+| 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |
+
+
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/24/2023 | Formatting changes for Microsoft Viva Amplify - Private preview | removed |
+| 7/24/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
+| 7/25/2023 | [IP support in SharePoint Server](/SharePoint/install/ip-support) | modified |
+| 7/28/2023 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
+
+
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/17/2023 | [Deploy and configure the OneDrive sync app for Mac](/SharePoint/deploy-and-configure-on-macos) | modified |
+| 7/17/2023 | [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](/SharePoint/administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013) | modified |
+| 7/18/2023 | [Configure the One Customer Voice (OCV) feedback](/SharePoint/administration/configure-ocv) | added |
+| 7/18/2023 | Get started with the SharePoint admin center | removed |
+| 7/18/2023 | [Recommended sync app configuration](/SharePoint/ideal-state-configuration) | modified |
+| 7/18/2023 | [About the SharePoint Administrator role in Microsoft 365](/SharePoint/sharepoint-admin-role) | modified |
+| 7/18/2023 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
+| 7/20/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 7/20/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
+| 7/21/2023 | [Restrict OneDrive access](/SharePoint/limit-access) | modified |

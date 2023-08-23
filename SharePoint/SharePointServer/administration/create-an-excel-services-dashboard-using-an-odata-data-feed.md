@@ -91,7 +91,7 @@ Our example dashboard uses data that is imported into Excel via an OData data fe
     
 4. On the **Connect to Database Server** page, in the **Location of the data feed** box, specify the website address (URL) for the data feed. 
     
-    For our example dashboard, we used http://services.odata.org/AdventureWorksV3/AdventureWorks.svc.
+    For our example dashboard, we used `https://services.odata.org/AdventureWorksV3/AdventureWorks.svc`.
     
 5. In the **Log on credentials** section, take one of the following steps: 
     

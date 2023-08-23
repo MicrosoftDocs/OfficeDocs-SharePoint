@@ -2,7 +2,7 @@
 title: "Update a web application URL and IIS bindings for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
-author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 09/24/2021 
 audience: ITPro

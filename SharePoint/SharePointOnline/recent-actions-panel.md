@@ -1,7 +1,7 @@
 ---
-ms.date: 04/10/2023
+ms.date: 05/05/2023
 title: "Review recent SharePoint site actions"
-ms.reviewer: cvelaga
+ms.reviewer: daminasy
 manager: serdars
 recommendations: true
 ms.author: mactra
@@ -26,39 +26,28 @@ With the recent actions panel, administrators can make changes to SharePoint sit
 
 Changes to site properties like site name, site deletion and storage quota show as recent actions.
 
-The recent actions panel only shows the changes you make to site properties. Changes made by other administrators and organization-level changes won't show in the panel.
+The recent actions panel only shows the changes you make to site properties. Changes made by other administrators and organization-level changes don't show in the panel.
 
 :::image type="content" source="media/RAC_panel.png" alt-text="Screenshot of Recent admin actions panel":::
 
 > [!NOTE]
 > Recent actions panel is not available for global readers. GDAP administrators will not be able to see the previous and current values of the administrator actions.
 
-## Non-premium and premium features of recent actions panel
-
-### Non-premium
-
-The non-premium version of recent actions panel lets you:
-
-- review actions made within the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
-
-### Premium
-
-With the [Microsoft Syntex - SharePoint Advanced Management subscription](advanced-management.md), you'll have access to premium features of recent actions panel. The premium version lets you:
-
-- review the last 30 actions made within the last 30 days in the recent actions panel.
-- view additional details such as previous and current value of the settings changed and directly access the site details panel to review the change.
-- export and download a. csv file detailing all the changes made within the last 30 days.
-
 ## Requirements
 
-To access and use the **premium** version of this feature, your organization must have the following subscription:
+The following **premium** features require [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
-- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+- Review the last 30 actions made within the last 30 days in the recent actions panel.
+- View more details such as previous and current value of the settings changed and directly access the site details panel to review the change.
+- Export and download a. csv file detailing all the changes made within the last 30 days.
+
+> [!IMPORTANT]
+> Without Microsoft Syntex - SharePoint Advanced Management, you can only view actions made in the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
 
 ## View recent actions of a site
 
 1. In the SharePoint admin center, expand **Sites** and select **Active sites**.
-2. Select **Your recent actions**. The recent actions panel appears on the right and lists your most recent 30 actions made within the last 30 days.
+2. Select **Your recent actions**. The recent actions panel appears and lists your most recent 30 actions made within the last 30 days.
 3. Select **Export** to download the list as a .csv file.
 4. Select **View site details** to open the site info panel. From here, you can make changes to site properties like site name, site address, hub association and aliases.
 
@@ -71,7 +60,7 @@ To access and use the **premium** version of this feature, your organization mus
 
 Here’s an example of how bulk edits are grouped as one action in the recent actions panel:
 
-You deleted 4 SharePoint sites on May 21 at 12:10 AM. The bulk edit will show as one item named Deleted 4 sites on the recent actions panel. Select the Deleted 4 sites action and the list of deleted SharePoint sites will appear.
+You deleted 4 SharePoint sites on May 21 at 12:10 AM. The bulk edit shows as one item named Deleted 4 sites on the recent actions panel. Select the Deleted 4 sites action and the list of deleted SharePoint sites appear.
 
 :::image type="content" source="media/RAC_panel_bulk_edit_successful_and_failed_actions.png" alt-text="screenshot of recent actions panel with successful and failed actions":::
 

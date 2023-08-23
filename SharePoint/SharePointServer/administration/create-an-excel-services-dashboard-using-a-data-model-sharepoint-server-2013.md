@@ -64,7 +64,7 @@ Our example dashboard is designed to be a prototype that you can use to learn ho
 |Who will use the dashboard?  <br/> |The dashboard is intended for use by sales representatives, sales managers, corporate executives, and other stakeholders who are interested in sales information for the fictitious company Adventure Works Cycles.  <br/> |
 |How will the dashboard be used? That is, what kinds of information do the dashboard consumers want to see?  <br/> | Sales representatives, managers, executives, and other dashboard consumers want to use the dashboard to view, explore, and analyze data. At a minimum, the dashboard consumers want to see the following kinds of information:  <br/>  Sales amounts across different sales territories at the country level  <br/>  Order quantities for products in the Internet and reseller sales channels  <br/>  Order quantities and sales amounts for various promotions the company held  <br/>  Dashboard consumers want to use the dashboard to view, explore, and analyze data to obtain answers to specific questions.  <br/>  The dashboard consumers also want to be able to use a filter to focus on more specific information, such as how many orders and how much sales were generated from different promotions.  <br/> |
 |Does data exist that we can use to create the dashboard?  <br/> |The Adventure Works sample database contains the data that we want to use for the dashboard. The sample database contains lots of tables. We can easily create a Data Model in Excel that will enable us to create reports using multiple tables as a single data source. This will enable us to create interactive reports that dashboard users can use to explore data by viewing different levels of detail.  <br/> |
-|What items should the dashboard contain?  <br/> | Our example dashboard includes the following items:  <br/>  A Data Model that includes several tables that are stored in SQL Server.  <br/>  A report showing product sales information across different countries  <br/>  A report showing orders and sales information for different products  <br/>  A filter that dashboard consumers can use to view information for a particular promotion  <br/> |
+|What items should the dashboard contain?  <br/> | Our example dashboard includes the following items:  <br/>  A Data Model that includes several tables that are stored in SQL Server.  <br/>  A report showing product sales information across different countries/regions  <br/>  A report showing orders and sales information for different products  <br/>  A filter that dashboard consumers can use to view information for a particular promotion  <br/> |
    
 Now that we have created our dashboard plan, we can begin to create the dashboard.
   
@@ -152,7 +152,7 @@ For our example dashboard, we'll create two reports, as described in the followi
 
 |**Report Type**|**Report Name**|**Description**|
 |:-----|:-----|:-----|
-|PivotChart report  <br/> |Territory Sales  <br/> |Bar chart report that shows sales amounts across different countries.  <br/> |
+|PivotChart report  <br/> |Territory Sales  <br/> |Bar chart report that shows sales amounts across different countries/regions.  <br/> |
 |PivotTable report  <br/> |Product Orders and Sales  <br/> |Table that shows order quantities and sales amounts for products across the Internet and Reseller channels.  <br/> |
    
 We begin by creating the Territory Sales report.
@@ -169,7 +169,7 @@ We begin by creating the Territory Sales report.
     
 5. Expand **DimSalesTerritory**, and then select **SalesTerritoryCountry**.
     
-6. Expand **FactInternetSales**, and then select **SalesAmount**. The chart updates to show sales amounts across different countries.
+6. Expand **FactInternetSales**, and then select **SalesAmount**. The chart updates to show sales amounts across different countries/regions.
     
 7. Notice that the chart legend says **Total**, which is not necessarily useful information. To change that, follow these steps:
     
@@ -177,7 +177,7 @@ We begin by creating the Territory Sales report.
     
 2. In the **Value Field Settings** dialog, in the **Custom Name** box, type **Internet Sales**, and then click **OK**. The chart does not seem to have changed at this point, but you will see the changes after you complete the next step.
     
-8. In the **PivotChart Fields** section, expand **FactResellerSales**, and then select **SalesAmount**. The chart updates to show two sets of bars representing sales amounts across different countries.
+8. In the **PivotChart Fields** section, expand **FactResellerSales**, and then select **SalesAmount**. The chart updates to show two sets of bars representing sales amounts across different countries/regions.
     
 9. To change how the sales amount information for the reseller channel is represented in the chart legend, follow these steps:
     
@@ -392,10 +392,10 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 
 |**Question**|**Action**|
 |:-----|:-----|
-|Which two countries sold more on the Internet than through resellers?  <br/> |Look at the bar chart. Notice that in Australia and Germany, Internet sales amounts are greater than reseller sales amounts.  <br/> |
+|Which two countries/regions sold more on the Internet than through resellers?  <br/> |Look at the bar chart. Notice that in Australia and Germany, Internet sales amounts are greater than reseller sales amounts.  <br/> |
 |For the Volume Discount 41 to 60 promotion, which item had the highest sales amount?  <br/> |In the **Promotion** slicer, select **Volume Discount 41 to 60**. Notice the reports update to show reseller sales information only. In the PivotTable report, notice that Women's Mountain Shorts has the highest sales amount.  <br/> |
 |What product had the highest sales amounts for the reseller channel across all promotions?  <br/> |To answer this question, follow these steps.  <br/> Open the workbook in Excel. Make sure the slicer is cleared so that data for all promotions is displayed. In the PivotTable report, click a row in the Reseller Sales column. On the Data tab, click Sort to open the Sort by Value dialog. Under Sort Options, select Largest to Smallest, and then click OK. Notice that the PivotTable report shows Mountain-200 with the highest sales amount in the reseller channel. |
-|Is it possible to change the bar chart to display order quantities across different countries instead of sales amounts?  <br/> |Click the bar chart to open the **PivotChart Fields** list. In the **FactInternetSales** section, select **OrderQuantity** and clear **SalesAmount**. In the **FactResellerSales** section, select **OrderQuantity** and clear **SalesAmount**. The bar chart updates to display order quantities across the different countries.  <br/> |
+|Is it possible to change the bar chart to display order quantities across different countries/regions instead of sales amounts?  <br/> |Click the bar chart to open the **PivotChart Fields** list. In the **FactInternetSales** section, select **OrderQuantity** and clear **SalesAmount**. In the **FactResellerSales** section, select **OrderQuantity** and clear **SalesAmount**. The bar chart updates to display order quantities across the different countries/regions.  <br/> |
    
 ## See also
 <a name="part4"> </a>
