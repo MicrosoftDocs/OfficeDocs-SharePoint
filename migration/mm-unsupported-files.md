@@ -41,6 +41,7 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 |Dropbox papers| Dropbox doesn't allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.paper files).|
 |Dropbox & Dropbox Paper getting started instruction files|These files may cause migration failures and are ignored.|
 |URL hyperlink files|Dropbox doesn't allow us to download URL hyperlink files that end with **.url** or **.web**.|
+|Google files (gdoc/gslides/gsheet) in Dropbox|These files can NOT be converted to Microsoft Office files, thus are unsupported for migration.|
 
 
 ## What isn't migrated from Box
@@ -65,13 +66,10 @@ Google doesn't allow us to export these items from Drive.
 
 ### Google Docs, Slides, and Sheets are converted
 
-Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When you migrate your content from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
+Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When you migrate your content from Google Workspace, the Google API converts the files into Microsoft Office files. The original files in Google Drive are not affected.
 
 |Google format|Office format|
 |:-----|:-----|
 |.gsheet|.xlsx|
 |.gdoc|.docx|
 |.gslide|.pptx|
-
->[!Note]
-> The only way to migrate/download a Google format file is to request that they (Google) convert it. Microsoft does not control the conversion process, and the forced limitations are strictly those of Google.
