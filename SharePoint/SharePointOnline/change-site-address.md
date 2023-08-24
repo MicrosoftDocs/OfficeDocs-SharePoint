@@ -156,7 +156,7 @@ Files in the recycle bin will be restorable as per the usual deletion timeframe.
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
 **SharePoint web parts**<br>
-Any embedded URLs in any SharePoint web parts (News, List, etc.) will not be updated and may break. After the site address is changed, you might need to update individual web parts to use the new URL. 
+Any embedded URLs in any SharePoint web parts (News, List, etc.) will not be updated and may break. This includes page thumbnail images in news posts existing on the site. After the site address is changed, you might need to update individual web parts to use the new URL. 
 
 **SharePoint workflow 2013**<br>
 SharePoint workflow 2013 will need to be republished after the site address is changed.
