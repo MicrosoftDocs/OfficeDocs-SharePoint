@@ -1,6 +1,6 @@
 ---
 title: "Unsupported file types in Migration Manager"
-ms.date: 08/23/2023
+ms.date: 08/24/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -42,7 +42,7 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 |Dropbox papers| Dropbox doesn't allow us to export Dropbox paper (.paper files) and Dropbox paper templates (.paper files).|
 |Dropbox & Dropbox Paper getting started instruction files|These files may cause migration failures and are ignored.|
 |URL hyperlink files|Dropbox doesn't allow us to download URL hyperlink files that end with **.url** or **.web**.|
-|Google files (gdoc/gslides/gsheet) in Dropbox|These files can NOT be converted to Microsoft Office files, thus are unsupported for migration.|
+|Google files (gdoc/gslides/gsheet) in Dropbox|Dropbox doesn't allow us to download Google files.|
 
 
 ## What isn't migrated from Box
