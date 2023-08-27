@@ -15,8 +15,9 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
-- seo-marvel-apr2020
-- onedrive-toc
+  - seo-marvel-apr2020
+  - onedrive-toc
+  - has-azure-ad-ps-ref
 search.appverid:
 - ODB160
 - MOE150
@@ -118,4 +119,3 @@ Any automated workflows that were created with Power Automate or SharePoint 2013
 ## See also
 
 [Info about UserPrincipalName attribute population in hybrid identity](/azure/active-directory/hybrid/plan-connect-userprincipalname)
-
