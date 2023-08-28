@@ -15,8 +15,9 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
-- admindeeplinkSPO
-- onedrive-toc
+  - admindeeplinkSPO
+  - onedrive-toc
+  - has-azure-ad-ps-ref
 search.appverid:
 - ODB160
 - ODB150
@@ -293,4 +294,3 @@ On a Mac with the Standalone version of OneDrive, use the equivalent of the foll
 ```console
 defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
 ```
-
