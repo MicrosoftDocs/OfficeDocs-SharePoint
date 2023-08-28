@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2018
-title: "Use OneDrive policies to control sync settings"
+title: IT Admins - Use OneDrive policies to control sync settings
 ms.reviewer: gacarini
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -25,10 +25,10 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "In this article, you'll learn about OneDrive policies and how to configure the OneDrive sync app by using Group Policy."
+description: "Learn how admins can use OneDrive policies to configure the OneDrive sync app by using Group Policy."
 ---
 
-# Use OneDrive policies to control sync settings
+# IT Admins - Use OneDrive policies to control sync settings
 
 This article describes the OneDrive Group Policy objects (GPOs) that administrators can configure by using Group Policy or by using [administrative templates in Microsoft Intune](configure-sync-intune.md). You can use the registry key information in this article to confirm that a setting is enabled.
   
