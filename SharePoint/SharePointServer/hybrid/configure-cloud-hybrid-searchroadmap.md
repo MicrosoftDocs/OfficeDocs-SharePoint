@@ -19,7 +19,8 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
 description: Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365.
 ---
