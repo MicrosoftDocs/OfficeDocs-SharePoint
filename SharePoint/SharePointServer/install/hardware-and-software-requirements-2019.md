@@ -53,7 +53,7 @@ For information about hardware and software requirements for Microsoft SQL Serve
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
-|Single server role that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2019 with the minimum recommended services for development environments. Use the Single-Server farm role that will let you choose which service applications to provision. For more information on Single-Server farm role, see [Overview of MinRole Server Roles in SharePoint Server](overview-of-minrole-server-roles-in-sharepoint-server.md) <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
+|Single server role that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2019 with the minimum recommended services for development environments. Use the Single-Server Farm role and choose which service applications to provision. For more information on the Single-Server Farm role, see [Overview of MinRole Server Roles in SharePoint Server](overview-of-minrole-server-roles-in-sharepoint-server.md). <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
 |Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation of SharePoint Server 2019 running all available services for development environments.  <br/> |24 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
 |Web server or application server in a three-tier farm  <br/> |Development or evaluation installation of SharePoint Server 2019 with a minimum number of services.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
 |Web server or application server in a three-tier farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2019 running all available services.  <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> |
@@ -92,19 +92,18 @@ Ensure at least one of the following requirements is met:
 
 - Microsoft Azure SQL Managed Instance (MI). This is only supported if your SharePoint Server farm is hosted in Microsoft Azure. For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
 
-> [!NOTE]
-> SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 
-  
-> [!NOTE]
-> SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
+    > [!NOTE]
+    > SQL Server products and all future public updates are supported through the SQL Server product lifecycle.
+
+    > [!NOTE]
+    > SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
+
+- One of the following server operating systems:
+     - Windows Server 2016 Standard or Datacenter (Desktop Experience)
+     - Windows Server 2019 Standard or Datacenter (Desktop Experience)
+     - Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 #### Minimum requirements for SharePoint servers in a farm
-
-Ensure you have one of the following server operating systems:
-  
-- Windows Server 2016 Standard or Datacenter (Desktop Experience)
-- Windows Server 2019 Standard or Datacenter (Desktop Experience)
-- Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 > [!NOTE]
 > We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
@@ -126,7 +125,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Microsoft .NET Framework version 4.7.2
 - Microsoft SQL Server 2012 Service Pack 4 Native Client
      >[!NOTE]
-     > If you have the November 2022 Public update for SharePoint Server 2019 or a newer Public update, then you can remove the Microsoft SQL Server 2012 Service Pack 4 Native Client as it is no longer required.
+     > If you have the November 2022 Public Update for SharePoint Server 2019 or a newer Public Update, then you can remove the Microsoft SQL Server 2012 Service Pack 4 Native Client as it is no longer required. For more information, see [Description of the security update for SharePoint Server 2019: November 8, 2022 (KB5002294)](https://support.microsoft.com/kb/5002294).
 - Microsoft WCF Data Services 5.6
 - Microsoft Identity Extensions
 - Microsoft Information Protection and Control Client 2.1 (MSIPC)
@@ -160,7 +159,7 @@ Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activ
 ```
 
 > [!NOTE]
-> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update. If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the `\sources\sxs` folder on the Windows Server installation media.
+> Some Windows features being installed are "Features On Demand (FOD)", which are downloaded from Windows Update. If the computer doesn't have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the `\sources\sxs` folder on the Windows Server installation media.
 >
 > For example: -Source D:\sources\sxs
 
@@ -214,7 +213,7 @@ You can run `prerequisiteinstaller.exe` at a command prompt with the following o
 - `/continue` is used to tell the installer that it's continuing from being restarted.
 - `/unattended` indicates no user interaction.
 
-The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you don't specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option doesn't apply to the current operating system, it's ignored.
+The installer installs from the file that you specify in the command-line options described in the following list. In this list, <_file_> signifies the file from which you want to install. If you don't specify the <_file_> option, the installer downloads the file from the Internet and installs it. If the option doesn't apply to the current operating system, it's ignored.
   
 - **/SQLNCli:<_file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <_file_>.
 - **/Sync:<_file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <_file_>.
@@ -231,8 +230,8 @@ The installer installs from the file that you specify in the command-line option
 
 Certain prerequisites are installed by the prerequisite installer with specific options. Those prerequisites with specific installation options are listed below with the options that are used by the prerequisite installer.
   
-- Windows AppFabric - /i CacheClient,CachingService,CacheAdmin /gac
+- Windows AppFabric: /i CacheClient,CachingService,CacheAdmin /gac
 
-- Microsoft WCF Data Services - /quiet
+- Microsoft WCF Data Services: /quiet
 
 The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
