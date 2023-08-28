@@ -45,7 +45,7 @@ Collaborate all in one place by migrating your Google Workspace documents, data,
 
 To get started:
 
-Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the Migration overview page in the **Microsoft Admin Center** or Migration Manager in the **SharePoint Admin center.** Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
