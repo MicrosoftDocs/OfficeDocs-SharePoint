@@ -12,6 +12,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: 
 - M365-collaboration
 - Highpri
