@@ -2,6 +2,14 @@
 
 
 
+## Week of August 21, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/22/2023 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
+
+
 ## Week of August 14, 2023
 
 
@@ -44,13 +52,3 @@
 | 8/4/2023 | [Step 3: Copy to migrations tab for Box migration](/SharepointMigration/mm-box-step3-copy-to-migrations) | modified |
 | 8/4/2023 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
 | 8/4/2023 | [Step 5: Map Box identities with Migration Manager](/SharepointMigration/mm-box-step5-map-identities) | modified |
-
-
-## Week of July 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/19/2023 | [Step 1 - Install the SharePoint Migration Tool (SPMT)](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
-| 7/19/2023 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
-| 7/19/2023 | [Step 2 - Scan and assess a SharePoint Server site using SPMT](/SharepointMigration/spmt-scan) | modified |
