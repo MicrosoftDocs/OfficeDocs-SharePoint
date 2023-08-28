@@ -153,6 +153,14 @@ To update a sensitivity label
 
 Once the label has been updated, guests accessing a SharePoint site (or the **Files** tab in a team) with that label will be required to agree to the terms of use before gaining access to that site.
 
+## Blocking background apps (rolling out in preview)
+
+If authentication context is set on a site, admins can choose to prevent background apps from accessing that site for the apps assigned with that authentication context in a conditional access policy. You can configure a conditional access policy such that a specific authentication context can be assigned to chosen application principles (non-Microsoft applications). You'll need to explicitly turn this feature on via the following cmdlet. Note that you should have at least one conditional access policy with an application principle configured.   
+
+    ```PowerShell
+   Set-SPOTenant -BlockAPPAccessToSitesWithAuthentcationContext $false/$true (default false)
+    ```
+
 ## See also
 
 [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
