@@ -23,8 +23,9 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ceef6623-f54f-404d-8ee3-3ce1e338db07
 ms.custom:
-- seo-marvel-apr2020
-- onedrive-toc
+  - seo-marvel-apr2020
+  - onedrive-toc
+  - has-azure-ad-ps-ref
 description: "Learn how to use PowerShell to create OneDrive file storage for your users instead of waiting for the storage space to be automatically provisioned by the service."
 ---
 
@@ -129,4 +130,3 @@ if ($i -gt 0) {
 ## Related topics
 
 [Plan hybrid OneDrive](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
-

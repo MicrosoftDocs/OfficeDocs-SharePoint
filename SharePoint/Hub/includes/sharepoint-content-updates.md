@@ -2,6 +2,16 @@
 
 
 
+## Week of August 21, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/21/2023 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
+| 8/21/2023 | Find OneDrive admin settings | removed |
+| 8/22/2023 | [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
+
+
 ## Week of August 14, 2023
 
 
@@ -44,20 +54,3 @@
 | 7/24/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
 | 7/25/2023 | [IP support in SharePoint Server](/SharePoint/install/ip-support) | modified |
 | 7/28/2023 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
-
-
-## Week of July 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/17/2023 | [Deploy and configure the OneDrive sync app for Mac](/SharePoint/deploy-and-configure-on-macos) | modified |
-| 7/17/2023 | [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](/SharePoint/administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013) | modified |
-| 7/18/2023 | [Configure the One Customer Voice (OCV) feedback](/SharePoint/administration/configure-ocv) | added |
-| 7/18/2023 | Get started with the SharePoint admin center | removed |
-| 7/18/2023 | [Recommended sync app configuration](/SharePoint/ideal-state-configuration) | modified |
-| 7/18/2023 | [About the SharePoint Administrator role in Microsoft 365](/SharePoint/sharepoint-admin-role) | modified |
-| 7/18/2023 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
-| 7/20/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
-| 7/20/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
-| 7/21/2023 | [Restrict OneDrive access](/SharePoint/limit-access) | modified |
