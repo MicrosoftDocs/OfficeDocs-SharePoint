@@ -63,9 +63,7 @@ SharePoint Workflow Manager may be installed on the same servers as SharePoint o
    
 ### Prerequisites
 
-SharePoint Workflow Manager requires the server role of Web Server (IIS). If you're installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard fails with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*.
-
-Apart from the applications that are installed by default, the SharePoint Workflow Manager work requires the following IIS features:
+SharePoint Workflow Manager requires the server role of Web Server (IIS). If you're installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard fails with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*. Apart from the features that are installed by default, the SharePoint Workflow Manager work requires the following IIS features:
 
 - Windows Authentication (under Security)
 - .NET Extensibility 4.7 (under Application Development)
