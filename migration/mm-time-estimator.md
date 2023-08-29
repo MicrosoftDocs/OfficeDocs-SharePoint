@@ -41,15 +41,15 @@ This tool can be used before or after you connect to the source. A connection to
 
 
 >[!Important]
->It is important to recognize that the Migration Time Estimator's estimations are **preliminary** and based on big date fitting. They may vary due to individual factors, including, but not limited to:
-
-- Adverse network conditions
-- Large average file size
-- Source rate limiting, reaching request quotas, or other performance impediments at the source
-- Activation of File Level Permission (FLP), which could potentially decelerate the migration process
-- Migrations occurring during peak hours
-- Elevated-cost transfers (for example, Google Docs exports)
-- SharePoint Job Processing throughput
+>It is important to recognize that the generated estimations are **preliminary** and based on big date fitting. They may vary due to individual factors, including, but not limited to:
+>
+>- Adverse network conditions
+>- Large average file size
+>- Source rate limiting, reaching request quotas, or other performance impediments at the source
+>- Activation of File Level Permission (FLP), which could potentially decelerate the migration process
+>- Migrations occurring during peak hours
+>- Elevated-cost transfers (for example, Google Docs exports)
+>- SharePoint Job Processing throughput
 
 ## Best Practices
 
