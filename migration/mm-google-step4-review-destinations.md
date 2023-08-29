@@ -42,18 +42,21 @@ If a destination is missing on a single user, highlight the row and update the v
 
 ## Upload destinations using a CSV file
 
-If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
+If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. The template lists all migration tasks that have never been run, and you can add to or modify the last column “Destination path”. Then save your file as a .csv file using any name you wish. 
 
 
 ![upload destinations for Google accounts bulk](media/mm-google-bulk-upload-destination-panel.png)
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
+3. The destinations will be validated upon uploading. </br>
+- The validation process may take a while and can be skipped, but we strongly recommend you complete the validation.
+- A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
+
 4. Select **Save**.  
 
-
 >[!Important]
->Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
+>Rows with vacant a “destination path” will be skipped in the validation process.  
 
 
 ## Go to [**Step 5: Map identities**](mm-google-step5-map-identities.md)
