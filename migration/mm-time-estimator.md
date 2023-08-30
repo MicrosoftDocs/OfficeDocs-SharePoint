@@ -28,17 +28,21 @@ The Migration Time Estimator acts  as a rapid estimation tool to gauge the antic
 This tool can be used before or after you connect to the source. A connection to the source isn't required to run the estimator.
 
 1. Select **Migration** in the SharePoint admin center, choose your source location, and then **Get started**.
-2. From the top right tool bar, choose the Migration Time Estimator.
-3. Enter the required details, as shown here:
+2. If you are **not** connected to the source, select the Migration time estimator from the overview page.  For example:
 
-  |Fields|Requirement type|Formats|Input upper limit|
-  |:-----|:-----|:-----|:-----|
-  |Number of drives/users|Mandatory|Positive integer|10^6|
-  |Total data size in gigabytes|Mandatory|Positive number|10^9|
-  |Total file count|Optional|Positive integer|3*10^9|
+:::image type="content" source="media/mm-time-estimator.png" alt-text="time estimator":::
+
+If you are connected to the source, select the Migration Time Estimator from the tool bar on the top right of the screen.
+
+1. Enter the required details, as shown here:
+
+  |Fields|Requirement type|Formats|
+  |:-----|:-----|:-----|
+  |Number of drives/users|Mandatory|Positive integer|
+  |Total data size in gigabytes|Mandatory|Positive number|
+  |Total file count|Optional|Positive integer|
 
 4. After entering your information, select **Estimate**. A migration time estimate is generated within moments.
-
 
 >[!Important]
 >It is important to recognize that the generated estimations are **preliminary** and based on big date fitting. They may vary due to individual factors, including, but not limited to:
@@ -57,5 +61,5 @@ This tool can be used before or after you connect to the source. A connection to
 - After connecting to the source, run an overall scan to attain a more precise estimate, which will be displayed in the Migrations section.
 
 >[!Note]
-> Currently the most accurate scanning estimations are for Google Drive migrations.
+> Currently, the more accurate scanning estimations is available only for Google Drive migrations.
 
