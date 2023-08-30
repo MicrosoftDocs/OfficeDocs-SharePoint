@@ -97,10 +97,12 @@ New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -
 
 SilentAccountConfig creates a SilentBusinessConfigCompleted registry entry once SilentAccountConfig has successfully provisioned the user in OneDrive.exe. This prevents SilentAccountConfig from reprovisioning the user in OneDrive.exe if the user manually stops syncing.
 
-If SilentAccountConfig has successfully completed on a computer you're going to use to build a Windows deployment image (for example, SysPrep), you need to ensure this registry key is removed before you prepare your image. You can do so by running the following command:
+If SilentAccountConfig has successfully completed on a computer you're going to use to build a Windows deployment image (for example, SysPrep), you need to ensure this registry key and also ClientEverSignedIn and PersonalUnlinkedTimeStamp registry keys are removed before you prepare your image. You can do so by running the following commands:
 
 ```console
 reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+reg delete HKCU\Software\Microsoft\OneDrive /v ClientEverSignedIn /f
+reg delete HKCU\Software\Microsoft\OneDrive /v PersonalUnlinkedTimeStamp /f
 ```
 
 <a name="VerifySilentAccountConfig"></a>
@@ -156,7 +158,7 @@ The most common reason for SilentAccountConfig to fail is the credentials aren't
 
 If you have a computer, you think should work with SilentAccountConfig, you can manually verify that SSO is working correctly to ensure that the environment is configured correctly.
  
-1. Temporarily force ADAL on by running this command:
+1. Temporarily force Azure Active Directory Authentication Library (ADAL) on by running this command:
 
    ```console
    reg add HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 1 /f

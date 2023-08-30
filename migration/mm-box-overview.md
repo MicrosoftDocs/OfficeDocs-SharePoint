@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/30/2023
 title: "Overview: Migrate Box using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -27,7 +27,6 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-:::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing.png":::
 
 ## How does it work?
 
@@ -59,7 +58,7 @@ We support files up to 15 GB in size for Box to Microsoft 365 migrations.
 
 ## Box notes
 
-Box notes are not converted to a .docx format during migration.  
+Migration Manager now supports converting Box notes to .docx format. However, certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
 
 >[!NOTE]
 >

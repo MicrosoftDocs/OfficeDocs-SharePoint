@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 2: Scan and assess Egnyte folders using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -26,17 +26,18 @@ description: "Step 2:  Scan and assess Egnyte folders using Migration Manager."
 
 # Step 2: Scan and assess Egnyte folders
 
-After you connect to Egnyte, add the source paths to scan and assess your folders. 
+After you connect to Egnyte, add the source paths scan and assess your Egnyte accounts.
 
-1. Select **Add source paths** and choose a method; find new root folders, target a single source path, or bulk upload the source paths using a CSV file.
-
-2. After adding the source, highlight any or all of the accounts and then select **Scan**, unless you've selected to automatically scan content.
+1. Select **Add folders** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Box</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
+2. Choose to **Automatically start scanning now** or choose to scan later.
+3. Select **Add**.
+4. Highlight any or all of the accounts and then select **Scan** if you chose not to auto scan earlier.
 
 >[!Important]
 > The total number cannot exceed 50,000 tasks.
 
-3. Once scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
-4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
+5. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your folders. The summary includes User item counts, migration readiness, and any issues that need attention. 
+4. Review the scanned list. Search for specific text, or select a filter to review the list more easily.
 
 
 ## Download reports

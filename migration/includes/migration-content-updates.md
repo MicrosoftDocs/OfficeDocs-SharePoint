@@ -2,54 +2,53 @@
 
 
 
-## Week of May 08, 2023
+## Week of August 21, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/8/2023 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
-| 5/8/2023 | [Mover - Create a new migration with a CSV file](/SharepointMigration/mover-create-migration-csv) | modified |
-| 5/8/2023 | [Mover - Create a new migration](/SharepointMigration/mover-create-migration) | modified |
-| 5/8/2023 | [Mover - Deleting a migration](/SharepointMigration/mover-delete-migration) | modified |
-| 5/8/2023 | [Troubleshooting Mover migration errors](/SharepointMigration/mover-error-faq) | modified |
-| 5/8/2023 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
-| 5/8/2023 | [Mover Migration FAQ](/SharepointMigration/mover-migration-faq) | modified |
-| 5/8/2023 | [Mover Migration Manager](/SharepointMigration/mover-mm) | modified |
-| 5/8/2023 | [Mover post-migration tips](/SharepointMigration/mover-post-migration-tips) | modified |
-| 5/8/2023 | [Post migration troubleshooting](/SharepointMigration/mover-post-migration-troubleshooting) | modified |
-| 5/8/2023 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
-| 5/8/2023 | [Mover reports](/SharepointMigration/mover-reports) | modified |
-| 5/8/2023 | [Mover migration - Review permission map](/SharepointMigration/mover-review-permission-map) | modified |
-| 5/8/2023 | [Mover - Reviewing users before migration](/SharepointMigration/mover-review-users) | modified |
-| 5/8/2023 | [Running the Mover migration](/SharepointMigration/mover-running-migration) | modified |
-| 5/8/2023 | [Using the scan feature in Mover](/SharepointMigration/mover-scan) | modified |
-| 5/8/2023 | [Mover migration - Authorizing Office 365](/SharepointMigration/mover-setup-m365-destination) | modified |
-| 5/8/2023 | [Mover transfer logs](/SharepointMigration/mover-transfer-logs) | modified |
-| 5/8/2023 | [Mover transfer status codes](/SharepointMigration/mover-transfer-status-codes) | modified |
-| 5/8/2023 | [Mover migration - Troubleshoot Office 365 connector](/SharepointMigration/mover-troubleshoot-m365-connector) | modified |
-| 5/8/2023 | [Mover migration - Upload a permission map](/SharepointMigration/mover-upload-permission-map) | modified |
-| 5/11/2023 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 8/22/2023 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
 
 
-## Week of April 24, 2023
+## Week of August 14, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/24/2023 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+| 8/14/2023 | [Migrate Google spreadsheets with Migration Manager](/SharepointMigration/mm-google-sheet-scan) | added |
+| 8/14/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 8/14/2023 | [Migrate Google spreadsheets with Migration Manager](/SharepointMigration/mm-google-sheet-scan) | modified |
+| 8/16/2023 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+| 8/16/2023 | [Scan Google Sheet spreadsheets with Migration Manager](/SharepointMigration/mm-google-sheet-scan) | modified |
 
 
-## Week of April 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/20/2023 | [Migration Manager and the European Union Data Boundary (EUDB)](/SharepointMigration/mm-eudb) | modified |
-
-
-## Week of April 10, 2023
+## Week of August 07, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/12/2023 | [Migration Manager Prerequisites and Endpoints](/SharepointMigration/mm-prerequisites) | modified |
+| 8/7/2023 | [Step 2: Scan and assess Dropbox folders using Migration Manager](/SharepointMigration/mm-dropbox-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Dropbox migration](/SharepointMigration/mm-dropbox-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Review the destination paths for your Dropbox migration with Migration Manager](/SharepointMigration/mm-dropbox-step4-review-destinations) | modified |
+| 8/7/2023 | [Step 2: Scan and assess Egnyte folders using Migration Manager](/SharepointMigration/mm-egnyte-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Egnyte migration](/SharepointMigration/mm-egnyte-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Review the destination paths for your Egnyte migration with Migration Manager](/SharepointMigration/mm-egnyte-step4-review-destinations) | modified |
+| 8/7/2023 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
+| 8/7/2023 | [Step 3: Copy to migrations tab for Google migration](/SharepointMigration/mm-google-step3-copy-to-migrations) | modified |
+| 8/7/2023 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
+| 8/7/2023 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
+| 8/7/2023 | [Step 4 - Monitor and reporting status of your SPMT migration tasks](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 8/8/2023 | [Step 4 - Monitor and reporting status of your SPMT migration tasks](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 8/11/2023 | [Migrate your file shares to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+
+
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | Migration Manager transaction logs | removed |
+| 8/4/2023 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 8/4/2023 | [Step 3: Copy to migrations tab for Box migration](/SharepointMigration/mm-box-step3-copy-to-migrations) | modified |
+| 8/4/2023 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
+| 8/4/2023 | [Step 5: Map Box identities with Migration Manager](/SharepointMigration/mm-box-step5-map-identities) | modified |
