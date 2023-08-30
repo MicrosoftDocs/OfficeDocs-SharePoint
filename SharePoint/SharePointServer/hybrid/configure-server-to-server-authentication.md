@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
 description: Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365.
 ---
