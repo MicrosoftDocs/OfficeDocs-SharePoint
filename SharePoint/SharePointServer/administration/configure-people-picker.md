@@ -22,7 +22,7 @@ People Picker can be configured for a farm at the zone level by using the Stsadm
 
 The information in this article applies only to Web applications that use Windows authentication in either classic mode or claims mode.
 
-The People Picker control is used to find and select users, groups, and claims when a site, list, or library owner assigns permissions in Microsoft SharePoint Server 2010. For more information about the People Picker properties, see [Peoplepicker: Stsadm properties](https://technet.microsoft.com/library/cc263318\(office.12\).aspx).
+The People Picker control is used to find and select users, groups, and claims when a site, list, or library owner assigns permissions in Microsoft SharePoint Server 2010. For more information about the People Picker properties, see [Peoplepicker: Stsadm properties](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263318(v=office.12)).
 
 > [!NOTE]
 > There are no Windows PowerShell commands to configure People Picker in SharePoint Server 2010, SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019. However, you can use the Powershell commands to configure People Picker in SharePoint Subscription Edition. For more information, see [Configure People Picker in SharePoint Subscription Edition](configure-people-picker-subscription-edition.md).
@@ -35,9 +35,7 @@ The following are the prerequisites that must be met to configure People Picker:
 
 - Verify that the account you use to run Stsadm is a member of the local Administrators group on the server in which SharePoint Server 2010 is installed.
 - Open the command prompt window as an administrator to perform the procedures in this article.
-- In the command prompt on the driver where SharePoint Server is installed, change to the following directory: ```
-%COMMONPROGRAMFILES%\\Microsoft shared\\Web server extensions\\14\\Bin```
-.
+- In the command prompt on the driver where SharePoint Server is installed, change to the following directory: `%COMMONPROGRAMFILES%\\Microsoft shared\\Web server extensions\\14\\Bin`.
 
 ## People Picker settings
 
@@ -61,7 +59,7 @@ To check the setting for any People Picker property, type the following command:
 stsadm.exe -o getproperty -pn** \<Property Name\> **-url** \<Web application URL\>
 ```
 
-For more information, see [Peoplepicker: Stsadm properties](https://technet.microsoft.com/library/cc263318\(office.12\).aspx).
+For more information, see [Peoplepicker: Stsadm properties](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263318(v=office.12)).
 
 ### Clear a property value from People Picker
 
@@ -73,7 +71,7 @@ To remove a property setting from People Picker, type the following command:
 stsadm.exe -o setproperty -pn** \<Property Name\> **-pv "" -url** \<Web application URL\>
 ```
 
-For more information, see [Peoplepicker-searchadforests: Stsadm property](https://technet.microsoft.com/library/cc263460\(office.12\).aspx).
+For more information, see [Peoplepicker-searchadforests: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263460(v=office.12)).
 
 ### Set an encryption key for use with a one-way trust
 
@@ -87,7 +85,6 @@ To set an encryption key, type the following command:
 ```console
 stsadm.exe -o setapppassword -password** \<key\>
 ```
-
 
 For more information about querying additional forests or domains, see [All you want to know about People Picker in SharePoint ( Functionality | Configuration | Troubleshooting ) Part-2](https://go.microsoft.com/fwlink/p/?linkid=207666).
 
@@ -110,19 +107,17 @@ The following example configures People Picker for use with a forest named Conto
 sTSADM.exe -o setproperty -pn peoplepicker-searchadforests -pv "forest:Contoso.com,Contoso\User1,Password1; domain:Fabrikam.com,Fabrikam\User2,Password2" -url https://ServerName
 ```
 
-
-For more information, see [Peoplepicker-searchadforests: Stsadm property](https://technet.microsoft.com/library/cc263460\(office.12\).aspx).
+For more information, see [Peoplepicker-searchadforests: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263460(v=office.12)).
 
 ### Restrict People Picker to a certain group in Active Directory
 
-If a Web application is using Windows authentication and the site user directory path is not set, the People Picker control searches the entire Active Directory to resolve users' names or find users, instead of searching only users within a particular organizational unit (OU). The Stsadm **setsiteuseraccountdirectorypath** operation allows the user's directory path to be set to a specific OU in the same domain. After the directory path is set to a site collection, the People Picker control will only search under that particular OU.
+If a Web application is using Windows authentication and the site user directory path isn't set, the People Picker control searches the entire Active Directory to resolve users' names or find users, instead of searching only users within a particular organizational unit (OU). The Stsadm **setsiteuseraccountdirectorypath** operation allows the user's directory path to be set to a specific OU in the same domain. After the directory path is set to a site collection, the People Picker control will only search under that particular OU.
 
 To restrict People Picker to a certain OU in Active Directory, type the following command:
 
 ```console
 stsadm -o setsiteuseraccountdirectorypath -path** \<Valid OU name\> **–url** \<Web application URL\>
 ```
-
 
 The following example configures People Picker to only return users and groups in the OU named "Sales":
 
@@ -133,7 +128,7 @@ stsadm -o setsiteuseraccountdirectorypath -path "OU=Sales,DC=ContosoCorp,DC=loca
 > [!NOTE]
 > Only a single site user directory path can be set at a time for a site collection. Hence this property specifies only one OU at a time, you should run the Stsadm **setsiteuseraccountdirectorypath** operation only once per site collection.
 
-For more information, see [Setsiteuseraccountdirectorypath: Stsadm operation](https://technet.microsoft.com/library/cc263328\(office.12\).aspx).
+For more information, see [Setsiteuseraccountdirectorypath: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263328(v=office.12)).
 
 ### Define the location of administrator accounts
 
@@ -154,7 +149,7 @@ The following example configures People Picker to allow users that are in the OU
 stsadm -o setproperty -pn peoplepicker-serviceaccountdirectorypaths -pv "OU=FarmAdmin,DC=Contoso,DC=local" -url https://ServerName
 ```
 
-For more information, see [Peoplepicker-serviceaccountdirectorypaths: Stsadm property](https://technet.microsoft.com/library/cc263012\(office.12\).aspx).
+For more information, see [Peoplepicker-serviceaccountdirectorypaths: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263012(v=office.12))).
 
 ## Force People Picker to pick only from users in the site collection
 
@@ -169,10 +164,10 @@ stsadm -o setproperty –pn peoplepicker-Peopleeditoronlyresolvewithinsitecollec
 To force People Picker to only return users who have permissions in the site collection when the **Select People and Groups** dialog box is used, type the following command:
 
 ```console
-stsadm -o setproperty –pn peoplepicker-onlysearchwithinsitecollection –pv yes –url** \<Web application URL\>
+stsadm -o setproperty –pn peoplepicker-onlysearchwithinsitecollection –pv yes **–url** \<Web application URL\>
 ```
 
-For more information, see [Peoplepicker-onlysearchwithinsitecollection: Stsadm property](https://technet.microsoft.com/library/cc261988\(office.12\).aspx) and [Peoplepicker-peopleeditoronlyresolvewithinsitecollection: Stsadm property](gg602070\(v=office.14\).md).
+For more information, see [Peoplepicker-onlysearchwithinsitecollection: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc261988(v=office.12)) and [Peoplepicker-peopleeditoronlyresolvewithinsitecollection: Stsadm property](/previous-versions/office/sharepoint-foundation-2010/gg602064(v=office.14)).
 
 ### Filter Active Directory accounts by using LDAP queries
 
@@ -184,7 +179,7 @@ To use a custom LDAP query, type the following command:
 Stsadm –o setproperty –pn peoplepicker-searchadcustomfilter -pv** \<LDAP query filter\> **-url** \<Web application URL\>
 ```
 
-The following example filters out user accounts that do not have e-mail addresses, or that are disabled. Because security groups do not always have e-mail addresses associated with them, an *OR* statement is used to ensure that security groups are still included in the query results:
+The following example filters out user accounts that don't have e-mail addresses, or that are disabled. Because security groups don't always have e-mail addresses associated with them, an *OR* statement is used to ensure that security groups are still included in the query results:
 
 ```console
 stsadm -o setproperty -pn peoplepicker-searchadcustomfilter -pv "(|(&(mail=*)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(objectcategory=group))" -url https://ServerName
@@ -207,7 +202,7 @@ stsadm -o setproperty -pn peoplepicker-searchadcustomfilter -pv "((Title=Manager
 > [!IMPORTANT]
 > Remember that every time you run the **setproperty** command for a specific property, that property's current values will be overwritten by the new values you specify. If you need to filter query results based on multiple criteria, you will need to build a compound LDAP query that includes all the values for which you want to filter.
 
-For more information, see [Peoplepicker-searchadcustomfilter: Stsadm property](https://technet.microsoft.com/library/cc263452\(office.12\).aspx).
+For more information, see [Peoplepicker-searchadcustomfilter: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263452(v=office.12)).
 
 ### Return only non-Active Directory user accounts
 
@@ -219,7 +214,7 @@ To return only non-Active Directory user accounts, type the following command:
 stsadm -o setproperty -pn peoplepicker-nowindowsaccountsfornonwindowsauthenticationmode -pv yes -url** \<Web application URL\>
 ```
 
-For more information, see [Peoplepicker-nowindowsaccountsfornonwindowsauthenticationmode: Stsadm property](https://technet.microsoft.com/library/cc263264\(office.12\).aspx).
+For more information, see [Peoplepicker-nowindowsaccountsfornonwindowsauthenticationmode: Stsadm property](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263264(v=office.12)).
 
 ## See Also
 
