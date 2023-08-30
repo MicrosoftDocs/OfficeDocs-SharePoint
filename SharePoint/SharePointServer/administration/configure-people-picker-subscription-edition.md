@@ -26,7 +26,12 @@ As organizations become more aware of the risks of unencrypted communication ove
 
 To facilitate organizations that want to require encryption for LDAP traffic, the SharePoint People Picker feature has added support for Secure LDAP (LDAPS) in SharePoint Server Subscription Edition Version 23H2. This allows the People Picker to use TLS connection encryption to protect LDAP traffic to TCP ports 636 and 3269. 
 
-To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the SecureSocketsLayer switch parameter with the `Set-SPPeoplePickerConfig` and `Add-SPPeoplePickerSearchADDomain` PowerShell cmdlets. 
+To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the `SecureSocketsLayer` switch parameter with the `Set-SPPeoplePickerConfig` and `Add-SPPeoplePickerSearchADDomain` PowerShell cmdlets.
+
+Examples:
+
+- `Set-SPPeoplePickerConfig -WebApplication https://team.contoso.local -SecureSocketsLayer`
+- `Add-SPPeoplePickerSearchADDomain -WebApplication https://team.contoso.local -DomainName "contoso.local" -SecureSocketsLayer`
 
 For more information, see [Plan for People Picker in SharePoint](plan-for-people-picker.md).
 
