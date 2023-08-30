@@ -58,7 +58,7 @@ We support files up to 15 GB in size for Box to Microsoft 365 migrations.
 
 ## Box notes
 
-Box notes aren't converted to a .docx format during migration.  
+Migration Manager now supports converting Box notes to .docx format. However, certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
 
 >[!NOTE]
 >
