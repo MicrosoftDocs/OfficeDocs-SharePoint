@@ -330,7 +330,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MNOTFOUND|Item not found.|Check file and Try again...|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
 |MNOTPERMITTED|Can't traverse to the folder level; can't perform actions outside a users folder.|Check permissions and Try again...|
-|MNOTUSERORTEAMDRIVE|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
+|MNOTUSERORTEAMDRIVE||Confirm that the name of the item in the source service matches what you have in the task's source path. Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
 |MOWNERNOTFOUND|The original owner was removed or its information wasn't found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and Try again...|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
@@ -345,14 +345,19 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MUSERINFONOTFOUND|User account info not found.|Check user info and Try again...|
 |MUSERNOTFOUND|User isn't found; either it's disabled or deleted.|Check user and correct as necessary. Try again.|
 |MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error responses and resource types](/graph/errors) |
-|MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and Try again...|
+|MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and try again|
 |PFAIL|Failed to set permission|Check permissions and Try again...|
-|PFAILUNSUP|Unsupported file permissions not set.|Check permissions and Try again...|
+|PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again|
 |PSUCCESS|Set permission successfully|
-|PUNSUP|Unable to set permissions.|Check permission settings and Try again...|
+|PUNSUP|Unable to set permissions.|Check permission settings and try again.|
 |MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.| 
 |MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.| 
 |MJOBFATALERROR|Failed to process the migration job (upload package). All items in the package will be marked as failure. |Try again. |
+|MNOTSUPPORTED|Forms migration under Google shared drives is not supported.||
+|MEMPTYUSERMAPPPING	|User identity mapping is empty|Update mapping and try again.|
+|MEXCEEDFORMSQUOTA|	Failed to create new forms, due to the maximum number of forms reached.|Reduce the number of forms to migrate, and try again.|
+|MNOUSERINFO|Failed to get Microsoft user info||
+|MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
 
 
 ## Status codes
