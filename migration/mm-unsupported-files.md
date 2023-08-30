@@ -1,6 +1,6 @@
 ---
 title: "Unsupported file types in Migration Manager"
-ms.date: 08/24/2023
+ms.date: 08/30/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
