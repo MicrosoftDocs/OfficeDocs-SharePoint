@@ -38,9 +38,9 @@ After you have completed setup and the SharePoint Products Configuration Wizard,
 
 Before you begin to install and configure SharePoint Servers 2016 or 2019 on a single server, do the following:
   
-- For SharePoint Server 2016, ensure that you've met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2 or Windows Server 2016 or 2019. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1 or other SQL versions such as SQL Server 2016 or 2017 or 2019 or 2022. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
+- For SharePoint Server 2016, ensure that you've met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1, SQL Server 2016, SQL Server 2017, SQL Server 2019, or SQL Server 2022. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
 
-- For SharePoint Server 2019, ensure that you've met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016 or 2019 or 2022. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017 or 2019 or 2022. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
+- For SharePoint Server 2019, ensure that you've met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016, Windows Server 2019, or Windows Server 2022. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016, SQL Server 2017, SQL Server 2019, or SQL Server 2022. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
 
 - Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019.
 
@@ -101,7 +101,7 @@ The following procedure installs binaries, configures security permissions, and 
 8. Click **Close** to start the configuration wizard.
 
 > [!NOTE]
-> If Setup fails, check log files in the Temp folder of the user account you used to run Setup. Ensure that you are logged in using the same user account and then type `%temp%` in the location bar in Windows Explorer. If the path in Windows Explorer resolves to a location that ends in a "1" or "2", you have to navigate up one level to view the log files. The log file name is SharePoint Server Setup (< _time stamp_>).
+> If Setup fails, check log files in the Temp folder of the user account you used to run Setup. Ensure that you are logged in using the same user account and then type `%temp%` in the location bar in Windows Explorer. If the path in Windows Explorer resolves to a location that ends in a "1" or "2", you have to navigate up one level to view the log files. The log file name is `SharePoint Server Setup (<time stamp>)`.
 
 ### Run the SharePoint Products Configuration Wizard
 
