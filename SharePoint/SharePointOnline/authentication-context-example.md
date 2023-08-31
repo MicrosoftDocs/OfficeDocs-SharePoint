@@ -1,5 +1,5 @@
 ---
-ms.date: 03/01/2023
+ms.date: 08/30/2023
 title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
 ms.author: mactra
@@ -14,9 +14,10 @@ ms.custom:
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 - MET150
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
@@ -152,6 +153,14 @@ To update a sensitivity label
 7. Click **Next** until you are on the **Review your settings and finish** page, and then click **Save label**.
 
 Once the label has been updated, guests accessing a SharePoint site (or the **Files** tab in a team) with that label will be required to agree to the terms of use before gaining access to that site.
+
+## Blocking background apps (rolling out in preview)
+
+If authentication context is set on a site, admins can choose to prevent background apps from accessing that site for the apps assigned with that authentication context in a conditional access policy. You can configure a conditional access policy such that a specific authentication context can be assigned to chosen application principles (non-Microsoft applications). You'll need to explicitly turn this feature on via the following cmdlet. Note that you should have at least one conditional access policy with an application principle configured.   
+
+```PowerShell
+Set-SPOTenant -BlockAPPAccessToSitesWithAuthentcationContext $false/$true (default false)
+```
 
 ## See also
 
