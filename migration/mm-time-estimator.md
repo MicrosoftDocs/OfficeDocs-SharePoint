@@ -1,6 +1,6 @@
 ---
 title: "Migration time estimator tool in Migration Manager"
-ms.date: 08/30/2023
+ms.date: 08/31/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -28,19 +28,16 @@ The Migration Time Estimator acts  as a rapid estimation tool to gauge the antic
 This tool can be used before or after you connect to the source. A connection to the source isn't required to run the estimator.
 
 1. Select **Migration** in the SharePoint admin center, choose your source location, and then **Get started**.
-2. If you are **not** connected to the source, select the Migration time estimator from the overview page.  For example:
+2. If you are **not** connected to the source, select the Migration time estimator from the overview page.  If you are connected to the source, select the Migration Time Estimator from the tool bar on the top right of the screen.
 
 :::image type="content" source="media/mm-time-estimator.png" alt-text="time estimator":::
 
-If you are connected to the source, select the Migration Time Estimator from the tool bar on the top right of the screen.
 
-1. Enter the required details, as shown here:
 
-  |Fields|Requirement type|Formats|
-  |:-----|:-----|:-----|
-  |Number of drives/users|Mandatory|Positive integer|
-  |Total data size in gigabytes|Mandatory|Positive number|
-  |Total file count|Optional|Positive integer|
+3. Enter the values:
+  - Number of drives/users (required)
+  - Total data size in GB (required)
+  - Total file count (optional)
 
 4. After entering your information, select **Estimate**. A migration time estimate is generated within moments.
 
