@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2018
+ms.date: 08/31/2023
 title: "Export sites, lists, or document libraries in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
