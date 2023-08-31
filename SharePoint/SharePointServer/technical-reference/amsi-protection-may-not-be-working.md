@@ -20,11 +20,11 @@ description: "Learn what to do, if AMSI protection isn't working."
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-SharePoint Server Subscription Edition Version 23H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
+SharePoint Server Subscription Edition Version 23H2 further improves Antimalware Scan Interface (AMSI) protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
 
 Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is enabled, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don’t result in a successful status code (meaning AMSI didn’t successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
 
-If the health analyzer rule for AMSI integration is enabled, admins can expect to see:
+If the health analyzer rule for AMSI protection is enabled, admins can expect to see:
 
 :::image type="content" source="../media/health-analyzer-rule-definitions.png" alt-text="Screenshot that shows the Health Analyzer rule for AMSI.":::
 
