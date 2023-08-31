@@ -16,7 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 23H2."
+description: "Learn about the Custom Branding feature which is one of the newly introduced features in SharePoint Server Subscription Edition Version 23H2."
 ---
 
 # Custom branding in Suite Navigation Bar
