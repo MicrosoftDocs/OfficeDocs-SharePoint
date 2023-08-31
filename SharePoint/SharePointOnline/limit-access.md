@@ -1,5 +1,5 @@
 ---
-ms.date: 03/01/2023
+ms.date: 08/30/2023
 title: "Restrict OneDrive access by security group"
 ms.author: mactra
 author: MachelleTranMSFT
@@ -12,6 +12,9 @@ ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
+- Highpri
+- Tier1
+- M365-sam
 - M365-collaboration
 search.appverid:
 ms.assetid: 
