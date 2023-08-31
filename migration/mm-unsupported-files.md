@@ -1,6 +1,6 @@
 ---
 title: "Unsupported file types in Migration Manager"
-ms.date: 08/24/2023
+ms.date: 08/30/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -50,7 +50,9 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 |File|Explanation|
 |:-----|:-----
 |Box getting started instruction files|These files may cause migration failures and are ignored.|
-|Box Notes|Box notes aren't converted to the **.docx** format during migration.
+
+>[!Note]
+>Migration Manager now supports converting Box notes to .docx format. However, certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
 
 
 ## What isn't migrated from Google Drive

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2023
+ms.date: 08/30/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -31,10 +31,15 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 
-- Box Notes conversion. Ability to convert Box Notes to Microsoft Word. 
 - Scan/Migration status update. Improve task status to organize drives better.
 - File Level Permission for Dropbox and Box. Support for File Level Permission (FLP) migration for Dropbox and Box.  *This feature is already available for **Google Drive** (as of June 8th, 2023.)*
- 
+
+
+## August 2023
+
+- **New. Box Notes conversion.** Migration Manager now supports converting Box notes to .docx format. Note: Certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
+
+
 ## July 2023
 
 - **New. Multi-project support on a single source.** You can now create up to 5 projects for each cloud source and easily switch between projects. Included for Google, Box, Dropbox, and Egnyte.
