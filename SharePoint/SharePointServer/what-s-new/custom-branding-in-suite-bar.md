@@ -60,7 +60,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
 
    `Set-SPFeatureReleasePreference -FeatureReleaseRing Early`
 
-3. Run the SharePoint Configuration Wizard to ensure the above two changes (in Steps 1 and 2) are applied.
+3. Run the SharePoint Configuration Wizard to ensure the two changes (implemented in Steps 1 and 2) are applied.
 
 4. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web app-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
 
