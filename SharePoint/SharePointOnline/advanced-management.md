@@ -1,5 +1,5 @@
 ---
-ms.date: 08/28/2023
+ms.date: 08/30/2023
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mikeplum
@@ -14,6 +14,8 @@ ms.localizationpriority: normal
 ms.collection:
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 - MET150
 recommendations: false
@@ -42,7 +44,7 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 **[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)** - With Azure Active Directory authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
 
-**[Secure SharePoint document libraries](/microsoft-365/compliance/sensitivity-labels-sharepoint-default-label)** - When SharePoint is enabled for sensitivity labels, you can configure a default label for document libraries. Then, any new files uploaded to that library, or existing files edited in the library will have that label applied if they don't already have a sensitivity label, or they have a sensitivity label but with lower priority.
+**[Secure SharePoint document libraries](/purview/sensitivity-labels-sharepoint-default-label)** - When SharePoint is enabled for sensitivity labels, you can configure a default label for document libraries. Then, any new files uploaded to that library, or existing files edited in the library will have that label applied if they don't already have a sensitivity label, or they have a sensitivity label but with lower priority.
 
 ## Advanced sites content lifecycle management
 
