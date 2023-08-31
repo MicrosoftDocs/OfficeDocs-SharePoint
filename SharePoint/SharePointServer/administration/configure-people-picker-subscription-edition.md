@@ -16,15 +16,17 @@ description: "Learn how to configure the People Picker web control in SharePoint
 
 # Configure People Picker in SharePoint Server Subscription Edition
 
-When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can't search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can't search, resolve, and validate users and groups without writing a custom claim provider through C#. In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). 
 
-In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider. For more information, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
+UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider. For more information, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
+
+This article will help you to configure People Picker in SharePoint Server Subscription Edition using PowerShell cmdlets.
 
 ## People Picker supports LDAPS (TLS connection encryption)
 
 As organizations become more aware of the risks of unencrypted communication over a network, some are choosing to implement policies that require encryption for all network connections. HTTP is one of the most common protocols that organizations want to protect, but there are other network communication protocols as well. One of those is the Lightweight Directory Access Protocol (LDAP), which is used by applications to access directory services. The SharePoint People Picker feature uses LDAP to look up users and groups in Active Directory forests and domains. LDAP isn't an encrypted protocol by default, although there are several options to enable encryption with it. 
 
-To facilitate organizations that want to require encryption for LDAP traffic, the SharePoint People Picker feature has added support for Secure LDAP (LDAPS) in SharePoint Server Subscription Edition Version 23H2. This allows the People Picker to use TLS connection encryption to protect LDAP traffic to TCP ports 636 and 3269. 
+To facilitate organizations that require encryption for LDAP traffic, the SharePoint People Picker feature has added support for Secure LDAP (LDAPS) in SharePoint Server Subscription Edition Version 23H2. This allows the People Picker to use TLS connection encryption to protect LDAP traffic to TCP ports 636 and 3269. 
 
 To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the `SecureSocketsLayer` switch parameter with the `Set-SPPeoplePickerConfig` and `Add-SPPeoplePickerSearchADDomain` PowerShell cmdlets.
 
@@ -37,7 +39,7 @@ For more information, see [Plan for People Picker in SharePoint](plan-for-people
 
 ## PowerShell cmdlets to configure People Picker
 
-With SharePoint Server Subscription Edition, you can use PowerShell cmdlets can be to configure the People Picker settings instead of `stsadm.exe` commands.
+With SharePoint Server Subscription Edition, you can use PowerShell cmdlets to configure the People Picker settings instead of `stsadm.exe` commands.
 
 ### Get-SPPeoplePickerConfig
 
@@ -194,7 +196,7 @@ Get-SPPeoplePickerDistributionListSearchDomain
    [-Confirm]
    [<CommonParameters>]
 ```
- 
+
 For more information, see [`Get-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/get-sppeoplepickerdistributionlistsearchdomain).
 
 ### Remove-SPPeoplePickerDistributionListSearchDomain
@@ -210,7 +212,7 @@ Remove-SPPeoplePickerDistributionListSearchDomain
       [-Confirm]
       [<CommonParameters>]
 ```
- 
+
 For more information, see [`Remove-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickerdistributionlistsearchdomain).
 
 ### Add-SPPeoplePickerServiceAccountDirectoryPath
@@ -260,7 +262,6 @@ Remove-SPPeoplePickerServiceAccountDirectoryPath
 ```
 
 For more information, see [`Remove-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/remove-sppeoplepickerserviceaccountdirectorypath).
-
 
 ## See also
 
