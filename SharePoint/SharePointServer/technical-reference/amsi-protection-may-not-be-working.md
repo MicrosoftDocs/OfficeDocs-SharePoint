@@ -22,7 +22,9 @@ description: "Learn what to do, if AMSI protection isn't working."
 
 SharePoint Server Subscription Edition Version 23H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
 
-Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don’t result in a successful status code (meaning AMSI didn’t successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
+Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is enabled, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don’t result in a successful status code (meaning AMSI didn’t successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
+
+If the health analyzer rule for AMSI integration is enabled, admins can expect to see:
 
 :::image type="content" source="../media/health-analyzer-rule-definitions.png" alt-text="Screenshot that shows the Health Analyzer rule for AMSI.":::
 
@@ -38,7 +40,7 @@ For example, AMSI would only work on Windows Server 2016 or higher. For more inf
 
 **Resolution: Enable the real-time protection service**
 
-If you're using Microsoft Defender as your antimalware scan engine, ensure that real-time protection is enabled on each server listed in the Failing Servers section of this health report.
+If you're using Microsoft Defender as your antimalware scan engine, ensure that real-time protection is enabled on each server listed in the "Failing Servers" section of this health report.
 
 1. Click the **Start** button.  
 
@@ -61,6 +63,6 @@ You will see the below Timer job in the **Monitoring** section of Central admini
 
 :::image type="content" source="../media/health-analyzer-running.png" alt-text="Screenshot that shows Health analyzer running.":::
 
-You can expect a similar Health analyzer report as below once the Health Analyzer run is complete.
+You can expect a similar health report as below, once the run is complete.
 
 :::image type="content" source="../media/amsi-monitoring-screen.png" alt-text="Screenshot that displays the report for AMSI in Health Analyzer.":::
