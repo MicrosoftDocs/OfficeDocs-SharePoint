@@ -19,7 +19,11 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 23H2."
 ---
 
-# SharePoint Server Subscription Edition Version 23H3 Feature Update
+# SharePoint Server Subscription Edition Version 23H2 Feature Update
+
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)
+
+Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 23H2 feature update.
 
 ## Summary of the features
 
@@ -33,20 +37,20 @@ The following table provides a summary of the new features introduced in the Sha
 |  Column totals in modern list views  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
 |  Enhanced Quick Chart web part  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update. |
 |  Improved file picker  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
-|  AMSI integration enabled by default  |  Standard release  |  New in 23H2 feature update. |
-|  AMSI health analyzer rule  |  Standard release  |  New in 23H2 feature update. |
-|  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  New in 23H2 feature update. |
-|  Search crawler uses HTTP 1.1 by default  |  Standard release  |  New in 23H2 feature update. |
-|  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  New in 23H2 feature update. |
-|  New PowerShell cmdlets to manage feature release rings |  Standard release  |  New in 23H2 feature update. |
-|  Custom branding in the Suite Bar  |  Standard release  |  New in 23H2 feature update. |
+|  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration](#/sharepoint/security-for-sharepoint-server/configure-amsi-integration). |
+|  AMSI health analyzer rule  |  Standard release  | For more information, see  [Antimalware Scan Interface (AMSI) protection may not be working](#/sharepoint/technical-reference/amsi-protection-may-not-be-working). |
+|  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS](#/sharepoint/administration/plan-for-people-picker). |
+|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Add, edit, or delete a content source in SharePoint Server](/sharepoint/search/add-edit-or-delete-a-content-source). |
+|  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework development with SharePoint Server 2019 and Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support). |
+|  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets for variations feature](#new-powershell-cmdlets-for-variations-feature). |
+|  Custom branding in the Suite Bar  |  Standard release  |  For more information, see [Custom branding in the Suite Bar](#/what-s-new/custom-branding-in-suite-bar). |
 
 ## Detailed description of features
 
 This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition Version 23H2.
 
 > [!NOTE]
-> Note: Features previously introduced in the Version 23H1 feature update will not be described here. For more information on Version 23H1, see [New and improved features in SharePoint Server Subscription Edition Version 23H1](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release).
+> Features previously introduced in the Version 23H1 feature update will not be described here. For more information on Version 23H1, see [New and improved features in SharePoint Server Subscription Edition Version 23H1](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release).
 
 ### AMSI integration enabled by default
 
@@ -92,7 +96,7 @@ For more information, see [Add, edit, or delete a content source in SharePoint S
 
 SharePoint Server Subscription Edition Version 23H2 adds support for React version 16 and Office UI Fabric React 7, allowing developers to utilize these newer component versions in their SharePoint Framework solutions. Microsoft will continue to improve and expand the capabilities of SharePoint Framework in SharePoint Server Subscription Edition in future feature updates.
 
-For more information about improvements in SharePoint Server Subscription Edition, see [SharePoint Framework development with SharePoint Server 2019 and Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support)
+For more information about improvements in SharePoint Server Subscription Edition, see [SharePoint Framework development with SharePoint Server 2019 and Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support).
 
 ### New PowerShell cmdlets to manage feature release rings
 
@@ -113,4 +117,4 @@ The SharePoint Server modern UX provides a powerful yet intuitive user interface
 
 SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators will be able to specify custom text, logos, hyperlinks, and color schemes in the Suite Bar that apply to all sites within a web application.
 
-For more information, see.
+For more information, see [New and improved features in SharePoint Server Subscription Edition Version 23H2 - SharePoint Server | Microsoft Learn](/what-s-new/custom-branding-in-suite-bar).
