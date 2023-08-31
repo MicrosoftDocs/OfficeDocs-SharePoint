@@ -31,7 +31,7 @@ This article contains information on how to configure People Picker for specific
 
 ## Prerequisites to configure People Picker
 
-Ensure that the following prerequisites are met before configuring People Picker:
+Ensure that the following requirements are met before configuring People Picker:
 
 - Verify that the account you use to run `Stsadm` is a member of the local Administrators group on the server in which SharePoint Server is installed.
 - Open the command prompt window as an administrator to perform the procedures in this article.
