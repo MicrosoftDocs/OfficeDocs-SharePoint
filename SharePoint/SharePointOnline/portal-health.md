@@ -10,7 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
@@ -28,7 +28,7 @@ Typically portals have relatively few people who create and author the site and 
 >[!Tip]
 > Are you wanting to host a live event or town hall?  Here are the options we recommend:
 > - [Learn about Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
-> - [Learn about hosting events with Yammer](/yammer/manage-yammer-groups/yammer-live-events)
+> - [Learn about hosting events with Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events)
 > - Link directly to the live event you are streaming (**not** through your portal)
 
 ## What type of site should I use as my portal?

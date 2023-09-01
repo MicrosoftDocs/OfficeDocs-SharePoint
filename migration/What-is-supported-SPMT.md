@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 description: "This article contains a list of features that are supported in the SharePoint Migration Tool (SPMT)."
@@ -32,7 +33,7 @@ SharePoint Migration Tool (SPMT) supports migration of the following locations a
 **On-premises fileshares**
 - Local and network fileshares
 
-**SharePoint Server 2010, 2013, and 2016**
+**SharePoint Server 2010, 2013, 2016, and 2019**
 
 | Supported | Description | More info |
 |:-----|:-----|:-----|

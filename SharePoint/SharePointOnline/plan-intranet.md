@@ -117,7 +117,7 @@ To help decide which initiative to address first, work with the business leaders
 |:------------|:-----------------|:-----------------|
 |Educate employees about benefits (Benefits site)|- Announcements <br> - Training videos|HR|- News post views <br> - Training video views|Help requests are reduced by x%|
 |Weekly news post by a senior leader|- Streaming events <br> - Formal training|Engineering|- Training content produced for all aspects of coding excellence <br> - Monthly streaming events|Training completed successfully by x% of engineering staff|
-|Foster positive employee agreement about company strategy (Executive Leadership Yammer Community)|News posts <br> - Streaming events <br> - Yammer conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|- Yammer conversations show positive sentiment <br> - Comments addressed within 24 hours – “no question/comment left behind” <br> - x% increase in employee satisfaction scores for executive communications|
+|Foster positive employee agreement about company strategy (Executive Leadership Viva Engage Community)|News posts <br> - Streaming events <br> - Viva Engage conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|- Viva Engage conversations show positive sentiment <br> - Comments addressed within 24 hours – “no question/comment left behind” <br> - x% increase in employee satisfaction scores for executive communications|
 |Improve timeliness consistency in proposal development (Marketing site)|- Company business value slides <br> - Proposal templates|Marketing|- Slide downloads <br> - Sales team alignment|x% reduction in the time to create proposals|
 
 ## Choose pilot scenarios
@@ -154,9 +154,9 @@ After you have compiled this information, create a design brief to help map out 
 |Scenario|Leadership site: One-stop site for employees to hear from company leadership, learn the company's goals, and hear the latest news from customer meetings and industry events.|
 |Users|All company employees.|
 |Value|Increase employee awareness and alignment with company strategy and business initiatives.|
-|User journey|- News post is sent to the company announcing a leadership Q&A meeting <br> - Allan goes to the leadership portal to watch the event live <br> - Allan uses Yammer to ask a question at the meeting <br> - Allan shares the recording link with coworkers.|
-|Metrics|- Live event views <br> - Event recording views <br> - Yammer engagement|
-|Stretch goals|- Continued Yammer engagement <br> - Improving employee sentiment (survey)|
+|User journey|- News post is sent to the company announcing a leadership Q&A meeting <br> - Allan goes to the leadership portal to watch the event live <br> - Allan uses Viva Engage to ask a question at the meeting <br> - Allan shares the recording link with coworkers.|
+|Metrics|- Live event views <br> - Event recording views <br> - Viva Engage engagement|
+|Stretch goals|- Continued Viva Engage engagement <br> - Improving employee sentiment (survey)|
 
 ## Choose solution components
 
@@ -166,7 +166,7 @@ SharePoint offers a variety of building blocks that you can use to create an int
 - **[Home site](home-site.md)** - A home site is a communication site that you set as the intranet landing page for your organization.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
-- **[Yammer](/yammer/yammer-landing-page)** - Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.
+- **[Viva Engage](/viva/engage/viva-engage-landing-page)** - Use Viva Engage to connect with people across your organization beyond the boundaries of projects, functions, and departments.
 - **[Forms](/forms-pro)** - Use forms to create custom quizzes, surveys, questionnaires, registrations, and more.
 - **[Stream](/stream)** - Use Stream to deliver live and on-demand meetings, events, and training.
 
@@ -197,5 +197,4 @@ When the site is on its way to success, take stock of any lessons learned in the
 
 [SharePoint look book](https://aka.ms/sharepointlookbook)
 
-[Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 

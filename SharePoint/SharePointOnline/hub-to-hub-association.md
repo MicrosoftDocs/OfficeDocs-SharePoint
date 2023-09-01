@@ -36,6 +36,7 @@ Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-shar
 >
 > - You must have administrator editing privileges to associate hubs to each other in the SharePoint admin center.
 > - Hub level associations do not change site permissions.
+> - Web parts configured to show content from all sites in the hub will continue to show data from the original parent hub only.
 
 ## How hub to hub associations work
 
@@ -55,7 +56,7 @@ The following diagram illustrates how hub sites can be associated to other hubs 
 
 - **Parent hub (level 1):** Think of associated hubs on level one as "Parent" hubs that determine the search scope for peer associated hubs.
 - **Associated child hub (level 2):** These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs.
-- **Associated child hub (level 3):** This level (and all proceeding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
+- **Associated child hub (level 3):** This level (and all preceding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
 
 ## Associate a hub to another hub
 

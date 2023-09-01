@@ -21,7 +21,7 @@ search.appverid: MET150
 description: Set up multiple Migration Manager agents
 ---
 
-# Step 1: Setup Migration Manager agents
+# Step 1: Set up Migration Manager agents
 
 When migrating file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. Grouping provides agent flexibility, such as only assigning particular migrations to a particular set of agents, or separating out agents in groups based on geographical location to optimize performance.
 
@@ -35,8 +35,9 @@ After an agent is configured, anyone with the permission to go into the <a href=
 
 ## Planning checklist
 
-|Category|Guidance|Fill in with your details|
-|:-----|:-----|:-----|
+|Category|Guidance|
+|:-----|:-----|
+|Determine how many agents you need|[How many agents to create](#agents-and-performance-considerations)|
 |Have the right credentials to use|SharePoint or OneDrive admin for migration destination and an on-premises account for source that has access to ALL network file shares you plan to migrate. Confirm that you have SharePoint or OneDrive Admin credentials to access the "destination" of where you are migrating your content. Verify that the on-premises credentials you plan on using to configure the agent has access to **all** the network file shares you plan to migrate.  |
 |Virtual machines or computers to use:|Determine how many VMs or computers you plan on using for your migration project. List the computers or VMs before you start.|
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
@@ -50,6 +51,20 @@ After an agent is configured, anyone with the permission to go into the <a href=
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
+
+## Agents and performance considerations
+
+One factor to achieving the best performance in your migration is using the **fewest number of agents needed** to complete the migration within your timeframe. Using more agents than needed can increase the throttling rate when reports are uploaded.
+
+**Example:** If your migration can be done within the desired time slot using 10 agents and at an acceptable speed, don't use 20 agents. Using more agents means higher traffic and a higher API request rate. 
+
+### Determine how many agents you need
+
+To calculate the minimum required number of agents to use for your migration:
+
+1. Run a test migration with 20 to 30 tasks using 1 agent to test the throughput per agent. Record the time.
+2. Estimate the number of tasks for your entire migration. Take the length of time it took 1 test agent to process, and calculate the number of agents for the migration. Factor in the overall length of time you have to complete your migration project.
+3. If you have already created more agents than you need, they can be disabled by selecting the agent within Migration Manager.
 
 ## Set up an agent
 
@@ -84,7 +99,7 @@ To install an agent to a different Geo location:
 1. **Download** the agent setup file.
 2. **Launch** the setup file and remain on the *Welcome page*.
 3. **Open** this file:  %temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config
-4. Under appSettings, add an entry as shown in the following **example** for the desired country or data center. (Note: this is an example for Canada.) </br>
+4. Under appSettings, add an entry as shown in the following **example** for the desired country/region or data center. (Note: this is an example for Canada.) </br>
 
 ```powershell 
  

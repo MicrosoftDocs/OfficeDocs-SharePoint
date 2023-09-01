@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2020
+ms.date: 08/07/2023
 title: "Step 6: Migrate and monitor Google migration"
 ms.reviewer: 
 ms.author: jhendr
@@ -31,13 +31,7 @@ Once have reviewed the drives, confirmed the destinations, correctly mapped iden
 
 
 1. Select the drives to migrate.
-
-![Select drives to migrate](media/mm-box-select-to-migrate.png)
-
 2. Select **Migrate**.
-
-![Select migrate button](media/mm-box-migrate-button.png) 
-
 3. A confirmation step displays.  Click **Migrate**.  
 4. Once the migration begins, monitor the migration status, and the table summary at the top. Depending on how large your migration, this step may take hours or days.
 
@@ -49,8 +43,6 @@ Once have reviewed the drives, confirmed the destinations, correctly mapped iden
 After tasks are scanned and copied to migrations, an "estimated time to migrate" is calculated.
 
 The estimated time is based from the time a task starts running to when it is estimated that it will complete. When a task starts running, the status is **In progress**. The time a task is "queued" isn't added to the estimated time. 
-
-:::image type="content" source="media/mm-google-estimated-time.png" alt-text="Estimated time for selected drives to migrate":::
 
 >[!Important]
 >If a user modifies the source folder, it must re-scanned and then re-copied to migrations. The estimated time will be recalculated based on this new scan.

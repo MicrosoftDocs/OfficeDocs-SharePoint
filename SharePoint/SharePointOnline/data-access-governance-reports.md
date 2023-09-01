@@ -1,7 +1,7 @@
 ---
-ms.date: 03/01/2023
-title: "Data access governance insights for SharePoint sites"
-ms.reviewer: karthig
+ms.date: 08/30/2023
+title: "Data access governance reports for SharePoint sites"
+ms.reviewer: daminasy
 ms.author: mactra
 author: MachelleTranMSFT
 manager: serdars
@@ -13,6 +13,9 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
+- Highpri
+- Tier1
+- M365-sam
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
@@ -21,7 +24,7 @@ search.appverid: MET150
 description: "In this article, you'll learn about reports that can help you govern access to data in SharePoint."
 ---
 
-# Data access governance insights for SharePoint sites
+# Data access governance reports for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -39,7 +42,7 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
    - Sharing links
    - Sensitivity labels applied to files
      :::image type="content" source="media/data-access-governance-screen.png" alt-text="Data access governance page":::
-     
+
 ## Sharing links reports
 
 The Sharing links reports help you identify potential oversharing by seeing the sites where users created the most new sharing links. A report is available for the following links:
@@ -63,11 +66,10 @@ When a report is ready, select it to view the data. Each sharing link report inc
 - Up to 100 sites with highest number of [sharing links](modern-experience-sharing-permissions.md) created in the last 30 days.
 - The policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 - The primary admin for each site.
-  :::image type="content" source="media/anyone-links-screen.png" alt-text="Report for Anyone links":::
 
 ### Download the reports
 
-You can download a .csv file to get the same information for up to 10,000 sites. 
+You can download a .csv file to get the same information for up to 10,000 sites.
 
 ## Sensitivity labels for files reports
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 03/01/2023
+ms.date: 08/30/2023
 title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
 ms.author: mactra
@@ -13,6 +13,9 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:
 - Strat_SP_admin
+- Highpri
+- Tier1
+- M365-sam
 - M365-collaboration
 search.appverid:
 - SPO160
@@ -50,13 +53,22 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
     ```
     For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`
 
-## Exempting users and groups from the policy
-
- The following parameters can be used with this cmdlet to fine-tune it.
+The following parameters can be used with this cmdlet to fine-tune it.
 
  `-ExcludeBlockDownloadPolicySiteOwners $true` Exempts site owners from this policy and they can fully download any content for the site.
 
  `-ExcludedBlockDownloadGroupIds <comma separated group ids>` Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
+
+`-ExcludeBlockDownloadSharePointGroups <comma separated group ids>` Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
+
+ `-ReadOnlyForBlockDownloadPolicy $true` Marks the site as read-only in addition to preventing downloads. 
+
+You also can attach a block download policy to a site sensitivity label.
+  
+```PowerShell
+Set-Label -Identity 'Internal' -AdvancedSettings @{BlockDownloadPolicy="true" | “false” }
+Set-Label -Identity 'Internal' -AdvancedSettings @{ExcludedBlockDownloadGroupIds="<list of security or M365 groups>"}
+```
 
 ## App impact
 

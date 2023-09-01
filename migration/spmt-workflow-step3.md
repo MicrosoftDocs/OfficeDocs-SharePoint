@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: "The third step in migrating SharePoint Server workflows to Microsoft 365, activating the migrating flows."
@@ -61,3 +62,13 @@ For full details on what workflow actions and lookups are supported, and what is
 
 - [SharePoint Designer 2010 & 2013 Workflow migrations](spmt-workflow-migration-spd.md)
 
+## What to check after migration
+
+**Review your nesting levels.** </br>Power Automate allows a maximum of eight "nesting levels". If your migrated workflow exceeds that level, an error message will display when you select **Save** on the flow edit page. Review the migrated flow and modify them as needed. [Learn more in Limits and configuration - Power Automate](/power-automate/limits-and-config#flow-definition-limits)
+
+- *Error message example*. "The power flow's logic app flow template was invalid. The template actions action_name are nested at level '9' which exceeds the maximum nesting limit of '8'.
+
+**Review the workflow migration report for unsupported actions.** </br>Look for any entry with the status value of "migrated" and with more than one unsupported action. These values indicate that the "unsupported actions" have been converted to **compose actions** in the migrated workflow. Review the migrated flow, locate the **compose actions**, and update accordingly. [Learn more about unsupported workflow actions](/sharepointmigration/spmt-workflow-migration-spd#designer-workflow-actions-not-migrated)
+
+>[!Note]
+>[Learn more here: SPMT Workflow reports and error codes](spmt-workflow-report-and-error-codes.md)

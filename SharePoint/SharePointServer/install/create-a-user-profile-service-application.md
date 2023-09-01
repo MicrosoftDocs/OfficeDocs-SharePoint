@@ -89,7 +89,7 @@ You can create a User Profile service application by using either the SharePoint
     
 17. In the **Default Proxy Group** section, select whether you want the proxy of this User Profile service application to be a part of the default proxy group on this farm. 
     
-18. In the **Yammer Integration** section, select whether you want to use Yammer for social collaboration. 
+18. In the **Viva Engage Integration** section, select whether you want to use Viva Engage for social collaboration. 
     
 19. Click **Create**.
     

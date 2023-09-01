@@ -71,7 +71,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "uhfHeaderId": "MSDocsHeader-M365-IT",
+      "uhfHeaderId": "MSDocsHeader-SharePoint",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
@@ -85,7 +85,8 @@
         "tiburd",
         "garycentric",
         "v-dihans",
-        "AngelaMotherofDragons"
+        "AngelaMotherofDragons",
+        "beccarobins"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "GitHub",

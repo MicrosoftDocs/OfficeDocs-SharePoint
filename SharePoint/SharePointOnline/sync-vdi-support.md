@@ -37,6 +37,9 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
   - Windows Server 2016 (supports VHDX)
   - Windows Server 2012 R2 (supports VHDX)
   - Windows Server 2008 R2 (supports VHD)
+
+> [!NOTE]
+> It is not supported to roam the OneDrive registry hive as part of a non-persistent VDI environment. Do not roam `HKEY_CURRENT_USER\Software\Microsoft\OneDrive\` in your non-persistent VDI user profiles.
  
 > [!NOTE]
 > The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7653.47581](/fslogix/whats-new).
@@ -45,7 +48,7 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 >
 > For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required.
 >
-> The OneDrive sync app is not supported in remote app scenarios.
+> The OneDrive sync app is supported in a remote app scenario hosted as a [Citrix Virtual App](onedrive-in-citrix-virtual-apps-deployment-guide.md).
 >
 > The OneDrive sync app with FSLogix does not support running multiple instances of the same container simultaneously.
 

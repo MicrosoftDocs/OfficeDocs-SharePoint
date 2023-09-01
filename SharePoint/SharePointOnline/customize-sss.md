@@ -45,9 +45,9 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
  
  There are several customization opportunities to align the site content, look, and feel with your organization. Before you publish your site and share it with users, review and customize the following elements:
 
-- Training content in M365 learning pathways 
+- Training content in Microsoft 365 learning pathways 
 - The SharePoint Success Site template 
-- The Yammer conversation, People, and Forms web parts
+- The Viva Engage conversation, People, and Forms web parts
 - Content in the site usage guidelines page
 - Content in the success story page
 - Branding details like the site logo and theme
@@ -57,7 +57,7 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 #### Summary of site requirements and permissions
 Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner or Site member for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you're not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Global Administrator (formerly called the Tenant admin) and M365 learning pathways has not been provisioned, see the [provisioning guidance](./provision-sss.md#provision-the-sharepoint-success-site-1).
+If you're not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you're the Global Administrator (formerly called the Tenant admin) and M365 learning pathways hasn't been provisioned, see the [provisioning guidance](./provision-sss.md#provision-the-sharepoint-success-site-1).
 
 
 **Who has permissions to customize the site template?**
@@ -75,7 +75,7 @@ If you're not sure your tenant has the site, contact your SharePoint administrat
 
 
 ## Get started customizing
-Once you confirm the necessary access and permission to customize the site, you are ready to get started with the customization process.
+Once you confirm the necessary access and permission to customize the site, you're ready to get started with the customization process.
 The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll need to sign into Microsoft 365 and then navigate to the site. 
 
 ##### Sign in
@@ -137,14 +137,14 @@ As a Site owner you have full control of the site navigation. Use the following 
 
 - Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
 - [Associate this site with a hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
-- Use [audience targeting](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to target specific navigational links to specific users. For example, in the **Home** navigation drop down you will see a shortcut to the M365 learning pathways administration page. Target that page to Site owners for the SharePoint Success Site to prevent end-users from seeing it.
+- Use [audience targeting](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to target specific navigational links to specific users. For example, in the **Home** navigation drop down you'll see a shortcut to the M365 learning pathways administration page. Target that page to Site owners for the SharePoint Success Site to prevent end-users from seeing it.
 - [Delete unwanted pages](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) if you need to.
 
 ### Customize specific web parts
 
-1. **Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer community to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+1. **Viva Engage conversations web part** - Use a Viva Engage web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Viva Engage community to the [Viva Engage conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
 
-   ![Image of the Yammer conversations web part](media/sss-yammer.png)
+   ![Image of the Viva Engage conversations web part](media/sss-viva-engage.png)
 
 2. **People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new Site owners can reach out for help.
 
@@ -166,7 +166,7 @@ If available, add SharePoint success stories to your portal. If there are no rea
 - Name of solution 
 - Project team members 
 - Who is the sponsor of the project? 
-- What Microsoft 365 technologies (e.g., SharePoint, Yammer, Stream, Flow) were used as part of the solution? 
+- What Microsoft 365 technologies (e.g., SharePoint, Viva Engage, Stream, Flow) were used as part of the solution? 
 - What were the reasons for building the SharePoint site? 
 - Provide a description of the solution 
 - What impact or results has the SharePoint site generated? 
@@ -174,15 +174,15 @@ If available, add SharePoint success stories to your portal. If there are no rea
 
 Learn more about how to [create a form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) using Microsoft Forms.
 
-Or, [delete unwanted pages](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) if you do not want to include this page in your site.
+Or, [delete unwanted pages](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) if you don't want to include this page in your site.
 
 
 ### Customize the Site creation guidelines page
-To ensure the proper use of SharePoint in your organization it is important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Microsoft 365. 
+To ensure the proper use of SharePoint in your organization it's important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Microsoft 365. 
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
-The example site creation and usage guidelines are not intended to be a final policy document. Once you have created your own unique usage guidelines, remove the content from the Site usage guidelines page and replace it with your organization's usage guidelines. See how to [create and use modern pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec?ui=en-us&rs=en-us&ad=us) on a SharePoint site. 
+The example site creation and usage guidelines aren't intended to be a final policy document. Once you have created your own unique usage guidelines, remove the content from the Site usage guidelines page and replace it with your organization's usage guidelines. See how to [create and use modern pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec?ui=en-us&rs=en-us&ad=us) on a SharePoint site. 
 
 Create site usage guidelines that are appropriate for your organization by reviewing our [site usage guidelines checklist](./sites-usage-guidelines.md) that will help you create guidelines that:
 
@@ -202,7 +202,7 @@ Create site usage guidelines that are appropriate for your organization by revie
 
 #### Provide contact information for SharePoint support
 If your organization has an intranet team that will be supporting site owners, consider profiling the intranet team members on the SharePoint Success Site homepage using the People web part. 
-The home page of the SharePoint Success Site has a [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05?ui=en-us&rs=en-us&ad=us) you can use to add your own Intranet team. If you will not have a dedicated team supporting site owners, remove the current People web part.
+The home page of the SharePoint Success Site has a [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05?ui=en-us&rs=en-us&ad=us) you can use to add your own Intranet team. If you won't have a dedicated team supporting site owners, remove the current People web part.
 
 
 ## Share the site with end-users
@@ -214,12 +214,12 @@ Key success factors to managing the SharePoint Success Site:
 - Create and post news announcing the new resource.
 - Ensure users have an outlet for questions and feedback.
 - Plan to review the SharePoint Success site as needed to ensure content and site usage policies are still relevant .
-- Build culture and community by integrating a [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+- Build culture and community by integrating a [Viva Engage web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
 - Integrate and customize your organization's high-value training content.
 
 #### Adoption and awareness strategy
 
-To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
+To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Viva Engage](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Viva Engage group and encourage site owners to share their successes and best practices. See the [champions guidance](/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
 
-To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+To increase visibility and engagement within your portal champions community, integrate the Viva Engage group hosting your community into the SharePoint Success Site using the [Viva Engage conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
