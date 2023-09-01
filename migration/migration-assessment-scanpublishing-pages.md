@@ -16,9 +16,10 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 7f8e8ee7-c400-4530-a550-598c9bf33c44
-
+description: Learn about how the SharePoint assessment tool scans for issues in publishing pages.
 ---
 
 # Migration Assessment Scan: Publishing Pages
@@ -60,7 +61,7 @@ The following table describes the columns in the **PublishingPages-detail.csv** 
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
 |Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. The usage logging service is disabled this row shows N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |PublishingPageURL  <br/> |Url to the publishing page.  <br/> |
 |PageLayoutName  <br/> |Name of the page layout associated with the publishing page.  <br/> |
