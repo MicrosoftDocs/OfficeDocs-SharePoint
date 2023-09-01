@@ -117,4 +117,4 @@ The SharePoint Server modern UX provides a powerful yet intuitive user interface
 
 SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators will be able to specify custom text, logos, hyperlinks, and color schemes in the Suite Bar that apply to all sites within a web application.
 
-For more information, see [New and improved features in SharePoint Server Subscription Edition Version 23H2 - SharePoint Server | Microsoft Learn](/what-s-new/custom-branding-in-suite-bar).
+For more information, see [Custom branding in Suite Navigation Bar - SharePoint Server | Microsoft Learn](/sharepoint/what-s-new/custom-branding-in-suite-bar).
