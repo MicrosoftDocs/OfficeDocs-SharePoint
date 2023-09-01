@@ -34,21 +34,21 @@ Secure Store Service is a shared service that provides storage and mapping of cr
   
 ## Data Migration
 
-Secure Store applications are not migrated to the target environment.
+Secure Store applications aren't migrated to the target environment.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Preparing for Migration
 
-Determine if the Secure Store applications listed in the scan results are required on the target platform. If they are required, you will want to create them in Tenant Administration on the new platform during the migration testing.
+Determine if the Secure Store applications listed in the scan results are required on the target platform. If they're required, you'll want to create them in Tenant Administration on the new platform during the migration testing.
   
 > [!NOTE]
 > The target environment only supports the Group Restricted type. 
   
 ## Post Migration
 
-If you created Secure Store applications in the target environment, ensure they are working as expected.
+If you created Secure Store applications in the target environment, ensure they're working as expected.
   
 ## Scan Result Reports
 
