@@ -17,6 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Migrating-managed metadata by using SPMT."
 ---
 
