@@ -1,8 +1,8 @@
 ---
 title: "Installing SharePoint Server Subscription Edition on one server"
 ms.reviewer: 
-ms.author: v-nsatapathy
-author: nimishasatapathy
+ms.author: v-aljupudi
+author: alekyaj
 manager: serdars
 ms.date: 06/23/2021
 audience: ITPro
