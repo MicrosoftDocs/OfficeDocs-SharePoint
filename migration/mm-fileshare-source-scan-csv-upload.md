@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Bulk upload file share sources to scan in Migration Manager."
 ---
