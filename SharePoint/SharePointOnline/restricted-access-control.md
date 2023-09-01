@@ -1,5 +1,5 @@
 ---
-ms.date: 07/31/2023
+ms.date: 08/30/2023
 title: "Restrict SharePoint site access"
 ms.reviewer: nibandyo
 manager: serdars
@@ -15,9 +15,10 @@ ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
 ms.collection: 
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
