@@ -29,11 +29,11 @@ Learn how to fix issues with alerts during migration.
   
 ## Overview
 
-Most migration tools do not migrate alerts. Alerts are created on items, lists, and libraries to notify a user of when content changed. This report provides visibility into the alerts that are currently configured in the source environment. If users would like to be notified of content changes after the migration, they will need to configure the alerts on the new environment. As a result of alerts not migrating, we provide ample raw data associated with the alerts should the need arise to recreate the alerts post migration.
+Most migration tools don't migrate alerts. Alerts are created on items, lists, and libraries to notify a user of when content changed. This report provides visibility into the alerts that are currently configured in the source environment. If users would like to be notified of content changes after the migration, they'll need to configure the alerts on the new environment. As a result of alerts not migrating, we provide ample raw data associated with the alerts should the need arise to recreate the alerts post migration.
   
 ## Data Migration
 
-Basic migration tools do not migrate alerts.
+Basic migration tools don't migrate alerts.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -65,8 +65,8 @@ This scan report provides a list of all the alerts installed in the environment.
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |WebURL  <br/> |Web URL.  <br/> |
 |Title  <br/> |Title of the alert.  <br/> |
