@@ -17,6 +17,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
