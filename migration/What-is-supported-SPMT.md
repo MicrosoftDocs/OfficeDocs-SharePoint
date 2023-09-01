@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 description: "This article contains a list of features that are supported in the SharePoint Migration Tool (SPMT)."

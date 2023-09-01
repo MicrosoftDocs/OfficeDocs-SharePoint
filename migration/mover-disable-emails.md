@@ -13,6 +13,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to disable email notifications in Mover to avoid spamming users with status emails."
 ---
