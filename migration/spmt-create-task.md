@@ -17,6 +17,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn now to create a migration task using the SharePoint Migration Tool (SPMT)."
 ---

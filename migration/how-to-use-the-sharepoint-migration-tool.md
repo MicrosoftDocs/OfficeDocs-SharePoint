@@ -18,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -54,7 +55,7 @@ Before you begin using SPMT, review the required permissions, prerequisites, and
 
 In Microsoft 365, tenants can control if users can run custom script on personal sites and self-service created sites. 
 
-During migration, some web parts require this setting set to **allow**.  Otherwise, the web part will not be migrated.
+During migration, some web parts require this setting set to **allow**.  Otherwise, the web part won't be migrated.
 
 At least 24 hours before you start migration, do the following:
 
@@ -65,7 +66,7 @@ At least 24 hours before you start migration, do the following:
    **Allow users to run custom script on personal sites**<br/>
    **Allow users to run customer script on self-service created sites**
 
-   Leave these settings in place for the duration of your migration.
+   Leave these settings in place during your migration.
 
    > [!NOTE]
    > Changes to this setting might take up to 24 hours to take effect.
@@ -76,9 +77,9 @@ At least 24 hours before you start migration, do the following:
 
 ## Proxy connections
 
-Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint sign in fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
 
-If you wish to leverage your system proxy settings, use one of these methods:
+If you wish to use your system proxy settings, use one of these methods:
 
 **Update proxy** 
 
@@ -94,14 +95,14 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 **If SPMT doesn't upgrade**
 
-1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+1. If SPMT can't upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
 2. Open the **installclient.exe.config** file. 
 3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
 </br>
 
    ![Edit the config file](media/spmt-proxy-edits.png)
 
-4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
+4. Launch installclient.exe and SPMT should autoupgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
 6. Comment out the default proxy setting:
 
