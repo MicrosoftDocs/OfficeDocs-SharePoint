@@ -28,13 +28,13 @@ ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 
 ## Overview
 
-One of the requirements for using the SharePoint Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint offering. Every tenant who signs up for SharePoint will get this for free.
+One of the requirements for using the SharePoint Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint offering. Every tenant who signs up for SharePoint gets this for free.
   
 Important key aspects include:
   
-- The containers and queues are unique per request and not reused. Once a container is given to a customer this container will not be reused or shared.
+- The containers and queues are unique per request and not reused. Once a container is given to a customer this container won't be reused or shared.
     
-- The containers and queue are automatically deleted. As per the standard SharePoint compliance, Microsoft will automatically destroy the container within 30 to 90 days .
+- The containers and queue are automatically deleted. As per the standard SharePoint compliance, Microsoft will automatically destroy the container within 30 to 90 days.
     
 - The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint tenant.
     
@@ -47,20 +47,20 @@ Before the Migration API can accept a migration job from a SharePoint-provided A
 > [!NOTE]
 > You can still provide your own Azure account if you prefer to not use encryption. 
   
-No one has direct access to the storage accounts or the containers. The SharePoint service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk, and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
+No one has direct access to the storage accounts or the containers. The SharePoint service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians aren't prepped with knowledge of how data is laid out on disk, and don't have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
   
-Each container is dedicated to the customer who it was provided to and not reused. The data is stored in the Azure blob anywhere from 30 to 90 days after which it is deleted.
+Each container is dedicated to the customer who it was provided to and not reused. The data is stored in the Azure blob anywhere from 30 to 90 days after which it's deleted.
   
-When the data is deleted, the files are de-linked and later soft deleted from disk. A file in an account and on-disk are may be shared across many servers. The same process is used for replicas, including backup copies (geo-replicated data if it applies).
+When the data is deleted, the files are delinked and later soft deleted from disk. A file in an account and on-disk are may be shared across many servers. The same process is used for replicas, including backup copies (geo-replicated data if it applies).
   
 > [!NOTE]
 > Due to data churn, it is likely that all or parts of the file will be overwritten at some point following soft delete. 
   
 ## Key to the container
 
-The default key is generated programmatically, and is only valid for 3 days. This key is the only way to gain access to the container. It is generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SharePoint standard methods between 30-90 days from creation. SharePoint never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
+The default key is generated programmatically, and is only valid for three days. This key is the only way to gain access to the container. It's generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SharePoint standard methods between 30-90 days from creation. SharePoint never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
   
-Only those who have the key have access. Other users in the subscription or the tenant do not have access.
+Only those who have the key have access. Other users in the subscription or the tenant don't have access.
   
 If your key is lost or obtained by someone else, there are two defenses in place that protect you. First, the container has only read/write operations. The container has no list, which means you would need to know the details of the files stored in the container in order to read or write to them. Secondly, the files are encrypted at rest with AES 256 in CBC mode.
   
@@ -73,7 +73,7 @@ public SPProvisionedMigrationContainersInfo ProvisionMigrationContainers()
 >[!NOTE]
 > This call can be made in C# using the SharePoint client side object model. See, [Complete basic operations using SharePoint client library code](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code).
   
-The call will return an object that contains two strings containing two SAS token for accessing the two required containers and a byte array for the AES256CBC encryption. This key must be used when encrypting the data. Once we give you the key it is forgotten by Microsoft. You need to keep it and pass it again for the SubmitMigrationJob call.
+The call returns an object that contains two strings containing two SAS token for accessing the two required containers and a byte array for the AES256CBC encryption. This key must be used when encrypting the data. Once we give you the key, it's forgotten by Microsoft. You need to keep it and pass it again for the SubmitMigrationJob call.
   
 - Uri DataContainerUri
     
@@ -85,7 +85,7 @@ The call will return an object that contains two strings containing two SAS toke
 
 public SPProvisionedMigrationQueueInfo ProvisionMigrationQueue()
   
-This method will return a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call should not be used as frequently as the SPProvisionedMigrationContainersInfo() call.
+This method returns a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call shouldn't be used as frequently as the SPProvisionedMigrationContainersInfo() call.
   
 - Uri JobQueueUri
     

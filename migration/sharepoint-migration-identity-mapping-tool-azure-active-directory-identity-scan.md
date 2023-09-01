@@ -23,9 +23,9 @@ ms.collection:
 
 ## Overview
 
-The Azure Active Directory scan will look up identities that were found in the source SharePoint environment in the Azure Active Directory that you authenticate to.
+The Azure Active Directory scan looks up identities that were found in the source SharePoint environment in the Azure Active Directory that you authenticate to.
   
-When performing look-ups, this is the pattern used for matching:
+When the tool is performing look-ups, the pattern used for matching is listed in the table.
   
 | Users |&nbsp;  |
 |:-----|:-----|
@@ -35,8 +35,8 @@ When performing look-ups, this is the pattern used for matching:
    
 | Groups |&nbsp;  |
 |:-----|:-----|
-|ExactMatch  <br/> |Source Identity is a Windows group with a Security Identifier [SID]. The target is the OnPremisesSecurityIdentifier in Azure Active Directory.  <br/> Non-Windows accounts will never be able to have an ExactMatch.  <br/> |
+|ExactMatch  <br/> |Source Identity is a Windows group with a Security Identifier [SID]. The target is the OnPremisesSecurityIdentifier in Azure Active Directory.  <br/> Non-Windows accounts will never have an ExactMatch.  <br/> |
 |PartialMatch  <br/> |Source Identity Display Name equals the Display Name in Azure Active Directory.  <br/> |
 |NoMatch  <br/> |Unable to perform neither ExactMatch or PartialMatch.  <br/> |
    
-We use ADAL to authenticate the operator to Azure Active Directory. This requires consent for the application to read the Azure Active Directory. In order to ensure there is consent prior to running the scans, the tool will perform a pre-flight validation check that involves authenticating to Azure. This will enable the operator to avoid running a long scan process if all the prerequisites have not been met. See [SharePoint Migration Identity Mapping Tool - Pre-flight validation checks](./sharepoint-migration-identity-mapping-tool.md#pre-flight-validation-checks) for more information.
+We use Microsoft Authentication Library to authenticate the operator to Azure Active Directory. This requires consent for the application to read the Azure Active Directory. In order to ensure there's consent prior to running the scans, the tool performs a preflight validation check that involves authenticating to Azure. This enables the operator to avoid running a long scan process if all the prerequisites haven't been met. See [SharePoint Migration Identity Mapping Tool - Preflight validation checks](./sharepoint-migration-identity-mapping-tool.md#pre-flight-validation-checks) for more information.
