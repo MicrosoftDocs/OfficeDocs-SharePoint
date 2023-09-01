@@ -40,7 +40,7 @@ The following table provides a summary of the new features introduced in the Sha
 |  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration enabled by default](#amsi-integration-enabled-by-default). |
 |  AMSI health analyzer rule  |  Standard release  | For more information, see [AMSI health analyzer rule](#amsi-health-analyzer-rule). |
 |  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](#people-picker-supports-ldaps-tls-connection-encryption). |
-|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
+|  Search crawler uses `HTTP` 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
 |  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](#sharepoint-framework-spfx-component-upgrades). |
 |  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](#new-powershell-cmdlets-to-manage-feature-release-rings). |
 |  Custom branding in the Suite Bar  |  Early release   |  For more information, see [Custom branding in the Suite Bar](#custom-branding-in-the-suite-bar). |
@@ -54,7 +54,7 @@ This section provides detailed descriptions of the new and updated features in S
 
 ### AMSI integration enabled by default
 
-Antimalware Scan Interface (AMSI) integration allows AMSI-capable antimalware solutions to scan HTTP and HTTPS requests that are sent to SharePoint Server. If a request is deemed to be dangerous by that antimalware solution, AMSI can block the request from being processed by SharePoint Server, providing an additional layer of protection from cybersecurity attacks.
+Antimalware Scan Interface (AMSI) integration allows AMSI-capable antimalware solutions to scan `HTTP` and `HTTPS` requests that are sent to SharePoint Server. If a request is deemed to be dangerous by that antimalware solution, AMSI can block the request from being processed by SharePoint Server, providing an additional layer of protection from cybersecurity attacks.
 
 Although the AMSI integration feature was first introduced in SharePoint Server Subscription Edition Version 22H2, it wasn't enabled by default. Customers had to enable the feature on each web application that they wanted to protect in the farm. Since then, we've seen security attacks continue to become more sophisticated and the potential impact to customers has grown.
 
@@ -74,21 +74,21 @@ For more information, see [Antimalware Scan Interface (AMSI) protection may not 
 
 ### People Picker supports LDAPS (TLS connection encryption)
 
-As organizations become more aware of the risks of unencrypted communication over a network, some are choosing to implement policies that require encryption for all network connections. HTTP is one of the most common protocols that organizations want to protect, but there are other network communication protocols as well. One of those is the Lightweight Directory Access Protocol (LDAP), which is used by applications to access directory services. The SharePoint People Picker feature uses LDAP to look up users and groups in Active Directory forests and domains. LDAP is not an encrypted protocol by default, although there are several options to enable encryption with it.
+As organizations become more aware of the risks of unencrypted communication over a network, some are choosing to implement policies that require encryption for all network connections. `HTTP` is one of the most common protocols that organizations want to protect, but there are other network communication protocols as well. One of those is the Lightweight Directory Access Protocol (LDAP), which is used by applications to access directory services. The SharePoint People Picker feature uses LDAP to look up users and groups in Active Directory forests and domains. LDAP is not an encrypted protocol by default, although there are several options to enable encryption with it.
 
 To better support organizations that want to require encryption for LDAP traffic, the SharePoint People Picker feature has added support for Secure LDAP (LDAPS) in SharePoint Server Subscription Edition Version 23H2. This allows the People Picker to use TLS connection encryption to protect LDAP traffic to TCP ports 636 and 3269.
 
-To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the SecureSocketsLayer switch parameter with the Set-SPPeoplePickerConfig and Add-SPPeoplePickerSearchADDomain PowerShell cmdlets.
+To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the SecureSocketsLayer switch parameter with the *Set-SPPeoplePickerConfig* and *Add-SPPeoplePickerSearchADDomain* PowerShell cmdlets.
 
 For more information, see [Plan for People Picker in SharePoint](/sharepoint/administration/plan-for-people-picker).
 
 ### Search crawler uses HTTP 1.1 by default
 
-Previously, a SharePoint Search Service Application would crawl HTTP or HTTPS-base content sources using the HTTP 1.0 protocol. Although this is a valid version of the HTTP protocol, some network and security infrastructure may choose to block requests that use this protocol version.
+Previously, a SharePoint Search Service Application would crawl `HTTP` or `HTTPS`-base content sources using the `HTTP` 1.0 protocol. Although this is a valid version of the `HTTP` protocol, some network and security infrastructure may choose to block requests that use this protocol version.
 
-To ensure better compatibility with modern network and security infrastructure, SharePoint Search Service Applications will now crawl HTTP and HTTPS-based content sources using the HTTP 1.1 protocol by default. HTTP 1.1 is a well-supported protocol across the ecosystem and we don't anticipate any negative impact as a result of this change in our default behavior.
+To ensure better compatibility with modern network and security infrastructure, SharePoint Search Service Applications will now crawl `HTTP` and `HTTPS`-based content sources using the `HTTP` 1.1 protocol by default. `HTTP` 1.1 is a well-supported protocol across the ecosystem and we don't anticipate any negative impact as a result of this change in our default behavior.
 
-Customers who wish to directly control which HTTP protocol version is used for each of their content sources can do so by specifying the HttpProtocol parameter with the New-SPEnterpriseSearchCrawlContentSource and Set-SPEnterpriseSearchCrawlContentSource PowerShell cmdlets.
+Customers who wish to directly control which HTTP protocol version is used for each of their content sources can do so by specifying the HttpProtocol parameter with the *New-SPEnterpriseSearchCrawlContentSource* and *Set-SPEnterpriseSearchCrawlContentSource* PowerShell cmdlets.
 
 For more information, see [Add, edit, or delete a content source in SharePoint Server](/sharepoint/search/add-edit-or-delete-a-content-source).
 
@@ -100,7 +100,7 @@ For more information about improvements in SharePoint Server Subscription Editio
 
 ### New PowerShell cmdlets to manage feature release rings
 
-When Microsoft released the Version 22H2 feature update for SharePoint Server Subscription Edition, it included the concept of feature release rings to support its new evergreen experience. Feature release rings allow Microsoft to introduce new feature experiences in stages. New feature experiences that are ready for production use are typically first introduced in the Early release ring. Once the new feature experiences are ready for all customers to use by default, they’re moved into the Standard release ring.
+When Microsoft released the Version 22H2 feature update for SharePoint Server Subscription Edition, it included the concept of feature release rings to support its new evergreen experience. Feature release rings allow Microsoft to introduce new feature experiences in stages. New feature experiences that are ready for production use are typically first introduced in the **Early release** ring. Once the new feature experiences are ready for all customers to use by default, they’re moved into the **Standard release** ring.
 
 SharePoint Server Subscription Edition farms are in the Standard release ring by default, but organizations can choose to move their SharePoint farms to Early release or Standard release at any time. Up until now, organizations could only make this choice through the Feature Release Preference page in SharePoint Central Administration. This made it challenging to configure this preference in scripted deployments.
 
