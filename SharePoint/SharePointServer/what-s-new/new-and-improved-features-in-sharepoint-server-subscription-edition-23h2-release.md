@@ -19,7 +19,7 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 23H2."
 ---
 
-# SharePoint Server Subscription Edition Version 23H2 Feature Update
+# New and improved features in SharePoint Server Subscription Edition 23H2
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
