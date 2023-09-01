@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 5:  Map Box identities with Migration Manager." 
 ---
