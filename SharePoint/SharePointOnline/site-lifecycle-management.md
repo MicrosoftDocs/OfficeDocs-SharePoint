@@ -1,5 +1,5 @@
 ---
-ms.date: 08/18/2023
+ms.date: 08/30/2023
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: serdars
@@ -13,9 +13,10 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 description: "Learn how to manage site lifecycle policies for SharePoint sites."
 ---
