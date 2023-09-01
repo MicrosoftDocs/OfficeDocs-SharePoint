@@ -16,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection:
 - SPmigration
 - M365-collaboration
+- m365initiative-migratetom365
 ---
 
 # SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan

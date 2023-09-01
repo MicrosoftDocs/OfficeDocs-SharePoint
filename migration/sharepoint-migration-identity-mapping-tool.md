@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:
 - SPmigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration."
 ---
 

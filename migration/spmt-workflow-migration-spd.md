@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: Overview Migrate your SharePoint Designer 2010 & 2013 created workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"

@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: "Learn about the report generated when migrating SharePoint Server workflows using SPMT and the error codes that may surface."
