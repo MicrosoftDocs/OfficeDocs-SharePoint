@@ -50,7 +50,7 @@ The following table provides a summary of the new features introduced in the Sha
 This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition Version 23H2.
 
 > [!NOTE]
-> Features previously introduced in the Version 23H1 feature update will not be described here. For more information on Version 23H1, see [New and improved features in SharePoint Server Subscription Edition Version 23H1](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release).
+> Features previously introduced in the Version 23H1 feature update will not be described here. For more information on Version 23H1, see [New and improved features in SharePoint Server Subscription Edition Version 23H1](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release). 
 
 ### AMSI integration enabled by default
 
@@ -118,4 +118,3 @@ The SharePoint Server modern UX provides a powerful yet intuitive user interface
 SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators will be able to specify custom text, logos, hyperlinks, and color schemes in the Suite Bar that apply to all sites within a web application.
 
 For more information, see [New and improved features in SharePoint Server Subscription Edition Version 23H2 - SharePoint Server | Microsoft Learn](/what-s-new/custom-branding-in-suite-bar).
-
