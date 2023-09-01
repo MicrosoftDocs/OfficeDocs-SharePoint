@@ -1,6 +1,6 @@
 ---
 title: "Install SharePoint Servers 2016 or 2019 on one server"
-ms.reviewer: 
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

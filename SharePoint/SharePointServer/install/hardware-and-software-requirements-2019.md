@@ -1,6 +1,6 @@
 ---
 title: Hardware and software requirements for SharePoint Server 2019
-ms.reviewer: 
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
