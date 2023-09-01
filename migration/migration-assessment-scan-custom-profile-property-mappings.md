@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 5a94494c-dfb1-4849-bcee-afa95f1828c2
 description: "Learn how to mitigate issues with Custom Profile Property mappings during migration."

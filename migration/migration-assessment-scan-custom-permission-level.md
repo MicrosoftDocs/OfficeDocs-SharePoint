@@ -17,6 +17,7 @@ ms.assetid: 617ba8f7-eff1-4fcb-b9b8-ee5ef459a18c
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ---
 
 # Migration Assessment Scan: Custom Permission Level

@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: b4f41860-3db9-4e30-8b5d-9748aa7d95a8
 description: "Learn how to mitigate issues with Customized Profile pages during migration."

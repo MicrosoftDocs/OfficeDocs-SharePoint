@@ -17,6 +17,7 @@ ms.assetid: de809b30-8e4d-4223-b47e-81912d617dd1
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ---
 
 # Migration Assessment Scan: External List

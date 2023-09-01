@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a65e4c80-cb0a-4944-a3a3-807d01b1f756
 description: "Learn how to mitigate issues with Browser File Handling during migration."

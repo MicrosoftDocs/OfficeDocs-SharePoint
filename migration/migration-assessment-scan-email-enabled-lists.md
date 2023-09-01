@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a15bae85-86b3-4098-9bbd-631638d377b2
 description: "Learn how to mitigate issues with Email Enabled Lists during migration."
