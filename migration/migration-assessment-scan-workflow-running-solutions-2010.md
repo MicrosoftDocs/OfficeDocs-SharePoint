@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 479f89dc-f6ba-4252-a72e-5cf1d02946ac
 description: "Learn about issues migrating workflows that are in progress."
@@ -27,11 +28,11 @@ description: "Learn about issues migrating workflows that are in progress."
 
 ## Overview
 
-The migration is unable to migrate workflows that are in progress. If a workflow on a site or item is In Progress, it will appear as if the workflow was never started on the item prior to migration. If you have business critical workflows that are in progress prior to migration, it is recommended to finish the workflow prior to migration.
+The migration is unable to migrate workflows that are in progress. If a workflow on a site or item is In Progress, it appears as if the workflow was never started on the item prior to migration. If you have business critical workflows that are in progress prior to migration, it's recommended to finish the workflow prior to migration.
 
 ## Data Migration
 
-Workflow definitions will migrate, however in progress workflow information will not be migrated.
+Workflow definitions migrate, however in progress workflow information won't be migrated.
 
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output.
@@ -61,11 +62,11 @@ The following table describes the columns in the **WorkflowRunning2010-detail.cs
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
 |LastContentModifiedDate|Date/Time the site collection had content modified.|
 |TotalItemCount|Total number of items found in the site collection.|
-|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
-|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
+|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
+|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
 |DaysOfUsageData|Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.|
 |WorkflowName|Name of the workflow|
-|ItemURL|URL to the item the workflow was started against. <br/> If this is a **site workflow**, the URL will point to the site. <br/> If this is a **list item workflow**, the URL will point to the list item.|
+|ItemURL|URL to the item the workflow was started against. <br/> If this is a **site workflow**, the URL points to the site. <br/> If this is a **list item workflow**, the URL points to the list item.|
 |Scope|Either Site or List.|
 |WorkflowInitiator|User that started the workflow.|
 |ScanID|Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.|
