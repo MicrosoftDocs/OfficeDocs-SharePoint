@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: 
 description: Learn how to archive Migration Manager tasks to save for a future migration.
 ---

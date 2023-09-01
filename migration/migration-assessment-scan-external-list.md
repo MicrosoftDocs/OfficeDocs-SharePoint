@@ -17,6 +17,7 @@ ms.assetid: de809b30-8e4d-4223-b47e-81912d617dd1
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ---
 
 # Migration Assessment Scan: External List
@@ -27,7 +28,7 @@ External lists are those lists that were created from a Business Catalogs Servic
   
 ## Data Migration
 
-BCS applications are not migrated to the target environment. As a result, External Lists are not migrated.
+BCS applications aren't migrated to the target environment. As a result, External Lists aren't migrated.
   
 See [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md) for more information about BCS. 
   
@@ -36,7 +37,7 @@ See [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md) for more 
   
 ## Preparing for Migration
 
-Build out a plan for the external lists. It is possible to configure Hybrid BCS to access on-premises data from SharePoint in Microsoft 365, but this will require some planning. 
+Build out a plan for the external lists. It's possible to configure Hybrid BCS to access on-premises data from SharePoint in Microsoft 365, but this will require some planning. 
   
 See [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md) for more information about BCS 
   
@@ -62,15 +63,15 @@ The following table describes the columns in the **ExternalLists-detail.csv** re
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |WebURL  <br/> |Url to the site that has publishing features enabled.  <br/> |
 |ListTitle  <br/> |Title of the list.  <br/> |
 |ListURL  <br/> |Url to the root folder of the list.  <br/> |
 |ListItemCount  <br/> |Number of items in the list.  <br/> |
 |ListTemplate  <br/> |Template used when creating the list.  <br/> |
-|ListType  <br/> |The type of list configured.  <br/> |
+|ListType  <br/> |The type of list is configured.  <br/> |
 |ListCreator  <br/> |User that created the list.  <br/> |
 |ItemLastModifiedDate  <br/> |Date/Time an item was last modified on the list.  <br/> |
 |ScanID  <br/> | Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |

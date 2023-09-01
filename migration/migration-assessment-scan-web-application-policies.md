@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: d538651b-75e4-4221-9ea1-c2d0be1e0589
 description: "Learn how to fix issues with Web Application policies during migration."

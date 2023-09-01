@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to format a CSV or JSON file to bulk upload source paths into Migration Manager."
 ---

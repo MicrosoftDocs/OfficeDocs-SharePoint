@@ -15,6 +15,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Learn more about preparing your data for migration."
 ---
 
