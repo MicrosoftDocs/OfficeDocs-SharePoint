@@ -69,7 +69,7 @@ Before you can install SharePoint Server and add a server to the farm, you must 
 
  For download locations, see [Links to applicable software](hardware-and-software-requirements.md#section5) in "Hardware and software requirements (SharePoint Server 2016)." 
 
-For download locations, see [Links to applicable software](hardware-and-software-requirements-2019.md#section5) in "Hardware and software requirements (SharePoint Server 2019)." 
+For download locations, see [Links to applicable software](hardware-and-software-requirements-2019.md#links-to-applicable-software) in "Hardware and software requirements (SharePoint Server 2019)." 
   
 > [!TIP]
 > After you obtain a copy of the required software, we recommend that you create an installation point that you can use to store the images. You can use this installation point to install future software updates. 
