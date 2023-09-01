@@ -25,7 +25,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features that were introduced during the initial release of SharePoint Server Subscription Edition.
 
-For more information on other new and updated features, see [SharePoint Server Subscription Edition Version 22H2](new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md) and [SharePoint Server Subscription Edition Version 23H1](new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md).
+For information on new and updated features that were introduced after the initial release of SharePoint Server Subscription Edition, see [SharePoint Server Subscription Edition Version 22H2](new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md) and [SharePoint Server Subscription Edition Version 23H1](new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md).
 
 ## List of new features and updates to existing features
 
