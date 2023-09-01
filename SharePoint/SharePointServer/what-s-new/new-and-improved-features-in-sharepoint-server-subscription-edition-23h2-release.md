@@ -40,7 +40,7 @@ The following table provides a summary of the new features introduced in the Sha
 |  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration enabled by default](#amsi-integration-enabled-by-default). |
 |  AMSI health analyzer rule  |  Standard release  | For more information, see [AMSI health analyzer rule](#amsi-health-analyzer-rule). |
 |  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](#people-picker-supports-ldaps-tls-connection-encryption). |
-|  Search crawler uses `HTTP` 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
+|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
 |  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](#sharepoint-framework-spfx-component-upgrades). |
 |  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](#new-powershell-cmdlets-to-manage-feature-release-rings). |
 |  Custom branding in the Suite Bar  |  Early release   |  For more information, see [Custom branding in the Suite Bar](#custom-branding-in-the-suite-bar). |
@@ -88,7 +88,7 @@ Previously, a SharePoint Search Service Application would crawl `HTTP` or `HTTPS
 
 To ensure better compatibility with modern network and security infrastructure, SharePoint Search Service Applications will now crawl `HTTP` and `HTTPS`-based content sources using the `HTTP` 1.1 protocol by default. `HTTP` 1.1 is a well-supported protocol across the ecosystem and we don't anticipate any negative impact as a result of this change in our default behavior.
 
-Customers who wish to directly control which HTTP protocol version is used for each of their content sources can do so by specifying the HttpProtocol parameter with the *New-SPEnterpriseSearchCrawlContentSource* and *Set-SPEnterpriseSearchCrawlContentSource* PowerShell cmdlets.
+Customers who wish to directly control which `HTTP` protocol version is used for each of their content sources can do so by specifying the HttpProtocol parameter with the *New-SPEnterpriseSearchCrawlContentSource* and *Set-SPEnterpriseSearchCrawlContentSource* PowerShell cmdlets.
 
 For more information, see [Add, edit, or delete a content source in SharePoint Server](/sharepoint/search/add-edit-or-delete-a-content-source).
 
