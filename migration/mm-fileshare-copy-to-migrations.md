@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150to the migration list in Migration Manager."
 description: "Learn how to copy to migrations for file share migration."
 ---
