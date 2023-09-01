@@ -13,6 +13,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Mover transfer status codes"
 ---
@@ -28,15 +29,14 @@ description: "Mover transfer status codes"
 >A cross tenant migration solution for SharePoint is currently being developed and in private preview.  To learn more, see [How to participate in the Cross-tenant SharePoint migration preview](/microsoft-365/enterprise/cross-tenant-sharepoint-migration).
 
 
-
 ## Automatic reruns
 
 When a run ends, an automatic rerun may occur if the conditions listed under each scenario are met.
 
 |Scenario|Conditions|
 |:-----|:-----|
-|The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns, because it wasn't the first time the task was scanned.|
-|More automatic reruns are still available|A task will be automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
+|The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled: If that task is scanned again, it won't trigger reruns, because it wasn't the first time the task was scanned.|
+|More automatic reruns are still available|A task is automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and three more attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
 |Last transaction status codes|An automatic rerun may occur if the last transaction ends with any of the following status codes: 201, 202, 210, 220, 211, 401, 403,404, 405, 406, or 491.|
 
 ## Canceling a transfer
