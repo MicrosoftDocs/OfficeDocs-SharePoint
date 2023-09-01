@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: Learn about unsupported file types in Migration Manager and how they affect your overall migration.
 ---
