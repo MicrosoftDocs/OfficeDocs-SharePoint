@@ -19,7 +19,7 @@ ms.collection:
 - m365initiative-migratetom365
 ms.custom:
 ms.assetid: 7f8e8ee7-c400-4530-a550-598c9bf33c44
-
+description: Learn about how the SharePoint assessment tool scans for issues in publishing pages.
 ---
 
 # Migration Assessment Scan: Publishing Pages
