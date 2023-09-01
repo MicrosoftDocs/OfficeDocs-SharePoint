@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: e847ee5e-342b-45a1-94c1-89244f81bef4
 description: "Learn how to fix issues with file versions during migration."
