@@ -15,6 +15,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to migrate OneNote folder using the SharePoint Migration Tool SPMT."
 ---
