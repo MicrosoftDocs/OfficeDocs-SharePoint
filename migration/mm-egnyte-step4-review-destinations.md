@@ -66,9 +66,9 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 |Type|Format|Example|
 |:-----|:-----|:-----|
-|SharePoint URL|https://<tenant>.sharepoint.com/sites/<site name>/<library name>/<optional folder name>|https://contoso.sharepoint.com/sites/sitecollection/Shared Documents </br>https://contoso.sharepoint.com/sites/sitecollection/Shared Documents/SubFolder|
+|SharePoint URL|https://<*tenant*>.sharepoint.com/sites/<*site name*>/<*library name*>/<*optional folder name*>|https://contoso.sharepoint.com/sites/sitecollection/Shared Documents </br>https://contoso.sharepoint.com/sites/sitecollection/Shared Documents/SubFolder|
 |OneDrive UPN|name@example.com|user@contoso.onmicrosoft.com|
-|OneDrive URL|https://<tenant name>-my.sharepoint.com/personal/<user principal name>/Documents/<optional folder name>|https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com/Documents </br>https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com/Documents/SubFolder |
+|OneDrive URL|https://<*tenant name*>-my.sharepoint.com/personal/<*user principal name*>/Documents/<*optional folder name*>|https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com/Documents </br>https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com/Documents/SubFolder |
 
 
 
