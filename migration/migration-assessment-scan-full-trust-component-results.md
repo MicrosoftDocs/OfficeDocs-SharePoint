@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: cb46c965-ad8b-4276-9f2c-5d684eb0f62a
 description: "Learn what to do about full trust solutions."
@@ -28,20 +29,20 @@ description: "Learn what to do about full trust solutions."
 
 ## Overview
 
-The full trust solution scans check your SharePoint environment for references to code that was deployed via farm level solution packages [WSP] files. SharePoint in Microsoft 365 does not support full trust solutions and as a result it will be necessary to understand where you are using this type of functionality and come up with a plan for migration to SharePoint.
+The full trust solution scans check your SharePoint environment for references to code that was deployed via farm level solution packages [WSP] files. SharePoint in Microsoft 365 doesn't support full trust solutions and as a result it is necessary to understand where you're using this type of functionality and come up with a plan for migration to SharePoint.
   
 ## Migrate data
 
-Content is migrated to SharePoint, however functionality tied to full trust code will not function post migration. You may see failures when leveraging some of the content that relies on the full trust code that is no longer available post migration.
+Content is migrated to SharePoint, however functionality tied to full trust code won't function post migration. You may see failures when using some of the content that relies on the full trust code that is no longer available post migration.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output.
   
 ## Prepare for migration
 
-Determine the various reasons full trust code was used in your on-premises environment. Build out a plan to replace the key business scenarios with SharePoint functionality. It may be necessary to build customizations or leverage add-ins to cover all scenarios.
+Determine the various reasons full trust code was used in your on-premises environment. Build out a plan to replace the key business scenarios with SharePoint functionality. It may be necessary to build customizations or use add-ins to cover all scenarios.
 
-If you find there is not an equivalent solution provided in SharePoint in Microsoft 365, you may want to look into customizing SharePoint by following the [Microsoft 365 patterns and practices documentation](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
+If you find there isn't an equivalent solution provided in SharePoint in Microsoft 365, you may want to look into customizing SharePoint by following the [Microsoft 365 patterns and practices documentation](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
   
 ## Post-migration
 
@@ -58,9 +59,9 @@ In the July 2017 update, the full trust components are split into two separate s
 
 - FullTrustSolution_Content scans for full trust code references in your content.
 
-The outputs for full trust solution scans are now focused on reporting areas of your environment that are leveraging functionality provided by farm level WSP files deployed to your farm. If there are orphaned full trust solution references in your content, this tool will not report that information. You could leverage the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase) PowerShell cmdlet that ships with SharePoint to look for those if they are of concern for your migration.
+The outputs for full trust solution scans are now focused on reporting areas of your environment that are using functionality provided by farm level WSP files deployed to your farm. If there are orphaned full trust solution references in your content, this tool won't report that information. You could use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase) PowerShell cmdlet that ships with SharePoint to look for those if they are of concern for your migration.
 
-It is important to understand both levels [Farm and Content] of full trust code to build a comprehensive plan to avoid disruptions to your business or delays in your migration project.
+It's important to understand both levels [Farm and Content] of full trust code to build a comprehensive plan to avoid disruptions to your business or delays in your migration project.
   
 FullTrustSolution_Farm generates the following reports:
   
@@ -72,7 +73,7 @@ FullTrustSolution_Farm generates the following reports:
 |Component|Description|Input File|Component Report|
 |---|---|---|---|
 |Content Types|Locations that custom content types are deployed.|ContentTypes.csv|FullTrustSolution_ContentTypes_Usage.csv|
-|Content Types using Custom Event Receivers|Content types that are using custom event receivers. For example, if you deployed a custom event receiver and attached it to an out of the box content type, this report will display that information.|EventReceivers.csv|FullTrustSolution_ContentTypesUsingEventReceivers_Usage.csv|
+|Content Types using Custom Event Receivers|Content types that are using custom event receivers. For example, if you deployed a custom event receiver and attached it to an out of the box content type, this report displays that information.|EventReceivers.csv|FullTrustSolution_ContentTypesUsingEventReceivers_Usage.csv|
 |Custom Fields|Lists and content types that are using custom fields or field definitions.|CustomFields.csv  <br/> FieldTypes.csv|FullTrustSolution_CustomFields_Usage.csv|
 |Event Receivers|Lists that are using custom event receivers.|EventReceivers.csv|FullTrustSolution_EventReceivers_Usage.csv|
 |Site Features|Sites that are using custom features.|Features.csv|FullTrustSolution_Features_Site_Usage.csv|
