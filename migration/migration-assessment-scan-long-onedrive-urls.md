@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a2828065-b060-4784-9a7d-4c214b4054b1
 description: "Learn how to fix issues with long OneDrive URLs during migration."

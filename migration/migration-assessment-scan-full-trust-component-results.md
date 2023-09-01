@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: cb46c965-ad8b-4276-9f2c-5d684eb0f62a
 description: "Learn what to do about full trust solutions."

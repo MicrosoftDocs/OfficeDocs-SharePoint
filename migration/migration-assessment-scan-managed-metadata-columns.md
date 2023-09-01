@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 787812c2-8742-40c3-bd74-c7df9846c0b0
 

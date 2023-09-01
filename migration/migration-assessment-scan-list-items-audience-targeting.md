@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 description: "Learn about list and list item audience data that won't migrate."
 ---

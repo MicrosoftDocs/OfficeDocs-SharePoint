@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 8c63518d-4977-4bea-a376-09ec71b7ff56
 description: "Learn how to mitigate issues with Secure Store during migration."

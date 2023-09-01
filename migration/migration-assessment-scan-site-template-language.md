@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ---
 
 # Migration Assessment Scan: Site Template Language

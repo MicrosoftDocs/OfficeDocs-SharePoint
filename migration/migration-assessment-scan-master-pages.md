@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 487c6ff4-d087-4743-a786-e6b86c2a1223
 description: "Learn how to mitigate issues with Master pages during migration."

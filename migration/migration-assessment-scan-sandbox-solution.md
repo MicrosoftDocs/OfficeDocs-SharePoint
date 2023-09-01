@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 411c5512-e99c-4010-8a25-113515851cd7
 description: "Learn how to mitigate issues with sandbox solutions during migration."

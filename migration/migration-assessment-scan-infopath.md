@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: ba57470a-7ef8-43ee-8ff6-8a428f6e55b9
 description: "Learn how to mitigate issues with InfoPath during migration."
