@@ -37,13 +37,13 @@ The following table provides a summary of the new features introduced in the Sha
 |  Column totals in modern list views  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
 |  Enhanced Quick Chart web part  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update. |
 |  Improved file picker  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
-|  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration enabled by default](/sharepoint/security-for-sharepoint-server/configure-amsi-integration). |
-|  AMSI health analyzer rule  |  Standard release  | For more information, see [AMSI health analyzer rule](/sharepoint/technical-reference/amsi-protection-may-not-be-working). |
-|  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](/sharepoint/administration/plan-for-people-picker). |
-|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](/sharepoint/search/add-edit-or-delete-a-content-source). |
-|  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support). |
-|  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](/sharepoint/administration/feature-release-rings). |
-|  Custom branding in the Suite Bar  |  Early release   |  For more information, see [Custom branding in the Suite Bar](/what-s-new/custom-branding-in-suite-bar). |
+|  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration enabled by default](#amsi-integration-enabled-by-default). |
+|  AMSI health analyzer rule  |  Standard release  | For more information, see [AMSI health analyzer rule](#amsi-health-analyzer-rule). |
+|  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](#people-picker-supports-ldaps-tls-connection-encryption). |
+|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
+|  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](#sharepoint-framework-spfx-component-upgrades). |
+|  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](#new-powershell-cmdlets-to-manage-feature-release-rings). |
+|  Custom branding in the Suite Bar  |  Early release   |  For more information, see [Custom branding in the Suite Bar](#custom-branding-in-the-suite-bar). |
 
 ## Detailed description of features
 
@@ -107,7 +107,7 @@ SharePoint Server Subscription Edition farms are in the Standard release ring by
 Microsoft now adds new PowerShell cmdlets to manage the feature release preference in the farm. Those cmdlets are:
 
 - Get-SPFeatureReleasePreference
-- Set-SPFeatureReleasePreference -FeatureReleaseRing {Early | Standard}
+- Set-SPFeatureReleasePreference-FeatureReleaseRing {Early | Standard}
 
 For more information, see [Feature release rings](/sharepoint/administration/feature-release-rings).
 
