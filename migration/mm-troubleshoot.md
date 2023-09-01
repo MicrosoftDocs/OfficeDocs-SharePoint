@@ -33,13 +33,13 @@ This article describes how to resolve issues and errors you may experience when 
 - [Agent installation failure](#agent-installation-failure)
 - [Agent disconnected](#agent-disconnected)
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
-- [Task report can't be downloaded](#task-report-cannot-be-downloaded)
+- [Task report can't be downloaded](#task-report-cant-be-downloaded)
 - [Migration errors in task reports](#migration-errors-in-task-reports)
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
 - [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs)
-- [The site collection "XXXX" can't be created or updated](#the-site-collection-xxxx-cannot-be-created-or-updated)
+- [The site collection "XXXX" can't be created or updated](#the-site-collection-xxxx-cant-be-created-or-updated)
 - [Scan task stuck in "queued" status](#scan-task-stuck-in-queued-status)
 
 
@@ -199,7 +199,7 @@ Or
 
 - The failure reasons should already be written in detail to the reports along with suggested solutions.
 
-- If you can't download the task reports, please refer to [Task Report Can't Be Downloaded](#task-report-cannot-be-downloaded)
+- If you can't download the task reports, please refer to [Task Report Can't Be Downloaded](#task-report-cant-be-downloaded)
 
 **Mitigation**:
 
