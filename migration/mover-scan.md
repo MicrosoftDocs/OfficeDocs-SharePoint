@@ -40,7 +40,7 @@ After you create and authorize your source and destination connectors using Move
 
 ## Scanning users
 
-A scan of the source tenant determines how many users, files, and how much data each user owns. The scan will also report any user that cannot be accessed on the source connector.
+A scan of the source tenant determines how many users, files, and how much data each user owns. The scan will also report any user that can't be accessed on the source connector.
 
 ### Source users
 
@@ -66,7 +66,7 @@ An icon appears and displays how many possible users are available for migrating
 
 ![Transfer destination](media/mover-transfer-wizard-destination-2.png)
 
-Now you'll create the migration.
+Now you create the migration.
 
 1. Select **Continue Migration Setup**.
 
@@ -172,15 +172,15 @@ The Pre-Scan Results file has four tabs:
 - Transfers with Long Path Issues
 - Long Path Reduction Suggestions
 
-Below we'll discuss how to populate the Pre-Scan Results tabs to provide all the necessary information from the Scan to your customers.
+Below we discuss how to populate the Pre-Scan Results tabs to provide all the necessary information from the Scan to your customers.
 
 #### Pre-Scan Results
 
-When you open the Pre-Scan Results Excel sheet, you'll see it's populated with the following columns/information.
+When you open the Pre-Scan Results Excel sheet, you see it's populated with the following columns/information.
 
 ![Scan report fails2](media/mover-prescan-excel.png)
 
-In order to populate these columns, we'll take the data from the ScanSummaryReport file that was generated in the zip file.
+In order to populate these columns, we take the data from the ScanSummaryReport file that was generated in the zip file.
 
 1. Open the ScanSummaryReport file and then copy the following columns into your Pre-Scan results sheet.
 
@@ -203,7 +203,7 @@ This brings the Failed scans to the top of the list and all other subsequent sca
 
 ![Scan report fails3](media/mover-excel-scan-fails.png)
 
-You'll notice that the Destination Path column is currently blank.  Currently the *ScanSummayReport* doesn't include the details of the Destination Path. This issue is currently being addressed and future iterations of the *ScanSummaryReport* include these details.
+You notice that the Destination Path column is currently blank.  Currently the *ScanSummayReport* doesn't include the details of the Destination Path. This issue is currently being addressed and future iterations of the *ScanSummaryReport* include these details.
 
 As you may recall earlier in the process we used Auto-Discover for mapping our Source and Destination users.  This allowed us to map the matching users between our Source and Destination connectors.  You can now use that information to populate the Destination Path column on the Pre-Scan Report.
 
@@ -224,14 +224,14 @@ Some other items of note for completing the Pre-Scan tab are as follows:
 |Issue|Action|
 |---|---|
 |Failed scans|Download and review the Migration Error Report. The most common reasons for failed users are either  "can't be found" or  "account has been deactivated". Copy the error messages those against the corresponding Failed Users in the Notes column on the Pre-Scan Results.|
-|Users with greater than 400,000 files|For any of these users, add a comment of "Large file/data owner" in the notes column. Any user with such a large amount of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
-|Users with greater than 5 TB of data|For any of these users, add a comment of "Large file/data owner" in the notes column. Any user with such a large amount of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
+|Users with greater than 400,000 files|For any of these users, add a comment of "Large file/data owner" in the notes column. Any user with such a large number of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
+|Users with greater than 5 TB of data|For any of these users, add a comment of "Large file/data owner" in the notes column. Any user with such a large number of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
 |Users who own 0 files|For any of these users, add a comment of "Users owns 0 files/data" in the notes column. Users who own 0 files can usually be excluded from the main migration as it adds extra time and resources to a migration, especially if there are 100s or 1000s of 0 files/data transfers.|
-|Migrate (Y/N)|This column is for the customer to mark who they would like to include in the migration. This does not have to specifically be Y or N as you may be migrating some users in pilot test for the migration vs the main migration.|
+|Migrate (Y/N)|This column is for the customer to mark who they would like to include in the migration. This doesn't have to specifically be Y or N as you may be migrating some users in pilot test for the migration vs the main migration.|
 
 Establish a naming convention for who to migrate, such as shown here:
 
-Here is an example of how the comments should look in the Pre-Scan results tab:
+Here's an example of how the comments should look in the Pre-Scan results tab:
 
 ![Scan comments](media/mover-excel-scan-comments.png)
 
