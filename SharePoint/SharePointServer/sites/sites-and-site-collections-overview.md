@@ -1,7 +1,7 @@
 ---
-ms.date: 03/13/2018
+ms.date: 09/04/2023
 title: "Overview of sites and site collections in SharePoint Server"
-ms.reviewer:
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
