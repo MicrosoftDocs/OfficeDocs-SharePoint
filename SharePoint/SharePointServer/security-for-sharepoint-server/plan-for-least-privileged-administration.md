@@ -1,4 +1,4 @@
----
+--- 
 title: "Plan for least-privileged administration in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
