@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a10f6067-5cbe-4eb4-82f8-d57be628a3f6
 description: "Learn how to mitigate issues with Large Lists during migration."

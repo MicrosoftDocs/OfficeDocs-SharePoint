@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: ee79a293-16a1-4483-8687-6e23d7d3e481
 description: "Learn how to mitigate issues with Large sites during migration."
@@ -34,7 +35,7 @@ This assessment lets site owners validate site size and makes them aware of larg
   
 ## Data Migration
 
-It is more difficult to predict a migration schedule and delivery of the migration for sites over 500GB.
+It's more difficult to predict a migration schedule and delivery of the migration for sites over 500 GB.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -49,7 +50,7 @@ Not applicable.
   
 ## Scan Result Reports
 
- **LargeSites-detail.csv** This scan report provides a list of all the site collections that are over 500GB in size. 
+ **LargeSites-detail.csv** This scan report provides a list of all the site collections that are over 500 GB in size. 
   
 |**Column**|**Description**|
 |:-----|:-----|
@@ -64,8 +65,8 @@ Not applicable.
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |SizeInGB  <br/> |Size of the impacted site collection.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
