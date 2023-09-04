@@ -29,7 +29,7 @@ This article describes the "Custom branding in Suite Navigation Bar" feature, wh
 
 The SharePoint Server modern UX provides a powerful yet intuitive user interface that scales from desktop to mobile devices. However, the architecture of the modern UX limited the opportunities for organizations to apply custom branding to the Suite Navigation Bar, which is the global navigation bar that provides access to the App Launcher, contextual settings menu, and user welcome control in SharePoint sites.
 
-SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators will be able to specify and make updates the following attributes of the Suite Navigation Bar: 
+SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators can specify and update the following attributes of the Suite Navigation Bar: 
 
 - **SuiteNavAllowOverwrite**: Determines whether the Suite Navigation Bar settings of the web application can be overridden at the site-collection level. The default value is **false**, meaning any attempt to customize the Suite Navigation Bar at the site collection-level will be ignored. When this attribute's value is set to **true**, the web application-level Suite Navigation Bar settings apply to all site collections, except those collections to which explicit customizations have been made.
 
