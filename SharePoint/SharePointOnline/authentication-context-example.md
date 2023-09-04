@@ -1,5 +1,5 @@
 ---
-ms.date: 03/01/2023
+ms.date: 08/30/2023
 title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
 ms.author: mactra
@@ -14,9 +14,10 @@ ms.custom:
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 - MET150
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."

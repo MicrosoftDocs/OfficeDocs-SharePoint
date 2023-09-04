@@ -1,5 +1,5 @@
 ---
-ms.date: 08/17/2023
+ms.date: 08/30/2023
 title: "Scan Google Sheet spreadsheets with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -18,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migrate Google Sheet spreadsheets with Migration Manager.
@@ -26,6 +27,10 @@ description: Migrate Google Sheet spreadsheets with Migration Manager.
 
 >[!Note]
 >The "sheet scan" feature mentioned in this article is currently in **private preview** and not generally available.
+
+>[!Important]
+>Due to the limitations of the Google API quota, Sheet Scan operates with a restricted scope on each sheet file. Specifically, the sheet scan examines only the top 1,000 cells or the first 100 errors identified, whichever condition is met first, then the scan process for that sheet file will conclude.
+
 
 A sheet scan is a scanning feature that exposes issues such as incompatible formulas and invalid embedded links in Google Sheets when exported and transferred to Microsoft Excel files. Migration Manager generates sheet reports listing issues discovered in the sheet scan process.
 The sheet scan is turned off by default. Once you enable it in project settings, it's automatically run as part of the general scan process.

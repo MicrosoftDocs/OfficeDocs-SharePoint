@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: fce14caf-dc41-485d-91c6-4d533c8d1097
 description: "Learn how to mitigate issues with IRM enabled lists during migration."
