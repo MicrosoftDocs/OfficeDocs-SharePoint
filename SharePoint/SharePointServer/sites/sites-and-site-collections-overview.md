@@ -50,8 +50,8 @@ You create a site collection to host sites that have something in common. For ex
 
 SharePoint Server supports two types of site collections:
 
-- host-named site collections
 - path-based site collections
+- host-named site collections
 
 In path-based site collection, all the subsites in the site collection share a root or parent URL (DNS name). For example, Team A could have a site collection at http<!-- nolink -->://contoso.com/sites/teamA, and Team B would have a site collection at http<!-- nolink -->://contoso/sites/teamB. All sites in either site collection would have the http<!-- nolink -->://contoso.com/sites/teamA or /teamB root. The only way to have a different URL root is to create a different web application.
 
