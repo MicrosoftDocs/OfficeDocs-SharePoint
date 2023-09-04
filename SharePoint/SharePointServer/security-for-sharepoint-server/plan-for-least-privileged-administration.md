@@ -1,4 +1,5 @@
 --- 
+
 title: "Plan for least-privileged administration in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
@@ -16,6 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: ef4c6a39-24f8-469e-9b14-0abfadaa6c8b
 description: "Learn about how to use least-privileged administration to configure and maintain a SharePoint Server farm and enhance security."
+
 ---
 
 # Plan for least-privileged administration in SharePoint Server
