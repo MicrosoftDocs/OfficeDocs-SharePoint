@@ -44,10 +44,10 @@ In a SharePoint Server environment, several accounts may be granted the followin
   
 - **Dbcreator** - Members of the dbcreator fixed server role can create, alter, drop, and restore any database. 
     
-- **Securityadmin** - Members of the securityadmin fixed server role manage logins and their properties. They can GRANT, DENY, and REVOKE server-level permissions. They can also GRANT, DENY, and REVOKE database-level permissions if they have access to a database. Additionally, they can reset passwords for SQL Server logins. 
+- **Securityadmin** - Members of the securityadmin fixed server role manage logins and their properties. They can GRANT, DENY, and REVOKE server-level permissions. They can also GRANT, DENY, and REVOKE database-level permissions if they have access to a database. Additionally, they can reset passwords for SQL Server logins.
     
 > [!NOTE]
-> The ability to grant access to the database engine and to configure user permissions allows the securityadmin to assign most server permissions. You should treat the securityadmin role as equal to the sysadmin role. 
+> The ability to grant access to the database engine and to configure user permissions allows the securityadmin to assign most server permissions. You should treat the securityadmin role as equal to the sysadmin role.
   
 For additional information about SQL Server server-level roles, see [Server Level Roles](/sql/relational-databases/security/authentication-access/server-level-roles).
   
@@ -148,7 +148,12 @@ The following features may experience additional symptoms under certain circumst
 In addition to the previous considerations, you might have to consider more operations. The following list is incomplete. Selectively use the items at your own discretion:
   
 - **Setup user account** - This account is used to set up each server in a farm. The account must be a member of the Administrators group on each server in the SharePoint Server farm. For additional information about this account, see [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
-    
+
+  When you build a new SharePoint farm and the based build has October 2022 CU or a new slipstreamed into the build process, you are using the least privileged security model. After completing the *psconfig* on the first server in the farm, prior to running the Farm configuration wizard or provisioning additional components, the following commands must be executed to ensure that permissions are granted to the SharePoint Databases:
+  ```powershell
+  Get-SPDatabase | %{$_.GrantOwnerAccessToDatabaseAccount()}
+  ```
+  
 - **Synchronization account** - For SharePoint Server Server, this account is used to connect to the directory service. We recommend that you do not limit the default permissions granted to the account under which this service runs and that you never disable this account. Instead, use a secure user account, for which the password is not widely known, and leave the service running. This account also requires Replicate Directory Changes permission on AD DS which enables the account to read AD DS objects and to discover AD DS objects that were changed in the domain. The Grant Replicate Directory Changes permission does not enable an account to create, change or delete AD DS objects. 
     
 - **My Site host application pool account** - This is the account under which the My Site application pool runs. To configure this account, you must be a member of the Farm Administrators group. You can limit privileges to this account. 
