@@ -2,6 +2,17 @@
 
 
 
+## Week of August 28, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/29/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 9/1/2023 | [Export sites, lists, or document libraries in SharePoint Server](/SharePoint/administration/export-a-site-list-or-document-library) | modified |
+| 9/1/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
+| 9/1/2023 | [Install SharePoint Servers 2016 or 2019 on one server](/SharePoint/install/install-sharepoint-server-2016-on-one-server) | modified |
+
+
 ## Week of August 21, 2023
 
 
@@ -43,14 +54,3 @@
 | 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
 | 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
 | 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |
-
-
-## Week of July 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/24/2023 | Formatting changes for Microsoft Viva Amplify - Private preview | removed |
-| 7/24/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
-| 7/25/2023 | [IP support in SharePoint Server](/SharePoint/install/ip-support) | modified |
-| 7/28/2023 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
