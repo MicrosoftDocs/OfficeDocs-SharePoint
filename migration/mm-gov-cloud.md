@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Explanation of Government Cloud configuration settings when using Migration Manager for file share migrations." 
 ---
 # Government cloud settings for Migration Manager 

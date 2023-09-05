@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: Migration Manager Egnyte FAQs
 ---

@@ -11,8 +11,7 @@ ms.service: sharepoint-online
 ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
-- SPMigration
-- M365-collaboration
+- SPMigrationm365initiative-migratetom365
 search.appverid: MET150
 description: "Mover Migration Manager"
 ---

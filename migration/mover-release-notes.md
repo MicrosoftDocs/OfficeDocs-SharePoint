@@ -13,6 +13,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Mover Release Notes"
 ---
@@ -190,11 +191,11 @@ This release fixes these customer issues:
 
 ## Backend v1.19.8 (September 9, 2020)
 
-- Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
+- Enforce that authorizing user is Office 365 Global Admin or SharePoint Admin when authorizing a connector
 
 ## Backend v1.19.7 (September 1, 2020)
 
-- Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
+- Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers need to update the Agent to version v1.3.4.0.
 - Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
 
   - .files
@@ -246,7 +247,7 @@ This release fixes these customer issues:
 
 - You won't see Google prescan warnings when connecting to a G Suite source connector in the Transfer Wizard.
 
-- All nonsuccess notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
+- All nonsuccess notifications stay open for the user to read. Success notifications will automatically close after 5 seconds.
 
 ## Backend v1.19.3 (August 6, 2020)
 
@@ -309,16 +310,16 @@ Exciting new features for migrations out of G Suite and Box.
 ## Frontend & Backend v1.18.0 (June 25, 2020)
 
 - Error reporting improvements
-  - During a migration into Office 365, we would skip processing of source files over 15 GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100 GB files now, migration of files over 15 GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15 GB. Support for 100 GB files will be announced once they're fully supported for migrations into Office 365.
+  - During a migration into Office 365, we would skip processing of source files over 15 GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100 GB files now, migration of files over 15 GB isn't yet supported. So we have reverted back to the previous approach of skipping files larger than 15 GB. Support for 100 GB files will be announced once they're fully supported for migrations into Office 365.
   - When running a migration from a nonexistent source directory, the transfer would fail appropriately and the user log would have a yellow row in it. However, this row in the user log would sometimes contain no error message. This has been fixed so that a proper error message is included detailing that the source directory doesn't exist.
   - During a migration into Office 365, while a file may be uploaded properly, its batch may fail to be submitted for processing. In these cases, the UI would show the file as failed, but the user log wouldn't contain any entries showing that the file failed. This has been fixed by ensuring that there always exists a user log entry per file when a migration job (batch) within a transfer fails to submit.
-  - In the Migration Manager table, if there are skips because the file is unsupported on the source or destination, or if we are not allowed to download the file, then it will now show up as a failure and not as a regular incremental skip. Transactions that were mostly successful but only had these unsupported file issues, will end with status code 227 "Some files are unsupported" and the row will appear yellow in the Migration Manager.
+  - In the Migration Manager table, if there are skips because the file is unsupported on the source or destination, or if we aren't allowed to download the file, then it will now show up as a failure and not as a regular incremental skip. Transactions that were mostly successful but only had these unsupported file issues, will end with status code 227 "Some files are unsupported" and the row will appear yellow in the Migration Manager.
 - New features
   - On the Account Page, in the Admin Panel, a user is now able to add managers to their account in bulk. The user can enter a list of comma-separated email addresses to be added as account managers.
 
 ## Frontend v1.16.2 (June 12, 2020)
 
-- The Migration Manager table now includes an "information" icon in each row to make it more intuitive for users to know that additional information on the row can be viewed by clicking on that icon. This action will open the Transfer Summary side panel.
+- The Migration Manager table now includes an "information" icon in each row to make it more intuitive for users to know that additional information on the row can be viewed by clicking on that icon. This action opens the Transfer Summary side panel.
 - In the Migration Manager, when opening the Transfer Summary side panel for a given entry in the table, the Transfer Logs table within the side panel would empty itself about 10 seconds after its initial load. This has been fixed now and the Transfer Logs table should remain visible and will be updated with new data as it becomes available.
 - Fixing a Migration Manager screen issue. When the user no longer has the mouse focus on the side panel, the panel closes.
 - Fixing the incorrect display of "Connectors don't exist anymore!" when in fact the connectors do exist.
@@ -336,10 +337,10 @@ This frontend release focuses on improving accessibility to our application for 
 
 - The option to create a (legacy) Mover account has been removed from the UI. That is, users will now be required to use the "Sign In with Microsoft Account" feature instead. In the future, legacy Mover accounts won't be supported anymore.
 - Improved accessibility in the app for keyboard and screen reader users.
-  - Keyboard users will be able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They'll be able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus that allow them to select which columns to display on the table and in what order. In addition to this, screen reader users get better prompts when interacting with the Migration Actions dropdown menu.
-  - Keyboard users will now be able to navigate the Migration Manager table. They are able to sort the table, open the Transfer Summary side panel for rows, and apply tag filters. Screen reader users have a much improved experience when interacting with the table, including proper ARIA labels and descriptions for actions they can take on elements on the table.
+  - Keyboard users are able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They are able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus that allow them to select which columns to display on the table and in what order. In addition to this, screen reader users get better prompts when interacting with the Migration Actions dropdown menu.
+  - Keyboard users will now be able to navigate the Migration Manager table. They're able to sort the table, open the Transfer Summary side panel for rows, and apply tag filters. Screen reader users have a much improved experience when interacting with the table, including proper ARIA labels and descriptions for actions they can take on elements on the table.
   - In the Transfer Wizard, when selecting Authorize New Connector (either source or destination), the Connector Type Picker is now accessible using the keyboard. The Authorize buttons on each connector type now have enhanced ARIA labels that will better inform screen-reader users what the button does.
-  - In the Transfer Wizard screen, the connector picker (both source and destination) would show some connector types or connector names truncated on some screen sizes. Tool tips have been added on these items so now users will be able to view the names in full and not just the truncated version.
+  - In the Transfer Wizard screen, the connector picker (both source and destination) would show some connector types or connector names truncated on some screen sizes. Tool tips have been added on these items so now users are able to view the names in full and not just the truncated version.
   - In the Transfer Wizard screen, the Manage/Connect drop down has been improved so the Narrator says the proper text for the correct  button.
   - In the Migration Manager screen, the helper tool tip for Filters will now be automatically be shown when focusing into the "information" icon, which is now accessible by tabbing into it.
   - End users are able to navigate into and out of the File Picker both in the Transfer Wizard (when connecting to a single user connector) and in the Migration Manager (when editing source or destination on a specific schedule).
@@ -365,7 +366,7 @@ Backend release with stability improvements. There are no customer facing change
 Backend release improving experience to some of our users.
 
 - The Migration Manager table gets populated a bit faster for the average migration, while large migrations (1000s of users) will see a considerable speed improvement.
-- In the Migration Manager overview, some migrations with many users that have been scanned/migrated a large number o times would sometimes fail to populate the table. This has been fixed by optimizing how migrations get populated in order to increase performance.
+- In the Migration Manager overview, some migrations with many users that have been scanned/migrated a large number of times would sometimes fail to populate the table. This has been fixed by optimizing how migrations get populated in order to increase performance.
 
 ## Frontend v1.15.4 (May 13, 2020)
 
@@ -436,29 +437,29 @@ A backend release that includes customer fixes, expanding support for Dropbox an
 
 Backend release to address handling of Dropbox Team folders. This is a work in progress to catch up with the latest features related to Team Folders, but it fixes urgent issues to unblock customers.
 
-- Fixed handling of Dropbox Team Folders and unique permissions within subfolders. Team Folders will be listed on the root of the Dropbox (Admin) connector, as well as under each user that has access to them. However, to prevent data duplication, Team Folders will NOT be transferred if they are listed under a user. Team Folders are only transferred when traversing them directly from the root of the Dropbox (Admin) connector. Also, permissions for Team Folders and its subfolders are properly exported now, including restrictive permissions.
+- Fixed handling of Dropbox Team Folders and unique permissions within subfolders. Team Folders are listed on the root of the Dropbox (Admin) connector, and under each user that has access to them. However, to prevent data duplication, Team Folders will NOT be transferred if they're listed under a user. Team Folders are only transferred when traversing them directly from the root of the Dropbox (Admin) connector. Also, permissions for Team Folders and its subfolders are properly exported now, including restrictive permissions.
 
 ## Backend v1.15.3 (April 8, 2020)
 
 Small but critical backend release for migrations out of G Suite (Admin). Read the impact statement carefully.
 
-- Fixes a specific case in migrations from G Suite (Admin) that would end up in data duplication. The case relates to folders in an "owner" root that were shared with other users ("guest") and "guest" mounted the folder not in their root folder but somewhere deeper in their tree. In this case, the transfer would not obey the user priority list resulting in the folder being transferred for both "owner" and "guest". This regression was introduced on March 1, 2019 and is fixed now. Full impact is still being assessed. There is no need to rerun Google Prescans for affected migrations; instead, rerunning the transfers will now skip the folder in question appropriately. Remediation for affected customers is to manually removed the duplicated data (upon identification).
+- Fixes a specific case in migrations from G Suite (Admin) that would end up in data duplication. The case relates to folders in an "owner" root that were shared with other users ("guest") and "guest" mounted the folder not in their root folder but somewhere deeper in their tree. In this case, the transfer wouldn't obey the user priority list resulting in the folder being transferred for both "owner" and "guest". This regression was introduced on March 1, 2019 and is fixed now. Full impact is still being assessed. There's no need to rerun Google Prescans for affected migrations; instead, rerunning the transfers will now skip the folder in question appropriately. Remediation for affected customers is to manually remove the duplicated data (upon identification).
 
 ## Backend v1.15.1 (April 2, 2020)
 
 A backend release that includes bug fix and stability improvements.
 
-- Users creating a new Mover account using the Sign in with Microsoft account feature will have appropriate access to running all types of transfers (some transfers appeared as not allowed to some new users).
+- Users creating a new Mover account using the Sign in with Microsoft account feature has appropriate access to running all types of transfers (some transfers appeared as not allowed to some new users).
 
 ## Backend & Frontend v1.15.0 (April 1, 2020)
 
-- A new "Support" link will be displayed in the top navigation bar in the app. This link will point users to the new support system. The intercom widget will be disabled in the application.
-- Brand new users and current users with a Microsoft account will be able to sign into the Mover app with their Microsoft account. This includes work/school and personal accounts. Existing Mover accounts will continue to be supported.
+- A new "Support" link is displayed in the top navigation bar in the app. This link points users to the new support system. The intercom widget is disabled in the application.
+- Brand new users and current users with a Microsoft account will be able to sign into the Mover app with their Microsoft account. This includes work/school and personal accounts. Existing Mover accounts continue to be supported.
 
 ## Backend v1.14.1.1 (March 31, 2020)
 
 - Fixed an issue with very old migrations with permission mappings that would prevent the app from loading. Support for these old migrations has been fixed.
-- For transfers that convert Box Notes to Word Documents only. Box notes images that are not supported by Word Docx will now be converted to a format acceptable by Word Docx and will be displayed properly in the document.
+- For transfers that convert Box Notes to Word Documents only. Box notes images that aren't supported by Word Docx will now be converted to a format acceptable by Word Docx and will be displayed properly in the document.
 - When the Mover app is loaded, the Migration Manager will default to the latest Migration instead of oldest Migration (this was a regression from a previous release).
 - This adds an extra column for schedule tags in all migration and scan reports that aggregate by user/schedule.
 
@@ -467,8 +468,8 @@ A backend release that includes bug fix and stability improvements.
 A combined backend/frontend deploy with some fixes to reports and disabling the Intercom widget.
 
 - Accurate stats for files and bytes (success, failure, skipped, unsupported) will be displayed in the Migration Report. There will be no discrepancy for the stats shown in the report versus what's displayed in the Migration Manager UI.
-- The Migration Manager UI will not be stuck for users that have migrations with very large permission mappings. Instead, the app will load permission mappings as needed (when editing them). If a migration has an excessively large permission mapping, the app will not display the editor. Instead, the user will be able to download the permission mapping as CSV, edit and then re-upload the CSV.
-- The intercom widget will be disabled in the application.
+- The Migration Manager UI won't be stuck for users that have migrations with large permission mappings. Instead, the app loads permission mappings as needed (when editing them). If a migration has an excessively large permission mapping, the app won't display the editor. Instead, the user will be able to download the permission mapping as CSV, edit and then re-upload the CSV.
+- The intercom widget is disabled in the application.
 
 ## Backend v1.13.10 (March 24, 2020)
 
@@ -494,5 +495,5 @@ Backend release with changes to help us determine the root cause for customer is
 
 ## Backend v1.13.4 (March 9, 2020)
 
-- User will see improved speeds both when initially loading the schedules table in the Migration Manager, and when refreshing the data in it. The table should load in under 60 seconds now for huge migrations (100K+ schedules with multiple runs per schedule). Most importantly, users should not see the table failing to load in the UI due to size (may fail due to other normal issues like network problems). Average migrations will load instantaneously. Ultimate goal is to improve UX so that the table would load instantaneously for migrations of all sizes.
+- User sees improved speeds both when initially loading the schedules table in the Migration Manager, and when refreshing the data in it. The table should load in under 60 seconds now for huge migrations (100K+ schedules with multiple runs per schedule). Most importantly, users shouldn't see the table failing to load in the UI due to size (may fail due to other normal issues like network problems). Average migrations will load instantaneously. Ultimate goal is to improve UX so that the table would load instantaneously for migrations of all sizes.
 
