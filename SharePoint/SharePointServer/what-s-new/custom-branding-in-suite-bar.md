@@ -49,27 +49,20 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
 
 ### Example 1
 
-1. Set **IsTAPCustomer farm-level** property to **1**.
-
-   ```$farm = Get-SPFarm
-      $farm.Properties["IsTAPCustomer"] = "1"
-      $farm.Update()
-   ```
-
-2. Set the feature release preference for the farm to **early** by running the following command:
+1. Set the feature release preference for the farm to **early** by running the following command:
 
    `Set-SPFeatureReleasePreference -FeatureReleaseRing Early`
 
-3. Run the SharePoint Configuration Wizard to ensure the two changes (implemented in Steps 1 and 2) are applied.
+2. Run the SharePoint Configuration Wizard to ensure the two changes (implemented in Steps 1 and 2) are applied.
 
-4. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web app-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
+3. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
 
    ```$webapp = Get-SPWebApplication http://spwfe
       $webapp.SuiteNavAllowCustom = $true
       $webapp.Update()
    ```
 
-5. Set all the options, as shown in the following command-syntax example:
+4. Set all the options, as shown in the following command-syntax example:
 
    ```$webapp.SuiteNavBrandingText = "Suite Bar Branding"
       $webapp.SuiteNavBrandingLogoUrl = "http://spwfe/Photos/IMG_5004-1-scaled.jpg"
@@ -98,7 +91,7 @@ The site page after applying the custom branding feature is as shown in the foll
       $webapp.Update()
    ```
 
-2. Set all the options by running the following command-syntax:\
+2. Set all the options by running the following command-syntax:
 
    ```$webapp.SuiteNavBrandingText = "Contoso Bass Adventures" 
       $webapp.SuiteNavBrandingLogoUrl = "http://spwfe/Photos/bass-illustration.svg" 
@@ -111,7 +104,4 @@ The site page after applying the custom branding feature is as shown in the foll
    ```
 
    :::image type="content" source="../media/applying-custom-branding.png" alt-text="Screenshot that shows the site page after the custom branding feature has been applied." lightbox="../media/applying-custom-branding.png":::
-
-
-
 
