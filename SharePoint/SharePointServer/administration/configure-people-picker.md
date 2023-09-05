@@ -38,7 +38,7 @@ Ensure that the following requirements are met before configuring People Picker:
 - In the command prompt on the driver where SharePoint Server is installed, change to the following directory: `%COMMONPROGRAMFILES%\\Microsoft shared\\Web Server Extensions\\x\\Bin`.
 
    >[!NOTE]
-   > Replace the number mapping value, that is "x" in the directory based on the version of SharePoint you are using. The following are the SharePoint versions and their respective number mapping values:
+   > Replace the number mapping value, that is "x" in the directory based on the version of SharePoint you have installed. The following are the SharePoint versions and their respective number mapping values:
    >
    > - SharePoint 2010: **14**
    > - SharePoint 2013: **15**
