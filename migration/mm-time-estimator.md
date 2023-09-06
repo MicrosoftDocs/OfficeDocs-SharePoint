@@ -1,6 +1,6 @@
 ---
 title: "Migration time estimator tool in Migration Manager"
-ms.date: 08/31/2023
+ms.date: 09/06/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
