@@ -107,7 +107,7 @@ SharePoint Server Subscription Edition farms are in the Standard release ring by
 Microsoft now adds new PowerShell cmdlets to manage the feature release preference in the farm. Those cmdlets are:
 
 - Get-SPFeatureReleasePreference
-- Set-SPFeatureReleasePreference - FeatureReleaseRing {Early | Standard}
+- Set-SPFeatureReleasePreference -FeatureReleaseRing {Early | Standard}
 
 For more information, see [Feature release rings](/sharepoint/administration/feature-release-rings).
 
