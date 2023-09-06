@@ -1,5 +1,5 @@
 ---
-ms.date: 08/24/2023
+ms.date: 09/06/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
