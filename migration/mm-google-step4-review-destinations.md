@@ -1,5 +1,5 @@
 ---
-ms.date: 08/07/2023
+ms.date: 09/06/2023
 title: "Review the destination paths for your Google migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -43,7 +43,7 @@ If a destination is missing on a single user, highlight the row and update the v
 
 ## Upload destinations using a CSV file
 
-If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. The template lists all migration tasks that have never been run, and you can add to or modify the last column “Destination path”. Then save your file as a .csv file using any name you wish. 
+If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. The template lists all migration tasks that have never been run, and you can add to or modify the “destination path” column. Then save your file as a .csv file using any name you wish. 
 
 
 ![upload destinations for Google accounts bulk](media/mm-google-bulk-upload-destination-panel.png)
@@ -57,7 +57,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 4. Select **Save**.  
 
 >[!Important]
->Rows with vacant a “destination path” will be skipped in the validation process.  
+>Rows with vacant destination paths will be skipped in the validation process.  
 
 
 ### Destination path format
