@@ -1,5 +1,5 @@
 ---
-ms.date: 08/29/2023
+ms.date: 09/06/2023
 title: "New and improved features in SharePoint Server Subscription Edition Version 23H2"
 ms.reviewer: 
 ms.author: serdars
@@ -19,7 +19,7 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 23H2."
 ---
 
-# New and improved features in SharePoint Server Subscription Edition 23H2
+# New and improved features in SharePoint Server Subscription Edition Version 23H2
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
@@ -31,19 +31,19 @@ The following table provides a summary of the new features introduced in the Sha
 
 |**Feature**|**Release ring**|**More information**|
 |:-----|:-----|:-----|
-|  Private key management in certificate management  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
-|  Support for wildcard host header bindings  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update. |
-|  Expanded usage of modern sharing dialog  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update. |
-|  Column totals in modern list views  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
-|  Enhanced Quick Chart web part  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update. |
-|  Improved file picker  |  Standard release  |  Early release feature in 23H1 feature update. Promoted to Standard release in 23H2 feature update.   |
-|  AMSI integration enabled by default  |  Standard release  | For more information, see [AMSI integration enabled by default](#amsi-integration-enabled-by-default). |
-|  AMSI health analyzer rule  |  Standard release  | For more information, see [AMSI health analyzer rule](#amsi-health-analyzer-rule). |
-|  People Picker supports LDAPS (TLS connection encryption)  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](#people-picker-supports-ldaps-tls-connection-encryption). |
-|  Search crawler uses HTTP 1.1 by default  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
-|  SharePoint Framework (SPFx) component upgrades  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](#sharepoint-framework-spfx-component-upgrades). |
-|  New PowerShell cmdlets to manage feature release rings |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](#new-powershell-cmdlets-to-manage-feature-release-rings). |
-|  Custom branding in the Suite Bar  |  Early release   |  For more information, see [Custom branding in the Suite Bar](#custom-branding-in-the-suite-bar). |
+|  **Private key management in certificate management**  |  Standard release  |  For more information, see [Private key management in certificate management](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#private-key-management-in-certificate-management). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update.   |
+|  **Support for wildcard host header bindings**  |  Standard release  | For more information, see [Support for wildcard host header bindings](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#support-for-wildcard-host-header-bindings). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update. |
+|  **Expanded usage of modern sharing dialog**  |  Standard release  | For more information, see [Expanded usage of modern sharing dialog](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#expanded-usage-of-modern-sharing-dialog). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update. |
+|  **Column totals in modern list views**  |  Standard release  | For more information, see [Column totals in modern list views](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#column-totals-in-modern-list-views). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update.   |
+|  **Enhanced Quick Chart web part**  |  Standard release  | For more information, see [Enhanced Quick Chart web part](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#enhanced-quick-chart-web-part). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update. |
+|  **Improved file picker**  |  Standard release  | For more information, see [Improved file picker](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release#improved-file-picker). <br/> <br/> This was part of *Early release* in the Version 23H1 feature update.   |
+|  **AMSI integration enabled by default**  |  Standard release  | For more information, see [AMSI integration enabled by default](#amsi-integration-enabled-by-default). |
+|  **AMSI health analyzer rule**  |  Standard release  | For more information, see [AMSI health analyzer rule](#amsi-health-analyzer-rule). |
+|  **People Picker supports LDAPS (TLS connection encryption)**  |  Standard release  |  For more information, see [People Picker supports LDAPS (TLS connection encryption)](#people-picker-supports-ldaps-tls-connection-encryption). |
+|  **Search crawler uses HTTP 1.1 by default**  |  Standard release  | For more information, see [Search crawler uses HTTP 1.1 by default](#search-crawler-uses-http-11-by-default). |
+|  **SharePoint Framework (SPFx) component upgrades**  |  Standard release  |  For more information, see  [SharePoint Framework (SPFx) component upgrades](#sharepoint-framework-spfx-component-upgrades). |
+|  **New PowerShell cmdlets to manage feature release rings** |  Standard release  |  For more information, see [New PowerShell cmdlets to manage feature release rings](#new-powershell-cmdlets-to-manage-feature-release-rings). |
+|  **Custom branding in the Suite Bar**  |  Early release   |  For more information, see [Custom branding in the Suite Bar](#custom-branding-in-the-suite-bar). |
 
 ## Detailed description of features
 
@@ -60,13 +60,13 @@ Although the AMSI integration feature was first introduced in SharePoint Server 
 
 To help prevent successful security attacks and improve the overall security of customer environments, AMSI integration will be enabled by default for all web applications starting with the Version 23H2 feature update. Customers only need to install the update and run the SharePoint Productions Configuration Wizard to trigger the upgrade action. If customers skip installing the September 2023 Public Update, this change will be triggered by the next public update they install that contains the Version 23H2 feature update.
 
-If customers don't want AMSI integration to be enabled in their SharePoint Server farms, they can install the Version 23H1 feature update, run the SharePoint Products Configuration Wizard, and then follow the standard steps to disable the feature in their web applications. If you follow these steps, SharePoint won't attempt to re-enable the feature when installing future public updates.
+If customers don't want AMSI integration to be enabled in their SharePoint Server farms, they can install the Version 23H2 feature update, run the SharePoint Products Configuration Wizard, and then follow the standard steps to disable the feature in their web applications. If you follow these steps, SharePoint won't attempt to re-enable the feature when installing future public updates.
 
 For more information, see [Configure AMSI integration with SharePoint Server](/sharepoint/security-for-sharepoint-server/configure-amsi-integration).
 
 ### AMSI health analyzer rule
 
-SharePoint Server Subscription Edition Version 22H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
+SharePoint Server Subscription Edition Version 23H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
 
 Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don’t result in a successful status code (meaning AMSI didn’t successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
 
@@ -84,7 +84,7 @@ For more information, see [Plan for People Picker in SharePoint](/sharepoint/adm
 
 ### Search crawler uses HTTP 1.1 by default
 
-Previously, a SharePoint Search Service Application would crawl `HTTP` or `HTTPS`-base content sources using the `HTTP` 1.0 protocol. Although this is a valid version of the `HTTP` protocol, some network and security infrastructure may choose to block requests that use this protocol version.
+Previously, a SharePoint Search Service Application would crawl `HTTP` or `HTTPS`-based content sources using the `HTTP` 1.0 protocol. Although this is a valid version of the `HTTP` protocol, some network and security infrastructure may choose to block requests that use this protocol version.
 
 To ensure better compatibility with modern network and security infrastructure, SharePoint Search Service Applications will now crawl `HTTP` and `HTTPS`-based content sources using the `HTTP` 1.1 protocol by default. `HTTP` 1.1 is a well-supported protocol across the ecosystem and we don't anticipate any negative impact as a result of this change in our default behavior.
 
@@ -107,7 +107,7 @@ SharePoint Server Subscription Edition farms are in the Standard release ring by
 Microsoft now adds new PowerShell cmdlets to manage the feature release preference in the farm. Those cmdlets are:
 
 - Get-SPFeatureReleasePreference
-- Set-SPFeatureReleasePreference-FeatureReleaseRing {Early | Standard}
+- Set-SPFeatureReleasePreference - FeatureReleaseRing {Early | Standard}
 
 For more information, see [Feature release rings](/sharepoint/administration/feature-release-rings).
 
@@ -117,4 +117,4 @@ The SharePoint Server modern UX provides a powerful yet intuitive user interface
 
 SharePoint Server Subscription Edition Version 23H2 introduces the ability for organizations to apply custom branding in the Suite Bar to better align with their branding standards. SharePoint farm administrators will be able to specify custom text, logos, hyperlinks, and color schemes in the Suite Bar that apply to all sites within a web application.
 
-For more information, see [Custom branding in Suite Navigation Bar - SharePoint Server | Microsoft Learn](/sharepoint/what-s-new/custom-branding-in-suite-bar).
+For more information, see [New and improved features in SharePoint Server Subscription Edition Version 23H2 - SharePoint Server | Microsoft Learn](/what-s-new/custom-branding-in-suite-bar).
