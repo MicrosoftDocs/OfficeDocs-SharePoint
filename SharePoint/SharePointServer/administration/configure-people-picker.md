@@ -35,7 +35,7 @@ Ensure that the following requirements are met before configuring People Picker:
 
 - Verify that the account you use to run `Stsadm` is a member of the local Administrators group on the server in which SharePoint Server is installed.
 - Open the command prompt window as an administrator to perform the procedures in this article.
-- In the command prompt on the driver where SharePoint Server is installed, change to the following directory: `%COMMONPROGRAMFILES%\\Microsoft shared\\Web Server Extensions\\x\\Bin`.
+- In the command prompt on the driver where SharePoint Server is installed, change to the following directory: `%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\x\Bin`.
 
    >[!NOTE]
    > Replace the number mapping value, that is "x" in the directory based on the version of SharePoint you have installed. The following are the SharePoint versions and their respective number mapping values:
