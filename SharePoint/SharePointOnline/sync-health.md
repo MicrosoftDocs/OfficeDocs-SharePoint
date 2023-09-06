@@ -59,7 +59,7 @@ In this section, you'll learn how to set up sync reports on Windows and macOS de
 This tab provides how-to steps for enabling sync reports on Windows devices.
 
 > [!NOTE]
-> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
+> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is no longer supported, and machines using that key will no longer appear in the sync health dashboard. Admins need to switch to the currently supported key (additional information below): HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableSyncAdminReports.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
