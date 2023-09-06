@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: Review your destination paths for your Box migration while using Migration Manager.
 ---

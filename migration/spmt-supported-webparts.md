@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 ms.assetid:
 description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."
