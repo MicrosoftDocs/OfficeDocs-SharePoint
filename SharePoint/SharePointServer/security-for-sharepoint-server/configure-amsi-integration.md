@@ -49,15 +49,20 @@ Before enabling AMSI integration, check the following prerequisites on each Shar
 
 ## Activate/Deactivate AMSI for SharePoint Server
 
-With the Version 23H2 feature update, AMSI integration with SharePoint Server becomes enabled by default for all web applications within SharePoint Server. This modification aims to enhance the general security of customer environments and mitigate potential security breaches. However, based on their requirements, customers retain the option to deactivate the AMSI integration functionality.
+Starting with the September 2023 security updates for SharePoint Server 2016/2019 and the Version 23H2 feature update for SharePoint Server Subscription Edition, AMSI integration with SharePoint Server becomes enabled by default for all web applications within SharePoint Server. This modification aims to enhance the general security of customer environments and mitigate potential security breaches. However, based on their requirements, customers retain the option to deactivate the AMSI integration functionality.
 
-To initiate the Version 23H2 feature update, customers only need to install the update and run the SharePoint Production Configuration Wizard.
-
+To initiate the September 2023 security updates, customers only need to install the update and run the SharePoint Production Configuration Wizard.
 
 > [!NOTE]
-> If customers skip installing the September 2023 public update, this change will be activated upon their installation of the subsequent public update that includes the Version 23H2 feature update.
+> If customers skip installing the September 2023 public update, this change will be activated upon their installation of the subsequent public update that includes the September 2023 security updates for SharePoint Server 2016/2019 or the Version 23H2 feature update for SharePoint Server Subscription Edition.
 
-If customers prefer not to have AMSI integration enabled automatically within their SharePoint Server farms, they can install the Version 23H1 feature update. Then, you can run the SharePoint Products Configuration Wizard and follow the standard steps to disable the feature in your web applications. If you follow these steps, SharePoint won't attempt to re-enable the feature while installing future public updates.
+If customers prefer not to have AMSI integration enabled automatically within their SharePoint Server farms, they can follow these steps:
+
+1. Install the September 2023 security updates for SharePoint Server 2016/2019 or the Version 23H2 feature update for SharePoint Server Subscription Edition.
+1. Run the SharePoint Products Configuration Wizard.
+1. Follow the standard steps to disable the AMSI integration feature in your web applications.
+
+If you follow these steps, SharePoint won't attempt to re-enable the feature while installing future public updates.
 
 To manually deactivate/activate the AMSI integration per web application, perform the following steps:
 
