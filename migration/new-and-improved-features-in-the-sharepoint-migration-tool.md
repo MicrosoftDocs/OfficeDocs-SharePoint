@@ -1,5 +1,5 @@
 ---
-ms.date: 08/24/2023
+ms.date: 09/06/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
@@ -43,7 +43,7 @@ SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 
     - Modern team sites & Communication sites
     - Modern site pages and news posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. 
     - Files or folders with "#" or "%" in their name can be migrated. These special characters are retained in migration.
-- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate.
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate. **Note:** This feature is currently only available in the public preview version.  It is not in the Full Generally Available (GA) build.
 
 
 ## SPMT 4.0
