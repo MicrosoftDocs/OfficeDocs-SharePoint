@@ -52,9 +52,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
 1. Set the feature release ring to **Early release** for your farm to make this feature available in the SharePoint Server Subscription Edition version 23H2. For more information, see
 [Feature release rings](../administration/feature-release-rings.md).
 
-2. Run the SharePoint Configuration Wizard to ensure the two changes (implemented in Steps 1 and 2) are applied.
-
-3. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
+2. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
 
    ```PowerShell
       $webapp = Get-SPWebApplication http://spwfe
@@ -62,7 +60,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
       $webapp.Update()
    ```
 
-4. Set all the options, as shown in the following command-syntax example:
+3. Set all the options, as shown in the following command-syntax example:
 
    ```PowerShell
       $webapp.SuiteNavBrandingText = "Suite Bar Branding"
@@ -107,4 +105,3 @@ The site page after applying the custom branding feature is as shown in the foll
    ```
 
    :::image type="content" source="../media/applying-custom-branding.png" alt-text="Screenshot that shows the site page after the custom branding feature has been applied." lightbox="../media/applying-custom-branding.png":::
-
