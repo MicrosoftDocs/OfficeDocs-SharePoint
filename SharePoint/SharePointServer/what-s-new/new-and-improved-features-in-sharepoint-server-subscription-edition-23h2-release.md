@@ -80,7 +80,7 @@ To better support organizations that want to require encryption for LDAP traffic
 
 To enable Secure LDAP (LDAPS) in the SharePoint People Picker, use the SecureSocketsLayer switch parameter with the *Set-SPPeoplePickerConfig* and *Add-SPPeoplePickerSearchADDomain* PowerShell cmdlets.
 
-For more information, see [Plan for People Picker in SharePoint](/sharepoint/administration/plan-for-people-picker).
+For more information, see [Configure People Picker in SharePoint Server Subscription Edition](/sharepoint/administration/configure-people-picker-subscription-edition).
 
 ### Search crawler uses HTTP 1.1 by default
 
