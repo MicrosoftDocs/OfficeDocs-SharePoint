@@ -239,7 +239,7 @@
 #### [Plan for the multilingual user interface](../sites/plan-for-the-multilingual-user-interface.md)
 #### [Themes overview](../sites/themes-overview.md)
 #### [Plan site maintenance and management](../sites/plan-site-maintenance-and-management.md)
-#### [Custom branding in Suite Navigation Bar](../what-s-new/custom-branding-in-suite-bar.md#custom-branding-in-suite-navigation-bar)
+#### [Custom branding in Suite Navigation Bar](../sites/custom-branding-in-suite-bar.md#custom-branding-in-suite-navigation-bar)
 ### [Manage site collections](../sites/manage-site-collections.md)
 #### [Create a site collection](../sites/create-a-site-collection.md)
 #### [Delete and restore site collections](../sites/delete-and-restore-site-collections.md)
