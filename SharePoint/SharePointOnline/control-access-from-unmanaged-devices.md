@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2018
-title: "SharePoint and OneDrive unmanaged device access controls for administrators"
+title: IT Admins - SharePoint and OneDrive unmanaged device access controls
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -25,7 +25,7 @@ ms.custom:
 - admindeeplinkSPO
 ---
 
-# SharePoint and OneDrive unmanaged device access controls for administrators
+# IT Admins - SharePoint and OneDrive unmanaged device access controls
 
 As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
 
