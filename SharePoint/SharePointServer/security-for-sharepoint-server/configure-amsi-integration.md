@@ -51,7 +51,7 @@ Before enabling AMSI integration, check the following prerequisites on each Shar
 
 Starting with the September 2023 security updates for SharePoint Server 2016/2019 and the Version 23H2 feature update for SharePoint Server Subscription Edition, AMSI integration with SharePoint Server becomes enabled by default for all web applications within SharePoint Server. This modification aims to enhance the general security of customer environments and mitigate potential security breaches. However, based on their requirements, customers retain the option to deactivate the AMSI integration functionality.
 
-To initiate the September 2023 security updates, customers only need to install the update and run the SharePoint Production Configuration Wizard.
+To initiate the September 2023 security updates, customers only need to install the update and run the SharePoint Products Configuration Wizard.
 
 > [!NOTE]
 > If customers skip installing the September 2023 public update, this change will be activated upon their installation of the subsequent public update that includes the September 2023 security updates for SharePoint Server 2016/2019 or the Version 23H2 feature update for SharePoint Server Subscription Edition.
@@ -95,7 +95,7 @@ You can test AMSI integration by adding the test string as either a query string
 
 ### Use a query string to test AMSI integration
 
-```powershell
+```
 amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 ```
 
@@ -103,13 +103,13 @@ amsiscantest:x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 
 ### Use an HTTP header to test AMSI integration
 
-```powershell
+```
 amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 ```
 
 **For example**: send a request that looks like the following.
 
-```powershell
+```
 GET /sites/sitename HTTP/1.1
 Host: servername
 amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
@@ -117,7 +117,7 @@ amsiscantest: x5opap4pzx54p7cc7$eicar-standard-antivirus-test-fileh+h*
 
 Microsoft Defender detects this as the following exploit:
 
-```powershell
+```
 Exploit:Script/SharePointEicar.A
 ```
 
