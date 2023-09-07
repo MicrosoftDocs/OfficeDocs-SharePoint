@@ -58,7 +58,7 @@ Antimalware Scan Interface (AMSI) integration allows AMSI-capable antimalware so
 
 Although the AMSI integration feature was first introduced in SharePoint Server Subscription Edition Version 22H2, it wasn't enabled by default. Customers had to enable the feature on each web application that they wanted to protect in the farm. Since then, we've seen security attacks continue to become more sophisticated and the potential impact to customers has grown.
 
-To help prevent successful security attacks and improve the overall security of customer environments, AMSI integration will be enabled by default for all web applications starting with the Version 23H2 feature update. Customers only need to install the update and run the SharePoint Productions Configuration Wizard to trigger the upgrade action. If customers skip installing the September 2023 Public Update, this change will be triggered by the next public update they install that contains the Version 23H2 feature update.
+To help prevent successful security attacks and improve the overall security of customer environments, AMSI integration will be enabled by default for all web applications starting with the Version 23H2 feature update. Customers only need to install the update and run the SharePoint Products Configuration Wizard to trigger the upgrade action. If customers skip installing the September 2023 Public Update, this change will be triggered by the next public update they install that contains the Version 23H2 feature update.
 
 If customers don't want AMSI integration to be enabled in their SharePoint Server farms, they can install the Version 23H2 feature update, run the SharePoint Products Configuration Wizard, and then follow the standard steps to disable the feature in their web applications. If you follow these steps, SharePoint won't attempt to re-enable the feature when installing future public updates.
 
@@ -66,9 +66,9 @@ For more information, see [Configure AMSI integration with SharePoint Server](/s
 
 ### AMSI health analyzer rule
 
-SharePoint Server Subscription Edition Version 23H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn’t.
+SharePoint Server Subscription Edition Version 23H2 further improves AMSI protection with the introduction of a SharePoint health analyzer rule. This health rule is designed to confirm that AMSI protection is functioning as expected and notify SharePoint farm administrators when it isn't.
 
-Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don’t result in a successful status code (meaning AMSI didn’t successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
+Once an hour, this health analyzer rule will check to see if AMSI integration is enabled on any web applications in the farm. If it is, the health analyzer rule will send simulated web requests through AMSI on every server in the farm that hosts a web application. It checks to see if AMSI returns the expected status code showing that the request has been successfully scanned. If any of the simulated web requests don't result in a successful status code (meaning AMSI didn't successfully scan the simulated web request), then this health analyzer rule will record a failure. The health analyzer rule report in Central Administration will list which servers in the farm experienced a failure and recommended steps to fix it.
 
 For more information, see [Antimalware Scan Interface (AMSI) protection may not be working](/sharepoint/technical-reference/amsi-protection-may-not-be-working).
 
@@ -100,7 +100,7 @@ For more information about improvements in SharePoint Server Subscription Editio
 
 ### New PowerShell cmdlets to manage feature release rings
 
-When Microsoft released the Version 22H2 feature update for SharePoint Server Subscription Edition, it included the concept of feature release rings to support its new evergreen experience. Feature release rings allow Microsoft to introduce new feature experiences in stages. New feature experiences that are ready for production use are typically first introduced in the **Early release** ring. Once the new feature experiences are ready for all customers to use by default, they’re moved into the **Standard release** ring.
+When Microsoft released the Version 22H2 feature update for SharePoint Server Subscription Edition, it included the concept of feature release rings to support its new evergreen experience. Feature release rings allow Microsoft to introduce new feature experiences in stages. New feature experiences that are ready for production use are typically first introduced in the **Early release** ring. Once the new feature experiences are ready for all customers to use by default, they're moved into the **Standard release** ring.
 
 SharePoint Server Subscription Edition farms are in the Standard release ring by default, but organizations can choose to move their SharePoint farms to Early release or Standard release at any time. Up until now, organizations could only make this choice through the Feature Release Preference page in SharePoint Central Administration. This made it challenging to configure this preference in scripted deployments.
 
