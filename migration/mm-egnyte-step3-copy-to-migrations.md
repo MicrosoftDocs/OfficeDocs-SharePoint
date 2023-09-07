@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Learn what the third step in using Migration Manager to migrate Egnyte."
@@ -26,27 +27,20 @@ description: "Learn what the third step in using Migration Manager to migrate Eg
 
 # Step 3: Copy to migrations
 
-After an Egnyte account has been scanned and determined ready, add it to your migration list.  
+After an Egnyte account has been scanned and determined ready, add them to your migration list.  
 
-1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
+1. Select the **Users** tab. The table will list all users that have been copied to migration.
+2. Select the users that are ready to be added to the Users migrations list.
+3. Select **Copy to User migrations**.
+4. Review the settings. Only content mathcing these settings will be migrated to your target destination. 
+5. Select **Customize settings** if you want to change any of the settings. Select **Edit** for each area you want to update. 
+
+:::image type="content" source="media/mm-file-folder-filters.png" alt-text="select edit to update any migration setting":::
+
+6. Select **Go to User Migrations**, and proceed to the next step.
+
 
 ![Migrations tab](media/mm-box-migration-tab.png)
-
-2. Select the users that are ready to be added to the migrations list.
-3. Select **Copy to migrations**
-
-
-![Egnyte copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
-
- You can also select multiple users.
-
-![Egnyte copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
-
-
-5. Select the **Migrations** tab, and proceed to the next step.
-
-![Migrations tab](media/mm-box-migration-tab.png)
-
 
 ## [**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
 

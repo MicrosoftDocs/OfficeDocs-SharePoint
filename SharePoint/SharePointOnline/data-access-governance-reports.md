@@ -1,7 +1,7 @@
 ---
-ms.date: 03/28/2023
+ms.date: 08/30/2023
 title: "Data access governance reports for SharePoint sites"
-ms.reviewer: karthig
+ms.reviewer: daminasy
 ms.author: mactra
 author: MachelleTranMSFT
 manager: serdars
@@ -13,9 +13,10 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

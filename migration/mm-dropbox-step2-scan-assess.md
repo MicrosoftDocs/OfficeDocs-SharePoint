@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 2: Scan and assess Dropbox folders using Migration Manager"
 ms.reviewer:
 ms.author: jhendr
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 2: Scan and assess Dropbox folders using Migration Manager."
 ---
@@ -27,22 +28,18 @@ description: "Step 2: Scan and assess Dropbox folders using Migration Manager."
 
 After you connect to Dropbox, add the source paths to scan and assess your Dropbox folders. 
 
-1. Select **Add source paths** and choose a method; to find new in Dropbox, target a single source path, or bulk upload the source paths using a CSV file.
+After you connect, scan and assess your Box user accounts.
 
-![add source paths manually in Dropbox](media/mm-dropbox-add-source-auto-scan.png)
-
-2. After adding the source, highlight any or all of the accounts and then select **Scan**, unless you have selected to automatically scan content.
+1. Select **Add folders** from the menu bar to choose how to add folders:</br> - **All new folders** to autodiscover all new users in Box</br>- **Single folder** for only one account,  or </br>- **Multiple specific folders** to bulk upload folders by entering them into a CSV file to upload.
+2. Choose to **Automatically start scanning now** or choose to scan later.
+3. Select **Add**.
+4. Highlight any or all of the accounts and then select **Scan** if you chose not to auto scan earlier.
 
 >[!Important]
 > The total number cannot exceed 50,000 tasks.
 
-3. Once scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
-4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-
-   ![Summary of scanned dropbox folders](media/mm-dropbox-scan-summary.png)
-
-
-![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
+5. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your folders. The summary includes Folder item counts, migration readiness, and any issues that need attention. 
+4. Review the scanned folders. Search for specific text, or select a filter to review the list more easily.
 
 
 ## Download reports
@@ -51,9 +48,7 @@ Summary and detailed scan reports are available to assist you in troubleshooting
 
 1. Once the scan is complete, select **Download summary report**.
 
-   ![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
-
-2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.   </br>
+2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.
 
 ## Managing users who own large amounts of data
 
@@ -76,9 +71,9 @@ To create Service Accounts, you can work with your Dropbox Admin to carry out th
 1. Once you have identified a large user, determine how many Service Accounts will be required (see example above).
 2. Create the Service Accounts in Dropbox and assign them a license.
 3. From the original large user, identify the folder(s) you would like to assign to the Service Account.
-4. Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner, where the new owner would have to accept, then the original owner will then have the option to select them as owner. The original owner becomes co-owner of the folder and the permissions will reflect that new status in the Source account. The folder will no longer appear in their *My Files* folder but will now appear in *Shared with me*.
+4. Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner, where the new owner would have to accept, then the original owner will then have the option to select them as owner. The original owner becomes co-owner of the folder and the permissions reflect that new status in the Source account. The folder will no longer appear in their *My Files* folder but will now appear in *Shared with me*.
 5. When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to.
-6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or integrations that you might be using, and determine if these ownership changes will have any impact.
+6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or integrations that you might be using, and determine if these ownership changes have any impact.
 
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance.
 

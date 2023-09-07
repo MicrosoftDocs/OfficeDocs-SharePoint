@@ -1,7 +1,7 @@
 ---
-ms.date: 05/05/2023
+ms.date: 08/30/2023
 title: "Review recent SharePoint site actions"
-ms.reviewer: cvelaga
+ms.reviewer: daminasy
 manager: serdars
 recommendations: true
 ms.author: mactra
@@ -14,6 +14,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
+- M365-sam
 - Highpri
 - Tier1
 description: "Learn how to review recent admin actions in SharePoint admin center."

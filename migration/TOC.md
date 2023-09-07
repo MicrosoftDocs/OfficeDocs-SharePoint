@@ -43,9 +43,10 @@
 ### Migrate SharePoint Server sites and content with SPMT
 #### [Overview](introducing-the-sharepoint-migration-tool.md)
 #### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
-#### [Step 2: Create a migration task](spmt-create-task.md)
-#### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-#### [Scan and assess a SharePoint Server site with SPMT (public preview)](spmt-scan.md)
+#### [Step 2: Scan and assess (for site migration only)](spmt-scan.md)
+#### [Step 3: Create a migration task](spmt-create-task.md)
+#### [Step 4: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+
 ### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
@@ -155,45 +156,6 @@
 ## SPMT Migration Scenario Guides
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
-## Other migrations (Legacy Mover tool)
-### [Mover.io retirement timeline](mover-retirement-timeline.md)
-### [Mover managed migration guide](mover-managed-migration-guide.md)
-###  Overview
-#### [Plan your migration](mover-plan-migration.md)
-#### [Manage connectors](mover-manage-connectors.md)
-#### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
-#### [Security](mover-security.md)
-###  Set up your source
-#### [Box](mover-box.md)
-#### [Dropbox](mover-dropbox.md)
-#### [G Suite Drive](mover-gsuite.md)
-#### [Office 365](mover-o365.md)
-#### [Amazon S3](mover-amazons3.md)
-#### [Azure Blob Storage](mover-azureblob.md)
-#### [Google Cloud Storage](mover-googlecloudstore.md)
-### Set up your destination
-#### [Office 365](mover-setup-m365-destination.md)
-#### [Troubleshoot your Office 365 Connector](mover-troubleshoot-m365-connector.md)
-###  Set up your migration
-#### [Create a new migration](mover-create-migration.md)
-#### [Create a new migration from a CSV (optional)](mover-create-migration-csv.md)
-#### [Review your users](mover-review-users.md)
-#### [Review your permission map](mover-review-permission-map.md)
-#### [Upload a permission map (optional)](mover-upload-permission-map.md)
-#### [Disable email notifications](mover-disable-emails.md)
-#### [Mover migration manager](mover-mm.md)
-###  [Running the migration](mover-running-migration.md)
-###  [Deleting a migration](mover-delete-migration.md)
-###  [Reports](mover-reports.md)
-###  [Post-migration tips](mover-post-migration-tips.md)
-###  [Mover release notes](mover-release-notes.md)
-###  Mover Troubleshooting
-#### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
-#### [Transfer logs](mover-transfer-logs.md)
-#### [Transfer status codes](mover-transfer-status-codes.md)
-#### [Error messages](mover-error-faq.md)
-#### [Account FAQ](mover-account-faq.md)
-#### [Mover Migration FAQ](mover-migration-faq.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance

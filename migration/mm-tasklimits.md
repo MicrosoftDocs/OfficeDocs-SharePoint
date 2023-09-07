@@ -16,7 +16,8 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: 
 description: Learn about Migration Manager task limits.
 ---
-# Migration Manager tast limits 
+# Migration Manager task limits 

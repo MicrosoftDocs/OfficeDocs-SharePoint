@@ -2,61 +2,55 @@
 
 
 
-## Week of May 15, 2023
+## Week of August 28, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/17/2023 | [Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm](/SharePoint/governance/update-to-spworkflow-manager-when-upgrading-farms) | added |
+| 8/29/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 9/1/2023 | [Export sites, lists, or document libraries in SharePoint Server](/SharePoint/administration/export-a-site-list-or-document-library) | modified |
+| 9/1/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
+| 9/1/2023 | [Install SharePoint Servers 2016 or 2019 on one server](/SharePoint/install/install-sharepoint-server-2016-on-one-server) | modified |
 
 
-## Week of May 08, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/10/2023 | [Create change history reports for SharePoint sites](/SharePoint/change-history-report) | modified |
-
-
-## Week of May 01, 2023
+## Week of August 21, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/2/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
-| 5/2/2023 | [View SharePoint site change history](/SharePoint/change-history-report) | added |
-| 5/5/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
+| 8/21/2023 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
+| 8/21/2023 | Find OneDrive admin settings | removed |
+| 8/22/2023 | [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
 
 
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/27/2023 | [Set up OneDrive in Citrix Virtual Apps](/SharePoint/onedrive-in-citrix-virtual-apps-deployment-guide) | added |
-| 4/27/2023 | [Formatting changes for Microsoft Viva Amplify - Private preview](/SharePoint/viva-amplify) | modified |
-| 4/27/2023 | [Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server](/SharePoint/administration/add-and-configure-the-recommended-items-and-popular-items-web-part) | modified |
-| 4/27/2023 | [Configure recommendations and usage event types in SharePoint Server](/SharePoint/administration/configure-recommendations-and-usage-event-types) | modified |
-| 4/27/2023 | [Host-named site collection architecture and deployment in SharePoint Server](/SharePoint/administration/host-named-site-collection-architecture-and-deployment) | modified |
-| 4/27/2023 | [Overview of managed navigation in SharePoint Server](/SharePoint/administration/overview-of-managed-navigation) | modified |
-| 4/27/2023 | [Plan authoring sites for cross-site publishing in SharePoint Server](/SharePoint/administration/plan-sharepoint-authoring-sites-for-cross-site-publishing) | modified |
-| 4/27/2023 | [Plan the logical architecture for cross-site publishing in SharePoint Server](/SharePoint/administration/plan-the-logical-architecture-for-cross-site-publishing) | modified |
-| 4/27/2023 | [Stage 10 Configure the query in a Content Search Web Part on a catalog item page in SharePoint Server](/SharePoint/administration/stage-10-configure-the-query-in-a-content-search-web-part-on-a-catalog-item-page) | modified |
-| 4/27/2023 | [Stage 8 Assign a category page and a catalog item page to a term in SharePoint Server](/SharePoint/administration/stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term) | modified |
-| 4/27/2023 | [Understanding multi-tenancy in SharePoint Server 2013](/SharePoint/administration/understanding-multi-tenancy) | modified |
-| 4/27/2023 | [Variations overview in SharePoint Server](/SharePoint/administration/variations-overview) | modified |
-| 4/27/2023 | [Account permissions and security settings in SharePoint Servers](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) | modified |
-| 4/27/2023 | [Configure My Sites in SharePoint Server](/SharePoint/install/configure-my-sites) | modified |
-| 4/27/2023 | [Plan for My Sites in SharePoint Server](/SharePoint/install/my-sites-planning) | modified |
-| 4/27/2023 | [Overview of analytics processing in SharePoint Server](/SharePoint/search/overview-of-analytics-processing) | modified |
-| 4/27/2023 | [Automatically created managed properties in SharePoint Server](/SharePoint/technical-reference/automatically-created-managed-properties-in-sharepoint) | modified |
-
-
-## Week of April 17, 2023
+## Week of August 14, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/17/2023 | [OneDrive sync reports in the Apps Admin Center](/SharePoint/sync-health) | modified |
-| 4/17/2023 | [Reset Certificate Generation Key for SharePoint Workflow Manager](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager) | added |
-| 4/18/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 8/17/2023 | Set a site as your home site | removed |
+| 8/18/2023 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | added |
+
+
+## Week of August 07, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/7/2023 | [How shareable links work in OneDrive and SharePoint in Microsoft 365](/SharePoint/shareable-links-anyone-specific-people-organization) | added |
+| 8/7/2023 | [Plan and deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 8/10/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 8/11/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
+
+
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | added |
+| 7/31/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
+| 8/1/2023 | Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store | removed |
+| 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |

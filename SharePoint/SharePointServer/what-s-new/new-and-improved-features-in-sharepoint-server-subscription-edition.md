@@ -1,7 +1,7 @@
 ---
-ms.date: 06/25/2021
+ms.date: 09/01/2023
 title: "New and improved features in SharePoint Server Subscription Edition"
-ms.reviewer: 
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -23,11 +23,13 @@ description: "Learn about the new features and updates to existing features in S
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the new features and updates to existing features in SharePoint Server Subscription Edition.
+Learn about the new features and updates to existing features that were introduced during the initial release of SharePoint Server Subscription Edition.
+
+For information on new and updated features that were introduced after the initial release of SharePoint Server Subscription Edition, see [SharePoint Server Subscription Edition Version 22H2](new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md) and [SharePoint Server Subscription Edition Version 23H1](new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md).
 
 ## List of new features and updates to existing features
 
-The following table provides the list of new features and updates to existing features in SharePoint Server Subscription Edition.
+The following table provides the list of new features and updates to existing features, introduced during the initial release of SharePoint Server Subscription Edition.
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
@@ -104,7 +106,7 @@ SharePoint Server Subscription Edition supports additional security features whe
 <a name="core"> </a>
 ### Windows Server Core
 
-Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
+Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are essential for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
 
 SharePoint Server Subscription Edition adds support for the Windows Server Core deployment type with both Windows Server 2019 and Windows Server 2022. The Windows Server Desktop Experience deployment type remains supported with both Windows Server 2019 and Windows Server 2022.
 

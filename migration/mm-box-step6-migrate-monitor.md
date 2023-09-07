@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 6: Migrate and monitor Box migration"
 ---
@@ -36,9 +37,6 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 ![Select accounts to migrate](media/mm-box-select-to-migrate.png)
 
 2. Select **Migrate**.
-
-![Select migrate button](media/mm-box-migrate-button.png) 
-
 3. A confirmation step displays.  Click **Migrate**.  
 
 >[!Note]

@@ -15,6 +15,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Learn more about preparing your data for migration."
 ---
 
@@ -29,7 +30,7 @@ The following articles provide detailed information about issues that arose duri
 
 Select any of the reports below to learn how to interpret your scan results, how to prepare for migration, and tasks to take post-migration.
 
-|**Detailed reports**||
+|**Detailed reports**|**Detailed reports**|
 |:-----|:-----|
 |[Alerts](migration-assessment-scan-alerts.md)  |[Large Sites](migration-assessment-scan-large-sites.md)  |
 |[Apps](migration-assessment-scan-apps.md)  |[List items with audience targeting](migration-assessment-scan-list-items-audience-targeting.md)|

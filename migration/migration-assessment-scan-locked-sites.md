@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 57e13cc6-cec7-4b81-8fe9-7b2646fd5532
 description: "Learn how to mitigate issues with locked sites during migration."
@@ -30,11 +31,11 @@ Learn how to mitigate issues with locked sites during migration.
   
 ## Overview
 
-When a site is configured as "No Access" in SharePoint, the site is inaccessible by both users and the system. As a result, the various pre-migration scans are configured to ignore any site that is configured as "No Access". It is **locked**. 
+When a site is configured as "No Access" in SharePoint, the site is inaccessible by both users and the system. As a result, the various pre-migration scans are configured to ignore any site that is configured as "No Access". It's **locked**. 
   
 ## Data Migration
 
-Locked sites cannot be migrated to the target environment, as the migration tooling is unable to read the site contents.
+Locked sites can't be migrated to the target environment, as the migration tooling is unable to read the site contents.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -45,7 +46,7 @@ Ensure the list of locked sites is correct. If you have sites that are incorrect
   
 ## Post Migration
 
-To manage the lock status on sites on the target environment, leverage the SharePoint Online Management Shell.
+To manage the lock status on sites on the target environment, use the SharePoint Online Management Shell.
   
  **How to unlock a site collection on vNext**
   
@@ -69,7 +70,7 @@ To manage the lock status on sites on the target environment, leverage the Share
     
  **How to set a site to "Read only"**
   
-1. Set-SPSite does not support setting a site to "Read Only". An alternative method is to use Site Collection Policies on a site collection.
+1. Set-SPSite doesn't support setting a site to "Read Only". An alternative method is to use Site Collection Policies on a site collection.
     
 2. Browse the site you want to be "Read Only".
     

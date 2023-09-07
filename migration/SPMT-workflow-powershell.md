@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Learn how to migrate SharePoint workflows to Power Automate using PowerShell cmdlets."

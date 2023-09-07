@@ -1,7 +1,7 @@
 ---
 ms.date: 04/27/2021
 title: "OneDrive sync reports in the Apps Admin Center"
-ms.reviewer: dmalayeri
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -59,7 +59,7 @@ In this section, you'll learn how to set up sync reports on Windows and macOS de
 This tab provides how-to steps for enabling sync reports on Windows devices.
 
 > [!NOTE]
-> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
+> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is no longer supported, and machines using that key will no longer appear in the sync health dashboard. Admins need to switch to the currently supported key (additional information below): HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableSyncAdminReports.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
@@ -77,7 +77,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 6. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
     > [!IMPORTANT]
-    > **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
+    > **You must enable this setting on the devices from which you want to get reports.** This setting does not affect users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
 
     You can enable this setting in multiple ways:
 
