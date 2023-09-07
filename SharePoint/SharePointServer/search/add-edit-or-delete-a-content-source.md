@@ -103,7 +103,7 @@ You can configure an HTTP protocol version to be applicable to specific content 
 - New-SPEnterpriseSearchCrawlContentSource
 - Set-SPEnterpriseSearchCrawlContentSource
 
-When you use these PowerSell cmdlets, you must also specify the `HttpProtocol` parameter which has the following options that a user can leverage:
+When you use these PowerSell cmdlets, you can specify the `HttpProtocol` parameter with the following options:
 
 - **Default**: This option refers to the system default one, currently HTTP 1.1.
 - **Http_1_0**: This option refers to the HTTP 1.0 protocol.
