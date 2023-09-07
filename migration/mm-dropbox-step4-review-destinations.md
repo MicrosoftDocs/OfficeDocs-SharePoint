@@ -52,10 +52,12 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
 3. The destinations will be validated upon uploading. </br>
-- The validation process may take a while and can be skipped, but we strongly recommend you complete the validation.
-- A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
 
-4. Select **Save**.  
+  >[!Note]
+  >The validation process may take a while and can be skipped. However, we strongly recommend you complete the validation. You can always open another browser tab to continue Migration Manager operations.</br>
+
+4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
+5. Select **Save**.  
 
 >[!Important]
 >Rows with vacant destination paths will be skipped in the validation process.  
