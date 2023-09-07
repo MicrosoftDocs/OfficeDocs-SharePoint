@@ -84,7 +84,7 @@ When mapping please ensure that each Service Account has its own unique matching
 |serviceaccount1@contoso.com|serviceaccount1@contoso.com/[upload folder]*|
 |serviceaccount2@contoso.com|serviceaccount2@contoso.com/[upload folder]*|
 |serviceaccount3@contoso.com|serviceaccount3@contoso.com/[upload folder]*|
-|placeholder for forms |placeholder for forms |
+
 
 Asterisk (*) = optional folder
 
