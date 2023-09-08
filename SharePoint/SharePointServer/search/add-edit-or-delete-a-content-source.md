@@ -55,7 +55,7 @@ Before you begin this operation, see the following article for information about
   
 1. On the **Manage Content Sources** page, select **New Content Source**.
     
-2. On the **Add Content Source** page, under **Name**, type a name for the new content source in the **Name** box.. 
+2. On the **Add Content Source** page, under **Name**, type a name for the new content source in the **Name** box. 
     
 3. Under **Content Source Type**, select the type of content that you want to crawl. 
     
@@ -103,7 +103,7 @@ You can configure an HTTP protocol version to be applicable to specific content 
 - New-SPEnterpriseSearchCrawlContentSource
 - Set-SPEnterpriseSearchCrawlContentSource
 
-When you use these PowerSell cmdlets, you can specify the `HttpProtocol` parameter with the following options:
+When you use these PowerShell cmdlets, you can specify the `HttpProtocol` parameter with the following options:
 
 - **Default**: This option refers to the system default one, currently HTTP 1.1.
 - **Http_1_0**: This option refers to the HTTP 1.0 protocol.
