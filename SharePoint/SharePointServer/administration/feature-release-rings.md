@@ -74,5 +74,6 @@ Follow these steps to select a feature release preference for your SharePoint fa
 > To set this using Windows PowerShell, you must be running **SharePoint Server Subscription Edition Version 23H2** or a newer version.
 
 1. Launch the **SharePoint Management Shell** or a Windows PowerShell console.
-1. Run the **Set-SPFeatureReleasePreference** cmdlet with the **FeatureReleaseRing** parameter, specifying either **Early** or **Standard** for the parameter value.
+1. Run the **Set-SPFeatureReleasePreference** cmdlet with the **FeatureReleaseRing** parameter, specifying either **Early** or **Standard** for the parameter value. <br>Set-SPFeatureReleasePreference -FeatureReleaseRing {Early | Standard}
 1. Run **SharePoint Products Configuration Wizard** on each server in your SharePoint farm to ensure all features recognize the new feature release preference.
+
