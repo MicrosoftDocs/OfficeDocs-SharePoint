@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-collaboration
@@ -42,7 +42,7 @@ Advantages of Azure AD B2B include:
 - SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**. As with Microsoft 365 Groups and Teams, if an Azure AD organizational relationship setting is more restrictive than a SharePoint or OneDrive setting, the Azure AD setting will prevail.
 
 > [!NOTE]
-> This integration isn't supported in Office 365 operated by 21Vianet.
+> Azure AD B2B doesn’t support Microsoft accounts in Microsoft 365 operated by 21Vianet.
 
 ## Enabling the integration
 
