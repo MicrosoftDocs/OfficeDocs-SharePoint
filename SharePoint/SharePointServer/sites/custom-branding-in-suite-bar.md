@@ -73,14 +73,6 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
       $webapp.update()
    ```
 
-The site page prior to the custom branding being applied is as shown in the following screenshot:
-
-:::image type="content" source="../media/site-page-prior-to-custom-branding.png" alt-text="Screenshot that shows the site page prior to the custom branding being applied." lightbox="../media/site-page-prior-to-custom-branding.png":::
-
-The site page after applying the custom branding feature is as shown in the following screenshot:
-
-:::image type="content" source="../media/site-page-after-custom-branding.png" alt-text="Screenshot that shows the site page after applying the custom branding feature." lightbox="../media/site-page-after-custom-branding.png":::
-
 ### Example 2
 
 1. Allow the custom branding by running the following command-syntax:
@@ -104,4 +96,4 @@ The site page after applying the custom branding feature is as shown in the foll
       $webapp.update()
    ```
 
-   :::image type="content" source="../media/applying-custom-branding.png" alt-text="Screenshot that shows the site page after the custom branding feature has been applied." lightbox="../media/applying-custom-branding.png":::
+   :::image type="content" source="../media/apply-custom-branding.png" alt-text="Screenshot that shows the site page after the custom branding feature has been applied." lightbox="../media/apply-custom-branding.png":::
