@@ -45,7 +45,7 @@ Follow these steps to disable Basic authentication in IIS:
 
 1. Verify that you're a member of the Administrators group on the server where you're configuring IIS.
 2. On the Start menu, point to All Programs, select **Administrative Tools,** and then select **Internet Information Services (IIS) Manager** to start the IIS Management Console.
-3. Expand Sites on the console tree, right-click the IIS Web site that corresponds to the Web application zone where you want to disable Basic authentication.
+3. Expand Sites on the console tree, right-click the IIS web site that corresponds to the web application zone where you want to disable Basic authentication.
 4. In the middle pane, double-click the **Authentication** icon.
-5. In the Authentication pane, locate **Basic authentication** and select it.
+5. In the Authentication pane, locate and select **Basic authentication**.
 6. In the Actions pane on the right-hand side, click **Disable** to disable Basic authentication.
