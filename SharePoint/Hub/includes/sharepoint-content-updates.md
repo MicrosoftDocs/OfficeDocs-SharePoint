@@ -2,6 +2,14 @@
 
 
 
+## Week of September 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/7/2023 | [Overview of sites and site collections in SharePoint Server](/SharePoint/sites/sites-and-site-collections-overview) | modified |
+
+
 ## Week of August 28, 2023
 
 
@@ -41,16 +49,3 @@
 | 8/7/2023 | [Plan and deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
 | 8/10/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
 | 8/11/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
-
-
-## Week of July 31, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/31/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | added |
-| 7/31/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
-| 8/1/2023 | Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store | removed |
-| 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
-| 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
-| 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |
