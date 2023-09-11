@@ -87,7 +87,6 @@ Review the different [roles and responsibilities](intranet-roles-tasks.md) when 
 
 [Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
 
-[Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 
 
 
