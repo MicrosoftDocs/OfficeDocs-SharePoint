@@ -64,6 +64,8 @@ SharePoint Advanced Management is available for Commercial, WW Commercial Public
 
 SharePoint Advanced Management is $3 per user per month for commercial customers.
 
+See here [Microsoft 365 Government - how to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy) on how to buy for US GCC, GCC-High and DoD customers.
+
 Licensing details for each feature listed above are included in those articles.
 
 ## Related topics
