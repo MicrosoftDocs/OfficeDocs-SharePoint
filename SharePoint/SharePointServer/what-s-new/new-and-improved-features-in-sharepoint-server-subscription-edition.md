@@ -1,7 +1,7 @@
 ---
-ms.date: 06/25/2021
+ms.date: 09/01/2023
 title: "New and improved features in SharePoint Server Subscription Edition"
-ms.reviewer: 
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
