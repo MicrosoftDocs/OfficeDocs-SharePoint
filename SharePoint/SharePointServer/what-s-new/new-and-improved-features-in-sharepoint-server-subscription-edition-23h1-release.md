@@ -3,10 +3,7 @@ ms.date: 09/06/2023
 title: "New and improved features in SharePoint Server Subscription Edition Version 23H1"
 ms.reviewer: 
 ms.author: serdars
-release-sharepointserver-September12
 author: SerdarSoysal
-author: Benny-54
-main
 manager: serdars
 audience: ITPro
 f1.keywords:
