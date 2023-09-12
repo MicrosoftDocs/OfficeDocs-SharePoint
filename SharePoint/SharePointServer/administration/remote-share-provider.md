@@ -1,7 +1,7 @@
 ---
 title: "Introduction of a new RBS provider **Remote Share Provider**."
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 11/23/2021

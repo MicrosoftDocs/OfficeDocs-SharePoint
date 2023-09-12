@@ -2,7 +2,7 @@
 ms.date: 07/11/2021
 title: "OpenID Connect 1.0 authentication"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 audience: ITPro

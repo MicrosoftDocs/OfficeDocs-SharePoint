@@ -2,7 +2,7 @@
 ms.date: 07/11/2021
 title: "Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 audience: ITPro
