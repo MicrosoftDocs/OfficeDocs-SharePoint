@@ -1,7 +1,7 @@
 ---
 title: "Services upgrade overview for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 ms.date: 7/09/2021
