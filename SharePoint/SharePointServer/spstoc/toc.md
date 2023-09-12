@@ -743,6 +743,8 @@
 ##### [Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server](../administration/deployment-considerations-for-implementing-microsoft-identity-manager-with-share.md)
 #### [People Picker and claims providers overview](../administration/people-picker-and-claims-providers-overview.md)
 ##### [Plan for People Picker](../administration/plan-for-people-picker.md)
+##### [Configure People Picker](../administration/configure-people-picker.md)
+##### [Configure People Picker in SharePoint Server Subscription Edition](../administration/configure-people-picker-subscription-edition.md)
 ##### [Plan for custom claims providers for People Picker](../administration/plan-for-custom-claims-providers-for-people-picker.md)
 ##### [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md)
 #### [User Profile service administration](../administration/user-profile-service-administration.md)
