@@ -2,7 +2,11 @@
 title: "Feature release rings"
 ms.reviewer: 
 ms.author: serdars
+release-sharepointserver-September12
 author: SerdarSoysal
+
+author: nimishasatapathy
+main
 manager: serdars
 ms.date: 09/07/2023
 audience: ITPro

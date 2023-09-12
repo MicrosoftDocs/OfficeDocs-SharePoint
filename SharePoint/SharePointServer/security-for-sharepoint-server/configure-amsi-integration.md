@@ -1,8 +1,12 @@
 ---
 title: "Configure AMSI integration with SharePoint Server"
 ms.reviewer: 
+release-sharepointserver-September12
 ms.author: v-jmathew
 author: jitinmathew
+ms.author: serdars
+author: nimishasatapathy
+main
 manager: serdars
 ms.date: 08/31/2023
 audience: ITPro

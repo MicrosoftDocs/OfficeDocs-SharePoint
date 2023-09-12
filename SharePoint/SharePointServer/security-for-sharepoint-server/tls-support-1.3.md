@@ -1,7 +1,7 @@
 ---
 title: "Transport Layer Security (TLS) 1.3 Support"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 6/28/2021
