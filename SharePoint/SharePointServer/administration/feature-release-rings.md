@@ -2,9 +2,13 @@
 title: "Feature release rings"
 ms.reviewer: 
 ms.author: serdars
+release-sharepointserver-September12
+author: SerdarSoysal
+
 author: nimishasatapathy
+main
 manager: serdars
-ms.date: 09/12/2022
+ms.date: 09/07/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -60,14 +64,20 @@ In the **Standard release** ring, new feature experiences are enabled in your Sh
 
 SharePoint Server Subscription Edition farms are part of the Standard release ring by default. At any time, customers can choose to move from the Standard release ring to the Early release ring, or from the Early release ring to the Standard release ring. New feature experiences will be enabled or disabled based on the feature release selected for the SharePoint farm.
 
-Follow these steps to select a feature release preference for your SharePoint farm: 
+Follow these steps to select a feature release preference for your SharePoint farm using SharePoint Central Administration:
 
 1. Browse to **SharePoint Central Administration**.
-2. Click **System Settings**.
-3. Click **Feature release preference**.
-4. Select either **Early release** or **Standard release (Default)**, and then click **OK**.
-5. Run **SharePoint Products Configuration Wizard** on each server in your SharePoint farm to ensure all features recognize the new feature release preference.
+1. Click **System Settings**.
+1. Click **Feature release preference**.
+1. Select either **Early release** or **Standard release (Default)** and then click **OK**.
+1. Run **SharePoint Products Configuration Wizard** on each server in your SharePoint farm to ensure all features recognize the new feature release preference.
+
+Follow these steps to select a feature release preference for your SharePoint farm using Windows PowerShell:
 
 > [!NOTE]
-> Currently, the feature release preference cannot be configured using a PowerShell cmdlet.
- 
+> To set this using Windows PowerShell, you must be running **SharePoint Server Subscription Edition Version 23H2** or a newer version.
+
+1. Launch the **SharePoint Management Shell** or a Windows PowerShell console.
+1. Run the **Set-SPFeatureReleasePreference** cmdlet with the **FeatureReleaseRing** parameter, specifying either **Early** or **Standard** for the parameter value. <br>Set-SPFeatureReleasePreference -FeatureReleaseRing {Early | Standard}
+1. Run **SharePoint Products Configuration Wizard** on each server in your SharePoint farm to ensure all features recognize the new feature release preference.
+
