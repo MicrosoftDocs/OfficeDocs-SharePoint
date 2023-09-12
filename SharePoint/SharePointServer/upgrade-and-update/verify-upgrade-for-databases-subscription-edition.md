@@ -1,7 +1,7 @@
 ---
 title: "Verify database upgrades in SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 ms.date: 07/09/2021

@@ -1,7 +1,7 @@
 ---
 title: "Feature release rings"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 09/12/2022

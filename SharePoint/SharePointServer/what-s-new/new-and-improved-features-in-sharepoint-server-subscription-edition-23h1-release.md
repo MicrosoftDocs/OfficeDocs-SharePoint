@@ -1,7 +1,7 @@
 ---
 title: "New and improved features in SharePoint Server Subscription Edition Version 23H1"
 ms.reviewer: 
-ms.author: v-bshilpa
+ms.author: serdars
 author: Benny-54
 manager: serdars
 audience: ITPro
