@@ -138,7 +138,7 @@ If you are attempting to change the OneDrive storage for a user and are not able
 >> [Run Tests: Check OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
 
 > [!NOTE]
-> This feature is not available for Microsoft 365 Government and Microsoft 365 operated by 21Vianet. 
+> This diagnostic isn’t supported for GCC High, DoD, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany customers. 
 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
 
