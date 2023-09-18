@@ -31,9 +31,9 @@ When planning to create, or update, your organization's intranet, there will be 
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content authors](#content-authors)|Content best practices, content, and site design|Create and maintain content, content collaboration|Update existing content, publish new content|
 
-See what the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/public/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf) looks like.
+See what the [intranet lifecycle](https:////download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet%20lifecycle.pdf) looks like.
 
-Learn more about basic site [building blocks.](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/public/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf)
+Learn more about basic site [building blocks.](https://download.microsoft.com/download/f/7/0/f70e5c6d-5618-457f-b642-3a4173daff21/Building blocks%20-%20sites%20and%20pages.pdf)
 
 ## Organization intranet owners
 
