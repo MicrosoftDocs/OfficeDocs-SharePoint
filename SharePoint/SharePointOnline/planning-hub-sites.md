@@ -1,7 +1,7 @@
 ---
 ms.date: 07/11/2018
 title: "Planning your SharePoint hub sites"
-ms.reviewer: metorres
+ms.reviewer: cathed
 manager: serdars
 recommendations: true
 ms.author: mikeplum
