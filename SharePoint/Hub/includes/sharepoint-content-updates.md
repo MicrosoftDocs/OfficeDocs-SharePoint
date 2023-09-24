@@ -2,6 +2,14 @@
 
 
 
+## Week of September 18, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/18/2023 | [Automatic modernization of classic home pages](/SharePoint/disable-auto-modernization-classic-home-pages) | modified |
+
+
 ## Week of September 11, 2023
 
 
@@ -46,12 +54,3 @@
 | 8/21/2023 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
 | 8/21/2023 | Find OneDrive admin settings | removed |
 | 8/22/2023 | [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
-
-
-## Week of August 14, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/17/2023 | Set a site as your home site | removed |
-| 8/18/2023 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | added |
