@@ -54,6 +54,8 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 **[Manage site lifecycle policies](site-lifecycle-management.md)** - You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy.
 
+**[Create change history reports](change-history-report.md)** - You can create change history reports in the SharePoint admin center to review SharePoint site property changes made within the last 180 days. Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
+
 ## Licensing
 
 SharePoint Advanced Management is a per-user license. To use SharePoint Advanced Management, you must have a license for each user in your organization. (It's not required for guests.) Users must also be licensed for SharePoint K, P1, or P2 via standalone or a Microsoft 365 suite.
