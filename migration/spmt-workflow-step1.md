@@ -1,5 +1,5 @@
 ---
-ms.date: 12/02/2021
+ms.date: 09/26/2023
 title: "Step 1: Configure endpoints and Power Automate for Sharepoint workflow migration"
 ms.reviewer:
 ms.author: jhendr
