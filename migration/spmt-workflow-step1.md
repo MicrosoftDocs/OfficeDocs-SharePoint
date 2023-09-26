@@ -57,7 +57,9 @@ If you have never used Power Automate with this tenant before, you must configur
 4. To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you'd like to set as the default flow owner.
 
 >[!Important]
->The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. As this user account will be used to create solutions and users in the Power Platform environment, it must also be assigned the System Administrator role.[Learn more about Power Platform data security](/power-platform/admin/database-security).
+>The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. 
+>
+>As this user account will be used to create solutions and users in the Power Platform environment, it must also be assigned with the security roles of System Administrator, Environment Maker and Basic User.[Learn more about Power Platform data security](/power-platform/admin/database-security).
 >
 >Sign in to Power Automate using this account, navigate to Solutions, and verify you can create a new solution.
 
