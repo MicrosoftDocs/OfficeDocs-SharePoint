@@ -1,7 +1,7 @@
 ---
 title: "Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 ms.date: 7/09/2021

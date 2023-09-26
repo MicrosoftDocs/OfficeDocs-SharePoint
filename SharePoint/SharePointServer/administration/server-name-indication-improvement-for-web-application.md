@@ -1,7 +1,7 @@
 ---
 title: "Server Name Indication improvement for web application"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 4/25/2022
