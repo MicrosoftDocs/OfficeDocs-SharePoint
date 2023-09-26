@@ -1,7 +1,7 @@
 ---
 title: "Installation overview for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 6/24/2021
