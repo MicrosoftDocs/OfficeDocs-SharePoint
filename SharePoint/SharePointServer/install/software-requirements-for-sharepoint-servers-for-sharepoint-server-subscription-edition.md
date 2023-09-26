@@ -1,7 +1,7 @@
 ---
 title: "Software requirements for SharePoint Servers for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 03/14/2023

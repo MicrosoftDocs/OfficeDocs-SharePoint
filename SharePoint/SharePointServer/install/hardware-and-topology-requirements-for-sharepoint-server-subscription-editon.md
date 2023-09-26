@@ -1,7 +1,7 @@
 ---
 title: "Hardware and topology requirements for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 6/22/2021

@@ -1,9 +1,9 @@
 ---
 title: "Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)"
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: v-aljupudi
+author: alekyaj
 manager: serdars
-ms.date: 7/31/2023
+ms.date: 08/30/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -32,20 +32,18 @@ For example, AMSI would only work on Windows Server 2016 or higher. For more inf
 
 **Resolution: Enable the real-time protection service**
 
-Ensure that real-time protection is enabled on every server listed in the Failing Servers section of this health report. Do this if you're using Microsoft Defender as your antimalware scan engine.
+If you're using Microsoft Defender as your antimalware scan engine, ensure that real-time protection is enabled on each server listed in the "Failing Servers" section of this health report.
 
- 1. Select the Start button.
-    
- 2. Select Settings.
-  
- 3. Select Update & Security.
-  
- 4. Select Windows Security.
-  
- 5. Select Virus & protection settings.
- 
- 6. Select Manage settings.
-  
- 7. Ensure Real-time protection is set to On.
+1. Select the **Start** button.  
 
-If you're using an antimalware scan engine other than Microsoft Defender, refer to its documentation to ensure that real-time protection is enabled.
+2. Select **Settings**.  
+
+3. Select **Update & Security**.  
+
+4. Select **Windows Security**.  
+
+5. Select **Virus & protection settings**.  
+
+6. Select **Manage settings**.  
+
+7. Ensure Real-time protection is set to **On**.
