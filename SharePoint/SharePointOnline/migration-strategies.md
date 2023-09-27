@@ -21,7 +21,7 @@ ms.collection:
 - Tier3
 ms.custom:
 - seo-marvel-apr2020
-description: Learn how to use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint and OneDrive.
+description: "This article explains how to plan your migration, understand the modern solution, and decide which modern solution to use."
 ---
 
 # Migration strategies for moving to Microsoft Purview risk and compliance solutions from older retention features for SharePoint and OneDrive 
@@ -81,7 +81,7 @@ Before you begin, it's important to plan your migration. You may need to interac
 To route document to different libraries or folders, upload all documents to a Drop Off Library, manage folder size, and manage duplicate submissions: 
 
 - Use [PowerAutomate](/power-automate/getting-started) to [route records automatically using custom flow](/dynamics365/customer-service/routing-trigger-automatic)
-- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide) to maintain logs 
+- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs 
 
 ### Vault abilities 
 
@@ -96,4 +96,4 @@ To route document to different libraries or folders, upload all documents to a D
     - [Classify contents as records](/purview/declare-records) 
     - [Take action during and at the end of the content lifecycle](/purview/file-plan-manager) 
 
-- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide) to maintain logs 
+- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs 
