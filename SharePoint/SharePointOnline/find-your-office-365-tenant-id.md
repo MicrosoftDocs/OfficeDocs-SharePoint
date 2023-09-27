@@ -15,6 +15,7 @@ ms.custom:
   - Adm_O365
   - onedrive-toc
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid:
 - MET150
 - BCS160
