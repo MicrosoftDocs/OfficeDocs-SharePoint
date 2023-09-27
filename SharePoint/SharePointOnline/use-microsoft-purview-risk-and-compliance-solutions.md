@@ -29,8 +29,8 @@ description: Learn how to use Microsoft Purview risk and compliance solutions in
 
 > [!IMPORTANT]
 > Read the [overview](#overview) to get a summary of the plan. See the [migration strategies](migration-strategies.md) page for more details and links to important articles and pages. 
-
-Review the older information management and records management features in SharePoint and OneDrive for business [retirement timeline](#retirement-timeline) for dates that have been announced and for updates on new retirement announcements.
+>
+>Review the older information management and records management features in SharePoint and OneDrive for business [retirement timeline](#retirement-timeline) for dates that have been announced and for updates on new retirement announcements.
 
 ## Overview
 
