@@ -72,13 +72,13 @@ The following key points summarize how migration and retirement work:
 
 #### Upcoming 
 
-N – Announcement of first set of features in the retirement plan and timelines 
+N – Announcement of first set of features in the retirement plan and timelines. 
 
 ### Special (GCC, GCC-H, DoD) 
 
 #### Upcoming 
 
-N  – Announcement of first set of features in the retirement plan and timelines
+N  – Announcement of first set of features in the retirement plan and timelines.
 
 ## Migrating from older features to modern features
 

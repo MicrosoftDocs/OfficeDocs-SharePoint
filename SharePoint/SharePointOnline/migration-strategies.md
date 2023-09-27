@@ -50,50 +50,28 @@ Before you begin, it's important to plan your migration. You may need to interac
 
 ### Create a record center site 
 
-[This older feature](https://support.microsoft.com/en-us/office/create-a-records-center-6bf1488b-62a8-486c-90dd-54b6bcce4b3a#:~:text=You%20need%20to%20take%20the%20following%20steps%20to,on%20the%20Records%20Center%20site.%20...%20See%20More.) helps organizations implement their records management and retention programs.
- 
-#### Purview feature suggestion 
 
-- [Create a team or communication site](https://support.microsoft.com/en-us/office/create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1) 
+|Older feature  |Purview feature suggestion  |
+|---------|---------|
+|[This older feature](https://support.microsoft.com/en-us/office/create-a-records-center-6bf1488b-62a8-486c-90dd-54b6bcce4b3a#:~:text=You%20need%20to%20take%20the%20following%20steps%20to,on%20the%20Records%20Center%20site.%20...%20See%20More.) helps organizations implement their records management and retention programs.    | <li> [Create a team or communication site](https://support.microsoft.com/en-us/office/create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1)  <li> Use Data Lifecycle Management for [retention policies that retain or delete content](/purview/create-retention-policies?tabs=teams-retention)  <li> Use Records Management for retention labels that: <br><ul><li>Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint)</li></li><li>[Auto-apply to content](/purview/apply-retention-labels-automatically)</li><li>[Classify contents as records](/purview/declare-records)</li>  |
 
-- Use Data Lifecycle Management for [retention policies that retain or delete content](/purview/create-retention-policies?tabs=teams-retention)  
+### Submit records to the record center 
 
-- Use Records Management for retention labels that:
+
+|Older feature   |Purview feature suggestion   |
+|---------|---------|
+|[This older feature](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) enables organizations to automatically submit files to a SharePoint site.     | Use [PowerAutomate](/power-automate/getting-started) to [route records automatically using custom flow.](/dynamics365/customer-service/routing-trigger-automatic)        |
  
-    - Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint) 
-    - [Auto-apply to content](/purview/apply-retention-labels-automatically) 
-    - [Classify contents as records](/purview/declare-records)
-
-### Submit records to the record center  
-
-[This older feature](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) enables organizations to automatically submit files to a SharePoint site. 
-
-#### Purview feature suggestion 
-
-- Use [PowerAutomate](/power-automate/getting-started) to [route records automatically using custom flow.](/dynamics365/customer-service/routing-trigger-automatic)
-
 ### Content Organizer 
 
-[This older](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a) feature automatically routes content to a location in a SharePoint site.
+|Older feature   |Purview feature suggestion   |
+|---------|---------|
+|[This older](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a) feature automatically routes content to a location in a SharePoint site.     |To route document to different libraries or folders, upload all documents to a Drop Off Library, manage folder size, and manage duplicate submissions:<br><ul> <li> Use [PowerAutomate](/power-automate/getting-started) to [route records automatically using custom flow](/dynamics365/customer-service/routing-trigger-automatic)</li><li>Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs</li><br></ul>       |
 
-#### Purview feature suggestion 
+### Vault abilities
 
-To route document to different libraries or folders, upload all documents to a Drop Off Library, manage folder size, and manage duplicate submissions: 
 
-- Use [PowerAutomate](/power-automate/getting-started) to [route records automatically using custom flow](/dynamics365/customer-service/routing-trigger-automatic)
-- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs 
-
-### Vault abilities 
-
-[This older](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) feature allows administrators to prevent the direct tampering with records, tracking version changes, and auditing actions. 
-
-#### Purview feature suggestion 
-
-- Use Records Management for retention labels that: 
-
-    - Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint) 
-    - [Auto-apply to content](/purview/apply-retention-labels-automatically)
-    - [Classify contents as records](/purview/declare-records) 
-    - [Take action during and at the end of the content lifecycle](/purview/file-plan-manager) 
-
-- Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs 
+|Older feature  |Purview feature suggestion   |
+|---------|---------|
+|[This older](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) feature allows administrators to prevent the direct tampering with records, tracking version changes, and auditing actions.    |<li>Use Records Management for retention labels that:<br><ul><li>Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint)</li><li>[Auto-apply to content](/purview/apply-retention-labels-automatically)</li><li>[Classify contents as records](/purview/declare-records)</li><li>[Take action during and at the end of the content lifecycle](/purview/file-plan-manager)</li><br></ul><li>Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs    |
+ 
