@@ -36,4 +36,4 @@ Your tenant ID can be found in the **Tenant ID** box on the [Overview page](http
 ![The Directory Properties pane in the Azure Admin Center dashboard](media/tenant-id-image.png)
   
 > [!NOTE]
-> For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true) and then use [Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).
+> For info about finding your tenant ID by using PowerShell instead, first read [Microsoft Graph PowerShell](/powershell/microsoftgraph/installation?view=graph-powershell-1.0) and then use [Get-MgOrganization](/powershell/module/microsoft.graph.identity.directorymanagement/get-mgorganization?view=graph-powershell-1.0&preserve-view=true).
