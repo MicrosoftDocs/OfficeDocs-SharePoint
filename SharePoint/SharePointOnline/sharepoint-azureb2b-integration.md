@@ -62,10 +62,15 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
 
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3. Run the following cmdlets:
+3. Run the following cmdlet:
 
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
+   ```
+
+   or use the [m365 PnP CLI](https://pnp.github.io/cli-microsoft365/)
+   ```bash
+   m365 spo tenant settings set --EnableAzureADB2BIntegration true
    ```
 
 ## Disabling the integration
