@@ -70,8 +70,6 @@ Before you begin, it's important to plan your migration. You may need to interac
 
 ### Vault abilities
 
-
-|Older feature  |Purview feature suggestion   |
+|Older feature  |Purview feature suggestion  |
 |---------|---------|
-|[This older](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) feature allows administrators to prevent the direct tampering with records, tracking version changes, and auditing actions.    |<li>Use Records Management for retention labels that:</li><br><ul><li>Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint)</li><li>[Auto-apply to content](/purview/apply-retention-labels-automatically)</li><li>[Classify contents as records](/purview/declare-records)</li><li>[Take action during and at the end of the content lifecycle](/purview/file-plan-manager)</li><br></ul><li>Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs</li>    |
- 
+|[This older](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c) feature allows administrators to prevent the direct tampering with records, tracking version changes, and auditing actions.     |<li>Use Records Management for retention labels that:</li><br><ul><li>Are [published for users to manually apply](/purview/create-apply-retention-labels?tabs=manual-outlook%2Cdefault-label-for-sharepoint)</li><li>[Auto-apply to content](/purview/apply-retention-labels-automatically)</li><li>[Classify contents as records](/purview/declare-records)</li><li>[Take action during and at the end of the content lifecycle](/purview/file-plan-manager)</li><br></ul><li>Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs</li>          |
