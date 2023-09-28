@@ -41,7 +41,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
-- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD).
+- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD) in the same cloud as the content tenant.
 - Any Azure AD conditional access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
 - ADAL must not be enabled if using builds before 19.086.*.
 
@@ -49,6 +49,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
+- Content shared from a tenant in one cloud (eg 21vianet) can not be synced by a user in a different cloud (eg global)
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
