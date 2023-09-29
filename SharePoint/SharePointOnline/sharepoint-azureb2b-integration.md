@@ -68,7 +68,7 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
    Set-SPOTenant -EnableAzureADB2BIntegration $true
    ```
 
-   or use the [m365 PnP CLI](https://pnp.github.io/cli-microsoft365/)
+   or use the [PnP CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/):
    ```bash
    m365 spo tenant settings set --EnableAzureADB2BIntegration true
    ```
