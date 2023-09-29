@@ -41,7 +41,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
-- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD) in the same Microsoft cloud as the content tenant (Microsoft Azure Commercial, Microsoft Azure Government, or Microsoft Azure China).
+- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD) in the same cloud as the content tenant - Microsoft Azure Commercial, Microsoft Azure Government, or Microsoft Azure China. (Note that Microsoft Azure Commercial contains the Microsoft 365 commercial and GCC cloud environments, and Microsoft Azure Government contains the GCC High and DoD cloud environments.)
 - Any Azure AD conditional access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
 - ADAL must not be enabled if using builds before 19.086.*.
 
