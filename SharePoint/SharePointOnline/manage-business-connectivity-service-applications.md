@@ -25,7 +25,12 @@ description: Learn how to create BCS connections to data sources, such as SQL Az
 # Manage Business Connectivity Service Applications
 
 In SharePoint in Microsoft 365, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. Microsoft SharePoint uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. See also [Deploy a Business Connectivity Services hybrid solution in SharePoint](../SharePointServer/hybrid/deploy-a-business-connectivity-services-hybrid-solution.md).
-  
+
+> [!NOTE]
+> Business Connectivity Services (BCS) in Microsoft 365 is a deprecated feature. On January 8, 2024, it will be disabled in new tenants as well as existing tenants that haven't used the feature since October 30, 2023. It will be retired and removed from all tenants on September 30, 2024. Customers are encouraged to explore using [Microsoft Power Apps](https://powerapps.microsoft.com) to replace their Business Connectivity Services solutions in Microsoft 365.
+>
+> For more information, see [Business Connectivity Services (BCS) Retirement in Microsoft 365](https://aka.ms/sp-bcs-retirement-support).
+
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
 
