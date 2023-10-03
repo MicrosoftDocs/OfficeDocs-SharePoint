@@ -557,6 +557,9 @@ If you don't set any of the following policies, then the default policy will mov
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"=dword:00000001`: Setting this value to **1** will move the Pictures folder.
 
+> [!IMPORTANT]
+> The Group Policy object **User Configuration** > **Administrative Templates** > **Desktop** > **Prohibit User from manually redirecting Profile Folders** must be set to **Disabled** or **Not configured**. Folders will not move to OneDrive if set to **Enabled**.
+
 For more information, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
   
 ### Silently sign in users to the OneDrive sync app with their Windows credentials
