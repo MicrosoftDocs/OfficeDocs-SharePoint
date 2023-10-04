@@ -25,7 +25,7 @@ description: "Learn how to enable restricted access control for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can manage which users can access to a SharePoint site and its content with the restricted access control feature using either [SharePoint admin center](/sharepoint/get-started-new-admin-center) or [PowerShell](../SharePointServer/sharepoint-powershell.md).
+You can manage access to a SharePoint site and its content with the restricted access control feature using either [SharePoint admin center](/sharepoint/get-started-new-admin-center) or [PowerShell](../SharePointServer/sharepoint-powershell.md).
 
 As a [SharePoint administrator](sharepoint-admin-role.md), you can apply site access restriction to your organization and then manage the feature for individual sites by specifying the group holding users who will have access. Users not in the group can't access the site or its content, even if they had prior permissions or a shared link. This policy applies to Microsoft 365 group-connected, Teams-connected, and non-group connected sites.
 
@@ -33,7 +33,7 @@ As a [SharePoint administrator](sharepoint-admin-role.md), you can apply site ac
 
 Restricted access control policy is enforced only when the user is opening the SharePoint site or opening the content in the SharePoint site. This behavior is like any other conditional access policies configured for a site.
 
-Unified Search connected experiences do not enforce restricted access control policy. Users can see search results if they have existing access permissions to the content or the site. However, when the user selects a search result item to open the site content, they’re denied access if they don't have site access permissions. 
+Unified Search connected experiences do not enforce restricted access control policy. Users can see search results if they have existing access permissions to the content or the site. However, when the user selects a search result item to open the site content, they’re denied access if they don't have site access permissions.
 
 Restricting site access via group membership can minimize the risk of oversharing content. For insights into data sharing, see [Data access governance reports](data-access-governance-reports.md). This extra security layer from restricted access control safeguards content.
 
