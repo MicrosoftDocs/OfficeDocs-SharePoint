@@ -24,7 +24,7 @@ description: Microsoft is announcing its plan to retire Business Connectivity Se
 
 # Business Connectivity Services (BCS) retirement in Microsoft 365
 
-SharePoint has a long history of helping users work with external data inside the SharePoint user experience, starting with the Business Data Catalog feature in SharePoint Server 2007. As SharePoint has evolved into a cloud-first service, so too have the options for customers that wish to integrate with external data sources. To simplify these options and provide the best experience for these scenarios going forward, Microsoft is announcing its plan to retire Business Connectivity Services (BCS) in Microsoft 365 and focus on Microsoft Power Apps as its replacement technology.
+SharePoint has a long history of helping users work with external data inside the SharePoint user experience, starting with the Business Data Catalog feature in SharePoint Server 2007. As SharePoint has evolved into a cloud-first service, so too have the options for customers who wish to integrate with external data sources. To simplify these options and provide the best experience for these scenarios going forward, Microsoft is announcing its plan to retire Business Connectivity Services (BCS) in Microsoft 365 and focus on Microsoft Power Apps as its replacement technology.
 
 ## Impacted features and scenarios
 
@@ -55,9 +55,9 @@ Starting today, customers can prepare for the Business Connectivity Services ret
 Customers should only set this property once they've confirmed there's no business need to use the Business Connectivity Services features. Customers can confirm Business Connectivity Services usage by following these instructions:
 
 1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](sharepoint-admin-role.md) for your organization.
-
     > [!NOTE]
 > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
+
 2. Under **BCS**, select **Open**.
 3. On the **BCS Home Page**, select **Manage BDC Models and External Content Types**.
 4. In the **View** dropdown selector, select each of views including **BDC Models**, **External Systems**, and **External Content Types**. Confirm that no BDC models, external systems, or external content types have been added.
