@@ -1,6 +1,6 @@
 ---
-ms.date: 05/05/2023
-title: "Review recent SharePoint site actions"
+ms.date: 10/04/2023
+title: "Review recent administrator SharePoint site actions"
 ms.reviewer: daminasy
 manager: serdars
 recommendations: true
@@ -18,7 +18,7 @@ ms.collection:
 - Tier1
 description: "Learn how to review recent admin actions in SharePoint admin center."
 ---
-# Review recent SharePoint site actions
+# Review recent administrator SharePoint site actions
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
