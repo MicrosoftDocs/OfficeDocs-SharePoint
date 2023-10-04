@@ -14,6 +14,7 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- essentials-compliance
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

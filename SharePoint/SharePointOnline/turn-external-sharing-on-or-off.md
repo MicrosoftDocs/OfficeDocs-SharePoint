@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
+- essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
