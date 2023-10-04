@@ -55,7 +55,7 @@ Starting today, customers can prepare for the Business Connectivity Services ret
 Customers should only set this property once they've confirmed there's no business need to use the Business Connectivity Services features. Customers can confirm Business Connectivity Services usage by following these instructions:
 
 1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](sharepoint-admin-role.md) for your organization.
-    > [!NOTE]
+> [!NOTE]
 > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
 
 2. Under **BCS**, select **Open**.
