@@ -37,15 +37,15 @@ All Business Connectivity Services features will be retired in SharePoint in Mic
 
 ## Recommended replacement technology: Microsoft Power Apps
 
-Microsoft encourages customers to explore using Power Apps to replace their Business Connectivity Services solutions in SharePoint in Microsoft 365. Although there's no direct migration from Business Connectivity Services to Power Apps, it supports a modern, cloud-first external data connectivity experience. Power Apps can integrate with a variety of Microsoft 365 services and external data sources through its extensible connector technology, including SharePoint, Dynamics 365, SQL Server, and others. It also supports integrating with on-premises data sources through the on-premises data gateway.
+Microsoft encourages customers to explore using Power Apps to replace their Business Connectivity Services solutions in SharePoint in Microsoft 365. Although there's no direct migration from Business Connectivity Services to Power Apps, it supports a modern, cloud-first external data connectivity experience. Power Apps can integrate with various Microsoft 365 services and external data sources through its extensible connector technology, including SharePoint, Dynamics 365, SQL Server, and others. It also supports integrating with on-premises data sources through the on-premises data gateway.
 
-To learn more about Power Apps, see the links in the "More information" section.
+To learn more about Power Apps, see the links in the [More information](#more-information) section.
 
 ## Retirement schedule
 
 - October 2, 2023: Retirement announcement and customers can proactively set a property to block Business Connectivity Services features within their tenant.
 - October 30, 2023: Microsoft will begin blocking Business Connectivity Services features based on the tenant property set by the customer.
-- January 8, 2024: Microsoft will block Business Connectivity Services features in new Microsoft 365 tenants by default, as well as in tenants who haven't used the feature since October 30, 2023.
+- January 8, 2024: Microsoft will block Business Connectivity Services features in new Microsoft 365 tenants by default, and in tenants who haven't used the feature since October 30, 2023.
 - September 30, 2024: Business Connectivity Services is fully retired in Microsoft 365.
 
 ### Blocking Business Connectivity Services features within your tenant
@@ -54,9 +54,10 @@ Starting today, customers can prepare for the Business Connectivity Services ret
 
 Customers should only set this property once they've confirmed there's no business need to use the Business Connectivity Services features. Customers can confirm Business Connectivity Services usage by following these instructions:
 
-1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](https://learn.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](sharepoint-admin-role.md) for your organization.
 
-**Note:** If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
+    > [!NOTE]
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
 2. Under **BCS**, select **Open**.
 3. On the **BCS Home Page**, select **Manage BDC Models and External Content Types**.
 4. In the **View** dropdown selector, select each of views including **BDC Models**, **External Systems**, and **External Content Types**. Confirm that no BDC models, external systems, or external content types have been added.
@@ -67,8 +68,8 @@ Customers should only set this property once they've confirmed there's no busine
 
 To proceed with setting the property that will block this feature, tenant administrators can download and launch SharePoint Online Management Shell version 16.0.24120.12000 or higher and then run the following commands:
 
-'Connect-SPOService -Url https://\<tenant\>-admin.sharepoint.com
- Set-SPOTenant -BusinessConnectivityServiceDisabled $true'
+``Connect-SPOService -Url https://\<tenant\>-admin.sharepoint.com
+ Set-SPOTenant -BusinessConnectivityServiceDisabled $true``
 
 SharePoint in Microsoft 365 will begin blocking features based on this tenant property on October 30, 2023.
 
@@ -78,14 +79,16 @@ Starting January 8, 2024, Microsoft will block Business Connectivity Services in
 
 Customers who wish to re-enable Business Connectivity Services within their tenant may do so by setting this property to false as follows:
 
-'''Connect-SPOService -Url https://\<tenant\>-admin.sharepoint.com
- Set-SPOTenant -BusinessConnectivityServiceDisabled $false'''
+``
+Connect-SPOService -Url https://\<tenant\>-admin.sharepoint.com
+ Set-SPOTenant -BusinessConnectivityServiceDisabled $false
+``
 
 Note that re-enabling Business Connectivity Services in your tenant isn't recommended unless you have a specific need.
 
 ### Business Connectivity Services is retired in Microsoft 365
 
-Starting September 30, 2024, Business Connectivity Services will be retired in Microsoft 365. Its features will no longer be available and cannot be re-enabled through the 'Set-SPOTenant' PowerShell cmdlet. This applies to all environments including Government Clouds and Department of Defense.
+Starting September 30, 2024, Business Connectivity Services will be retired in Microsoft 365. Its features will no longer be available and can't be re-enabled through the ``Set-SPOTenant`` PowerShell cmdlet. This applies to all environments including Government Clouds and Department of Defense.
 
 ## Impact to SharePoint Server
 
@@ -93,7 +96,7 @@ This announcement has no impact on Business Connectivity Services in SharePoint 
 
 This feature will remain supported in SharePoint Server 2016 and SharePoint Server 2019 until those products reach their end of support date of July 14, 2026.
 
-Microsoft has no plans to retire Business Connectivity Services in SharePoint Server Subscription Edition at this time. Deprecation and removal announcements for SharePoint Server Subscription Edition are announced in the [What's deprecated or removed from SharePoint Server Subscription Edition](https://learn.microsoft.com/sharepoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-subscription-edition) article.
+Microsoft has no plans to retire Business Connectivity Services in SharePoint Server Subscription Edition at this time. Deprecation and removal announcements for SharePoint Server Subscription Edition are announced in the [What's deprecated or removed from SharePoint Server Subscription Edition](../SharePointServer/what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md) article.
 
 ## Summary
 
@@ -103,10 +106,14 @@ Microsoft remains committed to our customers' digital transformation by providin
 
 For more information about Power Apps and its integration capabilities with external data sources, see:
 
-[What is Power Apps?](https://learn.microsoft.com/power-apps/powerapps-overview)
-[What is an on-premises data gateway?](https://learn.microsoft.com/power-apps/maker/canvas-apps/gateway-reference)
-[Scenarios for integrating SharePoint with Power Apps](https://learn.microsoft.com/power-apps/maker/canvas-apps/sharepoint/scenarios-intro)
-[Overview of connectors for canvas apps](https://learn.microsoft.com/power-apps/maker/canvas-apps/connections-list)
+[What is Power Apps?](/power-apps/powerapps-overview)
+
+[What is an on-premises data gateway?](/power-apps/maker/canvas-apps/gateway-reference)
+
+[Scenarios for integrating SharePoint with Power Apps](/power-apps/maker/canvas-apps/sharepoint/scenarios-intro)
+
+[Overview of connectors for canvas apps](/power-apps/maker/canvas-apps/connections-list)
 
 Link to the announcement: [https://aka.ms/sp-bcs-retirement](https://aka.ms/sp-bcs-retirement)
+
 Link to this support article: [https://aka.ms/sp-bcs-retirement-support](https://aka.ms/sp-bcs-retirement-support)
