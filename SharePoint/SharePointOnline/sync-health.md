@@ -43,7 +43,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync apps on the Insiders, Production, or Deferred ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
+- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global Reader](/microsoft-365/admin/add-users/about-admin-roles), Global Administrator, Security Administrator, Office Apps Administrator, or Reports Reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 - Devices in your organization should allow connections to `https://clients.config.office.net`.
 
@@ -183,7 +183,7 @@ The **Overview** tab (the default view) shows a summary of devices that have at 
 
 ### Devices
 
-The **Devices** tab shows all users, their current health state, their known folders currently moved in OneDrive, their current app version and operating system version, a timestamp of the last time the app was fully up to date, and a timestamp of the last time the sync app reported health data to the dashboard. An icon and status in the **Errors** column indicate the state of each device.
+The **Devices** tab shows all users, their current health state, their known folders currently moved in OneDrive, their current app version and operating system version, a timestamp of the last time the app was fully up to date, and a timestamp of the last time the sync app reported health data to the dashboard. The last status reported timestamp (UTC) is updated every ~36 hours, or ~1 hour after the client starts up. An icon and status in the **Errors** column indicate the state of each device.
 
 This table provides a summary of the information found in each column of the **Devices** tab:
 
@@ -230,23 +230,18 @@ This section describes known limitations and considerations in sync reporting.
 
 **Folders in OneDrive:** Devices with folders in OneDrive will appear in reports as a device with 0-3 known folders. If a device has not enabled folders in OneDrive, it will appear in reports as a device that is **Not eligible** in the **Known Folders** section of the **Overview** tab. In the **Devices** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
-**Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+**Sync app version: Mac App Store edition:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 **Minimum time device is on for eligibility:** Devices need to be turned on for a minimum of five hours to be eligible for the report. Devices that are turned off frequently and not on for that amount of time might be missing from the dashboard, even if the group policy is set.
 
+**User sign-in:** Clients won't report status to the report if the user is signed out.
+
 **Considerations:**
 
-**Network Impact** *How is my network impacted when my organization enables Sync Reports?*
-
-There is negligible impact to a network after enabling the sync reports setting on devices.
-
-**Storage in the EU** *How is data stored in the EU geo?* 
-
-Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant. 
-
-**Microsoft Power BI** *Are there Power BI templates available?*
-
-There are no Power BI templates available for sync reports.
+- There is negligible impact to a network after enabling the sync reports setting on devices.
+- Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant. 
+- There are no Power BI templates available for sync reports.
+- Admins will see errors based on the user's client language, not in the admin's configured language.
 
 ## Troubleshooting
 
