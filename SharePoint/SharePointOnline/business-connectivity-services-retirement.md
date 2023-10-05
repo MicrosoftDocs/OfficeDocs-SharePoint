@@ -35,7 +35,7 @@ All Business Connectivity Services features will be retired in SharePoint in Mic
 
 We encourage you to explore using Power Apps to replace their Business Connectivity Services solutions in SharePoint in Microsoft 365. Although there's no direct migration from Business Connectivity Services to Power Apps, it supports a modern, cloud-first external data connectivity experience. Power Apps can integrate with various Microsoft 365 services and external data sources through its extensible connector technology, including SharePoint, Dynamics 365, SQL Server, and others. It also supports integrating with on-premises data sources through the on-premises data gateway.
 
-To learn more about Power Apps, see the links in the [More information](#more-information) section.
+To learn more about Power Apps, see the links in the [More information](#more-information-about-power-apps) section.
 
 ## Retirement schedule
 
