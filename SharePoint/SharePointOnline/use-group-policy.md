@@ -37,9 +37,8 @@ This article describes the OneDrive Group Policy objects (GPOs) that administrat
 
 <br/>
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
- 
+
 ## Manage OneDrive using Group Policy
 
 1. Install the OneDrive sync app for Windows. (To see builds that are being released and the download builds, see [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
@@ -275,8 +274,6 @@ In File Explorer, the files appear with an "Excluded from sync" icon in the **St
 
 Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
 
-!["Your admin has excluded these file types from syncing" message](media/excluded-files.png)
-
 > [!NOTE]
 > Users can still browse to their OneDrive in a web browser to upload a file that has been excluded from their local OneDrive folder. We recommend that users remove the local file after doing this upload because having a file with the same name in the same folder will result in a sync conflict with the skipped file.
 
@@ -337,7 +334,7 @@ If you disable or don't configure this setting, users can choose to limit the up
 
 > [!IMPORTANT]
 > If you enable or disable this setting, and then change it back to **Not Configured**, the last configuration remains in effect. We recommend enabling this setting instead of **Limit the sync app upload speed to a fixed rate** to limit the upload rate. You should not enable both settings at the same time.
- 
+
 ### Prevent authentication from automatically happening
 <a name="DisableAutoConfig"> </a>
 
@@ -438,11 +435,8 @@ Restore B2B Sync with:
 ### Prompt users to move Windows known folders to OneDrive
 <a name="KFMOptInWithWizard"> </a>
 
-This setting shows the following window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
+This setting shows a window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
 
-> [!div class="mx-imgBorder"]
-> ![Window prompting users to backup important folders](media/kfm-wizard.png)
-  
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If users have already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   
 If you disable or don't configure this setting, the window that prompts users to protect their important folders doesn't appear.
@@ -533,16 +527,12 @@ Use this setting to redirect and move your users' Documents, Pictures, and/or De
   
 You can move all folders at once or select the folders you want to move. After a folder is moved, this policy won't affect that folder again, even if you uncheck the checkbox for the folder.
 
-If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
-  
-![OneDrive protection message](media/d28dbca8-f51a-43b2-b069-c483a53c6d0b.png)
-  
-If you disable or don't configure this setting, your users' known folders aren't silently redirected to OneDrive.
-  
+If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected. If you disable or don't configure this setting, your users' known folders aren't silently redirected to OneDrive.
+
 Enabling this policy sets the following registry keys:
-  
+
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"`
-  
+
 where "1111-2222-3333-4444" is a String value representing the [tenant ID](find-your-office-365-tenant-id.md).
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"=dword:00000001`
@@ -754,7 +744,7 @@ The previous registry key sets the download throughput rate limit to 50KB/sec, u
 > OneDrive.exe must be restarted on users' computers to apply this setting.
   
 For information about estimating the network bandwidth you need for a sync, see [Network utilization planning for the OneDrive sync app](network-utilization-planning.md).
- 
+
 ### Limit the sync app upload speed to a fixed rate
 <a name="UploadBandwidthLimit"> </a>
 
@@ -794,7 +784,6 @@ where "1111-2222-3333-4444" is the tenant ID.
   
 If you disable this setting, users can change the location of their sync folder in OneDrive Setup.
 
-  
 ### Prevent users from syncing personal OneDrive accounts
 <a name="DisablePersonalSync"> </a>
 
