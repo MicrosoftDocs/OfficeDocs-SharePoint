@@ -28,7 +28,7 @@ SharePoint has a long history of helping users work with external data inside th
 
 ## Impacted features and scenarios
 
-All Business Connectivity Services features will be retired in SharePoint in Microsoft 365. This includes features that such as:
+All Business Connectivity Services features will be retired in SharePoint in Microsoft 365. This includes features such as:
 
 - External lists
 - External columns
@@ -55,8 +55,8 @@ Starting today, customers can prepare for the Business Connectivity Services ret
 Customers should only set this property once they've confirmed there's no business need to use the Business Connectivity Services features. Customers can confirm Business Connectivity Services usage by following these instructions:
 
 1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](sharepoint-admin-role.md) for your organization.
-> [!NOTE]
-> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
+    > [!NOTE]
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
 
 2. Under **BCS**, select **Open**.
 3. On the **BCS Home Page**, select **Manage BDC Models and External Content Types**.
