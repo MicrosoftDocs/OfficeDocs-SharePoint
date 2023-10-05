@@ -67,7 +67,7 @@ You should only set this property once you've confirmed there's no business need
 To proceed with setting the property that will block this feature, tenant administrators can download and launch SharePoint Online Management Shell version 16.0.24120.12000 or higher and then run the following commands:
 
 ```PowerShell
-Connect-SPOService -Url https:///<tenant/>-admin.sharepoint.com
+Connect-SPOService -Url https://<tenant>-admin.sharepoint.com
 Set-SPOTenant -BusinessConnectivityServiceDisabled $true
 ```
 
@@ -79,10 +79,10 @@ Starting January 8, 2024, Microsoft will block Business Connectivity Services in
 
 If you want to re-enable Business Connectivity Services, you can do so by setting this property to false as follows:
 
-``
-Connect-SPOService -Url https://\<tenant\>-admin.sharepoint.com
- Set-SPOTenant -BusinessConnectivityServiceDisabled $false
-``
+```PowerShell
+Connect-SPOService -Url https://<tenant>-admin.sharepoint.com
+Set-SPOTenant -BusinessConnectivityServiceDisabled $false
+```
 
 Note that re-enabling Business Connectivity Services in your tenant isn't recommended unless you have a specific need.
 
