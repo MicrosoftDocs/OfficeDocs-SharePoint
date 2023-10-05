@@ -42,7 +42,8 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> This feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization. Try again later.
+> - This feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization.
+> - If your organization has over 10,000 total sites but less than 100,000 total sites, you may be interested in Advanced Tenant Rename, which is currently in a limited, invite-based preview. See [Advanced Tenant Rename (preview)](change-your-sharepoint-domain-name.md#advanced-tenant-rename-preview).
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
@@ -122,6 +123,24 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | SharePoint public sites | If your tenant contains old SharePoint public sites, your SharePoint domain name change will not be allowed.| Public sites on the tenant need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with Public site](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20Public%20site). |
 | Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
+
+## Advanced Tenant Rename (preview)
+If you have over 10,000 total sites in your organization, or want to have greater control over the rename operation, you can consider Advanced Tenant Rename. It supports changing of the SharePoint domain on tenants with up to 100,000 total sites currently, and also has the ability for admins to prioritize up to 4,000 sites in their organization for early execution. This allows for select business-critical or high-visibility sites to complete first and reduce any risk or concerns with its impact on daily operations.
+
+Advanced Tenant Rename is a part of SharePoint Advanced Management, and is currently in a **limited, invite-based preview**.
+
+### How to participate
+The limited preview can currently only support tenants meeting the following conditions:
+- Your organization has less than 100,000 total sites.
+- Your organization does not have Multi-Geo set up.
+- Your organization does not use special clouds or government clouds.
+- Your organization does not use vanity domain configurations.
+
+If you are interested in participating in the preview, and meet the above conditions, please [sign up here](https://aka.ms/ODSPSecurityPreviews). Make sure to include all of the requested information, and indicate your interest in "**Advanced tenant rename (SPO domain name changes due to rebranding, M&A, tenant consolidation)**".
+
+Responding to the form is not a guarantee of acceptance in the preview. There are limited slots available, and each application will be reviewed. Microsoft will reach out if there is space in the preview program and share more information and work with you on next steps.
+
+Since this is a part of SharePoint Advanced Management, participants will need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
 
 ## Step 1: Add the new domain name
 
