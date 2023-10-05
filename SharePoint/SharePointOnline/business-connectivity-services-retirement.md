@@ -12,6 +12,8 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
+ms.collection:
+- Tier3
 search.appverid:
 - SPO160
 - MET150
