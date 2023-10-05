@@ -31,9 +31,6 @@ Microsoft Syntex - SharePoint Advanced Management is a Microsoft 365 add-on that
 
 SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
 
-> [!IMPORTANT]
-> SharePoint Advanced Management is currently rolling out. Licenses and functionality will become available to organizations throughout March and early April.
-
 ## Advanced access policies for secure content collaboration
 
 **[Restricted access control for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not in the Microsoft 365 group won't have access even if they previously had site access permissions to a file.
