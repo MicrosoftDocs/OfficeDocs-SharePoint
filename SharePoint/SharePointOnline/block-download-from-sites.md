@@ -51,7 +51,7 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
     ```PowerShell
     Set-SPOSite -Identity <SiteURL> -BlockDownloadPolicy $true
     ```
-    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`
+    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`. You can apply this cmdlet to OneDrives as well by changing the URL to `https://contoso-my.sharepoint.com/personal/John`. 
 
 The following parameters can be used with this cmdlet to fine-tune it.
 
