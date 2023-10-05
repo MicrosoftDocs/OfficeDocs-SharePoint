@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 5: Map Google identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 5:  Map Google identities with Migration Manager." 
 ---
@@ -29,19 +30,12 @@ Map identities of your Google Drives to Microsoft 365 accounts while using Migra
 
 Identity Mapping is when you match the user and group identities that have access to your source environment (in this case Google) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
 
-
 Map your groups and users in Google to those in Microsoft 365 to migrate your Google sharing settings.
 
 1. Select the Migrations tab.
-2. Select **Map identities** on the menu bar.
-
-![Map Google identities](media/mm-box-upload-destinations-bulk.png)
-</br>
+2. Select **Map identities** from the menu bar.
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values using a CSV file.
 
-
-
-</br>
 
 ## Mapping individual identities
 

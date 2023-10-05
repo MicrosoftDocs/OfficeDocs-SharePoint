@@ -1,5 +1,5 @@
 ---
-ms.date: 09/03/2019
+ms.date: 08/02/2023
 title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: mikeplum
@@ -14,6 +14,7 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- essentials-compliance
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -37,14 +38,11 @@ The main types of sites in SharePoint are:
 
 ## Team site permissions and Microsoft 365 Groups
 
-By default, each SharePoint team site is part of an [Microsoft 365 group](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). a Microsoft 365 group is a single permissions group that is associated with various Microsoft 365 services. This includes a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others.
+By default, each SharePoint team site is part of an [Microsoft 365 group](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). A Microsoft 365 group is a single permissions group that is associated with various Microsoft 365 services. This includes a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others.
 
 When you add owners or members to the Microsoft 365 group, they're given access to the SharePoint site along with the other group-connected services. Group owners become site owners, and group members become site members.
 
-It's possible to manage SharePoint site permissions separately from the Microsoft 365 group by using SharePoint groups, unless it's a channel site. (We recommend against this for the simplest management experience.) In such a case, group members will continue to have access to the site, but users added directly to the site won't have access to any of the group services. The exception is view-only access - Microsoft 365 groups don't have view-only access, so any users you wish to have view permissions on the site must be added directly to the Visitors group on the site.
-
-> [!NOTE]
-> When you create a new team or private or shared channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+It's possible to manage SharePoint site permissions separately from the Microsoft 365 group by using SharePoint groups, unless it's a channel site. (We recommend against this for the simplest management experience.) In such a case, group members will continue to have access to the site, but users added directly to the site won't have access to any of the group services. Microsoft 365 groups don't have view-only access, so any users you wish to have view permissions on the site must be added directly to the Visitors group on the site.
 
 ### Using team sites with Teams
 
@@ -90,7 +88,7 @@ Giving people permissions to a site, group, or team gives them access to all sit
 
   - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited. *Anyone* links can't be used with files in a Teams shared channel site.
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests or external participants in Teams shared channels).
-  - *Specific people* links only work for the people that users specify when they share the item. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel.
+  - *Specific people* links only work for the people that users specify when they share the item. For files in a Teams shared channel site, *specific people* links can't be sent to people outside the organization unless they're in the channel.
 
 You can [change the type of link that is presented to users by default](./change-default-sharing-link.md) for each site.
 
@@ -106,11 +104,9 @@ SharePoint has external sharing settings at both the organization level and the 
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings#default-site-sharing-settings) for more information.
 
 [Shared channels in teams](/MicrosoftTeams/shared-channels) do not use guest accounts for sharing with people outside the organization. However, external sharing must be enabled for people outside the organization to be invited to shared channels.
-
-Guest sharing for private and shared channel sites can only be changed by using PowerShell.
 
 To set up guest sharing for a site, see [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site).
   
@@ -122,11 +118,9 @@ If you have confidential information that should never be shared externally, we 
 
 Azure AD B2B collaboration provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
-With SharePoint and OneDrive integration, the Azure B2B collaboration one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. (Shared channels in Teams don't use Azure B2B collaboration, but rather [Azure B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview).)
+With [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), the Azure B2B collaboration one-time passcode feature is used for external sharing of files, folders, list items, document libraries, and sites. (Shared channels in Teams don't use Azure B2B collaboration, but rather [Azure B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview).)
 
-With Azure B2B collaboration integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
-
-## See also
+## Related topics
 
 [External sharing overview](external-sharing-overview.md)
 

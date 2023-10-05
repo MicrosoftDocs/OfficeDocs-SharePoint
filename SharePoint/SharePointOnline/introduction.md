@@ -1,6 +1,6 @@
 ---
-ms.date: 07/11/2018
-title: "Introduction to SharePoint and OneDrive"
+ms.date: 06/05/2023
+title: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-overview
 ms.custom:
 - seo-marvel-apr2020
 - intro-overview
@@ -22,7 +23,7 @@ ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint and OneDrive in Microsoft 365, which are cloud-based services that help organizations share and manage content, and collaborate with others."
 ---
 
-# Introduction to SharePoint and OneDrive in Microsoft 365
+# Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
 
 SharePoint and OneDrive in Microsoft 365 are cloud-based services that help organizations share and manage content, knowledge, and applications to: 
 

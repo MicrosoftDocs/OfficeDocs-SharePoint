@@ -7,11 +7,13 @@ author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
+ROBOTS: NOINDEX
 f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -64,23 +66,23 @@ A SharePoint group is a collection of users who all have the same set of permiss
 
 You can add users to a group at any time.
   
-1. On your website or team site, click **Share**
+1. On your website or team site, click **Share**.
   
     ![Click the share button to send invites to new members](media/d4917a74-658e-4ca8-8f61-5b83e9a5b532.png)
   
     If you see **Members** instead of **Share**, click **Members**, and then click **Add members**.
     
-2. By default, the **Share** dialog that appears displays the message **Invite people to Edit** or **Invite people**. This invites the users who you add to join the SharePoint Members group. To choose a different group and permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a group or permission level**.
+2. In the **Share site** dialog that appears, enter the name or email address of the user or group that you want to add. When the name appears, choose the permission level from the dropdown.
   
-    ![Add a member to a group dialog](media/1cc64d51-54cd-41e1-a4fd-db317e38251c.PNG)
+    ![Add a member to a group dialog](media/add-user-to-a-group.PNG)
+
   
-1. In the **Enter names, email addresses, or Everyone** box, enter the name or email address of the user or group that you want to add. When the name appears in a confirmation box below your entry, select the name to add it to the text box. 
+3. If you want to add more names, repeat these steps. 
     
-2.  If you want to add more names, repeat these steps. 
-    
-3.  (Optional) Enter a personalized message to send to the new users in **Include a personal message with this invitation**. 
-    
-4.  Click **Share**. 
+4. Enter a message to send to the new users in the **Add a message** box.
+
+5. Select **Share**.
+
     
 ### Remove users from a group
 <a name="__toc340230104"> </a>

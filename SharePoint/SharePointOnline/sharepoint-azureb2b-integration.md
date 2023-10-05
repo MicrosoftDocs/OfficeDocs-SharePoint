@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-collaboration
@@ -33,7 +33,7 @@ Enabling this integration doesn't change your sharing settings. For example, if 
 
 Once the integration is enabled you and your users don't have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before Azure AD B2B integration was enabled, SharePoint will automatically create a B2B guest account. This guest account is created for the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest won't be added to the directory and the file will need to be reshared.)
 
-SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently not enabled by default.
+SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is enabled by default for new tenants.
 
 Advantages of Azure AD B2B include:
 - Invited people outside your organization are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
@@ -42,7 +42,7 @@ Advantages of Azure AD B2B include:
 - SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**. As with Microsoft 365 Groups and Teams, if an Azure AD organizational relationship setting is more restrictive than a SharePoint or OneDrive setting, the Azure AD setting will prevail.
 
 > [!NOTE]
-> This integration isn't supported in Office 365 operated by 21Vianet.
+> Azure AD B2B doesn’t support Microsoft accounts in Microsoft 365 operated by 21Vianet.
 
 ## Enabling the integration
 

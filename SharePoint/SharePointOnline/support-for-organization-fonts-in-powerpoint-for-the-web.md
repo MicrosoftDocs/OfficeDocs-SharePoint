@@ -61,7 +61,7 @@ The following diagram outlines the key steps in making our solution work:
 
 5. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 6. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-7. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
+7. Using the **SharePoint Online Management Shell**, run the following command as an administrator to designate the library as custom fonts asset library.
 
       `Add-SPOOrgAssetsLibrary -LibraryUrl <New Document Library SharePoint URL> -OrgAssetType OfficeFontLibrary -CdnType Public`
 
@@ -74,7 +74,7 @@ The following diagram outlines the key steps in making our solution work:
     > - Only include the direct path of your font library. The trailing `/AllItems.aspx` should not be included in your Library URL.
     > - Font asset libraries must be designated with `-CdnType Public`.
 
-8. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
+8. Using the **SharePoint Online Management Shell**, run the following command as an administrator to upload your custom font(s) to the document library location.
 
    ```powershell
    Set-SPOCustomFontCatalog -FontFolder <Local Font Folder Location> -LibraryUrl <Document Library SharePoint URL>

@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2018
+ms.date: 09/26/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
@@ -31,7 +31,7 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.1.125.2](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.6](https://aka.ms/spmt-beta-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 4.1
 
@@ -43,7 +43,7 @@ SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 
     - Modern team sites & Communication sites
     - Modern site pages and news posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. 
     - Files or folders with "#" or "%" in their name can be migrated. These special characters are retained in migration.
-- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate.
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate. **Note:** This feature is currently **only available in the public preview build.** It is **not** in the Full Generally Available (GA) build.
 
 
 ## SPMT 4.0
@@ -96,7 +96,9 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 [Scan and assess a SharePoint Server site with SPMT](/sharepointmigration/spmt-scan)
 [SharePoint Migration Tool (SPMT) scan assessment error codes](/sharepointmigration/spmt-scan-risk-codes)
 
-## SPMT 3.5.123.6
+## Earlier versions 
+
+#### SPMT 3.5.123.6
 
 **Improvements**
 
@@ -104,7 +106,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-## SPMT 3.5.123.5
+### SPMT 3.5.123.5
 
 **New features**
 
@@ -118,7 +120,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-## SPMT 3.5.123.4
+### SPMT 3.5.123.4
 
 **New features**
 
@@ -133,7 +135,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.5.123.3
+### SPMT 3.5.123.3
 
 **Improvements**
 
@@ -142,7 +144,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.5.123.0
+### SPMT 3.5.123.0
 
 **New features**
 
@@ -159,7 +161,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 
 
 
-## SPMT 3.4.122.4
+### SPMT 3.4.122.4
 
 **Improvements**
 
@@ -168,7 +170,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.122.3
+### SPMT 3.4.122.3
 
 **New features and important changes**
 
@@ -184,7 +186,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.122.1
+### SPMT 3.4.122.1
 
 **Improvements**
 
@@ -192,7 +194,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-## SPMT 3.4.122.0
+### SPMT 3.4.122.0
 
 **New features and important changes**
 
@@ -206,7 +208,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-## SPMT 3.4.121.7
+### SPMT 3.4.121.7
 
 **Improvements**
 
@@ -215,7 +217,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.121.6
+### SPMT 3.4.121.6
 
 **Improvements**
 
@@ -224,7 +226,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.121.5
+### SPMT 3.4.121.5
 
 **Improvements**
 
@@ -235,7 +237,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 
 
 
-## SPMT 3.4.121.4
+### SPMT 3.4.121.4
 
 **New features and important changes**
 
@@ -251,7 +253,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.121.2
+### SPMT 3.4.121.2
 
 **New features and important changes**
 
@@ -269,7 +271,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 
 
 
-## SPMT 3.4.121.1
+### SPMT 3.4.121.1
 
 **Improvements**
 
@@ -278,7 +280,7 @@ Scroll down below inventory numbers, you can see breakdown by content types and 
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.121.0
+### SPMT 3.4.121.0
 
 The following improvements were added to this release:
 
@@ -297,7 +299,7 @@ The following improvements were added to this release:
 |User interface|Warning messages will display in the tool when migration is throttled by SharePoint.|
 
 
-## SPMT 3.4.120.7
+### SPMT 3.4.120.7
 
 The following improvements were added to this release:
 
@@ -308,7 +310,7 @@ The following improvements were added to this release:
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.120.6
+### SPMT 3.4.120.6
 
 The following improvements were added to this release:
 
@@ -319,7 +321,7 @@ The following improvements were added to this release:
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.120.5
+### SPMT 3.4.120.5
 
 The following improvements were added to this release:
 
@@ -329,19 +331,7 @@ The following improvements were added to this release:
 |:-----|:-----|
 |General|General improvements have been made to fix bugs in tool.|
 
-## SPMT 3.4.120.4
-
-The following improvements were added to this release:
-
-**Improvements**
-
-|Issue|Fix|
-|:-----|:-----|
-|General|General improvements have been made to fix bugs in tool.|
-
-
-
-## SPMT 3.4.120.3
+### SPMT 3.4.120.4
 
 The following improvements were added to this release:
 
@@ -353,7 +343,19 @@ The following improvements were added to this release:
 
 
 
-## SPMT 3.4.120.2
+### SPMT 3.4.120.3
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+### SPMT 3.4.120.2
 
 The following improvements were added to this release:
 
@@ -366,7 +368,7 @@ The following improvements were added to this release:
 |General|General improvements have been made to fix bugs in tool.|
 
 
-## SPMT 3.4.120.1
+### SPMT 3.4.120.1
 
 The following improvements were added to this release:
 
@@ -378,7 +380,7 @@ The following improvements were added to this release:
 
 
 
-## SPMT 3.4.120.0
+### SPMT 3.4.120.0
 
 The following features are now available in SPMT:
 
@@ -401,7 +403,7 @@ The following features are now available in SPMT:
 
 
 
-## SPMT 3.4.119.7
+### SPMT 3.4.119.7
 
 The following features were added in this release:
 
@@ -419,7 +421,7 @@ The following features were added in this release:
 |General|General improvements have been made fix bugs in the tool.
 
 
-## SPMT 3.4.119.6
+### SPMT 3.4.119.6
 
 The following features were added in this release:
 
@@ -431,7 +433,7 @@ The following features were added in this release:
 |General|General improvements have been made in addition to some minor bug fixes in tool.
 
 
-## SPMT 3.4.119.5
+### SPMT 3.4.119.5
 
 The following features were added in this release:
 
@@ -443,7 +445,7 @@ The following features were added in this release:
 |List URL|The original List URL end part format will now be preserved in the destination. 
 
 
-## SPMT 3.4.119.4
+### SPMT 3.4.119.4
 
 The following features were added in this release:
 
@@ -456,7 +458,7 @@ The following features were added in this release:
 
 
 
-## SPMT 3.4.119.3
+### SPMT 3.4.119.3
 
 The following features were added in this release:
 
@@ -473,7 +475,7 @@ The following features were added in this release:
 |Teams|Improvement in teams pages migration.|
 
 
-## SPMT 3.4.119.2
+### SPMT 3.4.119.2
 
 The following features were added in this release:
 
@@ -491,7 +493,7 @@ The following features were added in this release:
 
 
 
-## SPMT 3.2.119.2
+### SPMT 3.2.119.2
 
 The following features were added in this release:
 
@@ -513,7 +515,7 @@ The following features were added in this release:
 |Performance|General improvements have been made to the tool.|
 
 
-## SPMT 3.2.118.0
+### SPMT 3.2.118.0
 
 **New features**
 
@@ -541,7 +543,7 @@ In addition to several minor fixes, the primary improvements made in this releas
 
 
 
-## SPMT 3.2.115.3
+### SPMT 3.2.115.3
 
 **New features**
 
@@ -568,7 +570,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-## SPMT 3.2.114.0
+### SPMT 3.2.114.0
 
 **New features**
 
@@ -592,7 +594,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-## SPMT V3.1.110.1
+### SPMT V3.1.110.1
 
 **New features**
 
@@ -621,7 +623,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-## SPMT V2.1.102.0
+### SPMT V2.1.102.0
 
 **New features**
 
@@ -640,7 +642,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 |Stability|General improvements have been made to remove some errors in tool.|
 
 
-## SPMT V2.1.101.6
+### SPMT V2.1.101.6
 
 **New features**
 
@@ -660,7 +662,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 |Stability|General improvements have been made to remove some errors in tool.|
 
    
-## SPMT V2.1.101.0
+### SPMT V2.1.101.0
 
 **New features**
 
@@ -683,7 +685,7 @@ In addition to many minor fixes, here are the primary improvements made in this 
 
 
 
-## SPMT V2.1.100.0
+### SPMT V2.1.100.0
 
 **New features**
 
@@ -716,7 +718,7 @@ In addition to many minor fixes, here are the primary improvements made in this 
 |Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
 |Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but the checked-out version won't. <br/> |
 
-## SPMT V1.1.90.1
+### SPMT V1.1.90.1
 
 **New features**
 

@@ -1,6 +1,6 @@
 ---
-ms.date: 07/08/2019
-title: "Plan & deploy a file collaboration environment - SharePoint"
+ms.date: 08/07/2023
+title: Plan and deploy a file collaboration environment - SharePoint
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,24 +14,25 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-compliance
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
 search.appverid: MET150
-description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
+description: In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint in Microsoft 365.
 ---
 
-# File collaboration in SharePoint with Microsoft 365
+# Plan and deploy a file collaboration environment - SharePoint
 
-With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 reach far beyond the traditional SharePoint site. Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily and where your organization's sensitive content remains secure.
+With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 reach beyond the traditional SharePoint site. Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily and where your organization's sensitive content remains secure.
 
 In the sections below, we call out the options and decisions that you as an administrator should consider when setting up a collaboration environment:
 
-  - How SharePoint relates to other collaboration services in Microsoft 365, including OneDrive, Microsoft 365 Groups, and Teams.
+- How SharePoint relates to other collaboration services in Microsoft 365, including OneDrive, Microsoft 365 Groups, and Teams.
 
-  - How you can create an intuitive and productive collaboration environment for your users.
+- How you can create an intuitive and productive collaboration environment for your users.
 
-  - How you can protect your organization's data by managing access through permissions, data classifications, governance rules, and monitoring.
+- How you can protect your organization's data by managing access through permissions, data classifications, governance rules, and monitoring.
 
 This is part of the broader Microsoft 365 collaboration story:
 
@@ -39,21 +40,19 @@ This is part of the broader Microsoft 365 collaboration story:
 
 - [Collaboration governance](/microsoft-365/solutions/collaboration-governance-overview)
 
-- [Meetings and conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
+- [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events)
 
 We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](/microsoft-365/solutions/productivity-illustrations) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
-
-Also see the [File Protection Solutions in Microsoft 365](/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
 
 ## Creating a successful collaboration experience
 
 The technical implementation options that you choose for file collaboration in Microsoft 365 should balance what can seem to be contradictory requirements:
 
-  - Protecting your intellectual property
+- Protecting your intellectual property
 
-  - Enabling self-service
+- Enabling self-service
 
-  - Creating a smooth user experience
+- Creating a smooth user experience
 
 **Protecting your intellectual property**
 
@@ -67,8 +66,6 @@ By using a combination of features – depending on the sensitivity of your data
 
 **Enabling self-service**
 
-In SharePoint Server on-premises, many organizations chose an IT-focused model where users must request sites and provide a business justification. This was done to prevent site sprawl and to apply governance policies around access to sensitive data.
-
 In Microsoft 365, we recommend allowing users to create Teams, Microsoft 365 Groups, and SharePoint sites as needed. You can use sensitivity labels to enforce permissions governance, take advantage of compliance features that protect your content, and use expiration and renewal policies to make sure unused sites don't accumulate.
 
 By choosing options that favor user self-service, you can minimize the impact on your IT staff while creating an easier experience for your users.
@@ -79,15 +76,13 @@ The key to creating a smooth user experience is to avoid creating barriers for y
 
 ## SharePoint, Microsoft 365 Groups, and Teams
 
-In Microsoft 365, SharePoint is integrated with a variety of other services to provide a much richer experience than is possible with on-premises solutions such as SharePoint Server. These integrations affect how you manage user permissions and what your users can do in a collaboration scenario.
-
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint in Microsoft 365, each SharePoint team site is part of a Microsoft 365 group. A Microsoft 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Microsoft 365 group, they are given access to the SharePoint site along with the other connected services.
+In SharePoint in Microsoft 365, each SharePoint team site is part of a Microsoft 365 group. A Microsoft 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Microsoft 365 group, they are given access to the SharePoint site along with the other connected services.
 
 While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Microsoft 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
 
 Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Microsoft 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. Teams uses the SharePoint site that is connected to the Microsoft 365 group for files in standard channels and creates separate SharePoint sites for each private or shared channel. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
 
-For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites) and [Manage settings and permissions when SharePoint and Teams are integrated](/sharepoint/manage-teams-sharepoint-experiences).
 
 ## Collaboration in client applications
 
@@ -95,7 +90,7 @@ Office applications such as Word, Excel, and PowerPoint provide a wide variety o
 
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
-For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](/deployoffice/deployment-guide-microsoft-365-apps).
+For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps).
 
 ## OneDrive libraries
 
@@ -109,29 +104,27 @@ On devices running Windows or macOS, users can install the OneDrive sync app to 
 
 The two main decisions to consider for using OneDrive in collaboration scenarios are:
 
-  - Do you want to allow Microsoft 365 users to share files in OneDrive with people outside your organization?
+- Do you want to [allow Microsoft 365 users to share files in OneDrive with people outside your organization](turn-external-sharing-on-or-off.md)?
 
-  - Do you want to restrict file sync in any way – such as only to managed devices?
+- Do you want to [restrict file sync](plan-file-sync.md) in any way – such as only to managed devices?
 
 These settings are available in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
-OneDrive is an important part of the Microsoft 365 collaboration story. For information about how to deploy OneDrive in your organization, see [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise).
-
-## Securing your data 
+## Securing your data
 
 A big part of a successful collaboration solution is making sure your organization's data remains secure. Microsoft 365 provides a variety of features to help you keep your data secure while enabling a seamless collaboration experience for your users.
 
 To help protect your organization's information, you can:
 
-  - **Control sharing** – by configuring sharing settings for each site that are appropriate to the type of information in the site, you can create a collaboration space for users while securing your intellectual property.
+- **Control sharing** – by configuring sharing settings for each site that are appropriate to the type of information in the site, you can create a collaboration space for users while securing your intellectual property.
 
-  - **Classify and protect information** – by classifying the types of information in your organization, you can create governance policies that provide higher levels of security to information that is confidential compared to information that is meant to be shared freely.
+- **Classify and protect information** – by classifying the types of information in your organization, you can create governance policies that provide higher levels of security to information that is confidential compared to information that is meant to be shared freely.
 
-  - **Manage devices** – with device management, you can control access to information based on device, location, and other parameters.
+- **Manage devices** – with device management, you can control access to information based on device, location, and other parameters.
 
-  - **Monitor activity** – by monitoring the collaboration activity happening in Teams and SharePoint, you can gain insights into how your organization's information is being used. You can also set alerts to flag suspicious activity.
+- **Monitor activity** – by monitoring the collaboration activity happening in Teams and SharePoint, you can gain insights into how your organization's information is being used. You can also set alerts to flag suspicious activity.
 
-  - **Protect against threats** – by using policies to detect malicious files in SharePoint, OneDrive, and Teams, you can help ensure the safety of your organization's data and network.
+- **Protect against threats** – by using policies to detect malicious files in SharePoint, OneDrive, and Teams, you can help ensure the safety of your organization's data and network.
 
 These are each discussed in more detail below. There are many options to choose from. Depending on the needs of your organization, you can choose the options that give you the best balance of security and usability. If you are in a highly regulated industry or work with highly confidential data, you may want to put more of these controls in place; whereas if your organization's information is not sensitive you may want to rely on basic sharing settings and malicious file alerts.
 
@@ -139,39 +132,23 @@ These are each discussed in more detail below. There are many options to choose 
 
 The sharing settings that you configure for SharePoint and OneDrive determine who your users can collaborate with, both inside and outside your organization. Depending on your business needs and the sensitivity of your data, you can:
 
-  - Disallow sharing with people outside your organization.
+- Disallow sharing with people outside your organization.
 
-  - Require people outside your organization to authenticate.
+- Require people outside your organization to authenticate.
 
-  - Restrict sharing to specified domains.
+- Restrict sharing to specified domains.
 
-You can configure these settings for the entire organization, or for each site independently (except private or shared channel sites). For detailed information, see [Turn sharing on or off](./turn-external-sharing-on-or-off.md) and [Turn sharing on or off for a site](./change-external-sharing-site.md).
+You can configure these settings for the entire organization, or for each site independently (except private or shared channel sites). For detailed information, see [Turn sharing on or off](turn-external-sharing-on-or-off.md) and [Turn sharing on or off for a site](change-external-sharing-site.md).
 
-See [Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure) for additional guidance around sharing with people outside your organization.
+See [Limit accidental exposure to files when sharing with guests](/microsoft-365/solutions/share-limit-accidental-exposure) for additional guidance around sharing with people outside your organization.
 
 When users share files and folders, a shareable link is created which has permissions to the item. There are three primary link types:
 
-  - *Anyone* links give access to the item to anyone who has the link. People using an *Anyone* link do not have to authenticate, and their access cannot be audited.
-  
-    ![Diagram showing how anyone links can be passed from user to user](media/DMC_SharePointSharingLinks_Anyone.png)
-      
-    An *anyone* link is a transferrable, revocable secret key. It's transferrable because it can be forwarded to others. It's revocable because by deleting the link, you can revoke the access of everyone who got it through the link. It's secret because it can't be guessed or derived. The only way to get access is to get the link, and the only way to get the link is for somebody to give it to you. *Anyone* links can't be used with files in a Teams shared channel site.
+- *Anyone* - links that work for anyone and don't require sign-in
+- *People in your organization* - links that work for users in your organization
+- *Specific people* - links that work for the people specified when the link is created
 
-  - *People in your organization* links work for only people inside your Microsoft 365 organization. (They do not work for guests in the directory, only members).  
-
-    ![Diagram showing how people in my organization links can be passed from user to user inside the company](media/DMC_SharePointSharingLinks_PeopleInYourOrganization.png)
-      
-    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign in.  
-
-  - *Specific people* links only work for the people that users specify when they share the item.  
-
-    ![Diagram showing how specific people links only work for the people specified](media/DMC_SharePointSharingLinks_Specific.png)
-      
-    A *specific people* link is a non-transferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link will not work if it's opened by anybody except for the person specified by the sender.  
-      
-    *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient will need to authenticate as the user specified in the link. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel. 
-
-It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
+For more information about these link types, see [How shareable links work in OneDrive and SharePoint in Microsoft 365](shareable-links-anyone-specific-people-organization.md).
 
 **Unauthenticated access with *Anyone* links**
 
@@ -179,13 +156,13 @@ It's important to educate your users in how these sharing links work and which t
 
 If you require people outside your organization to authenticate, *Anyone* links will not be available to users and you'll be able to audit guest activity on shared files and folders.
 
-Though *Anyone* links do not require people outside your organization to authenticate, you can track the usage of *Anyone* links and revoke access if needed. If people in your organization frequently email documents to people outside your organization, *Anyone* links may be a better option than emailing an attachment.
+Though *Anyone* links do not require people outside your organization to authenticate, you can track the usage of *Anyone* links and revoke access if needed.
 
 If you want to allow *Anyone* links, there are several options for a more secure sharing experience.
 
 You can restrict *Anyone* links to read-only. You can also set an expiration time limit, after which the link will stop working.
 
-Another option is to configure a different link type to be displayed to the user by default. This can help minimize the chances of inappropriate sharing. For example, if you want to allow *Anyone* links but are concerned that they only be used for specific purposes, you can [set the default link type](./change-default-sharing-link.md) to *Specific people* links or *People in your organization* links instead of *Anyone* links. Users would then have to explicitly select *Anyone* links when they share a file or folder.
+Another option is to configure a different link type to be displayed to the user by default. This can help minimize the chances of inappropriate sharing. For example, if you want to allow *Anyone* links but are concerned that they only be used for specific purposes, you can [set the default link type](change-default-sharing-link.md) to *Specific people* links or *People in your organization* links instead of *Anyone* links. Users would then have to explicitly select *Anyone* links when they share a file or folder.
 
 You can also use data loss prevention to restrict *Anyone* link access to files that contain sensitive information.
 
@@ -207,7 +184,7 @@ By classifying your information and creating governance rules around them, you c
 
 With data loss prevention policies in place, you can be relatively liberal with your sharing settings for a given site and rely on data loss prevention to enforce your governance requirements. This provides a friendlier user experience and avoids unnecessary restrictions that users might try to work around.
 
-For detailed information about data loss prevention, see [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
+For detailed information about data loss prevention, see [Learn about data loss prevention](/purview/dlp-learn-about-dlp).
 
 **Sensitivity labels**
 
@@ -215,7 +192,7 @@ Sensitivity labels provide a way to classify teams, groups, sites, and documents
 
 Using sensitivity labels helps your users to share information safely and to maintain your governance policies without the need for users to become experts in those policies.
 
-For example, you could configure a policy that requires Microsoft 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential. For information about using sensitivity labels with teams, groups, and sites, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+For example, you could configure a policy that requires Microsoft 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential. For information about using sensitivity labels with teams, groups, and sites, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)
 
 **Conditions and actions**
 
@@ -223,116 +200,40 @@ With data loss protection conditions and actions, you can enforce a governance w
 
 Examples include:
 
-  - If customer information is detected in a document, then users cannot share that document with guests.
+- If customer information is detected in a document, then users cannot share that document with guests.
 
-  - If a document contains the name of a confidential project, then guests cannot open the document even if it has been shared with them.
+- If a document contains the name of a confidential project, then guests cannot open the document even if it has been shared with them.
 
-Microsoft Defender for Cloud Apps offers additional granular conditions, actions, and alerts to help you secure your content. These include the ability to remove a user's permissions or quarantine the user when the specified condition is met.
+For more information, see [Learn about data loss prevention](/purview/dlp-learn-about-dlp)
 
-**User notifications**
-
-User notifications provide a way to communicate to your users – via email or policy tips – that data loss prevention has detected something that they should be aware of. The user can then decide the best course of action depending on the situation. For example, if a user unknowingly attempts to share a document that contains a credit card number, the user is prompted that a credit card number has been found and advised of your organization's policy regarding this.
-
-### Manage access
-
-Microsoft 365 provides a variety of governance features to help you create an intuitive but secure collaboration environment for your users.
-
-  - Use device management to ensure your organization's information is accessed only by compliant devices.
-
-  - Use conditional access to ensure your confidential data is accessed only from locations and apps that you trust.
-
-  - Monitor information sharing in real time and through reports to ensure your governance requirements are met and sensitive information is being kept secure.
-
-Additionally, you can use [Azure Active Directory access reviews](/azure/active-directory/governance/access-reviews-overview) to automate a periodic review of group and team ownership and membership.
-
-**Device Management**
-
-Through device management, you can take additional steps to secure your organization's information. You can manage pretty much any device that your users might have – PCs, Macs, mobile devices, and Linux computers.
-
-Examples include:
-
-  - Ensure devices have the latest updates before allowing access to Microsoft 365
-
-  - Prevent copy and paste of confidential data to personal or unmanaged apps
-
-  - Erase company data from managed devices
-
-As you consider your options governing access to information through device management, keep in mind that guests are likely to have unmanaged devices. For sites where you've enabled guest sharing, be sure to provide the needed access to unmanaged devices, even if that's just web access via a PC or Mac. Azure Active Directory conditional access (discussed below) offers some options to reduce the risk of guests with unmanaged devices. [Some settings can be configured directly from SharePoint](./control-access-from-unmanaged-devices.md).
-
-Microsoft Intune provides detailed device profiling options and can also deploy and manage individual apps such as Office apps and OneDrive. For detailed information about Intune and device management, see [Microsoft Intune overview](/intune/what-is-intune).
-
-You can configure device management from the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
-
-**Conditional access**
+### Conditional access
 
 Azure Active Directory conditional access provides additional controls to prevent users from accessing your organization's resources in risky situations, such as from untrusted location or from devices that aren't up to date.
 
 Examples include:
 
-  - Block guests from signing in from risky locations
+- Block guests from signing in from risky locations
 
-  - Require multi-factor authentication for mobile devices
+- Require multi-factor authentication for mobile devices
 
 You can create access policies that are specifically for guests, allowing risk mitigation for people who most likely have unmanaged devices.
 
 For detailed information, see [What is Conditional Access?](/azure/active-directory/conditional-access/overview).
 
-**Real-time monitoring with alerts**
-
-[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) services provide an extensive policy infrastructure that you can use to monitor activity that you consider to be risky for your organization's data.
-
-Examples include:
-
-  - Raise an alert when a confidential file is shared externally.
-
-  - Raise an alert when there's a mass download by a single user.
-
-  - Raise an alert when an externally shared file hasn't been updated for a specified period of time.
-
-Microsoft 365 Defender can also watch for anomalous behavior such as unusually large uploads or downloads, access from unusual locations, or unusual admin activity.
-
-By configuring alerts, you can be more confident in allowing an open sharing experience for your users.
-
-You can see the alerts on the [Microsoft 365 Defender alerts page](https://security.microsoft.com/alerts).
-
-For detailed information about alerts in Microsoft 365 Defender, see [Investigate alerts in Microsoft 365 Defender](/microsoft-365/security/defender/investigate-alerts).
-
-**Monitoring with reports**
+## Monitoring with reports
 
 A variety of reports are available in Microsoft 365 to help you monitor site usage, document sharing, governance compliance, and a host of other events.
 
 For info about how to view reports on SharePoint site usage, see [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww).
 
-For info about how to view data loss prevention reports, see [View the reports for data loss prevention](/microsoft-365/compliance/view-the-dlp-reports).
+For info about how to view data loss prevention reports, see [View the reports for data loss prevention](/purview/dlp-learn-about-dlp#dlp-activity-explorer-and-reports).
 
-For info about how to view Defender for Cloud Apps reports, see [Generate data management reports](/cloud-app-security/built-in-reports).
-
-### Manage threats
-
-You can use Safe Attachments for SharePoint, OneDrive, and Microsoft Teams in Microsoft Defender for Office 365 to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
-
-When Safe Attachments for SharePoint, OneDrive, and Microsoft Teams discovers a malicious file, that file is locked so that users cannot open, move, or copy the file.
-
-The locked file is included in a list of quarantined items that you can monitor. You can then delete or release the file as appropriate.
-
-For detailed info, see [Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/mdo-for-spo-odb-and-teams).
-
-## Migrate files from on-premises
-
-Microsoft 365 offers much greater versatility in collaboration scenarios than on-premises solutions such as SharePoint Server. If you have files in document libraries on SharePoint Server or in file shares, [learn about migrating them to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online). If your users have files in local Windows known folders, you can also move them to OneDrive for enhanced collaboration capabilities. [Learn about Known Folder Move](/onedrive/redirect-known-folders).
-
-If the content that your users are collaborating on is located in SharePoint Server or in file shares, we recommend that you migrate it to Microsoft 365 to take advantage of the broader range of collaboration capabilities.
-
-As part of your migration, you can use the [Azure Information Protection scanner](/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint.
+For info on reports that can help you monitor content sharing, see [Data access governance reports for SharePoint sites](data-access-governance-reports.md).
 
 ## Related topics
 
-[Create a secure guest sharing environment](/office365/Enterprise/create-a-secure-guest-sharing-environment)
+[Create a secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[Best practices for sharing files and folders with unauthenticated users](/office365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing)
 
-[Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
-
-[Tutorial: Automatically apply Azure Information Protection classification labels](/cloud-app-security/use-case-information-protection)
-
-
+[Microsoft Syntex - SharePoint Advanced Management overview](advanced-management.md)

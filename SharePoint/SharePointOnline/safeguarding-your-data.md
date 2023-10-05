@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-compliance
 ms.custom:
 - seo-marvel-mar2020
 search.appverid:

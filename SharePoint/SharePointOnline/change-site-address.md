@@ -155,6 +155,9 @@ Files in the recycle bin will be restorable as per the usual deletion timeframe.
 **SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
+**SharePoint web parts**<br>
+Any embedded URLs in any SharePoint web parts (News, List, etc.) will not be updated and may break. This includes page thumbnail images in news posts existing on the site. After the site address is changed, you might need to update individual web parts to use the new URL. 
+
 **SharePoint workflow 2013**<br>
 SharePoint workflow 2013 will need to be republished after the site address is changed.
 
@@ -167,6 +170,9 @@ Site customizations and embedded code that refer to URLs might need to be fixed 
 **Synced locations**<br>
 The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
 If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
+
+**Microsoft 365 groups**<br>
+The email address of the group will not be renamed. The group name is updated only if the site name is updated during the rename process. 
 
 **Teams (for Microsoft 365 group-connected sites)**<br>
 When the site address change is complete, users will be able to access their SharePoint files in the Teams app, with the following limitations.

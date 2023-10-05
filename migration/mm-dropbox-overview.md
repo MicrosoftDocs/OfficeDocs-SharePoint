@@ -1,5 +1,5 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/11/2023
 title: "Overview: Migrate Dropbox using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -18,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of migration from Dropbox to Microsoft 365 using Migration Manager.
@@ -28,7 +29,6 @@ description: Overview of migration from Dropbox to Microsoft 365 using Migration
 
 Collaborate all in one place by migrating your Dropbox documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-:::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing-Dropbox.png":::
 
 ## How does it work?
 

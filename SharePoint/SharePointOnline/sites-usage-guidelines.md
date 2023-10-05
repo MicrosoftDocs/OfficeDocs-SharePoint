@@ -3,7 +3,7 @@ ms.date: 05/13/2019
 title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
-author: jhendr
+author: JoanneHendrickson
 manager: serdars
 audience: admin
 recommendations: true
@@ -23,7 +23,7 @@ localization_priority: None
 
 Using the steps below as a template, create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. Each section provides guidance about what to include, sample text to help you get started, and links to resources to learn more about each area.
 
-[Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/Sites-Usage-Guidelines-template.pdf)
+[Download the PDF](https://download.microsoft.com/download/f/8/8/f889e9fe-02c5-40f7-b52d-987f1344b71e/Sites-Usage-Guidelines-template.pdf)
 
 
 ## ![Introduction - map](media/map.png "A map") Introduction

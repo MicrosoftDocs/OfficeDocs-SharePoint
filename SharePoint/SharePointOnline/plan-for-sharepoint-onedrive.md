@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Start here if you're planning to roll out SharePoint and OneDrive in a medium to large organization.

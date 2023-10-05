@@ -2,42 +2,53 @@
 
 
 
-## Week of March 20, 2023
+## Week of September 25, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/23/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
+| 9/28/2023 | [OneDrive sync reports in the Apps Admin Center](/SharePoint/sync-health) | modified |
 
 
-## Week of March 13, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/14/2023 | [Private key management for SSL certificates](/SharePoint/administration/private-key-management-for-ssl-certificates) | added |
-| 3/14/2023 | [Hybrid Configuration Wizard in the SharePoint admin center](/SharePoint/hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center) | added |
-| 3/14/2023 | [New and improved features in SharePoint Server Subscription Edition Version 23H1](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release) | added |
-| 3/14/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
-| 3/14/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
-| 3/14/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
-| 3/14/2023 | [Configure hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
-| 3/14/2023 | Hybrid picker in the SharePoint admin center | removed |
-| 3/14/2023 | [Plan hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
-| 3/14/2023 | [Run Hybrid Configuration Wizard](/SharePoint/hybrid/run-hybrid-picker) | modified |
-| 3/14/2023 | [Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016) | modified |
-| 3/14/2023 | [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update) | modified |
-| 3/14/2023 | [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](/SharePoint/upgrade-and-update/software-updates-overview) | modified |
-| 3/14/2023 | [What's deprecated or removed from SharePoint Server 2019](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019) | modified |
-| 3/14/2023 | [What's deprecated or removed from SharePoint Server Subscription Edition?](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-subscription-edition) | modified |
-| 3/15/2023 | [Review recent SharePoint site actions](/SharePoint/recent-actions-panel) | modified |
-| 3/17/2023 | [Manage Loop experiences (Loop app and Loop components) in SharePoint](/SharePoint/manage-loop-components) | modified |
-
-
-## Week of March 06, 2023
+## Week of September 18, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/10/2023 | [Overview of crawled and managed properties in SharePoint Online](/SharePoint/crawled-and-managed-properties-overview) | added |
-| 3/10/2023 | [Manage the search schema in SharePoint](/SharePoint/manage-search-schema) | modified |
+| 9/18/2023 | [Automatic modernization of classic home pages](/SharePoint/disable-auto-modernization-classic-home-pages) | modified |
+
+
+## Week of September 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/11/2023 | [Plan for least-privileged administration in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) | modified |
+| 9/12/2023 | [Configure People Picker in SharePoint Server Subscription Edition](/SharePoint/administration/configure-people-picker-subscription-edition) | added |
+| 9/12/2023 | [Configure People Picker in SharePoint Server](/SharePoint/administration/configure-people-picker) | added |
+| 9/12/2023 | [Custom branding in Suite Navigation Bar](/SharePoint/sites/custom-branding-in-suite-bar) | added |
+| 9/12/2023 | [Basic authentication is being deprecated (SharePoint Server)](/SharePoint/technical-reference/basic-auth-is-being-deprecated) | added |
+| 9/12/2023 | [New and improved features in SharePoint Server Subscription Edition Version 23H2](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release) | added |
+| 9/12/2023 | [Feature release rings](/SharePoint/administration/feature-release-rings) | modified |
+| 9/12/2023 | [Add, edit, or delete a content source in SharePoint Server](/SharePoint/search/add-edit-or-delete-a-content-source) | modified |
+| 9/12/2023 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | modified |
+| 9/12/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | modified |
+
+
+## Week of September 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/7/2023 | [Overview of sites and site collections in SharePoint Server](/SharePoint/sites/sites-and-site-collections-overview) | modified |
+
+
+## Week of August 28, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/29/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 9/1/2023 | [Export sites, lists, or document libraries in SharePoint Server](/SharePoint/administration/export-a-site-list-or-document-library) | modified |
+| 9/1/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
+| 9/1/2023 | [Install SharePoint Servers 2016 or 2019 on one server](/SharePoint/install/install-sharepoint-server-2016-on-one-server) | modified |
