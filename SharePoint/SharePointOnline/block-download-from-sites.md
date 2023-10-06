@@ -44,6 +44,7 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3.  Run the following command.
@@ -53,15 +54,15 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
     ```
     For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`. You can apply this cmdlet to OneDrive as well by changing the URL to `https://contoso-my.sharepoint.com/personal/John`. 
 
-The following parameters can be used with this cmdlet to fine-tune it.
+The following parameters can be used with this cmdlet to fine-tune it:
 
- `-ExcludeBlockDownloadPolicySiteOwners $true` Exempts site owners from this policy and they can fully download any content for the site.
+- `-ExcludeBlockDownloadPolicySiteOwners $true`<br/>Exempts site owners from this policy and they can fully download any content for the site.
 
- `-ExcludedBlockDownloadGroupIds <comma separated group ids>` Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
+- `-ExcludedBlockDownloadGroupIds <comma separated group IDs>`<br/>Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
 
-`-ExcludeBlockDownloadSharePointGroups <comma separated group ids>` Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
+- `-ExcludeBlockDownloadSharePointGroups <comma separated group IDs>`<br/>Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
 
- `-ReadOnlyForBlockDownloadPolicy $true` Marks the site as read-only in addition to preventing downloads. 
+- `-ReadOnlyForBlockDownloadPolicy $true`<br/>Marks the site as read-only in addition to preventing downloads. 
 
 You also can attach a block download policy to a site sensitivity label.
   
