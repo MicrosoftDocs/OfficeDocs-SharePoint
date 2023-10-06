@@ -84,7 +84,8 @@ In this article, we'll look at the example of requiring guests to agree to a [te
 
 First, add an authentication context in Azure Active Directory.
 
-To add an authentication context
+To add an authentication context:
+
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context**.
 
 2. Click **New authentication context**.
@@ -99,7 +100,8 @@ To add an authentication context
 
 Next, create a conditional access policy that applies to that authentication context and that requires guests to agree to terms of use as a condition of access.
 
-To create a conditional access policy
+To create a conditional access policy:
+
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
 
 1. Type a name for the policy.
