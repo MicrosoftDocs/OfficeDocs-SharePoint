@@ -118,7 +118,7 @@ With SharePoint Server 2013 you can create connections to the following director
   
 - Active Directory Domain Services (AD DS) 2003 SP2 and AD DS 2008
     
-- Azure Active Directory configured with Active Directory Domain Services
+- Microsoft Entra ID configured with Active Directory Domain Services
     
 - Sun Java System Directory Server version 5.2
     
@@ -149,4 +149,3 @@ You can also import data directly from Active Directory Domain Services (AD DS).
   
 [Configure a managed domain to support profile synchronization for SharePoint Server](/azure/active-directory-domain-services/active-directory-ds-enable-sharepoint-profile-sync)
   
-
