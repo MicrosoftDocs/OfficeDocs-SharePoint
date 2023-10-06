@@ -175,7 +175,9 @@
 ### [External sharing notifications (OneDrive)](turn-on-external-sharing-notifications.md)
 ### [File Requests](enable-file-requests.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
-### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
+<a name='integration-with-azure-ad-b2b'></a>
+
+### [Integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md)
 ### [Restricted domains sharing](restricted-domains-sharing.md)
 ### [Limit sharing by security group](manage-security-groups.md)
 ### [Report on sharing](sharing-reports.md)

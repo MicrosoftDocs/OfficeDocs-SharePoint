@@ -25,7 +25,7 @@ description: "In SharePoint, if you share with a user who is not in the director
 
 In SharePoint, if you share with a person who is not in the directory, they're sent a one-time code that they can use to verify their identity.
 
-This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), which will replace this experience.
+This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md), which will replace this experience.
 
 Recipients of secure external sharing who also use Microsoft 365 in their organization can sign in using their work or school account to access the document. After they have entered the one-time passcode for verification the first time, they will authenticate with their work or school account and have a guest account created in the host's organization. IT admins can manage them like any other guest account in their directory.
 
@@ -41,7 +41,7 @@ The following table shows the differences between sharing with people who have g
 |Can have friendly name|Yes|Friendly name is the email address that the file or folder was shared with|
 |Can be Group members|Yes|No|
 |Can edit in Word, Excel, PowerPoint, or other Microsoft 365 apps|Yes|No|
-|Access controlled by AAD conditional access policies|Yes|No|
+|Access controlled by Microsoft Entra Conditional Access policies|Yes|No|
 
  When you use the Share dialog box to share with "specific people" and the recipients are all outside the organization, then a secure link will be created and the specified email addresses will be secured, or added, to the link. This appears in audit logs in the following ways.
 
