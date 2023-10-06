@@ -25,13 +25,13 @@ This article describes the Group Policy objects (GPOs) for Microsoft Lists (and 
 
 ## List of policies by string ID
 
-- (DisableListsSync) [Prevent Lists sync from running on this device](lists-sync-policies.md#prevent-lists-sync-from-running-on-the-device)
+- (DisableListsSync) [Prevent Lists sync from running on this device](lists-sync-policies.md#prevent-lists-sync-from-running-on-this-device)
 
 - (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
 
-- (DisableListsSyncSilentConfig) [Prevent users from getting silently signed in to Lists sync with their Windows credentials](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials)
+- (DisableOfflineExperiencesSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web)
 
-### Prevent Lists sync from running on the device
+### Prevent Lists sync from running on this device
 
 By default, Lists sync is turned on for users of Microsoft Lists which allows users to access and edit their lists even when offline. If you enable this policy, Lists sync will be blocked from running on the device.
 
@@ -45,7 +45,7 @@ Re-enable Lists sync on the device:
 
 ### Prevent users from syncing lists shared from other organizations
 
-Enabling this setting prevents users at your organization from syncing lists that are shared from other organizations. After the setting is enabled (value 1) on a computer, lists shared from other organizations won't sync. Disable the setting (value 0) to allow your users to sync external lists.
+Enabling this setting prevents users at your organization from syncing lists that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, lists shared from other organizations won't sync. Disable the setting (by entering value **0**) to allow your users to sync external lists.
 
 Prevent external List sync with:
 
@@ -55,9 +55,9 @@ Restore external List sync with:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"`
 
-### Prevent users from getting silently signed in to Lists sync with their Windows credentials
+### Prevent users from getting silently signed in to offline experiences on the web
 
-Lists sync is set up to automatically sign users in with their Windows account credentials. If you enable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC will no longer be able to set up Lists sync without entering their account credentials.  
+Offline experiences in Microsoft Lists and OneDrive on the web are set up to automatically sign in users with their Azure AD account credentials. If you enable this setting, people who used offline experiences in Microsoft Lists and OneDrive on the web previously and who are signed in on an Azure AD-joined PC will no longer be able to set up offline experiences without entering their account credentials.  
 
 > [!IMPORTANT]
 > If the M365 browser extension isn't installed on users' Chromium-based browsers (Microsoft Edge, Google Chrome, and so on), we recommend leaving silent account configuration enabled to ensure the seamless operation of List sync.

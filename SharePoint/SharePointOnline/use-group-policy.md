@@ -370,13 +370,13 @@ Offline mode in OneDrive on the web is set up to be automatically configured for
 
 If the M365 browser extension isn't installed on users' Chromium-based browsers (Microsoft Edge, Google Chrome, and so on), we recommend leaving "silent account configuration" enabled to ensure the seamless operation of offline mode in OneDrive on the web.
 
-### Prevent users at your organization from enabling offline in OneDrive on the web
+### Prevent users at your organization from enabling offline mode in OneDrive on the web
 
-This setting is enabled by default for users of OneDrive on the web. If you enable this policy, offline mode will be disabled for all the users of OneDrive on the web.
+By default, offline mode is turned on for users of OneDrive on the web. If you enable this policy, offline mode in OneDrive on the web will be disabled for all the users on the device.
 
 ### Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations
 
-Enabling this setting prevents users at your organization from enabling offline mode for libraries and folders that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, there won't be an option of enabling offline mode for libraries and folders shared by other organizations when working with them in OneDrive on the web. Disable the setting (by entering the value **0**) to allow your users to enable or disable offline mode in OneDrive on the web when working with libraries and folders that are shared from other organizations.
+Enabling this setting prevents users at your organization from enabling offline mode for libraries and folders that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, libraries and folders shared by other organizations won't have the option of enabling offline mode when working with them in OneDrive on the web. Disable the setting (by entering the value **0**) to allow your users to enable or disable offline mode in OneDrive on the web when working with libraries and folders that are shared from other organizations.
 
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
