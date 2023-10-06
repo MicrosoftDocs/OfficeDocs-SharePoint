@@ -270,6 +270,7 @@
 #### [About user profile synchronization](user-profile-sync.md)
 #### [Remove users from SharePoint](remove-users.md)
 ### [BCS connections]()
+#### [BCS retirement](business-connectivity-services-retirement.md)
 #### [Manage BCS applications](manage-business-connectivity-service-applications.md)
 #### [Create or edit Secure Store Target Application](create-or-edit-secure-store-target-application.md)
 ### [Customizations and apps]()
