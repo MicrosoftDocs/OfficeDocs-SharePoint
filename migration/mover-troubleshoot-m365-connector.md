@@ -32,15 +32,15 @@ description: "Mover migration: Troubleshoot Office 365 connector."
 
 ## Connector authorization failure
 
-If your connector authorization fails with **Tenant lacks SPO license** error, then you need to purchase a Microsoft 365 license for your Azure Active Directory tenant. 
+If your connector authorization fails with **Tenant lacks SPO license** error, then you need to purchase a Microsoft 365 license for your Microsoft Entra tenant. 
 
 ![connector authorization failure error](media/mover-connector-failure-error.png)
 
 
 
-For additional information related to Azure Active Directory licenses, see:
+For additional information related to Microsoft Entra ID licenses, see:
 
--   [What is Azure Active Directory?](/azure/active-directory/fundamentals/active-directory-whatis)   
+-   [What is Microsoft Entra ID?](/azure/active-directory/fundamentals/active-directory-whatis)   
 
 
 

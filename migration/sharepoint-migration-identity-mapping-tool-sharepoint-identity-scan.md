@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Identity Mapping Tool SharePoint Identity Scan"
+title: "SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

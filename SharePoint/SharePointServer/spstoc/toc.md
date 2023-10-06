@@ -34,7 +34,9 @@
 #### [Create web applications that use classic mode authentication in SharePoint Server](../security-for-sharepoint-server/create-web-applications-that-use-classic-mode-authentication.md)
 #### [Implement SAML based authentication in SharePoint Server](../security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server.md)
 #### [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1-0-authentication.md)
-##### [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md)
+<a name='set-up-oidc-authentication-in-sharepoint-server-with-microsoft-azure-active-directory-azure-ad'></a>
+
+##### [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md)
 ##### [Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs.md)
 #### [Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md)
 ### [Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md)
@@ -920,4 +922,3 @@
 ### [Display template reference in SharePoint Server](../technical-reference/display-template-reference-in-sharepoint-server.md)
 ### [Technical diagrams](../technical-reference/technical-diagrams.md)
 ## [SharePoint PowerShell](../sharepoint-powershell.md)
-

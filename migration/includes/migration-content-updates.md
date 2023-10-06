@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of September 25, 2023
@@ -23,7 +24,7 @@
 | 8/31/2023 | [Migration Assessment Scan Custom Profile Property Mappings](/SharepointMigration/migration-assessment-scan-custom-profile-property-mappings) | modified |
 | 8/31/2023 | [Migration Assessment Scan Customized Pages](/SharepointMigration/migration-assessment-scan-customized-pages) | modified |
 | 8/31/2023 | [Migration Assessment Scan External List](/SharepointMigration/migration-assessment-scan-external-list) | modified |
-| 8/31/2023 | [SharePoint Migration Identity Mapping Active Directory Identity Scan](/SharepointMigration/sharepoint-migration-identity-mapping-active-directory-identity-scan) | modified |
+| 8/31/2023 | [SharePoint Migration Identity Mapping: Active Directory Identity Scan](/SharepointMigration/sharepoint-migration-identity-mapping-active-directory-identity-scan) | modified |
 | 8/31/2023 | [SharePoint Migration Identity Mapping Tool](/SharepointMigration/sharepoint-migration-identity-mapping-tool) | modified |
 | 8/31/2023 | [SharePoint-provided Azure containers and queues for SharePoint Migration API](/SharepointMigration/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api) | modified |
 | 8/31/2023 | [SPMT Workflow migration report and error codes](/SharepointMigration/spmt-workflow-report-and-error-codes) | modified |
