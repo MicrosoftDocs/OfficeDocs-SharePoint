@@ -133,7 +133,7 @@ Advanced Tenant Rename is a part of SharePoint Advanced Management, and is curre
 The limited preview can currently only support tenants meeting the following conditions:
 - Your organization has less than 100,000 total sites.
 - Your organization does not have Multi-Geo set up.
-- Your organization does not use special clouds or government clouds.
+- Your organization does not use government clouds, including GCC, GCC High and DoD.
 - Your organization does not use vanity domain configurations.
 
 If you are interested in participating in the preview, and meet the above conditions, please [sign up here](https://aka.ms/ODSPSecurityPreviews). Make sure to include all of the requested information, and indicate your interest in "**Advanced tenant rename (SPO domain name changes due to rebranding, M&A, tenant consolidation)**".
