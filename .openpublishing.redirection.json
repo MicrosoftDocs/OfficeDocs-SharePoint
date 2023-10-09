@@ -1106,7 +1106,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "migration/mover-amazon3.md",
+      "source_path": "migration/mover-amazons3.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": false
     },
@@ -1217,6 +1217,11 @@
     },
     {
       "source_path": "migration/mover-migration-faq.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    }
+    {
+      "source_path": "migration/mover-scan.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": false
     }
