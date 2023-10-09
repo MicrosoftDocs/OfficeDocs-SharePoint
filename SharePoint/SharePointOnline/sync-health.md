@@ -69,7 +69,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 4. In the left navigation menu, select **Setup**.
 
-5. Verify that a **Tenant Association Key** is present in the text field. You do not need to copy this key, it will be picked up by the OneDrive client automatically. If the field is empty, select **Generate new key**.
+5. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
@@ -131,11 +131,11 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 4. In the left navigation menu, select **Setup**.
 
-5. Confirm that a **Tenant Association Key** has been generated in the text field. You do not need to copy this key, it will be picked up by the OneDrive client automatically.
+5. Confirm that a **Tenant Association Key** has been generated in the text field.
 
 6. Before proceeding, ensure that the OneDrive application has been quit.
 
-7. Create a `.plist` file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+7. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
