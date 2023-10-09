@@ -86,7 +86,10 @@
         "garycentric",
         "v-dihans",
         "AngelaMotherofDragons",
-        "beccarobins"
+        "beccarobins",
+        "v-stchambers",
+        "v-stsavell",
+        "American-Dipper"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "GitHub",
