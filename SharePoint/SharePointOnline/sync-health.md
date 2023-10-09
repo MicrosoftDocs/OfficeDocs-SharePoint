@@ -135,7 +135,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 6. Before proceeding, ensure that the OneDrive application has been quit.
 
-7. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+7. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
