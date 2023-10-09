@@ -1128,7 +1128,7 @@
     {
       "source_path": "migration/mover-troubleshoot-m365-connector.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "migration/mover-create-migration.md",
