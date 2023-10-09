@@ -1054,9 +1054,8 @@
       "source_path": "SharePoint/SharePointOnline/home-site.md",
       "redirect_url": "/viva/connections/home-site-plan",
       "redirect_document_id": false
-    }
-      },
-        {
+    },
+    {
       "source_path": "migration/mover-retirement-timeline.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": true
