@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Site Template Language"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/20/2017
