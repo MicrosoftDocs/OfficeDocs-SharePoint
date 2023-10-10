@@ -2,8 +2,8 @@
 ms.date: 04/19/2022
 title: "Migration Manager task limits"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

@@ -2,8 +2,8 @@
 ms.date: 03/18/2021
 title: "Migration Manager Google FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

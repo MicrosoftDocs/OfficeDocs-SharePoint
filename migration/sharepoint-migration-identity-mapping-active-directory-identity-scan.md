@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Migration Identity Mapping Active Directory Identity Scan"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 01/5/2018
@@ -16,6 +16,7 @@ ms.collection:
 - SPmigration
 - M365-collaboration
 - m365initiative-migratetom365
+description: Learn about the SharePoint Migration Identity Mapping Active Directory Identity Scan.
 ---
 
 # SharePoint Migration Identity Mapping: Active Directory Identity Scan

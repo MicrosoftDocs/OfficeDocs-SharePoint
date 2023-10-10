@@ -3,8 +3,8 @@ ms.date: 05/16/2019
 title: "What does SPMT support?"
 audience: ITPro
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.audience: ITPro
