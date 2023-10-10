@@ -46,7 +46,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
     
 3. To create an allowlist (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
-4. List the domains (maximum of 3000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+4. List the domains (maximum of 5000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
