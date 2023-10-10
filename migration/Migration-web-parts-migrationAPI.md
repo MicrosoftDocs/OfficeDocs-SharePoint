@@ -2,8 +2,8 @@
 ms.date: 03/14/2019
 title: "Migrating web parts using the Migration API"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
