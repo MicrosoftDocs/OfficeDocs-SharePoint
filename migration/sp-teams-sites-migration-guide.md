@@ -2,8 +2,8 @@
 ms.date: 05/17/2019
 title: "SharePoint Server Team Sites Migration Guide"
 audience:  ITPRo
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.audience: ITPro

@@ -1,7 +1,8 @@
 ---
-title: "SharePoint Migration Identity Mapping: Active Directory Identity Scan"
-ms.author: jhendr
-author: JoanneHendrickson
+title: "SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan"
+description: "Learn about the SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan."
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 01/5/2018

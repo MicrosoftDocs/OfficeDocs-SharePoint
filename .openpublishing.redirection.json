@@ -1054,6 +1054,176 @@
       "source_path": "SharePoint/SharePointOnline/home-site.md",
       "redirect_url": "/viva/connections/home-site-plan",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-retirement-timeline.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "migration/mover-managed-migration-guide.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-plan-migration.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-manage-connectors.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-microsoft-365-faq.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-security.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-box.md",
+      "redirect_url": "/sharepointmigration/mm-box-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "migration/mover-dropbox.md",
+      "redirect_url": "/sharepointmigration/mm-dropbox-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "migration/mover-gsuite.md",
+      "redirect_url": "/sharepointmigration/mm-google-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "migration/mover-o365.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-amazons3.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-azureblob.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-googlecloudstore.md",
+      "redirect_url": "/sharepointmigration/mm-google-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-setup-m365-destination.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-troubleshoot-m365-connector.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-create-migration.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-create-migration-csv.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-review-users.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-review-permission-map.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-upload-permission-map.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-disable-emails.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-mm.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-running-migration.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-delete-migration.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-reports.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-post-migration-tips.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-release-notes.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-post-migration-troubleshooting.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-transfer-logs.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-transfer-status-codes.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-error-faq.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-account-faq.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-migration-faq.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/mover-scan.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
     }
   ]
 }

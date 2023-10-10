@@ -1,7 +1,8 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool: Microsoft Entra Identity Scan"
-ms.author: jhendr
-author: JoanneHendrickson
+description: Learn about SharePoint Migration Identity Mapping Tool for Microsoft Entra Identity Scan.
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 01/5/2018
@@ -9,7 +10,6 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-description: Learn about SharePoint Migration Identity Mapping Tool for Microsoft Entra Identity Scan.
 ms.service: sharepoint-online
 ms.subservice: sharepoint-migration
 ms.localizationpriority: medium

@@ -2,8 +2,8 @@
 ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Egnyte migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:

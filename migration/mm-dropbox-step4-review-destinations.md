@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: "Review the destination paths for your Dropbox migration with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
