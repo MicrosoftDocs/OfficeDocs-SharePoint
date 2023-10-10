@@ -2,8 +2,8 @@
 ms.date: 10/11/2019
 title: "Setup Migration Manager agents"
 ms.reviewer: jhendr
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

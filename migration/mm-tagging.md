@@ -1,8 +1,8 @@
 ---
 ms.date: 01/04/2022
 title: "Importing tags with Migration Manager"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Migration Assessment Tool Scan Reports Roadmap"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 12/6/2017
