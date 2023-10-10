@@ -115,7 +115,9 @@ The following reports are downloaded from the **Scans** tab in Migration Manager
 
 Scan detailed report consists of one csv file: 
 
-**TransactionItem.csv**. This file contains the Details of the last scan for all items.
+|File name|Description|
+|:-----|:----|
+|**TransactionItem.csv**. |This file contains the details of the last scan for all items.|
 
 
 #### Scan TransactionItem.csv 
@@ -236,8 +238,6 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |DataScanned|Data size in Byte that scanned in the source.|
 |ScanStatusCode |Scan status code of the scanned task. To learn more, see [Status codes](#status-codes).  |
 |MostRecentScan |The most recent scan time in UTC of the task. |
-
-
 
 ## Migration reports
 
