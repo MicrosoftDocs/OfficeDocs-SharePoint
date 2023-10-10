@@ -41,7 +41,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
-- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD).
+- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD) in the same cloud as the content tenant - Microsoft Azure Commercial, Microsoft Azure Government, or Microsoft Azure China. (Note that Microsoft Azure Commercial contains the Microsoft 365 commercial and GCC cloud environments, and Microsoft Azure Government contains the GCC High and DoD cloud environments.)
 - Any Azure AD conditional access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
 - ADAL must not be enabled if using builds before 19.086.*.
 
@@ -49,6 +49,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
+- Content shared from a tenant in one cloud (for example, Microsoft Azure China) can't be synced by a user in a different cloud (for example, Microsoft Azure Commercial).
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
@@ -127,7 +128,7 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 
 The tenant admin can enable several kinds of conditional access policies at their tenant. When a guest is going to access a tenant's content, those policies may need to be adjusted for the guests so they can gain access.
 
-- Currently the sync client does not support interactive authentication UI when syncing external content. Any policy that would require a sign-in UI such as MFA (multi-factor authentication) or TOU (terms of use) prompt, will prevent the syncing of the external content from that tenant. If a tenant admin deploys such a policy before a guest starts syncing from that tenant, the user will be unable to establish the sync relationship. If the policy is deployed after a guest is syncing content from the tenant, that guest will receive an error and be unable to continue to sync from the tenant.
+- Currently the sync client does not support interactive authentication UI when syncing external content. Any policy that would require a sign-in UI such as MFA (multifactor authentication) or TOU (terms of use) prompt, will prevent the syncing of the external content from that tenant. If a tenant admin deploys such a policy before a guest starts syncing from that tenant, the user will be unable to establish the sync relationship. If the policy is deployed after a guest is syncing content from the tenant, that guest will receive an error and be unable to continue to sync from the tenant.
 
 - Tenants may update their Terms of Use (TOU) from time to time. A policy can trigger the user to view and accept the updated TOU via an interactive authentication prompt. Since sync doesn't support external tenant sign-in UI, sync will indicate it is unable to sync the external site's content.
 
@@ -275,7 +276,7 @@ The B2B Sync feature of the OneDrive sync app allows users at an organization to
 
 You only need to take these actions if you wish to prevent users at your organization from using the B2B Sync feature (to prevent syncing libraries and folders shared from other organizations).
 
-The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your sync app policies, import the new files as you normally would to see the new setting.
+The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your sync app policies, import the new files as you normally would in order to see the new setting.
 
 If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
 

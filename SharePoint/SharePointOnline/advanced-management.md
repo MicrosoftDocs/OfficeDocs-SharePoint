@@ -31,9 +31,6 @@ Microsoft Syntex - SharePoint Advanced Management is a Microsoft 365 add-on that
 
 SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
 
-> [!IMPORTANT]
-> SharePoint Advanced Management is currently rolling out. Licenses and functionality will become available to organizations throughout March and early April.
-
 ## Advanced access policies for secure content collaboration
 
 **[Restricted access control for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not in the Microsoft 365 group won't have access even if they previously had site access permissions to a file.
@@ -53,6 +50,8 @@ SharePoint Advanced Management features are administered by SharePoint administr
 **[Recent SharePoint admin actions](recent-actions-panel.md)** - You can review and export the most recent site-related actions you made in the SharePoint admin center in the last 30 days by using the recent actions panel. Site property changes like site name, site creation and deletion, site URL, sharing settings, and storage quota are listed as actions in the panel. Note that changes made to organization-level settings, and changes made by other admins are not shown in the panel.
 
 **[Manage site lifecycle policies](site-lifecycle-management.md)** - You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy.
+
+**[Create change history reports](change-history-report.md)** - You can create change history reports in the SharePoint admin center to review SharePoint site property changes made within the last 180 days. Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
 
 ## Licensing
 
