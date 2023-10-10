@@ -35,8 +35,9 @@ If a destination is missing on a single user, highlight the row and update the v
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination. Depending on your selection:
 
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
-    - For SharePoint, enter site URL and location
+    - For SharePoint, enter the site URL and location
     - For Teams, select the team and the channel
+    - For Forms, enter the site URL and locatino
 
 3. Select **Save path**.
 

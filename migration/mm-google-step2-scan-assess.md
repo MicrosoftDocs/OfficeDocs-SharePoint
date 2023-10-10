@@ -82,6 +82,7 @@ When mapping please ensure that each Service Account has its own unique matching
 |serviceaccount2@contoso.com|serviceaccount2@contoso.com/[upload folder]*|
 |serviceaccount3@contoso.com|serviceaccount3@contoso.com/[upload folder]*|
 
+
 Asterisk (*) = optional folder
 
 ## Go to [**Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
