@@ -16,6 +16,7 @@ ms.collection:
 - SPmigration
 - M365-collaboration
 - m365initiative-migratetom365
+description: Learn about the SharePoint Migration Identity Mapping Active Directory Identity Scan.
 ---
 
 # SharePoint Migration Identity Mapping: Active Directory Identity Scan
