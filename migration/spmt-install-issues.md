@@ -44,7 +44,7 @@ If you're having issues loading the SharePoint Migration tool, here are a few it
 
 |**Error**|**Suggested action**|
 |:-----|:-----|
-|"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation may be the cause of this error. Uninstall the tool and then reinstall.|
+|"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation can be the cause of this error. Uninstall the tool and then reinstall.|
 
 
 ## Government cloud support
