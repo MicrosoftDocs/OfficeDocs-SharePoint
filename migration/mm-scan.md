@@ -2,8 +2,8 @@
 ms.date: 06/15/2021
 title: "Migration Manager Scan"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

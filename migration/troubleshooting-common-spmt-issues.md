@@ -2,8 +2,8 @@
 ms.date: 01/22/2019
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

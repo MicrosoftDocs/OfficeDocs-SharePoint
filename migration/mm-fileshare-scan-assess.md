@@ -2,8 +2,8 @@
 ms.date: 01/21/2021
 title: "Step 2: Scan and assess file shares using Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:

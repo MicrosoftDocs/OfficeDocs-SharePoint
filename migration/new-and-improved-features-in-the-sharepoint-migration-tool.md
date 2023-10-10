@@ -2,8 +2,8 @@
 ms.date: 09/26/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
