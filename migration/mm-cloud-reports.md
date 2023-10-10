@@ -415,7 +415,6 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MNOUSERINFO|Failed to get Microsoft user info||
 |MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
 
-
 ## Status codes
 
 Status codes provide the final status of the scan and migration tasks.
