@@ -14,6 +14,10 @@ ms.localizationpriority: medium
 description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow Manager when upgrading older SharePoint Server farms."
 ---
 
+# WARNING! There was an error parsing the document
+
+
+```
 # Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
@@ -191,7 +195,7 @@ If you're installing SPWFM on a non-SharePoint server, it may not already have i
 
 SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 
-The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
+The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
 Open a PowerShell console as an elevated administrator and run the following command:
 
@@ -210,11 +214,11 @@ To verify the Azure Service Fabric is installed, you should be able to find it i
 
 ### Install SPWFM and the SPWFM client on the SPWFM server
 
-1. On the SPWFM server, download and install the [SharePoint Workflow Manager Client and SharePoint Workflow Manager](/download/details.aspx?id=104867)
+1. On the SPWFM server, download and install the [SharePoint Workflow Manager Client and SharePoint Workflow Manager](https://www.microsoft.com/download/details.aspx?id=104867)
 
 ### Install the SPWFM Client on all SharePoint servers
 
-1. [Download the installer for SharePoint Workflow Manager Client](/download/details.aspx?id=104867).
+1. [Download the installer for SharePoint Workflow Manager Client](https://www.microsoft.com/download/details.aspx?id=104867).
 2. Install the **SharePoint Workflow Manager Client** on all the SharePoint servers in the farm.
 
 ### Configure App Management and Subscriptions Settings services
@@ -323,4 +327,13 @@ d. Create a basic "log to history" 2013-platform workflow and test to make sure 
 3. **Test an old workflow**</br> 
 a. Find a list that had a workflow assigned to it in the "old" farm. </br>
 b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
+
+```
+
+```
+
+```
+
+```
+
 
