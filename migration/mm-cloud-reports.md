@@ -22,7 +22,7 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 ---
 # Migration Manager: Reports, errors & status codes for cloud migrations
 
-Migration Manager generates a series of logs and reports for scan/migration tasks in clound migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
+Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
 A scan/migration task presents as a row in the Migration Manager scan/migration list. Normally, a task equals: 
 
@@ -76,17 +76,17 @@ There are limits on the number of tasks can be selected for bulk download for ea
 1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-:::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
+   :::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
 3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. For example:  
 
-:::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
+   :::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
 
 4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
 
-:::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
+   :::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
 
-:::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
+   :::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
 
 
 ### Download Migration reports
@@ -349,7 +349,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MEXPORTFILERESTRICTED|This file is restricted, and can’t be migrated from the source.|Check to see if this file has legal restrictions such as copyright claims.|
 |MEXPORTFILEUNSUPPORTED|Unsupported file type. |You can't migrate this file from the source.|
 |MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.|You can't migrate this file from the source. Check file at source.|
-|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector.|Try again.|
+|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office 365 connector.|Try again.|
 |MFILEIMPORT|This file type isn't supported in the destination location. |Check source file.|
 |MFILELOCKED|"File is locked, and can't download or get metadata. |Unlock file.  Try again.|
 |MFILENAMELENGTH|Filename exceeds maximum allowable length. |Rename file and Try again...|
@@ -410,11 +410,11 @@ Status codes provide the final status of the scan and migration tasks.
 
 |Code | Status |Message|
 |:-----|:-----|:-----|
-|100 |Ready to migrate/Copied to migrate/completed|Success|
-|101 |Ready to migrate/Copied to migrate/completed|Success. No files needed copying |
-|102 |Ready to migrate/Copied to migrate/completed|Success. Some files aren't supported by Destination name and weren't transferred. |
-|120 |Ready to migrate/Copied to migrate/completed|Success. Some files aren't supported by Source name and weren't transferred. |
-|122 |Warning|Ready to migrate/Copied to migrate/completed|Success. Some unsupported files not transferred. |
+|100 |Ready to migrate/Copied to migrate/completed. | Success. |
+|101 |Ready to migrate/Copied to migrate/completed. | Success. No files needed copying. |
+|102 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Destination name and weren't transferred. |
+|120 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Source name and weren't transferred. |
+|122 |Warning|Ready to migrate/Copied to migrate/completed. Success. Some unsupported files not transferred. |
 |201 |Warning|Some upload errors. Download and review the detailed report before trying again. |
 |202 |Warning|No files copied. Some upload errors. Download and review the detailed report before trying again.|
 |210 |Warning|Some download errors. Download and review the detailed report before trying again. |
@@ -423,10 +423,10 @@ Status codes provide the final status of the scan and migration tasks.
 |222 |Warning|No files copied. Some download and upload errors. Download and review the detailed report before trying again. |
 |230 |Canceled|Canceled|
 |250 |Failed|Already running. Wait a while and then try again.|
-|260 |Failed|Storage quotea exceeded on destination name.|
+|260 |Failed|Storage quota exceeded on destination name.|
 |261 |Failed| Quota API exceeded on destination name |
 |300 |In progress|Running |
-|302 |In porgress|Waiting for Microsoft batch processing |
+|302 |In progress|Waiting for Microsoft batch processing |
 |400 |Failed|General failure. Try again.|
 |401 |Failed|Couldn't upload anything. Try again.|
 |402 |Failed|Connector authorization failed. Try reauthorizing Source name or Destination name. |
