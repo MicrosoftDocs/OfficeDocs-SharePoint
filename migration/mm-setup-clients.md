@@ -119,12 +119,12 @@ To install an agent to a different Geo location:
 
 1. Select **Install as an app**.
 
-   ![Install agent as an app](media/mm-agent-app.png)
+   :::image type="content" alt-text="Install agent as an app." source="media/mm-agent-app.png":::
 
 2. After the agent installs, sign in with your SharePoint Admin credentials.
 3. Test if your agent has access to the file shares you want to migrate (optional).
 
-   ![Install as an app settings](media/mm-agent-app-settings.png)
+   :::image type="content" alt-text="Install as an app settings" source="media/mm-agent-app-settings.png":::
 
 4. The settings screen displays if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
 
