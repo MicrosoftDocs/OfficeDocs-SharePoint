@@ -191,15 +191,15 @@ The following are documented and supported topologies:
 
 ***Can we deploy Cloud hybrid search service application in an environment that has multiple forests?***
 
-Cloud hybrid search service application works in an environment that has multiple forests. You need to ensure that the accounts across these forests are synched to Microsoft 365. Azure AD Connect sync should take care of this situation. When you have multiple forests, all forests must be reachable by a single Azure AD Connect sync server. You don't have to join the server to a domain. If necessary, to reach all forests, you can place the server in a perimeter network. The articles below discuss this configuration.
+Cloud hybrid search service application works in an environment that has multiple forests. You need to ensure that the accounts across these forests are synched to Microsoft 365. Microsoft Entra Connect Sync should take care of this situation. When you have multiple forests, all forests must be reachable by a single Microsoft Entra Connect Sync server. You don't have to join the server to a domain. If necessary, to reach all forests, you can place the server in a perimeter network. The articles below discuss this configuration.
 
-- [Topologies for Azure AD Connect](/azure/active-directory/hybrid/plan-connect-topologies)
+- [Topologies for Microsoft Entra Connect](/azure/active-directory/hybrid/plan-connect-topologies)
 
 - [Implement-support-for-multiple-forests](https://support.office.com/article/73c4a525-f6c4-434c-8409-0121a83ab26b)
 
 ***When Cloud hybrid search service application crawls on-premises content, do crawled properties from SharePoint on-premises propagate to SharePoint in Microsoft 365?***
 
-Following the crawl of content via Cloud hybrid search service application, crawled properties from SharePoint Server on-premises propagate to SharePoint in Microsoft 365 search schema. The crawled properties in on-premises should be a part of default property set. You also need to ensure that you are looking up the crawl properties in SharePoint in Microsoft 365 search schema using an account synchronized to from Active Directory to Azure AD and one which has rights to the crawled content. For example, if you can look up using the content access account of your on-premises Cloud hybrid search service application farm, you should see the Crawl Properties in SharePoint in Microsoft 365 search schema.
+Following the crawl of content via Cloud hybrid search service application, crawled properties from SharePoint Server on-premises propagate to SharePoint in Microsoft 365 search schema. The crawled properties in on-premises should be a part of default property set. You also need to ensure that you are looking up the crawl properties in SharePoint in Microsoft 365 search schema using an account synchronized to from Active Directory to Microsoft Entra ID and one which has rights to the crawled content. For example, if you can look up using the content access account of your on-premises Cloud hybrid search service application farm, you should see the Crawl Properties in SharePoint in Microsoft 365 search schema.
 
 ***Can Cloud hybrid search service application be onboarded in a farm that has already been configured for provider hosted apps?***
 
@@ -310,7 +310,7 @@ Items secured with SAML claims when crawled using Cloud Search Service applicati
 
 ***On-premises environment Cloud search service application crawls site collection secured with NT Authority\\Authenticated users. How does this translate to ACL mapping in SharePoint in Microsoft 365?***
 
-The SIDs/SID claims in incoming ACLs are translated in SharePoint in Microsoft 365 when a Cloud hybrid search service application is used to crawl on-premises content. User security identifiers (SID) are mapped to passport unique ID (PUID). Similarly, group SIDs are mapped to Object IDs. NT AUTHORITY\\Authenticated Users and Everyone ([the built-in SIDSs](https://support.microsoft.com/help/243330/) S-1-5-11 and S-1-1-0) are translated to "Everyone except external users" in SharePoint in Microsoft 365 (for example, all users in tenant except the external ones that have been invited to share by email). Cloud search service application only supports Windows identity that has been synced to Azure AD. If customer is not using Windows identity and wants to Crawl using Cloud SSA, a workaround can be to add Everyone claim to the source content to ensure that users are able to search for that Content.
+The SIDs/SID claims in incoming ACLs are translated in SharePoint in Microsoft 365 when a Cloud hybrid search service application is used to crawl on-premises content. User security identifiers (SID) are mapped to passport unique ID (PUID). Similarly, group SIDs are mapped to Object IDs. NT AUTHORITY\\Authenticated Users and Everyone ([the built-in SIDSs](https://support.microsoft.com/help/243330/) S-1-5-11 and S-1-1-0) are translated to "Everyone except external users" in SharePoint in Microsoft 365 (for example, all users in tenant except the external ones that have been invited to share by email). Cloud search service application only supports Windows identity that has been synced to Microsoft Entra ID. If customer is not using Windows identity and wants to Crawl using Cloud SSA, a workaround can be to add Everyone claim to the source content to ensure that users are able to search for that Content.
 
 ***Result Type Rules are configured at the site collection. Where do I configure Result Type Rules and Display Templates when using Cloud hybrid search?***
 

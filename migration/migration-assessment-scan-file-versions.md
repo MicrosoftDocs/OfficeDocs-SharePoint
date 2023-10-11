@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan File Versions"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/12/2017

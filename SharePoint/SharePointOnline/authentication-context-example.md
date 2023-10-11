@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 - MET150
-description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
+description: "Learn about how to use Microsoft Entra Conditional Access and authentication context with SharePoint sites and sensitivity labels."
 ---
 
 # Conditional access policy for SharePoint sites and OneDrive
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-With [Azure Active Directory authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. 
+With [Microsoft Entra authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. 
 
-You can use authentication contexts to connect an [Azure AD conditional access policy](/azure/active-directory/conditional-access/overview) to a SharePoint site. Policies can be applied directly to the site or via a sensitivity label.
+You can use authentication contexts to connect an [Microsoft Entra Conditional Access policy](/azure/active-directory/conditional-access/overview) to a SharePoint site. Policies can be applied directly to the site or via a sensitivity label.
 
 Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
 
@@ -61,6 +61,7 @@ The following apps and scenarios don't work with authentication contexts:
 - Third-party apps
 - The OneDrive sync app won't sync sites with an authentication context
 - Copy or move files from a site with no authentication context to a site with an authentication context fails
+- Due to the authentication process when an authentication context is present, Quick Access will not work and you will need to use the **Go to site** link.
 - Associating an authentication context to the enterprise application catalog site collection is not supported
 - The “Visualize SharePoint List in Power BI” feature does not currently support authentication context
 
@@ -68,7 +69,7 @@ The following apps and scenarios don't work with authentication contexts:
 
 Setting up an authentication context for labeled sites requires these basic steps:
 
-1. Add an authentication context in Azure Active Directory.
+1. Add an authentication context in Microsoft Entra ID.
 
 1. Create a conditional access policy that applies to that authentication context and has the conditions and access controls that you want to use.
 
@@ -81,10 +82,11 @@ In this article, we'll look at the example of requiring guests to agree to a [te
 
 ### Add an authentication context
 
-First, add an authentication context in Azure Active Directory.
+First, add an authentication context in Microsoft Entra ID.
 
-To add an authentication context
-1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context**.
+To add an authentication context:
+
+1. In [Microsoft Entra Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context**.
 
 2. Click **New authentication context**.
 
@@ -98,8 +100,9 @@ To add an authentication context
 
 Next, create a conditional access policy that applies to that authentication context and that requires guests to agree to terms of use as a condition of access.
 
-To create a conditional access policy
-1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
+To create a conditional access policy:
+
+1. In [Microsoft Entra Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
 
 1. Type a name for the policy.
 
@@ -142,13 +145,13 @@ To update a sensitivity label
 
 3. Ensure that the **External sharing and Conditional Access settings** check box is selected, and then click **Next**.
 
-4. On the **Define external sharing and device access settings page**, select the **Use Azure AD Conditional Access to protect labeled SharePoint sites** check box.
+4. On the **Define external sharing and device access settings page**, select the **Use Microsoft Entra Conditional Access to protect labeled SharePoint sites** check box.
 
 5. Select the **Choose an existing authentication context** option.
 
 6. In the dropdown list, choose the authentication context that you want to use.
 
-    ![Screenshot of Azure AD authentication context sensitivity label settings](media/aad-authentication-context-label-setting.png)
+    ![Screenshot of Microsoft Entra authentication context sensitivity label settings](media/aad-authentication-context-label-setting.png)
 
 7. Click **Next** until you are on the **Review your settings and finish** page, and then click **Save label**.
 
@@ -169,4 +172,3 @@ Set-SPOTenant -BlockAPPAccessToSitesWithAuthentcationContext $false/$true (defau
 [Conditional Access: Cloud apps, actions, and authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
-

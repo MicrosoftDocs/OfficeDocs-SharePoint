@@ -2,8 +2,8 @@
 ms.date: 05/19/2021
 title: "Reinstall your Migration Manager agent"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

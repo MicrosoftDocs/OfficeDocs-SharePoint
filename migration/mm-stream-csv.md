@@ -2,8 +2,8 @@
 ms.date: 09/24/2021
 title: "Bulk upload Stream source paths into Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

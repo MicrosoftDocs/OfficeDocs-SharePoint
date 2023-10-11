@@ -28,7 +28,7 @@ description: Learn how administrators can block download of files from a SharePo
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature does not need  Azure Active Directory conditional access policies. This feature can be set for individual sites and cannot be set at the organization level.
+As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature does not need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and cannot be set at the organization level.
 
 Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users will see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help contact your It department."
 
@@ -44,6 +44,7 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3.  Run the following command.
@@ -51,17 +52,17 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
     ```PowerShell
     Set-SPOSite -Identity <SiteURL> -BlockDownloadPolicy $true
     ```
-    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`
+    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`. You can apply this cmdlet to OneDrive as well by changing the URL to `https://contoso-my.sharepoint.com/personal/John`. 
 
-The following parameters can be used with this cmdlet to fine-tune it.
+The following parameters can be used with this cmdlet to fine-tune it:
 
- `-ExcludeBlockDownloadPolicySiteOwners $true` Exempts site owners from this policy and they can fully download any content for the site.
+- `-ExcludeBlockDownloadPolicySiteOwners $true`<br/>Exempts site owners from this policy and they can fully download any content for the site.
 
- `-ExcludedBlockDownloadGroupIds <comma separated group ids>` Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
+- `-ExcludedBlockDownloadGroupIds <comma separated group IDs>`<br/>Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
 
-`-ExcludeBlockDownloadSharePointGroups <comma separated group ids>` Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
+- `-ExcludeBlockDownloadSharePointGroups <comma separated group IDs>`<br/>Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
 
- `-ReadOnlyForBlockDownloadPolicy $true` Marks the site as read-only in addition to preventing downloads. 
+- `-ReadOnlyForBlockDownloadPolicy $true`<br/>Marks the site as read-only in addition to preventing downloads. 
 
 You also can attach a block download policy to a site sensitivity label.
   

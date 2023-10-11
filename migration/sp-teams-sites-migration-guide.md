@@ -2,8 +2,8 @@
 ms.date: 05/17/2019
 title: "SharePoint Server Team Sites Migration Guide"
 audience:  ITPRo
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.audience: ITPro
@@ -113,7 +113,7 @@ The SharePoint Migration Assessment Tool (SMAT) is a simple command line executa
 
 After the scan is complete, SMAT generates summary and detailed reports showing the areas that could impact your migration. Not everything in the report needs to be remediated; but the important scans for your business needs should be looked at.
 
-Also included is the SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.
+Also included is the SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Microsoft Entra ID.
 
 
 

@@ -3,7 +3,7 @@ ms.date: 08/06/2021
 title: "Distribute corporate news to your organization"
 ms.author: hokavian
 author: Holland-ODSP
-manager: pamgr
+manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords:

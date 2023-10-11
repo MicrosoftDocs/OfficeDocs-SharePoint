@@ -2,8 +2,8 @@
 ms.date: 06/05/2018
 title: "Box to OneDrive Migration Guide"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
