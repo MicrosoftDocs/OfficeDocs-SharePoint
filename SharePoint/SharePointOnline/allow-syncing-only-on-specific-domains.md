@@ -52,11 +52,10 @@ To make sure that users sync OneDrive files only on managed computers, you can c
    > Make sure to add the domain GUID of the computer domain membership. If users are in a separate domain, only the domain GUID that the computer account is joined to is required.
 
    > [!IMPORTANT]
-   > This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices that are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead. For details, see [Enable conditional access support in the OneDrive sync app](enable-conditional-access.md).
+   > This setting is only applicable to Active Directory domains. It does not apply to Microsoft Entra domains. If you have devices that are only Microsoft Entra joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead. For details, see [Enable conditional access support in the OneDrive sync app](enable-conditional-access.md).
     
 7. Select **Save**.
     
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction).
 
 For information about blocking or limiting access to SharePoint and OneDrive content from unmanaged devices, see [SharePoint and OneDrive unmanaged device access controls for administrators](control-access-from-unmanaged-devices.md).
-
