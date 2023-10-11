@@ -208,7 +208,7 @@ For more information, see [Learn about data loss prevention](/purview/dlp-learn-
 
 ### Conditional access
 
-Azure Active Directory conditional access provides additional controls to prevent users from accessing your organization's resources in risky situations, such as from untrusted location or from devices that aren't up to date.
+Microsoft Entra Conditional Access provides additional controls to prevent users from accessing your organization's resources in risky situations, such as from untrusted location or from devices that aren't up to date.
 
 Examples include:
 
