@@ -35,21 +35,10 @@ A scan/migration task presents as a row in the Migration Manager scan/migration 
 
 Use these reports to help manage, audit, and troubleshoot your migration process.
 
-|Report type|Scan report|Description|
-|:-----|:-----|:-----|
-|Scan detailed|[TransactionItem.csv](#scan-transactionitemcsv)|Details of the last scan for all items.|
-|Scan summary|[FileExtension.csv](#fileextensioncsv)|Provides the statistics of extension types existing in each task.|
-|Scan summary|[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|Scan summary|[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|Scan summary|[ProjectError.csv](#scan-projecterrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|Scan summary|[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
-
-
-|Report type|Migration report|Description|
-|:-----|:-----|:-----|
-|Migration detailed|[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
-|Migration summary|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|Migration summary|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
+- [Scan summary report](#scan-summary-report)
+- [Scan detailed report](#scan-detailed-report)
+- [Migration summary report](#migration-summary-report)
+- [Migration detailed report](#migration-detailed-report)
 
 >[!Important]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
@@ -429,10 +418,9 @@ Status codes provide the final status of the scan and migration tasks.
 |201 |Warning|Some upload errors. Download and review the detailed report before trying again. |
 |202 |Warning|No files copied. Some upload errors. Download and review the detailed report before trying again.|
 |210 |Warning|Some download errors. Download and review the detailed report before trying again. |
-|220 |Warning|No files copied. Some download errors. Download and review the detailed report before trying again. |
 |211 |Warning|Some download and upload errors. Download and review the detailed report before trying again. |
+|220 |Warning|No files copied. Some download errors. Download and review the detailed report before trying again. |
 |222 |Warning|No files copied. Some download and upload errors. Download and review the detailed report before trying again. |
-|227 |Some files aren't supported on the source or destination |
 |230 |Canceled|Canceled|
 |250 |Failed|Already running. Wait a while and then try again.|
 |260 |Failed|Storage quotea exceeded on destination name.|
