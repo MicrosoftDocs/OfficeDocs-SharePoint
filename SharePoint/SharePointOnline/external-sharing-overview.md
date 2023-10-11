@@ -53,26 +53,28 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint and OneDrive environment. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
 
-### SharePoint and OneDrive integration with Azure AD B2B
+<a name='sharepoint-and-onedrive-integration-with-azure-ad-b2b'></a>
+
+### SharePoint and OneDrive integration with Microsoft Entra B2B
 
 There are two external sharing models used in SharePoint and OneDrive:
 
 - SharePoint external authentication
 
-- SharePoint and OneDrive integration with Azure AD B2B
+- SharePoint and OneDrive integration with Microsoft Entra B2B
 
-When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+When using Microsoft Entra B2B integration, Microsoft Entra external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
 
 The following table shows the differences between the two sharing models.
 
 |Sharing method|Files and folders|Sites|
 |:--|:----------------|:----|
-|SharePoint external authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
-|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+|SharePoint external authentication<br>(Microsoft Entra B2B integration not enabled)|No guest account created*<br>Microsoft Entra settings don't apply|N/A<br>(Microsoft Entra B2B always used)|
+|Microsoft Entra B2B integration enabled|Guest account always created<br>Microsoft Entra settings apply|Guest account always created<br>Microsoft Entra settings apply|
 
 *A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
 
-For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+For information on how to enable or disable Microsoft Entra B2B integration, see [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md).
 
 ## How the external sharing settings work
 

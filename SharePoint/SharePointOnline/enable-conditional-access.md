@@ -27,15 +27,15 @@ description: "In this article, you'll learn how to enable conditional access in 
 
 # Enable conditional access support in the OneDrive sync app
 
-Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The new OneDrive sync app works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
+Conditional access control capabilities in Microsoft Entra ID offer simple ways for you to secure resources in the cloud. The new OneDrive sync app works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
   
 For information about how conditional access works, see:
   
-- [Azure Active Directory conditional access](/azure/active-directory/conditional-access/)
+- [Microsoft Entra Conditional Access](/azure/active-directory/conditional-access/)
     
 - [Require managed devices for cloud app access with conditional access](/azure/active-directory/conditional-access/require-managed-devices)
     
-- [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
+- [Configure Microsoft Entra hybrid join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
 
 - [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)
     
@@ -75,4 +75,3 @@ Please let us know if you run into any problems while using this release.
 2. Click **Get help**.
     
 3. Type a brief description of your issue, and then click **Submit**. 
-
