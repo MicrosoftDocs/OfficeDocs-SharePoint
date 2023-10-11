@@ -28,7 +28,7 @@ When migrating file shares with Migration Manager, you first need to set up one 
 
 When you run the setup file, you are prompted for two sets of credentials. You need Global or SharePoint Administrator credentials, depending on your destination, and Windows credentials with read access to the source. These Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migration tasks.
 
-After an agent is configured, anyone with permission to access the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219){:target="_blank"} can create tasks. The tasks are automatically distributed to one of the available configured agents.
+After an agent is configured, anyone with permission to access the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) can create tasks. The tasks are automatically distributed to one of the available configured agents.
 
 > [!IMPORTANT]
 > Make sure to download the latest version of the agent setup file.
