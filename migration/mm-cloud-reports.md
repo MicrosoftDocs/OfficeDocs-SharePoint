@@ -410,10 +410,10 @@ Status codes provide the final status of the scan and migration tasks.
 
 |Code | Status |Message|
 |:-----|:-----|:-----|
-|100 |Ready to migrate/Copied to migrate/completed. Success. |
-|101 |Ready to migrate/Copied to migrate/completed. Success. No files needed copying. |
-|102 |Ready to migrate/Copied to migrate/completed. Success. Some files aren't supported by Destination name and weren't transferred. |
-|120 |Ready to migrate/Copied to migrate/completed. Success. Some files aren't supported by Source name and weren't transferred. |
+|100 |Ready to migrate/Copied to migrate/completed. | Success. |
+|101 |Ready to migrate/Copied to migrate/completed. | Success. No files needed copying. |
+|102 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Destination name and weren't transferred. |
+|120 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Source name and weren't transferred. |
 |122 |Warning|Ready to migrate/Copied to migrate/completed. Success. Some unsupported files not transferred. |
 |201 |Warning|Some upload errors. Download and review the detailed report before trying again. |
 |202 |Warning|No files copied. Some upload errors. Download and review the detailed report before trying again.|
