@@ -94,9 +94,9 @@ This section will help you set up server-to-server authentication among:
 
 - SharePoint in Microsoft 365
 
-- Azure Active Directory
+- Microsoft Entra ID
 
-When you set up server-to-server authentication for hybrid environments, you create a **trust relationship** between your **on-premises SharePoint farm** and your **SharePoint in Microsoft 365** **tenant**, which uses Azure Active Directory as a trusted token signing service. By adding the required PowerShell modules and snap-ins, this process can occur in a single PowerShell window on an on-premises SharePoint web server.
+When you set up server-to-server authentication for hybrid environments, you create a **trust relationship** between your **on-premises SharePoint farm** and your **SharePoint in Microsoft 365** **tenant**, which uses Microsoft Entra ID as a trusted token signing service. By adding the required PowerShell modules and snap-ins, this process can occur in a single PowerShell window on an on-premises SharePoint web server.
 
 > [!TIP]
 > You'll want to keep a record of your steps, the PowerShell cmdlets you run, and any errors that you might encounter. You should capture all the contents of the PowerShell buffer when you have finished and before you close the window. This will give you a history of the steps that you took, which will be helpful if you have to troubleshoot or explain the process to others. This can also be useful to refresh your memory if the setup happens in stages.
@@ -117,27 +117,27 @@ Here's a high-level view of the procedures you have to complete in this section:
 
    - Configure a common authentication realm between your on-premises SharePoint Server farm and SharePoint in Microsoft 365.
 
-   - Configure an Azure Active Directory application proxy on-premises.
+   - Configure a Microsoft Entra application proxy on-premises.
 
 ### Install online service management tools and configure the Windows PowerShell window
 <a name="step2"> </a>
 
 To continue, you need to install these tools on an on-premises SharePoint Server web server:
 
-- Azure Active Directory Module for Windows PowerShell
+- Azure Active Directory module for Windows PowerShell
 
 - SharePoint in Microsoft 365 Management Shell
 
 This is most easily accomplished on a web server in your SharePoint farm because it's easier to load the  *Microsoft.SharePoint.PowerShell*  snap-in on the web servers than on servers that don't have SharePoint Server installed.
 
-Authentication to SharePoint Server, SharePoint in Microsoft 365, and Azure Active Directory requires different user accounts. For information about how to determine which account to use, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md).
+Authentication to SharePoint Server, SharePoint in Microsoft 365, and Microsoft Entra ID requires different user accounts. For information about how to determine which account to use, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md).
 
 > [!NOTE]
-> To make it easier to complete the steps in this section, we'll open a PowerShell Command Prompt window on a SharePoint Server web server and add the modules and snap-ins that let you connect to SharePoint Server, SharePoint in Microsoft 365, and Azure Active Directory. (We'll give you detailed steps on how to do this later in this article.) We'll then keep this window open to use for all the remaining PowerShell steps in this article.
+> To make it easier to complete the steps in this section, we'll open a PowerShell Command Prompt window on a SharePoint Server web server and add the modules and snap-ins that let you connect to SharePoint Server, SharePoint in Microsoft 365, and Microsoft Entra ID. (We'll give you detailed steps on how to do this later in this article.) We'll then keep this window open to use for all the remaining PowerShell steps in this article.
 
 To install the online service management tools and configure the PowerShell window:
 
-1. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
+1. Install the [latest version of the Azure Active Directory module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
 
 2. Install the SharePoint in Microsoft 365 Management Shell:
 
@@ -179,7 +179,7 @@ To install the online service management tools and configure the PowerShell wind
 ### Configure server-to-server (S2S) authentication
 <a name="step2"> </a>
 
-Now that you installed the tools to enable you to remotely administer Azure Active Directory and SharePoint in Microsoft 365, you're ready to set up server-to-server authentication.
+Now that you installed the tools to enable you to remotely administer Microsoft Entra ID and SharePoint in Microsoft 365, you're ready to set up server-to-server authentication.
 
 #### About the variables you'll create
 
@@ -192,7 +192,7 @@ This section describes the variables you will set in the procedure that follows.
 |$site|The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.|
 |$spoappid|The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.|
 |$spocontextID|The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.|
-|$metadataEndpoint|The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.|
+|$metadataEndpoint|The URL that is used by your Microsoft Entra ID proxy to connect to your Microsoft Entra tenancy.  <br/> You don't need to input a value for this variable.|
 
 #### Step 1: Set variables
 <a name="step3"> </a>
@@ -235,12 +235,14 @@ $credValue = [System.Convert]::ToBase64String($binCert);
 New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
 ```
 
-#### Step 3: Add an SPN for your public domain name to Azure Active Directory
+<a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
+
+#### Step 3: Add an SPN for your public domain name to Microsoft Entra ID
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN.
+In this step, you add a service principal name (SPN) to your Microsoft Entra tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN.
 
-Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
+Just like SPNs function in Active Directory, creating this SPN registers an object in Microsoft Entra ID that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
 
 **\<service type\>/\<instance name\>**
 
@@ -260,7 +262,7 @@ If the common name in your certificate is sharepoint.adventureworks.com, the syn
 
 Using a wildcard value lets SharePoint in Microsoft 365 validate connections with  *any host*  in that domain. This is useful if you ever need to change the host name of the external endpoint (if your topology includes one) or if you want to change your SharePoint Server web application, in the future.
 
-To add the SPN to Azure Active Directory, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
+To add the SPN to Microsoft Entra ID, enter the following commands in the Azure Active Directory module for Windows PowerShell command prompt.
 
 ```powershell
 $msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
@@ -269,7 +271,7 @@ $spns.Add("$spoappid/$spcn")
 Set-MsolServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
 ```
 
-To validate that the SPN was set, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
+To validate that the SPN was set, enter the following commands in the Azure Active Directory module for Windows PowerShell command prompt.
 
 ```powershell
 $msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
@@ -329,10 +331,12 @@ The output of each of these commands is the GUID that represents the context ID 
 > [!IMPORTANT]
 > If you have configured farm setup scripts that specify the farm authentication realm value, you should update the setup scripts with this new value before you run them again. > For more information about the requirements for realm values in farm setup scripts, see [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md). Because you have now configured this SharePoint farm to participate in the hybrid configuration, the SharePoint farm authentication realm value must always match the tenant context identifier. If you change this value, the farm will no longer participate in hybrid functionality.
 
-#### Step 6: Configure an on-premises proxy for Azure Active Directory
+<a name='step-6-configure-an-on-premises-proxy-for-azure-active-directory'></a>
+
+#### Step 6: Configure an on-premises proxy for Microsoft Entra ID
 <a name="step8"> </a>
 
-In this step, you create an Azure Active Directory proxy service in the SharePoint Server farm. This enables Azure Active Directory as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint in Microsoft 365.
+In this step, you create a Microsoft Entra ID proxy service in the SharePoint Server farm. This enables Microsoft Entra ID as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint in Microsoft 365.
 
 From the PowerShell command prompt, enter the following commands.
 
