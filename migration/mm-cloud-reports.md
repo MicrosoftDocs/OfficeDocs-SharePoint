@@ -408,7 +408,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 
 Status codes provide the final status of the scan and migration tasks.
 
-|Code| Status |Message|
+|Code | Status |Message|
 |:-----|:-----|:-----|
 |100 |Ready to migrate/Copied to migrate/completed|Success|
 |101 |Ready to migrate/Copied to migrate/completed|Success. No files needed copying |
