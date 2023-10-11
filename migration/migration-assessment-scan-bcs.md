@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan BCS"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 7/5/2017

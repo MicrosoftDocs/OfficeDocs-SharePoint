@@ -1,8 +1,8 @@
 ---
 title: "SharePoint-provided Azure containers and queues for SharePoint Migration API"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 7/18/2017
@@ -21,7 +21,7 @@ ms.collection:
 - m365initiative-migratetom365
 ms.custom: 
 ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
-
+description: Learn more about the SharePoint-provided Azure containers and queues for SharePoint Migration API.
 ---
 
 # SharePoint-provided Azure containers and queues for SharePoint Migration API
