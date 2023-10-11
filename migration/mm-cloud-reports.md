@@ -76,17 +76,17 @@ There are limits on the number of tasks can be selected for bulk download for ea
 1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-:::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
+   :::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
 3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. For example:  
 
-:::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
+   :::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
 
 4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
 
-:::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
+   :::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
 
-:::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
+   :::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
 
 
 ### Download Migration reports
