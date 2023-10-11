@@ -2,8 +2,8 @@
 ms.date: 06/15/2021
 title: "Migration Manager Scan"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: 
 description: Migration Manager Scan
 ---

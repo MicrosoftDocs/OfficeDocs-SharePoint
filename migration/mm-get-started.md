@@ -2,8 +2,8 @@
 ms.date: 08/11/2023
 title: "Migrate your file shares to Microsoft 365 with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -19,6 +19,7 @@ ms.collection:
 - m365solution-migratetom365
 - m365solution-scenario
 - highpri
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

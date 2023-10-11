@@ -2,8 +2,8 @@
 ms.date: 12/02/2021
 title: "Migrated Flow structure when using SPMT"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: "Learn about how workflows will be structured when migrating from SharePoint Server to Power Automate using SPMT."

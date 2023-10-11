@@ -3,8 +3,8 @@ ms.date: 05/20/2019
 title: "SPMT Supported SharePoint Server site features"
 audience: ITPro
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.audience: ITPro
@@ -17,6 +17,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "List of SharePoint Server site features suppored by the SharePoint Migration Tool (SPMT)"
 ---
 # SPMT supported SharePoint site features

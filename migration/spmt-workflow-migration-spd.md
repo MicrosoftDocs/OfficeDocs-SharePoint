@@ -2,8 +2,8 @@
 ms.date: 02/08/2023
 title: "Migrate SharePoint Designer workflows with SPMT"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: Overview Migrate your SharePoint Designer 2010 & 2013 created workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
@@ -143,20 +144,17 @@ Unsupported lookups for string include:
 - Get field value of associated task list
 - Get field value of associated history list
 
-
 ### Lookup for user
 
 Supported lookups for user include:
 
-- User name. An Active Director (AD) user in the workflow will be mapped to anAzure Active Directory (AAD) user in migration Power Automate flow.
+- User name. An Active Directory (AD) user in the workflow will be mapped to a Microsoft Entra user in migration Power Automate flow.
 
 Unsupported lookups for user include:
 
 - SharePoint group name
 - Hierarchy manager
 
-
 ## Initiation Form Parameters
 
 In the SharePoint Designer workflow, initiation form parameters can be configured for a manually started workflow. When workflows are run, these parameters are provided by the user, and their values are set as variables. After migration, initiation form parameters are converted to the inputs of the manual-triggered Power Automate flow.
-

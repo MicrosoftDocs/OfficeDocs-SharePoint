@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Migration Assessment Tool Scan Reports Roadmap"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 12/6/2017
@@ -15,6 +15,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Learn more about preparing your data for migration."
 ---
 

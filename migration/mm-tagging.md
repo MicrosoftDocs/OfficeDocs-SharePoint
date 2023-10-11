@@ -1,8 +1,8 @@
 ---
 ms.date: 01/04/2022
 title: "Importing tags with Migration Manager"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -15,6 +15,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Importing tags with Migration Manager"

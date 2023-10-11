@@ -14,6 +14,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
+- M365-sam
 - Highpri
 - Tier1
 description: "Learn how to review recent admin actions in SharePoint admin center."

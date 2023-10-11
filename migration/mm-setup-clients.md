@@ -2,8 +2,8 @@
 ms.date: 10/11/2019
 title: "Setup Migration Manager agents"
 ms.reviewer: jhendr
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Set up multiple Migration Manager agents

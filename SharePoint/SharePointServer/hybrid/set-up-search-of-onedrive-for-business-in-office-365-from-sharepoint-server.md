@@ -335,7 +335,7 @@ Federated users should now be able to use the new MyOneDrive search vertical to 
     
 - Items in OneDrive that are shared with everyone.
     
-A federated user is one who has an account in the on-premises Active Directory Domain Services (AD DS) Domain Users group that has been synchronized with Azure Active Directory by using the Azure Active Directory Sync tool (DirSync). The account has group memberships and permissions for resources in the SharePoint Server deployment and in Office 365, and can access resources in both environments by authenticating with the federation identity provider, such as Active Directory Federation Services (AD FS) 2.0. 
+A federated user is one who has an account in the on-premises Active Directory Domain Services (AD DS) Domain Users group that has been synchronized with Microsoft Entra ID by using the Azure Active Directory Sync tool (DirSync). The account has group memberships and permissions for resources in the SharePoint Server deployment and in Office 365, and can access resources in both environments by authenticating with the federation identity provider, such as Active Directory Federation Services (AD FS) 2.0. 
   
 To validate your configuration for displaying search results from OneDrive, you can log on to SharePoint Server as a federated user and try some searches from the OneDrive search vertical in the enterprise Search Center. Use the following procedure to validate your configuration in this way.
   

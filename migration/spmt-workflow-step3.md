@@ -2,8 +2,8 @@
 ms.date: 12/02/2021
 title: "Step 3: Activate workflows after migration"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: "The third step in migrating SharePoint Server workflows to Microsoft 365, activating the migrating flows."

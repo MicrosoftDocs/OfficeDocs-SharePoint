@@ -67,6 +67,9 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 - For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users.  For more information and assistance, contact [Microsoft Support](https://go.microsoft.com/fwlink/?linkid=869559). 
 
 - Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site eligibility for increased storage](/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
+
+    > [!NOTE]
+    > For Office 365 A1 users, the OneDrive storage limit is up to 100 GB. For details, see [Office 365 Education service descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-education).
     
     
 ## Change a user's storage space by using PowerShell
@@ -135,7 +138,7 @@ If you are attempting to change the OneDrive storage for a user and are not able
 >> [Run Tests: Check OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
 
 > [!NOTE]
-> This feature is not available for Microsoft 365 Government and Microsoft 365 operated by 21Vianet. 
+> This diagnostic isn’t supported for GCC High, DoD, Microsoft 365 operated by 21Vianet, or Microsoft 365 Education.
 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
 

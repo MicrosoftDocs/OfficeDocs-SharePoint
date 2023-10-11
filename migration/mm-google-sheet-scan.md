@@ -2,8 +2,8 @@
 ms.date: 08/30/2023
 title: "Scan Google Sheet spreadsheets with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -18,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migrate Google Sheet spreadsheets with Migration Manager.

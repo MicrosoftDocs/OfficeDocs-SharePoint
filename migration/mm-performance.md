@@ -1,8 +1,8 @@
 ---
 ms.date: 03/30/2020
 title: Improving your Migration Manager performance
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -17,6 +17,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to improve performance when using Migration Manager."
 ---

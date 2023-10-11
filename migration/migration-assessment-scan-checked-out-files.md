@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Checked-out files"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/12/2017
@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 43ca2e32-1ed7-4a4b-a575-7573b435594b
 description: "Learn about issues with checked-out files during data migration."

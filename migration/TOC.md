@@ -58,6 +58,7 @@
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
+### [Migration time estimator](mm-time-estimator.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
@@ -151,7 +152,7 @@
 #### [Workflow Running Solutions 2013](migration-assessment-scan-workflow-running-solutions-2013.md)
 ### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
 #### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
-#### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
+#### [Microsoft Entra Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 #### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 ## SPMT Migration Scenario Guides
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)

@@ -2,8 +2,8 @@
 ms.date: 05/27/2020
 title: "Migration Manager Government Cloud settings"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Explanation of Government Cloud configuration settings when using Migration Manager for file share migrations." 
 ---
 # Government cloud settings for Migration Manager 

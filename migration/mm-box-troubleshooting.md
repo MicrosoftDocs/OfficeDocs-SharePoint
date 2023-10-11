@@ -2,8 +2,8 @@
 ms.date: 03/31/2021
 title: "Troubleshooting Migration Manager Box"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -16,13 +16,14 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Troubleshooting the Migration Manager Box feature."
 ---
 
 # Troubleshooting after your Box migration
 
-Review these areas if you are experiencing issue with your Box migration.
+Review these areas if you're experiencing issue with your Box migration.
 
 
 ## Automatic reruns
@@ -31,8 +32,8 @@ When a run ends, an automatic rerun may occur if the conditions listed under eac
 
 |Scenario|Conditions|
 |:-----|:-----|
-|The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns, because it was not the first time the task was scanned.|
-|More automatic reruns are still available|A task will be automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
+|The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns, because it wasn't the first time the task was scanned.|
+|More automatic reruns are still available|A task is automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and three more attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
 |Last transaction status codes|An automatic rerun may occur if the last transaction ends with any of the following status codes: 201, 202, 210, 220, 211, 401, 403,404, 405, 406, or 491.|
 
 ## Canceling a transfer
@@ -53,6 +54,6 @@ Our incrementals are delta operations that compare files in your source to files
 
 During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
 
-This assumption is common if they are not in clear communication about how the sharing structure changes when they sign in to Microsoft 365. A clear communication strategy helps users understand the changes.
+This assumption is common if they aren't in clear communication about how the sharing structure changes when they sign in to Microsoft 365. A clear communication strategy helps users understand the changes.
 
 

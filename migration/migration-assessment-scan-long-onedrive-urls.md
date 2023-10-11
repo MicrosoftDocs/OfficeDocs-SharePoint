@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Long OneDrive URLs"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/13/2017
@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a2828065-b060-4784-9a7d-4c214b4054b1
 description: "Learn how to fix issues with long OneDrive URLs during migration."
@@ -30,7 +31,7 @@ Learn how to fix issues with long OneDrive URLs during migration.
 
 ## Overview
 
-When you're moving a OneDrive site from your source to the target environment, the OneDrive URL will change formats. On the source platform the OneDrive sites are in the format of https://onedrive.contoso.com/personal/domain_user. On the target platform, the Domain_User portion of the URL will change to use the UPN for the user. This will look similar to https://onedrive.contoso.com/personal/user_contoso_com.
+When you're moving a OneDrive site from your source to the target environment, the OneDrive URL changes formats. On the source platform, the OneDrive sites are in the format of https://onedrive.contoso.com/personal/domain_user. On the target platform, the Domain_User portion of the URL changes to use the UPN for the user. This looks similar to https://onedrive.contoso.com/personal/user_contoso_com.
 
  **Example:**
 
@@ -49,15 +50,15 @@ After the migration, the file path will look like the following.
 
 `Personal/bobsmith_contoso_com/Documents/Folder1/Folder2`
 
-Notice the URL is now 4 characters longer than it was before. Depending on how the UPNs are formed at your company, the change in length may be larger.
+Notice the URL is now four characters longer than it was before. Depending on how the UPNs are formed at your company, the change in length may be larger.
 
 If the previous file in the source environment was 255 characters, the length after migration would be 259 characters.
 
-We have identified 4 different locations in which failures are likely to occur due to long URLs. As a result, we have 4 different reports concerning long URLs. The Scan Result Reports section covers each report along with the remediation that needs to occur.
+We have identified four different locations in which failures are likely to occur due to long URLs. As a result, we have four different reports concerning long URLs. The Scan Result Reports section covers each report along with the remediation that needs to occur.
 
 ## Data Migration
 
-The migration of the source content resulting in the long URLs will fail. This will cause migration jobs to fail, which will prolong the migration project unnecessarily.
+The migration of the source content resulting in the long URLs fail. This causes migration jobs to fail, which will prolong the migration project unnecessarily.
 
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output.
@@ -72,7 +73,7 @@ Validate that your content has been migrated.
 
 ## Scan Result Reports
 
-This scan results in 4 output files. Each file is for a specific long URL issue that will result in migration failures. **LongODBUrl-AllDocs-detail.csv** There are two limitations related to the length of the path to a given file:
+This scan results in four output files. Each file is for a specific long URL issue that will result in migration failures. **LongODBUrl-AllDocs-detail.csv** There are two limitations related to the length of the path to a given file:
 
 - The server relative path to the folder containing the file has a maximum of 400 characters. Using the following example file:
 
@@ -86,9 +87,9 @@ This scan results in 4 output files. Each file is for a specific long URL issue 
 
     `https://OneDrive.contoto.com/Personal/contoso_bobsmith/Documents/Folder1/Folder2/ProjectA.docx`
 
-    The server relative path to the file will look similar to the following: Personal/contoso_bobsmith/Documents/Folder1/Folder2/ProjectA.docx
+    The server relative path to the file looks similar to the following: Personal/contoso_bobsmith/Documents/Folder1/Folder2/ProjectA.docx
 
-If there are files listed in this report, the owners will need to move the files to shorter paths or delete the files. For example, they could move ProjectA.docx up to a folder directly under Documents, or they could delete the file if it is no longer needed.
+If there are files listed in this report, the owners need to move the files to shorter paths or delete the files. For example, they could move ProjectA.docx up to a folder directly under Documents, or they could delete the file if it's no longer needed.
 
 |Column|Description|
 |---|---|
@@ -103,17 +104,17 @@ If there are files listed in this report, the owners will need to move the files
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
 |LastContentModifiedDate|Date/Time the site collection had content modified.|
 |TotalItemCount|Total number of items found in the site collection.|
-|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
-|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
+|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
+|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
 |DaysOfUsageData|Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.|
-|UPN|UPN that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner did not have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName values in the SharePoint profile store was used.|
-|URLLengthDifference|Amount the URL will grow when the site is renamed.|
+|UPN|UPN that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner didn't have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName values in the SharePoint profile store was used.|
+|URLLengthDifference|Amount the URL grows when the site is renamed.|
 |File|File that needs to be remediated.|
 |ScanID|Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.|
 
  **LongODBUrl-NavNodes-detail.csv** Navigation nodes have a URL length limitation of 260 characters. This can lead to the URL field exceeding the maximum length.
 
-For example, you have a OneDrive site at `https://OneDrive.contoso.com/personal/contoso_bobsmith`. That site has a link in the Quick launch named Reports and the URL of the link points to `https://onedrive.contoso.com/personal/contoso_bobsmith/documents/folder1/...folderN/Reports`. During the migration, SharePoint will update the URL to point to `/bobsmith_contoso_com/`. The additional length added to the URL may result in the length being over 260 characters, which will cause the migration to fail.
+For example, you have a OneDrive site at `https://OneDrive.contoso.com/personal/contoso_bobsmith`. That site has a link in the Quick launch named Reports and the URL of the link points to `https://onedrive.contoso.com/personal/contoso_bobsmith/documents/folder1/...folderN/Reports`. During the migration, SharePoint updates the URL to point to `/bobsmith_contoso_com/`. The extra length added to the URL may result in the length being over 260 characters, which will cause the migration to fail.
 
 To remediate this issue, you would move the reports folder close to the root of the /documents/ library and then update the quick launch link. Another option would be to remove the quick launch link.
 
@@ -128,15 +129,15 @@ To remediate this issue, you would move the reports folder close to the root of 
 |ContentDBName|Name of the content database hosting the site collection.|
 |ContentDBServerName|SQL Server hosting the content database.|
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
-|UPN|UPN that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner did not have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName in the SharePoint profile store was used.|
-|URLLengthDifference|URLLengthDifference Amount the URL will grow when the site is renamed.|
+|UPN|UPN that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner didn't have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName in the SharePoint profile store was used.|
+|URLLengthDifference|URLLengthDifference Amount the URL grows when the site is renamed.|
 |WebURL|URL to the web that has the navigation node.|
 |NavigationNodeLocation|Navigation Node titles showing where the navigation node lives. You can have multiple levels of navigation nodes, and this will help locate the offending node.|
 |NavigationNodeTitle|Title of the impacted navigation node.|
 |NavigationNodeURL|URL that will be too long after the site rename.|
 |ScanID|Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.|
 
- **LongODBUrl-Perms-detail.csv** Permissions that are set on an object in SharePoint are tracked by the URL of that object. If you set permissions on a folder, SharePoint will store the relative path to the folder. If you set permissions on an item, SharePoint will store the server relative path to the item.
+ **LongODBUrl-Perms-detail.csv** Permissions that are set on an object in SharePoint are tracked by the URL of that object. If you set permissions on a folder, SharePoint stores the relative path to the folder. If you set permissions on an item, SharePoint stores the server relative path to the item.
 
 As a result, during a site migration, the URLs associated with permissions will be updated. This may lead to failures if the new URL is too long.
 
@@ -153,13 +154,13 @@ The remediation for this is to move the affected object closer to the root of th
 |ContentDBName|Name of the content database hosting the site collection.|
 |ContentDBServerName|SQL Server hosting the content database.|
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
-|UPN|UPN UserPrincipalName that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner did not have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName in the SharePoint profile store was used.|
+|UPN|UPN UserPrincipalName that was used to determine the difference in the URL length. If the UPN is "\*\*\*\*" that indicates the owner didn't have a UserPrincipalName set in their SharePoint profile. As a result, the average length of the UserPrincipalName in the SharePoint profile store was used.|
 |URLLengthDifference|Amount the URL will grow when the site is renamed.|
 |WebURL|URL to the web hosting the secured object.|
 |SecuredObject|This is the URL to the secured object that will be too long after the site rename. If you add permissions to a file, this is the server relative path to the file. If you set permissions on a folder, this is the server relative path to the folder.|
 |ScanID|Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.|
 
- **LongODBUrl-Deps-detail.csv** Certain files can have additional dependencies. Those dependencies are tracked by the URL. During the migration if the dependency information is too long, the migration will fail.
+ **LongODBUrl-Deps-detail.csv** Certain files can have other dependencies. Those dependencies are tracked by the URL. During the migration if the dependency information is too long, the migration fails.
 
 There are two limitations in this report to be aware of:
 

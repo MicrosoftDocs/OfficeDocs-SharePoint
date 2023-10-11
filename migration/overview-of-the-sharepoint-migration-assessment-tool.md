@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Migration Assessment Tool"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 01/11/2018
@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: a6dca2a3-72d6-4717-abe9-a58f025ea26e
@@ -43,7 +44,7 @@ This is the default mode. If you run SMAT.exe, the assessment runs. The assessme
   
 ### Identity Mapping
 
-You can use Identity Mapping to generate a report of all the user and group identities that have access to your SharePoint environment and attempts to map those identities to Azure AD user and group identities.
+You can use Identity Mapping to generate a report of all the user and group identities that have access to your SharePoint environment and attempts to map those identities to Microsoft Entra user and group identities.
   
 This process is very important to migration. If identities aren't correctly set up before migration, users could possibly lose access to content, as well as incorrect information on the site. For example, the **Created By** and **Modified** fields might not show the correct identity post migration.
   

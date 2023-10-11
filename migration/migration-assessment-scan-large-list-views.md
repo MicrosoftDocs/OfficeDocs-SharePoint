@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Large List Views"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/13/2017
@@ -19,6 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: e94a941a-b171-41fc-8685-f2fd74bf8487
 description: "Learn how to mitigate issues with Large List Views during migration."

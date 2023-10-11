@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Site Notebook"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 7/23/2018
@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 description: "Learn about migration issues with Site Notebook."
 ---
@@ -26,18 +27,18 @@ description: "Learn about migration issues with Site Notebook."
 
 ## Overview
 
-SharePoint 2013 and later support a feature called Site Notebook. This SharePoint feature is activated on the site and will generate a OneNote in the Site Assets library of the web. The file will be named with the title of the site.
-Depending on the migration tools being used, your Site Notebook will migrate. However, the name of the Site Notebook in SharePoint in Microsoft 365 is different from the name of the file in the on-premises environment. As a result, links referencing the original file name will be broken. This report will provide a list of OneNote files that match the following scenario:
+SharePoint 2013 and later support a feature called Site Notebook. This SharePoint feature is activated on the site and will generate a OneNote in the Site Assets library of the web. The file is named with the title of the site.
+Depending on the migration tools being used, your Site Notebook migrates. However, the name of the Site Notebook in SharePoint in Microsoft 365 is different from the name of the file in the on-premises environment. As a result, links referencing the original file name is broken. This report provides a list of OneNote files that match the following scenario:
 
 - OneNote Notebook files
 - Exist in the Site Assets library
 - Have a name that ends in Notebook
-- OneNote is not empty
-- Is not flagged as deleted
+- OneNote isn't empty
+- Isn't flagged as deleted
 
 ## Data Migration
 
-Depending on the migration tools being used, the Site Notebook will migrate but the file will have a different name resulting in broken links.
+Depending on the migration tools being used, the Site Notebook migrates but the file will have a different name resulting in broken links.
 
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output.
@@ -68,8 +69,8 @@ This scan report provides a list of all the add-ins installed in the environment
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
 |LastContentModifiedDate|Date/Time the site collection had content modified.|
 |TotalItemCount|Total number of items found in the site collection.|
-|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
-|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
+|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
+|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
 |DaysOfUsageData|Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days,the Hits and DistinctUsers data is for the last 14 days.|
 |File|Path to the Site Notebook.|
 |TimeCreated|Date/Time the file was created.|

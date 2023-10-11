@@ -2,8 +2,8 @@
 ms.date: 08/18/2021
 title: "Step 3: Copy to migrations for file share migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150to the migration list in Migration Manager."
 description: "Learn how to copy to migrations for file share migration."
 ---

@@ -2,8 +2,8 @@
 ms.date: 01/11/2019
 title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 ms.assetid:
 description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."

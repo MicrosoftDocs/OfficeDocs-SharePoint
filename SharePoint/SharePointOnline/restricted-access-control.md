@@ -15,9 +15,10 @@ ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
 ms.collection: 
-- M365-collaboration
 - Highpri
 - Tier1
+- M365-sam
+- M365-collaboration
 search.appverid:
 description: "Learn how to enable restricted access control for SharePoint sites."
 ---
@@ -48,7 +49,6 @@ To access and use this feature, your organization must do the following:
 There are two ways to enable restricted access control for your organization using either SharePoint admin center or PowerShell.
 
 To enable restricted access control for your organization in SharePoint admin center:
-
   1. Expand **Policies** and select **Access control**.
   2. Select **Site access restriction**.
   3. Select **Allow access restriction** and then select **Save**.:::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard.png" alt-text="screenshot of restricted access control in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard.png":::
@@ -97,7 +97,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Restrict site access to non-group connected sites
 
-You can restrict access to non-group connected sites by specifying [Azure AD security groups](/azure/active-directory/fundamentals/how-to-manage-groups) in the SharePoint admin center or PowerShell. Each non-group connected site may be assigned up to 10 security groups. Once a security group is added, only users in the group will have access to the site.
+You can restrict access to non-group connected sites by specifying [Mincrosoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) in the SharePoint admin center or PowerShell. Each non-group connected site may be assigned up to 10 Microsoft Entra security groups. Once a security group is added, only users in the group will have access to the site.
 
 > [!NOTE]
 > Dynamic membership of security groups is also supported for restricted access control policy.

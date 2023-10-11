@@ -1,8 +1,8 @@
 ---
 ms.date: 08/07/2023
 title: Create a task in SharePoint Migration Tool (SPMT)
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -17,6 +17,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn now to create a migration task using the SharePoint Migration Tool (SPMT)."
 ---

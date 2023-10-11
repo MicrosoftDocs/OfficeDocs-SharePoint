@@ -2,8 +2,8 @@
 ms.date: 01/22/2019
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -18,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 ms.custom:
 - seo-marvel-apr2020
@@ -138,5 +139,4 @@ This article describes common issues and errors you may encounter when using the
 | Migration failed due to invalid XML definition |The XsltListView web part and ListView web part contain an XML definition that is critical for the migration of these web parts. Sometimes the XML definition is invalid because of upgrading issues or server errors.|Delete the failed web part from the SharePoint Server source page. Re-add it and try the migration again.|
 | Migration failed due to invalid assembly name |The assembly name of the web part is critical for SPMT to migrate the web part. If the assembly of the web part can't be parsed from its SOAP response, the migration fails. |Check whether this web part is a supported "out-of-the box" (OOTB) web part. If it's supported, file a bug and we'll investigate. However, if the web part is a third-party web part, it isn't supported. |
 |Migration failed due to web part connection failure. |The web part is connected to another web part that failed to migrate, causing both to fail. |Make sure the connected web part is migrated successfully. Retry your migration.|
-|Migration failed due to unable to map user |If the User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint site. This error occurs when SPMT can't map to the user. |Confirm that Azure Active Directory is used to sync all on-premises users to SharePoint.|
-
+|Migration failed due to unable to map user |If the User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint site. This error occurs when SPMT can't map to the user. |Confirm that Microsoft Entra ID is used to sync all on-premises users to SharePoint.|

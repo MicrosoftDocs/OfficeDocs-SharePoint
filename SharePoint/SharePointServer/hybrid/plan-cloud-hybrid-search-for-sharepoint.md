@@ -156,7 +156,7 @@ You can influence crawl performance and search freshness by how you manage crawl
 ## Decide how to synchronize Active Directories
 <a name="BKMK_Decide_sync_AD"> </a>
 
-When your on-premises content is crawled, parsed and encrypted, the access control lists (ACLs) for each item are crawled too. The Microsoft 365 search index stores the ACLs together with the item, so the system needs to be able to recognize an on-premises user as the same person in Microsoft 365. When you've set up Active Directory synchronization between your on-premises network (Windows Server Active Directory) and your Microsoft 365 organization (Windows Azure Active Directory), the system maps and translates the ACLs to the right users, and the users get security trimmed search results from the Microsoft 365 index.
+When your on-premises content is crawled, parsed and encrypted, the access control lists (ACLs) for each item are crawled too. The Microsoft 365 search index stores the ACLs together with the item, so the system needs to be able to recognize an on-premises user as the same person in Microsoft 365. When you've set up Active Directory synchronization between your on-premises network (Windows Server Active Directory) and your Microsoft 365 organization (Microsoft Entra ID), the system maps and translates the ACLs to the right users, and the users get security trimmed search results from the Microsoft 365 index.
   
 There are two methods to synchronize Active Directories:
   
@@ -170,7 +170,7 @@ If you choose the SSO option, you can also configure password synchronization if
 
 Some organizations assign access rights to their on-premises content by using one of the default security groups in Windows Server Active Directory (AD), for example the Domain Users security group.
   
-The Azure Active Directory Connect synchronization tool by default excludes some objects from synchronization. Security groups that have the attribute IsCriticalSecurityObject=true is one set of objects that the tool excludes, and Domain Users is an example of such a security group. Therefore, the access rights for the members of Domain Users aren't available in Azure Active Directory (AAD). Even if users have access to on-premises content, they don't get search results when they search for that content.
+The Microsoft Entra Connect synchronization tool by default excludes some objects from synchronization. Security groups that have the attribute IsCriticalSecurityObject=true is one set of objects that the tool excludes, and Domain Users is an example of such a security group. Therefore, the access rights for the members of Domain Users aren't available in Microsoft Entra ID. Even if users have access to on-premises content, they don't get search results when they search for that content.
   
 Instead, assign access rights by using a group that doesn't have IsCriticalSecurityObject=true, for example the Everyone group, the Authenticated Users group, or a custom group. For a list of the conditions for excluding objects and more information about unexpected synchronization results, see [One or more objects don't sync when using the Azure Active Directory Sync tool](https://support.microsoft.com/kb/2643629).
   
@@ -226,4 +226,3 @@ Plan for a custom result source that limits your Search Centers in Office 365 to
   
 [Hybrid search in SharePoint](hybrid-search-in-sharepoint.md)
   
-

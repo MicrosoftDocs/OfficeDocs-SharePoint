@@ -2,8 +2,8 @@
 ms.date: 03/28/2019
 title: "Migrate managed metadata by using SPMT"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -17,6 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "Migrating-managed metadata by using SPMT."
 ---
 

@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: "Step 2: Scan and assess Google accounts using Migration Manager"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 2:  Scan and assess Google users using Migration Manager."
 ---
@@ -80,6 +81,7 @@ When mapping please ensure that each Service Account has its own unique matching
 |serviceaccount1@contoso.com|serviceaccount1@contoso.com/[upload folder]*|
 |serviceaccount2@contoso.com|serviceaccount2@contoso.com/[upload folder]*|
 |serviceaccount3@contoso.com|serviceaccount3@contoso.com/[upload folder]*|
+
 
 Asterisk (*) = optional folder
 

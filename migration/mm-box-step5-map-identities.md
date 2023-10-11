@@ -2,8 +2,8 @@
 ms.date: 08/03/2023
 title: "Step 5: Map Box identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MachelleTranMSFT
+ms.author: mactra
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 5:  Map Box identities with Migration Manager." 
 ---

@@ -2,8 +2,8 @@
 ms.date: 02/22/2022
 title: "Migrate SharePoint workflows to Power Automate using PowerShell"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Learn how to migrate SharePoint workflows to Power Automate using PowerShell cmdlets."

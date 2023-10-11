@@ -2,8 +2,8 @@
 ms.date: 09/24/2021
 title: "Bulk upload Dropbox drives into Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to format a CSV or JSON file to bulk upload your Dropbox drives into Migration Manager."
 ---
