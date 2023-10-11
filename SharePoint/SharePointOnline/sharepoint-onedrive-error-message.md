@@ -67,7 +67,7 @@ Try sharing again.
 
 ## OSE202
 
-Error OSE202 indicates you can share with only those guests who are already in your directory. You will be able to [add guests directly through Azure Active Directory](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
+Error OSE202 indicates you can share with only those guests who are already in your directory. You will be able to [add guests directly through Microsoft Entra ID](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
 
 First, change the external sharing setting for your organization.
 
@@ -121,7 +121,7 @@ Try sharing again.
 
 ## OSE205
 
-Error OSE205 indicates you can share the site with only those guests who are already in your directory. You can [add guests directly through Azure Active Directory](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
+Error OSE205 indicates you can share the site with only those guests who are already in your directory. You can [add guests directly through Microsoft Entra ID](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -149,7 +149,7 @@ Try sharing again.
 
 ## OSE208
 
-Error OSE208 indicates you can share OneDrive files and folders with only those guests who are already in your directory. You can [add guests directly through Azure Active Directory](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
+Error OSE208 indicates you can share OneDrive files and folders with only those guests who are already in your directory. You can [add guests directly through Microsoft Entra ID](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or change the setting by doing the following:
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -291,4 +291,3 @@ Try sharing again.
 [Manage sharing settings](turn-external-sharing-on-or-off.md)
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)
-

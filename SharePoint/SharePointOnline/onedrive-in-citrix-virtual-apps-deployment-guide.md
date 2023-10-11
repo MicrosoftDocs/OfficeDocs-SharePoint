@@ -75,4 +75,4 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md).
 
     > [!NOTE]
-    > Silent sign-in should work if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
+    > Silent sign-in should work if your machine is connected to Microsoft Entra ID. Make sure to turn off this setting if your computer is not Microsoft Entra joined.

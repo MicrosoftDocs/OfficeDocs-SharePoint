@@ -26,7 +26,7 @@ description: "Configure the domain controllers for your high-availability ShareP
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you configure two replica domain controllers in the Azure virtual network (VNet). Client web requests for SharePoint farm resources can then be authenticated in the VNet, rather than sending that authentication traffic across the site-to-site VPN or ExpressRoute connection to your on-premises network.
   
 > [!NOTE]
-> SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+> SharePoint Server 2016 also supports the use of [Microsoft Entra Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
 You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   

@@ -60,7 +60,7 @@ In this scenario, you will learn how to:
     
 1. The Secure Channel certificate from Secure Store in SharePoint in Microsoft 365. This is used for SharePoint in Microsoft 365 authentication to the reverse proxy. 
     
-2. An [OAuth](https://go.microsoft.com/fwlink/?LinkID=214783) token from the Azure AD Service. This is used for user authentication to the SharePoint Server farm. You gain access to the Azure AD service with your SharePoint in Microsoft 365 subscription. It is a security token service that manages security tokens for users of SharePoint in Microsoft 365. 
+2. An [OAuth](https://go.microsoft.com/fwlink/?LinkID=214783) token from the Microsoft Entra service. This is used for user authentication to the SharePoint Server farm. You gain access to the Microsoft Entra service with your SharePoint in Microsoft 365 subscription. It is a security token service that manages security tokens for users of SharePoint in Microsoft 365. 
     
 4. Business Connectivity Services sends an HTTPS request to the published endpoint for the data source. The request includes the client certificate from Secure Store, the OAuth token, and a request for the data. The reverse proxy authenticates the request by using the client certificate and forwards it to the on-premises SharePoint Server farm. For more info about publishing SharePoint in Microsoft 365 to the internet, see [SharePoint in Microsoft 365 publishing solution guide](/previous-versions/tn-archive/dd857299(v=technet.10)) in the Forefront Technical Library. 
     

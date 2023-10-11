@@ -36,13 +36,13 @@ For this scenario, we assume that you have:
 - Already established directory synchronization with Microsoft 365. 
     
 > [!IMPORTANT]
-> Planning your user management is fundamental to deploying Microsoft 365 and Viva Engage. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Microsoft 365 services, including Viva Engage. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your user management is fundamental to deploying Microsoft 365 and Viva Engage. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Entra ID to provide authentication to Microsoft 365 services, including Viva Engage. This means Microsoft 365 uses the identity that is synchronized with Microsoft Entra ID to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 
-You probably have already set up directory synchronization for Microsoft 365 and your on-premises directory. If not, sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+You probably have already set up directory synchronization for Microsoft 365 and your on-premises directory. If not, sync your on-premises directory with Microsoft Entra ID by using Microsoft Entra Connect. 
   
-For more info, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization) and [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
+For more info, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization) and [Integrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 ## Step 2: Use Viva Engage Embed
 
