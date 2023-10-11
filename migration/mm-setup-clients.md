@@ -70,7 +70,7 @@ To calculate the minimum required number of agents to use for your migration:
 ## Set up an agent
 
 1. Sign in to the computer or VM you choose to set up an agent with credentials that have read access to all file shares you plan to migrate.
-2. From the SharePoint admin center, select [**Migration center**](https://go.microsoft.com/fwlink/?linkid=2185075){:target="_blank"}. You need to sign in with an account that has [SharePoint Administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
+2. From the SharePoint admin center, select <strong><a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a></strong>. You need to sign in with an account that has [SharePoint Administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 3. Under "For file shares", select **Get started**.
 4. Select the **Agents** tab, and then select **Add**.
 5. Select **Download agent setup file**.
@@ -90,7 +90,7 @@ A working folder named `%appdata%\Microsoft\SPMigration` is created for each age
 
 ## Multi-geo agent setup
 
-If you have a Multi-Geo SharePoint tenant, the agent is installed in [Geo locations](https://go.microsoft.com/fwlink/?linkid=2185076){:target="_blank"} set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent.
+If you have a Multi-Geo SharePoint tenant, the agent is installed in <a href="https://go.microsoft.com/fwlink/?linkid=2185076" target="_blank">Geo locations</a> set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent.
 
 Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
