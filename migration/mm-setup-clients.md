@@ -51,7 +51,7 @@ After an agent is configured, anyone with permission to access the [SharePoint a
 > Create a service account with administrative rights for your agent to run on the server or VM. This account should have read access to the sources you plan to migrate, as well as SharePoint or OneDrive administrator access to the destination specifically for your migration project. Log into each VM or computer with this account before running the setup file to ensure that the agent installs as a service.
 
 > [!NOTE]
-> Third party multi-factor authentication is not supported at this time.
+> Third-party multi-factor authentication is not supported at this time.
 
 ## Agents and performance considerations
 
