@@ -93,7 +93,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ### Sites not connected to Teams or Microsoft 365 groups (PowerShell)
 
-With restricted access control, you can ***restrict site access to members of specified [Azure AD security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. **You can apply restricted access control on a site with up to 10 security groups.** [Dynamic membership](/azure/active-directory/enterprise-users/groups-create-rule) of security groups is also supported for restricted access control policy.
+With restricted access control, you can ***restrict site access to members of specified [Microsoft Entra security groups](/windows-server/identity/ad-ds/manage/understand-security-groups)*** using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. **You can apply restricted access control on a site with up to 10 security groups.** [Dynamic membership](/azure/active-directory/enterprise-users/groups-create-rule) of security groups is also supported for restricted access control policy.
 
 #### Enable restricted access control for non-group connected sites using PowerShell
 
@@ -134,7 +134,7 @@ After running the commands, you have restricted site access to members of the sp
 
 #### Manage restricted access control groups for a non-group site using PowerShell
 
-You can add up to 10 Azure AD security groups whose members are allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control limits the site access to members of the specified security groups.
+You can add up to 10 Microsoft Entra security groups whose members are allowed access to the site. The specified security groups can be managed as **restricted access control groups** when the setting is applied. Restricted access control limits the site access to members of the specified security groups.
 
 To edit a restricted access control group for a non-group site, run the following command:
 
@@ -247,7 +247,7 @@ Restricted access control is disabled for the site.
 
 ### Sites not connected to Teams or Microsoft 365 groups (SharePoint admin center)
 
-With restricted access control, you can restrict site access to members of specified Azure AD security groups. Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. You can apply restricted access control on a site with up to 10 security groups. Dynamic membership of security groups is also supported for restricted access control policy.
+With restricted access control, you can restrict site access to members of specified Microsoft Entra security groups. Users who aren't members of the specified security groups can't open the site or its content even if they previously had site access permissions. You can apply restricted access control on a site with up to 10 security groups. Dynamic membership of security groups is also supported for restricted access control policy.
 
 #### Enable restricted access control for a non-group site using SharePoint admin center
 
@@ -290,7 +290,7 @@ For [shared channel sites](/microsoftteams/shared-channels), only internal users
 
 **For example:**
 
-The Contoso tenant has set up a manual trust relation with another Azure AD organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso are now subjected to restricted access control policy. Fabrikam users continue to be evaluated for site permissions only.  
+The Contoso tenant has set up a manual trust relation with another Microsoft Entra organization Fabrikam, via [B2B direct connect](/microsoftteams/shared-channels).  When restricted access control is enabled for a shared channel site in Contoso tenant, only users in Contoso are now subjected to restricted access control policy. Fabrikam users continue to be evaluated for site permissions only.  
 
 > [!IMPORTANT]
 > Site permissions for a shared channel site can’t be managed independently through SharePoint and must be done in Microsoft Teams.
