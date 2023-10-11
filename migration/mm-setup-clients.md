@@ -99,11 +99,11 @@ To install an agent to a different Geo location:
 1. Download the agent setup file.
 2. Launch the setup file and remain on the *Welcome page*.
 3. Open this file:  %temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config
-4. Under **appSettings**, add an entry as shown in the following example for the desired country/region or data center. (Note: this is an example for Canada.) </br>
+4. Under **appSettings**, add an entry as shown in the following example for the desired country/region or data center. (Note: this is an example for Canada.)
 
-```powershell
-<add key="GeoLocation" value="CAN" />
-```
+   ```powershell
+   <add key="GeoLocation" value="CAN" />
+   ```
 
 The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo).
 
@@ -119,12 +119,12 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 
 1. Select **Install as an app**.
 
-![Install agent as an app](media/mm-agent-app.png)
+   ![Install agent as an app](media/mm-agent-app.png)
 
 2. After the agent installs, sign in with your SharePoint Admin credentials.
 3. Test if your agent has access to the file shares you want to migrate (optional).
 
-![Install as an app settings](media/mm-agent-app-settings.png)
+   ![Install as an app settings](media/mm-agent-app-settings.png)
 
 4. The settings screen displays if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
 
