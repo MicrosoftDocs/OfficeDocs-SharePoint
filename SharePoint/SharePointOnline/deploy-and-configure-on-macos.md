@@ -191,7 +191,7 @@ The example for this setting in the .plist file is:
 
 This setting determines whether or not the sync app can automatically sign in.
 
-If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
+If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Entra credential that is made available to Microsoft applications.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -548,4 +548,3 @@ The example for this setting in the .plist file is:
 [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)
 
 [OneDrive sync reports in the Apps Admin Center (EnableSyncAdminReports)](sync-health.md)
-

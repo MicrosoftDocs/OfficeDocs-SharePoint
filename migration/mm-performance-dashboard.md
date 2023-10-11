@@ -2,8 +2,8 @@
 ms.date: 05/25/2021
 title: "Monitor your task performance in Migration Manager "
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
