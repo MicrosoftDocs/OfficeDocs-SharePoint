@@ -105,7 +105,7 @@ To install an agent to a different Geo location:
    <add key="GeoLocation" value="CAN" />
    ```
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo).
+   The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo).
 
 > [!IMPORTANT]
 > Migration to Teams: If you are migrating to Teams, the destination Teams site must be in the same GEO as your tenant admin.  If they are different, the Teams channel won't load when you select destination.  
