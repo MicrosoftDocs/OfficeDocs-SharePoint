@@ -47,6 +47,9 @@ The following PowerShell cmdlets are now available in SharePoint Server PowerShe
 | Export-SPCacheClusterConfig | Export-CacheClusterConfig | Exports cache cluster configuration to an XML file. |
 | Get-SPCacheClusterHealth | Get-CacheClusterHealth | Returns health statistics for all of the named caches in the cache cluster. This includes those that haven't been allocated yet. |
 | Use-SPCacheCluster | Use-CacheCluster | Sets the context of your PowerShell session to a particular cache cluster. |
+| Get-SPCacheHostConfig  | Get-CacheHostConfig  | Gets the cache host config information in the cache cluster. |
+| Get-SPCacheClusterInfo | Get-CacheClusterInfo | Gets the cache cluster information in the farm.|
+| Set-SPCacheClusterSecurity | Set-CacheClusterSecurity | Sets the cache cluster security properties. |
 
 ## Start and stop the Distributed Cache service
 <a name="startstopcache"> </a>
