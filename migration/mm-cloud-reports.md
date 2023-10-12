@@ -403,3 +403,41 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MEXCEEDFORMSQUOTA|	Failed to create new forms, due to the maximum number of forms reached.|Reduce the number of forms to migrate, and try again.|
 |MNOUSERINFO|Failed to get Microsoft user info||
 |MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
+
+## Status codes
+
+Status codes provide the final status of the scan and migration tasks.
+
+|Code | Status |Message|
+|:-----|:-----|:-----|
+|100 |Ready to migrate/Copied to migrate/completed. | Success. |
+|101 |Ready to migrate/Copied to migrate/completed. | Success. No files needed copying. |
+|102 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Destination name and weren't transferred. |
+|120 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Source name and weren't transferred. |
+|122 |Ready to migrate/Copied to migrate/completed. |Success. Some unsupported files not transferred. |
+|201 |Warning|Some upload errors. Download and review the detailed report before trying again. |
+|202 |Warning|No files copied. Some upload errors. Download and review the detailed report before trying again.|
+|210 |Warning|Some download errors. Download and review the detailed report before trying again. |
+|211 |Warning|Some download and upload errors. Download and review the detailed report before trying again. |
+|220 |Warning|No files copied. Some download errors. Download and review the detailed report before trying again. |
+|222 |Warning|No files copied. Some download and upload errors. Download and review the detailed report before trying again. |
+|230 |Canceled|Canceled|
+|250 |Failed|Already running. Wait a while and then try again.|
+|260 |Failed|Storage quota exceeded on destination name.|
+|261 |Failed| Quota API exceeded on destination name |
+|300 |In progress|Running |
+|302 |In progress|Waiting for Microsoft batch processing |
+|400 |Failed|General failure. Try again.|
+|401 |Failed|Couldn't upload anything. Try again.|
+|402 |Failed|Connector authorization failed. Try reauthorizing Source name or Destination name. |
+|403 |Failed|No status. Try again.|
+|404 |Failed|Crashed. Try again.|
+|405 |Failed|Crashed. Try again.|
+|410 |Failed|Couldn't connect to Source name. Try reauthorizing. |
+|423 |Failed|Source connector not found. Try again.|
+|490 |Failed|Ended by company name Admin. Try again.|
+|491 |Failed|Microsoft migration reporting communication failure. Try again.|
+|500 |Failed|Unknown, contact support. |
+|600 |Queued|Queued to start. |
+|601 |Queued|Queued to start. |
+|620 |In progress|Running pre-checks. |
