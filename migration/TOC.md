@@ -154,7 +154,8 @@
 #### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [Microsoft Entra Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 #### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
-## SPMT Migration Scenario Guides
+## Migration Scenario Guides
+### [Migrating file shares to OneDrive, Teams, and SharePoint](fileshare-to-odsp-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)
