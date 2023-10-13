@@ -67,6 +67,8 @@ When a report is ready, select it to view the data. Each sharing link report inc
 - The policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 - The primary admin for each site.
 
+Note that the reports don't include OneDrive data.
+
 ### Download the reports
 
 You can download a .csv file to get the same information for up to 10,000 sites.
