@@ -216,7 +216,7 @@ In a SharePoint Server farm, a cache cluster exists when one or more cache hosts
 
 ### To perform a graceful shutdown of the Distributed Cache by using a PowerShell script
 
-Use the following PowerShell script to perform a graceful shutdown of the Distributed Cache server in order to move the cached contents to another cache host. Ensure that you specify the correct node to shutdown and change the script as needed to name the correct parameters for your organization.
+Use the following PowerShell script to perform a graceful shutdown of the Distributed Cache server in order to move the cached contents to another cache host. Ensure that you specify the correct node to shut down and change the script as needed to name the correct parameters for your organization.
 
 > [!NOTE]
 > There is no need to remove the cache host from a cache cluster if you use the PowerShell script in the following procedure to perform a graceful shutdown.
