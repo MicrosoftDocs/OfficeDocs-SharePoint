@@ -47,13 +47,13 @@ If you have many mappings to edit, you can choose to upload a CSV file containin
 Upload your own users and groups mappings using the M
 1. Select **Import users and groups**.
 2. Download the mapping.csv template file, inserting your own mappings. You can name the .csv any name you wish.
-3. Choose **Select file**. Navigate to your mapping .csv file and select.
+3. Choose **Select file**. Navigate to your mapping .csv file and select it.
 4. Select **Save**.
 5. Select **Close**.
 
 
->[!Important]
->Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
+> [!Important]
+> Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration starts, it cannot be changed.
 
 
 ## [**Step 6: Migrate and monitor**](mm-box-step6-migrate-monitor.md)
