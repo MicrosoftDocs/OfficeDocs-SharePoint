@@ -28,7 +28,7 @@ description: "In this article, you'll learn how to allow only users in specified
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can use the restricted access control policy for OneDrive to allow only users in specified security groups to access OneDrive. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
+You can restrict access to OneDrive content to people in specified security groups. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
 
 You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
 
@@ -40,7 +40,7 @@ To access and use this feature, your organization must have one of the following
 - Office 365 E5/A5
 - Microsoft 365 E5/A5
 
-## Enablement
+## Specify security groups for OneDrive access
 
 To enable this feature:
 

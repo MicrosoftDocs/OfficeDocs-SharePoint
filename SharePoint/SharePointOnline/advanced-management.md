@@ -33,9 +33,9 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 ## Advanced access policies for secure content collaboration
 
-**[Restricted access control for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not in the Microsoft 365 group won't have access even if they previously had site access permissions to a file.
+**[Site access restriction for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group (for group-connected sites) or a security group (for non-group connected sites). Users who are not in the specified groups won't have access to site content even if they previously had site access permissions or a file sharing link.
 
-**[Restricted access control policy for OneDrive](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
+**[Restrict OneDrive access to a security group](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
 
 **[Data access governance reports for SharePoint sites](data-access-governance-reports.md)** - These reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 

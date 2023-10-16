@@ -36,7 +36,7 @@ Note that you can block the download of Teams meeting recording files specifical
 
 ## Requirements
 
-This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+This feature requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
 
 ## How to set this policy for a SharePoint site
 
