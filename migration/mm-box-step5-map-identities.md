@@ -44,7 +44,7 @@ Map your groups and users in Box to those in Microsoft 365 to migrate your Box s
 
 If you have many mappings to edit, you can choose to upload a CSV file containing your users and groups mappings. Download the  file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
-Upload your own users and groups mappings using the M
+Upload your own users and groups mappings using the M.
 1. Select **Import users and groups**.
 2. Download the mapping.csv template file, inserting your own mappings. You can name the .csv any name you wish.
 3. Choose **Select file**. Navigate to your mapping .csv file and select it.
