@@ -51,7 +51,7 @@ To enable site access restriction for your organization using PowerShell, run th
 Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
-It may take up to one hour for command to take effect
+It might take up to one hour for command to take effect
 
 > [!NOTE]
 > For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.

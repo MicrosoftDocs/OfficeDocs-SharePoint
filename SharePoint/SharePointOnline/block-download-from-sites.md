@@ -73,12 +73,12 @@ Set-Label -Identity 'Internal' -AdvancedSettings @{ExcludedBlockDownloadGroupIds
 
 ## App impact
 
-Blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
+Blocking download might impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
 
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
 >
-> If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser.
+> If you're using classic SharePoint site templates, site images might not render correctly. This is because the policy prevents the original image files from being downloaded to the browser.
 
 ## Need more help?
 
