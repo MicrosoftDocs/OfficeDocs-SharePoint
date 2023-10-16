@@ -137,6 +137,6 @@ The following describes the information included in the policy execution report:
 
 ## Related articles
 
-[Microsoft 365 group expiration policy](microsoft-365/solutions/microsoft-365-groups-expiration-policy)
+[Microsoft 365 group expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy)
 
 [Restore deleted sites](restore-deleted-site-collection.md)
