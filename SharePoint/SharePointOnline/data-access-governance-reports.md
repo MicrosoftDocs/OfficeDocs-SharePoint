@@ -1,7 +1,7 @@
 ---
 ms.date: 08/30/2023
 title: "Data access governance reports for SharePoint sites"
-ms.reviewer: daminasy
+ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
 manager: serdars
