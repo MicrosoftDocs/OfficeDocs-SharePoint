@@ -28,7 +28,7 @@ description: Learn how to use Microsoft Purview risk and compliance solutions in
 
 
 > [!IMPORTANT]
-> Read the [overview](#overview) to get a summary of the plan to deprecate the applicable older features from SharePoint records management. See the [migration strategies](migration-strategies.md) page for more details and links to important articles and pages. 
+> Read the [overview](#overview) to get a summary of the plan to deprecate the applicable older features from SharePoint records management. for more information and links to important articles and pages, see [migration strategies](migration-strategies.md).
 >
 >Review the older information management and records management features in SharePoint [deprecation timeline](#deprecation-timeline) for dates that have been announced and for updates on new deprecation announcements.
 
@@ -36,7 +36,7 @@ description: Learn how to use Microsoft Purview risk and compliance solutions in
 
 If you need to proactively retain or delete content in Microsoft 365 for data lifecycle management or records management, we recommend using Microsoft 365 Purview Data Lifecycle Management and Microsoft Purview Records Management features instead of older features in SharePoint records management and information management.  
 
-We have a long-term deprecation plan for these older features and will share updates including dates in the [deprecation timeline.](#deprecation-timeline) Feature deprecations will be communicated in advance to give customers time to prepare and perform any applicable migration activities. 
+We have a long-term deprecation plan for these older features and will share updates including dates in the [deprecation timeline.](#deprecation-timeline) Feature deprecations are communicated in advance to give customers time to prepare and perform any applicable migration activities. 
 
 The following SharePoint records management and information management features are under consideration for deprecation: 
 
@@ -46,17 +46,17 @@ The following SharePoint records management and information management features 
     - [Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a#:~:text=Each%20time%20that%20a%20document,in%20a%20different%20site%20collection.) 
    
 - [Information Management Policies](intro-to-info-mgmt-policies.md) 
-- [In-Place Records Management,](https://support.microsoft.com/en-us/office/configuring-in-place-records-management-7707a878-780c-4be6-9cb0-9718ecde050a?ui=en-us&rs=en-us&ad=us) including [vault abilities.](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c)
+- [In-Place records management,](https://support.microsoft.com/en-us/office/configuring-in-place-records-management-7707a878-780c-4be6-9cb0-9718ecde050a?ui=en-us&rs=en-us&ad=us) including [vault abilities.](https://support.microsoft.com/en-us/office/introduction-to-the-records-center-bae6ca5a-7b19-40e0-b433-e3613a747c2c)
 - [Document deletion policies (deletion only) ](https://support.microsoft.com/en-us/office/create-a-document-deletion-policy-in-sharepoint-server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff?ui=en-us&rs=en-us&ad=us)
 - [Policies for site closure and deletion (deletion only)](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5)
 
 ## Deprecation summary
 
-The following summarizes how deprecation works:  
+The following key points summarize how deprecation works:  
 
 - Microsoft won't automatically migrate your older information management and SharePoint records management features in SharePoint Online. If you choose not to migrate to supported features, the older features may no longer be supported.   
 - Between now and the deprecation date of the feature, you have the flexibility to migrate your scenarios on your own schedule.  
-- If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies will continue to be ignored as they are today while a retention policy or retention label policy is in effect. 
+- If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies continue to be ignored as they're today while a retention policy or retention label policy is in effect. 
 - Deprecation for features may include some or all the following outcomes:  
     - Feature may no longer be supported by Microsoft support.  
     - It may no longer be visible in the user interface.  
@@ -82,7 +82,7 @@ October 2023 – Announcement of the first set of features in the deprecation pl
 
 ## Migrating from older features to modern features
 
-Modern Microsoft Purview features have flexible configuration options to help meet your data lifecycle and records management needs. The specific configuration that works best for your organization will depend on your organization’s governance strategy and applicable requirements.  
+Modern Microsoft Purview features have flexible configuration options to help meet your data lifecycle and records management needs. The specific configuration that works best for your organization depends on your organization’s governance strategy and applicable requirements.  
 
 To identify what works best for your scenarios and understand options for migrating your organization's older features to modern Purview solutions, see [migration strategies](migration-strategies.md). 
 
