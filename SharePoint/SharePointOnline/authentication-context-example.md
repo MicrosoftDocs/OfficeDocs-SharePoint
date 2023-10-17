@@ -52,18 +52,19 @@ The following apps and scenarios don't work with authentication contexts:
 - Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
 - Viva Engage
 - Teams web app
-- OneNote app can't be added to channel if the associated SharePoint site has an authentication context
-- Teams private channel won't provision a SharePoint site if the main team site has an authentication context
-- Teams channel meeting recording upload fails on sites with an authentication context
-- SharePoint folder renaming in Teams fails if the site has an authentication context
-- Teams webinar scheduling fails if OneDrive has an authentication context
-- Workflows that use Power Apps or Power Automate fails to work for sites with an authentication context
+- OneNote app can't be added to channel if the associated SharePoint site has an authentication context.
+- Teams private channel won't provision a SharePoint site if the main team site has an authentication context.
+- Teams channel meeting recording upload fails on sites with an authentication context.
+- SharePoint folder renaming in Teams fails if the site has an authentication context.
+- Teams webinar scheduling fails if OneDrive has an authentication context.
+- Workflows that use Power Apps or Power Automate fails to work for sites with an authentication context.
 - Third-party apps
-- The OneDrive sync app won't sync sites with an authentication context
-- Copy or move files from a site with no authentication context to a site with an authentication context fails
+- The OneDrive sync app won't sync sites with an authentication context.
+- Copy or move files from a site with no authentication context to a site with an authentication context fails.
 - Due to the authentication process when an authentication context is present, Quick Access will not work and you will need to use the **Go to site** link.
-- Associating an authentication context to the enterprise application catalog site collection is not supported
-- The “Visualize SharePoint List in Power BI” feature does not currently support authentication context
+- Associating an authentication context to the enterprise application catalog site collection is not supported.
+- The “Visualize SharePoint List in Power BI” feature does not currently support authentication context.
+- Outlook on Windows, MAC, Android and iOS do not support communication with SharePoint sites protected by an Authentication Context.
 
 ## Setting up an authentication context
 
