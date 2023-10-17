@@ -90,7 +90,7 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
 
-- (DisableNucleusSilentConfig) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from getting silently signed in to Lists sync with their Windows credentials](/sharepoint/lists-sync-policies#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials).
+- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web).
 
 - (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
 
@@ -363,12 +363,6 @@ If you disable or don't configure this setting, the OneDrive sync app starts aut
 Enabling this policy sets the following registry key value to 1:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PreventNetworkTrafficPreUserSignIn"=dword:00000001`
-
-### Prevent silent configuration of offline mode for users of OneDrive on the web
-
-Offline mode in OneDrive on the web is set up to be automatically configured for users with their Windows account credentials. If you enable this setting, people who used OneDrive on the web previously and who are signed in on an Azure AD-joined PC will no longer be able to turn on offline mode in OneDrive on the web without entering their account credentials.
-
-If the M365 browser extension isn't installed on users' Chromium-based browsers (Microsoft Edge, Google Chrome, and so on), we recommend leaving "silent account configuration" enabled to ensure the seamless operation of offline mode in OneDrive on the web.
 
 ### Prevent users at your organization from enabling offline mode in OneDrive on the web
 

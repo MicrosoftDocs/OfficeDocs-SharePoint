@@ -29,7 +29,7 @@ This article describes the Group Policy objects (GPOs) for Microsoft Lists (and 
 
 - (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
 
-- (DisableOfflineExperiencesSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web)
+- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web)
 
 ### Prevent Lists sync from running on this device
 
