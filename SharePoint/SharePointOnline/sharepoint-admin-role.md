@@ -54,7 +54,7 @@ There is a separate role within SharePoint called the Term Store administrator. 
 
 #### API access
 
-To manage API access in the SharePoint admin center, the application administrator role or the Global administrator role might be required. For more information, see [Manage access to Azure AD-secured APIs](api-access.md).
+To manage API access in the SharePoint admin center, the application administrator role or the Global administrator role might be required. For more information, see [Manage access to Microsoft Entra ID-secured APIs](api-access.md).
 
 ## Key tasks of the SharePoint admin
 <a name="BK_KeyTasks"> </a>
@@ -79,4 +79,3 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 [About Microsoft 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

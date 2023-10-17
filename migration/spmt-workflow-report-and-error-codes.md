@@ -2,8 +2,8 @@
 ms.date: 12/02/2021
 title: "SPMT Workflow migration report and error codes"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin

@@ -340,7 +340,7 @@ If you disable or don't configure this setting, users can choose to limit the up
 
 This setting determines whether or not the Sync client can automatically sign in.
 
-If you enable this setting, it prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
+If you enable this setting, it prevents Sync from automatically signing with an existing Microsoft Entra credential that is made available to Microsoft applications.
 
 If you disable or don't configure this setting, Sync will automatically sign in.
   
@@ -558,9 +558,9 @@ For more information, see [Redirect and move Windows known folders to OneDrive](
 > [!IMPORTANT]
 > [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
 >
-> The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Azure Active Directory (Azure AD).
+> The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Microsoft Entra ID.
   
-If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so that they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app attempts to take over syncing the user's OneDrive from the previous app, and preserves the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
+If you enable this setting, users who are signed in on a PC that's joined to Microsoft Entra ID can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so that they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app attempts to take over syncing the user's OneDrive from the previous app, and preserves the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
 
 > [!IMPORTANT]
 > We recommend enabling silent account configuration when you configure the sync app. [See all our recommendations for configuring the sync app.](ideal-state-configuration.md)

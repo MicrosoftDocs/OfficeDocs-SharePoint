@@ -75,4 +75,3 @@ You can use the following settings to control access to Lists sync from unmanage
 [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 
 [Control access to SharePoint and OneDrive based on network location](control-access-based-on-network-location.md)
-

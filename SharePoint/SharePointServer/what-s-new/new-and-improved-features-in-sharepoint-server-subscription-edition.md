@@ -55,7 +55,7 @@ This section provides detailed descriptions of the new and updated features in S
 
 SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs. For example, organizations can enforce authentication policies such as multifactor authentication (MFA), conditional access policies based on device compliance, and more.
 
-SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
+SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Microsoft Entra ID, Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
 To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1-0-authentication.md).
 
@@ -530,5 +530,3 @@ To support the new Remote Share Provider, SharePoint Server Subscription Edition
 [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 
 [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md)
-
-

@@ -2,8 +2,8 @@
 ms.date: 05/27/2020
 title: "Migration Manager Government Cloud settings"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
