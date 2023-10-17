@@ -238,7 +238,7 @@ In this step, you'll configure a web application in SharePoint to be federated w
 
 > [!IMPORTANT]
 >
-> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler.
+> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler. 
 > - The SharePoint URL that will use Microsoft Entra OIDC federation must be configured with Hypertext Transfer Protocol Secure (HTTPS).
 
 You can do this configuration either by:
