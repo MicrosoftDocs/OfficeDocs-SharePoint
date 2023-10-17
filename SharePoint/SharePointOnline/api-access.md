@@ -1,6 +1,6 @@
 ---
 ms.date: 06/30/2020
-title: "Manage access to Azure AD-secured APIs - SharePoint"
+title: "Manage access to Microsoft Entra ID-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
 ms.custom: admindeeplinkSPO
-description: "Learn how to manage permission requests to Azure AD-secured APIs from SharePoint Framework components and scripts."
+description: "Learn how to manage permission requests to Microsoft Entra ID-secured APIs from SharePoint Framework components and scripts."
 ---
 
-# Manage access to Azure AD-secured APIs
+# Manage access to Microsoft Entra ID-secured APIs
 
-When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from <a href="https://go.microsoft.com/fwlink/?linkid=2185223" target="_blank">**API access** in the SharePoint admin center</a>.
+When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Microsoft Entra ID. Developers can specify which Microsoft Entra applications and permissions their solution requires, and an administrator can manage the permission request from <a href="https://go.microsoft.com/fwlink/?linkid=2185223" target="_blank">**API access** in the SharePoint admin center</a>.
 
 [Learn more about building SharePoint Framework solutions that connect to Azure-AD secured APIs](/sharepoint/dev/spfx/use-aadhttpclient#manage-permission-requests).
 
@@ -47,7 +47,7 @@ The API access page shows pending and approved requests. It also shows which req
     After you approve a request, it moves to the Approved requests list.
 
     > [!NOTE]
-    > Permissions of type delegated are added to the _SharePoint Online Client Extensibility Web Application Principal_ in Azure AD.
+    > Permissions of type delegated are added to the _SharePoint Online Client Extensibility Web Application Principal_ in Microsoft Entra ID.
     >
     > If you try to approve a permission request for a resource that already has some permissions granted (for example, granting additional permissions to the Microsoft Graph), the requested scopes are added to the previously granted permissions.
 
@@ -73,4 +73,3 @@ You can also use PowerShell to manage permission requests.
 - To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/Approve-SPOTenantServicePrincipalPermissionRequest?view=sharepoint-ps&preserve-view=true).
 - To reject a request, use the cmdlet [Deny-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/deny-spotenantserviceprincipalpermissionrequest?view=sharepoint-ps&preserve-view=true).
 - To remove access to a previously approved request, use the cmdlet [Revoke-SPOTenantServicePrincipalPermission](/powershell/module/sharepoint-online/revoke-spotenantserviceprincipalpermission?view=sharepoint-ps&preserve-view=true).
-

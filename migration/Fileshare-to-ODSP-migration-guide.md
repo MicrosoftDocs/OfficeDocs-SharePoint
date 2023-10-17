@@ -2,8 +2,8 @@
 ms.date: 06/05/2018
 title: "Migrate file shares to SharePoint and OneDrive"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

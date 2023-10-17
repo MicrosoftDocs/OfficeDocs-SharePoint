@@ -2,8 +2,8 @@
 ms.date: 07/19/2023
 title: "Step 1 - Install the SharePoint Migration Tool (SPMT)"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro

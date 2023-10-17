@@ -55,11 +55,11 @@ Here are the basic parts of Teams and SharePoint and how they relate to each oth
 
 - **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
 
-- **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
+- **Microsoft Entra ID** - Microsoft Entra ID is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Microsoft Entra ID. Microsoft Entra ID allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
-![Image of how Azure AD, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
+![Image of how Microsoft Entra ID, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
 
-Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
+Each team is connected to a Microsoft 365 group in Microsoft Entra ID where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
 
 <br>
 

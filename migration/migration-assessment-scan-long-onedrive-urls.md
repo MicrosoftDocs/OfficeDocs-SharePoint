@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Long OneDrive URLs"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 9/13/2017

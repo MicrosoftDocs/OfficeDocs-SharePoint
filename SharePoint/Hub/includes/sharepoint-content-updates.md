@@ -2,6 +2,26 @@
 
 
 
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/4/2023 | [IT Admins - Use OneDrive policies to control sync settings](/SharePoint/use-group-policy) | modified |
+| 10/5/2023 | [Business Connectivity Services (BCS) retirement in Microsoft 365](/SharePoint/business-connectivity-services-retirement) | added |
+| 10/5/2023 | [Business Connectivity Services (BCS) retirement in Microsoft 365](/SharePoint/business-connectivity-services-retirement) | modified |
+| 10/6/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
+| 10/6/2023 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
+
+
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2023 | [OneDrive sync reports in the Apps Admin Center](/SharePoint/sync-health) | modified |
+
+
 ## Week of September 18, 2023
 
 
@@ -33,24 +53,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 9/7/2023 | [Overview of sites and site collections in SharePoint Server](/SharePoint/sites/sites-and-site-collections-overview) | modified |
-
-
-## Week of August 28, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/29/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
-| 9/1/2023 | [Export sites, lists, or document libraries in SharePoint Server](/SharePoint/administration/export-a-site-list-or-document-library) | modified |
-| 9/1/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
-| 9/1/2023 | [Install SharePoint Servers 2016 or 2019 on one server](/SharePoint/install/install-sharepoint-server-2016-on-one-server) | modified |
-
-
-## Week of August 21, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/21/2023 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
-| 8/21/2023 | Find OneDrive admin settings | removed |
-| 8/22/2023 | [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |

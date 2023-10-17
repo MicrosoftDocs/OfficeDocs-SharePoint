@@ -241,12 +241,12 @@ Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate 
 ### About STS certificates
 <a name="AboutSTS"> </a>
 
-The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Azure Active Directory acts as a trusted token signing service and uses the STS certificate as the signing certificate. If you choose to use a certificate other than the default STS certificate (for example, a certificate from a public certificate authority), replace the default certificate before you begin the hybrid configuration process.
+The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Microsoft Entra ID acts as a trusted token signing service and uses the STS certificate as the signing certificate. If you choose to use a certificate other than the default STS certificate (for example, a certificate from a public certificate authority), replace the default certificate before you begin the hybrid configuration process.
    
 ## Record the accounts needed for configuration and testing
 <a name="certificates"> </a>
 
-A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Microsoft 365 directory (Azure Active Directory that is surfaced in the Microsoft 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
+A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Microsoft 365 directory (Microsoft Entra ID that is surfaced in the Microsoft 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
   
 - Go to [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md) for a complete explanation of the required user accounts, including notes about roles and identity providers. 
     
@@ -259,4 +259,3 @@ A SharePoint hybrid environment setup requires several user accounts in both you
 
 At this point, you should have completed filling out the required worksheet for inbound connectivity and be ready to start the configuration process. Your next step is to [choose a configuration roadmap](configuration-roadmaps.md).
   
-
