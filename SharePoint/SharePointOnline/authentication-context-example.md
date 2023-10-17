@@ -64,7 +64,7 @@ The following apps and scenarios don't work with authentication contexts:
 - Due to the authentication process when an authentication context is present, Quick Access will not work and you will need to use the **Go to site** link.
 - Associating an authentication context to the enterprise application catalog site collection is not supported.
 - The “Visualize SharePoint List in Power BI” feature does not currently support authentication context.
-- Outlook on Windows, MAC, Android and iOS do not support communication with SharePoint sites protected by an Authentication Context.
+- Outlook on Windows, Mac, Android and iOS do not support communication with SharePoint sites protected by an Authentication Context.
 
 ## Setting up an authentication context
 
