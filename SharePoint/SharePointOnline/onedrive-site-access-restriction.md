@@ -31,6 +31,8 @@ You can restrict access to a user's OneDrive content by using a OneDrive access 
 
 When the policy is applied, the people in the security group are not granted access to any files directly. The OneDrive owner must share the content as they normally would. The OneDrive access restriction policy prevents anyone who is not in the security group from accessing the OneDrive content even if it's shared with them.
 
+Access restriction policies are applied when a user attempts to access a file. Users can still see files in search results if they have direct permissions to the file, but they won't be able to access the file if they're not part of the specified security group.
+
 ## Prerequisites
 
 The OneDrive access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
@@ -56,18 +58,21 @@ It might take up to one hour for command to take effect
 > [!NOTE]
 > For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.
 
-## Restrict site access to a user's OneDrive content
+## Restrict access to a user's OneDrive content
 
 Each OneDrive can be assigned up to 10 Microsoft Entra security groups. Once a security group is added, only users in the groups have access to content in that OneDrive that has been shared with them. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
+
+> [!IMPORTANT]
+> The owner of the OneDrive must be included in one of the security groups that you specify or they will lose access to their OneDrive and its contents.
 
 To manage access restriction for OneDrive, use the following commands:
 
 | Action  | PowerShell command |
 |---------|---------|
-|Enable site access restriction     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
+|Enable access restriction for a given OneDrive. (Run this command before adding security groups.) |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
 |Add security group |`Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>`         |
 |Edit security group     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>`         |
-|View security group     |`Get-SPOSite -Identity <siteurl>, Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
+|View security group     |`Get-SPOSite -Identity <siteurl> \| Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
 |Remove security group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
 |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
 
