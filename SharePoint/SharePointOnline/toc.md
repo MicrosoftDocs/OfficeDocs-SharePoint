@@ -212,7 +212,7 @@
 ### [Configure information barriers compliance assistant](/microsoft-365/compliance/information-barriers-sharepoint-assistant?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Create an information barriers policy report](/microsoft-365/compliance/information-barriers-sharepoint-report?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Control notifications](notifications.md)
-### [Migration guidance for legacy features]()
+### [Migration guidance for older features]()
 #### [Overview](use-microsoft-purview-risk-and-compliance-solutions.md)
 #### [Migration strategies](migration-strategies.md)
 ## [Content services]()

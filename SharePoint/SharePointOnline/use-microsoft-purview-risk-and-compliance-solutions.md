@@ -56,7 +56,7 @@ The following key points summarize how deprecation works:
 
 - Microsoft won't automatically migrate your older information management and SharePoint records management features in SharePoint Online. If you choose not to migrate to supported features, the older features may no longer be supported.   
 - Between now and the deprecation date of the feature, you have the flexibility to migrate your scenarios on your own schedule.  
-- If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies continue to be ignored as they're today while a retention policy or retention label policy is in effect. 
+- If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies continue to be ignored as they are today while a retention policy or retention label policy is in effect. 
 - Deprecation for features may include some or all the following outcomes:  
     - Feature may no longer be supported by Microsoft support.  
     - It may no longer be visible in the user interface.  
