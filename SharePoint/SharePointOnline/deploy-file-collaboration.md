@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-- essentials-compliance
+- essentials-accountability
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

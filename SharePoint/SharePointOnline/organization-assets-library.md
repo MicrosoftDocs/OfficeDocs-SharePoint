@@ -1,7 +1,7 @@
 ---
 ms.date: 05/22/2019
 title: "Create an organization assets library"
-ms.reviewer: niwoon
+ms.reviewer: cathed
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
