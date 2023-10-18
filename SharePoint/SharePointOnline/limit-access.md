@@ -32,6 +32,8 @@ You can restrict access to OneDrive content to people in specified security grou
 
 You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access to your users, preventing guests from accessing any OneDrive content even if it's shared with them.
 
+Note that you can also restrict access to an individual user's OneDrive to people in a security group. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
+
 ## Requirements
 
 To access and use this feature, your organization must have one of the following subscriptions:

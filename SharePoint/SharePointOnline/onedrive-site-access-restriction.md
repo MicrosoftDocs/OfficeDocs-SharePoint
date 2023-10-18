@@ -35,7 +35,7 @@ Access restriction policies are applied when a user attempts to access a file. U
 
 Note that you can also restrict access to the OneDrive service itself to people in a security group. For more information, see [Restrict OneDrive access by security group](limit-access.md).
 
-## Prerequisites
+## Requirements
 
 The OneDrive access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
 
