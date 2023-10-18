@@ -33,6 +33,8 @@ When the policy is applied, the people in the security group are not granted acc
 
 Access restriction policies are applied when a user attempts to access a file. Users can still see files in search results if they have direct permissions to the file, but they won't be able to access the file if they're not part of the specified security group.
 
+Note that you can also restrict access to the OneDrive service itself to people in a security group. For more information, see [Restrict OneDrive access by security group](limit-access.md).
+
 ## Prerequisites
 
 The OneDrive access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
