@@ -1,7 +1,7 @@
 ---
 ms.date: 08/30/2023
 title: "Data access governance reports for SharePoint sites"
-ms.reviewer: daminasy
+ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
 manager: serdars
@@ -32,7 +32,7 @@ As sprawl and oversharing of SharePoint sites increase with exponential
 
 ## Requirements
 
-This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+This feature requires Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management.
 
 ## Access the reports in the SharePoint admin center
 
