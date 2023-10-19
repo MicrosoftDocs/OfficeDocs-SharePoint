@@ -90,7 +90,7 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
 
-- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web).
+- (DisableNucleusSilentConfig) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from getting silently signed in to Lists sync with their Windows credentials](/sharepoint/lists-sync-policies#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials).
 
 - (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
 
@@ -195,6 +195,7 @@ Users are prompted with options to help free up space.
 Enabling this policy sets the following registry key value to a number from 0 through 10240000:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "MinDiskSpaceLimitInMB"=dword:00000000`
+
 
 ### Block syncing OneDrive accounts for specific organizations
 <a name="BlockTenantList"> </a>
@@ -363,14 +364,6 @@ If you disable or don't configure this setting, the OneDrive sync app starts aut
 Enabling this policy sets the following registry key value to 1:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PreventNetworkTrafficPreUserSignIn"=dword:00000001`
-
-### Prevent users at your organization from enabling offline mode in OneDrive on the web
-
-By default, offline mode is turned on for users of OneDrive on the web. If you enable this policy, offline mode in OneDrive on the web will be disabled for all the users on the device.
-
-### Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations
-
-Enabling this setting prevents users at your organization from enabling offline mode for libraries and folders that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, libraries and folders shared by other organizations won't have the option of enabling offline mode when working with them in OneDrive on the web. Disable the setting (by entering the value **0**) to allow your users to enable or disable offline mode in OneDrive on the web when working with libraries and folders that are shared from other organizations.
 
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
@@ -551,7 +544,6 @@ For more information, see [Redirect and move Windows known folders to OneDrive](
 
 > [!IMPORTANT]
 > [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
-
 >
 > The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Microsoft Entra ID.
   
