@@ -32,7 +32,7 @@ Before you begin, it's important to plan your migration. You may need to interac
 
 1. Review your existing older policies and decide which ones you need to recreate in the modern features. Confirm your goals for compliance and which of the features you’re using today to meet those needs. For example, you may have a business requirement to keep your content in some SharePoint sites for one year and are using Information Management policies today to accomplish this requirement. This review can also be an opportunity to audit your retention schedule and identify if there are any duplicate, outdated, or conflicting policies that you may not want to recreate. 
 
-1. Use this guide to understand what you need to do, identify the older feature and behavior you’re migrating from, and decide which modern feature to use. It's also recommended to confirm that you have the applicable licenses for the modern features. Learn more about [licensing for Data Lifecycle Management and Records Management.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+1. Use this guide to understand what you need to do, identify the older feature and behavior you’re migrating from, and decide which modern feature to use. It's also recommended to confirm that you have the applicable licenses for the modern features. Learn more about [licensing for Data Lifecycle Management and Records Management.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management--microsoft-purview-records-management)
 
     You may be eligible for a free trial of Microsoft Purview risk and compliance solutions, including premium Data Lifecycle Management and Records Management features. See [free trial.](/purview/compliance-easy-trials) 
 
@@ -40,11 +40,11 @@ Before you begin, it's important to plan your migration. You may need to interac
 
 1. Verify that your new features are working as expected: 
 
-    - Wait for the [applicable time period for your new features to take effect](/purview/retention?branch=main&branchFallbackFrom=pr-en-us-5917&tabs=table-overriden) 
-    - [Confirm policies applied to a location using policy lookup](/purview/retention?tabs=table-overriden&branch=main) 
-    - [Use activity explorer to review actions related to labeling content](/purview/data-classification-activity-explorer?branch=main)
-    - [Use content explorer to review labeled items](/purview/data-classification-content-explorer?branch=main)
-    - [Check the policy status for errors](/microsoft-365/troubleshoot/retention/identify-errors-in-retention-and-retention-label-policies)
+    - Wait for the [applicable time period for your new features to take effect](/purview/retention?branch=main&branchFallbackFrom=pr-en-us-5917&tabs=table-overriden#how-long-it-takes-for-retention-settings-to-apply) 
+    - [Confirm policies applied to a location using policy lookup](/purview/retention?tabs=table-overriden&branch=main#policy-lookup) 
+    - [Use activity explorer to review actions related to labeling content](/purview/data-classification-activity-explorer?branch=main#activity-types)
+    - [Use content explorer to review labeled items](/purview/data-classification-content-explorer?branch=main#retention-labels)
+    - [Check the policy status for errors](/microsoft-365/troubleshoot/retention/identify-errors-in-retention-and-retention-label-policies#how-to-check-for-policy-errors)
     
 ## Older features and using Purview features instead 
 
@@ -79,7 +79,7 @@ Before you begin, it's important to plan your migration. You may need to interac
 
 |Older feature  |Purview feature suggestion  |
 |---------|---------|
-|Document deletion policies permanently delete content from a site after a specified period of time.      |Use Data [Lifecycle Management](https://support.microsoft.com/en-us/office/create-a-document-deletion-policy-in-sharepoint-server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff?ui=en-us&rs=en-us&ad=us) for [retention policies that retain or delete content.](/purview/create-retention-policies?tabs=teams-retention%22%20%5Ct%20%22_blank)          |
+|[Document deletion policies](https://support.microsoft.com/en-us/office/create-a-document-deletion-policy-in-sharepoint-server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff?ui=en-us&rs=en-us&ad=us) permanently delete content from a site after a specified period of time.      |Use Data Lifecycle Management for [retention policies that retain or delete content.](/purview/create-retention-policies?tabs=teams-retention%22%20%5Ct%20%22_blank)          |
 
 
 ### In-place Records Management 
