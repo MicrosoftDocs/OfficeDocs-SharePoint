@@ -94,4 +94,5 @@ Remove-SPODeletedSite -Identity <URL>
 ## See also
 
 [OneDrive retention and deletion](retention-and-deletion.md)
+[Manage site redirects](manage-site-redirects.md)
 
