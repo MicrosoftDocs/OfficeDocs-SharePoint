@@ -1,5 +1,5 @@
 ---
-title: "User permissions and permission levels in SharePoint Server"
+title: "On-premises SharePoint Server user permissions and permission levels"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,7 +15,7 @@ ms.assetid: ff13b917-5236-48e6-89d5-8c78e61a72a8
 description: "Learn about the default permission levels and user permissions in SharePoint Server."
 ---
 
-# User permissions and permission levels in SharePoint Server
+# On-premises SharePoint Server user permissions and permission levels
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
