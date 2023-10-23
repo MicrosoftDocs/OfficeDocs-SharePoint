@@ -100,6 +100,7 @@ If SilentAccountConfig has successfully completed on a computer you're going to 
 reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
 reg delete HKCU\Software\Microsoft\OneDrive /v ClientEverSignedIn /f
 reg delete HKCU\Software\Microsoft\OneDrive /v PersonalUnlinkedTimeStamp /f
+reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
 ```
 
 <a name="VerifySilentAccountConfig"></a>
@@ -155,24 +156,27 @@ The most common reason for SilentAccountConfig to fail is the credentials aren't
 
 If you have a computer you think should work with SilentAccountConfig, you can manually verify that SSO is working correctly to ensure that the environment is configured correctly.
  
-1. Ensure OneAuth is enabled - TBD steps
-   
-2. Shut down any running OneDrive.exe processes (verify in the Task Manager Details tab - Ctrl+Shift+Esc).
-
-3. Start menu - OneDrive, you should see the **Set up OneDrive** screen (if not unlink/stop syncing any business accounts and start over).
-
-4. Enter the same email address that the user used to sign into Windows (try alias@domain and domain\alias forms).
-
-5. Select the **Sign in** button.
-
-6. The dialog should switch to a "signing in" page with a spinning icon for a few seconds. It should then continue to the next part of the wizard without asking for a password.
-
-7. If a password prompt doesn't appear, your auth environment is properly configured and SilentAccountConfig should work for your users.
-
-8. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, a Microsoft Entra Conditional Access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You'll need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
-
-10. Remove the OneAuth force enable you added in step 1 - TBD:
-
+1. Ensure OneAuth is enabled
    ```console
-   reg delete HKCU\Software\Microsoft\OneDrive /v EnableADAL /f
+   reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
+   ```
+   
+3. Shut down any running OneDrive.exe processes (verify in the Task Manager Details tab - Ctrl+Shift+Esc).
+
+4. Start menu - OneDrive, you should see the **Set up OneDrive** screen (if not unlink/stop syncing any business accounts and start over).
+
+5. Enter the same email address that the user used to sign into Windows (try alias@domain and domain\alias forms).
+
+6. Select the **Sign in** button.
+
+7. The dialog should switch to a "signing in" page with a spinning icon for a few seconds. It should then continue to the next part of the wizard without asking for a password.
+
+8. If a password prompt doesn't appear, your auth environment is properly configured and SilentAccountConfig should work for your users.
+
+9. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, a Microsoft Entra Conditional Access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You'll need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
+
+10. Remove any OneAuth failure timestamp
+   ```console
+   reg query HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp
+   reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
    ```
