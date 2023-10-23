@@ -374,11 +374,11 @@ By default, offline mode is turned on for users of OneDrive on the web. If you e
 
 Enabling this policy sets the following registry key value to 1:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableOfflineMode" = "dword:1"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineMode"="dword:1"`
 
 To re-enable offline mode in OneDrive on the web for users at your organization, set the following registry key value to 0:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineMode " = "dword:0"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineMode"="dword:0"`
 
 ### Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations
 
@@ -386,11 +386,11 @@ Enabling this setting prevents users at your organization from enabling offline 
 
 Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations with:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineModeForExternalLibraries " = "dword:1"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineModeForExternalLibraries"="dword:1"`
 
 Re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations with:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineModeForExternalLibraries " = "dword:0"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineModeForExternalLibraries"="dword:0"`
 
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
