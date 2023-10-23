@@ -1,7 +1,7 @@
 ---
-ms.date: 07/11/2018
+ms.date: 10/23/2023
 title: "Change a specific user's OneDrive storage space"
-ms.reviewer: waynewin
+ms.reviewer: jmcdowe
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
