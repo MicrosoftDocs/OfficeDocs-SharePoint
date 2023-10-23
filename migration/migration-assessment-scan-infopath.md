@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -45,18 +44,18 @@ InfoPath forms (XSN files) will be migrated, but some forms may not function wit
 XSN files that use the following scenarios need to be remediated. If remediation doesn't occur, these forms fail post migration. The common scenarios are as follows:
   
 - XSN or UDCX makes SOAP calls that aren't supported in the target environment. These forms need to be updated to call supported endpoints.
-    
+
 - XSN uses managed code that requires remediation. Managed code isn't supported on the target platform.
-    
-- InfoPath forms that use people picker fields. These fields need to be updated with the new user's identity post migration. This is because the on-premises identity (for example, Windows claims) doesn't match the user's Azure AD/Microsoft 365 identity.
-    
+
+- InfoPath forms that use people picker fields. These fields need to be updated with the new user's identity post migration. This is because the on-premises identity (for example, Windows claims) doesn't match the user's Microsoft Entra ID / Microsoft 365 identity.
+
 ## Post Migration
 
 Ensure the updated InfoPath forms function correctly during the migration user acceptance testing phase.
   
 ## Scan Result Reports
 
-The following table describes the columns in the **InfoPath-detail.csv** report. 
+The following table describes the columns in the **InfoPath-detail.csv** report.
   
 This scan report contains InfoPath forms that require remediation prior to migration, or at a minimum, validation on the new platform.
   
@@ -89,5 +88,3 @@ This scan report contains InfoPath forms that require remediation prior to migra
 |SolutionFormatVersion  <br/> |This field is no longer used and can be ignored.  <br/> |
 |ProductVersion  <br/> |Version of InfoPath used to publish the form.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
-   
-

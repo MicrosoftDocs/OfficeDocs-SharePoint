@@ -26,9 +26,9 @@ description: "Learn how IT admins can enable silent account configuration when d
 
 # Silently configure user accounts
 
-This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync app (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
+This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync app (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Microsoft Entra ID.
   
-If you enable this feature, OneDrive.exe will attempt to silently (without user interaction) sign-in to the work or school user account that was used to sign into Windows (known as the Windows Primary Account). That Windows account must be a Microsoft Azure Active Directory (Azure AD) account or be linked to an Azure AD account through a hybrid authentication configuration (see Prerequisites below).
+If you enable this feature, OneDrive.exe will attempt to silently (without user interaction) sign-in to the work or school user account that was used to sign into Windows (known as the Windows Primary Account). That Windows account must be a Microsoft Entra account or be linked to a Microsoft Entra account through a hybrid authentication configuration (see Prerequisites below).
 
 Before OneDrive.exe begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically).
   
@@ -39,9 +39,9 @@ When the user is configured in the sync app, if the same user account is syncing
 
 ## Prerequisites
 
-Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 or newer, and Windows Server 2016 or newer, directly to Azure AD. To learn how, see [Join your work device to your organization's network](/azure/active-directory/user-help/user-help-join-device-on-network). 
+Before you can enable silent account configuration, you need to join your devices to Microsoft Entra ID. You can join devices running Windows 10 or newer, and Windows Server 2016 or newer, directly to Microsoft Entra ID. To learn how, see [Join your work device to your organization's network](/azure/active-directory/user-help/user-help-join-device-on-network). 
   
-If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
+If you have an on-premises environment that uses Active Directory, you can enable [Microsoft Entra hybrid joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Microsoft Entra ID. Devices must be running one of the following operating systems:
   
 - Windows 11
 - Windows 10
@@ -49,10 +49,10 @@ If you have an on-premises environment that uses Active Directory, you can enabl
 - Windows Server 2016
 - Windows Server 2012 R2
  
-If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
+If you federate your on-premises Active Directory with Microsoft Entra ID, you must use AD FS to enable this feature. For info about using Microsoft Entra Connect, see [Getting started with Microsoft Entra Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
     
 > [!NOTE]
-> For more info, see [How to configure hybrid Azure Active Directory joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan). To check the join status and fix problems, see [Troubleshoot hybrid Azure AD-joined devices](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current). 
+> For more info, see [How to configure Microsoft Entra hybrid joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan). To check the join status and fix problems, see [Troubleshoot Microsoft Entra hybrid joined devices](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current). 
   
 ## Enable silent configuration
 
@@ -70,11 +70,11 @@ Using Group Policy:
 > See the [Verify SilentAccountConfig](use-silent-account-configuration.md#VerifySilentAccountConfig) section below to verify and troubleshoot your configuration.
   
 > [!NOTE]
-> Silent account configuration won't work on devices for users who require multi-factor authentication. Select third-party identity providers (IdPs) are supported, but there are caveats. For more information, make sure to check out the [Azure AD federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
+> Silent account configuration won't work on devices for users who require multi-factor authentication. Select third-party identity providers (IdPs) are supported, but there are caveats. For more information, make sure to check out the [Microsoft Entra federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
 > 
 > Configuration with Alternate IDs is only supported within Microsoft 365 Government environments.
 
-If the computers on your network aren't connected to Active Directory on-premises, but only to Azure AD, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent account configuration. Be sure you have [automatic enrollment set up for Windows 10/11 devices](/intune/quickstart-setup-auto-enrollment). 
+If the computers on your network aren't connected to Active Directory on-premises, but only to Microsoft Entra ID, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent account configuration. Be sure you have [automatic enrollment set up for Windows 10 or newer devices](/intune/quickstart-setup-auto-enrollment). 
 
 Using a script:
 
@@ -169,7 +169,7 @@ If you have a computer you think should work with SilentAccountConfig, you can m
 
 7. If a password prompt doesn't appear, your auth environment is properly configured and SilentAccountConfig should work for your users.
 
-8. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, an Azure AD conditional access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You'll need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
+8. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, a Microsoft Entra Conditional Access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You'll need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
 
 10. Remove the OneAuth force enable you added in step 1 - TBD:
 

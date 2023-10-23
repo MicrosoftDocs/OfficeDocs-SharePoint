@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Identity Mapping Tool SharePoint Identity Scan"
+title: "SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan"
 ms.reviewer: 
 ms.author: mactra
 author: MachelleTranMSFT
@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 ms.collection:
 - SPmigration

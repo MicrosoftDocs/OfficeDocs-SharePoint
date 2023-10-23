@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: conceptual
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: null
 search.appverid: MET150
 msCollection: 

@@ -18,16 +18,16 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: Learn how to set a conditional access policy in the Azure AD admin center to use app-enforced restrictions in SharePoint.
+description: Learn how to set a conditional access policy in the Microsoft Entra admin center to use app-enforced restrictions in SharePoint.
 ---
 
 # Use app-enforced restrictions
 
-These steps in the Azure AD admin center tell Azure to use the SharePoint site-level access settings you specify.
+These steps in the Microsoft Entra admin center tell Azure to use the SharePoint site-level access settings you specify.
   
-1. On the [Conditional Access | Policies page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) of the Azure AD admin center, select **New policy**.
+1. On the [Conditional Access | Policies page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) of the Microsoft Entra admin center, select **New policy**.
 
-    ![Conditional access policies in the Azure AD admin center](media/azure-ca-new-policy.png)
+    ![Conditional access policies in the Microsoft Entra admin center](media/azure-ca-new-policy.png)
 
 2. In the **Name** box, type a name for the policy.
 
@@ -44,4 +44,3 @@ These steps in the Azure AD admin center tell Azure to use the SharePoint site-l
     ![Selecting to control access using app enforced restrictions](media/azure-ca-policy-session.png)
 
 7. Enable the policy and select **Create**.
-

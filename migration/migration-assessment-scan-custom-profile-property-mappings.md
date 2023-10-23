@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -33,7 +32,7 @@ Learn how to mitigate issues with Custom Profile Property mappings during migrat
 
 In the source environment, it was possible to add other profile property mappings to the User Profile Service Application. The profile property mappings enable SharePoint to pull in profile property values from data sources outside of SharePoint. For example, you could map a profile property to an attribute in Active Directory. During a profile sync, SharePoint populated the user's profile with the value from Active Directory. Another scenario was to use Business Connectivity Services (BCS) to populate profile property values from a database or web service.
   
-The target environment uses Azure Active Directory (Azure AD) to populate the SharePoint profile values. SharePoint synchronizes the most common profile data from Azure Active Directory into SharePoint. The target environment doesn't support extending the Azure AD schema and configuring other profile property mappings. If you need to populate data that is not provided by the out of the box profile property mappings, it is required to write a program that will push the values you want into the profile properties in the service.
+The target environment uses Microsoft Entra ID to populate the SharePoint profile values. SharePoint synchronizes the most common profile data from Microsoft Entra ID into SharePoint. The target environment doesn't support extending the Microsoft Entra schema and configuring other profile property mappings. If you need to populate data that is not provided by the out of the box profile property mappings, it is required to write a program that will push the values you want into the profile properties in the service.
   
 For guidance on updating profile property values using the Client Side Object Model (CSOM), see:
   

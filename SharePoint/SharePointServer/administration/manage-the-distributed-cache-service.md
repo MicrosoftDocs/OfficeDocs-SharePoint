@@ -47,6 +47,9 @@ The following PowerShell cmdlets are now available in SharePoint Server PowerShe
 | Export-SPCacheClusterConfig | Export-CacheClusterConfig | Exports cache cluster configuration to an XML file. |
 | Get-SPCacheClusterHealth | Get-CacheClusterHealth | Returns health statistics for all of the named caches in the cache cluster. This includes those that haven't been allocated yet. |
 | Use-SPCacheCluster | Use-CacheCluster | Sets the context of your PowerShell session to a particular cache cluster. |
+| Get-SPCacheHostConfig  | Get-CacheHostConfig  | Gets the cache host config information in the cache cluster. |
+| Get-SPCacheClusterInfo | Get-CacheClusterInfo | Gets the cache cluster information in the farm.|
+| Set-SPCacheClusterSecurity | Set-CacheClusterSecurity | Sets the cache cluster security properties. |
 
 ## Start and stop the Distributed Cache service
 <a name="startstopcache"> </a>
@@ -213,7 +216,7 @@ In a SharePoint Server farm, a cache cluster exists when one or more cache hosts
 
 ### To perform a graceful shutdown of the Distributed Cache by using a PowerShell script
 
-Use the following PowerShell script to perform a graceful shutdown of the Distributed Cache server in order to move the cached contents to another cache host. Ensure that you specify the correct node to shutdown and change the script as needed to name the correct parameters for your organization.
+Use the following PowerShell script to perform a graceful shutdown of the Distributed Cache server in order to move the cached contents to another cache host. Ensure that you specify the correct node to shut down and change the script as needed to name the correct parameters for your organization.
 
 > [!NOTE]
 > There is no need to remove the cache host from a cache cluster if you use the PowerShell script in the following procedure to perform a graceful shutdown.

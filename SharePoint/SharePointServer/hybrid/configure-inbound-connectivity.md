@@ -513,9 +513,9 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
 13. In the **Target Application Administrators** section, in the box, enter the names of users who will have access to manage the settings of this target application. Make sure to add any users who will test the hybrid configuration so that they can make changes, if it's needed. 
     
-14. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
+14. In the **Members** section, in the box, enter the names of the Microsoft Entra users and groups that you want to enable to use hybrid solutions. 
     
-    The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint in Microsoft 365 groups.
+    The Microsoft 365 global admin can create Microsoft Entra groups. These are domain groups, not SharePoint in Microsoft 365 groups.
     
 |Icon|Description|
 |:-----|:-----|

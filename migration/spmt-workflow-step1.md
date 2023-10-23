@@ -10,8 +10,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -54,10 +53,10 @@ If you have never used Power Automate with this tenant before, you must configur
    ![Add powerautomate database](media/spmt-add-powerautomate-db.png)
 
 3. Wait for "State" status to change to **Ready**.
-4. To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you'd like to set as the default flow owner.
+4. To sync a Microsoft Entra user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you'd like to set as the default flow owner.
 
 >[!Important]
->The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution. 
+>The user account you use to migrate must be a global admin or OneDrive/SharePoint admin on the Microsoft 365 tenant, and be a Power Automate admin who can manage the solution.
 >
 >As this user account will be used to create solutions and users in the Power Platform environment, it must also be assigned with the security roles of System Administrator, Environment Maker and Basic User.[Learn more about Power Platform data security](/power-platform/admin/database-security).
 >
@@ -65,4 +64,3 @@ If you have never used Power Automate with this tenant before, you must configur
 
 
 ## Step 2:  [Migrate Workflows](spmt-workflow-step2.md)
-

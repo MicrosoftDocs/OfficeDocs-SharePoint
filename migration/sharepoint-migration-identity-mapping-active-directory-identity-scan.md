@@ -1,5 +1,6 @@
 ---
-title: "SharePoint Migration Identity Mapping Active Directory Identity Scan"
+title: "SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan"
+description: "Learn about the SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan."
 ms.author: mactra
 author: MachelleTranMSFT
 manager: serdars
@@ -9,14 +10,12 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 ms.collection:
 - SPmigration
 - M365-collaboration
 - m365initiative-migratetom365
-description: Learn about the SharePoint Migration Identity Mapping Active Directory Identity Scan.
 ---
 
 # SharePoint Migration Identity Mapping: Active Directory Identity Scan
@@ -41,7 +40,7 @@ This process may prompt for credentials if the currently logged on user doesn't 
   
 ## Look up identities in Active Directory
 
-After we have discovered the forests, we'll use the cached credentials to look up users/groups in Active Directory using the Security Identifier [SID]. This information isn't 100% needed for identity mapping. However, if you have identities flagged as NoMatch or PartialMatch, this information is useful to track down additional information for the identity. For example, you have a user that is showing as Active in SharePoint, but is showing as Disabled in Active Directory. Seeing this user with NoMatch is expected as the user isn't likely to be sync'ed to Azure Active Directory.
+After we have discovered the forests, we'll use the cached credentials to look up users/groups in Active Directory using the Security Identifier [SID]. This information isn't 100% needed for identity mapping. However, if you have identities flagged as NoMatch or PartialMatch, this information is useful to track down additional information for the identity. For example, you have a user that is showing as Active in SharePoint, but is showing as Disabled in Active Directory. Seeing this user with NoMatch is expected as the user isn't likely to be sync'ed to Microsoft Entra ID.
   
 ## Scenarios
 
@@ -51,4 +50,3 @@ One-way trust between the forest SharePoint is joined to and the user forests. A
   
 One-way trust between the forest SharePoint is joined to and the user forests. The user forests don't trust each other. In this scenario, the user logs into SharePoint as an account in the SharePoint forest. When querying for Forests, we'll prompt for each forest. If there are 20 user forests that don't trust each other you would expect to see 20 sign in prompts.
   
-
