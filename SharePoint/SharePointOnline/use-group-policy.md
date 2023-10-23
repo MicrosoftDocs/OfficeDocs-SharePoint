@@ -570,7 +570,7 @@ For more information, see [Redirect and move Windows known folders to OneDrive](
 <a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
-> [Microsoft Authentication Library](/azure/active-directory/develop/msal-overview) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
+> [Microsoft Authentication Library](/azure/active-directory/develop/msal-overview) (MSAL) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
 >
 > The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Microsoft Entra ID.
   
