@@ -94,6 +94,10 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
 
+- (DisableOfflineMode) [Prevent users at your organization from enabling offline mode in OneDrive on the web](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web)
+
+- (DisableOfflineModeForExternalLibraries) [Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web-for-libraries-and-folders-that-are-shared-from-other-organizations)
+
 - (DisablePauseOnBatterySaver) [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
 
 - (DisablePauseOnMeteredNetwork) [Continue syncing on metered networks](use-group-policy.md#continue-syncing-on-metered-networks)
@@ -368,9 +372,25 @@ Enabling this policy sets the following registry key value to 1:
 
 By default, offline mode is turned on for users of OneDrive on the web. If you enable this policy, offline mode in OneDrive on the web will be disabled for all the users on the device.
 
+Enabling this policy sets the following registry key value to 1:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableOfflineMode" = "dword:1"`
+
+To re-enable offline mode in OneDrive on the web for users at your organization, set the following registry key value to 0:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineMode " = "dword:0"`
+
 ### Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations
 
 Enabling this setting prevents users at your organization from enabling offline mode for libraries and folders that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, libraries and folders shared by other organizations won't have the option of enabling offline mode when working with them in OneDrive on the web. Disable the setting (by entering the value **0**) to allow your users to enable or disable offline mode in OneDrive on the web when working with libraries and folders that are shared from other organizations.
+
+Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations with:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineModeForExternalLibraries " = "dword:1"`
+
+Re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations with:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] " DisableOfflineModeForExternalLibraries " = "dword:0"`
 
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
@@ -431,7 +451,7 @@ Restore B2B Sync with:
 
 This setting shows a window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
 
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If users have already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If users have already redirected their known folders to a different OneDrive account, they're prompted to direct the folders to the account for your organization (leaving existing files behind).
   
 If you disable or don't configure this setting, the window that prompts users to protect their important folders doesn't appear.
   
@@ -550,7 +570,7 @@ For more information, see [Redirect and move Windows known folders to OneDrive](
 <a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
-> [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
+> [Microsoft Authentication Library](/azure/active-directory/develop/msal-overview) is enabled automatically when the sync user is provisioned via `SilentAccountConfig`; so you don't have to enable it separately.
 >
 > The *Silently sign in users to the OneDrive sync app with their Windows credentials* feature works for computers that are joined to Microsoft Entra ID.
   
@@ -732,7 +752,7 @@ Enabling this policy sets the following registry key value to a number from 50 t
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DownloadBandwidthLimit"=dword:00000032`
   
-The previous registry key sets the download throughput rate limit to 50KB/sec, using the hexadecimal value for 50, which is 00000032.
+The previous registry key sets the download throughput rate limit to 50 KB, using the hexadecimal value for 50, which is 00000032.
 
 > [!NOTE]
 > OneDrive.exe must be restarted on users' computers to apply this setting.
@@ -748,13 +768,13 @@ If you enable this setting and enter the rate (from 1 to 100000) in the **Bandwi
 
 If you disable or don't configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to **Adjust automatically** which sets the upload rate to 70% of throughput. For information about the end-user experience, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
 
-We recommend that you use this setting only in cases where strict traffic restrictions are required. In scenarios where you need to limit the upload rate (such as when you roll out Known Folder Move), we recommend enabling [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) to set a limit that adjusts to changing conditions. You should not enable both settings at the same time.
+We recommend that you use this setting only in cases where strict traffic restrictions are required. In scenarios where you need to limit the upload rate (such as when you roll out Known Folder Move), we recommend enabling [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) to set a limit that adjusts to changing conditions. You shouldn't enable both settings at the same time.
 
 Enabling this policy sets the following registry key value to a number from 50 through 100,000:
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive]"UploadBandwidthLimit"=dword:00000032`
   
-The previous registry key sets the upload throughput rate limit to 50KB/sec, using the hexadecimal value for 50, which is 00000032.
+The previous registry key sets the upload throughput rate limit to 50 KB, using the hexadecimal value for 50, which is 00000032.
 
 > [!NOTE]
 > OneDrive.exe must be restarted on users' computers to apply this setting.  
