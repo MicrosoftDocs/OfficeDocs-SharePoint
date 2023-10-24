@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 description: "Learn how to upgrade from Workflow Manager to SharePoint Workflow Manager when upgrading older SharePoint Server farms."
 ---
 
+
 # Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
@@ -191,7 +192,7 @@ If you're installing SPWFM on a non-SharePoint server, it may not already have i
 
 SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 
-The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
+The minimum version of Azure Service Fabric Runtime supported by SharePoint Workflow Manager is 9.1.1583.9590, and you can download it from [Azure Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.9.1.1583.9590.exe). Or you can find and download any higher version of its Windows Installer from [here](/azure/service-fabric/service-fabric-get-started#install-the-sdk-and-tools).
 
 Open a PowerShell console as an elevated administrator and run the following command:
 
@@ -210,11 +211,11 @@ To verify the Azure Service Fabric is installed, you should be able to find it i
 
 ### Install SPWFM and the SPWFM client on the SPWFM server
 
-1. On the SPWFM server, download and install the [SharePoint Workflow Manager Client and SharePoint Workflow Manager](/download/details.aspx?id=104867)
+1. On the SPWFM server, download and install the [SharePoint Workflow Manager Client and SharePoint Workflow Manager](https://www.microsoft.com/download/details.aspx?id=104867)
 
 ### Install the SPWFM Client on all SharePoint servers
 
-1. [Download the installer for SharePoint Workflow Manager Client](/download/details.aspx?id=104867).
+1. [Download the installer for SharePoint Workflow Manager Client](https://www.microsoft.com/download/details.aspx?id=104867).
 2. Install the **SharePoint Workflow Manager Client** on all the SharePoint servers in the farm.
 
 ### Configure App Management and Subscriptions Settings services
@@ -280,14 +281,14 @@ Since SharePoint must contact the SPWFM service endpoint, the SharePoint servers
 ### Validate the SharePoint Workflow Manager endpoint
 
 
-1. **Check from the SPWFM server first**. </br>
-a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. </br>
-b.  A browser opens; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. </br>
-c. Test both the http and https endpoints.</br>
+1. **Check from the SPWFM server first**. 
+a.  Select **Workflow Management Site**. In the right-hand pane, choose **Browse *12290 (https)**. 
+b.  A browser opens; navigate to https://localhost:12290. If you allowed connections over HTTP during setup, you'll have an HTTP endpoint on port 12291 and an HTTPS endpoint on port 12290. 
+c. Test both the http and https endpoints.  
 
-2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well. </br>
-a. Sign in to one of your SharePoint Servers with either the **SPWFM RunAs** account, or as a user that is a member of AdminGroup. See “Check the service account and admin group” step above. </br>
-b. Browse to the FQDN of the SPWFM endpoint. </br>
+2. **Check from your SharePoint servers**. Ultimately it's your SharePoint servers that must connect to the SPWFM endpoint, so you must make confirm there's  connectivity from there as well.  
+a. Sign in to one of your SharePoint Servers with either the **SPWFM RunAs** account, or as a user that is a member of AdminGroup. See “Check the service account and admin group” step above.  
+b. Browse to the FQDN of the SPWFM endpoint.  
 
 For example:
 
@@ -314,13 +315,16 @@ Example:
 
 :::image type="content" source="../media/sp-workflow-status.png" alt-text="workflow status":::
 
-2. **Test a new workflow**</br>
-a. Sign in to a client computer, and then open **SharePoint Designer**.</br>
-b. Open one of your sites and go to Workflows. </br>
-c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from. </br>
-d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.</br>
+2. **Test a new workflow**  
+a. Sign in to a client computer, and then open **SharePoint Designer**.  
+b. Open one of your sites and go to Workflows.   
+c. Create a new workflow and make sure you can see the “SharePoint Workflow 2013” in the list of platforms to choose from.  
+d. Create a basic "log to history" 2013-platform workflow and test to make sure it’s successful.  
 
-3. **Test an old workflow**</br> 
-a. Find a list that had a workflow assigned to it in the "old" farm. </br>
-b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.</br>
+3. **Test an old workflow**  
+a. Find a list that had a workflow assigned to it in the "old" farm.  
+b. Launch a new instance of that workflow and verify that it works. If you included the App Management service app database during the migration, and ran the **Register-SPWorkflowService** using the correct "scope" name, workflows from the old farm should continue to work.  
+
+
+
 
