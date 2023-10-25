@@ -1,11 +1,11 @@
 ---
-title: "Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint"
+title: "Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint for Microsoft 365"
 f1.keywords:
 - NOCSH
 ms.author: kyrachurney
 author: kyracatwork
 manager: roygles
-ms.date: 5/16/2014
+ms.date: 10/25/2023
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
@@ -21,24 +21,24 @@ ms.collection:
 - Tier3
 ms.custom:
 - seo-marvel-apr2020
-description: Learn how to use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint and OneDrive.
+description: Learn how to use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint for Microsoft 365.
 ---
 
-# Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint
+# Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint for Microsoft 365
 
 
 > [!IMPORTANT]
-> Read the [overview](#overview) to get a summary of the plan to deprecate the applicable older features from SharePoint records management. For more information and links to important articles and pages, see [migration strategies](migration-strategies.md).
+> Read the [overview](#overview) to get a summary of the plan to deprecate the applicable older features from SharePoint for Microsoft 365 records management. For more information and links to important articles and pages, see [migration strategies](migration-strategies.md).
 >
->Review the older information management and records management features in SharePoint [deprecation timeline](#deprecation-timeline) for dates that have been announced and for updates on new deprecation announcements.
+>Review the older information management and records management features in SharePoint for Microsoft 365 [deprecation timeline](#deprecation-timeline) for dates that have been announced and for updates on new deprecation announcements.
 
 ## Overview
 
-If you need to proactively retain or delete content in Microsoft 365 for data lifecycle management or records management, we recommend using Microsoft 365 Purview Data Lifecycle Management and Microsoft Purview Records Management features instead of older features in SharePoint records management and information management.  
+If you need to proactively retain or delete content in Microsoft 365, we recommend using Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management features instead of older information management and records management features in SharePoint for Microsoft 365
 
 We have a long-term deprecation plan for these older features and will share updates including dates in the [deprecation timeline.](#deprecation-timeline) Feature deprecations are communicated in advance to give customers time to prepare and perform any applicable migration activities. 
 
-The following SharePoint records management and information management features are under consideration for deprecation: 
+The following older information management and records management features in SharePoint for Microsoft 365 are under consideration for deprecation: 
 
 - Record Center 
     - [Create a record center site ](https://support.microsoft.com/en-us/office/create-a-records-center-6bf1488b-62a8-486c-90dd-54b6bcce4b3a#:~:text=You%20need%20to%20take%20the%20following%20steps%20to,on%20the%20Records%20Center%20site.%20...%20See%20More.)
@@ -54,7 +54,7 @@ The following SharePoint records management and information management features 
 
 The following key points summarize how deprecation works:  
 
-- Microsoft won't automatically migrate your older information management and SharePoint records management features in SharePoint Online. If you choose not to migrate to supported features, the older features may no longer be supported.   
+- Microsoft won't automatically migrate your older information management and records management features in SharePoint for Microsoft 365. If you choose not to migrate to supported features, the older features may no longer be supported.   
 - Between now and the deprecation date of the feature, you have the flexibility to migrate your scenarios on your own schedule.  
 - If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies continue to be ignored as they are today while a retention policy or retention label policy is in effect. 
 - Deprecation for features may include some or all the following outcomes:  

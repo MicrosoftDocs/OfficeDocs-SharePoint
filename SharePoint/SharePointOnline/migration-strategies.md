@@ -1,5 +1,5 @@
 ---
-title: "Migration strategies for moving to Microsoft Purview risk and compliance solutions from older information management and records management for SharePoint"
+title: "Migration strategies for moving to Microsoft Purview risk and compliance solutions from older information management and records management for SharePoint for Microsoft 365"
 f1.keywords:
 - NOCSH
 ms.author: kyrachurney
@@ -24,7 +24,7 @@ ms.custom:
 description: "This article explains how to plan your migration, understand the modern solution, and decide which modern solution to use."
 ---
 
-# Migration strategies for moving to Microsoft Purview risk and compliance solutions from older information management and records management for SharePoint 
+# Migration strategies for moving to Microsoft Purview risk and compliance solutions from older information management and records management for SharePoint for Microsoft 365 
 
 Before you begin, it's important to plan your migration. You may need to interact with multiple stakeholders within your organization depending on the use case. It's important for you to carefully design your migration strategy. We've provided a few examples to help guide your next steps. 
 
