@@ -21,7 +21,7 @@ description: "Learn how to control Lists sync by using Group Policy objects (GPO
 ---
 # Use Group Policy to control Lists sync settings
 
-This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app's existing update mechanism. For info about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
+This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that administrators can configure by using Group Policy. Use the registry key information to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app's existing update mechanism. For information about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
 
 ## List of policies by string ID
 
@@ -33,7 +33,7 @@ This article describes the Group Policy objects (GPOs) for Microsoft Lists (and 
 
 ### Prevent Lists sync from running on this device
 
-By default, Lists sync is turned on for users of Microsoft Lists which allows users to access and edit their lists even when offline. If you enable this policy, Lists sync will be blocked from running on the device.
+By default, Lists sync is turned on for users of Microsoft Lists, which allows users to access and edit their lists even when offline. If you enable this policy, Lists sync will be blocked from running on the device.
 
 Prevent Lists sync from running on the device:
 
@@ -66,7 +66,7 @@ Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"`
 
-For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
+For more information about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
 ## Control Lists sync on unmanaged devices and based on location  
 
