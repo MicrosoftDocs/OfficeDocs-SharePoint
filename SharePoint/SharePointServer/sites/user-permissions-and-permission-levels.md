@@ -1,6 +1,6 @@
 ---
 title: "On-premises SharePoint Server user permissions and permission levels"
-ms.reviewer: 
+ms.reviewer: WesleyFive
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
