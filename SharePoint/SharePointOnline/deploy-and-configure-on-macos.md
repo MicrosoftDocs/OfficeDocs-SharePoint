@@ -71,6 +71,8 @@ Use the following keys to pre-configure or change settings for your users. The k
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
+- [DisableOfflineMode](#disableofflinemode)
+- [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
 - [DisableTutorial](deploy-and-configure-on-macos.md#disabletutorial)
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
@@ -211,6 +213,55 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableHydrationToast</key>
 <(Bool)/>
+```
+
+### DisableOfflineMode
+
+This setting prevents users from enabling offline mode in OneDrive on the web.
+
+The preferences for this setting are stored in the following .plist files.
+
+|  |Offline mode preferences location  |OneDrive group preferences  |
+|---------|---------|---------|
+|**.plist location**  | ~/Library/Preferences/com.microsoft.SharePoint-mac.plist        | ~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist        |
+
+By default, offline mode is turned on for users of OneDrive on the web. 
+
+To prevent users at your organization from enabling offline mode in OneDrive on the web: 
+
+```xml
+<key>DisableOfflineMode</key>
+<integer>1</integer>
+```
+
+To re-enable offline mode in OneDrive on the web for users: 
+```xml
+<key>DisableOfflineMode</key>
+<integer>0</integer>
+```
+
+### DisableOfflineModeForExternalLibraries 
+
+This setting prevents users from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations. 
+
+The preferences for this setting are stored in the following .plist files:
+
+|  |Offline mode preferences location  |OneDrive group preferences  |
+|---------|---------|---------|
+|**.plist location**|~/Library/Preferences/com.microsoft.SharePoint-mac.plist       | ~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist        |
+
+To prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations: 
+
+```xml
+<key>DisableOfflineModeForExternalLibraries</key>
+<integer>1</integer>
+```
+
+To re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations: 
+
+```xml
+<key>DisableOfflineModeForExternalLibraries </key>
+<integer>0</integer>
 ```
 
 ### DisablePersonalSync
