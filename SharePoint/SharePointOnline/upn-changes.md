@@ -18,7 +18,7 @@ ms.custom:
   - seo-marvel-apr2020
   - onedrive-toc
   - has-azure-ad-ps-ref
-  - ad-ref-level-one-done
+  - azure-ad-ref-level-one-done
 search.appverid:
 - ODB160
 - MOE150
