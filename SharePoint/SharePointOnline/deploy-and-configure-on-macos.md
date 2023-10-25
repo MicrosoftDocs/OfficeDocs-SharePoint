@@ -227,14 +227,14 @@ The preferences for this setting are stored in the following .plist files.
 
 By default, offline mode is turned on for users of OneDrive on the web. 
 
-To prevent users at your organization from enabling offline mode in OneDrive on the web: 
+To prevent users at your organization from enabling offline mode in OneDrive on the web, use the following example: 
 
 ```xml
 <key>DisableOfflineMode</key>
 <integer>1</integer>
 ```
 
-To re-enable offline mode in OneDrive on the web for users: 
+To re-enable offline mode in OneDrive on the web for users, use the following example: 
 ```xml
 <key>DisableOfflineMode</key>
 <integer>0</integer>
@@ -250,14 +250,14 @@ The preferences for this setting are stored in the following .plist files:
 |---------|---------|---------|
 |**.plist location**|~/Library/Preferences/com.microsoft.SharePoint-mac.plist       | ~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist        |
 
-To prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations: 
+To prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations, use the following example: 
 
 ```xml
 <key>DisableOfflineModeForExternalLibraries</key>
 <integer>1</integer>
 ```
 
-To re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations: 
+To re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations, use the following example: 
 
 ```xml
 <key>DisableOfflineModeForExternalLibraries </key>
