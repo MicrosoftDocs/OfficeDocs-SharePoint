@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 10/26/2023
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
 ms.author: mikeplum
