@@ -159,6 +159,7 @@
 #### [Known Folder Move](redirect-known-folders-macos.md)
 #### [Set Files On-Demand states](files-on-demand-mac.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
+### [OneDrive webapp in offline mode](onedrive-offline.md)
 ### [Advanced sync settings]()
 #### [How sync works](sync-process.md)
 #### [B2B Sync](b2b-sync.md)
