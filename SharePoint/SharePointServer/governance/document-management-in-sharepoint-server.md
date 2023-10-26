@@ -1,10 +1,10 @@
 ---
 title: "Document management in SharePoint Server"
-ms.reviewer: 
+ms.reviewer: WeselyFive  
 ms.author: toresing
 author: tomresing
 manager: serdars
-ms.date: 3/1/2018
+ms.date: 10/18/2023
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
