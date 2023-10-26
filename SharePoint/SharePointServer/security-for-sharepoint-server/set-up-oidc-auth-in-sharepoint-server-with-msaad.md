@@ -151,7 +151,7 @@ $encodedCertStrs = @()
 $encodedCertStrs += <x5c cert string 1>
 $encodedCertStrs += <x5c cert string 2>
 ...
-$signingCert = @()
+$certificates = @()
 foreach ($encodedCertStr in $encodedCertStrs) {
      $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
 }
