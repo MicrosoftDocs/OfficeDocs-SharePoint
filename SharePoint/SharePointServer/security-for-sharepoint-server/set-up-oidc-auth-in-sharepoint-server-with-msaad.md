@@ -151,7 +151,7 @@ $encodedCertStrs = @()
 $encodedCertStrs += <x5c cert string 1>
 $encodedCertStrs += <x5c cert string 2>
 ...
-$signingCert = @()
+$certificates = @()
 foreach ($encodedCertStr in $encodedCertStrs) {
      $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
 }
@@ -165,7 +165,7 @@ $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $metadataendpointurl -Scope "openid profile"
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ImportTrustCertificate $certificates -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -RegisteredIssuerName $registeredissuernameurl -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier -Scope "openid profile"
 ```
 
 Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
@@ -219,7 +219,7 @@ $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $ metadataendpointurl
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $metadataendpointurl -Scope "openid profile"
 ```
 
 | Parameter | Description |
@@ -238,7 +238,7 @@ In this step, you'll configure a web application in SharePoint to be federated w
 
 > [!IMPORTANT]
 >
-> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler.
+> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler. 
 > - The SharePoint URL that will use Microsoft Entra OIDC federation must be configured with Hypertext Transfer Protocol Secure (HTTPS).
 
 You can do this configuration either by:
