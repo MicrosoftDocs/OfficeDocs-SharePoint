@@ -38,9 +38,8 @@ To verify that OneDrive Offline mode is ready for you to use, follow the steps:
 > Offline mode is per-device setting and needs to be configured on every device that you use to access OneDrive web app.
 
 1. Open OneDrive for web.
-2. In the upper right of the page, locate the ![](RackMultipart20231025-1-xzzjh5_html_1c15ffe384b3ad8a.png) icon that informs you that Offline mode is ready for you to use.
+2. In the upper right of the page, locate the  icon that informs you that Offline mode is ready for you to use.
 
-![](RackMultipart20231025-1-xzzjh5_html_f9be50f76b91403c.png)
 
 When Offline mode is turned on, the changes you make are synced back to the cloud—either immediately (if you're online) or later when internet connection is restored (if you're offline at the time you make the changes).
 
@@ -52,11 +51,11 @@ To resolve a conflict:
 
 1. If a conflict exists, you'll see a toast notification in OneDrive for web.
 
-![](RackMultipart20231025-1-xzzjh5_html_17a4528e43435f8d.png)
 
-2. Select the ![](RackMultipart20231025-1-xzzjh5_html_78a147a9a04bdbbe.png) icon on the toast to learn more about the reason for a conflict.
 
-![](RackMultipart20231025-1-xzzjh5_html_3c15733871fe2370.png)
+2. Select the  icon on the toast to learn more about the reason for a conflict.
+
+
 
 3. You resolve conflicts by dismissing them or by manually correcting them.
 
@@ -68,20 +67,20 @@ To resolve a conflict:
 1. To turn off Offline mode, navigate to **My files** view.
 2. Expand the info pane by clicking the **Info** button.
 
-![](RackMultipart20231025-1-xzzjh5_html_d9c2ac16f528bc51.png)
+
 
 3. Select **Turn off** to turn off Offline mode.
 4. You'll be presented with a confirmation dialog, at which point you can proceed with turning off offline mode or canceling.
 
-![](RackMultipart20231025-1-xzzjh5_html_f15993f71a5c3efd.png)
 
-After you turn off Offline mode, next time you open OneDrive for web you'll no longer see the Offline mode ![](RackMultipart20231025-1-xzzjh5_html_1c15ffe384b3ad8a.png) icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
+
+After you turn off Offline mode, next time you open OneDrive for web you'll no longer see the Offline mode  icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
 
 ## Working with your OneDrive web app while offline
 
 When you're working offline, you can still open and work with OneDrive for web. Features that aren't available while you're offline are grayed out to indicate that you can't use them at the moment, as illustrated below. When offline you'll still be able to see, rename, move, copy your files, and create new folders.
 
-![](RackMultipart20231025-1-xzzjh5_html_5219a0c080d0351.png)
+
 
 ### Making files available offline
 
@@ -91,36 +90,34 @@ Offline file access and sync are fundamental to OneDrive and now you can leverag
 
 1. Make sure you're syncing your OneDrive with OneDrive sync app.
 2. Select the file or folder (you can select multiple) that you want to make available offline on your device.
-3. Select "…" (select more actions for this item) and in the context menu that opens select ![](RackMultipart20231025-1-xzzjh5_html_5ec90527e71743c1.png)
+3. Select "…" (select more actions for this item) and in the context menu that opens select 
 
-![](RackMultipart20231025-1-xzzjh5_html_249bd5fa5fb817d1.png)
 
-Alternatively, you can select ![](RackMultipart20231025-1-xzzjh5_html_5ec90527e71743c1.png) in the command bar.
+Alternatively, you can select  in the command bar.
 
-![](RackMultipart20231025-1-xzzjh5_html_4c1f63d5c14d8328.png)
 
-4. The file or folder is then downloaded to your computer. Once completed, you'll be notified with a toast that the file is available to you when you're offline. ![](RackMultipart20231025-1-xzzjh5_html_a32bb6f2904a5698.png)
+
+4. The file or folder is then downloaded to your computer. Once completed, you'll be notified with a toast that the file is available to you when you're offline. 
 5. You'll see an "available offline" icon next to the files and folder that you marked to be available offline.
 
-![](RackMultipart20231025-1-xzzjh5_html_b066ce9ec02093e8.png)
+
 
 ### Free up space on your device
 
 You can also free up space on your computer by making offline files online-only. You'll only be able to open these files when you're online, but you'll still be able to rename, move, or copy these files when you're offline.
 
 1. Select a file or folder (you can select multiple) that are marked as "available offline" that you no longer want to be available offline.
-2. Select "…" (select more actions for this item) and in the context menu that opens select ![](RackMultipart20231025-1-xzzjh5_html_f844d6b6f657da6f.png) option.
+2. Select "…" (select more actions for this item) and in the context menu that opens select  option.
 
-![](RackMultipart20231025-1-xzzjh5_html_306e97844721ec1f.png)
 
- Alternatively, you can select ![](RackMultipart20231025-1-xzzjh5_html_69b891f49797edd1.png) in the command bar.
 
- ![](RackMultipart20231025-1-xzzjh5_html_cd9ff03c48b9eeca.png)
+ Alternatively, you can select  in the command bar.
 
-3. The file or folder is marked as online-only. Once completed, you'll be notified with a toast that the file is no longer available to you when you're offline. ![](RackMultipart20231025-1-xzzjh5_html_4424faeb9da2879a.png)
+ 
+
+3. The file or folder is marked as online-only. Once completed, you'll be notified with a toast that the file is no longer available to you when you're offline. 
 4. You'll no longer see "available offline" icon next to the file or folder that you chose not to be available offline on your computer.
- ![](RackMultipart20231025-1-xzzjh5_html_94646e52b157f85b.png)
-
+ 
 > [!NOTE]
 > - "Make available offline" action works across OneDrive for Web and OneDrive sync app on Windows and macOS.
 > - You can make the file available offline in Windows File Explorer or macOS Finder and the file's offline availability state will be updated in OneDrive for Web as well.
