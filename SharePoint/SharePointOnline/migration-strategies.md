@@ -30,11 +30,11 @@ Before you begin, it's important to plan your migration. You might need to inter
 
 ## Prepare for using Purview risk and compliance solutions 
 
-1. Review your existing older policies and decide which ones you need to recreate in the modern features. Confirm your goals for compliance and which of the features you’re using today to meet those needs. For example, you might have a business requirement to keep your content in some SharePoint sites for one year and are using Information Management policies today to accomplish this requirement. This review can also be an opportunity to audit your retention schedule and identify if there are any duplicate, outdated, or conflicting policies that you might not want to recreate. 
+1. Review your existing older policies and decide which ones you need to recreate in the modern features. Confirm your goals for compliance and which of the features you’re using today to meet those needs. For example, you might have a business requirement to keep your content in some SharePoint sites for one year and are using information management policies today to accomplish this requirement. This review can also be an opportunity to audit your retention schedule and identify if there are any duplicate, outdated, or conflicting policies that you might not want to recreate. 
 
 1. Use this guide to understand what you need to do, identify the older feature and behavior you’re migrating from, and decide which modern feature to use. It's also recommended to confirm that you have the applicable licenses for the modern features. Learn more about [licensing for Purview Data Lifecycle Management and Purview Records Management.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management--microsoft-purview-records-management)
 
-    You might be eligible for a free trial of Microsoft Purview risk and compliance solutions, including premium Data Lifecycle Management and Records Management features. See [free trial.](/purview/compliance-easy-trials) 
+    You might be eligible for a free trial of Microsoft Purview risk and compliance solutions, including premium Purview Data Lifecycle Management and Purview Records Management features. See [free trial.](/purview/compliance-easy-trials) 
 
 1. Configure your modern features. Implement the strategies defined in your plan and set up the modern features that meet your requirements. 
 
@@ -66,7 +66,7 @@ Before you begin, it's important to plan your migration. You might need to inter
 
 |Older feature   |Purview feature suggestion   |
 |---------|---------|
-|[Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a) automatically routes content to a location in a SharePoint site. |To route content, including records, to locations within your sites:<br><ul> <li> Configure [PowerAutomate](/power-automate/getting-started) to route content automatically to your sites.<li>[Create a rule in Microsoft Syntex that moves or copies files in document libraries.](/microsoft-365/syntex/content-processing-create-rules)</li><li>Use [Audit (standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs.</li><br></ul>       |
+|[Content Organizer](https://support.microsoft.com/en-us/office/configure-the-content-organizer-to-route-documents-b0875658-69bc-4f48-addb-e3c5f01f2d9a) automatically routes content to a location in a SharePoint site. |To route content, including records, to locations within your sites:<br><ul> <li> Configure [PowerAutomate](/power-automate/getting-started) to route content automatically to your sites.<li>[Create a rule in Microsoft Syntex that moves or copies files in document libraries.](/microsoft-365/syntex/content-processing-create-rules)</li><li>Use [Audit (Standard)](/purview/audit-solutions-overview?view=o365-worldwide&preserve-view=true) to maintain logs.</li><br></ul>       |
 
 ### Information Management policies 
 
