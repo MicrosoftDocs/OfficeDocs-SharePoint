@@ -32,7 +32,7 @@ To accomplish this, a copy of your file metadata that powers OneDrive web app is
 
 A secure local web server on your device handles the operations that you perform on your files, such as viewing, sorting, renaming, moving, and copying. Traditionally, these operations would need to be handled by the OneDrive cloud service. This results in fast and smooth interactions with your files like loading your files and folders, sorting, renaming, moving, renaming, and more. And all these operations continue to work even when you're offline, lose your internet connection, or run into a service disruption in the app.
 
-## To verify that OneDrive Offline mode is ready for use
+## Verify that OneDrive Offline mode is ready for use
 
 > [!NOTE]
 > Offline mode is per-device setting and needs to be configured on every device that you use to access OneDrive web app.
@@ -77,7 +77,7 @@ To resolve a conflict:
 
 After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1A.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
 
-## Working with OneDrive web app while offline
+## Work with OneDrive web app while offline
 
 When you're working offline, you can still open and work with OneDrive for web. Features that aren't available while you're offline are grayed out to indicate that you can't use them at the moment, as illustrated below. When offline you'll still be able to see, rename, move, copy your files, and create new folders.
 :::image type="content" source="media/onedrive-offline/onedrive-offline8.png" alt-text="Screenshot of command bar.":::
