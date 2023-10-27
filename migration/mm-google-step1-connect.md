@@ -46,13 +46,14 @@ Sign in to your Google account and add the Microsoft 365 migration app to your G
 
 ### Grant access to Google forms
 
+To ensure your Google forms are migrated, you must first grant access in the Google Marketplace.
+
 1. Sign in with your Google admin credentials to [Google Marketplace](https://admin.google.com/ac/apps/gmail/marketplace/appdetails/888375727339).
 2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” status shows **Granted**.  
 
   :::image type="content" source="media/mm-google-form-only-access.png" alt-text="google permissions granting for gsheet":::
 
 3. If it hasn't been granted, select **Grant access** at the top of the page to grant access.
-4. Once access has been granted, Migration Manager can run sheet scans for Google Sheets spreadsheet files.
 
 
 
