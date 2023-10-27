@@ -21,19 +21,19 @@ description: "Learn how to control Lists sync by using Group Policy objects (GPO
 ---
 # Use Group Policy to control Lists sync settings
 
-This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app's existing update mechanism. For info about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
+This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that administrators can configure by using Group Policy. Use the registry key information to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app's existing update mechanism. For information about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
 
 ## List of policies by string ID
 
-- (DisableNucleusSync) [Prevent Lists sync from running on the device](lists-sync-policies.md#prevent-lists-sync-from-running-on-the-device)
+- (DisableListsSync) [Prevent Lists sync from running on this device](lists-sync-policies.md#prevent-lists-sync-from-running-on-this-device)
 
 - (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
 
-- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to Lists sync with their Windows credentials](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials)
+- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web)
 
-### Prevent Lists sync from running on the device
+### Prevent Lists sync from running on this device
 
-By default, Lists sync is turned on for users of Microsoft Lists. If you enable this policy, Lists sync will be blocked from running on the device.
+By default, Lists sync is turned on for users of Microsoft Lists, which allows users to access and edit their lists even when offline. If you enable this policy, Lists sync will be blocked from running on the device.
 
 Prevent Lists sync from running on the device:
 
@@ -45,7 +45,7 @@ Re-enable Lists sync on the device:
 
 ### Prevent users from syncing lists shared from other organizations
 
-Enabling this setting prevents users at your organization from syncing lists that are shared from other organizations. After the setting is enabled (value 1) on a computer, lists shared from other organizations won't sync. Disable the setting (value 0) to allow your users to sync external lists.
+Enabling this setting prevents users at your organization from syncing lists that are shared from other organizations. After the setting is enabled (by entering value **1**) on a computer, lists shared from other organizations won't sync. Disable the setting (by entering value **0**) to allow your users to sync external lists.
 
 Prevent external List sync with:
 
@@ -55,18 +55,18 @@ Restore external List sync with:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"`
 
-### Prevent users from getting silently signed in to Lists sync with their Windows credentials
+### Prevent users from getting silently signed in to offline experiences on the web
 
-Lists sync is set up to automatically sign users in with their Windows account credentials. If you enable this setting, people who used Microsoft Lists previously and who are signed in on a Microsoft Entra joined PC will no longer be able to set up Lists sync without entering their account credentials.  
+Offline experiences in Microsoft Lists and OneDrive on the web are set up to automatically sign in users with their Microsoft Entra account credentials. If you enable this setting, people who used offline experiences in Microsoft Lists and OneDrive on the web previously and who are signed in on an Microsoft Entra-joined PC will no longer be able to set up offline experiences without entering their account credentials.  
 
 > [!IMPORTANT]
-> If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users' Chromium-based browsers (Microsoft Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Microsoft.SharePoint.exe.  
+> If the M365 browser extension isn't installed on users' Chromium-based browsers (Microsoft Edge, Google Chrome, and so on), we recommend leaving silent account configuration enabled to ensure the seamless operation of List sync.
 
 Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"`
 
-For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
+For more information about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
 ## Control Lists sync on unmanaged devices and based on location  
 
