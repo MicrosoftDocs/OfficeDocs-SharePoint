@@ -122,7 +122,7 @@ You can also free up space on your computer by making offline files online-only.
 :::image type="content" source="media/onedrive-offline/onedrive-offline-18.png" alt-text="Screenshot of toast that file is not available online.":::
 
 1. You'll no longer see "available offline" icon next to the file or folder that you chose not to be available offline on your computer.
-    :::image type="content" source="media/onedrive-offline/onedrive-offline-19A.png" alt-text="":::
+    :::image type="content" source="media/onedrive-offline/onedrive-offline-19A.png" alt-text="Screenshot of file not available offline.":::
  
     > [!NOTE]
 > - "Make available offline" action works across OneDrive for Web and OneDrive sync app on Windows and macOS.
