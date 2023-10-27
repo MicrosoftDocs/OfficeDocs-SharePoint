@@ -97,7 +97,8 @@ To make file or folder available offline:
 
 Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon-3A.png" border="false":::  in the command bar.
 
-:::image type="icon" source="media/onedrive-offline/onedrive-offline11.png" border="false":::
+:::image type="content" source="media/onedrive-offline/onedrive-offline11.png" alt-text="Screenshot of command bar to make file offline." lightbox="media/onedrive-offline/onedrive-offline11.png":::
+
 
 4. The file or folder is then downloaded to your computer. Once completed, you'll be notified with a toast that the file is available to you when you're offline. 
 :::image type="content" source="media/onedrive-offline/onedrive-offline12.png" alt-text="Screenshot of file available when offline.":::
