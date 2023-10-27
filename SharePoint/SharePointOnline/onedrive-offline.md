@@ -91,11 +91,11 @@ To make file or folder available offline:
 
 1. Make sure you're syncing your OneDrive with OneDrive sync app.
 2. Select the file or folder (you can select multiple) that you want to make available offline on your device.
-3. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/onedrive-offline9A.png" border="false":::
+3. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/icon-3A.png" border="false":::
 
     :::image type="content" source="media/onedrive-offline/onedrive-offline10.png" alt-text="Screenshot of making file available offline.":::
 
-Alternatively, you can select :::image type="icon" source="media/onedrive-offline/onedrive-offline9A.png" border="false":::  in the command bar.
+Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon-3A.png" border="false":::  in the command bar.
 
 :::image type="icon" source="media/onedrive-offline/onedrive-offline11.png" border="false":::
 
@@ -110,13 +110,13 @@ You can also free up space on your computer by making offline files online-only.
 
 1. Select a file or folder (you can select multiple) that are marked as "available offline" that you no longer want to be available offline.
 
-1. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/onedrive-offline-14A.png" border="false"::: option.
+1. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/icon-4A.png" border="false"::: option.
 
 :::image type="content" source="media/onedrive-offline/onedrive-offline-15.png" alt-text="Screenshot of making file online.":::
 
- Alternatively, you can select :::image type="icon" source="media/onedrive-offline/onedrive-offline-16A.png" border="false"::: in the command bar.
+ Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon5A.png" border="false"::: in the command bar.
 
-:::image type="content" source="media/onedrive-offline/onedrive-offline-17.png" alt-text="Screenshot of make available online.":::
+:::image type="content" source="media/onedrive-offline/onedrive-offline-17.png" alt-text="Screenshot of make available online." lightbox="media/onedrive-offline/onedrive-offline-17.png":::
 
 3. The file or folder is marked as online-only. Once completed, you'll be notified with a toast that the file is no longer available to you when you're offline. 
 :::image type="content" source="media/onedrive-offline/onedrive-offline-18.png" alt-text="Screenshot of toast that file is not available online.":::
