@@ -39,7 +39,7 @@ To verify that OneDrive Offline mode is ready for you to use, follow the steps:
 
 1. Open OneDrive for web.
 2. In the upper right of the page, locate the  icon that informs you that Offline mode is ready for you to use.
-
+:::image type="content" source="media/onedrive-offline/onedrive-offline2.png" alt-text="OneDrive offline mode ready":::
 
 When Offline mode is turned on, the changes you make are synced back to the cloud—either immediately (if you're online) or later when internet connection is restored (if you're offline at the time you make the changes).
 
