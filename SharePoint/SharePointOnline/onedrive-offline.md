@@ -72,14 +72,14 @@ To resolve a conflict:
 
 3. Select **Turn off** to turn off Offline mode.
 
-1. You'll be presented with a confirmation dialog, at which point you can proceed with turning off offline mode or canceling.
+1. In the confirmation dialog that appears, you can proceed with turning off offline mode or canceling.
     :::image type="content" source="media/onedrive-offline/onedrive-offline7.png" alt-text="Screenshot of confirmation dialog.":::
 
 After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1A.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
 
 ## Work with OneDrive web app while offline
 
-When you're working offline, you can still open and work with OneDrive for web. Features that aren't available while you're offline are grayed out to indicate that you can't use them at the moment, as illustrated below. When offline you'll still be able to see, rename, move, copy your files, and create new folders.
+When you're working offline, you can still open and work with OneDrive for web. Features that aren't available while you're offline are grayed out to indicate that you can't use them at the moment, as illustrated below. When offline, you'll still be able to see, rename, move, copy your files, and create new folders.
 :::image type="content" source="media/onedrive-offline/onedrive-offline8.png" alt-text="Screenshot of command bar.":::
 
 
@@ -134,7 +134,7 @@ You can also free up space on your computer by making offline files online-only.
 1. Offline mode is currently supported only on Windows (Windows 10 and later), macOS devices (macOS 12 Monterey or later), and Chromium-based browsers (Microsoft Edge, Google Chrome)
 2. Currently, Offline mode isn't supported in the following situations:
       - If you added a shortcut to shared folders in OneDrive
-3. A _full_ offline experience in OneDrive for web—where you can perform all of the operations that are available online isn't yet supported. The following features aren't available when you're offline.
+3. A _full_ offline experience in OneDrive for web—where you can perform all the operations that are available online isn't yet supported. The following features aren't available when you're offline.
       - Sharing, copying links, downloading your files
       - Managing access to your files
       - Previewing your file in online previewer
