@@ -1,6 +1,7 @@
 - name: SharePoint 
   tocHref: /sharepoint/
   topicHref: /sharepoint/index
+  items:
   - name: SharePoint Server
     tocHref: /sharepoint/
     topicHref: /sharepoint/sharepoint-server/index
