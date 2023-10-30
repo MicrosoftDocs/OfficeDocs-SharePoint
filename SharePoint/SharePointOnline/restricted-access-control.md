@@ -87,7 +87,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Restrict site access to non-group connected sites
 
-You can restrict access to non-group connected sites by specifying [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) that contain the people who should be allowed access to the site. You can configure up to 10 Microsoft Entra security groups. Once the policy is applied, users in the specified security group who have access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
+You can restrict access to non-group connected sites by specifying [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) that contain the people who should be allowed access to the site. You can configure up to 10 Microsoft Entra security groups. Once the policy is applied, users in the specified security group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
 
 To manage site access to a non-group connected site:
 
