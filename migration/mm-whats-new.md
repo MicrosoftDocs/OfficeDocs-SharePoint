@@ -1,5 +1,5 @@
 ---
-ms.date: 10/24/2023
+ms.date: 10/31/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: mactra
@@ -37,7 +37,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## September 2023
 
 - **New. File Level Permission for Dropbox and Box.** Support for File Level Permission (FLP) migration for Dropbox and Box.  *This feature is already available for **Google Drive** (as of June 8, 2023.)*
-- **Fixed. 'Share with me' support.** Issues related to duplication and deleted users during the migration of Google Drive's "Share with me" folder have been resolved.
+- **Fixed. 'Share with me' support.** Some issues related to the migration of "Share with me" event have been resolved.
 - **Fixed. Task deletion.** Task deletion triggered in the UX is now consistently reflected in the backend, reducing deletion failures.
 
 
