@@ -1,6 +1,6 @@
 ---
 title: "Connect to Google with Migration Manager"
-ms.date:  10/27/2023
+ms.date:  10/31/2023
 ms.reviewer: 
 ms.author: mactra
 author: MachelleTranMSFT
@@ -49,7 +49,7 @@ Sign in to your Google account and add the Microsoft 365 migration app to your G
 To ensure your Google forms are migrated, you must first grant access in the Google Marketplace.
 
 1. Sign in with your Google admin credentials to [Google Marketplace](https://admin.google.com/ac/apps/gmail/marketplace/appdetails/888375727339).
-2. Under **Drive**, verify that "See all your Google Sheets spreadsheets” status shows **Granted**.  
+2. Under **Drive**, verify that "See all your Google Forms" forms status shows **Granted**.  
 
   :::image type="content" source="media/mm-google-form-only-access.png" alt-text="google permissions granting for gsheet":::
 
