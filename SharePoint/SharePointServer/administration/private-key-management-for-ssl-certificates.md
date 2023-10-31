@@ -1,7 +1,7 @@
 ---
 title: "Private key management for SSL certificates"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 03/14/2023
