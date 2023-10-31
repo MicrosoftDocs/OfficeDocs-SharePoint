@@ -84,12 +84,12 @@ For example, the United States English language pack installs to the `%COMMONPRO
 
 3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
 
-4. The Setup wizard runs and installs the language pack.
+4. The Setup uns and installs the language pack.
 
-5. Run the SharePoint Products Configuration Wizard by using the default settings.
+5. Run SharePoint Products Configuration by using the default settings.
 
     > [!NOTE]
-    > If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+    > If you don't run SharePoint Products Configuration after you install a language pack, the language pack will not be installed correctly.
 
 ### Run the SharePoint Products Configuration Wizard
 
