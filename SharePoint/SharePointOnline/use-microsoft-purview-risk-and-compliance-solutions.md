@@ -66,19 +66,19 @@ The following key points summarize how deprecation works:
 ## Deprecation timeline 
  
 > [!NOTE]
-> Any future dates and timelines are approximate and might change as we develop our plans further. See [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=) for the most current information.
+> Any future dates and timelines are approximate and might change as we develop our plans further.
 
 ### Worldwide service
 
 #### Upcoming 
 
-October 2023 – Announcement of the first set of features in the deprecation plan and timelines. 
+November 2023 – Announcement of the first set of features in the deprecation plan and timelines. 
 
 ### Government clouds (GCC, GCC-H, DoD) 
 
 #### Upcoming 
 
-October 2023 – Announcement of the first set of features in the deprecation plan and timelines
+November 2023 – Announcement of the first set of features in the deprecation plan and timelines
 
 ## Migrating from older features to modern features
 
