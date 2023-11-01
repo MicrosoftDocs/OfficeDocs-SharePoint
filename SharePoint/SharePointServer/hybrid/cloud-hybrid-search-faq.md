@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.custom:
   - admindeeplinkSPO
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: Cloud hybrid search service (Cloud SSA) FAQ
 ---
 
@@ -330,7 +331,7 @@ The **URLs to remove** option within SharePoint admin center (https://\<tenantna
 
 ***Can I run Cloud hybrid search Onboarding script when multifactor authentication (MFA)is enabled in my tenant?***
 
-Yes, you need to ensure you have the latest version of Azure AD PowerShell. You can download it from [here](/powershell/azure/active-directory/install-adv2).
+Yes, you need to ensure you have the latest version of [Microsoft Graph PowerShell](/powershell/microsoftgraph/overview). You can download it from [here](/powershell/azure/active-directory/install-adv2).
 
 ***What are the firewall ports and protocols requirement to configure Cloud hybrid search service application?***
 

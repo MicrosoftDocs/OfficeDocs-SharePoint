@@ -21,6 +21,7 @@ ms.collection:
 - SPO_Content
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
 description: Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365.
 ---
@@ -60,7 +61,7 @@ To complete the configuration steps you'll need these items:
     
 - If you'll use the [Hybrid Configuration Wizard in the SharePoint admin center](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.2 or higher](https://dotnet.microsoft.com/download/dotnet-framework/net462) installed.
     
-- If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902). You'll also need the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) and the [Azure Active Directory module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8).
+- If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902). You'll also need the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) and the [Microsoft Graph Powershell module](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8).
     
 ## Follow these steps:
 
@@ -167,7 +168,7 @@ On the application server that hosts the SharePoint Server Central Administratio
     
 2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi) from the Microsoft Download Center. 
     
-3. Download and install the latest version of the [Azure Active Directory module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8) from the PowerShell Gallery. 
+3. Download and install the latest version of the [Microsoft Graph PowerShell module](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8) from the PowerShell Gallery. 
     
 4. Download the [OnBoard-CloudHybridSearch.ps1](https://go.microsoft.com/fwlink/?LinkId=717902) PowerShell script from the Microsoft Download Center.
     
