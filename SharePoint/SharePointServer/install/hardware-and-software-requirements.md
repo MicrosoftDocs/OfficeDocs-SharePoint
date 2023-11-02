@@ -212,7 +212,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
 
-- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)
+- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=235496)
 
 - [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/kb/3092423)
 
