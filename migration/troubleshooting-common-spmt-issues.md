@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2019
+ms.date: 11/03/2023
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: mactra
@@ -103,6 +103,7 @@ This article describes common issues and errors you may encounter when using the
 |0x01610001|The Azure container is expired. Retry migration task.| 
 |0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for Server Processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
+|0x0131000D|Could not get all list item versions; tool sends request to fetch item versions, but nothing is returned. This error can occur when the download link is different between the common file and .aspx file. This case is fixed in 4.x version.|
 |0x0131000F|Failed to Read the file. File is checked out.|
 |0x0111000A|Scan File Failure: File size exceeds limit. See [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md) for current limits.|
 
