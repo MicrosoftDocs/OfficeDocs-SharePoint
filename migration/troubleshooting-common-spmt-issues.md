@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2019
+ms.date: 11/03/2023
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: mactra
