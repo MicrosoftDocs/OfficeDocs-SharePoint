@@ -74,11 +74,21 @@ The following key points summarize how deprecation works:
 
 November 2023 – Announcement of the first set of features in the deprecation plan and timelines. 
 
+January 2025 - The following features will no longer be supported by Microsoft and configurations will no longer be available:
+- Record Center site template, used to create a new Record Center site.
+- Configure systems to submit files to a site using the Record Center programmable interface (commonly referred to as “send to” location). ​
+- Content Organizer. 
+
 ### Government clouds (GCC, GCC-H, DoD) 
 
 #### Upcoming 
 
-November 2023 – Announcement of the first set of features in the deprecation plan and timelines
+November 2023 – Announcement of the first set of features in the deprecation plan and timelines.
+
+January 2025 - The following features will no longer be supported by Microsoft and configurations will no longer be available:
+- Record Center site template, used to create a new Record Center site.​
+- Configure systems to submit files to a site using the Record Center programmable interface (commonly referred to as “send to” location). ​
+- Content Organizer. 
 
 ## Migrating from older features to modern features
 
