@@ -86,6 +86,11 @@ This section provides minimum software requirements for each server in the farm.
   
 #### Minimum requirements for a database server in a farm
 
+One of the following server operating systems:
+- Windows Server 2016 Standard or Datacenter (Desktop Experience)
+- Windows Server 2019 Standard or Datacenter (Desktop Experience)
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
+
 Ensure at least one of the following requirements is met:
   
 - A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 130. This includes SQL Server 2016, SQL Server 2017, SQL Server 2019, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 130. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
@@ -98,12 +103,12 @@ Ensure at least one of the following requirements is met:
     > [!NOTE]
     > SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
 
-- One of the following server operating systems:
-     - Windows Server 2016 Standard or Datacenter (Desktop Experience)
-     - Windows Server 2019 Standard or Datacenter (Desktop Experience)
-     - Windows Server 2022 Standard or Datacenter (Desktop Experience)
-
 #### Minimum requirements for SharePoint servers in a farm
+
+One of the following server operating systems:
+- Windows Server 2016 Standard or Datacenter (Desktop Experience)
+- Windows Server 2019 Standard or Datacenter (Desktop Experience)
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 > [!NOTE]
 > We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
