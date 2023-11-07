@@ -43,6 +43,9 @@ You should notify the site admins and any subsite owners before you delete a sit
 > [!WARNING]
 > We do not recommend deleting the root site for your organization. If you do, all your SharePoint sites will be inaccessible until you restore the site or create a new root site. Instead of deleting the root site, we recommend replacing it. [Learn more about the root site and how to replace it](modern-root-site.md)
 
+> [!NOTE]
+> Deleted sites in the Recycle Bin do not count toward the organization’s total storage usage. It will take up to 48 hours for the storage usage to update. 
+
 ## Delete a site in the new SharePoint admin center
 
 By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. Both Global Administrators and SharePoint Administrators can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
