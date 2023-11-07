@@ -21,7 +21,7 @@ ms.assetid:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-description: "In this article, you'll learn how to allow only users in specified security groups to access OneDrive."
+description: "Learn how to allow only users in specified security groups to access OneDrive."
 ---
 
 # Restrict OneDrive access by security group
