@@ -52,7 +52,7 @@ To enable this feature:
 
 3. Select **Restrict OneDrive access to only users in specified security groups**.
 
-    :::image type="content" source="media/restrictonedriveaccess.png" alt-text="Restrict OneDrive access on the Access control page in the SharePoint admin center":::
+    :::image type="content" source="media/restrictonedriveaccess.png" lightbox="media/restrictonedriveaccess.png" alt-text="Restrict OneDrive access on the Access control page in the SharePoint admin center":::
 
 4. Add the security groups (maximum of 10) you want to be able to use OneDrive.
 
