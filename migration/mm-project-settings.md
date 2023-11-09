@@ -33,7 +33,7 @@ Depending on what cloud provider you are migrating from, may not see all these o
 
 ## File & folder filters
 
-You can limit what is migrated by customizing the settings on this page. Control what invalid characters are allowed, or choose to exclude certain types of files (by identifying extension), folder name, date create, and date modified. 
+You can limit what is migrated by customizing the settings on this page. Specify if invalid characters are allowed in a file or folder name, or choose to exclude specific file types or folder names., or by when they date create, and date modified. 
 
 >[!Note]
 >Settings are applied to all migrations unless customized individually. Changes won't be applied to migrations in progress.
