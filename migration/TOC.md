@@ -58,6 +58,7 @@
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
+### [Project settings](mm-project-settings.md)
 ### [Migration time estimator](mm-time-estimator.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
