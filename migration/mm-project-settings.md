@@ -33,12 +33,17 @@ Depending on what cloud provider you are migrating from, may not see all these o
 
 ## File & folder filters
 
+You can limit what is migrated by customizing the settings on this page. Control what invalid characters are allowed, or choose to exclude certain types of files (by identifying extension), folder name, date create, and date modified. 
+
+>[!Note]
+>Settings are applied to all migrations unless customized individually. Changes won't be applied to migrations in progress.
+
 
 :::image type="content" source="media/mm-projct-settings-main-page.png" alt-text="main project settings page with all four tabs":::
 
-Example of excluding by date created
+**Example**
 
-:::image type="content" source="media/mm-project-settings-exclude-by-date.png" alt-text="exclude by date":::
+   :::image type="content" source="media/mm-project-settings-exclude-by-date.png" alt-text="exclude by date":::
 
 ## Sharing & metadata
 
