@@ -38,7 +38,6 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Migrate to Microsoft 365",
       "recommendations": true,

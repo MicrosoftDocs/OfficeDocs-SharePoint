@@ -86,6 +86,11 @@ This section provides minimum software requirements for each server in the farm.
   
 #### Minimum requirements for a database server in a farm
 
+One of the following server operating systems:
+- Windows Server 2016 Standard or Datacenter (Desktop Experience)
+- Windows Server 2019 Standard or Datacenter (Desktop Experience)
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
+
 Ensure at least one of the following requirements is met:
   
 - A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 130. This includes SQL Server 2016, SQL Server 2017, SQL Server 2019, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 130. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
@@ -98,12 +103,12 @@ Ensure at least one of the following requirements is met:
     > [!NOTE]
     > SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
 
-- One of the following server operating systems:
-     - Windows Server 2016 Standard or Datacenter (Desktop Experience)
-     - Windows Server 2019 Standard or Datacenter (Desktop Experience)
-     - Windows Server 2022 Standard or Datacenter (Desktop Experience)
-
 #### Minimum requirements for SharePoint servers in a farm
+
+One of the following server operating systems:
+- Windows Server 2016 Standard or Datacenter (Desktop Experience)
+- Windows Server 2019 Standard or Datacenter (Desktop Experience)
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 > [!NOTE]
 > We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
@@ -176,19 +181,19 @@ The optional software in this section is supported but isn't required to install
 To install Windows Server 2016 or higher, SQL Server 2016 or higher, or SharePoint Server 2019, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2019 Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role in Server Manager.
   
 In scenarios where installing prerequisites directly from the Internet isn't possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
-  
+
 - [SharePoint Server 2019](https://go.microsoft.com/fwlink/?LinkId=2006095)
 - [Language Packs for SharePoint Server 2019](https://go.microsoft.com/fwlink/?LinkId=2006096)
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
-- [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)   
-- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041)   
-- [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)   
-- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)  
+- [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041)
+- [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
+- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=235496)
 - [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/kb/3092423)
-- [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)   
-- [Visual C++ Redistributable Package for Visual Studio 2017](https://go.microsoft.com/fwlink/?LinkId=848299)   
-- [Exchange Web Services Managed API, version 1.2](https://www.nuget.org/packages/Microsoft.Exchange.WebServices/1.2.0)   
+- [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)
+- [Visual C++ Redistributable Package for Visual Studio 2017](https://go.microsoft.com/fwlink/?LinkId=848299)
+- [Exchange Web Services Managed API, version 1.2](https://www.nuget.org/packages/Microsoft.Exchange.WebServices/1.2.0)
 - [Microsoft Identity Extensions](https://go.microsoft.com/fwlink/?LinkId=252368)
 
 ## Prerequisite installer operations and command-line options

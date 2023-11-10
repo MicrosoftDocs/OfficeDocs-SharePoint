@@ -34,9 +34,9 @@ description: Learn how to use Microsoft Purview risk and compliance solutions in
 
 ## Overview
 
-If you need to proactively retain or delete content in Microsoft 365, we recommend using Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management features instead of older information management and records management features in SharePoint for Microsoft 365
+If you need to retain or delete content in Microsoft 365, we recommend using Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management features instead of older information management and records management features in SharePoint for Microsoft 365
 
-We have a long-term deprecation plan for these older features and will share updates including dates in the [deprecation timeline.](#deprecation-timeline) Feature deprecations are communicated in advance to give customers time to prepare and perform any applicable migration activities. 
+We have a long-term deprecation plan for these older features. More information, including dates, is in the [deprecation timeline.](#deprecation-timeline) Feature deprecations are communicated in advance to give customers time to prepare and perform any applicable migration activities. 
 
 The following older information management and records management features in SharePoint for Microsoft 365 are under consideration for deprecation: 
 
@@ -54,31 +54,41 @@ The following older information management and records management features in Sh
 
 The following key points summarize how deprecation works:  
 
-- Microsoft won't automatically migrate your older information management and records management features in SharePoint for Microsoft 365. If you choose not to migrate to supported features, the older features may no longer be supported.   
+- Microsoft won't automatically migrate your older information management and records management features in SharePoint for Microsoft 365. If you choose not to migrate to supported features, the older features might no longer be supported.   
 - Between now and the deprecation date of the feature, you have the flexibility to migrate your scenarios on your own schedule.  
-- If you have configured SharePoint sites for content type policies or information management policies to retain content for a list or library, those policies continue to be ignored as they are today while a retention policy or retention label policy is in effect. 
-- Deprecation for features may include some or all the following outcomes:  
-    - Feature may no longer be supported by Microsoft support.  
-    - It may no longer be visible in the user interface.  
-    - Configurations may not be available through the user interface or programmatically, including enable and disable actions.  
-    - When fully deprecated, backend services supporting behaviors for the feature may no longer function, resulting in the cessation of feature behavior within the tenant, even if the older feature behavior was still enabled.  
+- If you have configured SharePoint sites for content type policies or information management policies, those policies continue to be ignored while a retention policy or retention label policy is in effect. 
+- Deprecation for features might include some or all the following outcomes:  
+    - Microsoft might not support the feature.
+    - It might no longer be visible in the user interface.  
+    - Configurations might not be available through the user interface or programmatically, including enable and disable actions.  
+    - When fully deprecated, backend services supporting behaviors for the feature might no longer function as expected.
     
 ## Deprecation timeline 
  
 > [!NOTE]
-> Any future dates and timelines are approximate and may change as we develop our plans further. See [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=) for the most current information.
+> Any future dates and timelines are approximate and might change as we develop our plans further.
 
 ### Worldwide service
 
 #### Upcoming 
 
-October 2023 – Announcement of the first set of features in the deprecation plan and timelines. 
+November 2023 – Announcement of the first set of features in the deprecation plan and timelines. 
+
+January 2025 - The following features will no longer be supported by Microsoft and configurations will no longer be available:
+- Record Center site template, used to create a new Record Center site.
+- Configure systems to submit files to a site using the Record Center programmable interface (commonly referred to as “send to” location). ​
+- Content Organizer. 
 
 ### Government clouds (GCC, GCC-H, DoD) 
 
 #### Upcoming 
 
-October 2023 – Announcement of the first set of features in the deprecation plan and timelines
+November 2023 – Announcement of the first set of features in the deprecation plan and timelines.
+
+January 2025 - The following features will no longer be supported by Microsoft and configurations will no longer be available:
+- Record Center site template, used to create a new Record Center site.​
+- Configure systems to submit files to a site using the Record Center programmable interface (commonly referred to as “send to” location). ​
+- Content Organizer. 
 
 ## Migrating from older features to modern features
 
