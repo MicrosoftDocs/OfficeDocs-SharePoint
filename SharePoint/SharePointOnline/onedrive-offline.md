@@ -123,11 +123,12 @@ You can also free up space on your computer by making offline files online-only.
 :::image type="content" source="media/onedrive-offline/onedrive-offline-18.png" alt-text="Screenshot of toast that file is not available online.":::
 
 1. You'll no longer see "available offline" icon next to the file or folder that you chose not to be available offline on your computer.
+
     :::image type="content" source="media/onedrive-offline/onedrive-offline-19A.png" alt-text="Screenshot of file not available offline.":::
  
     > [!NOTE]
-> - "Make available offline" action works across OneDrive for Web and OneDrive sync app on Windows and macOS.
-> - You can make the file available offline in Windows File Explorer or macOS Finder and the file's offline availability state will be updated in OneDrive for Web as well.
+    > - "Make available offline" action works across OneDrive for Web and OneDrive sync app on Windows and macOS.
+    > - You can make the file available offline in Windows File Explorer or macOS Finder and the file's offline availability state will be updated in OneDrive for Web as well.
 
 ### Current limitations of Offline mode
 
@@ -135,7 +136,7 @@ You can also free up space on your computer by making offline files online-only.
 2. Currently, Offline mode isn't supported in the following situations:
       - If you added a shortcut to shared folders in OneDrive
 3. A _full_ offline experience in OneDrive for web—where you can perform all the operations that are available online isn't yet supported. The following features aren't available when you're offline.
-      - Sharing, copying links, downloading your files
+      - Sharing, copying links, adding new files, downloading your files
       - Managing access to your files
       - Previewing your file in online previewer
       - Using **Search**
