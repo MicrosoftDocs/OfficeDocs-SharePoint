@@ -75,7 +75,7 @@ To resolve a conflict:
 1. In the confirmation dialog that appears, you can proceed with turning off offline mode or canceling.
     :::image type="content" source="media/onedrive-offline/onedrive-offline7.png" alt-text="Screenshot of confirmation dialog.":::
 
-After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1A.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
+After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
 
 ## Work with OneDrive web app while offline
 
