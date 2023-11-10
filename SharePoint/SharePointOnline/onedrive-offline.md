@@ -30,7 +30,7 @@ On Windows 10 or later and macOS 12 Monterey or later for devices running the On
 
 To accomplish this, a copy of your file metadata that powers OneDrive web app is securely stored locally on your device. This data on your device is only available to you. If someone else was to sign in to your device, the local data on the device wouldn't be available to them. We adhere to privacy guidelines outlined in the [Microsoft Privacy Statement.](https://privacy.microsoft.com/privacystatement)
 
-A secure local web server on your device handles the operations that you perform on your files, such as viewing, sorting, renaming, moving, and copying. Traditionally, these operations would need to be handled by the OneDrive cloud service. This results in fast and smooth interactions with your files like loading your files and folders, sorting, renaming, moving, renaming, and more. And all these operations continue to work even when you're offline, lose your internet connection, or run into a service disruption in the app.
+A secure local web server on your device handles the operations that you perform on your files, such as viewing, sorting, renaming, moving, and copying. Traditionally, these operations would need to be handled by the OneDrive cloud service. This results in fast and smooth interactions with your files like loading your files and folders, sorting, renaming, moving, and more. And all these operations continue to work even when you're offline, lose your internet connection, or run into a service disruption in the app.
 
 ## Verify that OneDrive Offline mode is ready for use
 
@@ -63,7 +63,7 @@ To resolve a conflict:
 ### Turn off Offline mode
 
 > [!NOTE]
-> Offline mode is per-device setting and needs to be configured on every device that you use to access OneDrive web app
+> Offline mode is per-device setting and needs to be configured on every device that you use to access OneDrive web app.
 
 1. To turn off Offline mode, navigate to **My files** view.
 
@@ -103,7 +103,8 @@ Alternatively, you can select :::image type="icon" source="media/onedrive-offlin
 4. The file or folder is then downloaded to your computer. Once completed, you'll be notified with a toast that the file is available to you when you're offline. 
 :::image type="content" source="media/onedrive-offline/onedrive-offline12.png" alt-text="Screenshot of file available when offline.":::
 1. You'll see an "available offline" icon next to the files and folder that you marked to be available offline.
-:::image type="content" source="media/onedrive-offline/onedrive-offline-13A.png" alt-text="Screenshot of available offline icon.":::
+
+    :::image type="content" source="media/onedrive-offline/onedrive-offline-13A.png" alt-text="Screenshot of available offline icon.":::
 
 ### Free up space on your device
 
