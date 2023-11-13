@@ -776,11 +776,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "OneDrive/index.yml",
-      "redirect_url": "/sharepoint",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "OneDrive/information-barriers.md",
       "redirect_url": "/sharepoint/information-barriers-onedrive",
       "redirect_document_id": false
