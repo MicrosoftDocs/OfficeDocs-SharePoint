@@ -33,7 +33,7 @@ The settings are designed to support each cloud provider. Depending on what clou
 |Setting tab|Description|
 |:-----|:-----|
 |File & folder filters|You can limit what is migrated by customizing the settings on this page. Specify if invalid characters are allowed in a file or folder name, or choose to exclude specific file types or folder names., or by when they date create, and date modified.|
-|Sharing & metadata|These settings ensure that the same users with access to files, folders, and metadata will continue to have access after migration.|
+|Permissions|These settings ensure that the same users with access to files, folders, and metadata will continue to have access after migration.|
 |Advanced|Google migrations only. If you are migrating Google Sheets, this setting allows a scan to identify imcompatible formulas and embedded links which may affect the converted Excel files.  Learn more: [**Scan Google Sheet spreadsheets**](mm-google-sheet-scan.md)|
 |Project details|Edit your project, find your Proejct ID, or disconnect from your source.|
 

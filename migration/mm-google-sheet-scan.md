@@ -86,6 +86,7 @@ A summary of Google Sheets of each selected task. Each line represents a summary
 |TotalGSheet|The number of Google Sheets found in the task.|
 |GSheetWithIssue|The number of Google Sheets in the task with issues found.|
 |Issues|Total number of issues found in the task.|
+|SheetScanStatus|Status of the sheet scan process|
 
 
 ### SheetItem.csv
@@ -115,7 +116,7 @@ Issue details of selected tasks.
 |FullPath|Full path of the item in the source.|
 |LastModified|Last modified time of the Google Sheets file.|
 |SheetName|The name of the Google Sheets file.|
-|IssueType|Type of issue found. Presently, only incompatible formula detection is supported.|
+|IssueType|Type of issue found.|
 |IssueDetail|Details of the issue found.|
 |CellLocation|Location of the cell with issue found.|
 |CellContent|Original content of the cell with issue found.|
