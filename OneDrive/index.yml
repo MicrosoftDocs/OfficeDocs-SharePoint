@@ -29,11 +29,13 @@ additionalContent:
           links:
             - text: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
               url: /sharepoint/introduction
+            - text: Overview of OneDrive in Microsoft 365
+              url: /sharepoint/onedrive-overview
             - text: Hybrid deployments
               url: /sharepoint/hybrid/plan-hybrid-onedrive-for-business
             - text: Troubleshoot
-              url: /sharepoint/support/onedrive
-            - text: Use OneDrive in Microsoft 365
+              url: /sharepoint/troubleshoot/onedrive-welcome/
+            - text: Training - Use OneDrive in Microsoft 365
               url: /training/modules/m365-onedrive-collaboration-use/      
         # Card
         - title: For developers
@@ -46,7 +48,9 @@ additionalContent:
         # Card
         - title: For end users
           summary: Find help, training, and technical support for your OneDrive users.
-          url: https://support.office.com/onedrive
+          links:
+            - text: OneDrive help & learning
+              url: https://support.office.com/onedrive
 
     - title: More resources
       items:    
