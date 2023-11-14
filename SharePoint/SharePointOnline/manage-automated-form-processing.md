@@ -4,7 +4,7 @@ title: "Manage automated document processing"
 ms.reviewer: ssquires
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

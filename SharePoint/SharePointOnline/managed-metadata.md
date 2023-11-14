@@ -1,9 +1,9 @@
 ---
 title: "Introduction to managed metadata"
 ms.reviewer: shrganguly
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 09/18/2023
 audience: End User

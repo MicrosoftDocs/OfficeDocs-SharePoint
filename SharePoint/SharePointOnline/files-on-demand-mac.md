@@ -2,9 +2,9 @@
 ms.date: 09/20/2018
 title: "Set Files On-Demand states on Mac"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

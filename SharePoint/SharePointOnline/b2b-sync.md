@@ -2,9 +2,9 @@
 ms.date: 02/04/2019
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -2,9 +2,9 @@
 ms.date: 09/18/2023
 title: IT Admins - SharePoint and OneDrive unmanaged device access controls
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: CSH

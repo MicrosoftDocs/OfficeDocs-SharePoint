@@ -2,9 +2,9 @@
 ms.date: 10/26/2023
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

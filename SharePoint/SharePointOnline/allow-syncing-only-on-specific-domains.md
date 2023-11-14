@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Allow syncing only on computers joined to specific domains"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

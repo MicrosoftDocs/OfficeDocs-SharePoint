@@ -1,9 +1,9 @@
 ---
 title: "Security considerations of allowing custom script"
 ms.reviewer: lucaband
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 6/15/2017
 audience: Admin

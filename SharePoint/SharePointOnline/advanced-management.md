@@ -2,9 +2,9 @@
 ms.date: 08/30/2023
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
