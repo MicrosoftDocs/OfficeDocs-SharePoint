@@ -26,7 +26,11 @@ Review your settings to ensure that the same users with access to files, folders
 ## Migrate permissions
 By default, Migration Manager migrates folders permissions.  File permissions aren't migrated, and destination files inherit parent folder permissions.
 
-File permissions migration can be enabled in Project settings, found in the upper right corner of the screen. Once enabled, the destination file permissions will be the same as they are in source.  This ensures that migrated files are shared with the same users as before migration.  
+File permissions migration can be enabled in Project settings, located in the upper right corner of your screen.
+ 
+:::image type="content" source="media/mm-project-settings-toolbar.png" alt-text="project settings":::
+
+Once enabled, the destination file permissions will be the same as they are in source.  This ensures that migrated files are shared with the same users as before migration.  
 
 >[!Note]
 >Migrating file permissions may slow down your migration process.
