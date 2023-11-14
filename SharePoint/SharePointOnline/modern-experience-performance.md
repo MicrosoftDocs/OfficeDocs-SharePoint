@@ -3,7 +3,7 @@ title: "Performance in the modern SharePoint experience"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: laurawi
+manager: jtremper
 recommendations: true
 ms.date: 3/19/2019
 audience: Admin
