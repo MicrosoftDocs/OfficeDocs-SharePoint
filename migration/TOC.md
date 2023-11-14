@@ -58,6 +58,7 @@
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
 ### [Project settings](mm-project-settings.md)
+#### [Permissions](mm-project-settings-permissions.md)
 #### [Google sheet scan settings](mm-google-sheet-scan.md)
 ### [Migration time estimator](mm-time-estimator.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
