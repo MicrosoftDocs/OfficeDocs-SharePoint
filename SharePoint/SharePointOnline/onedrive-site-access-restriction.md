@@ -1,9 +1,9 @@
 ---
 ms.date: 11/15/2023
-title: Restrict access to a user's OneDrive content to people in a security group
+title: Restrict access to a user's OneDrive content to people in a group
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.custom:
 description: "Learn how to allow only users in specified security groups to access a user's OneDrive content."
 ---
 
-# Restrict access to a user's OneDrive content to people in a security group
+# Restrict access to a user's OneDrive content to people in a group
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
