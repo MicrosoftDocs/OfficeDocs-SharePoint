@@ -37,7 +37,7 @@ The OneDrive product and engineering team now offers monthly office hours for co
 
 - **Q&A:** we'll answer OneDrive questions and field your questions and suggestions. (~45 mins)
 
-**You may opt out of OneDrive office hours at anytime**
+**You may opt out of OneDrive office hours at any time.**
 
 You can opt out of the meeting invitation list. This will ensure that you no longer get office hours meeting invitations, though any information submitted prior to leaving, such as messages in meeting chat, will persist. To opt out of office hours just reply to the office hours meeting invite and let us know that you'd like to unsubscribe.
 
