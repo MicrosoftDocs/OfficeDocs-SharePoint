@@ -1,5 +1,5 @@
 ---
-ms.date: 10/17/2023
+ms.date: 11/15/2023
 title: Restrict access to a user's OneDrive content to people in a security group
 ms.author: mactra
 author: MachelleTranMSFT
@@ -27,9 +27,11 @@ description: "Learn how to allow only users in specified security groups to acce
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can restrict access to a user's OneDrive content by using a OneDrive access restriction policy and specifying [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) that contain the people who should be able to access files in that OneDrive.
+You can restrict access to an individual user's OneDrive content to users in a security group by using a OneDrive access restriction policy. Users not in the specified group can't access the content, even if they had prior permissions or shared link.
 
-When the policy is applied, the people in the security group are not granted access to any files directly. The OneDrive owner must share the content as they normally would. The OneDrive access restriction policy prevents anyone who is not in the security group from accessing the OneDrive content even if it's shared with them.
+The policy is applied using [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) that contain the people who should be able to access files in that OneDrive.
+
+When the policy is applied, the people in the security group are not granted permissions to any files directly. The OneDrive owner must share the content as they normally would. The OneDrive access restriction policy prevents anyone who is not in the security group from accessing the OneDrive content even if it's shared with them.
 
 Access restriction policies are applied when a user attempts to access a file. Users can still see files in search results if they have direct permissions to the file, but they won't be able to access the file if they're not part of the specified security group.
 
@@ -78,8 +80,15 @@ To manage access restriction for OneDrive, use the following commands:
 |Remove security group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
 |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
 
-## Related topics
+## Auditing
 
-[Restrict access control for SharePoint sites](restricted-access-control.md)
+Audit events are available in the Microsoft Purview compliance portal to help you monitor site access restriction activities. Audit events are logged for the following activities:
+- Applying site access restriction for site
+- Removing site access restriction for site
+- Changing site access restriction groups for site
+
+## Related articles
+
+[Restrict SharePoint site access to members of a group](restricted-access-control.md)
 
 [Data access governance insights for SharePoint sites](data-access-governance-reports.md)
