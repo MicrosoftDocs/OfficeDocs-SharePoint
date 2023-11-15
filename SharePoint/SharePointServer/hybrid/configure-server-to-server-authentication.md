@@ -20,6 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
 description: Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365.
 ---
@@ -124,7 +125,7 @@ Here's a high-level view of the procedures you have to complete in this section:
 
 To continue, you need to install these tools on an on-premises SharePoint Server web server:
 
-- Azure Active Directory module for Windows PowerShell
+- Microsoft Graph PowerShell
 
 - SharePoint in Microsoft 365 Management Shell
 
@@ -137,7 +138,7 @@ Authentication to SharePoint Server, SharePoint in Microsoft 365, and Microsoft 
 
 To install the online service management tools and configure the PowerShell window:
 
-1. Install the [latest version of the Azure Active Directory module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
+1. Install the [latest version of the Microsoft Graph PowerShell](/powershell/microsoftgraph/installation)
 
 2. Install the SharePoint in Microsoft 365 Management Shell:
 
@@ -168,8 +169,8 @@ To install the online service management tools and configure the PowerShell wind
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
 
    ```powershell
-   $cred=Get-Credential
-   Connect-MsolService -Credential $cred
+      $cred=Get-Credential
+      Connect-MgGraph -Credential $cred -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory
    ```
 
    You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account.
@@ -209,8 +210,8 @@ $spcn="*.<public_root_domain_name>.com"
 $spsite=Get-Spsite <principal_web_application_URL>
 $site=Get-Spsite $spsite
 $spoappid="00000003-0000-0ff1-ce00-000000000000"
-$spocontextID = (Get-MsolCompanyInformation).ObjectID
-$metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextID + "/metadata/json/1"
+$spocontextID = (Get-MgOrganization).Id
+$metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextID + "/metadata/json/1
 ```
 
 After you populate these variables, you can view their values by entering the variable name in the PowerShell window. For example, entering  `$metadataEndpoint` returns a value similar to the following:
@@ -229,10 +230,10 @@ The commands in this step add the on-premises STS certificate (public key only) 
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$stsCert=(Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
+$stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
 $binCert = $stsCert.GetRawCertData()
-$credValue = [System.Convert]::ToBase64String($binCert);
-New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
+$credValue = [System.Convert]::ToBase64String($binCert)
+New-MgServicePrincipalKey -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
 ```
 
 <a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
@@ -262,19 +263,19 @@ If the common name in your certificate is sharepoint.adventureworks.com, the syn
 
 Using a wildcard value lets SharePoint in Microsoft 365 validate connections with  *any host*  in that domain. This is useful if you ever need to change the host name of the external endpoint (if your topology includes one) or if you want to change your SharePoint Server web application, in the future.
 
-To add the SPN to Microsoft Entra ID, enter the following commands in the Azure Active Directory module for Windows PowerShell command prompt.
+To add the SPN to Microsoft Entra ID, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
+$msp = Get-MgServicePrincipal -AppPrincipalId $spoappid
 $spns = $msp.ServicePrincipalNames
 $spns.Add("$spoappid/$spcn")
-Set-MsolServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
+Update-MgServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
 ```
 
-To validate that the SPN was set, enter the following commands in the Azure Active Directory module for Windows PowerShell command prompt.
+To validate that the SPN was set, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
+$msp = Get-MgServicePrincipal -AppId $spoappid
 $spns = $msp.ServicePrincipalNames
 $spns
 ```
@@ -293,9 +294,9 @@ This step registers the SharePoint in Microsoft 365 application principal object
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$spoappprincipalID = (Get-MsolServicePrincipal -ServicePrincipalName $spoappid).ObjectID
+$spoappprincipalID = (Get-MgServicePrincipal -Filter "servicePrincipalName eq '$spoappid'").Id
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
-$appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
+$appPrincipal = New-MgServicePrincipal -Site $site.rootweb -NameIdentifier $sponameidentifier -DisplayName "SharePoint"
 ```
 
 To validate this step, from the PowerShell command prompt, type the $appPrincipal variable:
