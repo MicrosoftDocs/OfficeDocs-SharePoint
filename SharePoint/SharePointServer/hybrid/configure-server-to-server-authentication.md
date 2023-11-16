@@ -233,7 +233,7 @@ From the PowerShell command prompt, type the following commands.
 $stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
 $binCert = $stsCert.GetRawCertData()
 $credValue = [System.Convert]::ToBase64String($binCert)
-New-MgServicePrincipalKey -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
+Add-MgServicePrincipalKey -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
 ```
 
 <a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
