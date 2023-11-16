@@ -50,7 +50,7 @@ The following table lists minimum hardware requirements for installing and runni
 
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
-For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver16).
+For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver16&preserve-view=true).
 
 |Installation scenario|Deployment type and scale|RAM|Processor|Hard disk space|
 |---|---|---|---|---|
