@@ -50,7 +50,7 @@ The following table lists minimum hardware requirements for installing and runni
 
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
+For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver16).
 
 |Installation scenario|Deployment type and scale|RAM|Processor|Hard disk space|
 |---|---|---|---|---|
@@ -145,6 +145,9 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 
 - Microsoft .NET Framework version 4.6
 
+  > [!IMPORTANT]
+  > Starting April 26, 2022, the .NET Framework team no longer supports .NET Framework 4.6. We recommend you upgrade to [.NET Framework 4.6.2 or higher](https://support.microsoft.com/topic/the-net-framework-4-6-2-web-installer-for-windows-6ec55fa1-50e9-0395-2a37-ff612779027c) to remain supported.
+
 - Microsoft SQL Server 2012 Service Pack 1 Native Client
 
 - Microsoft WCF Data Services 5.6
@@ -198,15 +201,15 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Office 365 Enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-office-365-plans)
 
-- [Microsoft SQL Server 2014 Service Pack 1 (SP1)](https://go.microsoft.com/fwlink/p/?LinkId=618406)
+- [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016)
 
-- [Microsoft .NET Framework version 4.6](https://go.microsoft.com/fwlink/?LinkId=722763)
+- [.NET Framework 4.6.2](https://support.microsoft.com/topic/the-net-framework-4-6-2-web-installer-for-windows-6ec55fa1-50e9-0395-2a37-ff612779027c)
 
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
 
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
 
-- [Microsoft SQL Server 2012 Service Pack 1 (SP1) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://go.microsoft.com/fwlink/p/?LinkId=618409)
+- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client](https://go.microsoft.com/fwlink/?LinkId=622997)
 
 - [Microsoft ODBC Driver 11 for SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=618410)
 
