@@ -46,7 +46,6 @@
 #### [Step 2: Scan and assess (for site migration only)](spmt-scan.md)
 #### [Step 3: Create a migration task](spmt-create-task.md)
 #### [Step 4: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-
 ### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
@@ -58,6 +57,9 @@
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
+### [Project settings](mm-project-settings.md)
+#### [Permissions](mm-project-settings-permissions.md)
+#### [Google sheet scan settings](mm-google-sheet-scan.md)
 ### [Migration time estimator](mm-time-estimator.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
