@@ -1,5 +1,5 @@
 ---
-title: Hardware and software requirements for SharePoint Server 2016 and 2017
+title: Hardware and software requirements for SharePoint Server 2016
 ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
@@ -20,7 +20,7 @@ ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016.
 ---
 
-# Hardware and software requirements for SharePoint Server 2016 and 2017
+# Hardware and software requirements for SharePoint Server 2016
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
@@ -50,7 +50,7 @@ The following table lists minimum hardware requirements for installing and runni
 
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
-For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-ver16&preserve-view=true).
+For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
 
 |Installation scenario|Deployment type and scale|RAM|Processor|Hard disk space|
 |---|---|---|---|---|
@@ -201,9 +201,9 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Office 365 Enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-office-365-plans)
 
-- [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016)
+- [Microsoft SQL Server 2016](https://go.microsoft.com/fwlink/p/?LinkId=618406)
 
-- [.NET Framework 4.6.2](https://support.microsoft.com/topic/the-net-framework-4-6-2-web-installer-for-windows-6ec55fa1-50e9-0395-2a37-ff612779027c)
+- [.NET Framework 4.6.2](https://go.microsoft.com/fwlink/?LinkId=722763)
 
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
 
