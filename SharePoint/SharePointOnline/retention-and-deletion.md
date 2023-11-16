@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "OneDrive retention and deletion"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

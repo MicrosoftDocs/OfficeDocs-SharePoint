@@ -2,7 +2,7 @@
 ms.date: 10/11/2023
 title: "Review recent SharePoint administrator site actions"
 ms.reviewer: daminasy
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.author: mactra
 author: MachelleTranMSFT

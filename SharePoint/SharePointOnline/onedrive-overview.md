@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Overview of OneDrive in Microsoft 365
 ms.reviewer:
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

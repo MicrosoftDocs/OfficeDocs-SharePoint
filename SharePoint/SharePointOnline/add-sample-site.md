@@ -2,9 +2,9 @@
 ms.date: 11/15/2019
 title: Add a sample site to your tenant
 ms.reviewer: 
-ms.author: loreenl
-author: loreenla
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

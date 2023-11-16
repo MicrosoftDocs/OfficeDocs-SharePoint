@@ -2,9 +2,9 @@
 ms.date: 02/27/2019
 title: "Sharing errors in SharePoint and OneDrive"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ ms.date: 11/07/2023
 title: "Restrict OneDrive access by security group"
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

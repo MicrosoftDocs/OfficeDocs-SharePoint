@@ -2,9 +2,9 @@
 ms.date: 12/22/2020
 title: "Install the previous OneDrive sync app"
 ms.reviewer: garezni
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
