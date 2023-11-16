@@ -50,7 +50,7 @@ The following table lists minimum hardware requirements for installing and runni
 
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
-For information about hardware and software requirements for Microsoft SQL Servers, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
+For information about hardware and software requirements for Microsoft SQL Server, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
 
 |Installation scenario|Deployment type and scale|RAM|Processor|Hard disk space|
 |---|---|---|---|---|
@@ -146,7 +146,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Microsoft .NET Framework version 4.6
 
   > [!IMPORTANT]
-  > Starting April 26, 2022, the .NET Framework team no longer supports .NET Framework 4.6. We recommend you upgrade to [.NET Framework 4.6.2 or higher](https://support.microsoft.com/topic/the-net-framework-4-6-2-web-installer-for-windows-6ec55fa1-50e9-0395-2a37-ff612779027c) to remain supported.
+  > Starting April 26, 2022, the .NET Framework team no longer supports .NET Framework 4.6. We recommend you upgrade to [.NET Framework 4.6.2 or higher](https://go.microsoft.com/fwlink/?LinkId=722763) to remain supported.
 
 - Microsoft SQL Server 2012 Service Pack 1 Native Client
 
