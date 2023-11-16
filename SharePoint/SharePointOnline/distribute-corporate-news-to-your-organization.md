@@ -1,9 +1,9 @@
 ---
 ms.date: 08/06/2021
 title: "Distribute corporate news to your organization"
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

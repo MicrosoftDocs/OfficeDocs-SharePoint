@@ -1,9 +1,9 @@
 ---
 ms.date: 09/07/2021
 title: Intelligent intranet overview
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

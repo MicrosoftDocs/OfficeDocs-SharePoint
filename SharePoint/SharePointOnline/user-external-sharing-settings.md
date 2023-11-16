@@ -4,7 +4,7 @@ title: "Change the external sharing setting for a user's OneDrive"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH

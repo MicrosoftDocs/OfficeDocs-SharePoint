@@ -2,9 +2,9 @@
 ms.date: 07/17/2023
 title: "Find your Microsoft 365 tenant ID"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

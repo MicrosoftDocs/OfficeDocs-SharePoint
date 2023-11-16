@@ -2,10 +2,10 @@
 ms.date: 07/11/2018
 title: "Sign out inactive users"
 ms.reviewer: samust
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jhendr
+author: JoanneHendrickson
 audience: Admin
 f1.keywords:
 - CSH
