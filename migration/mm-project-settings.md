@@ -1,6 +1,6 @@
 ---
 title: "Project settings in Migration Manager"
-ms.date: 11/13/2023
+ms.date: 11/15/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

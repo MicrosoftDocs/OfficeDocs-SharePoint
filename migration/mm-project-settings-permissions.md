@@ -1,6 +1,6 @@
 ---
 title: "Permission settings in Migration Manager"
-ms.date: 11/14/2023
+ms.date: 11/15/2023
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
