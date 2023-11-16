@@ -161,7 +161,7 @@ To install the online service management tools and configure the PowerShell wind
    ```powershell
    Add-PSSnapin Microsoft.SharePoint.PowerShell
    Import-Module Microsoft.PowerShell.Utility
-   Import-Module MSOnline -force
+   Import-Module Microsoft.Graph
    ```
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
@@ -169,11 +169,10 @@ To install the online service management tools and configure the PowerShell wind
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
 
    ```powershell
-      $cred=Get-Credential
-      Connect-MgGraph -Credential $cred -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory
+      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory"
    ```
 
-   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account.
+   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](https://github.com/powershell/microsoftgraph/authentication-commands).
 
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
 
@@ -233,7 +232,7 @@ From the PowerShell command prompt, type the following commands.
 $stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
 $binCert = $stsCert.GetRawCertData()
 $credValue = [System.Convert]::ToBase64String($binCert)
-Add-MgServicePrincipalKey -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
+Add-MgServicePrincipalKey -ServicePrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
 ```
 
 <a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
@@ -266,16 +265,16 @@ Using a wildcard value lets SharePoint in Microsoft 365 validate connections wit
 To add the SPN to Microsoft Entra ID, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MgServicePrincipal -AppPrincipalId $spoappid
+$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid
 $spns = $msp.ServicePrincipalNames
 $spns.Add("$spoappid/$spcn")
-Update-MgServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
+Update-MgServicePrincipal -ServicePrincipalId $msp.Id -ServicePrincipalNames $spns
 ```
 
 To validate that the SPN was set, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MgServicePrincipal -AppId $spoappid
+$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid'"
 $spns = $msp.ServicePrincipalNames
 $spns
 ```
