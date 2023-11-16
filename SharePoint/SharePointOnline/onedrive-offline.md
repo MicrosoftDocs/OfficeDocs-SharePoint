@@ -19,14 +19,15 @@ ms.collection:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-description: "Learn how you can work with OneDrive web app in offline mode."
+ROBOTS: NOINDEX, NOFOLLOW 
+description: "Learn how you can work with OneDrive web app in Offline mode."
 ---
 
 # Work with OneDrive web app when offline
 
 We know how important it is for you to access and work with your files on the web quickly and smoothly. That's why we built the next generation of OneDrive web app with performance as one of our main goals. We made sure that OneDrive delivers the best possible web experience for every user, regardless of the internet connection quality. In addition to that, you can now keep working with your files on OneDrive web app even when you're offline and have no internet access.
 
-On Windows 10 or later and macOS 12 Monterey or later for devices running the OneDrive sync app, you can now continue working with the OneDrive web app in your browser, OneDrive Progressive Web App (PWA), or Microsoft Teams even when you're offline or lose internet connection with the help of OneDrive offline mode. You can view, rename, move, copy all of your files, and create new folders. When your files are available for offline access, you can open them on your device in a native app directly from inside OneDrive web app. All the metadata changes you make offline to your files in the browser are automatically synced back to OneDrive when your internet connection is restored.
+On Windows 10 or later and macOS 12 Monterey or later devices running the OneDrive sync app, you can now continue working with the OneDrive web app in your browser, OneDrive Progressive Web App (PWA), or Microsoft Teams even when you're offline or lose internet connection with the help of OneDrive Offline mode. You can view, rename, move, copy all of your files, and create new folders. When your files are available for offline access, you can open them on your device in a native app directly from inside OneDrive web app. All the metadata changes you make offline to your files in the browser are automatically synced back to OneDrive when your internet connection is restored.
 
 To accomplish this, a copy of your file metadata that powers OneDrive web app is securely stored locally on your device. This data on your device is only available to you. If someone else was to sign in to your device, the local data on the device wouldn't be available to them. We adhere to privacy guidelines outlined in the [Microsoft Privacy Statement.](https://privacy.microsoft.com/privacystatement)
 
@@ -72,7 +73,7 @@ To resolve a conflict:
 
 3. Select **Turn off** to turn off Offline mode.
 
-1. In the confirmation dialog that appears, you can proceed with turning off offline mode or canceling.
+1. In the confirmation dialog that appears, you can proceed with turning off Offline mode or canceling.
     :::image type="content" source="media/onedrive-offline/onedrive-offline7.png" alt-text="Screenshot of confirmation dialog.":::
 
 After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
