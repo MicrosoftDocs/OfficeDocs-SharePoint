@@ -1,5 +1,5 @@
 ---
-title: Hardware and software requirements for SharePoint Server 2016
+title: Hardware and software requirements for SharePoint Server 2016 and 2017
 ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
@@ -20,7 +20,7 @@ ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016.
 ---
 
-# Hardware and software requirements for SharePoint Server 2016
+# Hardware and software requirements for SharePoint Server 2016 and 2017
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
