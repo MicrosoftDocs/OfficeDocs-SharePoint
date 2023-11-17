@@ -2,9 +2,9 @@
 ms.date: 08/21/2020
 title: Customize the SharePoint Success Site 
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

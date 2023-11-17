@@ -2,9 +2,9 @@
 ms.date: 09/19/2020
 title: "Information architecture models and examples"
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

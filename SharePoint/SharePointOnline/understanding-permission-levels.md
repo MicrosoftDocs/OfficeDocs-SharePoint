@@ -2,9 +2,9 @@
 ms.date: 10/15/2018
 title: "Understanding permission levels in SharePoint"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 ROBOTS: NOINDEX

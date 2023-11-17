@@ -2,9 +2,9 @@
 ms.date: 07/02/2021
 title: "Lists sync policies"
 ms.reviewer: andreye
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

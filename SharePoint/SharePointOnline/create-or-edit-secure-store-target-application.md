@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Create or edit a Secure Store Target Application"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

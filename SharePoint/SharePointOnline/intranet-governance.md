@@ -2,9 +2,9 @@
 ms.date: 01/27/2020
 title: "Planning intranet governance"
 ms.reviewer:
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

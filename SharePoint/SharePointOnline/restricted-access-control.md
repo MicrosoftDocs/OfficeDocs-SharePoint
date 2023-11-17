@@ -2,7 +2,7 @@
 ms.date: 10/11/2023
 title: "Restrict SharePoint site access to members of a group"
 ms.reviewer: nibandyo
-manager: serdars
+manager: jtremper
 recommendations: true 
 ms.author: mactra
 author: MachelleTranMSFT

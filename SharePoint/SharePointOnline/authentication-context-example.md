@@ -4,7 +4,7 @@ title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

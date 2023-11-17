@@ -2,7 +2,7 @@
 ms.date: 08/30/2023
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
-manager: serdars
+manager: jtremper
 recommendations: true 
 ms.author: mactra
 author: MachelleTranMSFT
