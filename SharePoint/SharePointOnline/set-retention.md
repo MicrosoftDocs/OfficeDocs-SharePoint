@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 11/17/2023
 title: "Set the OneDrive retention for deleted users"
 ms.reviewer: 
 ms.author: jhendr
