@@ -100,7 +100,7 @@ Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint
 $list = @()
 #Counters
 $i = 0
-
+$j = 0
 
 #Get licensed users
 $users = Get-MgUser -All | Where-Object { $_.islicensed -eq $true }
@@ -109,13 +109,15 @@ $count = $users.count
 
 foreach ($u in $users) {
     $i++
-    Write-Host "$i/$count"
+    $j++
+    Write-Host "$j/$count"
 
     $upn = $u.userprincipalname
     $list += $upn
 
     if ($i -eq 199) {
         #We reached the limit
+        Write-Host "Batch limit reached, requesting provision for the current batch"
         Request-SPOPersonalSite -UserEmails $list -NoWait
         Start-Sleep -Milliseconds 655
         $list = @()
@@ -126,6 +128,7 @@ foreach ($u in $users) {
 if ($i -gt 0) {
     Request-SPOPersonalSite -UserEmails $list -NoWait
 }
+Write-Host "Completed OneDrive Provisioning for $j users"
 ```
 
 ## Related topics
