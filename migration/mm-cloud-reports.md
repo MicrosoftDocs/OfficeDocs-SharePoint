@@ -19,7 +19,8 @@ mscollection:
 search.appverid: MET150
 description: "Learn about reports, errors, and status codes for cloud to cloud migrations using Migration Manager in Microsoft 365."
 ---
-# Migration Manager: Reports, errors & status codes for cloud migrations
+
+# Reports, errors & status codes for cloud migrations
 
 Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
