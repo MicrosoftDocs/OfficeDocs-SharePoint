@@ -1,9 +1,9 @@
 ---
 title: Allow or prevent custom script
 ms.reviewer: lucaband
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 08/09/2023
 audience: Admin

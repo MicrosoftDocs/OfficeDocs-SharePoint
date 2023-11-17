@@ -2,9 +2,9 @@
 ms.date: 09/12/2018
 title: "Deploy OneDrive apps using Intune"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

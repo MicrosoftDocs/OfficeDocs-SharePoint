@@ -2,9 +2,9 @@
 ms.date: 06/19/2020
 title: "Publish a content type"
 ms.reviewer: anfra
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

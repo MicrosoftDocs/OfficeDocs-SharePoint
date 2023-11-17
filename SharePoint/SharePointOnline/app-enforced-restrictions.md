@@ -2,9 +2,9 @@
 ms.date: 10/07/2020
 title: "Use app-enforced restrictions"
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

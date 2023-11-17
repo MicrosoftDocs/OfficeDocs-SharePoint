@@ -3,7 +3,7 @@ title: "Creating and launching a healthy SharePoint portal"
 ms.reviewer: andreye
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.date: 01/20/2023
 recommendations: true
 audience: ITPro

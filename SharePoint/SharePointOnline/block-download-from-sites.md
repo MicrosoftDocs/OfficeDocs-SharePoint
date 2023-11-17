@@ -4,7 +4,7 @@ title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
