@@ -1,9 +1,9 @@
 ---
 ms.date: 05/22/2019
 title: "Create an organization news site"
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -2,9 +2,9 @@
 ms.date: 04/29/2020
 title: "Set Files On-Demand states in Windows"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

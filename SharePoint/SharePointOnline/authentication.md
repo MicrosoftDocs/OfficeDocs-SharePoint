@@ -1,9 +1,9 @@
 ---
 title: "SharePoint authentication"
 ms.reviewer: 
-ms.author: kvice
-author: kelleyvice-msft
-manager: laurawi
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 6/21/2018
 audience: Admin

@@ -3,7 +3,7 @@ ms.date: 11/07/2023
 title: "Restrict OneDrive access by security group"
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
@@ -33,6 +33,8 @@ You can restrict access and sharing of OneDrive content to users in specified Mi
 OneDrive access restriction is applied when a user attempts to open a OneDrive or access a file. Users not members of the specified security group can still see files in search results if they have existing direct permissions to the file, but they won't be able to access the file if they're not part of the security specified group
 
 You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access and sharing to your users, preventing guests from accessing any OneDrive content even if the content was previously shared with them.
+
+Note that you can also restrict access to an individual user's OneDrive to people in a security group. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
 
 ## Requirements
 

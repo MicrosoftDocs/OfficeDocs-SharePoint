@@ -2,9 +2,9 @@
 ms.date: 02/22/2023
 title: "Change a site address"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

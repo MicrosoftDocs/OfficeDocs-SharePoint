@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Customize the SharePoint admin center site list"
 ms.reviewer: trgreen
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -2,9 +2,9 @@
 ms.date: 08/30/2023
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -33,9 +33,11 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 ## Advanced access policies for secure content collaboration
 
-**[Site access restriction for SharePoint sites](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group (for group-connected sites) or a security group (for non-group connected sites). Users who aren't in the specified groups won't have access to site content even if they previously had site access permissions or a file sharing link.
+**[Restrict SharePoint site access](restricted-access-control.md)** - You can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group (for group-connected sites) or a security group (for non-group connected sites). Users who aren't in the specified groups won't have access to site content even if they previously had site access permissions or a file sharing link.
 
-**[Restrict OneDrive access to a security group](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
+**[Restrict OneDrive content access](onedrive-site-access-restriction.md)** - You can limit access to shared content in a user's OneDrive to people in a security group. The OneDrive access restriction policy prevents anyone who is not in the security group from accessing content in that OneDrive even if it's shared with them.
+
+**[Restrict OneDrive service access](limit-access.md)** - You can limit OneDrive access to members of a specific security group if you want to allow only certain users to have access. Even if other users outside of these security groups are licensed for OneDrive, they won't have access to their own OneDrive or any shared OneDrive content.
 
 **[Data access governance reports for SharePoint sites](data-access-governance-reports.md)** - These reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 

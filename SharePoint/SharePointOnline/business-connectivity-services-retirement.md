@@ -2,9 +2,9 @@
 ms.date: 10/04/2023
 title: Business Connectivity Services (BCS) retirement in Microsoft 365
 ms.reviewer: troys
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

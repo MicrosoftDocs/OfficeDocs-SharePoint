@@ -2,9 +2,9 @@
 ms.date: 09/19/2018
 title: Guide to the modern experience in SharePoint
 ms.reviewer: 
-ms.author: loreenl
-author: loreenla
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
