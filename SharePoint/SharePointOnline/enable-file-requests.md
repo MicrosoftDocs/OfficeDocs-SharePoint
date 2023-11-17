@@ -34,6 +34,7 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 > - You're using OneDrive for work or school accounts.
 > - Your admin has [enabled **Anyone** links for SharePoint](/sharepoint/turn-external-sharing-on-or-off).
 > - Your admin has configured the **View, edit, and upload** permission for **Anyone** links as described in [Advanced settings for **Anyone** links](/sharepoint/turn-external-sharing-on-or-off#advanced-settings-for-anyone-links).
+> - Your admin hasn't configured [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](manage-security-groups.md).
 > - This feature is not available for Office 365 operated by 21Vianet, OneDrive for home, or Office 365 Germany.
 
 > [!NOTE]
