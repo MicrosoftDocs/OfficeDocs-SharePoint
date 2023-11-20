@@ -2,6 +2,16 @@
 
 
 
+## Week of November 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2023 | [OneDrive webapp in offline mode](/SharePoint/onedrive-offline) | added |
+| 11/16/2023 | [Restrict access to a user's OneDrive content to people in a group](/SharePoint/onedrive-site-access-restriction) | added |
+| 11/17/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | modified |
+
+
 ## Week of November 06, 2023
 
 
