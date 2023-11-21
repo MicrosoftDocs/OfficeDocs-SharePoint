@@ -26,7 +26,7 @@ additionalContent:
     - title: For IT Professionals # < 60 chars (optional)
       items:
         # Card
-        - title: SharePoint and OneDrive in Microsoft 365
+        - title: SharePoint in Microsoft 365
           summary: Find resources for managing SharePoint and OneDrive in your Microsoft 365 environment.
           url: /sharepoint/introduction
         # Card
