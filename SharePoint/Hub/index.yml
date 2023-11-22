@@ -1,19 +1,19 @@
 ### YamlMime:Hub
 
-title: SharePoint and OneDrive documentation # < 60 chars
+title: SharePoint documentation # < 60 chars
 summary: SharePoint documentation for IT professionals and admins # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
 brand: sharepoint
 
 metadata:
-  title: SharePoint and OneDrive documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: SharePoint and OneDrive documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
+  title: SharePoint documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: SharePoint documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
   ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   audience: ITPro
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  ms.date: 03/17/2023 #Required; mm/dd/yyyy format.
+  ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
   ms.custom: intro-hub-or-landing
   ms.collection: essentials-hub-or-landing
@@ -54,16 +54,26 @@ additionalContent:
         # Card
         - title: Developers
           summary: Guidance for developing solutions for SharePoint.
-          url: /sharepoint/dev
+          links:
+            - text: SharePoint developer documentation
+              url: /sharepoint/dev
+            - text: SharePoint API references
+              url: /sharepoint/dev/sp-add-ins/sharepoint-net-server-csom-jsom-and-rest-api-index
         # Card
         - title: SharePoint users
           summary: Find help, training, and technical support for your SharePoint users.
           url: https://support.office.com/sharepoint
         # Card
-        - title: OneDrive users
-          summary: Find help, training, and technical support for your OneDrive users.
-          url: https://support.office.com/onedrive
-        # Card
         - title: Microsoft 365 Community Content
           summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.
           url: /microsoft-365/community/
+    - title: More resources on Learn
+      items:
+        # Card
+        - title: SharePoint answers
+          summary: Find questions and answers tagged with SharePoint in Microsoft Q&A
+          url: /answers/tags/235/office-sp
+        # Card
+        - title: SharePoint training
+          summary: Find training modules, learning paths, and courses about SharePoint
+          url: /training/browse/?expanded=office&terms=sharepoint
