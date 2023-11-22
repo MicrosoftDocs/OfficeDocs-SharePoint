@@ -152,6 +152,3 @@ You can also free up space on your computer by making offline files online-only.
 
 When compared to OneDrive sync app, bandwidth consumed by Offline mode is minimal, and largely depends on the size of your OneDrive and how frequently your OneDrive files are modified. When setting up Offline mode for the first time, a local copy of your file metadata is downloaded and securely stored on your computer. The actual contents of your files won't be downloaded. After Offline mode is set up, only changes to your file metadata will result in upload or download activity over the network.
 
-### Troubleshooting Offline mode issues
-
-- For troubleshooting common Offline mode issues, check out Common issues when using Offline mode in OneDrive for Web.
