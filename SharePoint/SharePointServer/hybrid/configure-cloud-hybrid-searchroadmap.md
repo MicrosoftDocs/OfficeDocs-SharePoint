@@ -175,8 +175,11 @@ On the application server that hosts the SharePoint Server Central Administratio
 5. If your environment is Microsoft 365 Apps for business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
    ```powershell
-   Import-Module Microsoft.Graph.Applications #For service principals
-   Import-Module Microsoft.Graph.Identity.DirectoryManagement #For fetching organization details
+   #For service principals
+   Import-Module Microsoft.Graph.Applications
+
+   #For fetching organization details
+   Import-Module Microsoft.Graph.Identity.DirectoryManagement
    ```
 
    ```powershell
