@@ -2,6 +2,16 @@
 
 
 
+## Week of November 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/21/2023 | [SharePoint documentation # < 60 chars](/SharePoint/index) | modified |
+| 11/22/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
+| 11/22/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
+
+
 ## Week of November 13, 2023
 
 
