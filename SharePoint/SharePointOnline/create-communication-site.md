@@ -2,9 +2,9 @@
 ms.date: 06/28/2021
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
-ms.author: evanatkin
-author: AtkinE
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

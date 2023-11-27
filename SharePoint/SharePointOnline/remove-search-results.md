@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Remove search results"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: End User
 f1.keywords:

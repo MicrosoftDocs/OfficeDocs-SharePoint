@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan External List"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 12/6/2017
@@ -10,8 +10,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 ms.assetid: de809b30-8e4d-4223-b47e-81912d617dd1
 ms.collection:

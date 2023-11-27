@@ -2,9 +2,9 @@
 ms.date: 02/04/2019
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,10 +29,10 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync".
 
-Azure Active Directory (Azure AD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
+Microsoft Entra guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
 > [!IMPORTANT]
-> We recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
+> We recommend that you enable [SharePoint and OneDrive integration with Microsoft Entra B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Microsoft Entra guest account for the share recipient is created in your organization's directory.
 
 ## B2B Sync requirements
 
@@ -41,8 +41,8 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
-- Sharing recipients must have a Microsoft 365 work or school account (in Azure AD) in the same cloud as the content tenant - Microsoft Azure Commercial, Microsoft Azure Government, or Microsoft Azure China. (Note that Microsoft Azure Commercial contains the Microsoft 365 commercial and GCC cloud environments, and Microsoft Azure Government contains the GCC High and DoD cloud environments.)
-- Any Azure AD conditional access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
+- Sharing recipients must have a Microsoft 365 work or school account (in Microsoft Entra ID) in the same cloud as the content tenant - Microsoft Azure Commercial, Microsoft Azure Government, or Microsoft Azure China. (Note that Microsoft Azure Commercial contains the Microsoft 365 commercial and GCC cloud environments, and Microsoft Azure Government contains the GCC High and DoD cloud environments.)
+- Any Microsoft Entra Conditional Access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
 - ADAL must not be enabled if using builds before 19.086.*.
 
 This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
@@ -63,7 +63,7 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 
     ![A sharing invitation email](media/sharing-invitation.png)
 
-2. When the recipient clicks the link in the email to go to the shared item, they need to click "Organizational account" to sign in with their Fabrikam account. Behind the scenes, this creates the Contoso guest account in Azure AD.
+2. When the recipient clicks the link in the email to go to the shared item, they need to click "Organizational account" to sign in with their Fabrikam account. Behind the scenes, this creates the Contoso guest account in Microsoft Entra ID.
 
     ![Accepting an invitation](media/accept-invitation.png)
 
@@ -124,7 +124,9 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 
 3. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
 
-## Ensure any Azure AD Conditional Access (CA) policies are compatible with external access
+<a name='ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access'></a>
+
+## Ensure any Microsoft Entra Conditional Access (CA) policies are compatible with external access
 
 The tenant admin can enable several kinds of conditional access policies at their tenant. When a guest is going to access a tenant's content, those policies may need to be adjusted for the guests so they can gain access.
 
@@ -153,11 +155,11 @@ Sites and folders can be shared in different ways in SharePoint and OneDrive:
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
 - For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps).
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link), or when they share with people who have a Microsoft account or other personal account.
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has a Microsoft Entra account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link), or when they share with people who have a Microsoft account or other personal account.
 
 ### Add guests to SharePoint sites
 
-As an admin in Microsoft 365, you can share with people outside the organization by [creating guests individually in the Azure AD admin center](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), and then adding them to a SharePoint team site individually or by adding them to a security group that already has permissions to the site you want to share. If you grant permissions by using the advanced permissions page (instead of by using the Share site button), you'll need to inform the guest that you've given them permission to the site. They won't receive an invitation email.
+As an admin in Microsoft 365, you can share with people outside the organization by [creating guests individually in the Microsoft Entra admin center](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), and then adding them to a SharePoint team site individually or by adding them to a security group that already has permissions to the site you want to share. If you grant permissions by using the advanced permissions page (instead of by using the Share site button), you'll need to inform the guest that you've given them permission to the site. They won't receive an invitation email.
 
 > [!IMPORTANT]
 > If you use the advanced permissions page, we recommend granting permissions at the site level, not at the document library or folder level.
@@ -166,7 +168,7 @@ As an admin in Microsoft 365, you can share with people outside the organization
 
 If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma-separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
 
-As users are added to the Azure AD Group, they should receive an email welcoming them to the group. After running the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
+As users are added to the Microsoft Entra group, they should receive an email welcoming them to the group. After running the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
 
 ![Accepting a sharing invitation](media/accept-invitation-message.png)
 

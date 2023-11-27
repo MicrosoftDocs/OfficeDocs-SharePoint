@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Restore a deleted OneDrive"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -93,5 +93,6 @@ Remove-SPODeletedSite -Identity <URL>
   
 ## See also
 
-[OneDrive retention and deletion](retention-and-deletion.md)
+[OneDrive retention and deletion](retention-and-deletion.md)</br>
+[Manage site redirects](manage-site-redirects.md)
 

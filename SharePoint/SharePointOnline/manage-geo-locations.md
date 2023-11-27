@@ -2,10 +2,10 @@
 ms.date: 06/26/2020
 title: "Manage geo locations in the new SharePoint admin center"
 ms.reviewer: kaarins
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jhendr
+author: JoanneHendrickson
 audience: Admin
 f1.keywords:
 - CSH

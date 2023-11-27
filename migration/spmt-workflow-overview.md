@@ -2,16 +2,15 @@
 ms.date: 12/02/2021
 title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration

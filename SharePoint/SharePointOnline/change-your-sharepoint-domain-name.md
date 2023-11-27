@@ -2,9 +2,9 @@
 ms.date: 08/09/2023
 title: "Change your SharePoint domain name"
 ms.reviewer: anfra
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -83,6 +83,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Delve | It can take 24 hours before People profiles can be viewed. | None |
 | eDiscovery | Holds can't be removed until you update the URLs. | In the Microsoft Purview compliance portal, change the eDiscovery hold URLs to the new domain name. |
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
+| Microsoft 365 Archive | Archived sites will not be renamed. | Reactivate archived sites before the rename. <br>Avoid archiving any sites during the rename. |
 | Microsoft Forms | Forms that have the option to upload attachments in responses won't work. | Remove the upload button and add it again in the form. |
 | Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if necessary change the URL of the save location. |
 | OneDrive | The Quick access links in OneDrive and SharePoint won't work. | No action is available.  |
@@ -96,7 +97,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Project Pro | The app won't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts. |
 | SharePoint 2013 workflows | Workflows that are “in flight” won't complete and will be orphaned. <br> New 2013 Workflow instances can't be initiated. <br>Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. |
 | SharePoint 2013 workflows | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
-| SharePoint add-ins | Add-ins might not function as expected. | The add-ins might need to be republished. <br>Review the App configuration settings in Azure AD for the add-in and update any URLs to the new domain name. <br> For SPFx applications, in Azure AD update the Authentication URLs to the new domain for the SharePoint Online Client Extensibility Web Application Principal. |
+| SharePoint add-ins | Add-ins might not function as expected. | The add-ins might need to be republished. <br>Review the App configuration settings in Microsoft Entra ID for the add-in and update any URLs to the new domain name. <br> For SPFx applications, in Microsoft Entra ID update the Authentication URLs to the new domain for the SharePoint Online Client Extensibility Web Application Principal. |
 | SharePoint hub sites | Sites registered as hub sites won't work. | Unregister and register the affected sites as hub sites in the SharePoint admin center after the rename. |
 | SharePoint web parts | Some web parts may not function as expected. | The web parts may rely on direct URL references. Update the web parts with the new URLs. |
 | Site customizations and embedded code | Absolute URLs embedded in SharePoint customizations aren't updated. | Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name. |
@@ -148,7 +149,7 @@ Since this is a part of SharePoint Advanced Management, participants will need t
 
     -or-
 
-    If you own the domain for another subscription, you need to [delete that tenant in Azure AD](/azure/active-directory/enterprise-users/directory-delete-howto). Deleting a tenant typically takes three days to complete and to make the domain available. 
+    If you own the domain for another subscription, you need to [delete that tenant in Microsoft Entra ID](/azure/active-directory/enterprise-users/directory-delete-howto). Deleting a tenant typically takes three days to complete and to make the domain available. 
 
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
@@ -156,7 +157,7 @@ Since this is a part of SharePoint Advanced Management, participants will need t
 2. Go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
 
     > [!IMPORTANT]
-    > You must use the link [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) to go to the Custom domain names page in the Azure AD admin center. If you browse to the page instead of using the link, you won't be able to add your custom onmicrosoft.com domain successfully.
+    > You must use the link [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) to go to the Custom domain names page in the Microsoft Entra admin center. If you browse to the page instead of using the link, you won't be able to add your custom onmicrosoft.com domain successfully.
 
 3. Select **Add custom domain**.
 
@@ -241,4 +242,3 @@ To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [Mo
 
 - [Frequently asked questions](/sharepoint/troubleshoot/administration/domain-rename-faq)
 - [Errors and how to fix them](/sharepoint/troubleshoot/administration/errors-when-renaming)
-

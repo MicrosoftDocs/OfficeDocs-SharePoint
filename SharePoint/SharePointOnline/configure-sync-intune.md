@@ -2,9 +2,9 @@
 ms.date: 06/12/2020
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

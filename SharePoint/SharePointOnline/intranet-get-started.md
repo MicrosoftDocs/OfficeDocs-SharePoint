@@ -2,9 +2,9 @@
 ms.date: 01/14/2020
 title: "Get started planning your intranet"
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ms.topic: article

@@ -1,10 +1,10 @@
 ---
 title: "View diagnostic logs in SharePoint Server"
-ms.reviewer: 
+ms.reviewer: WeselyFive
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 3/12/2018
+ms.date: 10/18/2023
 audience: ITPro
 f1.keywords:
 - NOCSH

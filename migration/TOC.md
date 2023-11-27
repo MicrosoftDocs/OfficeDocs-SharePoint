@@ -46,7 +46,6 @@
 #### [Step 2: Scan and assess (for site migration only)](spmt-scan.md)
 #### [Step 3: Create a migration task](spmt-create-task.md)
 #### [Step 4: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-
 ### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
@@ -58,6 +57,9 @@
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Unsupported files](mm-unsupported-files.md)
+### [Project settings](mm-project-settings.md)
+#### [Permissions](mm-project-settings-permissions.md)
+#### [Google sheet scan settings](mm-google-sheet-scan.md)
 ### [Migration time estimator](mm-time-estimator.md)
 ### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
@@ -152,9 +154,10 @@
 #### [Workflow Running Solutions 2013](migration-assessment-scan-workflow-running-solutions-2013.md)
 ### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
 #### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
-#### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
+#### [Microsoft Entra Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 #### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
-## SPMT Migration Scenario Guides
+## Migration Scenario Guides
+### [Migrating file shares to OneDrive, Teams, and SharePoint](fileshare-to-odsp-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)

@@ -2,9 +2,9 @@
 ms.date: 04/27/2023
 title: Set up OneDrive in Citrix Virtual Apps
 ms.reviewer: gacarini
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -75,4 +75,4 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 1. Silently configure user accounts. See [Silently configure user accounts](use-silent-account-configuration.md).
 
     > [!NOTE]
-    > Silent sign-in should work if your machine is connected to Azure Active Directory. Make sure to turn off this setting if your computer is not Azure AD-joined.
+    > Silent sign-in should work if your machine is connected to Microsoft Entra ID. Make sure to turn off this setting if your computer is not Microsoft Entra joined.

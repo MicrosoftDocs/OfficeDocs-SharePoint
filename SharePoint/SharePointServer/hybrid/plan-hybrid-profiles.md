@@ -44,7 +44,7 @@ Profile redirection works as follows:
 ## Moving custom profile properties to Microsoft 365
 <a name="MovingProfileData"> </a>
 
-Many enterprises have business requirements to replicate custom attributes to the SharePoint in Microsoft 365 user profile service. Some user attributes are synchronized from Active Directory Domain Services to Azure Active Directory. You can select which attributes are replicated from Active Directory Directory Services to Azure Active Directory. However, a standard set of attributes are replicated from Azure Active Directory to the SharePoint in Microsoft 365 user profile store in Microsoft 365. This set of attributes cannot be customized like it can in SharePoint Server.
+Many enterprises have business requirements to replicate custom attributes to the SharePoint in Microsoft 365 user profile service. Some user attributes are synchronized from Active Directory Domain Services to Microsoft Entra ID. You can select which attributes are replicated from Active Directory Directory Services to Microsoft Entra ID. However, a standard set of attributes are replicated from Microsoft Entra ID to the SharePoint in Microsoft 365 user profile store in Microsoft 365. This set of attributes cannot be customized like it can in SharePoint Server.
   
 Where in SharePoint Server you might use Business Connectivity Services or Microsoft Identity Manager to import custom profile properties that are not located in Active Directory Directory Services, SharePoint in Microsoft 365 does not support these solutions. For custom properties in SharePoint in Microsoft 365, a user profile bulk update API is available.
   

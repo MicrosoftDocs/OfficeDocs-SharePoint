@@ -1,10 +1,10 @@
 ---
 ms.date: 08/30/2023
 title: "Data access governance reports for SharePoint sites"
-ms.reviewer: daminasy
+ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -32,7 +32,7 @@ As sprawl and oversharing of SharePoint sites increase with exponential
 
 ## Requirements
 
-This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+This feature requires Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management.
 
 ## Access the reports in the SharePoint admin center
 
@@ -66,6 +66,8 @@ When a report is ready, select it to view the data. Each sharing link report inc
 - Up to 100 sites with highest number of [sharing links](modern-experience-sharing-permissions.md) created in the last 30 days.
 - The policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 - The primary admin for each site.
+
+Note that the reports don't include OneDrive data.
 
 ### Download the reports
 

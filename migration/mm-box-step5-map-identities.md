@@ -2,15 +2,14 @@
 ms.date: 08/03/2023
 title: "Step 5: Map Box identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MachelleTranMSFT
+ms.author: mactra
 manager: serdars
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares

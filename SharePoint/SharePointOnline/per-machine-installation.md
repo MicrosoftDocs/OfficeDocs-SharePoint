@@ -2,9 +2,9 @@
 ms.date: 03/15/2019
 title: Install the sync app per-machine (Windows)
 ms.reviewer: gacarini
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
