@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Set up a new term set"
 ms.reviewer: shrganguly
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

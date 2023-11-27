@@ -2,16 +2,15 @@
 ms.date: 09/20/2018
 title: "Migrate your file share content to SharePoint using the Azure Data Box"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 search.appverid: MET150
 ms.collection: 
 - IT_Sharepoint_Server_Top

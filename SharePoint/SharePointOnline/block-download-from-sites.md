@@ -4,7 +4,7 @@ title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -28,7 +28,7 @@ description: Learn how administrators can block download of files from a SharePo
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature does not need  Azure Active Directory conditional access policies. This feature can be set for individual sites and cannot be set at the organization level.
+As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature does not need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and cannot be set at the organization level.
 
 Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users will see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help contact your It department."
 
@@ -36,7 +36,7 @@ Note that you can block the download of Teams meeting recording files specifical
 
 ## Requirements
 
-This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+This feature requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
 
 ## How to set this policy for a SharePoint site
 
@@ -73,12 +73,12 @@ Set-Label -Identity 'Internal' -AdvancedSettings @{ExcludedBlockDownloadGroupIds
 
 ## App impact
 
-Blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
+Blocking download might impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
 
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
 >
-> If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser.
+> If you're using classic SharePoint site templates, site images might not render correctly. This is because the policy prevents the original image files from being downloaded to the browser.
 
 ## Need more help?
 

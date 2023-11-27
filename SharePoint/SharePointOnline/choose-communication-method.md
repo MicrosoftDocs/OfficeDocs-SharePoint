@@ -2,9 +2,9 @@
 ms.date: 07/26/2021
 title: "Choose a communication method"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ms.topic: article
@@ -28,7 +28,7 @@ Now that you understand the communication tools available and how to determine y
 
 | Icon     | Scenario                 | Goal          | Requirements          | Optional apps and tools         |
 | :------------------:|:------------------- |:----------------|:----------------|:----------------|
-| ![Icon of two people talking.](media/chat-room.png) | **Use Viva Connections** | Create personalized employee experiences using Viva Connections and different Viva modules in Teams. <br> <br> [Learn more about Viva Connections.](guide-to-setting-up-viva-connections.md)            |Microsoft Teams, SharePoint, SharePoint home site, Global navigation enabled, Viva Connections          |Viva Engage, Viva Learning, Viva Insights, Viva Topics            |
+| ![Icon of two people talking.](media/chat-room.png) | **Use Viva Connections** | Create personalized employee experiences using Viva Connections and different Viva modules in Teams. <br> <br> [Learn more about Viva Connections.](guide-to-setting-up-viva-connections.md)            |Microsoft Teams, SharePoint, SharePoint home site, Global navigation enabled, Viva Connections          |Viva Engage, Viva Learning, Viva Insights, Topics            |
 |![Icon of a house.](media/icon-build-home.png) |**Get a home site for your intranet**   | Take your intranet to the next level by creating a home site that expands the search experiences, prioritizes organizational news, and enables Viva Connections integration. <br> <br> [Learn more about SharePoint home sites.](home-site-plan.md)      |SharePoint           |Microsoft Teams, Viva Engage, Stream           |
 |![Icon of a mega phone.](media/icon-launch-engage.png) | **Hold a town hall**   |Bring large portions, or your entire organization, together to share essential information and resources through live or pre-recorded events. <br> <br> [Learn more about town halls.](hold-town-hall-using-yammer.md)            |Microsoft Teams and/or Viva Engage            |SharePoint, Stream           |
 | ![Icon of a newspaper.](media/icon-news.png)    | **Distribute organizational news**  | Use SharePoint news to create engaging news post that can be shared in across SharePoint, Outlook, Teams, and Viva Engage. <br> <br> [Learn more about organizational news.](distribute-corporate-news-to-your-organization.md)          |SharePoint            | Microsoft Teams, Viva Engage, Outlook            |        

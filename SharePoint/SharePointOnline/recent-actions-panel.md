@@ -1,8 +1,8 @@
 ---
-ms.date: 08/30/2023
-title: "Review recent SharePoint site actions"
+ms.date: 10/11/2023
+title: "Review recent SharePoint administrator site actions"
 ms.reviewer: daminasy
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.author: mactra
 author: MachelleTranMSFT
@@ -19,7 +19,7 @@ ms.collection:
 - Tier1
 description: "Learn how to review recent admin actions in SharePoint admin center."
 ---
-# Review recent SharePoint site actions
+# Review recent SharePoint administrator site actions
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -32,11 +32,11 @@ The recent actions panel only shows the changes you make to site properties. Cha
 :::image type="content" source="media/RAC_panel.png" alt-text="Screenshot of Recent admin actions panel":::
 
 > [!NOTE]
-> Recent actions panel is not available for global readers. GDAP administrators will not be able to see the previous and current values of the administrator actions.
+> Recent actions panel is not available for global readers. [GDAP administrators](/partner-center/gdap-introduction) won't be able to see the previous and current values of the administrator actions.
 
 ## Requirements
 
-The following **premium** features require [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+The following features require [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
 
 - Review the last 30 actions made within the last 30 days in the recent actions panel.
 - View more details such as previous and current value of the settings changed and directly access the site details panel to review the change.
@@ -59,7 +59,7 @@ The following **premium** features require [Microsoft Syntex - SharePoint Advanc
 
 ## Bulk site edits
 
-Here’s an example of how bulk edits are grouped as one action in the recent actions panel:
+Here's an example of how bulk edits are grouped as one action in the recent actions panel:
 
 You deleted 4 SharePoint sites on May 21 at 12:10 AM. The bulk edit shows as one item named Deleted 4 sites on the recent actions panel. Select the Deleted 4 sites action and the list of deleted SharePoint sites appear.
 

@@ -2,16 +2,15 @@
 ms.date: 01/07/2019
 title: "Migrate from My Sites to OneDrive in Office 365"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server_Top
@@ -66,7 +65,7 @@ The [SharePoint Migration Assessment Tool (SMAT)](./overview-of-the-sharepoint-m
 
 After the scan is complete, SMAT generates summary and detailed reports that identify areas that could affect your migration.
 
-SMAT includes the SharePoint Migration Identity Management Tool, which does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.
+SMAT includes the SharePoint Migration Identity Management Tool, which does identity mapping by scanning SharePoint, Active Directory, and Microsoft Entra ID.
 
 SMAT scans many areas. The following table shows common areas of concern when migrating from My Sites. Your environment isn't affected when SMAT performs its scan.
 
@@ -85,7 +84,7 @@ SMAT scans many areas. The following table shows common areas of concern when mi
 
 Before you migrate your My Sites content, you must pre-provision your users in OneDrive:
 
-- [Prepare to provision users through directory synchronization to Microsoft 365](https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e). Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Microsoft 365. These additions ensure that your on-premises Active Directory synchronizes properly to Azure Active Directory.
+- [Prepare to provision users through directory synchronization to Microsoft 365](https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e). Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Microsoft 365. These additions ensure that your on-premises Active Directory synchronizes properly to Microsoft Entra ID.
 
 - [Pre-provision OneDrive for users in your organization](https://support.office.com/article/ceef6623-f54f-404d-8ee3-3ce1e338db07).
 By default, the first time that a user browses to their OneDrive, it's automatically provisioned for them. In some cases, such as when your organization plans to migrate from your on-premises My Sites, you'll want your users' OneDrive locations ready beforehand (pre-provisioned).
@@ -152,4 +151,3 @@ The following articles can help your users "make the switch" from My Sites to On
 ## Advanced support
 
 Your enterprise may have specific business needs that require you to use third-party services or applications to help with your migration to Microsoft 365. Explore the professional services and applications available from partners in the [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
-

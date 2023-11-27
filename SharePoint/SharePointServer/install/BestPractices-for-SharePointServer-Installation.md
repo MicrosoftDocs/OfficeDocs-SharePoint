@@ -87,9 +87,8 @@ If a portion of your sites are already in the cloud, or if you intend on moving 
 
 - Use Microsoft 365 Groups and Power Automate.   Retire the use of email, Site mailboxes, or Mobile Accounts (SMS/Text Messaging)
 
-- Solutions that intercept and/or modify the HTTP pipeline you could use Azure Conditional Access Policies by fronting the farm by using the Azure AD App Proxy. For more information on how to use AD FS, see [Access Control Policies in Windows Server 2016 AD FS](/windows-server/identity/ad-fs/operations/access-control-policies-in-ad-fs).
+- Solutions that intercept and/or modify the HTTP pipeline you could use Azure Conditional Access Policies by fronting the farm by using the Microsoft Entra application proxy. For more information on how to use AD FS, see [Access Control Policies in Windows Server 2016 AD FS](/windows-server/identity/ad-fs/operations/access-control-policies-in-ad-fs).
 
 - Implement only the necessary Web Application Policies, such as self-service site creation, Object Cache, and Search Crawler accounts, but try to avoid further usage of Web Application Policies as they are not available in SharePoint.
 
 - For security purposes, phase out the use of anonymous SharePoint Server sites.  Also note that anonymous site access is not available in SharePoint in Microsoft 365.
-

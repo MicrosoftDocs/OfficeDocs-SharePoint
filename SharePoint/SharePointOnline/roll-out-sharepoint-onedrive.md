@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Roll out SharePoint and OneDrive
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

@@ -2,15 +2,14 @@
 ms.date: 08/11/2023
 title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
@@ -74,9 +73,12 @@ Make sure that you have:
 
 ## What isn't migrated
 
-### Google Drawings, Forms, Sites, and Maps
+### Google Drawings, Sites, and Maps
 
-Google doesn't allow us to export Drawings, Forms, Sites, and Maps from Drive. These aren't migrated.
+Google doesn't allow us to export Drawings, Sites, and Maps from Drive. These aren't migrated.
+
+>[!Note]
+>Google Forms are now supported.
 
 ### Docs, Slides, and Sheets
 
@@ -95,7 +97,7 @@ Google's proprietary formats aren't compatible with anything other than a Google
 
 ### File size of Google proprietary files
 
-Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 won't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 

@@ -2,15 +2,14 @@
 ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Egnyte migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection:
 - m365solution-migratefileshares

@@ -2,9 +2,9 @@
 ms.date: 06/18/2020
 title: "Add columns to a content type"
 ms.reviewer: shrganguly
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

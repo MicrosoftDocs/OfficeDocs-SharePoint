@@ -2,9 +2,9 @@
 ms.date: 07/06/2021
 title: "Custom list templates"
 ms.reviewer: hasaladi
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
