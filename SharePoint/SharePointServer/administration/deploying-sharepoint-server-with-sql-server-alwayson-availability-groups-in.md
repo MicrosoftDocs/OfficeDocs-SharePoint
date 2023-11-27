@@ -91,7 +91,7 @@ You deploy this SharePoint Server farm with the following phases:
     Create and configure replica Windows Server Active Directory (AD) domain controllers
     
     > [!NOTE]
-    > SharePoint Server also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+    > SharePoint Server also supports the use of [Microsoft Entra Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
 - [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](./sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md)
     

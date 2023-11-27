@@ -2,9 +2,9 @@
 ms.date: 11/10/2020
 title: "Planning considerations for a global intranet"
 ms.reviewer:
-ms.author: loreenl
-author: LoreenLa
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

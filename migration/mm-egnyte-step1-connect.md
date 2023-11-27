@@ -2,15 +2,14 @@
 ms.date: 10/05/2021
 title: "Step 1: Connect to Egnyte"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MachelleTranMSFT
+ms.author: mactra
 manager: serdars
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares

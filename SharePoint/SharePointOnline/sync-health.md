@@ -2,9 +2,9 @@
 ms.date: 04/27/2021
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,8 +1,8 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint List templates"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 ms.date: 5/9/2018
@@ -10,8 +10,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - Strat_SP_gtc

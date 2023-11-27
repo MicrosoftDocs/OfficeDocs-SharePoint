@@ -1,9 +1,9 @@
 ---
 title: "Change settings for the Search Navigation Web Part"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 6/29/2018
 audience: Admin

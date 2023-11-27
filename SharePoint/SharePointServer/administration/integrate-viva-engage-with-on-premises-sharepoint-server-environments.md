@@ -25,9 +25,9 @@ Before you integrate Viva Engage into your SharePoint Server  environment, you s
 - Viva Engage networks, groups, and users, and how they combine to create a foundation for providing you with a rich Viva Engage experience within SharePoint. For more information, see [Viva Engage networks, groups, and users overview](viva-engage-networks-groups-and-users-overview.md).
 - Directory synchronization and enforcing Microsoft 365 identity in Viva Engage. By using directory synchronization, your organization can use existing on-premises user accounts. Your organization can also significantly reduce operational costs and give its employees safer and easier access to Viva Engage. 
   
-    Microsoft 365 uses Azure Active Directory for identity management, and Viva Engage can be set up to enforce Microsoft 365 identity so that users only have to sign on once to access both SharePoint and Viva Engage content. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+    Microsoft 365 uses Microsoft Entra ID for identity management, and Viva Engage can be set up to enforce Microsoft 365 identity so that users only have to sign on once to access both SharePoint and Viva Engage content. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Microsoft Entra ID by using Microsoft Entra Connect. 
   
-    For more info, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization), [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity), and [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity)
+    For more info, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization), [Integrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/hybrid/whatis-hybrid-identity), and [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity)
     
 ## Add Viva Engage to the navigation for SharePoint 
 

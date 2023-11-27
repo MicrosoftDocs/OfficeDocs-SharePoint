@@ -2,16 +2,15 @@
 ms.date: 02/27/2023
 title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top

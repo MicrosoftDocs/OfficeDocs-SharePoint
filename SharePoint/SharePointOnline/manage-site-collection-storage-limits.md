@@ -2,9 +2,9 @@
 ms.date: 06/21/2023
 title: Manage site storage limits in SharePoint in Microsoft 365
 ms.reviewer: trgreen
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

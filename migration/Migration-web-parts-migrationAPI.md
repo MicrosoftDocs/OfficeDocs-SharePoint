@@ -2,16 +2,15 @@
 ms.date: 03/14/2019
 title: "Migrating web parts using the Migration API"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: serdars
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 search.appverid: MET150
 msCollection: 
