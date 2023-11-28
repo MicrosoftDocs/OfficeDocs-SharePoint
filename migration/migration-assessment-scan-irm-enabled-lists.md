@@ -3,15 +3,14 @@ title: "Migration Assessment Scan IRM Enabled Lists"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -35,7 +34,7 @@ Information Rights Management (IRM) is a feature that lets you encrypt content w
   
 There are two main components to the IRM migration process:
   
-- Configure the target environment to support Microsoft Azure Active Directory Rights Management.  
+- Configure the target environment to support Microsoft Entra Rights Management.  
 - Disable IRM on the source and target SharePoint libraries. This is required as the migration tooling will access the files in the same manner as a user. If IRM is enabled on the source, the migration tooling will receive an encrypted file and upload that encrypted file to the target environment. This results in a file that can no longer be opened successfully.
     
 ## Data Migration

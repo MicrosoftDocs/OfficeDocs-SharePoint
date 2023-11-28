@@ -4,13 +4,12 @@ title: "Step 5: Map Dropbox identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares

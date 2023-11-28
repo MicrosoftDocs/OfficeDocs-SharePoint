@@ -2,9 +2,9 @@
 ms.date: 09/11/2021
 title: "Associate a hub site to another hub site in the SharePoint admin center"
 ms.reviewer:
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

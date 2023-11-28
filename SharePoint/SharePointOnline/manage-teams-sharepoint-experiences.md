@@ -2,9 +2,9 @@
 ms.date: 12/20/2021
 title: Manage settings and permissions when SharePoint and Teams are integrated
 ms.reviewer: 
-ms.author: evanatkin
-author: AtkinE
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

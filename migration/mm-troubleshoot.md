@@ -4,14 +4,13 @@ title: "Troubleshooting Migration Manager"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server_Top
@@ -253,7 +252,7 @@ SharePoint admin roles that were created as a result of joining an Azure group a
 
 ## The site collection "XXXX" can't be created or updated
 
-The User Principal Name (UPN) referenced is invalid. In order to create or update a OneDrive site collection, Azure Active Directory must contain the referenced UPN. Check your destination URL and validate that the user exists in Azure AD.
+The User Principal Name (UPN) referenced is invalid. In order to create or update a OneDrive site collection, Microsoft Entra ID must contain the referenced UPN. Check your destination URL and validate that the user exists in Microsoft Entra ID.
 
 ## Scan task stuck in "queued" status
 
@@ -334,4 +333,3 @@ The User Principal Name (UPN) referenced is invalid. In order to create or updat
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
-

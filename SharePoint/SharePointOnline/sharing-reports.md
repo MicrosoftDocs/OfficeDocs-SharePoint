@@ -4,7 +4,7 @@ title: "Report on sharing"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords:

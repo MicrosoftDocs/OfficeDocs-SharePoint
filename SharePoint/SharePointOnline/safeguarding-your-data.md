@@ -1,10 +1,10 @@
 ---
 title: "Cloud data security measures in SharePoint & OneDrive"
 ms.reviewer: mswann
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jhendr
+author: JoanneHendrickson
 ms.date: 5/25/2018
 audience: Admin
 f1.keywords:
@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-accountability
 ms.custom:
 - seo-marvel-mar2020
 search.appverid:
@@ -41,7 +42,7 @@ One of the most important things you can do to safeguard your data is to require
   
 Other things we recommend to increase security: 
   
-- Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
+- Use Microsoft Entra device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
 
 - Create policies to sign users out of Microsoft 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
 
@@ -102,9 +103,9 @@ The Microsoft 365 "Red Team" within Microsoft is made up of intrusion specialist
   
 To monitor and observe activity in your Microsoft 365 subscription:
   
-- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Microsoft 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP, and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For info, see [Overview of Microsoft 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
+- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Microsoft 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Microsoft Entra ID, DLP, and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For info, see [Overview of Microsoft 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     
-- Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more info, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
+- Use Microsoft Entra ID Protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more info, see [Microsoft Entra ID Protection](/azure/active-directory/identity-protection/overview).
     
 - Use Secure Score to evaluate the security profile of your subscription against a known good baseline, and identify opportunities to increase protection. For more info, see [Microsoft Secure Score](/microsoft-365/security/mtp/microsoft-secure-score-new?preserve-view=true&view=o365-worldwide).
     

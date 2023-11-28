@@ -2,9 +2,9 @@
 ms.date: 09/23/2021
 title: Build Learning and Training Experiences for Employees
 ms.reviewer:
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -2,9 +2,9 @@
 ms.date: 03/01/2021
 title: "Control notifications in the SharePoint mobile app"
 ms.reviewer: shahna
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

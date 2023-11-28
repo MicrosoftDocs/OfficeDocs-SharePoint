@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "OneDrive retention and deletion"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -52,13 +52,13 @@ By default, when a user is deleted, the user's manager is automatically given ac
 
 4. Next to **My Site Cleanup**, make sure **Enable access delegation** is selected.
 
-5. We recommend that you also specify a secondary owner account in the **My Site Cleanup** section. This account will be the appointed owner of the OneDrive if the user's manager isn't set in Azure AD. Email notifications will also be sent to the secondary owner account when the value is populated.
+5. We recommend that you also specify a secondary owner account in the **My Site Cleanup** section. This account will be the appointed owner of the OneDrive if the user's manager isn't set in Microsoft Entra ID. Email notifications will also be sent to the secondary owner account when the value is populated.
 
 6. Select **OK**.
   
 ## The OneDrive deletion process
 
-The OneDrive retention period for cleanup of OneDrive begins when a user account is deleted from Azure Active Directory. No other action will cause the cleanup process to occur, including blocking the user from signing in or removing the user's license. For info about removing a user's license, see [Remove licenses from users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/remove-licenses-from-users).
+The OneDrive retention period for cleanup of OneDrive begins when a user account is deleted from Microsoft Entra ID. No other action will cause the cleanup process to occur, including blocking the user from signing in or removing the user's license. For info about removing a user's license, see [Remove licenses from users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/remove-licenses-from-users).
 
 The OneDrive deletion process works as follows:
 
@@ -66,9 +66,9 @@ The OneDrive deletion process works as follows:
 
 2. The account deletion is synchronized to SharePoint.
 
-3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the PowerShell cmdlet `SetSPOTenant -OrphanedPersonalSitesRetentionPeriod <int32>`. For more information about using this cmdlet, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
+3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the PowerShell cmdlet `Set-SPOTenant -OrphanedPersonalSitesRetentionPeriod <int32>`. For more information about using this cmdlet, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
 
-4. If a manager is specified for the deleted user, the manager will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the OneDrive retention period. For info about specifying a user's manager in the Azure Active Directory admin center, see [Add or update a user's profile information](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+4. If a manager is specified for the deleted user, the manager will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the OneDrive retention period. For info about specifying a user's manager in the Microsoft Entra admin center, see [Add or update a user's profile information](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
     If a manager isn't specified for the user account, but a secondary owner was entered in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, the secondary owner will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the retention period.
 
@@ -80,4 +80,3 @@ The OneDrive deletion process works as follows:
     > The Recycle Bin is not indexed and therefore searches do not find content there. This means that an eDiscovery hold can't locate any content in the Recycle Bin in order to hold it. 
   
 Microsoft 365 retention settings from [retention policies and retention labels](/microsoft-365/compliance/retention) always take precedence to the standard OneDrive deletion process, so content included for OneDrive retention could be deleted before 30 days or retained for longer than the OneDrive retention period. Likewise, if a OneDrive is put on hold as part of an eDiscovery case, managers and secondary owners will be sent email about the pending OneDrive deletion, but the OneDrive won't be deleted until the hold is removed. <br>
-

@@ -1,10 +1,10 @@
 ---
 title: "Account permissions and security settings in SharePoint Servers"
-ms.reviewer: 
+ms.reviewer: wesleywu
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 9/8/2017
+ms.date: 10/26/2023
 audience: ITPro
 f1.keywords:
 - NOCSH

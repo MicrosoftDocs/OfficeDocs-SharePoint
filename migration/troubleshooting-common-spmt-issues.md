@@ -1,17 +1,16 @@
 ---
-ms.date: 01/22/2019
+ms.date: 11/03/2023
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -104,6 +103,7 @@ This article describes common issues and errors you may encounter when using the
 |0x01610001|The Azure container is expired. Retry migration task.| 
 |0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for Server Processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
+|0x0131000D|Could not get all list item versions; tool sends request to fetch item versions, but nothing is returned. This error can occur when the download link is different between the common file and .aspx file. This case is fixed in 4.x version.|
 |0x0131000F|Failed to Read the file. File is checked out.|
 |0x0111000A|Scan File Failure: File size exceeds limit. See [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md) for current limits.|
 
@@ -139,5 +139,4 @@ This article describes common issues and errors you may encounter when using the
 | Migration failed due to invalid XML definition |The XsltListView web part and ListView web part contain an XML definition that is critical for the migration of these web parts. Sometimes the XML definition is invalid because of upgrading issues or server errors.|Delete the failed web part from the SharePoint Server source page. Re-add it and try the migration again.|
 | Migration failed due to invalid assembly name |The assembly name of the web part is critical for SPMT to migrate the web part. If the assembly of the web part can't be parsed from its SOAP response, the migration fails. |Check whether this web part is a supported "out-of-the box" (OOTB) web part. If it's supported, file a bug and we'll investigate. However, if the web part is a third-party web part, it isn't supported. |
 |Migration failed due to web part connection failure. |The web part is connected to another web part that failed to migrate, causing both to fail. |Make sure the connected web part is migrated successfully. Retry your migration.|
-|Migration failed due to unable to map user |If the User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint site. This error occurs when SPMT can't map to the user. |Confirm that Azure Active Directory is used to sync all on-premises users to SharePoint.|
-
+|Migration failed due to unable to map user |If the User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint site. This error occurs when SPMT can't map to the user. |Confirm that Microsoft Entra ID is used to sync all on-premises users to SharePoint.|

@@ -3,15 +3,14 @@ title: "Migration Assessment Scan Large List Views"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -31,11 +30,11 @@ Learn how to mitigate issues with Large List Views during migration.
   
 ## Overview
 
-It is possible to configure list view throttling on the source environment, so there are a set number of hours per day where the throttle on views is lifted. The stated product list limits are in place continuously (24x7) on the target platform. This may result in some of your list views being throttled.
+It's possible to configure list view throttling on the source environment, so there are a set number of hours per day where the throttle on views is lifted. The stated product list limits are in place continuously (24x7) on the target platform. This can result in some of your list views being throttled.
   
 ## Data Migration
 
-The lists and their data will be migrated. List views called out in the scan report may not be viewable post-migration without performing the remediation documented in the following section, **Preparing for Migration**. Any list views containing over 12 lookup columns may also be throttled and require remediation. To learn more, see [Designing large lists and maximizing list performance.](/previous-versions/office/sharepoint-server-2010/cc262813(v=office.14)).
+The lists and their data are migrated. List views called out in the scan report aren't viewable post-migration without performing the remediation documented in the following section, **Preparing for Migration**. Any list views containing over 12 lookup columns can also be throttled and require remediation. To learn more, see [Designing large lists and maximizing list performance.](/previous-versions/office/sharepoint-server-2010/cc262813(v=office.14)).
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -50,7 +49,7 @@ Ensure the lists that you remediated are rendering correctly.
   
 ## Scan Result Reports
 
- **FileName: LargeListViews-detail.csv** This scan report contains list views that were either throttled, or will potentially be throttled in the near future once you migrate to the new platform. The report contains list views that meet one of the following criteria: 
+ **FileName: LargeListViews-detail.csv** This scan report contains list views that were either throttled, or will potentially soon be throttled once you migrate to the new platform. The report contains list views that meet one of the following criteria: 
   
 - Returned greater than 3,000 items.
     
@@ -73,8 +72,8 @@ Ensure the lists that you remediated are rendering correctly.
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If usage logging service is disabled, this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If usage logging service is disabled, this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |LookupColumnCount  <br/> ||
 |ListViewTitle  <br/> |The title of the impacted list view.  <br/> |
@@ -89,7 +88,7 @@ Ensure the lists that you remediated are rendering correctly.
 |ListURL  <br/> |Url to the root folder of the list.  <br/> |
 |ListItemCount  <br/> |Number of items in the list.  <br/> |
 |ListTemplate  <br/> |Template used when creating the list.  <br/> |
-|ListType  <br/> |The type of list configured.  <br/> |
+|ListType  <br/> |The type of list is configured.  <br/> |
 |ListCreator  <br/> |User that created the list.  <br/> |
 |ItemLastModifiedDate  <br/> |Date/Time an item was last modified on the list.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |

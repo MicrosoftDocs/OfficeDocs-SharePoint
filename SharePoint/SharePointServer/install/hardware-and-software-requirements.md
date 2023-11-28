@@ -41,7 +41,7 @@ For a stretched farm architecture to work as a supported high-availability solut
 To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.
 
 > [!NOTE]
-> The intra-farm latency of \<1 ms one way, 99.9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
+> The intra-farm latency of \<1 ms one way, 99.9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed - in this case - should also be at least 1 gigabit per second.
 
 ## Hardware requirements: SharePoint server installations
 <a name="hwforwebserver"> </a>
@@ -50,7 +50,7 @@ The following table lists minimum hardware requirements for installing and runni
 
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
+For information about hardware and software requirements for Microsoft SQL Server, see [Hardware and Software Requirements for Installing SQL Server 2016 and 2017](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
 
 |Installation scenario|Deployment type and scale|RAM|Processor|Hard disk space|
 |---|---|---|---|---|
@@ -74,7 +74,7 @@ The requirements in the following section apply to the following installations:
 - Server farm with multiple servers in the farm
 
 > [!NOTE]
-> Before you run the SharePoint prerequisite installer on Windows Server 2012 R2, you need to install [Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014](https://support.microsoft.com/kb/2919355). The SharePoint prerequisite installer does not install this update for you.
+> Before you run the SharePoint prerequisite installer on Windows Server 2012 R2, you need to install [Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014](https://support.microsoft.com/kb/2919355). The SharePoint prerequisite installer doesn't install this update for you.
 
 > [!NOTE]
 > SharePoint Server 2016 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831724(v=ws.11)) and [Resilient File System](/windows/win32/w8cookbook/resilient-file-system--refs-)
@@ -83,7 +83,7 @@ The requirements in the following section apply to the following installations:
 > SharePoint Server 2016 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](/windows-server/identity/ad-ds/active-directory-functional-levels).
 
 > [!IMPORTANT]
-> SharePoint Server 2016 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains).
+> SharePoint Server 2016 doesn't support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains).
 
 The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint Server 2016. Ensure that you have an Internet connection because some prerequisites are installed from the Internet.
 
@@ -103,10 +103,10 @@ One of the following:
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle.
 
 > [!NOTE]
-> To take advantage of any BI scenarios, you must have the latest Powerview and PowerPivot add-ins for Microsoft SQL Server 2016 RTM. To download the PowerPivot add-ins see, [Microsoft® SQL Server® 2016 PowerPivot® for Microsoft SharePoint® 2016](https://go.microsoft.com/fwlink/?LinkID=716860)
+> To take advantage of any BI scenarios, you must have the latest Powerview and PowerPivot add-ins for Microsoft SQL Server 2016 RTM. To download the PowerPivot add-ins, see [Microsoft® SQL Server® 2016 PowerPivot® for Microsoft SharePoint® 2016](https://go.microsoft.com/fwlink/?LinkID=716860).
 
 > [!NOTE]
-> SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
+> SQL Server Express isn't supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
 
 One of the following server operating systems:
 
@@ -127,10 +127,10 @@ One of the following server operating systems:
 - Windows Server 2019 Standard or Datacenter
 
 > [!NOTE]
-> Installing the Office 2016 client and SharePoint Server 2016 on the same computer is not supported.
+> Installing the Office 2016 client and SharePoint Server 2016 on the same computer isn't supported.
 
 > [!NOTE]
-> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016 and Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](/windows-server/get-started/semi-annual-channel-overview)
+> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016 and Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](/windows-server/get-started/semi-annual-channel-overview).
 
 > [!NOTE]
 > SharePoint Server 2016 supports Windows Server 2019 starting with the [Security Update for Microsoft SharePoint Enterprise Server 2016 (KB4011244)](https://support.microsoft.com/help/4011244/descriptionofthesecurityupdateforsharepointserver2016november14-2017), also known as the November 2017 Public Update for SharePoint Server 2016.  This update (or a newer Public Update for SharePoint Server 2016) must be installed before you can create a new SharePoint farm or join a server to an existing SharePoint farm using Windows Server 2019.
@@ -144,6 +144,9 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Microsoft .NET Framework version 3.5
 
 - Microsoft .NET Framework version 4.6
+
+  > [!IMPORTANT]
+  > Starting April 26, 2022, the .NET Framework team no longer supports .NET Framework 4.6. We recommend you upgrade to [.NET Framework 4.6.2 or higher](https://go.microsoft.com/fwlink/?LinkId=722763) to remain supported.
 
 - Microsoft SQL Server 2012 Service Pack 1 Native Client
 
@@ -175,7 +178,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 ## Optional software supported in SharePoint Server 2016
 <a name="OptionalSoftware"> </a>
 
-The optional software in this section is supported but is not required to install or use SharePoint Server 2016. This software might be required by capabilities such as business intelligence.
+The optional software in this section is supported but isn't required to install or use SharePoint Server 2016. This software might be required by capabilities such as business intelligence.
 
 |Environment|Optional software|
 |---|---|
@@ -184,9 +187,9 @@ The optional software in this section is supported but is not required to instal
 ## Links to applicable software
 <a name="section5"> </a>
 
-To install Windows Server 2012 R2, SQL Server 2014 Service Pack 1 (SP1) , or SharePoint Server 2016, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2016 Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role and the Application Server role in Server Manager.
+To install Windows Server 2012 R2, SQL Server 2014 Service Pack 1 (SP1), or SharePoint Server 2016, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2016 Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role and the Application Server role in Server Manager.
 
-In scenarios where installing prerequisites directly from the Internet is not possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
+In scenarios where installing prerequisites directly from the Internet isn't possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
 
 - [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=851069)
 
@@ -198,21 +201,21 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Office 365 Enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-office-365-plans)
 
-- [Microsoft SQL Server 2014 Service Pack 1 (SP1)](https://go.microsoft.com/fwlink/p/?LinkId=618406)
+- [Microsoft SQL Server 2016](https://go.microsoft.com/fwlink/p/?LinkId=618406)
 
-- [Microsoft .NET Framework version 4.6](https://go.microsoft.com/fwlink/?LinkId=722763)
+- [.NET Framework 4.6.2](https://go.microsoft.com/fwlink/?LinkId=722763)
 
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
 
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
 
-- [Microsoft SQL Server 2012 Service Pack 1 (SP1) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://go.microsoft.com/fwlink/p/?LinkId=618409)
+- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client](https://go.microsoft.com/fwlink/?LinkId=622997)
 
 - [Microsoft ODBC Driver 11 for SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=618410)
 
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
 
-- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)
+- [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=235496)
 
 - [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/kb/3092423)
 
@@ -229,7 +232,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>
 
-The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) installs the following software, if it has not already been installed on the target server, in the following order:
+The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) installs the following software, if it hasn't already been installed on the target server, in the following order:
 
 1. Application Server Role, Web Server (IIS) Role
 
@@ -255,15 +258,15 @@ The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) in
 
 12. Visual C++ Redistributable Package for Visual Studio 2015
 
-You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
+You can run `prerequisiteinstaller.exe` at a command prompt with the following options. When you run `prerequisiteinstaller.exe` at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the `/continue` option.
 
 - `/?` displays command-line options.
 
-- `/continue` is used to tell the installer that it is continuing from being restarted.
+- `/continue` is used to tell the installer that it's continuing from being restarted.
 
 - `/unattended` indicates no user interaction.
 
-The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
+The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you don't specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option doesn't apply to the current operating system, it's ignored.
 
 - **/SQLNCli:< _file_>** Install Microsoft SQL Server 2012 SP1 Native Client from <  _file_>.
 
