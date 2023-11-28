@@ -2,7 +2,7 @@
 title: "Migration Assessment Scan Email Enabled Lists"
 ms.reviewer:
 ms.author: mactra
-author: MachelleTranMSFT
+author: JoanneHendrickson
 manager: serdars
 recommendations: true
 ms.date: 9/12/2017
