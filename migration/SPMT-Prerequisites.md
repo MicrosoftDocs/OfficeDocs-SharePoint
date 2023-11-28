@@ -2,9 +2,9 @@
 ms.date: 01/17/2019
 title: "Prerequisites and Endpoints for SharePoint Migration Tool"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

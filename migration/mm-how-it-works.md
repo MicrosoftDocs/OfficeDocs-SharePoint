@@ -1,9 +1,9 @@
 ---
 ms.date: 10/05/2020
 title: How does Migration Manager work for file share migrations
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

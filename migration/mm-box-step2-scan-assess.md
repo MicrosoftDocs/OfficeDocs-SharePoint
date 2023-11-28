@@ -2,9 +2,9 @@
 ms.date: 08/03/2023
 title: "Step 2: Scan and assess Box accounts using Migration Manager"
 ms.reviewer:
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -2,9 +2,9 @@
 ms.date: 10/31/2019
 title: "Migration Manager FAQs"
 ms.reviewer: 
-ms.author: mactra
+ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

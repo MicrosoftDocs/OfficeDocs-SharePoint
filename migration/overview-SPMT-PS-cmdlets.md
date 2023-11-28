@@ -3,9 +3,9 @@ ms.date: 06/19/2018
 title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
 audience:  ITPro
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 f1.keywords:
 - NOCSH

@@ -2,9 +2,9 @@
 ms.date: 03/28/2019
 title: "Migrate managed metadata by using SPMT"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
