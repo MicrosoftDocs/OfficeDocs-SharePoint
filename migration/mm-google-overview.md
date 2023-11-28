@@ -73,12 +73,12 @@ Make sure that you have:
 
 ## What isn't migrated
 
-### Google Drawings, Sites, and Maps
+Google doesn't allow us to export these items from Drive:
 
-Google doesn't allow us to export Drawings, Sites, and Maps from Drive. These aren't migrated.
-
->[!Note]
->Google Forms are now supported.
+- Google Drawings
+- Google Sites
+- Google Maps
+- Google Forms
 
 ### Docs, Slides, and Sheets
 
