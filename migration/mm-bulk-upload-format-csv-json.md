@@ -3,7 +3,7 @@ ms.date: 03/13/2018
 title: "Bulk upload tasks into Migration Manager using a CSV or JSON file"
 ms.reviewer: 
 ms.author: mactra
-author: MachelleTranMSFT
+author: JoanneHendrickson
 manager: serdars
 recommendations: true
 audience: ITPro

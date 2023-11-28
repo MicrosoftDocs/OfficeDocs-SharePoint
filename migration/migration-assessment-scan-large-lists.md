@@ -2,7 +2,7 @@
 title: "Migration Assessment Scan Large Lists"
 ms.reviewer: 
 ms.author: mactra
-author: MachelleTranMSFT
+author: JoanneHendrickson
 manager: serdars
 recommendations: true
 ms.date: 11/23/2017

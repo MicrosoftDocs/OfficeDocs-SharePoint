@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan List Items with Audience Targeting"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 7/23/2018
 audience: ITPro

@@ -2,9 +2,9 @@
 ms.date: 04/29/2021
 title: "Content Migration solutions posters"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
