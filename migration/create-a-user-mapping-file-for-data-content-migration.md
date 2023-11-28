@@ -1,9 +1,9 @@
 ---
 title: "Create a user-mapping file for data content migration"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 08/12/2020
 audience: ITPro

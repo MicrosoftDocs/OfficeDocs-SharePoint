@@ -2,9 +2,9 @@
 ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Egnyte migration"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
