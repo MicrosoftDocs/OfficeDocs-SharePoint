@@ -24,19 +24,19 @@ description: Review your destination paths for your Google migration while using
 ---
 # Step 4: Review destination paths in Migration Manager Google
 
-In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
+In this step, review the destination paths of the accounts that you moved to the migrations list, making sure they're correct. An account can't be migrated without a destination indicated. Once you start migrating content to a destination, it can't be modified.
 
 ## Single destination edit
 
 If a destination is missing on a single user, highlight the row and update the value. 
 
-1. Highlight the row, a panel will display. Under **Destination**, select **Edit.**
+1. Highlight the row, a panel displays. Under **Destination**, select **Edit.**
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination. Depending on your selection:
 
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
     - For SharePoint, enter the site URL and location
     - For Teams, select the team and the channel
-    - For Forms, enter the site URL and locatino
+    - For Forms, enter the site URL and location
 
 3. Select **Save path**.
 
@@ -50,12 +50,12 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
-3. The destinations will be validated upon uploading. </br>
+3. The destinations are validated upon uploading. </br>
 
   >[!Note]
   >The validation process may take a while and can be skipped. However, we strongly recommend you complete the validation. You can always open another browser tab to continue Migration Manager operations.</br>
 
-4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
+4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then reupload the fixed destinations to pass the validation.
 5. Select **Save**.  
 
 >[!Important]
