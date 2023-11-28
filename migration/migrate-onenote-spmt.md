@@ -1,9 +1,9 @@
 ---
 ms.date: 01/15/2020
 title: Migrating OneNote folders with the SharePoint Migration Tool (SPMT)
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

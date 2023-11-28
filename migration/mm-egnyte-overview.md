@@ -2,9 +2,9 @@
 ms.date: 08/11/2023
 title: "Overview: Migrate Egnyte using Migration Manager"
 ms.reviewer: jhendr
-author: MachelleTranMSFT
-ms.author: mactra
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH

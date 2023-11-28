@@ -1,9 +1,9 @@
 ---
 title: "Create a user-mapping file for Migration Manager"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 09/22/2020
 audience: ITPro

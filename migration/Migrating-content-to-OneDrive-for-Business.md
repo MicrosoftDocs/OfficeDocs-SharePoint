@@ -2,9 +2,9 @@
 ms.date: 10/18/2018
 title: "Migrate content to OneDrive in Microsoft 365"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

@@ -2,9 +2,9 @@
 ms.date: 08/18/2021
 title: "Step 3: Copy to migrations for file share migration"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

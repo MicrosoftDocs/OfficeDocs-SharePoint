@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan Customized Profile Pages"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 5/17/2017
 audience: ITPro

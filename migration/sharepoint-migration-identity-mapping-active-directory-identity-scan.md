@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan"
 description: "Learn about the SharePoint Migration Identity Mapping: Microsoft Entra Identity Scan."
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 01/5/2018
 audience: ITPro

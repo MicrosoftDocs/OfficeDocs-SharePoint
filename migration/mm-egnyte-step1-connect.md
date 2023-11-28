@@ -2,9 +2,9 @@
 ms.date: 10/05/2021
 title: "Step 1: Connect to Egnyte"
 ms.reviewer: jhendr
-author: MachelleTranMSFT
-ms.author: mactra
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH

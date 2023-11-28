@@ -2,9 +2,9 @@
 ms.date: 11/09/2022
 title: "SharePoint Migration Tool assessment risk errors "
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

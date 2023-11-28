@@ -2,9 +2,9 @@
 ms.date: 08/07/2023
 title: "Review the destination paths for your Egnyte migration with Migration Manager"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

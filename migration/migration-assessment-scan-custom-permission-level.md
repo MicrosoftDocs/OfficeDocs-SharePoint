@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan Custom Permission Level"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 12/14/2017
 audience: ITPro

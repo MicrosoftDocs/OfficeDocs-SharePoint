@@ -1,9 +1,9 @@
 ---
 ms.date: 08/07/2023
 title: "Step 4 - Monitor and reporting status of your SPMT migration tasks"
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
