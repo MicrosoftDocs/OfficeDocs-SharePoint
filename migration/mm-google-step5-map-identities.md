@@ -69,11 +69,6 @@ We recommend the following steps when migrating permissions in your shared drive
 - Recreate a Microsoft 365 group with the same memberships as the Google Drive group. You can either create a new group or edit the group linked to the Team site designated as the migration destination for the Google Shared Drive.
 - In the 'Map Identities' setting, map the original Google Drive group of the shared drive to the Microsoft 365 group.
 
->[!Important]
->We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
->
->Google Shared Drives don't allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
-
 
 ## Go to [**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
 
