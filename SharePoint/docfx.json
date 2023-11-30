@@ -69,7 +69,7 @@
     "externalReference": [],
     "markdownEngineName": "markdig",    
     "globalMetadata": {
-      "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
+      "breadcrumb_path": "/sharepoint/hub/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-SharePoint",
       "contributors_to_exclude": [
         "dstrome",
