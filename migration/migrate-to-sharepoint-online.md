@@ -30,23 +30,34 @@ description: "This article helps you understand which tool to use when migrating
 
 Moving to Microsoft 365? **Migration Manager** helps you migrate your content easily and securely.
 
-
 ### Announcing the new Migration Admin role
 
 >[!Note]
->A preview rollout for this feature will start in late December 2023, with full availability by mid-January 2024.
+>This feature is currenlty in public preview, with full availability by mid-January 2024.
 
-A new Microsoft 365 Migration Administrator role has been created to provide access to only Migration Manager within the Microsoft 365 Admin Center. Currently, companies must assign their migration team with either SharePoint admin or Global admin role, giving them more access than needed. With this new role you can limit usage to only what is needed to migrate your content, keeping the more comprehensive access roles for only those who need it.
+A new Microsoft 365 Migration Administrator role has been created to provide access to Migration Manager within the Microsoft 365 Admin Center. Currently, companies must assign their migration team the SharePoint admin role, giving them more access than needed. With this new role you can limit usage to only what is needed to migrate your content, keeping more comprehensive access to only those who need it.
+
+>[!Important]
+>This role doesn't allow access to Migration Manager from the SharePoint admin center. Continue to use the SharePoint Administrator role to migrate from network file shares.
+
+In addition, this role provides all the functionality required to migrate including the ability to:
+
+- Access Migration Manager to migrate from Google Drive, Dropbox, Box and Egnyte
+- Select migration sources, create migration inventories (such as Google Drive user lists), schedule and execute migrations, and download reports
+- Create new SharePoint sites if the destination sites don't already exist, create SharePoint lists under the SharePoint admin sites, and create and update items in SharePoint lists
+- Manage migration project settings and migration lifecycle for tasks
+- Manage permission mappings from source to destination
 
 To use this feature, you must create a new user in the Microsoft 365 admin center, then assign them the Migration Administrator role. This role allows access to only to Migration Manager.
-This role isn’t required, and you may continue to use Migration Manager as you currently do today.  Your projects will continue to work and won’t be impacted. 
+This role isn’t required, and you can continue to use Migration Manager as you currently do today.  Your projects will continue to work normally. 
 
 
-### What's new and coming soon to [Migration Manager](mm-whats-new.md).
 
-### What's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+#### What's new and coming soon to [Migration Manager](mm-whats-new.md).
 
-### Mover retirement
+#### What's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+
+#### Mover retirement
 
 **Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte is fully integrated into Migration Manager. All FastTrack-led migrations have transitioned to Migration Manager. Migration Manager doesn't support the migration of Amazon S3 or Azure blob storage.
 
