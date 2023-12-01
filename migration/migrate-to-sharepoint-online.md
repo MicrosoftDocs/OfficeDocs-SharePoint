@@ -49,13 +49,15 @@ In addition, this role provides all the functionality required to migrate includ
 - Manage permission mappings from source to destination
 
 To use this feature, you must create a new user in the Microsoft 365 admin center, then assign them the Migration Administrator role. This role allows access to only to Migration Manager.
-This role isn’t required, and you can continue to use Migration Manager as you currently do today.  Your projects will continue to work normally. 
+
+TYou can continue to use Migration Manager as you currently do today.  Your projects will continue to work normally.
 
 
+## What's new
 
-#### What's new and coming soon to [Migration Manager](mm-whats-new.md).
+- What's new and coming soon to [Migration Manager](mm-whats-new.md).
 
-#### What's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+- What's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 #### Mover retirement
 
