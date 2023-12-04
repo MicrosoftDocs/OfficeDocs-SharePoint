@@ -2,6 +2,22 @@
 
 
 
+## Week of November 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/28/2023 | [Migration Assessment Scan Large List Views](/SharepointMigration/migration-assessment-scan-large-list-views) | modified |
+| 11/28/2023 | [Migration Assessment Scan Large Lists](/SharepointMigration/migration-assessment-scan-large-lists) | modified |
+| 11/28/2023 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
+| 11/28/2023 | [Review the destination paths for your Dropbox migration with Migration Manager](/SharepointMigration/mm-dropbox-step4-review-destinations) | modified |
+| 11/28/2023 | [Review the destination paths for your Egnyte migration with Migration Manager](/SharepointMigration/mm-egnyte-step4-review-destinations) | modified |
+| 11/28/2023 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
+| 11/28/2023 | [Review the destination paths for your Google migration with Migration Manager](/SharepointMigration/mm-google-step4-review-destinations) | modified |
+| 11/29/2023 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
+| 11/29/2023 | [Step 5: Map Google identities with Migration Manager](/SharepointMigration/mm-google-step5-map-identities) | modified |
+
+
 ## Week of November 13, 2023
 
 

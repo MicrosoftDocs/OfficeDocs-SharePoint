@@ -2,6 +2,14 @@
 
 
 
+## Week of November 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/27/2023 | [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements) | modified |
+
+
 ## Week of November 20, 2023
 
 
