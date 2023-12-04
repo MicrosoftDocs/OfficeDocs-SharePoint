@@ -54,7 +54,7 @@ Answer:  No. Currently, this role isn't supported for file share migrations. Con
 **Question:** Can I assign this role to an existing user account?</br>
 Answer:  No. You must create a new user account from the Microsoft 365 admin center and then assign the role.
 
-**Question:**  I created a new user account in the Microsoft Admin Center, and assigned the Migration Admin role. Does this new account have access existing projects?</br>
+**Question:**  I created a new user account in the Microsoft Admin Center, and assigned it the Migration Admin role. Does this new account have access existing projects?</br>
 Answer:  Yes, provided you access Migration Manager from the Microsoft Admin Center, not the SharePoint admin center.
 </br>
 
