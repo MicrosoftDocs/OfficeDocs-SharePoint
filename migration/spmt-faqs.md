@@ -30,7 +30,7 @@ Answer:  No. SPMT can migrate content from SharePoint on-premises Server, but no
 Answer: You need to install SPMT on physically different Windows computers or virtual machines. Then create bulk migration jobs on each SPMT instance, and then run them in parallel to achieve the maximum migration throughput. If you want to reach high throughput by orchestrating migration jobs automatically, use Migration Manager. 
 
 **Question:** Where are local Migration Manager logs stored?</br>
-Answer: The logs are stored here: **C:\Users\<Username>\AppData\Roaming\Microsoft\MigrationTool**
+Answer: The logs are stored here: *C:\Users\<Username>\AppData\Roaming\Microsoft\MigrationTool*
 
 **Question:** Is Migration Manager available for Government clouds?</br>
 Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-install-issues#government-cloud-support)
