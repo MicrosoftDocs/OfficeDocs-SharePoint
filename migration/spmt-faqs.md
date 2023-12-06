@@ -23,14 +23,14 @@ description: "Learn more about what is frequently asked about the SharePoint Mig
 # Frequently asked questions:  SharePoint Migration tool (SPMT)
 
 
-**Question:** Can the SharePoint Migration tool (SPMT) migrate content from one SharePoint tenant to another SharePoint tenant?
+**Question:** Can the SharePoint Migration tool (SPMT) migrate content from one SharePoint tenant to another SharePoint tenant?</br>
 Answer:  No. SPMT can migrate content from SharePoint on-premises Server, but not from another SharePoint Online tenant. However, a cross-tenant migration solution for SharePoint and OneDrive is available. Learn more at [Cross-tenant OneDrive migration](/microsoft-365/enterprise/cross-tenant-onedrive-migration).
 
-**Question:** How can I use SPMT to migrate a large amount of data to Microsoft 365?
+**Question:** How can I use SPMT to migrate a large amount of data to Microsoft 365?</br>
 Answer: You need to install SPMT on physically different Windows computers or virtual machines. Then create bulk migration jobs on each SPMT instance, and then run them in parallel to achieve the maximum migration throughput. If you want to reach high throughput by orchestrating migration jobs automatically, use Migration Manager. 
 
-**Question:** Where are local Migration Manager logs stored?
+**Question:** Where are local Migration Manager logs stored?</br>
 Answer: The logs are stored here: **C:\Users\<Username>\AppData\Roaming\Microsoft\MigrationTool**
 
-**Question:** Is Migration Manager available for Government clouds?
-Answer: Yes. Here's how you configure it: [Government cloud settings](spmt-install-issues#government-cloud-support)
+**Question:** Is Migration Manager available for Government clouds?</br>
+Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-install-issues#government-cloud-support)
