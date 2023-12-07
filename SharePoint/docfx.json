@@ -91,9 +91,8 @@
         "American-Dipper"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
-      "feedback_product_url": "https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472",
+      "feedback_system": "Standard",
+            "feedback_product_url": "https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472",
       "recommendations": true
     },
     "fileMetadata": {
