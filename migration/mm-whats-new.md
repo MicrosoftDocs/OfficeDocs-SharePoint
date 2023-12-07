@@ -1,5 +1,5 @@
 ---
-ms.date: 10/31/2023
+ms.date: 12/07/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
@@ -28,11 +28,21 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-## Coming soon
 
-- **Scan/Migration status update.** Improve task status to organize drives better.
-- **Pre-migration estimator.** Get an estimated migration time before project creation.
-- **Destination validation.** Destination paths are validated during bulk destination upload.
+## Coming soon
+- **Identity mapping capacity.** Improvements to identity mapping capacity to better support larger migrations.
+- **Recent action refinement.** Enhancements to the “Recent action” functionality including prompts to provide an easier report download experience.
+- **Migration Admin role.**  A new admin role designed for cloud migration scenarios.
+
+## November 2023
+- **Destination validation.** Destination paths are now validated automatically during the bulk destination upload process. A validation report is provided to let fix issues that have been identified. Note:  While the validation step is optional, we don’t recommend that it be skipped.
+- **Shared drive permission.** Google Shared Drive permissions are now migrated by default according to what you have set in permission settings.
+
+## October 2023
+- **Scan/Migration status update.** Improvements have been made to let you to organize the status of drives better. For guidance on different task statuses, see: [Migration Manager status codes](/sharepointmigration/mm-cloud-reports.md#status-codes)
+- **Migration time estimator.** Get an estimated migration time before connecting to a migration source. The migration time estimator is located at the top right corner of the project page.
+- **Report improvements.** Report fields and failure reasons are polished to provide a more readable and consistent reporting experience. 
+
 
 ## September 2023
 
