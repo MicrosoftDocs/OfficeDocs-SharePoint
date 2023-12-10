@@ -2,6 +2,15 @@
 
 
 
+## Week of December 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/6/2023 | [SharePoint Migration tool FAQs](/SharepointMigration/spmt-faqs) | added |
+| 12/7/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
 ## Week of November 27, 2023
 
 
