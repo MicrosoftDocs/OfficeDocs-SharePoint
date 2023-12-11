@@ -137,9 +137,7 @@ The limited preview can currently only support tenants meeting the following con
 - Your organization does not use government clouds, including GCC, GCC High and DoD.
 - Your organization does not use vanity domain configurations.
 
-If you are interested in participating in the preview, and meet the above conditions, please [sign up here](https://aka.ms/ODSPSecurityPreviews). Make sure to include all of the requested information, and indicate your interest in "**Advanced tenant rename (SPO domain name changes due to rebranding, M&A, tenant consolidation)**".
-
-Responding to the form is not a guarantee of acceptance in the preview. There are limited slots available, and each application will be reviewed. Microsoft will reach out if there is space in the preview program and share more information and work with you on next steps.
+If you are interested in participating in the preview, and meet the above conditions, please reach out to your Microsoft account manager. There are limited slots available, and each application will be reviewed. Microsoft will reach out if there is space in the preview program and share more information and work with you on next steps.
 
 Since this is a part of SharePoint Advanced Management, participants will need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
 
