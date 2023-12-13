@@ -137,7 +137,7 @@ The limited preview can currently only support tenants meeting the following con
 - Your organization does not use government clouds, including GCC, GCC High and DoD.
 - Your organization does not use vanity domain configurations.
 
-If you would like to participate in the preview, and meet the above conditions, please express your interest through our [sign up form](https://forms.microsoft.com/r/DhBqqJVgSW). Make sure to include all of the requested information and indicate your interest in the **"Organization Lifecycle Management"** section by selecting the **"Advanced Tenant Rename"** option.
+If you would like to participate in the preview, and meet the above conditions, please express your interest through our [sign up form](https://forms.microsoft.com/r/DhBqqJVgSW). Make sure to include all of the requested information and indicate your interest in the **Organization Lifecycle Management** section by selecting the **Advanced Tenant Rename** option.
 
 There are limited slots available, and each application will be reviewed. Microsoft will reach out if there is space in the preview program and share more information and work with you on next steps.
 
