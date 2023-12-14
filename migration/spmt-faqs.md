@@ -35,9 +35,9 @@ Answer: You will find the SPMT logs stored here: *C:\Users\<Username>\AppData\Ro
 **Question:** Is SPMT available for Government clouds?</br>
 Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-install-issues.md#government-cloud-support)
 
-**Question**: How to migrate only Site Pages?
+**Question**: Can I migrate only Site Pages?
 
-Answer: You can only migrate Site Pages by csv or json. A sample json is listed below.
+Answer: Yes, However, site pages can only be migrated by uploading a CSV or JSON file. A sample json is listed below.
 
 
 ```javascript
@@ -61,11 +61,11 @@ Answer: You can only migrate Site Pages by csv or json. A sample json is listed 
 }
 ```
 
-**Question**: How to preserve existing web parts on destination site in site incremental migration?
+**Question**: How can I preserve existing web parts on a destination site in site incremental migration?
 
-Answer: There is a setting "Migration of web parts and pages". You can pick "Don’t migrate to skip webpart migration" in incremental migration. Please refer to [SharePoint Migration Tool Settings](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fsharepointmigration%2Fspmt-settings%23sharepoint&data=05%7C02%7CZhaoyang.Sun%40microsoft.com%7Ceff44a7137c24bf1daef08dbfacba252%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638379524749283736%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=vXhuGaERZ2kz3KHSGJYlWGkmhcFFPFulptTHSfEFz4I%3D&reserved=0).
+Answer: Under the setting "Migration of web parts and pages", select "Don’t migrate to skip webpart migration" in incremental migration. Learn more: [SharePoint Migration Tool Settings](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fsharepointmigration%2Fspmt-settings%23sharepoint&data=05%7C02%7CZhaoyang.Sun%40microsoft.com%7Ceff44a7137c24bf1daef08dbfacba252%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638379524749283736%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=vXhuGaERZ2kz3KHSGJYlWGkmhcFFPFulptTHSfEFz4I%3D&reserved=0).
 
-**Question**: What functionalities are not supported by SPMT in SharePoint on-premises Server migration?
+**Question**: What features are not supported by SPMT for SharePoint on-premises Server migrations?
 
 Answer: See the table below.
 
