@@ -33,4 +33,4 @@ Answer: First, you need to install SPMT on physically different Windows computer
 Answer: You will find the SPMT logs stored here: *C:\Users\<Username>\AppData\Roaming\Microsoft\MigrationTool*
 
 **Question:** Is SPMT available for Government clouds?</br>
-Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-install-issues.md#government-cloud-support)
+Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-settings.md#government-cloud-support)
