@@ -30,7 +30,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 ## General
  
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Only perform scanning|If you wish to scan the files as a preassessment to migration, set to **On**.|
 |Start migration automatically if no scan issue found |If set to **On**, migration starts automatically if no scan issues are found. |
@@ -41,7 +41,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 ## Users
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Microsoft Entra lookup |By default, this is set to **On**. If no user mapping file is provided by the user, then Microsoft Entra ID is used as the default for user mapping.|
 |Automatic user mapping|User mapping is done automatically.|
@@ -49,7 +49,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 ## Filters
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Migrate file version history |If set to **Off**, only the most recent version of the file is migrated. If set to **On**, you can choose whether to keep all versions, or limit it to a specific number.|
 |Keep all versions|If set to **On**, all file versions are migrated.|
@@ -67,7 +67,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 ## SharePoint
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Migrate site settings|This setting is available only when the source selected is *all lists, libraries, pages, and web parts*. Four options are available:</br> **Preserve all settings**:  Migrate all site level settings supported, including title, logo, features, audit settings, and others. </br> **Skip title and logo:**  Title and logo are skipped, but all other site settings are migrated.</br>  **Only title and logo:**  Only the title and logo migrate. </br> **Skip all settings:**  No site level settings are migrated.|
 |Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
@@ -82,14 +82,14 @@ The following table details the settings available in SPMT. Advanced settings sh
 ## Workflow migration
 
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Power Automate flow owner|The user name who is the default owner of the Power Automate flow.|
 
 
 ## Advanced
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Migration auto rerun|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either *Run once*, or *Run up to 5 successive times*.|
 |SharePoint Migration Tool working folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder is created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
@@ -101,7 +101,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 >If you choose to use your Azure Storage, be aware that you could incur bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, see [Bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
 
 
-|**Setting**|**Description**|
+| Setting | Description |
 |:-----|:-----|
 |Use custom Azure Storage|If you wish to use your own Azure Storage, set this value to **On**. Enter your account and key. Select if you want to enable encryption, and if you want temporary working files to be deleted when migration is complete.|
 
@@ -114,13 +114,13 @@ The following table details the settings available in SPMT. Advanced settings sh
 If you are on a government cloud, you must first take these steps:
 
 1. Open %localappdata%\Apps\SharePointMigrationTool\SPMT\microsoft.sharepoint.migration.common.dll.config.
+
 2. Change the value of **SPOEnvironmentType** to:
 
     - **4** if you're GCC
     - **3** if you're DoD
     - **2** if you're GCC high
     - **0** if you use the Worldwide consumer cloud
-
 
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
