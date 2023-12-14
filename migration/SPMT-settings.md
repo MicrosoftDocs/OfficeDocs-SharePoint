@@ -125,7 +125,7 @@ If you are on a government cloud, you must first take these steps:
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
-## Related topics
+## Related articles
 
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
 
