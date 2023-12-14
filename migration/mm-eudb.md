@@ -1,9 +1,9 @@
 ---
 title: "Migration Manager and the European Union Data Boundary (EUDB)"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

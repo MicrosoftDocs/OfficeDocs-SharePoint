@@ -2,9 +2,9 @@
 ms.date: 08/11/2023
 title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -57,28 +57,24 @@ Make sure that you have:
 
 ## Google Shared Drives
 
->[!Important]
->We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
->
->Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
->
->If you are migrating Google Shared Drives, follow the steps below.
+Google Shared drives are now migrated by default. Google Shared Drive permissions are migrated according to what you have set in Project settings, under [general permission setting](/sharepointmigration/mm-project-settings-permissions#migrate-permissions). 
 
+Folder permissions are migrated by default. File permissions are migrated on demand. 
 
-**To migrate Google Shared Drives:**
+We recommend the following steps when migrating permissions in your shared drive:
 
-1. Manually gather the membership list of the Google Shared Drive during your migration planning.
-2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
-3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
+- Recreate a Microsoft 365 group with the same memberships as the Google Drive group. You can either create a new group or edit the group linked to the Team site designated as the migration destination for the Google Shared Drive.
+- In the 'Map Identities' setting, map the original Google Drive group of the shared drive to the Microsoft 365 group.
+
 
 ## What isn't migrated
 
-### Google Drawings, Sites, and Maps
+Google doesn't allow us to export these items from Drive:
 
-Google doesn't allow us to export Drawings, Sites, and Maps from Drive. These aren't migrated.
-
->[!Note]
->Google Forms are now supported.
+- Google Drawings
+- Google Sites
+- Google Maps
+- Google Forms
 
 ### Docs, Slides, and Sheets
 

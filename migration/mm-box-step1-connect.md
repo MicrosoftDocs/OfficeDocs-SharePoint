@@ -2,9 +2,9 @@
 title: "Connect to Box with Migration Manager"
 ms.date:  01/21/2021
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

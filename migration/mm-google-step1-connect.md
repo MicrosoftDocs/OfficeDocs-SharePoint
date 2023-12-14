@@ -2,9 +2,9 @@
 title: "Connect to Google with Migration Manager"
 ms.date:  10/31/2023
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

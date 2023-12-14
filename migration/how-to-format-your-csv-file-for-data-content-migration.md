@@ -2,9 +2,9 @@
 ms.date: 03/13/2018
 title: "Format your JSON or CSV file for data content migration - SharePoint"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

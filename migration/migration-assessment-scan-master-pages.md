@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan Master Pages"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 9/13/2017
 audience: ITPro

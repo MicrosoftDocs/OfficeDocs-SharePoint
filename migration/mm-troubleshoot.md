@@ -2,9 +2,9 @@
 ms.date: 01/22/2019
 title: "Troubleshooting Migration Manager"
 ms.reviewer:
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

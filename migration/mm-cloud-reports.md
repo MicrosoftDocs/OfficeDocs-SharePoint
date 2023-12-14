@@ -2,9 +2,9 @@
 ms.date: 10/10/2023
 title: Migration Manager cloud migration reports
 ms.reviewer: JoanneHendrickson
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

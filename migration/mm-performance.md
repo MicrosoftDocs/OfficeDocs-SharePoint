@@ -1,9 +1,9 @@
 ---
 ms.date: 03/30/2020
 title: Improving your Migration Manager performance
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

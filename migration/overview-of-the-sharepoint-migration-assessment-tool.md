@@ -1,8 +1,8 @@
 ---
 title: "SharePoint Migration Assessment Tool"
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 01/11/2018
 audience: ITPro

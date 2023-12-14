@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan Large Lists"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 11/23/2017
 audience: ITPro
@@ -45,7 +45,7 @@ Investigate the large lists and determine the need for this content to be migrat
   
 ## Post Migration
 
-The migration tooling has built-in validation to ensure all the list items are migrated. You will want to validate the large lists migrated as expected.
+The migration tooling has built-in validation to ensure all the list items are migrated. You'll want to validate the large lists migrated as expected.
   
 ## Scan Result Reports
 
@@ -64,8 +64,8 @@ The migration tooling has built-in validation to ensure all the list items are m
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |WebURL  <br/> |Url to the subsite that contains the list.  <br/> |
 |ListTitle  <br/> |Title of the list.  <br/> |

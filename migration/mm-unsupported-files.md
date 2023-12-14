@@ -2,9 +2,9 @@
 title: "Unsupported file types in Migration Manager"
 ms.date: 08/30/2023
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
@@ -61,10 +61,8 @@ Google doesn't allow us to export these items from Drive.
 
 - Google Drawings
 - Google Sites
-- Google maps
-
->[!Note]
->Google Forms is now supported and will be migrated. 
+- Google Maps
+- Google Forms
 
 >[!Important]
 >We don't scan unorganized or "orphaned" files. As a result, they won't be migrated or shown in any of our reports. To learn more about unorganized files see:  [Unorganized or "orphaned" files in Google](https://support.google.com/drive/thread/4333474/can-t-find-a-file-s-location-on-drive-no-location-provided?hl=en)

@@ -2,9 +2,9 @@
 ms.date: 04/05/2018
 title: "Migration Manager File Share migration reports"
 ms.reviewer:
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:

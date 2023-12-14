@@ -1,9 +1,9 @@
 ---
 title: "Migration Assessment Scan Checked-out files"
 ms.reviewer: 
-ms.author: mactra
-author: MachelleTranMSFT
-manager: serdars
+ms.author: jtremper
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
