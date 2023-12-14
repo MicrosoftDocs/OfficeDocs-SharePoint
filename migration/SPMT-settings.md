@@ -58,8 +58,8 @@ The following table details the settings available in SPMT. Advanced settings sh
 |Migrate files created after|Only migrate files created after the selected date. This setting can be used to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.|
 |Migrate files modified after|Only migrate files modified after the selected date. This setting can be used to limit the number of files migrated or to adhere to overall company governance policy regarding file retention. |
 |Don't migrate files with these extensions|Enter a list of file extensions of file types you don't want to migrate. Separate each extension entered with a colon. Don't include the dot.  For example, **.txt** is entered as **txt**. <br/> **Note** For files with multiple file extensions, for example *.ext1.ext2, add only the last extension, *.ext2*, to the exclusion list.|
-|Migrate OneNote folder as OneNote notebook <br/>|By default, this setting is set to **Off**. When set to **Off**, OneNote folders migrate over as a regular folder with files, and not as a OneNote Notebook.  If set to **On**, they'll migrate as OneNote Notebooks.  At this time, the ability to migrate notebooks on SharePoint on-premises is disabled.  **NOTE** *This setting has been deprecated starting in Version 3.4.121.2.*  <br/>|
-|Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). <br/><br/>If set to **Off**, the tool skips files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
+|Migrate OneNote folder as OneNote notebook |By default, this setting is set to **Off**. When set to **Off**, OneNote folders migrate over as a regular folder with files, and not as a OneNote Notebook.  If set to **On**, they'll migrate as OneNote Notebooks.  At this time, the ability to migrate notebooks on SharePoint on-premises is disabled.  **NOTE** *This setting has been deprecated starting in Version 3.4.121.2.*  |
+|Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). <br/><br/>If set to **Off**, the tool skips files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  |
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
 |Filter content type|Enter the content types you want to exclude from migration, separated by a semicolon (;), for example, Document; My Document.|
@@ -92,7 +92,7 @@ The following table details the settings available in SPMT. Advanced settings sh
 | Setting | Description |
 |:-----|:-----|
 |Migration auto rerun|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either *Run once*, or *Run up to 5 successive times*.|
-|SharePoint Migration Tool working folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder is created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
+|SharePoint Migration Tool working folder  |Choose if you want to create your own working folder.  By default, a temp folder is created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
 
 ## Custom Azure Storage
 
@@ -125,9 +125,7 @@ If you are on a government cloud, you must first take these steps:
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
-   
 ## Related topics
 
- 
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
 
