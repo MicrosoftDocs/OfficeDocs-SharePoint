@@ -57,9 +57,9 @@ The following table details the settings available in SPMT. Advanced settings sh
 |Include hidden files|If set to **Off**, hidden system files will **not** be migrated. |
 |Migrate files created after|Only migrate files created after the selected date. This setting can be used to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.|
 |Migrate files modified after|Only migrate files modified after the selected date. This setting can be used to limit the number of files migrated or to adhere to overall company governance policy regarding file retention. |
-|Don't migrate files with these extensions|Enter a list of file extensions of file types you don't want to migrate. Separate each extension entered with a colon. Don't include the dot.  For example, **.txt** is entered as **txt**. </br> **Note** For files with multiple file extensions, for example *.ext1.ext2, add only the last extension, *.ext2*, to the exclusion list.|
+|Don't migrate files with these extensions|Enter a list of file extensions of file types you don't want to migrate. Separate each extension entered with a colon. Don't include the dot.  For example, **.txt** is entered as **txt**. <br/> **Note** For files with multiple file extensions, for example *.ext1.ext2, add only the last extension, *.ext2*, to the exclusion list.|
 |Migrate OneNote folder as OneNote notebook <br/>|By default, this setting is set to **Off**. When set to **Off**, OneNote folders migrate over as a regular folder with files, and not as a OneNote Notebook.  If set to **On**, they'll migrate as OneNote Notebooks.  At this time, the ability to migrate notebooks on SharePoint on-premises is disabled.  **NOTE** *This setting has been deprecated starting in Version 3.4.121.2.*  <br/>|
-|Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). </br></br>If set to **Off**, the tool skips files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
+|Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). <br/><br/>If set to **Off**, the tool skips files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
 |Filter content type|Enter the content types you want to exclude from migration, separated by a semicolon (;), for example, Document; My Document.|
@@ -69,11 +69,11 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 | Setting | Description |
 |:-----|:-----|
-|Migrate site settings|This setting is available only when the source selected is *all lists, libraries, pages, and web parts*. Four options are available:</br> **Preserve all settings**:  Migrate all site level settings supported, including title, logo, features, audit settings, and others. </br> **Skip title and logo:**  Title and logo are skipped, but all other site settings are migrated.</br>  **Only title and logo:**  Only the title and logo migrate. </br> **Skip all settings:**  No site level settings are migrated.|
+|Migrate site settings|This setting is available only when the source selected is *all lists, libraries, pages, and web parts*. Four options are available:<br/> **Preserve all settings**:  Migrate all site level settings supported, including title, logo, features, audit settings, and others. <br/> **Skip title and logo:**  Title and logo are skipped, but all other site settings are migrated.<br/>  **Only title and logo:**  Only the title and logo migrate. <br/> **Skip all settings:**  No site level settings are migrated.|
 |Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
 |Migrate all site fields and content types|Choose if you want to migrate sites fields even if they aren't required for migration.|
 |Migrate managed metadata|Choose if you want to migrate all managed metadata terms that are in use on the site.|
-|Migration of web parts and pages|Choose how to handle migration if the pages and web parts already exist in the destination.</br> Select one: *Overwrite duplicate*, *Rename duplicate*, *Skip duplicate*, or *Don't migrate*.|
+|Migration of web parts and pages|Choose how to handle migration if the pages and web parts already exist in the destination.<br/> Select one: *Overwrite duplicate*, *Rename duplicate*, *Skip duplicate*, or *Don't migrate*.|
 |Temporarily allow migration of scripts|This setting will automatically allow the migration of scripted web parts.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
 |Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Don't migrate.*   This setting is only available if the source selected in a task is a list.  If you're doing a site migration, SPMT will automatically migrate all referred lists, so this setting won't appear to the user.
@@ -96,17 +96,17 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 ## Custom Azure Storage
 
->[!Important]
->**Cost:**</br>
->If you choose to use your Azure Storage, be aware that you could incur bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, see [Bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
+> [!Important]
+> **Cost:**<br/>
+> If you choose to use your Azure Storage, be aware that you could incur bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, see [Bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
 
 
 | Setting | Description |
 |:-----|:-----|
 |Use custom Azure Storage|If you wish to use your own Azure Storage, set this value to **On**. Enter your account and key. Select if you want to enable encryption, and if you want temporary working files to be deleted when migration is complete.|
 
->[!Note] 
->This feature is supported only for *General Purpose storage accounts* as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.
+> [!Note]
+> This feature is supported only for *General Purpose storage accounts* as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.
 
 
 ## Government cloud support
