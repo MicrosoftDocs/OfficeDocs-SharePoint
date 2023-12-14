@@ -33,7 +33,8 @@ Answer: First, you need to install SPMT on physically different Windows computer
 Answer: SPMT logs are stored here: *C:\Users\<Username>\AppData\Roaming\Microsoft\MigrationTool*
 
 **Question:** Is SPMT available for Government clouds?</br>
-Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-install-issues.md#government-cloud-support)
+
+Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-settings.md#government-cloud-support)
 
 **Question**: Can I migrate only Site Pages?
 
@@ -78,4 +79,3 @@ Answer: See items listed in table.
 |Migrate master pages|Master pages in a site or site collection migration can’t be migrated.|
 |InfoPath forms|InfoPath forms can't be migrated.|
 |Customer New/Edit/View forms|Customer New/Edit/View forms of a list or library can't be migrated along with its content.|
-
