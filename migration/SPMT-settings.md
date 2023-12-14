@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2019
+ms.date: 12/14/2023
 title: "SharePoint Migration Tool settings"
 ms.reviewer: 
 ms.author: jhendr
@@ -107,3 +107,31 @@ The following table details the settings available in SPMT. Advanced settings sh
 
 >[!Note] 
 >This feature is supported only for *General Purpose storage accounts* as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.
+
+
+## Government cloud support
+
+If you are on a government cloud, you must first take these steps:
+
+1. Open %localappdata%\Apps\SharePointMigrationTool\SPMT\microsoft.sharepoint.migration.common.dll.config.
+2. Change the value of **SPOEnvironmentType** to:
+
+    - **4** if you're GCC
+    - **3** if you're DoD
+    - **2** if you're GCC high
+    - **0** if you use the Worldwide consumer cloud
+
+
+3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+
+>[!Note]
+
+>**0** = Worldwide consumer cloud and GCC
+>**2** = GCC high
+>**3** = DoD
+   
+## Related topics
+
+ 
+[SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
+
