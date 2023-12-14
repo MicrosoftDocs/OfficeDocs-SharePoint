@@ -125,7 +125,7 @@ If you are on a government cloud, you must first take these steps:
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 >[!Note]
-
+>
 >**0** = Worldwide consumer cloud and GCC
 >**2** = GCC high
 >**3** = DoD
