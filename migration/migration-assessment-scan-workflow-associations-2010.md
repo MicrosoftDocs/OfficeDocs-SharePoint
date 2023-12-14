@@ -3,21 +3,21 @@ title: "Migration Assessment Scan Workflow Associations 2010"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: ebf375f6-588f-4d5e-9126-e945aa31f7e2
 
@@ -27,7 +27,7 @@ ms.assetid: ebf375f6-588f-4d5e-9126-e945aa31f7e2
 
 ## Overview
 
-The migration tooling is typically able to migrate the Workflow Definitions from the SharePoint source to the target environment. However, any in progress workflow instances are not migrated. As a result, in progress workflows are reset to appear as if they were never started on the destination.
+The migration tooling is typically able to migrate the Workflow Definitions from the SharePoint source to the target environment. However, any in progress workflow instances aren't migrated. As a result, in progress workflows are reset to appear as if they were never started on the destination.
   
 ## Data Migration
 
@@ -35,7 +35,7 @@ Workflow Data is divided into the following two parts:
   
 - **Workflow Definition:** The definition describes the overall workflow process, for example, a three stage approval workflow with custom routing rules for each stage. This data will typically be migrated with the rest of the site collection data and will be available in your target environment. 
     
-- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the in progress workflow, for example, this document is in Stage 2 of the approval process and is assigned to John Doe. Unfortunately, this information cannot be migrated to the new platform. The result will be the loss of all running workflow instances. For example, a document that was in Stage 2 of a workflow in the source environment will be back at Stage Zero (workflow not started) post migration to the target environment. 
+- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the in progress workflow, for example, this document is in Stage 2 of the approval process and is assigned to John Doe. Unfortunately, this information can't be migrated to the new platform. The result is the loss of all running workflow instances. For example, a document that was in Stage 2 of a workflow in the source environment will be back at Stage Zero (workflow not started) post migration to the target environment. 
     
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -65,8 +65,8 @@ Once the migration to the target environment is complete, users will need to res
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |Scope  <br/> |Either List, ContentType, or Site. This is the level that the workflow is associated with.  <br/> |
 |RunningInstances  <br/> |Number of workflows actively running at that scope.  <br/> |

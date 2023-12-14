@@ -1,7 +1,7 @@
 ---
 title: "View search usage reports in modern sites"
 ms.reviewer:
-ms.author: v-lsaldanha
+ms.author: jhendr
 author: lovina-saldanha
 manager: dansimp
 recommendations: true

@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
-title: "SharePoint and OneDrive unmanaged device access controls for administrators"
+ms.date: 09/18/2023
+title: IT Admins - SharePoint and OneDrive unmanaged device access controls
 ms.reviewer: samust
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: CSH
@@ -25,7 +25,7 @@ ms.custom:
 - admindeeplinkSPO
 ---
 
-# SharePoint and OneDrive unmanaged device access controls for administrators
+# IT Admins - SharePoint and OneDrive unmanaged device access controls
 
 As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
 
@@ -42,13 +42,13 @@ Limiting access allows users to remain productive while addressing the risk of a
 ![The experience when web access is limited](media/unmanaged-device-limited-web-access.png)
 
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
+> Blocking or limiting access on unmanaged devices relies on Microsoft Entra Conditional Access policies. [Learn about Microsoft Entra ID licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Microsoft Entra ID, see [Conditional access in Microsoft Entra ID](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
 
 ## Control device access across Microsoft 365
 
-The procedures in this article only affect SharePoint access by unmanaged devices. If you want to expand control of unmanaged devices beyond SharePoint, you can [Create an Azure Active Directory conditional access policy for all apps and services in your organization](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) instead. To configure this policy specifically for [Microsoft 365 services](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), select the **Office 365** cloud app under **Cloud apps or actions**.
+The procedures in this article only affect SharePoint access by unmanaged devices. If you want to expand control of unmanaged devices beyond SharePoint, you can [Create a Microsoft Entra Conditional Access policy for all apps and services in your organization](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) instead. To configure this policy specifically for [Microsoft 365 services](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), select the **Office 365** cloud app under **Cloud apps or actions**.
 
-![Screenshot of the Office 365 cloud app in an Azure Active Directory conditional access policy](media/azure-ca-office365-policy.png)
+![Screenshot of the Office 365 cloud app in a Microsoft Entra Conditional Access policy](media/azure-ca-office365-policy.png)
 
 Using a policy that affects all Microsoft 365 services can lead to better security and a better experience for your users. For example, when you block access to unmanaged devices in SharePoint only, users can access the chat in a team with an unmanaged device, but will lose access when they try to access the **Files** tab. Using the Office 365 cloud app helps avoid issues with [service dependencies](/azure/active-directory/conditional-access/service-dependencies).
 
@@ -119,7 +119,7 @@ If you revert back to **Allow Full Access**, it could take up to 24 hours for th
 
 To block or limit access to specific sites, follow these steps. If you have configured the organization-wide policy, the site-level setting you specify must be at least as restrictive as the organization-level setting.
 
-1. Manually create a policy in the Azure AD admin center by following the steps in [Use app-enforced restrictions](app-enforced-restrictions.md).
+1. Manually create a policy in the Microsoft Entra admin center by following the steps in [Use app-enforced restrictions](app-enforced-restrictions.md).
 
 2. Set the site-level setting by using PowerShell, or a [sensitivity label](/microsoft-365/compliance/sensitivity-labels):
 
@@ -193,7 +193,7 @@ Blocking access and blocking download may impact the user experience in some app
 >
 > If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser.
 >
-> For new tenants, apps using an ACS app-only access token is disabled by default. We recommend using the Azure AD app-only model which is modern and more secure. But you can change the behavior by running `set-spotenant -DisableCustomAppAuthentication $false` (needs the latest SharePoint admin PowerShell).
+> For new tenants, apps using an ACS app-only access token is disabled by default. We recommend using the Microsoft Entra ID app-only model which is modern and more secure. But you can change the behavior by running `set-spotenant -DisableCustomAppAuthentication $false` (needs the latest SharePoint admin PowerShell).
 
 ## Need more help?
 
@@ -204,4 +204,3 @@ Blocking access and blocking download may impact the user experience in some app
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
-

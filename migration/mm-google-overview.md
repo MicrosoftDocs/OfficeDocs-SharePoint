@@ -4,13 +4,12 @@ title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manag
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
@@ -18,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
@@ -57,25 +57,24 @@ Make sure that you have:
 
 ## Google Shared Drives
 
->[!Important]
->We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
->
->Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
->
->If you are migrating Google Shared Drives, follow the steps below.
+Google Shared drives are now migrated by default. Google Shared Drive permissions are migrated according to what you have set in Project settings, under [general permission setting](/sharepointmigration/mm-project-settings-permissions#migrate-permissions). 
 
+Folder permissions are migrated by default. File permissions are migrated on demand. 
 
-**To migrate Google Shared Drives:**
+We recommend the following steps when migrating permissions in your shared drive:
 
-1. Manually gather the membership list of the Google Shared Drive during your migration planning.
-2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
-3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
+- Recreate a Microsoft 365 group with the same memberships as the Google Drive group. You can either create a new group or edit the group linked to the Team site designated as the migration destination for the Google Shared Drive.
+- In the 'Map Identities' setting, map the original Google Drive group of the shared drive to the Microsoft 365 group.
+
 
 ## What isn't migrated
 
-### Google Drawings, Forms, Sites, and Maps
+Google doesn't allow us to export these items from Drive:
 
-Google doesn't allow us to export Drawings, Forms, Sites, and Maps from Drive. These aren't migrated.
+- Google Drawings
+- Google Sites
+- Google Maps
+- Google Forms
 
 ### Docs, Slides, and Sheets
 
@@ -94,7 +93,7 @@ Google's proprietary formats aren't compatible with anything other than a Google
 
 ### File size of Google proprietary files
 
-Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 won't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 

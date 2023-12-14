@@ -1,7 +1,7 @@
 ---
 title: "Repair SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 4/27/2023

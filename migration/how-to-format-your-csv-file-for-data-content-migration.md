@@ -4,20 +4,20 @@ title: "Format your JSON or CSV file for data content migration - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150 
@@ -55,9 +55,9 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 **Before you begin**
 
 - Enter one migration source and destination per row. Account for all six columns in your file.
-- *Do not* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
+- *Don't* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
 - Remember to account for all six columns in the file, even if you don't need a value for a given field.
-- If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you'll get an "invalid document library" error.
+- If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you get an "invalid document library" error.
 - If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
 
 
@@ -66,11 +66,11 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 |Column content|Description|
 |:-----|:-----|
 |Column 1 "Source" | *Required*. Enter an on-premises SharePoint Server site URL or the path to a local file share. For SharePoint Server 2013 and 2016, you can also use the log-in name or the SID in this column. |
-|Column 2 "Source DocLib" | *Optional*. Enter the name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries will be migrated. This column needs to be empty when migrating from a local file share.|
+|Column 2 "Source DocLib" | *Optional*. Enter the name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries are migrated. This column needs to be empty when migrating from a local file share.|
 |Column 3 "Source SubFolder" | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the migration starts from the root. If there's a value in this column, the migration starts from the subfolder. This column needs to be empty when migrating from a local file share.|
 |Column 4 "Target Web" | *Required*. Enter the destination SharePoint site URL where the files are to be migrated.|
 |Column 5 "Target DocLib" | *Required*. Enter the name of the document library with the SharePoint site where the files are to be migrated.|
-|Column 6 "Target SubFolder "| *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
+|Column 6 "Target SubFolder "| *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files are moved to the root level. |
 |Column  7 "RegisterAsHubSite"|*Optional.*  To register a site as a hub site after migration, enter the name of hub site and leave the next column, AssociateWithHubURL, blank. For SharePoint site migration only. |
 |Column 8 "AssociateWithHubURL"|*Optional.* To associate the site to another hub site, enter the URL of an existing hub site. In this case, column 7 "RegisterAsHubSite" is left blank. For SharePoint site migration only.|
 
@@ -148,9 +148,9 @@ As with a CSV file, the minimum required values are *Source*, *Target Web*, and 
 
 ## Proxy connections
 
-Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
 
-If you wish to leverage your system proxy settings, use one of these methods:
+If you wish to use your system proxy settings, use one of these methods:
 
 **Update proxy** 
 
@@ -166,7 +166,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 **If SPMT doesn't upgrade**
 
-1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+1. If SPMT can't upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
 2. Open the **installclient.exe.config** file. 
 3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
 </br>
@@ -184,8 +184,8 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 |Error|Description|
 |:-----|:-----|
-|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub registration of a destination site.|
-|**Destination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
-|**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT will not change the association a destination site.|
+|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT won't change the hub registration of a destination site.|
+|**Destination site cannot associate to an invalid hub site**|This happens if you're attempting to associate with an invalid hub site. Check the URL and try again.|
+|**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT won't change the association a destination site.|
 
 

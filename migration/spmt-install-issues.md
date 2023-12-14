@@ -1,22 +1,22 @@
 ---
-ms.date: 01/25/2019
+ms.date: 12/14/2023
 title: Troubleshooting SPMT installation issues
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
@@ -44,3 +44,4 @@ If you're having issues loading the SharePoint Migration tool, here are a few it
 |**Error**|**Suggested action**|
 |:-----|:-----|
 |"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation may be the cause of this error. Uninstall the tool and then reinstall.|
+

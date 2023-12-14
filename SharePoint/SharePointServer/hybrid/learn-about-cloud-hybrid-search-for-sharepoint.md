@@ -35,7 +35,7 @@ A search center displays and ranks results from the Microsoft 365 search index i
   
 ![Illustration showing search results with cloud hybrid search, with unified ranking](../media/3fb013e0-ca50-414f-b434-c0c16d4a4f5e.png)
   
-It's the metadata for the content that's indexed, and this metadata is encrypted when it's transferred to the search index in Office 365, so the on-premises content remains secure. If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Microsoft 365 organization (Windows Azure Active Directory), Microsoft 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Microsoft 365 users. Users only see search results for content they have access to.
+It's the metadata for the content that's indexed, and this metadata is encrypted when it's transferred to the search index in Office 365, so the on-premises content remains secure. If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Microsoft 365 organization (Microsoft Entra ID), Microsoft 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Microsoft 365 users. Users only see search results for content they have access to.
   
 Learn more:
   

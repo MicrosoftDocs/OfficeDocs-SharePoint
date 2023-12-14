@@ -1,17 +1,16 @@
 ---
-ms.date: 08/30/2023
+ms.date: 12/07/2023
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
@@ -23,26 +22,43 @@ description: "Learn about the new features and updates to existing features in M
 
 # What's new in Migration Manager
 
-We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.  
+We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's to come and new features that are now available.
 
 ## We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-## Coming soon
 
-- Scan/Migration status update. Improve task status to organize drives better.
-- File Level Permission for Dropbox and Box. Support for File Level Permission (FLP) migration for Dropbox and Box.  *This feature is already available for **Google Drive** (as of June 8th, 2023.)*
+## Coming soon
+- **Identity mapping capacity.** Improvements to identity mapping capacity to better support larger migrations.
+- **Recent action refinement.** Enhancements to the “Recent action” functionality including prompts to provide an easier report download experience.
+- **Migration Admin role.**  A new admin role designed for cloud migration scenarios.
+
+## November 2023
+- **Destination validation.** Destination paths are now validated automatically during the bulk destination upload process. A validation report is provided to let fix issues that are discovered. Note: While the validation step is optional, we don’t recommend skipping it.
+- **Shared drive permission.** Google Shared Drive permissions are now migrated by default according to what you have set in permission settings.
+
+## October 2023
+- **Scan/Migration status update.** Improvements were made to let you organize the status of drives better. For guidance on different task statuses, see: [Migration Manager status codes](/sharepointmigration/mm-cloud-reports.md#status-codes)
+- **Migration time estimator.** Get an estimated migration time before connecting to a migration source. The migration time estimator is located at the top right corner of the project page.
+- **Report improvements.** Report fields and failure reasons are polished to provide a more readable and consistent reporting experience. 
+
+
+## September 2023
+
+- **New. File Level Permission for Dropbox and Box.** Support for File Level Permission (FLP) migration for Dropbox and Box.  *This feature is already available for **Google Drive** (as of June 8, 2023.)*
+- **Fixed. 'Share with me' support.** Some issues related to the migration of "Share with me" event are resolved.
+- **Fixed. Task deletion.** Task deletion triggered in the UX is now consistently reflected in the backend, reducing deletion failures.
 
 
 ## August 2023
 
-- **New. Box Notes conversion.** Migration Manager now supports converting Box notes to .docx format. Note: Certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
+- **New. Box Notes conversion.** Migration Manager now supports converting Box notes to .docx format. Note: Certain elements such as File Preview, Table of Contents, and Annotations are omitted during the conversion process.
 
 
 ## July 2023
 
-- **New. Multi-project support on a single source.** You can now create up to 5 projects for each cloud source and easily switch between projects. Included for Google, Box, Dropbox, and Egnyte.
+- **New. Multi-project support on a single source.** You can now create up to five projects for each cloud source and easily switch between projects. Included for Google, Box, Dropbox, and Egnyte.
 
  
 ## June 2023
@@ -68,8 +84,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## February 2023
 
-- **Fixed. Summary report timeout.** Extremely large reports would occasionally exceed database memory, leading to report download timeout. This has been fixed.
-- **Display of the estimated time**. There's now display of the estimated time it will take for your Google Drive migration to complete.
+- **Fixed. Summary report timeout.** Large reports would occasionally exceed database memory, leading to report download timeout. This has been fixed.
+- **Display of the estimated time**. There's now display of the estimated time it takes for your Google Drive migration to complete.
 
 ## January 2023
 
@@ -170,8 +186,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ### February 2021
 
-- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. *Requires latest version of agent.*
-- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration. *Requires latest version of agent.*
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify predefined characters to replace invalid characters. *Requires latest version of agent.*
+- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disk space so you can choose a drive that has enough storage before starting your migration. *Requires latest version of agent.*
 - **Filters for report aggregator script**.  You can now apply rich filters when downloading the detailed task level reports via the PowerShell cmdlet. To learn more, see: [Download detailed task reports](mm-reports.md#download-detailed-task-level-reports-via-powershell).
 -  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed. *Requires latest version of agent.*
 - **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded. *Requires latest version of agent.*
@@ -183,8 +199,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ### December 2020
 
 - **Process multiple tasks per agent.** Each agent can now process 5-10 migration tasks, simultaneously so that you can finish your migrations faster. *Requires latest version of agent.*
-- **Select a team as a destination.** Users will be able to select a Teams team and the channel as the migration destination. This is in addition to the existing ability to specify a Teams location by the URL.
-- **Select a OneDrive email as a destination.** Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
+- **Select a team as a destination.** Users are able to select a Teams team and the channel as the migration destination. This is in addition to the existing ability to specify a Teams location by the URL.
+- **Select a OneDrive email as a destination.** Users are able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
 
 
 ### October 2020 

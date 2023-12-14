@@ -2,9 +2,9 @@
 ms.date: 07/26/2021
 title: "Plan your communication strategy"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ms.topic: article

@@ -4,18 +4,18 @@ title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 ms.assetid:
 description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."

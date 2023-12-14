@@ -2,9 +2,9 @@
 ms.date: 07/23/2018
 title: "Open the Term Store Management Tool"
 ms.reviewer: shrganguly
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

@@ -2,9 +2,9 @@
 ms.date: 01/04/2021
 title: "Prevent users from contacting Microsoft directly"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

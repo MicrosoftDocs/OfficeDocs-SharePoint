@@ -1,6 +1,6 @@
 ---
 title: "Configure the One Customer Voice (OCV) feedback"
-ms.author: v-bshilpa
+ms.author: serdars
 author: Benny-54
 manager: serdars
 ms.date: 6/14/2023

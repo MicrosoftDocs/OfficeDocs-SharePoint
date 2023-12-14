@@ -4,13 +4,12 @@ title: "Overview: Migrate Dropbox using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
@@ -18,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of migration from Dropbox to Microsoft 365 using Migration Manager.

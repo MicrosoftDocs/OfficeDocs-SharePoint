@@ -3,15 +3,14 @@ title: "Migration Assessment Scan Email Enabled Lists"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -19,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: a15bae85-86b3-4098-9bbd-631638d377b2
 description: "Learn how to mitigate issues with Email Enabled Lists during migration."
@@ -30,11 +30,11 @@ Learn how to mitigate issues with Email Enabled Lists during migration.
 
 ## Overview
 
-On the source environment it is possible to configure lists that can accept incoming email. This feature is not available on the target environment.
+On the source environment it's possible to configure lists that can accept incoming email. This feature isn't available on the target environment.
 
 ## Data Migration
 
-The contents in the libraries listed in the report will migrate, but new emails sent to the library will no longer automatically show up as the library will no longer accept incoming emails.
+The contents in the libraries listed in the report migrate, but new emails sent to the library will no longer automatically show up as the library will no longer accept incoming emails.
 
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections, see the Locked Sites scan output.
@@ -64,8 +64,8 @@ The following table describes the columns in the **EmailEnabledLists-detail.csv*
 |ContentDBSizeInMB|Size of the content database hosting the site collection.|
 |LastContentModifiedDate|Date/Time the site collection had content modified.|
 |TotalItemCount|Total number of items found in the site collection.|
-|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
-|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.|
+|Hits|Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
+|DistinctUsers|Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.|
 |DaysOfUsageData|Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.|
 |WebURL|Url to the web hosting the email enabled list|
 |ListTitle|Title of the email enabled lists|

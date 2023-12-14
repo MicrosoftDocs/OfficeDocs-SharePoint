@@ -3,20 +3,20 @@ title: "Migration Assessment Scan BCS"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 7/5/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - SPMigration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 382f6607-5434-4e03-8b9a-0ce04ead9ace
 description: "Learn how to fix issues with BCS before migrating your data."

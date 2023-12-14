@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -71,6 +71,8 @@ Use the following keys to pre-configure or change settings for your users. The k
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
+- [DisableOfflineMode](#disableofflinemode)
+- [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
 - [DisableTutorial](deploy-and-configure-on-macos.md#disabletutorial)
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
@@ -191,7 +193,7 @@ The example for this setting in the .plist file is:
 
 This setting determines whether or not the sync app can automatically sign in.
 
-If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
+If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Entra credential that is made available to Microsoft applications.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -211,6 +213,55 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableHydrationToast</key>
 <(Bool)/>
+```
+
+### DisableOfflineMode
+
+This setting prevents users from enabling offline mode in OneDrive on the web.
+
+The preferences for this setting are stored in the following .plist files.
+
+|  |Offline mode preferences location  |OneDrive group preferences  |
+|---------|---------|---------|
+|**.plist location**  | ~/Library/Preferences/com.microsoft.SharePoint-mac.plist        | ~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist        |
+
+By default, offline mode is turned on for users of OneDrive on the web. 
+
+To prevent users at your organization from enabling offline mode in OneDrive on the web, use the following example: 
+
+```xml
+<key>DisableOfflineMode</key>
+<integer>1</integer>
+```
+
+To re-enable offline mode in OneDrive on the web for users, use the following example: 
+```xml
+<key>DisableOfflineMode</key>
+<integer>0</integer>
+```
+
+### DisableOfflineModeForExternalLibraries 
+
+This setting prevents users from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations. 
+
+The preferences for this setting are stored in the following .plist files:
+
+|  |Offline mode preferences location  |OneDrive group preferences  |
+|---------|---------|---------|
+|**.plist location**|~/Library/Preferences/com.microsoft.SharePoint-mac.plist       | ~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/Library/Preferences/UBF8T346G9.OneDriveStandaloneSuite.plist        |
+
+To prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations, use the following example: 
+
+```xml
+<key>DisableOfflineModeForExternalLibraries</key>
+<integer>1</integer>
+```
+
+To re-enable offline mode in OneDrive on the web for libraries and folders that are shared from other organizations, use the following example: 
+
+```xml
+<key>DisableOfflineModeForExternalLibraries </key>
+<integer>0</integer>
 ```
 
 ### DisablePersonalSync
@@ -527,7 +578,7 @@ The example for this setting in the .plist file is:
 
 > [!NOTE]
 > If you want to hide the option "Get pre-release Microsoft internal updates to display", you will need to opt into the Deferred update ring.
-> For example, `default write com.microsoft.OneDrive Tier -string "Deferred"`.                                                                      
+> For example, `defaults write com.microsoft.OneDrive Tier -string "Deferred"`.                                                                      
 
 ### UploadBandwidthLimited
 
@@ -548,4 +599,3 @@ The example for this setting in the .plist file is:
 [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)
 
 [OneDrive sync reports in the Apps Admin Center (EnableSyncAdminReports)](sync-health.md)
-

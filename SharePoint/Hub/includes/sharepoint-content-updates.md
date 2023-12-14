@@ -2,55 +2,40 @@
 
 
 
-## Week of August 21, 2023
+## Week of November 27, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/21/2023 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
-| 8/21/2023 | Find OneDrive admin settings | removed |
-| 8/22/2023 | [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
+| 11/27/2023 | [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements) | modified |
 
 
-## Week of August 14, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/17/2023 | Set a site as your home site | removed |
-| 8/18/2023 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | added |
-
-
-## Week of August 07, 2023
+## Week of November 20, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/7/2023 | [How shareable links work in OneDrive and SharePoint in Microsoft 365](/SharePoint/shareable-links-anyone-specific-people-organization) | added |
-| 8/7/2023 | [Plan and deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
-| 8/10/2023 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
-| 8/11/2023 | [Block download policy for SharePoint sites and OneDrive](/SharePoint/block-download-from-sites) | modified |
+| 11/21/2023 | [SharePoint documentation # < 60 chars](/SharePoint/index) | modified |
+| 11/22/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
+| 11/22/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
 
 
-## Week of July 31, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/31/2023 | [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](/SharePoint/technical-reference/amsi-protection-may-not-be-working) | added |
-| 7/31/2023 | [Restrict SharePoint site access](/SharePoint/restricted-access-control) | modified |
-| 8/1/2023 | Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store | removed |
-| 8/2/2023 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
-| 8/2/2023 | [Intro to file collaboration in Microsoft 365, powered by SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
-| 8/4/2023 | [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](/SharePoint/manage-security-groups) | modified |
-
-
-## Week of July 24, 2023
+## Week of November 13, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 7/24/2023 | Formatting changes for Microsoft Viva Amplify - Private preview | removed |
-| 7/24/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
-| 7/25/2023 | [IP support in SharePoint Server](/SharePoint/install/ip-support) | modified |
-| 7/28/2023 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
+| 11/16/2023 | [OneDrive webapp in offline mode](/SharePoint/onedrive-offline) | added |
+| 11/16/2023 | [Restrict access to a user's OneDrive content to people in a group](/SharePoint/onedrive-site-access-restriction) | added |
+| 11/17/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | modified |
+
+
+## Week of November 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/6/2023 | [Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint for Microsoft 365](/SharePoint/use-microsoft-purview-risk-and-compliance-solutions) | modified |
+| 11/7/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
+| 11/7/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
+| 11/8/2023 | [Change the external sharing setting for a user's OneDrive](/SharePoint/user-external-sharing-settings) | modified |

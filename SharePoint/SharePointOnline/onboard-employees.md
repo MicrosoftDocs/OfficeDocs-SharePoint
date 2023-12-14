@@ -2,9 +2,9 @@
 ms.date: 09/23/2021
 title: Onboard new employees into your organization
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -173,7 +173,7 @@ Help orient new employees by providing them with the most important company info
 #### Integrate multiple Viva modules to create a rich onboarding experience 
 In the image above, Viva Connections is being used to display cards that integrate with other Viva experiences. Create a card that links to Viva Insights to help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights and how it helps protect and organize work/life balance](/viva/solutions/viva-work-life-balance).
 
-A separate card integrates with Viva Topics, which helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and encounter terms they know nothing about when reading through company information. [Learn more about how Viva Topics can help with knowledge management](/viva/topics/topic-experiences-overview).
+A separate card integrates with Topics, which helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and encounter terms they know nothing about when reading through company information. [Learn more about how Topics can help with knowledge management](/viva/topics/topic-experiences-overview).
 
 Viva Learning is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
@@ -185,7 +185,7 @@ In Viva Learning, managers of an organization or team can assign learning and tr
 
 **Learn more about Viva modules:**
 
-| [Viva Learning](/viva/learning/) | [Viva Topics](/viva/connections/viva-connections-overview) | [Viva Insights](/viva/insights/) | [Viva Connections](/viva/connections/viva-connections-overview) |
+| [Viva Learning](/viva/learning/) | [Topics](/viva/connections/viva-connections-overview) | [Viva Insights](/viva/insights/) | [Viva Connections](/viva/connections/viva-connections-overview) |
 |---|---|---|---|---|
  | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and resources. |
 

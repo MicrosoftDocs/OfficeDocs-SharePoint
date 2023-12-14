@@ -2,9 +2,9 @@
 ms.date: 05/22/2019
 title: "Enable the communication site experience on classic team sites"
 ms.reviewer: dipadur
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ms.topic: article

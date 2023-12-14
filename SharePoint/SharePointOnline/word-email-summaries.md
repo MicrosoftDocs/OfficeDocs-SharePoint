@@ -2,9 +2,9 @@
 ms.date: 09/10/2020
 title: "Summaries in sharing emails for Word docs"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -3,15 +3,14 @@ title: "Migration Assessment Scan Sandbox Solution"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -19,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 411c5512-e99c-4010-8a25-113515851cd7
 description: "Learn how to mitigate issues with sandbox solutions during migration."
@@ -33,7 +33,7 @@ Learn how to mitigate issues with sandbox solutions during migration.
 > [!IMPORTANT]
 > SharePoint in Microsoft 365 does not support sandbox solutions. 
   
-SharePoint does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
+SharePoint doesn't support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment needs to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
   
 https://pnp.github.io/
   
@@ -59,8 +59,8 @@ The following table describes the columns in the **SandboxSolution-detail.csv** 
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |SandboxSolutionName  <br/> |Sandbox solution name  <br/> |
 |WebApplicationURL  <br/> |Web application URL hosting the sandbox solution  <br/> |

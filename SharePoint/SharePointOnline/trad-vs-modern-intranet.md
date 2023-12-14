@@ -1,9 +1,9 @@
 ---
 ms.date: 05/21/2020
 title: How to think about your intelligent intranet
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
