@@ -3,15 +3,14 @@ title: "Migration Assessment Scan Large Excel Files"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -19,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 359d684a-65bf-4345-8b98-b169a2474ed2
 description: "Learn how to mitigate issues with large Excel files during migration."
@@ -30,11 +30,11 @@ Learn how to mitigate issues with large Excel files during migration.
   
 ## Overview
 
-The maximum limit for opening XLSX files in the browser is 10MB in the target environment. This setting is configurable in the source environment which may result in a change in behavior for your users. If you attempt to open a file larger than 10MB from a SharePoint site, it will prompt you to open the file in the Excel client application.
+The maximum limit for opening XLSX files in the browser is 10 MB in the target environment. This setting is configurable in the source environment that may result in a change in behavior for your users. If you attempt to open a file larger than 10 MB from a SharePoint site, it prompts you to open the file in the Excel client application.
   
 ## Data Migration
 
-XLSX files will be migrated.
+XLSX files are migrated.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
@@ -45,11 +45,11 @@ Notify users of the expected behavior.
   
 ## Post Migration
 
-Attempting to open an XLSX file larger than 10MB will prompt you to open the file in the Excel client. You will be prompted with a dialog.
+Attempting to open an XLSX file larger than 10 MB will prompt you to open the file in the Excel client. You'll be prompted with a dialog.
   
 ## Scan Result Reports
 
- **LargeExcelFiles-detail.csv** This scan report contains all the XLSX files that are over 10MB in size. 
+ **LargeExcelFiles-detail.csv** This scan report contains all the XLSX files that are over 10 MB in size. 
   
 |**Column**|**Description**|
 |:-----|:-----|
@@ -64,8 +64,8 @@ Attempting to open an XLSX file larger than 10MB will prompt you to open the fil
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row shows N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |File  <br/> |URL to the XLSX file.  <br/> |
 |FileSizeinMB  <br/> |Size of the XLSX file in MB.  <br/> |

@@ -1,10 +1,10 @@
 ---
 ms.date: 01/07/2019
 title: Troubleshoot user profile removal issues in SharePoint
-ms.reviewer: waynewin
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.reviewer: jmcdowe
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -3,21 +3,21 @@ title: "Migration Assessment Scan Secure Store"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 ms.date: 7/5/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 8c63518d-4977-4bea-a376-09ec71b7ff56
 description: "Learn how to mitigate issues with Secure Store during migration."
@@ -33,21 +33,21 @@ Secure Store Service is a shared service that provides storage and mapping of cr
   
 ## Data Migration
 
-Secure Store applications are not migrated to the target environment.
+Secure Store applications aren't migrated to the target environment.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Preparing for Migration
 
-Determine if the Secure Store applications listed in the scan results are required on the target platform. If they are required, you will want to create them in Tenant Administration on the new platform during the migration testing.
+Determine if the Secure Store applications listed in the scan results are required on the target platform. If they're required, you'll want to create them in Tenant Administration on the new platform during the migration testing.
   
 > [!NOTE]
 > The target environment only supports the Group Restricted type. 
   
 ## Post Migration
 
-If you created Secure Store applications in the target environment, ensure they are working as expected.
+If you created Secure Store applications in the target environment, ensure they're working as expected.
   
 ## Scan Result Reports
 

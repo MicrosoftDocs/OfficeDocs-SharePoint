@@ -27,7 +27,9 @@ description: Lists the minimum hardware and software requirements to install and
   
     
 > [!IMPORTANT]
-> Some of the hardware requirement values in this article are based on test results from SharePoint 2010 Products and still apply to SharePoint 2013. This article will be updated with appropriate values and republished when new data becomes available. Hardware requirement values obtained from SharePoint 2010 Products that are listed in this article do not apply to search in SharePoint 2013. > This article links to SharePoint 2010 Products guidance where that guidance is still valid. The SharePoint 2010 Products guidance is not applicable for search in SharePoint 2013 because the search architecture has changed significantly. > The hardware and software requirements in this article refer to physical and virtual servers in a SharePoint farm. 
+> Some of the hardware requirement values in this article are based on test results from SharePoint 2010 Products and still apply to SharePoint 2013. This article will be updated with appropriate values and republished when new data becomes available. Hardware requirement values obtained from SharePoint 2010 Products that are listed in this article do not apply to search in SharePoint 2013.
+> This article links to SharePoint 2010 Products guidance where that guidance is still valid. The SharePoint 2010 Products guidance is not applicable for search in SharePoint 2013 because the search architecture has changed significantly.
+> The hardware and software requirements in this article refer to physical and virtual servers in a SharePoint farm. 
   
 ## Overview
 <a name="section1"> </a>
@@ -120,7 +122,7 @@ The Microsoft SharePoint Products Preparation Tool can assist you in the install
 > SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](/officeupdates/). 
   
 > [!NOTE]
-> At this time, SQL Server 2016 RTM is not supported. 
+> SQL Server 2016 or higher is not supported. 
   
 ### Minimum software requirements
 
@@ -343,6 +345,10 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Identity Extensions for Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=252368)
     
+- [Windows Server AppFabric](https://go.microsoft.com/fwlink/?LinkId=235496)
+
+- [Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)](https://go.microsoft.com/fwlink/?LinkId=251471)
+
 - [Microsoft SQL Server 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkId=254815) which includes the Microsoft SQL Server 2008 R2 SP1 Native Client and the SQL Server Remote BLOB Store 
     
 - [Microsoft SQL Server 2008 R2 SP1 Feature pack](https://go.microsoft.com/fwlink/p/?linkid=238653) which includes Microsoft SQL Server 2008 R2 ADOMD.NET 

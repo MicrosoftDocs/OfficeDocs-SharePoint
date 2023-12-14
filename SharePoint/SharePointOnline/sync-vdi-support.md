@@ -2,9 +2,9 @@
 ms.date: 04/23/2019
 title: "Use the sync app on virtual desktops"
 ms.reviewer: sraja
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

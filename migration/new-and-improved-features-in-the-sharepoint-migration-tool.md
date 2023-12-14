@@ -1,17 +1,16 @@
 ---
-ms.date: 08/24/2023
+ms.date: 10/27/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
@@ -31,7 +30,7 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.1.125.6](https://aka.ms/spmt-beta-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.8](https://aka.ms/spmt-beta-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 4.1
 
@@ -43,7 +42,7 @@ SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 
     - Modern team sites & Communication sites
     - Modern site pages and news posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. 
     - Files or folders with "#" or "%" in their name can be migrated. These special characters are retained in migration.
-- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate.
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate. **Note:** This feature is currently **only available in the public preview build.** It is **not** in the Full Generally Available (GA) build.
 
 
 ## SPMT 4.0

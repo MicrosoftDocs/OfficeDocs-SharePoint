@@ -27,11 +27,11 @@ When modern authentication (a trusted identity provider) such as SAML 1.1 or OID
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
 > [!IMPORTANT]
-> This article describes how to setup UPA-backed people picker for SAML. For setting UPA-backed people picker for OIDC, see [**OIDC ADFS guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker) and [**OIDC AAD guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker-1).
+> This article describes how to setup UPA-backed people picker for SAML. For setting UPA-backed people picker for OIDC, see [**OIDC ADFS guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker) and [**OIDC Microsoft Entra ID guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker-1).
 
 Following are the configuration steps to make People Picker work.
 
-## Step 1. Create a UPABacked SPTrustedIdentityTokenIssuer
+## Step 1: Create a UPABacked SPTrustedIdentityTokenIssuer
 
 Create a new token issuer using the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) PowerShell cmdlet.
 
@@ -83,7 +83,7 @@ This switch parameter enables the People Picker to search and select users and g
 New-SPTrustedIdentityTokenIssuer -Name "UPATest" -Description "Contoso.local" -ClaimsMappings $emailClaimMap -IdentifierClaim $emailClaimMap.InputClaimType
 ```
 
-## Step 2. Synchronize profiles to UPSA
+## Step 2: Synchronize profiles to UPSA
 
 You can now start synchronizing profiles into the SharePoint User Profile service application from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.
 
@@ -134,7 +134,7 @@ For MIM synchronization, set these two properties in the **Configure Attribute F
 
   ![Configure Attribute Flow.](../media/configure-attribute-flow.png)
 
-## Step 3. Make groups searchable
+## Step 3: Make groups searchable
 
 To enable the People Picker control to work with groups, run the following steps:
 
@@ -155,7 +155,7 @@ To enable the People Picker control to work with groups, run the following steps
         > [!Note]
         > For MIM synchronization, map **sAMAccountName** to **accountName** from MIM to the SharePoint User Profile service application.
 
-## Step 4. Enable fields being searchable in UPSA
+## Step 4: Enable fields being searchable in UPSA
 
 To make people picker work, the final step is to enable fields to be searchable in User Profile service application.
 

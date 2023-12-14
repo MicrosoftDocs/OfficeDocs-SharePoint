@@ -2,9 +2,9 @@
 ms.date: 09/19/2018
 title: "Introduction to SharePoint information architecture"
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

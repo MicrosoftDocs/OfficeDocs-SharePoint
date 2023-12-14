@@ -1,11 +1,11 @@
 ---
 ms.date: 07/11/2018
 title: "Planning your SharePoint hub sites"
-ms.reviewer: metorres
-manager: serdars
+ms.reviewer: cathed
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jhendr
+author: JoanneHendrickson
 audience: Admin
 f1.keywords:
 - CSH

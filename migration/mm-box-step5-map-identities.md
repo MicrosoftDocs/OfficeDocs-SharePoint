@@ -4,13 +4,12 @@ title: "Step 5: Map Box identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 5:  Map Box identities with Migration Manager." 
 ---
@@ -43,16 +43,16 @@ Map your groups and users in Box to those in Microsoft 365 to migrate your Box s
 
 If you have many mappings to edit, you can choose to upload a CSV file containing your users and groups mappings. Download the  file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
-Upload your own users and groups mappings using the M
+Upload your own users and groups mappings using the M.
 1. Select **Import users and groups**.
 2. Download the mapping.csv template file, inserting your own mappings. You can name the .csv any name you wish.
-3. Choose **Select file**. Navigate to your mapping .csv file and select.
+3. Choose **Select file**. Navigate to your mapping .csv file and select it.
 4. Select **Save**.
 5. Select **Close**.
 
 
->[!Important]
->Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
+> [!Important]
+> Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration starts, it cannot be changed.
 
 
 ## [**Step 6: Migrate and monitor**](mm-box-step6-migrate-monitor.md)

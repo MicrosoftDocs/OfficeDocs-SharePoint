@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Create and manage terms in a term set"
 ms.reviewer: shrganguly
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: End User
 f1.keywords: NOCSH

@@ -1,9 +1,9 @@
 ---
 title: "About user profile synchronization"
 ms.reviewer: amysim
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 ms.date: 5/21/2020
 audience: Admin
@@ -22,7 +22,7 @@ description: "This article describes the user profile sync process for SharePoin
 
 # User profile synchronization
 
-Microsoft SharePoint uses the Active Directory synchronization job to import user and group attribute information into the User Profile Application (UPA). When a new user is added to Azure Active Directory (Azure AD), the user account information is sent to the SharePoint directory store and the UPA sync process creates a profile in the User Profile Application based on a predetermined set of attributes. Once the profile has been created, any modifications to these attributes will be synced as part of regularly scheduled sync process.
+Microsoft SharePoint uses the Active Directory synchronization job to import user and group attribute information into the User Profile Application (UPA). When a new user is added to Microsoft Entra ID, the user account information is sent to the SharePoint directory store and the UPA sync process creates a profile in the User Profile Application based on a predetermined set of attributes. Once the profile has been created, any modifications to these attributes will be synced as part of regularly scheduled sync process.
 
 > [!NOTE]
 > The profile properties that are synced by the UPA sync process are not configurable. Synchronization times will vary based on workloads.
@@ -33,20 +33,20 @@ There are four steps in the sync process.
 
 |Step|Description|
 |---|---|
-|1. Active Directory to Azure AD|[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) syncs data from on-premises Active Directory to Azure AD. For more info, see [What is hybrid identity with Azure Active Directory?](/azure/active-directory/hybrid/whatis-hybrid-identity) and [Attributes synchronized](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#sharepoint-online).|
-|2. Azure AD to SharePoint|Azure AD syncs data from Azure AD to the SharePoint directory store.|
-|3. SharePoint to UPA|The UPA sync process syncs user account information in SharePoint directory store to the User Profile Application (UPA).|
+|1. Active Directory to Microsoft Entra ID | [Microsoft Entra Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) syncs data from on-premises Active Directory to Microsoft Entra ID. For more info, see [What is hybrid identity with Microsoft Entra ID?](/azure/active-directory/hybrid/whatis-hybrid-identity) and [Attributes synchronized](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#sharepoint-online).|
+|2. Microsoft Entra ID to SharePoint | Microsoft Entra ID syncs data from Microsoft Entra ID to the SharePoint directory store.|
+|3. SharePoint to UPA | The UPA sync process syncs user account information in SharePoint directory store to the User Profile Application (UPA).|
 |4. UPA to sites|User account information from the UPA is synced to SharePoint sites (previously called "site collections").|
 
 Typically, user profiles are created automatically for all accounts that are created in Microsoft 365. For organizations that have a Microsoft 365 Education subscription, user profiles are not created for new accounts by default. The user must access SharePoint once, at which time a basic stub profile will be created for the user account. The stub profile will be updated with all remaining data as part of the sync process.
 
-If block sign-in is set on the user account in Azure AD or disabled accounts are synced from Active Directory on premises, those user accounts will not be processed as part of the UPA sync process. The user must be enabled and licensed for changes to be processed.
+If block sign-in is set on the user account in Microsoft Entra ID or disabled accounts are synced from Active Directory on premises, those user accounts will not be processed as part of the UPA sync process. The user must be enabled and licensed for changes to be processed.
 
 ## Properties that are synced into SharePoint user profiles
 
-The following Azure AD user attributes are synced to the UPA.
+The following Microsoft Entra user attributes are synced to the UPA.
 
-|Azure AD attribute|User profile property display names|Notes|Sync to sites|
+|Microsoft Entra attribute|User profile property display names|Notes|Sync to sites|
 |:-------|:-------|:-------|:-------|
 |UserPrincipalName|Account Name </br> User Name </br> User Principal Name|Example: </br> `i:0#.f <|> membership <|>` gherrera@contoso.com </br> gherrera@contoso.com|Yes|
 |DisplayName|Name||Yes|
@@ -74,12 +74,14 @@ User account attribute changes are collected in batches and processed for UPA sy
 
 ### Will UPA synchronization overwrite existing properties in SharePoint user profiles?
 
-For the default properties that are synced by UPA synchronization, values will be overwritten to align with Azure AD.
+For the default properties that are synced by UPA synchronization, values will be overwritten to align with Microsoft Entra ID.
 
 ### Does UPA synchronization update only properties that have changed?
 
-UPA synchronization is driven primarily by changes that are made Azure AD, including adding new users. A full import can occur under certain maintenance events.
+UPA synchronization is driven primarily by changes that are made Microsoft Entra ID, including adding new users. A full import can occur under certain maintenance events.
 
-### Why isn't it possible to map additional properties for UPA synchronization to sync from Azure AD to the User Profile Application?
+<a name='why-isnt-it-possible-to-map-additional-properties-for-upa-synchronization-to-sync-from-azure-ad-to-the-user-profile-application'></a>
+
+### Why isn't it possible to map additional properties for UPA synchronization to sync from Microsoft Entra ID to the User Profile Application?
 
 UPA synchronization is limited to a preconfigured set of properties to guarantee consistent performance across the service.

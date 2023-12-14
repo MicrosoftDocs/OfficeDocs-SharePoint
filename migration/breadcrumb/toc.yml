@@ -1,7 +1,3 @@
 - name: Microsoft 365
-  tocHref: /microsoft-365/index
+  tocHref: /sharepointmigration/
   topicHref: /microsoft-365/index
-  items:
-  - name: Migrate to Microsoft 365
-    tocHref: /sharepointmigration/index
-    topicHref: /sharepointmigration/index
