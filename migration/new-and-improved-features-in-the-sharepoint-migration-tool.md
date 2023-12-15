@@ -30,7 +30,7 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.1.125.8](https://aka.ms/spmt-beta-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|[4.1.125.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.8](https://aka.ms/spmt-beta-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 4.1
 
@@ -42,8 +42,7 @@ SPMT 4.1 includes two major new features; the support of SharePoint Server 2019 
     - Modern team sites & Communication sites
     - Modern site pages and news posts along with the site structure. If a page is checked out, the previously checked-in version will be migrated. Comments are not migrated. 
     - Files or folders with "#" or "%" in their name can be migrated. These special characters are retained in migration.
-- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate. **Note:** This feature is currently **only available in the public preview build.** It is **not** in the Full Generally Available (GA) build.
-
+- **SharePoint Designer 2010 and 2013 workflows**. SharePoint Designer workflows can now be migrated to Power Automate. 
 
 ## SPMT 4.0
 
@@ -660,7 +659,6 @@ In addition to several minor fixes, here are the primary improvements made in th
 |:----|:-----|
 |Stability|General improvements have been made to remove some errors in tool.|
 
-   
 ### SPMT V2.1.101.0
 
 **New features**
@@ -672,7 +670,6 @@ The following features were added to the SharePoint Migration Tool, Version 2.1.
 |Save session <br/> |The user now has the ability to save their migration session and resume it at later date.<br>
 |Read-only sites supported<br/> |The user can migrate a read-only site configured by site policy or the central admin page. <br/> |
 
-   
 **Improvements**
 
 In addition to many minor fixes, here are the primary improvements made in this release:
@@ -703,9 +700,11 @@ To use the SPMT 2.1 PowerShell feature (currently in open preview): <br>
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
     <br>To learn more, see:<br> 
+
 [Migrate to SharePoint using PowerShell](./overview-spmt-ps-cmdlets.md)<br>
 [SharePoint Migration Tool PowerShell Reference](/powershell/module/spmt)
 
+   
    
 **Improvements**
 
@@ -728,7 +727,6 @@ The following features were added to the SharePoint Migration Tool, Version 1.1.
 |Allow migration of 0-bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
 |Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
 |Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file won't be migrated.  <br/> |
-   
 **Improvements**
 
 In addition to several minor fixes, here are the primary improvements made in this release:
@@ -739,7 +737,6 @@ In addition to several minor fixes, here are the primary improvements made in th
 |Permissions fixes  <br/> |We have made several improvements to better preserve the permission when requested and not removing existing permission in the destination.  <br/> |
 |Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.  <br/> |
 |Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.  <br/> |
-   
 
 
 [Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
