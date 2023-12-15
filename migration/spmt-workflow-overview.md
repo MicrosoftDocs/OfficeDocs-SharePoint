@@ -20,10 +20,8 @@ ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Overview of how to migrate your SharePoint Server workflows to Power Automate using the SharePoint Migration Tool (SPMT)."
 ---
-# Overview: Migrate SharePoint Server workflows to Power Automate
 
->[!Note]
->This feature is currently in public preview, and subject to change.
+# Overview: Migrate SharePoint Server workflows to Power Automate
 
 Workflows created with SharePoint Server  or SharePoint Server Designer can be migrated to Power Automate using the SharePoint Migration Tool (SPMT). 
 
