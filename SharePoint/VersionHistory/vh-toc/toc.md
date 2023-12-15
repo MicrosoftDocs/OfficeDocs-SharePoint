@@ -1,0 +1,1 @@
+# [How Version History settings work](how-version-history-settings-work.md)
