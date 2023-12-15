@@ -722,21 +722,22 @@ In addition to many minor fixes, here are the primary improvements made in this 
 
 The following features were added to the SharePoint Migration Tool, Version 1.1.901.
   
-|**Feature**|**Description**|
+|Feature|Description|
 |:-----|:-----|
-|Allow migration of 0-bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
-|Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
-|Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file won't be migrated.  <br/> |
+|Allow migration of 0-bytes files  <br/> |Files will be migrated even if they are of zero bytes.|
+|Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report. |
+|Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file won't be migrated.|
+
 **Improvements**
 
 In addition to several minor fixes, here are the primary improvements made in this release:
   
-|**Issue**|**Fix**|
+|Issue|Fix|
 |:-----|:-----|
-|Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
-|Permissions fixes  <br/> |We have made several improvements to better preserve the permission when requested and not removing existing permission in the destination.  <br/> |
-|Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.  <br/> |
-|Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.  <br/> |
+|Stability  <br/> |General improvements have been made to remove some errors in tool. |
+|Permissions fixes  <br/> |We have made several improvements to better preserve the permission when requested and not removing existing permission in the destination.|
+|Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.   |
+|Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.|
 
 
 [Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
