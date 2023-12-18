@@ -168,7 +168,7 @@ Let’s look at the third version.
 We see the WebId and DocId values are empty. Because these columns are compact columns, denoted by “Compact” post-fix, it means they should have values. If we look for the last nonempty above that row, we find the WebId, 4c7a58c1-01f2-4fa3-a730-44081a44f689, and the DocId, 18c3e09c-b5be-48e7-a754-7a2ce53e0999.
 
 > [!NOTE]
-> All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)
+> All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
 
 We can also see that the TargetExpirationDate is set for April 19, 2023, at 18:08:53 UTC. It means if we were to trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time of this documentation is written, it has passed April 19, 2023. Instead of setting the version to expire, it's deleted right away.
 
