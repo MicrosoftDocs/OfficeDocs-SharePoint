@@ -20,7 +20,6 @@ description: "Explanation of Government Cloud configuration settings when using 
 ---
 # Government cloud settings for Migration Manager 
 
-
 If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.
 
 
