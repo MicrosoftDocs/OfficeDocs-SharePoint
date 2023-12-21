@@ -53,7 +53,7 @@ The manual setting allows admins to set count limits on the number of major vers
 Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default version history limits across your organization.  
 
 > [!IMPORTANT]
-> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1) but will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the settings on existing libraries on a site or to trim existing versions.
+> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the settings on existing libraries on a site or to trim existing versions.
 
 :::image type="content" source="media/tenant-version-history-limit.PNG" alt-text="tenant version history":::
 
@@ -74,10 +74,10 @@ Site Level Version history limits for sites can be managed in the following ways
 
 > [!IMPORTANT]
 >
-- > Setting Site Level Version History limits is available using PowerShell cmdlets only.
-- > Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
-- > Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
-- > MinorVersions count only applies to the document libraries that enabled minor versioning.
+> - Setting Site Level Version History limits is available using PowerShell cmdlets only.
+> - Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
+> - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
+> - MinorVersions count only applies to the document libraries that enabled minor versioning.
 
 :::image type="content" source="media/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
 
@@ -95,16 +95,16 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 > [!IMPORTANT]
 >
-- > Default Workflow: The following is the default workflows for document library Version History Limits:
-- > Default organization Level Limits: The default Version History limits for your organization will be set to Manual mode with 500 Major Version Limit set to Never Expire.
-- > Default Site or Library Level Limits: By default, there will be no Version History limits set on individual sites as new document libraries inherit the organization level limits.
-- > Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
-- > Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
-- > A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
-- > When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
+> - Default Workflow: The following is the default workflows for document library Version History Limits:
+    > - Default organization Level Limits: The default Version History limits for your organization will be set to Manual mode with 500 Major Version Limit set to Never Expire.
+    > - Default Site or Library Level Limits: By default, there will be no Version History limits set on individual sites as new document libraries inherit the organization level limits.
+> - Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+> - Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
+> - A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
+> - When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
 
 > [!CAUTION]
-> Versions deleted under the automatic setting or because the versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
+> Versions deleted either under the automatic setting or due to versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
 
 ## Analyzing Version Storage Usage for your Site
 
@@ -146,7 +146,7 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 
 You can download the report file from SharePoint and do any analysis to learn about the dataset.
 
-There are 12 rows in this table. The first row is the header row. Note the compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
+There are 12 rows in this table. The first row is the header row. Note that the compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
 
 :::image type="content" source="media/file-version-expiration-report.PNG" alt-text="An example file version expiration report and its column breakdown":::
 
@@ -183,10 +183,10 @@ Trimming existing versions is performed in the following sequence of steps:
 
 **Step 2: Set trimming mode on ‘What-If File Expiration report’** by applying one of the 3 different trimming modes - Automatic, Manual Expiration Limits or Manual with Count Limits Only. You need to download the report file to your local computer and apply the provided scripts to apply one of the desired settings to the file. This step converts the ‘What-If File Expiration report’ into the ‘Schedule input file’ needed to schedule the job to trim versions.  
 
-Optionally, apply Excel or PowerShell examples to understand the impact of the selected setting on version storage or impacted users from the selected change etc.
+Optionally, apply Excel or PowerShell examples to understand the impact of the selected setting on version storage or impacted users from the selected change.
 
-**Step 3: Schedule a job** to trim versions for your Sites or Libraries. Before scheduling the trim, you can optimize the size of ‘Schedule Input File’ generated in step by applying the scripts provided. Upload the ‘Schedule Input file’ to SharePoint on document library in the same site as the site you're deleting versions from. Finally schedule the trimming job. Once the job is queued, you'll be able to check the status of your trimming job. When the status returns as *completed*, the version trimming task has completed.  
+**Step 3: Schedule a job** to trim versions for your Sites or Libraries. Before scheduling the trim, you can optimize the size of ‘Schedule Input File’ generated in step by applying the scripts provided. Upload the ‘Schedule Input file’ to SharePoint on document library in the same site as the site you're deleting versions from. Finally schedule the trimming job. Once the job is queued, you'll be able to check the status of your trimming job. When the status shows *completed*, the version trimming task has completed.  
 
 > [!IMPORTANT]
-> -  You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
-> - Depending on the size of the Site or Library the job can take a few days to complete. Check the progress of the job until the status returns as "completed".
+> - You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
+> - Depending on the size of the Site or Library, the job can take a few days to complete. Check the progress of the job until the status shows "completed".
