@@ -4,7 +4,7 @@ ms.reviewer: neilh
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 6/30/2021
+ms.date: 12/22/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -172,7 +172,7 @@ To install the online service management tools and configure the PowerShell wind
       Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory"
    ```
 
-   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](https://github.com/powershell/microsoftgraph/authentication-commands).
+   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
 
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
 
@@ -229,10 +229,19 @@ The commands in this step add the on-premises STS certificate (public key only) 
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
-$binCert = $stsCert.GetRawCertData()
-$credValue = [System.Convert]::ToBase64String($binCert)
-Add-MgServicePrincipalKey -ServicePrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
+Import-Module Microsoft.Graph.Applications
+
+$params = @{
+	keyCredential = @{
+		type = "AsymmetricX509Cert"
+		usage = "Verify"
+		key = [System.Text.Encoding]::ASCII.GetBytes("MIIDYDCCAki...")
+	}
+	passwordCredential = $null
+	proof = "eyJ0eXAiOiJ..."
+}
+
+Add-MgServicePrincipalKey -ServicePrincipalId $spoappid -BodyParameter $params
 ```
 
 <a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
@@ -265,10 +274,11 @@ Using a wildcard value lets SharePoint in Microsoft 365 validate connections wit
 To add the SPN to Microsoft Entra ID, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid
-$spns = $msp.ServicePrincipalNames
-$spns.Add("$spoappid/$spcn")
-Update-MgServicePrincipal -ServicePrincipalId $msp.Id -ServicePrincipalNames $spns
+$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid'"
+$params =@{
+  "servicePrincipalNames"="$spoappid/$spcn"
+}
+Update-MgServicePrincipal -ServicePrincipalId $msp.Id -BodyParameter $params
 ```
 
 To validate that the SPN was set, enter the following commands in the Microsoft Graph PowerShell command prompt.
@@ -295,7 +305,7 @@ From the PowerShell command prompt, type the following commands.
 ```powershell
 $spoappprincipalID = (Get-MgServicePrincipal -Filter "servicePrincipalName eq '$spoappid'").Id
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
-$appPrincipal = New-MgServicePrincipal -Site $site.rootweb -NameIdentifier $sponameidentifier -DisplayName "SharePoint"
+$appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
 ```
 
 To validate this step, from the PowerShell command prompt, type the $appPrincipal variable:
