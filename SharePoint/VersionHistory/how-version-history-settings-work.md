@@ -74,7 +74,7 @@ Site Level Version history limits for sites can be managed in the following ways
 
 > [!IMPORTANT]
 - > Setting Site Level Version History limits is available using PowerShell cmdlets only.
-- > Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
+> Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
 - > Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
 - > MinorVersions count only applies to the document libraries that enabled minor versioning.
 
@@ -94,15 +94,15 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 > [!IMPORTANT]
 - > Default Workflow: The following is the default workflows for document library Version History Limits:
-    - > Default organization Level Limits: The default Version History limits for your organization will be set to Manual mode with 500 Major Version Limit set to Never Expire.
-    - > Default Site or Library Level Limits: By default, there will be no Version History limits set on individual sites as new document libraries inherit the organization level limits.
-- > Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+- > Default organization Level Limits: The default Version History limits for your organization will be set to Manual mode with 500 Major Version Limit set to Never Expire.
+> Default Site or Library Level Limits: By default, there will be no Version History limits set on individual sites as new document libraries inherit the organization level limits.
+> Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 - > Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
 - > A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
 - > When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
 
 > [!CAUTION]
-> Versions deleted under the automatic setting or because the versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
+- > Versions deleted under the automatic setting or because the versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
 
 ## Analyzing Version Storage Usage for your Site
 
