@@ -53,7 +53,7 @@ The manual setting allows admins to set count limits on the number of major vers
 Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default version history limits across your organization.  
 
 > [!IMPORTANT]
-> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1) but will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. Additional steps will need to be taken to update the settings on the existing libraries on a site or to trim existing versions.
+> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1) but will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the settings on existing libraries on a site or to trim existing versions.
 
 :::image type="content" source="media/tenant-version-history-limit.PNG" alt-text="tenant version history":::
 
@@ -73,6 +73,7 @@ Site Level Version history limits for sites can be managed in the following ways
     > Clearing a setting on a Site will only apply to New Document Libraries created on the site and won't impact the settings on existing doc libraries.
 
 > [!IMPORTANT]
+>
 - > Setting Site Level Version History limits is available using PowerShell cmdlets only.
 - > Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
 - > Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
@@ -93,6 +94,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 :::image type="content" source="media/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
 
 > [!IMPORTANT]
+>
 - > Default Workflow: The following is the default workflows for document library Version History Limits:
 - > Default organization Level Limits: The default Version History limits for your organization will be set to Manual mode with 500 Major Version Limit set to Never Expire.
 - > Default Site or Library Level Limits: By default, there will be no Version History limits set on individual sites as new document libraries inherit the organization level limits.
@@ -102,7 +104,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 - > When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
 
 > [!CAUTION]
-- > Versions deleted under the automatic setting or because the versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
+> Versions deleted under the automatic setting or because the versions'age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
 
 ## Analyzing Version Storage Usage for your Site
 
