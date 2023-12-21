@@ -24,7 +24,7 @@ description: "This article provides guidance on version history feature that ena
 > [!NOTE]
 > This feature is currently in preview and subject to change. Before you begin, read the Microsoft 365 version history preview terms and conditions.
 
-The Version History feature is an integral part of Microsoft’s 365 built-in data protection in SharePoint and OneDrive. An item or file's version history lets a user see or restore to a previous version, helpful for undoing unintended changes—whether accidental or due to malicious activities like ransomware. It also ensures auditability to meet an organization's legal and audit requirements.
+The Version History feature is an integral part of Microsoft’s 365 built-in data protection in SharePoint and OneDrive. An item or file's version history lets a user see or restore to a previous version, helpful for undoing unintended changes, whether accidental or due to malicious activities like ransomware. It also ensures auditability to meet an organization's legal and audit requirements.
 
 Users can use version history to:
 
