@@ -152,7 +152,7 @@ Let’s go through the first file version displayed in this report.
 
 - `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify this version in your SharePoint site.  
 
-- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at `DocLib/MyDocument.docx`. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named `MyDocument.docx`.  
+- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
 
 - `Size` indicates that the version takes 92,246 bytes of storage.  
 
