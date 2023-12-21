@@ -65,6 +65,7 @@ The following apps and scenarios don't work with authentication contexts:
 - Associating an authentication context to the enterprise application catalog site collection is not supported.
 - The “Visualize SharePoint List in Power BI” feature does not currently support authentication context.
 - Outlook on Windows, Mac, Android and iOS do not support communication with SharePoint sites protected by an Authentication Context.
+- In Outlook Web, when sending emails with links to files in OneDrive or SharePoint sites with an authentication context, recipients will not be granted access to these files automatically whenever their sharing permissions are set to "Recipients of this message".
 
 ## Setting up an authentication context
 
