@@ -70,7 +70,7 @@ Site Level Version history limits for sites can be managed in the following ways
 - **Apply limits to existing document libraries only in a Site:** Using this option allows you to update the existing document libraries on a site while allowing the new document libraries to inherit the organization level version history limits. 
 - **Clear limits set on a Site:** Existing limits on a site can be cleared to allow new document libraries created in the site to follow organization level limits. 
     > [!NOTE]
->     Clearing a setting on a Site will only apply to New Document Libraries created on the site and     won't impact the settings on existing doc libraries.
+    > Clearing a setting on a Site will only apply to New Document Libraries created on the site and won't impact the settings on existing doc libraries.
 
 > [!IMPORTANT]
 - > Setting Site Level Version History limits is available using PowerShell cmdlets only.
