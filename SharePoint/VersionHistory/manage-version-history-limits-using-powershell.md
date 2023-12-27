@@ -1,5 +1,5 @@
 ---
-title: "Manage version history limits for a site using PowerShell"
+title: "Manage Version history limits for a site using PowerShell"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
@@ -20,11 +20,11 @@ description: "This article provides guidance on how Version History settings wor
 
 ---
 
-# Manage Version History Limits for a Site using PowerShell 
+# Manage Version history limits for a Site using PowerShell 
 
 ## Environment Setup
 
-To manage Version History Limits for a Site using PowerShell, install the latest PnP Powershell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
+To manage **Version history limits** for a Site using PowerShell, install the latest PnP Powershell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
 
 ## Set Site Level Version Limits for both new and existing document libraries
 
@@ -70,7 +70,7 @@ To manage Version History Limits for a Site using PowerShell, install the latest
 
 :::image type="content" source="media/automatic-setting-new-libs-no-time-limit.PNG" alt-text="automatic setting new libs with no time limit":::
 
-### Clear Site Level Version History Limits  
+### Clear Site Level Version history limits  
 
 If the setting on the site is cleared, the new document libraries use the tenant level settings.  
 > [!NOTE]
