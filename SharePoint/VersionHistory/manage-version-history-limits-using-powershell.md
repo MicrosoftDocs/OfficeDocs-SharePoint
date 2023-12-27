@@ -24,7 +24,7 @@ description: "This article provides guidance on how Version History settings wor
 
 ## Environment Setup
 
-Install the latest PnP Powershell. For document, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
+To manage Version History Limits for a Site using PowerShell, install the latest PnP Powershell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
 
 ## Set Site Level Version Limits for both new and existing document libraries
 

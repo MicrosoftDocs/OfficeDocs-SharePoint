@@ -75,15 +75,15 @@ All worksheets should now be up to date. You can check the information you're in
 
 3. The output displays four tables:
 
-- Current Expiration Schedule: this table contains a time-series summary for your versions as they are. It has these columns:
-    1. Date: a date,  
-    1. NumberOfVersionsAvailable: the number of versions available on that date under the current schedule,  
-    1. NumberOfVersionsExpired: the number of versions expired on that date under the current schedule, and  
+- Current Expiration Schedule: this table contains a time-series summary for your versions as they are. It has the following columns:
+    1. Date: the first column represents the date.
+    1. NumberOfVersionsAvailable: the number of versions available on that date under the current schedule.  
+    1. NumberOfVersionsExpired: the number of versions expired on that date under the current schedule.  
     1. SizeOfVersionsExpiredMB: the size of versions expired on that date under the current schedule.  
 
 :::image type="content" source="media/current-expiration-schedule.PNG" alt-text="":::
 
-- Target Expiration Schedule: the same as Current Expiration Schedule but reflects that of the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the TargetExpirationDate column in the file version expiration report.  
+- Target Expiration Schedule: this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the TargetExpirationDate column in the file version expiration report.  
 
 :::image type="content" source="media/target-expiration-schedule.PNG" alt-text="":::
 
