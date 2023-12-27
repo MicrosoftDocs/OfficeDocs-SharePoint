@@ -44,7 +44,7 @@ The automatic setting combines the data recovery benefits that Version History o
 
 The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways:
 
-- **Major version limit with expiration period**: Configuring count and expiration limits sets versions to be trimmed if versions exceed those count limits or when version reaches its expiration period. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and it will automatically delete any version older than 365 days.
+- **Major version limit with expiration period**: Configuring count and expiration limits sets versions to be trimmed if versions exceed those count limits or when version reaches its expiration period. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
 
 - **Major version limits with no expiration period**: Configuring count limits with no expiration sets versions to be trimmed if versions exceed configured count limits. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
 
@@ -59,7 +59,7 @@ Organization-level version settings define the default version storage limits se
 
 ## Setting Version History Limits for a Site
 
-By default, Site level Version history limits aren't set on individual sites as the Organization level settings define the limit that is applied to all new document libraries created in a site. However, to meet Site specific content needs, Site Admins can choose to a set distinct Site level Version History limits on individual Sites. This way, users can break the inheritance from organization limits on an individual site.
+By default, Site level Version history limits aren't set on individual sites as the Organization level settings define the limit that is applied to all new document libraries created in a site. However, to meet Site specific content needs, Site Admins can choose to set distinct Site level Version History limits on individual Sites. This way, users can break the inheritance from organization limits on an individual site.
 
 Site Level Version history limits for sites can be managed in the following ways: 
 
@@ -146,7 +146,7 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 
 You can download the report file from SharePoint and do any analysis to learn about the dataset.
 
-There are 12 rows in this table. The first row is the header row. Note that the compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
+There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
 
 :::image type="content" source="media/file-version-expiration-report.PNG" alt-text="An example file version expiration report and its column breakdown":::
 
