@@ -31,21 +31,20 @@ To manage Version History Limits for a Site using PowerShell, install the latest
 ### Apply Automatic settings
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $true`
-Check version policy setting on the site
-`Get-PnPSiteVersionPolicy`
+<br> Check version policy setting on the site using `Get-PnPSiteVersionPolicy`
 
 > [!NOTE]
 > Run `Get-PnPSiteVersionPolicy` in a new PS7 window if the values are not refreshed after set.  
 
 :::image type="content" source="media/automatic-setting-pnp-site.PNG" alt-text="automatic set pnp":::
 
-### Apply manual settings with versions count and time limits
+### Apply Manual Setting with versions count and Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 10 -ExpireVersionsAfterDays 200`
 
 :::image type="content" source="media/manual-setting-pnp-site-time-limit.PNG" alt-text="manual set pnp time limit":::
 
-### Apply Manual Setting with Versions count and No Time limits
+### Apply Manual Setting with versions count and No Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 300 -MinorVersions 20 -ExpireVersionsAfterDays 0`
 
@@ -59,7 +58,7 @@ Check version policy setting on the site
 
 :::image type="content" source="media/automatic-setting-new-libs.PNG" alt-text="automatic set for new libs":::
 
-### Apply Manual Settings with Major Version Count and Time limits
+### Apply Manual Setting with Major Version Count and Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -ExpireVersionsAfterDays 200 -ApplyForNewLibs`
 
@@ -89,13 +88,13 @@ If the setting on the site is cleared, the new document libraries use the tenant
 
 :::image type="content" source="media/automatic-setting-existing-libs.PNG" alt-text="":::
 
-### Apply Manual settings with Versions count and Time limits
+### Apply Manual Setting with Versions count and Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 5 -ExpireVersionsAfterDays 200 -ApplyForExistingLibs`
 
 :::image type="content" source="media/manual-setting-existing-libs-time-limit.PNG" alt-text="":::
 
-### Apply Manual settings with Versions count and NO Time limits
+### Apply Manual Setting with Versions count and NO Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 5 -ExpireVersionsAfterDays 0 -ApplyForExistingLib`s 
 
