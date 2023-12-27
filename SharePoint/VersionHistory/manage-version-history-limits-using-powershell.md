@@ -43,7 +43,7 @@ Check version policy setting on the site
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 10 -ExpireVersionsAfterDays 200`
 
-:::image type="content" source="media/automatic-setting-pnp-site.PNG" alt-text="manual set pnp time limit":::
+:::image type="content" source="media/manual-setting-pnp-site-time-limit.PNG" alt-text="manual set pnp time limit":::
 
 ### Apply Manual Setting with Versions count and No Time limits
 
