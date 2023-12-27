@@ -100,7 +100,7 @@ For instance, if your folder has the script and the schedule file, Schedule.csv,
 
 - Use cmdlet included in VersionUtils.ps1 script to queue a version expiration scheduling job.
 
-For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com). Using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
+For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
 :::image type="content" source="media/schedule-a-job-powershell.PNG" alt-text="":::
 
@@ -112,7 +112,7 @@ For example, if you're scheduling a job for the [site](https://contoso.sharepoin
 
 - Use the cmdlet included in `VersionUtils.ps1` script to check the status of a version expiration scheduling job.  
 
-For example,  if you're scheduling a job for the [site](https://contoso.sharepoint.com). Using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
+For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
 :::image type="content" source="media/version-expiration-scheduling-job.PNG" alt-text="":::
 
