@@ -86,11 +86,9 @@ This article describes how Site Administrators can trim existing version history
 
 ### Optimize the File Expiration Report
 
-- Using the `OptimizeScheduleFile.ps1` script to optimize the File Expiration Report in PowerShell.  
+- Use the `OptimizeScheduleFile.ps1` script to optimize the File Expiration Report in PowerShell. <br>`. <Path to OptimizeScheduleFile.ps1>” -ImportPath “<Path to the schedule file>” -ExportPath “<Path to the optimized schedule file>`
 
-`. <Path to OptimizeScheduleFile.ps1>” -ImportPath “<Path to the schedule file>” -ExportPath “<Path to the optimized schedule file>`
-
-For instance, if your folder has the script and the schedule file, Schedule.csv, and you want to create an optimized schedule file named `Schedule_Optimized.csv` under the same folder, you can execute the command in PowerShell. You'll see a new file `Schedule_Optimized.csv` in folder.  
+- For instance, if your folder has the script and the schedule file, Schedule.csv, and you want to create an optimized schedule file named `Schedule_Optimized.csv` under the same folder, you can execute the command in PowerShell. You'll see a new file `Schedule_Optimized.csv` in folder.  
 
 ### Queue Version Trimming Job
 
@@ -100,7 +98,7 @@ For instance, if your folder has the script and the schedule file, Schedule.csv,
 
 - Use cmdlet included in VersionUtils.ps1 script to queue a version expiration scheduling job.
 
-For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
+- For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
 :::image type="content" source="media/schedule-a-job-powershell.PNG" alt-text="":::
 
@@ -112,7 +110,7 @@ For example, if you're scheduling a job for the [site](https://contoso.sharepoin
 
 - Use the cmdlet included in `VersionUtils.ps1` script to check the status of a version expiration scheduling job.  
 
-For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
+- For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
 :::image type="content" source="media/version-expiration-scheduling-job.PNG" alt-text="":::
 
