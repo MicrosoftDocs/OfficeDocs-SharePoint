@@ -1,5 +1,5 @@
 ---
-title: "How Version History settings work"
+title: "How to analyze version storage for sites"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
@@ -45,21 +45,21 @@ Follow these steps to populate the workbook:
 
 2. If you want to change the date range of graphs in **Number of Versions Available** worksheet, or **Size of Versions Expired** worksheet, change the corresponding values in Cells B6, B7, B10, and/or B11. This is optional.  
 
-:::image type="content" source="media/analyze-version-step2.PNG" alt-text="":::
+:::image type="content" source="media/analyze-version-step2.PNG" alt-text="analyze version configuration":::
 
 3. At the top of Excel, click **Data** tab, and in the Ribbon, click **Refresh All** button.
 
-:::image type="content" source="media/analyze-version-step3.PNG" alt-text="":::
+:::image type="content" source="media/analyze-version-step3.PNG" alt-text="analyze version data tab":::
 
 4. On the **Calculations** worksheet, autofill the **Number of Versions** and **Number of Versions Remaining After Deletion** columns.
 
-:::image type="content" source="media/analyze-version-step4-a.PNG" alt-text="":::
+:::image type="content" source="media/analyze-version-step4-a.PNG" alt-text="Calculations worksheet 1":::
 
-:::image type="content" source="media/analyze-version-step4-b.PNG" alt-text="":::
+:::image type="content" source="media/analyze-version-step4-b.PNG" alt-text="Calculations worksheet 2":::
 
 5. On the **Impacted Users** worksheet, autofill the **Number of Versions Will be Deleted** column.
 
-:::image type="content" source="media/analyze-version-step5.PNG" alt-text="":::
+:::image type="content" source="media/analyze-version-step5.PNG" alt-text="Impacted Users worksheet":::
 
 All worksheets should now be up to date. You can check the information you're interested in.
 
@@ -67,11 +67,11 @@ All worksheets should now be up to date. You can check the information you're in
 
 1. Save the script as a file named **AnalyzeReportFile.ps1.**
 
-:::image type="content" source="media/analyse-report-file.PNG" alt-text="":::
+:::image type="content" source="media/analyse-report-file.PNG" alt-text="AnalyzeReportFile":::
 
 2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
 
-:::image type="content" source="media/analyze-report-powershell-command.PNG" alt-text="":::
+:::image type="content" source="media/analyze-report-powershell-command.PNG" alt-text="analyze report powershell command":::
 
 3. The output displays four tables:
 
@@ -81,19 +81,19 @@ All worksheets should now be up to date. You can check the information you're in
     1. NumberOfVersionsExpired: the number of versions expired on that date under the current schedule.  
     1. SizeOfVersionsExpiredMB: the size of versions expired on that date under the current schedule.  
 
-:::image type="content" source="media/current-expiration-schedule.PNG" alt-text="":::
+:::image type="content" source="media/current-expiration-schedule.PNG" alt-text="Current Expiration Schedule":::
 
 - Target Expiration Schedule: this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the TargetExpirationDate column in the file version expiration report.  
 
-:::image type="content" source="media/target-expiration-schedule.PNG" alt-text="":::
+:::image type="content" source="media/target-expiration-schedule.PNG" alt-text="Target Expiration Schedule":::
 
 - Files with Fewer Than 10 Versions: a list of the URLs, and the number of versions before and after the deletion for those files whose number of versions is fewer than 10 after immediate deletion (but was more than 10 before the immediate deletion).  
 
-:::image type="content" source="media/files-with-fewer-than-10-versions.PNG" alt-text="":::
+:::image type="content" source="media/files-with-fewer-than-10-versions.PNG" alt-text="Files with Fewer Than 10 Versions":::
 
 - Users Impacted: the users whose versions would be immediately deleted.
 
-:::image type="content" source="media/users-impacted.PNG" alt-text="":::
+:::image type="content" source="media/users-impacted.PNG" alt-text="Users Impacted":::
 
 Optionally, you can adjust the parameters:
 

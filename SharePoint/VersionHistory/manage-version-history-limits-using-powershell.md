@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how Version History settings work."
+description: "This article provides guidance on how to manage version history limits for a site using PowerShell."
 
 ---
 
@@ -78,7 +78,7 @@ If the setting on the site is cleared, the new document libraries use the tenant
 
 `Set-PnPSite -InheritTenantVPForNewDocLibs`
 
-:::image type="content" source="media/inherit-tenant-new-doc-libs.PNG" alt-text="":::
+:::image type="content" source="media/inherit-tenant-new-doc-libs.PNG" alt-text="inherit tenant new doc libs":::
 
 ## Set site version policy for existing document libraries only
 
@@ -86,19 +86,19 @@ If the setting on the site is cleared, the new document libraries use the tenant
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $true -ApplyForExistingLibs`  
 
-:::image type="content" source="media/automatic-setting-existing-libs.PNG" alt-text="":::
+:::image type="content" source="media/automatic-setting-existing-libs.PNG" alt-text="automatic setting existing libs":::
 
 ### Apply Manual Setting with Versions count and Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 5 -ExpireVersionsAfterDays 200 -ApplyForExistingLibs`
 
-:::image type="content" source="media/manual-setting-existing-libs-time-limit.PNG" alt-text="":::
+:::image type="content" source="media/manual-setting-existing-libs-time-limit.PNG" alt-text="manual setting existing libs time limit":::
 
 ### Apply Manual Setting with Versions count and NO Time limits
 
 `Set-PnPSite -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -MinorVersions 5 -ExpireVersionsAfterDays 0 -ApplyForExistingLib`s 
 
-:::image type="content" source="media/manual-setting-existing-libs-no-time-limit.PNG" alt-text="":::
+:::image type="content" source="media/manual-setting-existing-libs-no-time-limit.PNG" alt-text="manual setting existing libs no time limit":::
 
 ### Cancel the request  
 
@@ -106,4 +106,4 @@ Cancel the request that isn't processed. Can't revert the change for the process
 
 `Set-PnPSite -CancelVPForExistingLibs`  
 
-:::image type="content" source="media/cancel-existing-libs.PNG" alt-text="":::
+:::image type="content" source="media/cancel-existing-libs.PNG" alt-text="cancel existing libs":::
