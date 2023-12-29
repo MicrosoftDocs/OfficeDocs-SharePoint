@@ -102,7 +102,7 @@ This article describes how Site Administrators can trim existing version history
 
 :::image type="content" source="media/schedule-a-job-powershell.PNG" alt-text="schedule a job powershell":::
 
-:::image type="content" source="media/schedule-a-job-powershell-1.PNG" alt-text="schedule a job powershell":::
+:::image type="content" source="media/schedule-a-job-powershell-1.PNG" alt-text="schedule a job powershell 1":::
 
 - Then, all the versions in the schedule file update their expiration time to your specified time. It completes asynchronously in the upcoming days. The specific length of time is dependent on how many versions are being deleted or expired.  
 
@@ -112,7 +112,7 @@ This article describes how Site Administrators can trim existing version history
 
 - For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
-:::image type="content" source="media/version-expiration-scheduling-job.PNG" alt-text="version-expiration-scheduling-job":::
+:::image type="content" source="media/version-expiration-scheduling-job.PNG" alt-text="version expiration scheduling job":::
 
 - JSON strings are returned in one of the following formats:
 
