@@ -1,2 +1,6 @@
 # [Introduction to Version History](../versioning-overview.md)
 ## [How Version History settings work](../how-version-history-settings-work.md)
+## [Planning Version Storage for your Organization](../planning-version-storage-for-your-organization.md)
+## [Manage Version history limits for your Organization](../manage-version-history-limits.md)
+## [Manage Version history limits for a Site using PowerShell](../manage-version-history-limits-using-powershell.md)
+## [How to Analyze Version Storage for Sites](../how-analyze-version-storage-for-sites.md)
