@@ -1,5 +1,5 @@
 ---
-title: "FAQs for Versions"
+title: "FAQs for Versions history limits"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn frequently asked questions for versions."
 ---
 
-# Frequently asked questions for Version history limits
+# FAQs for Version history limits
 
 ## What happens to versions that are deleted, expired or exceeded the count limits?
 
