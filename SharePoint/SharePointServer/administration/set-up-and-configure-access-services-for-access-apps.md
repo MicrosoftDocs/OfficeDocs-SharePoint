@@ -20,19 +20,21 @@ description: "Learn how to install, set up, and provision Access Services for Ac
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-To install, set up, and provision Access apps for SharePoint in Access Services in SharePoint Server 2013, perform the following steps:
+To install, set up, and provision Access apps for SharePoint in Access Services in SharePoint Server 2016 or 2019, perform the following steps:
   
-1. Install and configure SQL Server 2012 Enterprise software, because an Access app stores its data in a separate SQL Server back-end database.
+1. Install and configure SQL Server 2016 Enterprise software, because an Access app stores its data in a separate SQL Server back-end database.
     
-2. Configure SharePoint 2013 for apps for SharePoint, because an Access app is an app for SharePoint.
+2. Configure SharePoint 2016/2019 for apps for SharePoint, because an Access app is an app for SharePoint.
     
 3. Configure Access Services for Access apps so that Access Services can successfully run Access apps.
     
 4. Create a dedicated SharePoint site collection for Access apps, because each Access app requires its own subsite.
     
-For information about how to set up and configure Access Services for Access apps, see the following white paper:
-  
-- [White Paper: Office 2013--Access Services Setup for an On-Premises Installation](https://go.microsoft.com/fwlink/?LinkId=267146)
+For information about how to set up and configure Access Services for Access apps, see the following white paper:  
+
+- [White Paper: Access Services Setup for an On-Premise Installation of SharePoint 2016 and 2019](https://go.microsoft.com/fwlink/?linkid=2212473)
+
+NOTE: For Access Services for SharePoint 2013, please see - [White Paper: Office 2013--Access Services Setup for an On-Premises Installation](https://go.microsoft.com/fwlink/?LinkId=267146)
     
 ## See also
 
