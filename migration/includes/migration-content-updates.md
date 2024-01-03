@@ -2,6 +2,27 @@
 
 
 
+## Week of December 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2023 | [SharePoint Migration Tool settings](/SharepointMigration/spmt-settings) | modified |
+| 12/14/2023 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
+| 12/14/2023 | [SharePoint Migration tool FAQs](/SharepointMigration/spmt-faqs) | modified |
+| 12/14/2023 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
+| 12/15/2023 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+
+
+## Week of December 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/6/2023 | [SharePoint Migration tool FAQs](/SharepointMigration/spmt-faqs) | added |
+| 12/7/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
 ## Week of November 27, 2023
 
 
