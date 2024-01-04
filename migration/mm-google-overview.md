@@ -57,7 +57,7 @@ Make sure that you have:
 
 ## Google Shared Drives
 
-Google Shared drives are now migrated by default. Google Shared Drive permissions are migrated according to what you have set in Project settings, under [general permission setting](/sharepointmigration/mm-project-settings-permissions#migrate-permissions). 
+Google Shared drives can now be discovered and migrated normally. Google Shared Drive permissions are migrated according to what you have set in Project settings, under [general permission setting](/sharepointmigration/mm-project-settings-permissions#migrate-permissions). 
 
 Folder permissions are migrated by default. File permissions are migrated on demand. 
 
@@ -78,8 +78,7 @@ Google doesn't allow us to export these items from Drive:
 
 ### Docs, Slides, and Sheets
 
-Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
-
+Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Google export API converts to the Microsoft Office format from Google's format.
 
 |Google format|Office format|
 |:-----|:-----|
@@ -88,16 +87,15 @@ Google's proprietary formats aren't compatible with anything other than a Google
 |.gslide|.pptx|
 
 
->[!Note]
->The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
-
+> [!Note]
+> The only way to migrate/download a Google format file is to request that they [Google] facilitate it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
 ### File size of Google proprietary files
 
 Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 won't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 
-Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, this error will appear:
+Google Workspace/Drive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. If not disabled, this error will appear:
 
 `Permissions issue: File marked as restricted or not copyable`
 

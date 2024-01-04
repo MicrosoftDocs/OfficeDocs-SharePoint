@@ -92,6 +92,7 @@
 ### Stream Reference
 #### [Bulk upload Stream source paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
+### [SPMT FAQs](spmt-faqs.md)
 ### [Scan and assess a SharePoint Server site with SPMT](spmt-scan.md)
 ### [SharePoint Migration Tool (SPMT) scan assessment error codes](spmt-scan-risk-codes.md)
 ### [File size limitations](mm-file-size-limitations.md)
