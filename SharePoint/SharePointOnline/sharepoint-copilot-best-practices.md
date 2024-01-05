@@ -65,7 +65,9 @@ If you find discrepancies on these reports, apply *Restricted Access Control* to
 
 The new “Site access review” feature on the reports lets a SharePoint admin seek justification from site owners on oversharing.
 
-Learn more about these reports: [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports#sharing-links-reports)
+Learn more about these reports: 
+
+- [**Data access governance reports for SharePoint sites**](/sharepoint/data-access-governance-reports#sharing-links-reports)
 
 Learn how to restrict access to OneDrive and SharePoint sites by security groups. Using security groups prevents access to a limited known set of users for specific sites and OneDrive. Contents from these sites aren't available to Copilot or to users who previously had access before implementing the policy.
 
