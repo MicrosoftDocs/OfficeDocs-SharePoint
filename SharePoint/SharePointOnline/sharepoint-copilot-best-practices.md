@@ -23,7 +23,7 @@ description: "Learn about the best practices when using SharePoint Copilot."
 ---
 # SharePoint Copilot best practices
 
-Microsoft Copilot provides connects your Large Language Models (LLMS) to your organizational data, including documents stored in SharePoint, OneDrive, emails, calendar, chats, meetings, and contacts. Copilot combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on an article, or the chat conversations the user had last week. Copilot uses this combination of content and context to help provide accurate, relevant, and contextual responses.
+Microsoft Copilot connects your Large Language Models (LLMS) to your organizational data, including documents stored in SharePoint, OneDrive, emails, calendar, chats, meetings, and contacts. Copilot combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on an article, or the chat conversations the user had last week. Copilot uses this combination of content and context to help provide accurate, relevant, and contextual responses.
 
 Microsoft Copilot only accesses organizational data that the individual user has at a minimum **view permissions**. It's important that you're using the permission models in SharePoint to help ensure the right users or groups have the right access to the right content within your organization.
 
