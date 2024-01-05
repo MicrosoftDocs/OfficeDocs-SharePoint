@@ -121,7 +121,7 @@ You can also make individual libraries secure with encryption:
 > - DKE: Double Key Encryption (DKE) is intended for your most sensitive data that is subject to the strictest protection requirements. Copilot can't access this data.
 
 
-### Implement Conditional access for SharePoint and OneDrive
+### Implement conditional access for SharePoint and OneDrive
 
 Learn more about conditional access support in SharePoint and OneDrive. 
 
