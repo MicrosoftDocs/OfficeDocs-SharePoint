@@ -2,6 +2,14 @@
 
 
 
+## Week of January 01, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/5/2024 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
+
+
 ## Week of December 25, 2023
 
 
@@ -16,11 +24,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 12/12/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
-
-
-## Week of November 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/27/2023 | [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements) | modified |
