@@ -1,5 +1,5 @@
 ---
-ms.date: 01/04/2024
+ms.date: 01/09/2024
 title: SharePoint Copilot Best Practices
 ms.reviewer: 
 ms.author: jhendr
@@ -23,11 +23,16 @@ description: "Learn about the best practices when using SharePoint Copilot."
 ---
 # SharePoint Copilot best practices
 
-Microsoft Copilot connects your Large Language Models (LLMS) to your organizational data, including documents stored in SharePoint, OneDrive, emails, calendar, chats, meetings, and contacts. Copilot combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on an article, or the chat conversations the user had last week. Copilot uses this combination of content and context to help provide accurate, relevant, and contextual responses.
+Microsoft Copilot for SharePoint connects your Large Language Models (LLMS) to your organizational data, including documents stored in SharePoint, OneDrive, emails, calendar, chats, meetings, and contacts. Copilot combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on an article, or the chat conversations the user had last week. Copilot uses this combination of content and context to help provide accurate, relevant, and contextual responses.
 
-Microsoft Copilot only accesses organizational data that the individual user has at a minimum **view permissions**. It's important that you're using the permission models in SharePoint to help ensure the right users or groups have the right access to the right content within your organization.
+Copilot for SharePoint only accesses organizational data that the individual user has at a minimum **view permissions**. It's important that you're using the permission models in SharePoint to help ensure the right users or groups have the right access to the right content within your organization.
 
-## Before deploying Microsoft Copilot
+Recommended reading:
+
+[Apply principles of Zero Trust to Microsoft Copilot for Microsoft 365](/security/zero-trust/zero-trust-microsoft-365-copilot)
+
+
+## Before deploying Copilot for SharePoint
 
 Organizations have different levels of maturity in governing SharePoint data. While some enterprises strictly monitor permissions and report oversharing, this isn't the case for all businesses. Mature enterprises can also have valid business cases to share some data broadly within their company.  
 
@@ -35,7 +40,7 @@ When you upload a document, take time to understand the permissions set for that
 
 ### Impact of oversharing
 
-Have your ever decided to just share a link with everyone instead of identifying specific users? It's not uncommon. However, it's important to understand that what could seem like harmless oversharing, becomes an issue when using a powerful feature like Copilot. 
+Often users take shortcut and create ashared link with everyone instead of identifying specific users. t's important to understand that what could seem like harmless oversharing, becomes an issue when using a powerful feature like Copilot. 
 
 >[!Important]
 > Copilot utilizes all data that a user has access to, which can include broadly shared files that the user may be unaware of.
@@ -88,7 +93,7 @@ You can also prevent members of a site sharing directly requiring consent from t
 
 - [**Limit sharing in Microsoft 365**](/microsoft-365/solutions/microsoft-365-limit-sharing?view=o365-worldwide#sharepoint-site)
 
-You can also control the “default sharing link type” and “change how members can share” features using sensitivity labels. Doing so lets you scale across thousands of sites, and millions of documents.
+You can also control the “default sharing link type” and “change how members can share” features using sensitivity labels. Doing so lets you scale across thousands of sites, and millions of documents. https://learn.microsoft.com/en-us/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot
 
 - [**Use sensitivity labels to configure the default sharing link type**](/purview/sensitivity-labels-default-sharing-link)
 
@@ -98,7 +103,7 @@ Train your users on sharing features, especially for OneDrive accounts. Generate
 
 - [**Report on file and folder sharing in a SharePoint site**](https://learn.microsoft.com/en-us/sharepoint/sharing-reports)
 
-Remind SharePoint site and team owners that they're responsible for their content. Advise them on how to review sharing reports, understand the impact of inheritance, and how to handle sensitive document types. Make sure that site owners are notified of all site access requests.
+Remind SharePoint site and team owners that they're responsible for their content. Advise them on how to review sharing reports, understand the impact of inheritance, and how to handle sensitive document types. Make sure that site owners are notified of all site access requests. Also adding sensitivity label to files, even without encryption, adds protection.
 
 -  [**Understand the impact of inheritance**](/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
 
@@ -107,20 +112,16 @@ Remind SharePoint site and team owners that they're responsible for their conten
 
 ### Apply sensitivity labels 
 
-For enhanced protection, consider applying Sensitivity labels with encryption on Office files. This helps in scenarios where a user can have access to an entire site but still can’t access because of encryption. Copilot fully honors access and permissions as configured in the label attached to the file. 
+For enhanced protection, consider applying Sensitivity labels with encryption on Office files. This helps in scenarios where a user can have access to an entire site but still can’t access because of encryption. Copilot fully honors access and permissions as configured in the label attached to the file.
 
-Learn more about how encryption works in SharePoint and OneDrive. 
-- [**Enable sensitivity labels for files in SharePoint and OneDrive**](/purview/sensitivity-labels-sharepoint-onedrive-files)
+Learn how sensitivity labels provide an extra layer of protection:
 
-You can also make individual libraries secure with encryption:
+- [**Microsoft Purview data security and compliance protections for Microsoft Copilot**](/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot)
+- [**Information protection considerations for Copilot**](/purview/ai-microsoft-purview-considerations#information-protection-considerations-for-copilot)
 
-- [**Configure a default sensitivity label for a SharePoint document library**](/purview/sensitivity-labels-sharepoint-default-label)
+Learn more about how encryption works in SharePoint and OneDrive:  [**Enable sensitivity labels for files in SharePoint and OneDrive**](/purview/sensitivity-labels-sharepoint-onedrive-files)
 
->[!Note]
->Copilot returns the files but doesn't summarize the content for files with these restrictions via encryption:
-> - Extract restrictions (Don't forward emails, don't copy files, and other items with extract restrictions)
-> - User-defined permissioned labeled files
-> - DKE: Double Key Encryption (DKE) is intended for your most sensitive data that is subject to the strictest protection requirements. Copilot can't access this data.
+To improve the security on individual libraries with encryption: [**Configure a default sensitivity label for a SharePoint document library**](/purview/sensitivity-labels-sharepoint-default-label)
 
 
 ### Implement conditional access for SharePoint and OneDrive
