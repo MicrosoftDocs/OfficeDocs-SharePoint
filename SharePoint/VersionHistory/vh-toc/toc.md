@@ -5,4 +5,4 @@
 ## [Manage Version history limits for a Site using PowerShell](../manage-version-history-limits-using-powershell.md)
 ## [How to Analyze Version Storage for Sites](../how-analyze-version-storage-for-sites.md)
 ## [How to Trim Existing Versions from Sites or Libraries](../how-to-trim-existing-versions-from-sites-or-libraries.md)
-## [Frequently asked questions for Version history limits](../faqs-for-versions.md)
+## [FAQs for Version history limits](../faqs-for-versions.md)
