@@ -24,7 +24,7 @@ description: "This article provides guidance on how to analyze version storage f
 
 After configuring the `TargetExpirationDate` values for your report, you can choose to perform deeper analysis to see the impact of the trimming before running an actual trim. You can perform this analysis independently, or alternatively, we provide two recommended options for your analysis.  
 
-## Option one: Analyze the report using excel
+## Option one: Analyze the report using Excel
 
 Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find the following worksheets in it.  
 
@@ -47,7 +47,7 @@ Follow these steps to populate the workbook:
 
 :::image type="content" source="media/analyze-version-step2.PNG" alt-text="analyze version configuration":::
 
-3. At the top of Excel, click **Data** tab, and in the Ribbon, click **Refresh All** button.
+3. At the top of Excel, select **Data** tab, and in the Ribbon, select **Refresh All** button.
 
 :::image type="content" source="media/analyze-version-step3.PNG" alt-text="analyze version data tab":::
 
@@ -75,7 +75,7 @@ All worksheets should now be up to date. You can check the information you're in
 
 3. The output displays four tables:
 
-- Current Expiration Schedule: this table contains a time-series summary for your versions as they are. It has the following columns:
+- **Current Expiration Schedule:** this table contains a time-series summary for your versions as they are. It has the following columns:
     1. Date: the first column represents the date.
     1. NumberOfVersionsAvailable: the number of versions available on that date under the current schedule.  
     1. NumberOfVersionsExpired: the number of versions expired on that date under the current schedule.  
@@ -83,15 +83,15 @@ All worksheets should now be up to date. You can check the information you're in
 
 :::image type="content" source="media/current-expiration-schedule.PNG" alt-text="Current Expiration Schedule":::
 
-- Target Expiration Schedule: this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the TargetExpirationDate column in the file version expiration report.  
+- **Target Expiration Schedule:** this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the **TargetExpirationDate** column in the file version expiration report.  
 
 :::image type="content" source="media/target-expiration-schedule.PNG" alt-text="Target Expiration Schedule":::
 
-- Files with Fewer Than 10 Versions: a list of the URLs, and the number of versions before and after the deletion for those files whose number of versions is fewer than 10 after immediate deletion (but was more than 10 before the immediate deletion).  
+- **Files with Fewer Than 10 Versions:** a list of the URLs, and the number of versions before and after the deletion for those files whose number of versions is fewer than 10 after immediate deletion (but was more than 10 before the immediate deletion).  
 
 :::image type="content" source="media/files-with-fewer-than-10-versions.PNG" alt-text="Files with Fewer Than 10 Versions":::
 
-- Users Impacted: the users whose versions would be immediately deleted.
+- **Users Impacted:** the users whose versions would be immediately deleted.
 
 :::image type="content" source="media/users-impacted.PNG" alt-text="Users Impacted":::
 
