@@ -22,21 +22,21 @@ description: "This article provides guidance on how Version History settings wor
 
 # How Version History settings work
 
-You can control the version history in SharePoint at different levels-organization, site, individual library, or list level. This helps admins and site owners manage content recovery and auditing more effectively. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site Owners can overwrite organization-level version settings by [configuring versions settings for sites](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
+You can control the version history in SharePoint at different levels—organization, site, individual library, or list level. This helps admins and site owners manage content recovery and auditing more effectively. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site Owners can overwrite organization-level version settings by [configuring versions settings for sites](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
 
 The following table summarizes the various ways of managing **Version history limits** on your document libraries:
 
 | Area | How does it work? |
 |:-----|:-----|
 | Set Default Document Library **Version history limits** for your entire organization | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
-| Break Inheritance from Default Organization Limits by Setting Site Level or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
+| Break Inheritance from Default Organization Limits by Setting site-level or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
 | Trim Existing Versions | Site Admins can choose to trim existing version history storage by running ‘What-If’ reports to understand the impact and then scheduling a timer job to execute the trimming. |
 
-## Types of Version history limits
+## Setting types of Version history limits
 
-There are two Version History settings that Admins can use to configure version limits for all new libraries created in their organization:
+There are two Version history settings that admins can use to configure version limits for all new libraries created in their organization:
 
-### **Automatic Setting:** (Recommended for optimized version storage)
+### **Automatic Setting:** (recommended for optimized version storage)
 
 The automatic setting combines the data recovery benefits that Version History offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
 
@@ -44,9 +44,9 @@ The automatic setting combines the data recovery benefits that Version History o
 
 The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways:
 
-- **Major version limit with expiration period**: Configuring count and expiration limits sets versions to be trimmed if versions exceed those count limits or when version reaches its expiration period. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
+- **Major version limit with expiration period**: Versions are deleted after exceeding either the set number of major versions or after the set period of time. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
 
-- **Major version limits with no expiration period**: Configuring count limits with no expiration sets versions to be trimmed if versions exceed configured count limits. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
+- **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
 
 ## Setting Default Version history limits for your Organization
 
@@ -59,22 +59,20 @@ Organization-level version settings define the default version storage limits se
 
 ## Setting Version history limits for a Site
 
-By default, Site level **Version history limits** aren't set on individual sites as the Organization level settings define the limit that is applied to all new document libraries created in a site. However, to meet Site specific content needs, Site Admins can choose to set distinct Site level **Version history limits** on individual Sites. This way, users can break the inheritance from organization limits on an individual site.
+By default, site-level **Version history limits** aren't set on individual sites as the Organization level settings define the limit that is applied to all new document libraries created in a site. However, to meet site-specific content needs, site admins can choose to set distinct site-level **Version history limits** on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
-Site Level **Version history limits** for sites can be managed in the following ways:
+Site-level **Version history limits** for sites can be managed in the following ways:
 
-- **Apply Site Level Version history limits to all new and existing document libraries in a Site:** Using this option, the Version history limit set on site level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.  
-
-- **Apply Site Level Version history limits to only new document libraries created in a Site:** Using this option, the **Version history limits** set on site level are only applied to new document libraries created in the site. There will be no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.  
-
-- **Apply limits to existing document libraries only in a Site:** Using this option allows you to update the existing document libraries on a site while allowing the new document libraries to inherit the organization-level **Version history limits**.
-- **Clear limits set on a Site:** Existing limits on a site can be cleared to allow new document libraries created in the site to follow organization level limits. 
-    > [!NOTE]
-    > Clearing a setting on a Site will only apply to New Document Libraries created on the site and won't impact the settings on existing doc libraries.
+| **Version history limits option** | Description |
+|:-----|:-----|
+|**Apply site-level Version history limits to all new and existing document libraries in a Site:** |Using this option, the **Version history limit** set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
+|**Apply site-level Version history limits to only new document libraries created in a Site:**|Using this option, the **Version history limits** set on site-level are only applied to new document libraries created in the site. There will be no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
+|**Apply limits to existing document libraries only in a Site:**|Using this option allows you to update the existing document libraries on a site while allowing the new document libraries to inherit the organization-level **Version history limits**.|
+|**Clear limits set on a Site:** |Existing limits on a site can be cleared to allow new document libraries created in the site to follow organization level limits. NOTE: Clearing a setting on a Site will only apply to New Document Libraries created on the site and won't impact the settings on existing doc libraries.|
 
 > [!IMPORTANT]
 >
-> - Setting Site Level **Version history limits** is available using PowerShell cmdlets only.
+> - Setting site-level **Version history limits** is available using PowerShell cmdlets only.
 > - Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
 > - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
 > - MinorVersions count only applies to the document libraries that enabled minor versioning.
@@ -83,7 +81,7 @@ Site Level **Version history limits** for sites can be managed in the following 
 
 ## Setting Version history limits for Individual Document Library
 
-The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site has broken inheritance from the organization. However, to meet specific content requirements, Site Administrators can decide to overwrite the setting of a document library.
+The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site has broken inheritance from the organization. However, to meet specific content requirements, site admins can decide to overwrite the setting of a document library.
 
 Here's a summary of the expected behavior when Document Libraries version expiration or count limits are updated:  
 
@@ -93,18 +91,22 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 :::image type="content" source="media/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
 
-> [!IMPORTANT]
->
-> - Default Workflow: The following is the default workflows for document library **Version history limits**:
-> - Default organization Level Limits: The default **Version history limits** for your organization will be set to Manual mode with **500 Major Version Limit** set to **Never Expire**.
-> - Default Site or Library Level Limits: By default, there will be no **Version history limits** set on individual sites as new document libraries inherit the organization level limits.
-> - Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
-> - Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
-> - A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
-> - When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
-
 > [!CAUTION]
 > Versions deleted either under the automatic setting or due to versions' age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
+
+The important points to note are as follows:
+
+- Default Workflow: The following is the default workflows for document library **Version history limits**:
+    - Default organization Level Limits: The default **Version history limits** for your organization will be set to Manual mode with **500 Major Version Limit** set to **Never Expire**.
+    - Default Site or Library Level Limits: By default, there will be no **Version history limits** set on individual sites as new document libraries inherit the organization level limits.
+
+- Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+
+- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
+
+- A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
+
+- When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
 
 ## Analyzing Version Storage Usage for your Site
 
@@ -117,32 +119,31 @@ As a SharePoint Site Administrator, you can create a CSV file of every file vers
 
 The file version expiration report is in Comma-Separated Values (CSV) format. Each row corresponds to a file version, and it contains the following columns:
 
-**File Version Identifiers:**
+| **File Version Identifiers:** | Description |
+|:-----|:-----|
+|`WebId`|The unique identifier of the web and is a compact column <sup>1</sup>.|
+|`DocId`|The unique identifier of the document and is a compact column.|
+|`MajorVersion`|The major version number of the file version.|
+|`MinorVersion`|The minor version number of the file version.|
 
-- `WebId`: Unique identifier of the web and is a compact column (see notes below).
-- `DocId`: Unique identifier of the document and is a compact column.  
-- `MajorVersion`: The major version number of the file version.
-- `MinorVersion`: The minor version number of the file version.
+| **File Version Information:** | Description |
+|:-----|:-----|
+|`WebUrl`|The SharePoint Url to the web and is a compact column.|
+|`FileUrl`|The web relative Url to the file and is a compact column.|
+|`Size`|The size of the version in bytes.|
+|`ModifiedBy_UserId`|The identifier of the user who created this version and is a compact column.|
+|`ModifiedBy_UserDisplayName`|The display name of the user who created this version and is a compact column'.|
+|`LastModifiedDate`|The time when the version was last modified.|
+|`SnapshotDate`|The time when the version became a historical version.|
+|`IsSnapshotDateEstimated`|If this is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.|
 
-**File Version Information:**
+| **Expiration Schedule information:** | Description |
+|:-----|:-----|
+|`CurrentExpirationDate`|Time when the version is going to expire as it currently stands.|
+|`AutomaticPolicyExpirationDate`|Time when the version would be expiring if an automatic expiration policy were to be retroactively applied, estimated on a best-effort basis.|
+|`TargetExpirationDate`|Is populated to the same value as `CurrentExpirationDate`. This column is useful for any What-If analysis and batch-updating the expiration dates.|
 
-- `WebUrl`: SharePoint Url to the web and is a compact column.
-- `FileUrl`: Web relative Url to the file and is a compact column.
-- `Size`: Size of the version in bytes.  
-- `ModifiedBy_UserId`: Identifier of the user who created this version and is a compact column.  
-- `ModifiedBy_UserDisplayName`: Display name of the user who created this version and is a compact column.  
-- `LastModifiedDate`: Time when the version was last modified.  
-- `SnapshotDate`: Time when the version became a historical version.  
-- `IsSnapshotDateEstimated`: If this is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.
-
-**Expiration Schedule information:**  
-
-- `CurrentExpirationDate`: Time when the version is going to expire as it currently stands.
-- `AutomaticPolicyExpirationDate`: Time when the version would be expiring if an automatic expiration policy were to be retroactively applied, estimated on a best-effort basis.
-- `TargetExpirationDate`: Is populated to the same value as `CurrentExpirationDate`. This column is useful for any What-If analysis and batch-updating the expiration dates.
-
-> [!NOTE]
-> Compact columns are columns that will not repeat values if two consecutive rows have the same value. It will simply put empty string for the repeated records. The header for these columns will have "Compact" postfix.
+<sup>1</sup> Compact columns are columns that won't repeat values if two consecutive rows have the same value. It will simply put empty string for the repeated records. The header for these columns will have "Compact" postfix.
 
 You can download the report file from SharePoint and do any analysis to learn about the dataset.
 
