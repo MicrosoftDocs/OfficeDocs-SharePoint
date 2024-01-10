@@ -110,20 +110,6 @@ Remind SharePoint site and team owners that they're responsible for their conten
 - [**Set up and manage access requests**](/office/set-up-and-manage-access-requests-94b26e0b-2822-49d4-929a-8455698654b3).
 
 
-### Apply sensitivity labels 
-
-For enhanced protection, consider applying Sensitivity labels with encryption on Office files. This helps in scenarios where a user can have access to an entire site but still can’t access because of encryption. Copilot fully honors access and permissions as configured in the label attached to the file.
-
-Learn how sensitivity labels provide an extra layer of protection:
-
-- [**Microsoft Purview data security and compliance protections for Microsoft Copilot**](/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot)
-- [**Information protection considerations for Copilot**](/purview/ai-microsoft-purview-considerations#information-protection-considerations-for-copilot)
-
-Learn more about how encryption works in SharePoint and OneDrive:  [**Enable sensitivity labels for files in SharePoint and OneDrive**](/purview/sensitivity-labels-sharepoint-onedrive-files)
-
-To improve the security on individual libraries with encryption: [**Configure a default sensitivity label for a SharePoint document library**](/purview/sensitivity-labels-sharepoint-default-label)
-
-
 ### Implement conditional access for SharePoint and OneDrive
 
 Learn more about conditional access support in SharePoint and OneDrive. 
