@@ -35,7 +35,7 @@ Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find
     - **Impacted Users**: Review the users whose versions would be impacted under the new settings.
     - **Version Count**: A table and graph showing the numbers of versions that will be available over time under the current schedule and the number of versions that will be available under the new schedule.
     - **Size of Versions Expired**: Compare the size of versions that will be deleted over time under the current schedule and the number of versions that will be available under the new schedule.
-    - **File Level Analysis**: Review file level version deletions under the new settings  
+    - **File Level Analysis**: Review file level version deletions under the new settings.  
 
 Follow these steps to populate the workbook:
 
