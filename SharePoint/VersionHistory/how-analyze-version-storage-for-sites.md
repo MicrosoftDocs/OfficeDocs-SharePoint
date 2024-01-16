@@ -22,6 +22,8 @@ description: "This article provides guidance on how to analyze version storage f
 
 # How to Analyze Version Storage for Sites
 
+As a SharePoint Site Administrator, you can request an inventory of the versions on a site or library which will schedule a background timer job to generate a CSV file of every file version on a given SharePoint Site. This report can help you perform deeper analysis on current version storage usage or to see the effect of applying one of the 3 trimming modes - 3 different trimming modes - Automatic, Manual Expiration Limits or Manual with Count Limits Only - before running an actual trim.
+
 After configuring the `TargetExpirationDate` values for your report, you can choose to perform deeper analysis to see the impact of the trimming before running an actual trim. You can perform this analysis independently, or alternatively, we provide two recommended options for your analysis.  
 
 ## Option one: Analyze the report using Excel
