@@ -87,7 +87,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 - **When Library level version expiration setting is updated**, the new expiration limit is applied to newly created versions only. Take an example of a Library with version expiration settings updated from **Never Expire** to **Expire after six months**. New version created is set to expire after six months with no impact on versions that had already been created.  
 
-- **When Library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Take an example of a Library with count limits set to 500 versions and is reduced to 300 versions. If you had a file with 500 versions, each time a user updates the file, the oldest 20 versions are purged until you are at the right number of versions.  
+- **When Library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Consider a library where the version count limit is initially set to 500 versions but is later reduced to 300 versions. In this scenario, if there is a file with 500 versions, each time a user updates the file, the system will gradually purge the oldest 20 versions with each new version creation until the total number of versions aligns with the updated limit of 300. It's crucial to note that when count limits are lowered, the process of version deletion occurs gradually, with up to 20 versions being removed for every new version created.  
 
 :::image type="content" source="media/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
 
