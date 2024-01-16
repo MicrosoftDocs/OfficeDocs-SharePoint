@@ -34,6 +34,12 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Recent action refinement.** Enhancements to the “Recent action” functionality including prompts to provide an easier report download experience.
 - **Migration Admin role.**  A new admin role designed for cloud migration scenarios.
 
+## December 2023
+
+- **Simplified permission setting**. The permission setting panel has been revamped to provide a concise yet clear configuration experience. Access this setting through "Project settings - Permission" at the top right corner of the Migration Manager UI.
+
+- **Migration Manager Agent v2.0 (for File Share Migration)**. The Migration Manager Agent v2.0 introduces improvements in multitasking and report uploading. Multitasking enhancements significantly increase per-agent throughput by fully utilizing the agent's capacity. Report uploading improvements optimize the retry mechanism to prevent failures caused by throttling. The v2.0 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/A9EB5CE93791/v2.0/agentsetup.exe).
+
 ## November 2023
 - **Destination validation.** Destination paths are now validated automatically during the bulk destination upload process. A validation report is provided to let fix issues that are discovered. Note: While the validation step is optional, we don’t recommend skipping it.
 - **Shared drive permission.** Google Shared Drive permissions are now migrated by default according to what you have set in permission settings.
