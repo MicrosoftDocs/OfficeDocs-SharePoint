@@ -17,6 +17,7 @@ ms.collection:
 - Tier1
 - M365-sam
 - M365-collaboration
+- essentials-manage
 search.appverid:
 description: "Learn how to manage site lifecycle policies for SharePoint sites."
 ---
