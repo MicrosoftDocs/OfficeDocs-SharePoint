@@ -28,9 +28,13 @@ The following table summarizes the various ways of managing **Version history li
 
 | Area | How does it work? |
 |:-----|:-----|
-| Set Default Document Library **Version history limits** for your entire organization | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
-| Break Inheritance from Default Organization Limits by Setting site-level or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
+| Set Default **Version history limits** for new document libraries created in your organization | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
+| Set Site or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
 | Trim Existing Versions | Site Admins can choose to trim existing version history storage by running ‘What-If’ reports to understand the impact and then scheduling a timer job to execute the trimming. |
+
+By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings will be applied to all new libraries created on the site.
+
+:::image type="content" source="media/version-limits-new-libraries-flow.PNG" alt-text="version limits for new libraries":::
 
 ## Setting types of Version history limits
 
@@ -53,7 +57,7 @@ The manual setting allows admins to set count limits on the number of major vers
 Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default **Version history limits** across your organization.  
 
 > [!IMPORTANT]
-> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the settings on existing libraries on a site or to trim existing versions.
+> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to [[update the settings on existing libraries on a site](#setting-version-history-limits-for-a-site)] or to [[trim existing versions](#trimming-existing-versions-from-sites-or-libraries)].
 
 :::image type="content" source="media/tenant-version-history-limit.PNG" alt-text="tenant version history":::
 
