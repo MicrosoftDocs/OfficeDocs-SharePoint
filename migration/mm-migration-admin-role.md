@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
+ms.date: 01/19/2024
 recommendations: true
 audience: ITPro
 f1.keywords:
@@ -49,17 +50,14 @@ To use this feature, you must create a new user in the Microsoft 365 admin cente
 ## FAQs
 
 **Question:**  I'm migrating network file shares. Can I use the Migration Admin role instead of the Sharepoint Admin?</br>
-Answer:  No. Currently, this role isn't supported for file share migrations. Continue to use accounts assisgned the SharePoint Admin role.
+Answer:  No. The Migration Admin role can be used only for our supported cloud migrations: Google Drive, Box, Dropbox, and Egnyte. This role is currently not supported for file share migrations. Continue to use accounts assigned the SharePoint Admin role.
 
 **Question:** Can I assign this role to an existing user account?</br>
-Answer:  No. You must create a new user account from the Microsoft 365 admin center and then assign the role.
+Answer:  Yes. You must create a new user account from the Microsoft 365 admin center and then assign the role.
 
 **Question:**  I created a new user account in the Microsoft Admin Center, and assigned it the Migration Admin role. Does this new account have access existing projects?</br>
-Answer:  Yes, provided you access Migration Manager from the Microsoft Admin Center, not the SharePoint admin center.
+Answer:  Yes, provided you access Migration Manager from the Microsoft Admin Center to migrate from Google Drive, Box, Dropbox and Egnyte.
 </br>
-
-**Question:** 
-Answer:  The Migration Admin role can be used only for our supported cloud migrations:  Google Drive, Box, Dropbox, and Egnyte.
 
 **Question:**  I currently have my migration team assigned with the SharePoint Admin role.  Can I just continue using that?</br>
 Answer:  Yes, using the Migration Admin role isn't required. However, it makes managing access easier.
