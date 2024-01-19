@@ -1,5 +1,5 @@
 ---
-ms.date: 01/16/2024
+ms.date: 01/18/2024
 title: "Restrict SharePoint site access to members of a group"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -97,7 +97,7 @@ To manage site access to a non-group connected site:
 1. In **Settings** tab, select **Edit** in the **Restricted site access** section.
 1. Select the **Restrict SharePoint site access to only users in specified groups** check box.
 1. Add or remove your security groups or Microsoft 365 groups and select **Save**.
-s
+
 In order for site access restriction to be applied to the site, you must add at least one group to the site access restriction policy.
 
 :::image type="content" source="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png" alt-text="screenshot showing site access restriction security groups being added to non-group connected sites." lightbox="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png":::
