@@ -120,7 +120,7 @@ Shared and private channel sites [are separate from the Microsoft 365 group-conn
 For shared channel sites, only internal users in the resource tenant are subject to site access restriction. External channel participants are excluded from site access restriction policy and only evaluated per the site's existing site permissions.
 
 > [!IMPORTANT]
-> Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to to add or remove the same users of the teams channel in Microsoft Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
+> Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to add or remove the same users of the teams channel in Microsoft Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
 
 ## Auditing
 
