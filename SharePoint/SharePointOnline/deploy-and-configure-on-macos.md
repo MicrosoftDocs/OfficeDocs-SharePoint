@@ -41,7 +41,7 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
-|**.plist location**  |~/Library/Preferences/com.microsoft.OneDrive.plist  |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  |
+|**.plist location**  |/Library/Preferences/com.microsoft.OneDrive.plist  |/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  |
 |**Domain**  |com.microsoft.OneDrive  |com.microsoft.OneDrive-mac  |
   
 ## Configure sync app settings
