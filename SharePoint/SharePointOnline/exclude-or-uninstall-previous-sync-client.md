@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

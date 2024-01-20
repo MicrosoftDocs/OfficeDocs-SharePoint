@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,8 +23,10 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ceef6623-f54f-404d-8ee3-3ce1e338db07
 ms.custom:
-- seo-marvel-apr2020
-- onedrive-toc
+  - seo-marvel-apr2020
+  - onedrive-toc
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: "Learn how to use PowerShell to create OneDrive file storage for your users instead of waiting for the storage space to be automatically provisioned by the service."
 ---
 
@@ -70,10 +72,10 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
     > [!NOTE]
-    > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Set-MsolUser** using the text file you created in Step 1.
+    > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Update-MgUser** using the text file you created in Step 1.
     >
     >```PowerShell
-    >Get-Content -path "C:\Users.txt" | ForEach-Object { Set-MsolUser -UserPrincipalName $_ -BlockCredential $False }
+    >Get-Content -path "C:\Users.txt" | ForEach-Object { Update-MgUser -UserPrincipalName $_ -BlockCredential $False }
     >```
 
 4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps&preserve-view=true), consuming the text file you previously created in Step 1.
@@ -92,28 +94,30 @@ The following code snippet will pre-provision OneDrive in batches of 199.
 
 ```PowerShell
 $Credential = Get-Credential
-Connect-MsolService -Credential $Credential
+Connect-MgGraph -Credential $Credential
 Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint.com
 
 $list = @()
 #Counters
 $i = 0
-
+$j = 0
 
 #Get licensed users
-$users = Get-MsolUser -All | Where-Object { $_.islicensed -eq $true }
+$users = Get-MgUser -All | Where-Object { $_.islicensed -eq $true }
 #total licensed users
 $count = $users.count
 
 foreach ($u in $users) {
     $i++
-    Write-Host "$i/$count"
+    $j++
+    Write-Host "$j/$count"
 
     $upn = $u.userprincipalname
     $list += $upn
 
     if ($i -eq 199) {
         #We reached the limit
+        Write-Host "Batch limit reached, requesting provision for the current batch"
         Request-SPOPersonalSite -UserEmails $list -NoWait
         Start-Sleep -Milliseconds 655
         $list = @()
@@ -124,9 +128,9 @@ foreach ($u in $users) {
 if ($i -gt 0) {
     Request-SPOPersonalSite -UserEmails $list -NoWait
 }
+Write-Host "Completed OneDrive Provisioning for $j users"
 ```
 
 ## Related topics
 
 [Plan hybrid OneDrive](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
-

@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Delve for admins"
 ms.reviewer: 
-ms.author: gretel
-author: GreteLittmann
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -183,17 +183,17 @@ There are a few things you should check if one or more users in your organizatio
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
 
-If Azure Active Directory has outdated information or hasn't been synced with the SharePoint user profiles, Delve may not show the most relevant colleagues.
+If Microsoft Entra ID has outdated information or hasn't been synced with the SharePoint user profiles, Delve may not show the most relevant colleagues.
   
-Delve uses info from user profiles to determine who users in your organization work with most closely. These profiles contain information from Azure Active Directory and from SharePoint user profiles. Every 24 hours, people information from Azure Active Directory is automatically added to SharePoint user profiles.
+Delve uses info from user profiles to determine who users in your organization work with most closely. These profiles contain information from Microsoft Entra ID and from SharePoint user profiles. Every 24 hours, people information from Microsoft Entra ID is automatically added to SharePoint user profiles.
   
  **Solution(s)**
   
-- Check and clean up your Azure Active Directory, and wait for the information to sync to SharePoint user profiles.
+- Check and clean up your Microsoft Entra ID, and wait for the information to sync to SharePoint user profiles.
     
-- If you're an academic organization, the sync between Azure Active Directory and user profiles is not automatic. Your users will need to sign in to SharePoint at least once to create user profiles.
+- If you're an academic organization, the sync between Microsoft Entra ID and user profiles is not automatic. Your users will need to sign in to SharePoint at least once to create user profiles.
     
-- If you have an on-premises Active Directory and if you've set up Active Directory synchronization, make sure it's synced correctly with Azure Active Directory.
+- If you have an on-premises Active Directory and if you've set up Active Directory synchronization, make sure it's synced correctly with Microsoft Entra ID.
     
 ### Users don't see user pictures in Delve
 <a name="BKMK_DelvePictures"> </a>
@@ -211,7 +211,7 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
   
 However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents in Delve, just as they can search for them in SharePoint.
   
-Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
+Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Microsoft Entra ID.
   
  **Solution(s)**
   
@@ -296,4 +296,3 @@ Admins
 - [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
   
 - [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365)
-

@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Plan sharing and collaboration options in SharePoint and OneDrive
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -45,7 +45,7 @@ As part of your SharePoint rollout, we recommend that you create your own custom
 
 ## External sharing
 
-External sharing in SharePoint and OneDrive uses [Azure Active Directory B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) to create guest accounts for people outside the organization. Guests can be given access to SharePoint sites or to individual files and folders in SharePoint and OneDrive.
+External sharing in SharePoint and OneDrive uses [Microsoft Entra B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) to create guest accounts for people outside the organization. Guests can be given access to SharePoint sites or to individual files and folders in SharePoint and OneDrive.
 
 External sharing is enabled by default in Microsoft 365, including SharePoint and OneDrive. We recommend leaving external sharing enabled. Microsoft 365 external sharing options can provide a more secure and governable sharing environment than sending attachments though email or using consumer sharing services.
 
@@ -79,7 +79,7 @@ You can restrict external sharing with these options:
 - Expire guest access after a specified period.
 - Require reauthentication after a specified period for users using a verification code.
 
-If you want to restrict which domains users can share with, you can choose the **Limit external sharing by domain** setting. For details, see [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing). Note that this setting only affects SharePoint and OneDrive. If you want to set this for all the services in Microsoft 365, you can configure the restriction in Azure AD. See [Allow or block invitations to B2B users from specific organizations](/azure/active-directory/external-identities/allow-deny-list) for details.
+If you want to restrict which domains users can share with, you can choose the **Limit external sharing by domain** setting. For details, see [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing). Note that this setting only affects SharePoint and OneDrive. If you want to set this for all the services in Microsoft 365, you can configure the restriction in Microsoft Entra ID. See [Allow or block invitations to B2B users from specific organizations](/azure/active-directory/external-identities/allow-deny-list) for details.
 
 If you don't want all of your users to be able to share externally, you can restrict external sharing to specific security groups. Choose the **Allow only users in specific security groups to share externally** option and choose the groups you want to allow.
 
@@ -123,4 +123,3 @@ If you've enabled *Anyone* links, you can choose if these links should expire af
 [SharePoint and OneDrive file sync](/sharepoint/sharepoint-sync)
 
 [Create a more secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
-

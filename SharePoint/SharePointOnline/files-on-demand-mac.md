@@ -2,9 +2,9 @@
 ms.date: 09/20/2018
 title: "Set Files On-Demand states on Mac"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,7 +39,7 @@ Use the following commands to set file and folder states. Quit the OneDrive sync
 
 |**Files On-Demand state**|**File attribute state**|**Command**|
 |:-----|:-----|:-----|
-|Always available    <br/> |Pinned    <br/> |/Applications/OneDrive.App/Contents/MacOS/OneDrive /setpin \<path\><br/> |
+|Always available    <br/> |Pinned    <br/> |/Applications/OneDrive.App/Contents/MacOS/OneDrive /pin \<path\><br/> |
 |Locally available     <br/> |Clearpin    <br/> |/Applications/OneDrive.App/Contents/MacOS/OneDrive /clearpin \<path\>|
 |Online-only    <br/> |Unpinned    <br/> |/Applications/OneDrive.App/Contents/MacOS/OneDrive /unpin \<path\>|
 

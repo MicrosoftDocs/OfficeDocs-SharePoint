@@ -4,7 +4,7 @@ title: "Control notifications"
 ms.reviewer: shahna
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - CSH

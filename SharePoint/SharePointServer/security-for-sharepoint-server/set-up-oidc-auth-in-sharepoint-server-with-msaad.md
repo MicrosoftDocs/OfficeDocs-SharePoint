@@ -1,8 +1,8 @@
 ---
 ms.date: 07/11/2021
-title: "Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)"
+title: "Set up OIDC authentication in SharePoint Server with Microsoft Entra ID"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 audience: ITPro
@@ -13,36 +13,36 @@ ms.service: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Learn how to set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)."
+description: "Learn how to set up OIDC authentication in SharePoint Server with Microsoft Entra ID."
 ---
 
-# Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)
+# Set up OIDC authentication in SharePoint Server with Microsoft Entra ID
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 ## Prerequisites
 
-When you configure OIDC with Azure AD, you need the following resources:
+When you configure OIDC with Microsoft Entra ID, you need the following resources:
 
 1. A SharePoint Server Subscription Edition farm
-2. Azure AD Global Administrator role of the M365 tenant
+2. Microsoft Entra Global Administrator role of the M365 tenant
 
-This article uses the following example values for Azure AD OIDC setup:
+This article uses the following example values for Microsoft Entra OIDC setup:
 
 | Value | Link |
 |---------|---------|
 | SharePoint site Uniform Resource Locator (URL) | `https://spsites.contoso.local/` |
 | OIDC site URL     | `https://sts.windows.net/<tenantid>/` |
-| Azure AD OIDC authentication endpoint     | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
-| Azure AD OIDC RegisteredIssuerName URL     | `https://sts.windows.net/<tenantid>/` |
-| Azure AD OIDC SignoutURL     | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
+| Microsoft Entra OIDC authentication endpoint     | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
+| Microsoft Entra OIDC RegisteredIssuerName URL     | `https://sts.windows.net/<tenantid>/` |
+| Microsoft Entra OIDC SignoutURL     | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
 | Identity claim type     | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |
 | Windows site collection administrator     | contoso\yvand |
 | Email value of the federated site collection administrator   | yvand@contoso.local |
 
 ## Step 1: Setup identity provider
 
-Perform the following steps to set up OIDC with Azure AD:
+Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 1. Select **New Registration**.
 2. Go to the **Register an application** page `https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps`.
@@ -72,7 +72,7 @@ Perform the following steps to set up OIDC with Azure AD:
 
 9. Get OIDC authentication information from OIDC discovery endpoint.
 
-In Azure AD, there are two versions of OIDC authentication endpoints. Therefore, there are two versions of OIDC discovery endpoints respectively:
+In Microsoft Entra ID, there are two versions of OIDC authentication endpoints. Therefore, there are two versions of OIDC discovery endpoints respectively:
 
 - V1.0: `https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration`
 - V2.0: `https://login.microsoftonline.com/<TenantID>/v2.0/.well-known/openid-configuration`
@@ -89,7 +89,7 @@ Replace TenantID with the **Directory (tenant) ID** saved in the third step ment
 | issuer     | `https://sts.windows.net/<tenantid>/` |
 | jwks_uri     | `https://login.microsoftonline.com/common/discovery/keys` |
 
-Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and save the **x5c** certificate string of the first key for later use in SharePoint setup (if the first key doesn’t work, try the second or third key).
+Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and save all the **x5c** certificate strings for later use in SharePoint setup.
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
@@ -129,24 +129,33 @@ $f.Farm.Update()
 
 You can configure SharePoint to trust the identity provider in either of the following ways:
 
-- Configure SharePoint to trust Azure AD as the OIDC provider manually.
-- Configure SharePoint to trust Azure AD as the OIDC provider by using metadata endpoint.
-  - By using metadata endpoint, a lot of parameters you need in 'Configure SharePoint to trust Azure AD as the OIDC provider manually' can be automatically retrieved by metadata endpoint.
+- Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually.
+- Configure SharePoint to trust Microsoft Entra ID as the OIDC provider by using metadata endpoint.
+  - By using metadata endpoint, a lot of parameters you need in 'Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually' can be automatically retrieved by metadata endpoint.
 
-### Configure SharePoint to trust Azure AD as the OIDC provider manually
+<a name='configure-sharepoint-to-trust-azure-ad-as-the-oidc-provider-manually'></a>
 
-In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust Azure AD OIDC as the OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
+### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
+
+In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.
 
 ```powershell
 # Define claim types
-$email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+$oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
-$encodedCertStr = <x5c cert string>
-$signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
+$encodedCertStrs = @()
+$encodedCertStrs += <x5c cert string 1>
+$encodedCertStrs += <x5c cert string 2>
+...
+$certificates = @()
+foreach ($encodedCertStr in $encodedCertStrs) {
+     $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
+}
+
 # Set the AAD OIDC URL where users are redirected to authenticate. Please replace <tenantid> accordingly
 $authendpointurl = "https://login.microsoftonline.com/<tenantid>/oauth2/authorize"
 $registeredissuernameurl = " https://sts.windows.net/<tenantid>/"
@@ -156,7 +165,7 @@ $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ImportTrustCertificate $certificates -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -RegisteredIssuerName $registeredissuernameurl -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier -Scope "openid profile"
 ```
 
 Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
@@ -179,7 +188,9 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 >
 > `New-SPTrustedRootAuthority -Name "AAD OIDC signing root authority" -Certificate $signingCert`
 
-### Configure SharePoint to trust Azure AD OIDC by using metadata endpoint
+<a name='configure-sharepoint-to-trust-azure-ad-oidc-by-using-metadata-endpoint'></a>
+
+### Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint
 
 SharePoint Server Subscription Edition now supports OIDC metadata discovery capability during configuration.
 
@@ -192,14 +203,14 @@ By using the metadata endpoint provided by the OIDC identity provider, some of t
 
 This can simplify the configuration of the OIDC token issuer.
 
-With the following PowerShell example, we can use metadata endpoint from Azure AD to configure SharePoint to trust Azure AD OIDC.
+With the following PowerShell example, we can use metadata endpoint from Microsoft Entra ID to configure SharePoint to trust Microsoft Entra OIDC.
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.
 
 ```powershell
 # Define claim types
-$email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+$oidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/identity/claims/objectidentifier" -IncomingClaimTypeDisplayName "oid" -SameAsIncoming
 
 # Set the AAD metadata endpoint URL. Please replace <TenantID> with the value saved in step #3 in AAD setup section  
 $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration"
@@ -208,7 +219,7 @@ $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $ metadataendpointurl
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $oidClaimMap -IdentifierClaim $oidClaimMap.InputClaimType -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $metadataendpointurl -Scope "openid profile"
 ```
 
 | Parameter | Description |
@@ -223,17 +234,17 @@ New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.loc
 
 ## Step 4: Configure the SharePoint web application
 
-In this step, you'll configure a web application in SharePoint to be federated with the Azure AD OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step.
+In this step, you'll configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step.
 
 > [!IMPORTANT]
 >
-> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler.
-> - The SharePoint URL that will use AAD OIDC federation must be configured with Hypertext Transfer Protocol Secure (HTTPS).
+> - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler. 
+> - The SharePoint URL that will use Microsoft Entra OIDC federation must be configured with Hypertext Transfer Protocol Secure (HTTPS).
 
 You can do this configuration either by:
 
-- Creating a new web application and using both Windows and Azure AD OIDC authentication in the default zone.
-- Extending an existing web application to set Active Directory Federation Services (AD FS)/AAD OIDC authentication on a new zone.
+- Creating a new web application and using both Windows and Microsoft Entra OIDC authentication in the default zone.
+- Extending an existing web application to set Active Directory Federation Services (AD FS) / Microsoft Entra OIDC authentication on a new zone.
 
 To create a new web application, do the following:
 
@@ -309,7 +320,7 @@ Since OIDC 1.0 authentication can only work with HTTPS protocol, a certificate m
 
 ## Step 6: Create the site collection
 
-In this step, you'll create a team site collection with two administrators: One as a Windows administrator and one as a federated (Azure AD) administrator.
+In this step, you'll create a team site collection with two administrators: One as a Windows administrator and one as a federated (Microsoft Entra ID) administrator.
 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
@@ -322,7 +333,7 @@ In this step, you'll create a team site collection with two administrators: One 
 
 7. Go to the account and select **OK**.
 8. In the **Secondary Site Collection Administrator** section, select the book icon to open the People Picker dialog.
-9. In the People Picker dialog, type the exact email value of the Azure AD administrator account, for example **yvand@contoso.local**.
+9. In the People Picker dialog, type the exact email value of the Microsoft Entra administrator account, for example **yvand@contoso.local**.
 10. Filter the list on the left by selecting **contoso.local**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
@@ -473,4 +484,3 @@ Users can set which properties are searched by the People Picker by following th
       } 
   } 
   ```
-

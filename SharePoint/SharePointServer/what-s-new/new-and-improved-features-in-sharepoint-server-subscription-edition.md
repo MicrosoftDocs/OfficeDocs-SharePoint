@@ -1,7 +1,7 @@
 ---
-ms.date: 06/25/2021
+ms.date: 09/01/2023
 title: "New and improved features in SharePoint Server Subscription Edition"
-ms.reviewer: 
+ms.reviewer: troys
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -23,11 +23,13 @@ description: "Learn about the new features and updates to existing features in S
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the new features and updates to existing features in SharePoint Server Subscription Edition.
+Learn about the new features and updates to existing features that were introduced during the initial release of SharePoint Server Subscription Edition.
+
+For information on new and updated features that were introduced after the initial release of SharePoint Server Subscription Edition, see [SharePoint Server Subscription Edition Version 22H2](new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md) and [SharePoint Server Subscription Edition Version 23H1](new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md).
 
 ## List of new features and updates to existing features
 
-The following table provides the list of new features and updates to existing features in SharePoint Server Subscription Edition.
+The following table provides the list of new features and updates to existing features, introduced during the initial release of SharePoint Server Subscription Edition.
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
@@ -53,7 +55,7 @@ This section provides detailed descriptions of the new and updated features in S
 
 SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs. For example, organizations can enforce authentication policies such as multifactor authentication (MFA), conditional access policies based on device compliance, and more.
 
-SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
+SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Microsoft Entra ID, Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
 To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1-0-authentication.md).
 
@@ -104,7 +106,7 @@ SharePoint Server Subscription Edition supports additional security features whe
 <a name="core"> </a>
 ### Windows Server Core
 
-Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
+Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are essential for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
 
 SharePoint Server Subscription Edition adds support for the Windows Server Core deployment type with both Windows Server 2019 and Windows Server 2022. The Windows Server Desktop Experience deployment type remains supported with both Windows Server 2019 and Windows Server 2022.
 
@@ -528,5 +530,3 @@ To support the new Remote Share Provider, SharePoint Server Subscription Edition
 [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 
 [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md)
-
-

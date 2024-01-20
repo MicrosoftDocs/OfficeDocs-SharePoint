@@ -4,7 +4,7 @@ title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 recommendations: true
 audience: End User
 f1.keywords:
@@ -29,7 +29,7 @@ description: "Allow sharing only with guests on specific domains, or block shari
 If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain.
 
 > [!NOTE]
-> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](/azure/active-directory/b2b/allow-deny-list).
+> If you have enrolled in the [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md), invitations in SharePoint are also subject to any [domain restrictions configured in Microsoft Entra ID](/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
@@ -46,7 +46,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
     
 3. To create an allowlist (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
-4. List the domains (maximum of 3000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+4. List the domains (maximum of 5000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
@@ -119,4 +119,3 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
 [Extranet for Partners with Microsoft 365](create-b2b-extranet.md)
   
 [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)
-

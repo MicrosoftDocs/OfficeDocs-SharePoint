@@ -31,7 +31,7 @@ People Picker is a web control that is used to find and select users, groups, an
 
 The People Picker control is a central component of SharePoint. The control is connected to a repository so that you can find and select users, groups, and claims to assign permissions in a site. The exact sources of those users, groups, and claims depend on the authentication method that is used by the web application that contains the site collection. For more information about authentication methods, see [People Picker and authentication](#auth) later in this article. 
   
-People Picker is configured at the zone level for a farm by using the Stsadm **setproperty** operation. By configuring the settings for the control, you can filter and restrict the results that are displayed when a user searches for a user, group, or claim. Those settings will apply to every site in a specific site collection. For more information about how to configure People Picker, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+People Picker is configured at the zone level for a farm by using the Stsadm **setproperty** operation. By configuring the settings for the control, you can filter and restrict the results that are displayed when a user searches for a user, group, or claim. Those settings will apply to every site in a specific site collection. For more information about how to configure People Picker, see [Configure People Picker in SharePoint Server](configure-people-picker.md).
   
 When a web application is configured to use claims-based authentication, People Picker uses claims providers to resolve and display users, groups, and claims in the user or group text box. The information that SharePoint displays depends on the claims provider that is used by the authentication method that was configured for the web application. For more information about claims providers, see [Plan for custom claims providers for People Picker in SharePoint](plan-for-custom-claims-providers-for-people-picker.md).
   
@@ -40,7 +40,7 @@ When a web application is configured to use claims-based authentication, People 
 
 When you type the first three characters of a user name, group name, or claim (such as an e-mail address) into the text box, People Picker automatically searches for results that match the first three typed characters. You can then select from a drop-down list, which displays up to thirty suggested names with titles. If you rest the mouse pointer on a suggestion, SharePoint displays the email address and claims provider. To resolve a name, select it from the drop-down, or use your arrow keys to select it, and then press ENTER. You can also type the complete name followed by a semicolon. If a unique name is found, SharePoint will resolve it. Otherwise, SharePoint shows suggestions or indicates that the name was not found. You can delete a resolved name in the text box by using the BACKSPACE key or by clicking the "x" next to the name.
   
-When a web application is configured to use Windows authentication, you can limit the suggested results by using the Stsadm **setproperty** operation to change the settings for the People Picker control. For example, you can configure People Picker to return only users, groups, and claims that belong to a certain Active Directory domain or are members of a specific site collection. For more information about how to configure the People Picker control, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+When a web application is configured to use Windows authentication, you can limit the suggested results by using the Stsadm **setproperty** operation to change the settings for the People Picker control. For example, you can configure People Picker to return only users, groups, and claims that belong to a certain Active Directory domain or are members of a specific site collection. For more information about how to configure the People Picker control, see [Configure People Picker in SharePoint Server](configure-people-picker.md).
   
 ## People Picker and authentication
 <a name="auth"> </a>
@@ -79,5 +79,5 @@ The following articles about People Picker and custom claims providers are avail
 ## See also
 <a name="links"> </a>
 
-[Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14))
+[Configure People Picker in SharePoint Server](configure-people-picker.md)
 

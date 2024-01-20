@@ -1,7 +1,7 @@
 ---
 title: "System requirements for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 06/21/2021

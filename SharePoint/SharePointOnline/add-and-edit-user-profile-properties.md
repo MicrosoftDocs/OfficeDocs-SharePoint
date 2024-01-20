@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Add and edit user profile properties in SharePoint"
 ms.reviewer: waynewin
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -27,7 +27,7 @@ description: "Learn how to add and edit properties on SharePoint user profiles t
 
 # Add and edit user profile properties in SharePoint
 
-If your organization uses the cloud identity model, your user accounts are stored in Azure AD and you can manage most user profile info in the Microsoft 365 admin center. For info, see [Edit or change a user in Microsoft 365](/office365/admin/add-users/change-a-user-name-and-email-address). You can also manage user profiles (including adding user pictures and defining user managers) in the Azure AD admin center. For info, see [Add or change profile information for a user in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). If you need to create custom user profile properties, such as languages spoken, emergency contact info, or sales account, you can use user properties in SharePoint. Note that these properties are NOT synced back to Azure AD.
+If your organization uses the cloud identity model, your user accounts are stored in Microsoft Entra ID and you can manage most user profile info in the Microsoft 365 admin center. For info, see [Edit or change a user in Microsoft 365](/office365/admin/add-users/change-a-user-name-and-email-address). You can also manage user profiles (including adding user pictures and defining user managers) in the Microsoft Entra admin center. For info, see [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). If you need to create custom user profile properties, such as languages spoken, emergency contact info, or sales account, you can use user properties in SharePoint. Note that these properties are NOT synced back to Microsoft Entra ID.
   
 ## Add a property for a user profile
 
@@ -98,7 +98,7 @@ If your organization uses the cloud identity model, your user accounts are store
     
  ## Synchronize custom properties
 
-Custom properties from Active Directory or Azure AD are not synchronized with SharePoint. For info about bulk updating custom user profile properties by using PowerShell, see [Call the import API from PowerShell](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online#call-the-import-api-from-powershell).
+Custom properties from Active Directory or Microsoft Entra ID are not synchronized with SharePoint. For info about bulk updating custom user profile properties by using PowerShell, see [Call the import API from PowerShell](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online#call-the-import-api-from-powershell).
 
 ## Need more help?
 

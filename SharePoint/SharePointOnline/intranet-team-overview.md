@@ -2,9 +2,9 @@
 ms.date: 06/29/2021
 title: "Intelligent intranet introduction"
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ms.topic: article
@@ -87,7 +87,6 @@ Review the different [roles and responsibilities](intranet-roles-tasks.md) when 
 
 [Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
 
-[Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 
 
 

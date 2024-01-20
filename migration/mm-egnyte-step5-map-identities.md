@@ -4,13 +4,12 @@ title: "Step 5: Map Egnyte identities with Migration Manager"
 ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Step 5:  Map Egnyte identities with Migration Manager." 

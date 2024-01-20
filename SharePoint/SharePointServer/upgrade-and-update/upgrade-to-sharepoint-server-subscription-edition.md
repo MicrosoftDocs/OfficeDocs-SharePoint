@@ -2,7 +2,7 @@
 ms.date: 07/14/2021
 title: "Upgrade to SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 audience: ITPro

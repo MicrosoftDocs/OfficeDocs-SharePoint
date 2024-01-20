@@ -1,8 +1,8 @@
 ---
 ms.date: 05/10/2023
 title: "Create change history reports for SharePoint sites"
-ms.reviewer: cvelaga
-manager: serdars
+ms.reviewer: daminasy
+manager: jtremper
 recommendations: true
 ms.author: mactra
 author: MachelleTranMSFT

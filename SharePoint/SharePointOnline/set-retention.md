@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
+ms.date: 11/17/2023
 title: "Set the OneDrive retention for deleted users"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: fa1641ea-9f03-4f34-a826-dbd8697e76fe
-description: "Learn how to specify how long the OneDrive files of deleted users are preserved. "
+description: "Learn how to specify how long the OneDrive files of deleted users are preserved."
 ---
 
 # Set the OneDrive retention for deleted users

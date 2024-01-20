@@ -56,14 +56,20 @@ The only platform available when you first install SharePoint Server is the Shar
 
 ## New installation of SharePoint Workflow Manager
 
-SharePoint Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers.  It is recommended that SharePoint Workflow Manager is installed on its own dedicated servers for performance and reliability reasons. 
+SharePoint Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers.  It's recommended that SharePoint Workflow Manager is installed on its own dedicated servers for performance and reliability reasons. 
 
 > [!NOTE]
 > SharePoint Workflow Manager is supported in farms having an odd number of hosts, for example, 1, 3, or 5.  A farm with 2 or 4 SharePoint Workflow Manager hosts is not supported.
    
 ### Prerequisites
 
-SharePoint Workflow Manager requires the server role of Web Server (IIS). If you're installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard will fail with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*.
+SharePoint Workflow Manager requires the server role of Web Server (IIS). If you're installing SharePoint Workflow Manager on a server without the IIS server role installed, the Workflow Manager Configuration Wizard fails with messages like *Could not load file or assembly 'Microsoft.Web.Administration'*. Apart from the features that are installed by default, the SharePoint Workflow Manager work requires the following IIS features:
+
+- Windows Authentication (under Security)
+- .NET Extensibility 4.7 (under Application Development)
+- ASP.NET 4.7 (under Application Development)
+
+SharePoint Workflow Manager might not be installed and configured correctly with only RODC (read-only domain controller) provided in the network environment as it requires RWDC (read/write DC, full DC).
 
 SharePoint Workflow Manager requires Azure Service Fabric, which must be installed before you run SharePoint Workflow Manager setup. If the Azure Service Fabric Runtime isn't already installed, follow these steps below to install it:
 

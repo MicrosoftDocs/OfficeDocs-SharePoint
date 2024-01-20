@@ -1,22 +1,22 @@
 ---
-ms.date: 01/25/2019
+ms.date: 12/14/2023
 title: Troubleshooting SPMT installation issues
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
@@ -44,27 +44,4 @@ If you're having issues loading the SharePoint Migration tool, here are a few it
 |**Error**|**Suggested action**|
 |:-----|:-----|
 |"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation may be the cause of this error. Uninstall the tool and then reinstall.|
-
-
-## Government cloud support
-
-If you are on a government cloud, you must first take these steps:
-
-1. Open %localappdata%\Apps\SharePointMigrationTool\SPMT\microsoft.sharepoint.migration.common.dll.config.
-2. Change the value of **SPOEnvironmentType** to:
-
-    - **4** if you're GCC
-    - **3** if you're DoD
-    - **2** if you're GCC high
-    - **0** if you use the Worldwide consumer cloud
-
-
-3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
-
-
->[!Note]
-
->**0** = Worldwide consumer cloud and GCC
->**2** = GCC high
->**3** = DoD
 

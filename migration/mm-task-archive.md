@@ -4,18 +4,18 @@ title: "Archive Migration Manager tasks"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: 
 description: Learn how to archive Migration Manager tasks to save for a future migration.
 ---

@@ -2,9 +2,9 @@
 ms.date: 08/21/2020
 title: Add the LGBTQ+ Employee Resource Group template
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

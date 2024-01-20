@@ -1,21 +1,21 @@
 ---
-ms.date: 12/21/2018
+ms.date: 08/22/2023
 title: "Migration performance guide for SharePoint & OneDrive"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
@@ -25,11 +25,11 @@ description: "This article explains the factors that influence migration speed a
 # General migration performance guidance
 
 > [!IMPORTANT]
-> Many Microsoft SharePoint and Microsoft OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, data loss prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
+> Many Microsoft SharePoint and Microsoft OneDrive customers run business-critical applications against the service that run in the background. These include content migration, data loss prevention (DLP), and backup solutions.  
 >
-> In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
+>We have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours. You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
 >
-> **Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
+> **Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section for additional information.
 
 ## Performance guidance for Migration Manager and SPMT
 
@@ -43,7 +43,7 @@ When using either the SharePoint Migration Tool (SPMT) or running a Migration Ma
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. This guidance may also be applied to SPMT.
 
-Currently, [SPMT](./introducing-the-sharepoint-migration-tool.md) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+Currently, [SPMT](./introducing-the-sharepoint-migration-tool.md) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer. Whatever migration tool you use, these factors apply. Follow the recommendations listed below for each phase of your migration process.
 
 ### Before migration
 
@@ -57,7 +57,7 @@ The first rule of a good migration is to know your source; evaluate and triage y
 
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools.
 
-**Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size, we recommend a minimum of 100 MB and less than 250 MB per package. Keeping within these guidelines will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
+**Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size, we recommend a minimum of 100 MB and less than 250 MB per package. Keeping within these guidelines result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
 
 The following table provides estimates of the type of speed you may achieve based on the types of content you're migrating.
 
@@ -89,7 +89,7 @@ Migration data throughput is highest during off-peak hours, which are typically 
 
 The final step of the migration process is when the data is moved from Azure to SharePoint. This action is transparent to the user when using SPMT or a third- party tool.
 
-To improve throughput, users are encouraged to run parallel tasks against different site collections if possible. We recommend that you don't submit more than 5,000 migration jobs/requests at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has completed before you upload a new migration request. Some tools may already be doing this for you.
+To improve throughput, users are encouraged to run parallel tasks against different site collections if possible. We recommend that you don't submit more than 5,000 migration jobs/requests at one time. Over-queuing the network creates an extra load on the database and slow migration down. Make sure your task has completed before you upload a new migration request. Some tools may already be doing this for you.
 
 > [!IMPORTANT]
 > We recommend that you do not have more than 5,000 migration jobs/requests **in the queue**. This number *does not* refer to the number of jobs *processing*.
@@ -107,7 +107,7 @@ For more technical background and information, please see:
 
 After the migration is completed, verify that your content has been successfully moved to SharePoint or OneDrive.
 
-### Large migrations over 100TB
+### Large migrations over 100 TB
 
 > [!NOTE]
 >
@@ -116,11 +116,11 @@ After the migration is completed, verify that your content has been successfully
 > - The migration is occurring within the next 30 days.
 > - The migration is over 100 TB of data.
 
-If you're planning to migrate over 100 TB, please submit a support request following the steps listed below. Make sure to include all requested information.
+If you're planning to migrate over 100 TB, submit a support request following the steps listed below. Make sure to include all requested information.
 
 Follow these steps:
 
-1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration over 100TB](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20over%20100TB)
+1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration over 100 TB](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20over%20100TB)
 
 2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**.
 
@@ -131,7 +131,36 @@ Follow these steps:
 5. After the ticket has been created, ensure you provide the support agent with the following information:
     - Estimated size of your migration.
     - An estimate of when you would like to start and complete your migration.
-    - Where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
+    - Where you're migrating your content from, such as SharePoint Server, Box, Google Workspace Drive, File shares, and so on.
+
+## File share migration performance factors
+
+Throughput for file share migration is impacted by multiple factors. The chart below shows the relationship between the number of agents and throughput. Data thus far indicates no obvious throughput drop when agent count increases.
+
+Each user account has a certain quota for API call rate and bandwidth. Using multiple credentials mitigates throttling.
+
+:::image type="content" source="media/mm-file-share-gb-hour-agent-performance.png" alt-text="file share gb performance":::
+
+- Number of files in task - the more files, the higher the speed
+- File size  - the larger the file size, the higher the speed
+- The task count (Task count more than 10 times that of the agent count gains the maximum agent performance)
+- The source computer disk performance
+- The agent computer disk performance
+- The RAM size of agent computer
+- The number of consumers of the source computer
+- Anti-virus competes the CPU and disk with agent
+- Network speed
+- Throttling - Decided by multiple factors including client side factors and server side factors. The throttling can be mitigated by using multiple SharePoint Online migration accounts.
+
+According to our telemetry and support tickets, the typical bottleneck is from source reading. Primary reasons are:
+
+- The source computer disk performance
+- The agent computer disk performance
+- The RAM size of agent computer
+- The number of consumers of the source
+- Anti-virus competes with the CPU and disk with agent
+- Network speed
+
 
 ### FAQ and Troubleshooting
 
@@ -145,19 +174,19 @@ Answer:  First check the guidance in this document. Learn more at: [Avoid gettin
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**
 
-Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules can't be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules can't be disabled or suspended and **opening a support ticket will not lift throttle**. Refer to [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 
 **Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**
 
 Answer:  Here are some quick self-help checks to consider:
 
 - Try to migrate during off-peak business hours
-- If you're experiencing slowness, make sure you aren't running any unnecessary software which may compete with migration resources.
+- If you're experiencing slowness, make sure you aren't running any unnecessary software that may compete with migration resources.
 - Check with your software provider to ensure you're migrating to SPO/OneDrive using *app-based authentication*.  Migration is a background task and shouldn't be run in user mode. If attempted to migrate in user mode, it can trigger larger than normal throttling.
 
 **Question: My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy")?**
 
-Answer: If you're experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, follow the steps below to create a support ticket.
+Answer: If you're experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, follow the steps to create a support ticket.
 
 Follow these steps:
 
@@ -170,7 +199,7 @@ Follow these steps:
 4. After the ticket has been created, ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?).
     - Migration start and end date.
-    - Describe where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
+    - Describe where you're migrating your content from, such as SharePoint Server, Box, Google Workspace Drive, File shares, etc.
     - Estimate the number of throttles (for example, x throttle per hour?) and when (specific time and date) did the throttling happened.
     - Which migration tool you're using. For example, SPMT, ShareGate, Mover, etc.
 
@@ -197,14 +226,12 @@ If you want to file a Microsoft support ticket, follow these steps and include t
     - Your organization URL.
     - How much is left of your migration (x TB?).
     - Migration start and end date.
-    - A description of where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
+    - A description of where you're migrating your content from, such as SharePoint Server, Box, Google Workspace Drive, File shares, etc.
     - If it's a throttling related escalation, provide information such as the number of throttles, how many throttles per hour, and the specific time and date the throttling happened. If you're experiencing poor performance, please describe the nature of the poor performance.
     - Indicate which migration tool you're using (for example, SPMT, ShareGate, Mover, and so on).
     - State if you're logging in using *user login* or *app-based authentication*.
 
-We welcome feedback and encourage you to submit suggestions or questions that will help us improve the content.
 
 ## Related articles
 
 [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
-

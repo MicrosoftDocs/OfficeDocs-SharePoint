@@ -2,9 +2,9 @@
 ms.date: 06/12/2023
 title: "Admin center site permissions reference"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ROBOTS: NOINDEX

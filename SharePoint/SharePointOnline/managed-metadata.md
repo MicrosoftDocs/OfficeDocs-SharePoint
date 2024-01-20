@@ -1,11 +1,11 @@
 ---
 title: "Introduction to managed metadata"
-ms.reviewer: vrchowdh
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: shrganguly
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
-ms.date: 5/22/2018
+ms.date: 09/18/2023
 audience: End User
 f1.keywords:
 - CSH

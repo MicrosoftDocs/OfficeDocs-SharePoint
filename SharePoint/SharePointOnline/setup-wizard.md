@@ -2,16 +2,16 @@
 title: Set up SharePoint and OneDrive in Microsoft 365 with a step-by-step guide
 ms.date: 06/23/2023
 ms.reviewer: salarson
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection:  
+ms.collection:  essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn how to roll out SharePoint and OneDrive in your organization by using a step-by-step guide in the Microsoft 365 admin center
