@@ -1,6 +1,6 @@
 ---
-ms.date: 01/18/2024
-title: "Restrict SharePoint site access to members of a group"
+ms.date: 01/19/2024
+title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
 recommendations: true 
@@ -20,9 +20,9 @@ ms.collection:
 - Highpri
 - Tier1
 search.appverid:
-description: "Learn how to restrict access to SharePoint sites to members of a group."
+description: "Learn how to restrict access to SharePoint sites to members of a Microsoft 365 or Entra security group."
 ---
-# Restrict SharePoint site access to members of a group
+# Restrict SharePoint site access with Microsoft 365 groups and Entra security groups
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -88,7 +88,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Restrict site access to non-group connected sites
 
-You can restrict access to non-group connected sites by specifying [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) or Microsoft 365 groups that contain the people who should be allowed access to the site. You can configure up to 10 Microsoft Entra security groups or Microsoft 365 groups. Once the policy is applied, users in the specified security group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
+You can restrict access to non-group connected sites by specifying [Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) or Microsoft 365 groups that contain the people who should be allowed access to the site. You can configure up to 10 Entra security groups or Microsoft 365 groups. Once the policy is applied, users in the specified security group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
 
 To manage site access to a non-group connected site:
 
@@ -120,11 +120,11 @@ Shared and private channel sites [are separate from the Microsoft 365 group-conn
 For shared channel sites, only internal users in the resource tenant are subject to site access restriction. External channel participants are excluded from site access restriction policy and only evaluated per the site's existing site permissions.
 
 > [!IMPORTANT]
-> Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to add or remove the same users of the teams channel in Microsoft Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
+> Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to add or remove the same users of the teams channel in Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
 
 ## Auditing
 
-[Audit events](/office/office-365-management-api/office-365-management-activity-api-schema) are available in the Microsoft Purview compliance portal to help you monitor site access restriction activities. Audit events are logged for the following activities:
+[Audit events](/office/office-365-management-api/office-365-management-activity-api-schema) are available in the Purview compliance portal to help you monitor site access restriction activities. Audit events are logged for the following activities:
 
 - Applying site access restriction for site
 - Removing site access restriction for site
