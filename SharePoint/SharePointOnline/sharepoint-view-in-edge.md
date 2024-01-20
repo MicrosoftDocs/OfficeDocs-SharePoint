@@ -57,7 +57,7 @@ Use the options below to enable View in File Explorer using group policy or Intu
 
         Example below with the Group Policy value:
 
-        `[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
+        `[{"cookies": ["rtFa", "FedAuth"], "domain": "contoso.sharepoint.com"}]`
 
         :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
 
