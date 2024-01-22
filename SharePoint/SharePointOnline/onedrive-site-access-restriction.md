@@ -16,6 +16,8 @@ ms.collection:
 - Tier1
 - M365-sam
 - M365-collaboration
+- essentials-compliance
+- essentials-security
 search.appverid:
 ms.assetid: 
 ms.custom:
