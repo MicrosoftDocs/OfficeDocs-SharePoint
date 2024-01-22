@@ -21,6 +21,7 @@ search.appverid:
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- essentials-manage
 ms.assetid: ceef6623-f54f-404d-8ee3-3ce1e338db07
 ms.custom:
   - seo-marvel-apr2020
