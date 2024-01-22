@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- Essentials-manage
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc

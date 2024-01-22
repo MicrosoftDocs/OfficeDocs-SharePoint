@@ -16,7 +16,9 @@ metadata:
   ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
   ms.custom: intro-hub-or-landing
-  ms.collection: essentials-hub-or-landing
+  ms.collection: 
+  - essentials-hub-or-landing
+  - essentials-navigation
 
 # additionalContent section (optional)
 # Card with summary style

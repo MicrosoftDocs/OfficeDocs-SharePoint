@@ -2,6 +2,15 @@
 
 
 
+## Week of January 15, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/16/2024 | [Software boundaries and limits for SharePoint Servers 2016 and 2019](/SharePoint/install/software-boundaries-limits-2019) | modified |
+| 1/19/2024 | [Prevent guest access to files while DLP rules are applied](/SharePoint/sensitive-by-default) | modified |
+
+
 ## Week of January 01, 2024
 
 
@@ -16,11 +25,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 12/30/2023 | [Manage automated form processing](/SharePoint/manage-automated-form-processing) | modified |
-
-
-## Week of December 11, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/12/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |

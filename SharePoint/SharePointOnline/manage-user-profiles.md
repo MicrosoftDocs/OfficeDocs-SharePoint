@@ -20,6 +20,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-manage
 search.appverid:
 - SPO160
 - MOE150
