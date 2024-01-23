@@ -1,5 +1,5 @@
 ---
-ms.date: 08/30/2023
+ms.date: 01/22/2024
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
