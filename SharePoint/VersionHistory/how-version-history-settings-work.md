@@ -40,9 +40,9 @@ By default, Organization level settings are applied to all new libraries created
 
 There are two Version history settings that admins can use to configure version limits for all new libraries created in their organization:
 
-### **Automatic Setting:** (recommended for optimized version storage)
+### **Automatic Setting:**
 
-The automatic setting combines the data recovery benefits that Version History offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
+Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that Version History offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
 
 ### **Manual setting:**
 
@@ -52,7 +52,7 @@ The manual setting allows admins to set count limits on the number of major vers
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
  
-For more information on Setting types of Version history limits see [Planning Version Storage for your Organization](sharePoint/versionHistory/planning-version-storage-for-your-organization.md)
+For more information on setting types of Version history limits see [Planning Version Storage for your Organization](sharePoint/versionHistory/planning-version-storage-for-your-organization.md).
 
 ## Setting Default Version history limits for your Organization
 
