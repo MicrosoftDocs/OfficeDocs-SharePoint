@@ -1,5 +1,5 @@
 ---
-ms.date: 08/30/2023
+ms.date: 01/22/2024
 title: "Data access governance reports for SharePoint sites"
 ms.reviewer: samust
 ms.author: mactra
@@ -28,15 +28,18 @@ description: "In this article, you'll learn about reports that can help you gove
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As sprawl and oversharing of SharePoint sites increase with exponential data growth, organizations need to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
+As sprawl and oversharing of SharePoint sites increase with exponential data growth, organizations need help to govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports let you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
 ## Requirements
 
-This feature requires Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management.
+This feature requires either Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management.
+
+While admins with Microsoft 365 E5 licensing can access Data access governance reporting, they are not able to view or utilize the other [SharePoint Advanced Management features](advanced-management.md).
+
 
 ## Access the reports in the SharePoint admin center
 
-1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 2. In the left pane, select **Reports** > **Data access governance**. The following reports are currently available:
 
    - Sharing links
