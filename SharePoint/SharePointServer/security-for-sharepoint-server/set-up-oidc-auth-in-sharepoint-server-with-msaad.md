@@ -60,13 +60,14 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
     :::image type="content" source="../media/sharepoint-oidc-authentication.png" alt-text="Enable ID Tokens":::
 
-6. Go to the **API permissions** tab and add **email** and **profile** permissions.
+1. Go to the **API permissions** tab and click Add a Permission. Choose **Microsoft Graph**, then **Delegated permissions.**  Select the add **email** and **profile** permissions, and click **Add permissions.**
 
     :::image type="content" source="../media/sharepoint-oidc-api-permissions.png" alt-text="API Permissions":::
+   
+1. Go to the **Token configuration** tab and click **Add optional claim**.  For each token type (ID, Access, SAML), add **email**, and **upn** claims.
 
-7. Go to the **Token configuration** tab and add **email**, **groups** and **upn** optional claims.
-
-    :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
+1. Also on the **Token configuration** tab, click **Add groups claim**.  Security Groups is the most common, but the group types you select depends on which types of groups you want to use to give access to the SharePoint web application. See [Configure groups optional claims](/entra/identity-platform/optional-claims#configure-groups-optional-claims) and Configure group claims for applications by using Microsoft Entra ID for more information.
+:::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
 8. Go to the **Manifest** tab, and manually change **replyUrlsWithType** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.
 
