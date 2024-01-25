@@ -2,8 +2,8 @@
 title: "Connect to Google with Migration Manager"
 ms.date:  10/31/2023
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

@@ -2,8 +2,8 @@
 ms.date: 04/05/2018
 title: "File & folder permission when using SharePoint Migration Tool"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

@@ -2,8 +2,8 @@
 title: "Migration time estimator tool in Migration Manager"
 ms.date: 09/26/2023
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

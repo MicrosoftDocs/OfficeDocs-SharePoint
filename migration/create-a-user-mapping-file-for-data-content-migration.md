@@ -1,8 +1,8 @@
 ---
 title: "Create a user-mapping file for data content migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 08/12/2020

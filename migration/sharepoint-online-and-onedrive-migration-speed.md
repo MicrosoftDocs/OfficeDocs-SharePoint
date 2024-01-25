@@ -2,8 +2,8 @@
 ms.date: 08/22/2023
 title: "Migration performance guide for SharePoint & OneDrive"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

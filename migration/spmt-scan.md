@@ -2,8 +2,8 @@
 ms.date: 07/19/2023
 title: "Step 2 - Scan and assess a SharePoint Server site using SPMT"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

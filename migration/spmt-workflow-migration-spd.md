@@ -2,8 +2,8 @@
 ms.date: 02/08/2023
 title: "Migrate SharePoint Designer workflows with SPMT"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: Admin

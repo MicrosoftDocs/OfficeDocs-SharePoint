@@ -2,8 +2,8 @@
 ms.date: 12/02/2021
 title: "Step 3: Activate workflows after migration"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: Admin

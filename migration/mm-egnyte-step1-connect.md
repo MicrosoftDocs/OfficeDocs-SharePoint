@@ -2,8 +2,8 @@
 ms.date: 10/05/2021
 title: "Step 1: Connect to Egnyte"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 audience: ITPro
 f1.keywords:
