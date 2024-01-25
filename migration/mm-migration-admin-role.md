@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
-ms.date: 01/19/2024
+ms.date: 01/25/2024
 recommendations: true
 audience: ITPro
 f1.keywords:
@@ -42,7 +42,10 @@ In addition, this role provides all the functionality required to migrate includ
 
 ###  How to use
 
-To use this feature, you can assign the migration admin role to a new or existing user. This role only allows access to Migration Manager.
+To use this feature, assign the migration admin role to a new or existing user. This role only allows access to Migration Manager.
+
+>[!Note]
+>Tabs may appear on the left navigation pane, including one for Groups, Users, Roles, and Settings. For users assigned Migration Admin role, and aren't a SharePoint Admin, these tabs will be read-only.
 
 >[!Important]
 >You can continue to use Migration Manager as you currently do today.  Your projects will continue to work normally.
@@ -61,3 +64,6 @@ Answer:  Yes, provided you access Migration Manager from the Microsoft Admin Cen
 
 **Question:**  I currently have my migration team assigned with the SharePoint Admin role.  Can I just continue using that?</br>
 Answer:  Yes, using the Migration Admin role isn't required. However, it makes managing access easier.
+
+**Question:** I see a gmail migration entry listed that I wasn't expecting.  
+Answer:  This is a known issue, and a fix is pending.
