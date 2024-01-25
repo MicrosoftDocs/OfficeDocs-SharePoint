@@ -34,7 +34,7 @@ The following table summarizes the various ways of managing **Version history li
 
 By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings will be applied to all new libraries created on the site.
 
-:::image type="content" source="media/version-limits-new-libraries-flow.PNG" alt-text="version limits for new libraries":::
+:::image type="content" source="media/version-history/version-limits-new-libraries-flow.PNG" alt-text="version limits for new libraries":::
 
 ## Setting types of Version history limits
 
@@ -61,7 +61,7 @@ Organization-level version settings define the default version storage limits se
 > [!IMPORTANT]
 > When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to [[update the settings on existing libraries on a site](#setting-version-history-limits-for-a-site)] or to [[trim existing versions](#trimming-existing-versions-from-sites-or-libraries)].
 
-:::image type="content" source="media/tenant-version-history-limit.PNG" alt-text="tenant version history":::
+:::image type="content" source="media/version-history/tenant-version-history-limit.PNG" alt-text="tenant version history":::
 
 ## Setting Version history limits for a Site
 
@@ -83,7 +83,7 @@ Site-level **Version history limits** for sites can be managed in the following 
 > - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
 > - MinorVersions count only applies to the document libraries that enabled minor versioning.
 
-:::image type="content" source="media/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
+:::image type="content" source="media/version-history/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
 
 ## Setting Version history limits for Individual Document Library
 
@@ -95,7 +95,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 - **When Library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Consider a library where the version count limit is initially set to 500 versions but is later reduced to 300 versions. In this scenario, if there is a file with 500 versions, each time a user updates the file, the system will gradually purge the oldest 20 versions with each new version creation until the total number of versions aligns with the updated limit of 300. It's crucial to note that when count limits are lowered, the process of version deletion occurs gradually, with up to 20 versions being removed for every new version created.  
 
-:::image type="content" source="media/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
+:::image type="content" source="media/version-history/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
 
 > [!CAUTION]
 > Versions deleted either under the automatic setting or due to versions' age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
@@ -155,7 +155,7 @@ You can download the report file from SharePoint and do any analysis to learn ab
 
 There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
 
-:::image type="content" source="media/file-version-expiration-report.PNG" alt-text="An example file version expiration report and its column breakdown":::
+:::image type="content" source="media/version-history/file-version-expiration-report.PNG" alt-text="An example file version expiration report and its column breakdown":::
 
 Let’s go through the first file version displayed in this report.  
 
