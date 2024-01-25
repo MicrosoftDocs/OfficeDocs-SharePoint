@@ -38,7 +38,7 @@ After we validate updates through rings within Microsoft, we release them to the
 
 |Insiders|>|Production|>|Deferred|
 |:------:|:--:|:--------:|:---|:---:|
-|1-2 times per week|>|1-2 times per week|>|Every 2-3 months|
+|1-2 times per week|>|Every 1-2 weeks|>|Every 2-3 months|
 
 > [!IMPORTANT]
 > We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)

@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Custom Profile Property Mappings"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 7/5/2017
