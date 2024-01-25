@@ -89,21 +89,25 @@ Google's proprietary formats aren't compatible with anything other than a Google
 
 > [!Note]
 > The only way to migrate/download a Google format file is to request that they [Google] facilitate it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
+
 ### File size of Google proprietary files
 
 Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 won't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 
 ### Files marked as restricted
 
-Google Workspace/Drive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. If not disabled, this error will appear:
+Google Workspace/Drive allows owners to control the ability for users to copy, download, or print files on a per-file basis. By default, this feature is enabled for each file. To ensure a successful migration, this setting must remain enabled. Disabling it may result in the following error when migrating a file owned by another user:
 
 `Permissions issue: File marked as restricted or not copyable`
 
-To disable this feature:
+To enable this setting:
 
-1. See the **Sharing** settings for a file, and select **Advanced**. 
-2. Select the checkbox for the owner of the file to **Disable options to download, print, and copy for commenters and viewers.**
-    
+1. Navigate to the **Share** panel for the file.
+
+1. Click on the **Settings Icon** located at the top right corner.
+
+1. Select the checkbox for the setting "**Viewers and commenters can see the option to download, print, and copy.**"
+
 ### What happens to Google Drive shortcuts?
 
 Shortcut files aren't supported for migration and therefore not migrated.
