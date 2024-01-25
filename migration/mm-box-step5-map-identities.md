@@ -1,9 +1,9 @@
 ---
 ms.date: 08/03/2023
 title: "Step 5: Map Box identities with Migration Manager"
-ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+ms.reviewer: 
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

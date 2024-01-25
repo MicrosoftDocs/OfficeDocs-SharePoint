@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Checked-out files"
 ms.reviewer: 
-ms.author: jtremper
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
