@@ -56,6 +56,7 @@
 #### [Workflow migration reports and error codes](spmt-workflow-report-and-error-codes.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
+### [Migration Admin role](mm-migration-admin-role.md)
 ### [Unsupported files](mm-unsupported-files.md)
 ### [Project settings](mm-project-settings.md)
 #### [Permissions](mm-project-settings-permissions.md)

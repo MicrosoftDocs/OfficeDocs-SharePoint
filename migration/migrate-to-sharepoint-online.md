@@ -33,7 +33,7 @@ Moving to Microsoft 365? **Migration Manager** helps you migrate your content ea
 ### Announcing the new Migration Admin role
 
 >[!Note]
->This feature is currently in public preview, with full availability by mid-January 2024.
+>This feature is currently in public preview, with full availability by June 2024.
 
 A Microsoft 365 Migration Administrator role is now available to provide access to Migration Manager within the Microsoft 365 Admin Center. Currently, your migration team s must be assigned the SharePoint admin role, giving more access than needed. With this new role, you limit usage to only what is required to migrate your content, reserving SharePoint Admin access to only users who need it.
 
