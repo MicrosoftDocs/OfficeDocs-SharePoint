@@ -1,8 +1,8 @@
 ---
 ms.date: 08/07/2023
 title: Create a task in SharePoint Migration Tool (SPMT)
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

@@ -2,8 +2,8 @@
 ms.date: 12/14/2023
 title: "SharePoint Migration Tool settings"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

@@ -2,8 +2,8 @@
 ms.date: 09/24/2021
 title: "Bulk upload Google drives into Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
