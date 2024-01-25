@@ -1,5 +1,5 @@
 ---
-ms.date: 08/14/2023
+ms.date: 12/01/2023
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: heidip
@@ -28,26 +28,34 @@ description: "This article helps you understand which tool to use when migrating
 
 # Migrate your content to Microsoft 365
 
-Moving to Microsoft 365? **Migration Manager** will help you migrate your content easily and securely.
+Moving to Microsoft 365? **Migration Manager** helps you migrate your content easily and securely.
+
+### Announcing the new Migration Admin role
+
+>[!Note]
+>This feature is currently in public preview, with full availability by June 2024.
+
+A Microsoft 365 Migration Administrator role is now available to provide access to Migration Manager within the Microsoft 365 Admin Center. Currently, your migration team s must be assigned the SharePoint admin role, giving more access than needed. With this new role, you limit usage to only what is required to migrate your content, reserving SharePoint Admin access to only users who need it.
+
+Learn more:  [**Migration Admin role**](mm-migration-admin-role.md)
 
 
 ## What's new
 
-- Check out what's new and coming soon to [Migration Manager](mm-whats-new.md).
+- What's new and coming soon to [Migration Manager](mm-whats-new.md).
 
-- Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+- What's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
-### Mover retirement
+#### Mover retirement
 
-**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte is fully integrated into Migration Manager. All FastTrack-led migrations have transitioned to Migration Manager. Migration Manager does not support the migration of Amazon S3 or Azure blob storage.
+**Mover is now retired for all Admin led migrations**. The ability to migrate from Google Drive, Box, Dropbox, and Egnyte is fully integrated into Migration Manager. All FastTrack-led migrations have transitioned to Migration Manager. Migration Manager doesn't support the migration of Amazon S3 or Azure blob storage.
 
->[!Tip]
->[**Individuals or students**: You may continue to use Mover. Learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+**Individuals or students**: You can continue to use Mover. Learn more: [Move your school files when you graduate](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 
 
 ### Cross-tenant migration
 
-Tenant to tenant migration for OneDrive is now available outside of Migration Manager.  To learn more see:
+Tenant to tenant migration for OneDrive is now available outside of Migration Manager.  To learn more:
 
 - [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration)  
 
@@ -57,7 +65,7 @@ A cross tenant migration solution for SharePoint is currently in private preview
 
 ### Transform your classic SharePoint Server pages
 
-If you are onboarding your classic on-premises SharePoint Server pages to SharePoint Online, help is here!  Learn more at:  [**Transform classic pages to modern pages**](/sharepoint/dev/transform/modernize-userinterface-site-pages)
+If you're onboarding your classic on-premises SharePoint Server pages to SharePoint Online, help is here!  Learn more at:  [**Transform classic pages to modern pages**](/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
 
 ##  Where are you migrating from?
