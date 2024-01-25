@@ -2,8 +2,8 @@
 ms.date: 08/24/2020
 title: "Create a task Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

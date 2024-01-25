@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: "Step 5: Map Google identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 audience: ITPro
 f1.keywords:

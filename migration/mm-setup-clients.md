@@ -2,8 +2,8 @@
 ms.date: 10/11/2023
 title: "Setup Migration Manager agents"
 ms.reviewer: jhendr
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

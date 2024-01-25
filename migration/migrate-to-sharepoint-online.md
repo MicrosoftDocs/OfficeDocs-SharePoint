@@ -2,8 +2,8 @@
 ms.date: 12/01/2023
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
