@@ -24,7 +24,7 @@ search.appverid:
 - FRP150
 - MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
-description: "In this article, you'll learn how global and SharePoint admins can change the URL of a SharePoint site."
+description: "In this article, you learn how global and SharePoint admins can change the URL of a SharePoint site."
 ---
 
 # Change a site address
@@ -54,7 +54,7 @@ You can't move the site from "/sites" to "/teams." For info about changing your 
 
 It can take about 10 minutes to change the site address (depending on the size of the site), and the site is read-only during this time. We recommend changing addresses during times when site usage is low. 
 
-You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
+You can change the address of up to 100 sites at a time. To change another site address, wait for ongoing changes to finish. 
 
 > [!NOTE]
 > If you need to revert a site address change, follow the steps in [Revert a site address change](#revert-a-site-address-change).
@@ -63,8 +63,8 @@ You can change the address of up to 100 sites at a time. To change an additional
 
 Before you change the address of a site, it's important to communicate the change to site users (generally anyone with the ability to edit or view the site). This can help reduce user confusion and calls to your help desk. [Review the effects](#effects-of-changing-a-site-address) of changing a site address and let users know the following information:
 
-- When the change will happen  
-- What the new URL will be  
+- The planned date of the change
+- The planned URL
 - Users should close their files and not make edits during the address change
 - Users should check the site recycle bin to make sure it contains no files they want to keep 
 - File permissions and sharing won't change  
@@ -153,7 +153,7 @@ The Word, Excel, and PowerPoint desktop apps and apps for the web will show the 
 Files in the recycle bin will be restorable as per the usual deletion timeframe.
 
 **SharePoint mobile apps for Android and iOS**<br>
-The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
+The SharePoint mobile apps detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
 **SharePoint web parts**<br>
 Any embedded URLs in any SharePoint web parts (News, List, etc.) will not be updated and may break. This includes page thumbnail images in news posts existing on the site. After the site address is changed, you might need to update individual web parts to use the new URL. 
