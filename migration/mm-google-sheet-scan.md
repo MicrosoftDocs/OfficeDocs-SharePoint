@@ -2,8 +2,8 @@
 ms.date: 11/14/2023
 title: "Scan Google Sheet spreadsheets with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

@@ -12,6 +12,7 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
+  - essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn about setting up hybrid OneDrive and SharePoint in Microsoft 365.

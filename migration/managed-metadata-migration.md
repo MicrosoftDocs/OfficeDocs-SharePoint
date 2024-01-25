@@ -2,8 +2,8 @@
 ms.date: 03/28/2019
 title: "Migrate managed metadata by using SPMT"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

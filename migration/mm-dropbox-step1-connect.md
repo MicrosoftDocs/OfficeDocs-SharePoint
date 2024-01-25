@@ -2,8 +2,8 @@
 title: "Connect to Dropbox with Migration Manager"
 ms.date:  01/21/2021
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

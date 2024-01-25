@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Control notifications"
 ms.reviewer: shahna
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH

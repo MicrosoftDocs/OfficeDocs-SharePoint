@@ -18,7 +18,9 @@ search.appverid:
 - GOB150
 - GOB160
 - MET150
-ms.collection: M365-collaboration
+ms.collection:
+  - M365-collaboration
+  - Essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc

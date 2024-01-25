@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Workflow Running Solutions 2010"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 9/13/2017

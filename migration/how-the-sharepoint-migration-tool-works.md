@@ -2,8 +2,8 @@
 ms.date: 03/13/2018
 title: "How does the SharePoint Migration Tool work?"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
