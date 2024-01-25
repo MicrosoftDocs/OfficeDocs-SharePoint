@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Managed Metadata Columns"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 12/14/2017
