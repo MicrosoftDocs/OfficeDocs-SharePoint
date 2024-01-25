@@ -39,7 +39,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Shared drive permission.** Google Shared Drive permissions are now migrated by default according to what you have set in permission settings.
 
 ## October 2023
-- **Scan/Migration status update.** Improvements were made to let you organize the status of drives better. For guidance on different task statuses, see: [Migration Manager status codes](/sharepointmigration/mm-cloud-reports.md#status-codes)
+- **Scan/Migration status update.** Improvements were made to let you organize the status of drives better. For guidance on different task statuses, see: [Migration Manager status codes](/sharepointmigration/mm-cloud-reports#status-codes)
 - **Migration time estimator.** Get an estimated migration time before connecting to a migration source. The migration time estimator is located at the top right corner of the project page.
 - **Report improvements.** Report fields and failure reasons are polished to provide a more readable and consistent reporting experience. 
 
