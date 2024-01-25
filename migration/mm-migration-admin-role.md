@@ -45,7 +45,7 @@ In addition, this role provides all the functionality required to migrate includ
 To use this feature, assign the migration admin role to a new or existing user. This role only allows access to Migration Manager.
 
 >[!Note]
->Tabs may appear on the left navigation pane, including one for Groups, Users, Roles, and Settings. For users assigned Migration Admin role, and aren't a SharePoint Admin, these tabs will be read-only.
+>Tabs may appear on the left navigation pane, including one for Groups, Users, Roles, and Settings. Users assigned the Migration Admin role can select and navigate these tabs, however, they are read-only.
 
 >[!Important]
 >You can continue to use Migration Manager as you currently do today.  Your projects will continue to work normally.
