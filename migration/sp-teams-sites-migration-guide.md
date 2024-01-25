@@ -78,11 +78,7 @@ Decide how your team sites map to a modern hub architecture. It isn't necessary 
 #### More guidance on modernization
 
 - [Modernize your classic SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) 
-
 - [Transform classic pages to modern client-side pages](/sharepoint/dev/transform/modernize-userinterface-site-pages)
-
-- [Transforming to modern site pages from inside the SharePoint UI](https://aka.ms/sppnp-pagetransformationui)
-
 
 
 ### Workflows and planning for the future
@@ -169,13 +165,3 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 - The migration timeline and how it will impact them. Include any end user calls to action. 
 - Assure them that if they have content already in SharePoint, that their content is safe and won't be overwritten. 
 - Let them know whether individuals can opt-out of the migration process
-
-### Onboarding related resources
-
-   ![User onboarding](media/SP-User-Onboard.png)
-
-The SharePoint adoption resource center serves as a one stop shop for all adoption and change management related content.  The Success Factors detailed on the SharePoint Adoption Resource website will help make sure you're set up for a successful roll-out of SharePoint. 
-
-- **[SharePoint Adoption Resource Center](https://resources.techcommunity.microsoft.com/resources/SharePoint-adoption/)**
-
- ![SharePoint Adoption](media/SP-Adoption-Success-Factors.png)
