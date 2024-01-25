@@ -1,6 +1,6 @@
 ---
-ms.date: 09/13/2019
-title: "Report on sharing"
+ms.date: 01/25/2024
+title: Report on file and folder sharing in a SharePoint site
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,21 +15,20 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
+- Tier2
 search.appverid:
 - SPO160
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: "In this article, you'll learn how to create a report on file and folder sharing on a SharePoint site."
+description: Learn how to create a report on file and folder sharing on a SharePoint site.
 ---
 
 # Report on file and folder sharing in a SharePoint site
 
-You can create a CSV file of every unique file, user, permission and link on a given SharePoint site or OneDrive. This can help you understand how sharing is being used and if any files or folders are being shared with guests. You must be a site admin to run the report.
+You can create a CSV file of every unique file, user, permission and link on a given SharePoint site or OneDrive. This can help you understand how sharing is being used and if any files or folders are being shared with guests. You must be a site admin to run the report. Note that additional reporting options are available with [Microsoft Graph Data Connect](/graph/data-connect-datasets#onedrive-and-sharepoint-online).
 
-When you run the report, the CSV file is saved to a location of your choosing on the site. 
-
-In Microsoft SharePoint, if you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+When you run the report, the CSV file is saved to a location of your choosing on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
 
 To run the report (SharePoint)
 1. Open the site where you want to run the report
@@ -67,6 +66,8 @@ The report contains the following columns:
 |Link Type|The type of link (Anonymous, Organization, Specific People) if user name is *Sharing Link*|
 |AccessViaLinkID|The **Link ID** used to access the item if a user's permission to an item is via a link.
 
+## Related articles
 
+[Overview of Microsoft Graph Data Connect](/graph/data-connect-concept-overview)
 
 
