@@ -30,7 +30,7 @@ description: "In this article, you'll learn how global and SharePoint admins can
 # Change a site address
 
 > [!NOTE]
-> This feature isn't available for Microsoft 365 Government GCC High customers.
+> This feature isn't supported for Microsoft 365 Government cloud customers, including GCC, GCC High or DoD.
 
 As a Global Administrator or SharePoint Administrator in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
