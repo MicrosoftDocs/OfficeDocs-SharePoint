@@ -44,13 +44,13 @@ To run the report (OneDrive)
 
 The report may take some time to run depending on the size of the site.
 
-When the report is finished running you will receive an email with a link to the report.
+When the report is finished running you'll receive an email with a link to the report.
 
 ## CSV format
 
 For items shared with direct access, the report contains one row for each user / item combination. SharePoint groups are shown in the report, but not individual users inside them.
 
-For items shared with a link, the report contains a row for each signed-in user who has used the link or has been sent the link through the sharing dialog. Links emailed directly that haven't been clicked, and *Anyone* links are not included in the report.
+For items shared with a link, the report contains a row for each signed-in user who has used the link or has been sent the link through the sharing dialog. Links emailed directly that haven't been clicked, and *Anyone* links aren't included in the report.
 
 The report contains the following columns:
 
