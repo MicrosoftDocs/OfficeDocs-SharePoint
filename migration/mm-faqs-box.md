@@ -2,8 +2,8 @@
 ms.date: 03/18/2021
 title: "Migration Manager Box FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

@@ -1,8 +1,8 @@
 ---
 title: "SharePoint-provided Azure containers and queues for SharePoint Migration API"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 7/18/2017

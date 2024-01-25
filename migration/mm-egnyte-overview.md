@@ -2,8 +2,8 @@
 ms.date: 08/11/2023
 title: "Overview: Migrate Egnyte using Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 audience: ITPro
 f1.keywords:

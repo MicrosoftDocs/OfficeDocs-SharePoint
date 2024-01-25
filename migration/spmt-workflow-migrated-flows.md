@@ -2,8 +2,8 @@
 ms.date: 12/02/2021
 title: "Migrated Flow structure when using SPMT"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: Admin

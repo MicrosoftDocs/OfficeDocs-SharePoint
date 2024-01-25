@@ -2,8 +2,8 @@
 ms.date: 11/03/2023
 title: "Troubleshoot SharePoint Migration Tool"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

@@ -2,8 +2,8 @@
 ms.date: 01/31/2023
 title: "Upload file share sources to Migration Manager using a CSV file."
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

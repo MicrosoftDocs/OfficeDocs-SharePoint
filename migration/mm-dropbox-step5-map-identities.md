@@ -2,8 +2,8 @@
 ms.date: 01/21/2021
 title: "Step 5: Map Dropbox identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 audience: ITPro
 f1.keywords:

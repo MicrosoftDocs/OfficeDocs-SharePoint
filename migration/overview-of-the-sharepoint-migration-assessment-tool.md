@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Migration Assessment Tool"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 01/11/2018

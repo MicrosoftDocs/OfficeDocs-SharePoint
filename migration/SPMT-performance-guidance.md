@@ -1,8 +1,8 @@
 ---
 ms.date: 03/30/2020
 title: Improve SPMT or Migration Manager agent performance
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
