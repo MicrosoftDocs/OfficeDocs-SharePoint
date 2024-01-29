@@ -1,5 +1,5 @@
 ---
-title: "How Version History settings work"
+title: "How Version History Limits for Document Libraries Work"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
