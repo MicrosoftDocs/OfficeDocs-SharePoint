@@ -201,6 +201,11 @@
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Sign out inactive users](sign-out-inactive-users.md)
+
+## Versions
+### [How to Trim Existing Versions from Sites or Libraries](how-to-trim-existing-versions-from-sites-or-libraries.md)
+### [FAQs for Version history limits](faqs-for-versions.md)
+
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
