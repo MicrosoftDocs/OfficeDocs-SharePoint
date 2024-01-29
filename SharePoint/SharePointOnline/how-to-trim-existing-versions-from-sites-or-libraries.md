@@ -39,9 +39,9 @@ This article describes how Site Administrators can trim existing version history
 
 - Here’s a PowerShell script that generates a **site-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
 
-:::image type="content" source="media/generate-powershell.PNG" alt-text="generate powershell":::
+:::image type="content" source="media/version-history/generate-powershell.PNG" alt-text="generate powershell":::
 
-:::image type="content" source="media/generate-powershell-1.PNG" alt-text="generate powershell expiration":::
+:::image type="content" source="media/version-history/generate-powershell-1.PNG" alt-text="generate powershell expiration":::
 
 - Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
 
@@ -50,37 +50,37 @@ This article describes how Site Administrators can trim existing version history
 > While the job is processing, you will see the report file being gradually populated. Do not update the file during this time, as it may lead to job failure. Check the progress of the report generation to ensure that the report is fully populated and ready to process.
 > If you want to cancel a report generation in progress, you can simply delete the report file.
 
-:::image type="content" source="media/library-scoped-report-powershell.PNG" alt-text="library scoped report powershell":::
+:::image type="content" source="media/version-history/library-scoped-report-powershell.PNG" alt-text="library scoped report powershell":::
 
 ### Check the progress of generating a file version expiration report
 
 - Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
 
-:::image type="content" source="media/site-scoped-report.PNG" alt-text="site scoped report":::
+:::image type="content" source="media/version-history/site-scoped-report.PNG" alt-text="site scoped report":::
 
 - Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
 
-:::image type="content" source="media/library-scoped-report-analysed.PNG" alt-text="library scoped report analysed":::
+:::image type="content" source="media/version-history/library-scoped-report-analysed.PNG" alt-text="library scoped report analysed":::
 
 - The API returns in JSON format, and the value will look like one of the following values:
  
-:::image type="content" source="media/json-powershell.PNG" alt-text="json powershell":::
+:::image type="content" source="media/version-history/json-powershell.PNG" alt-text="json powershell":::
 
 ## Step 2: Update File Version Expiration Report File with Desired Trimming Setting
 
 - Here's an example of PowerShell script you could apply to generate a What-If Report file that applies the **Automatic Expiration**  policy on the report file `C:\Report.csv`.  
 
-:::image type="content" source="media/expiration-automation.PNG" alt-text="expiration automation":::
+:::image type="content" source="media/version-history/expiration-automation.PNG" alt-text="expiration automation":::
 
 - Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to 30 on the report file `C:\Report.csv`.  
 
-:::image type="content" source="media/manual-expiration.PNG" alt-text="manual expiration":::
+:::image type="content" source="media/version-history/manual-expiration.PNG" alt-text="manual expiration":::
 
 - Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to 50 on the report file `C:\Report.csv`.
 
-:::image type="content" source="media/manual-with-count-limits-a.PNG" alt-text="manual with count limits-a":::
+:::image type="content" source="media/version-history/manual-with-count-limits-a.PNG" alt-text="manual with count limits-a":::
 
-:::image type="content" source="media/manual-with-count-limits-b.PNG" alt-text="manual with count limits-b":::
+:::image type="content" source="media/version-history/manual-with-count-limits-b.PNG" alt-text="manual with count limits-b":::
 
 ## Step 3: Schedule Job to Trim Existing Versions
 
@@ -94,15 +94,15 @@ This article describes how Site Administrators can trim existing version history
 
 - Upload the new schedule file to a document library that is in the same site collection as the one you're deleting version from.
 
-:::image type="content" source="media/schedule-optimiser.PNG" alt-text="schedule optimiser":::
+:::image type="content" source="media/version-history/schedule-optimiser.PNG" alt-text="schedule optimiser":::
 
 - Use cmdlet included in VersionUtils.ps1 script to queue a version expiration scheduling job.
 
 - For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
-:::image type="content" source="media/schedule-a-job-powershell.PNG" alt-text="schedule a job powershell":::
+:::image type="content" source="media/version-history/schedule-a-job-powershell.PNG" alt-text="schedule a job powershell":::
 
-:::image type="content" source="media/schedule-a-job-powershell-1.PNG" alt-text="schedule a job powershell 1":::
+:::image type="content" source="media/version-history/schedule-a-job-powershell-1.PNG" alt-text="schedule a job powershell 1":::
 
 - Then, all the versions in the schedule file update their expiration time to your specified time. It completes asynchronously in the upcoming days. The specific length of time is dependent on how many versions are being deleted or expired.  
 
@@ -112,8 +112,8 @@ This article describes how Site Administrators can trim existing version history
 
 - For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
-:::image type="content" source="media/version-expiration-scheduling-job.PNG" alt-text="version expiration scheduling job":::
+:::image type="content" source="media/version-history/version-expiration-scheduling-job.PNG" alt-text="version expiration scheduling job":::
 
 - JSON strings are returned in one of the following formats:
 
-:::image type="content" source="media/version-expiration-scheduling-job-json.PNG" alt-text="version expiration scheduling job json":::
+:::image type="content" source="media/version-history/version-expiration-scheduling-job-json.PNG" alt-text="version expiration scheduling job json":::
