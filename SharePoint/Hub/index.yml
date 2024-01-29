@@ -52,7 +52,7 @@ additionalContent:
          # Card
         - title: Version History
           summary: Learn about file versioning that enables users to view or restore earlier versions.
-          url: /SharePoint/VersionHistory/vh-toc/toc.md 
+          url: /SharePoint/SharePointOnline/toc.md 
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card
