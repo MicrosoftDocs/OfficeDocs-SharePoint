@@ -22,14 +22,20 @@ description: "This article provides guidance on how to trim existing versions fr
 
 # How to Trim Existing Versions from Sites or Libraries
 
-This article describes how Site Administrators can trim existing version history on a Site or Document Library. Trimming existing versions is performed in the following sequence of steps:  
+This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we will cover:
 
-1. **Generate a ‘What-If File Expiration report’ for Site or Document Library**. Depending on the size of the Site or Library, the job can take a couple of days to complete. Check the progress of the job until the status returns as “complete.”  
+- Apply a trim mode on report file
+- Schedule trim job
+- Check progress of trim job
 
-1. **Update the ‘What-If File Expiration report’ to apply one of the 3 different trimming modes**: Download the report file to your local computer and apply the provided scripts to apply the desired setting to the file - **Automatic**, **Manual Expiration Limits** or **Manual with Count Limits Only**. If needed, you could apply PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users. This step converts the ‘What-If File Expiration report’ into the ‘Schedule input file’ needed to queue a scheduling job.  
+Trimming existing versions is performed in the following sequence of steps:  
+
+1. **Generate a Version Storage Use report for Site or Document Library**. Depending on the size of the Site or Library, the job can take a couple of days to complete. Check the progress of the job until the status returns as “complete.”  
+
+1. **Apply trimming modes on Version Storage Use Report file**: Download the report file to your local computer and apply the provided scripts to apply the desired setting to the file - **Automatic**, **Manual Expiration Limits** or **Manual with Count Limits Only**. If needed, you could apply PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users. This step converts the ‘What-If File Expiration report’ into the ‘Schedule input file’ needed to queue a scheduling job.  
 
 1. **Schedule the job to trim versions for your Sites or Libraries**: You can optimize the size of ‘Schedule Input File’ by applying the scripts provided. Then upload the ‘Schedule Input file’ to SharePoint a document library in the same site as the site you're deleting versions from followed by queuing the trimming job. Once the job is queued, you can check the status of your trimming job.
- 
+
 > [!IMPORTANT]
 > You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
 
@@ -63,7 +69,7 @@ This article describes how Site Administrators can trim existing version history
 :::image type="content" source="media/version-history/library-scoped-report-analysed.PNG" alt-text="library scoped report analysed":::
 
 - The API returns in JSON format, and the value will look like one of the following values:
- 
+
 :::image type="content" source="media/version-history/json-powershell.PNG" alt-text="json powershell":::
 
 ## Step 2: Update File Version Expiration Report File with Desired Trimming Setting
