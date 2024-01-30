@@ -11,7 +11,6 @@ ms.assetid:
 ms.service: sharepoint-online
 ms.collection: M365-collaboration
 ms.tgt_pltfrm: na
-ms.devlang: na
 f1.keywords:
 - NOCSH
 ms.topic: article
