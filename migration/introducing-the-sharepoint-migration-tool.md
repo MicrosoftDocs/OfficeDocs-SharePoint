@@ -1,13 +1,12 @@
 ---
 ms.date: 02/27/2023
 title: "SharePoint Migration Tool for SharePoint and OneDrive"
-audience: ITPro
 ms.reviewer: 
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
-audience: ITPro
+audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article
