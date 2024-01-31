@@ -203,7 +203,8 @@
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
 ## Versions
-### [How to Trim Existing Versions from Sites or Libraries](how-to-trim-existing-versions-from-sites-or-libraries.md)
+### [Run ‘What-If’ analysis on Version Storage Report File - Tutorial](run-what-If-analysis-on-version-storage-report-file.md)
+### [Schedule Job to Trim existing Versions from Sites or Libraries - Tutorial4](how-to-trim-existing-versions-from-sites-or-libraries.md)
 ### [FAQs for Version history limits](faqs-for-versions.md)
 
 ## [Compliance]()

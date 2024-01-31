@@ -1,5 +1,5 @@
 ---
-title: "How to Trim Existing Versions from Sites or Libraries"
+title: "Schedule Job to Trim existing Versions from Sites or Libraries"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
@@ -16,17 +16,18 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to trim existing versions from sites or libraries."
+description: "This article provides guidance on how to Schedule Job to Trim existing Versions from Sites or Libraries."
 
 ---
 
-# How to Trim Existing Versions from Sites or Libraries
+# Schedule Job to Trim existing Versions from Sites or Libraries - Tutorial4
 
 This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we will cover:
 
-- Apply a trim mode on report file
-- Schedule trim job
-- Check progress of trim job
+- Optimize Input File
+- Queue Trim Job
+- Check progress of trim job 
+- Review impact on storage metrics 
 
 Trimming existing versions is performed in the following sequence of steps:  
 
