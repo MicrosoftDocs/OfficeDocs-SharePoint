@@ -22,7 +22,7 @@ description: "This article provides guidance on how to run ‘What-If’ analysi
 
 # Run ‘What-If’ analysis on Version Storage Report File - Tutorial
 
-In this tutorial we will cover how to:
+In this tutorial, we'll cover how to:
 
 - Run impact analysis of Automatic setting.
 - Run impact analysis of Manual Expiration.

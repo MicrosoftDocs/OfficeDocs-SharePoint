@@ -20,7 +20,7 @@ description: "This article provides guidance on how to Schedule Job to Trim exis
 
 ---
 
-# Schedule Job to Trim existing Versions from Sites or Libraries - Tutorial4
+# Schedule Job to Trim existing Versions from Sites or Libraries - Tutorial
 
 This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we will cover:
 
