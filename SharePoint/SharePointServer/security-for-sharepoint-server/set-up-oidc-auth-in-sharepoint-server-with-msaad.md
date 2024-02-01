@@ -32,10 +32,10 @@ This article uses the following example values for Microsoft Entra OIDC setup:
 | Value | Link |
 |---------|---------|
 | SharePoint site Uniform Resource Locator (URL) | `https://spsites.contoso.local/` |
-| OIDC site URL     | `https://sts.windows.net/<tenantid>/` |
-| Microsoft Entra OIDC authentication endpoint     | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
-| Microsoft Entra OIDC RegisteredIssuerName URL     | `https://sts.windows.net/<tenantid>/` |
-| Microsoft Entra OIDC SignoutURL     | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
+| OIDC site URL     | `https://sts.windows.net/-tenantId-/` |
+| Microsoft Entra OIDC authentication endpoint     | `https://login.microsoftonline.com/-tenantId-/oauth2/authorize` |
+| Microsoft Entra OIDC RegisteredIssuerName URL     | `https://sts.windows.net/-tenantId-/` |
+| Microsoft Entra OIDC SignoutURL     | `https://login.microsoftonline.com/-tenantId-/oauth2/logout` |
 | Identity claim type     | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |
 | Windows site collection administrator     | contoso\yvand |
 | Email value of the federated site collection administrator   | yvand@contoso.local |
@@ -77,18 +77,18 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 In Microsoft Entra ID, there are two versions of OIDC authentication endpoints. Therefore, there are two versions of OIDC discovery endpoints respectively:
 
-- V1.0: `https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration`
-- V2.0: `https://login.microsoftonline.com/<TenantID>/v2.0/.well-known/openid-configuration`
+- V1.0: `https://login.microsoftonline.com/-tenantId-/.well-known/openid-configuration`
+- V2.0: `https://login.microsoftonline.com/-tenantId-/v2.0/.well-known/openid-configuration`
 
 > [!NOTE]
 > When using OIDC authentication with SharePoint Server, currently only the V1.0 endpoint is supported.
-Replace TenantID with the **Directory (tenant) ID** saved in the third step mentioned previously and connect to the endpoint through your browser. Then, save the following information:
+Replace -tenantID- with the **Directory (tenant) ID** saved in the third step mentioned previously and connect to the endpoint through your browser. Then, save the following information:
 
 | Value | Link |
 |---------|---------|
-| authorization_endpoint | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
-| end_session_endpoint   | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
-| issuer     | `https://sts.windows.net/<tenantid>/` |
+| authorization_endpoint | `https://login.microsoftonline.com/-tenantId-/oauth2/authorize` |
+| end_session_endpoint   | `https://login.microsoftonline.com/-tenantId-/oauth2/logout` |
+| issuer     | `https://sts.windows.net/-tenantId-/` |
 | jwks_uri     | `https://login.microsoftonline.com/common/discovery/keys` |
 
 Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and save all the **x5c** certificate strings for later use in SharePoint setup.
@@ -145,7 +145,7 @@ You can configure SharePoint to trust the identity provider in either of the fol
 In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
 
 > [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace <tenantid> with your own Directory (tenant) ID.
+> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace -tenantId- with your own Directory (tenant) ID.
 ```powershell
 # Define claim types
 # In this example, we're using Email Address as the identity claim.
@@ -161,10 +161,10 @@ foreach ($encodedCertStr in $encodedCertStrs) {
      $certificates += New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
 }
 
-# Set the AAD OIDC URL where users are redirected to authenticate. Please replace <tenantid> accordingly
-$authendpointurl = "https://login.microsoftonline.com/<tenantid>/oauth2/authorize"
-$registeredissuernameurl = "https://sts.windows.net/<tenantid>/"
-$signouturl = "https://login.microsoftonline.com/<tenantid>/oauth2/logout"
+# Set the AAD OIDC URL where users are redirected to authenticate. Please replace -tenantId- accordingly
+$authendpointurl = "https://login.microsoftonline.com/-tenantId-/oauth2/authorize"
+$registeredissuernameurl = "https://sts.windows.net/-tenantId-/"
+$signouturl = "https://login.microsoftonline.com/-tenantId-/oauth2/logout"
 
 # Please replace <Application (Client) ID> with the value saved in step #3 in AAD setup section
 $clientIdentifier = "<Application (Client)ID>"
@@ -211,14 +211,14 @@ This can simplify the configuration of the OIDC token issuer.
 With the following PowerShell example, we can use metadata endpoint from Microsoft Entra ID to configure SharePoint to trust Microsoft Entra OIDC.
 
 > [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace <tenantid> with your own Directory (tenant) ID.
+> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace -tenantId- with your own Directory (tenant) ID.
 ```powershell
 # Define claim types
 # In this example, we're using Email Address as the Identity claim.
 $emailClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "Email" -SameAsIncoming
 
-# Set the AAD metadata endpoint URL. Please replace <TenantID> with the value saved in step #3 in the Entra ID setup section  
-$metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration"
+# Set the AAD metadata endpoint URL. Please replace -tenantId- with the value saved in step #3 in the Entra ID setup section  
+$metadataendpointurl = "https://login.microsoftonline.com/-tenantId-/.well-known/openid-configuration"
 
 # Please replace <Application (Client) ID> with the value saved in step #3 in the Entra ID setup section
 $clientIdentifier = "<Application (Client)ID>"
