@@ -178,11 +178,11 @@ Version trimming workflows allow you to select and apply one of the trimming mod
     - With the 2-step trim workflow the ‘TargetExpirationDate’ of matching versions is set to the specified value.
     - With the 1-step trim workflow the trim job will be scheduled to delete matching versions.
 
-:::image type="content" source="media/version-history/manual-expiration-trim-table-library.PNG" alt-text="overwrite version history":::
+:::image type="content" source="media/version-history/manual-expiration-trim-table.PNG" alt-text="manual expiration":::
 
 - **Manual Count Limit:** The manual count limit trim mode will set the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
-:::image type="content" source="media/version-history/manual-count-limit-trim-table-library.PNG" alt-text="overwrite version history":::
+:::image type="content" source="media/version-history/manual-count-limit-trim-table.PNG" alt-text="manual count limit":::
 
 - **Automatic:** The automatic trim mode will set the target expiration date based on the Automatic logic.
 
