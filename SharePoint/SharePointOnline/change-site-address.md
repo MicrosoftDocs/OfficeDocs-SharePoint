@@ -24,7 +24,7 @@ search.appverid:
 - FRP150
 - MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
-description: "In this article, you learn how global and SharePoint admins can change the URL of a SharePoint site."
+description: Learn how global and SharePoint admins can change the URL of a SharePoint site.
 ---
 
 # Change a site address
