@@ -138,31 +138,33 @@ SharePoint supports two ways to trim existing versions on a site or library. Use
 | Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim (2-Step Trimming Workflow)  | The 2-step trim workflow allows you to assess the impact of version trimming prior to scheduling the trim job. <br> <br> You will be able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits, Automatic or other custom trimming logic, apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> **Trimming Modes supported:** <br> <br> <li> Manual Expiration <br> <li> Manual Count <br> <li> Automatic <br> <li> Custom  |
 | Trim versions without analyzing impact. | Batch Trim (1-Step Trimming Workflow) |Batch trim workflow allows you purge versions older than specified period. Use the 1-step trim workflow only if you are comfortable with directly applying the trimming and do not need to review impact before committing to the trim job. <br> <br> **Trimming Modes supported:** <br> <br> <li> Manual Expiration |
 
-**Analyse and trim (2-step version trimming method)**
+The following sections describe the different trimming methods:  
+
+### Analyse and trim (2-step version trimming method)
 
 Trimming existing versions is performed in the following sequence of steps:  
 
 **Step 1: Generate a Version Storage Use report for a Site or Library** to create an input file needed for scheduling the version trim job. This report can also be applied to gain key insights on the impact of applying different trimming settings. For trimming workflow, this report serves the purpose of an input file needed to schedule version trim job.
 
-**Step 2: Set trimming mode** by applying one of the following trimming modes to the version storage report csv file. Once the report is generated you can analyze the user and storage savings impact of applying the trim.  
+**Step 2: Run ‘What-If’ analysis** to preview the changes and analyze the user and storage savings impact of applying one of the trimming modes to the version storage report csv file.  
 
-- **Manual Expiration:** Sets the target expiration date on versions based on the specified value.
 
-- **Manual Count Limit:** Sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
-- **Automatic:** Sets the target expiration date based on the Automatic logic.
 
-- **Custom:** You can update the target expiration date by manually editing the csv file.
 
-**Step 3: Schedule a job** to trim versions for your Sites or Libraries.
+
+
+**Step 3: Set the desired trimming mode and Schedule a job** to trim versions for your Sites or Libraries.
 
 > [!IMPORTANT]
 > - You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
 > - Depending on the size of the Site or Library, the job can take a few days to complete. Check the progress of the job until the status shows "completed".
 
-**Batch trim older versions (1-step trimming method)**
+### Batch trim older versions (1-step trimming method)
 
-The batch trim method allows you to schedule a job to asynchronously delete versions older than the specified number of days. This workflow will allow you to only store versions created within a specified period.
+The 1-step batch trim method skips the analysis phase allowing you to directly schedule a trim job to delete versions matching the specified criteria. This trimming workflow only supports the ‘Manual Expiration’ trim mode that allows you to store versions created within a specified period by scheduling a job to asynchronously delete versions older than the specified number of days.
+
+Here is the sequence of steps for this method:
 
 1. **Prepare to trim:** Determine the desired scope for version deletion - You can delete old file versions for all document libraries in a site or for a specific document library.  Determine the minimum age (in days) for the file versions you want to delete. For example, on May 1, 2023, if you choose to delete file versions that are at least 30 days old, then the versions snapshotted before April 1, 2023 (your target date), will be deleted.
 
@@ -172,72 +174,62 @@ The following are the known limitations.
 
 - The API does not delete versions created in the last 30 days. This means your input to the API cannot be less than 30 days.
 
-- The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you cannot keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023. 
+- The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you cannot keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
+ 
+### Trim Modes
 
-## Analyzing Version Storage Usage for your Site
+Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site or library.
 
-As a SharePoint Site Administrator, you can create a CSV file of every file version on a given SharePoint Site. This report provides a deeper analysis of the current version storage usage or to see the effect of applying one of the three trimming modes before running an actual trim. The three different trimming modes are:
-- Automatic
-- Manual Expiration Limits
-- Manual with Count Limits Only
+- **Manual Expiration:** The manual expiration mode will set the target expiration date on matching versions with the specified value.
+    - With the 2-step trim workflow the ‘TargetExpirationDate’ of matching versions is set to the specified value.
+    - With the 1-step trim workflow the trim job will be scheduled to delete matching versions.
 
-### Understanding the file version expiration report file
+The below table describes the Manual expiration trim applied:
 
-The file version expiration report is in Comma-Separated Values (CSV) format. Each row corresponds to a file version, and it contains the following columns:
-
-| **File Version Identifiers:** | Description |
+| **Month** | **Versions created** |
 |:-----|:-----|
-|`WebId`|The unique identifier of the web and is a compact column <sup>1</sup>.|
-|`DocId`|The unique identifier of the document and is a compact column.|
-|`MajorVersion`|The major version number of the file version.|
-|`MinorVersion`|The minor version number of the file version.|
+| August | 12 |
+| July | 4 |
+| June | 2 2|
+| May | 12 |
+| April | 34 |
+| March | 60 |
+| February | 40 |
+| January | 20 |
+| **Total version count** | **204** |
 
-| **File Version Information:** | Description |
+In the above example On August 31st, Trim job scheduled to trim versions older than 60 days and versions older than 60 days on August 31st is permanently deleted.
+
+- **Manual Count Limit:** The manual count limit trim mode will set the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
+ 
+The below table describes the Manual expiration trim applied:
+
+| **Month** | **Versions created** |
 |:-----|:-----|
-|`WebUrl`|The SharePoint Url to the web and is a compact column.|
-|`FileUrl`|The web relative Url to the file and is a compact column.|
-|`Size`|The size of the version in bytes.|
-|`ModifiedBy_UserId`|The identifier of the user who created this version and is a compact column.|
-|`ModifiedBy_UserDisplayName`|The display name of the user who created this version and is a compact column'.|
-|`LastModifiedDate`|The time when the version was last modified.|
-|`SnapshotDate`|The time when the version became a historical version.|
-|`IsSnapshotDateEstimated`|If this is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.|
+| August | 12 |
+| July | 4 |
+| June | 22|
+| May | 12 |
+| April | 34 |
+| March | 60 |
+| February | 40 |
+| January | 20 |
+| **Total version count** | **204** |
 
-| **Expiration Schedule information:** | Description |
-|:-----|:-----|
-|`CurrentExpirationDate`|Time when the version is going to expire as it currently stands.|
-|`AutomaticPolicyExpirationDate`|Time when the version would be expiring if an automatic expiration policy were to be retroactively applied, estimated on a best-effort basis.|
-|`TargetExpirationDate`|Is populated to the same value as `CurrentExpirationDate`. This column is useful for any What-If analysis and batch-updating the expiration dates.|
+In the above example On August 31st, Trim job scheduled to delete versions exceeding 50 count limits. Oldest versions exceeding 50 count limits is marked for permanent deletion.
 
-<sup>1</sup> Compact columns are columns that won't repeat values if two consecutive rows have the same value. It will simply put empty string for the repeated records. The header for these columns will have "Compact" postfix.
+- **Automatic:** The automatic trim mode will set the target expiration date based on the Automatic logic.
 
-You can download the report file from SharePoint and do any analysis to learn about the dataset.
+- **Custom:** The 2-step trim mode allows you to update the target expiration date by manually editing the report file and scheduling the trim job.
 
-There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
+## Learn More
 
-:::image type="content" source="media/version-history/file-version-expiration-report.PNG" alt-text="An example file version expiration report and its column breakdown":::
+For more information, check out the following resources:
 
-Let’s go through the first file version displayed in this report.  
+- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site]()
 
-- `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify this version in your SharePoint site.  
+- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File]()
 
-- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
+- [Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim]()
 
-- `Size` indicates that the version takes 92,246 bytes of storage.  
-
-- The next two columns, `ModifiedBy_UserId` and `ModifiedBy_DisplayName` indicate that the user, Michelle Harris (with user ID 6), has created this version.  
-
-- `LastModifiedDate` indicates that the version’s content was last modified on March 13, 2023, at 22:36:09 UTC. `SnapshotDate` displays that the version became a historical version on March 20, 2023, at 16:56:51 UTC. `IsSnapshotDateEstimated` shows that `SnapshotDate` is the actual snapshot date.  
-
-- `CurrentExpirationDate` indicates that this version is currently set to never expire. `AutomaticPolicyExpirationDate` shows that under the automatically expire policy, this version is also set to never expire. `TargetExpirationDate` indicates that if we follow this schedule for trimming, we would set this version to never expire.  
-
-Let’s look at the third version.  
-
-The `WebId` and `DocId` values are empty because these columns are compact columns, denoted by *.Compact* post-fix, it means they should have values. If we look for the last nonempty above that row, we find `WebId` as `4c7a58c1-01f2-4fa3-a730-44081a44f689`, and `DocId` as `18c3e09c-b5be-48e7-a754-7a2ce53e0999`.
-
-> [!NOTE]
-> All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
-
-We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18:08:53 UTC. It means if we trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time of this documentation is written, it has passed April 19, 2023. Instead of setting the version to expire, it's deleted right away.
-
-
+- [Tutorial: Perform a 1-Step trim by scheduling batch trim job]()
