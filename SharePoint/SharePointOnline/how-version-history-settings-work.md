@@ -89,14 +89,14 @@ Take an example of Contoso where organizational version limits are set to Automa
 
 - **Library version limits on Legal Site**: Since version limits is set for Legal site, all new libraries will be set to store 500 major versions.
 
+:::image type="content" source="media/version-history/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
+
 > [!IMPORTANT]
 >
 > - Setting site-level **Version history limits** is available using PowerShell cmdlets only.
 > - Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to trim existing versions.
 > - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
 > - MinorVersions count only applies to the document libraries that enabled minor versioning.
-
-:::image type="content" source="media/version-history/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
 
 ## Setting Version history limits for Individual Document Library
 
@@ -148,12 +148,6 @@ Trimming existing versions is performed in the following sequence of steps:
 
 **Step 2: Run ‘What-If’ analysis** to preview the changes and analyze the user and storage savings impact of applying one of the trimming modes to the version storage report csv file.  
 
-
-
-
-
-
-
 **Step 3: Set the desired trimming mode and Schedule a job** to trim versions for your Sites or Libraries.
 
 > [!IMPORTANT]
@@ -175,7 +169,7 @@ The following are the known limitations.
 - The API does not delete versions created in the last 30 days. This means your input to the API cannot be less than 30 days.
 
 - The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you cannot keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
- 
+
 ### Trim Modes
 
 Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site or library.
@@ -184,39 +178,11 @@ Version trimming workflows allow you to select and apply one of the trimming mod
     - With the 2-step trim workflow the ‘TargetExpirationDate’ of matching versions is set to the specified value.
     - With the 1-step trim workflow the trim job will be scheduled to delete matching versions.
 
-The below table describes the Manual expiration trim applied:
-
-| **Month** | **Versions created** |
-|:-----|:-----|
-| August | 12 |
-| July | 4 |
-| June | 2 2|
-| May | 12 |
-| April | 34 |
-| March | 60 |
-| February | 40 |
-| January | 20 |
-| **Total version count** | **204** |
-
-In the above example On August 31st, Trim job scheduled to trim versions older than 60 days and versions older than 60 days on August 31st is permanently deleted.
+:::image type="content" source="media/version-history/manual-expiration-trim-table-library.PNG" alt-text="overwrite version history":::
 
 - **Manual Count Limit:** The manual count limit trim mode will set the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
- 
-The below table describes the Manual expiration trim applied:
 
-| **Month** | **Versions created** |
-|:-----|:-----|
-| August | 12 |
-| July | 4 |
-| June | 22|
-| May | 12 |
-| April | 34 |
-| March | 60 |
-| February | 40 |
-| January | 20 |
-| **Total version count** | **204** |
-
-In the above example On August 31st, Trim job scheduled to delete versions exceeding 50 count limits. Oldest versions exceeding 50 count limits is marked for permanent deletion.
+:::image type="content" source="media/version-history/manual-count-limit-trim-table-library.PNG" alt-text="overwrite version history":::
 
 - **Automatic:** The automatic trim mode will set the target expiration date based on the Automatic logic.
 
@@ -227,9 +193,6 @@ In the above example On August 31st, Trim job scheduled to delete versions excee
 For more information, check out the following resources:
 
 - [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site]()
-
 - [Tutorial: Run ‘What-If’ analysis on Version Storage Report File]()
-
 - [Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim]()
-
 - [Tutorial: Perform a 1-Step trim by scheduling batch trim job]()
