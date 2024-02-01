@@ -97,7 +97,7 @@
     },
     "fileMetadata": {
        "breadcrumb_path": {
-         "SharePoint/SharePointServer/**/*.md": "/SharePoint/breadcrumb/subtoc_breadcrumb/toc.json"
+         "SharePointServer/**/*.md": "/SharePoint/breadcrumb/subtoc_breadcrumb/toc.json"
       },
             "searchScope": { 
             "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"],
