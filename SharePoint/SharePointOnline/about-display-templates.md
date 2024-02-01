@@ -47,7 +47,7 @@ By default, display templates have a set of property mappings in them that were 
     
 2. In the different lists below the check box, enter the managed property to use for that field in the Item Display Template. 
     
-    If you enter multiple managed property names in a list, separate the managed properties by using semicolon. When displaying content, SharePoint will use the first property that is not empty.
+    If you enter multiple managed property names in a list, separate the managed properties by using semicolon. When displaying content, SharePoint will use the first property that isn't empty.
     
 For more information, see:
   
