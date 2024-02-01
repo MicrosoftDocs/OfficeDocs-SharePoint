@@ -1,0 +1,81 @@
+### YamlMime:Hub
+
+title: SharePoint documentation # < 60 chars
+summary: SharePoint documentation for IT professionals and admins # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: sharepoint
+
+metadata:
+  title: SharePoint documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: SharePoint documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
+  ms.localizationpriority: high
+  ms.custom: intro-hub-or-landing
+  ms.collection: 
+  - essentials-hub-or-landing
+  - essentials-navigation
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For IT Professionals # < 60 chars (optional)
+      items:
+        # Card
+        - title: SharePoint and OneDrive in Microsoft 365
+          summary: Find resources for managing SharePoint and OneDrive in your Microsoft 365 environment.
+          url: /sharepoint/introduction
+        # Card
+        - title: Migrate to Microsoft 365
+          summary: Migrate your content to Microsoft 365. Migrate from file shares, SharePoint Server, Box, or many of the cloud storage providers.
+          url: /sharepointmigration/migrate-to-sharepoint-online
+        # Card
+        - title: SharePoint and OneDrive Hybrid
+          summary: Learn about solutions for the SharePoint and OneDrive hybrid environment, and how to connect SharePoint Server and Microsoft 365.
+          url: ../SharePointServer/hybrid/hybrid.md
+        # Card
+        - title: PowerShell Reference for SharePoint
+          summary: Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint in Microsoft 365.
+          url: /powershell/sharepoint
+        # Card
+        - title: SharePoint Server
+          summary: Plan, deploy, and manage SharePoint Server.
+          url: ../SharePointServer/sharepoint-server.yml
+        # Card
+        - title: Troubleshoot
+          summary: Find troubleshooting and support resources for IT Professionals and admins.
+          url: /sharepoint/troubleshoot
+    - title: For other audiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Developers
+          summary: Guidance for developing solutions for SharePoint.
+          links:
+            - text: SharePoint developer documentation
+              url: /sharepoint/dev
+            - text: SharePoint API references
+              url: /sharepoint/dev/sp-add-ins/sharepoint-net-server-csom-jsom-and-rest-api-index
+        # Card
+        - title: SharePoint users
+          summary: Find help, training, and technical support for your SharePoint users.
+          url: https://support.office.com/sharepoint
+        # Card
+        - title: Microsoft 365 Community Content
+          summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.
+          url: /microsoft-365/community/
+    - title: More resources on Learn
+      items:
+        # Card
+        - title: SharePoint answers
+          summary: Find questions and answers tagged with SharePoint in Microsoft Q&A
+          url: /answers/tags/235/office-sp
+        # Card
+        - title: SharePoint training
+          summary: Find training modules, learning paths, and courses about SharePoint
+          url: /training/browse/?expanded=office&terms=sharepoint
