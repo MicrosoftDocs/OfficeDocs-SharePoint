@@ -1,5 +1,5 @@
 ---
-title: "Run ‘What-If’ analysis on Version Storage Report File"
+title: "Tutorial - Version Usage, What-If Analysis, and Trim Techniques"
 ms.reviewer: 
 ms.author: serdars
 author: serdars
@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to run ‘What-If’ analysis on Version Storage Report File."
+description: "This article provides guidance on Version Usage, What-If Analysis, and Trim Techniques"."
 
 ---
 
