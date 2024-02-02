@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on Version Usage, What-If Analysis, and Trim Techniques"."
+description: "This article provides guidance on Version Usage, What-If Analysis, and Trim Techniques".
 
 ---
 
