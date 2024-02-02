@@ -24,7 +24,7 @@ description: "This article provides guidance on Version Usage, What-If Analysis,
 
 ## Tutorial: Generate and Analyze Version Usage Report for SharePoint Site
 
-By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs. 
+By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs.
 
 This tutorial shows you how to generate a version storage use report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
 
@@ -54,7 +54,9 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 > [!IMPORTANT]
 > The file version report generation job is complete asynchronously over the next few days. The completion time of the report depends on the size of your library or site.
+>
 > While the job is processing, you will see the report file being gradually populated. Do not update the file during this time, as it may lead to job failure. Check the progress of the report generation to ensure that the report is fully populated and ready to process.
+>
 > If you want to cancel a report generation in progress, you can simply delete the report file.
 
 ### Check Report Generation Progress
@@ -71,7 +73,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 :::image type="content" source="media/version-history/json-powershell.PNG" alt-text="json powershell":::
 
-### Understanding the file version expiration report file
+### Understand Version Report File
 
 - Here’s an example of file version expiration report and its column breakdown.
 
@@ -224,9 +226,9 @@ Trimming existing versions is performed in the following sequence of steps:
 
 ### Prerequisites
 
-1. **Generate a Version Storage Use report for the desired scope (Site or Document Library)** that you wish to trim versions from. Review detailed steps in [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site]([Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site))  
+1. **Generate a Version Storage Use report for the desired scope (Site or Document Library)** that you wish to trim versions from. Review detailed steps in [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site))  
 
-1. Run ‘What-If’ analysis using the desired trimming mode. For detailed steps, see [Tutorial - Run ‘What-If’ analysis on Version Storage Report File]([Tutorial - Run ‘What-If’ analysis on Version Storage Report File](#tutorial---run-what-if-analysis-on-version-storage-report-file))
+1. Run ‘What-If’ analysis using the desired trimming mode. For detailed steps, see [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial---run-what-if-analysis-on-version-storage-report-file)
 
 ### Optimize input file
 
@@ -266,7 +268,7 @@ The What-If report file with the desired trim mode serves as the input file to q
 
 :::image type="content" source="media/version-history/version-expiration-scheduling-job-json.PNG" alt-text="version expiration scheduling job json":::
 
-## Tutorial: Perform a 1-Step trim by scheduling batch trim job    
+## Tutorial: Perform a 1-Step trim by scheduling batch trim job
 
 This article describes how to perform a 1-Step trim by scheduling batch trim job. In this tutorial we'll cover:
 
@@ -285,7 +287,7 @@ Follow the PowerShell examples below to start deleting old file versions. Make s
 
 **Example 1. Batch trim versions on all libraries on a site.**
 
-To delete versions that are older than 180 days old for all document libraries in the 
+To delete versions that are older than 180 days old for all document libraries in the [site collection](https://contoso.sharepoint.com).
 
 :::image type="content" source="media/version-history/batch-trim-all-lib.PNG" alt-text="batch trim all library":::
 
