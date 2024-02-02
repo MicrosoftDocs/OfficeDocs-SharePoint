@@ -28,16 +28,16 @@ The following table summarizes the various ways of managing **Version history li
 
 | Area | How does it work? |
 |:-----|:-----|
-| Set Default **Version history limits** for new document libraries created in your organization | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
-| Set Site or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
-| Report on Version Storage on a site | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions prior to scheduling trim job. |
-| Trim Existing Versions | Site Admins can choose to trim existing version history storage by running ‘What-If’ reports to understand the impact and then scheduling a timer job to execute the trimming. |
+| **Set Default **Version history limits** for new document libraries created in your organization** | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
+| **Set Site or Library Level **Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
+| **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions prior to scheduling trim job. |
+| **Trim Existing Versions** | Site Admins can choose to trim existing version history storage by running ‘What-If’ reports to understand the impact and then scheduling a timer job to execute the trimming. |
 
 By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings are applied to all new libraries created on the site.
 
 :::image type="content" source="media/version-history/version-limits-new-libraries-flow.PNG" alt-text="version limits for new libraries":::
 
-## Setting types of Version history limits
+## Types of Version limits
 
 There are two Version history settings that admins can use to configure version limits for all new libraries created in their organization:
 
@@ -55,7 +55,7 @@ The manual setting allows admins to set count limits on the number of major vers
  
 For more information on setting types of Version history limits, see [Planning Version Storage for your Organization](sharePoint/versionHistory/planning-version-storage-for-your-organization.md).
 
-## Setting Default Version history limits for your Organization
+## Set Default Version limits for your Organization
 
 Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default **Version history limits** across your organization.  
 
@@ -68,9 +68,9 @@ Take an example of Contoso with an existing Marketing site with a set of librari
 
 - **Library version limits on existing Marketing Site**: Version limits on all new libraries created in the Marketing site will be set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits won't be updated to Automatic.  
 
-- **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits. 
+- **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
 
-## Setting Version history limits for a Site
+## Set Version limits for a Site
 
 By default, site-level **Version history limits** aren't set on individual sites as the Organization level settings define the limit that is applied to all new document libraries created in a site. However, to meet site-specific content needs, site admins can choose to set distinct site-level **Version history limits** on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
@@ -98,7 +98,7 @@ Take an example of Contoso where organizational version limits are set to Automa
 > - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
 > - MinorVersions count only applies to the document libraries that enabled minor versioning.
 
-## Setting Version history limits for Individual Document Library
+## Set Version limits for Individual Document Library
 
 The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site has broken inheritance from the organization. However, to meet specific content requirements, site admins can decide to overwrite the setting of a document library.
 
@@ -127,7 +127,7 @@ The important points to note are as follows:
 
 - When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
  
-## Trimming Existing Versions from Sites or Libraries
+## Trim Existing Versions from Sites or Libraries
 
 As a SharePoint Site Administrator, you can schedule a job to trim existing versions on your sites to reduce the version storage footprint of your site or align existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using scheduled jobs are permanently deleted. This deletion bypasses the normal recycle bin and deleted versions can't be recovered.
 
@@ -148,11 +148,11 @@ Trimming existing versions is performed in the following sequence of steps:
 
 **Step 2: Run ‘What-If’ analysis** to preview the changes and analyze the user and storage savings impact of applying one of the trimming modes to the version storage report csv file.  
 
-**Step 3: Set the desired trimming mode and Schedule a job** to trim versions for your Sites or Libraries.
-
 > [!IMPORTANT]
 > - You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
 > - Depending on the size of the Site or Library, the job can take a few days to complete. Check the progress of the job until the status shows "completed".
+
+**Step 3: Set the desired trimming mode and Schedule a job** to trim versions for your Sites or Libraries.
 
 ### Batch trim older versions (1-step trimming method)
 
