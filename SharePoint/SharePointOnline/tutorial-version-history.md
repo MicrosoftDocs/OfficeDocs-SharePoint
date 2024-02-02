@@ -28,7 +28,7 @@ By understanding version storage on a site, you can better optimize the version 
 
 This tutorial shows you how to generate a version storage use report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
 
-In this tutorial we will cover how to:
+In this tutorial we'll cover how to:
 
 - Generate Version storage use report file for Site or Library.
 - Check progress of report generation.
@@ -37,7 +37,7 @@ In this tutorial we will cover how to:
  
 ### Generate Version Use Report for Sites or Library
 
-Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there cannot be a file with the same name.
+Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
 
 - Here’s an example of the PowerShell script that generates a **site-scoped** report at the [report location](https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv).  
 
@@ -213,7 +213,7 @@ Download the report file to your local computer and leverage the provided script
 > [!IMPORTANT]
 > You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
 
-This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we will cover:
+This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we'll cover:
 
 - Optimize Input File
 - Queue Trim Job
@@ -230,7 +230,7 @@ Trimming existing versions is performed in the following sequence of steps:
 
 ### Optimize input file
 
-The What-If report file with the desired trim mode serves as the input file to queue the trimming job. Before scheduling the actual trim job, we recommend you optimize the size of the input file by leveraging the scripts provided. Once the file is optimized it can be uploaded to SharePoint a document library in the same site as the site you are deleting versions from followed by queuing the trimming job.  
+The What-If report file with the desired trim mode serves as the input file to queue the trimming job. Before scheduling the actual trim job, we recommend you optimize the size of the input file by leveraging the scripts provided. Once the file is optimized, it can be uploaded to SharePoint a document library in the same site as the site you're deleting versions from followed by queuing the trimming job.  
 
 - Use the `OptimizeScheduleFile.ps1` script to optimize the File Expiration Report in PowerShell. <br>`. <Path to OptimizeScheduleFile.ps1>” -ImportPath “<Path to the schedule file>” -ExportPath “<Path to the optimized schedule file>`
 
@@ -240,7 +240,7 @@ The What-If report file with the desired trim mode serves as the input file to q
 
 ### Queue Trim Job
 
-- Upload the new schedule file to a document library that is in the same site collection as the one you're deleting version from. There is no separate process for site- and library-level version trimming. If you want to trim versions only from a specific library, then make sure your schedule file only contains the versions from that library.
+- Upload the new schedule file to a document library that is in the same site collection as the one you're deleting version from. There's no separate process for site- and library-level version trimming. If you want to trim versions only from a specific library, then make sure your schedule file only contains the versions from that library.
 
 :::image type="content" source="media/version-history/schedule-optimiser.PNG" alt-text="schedule optimiser":::
 
@@ -256,7 +256,7 @@ The What-If report file with the desired trim mode serves as the input file to q
 
 ### Check the progress on scheduled trim job
 
-- Once the job is queued you will be able to check the status of your trimming job. Use the cmdlet included in `VersionUtils.ps1` script to check the status of a version expiration scheduling job.  
+- Once the job is queued, you'll be able to check the status of your trimming job. Use the cmdlet included in `VersionUtils.ps1` script to check the status of a version expiration scheduling job.  
 
 - For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
 
@@ -268,7 +268,7 @@ The What-If report file with the desired trim mode serves as the input file to q
 
 ## Tutorial: Perform a 1-Step trim by scheduling batch trim job    
 
-This article describes how to perform a 1-Step trim by scheduling batch trim job. In this tutorial we will cover:
+This article describes how to perform a 1-Step trim by scheduling batch trim job. In this tutorial we'll cover:
 
 - Schedule a batch trim job from a site or library.
 - Stop an in-progress batch deletion job.
@@ -281,7 +281,7 @@ This article describes how to perform a 1-Step trim by scheduling batch trim job
 
 ### Schedule Batch Trim Job
 
-Follow the PowerShell examples below to start deleting old file versions. Make sure you are a site administrator.
+Follow the PowerShell examples below to start deleting old file versions. Make sure you're a site administrator.
 
 **Example 1. Batch trim versions on all libraries on a site.**
 
@@ -295,20 +295,20 @@ To delete versions that are older than 30 days in document library ‘Documents�
 
 :::image type="content" source="media/version-history/batch-trim-single-lib.PNG" alt-text="batch trim single library":::
 
-Once the cmdlet executes successfully, versions that match your criteria will be deleted asynchronously in batches in the upcoming days.
+Once the cmdlet executes successfully, versions that match your criteria is deleted asynchronously in batches in the upcoming days.
 
 ### Cancel an in-progress Batch Trim Job
 
-If needed, you can cancel a in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion will be stopped, but versions that have already been deleted will still be gone.
+If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that have already been deleted will still be gone.
 
 **Example 1. Stop additional batch deletion on site scoped trim job.**
 
-To stop the additional batch deletion for the [site collection](https://contoso.sharepoint.com).
+To stop the more batch deletion for the [site collection](https://contoso.sharepoint.com).
 
 :::image type="content" source="media/version-history/batch-deletion-site-scoped.PNG" alt-text="batch deletion site scoped":::
 
 **Example 2. Stop additional batch deletion on library scoped trim job.**
 
-To stop the additional batch deletion for the document library Documents in [site collection](https://contoso.sharepoint.com).
+To stop the more batch deletion for the document library Documents in [site collection](https://contoso.sharepoint.com).
 
 :::image type="content" source="media/version-history/batch-deletion-lib-scoped.PNG" alt-text="batch trim library scoped":::
