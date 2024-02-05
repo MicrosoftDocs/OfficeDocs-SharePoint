@@ -26,7 +26,7 @@ description: "Learn the terms and conditions for versions."
 “Customer” means the Enterprise customer that uses these Preview Features.
 **By using these Preview Features, you accept these Terms and Conditions and all rights and obligations within**.**If you do not agree to these Terms and Conditions, DO NOT use the Preview Feature.** These Terms and Conditions govern the use of the Preview Feature offerings as described below.
 
-“Feedback” is all suggestions, comments, feedback, ideas, or know how, in any form, that Customer provides to Microsoft.  It does not include sales forecasts, financial results, future release scheduled, marketing plans and high-level product plans or feature lists for anticipated products.
+“Feedback” is all suggestions, comments, feedback, ideas, or know how, in any form, that Customer provides to Microsoft.  It doesn't include sales forecasts, financial results, future release scheduled, marketing plans and high-level product plans or feature lists for anticipated products.
 
 **MICROSOFT OFFERINGS:**  
 
@@ -40,18 +40,18 @@ No SLA applies to this Feature Preview.
 
 If Customer provides Feedback, Customer grants to Microsoft, without charge, the non-exclusive License to make, modify, distribute, or otherwise commercialize the Input as part of any Microsoft offering.
 
-This License does not extend to any technologies that may also be necessary to make or use any offering or portion thereof that incorporates the Feedback but are not themselves expressly part of the Feedback (e.g., enabling technologies).
+This License doesn't extend to any technologies that may also be necessary to make or use any offering or portion thereof that incorporates the Feedback but aren't themselves expressly part of the Feedback (for example, enabling technologies).
 
 ## LENGTH OF OBLIGATIONS; DISCLOSURE
 
-**Preview Period.** The Preview Period continues in effect until 30 days after Commercial General Availability of the Preview Features, but no longer than 1 year from the effective date. Customer may terminate their use of the Preview Features at any time. Terminating use of the Preview Feature will not change any of the rights, licenses granted, or duties made while the Preview Period is in effect. Termination is defined as:
+**Preview Period.** The Preview Period continues in effect until 30 days after Commercial General Availability of the Preview Features, but no longer than 1 year from the effective date. Customer may terminate their use of the Preview Features at any time. Terminating use of the Preview Feature won't change any of the rights, licenses granted, or duties made while the Preview Period is in effect. Termination is defined as:
 
 1. The Company’s termination of use of the Preview Feature and/or
 1. The Preview Period ends.
 
-**Effects upon Termination by company.** Once terminated by company, version history configurations will remain, no reversion of the configurations will happen automatically.   Company will have the ability to change version history.
+**Effects upon Termination by company.** Once terminated by company, version history configurations remain, no reversions of the configurations happen automatically.   Company has the ability to change version history.
 
-This Agreement cannot be extended. Microsoft may also choose not to make the Preview Features generally commercially available.
+This Agreement can't be extended. Microsoft may also choose not to make the Preview Features commercially available.
 
 ## REPRESENTATIONS AND LIMITATIONS
 
@@ -59,9 +59,9 @@ This Agreement cannot be extended. Microsoft may also choose not to make the Pre
 
 1. Violates any copyright or trade secret claim or right of any third party; 
 
-1. It has reason to believe violates any patent claim or right of any third party; or 
+1. It has reason to believe violates any patent claim or right of any third party; or
 
-1. Is subject to an excluded license. 
+1. Is subject to an excluded license.
 
 **Authority.** Customer represents it has all rights and authority necessary to be legally bound to these Terms and Conditions and grant the rights described therein for itself and its affiliates.  
 
@@ -75,4 +75,4 @@ Except as described herein, the only remedy for claims relating to these Terms a
 
 1. Even if one of us knew or should have known about the possibility of the damages.
 
-The limitations in this section does not apply to claims arising from or in connection with any infringement, misuse, or misappropriation by one of us of the other’s intellectual property rights.
+The limitations in this section don't apply to claims arising from or in connection with any infringement, misuse, or misappropriation by one of us of the other’s intellectual property rights.
