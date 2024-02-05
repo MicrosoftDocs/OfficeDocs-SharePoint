@@ -76,3 +76,4 @@ Except as described herein, the only remedy for claims relating to these Terms a
 1. Even if one of us knew or should have known about the possibility of the damages.
 
 The limitations in this section don't apply to claims arising from or in connection with any infringement, misuse, or misappropriation by one of us of the other’s intellectual property rights.
+
