@@ -314,4 +314,3 @@ To stop the more batch deletion for the [site collection](https://contoso.sharep
 To stop the more batch deletion for the document library Documents in [site collection](https://contoso.sharepoint.com).
 
 :::image type="content" source="media/version-history/batch-deletion-lib-scoped.PNG" alt-text="batch trim library scoped":::
-

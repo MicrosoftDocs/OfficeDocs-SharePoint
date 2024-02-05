@@ -21,7 +21,7 @@ description: "Learn the terms and conditions for versions."
 
 # Microsoft SharePoint Version History Limits Public Preview Terms and Conditions
 
-**Effective Date: March 2024** 
+**Effective Date: March 2024**
 
 “Customer” means the Enterprise customer that uses these Preview Features.
 **By using these Preview Features, you accept these Terms and Conditions and all rights and obligations within**.**If you do not agree to these Terms and Conditions, DO NOT use the Preview Feature.** These Terms and Conditions govern the use of the Preview Feature offerings as described below.
@@ -76,4 +76,3 @@ Except as described herein, the only remedy for claims relating to these Terms a
 1. Even if one of us knew or should have known about the possibility of the damages.
 
 The limitations in this section don't apply to claims arising from or in connection with any infringement, misuse, or misappropriation by one of us of the other’s intellectual property rights.
-
