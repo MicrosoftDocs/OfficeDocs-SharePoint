@@ -35,7 +35,7 @@ The following table summarizes the various ways of managing **Version history li
 
 By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings are applied to all new libraries created on the site.
 
-:::image type="content" source="media/version-history/version-limits-new-libraries-flow.PNG" alt-text="version limits for new libraries":::
+:::image type="content" source="media/version-history/version-limits-new-libraries-flow.png" alt-text="version limits for new libraries":::
 
 ## Types of Version limits
 
@@ -62,13 +62,13 @@ Organization-level version settings define the default version storage limits se
 > [!IMPORTANT]
 > When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to [[update the settings on existing libraries on a site](#setting-version-history-limits-for-a-site)] or to [[trim existing versions](#trimming-existing-versions-from-sites-or-libraries)].
 
-:::image type="content" source="media/version-history/tenant-version-history-limit.PNG" alt-text="tenant version history":::
-
 Take an example of Contoso with an existing Marketing site with a set of libraries set to 500 major version limits. When the admin updates the organization version limits to ‘Automatic’ library, version limits for document libraries will be set in the following ways:
 
 - **Library version limits on existing Marketing Site**: Version limits on all new libraries created in the Marketing site will be set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits won't be updated to Automatic.  
 
 - **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
+
+:::image type="content" source="media/version-history/break-inheritance-at-site-level.png" alt-text="tenant version history":::
 
 ## Set Version limits for a Site
 
@@ -89,7 +89,7 @@ Take an example of Contoso where organizational version limits are set to Automa
 
 - **Library version limits on Legal Site**: Since version limits are set for Legal site, all new libraries are set to store 500 major versions.
 
-:::image type="content" source="media/version-history/break-inheritance-at-site-level.PNG" alt-text="break inheritance at site level":::
+:::image type="content" source="media/version-history/set-version-limits-for-a-site.png" alt-text="break inheritance at site level":::
 
 > [!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 - **When Library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Consider a library where the version count limit is initially set to 500 versions but is later reduced to 300 versions. In this scenario, if there's a file with 500 versions, each time a user updates the file, the system will gradually purge the oldest 20 versions with each new version creation until the total number of versions aligns with the updated limit of 300. It's crucial to note that when count limits are lowered, the process of version deletion occurs gradually, with up to 20 versions being removed for every new version created.  
 
-:::image type="content" source="media/version-history/overright-version-history-limits-document-library.PNG" alt-text="overwrite version history":::
+:::image type="content" source="media/version-history/overright-version-history-limits-document-library.png" alt-text="overwrite version history":::
 
 > [!CAUTION]
 > Versions deleted either under the automatic setting or due to versions' age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
@@ -178,11 +178,11 @@ Version trimming workflows allow you to select and apply one of the trimming mod
     - With the 2-step trim workflow, the ‘TargetExpirationDate’ of matching versions is set to the specified value.
     - With the 1-step trim workflow, the trim job is scheduled to delete matching versions.
 
-:::image type="content" source="media/version-history/manual-expiration-trim-table.PNG" alt-text="manual expiration":::
+:::image type="content" source="media/version-history/manual-expiration-trim-table.png" alt-text="manual expiration":::
 
 - **Manual Count Limit:** The manual count limit trim mode sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
-:::image type="content" source="media/version-history/manual-count-limit-trim-table.PNG" alt-text="manual count limit":::
+:::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="manual count limit":::
 
 - **Automatic:** The automatic trim mode sets the target expiration date based on the Automatic logic.
 
