@@ -205,6 +205,7 @@
 ## Versions
 ### [Tutorials](tutorial-version-history.md)
 ### [FAQs for Version history limits](faqs-for-versions.md)
+### [Microsoft SharePoint Version History Limits Public Preview Terms and Conditions](terms-of-service-version-history.md)
 
 
 ## [Compliance]()
