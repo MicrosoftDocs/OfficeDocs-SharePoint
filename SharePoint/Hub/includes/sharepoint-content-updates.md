@@ -2,6 +2,14 @@
 
 
 
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2024 | [Change a site address](/SharePoint/change-site-address) | modified |
+
+
 ## Week of January 22, 2024
 
 
@@ -29,11 +37,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 1/5/2024 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
-
-
-## Week of December 25, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/30/2023 | [Manage automated form processing](/SharePoint/manage-automated-form-processing) | modified |
