@@ -19,7 +19,7 @@ ms.collection:
 - M365-SAM
 - Highpri
 - Tier1
-- ContentEnagagementFY24
+- ContentEngagementFY24
 search.appverid:
 description: "Learn how to restrict access to SharePoint sites to members of a Microsoft 365 or Entra security group."
 ---
