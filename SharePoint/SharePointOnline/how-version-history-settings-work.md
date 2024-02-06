@@ -194,7 +194,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 For more information, check out the following resources:
 
-- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site]()
-- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File]()
-- [Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim]()
-- [Tutorial: Perform a 1-Step trim by scheduling batch trim job]()
+- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site)
+- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial-run-what-if-analysis-on-version-storage-report-file)
+- [Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim](#tutorial-perform-a-2-step-trim-by-analyzing-impact--scheduling-trim)
+- [Tutorial: Perform a 1-Step trim by scheduling batch trim job](#tutorial-perform-a-1-step-trim-by-scheduling-batch-trim-job)
