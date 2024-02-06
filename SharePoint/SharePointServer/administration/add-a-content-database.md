@@ -59,7 +59,7 @@ You can use the procedures that are described in this article to create a new co
     
   - Specify a database server to host the new database.
     
-  - Specify the authentication method that the new database will use and supply an account name and password, if they are necessary.
+  - Specify the authentication method that the new database will use and supply an account name and password, if they're necessary.
     
     > [!IMPORTANT]
     > The account name and password must already exist as a SQL Server login. 
