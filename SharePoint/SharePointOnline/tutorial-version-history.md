@@ -186,7 +186,7 @@ Optionally, you can adjust the parameters:
 - `TimelineNumSteps`: the number of rows to calculate for Table 1 and 2 above.  
 - `ShowFilesWithFewerThanNVersions`: the threshold for the number of versions in Table 3 above.
 
-## Tutorial - Run ‘What-If’ analysis on Version Storage Report File
+## Tutorial: Run ‘What-If’ analysis on Version Storage Report File
 
 In this tutorial, we'll cover how to:
 
@@ -210,7 +210,7 @@ Download the report file to your local computer and leverage the provided script
 
 :::image type="content" source="media/version-history/manual-with-count-limits-b.PNG" alt-text="manual with count limits-b":::
 
-## Tutorial - Perform a 2-Step Trim by analyzing impact & scheduling trim
+## Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim
 
 > [!IMPORTANT]
 > You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
