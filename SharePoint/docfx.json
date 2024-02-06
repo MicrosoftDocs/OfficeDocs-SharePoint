@@ -69,6 +69,7 @@
     "externalReference": [],
     "markdownEngineName": "markdig",    
     "globalMetadata": {
+      "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-SharePoint",
       "contributors_to_exclude": [
         "dstrome",
@@ -96,7 +97,6 @@
     },
     "fileMetadata": {
        "breadcrumb_path": {
-         "SharePointOnline/**/*.md": "/SharePoint/breadcrumb/toc.json",
          "SharePointServer/**/*.md": "/SharePoint/breadcrumb/subtoc_breadcrumb/toc.json"
       },
             "searchScope": { 
