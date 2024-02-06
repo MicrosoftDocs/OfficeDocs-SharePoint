@@ -8,7 +8,7 @@ metadata:
   description: Documentation for SharePoint Server # Required; article description that is displayed in search results. < 160 chars.
   ms.service: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
-  ms.collection: 
+  ms.collection: essentials-navigation
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
   ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 03/09/2020 #Required; mm/dd/yyyy format
