@@ -138,6 +138,8 @@ SharePoint supports two ways to trim existing versions on a site or library. Use
 | Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim (2-Step Trimming Workflow)  | The 2-step trim workflow allows you to assess the impact of version trimming prior to scheduling the trim job. <br> <br> You'll be able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits, Automatic or other custom trimming logic, apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> **Trimming Modes supported:** <br> <br> <li> Manual Expiration <br> <li> Manual Count <br> <li> Automatic <br> <li> Custom  |
 | Trim versions without analyzing impact. | Batch Trim (1-Step Trimming Workflow) |Batch trim workflow allows you purge versions older than specified period. Use the 1-step trim workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. <br> <br> **Trimming Modes supported:** <br> <br> <li> Manual Expiration |
 
+:::image type="content" source="media/version-history/trimming-workflows.png" alt-text="trimming workflows":::
+
 The following sections describe the different trimming methods:  
 
 ### Analyze and trim (2-step version trimming method)
