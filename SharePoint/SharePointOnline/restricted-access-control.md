@@ -1,5 +1,5 @@
 ---
-ms.date: 01/19/2024
+ms.date: 02/06/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -19,6 +19,7 @@ ms.collection:
 - M365-SAM
 - Highpri
 - Tier1
+- ContentEngagementFY24
 search.appverid:
 description: "Learn how to restrict access to SharePoint sites to members of a Microsoft 365 or Entra security group."
 ---
@@ -36,7 +37,7 @@ Restricting site access via group membership can minimize the risk of oversharin
 
 The site access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
 
-## Enable site access restriction for your organization
+## Enable site-level access restriction for your organization
 
 You must enable site-level access restriction for your organization before you can configure it for individual sites.
 
@@ -44,7 +45,9 @@ To enable site-level access restriction for your organization in SharePoint admi
 
 1. Expand **Policies** and select **Access control**.
 2. Select **Site-level access restriction**.
-3. Select **Allow access restriction** and then select **Save**.:::image type="content" source="media/rac-spac/restricted-access-control-site-level-restriction-page.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/restricted-access-control-site-level-restriction-page.png":::
+3. Select **Allow access restriction** and then select **Save**.
+
+   :::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png":::
 
 To enable site-level access restriction for your organization using PowerShell, run the following command:
 
@@ -88,7 +91,7 @@ Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
 
 ## Restrict site access to non-group connected sites
 
-You can restrict access to non-group connected sites by specifying [Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) or Microsoft 365 groups that contain the people who should be allowed access to the site. You can configure up to 10 Entra security groups or Microsoft 365 groups. Once the policy is applied, users in the specified security group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
+You can restrict access to non-group connected sites by specifying [Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) or Microsoft 365 groups that contain the people who should be allowed access to the site. You can configure up to 10 Entra security groups or Microsoft 365 groups. Once the policy is applied, users in the specified group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
 
 To manage site access to a non-group connected site:
 
