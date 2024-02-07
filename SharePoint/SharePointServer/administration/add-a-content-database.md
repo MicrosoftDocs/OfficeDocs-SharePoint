@@ -55,20 +55,20 @@ You can use the procedures that are described in this article to create a new co
     
 6. On the **Add Content Database** page: 
     
-  - Specify a web application for the new database.
+   - Specify a web application for the new database.
     
-  - Specify a database server to host the new database.
+   - Specify a database server to host the new database.
     
-  - Specify the authentication method that the new database will use and supply an account name and password, if they are necessary.
+   - Specify the authentication method that the new database will use and supply an account name and password, if they're necessary.
     
-    > [!IMPORTANT]
-    > The account name and password must already exist as a SQL Server login. 
+     > [!IMPORTANT]
+     > The account name and password must already exist as a SQL Server login. 
   
-  - Specify the name of the failover database server, if one exists.
+   - Specify the name of the failover database server, if one exists.
     
-  - Specify the number of top-level sites that can be created before a warning is issued. By default, this is 2,000.
+   - Specify the number of top-level sites that can be created before a warning is issued. By default, this is 2,000.
     
-  - Specify the total number of top-level sites that can be created in the database. By default, this is 5,000.
+   - Specify the total number of top-level sites that can be created in the database. By default, this is 5,000.
     
 7. Click **OK**.
     
@@ -76,32 +76,32 @@ You can use the procedures that are described in this article to create a new co
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+   An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open **SharePoint Management Shell**.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```PowerShell
-  New-SPContentDatabase -Name <ContentDbName> -WebApplication <WebApplicationName>
-  ```
+   ```PowerShell
+   New-SPContentDatabase -Name <ContentDbName> -WebApplication <WebApplicationName>
+   ```
 
-Where:
+   Where:
     
-  -  _\<ContentDbName\>_ is the name of the content database to create. 
+   -  _\<ContentDbName\>_ is the name of the content database to create. 
     
-  -  _\<WebApplicationName\>_ is the name of the web application to which the new database is attached. 
+   -  _\<WebApplicationName\>_ is the name of the web application to which the new database is attached. 
     
-For more information, see [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
+   For more information, see [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > To attach an existing content database to a web application, use the Microsoft PowerShell cmdlet **Mount-SPContentDatabase**. For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true). 
