@@ -30,7 +30,7 @@ Users who don't use a mouse can use a keyboard to navigate the user interface an
   
 ## SharePoint Server conformance statement
 
-The following SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition conformance statement, VPAT, and EN 301 549 reports are available at [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/) You can download the WCAG Conformance Statement and the Section 508 VPAT for SharePoint Server 2016, click the provided link and search for SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition. 
+The following SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition conformance statement, VPAT, and EN 301 549 reports are available at [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/) You can download the WCAG Conformance Statement and the Section 508 VPAT for SharePoint Server 2016, select the provided link and search for SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition. 
   
 ## Accessibility features in SharePoint Server
 
