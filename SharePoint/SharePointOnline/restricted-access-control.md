@@ -45,7 +45,9 @@ To enable site-level access restriction for your organization in SharePoint admi
 
 1. Expand **Policies** and select **Access control**.
 2. Select **Site-level access restriction**.
-3. Select **Allow access restriction** and then select **Save**.:::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png":::
+3. Select **Allow access restriction** and then select **Save**.
+
+   :::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png":::
 
 To enable site-level access restriction for your organization using PowerShell, run the following command:
 
