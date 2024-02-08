@@ -95,10 +95,12 @@ We recommend replacing the root site at a time when site usage is low.
     While the root site is being replaced, it might return a "not found" (HTTP 404) error for few minutes.
 
     After you replace the root site, content must be recrawled to update the search index. This might take some time depending on factors such as the amount of content in these sites. Anything dependent on the search index might return incomplete results until the sites have been recrawled.
+>[!WARNING]
+>Larger tenants that have more than ~10,000 licenses will need to run the [Page Diagnostic Tool](/microsoft-365/enterprise/page-diagnostics-for-spo?view=o365-worldwide) against the source site (ensure that the user running the Page Diagnostic Tool has edit rights on the source site). Any analysis results that have the category Attention required (Red) or Improvement opportunities (Orange) will need to be remediated before performing the swap.  If your source site does not meet these criteria, the **Save** button may not activate for you until you remediate the aforementioned results.
 
-8. If the new root site was an organization news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps&preserve-view=true)
+9. If the new root site was an organization news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps&preserve-view=true)
 
-9. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
+10. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
 
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.
