@@ -69,6 +69,9 @@ In the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank"
   
 4. Select **OK**. It can take up to 24 hours for the change to take effect.
 
+> [!IMPORTANT]
+> **Custom Script** settings in **classic settings page** will be removed starting March 2024.
+
 ## To allow custom script on other SharePoint sites
 
 > [!CAUTION]
