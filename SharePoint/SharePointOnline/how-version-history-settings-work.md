@@ -198,3 +198,12 @@ For more information, check out the following resources:
 - [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial-run-what-if-analysis-on-version-storage-report-file/sharePoint/sharePointOnline/tutorial-version-history.md)
 - [Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim](#tutorial-perform-a-2-step-trim-by-analyzing-impact--scheduling-trim/sharePoint/sharePointOnline/tutorial-version-history.md)
 - [Tutorial: Perform a 1-Step trim by scheduling batch trim job](#tutorial-perform-a-1-step-trim-by-scheduling-batch-trim-job/sharePoint/sharePointOnline/tutorial-version-history.md)
+
+## Auditing Versioning Events
+
+Audit events are available on the Microsoft Purview compliance portal to help you monitor version history activities. Audit events are logged for the following activities: 
+
+- Changes made to Organization version history limits.
+- Changes made to Site version history limits.
+- Changes made to Library version history limits.
+- User deletes versions from the version history of a file.
