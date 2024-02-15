@@ -145,7 +145,7 @@ You can configure SharePoint to trust the identity provider in either of the fol
 In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
 
 > [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace <tenantid> with your own Directory (tenant) ID.
+> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace \<tenantid\> with your own Directory (tenant) ID.
 ```powershell
 # Define claim types
 # In this example, we're using Email Address as the identity claim.
@@ -211,7 +211,7 @@ This can simplify the configuration of the OIDC token issuer.
 With the following PowerShell example, we can use metadata endpoint from Microsoft Entra ID to configure SharePoint to trust Microsoft Entra OIDC.
 
 > [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace <tenantid> with your own Directory (tenant) ID.
+> Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace \<tenantid\> with your own Directory (tenant) ID.
 ```powershell
 # Define claim types
 # In this example, we're using Email Address as the Identity claim.
