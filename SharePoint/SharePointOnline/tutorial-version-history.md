@@ -210,67 +210,9 @@ Download the report file to your local computer and leverage the provided script
 
 :::image type="content" source="media/version-history/manual-with-count-limits-b.PNG" alt-text="manual with count limits-b":::
 
-## Tutorial: Perform a 2-Step Trim by analyzing impact & scheduling trim
+## Tutorial: Queue a Trim Job for a Site or Document Library
 
-> [!IMPORTANT]
-> You need to be a Site Administrator of the site to generate reports and trim versions from document libraries in a site.
-
-This article describes how Site Administrators can trim existing version history on a Site or Document Library. In this tutorial we'll cover:
-
-- Optimize Input File
-- Queue Trim Job
-- Check progress of trim job
-- Review impact on storage metrics
-
-Trimming existing versions is performed in the following sequence of steps:  
-
-### Prerequisites
-
-1. **Generate a Version Storage Use report for the desired scope (Site or Document Library)** that you wish to trim versions from. Review detailed steps in [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site))  
-
-1. Run ‘What-If’ analysis using the desired trimming mode. For detailed steps, see [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial---run-what-if-analysis-on-version-storage-report-file)
-
-### Optimize input file
-
-The What-If report file with the desired trim mode serves as the input file to queue the trimming job. Before scheduling the actual trim job, we recommend you optimize the size of the input file by leveraging the scripts provided. Once the file is optimized, it can be uploaded to SharePoint a document library in the same site as the site you're deleting versions from followed by queuing the trimming job.  
-
-- Use the `OptimizeScheduleFile.ps1` script to optimize the File Expiration Report in PowerShell. <br>`. <Path to OptimizeScheduleFile.ps1>” -ImportPath “<Path to the schedule file>” -ExportPath “<Path to the optimized schedule file>`
-
-:::image type="content" source="media/version-history/optimize-input-file.PNG" alt-text="optimize input file":::
-
-- For instance, if your folder has the script and the schedule file, Schedule.csv, and you want to create an optimized schedule file named `Schedule_Optimized.csv` under the same folder, you can execute the command in PowerShell. You'll see a new file `Schedule_Optimized.csv` in folder.  
-
-### Queue Trim Job
-
-- Upload the new schedule file to a document library that is in the same site collection as the one you're deleting version from. There's no separate process for site- and library-level version trimming. If you want to trim versions only from a specific library, then make sure your schedule file only contains the versions from that library.
-
-:::image type="content" source="media/version-history/schedule-optimiser.PNG" alt-text="schedule optimiser":::
-
-- Use cmdlet included in `VersionUtils.ps1` script to queue a version expiration scheduling job.
-
-- For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
-
-:::image type="content" source="media/version-history/schedule-a-job-powershell.PNG" alt-text="schedule a job powershell":::
-
-:::image type="content" source="media/version-history/schedule-a-job-powershell-1.PNG" alt-text="schedule a job powershell 1":::
-
-- Then, all the versions in the schedule file update their expiration time to your specified time. It completes asynchronously in the upcoming days. The specific length of time is dependent on how many versions are being deleted or expired.  
-
-### Check the progress on scheduled trim job
-
-- Once the job is queued, you'll be able to check the status of your trimming job. Use the cmdlet included in `VersionUtils.ps1` script to check the status of a version expiration scheduling job.  
-
-- For example, if you're scheduling a job for the [site](https://contoso.sharepoint.com), using the schedule file `https://contoso.sharepoint.com/Shared Documents/Schedule.csv`, run the following command in PowerShell.
-
-:::image type="content" source="media/version-history/version-expiration-scheduling-job.PNG" alt-text="version expiration scheduling job":::
-
-- JSON strings are returned in one of the following formats:
-
-:::image type="content" source="media/version-history/version-expiration-scheduling-job-json.PNG" alt-text="version expiration scheduling job json":::
-
-## Tutorial: Perform a 1-Step trim by scheduling batch trim job
-
-This article describes how to perform a 1-Step trim by scheduling batch trim job. In this tutorial we'll cover:
+In this tutorial we will cover:
 
 - Schedule a batch trim job from a site or library.
 - Stop an in-progress batch deletion job.
@@ -281,11 +223,11 @@ This article describes how to perform a 1-Step trim by scheduling batch trim job
 1. Determine the **Scope [Site, Library]** for version deletion - You can delete old file versions for all document libraries in a site or for a specific document library.
 1. Determine the minimum **age (in days)** for the file versions you want to delete. For example, on May 1, 2023, if you choose to delete file versions that are at least 30 days old, then the versions snapshotted before April 1, 2023 (your target date), will be deleted.
 
-### Schedule Batch Trim Job
+### Queue Trim Job
 
 Follow the PowerShell examples below to start deleting old file versions. Make sure you're a site administrator.
 
-**Example 1. Batch trim versions on all libraries on a site.**
+**Example 1. Queue trim job to delete versions on all libraries on a Site.**
 
 To delete versions that are older than 180 days old for all document libraries in the [site collection](https://contoso.sharepoint.com).
 
