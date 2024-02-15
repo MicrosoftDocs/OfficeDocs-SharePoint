@@ -156,11 +156,11 @@ The version trimming workflow uses a job to asynchronously delete versions match
 
 1. **Track progress:** You will be able to monitor the progress of committed trim jobs to keep track of the deletion progress.  
 
-### Review impact by running What-if’ Analysis
+### Review impact by running ‘What-if’ Analysis
 
 Before committing to trim existing versions, you can review the impact of the purge action by running a ‘What-if’ analysis operation.  Running a ‘What-if’ operation will follow these steps:  
 
-**Step 1: Generate a Version Storage Use report for a Site or Library** This report can support multiple uses including version storage use analytics or to gain key insights on the impact of applying different trimming settings.
+**Step 1: Generate a Version Storage Use report for a Site or Library:** This report can support multiple uses including version storage use analytics or to gain key insights on the impact of applying different trimming settings.
 
 **Step 2: Run ‘What-If’ analysis** to preview the changes and analyze the user and storage savings impact of applying one of the trimming modes to the version storage report csv file.  
 
@@ -211,7 +211,7 @@ The following table enumerates the scenarios and the expected version storage be
 
 | **Scenario:** |**Version Trimming Behavior** |
 |:-----|:-----|
-| User deletes versions from the version history of a file. | When a user deletes a version from the version history of a file the deleted version is moved to the site's recycle bin and can be recovered for a period. For more information, see [Restore items in the recycle bin that were deleted from SharePoint or Teams](/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be) |
+| User deletes versions from the version history of a file. | When a user deletes a version from the version history of a file the deleted version is moved to the site's recycle bin and can be recovered for a period. For more information, see [Restore items in the recycle bin that were deleted from SharePoint or Teams](/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams) |
 | Versions exceed settings applied on the document library. | When versions exceed the limits set at the library, versions matching the criteria are marked for permanent deletion. This version deletion workflow will bypass the normal recycle bin and the deleted versions cannot be recovered from recycle bin.|
 | Timer job scheduled to trim existing versions on a library or site. | Versions deleted using scheduled jobs will be permanently deleted. This version deletion workflow will bypass the normal recycle bin and deleted versions cannot be recovered from recycle bin.|
 | Version storage on sites that are Read Only (locked sites) or items that are subject to retention policy or an on eDiscovery hold. | For items that are subject to a retention policy (or an eDiscovery hold), the versioning limits for the document library are ignored until the retention period of the document is reached (or the eDiscovery hold is released). Trimming of expired versions on Sites that are under retention or are on hold is suspended till the site is unlocked. For more information, see [How retention works with document versions](/purview/retention-policies-sharepoint) |
