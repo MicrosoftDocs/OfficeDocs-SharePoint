@@ -1,5 +1,5 @@
 ---
-ms.date: 08/30/2023
+ms.date: 02/14/2024
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: jtremper
@@ -26,14 +26,11 @@ description: "Learn how to manage site lifecycle policies for SharePoint sites."
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-> [!NOTE]
-> This feature is currently rolling out and may not yet be fully available for all organizations.
-
 ## Site lifecycle management
 
 The site lifecycle management feature from Microsoft Syntex- SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md).
 
-You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the parameters you've set. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
+You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the set parameters. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
 
 The active policy runs monthly and generates reports, sending notifications to the respective site owners to confirm the inactive site's status. If the active policy fails during a particular month, it will run again on the next schedule.
 
@@ -41,7 +38,7 @@ The active policy runs monthly and generates reports, sending notifications to t
 
 ### Site owner notifications
 
-The notifications inform SharePoint site owners that a site has been inactive for X months. To keep the site, the owner should select the **Certify site** button in the notification email. Once the owner certifies the site as active, site lifecycle management doesn't check the activity of the confirmed site for one year.
+The notifications inform SharePoint site owners that a site is inactive for X months. To keep the site, the owner should select the **Certify site** button in the notification email. Once the owner certifies the site as active, site lifecycle management doesn't check the activity of the confirmed site for one year.
 
 Site owners are notified monthly for thee months and then no notifications are sent for the next three months. After six months, monthly notifications resume if the site is inactive. The policy execution report lists the inactive site as unactioned by site owner. You can download the policy execution report and filter out sites that are marked as "no owner action."
 
@@ -72,7 +69,7 @@ Site lifecycle management requires [Microsoft Syntex - SharePoint Advanced Manag
 
 ## Scope of inactive site policies
 
-You can configure parameters for an inactive site policy like inactive time period, template type, site creation source, sensitivity labels and exclusion of up to 100 sites.
+You can configure parameters for an inactive site policy like inactive time period, template type, site creation source, sensitivity labels, and exclusion of up to 100 sites.
 
 ### Site activities
 
@@ -113,9 +110,9 @@ The following sites are excluded from site activity detection:
 
 ## Reporting
 
-Sites that have been inactive for six months are listed in the policy execution report. The report is available for download as a .csv file and lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
+Sites with inactivity for six months are listed in the policy execution report. The report is available for download as a .csv file and lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
 
-The following describes the information included in the policy execution report:
+The following table describes the information included in the policy execution report:
 
 |Column  | Definition  |
 |---------|---------|
@@ -123,18 +120,18 @@ The following describes the information included in the policy execution report:
 |**URL**     |URL of inactive site         |
 |**Template**     |Template of inactive site         |
 |**Sensitivity label**     |Sensitivity label of inactive site       |
-|**Site owner emails**     |Email addresses of site owners who have received inactive site activity email notifications           |
+|**Site owner emails**     |Email addresses of site owners receiving inactive site activity email notifications           |
 |**Last site activity**     |Date of last activity detected by inactive site policy across SharePoint site and connected workloads (Exchange, Viva Engage (formerly Yammer), or Teams)         |
 |**Date created**     |Date when the inactive site was created         |
 |**Storage used**     |Storage consumed by inactive site    |
-**Inactive site status**     |Stage of the policy with the inactive site. There are four possible stages:|
-| |**First notification**: The first notification has been shared with the site owner of the inactive site.|
-| |**30 days since first notification**: The second notification has been shared with the site owner of the inactive site.|
-| |**60 days since first notification**: The third notification has been shared with the site owner of the inactive site.|
+|**Inactive site status**     |Stage of the policy with the inactive site. There are four possible stages:|
+| |**First notification**: The first notification was shared with the site owner of the inactive site.|
+| |**30 days since first notification**: The second notification was shared with the site owner of the inactive site.|
+| |**60 days since first notification**: The third notification was shared with the site owner of the inactive site.|
 | |**No owner action**: No action the site owner after three consecutive notifications.|
 |**Action status**     |Status of the notification to the site owner:         |
 | |**Success** denotes the notification was delivered to the site owner.|
-| |**Failure** denotes the notification to the site owner has failed.|
+| |**Failure** denotes the notification to the site owner failed to send.|
 
 ## Related articles
 
