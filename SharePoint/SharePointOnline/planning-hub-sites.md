@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 02/08/2024
 title: "Planning your SharePoint hub sites"
 ms.reviewer: cathed
 manager: jtremper
