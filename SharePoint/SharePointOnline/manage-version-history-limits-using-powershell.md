@@ -100,17 +100,17 @@ Here's the description of the status in response:
 
 - `NoRequestFound`
 
-:::image type="content" source="media/version-history/norequest.PNG" alt-text="norequest":::
+:::image type="content" source="media/version-history/norequest.PNG" alt-text="no request":::
 
 - `New`request
 
-:::image type="content" source="media/version-history/newrequest.PNG" alt-text="newrequest":::
+:::image type="content" source="media/version-history/newrequest.PNG" alt-text="new request":::
 
 - `InProgress` request
 
-:::image type="content" source="media/version-history/inprogress.PNG" alt-text="inprogress":::
+:::image type="content" source="media/version-history/inprogress.PNG" alt-text="in progress":::
 
 - `Complete` request
 
-:::image type="content" source="media/version-history/completedrequest.PNG" alt-text="completedrequest":::
+:::image type="content" source="media/version-history/completedrequest.PNG" alt-text="completed request":::
 
