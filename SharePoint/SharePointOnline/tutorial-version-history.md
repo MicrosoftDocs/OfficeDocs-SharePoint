@@ -34,7 +34,7 @@ In this tutorial we'll cover how to:
 - Check progress of report generation.
 - Understand the report file.
 - Analyze version storage use using Excel or PowerShell.
- 
+
 ### Generate Version Use Report for Sites or Library
 
 Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
