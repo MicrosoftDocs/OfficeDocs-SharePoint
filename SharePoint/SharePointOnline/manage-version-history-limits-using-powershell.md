@@ -104,13 +104,13 @@ Here's the description of the status in response:
 
 - `New`request
 
-:::image type="content" source="media/version-history/newrequest.PNG" alt-text="cancel existing libs":::
+:::image type="content" source="media/version-history/newrequest.PNG" alt-text="newrequest":::
 
 - `InProgress` request
 
-:::image type="content" source="media/version-history/inprogress.PNG" alt-text="cancel existing libs":::
+:::image type="content" source="media/version-history/inprogress.PNG" alt-text="inprogress":::
 
 - `Complete` request
 
-:::image type="content" source="media/version-history/completedrequest.PNG" alt-text="cancel existing libs":::
+:::image type="content" source="media/version-history/completedrequest.PNG" alt-text="completedrequest":::
 
