@@ -31,6 +31,8 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 
 SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol. With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
 
+The OIDC now integrates with the SharePoint Certificate Management to manage the nonce (number used once) cookie certification. The nonce cookie certificate ensure that OIDC authentication tokens are secure.
+
 You can set up OIDC authentication in SharePoint Server with either of these options:
 
 - Microsoft Entra ID. For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
