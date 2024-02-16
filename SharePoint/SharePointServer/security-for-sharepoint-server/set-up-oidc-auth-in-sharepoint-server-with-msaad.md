@@ -129,7 +129,7 @@ The introduction of the OIDC nonce cookie certificate through the SharePoint Cer
 - If the administrator enables or disables the OIDC on web application, the permission of teh nonce certificate is automatically updated on the Web Application Pool Account. You can extend or delete a web application that has OIDC enabled with grant or remove permissions on the nonce certificate, respectively.
    - To replace the nonce certificate, using the Central Administartion Site, go to **Security** > **Manage Certificate**. Select *nonce certificate* and select **Replace**.
    - Replace the nonce certificate using PowerShell cmdlet.
-     Switch-SPCertificate -Identity <old nonce certificate name> -NewCertificate <new nonce certificate>  
+     Switch-SPCertificate -Identity <old>nonce certificate name</old> -NewCertificate <new>nonce certificate</new>  
 
      ```powershell
      Switch-SPCertificate -Identity "SharePoint Cookie Cert" -NewCertificate "SharePoint Cookie Cert2"
