@@ -31,7 +31,22 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 
 SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol. With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
 
-The OIDC now integrates with the SharePoint Certificate Management to manage the nonce (number used once) cookie certification. The nonce cookie certificate ensure that OIDC authentication tokens are secure.
+The OIDC now integrates with the SharePoint Certificate Management to manage the nonce (number used once) cookie certification. The nonce cookie certificate ensures that OIDC authentication tokens are secure.
+
+Earlier, the administrators had to use Certificate snap-in in Windows to check the status of the nonce certificate. In a multi-server farm, the administrators needed to manually export certificates, import certificates, and grant permissions on each server individually. When administrators enable the OIDC for a new web application using new application pool account, the administrators had to remember to grant permissions for the account.
+
+The farm administrators can now use the following command to establish or replace the nonce certificate at the farm level. This command can be used regardless of the fact if it's being done during the initial configuration or during replacement of an existing nonce certificate.
+
+```powershell
+$f = Get-SPFarm 
+$farm.UpdateNonceCert($nonceCert, $true)
+```
+
+> [!Note]
+> The property name, in upcoming builds, will change to:
+> ```powershell
+> $farm.UpdateNonceCertificate($nonceCert, $true)
+> ```
 
 You can set up OIDC authentication in SharePoint Server with either of these options:
 
