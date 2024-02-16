@@ -22,7 +22,7 @@ description: "Learn how to set up OIDC authentication in SharePoint Server with 
 
 ## Prerequisites
 
-When you configure OIDC with Microsoft Entra ID, you need the following resources:
+When you configure OpenID Connect (OIDC) with Microsoft Entra ID, you need the following resources:
 
 1. A SharePoint Server Subscription Edition farm
 2. Microsoft Entra Global Administrator role of the M365 tenant
@@ -101,33 +101,40 @@ In this step, you'll need to modify the SharePoint Server farm properties. Start
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.  You will need to enter your own environment-specific values in certain places.
+
 ```powershell
-# Setup farm properties to work with OIDC
+$certPath = <store path> # Example: “c:\certs\SpNonce.pfx”
+$certPassword = ConvertTo-SecureString -String <password> -Force -AsPlainText 
 
-# Create the Nonce certificate
-$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
-$rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
-$fileName = $rsaCert.key.UniqueName
+# Configure nonce certificate
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Subject "CN=SharePoint Cookie Cert" 
+Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $certPassword  
 
-# If you have multiple SharePoint servers in the farm, you need to export certificate by using Export-PfxCertificate and import the certificate to all other SharePoint servers in the farm by using Import-PfxCertificate. 
+# In order to use this feature update, ensure the nonce certificate is imported into the Certificate Management.
 
-# After the certificate is successfully imported to SharePoint Server, we will need to grant access permission to certificate's private key.
+# Import nonce certificate to certificate management
+$nonceCert = Import-SPCertificate -Path $certPath -Password $certPassword  -Store "EndEntity"-Exportable:$true  
 
-$path = "$env:ALLUSERSPROFILE\Microsoft\Crypto\RSA\MachineKeys\$fileName"
-$permissions = Get-Acl -Path $path
+# If you have multiple SharePoint servers in the farm, you now need not repeat the steps of Import-PfxCertificate, Export-PfxCertificate, and grant <web application pool account> permission in each server of the farm.
 
-# Grant your app pool account permission to the private key
-# Please replace the <web application pool account> with real application pool account of your SharePoint web application
-$access_rule = New-Object System.Security.AccessControl.FileSystemAccessRule(<Web application pool account>, 'Read', 'None', 'None', 'Allow')
-$permissions.AddAccessRule($access_rule)
-Set-Acl -Path $path -AclObject $permissions
-
-# Update the farm properties to use the Nonce cert
-$f = Get-SPFarm
-$f.Farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
-$f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
-$f.Farm.Update()
+# Update farm properties 
+$f = Get-SPFarm 
+$f.UpdateNonceCert($nonceCert,$true)
 ```
+
+The introduction of the OIDC nonce cookie certificate through the SharePoint Certificate Management ensures secure OIDC authentication. With this update, you can notice the following changes:
+
+- SharePoint notifies the administrators through  **Health Analyzer Rule Definitions** that the nonce certificate is not managed by the SharePoint Certificate Management. If the nonce certificate is set only in the farm properties through *SPFarm.properties* ['SP-NonceCookieCertificateThumbprint'] and is not managed by the Certificate Management, it means that the *SPFarm.NonceCertificate* is *null* or the thumb-print doesn't match. In this scenario, the following notification appears for the administrators.
+  :::image type="content" source="../media/health-analyzer-rule-definitions.png" alt-text="Screenshot that shows the health analyzer rule.":::
+- If the administrator enables or disables the OIDC on web application, the permission of teh nonce certificate is automatically updated on the Web Application Pool Account. You can extend or delete a web application that has OIDC enabled with grant or remove permissions on the nonce certificate, respectively.
+   - To replace the nonce certificate, using the Central Administartion Site, go to **Security** > **Manage Certificate**. Select *nonce certificate* and select **Replace**.
+   - Replace the nonce certificate using PowerShell cmdlet.
+     Switch-SPCertificate -Identity <old nonce certificate name> -NewCertificate <new nonce certificate>  
+
+     ```powershell
+     Switch-SPCertificate -Identity "SharePoint Cookie Cert" -NewCertificate "SharePoint Cookie Cert2"
+     ```
+  :::image type="content" source="../media/replace-certificate-assignment.png" alt-text="Screenshot that shows the replace certificate.":::
 
 ## Step 3: Configure SharePoint to trust the identity provider
 
