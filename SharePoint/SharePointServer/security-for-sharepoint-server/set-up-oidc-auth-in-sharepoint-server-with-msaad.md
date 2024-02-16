@@ -44,7 +44,7 @@ This article uses the following example values for Microsoft Entra OIDC setup:
 
 Perform the following steps to set up OIDC with Microsoft Entra ID:
 
-1. Browse to the [Entra ID admin portal](https://entra.microsoft.com/), and log in with an account with the Global Administrator role.
+1. Browse to the [Entra ID admin portal](https://entra.microsoft.com/), and sign in with an account with the Global Administrator role.
 1. Under Applications, select App Registrations.
 1. Select **New Registration**.
 2. Go to the **Register an application** page `https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps`.
@@ -52,21 +52,21 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
     :::image type="content" source="../media/register-an-app.PNG" alt-text="Register an application":::
 
-1. Save the **Directory (tenant) ID** value, as the tenant ID will be used in subsequent steps.  Also save the **Application (client) ID,** which we'll use as **DefaultClientIdentifier** in the SharePoint setup.
+1. Save the **Directory (tenant) ID** value, as the tenant ID is used in subsequent steps. Also save the **Application (client) ID,** which we use as **DefaultClientIdentifier** in the SharePoint setup.
 
     :::image type="content" source="../media/sharepoint-onprem-oidc-connection.png" alt-text="Save Application":::
 
-1. After you register the application, go to the **Authentication** tab, select the **ID tokens** check box and select **Save**.
+1. After you register the application, go to the **Authentication** tab, select the **ID tokens** check box, and select **Save**.
 
     :::image type="content" source="../media/sharepoint-oidc-authentication.png" alt-text="Enable ID Tokens":::
 
-1. Go to the **API permissions** tab and click Add a Permission. Choose **Microsoft Graph**, then **Delegated permissions.**  Select the add **email** and **profile** permissions, and click **Add permissions.**
+1. Go to the **API permissions** tab and select Add a Permission. Choose **Microsoft Graph**, then **Delegated permissions.**  Select the add **email** and **profile** permissions, and select **Add permissions.**
 
     :::image type="content" source="../media/sharepoint-oidc-api-permissions.png" alt-text="API Permissions":::
    
-1. Go to the **Token configuration** tab and click **Add optional claim**.  For each token type (ID, Access, SAML), add **email**, and **upn** claims.
+1. Go to the **Token configuration** tab and select **Add optional claim**. For each token type (ID, Access, SAML), add **email**, and **upn** claims.
 
-1. Also on the **Token configuration** tab, click **Add groups claim**.  Security Groups is the most common, but the group types you select depends on which types of groups you want to use to give access to the SharePoint web application. See [Configure groups optional claims](/entra/identity-platform/optional-claims#configure-groups-optional-claims) and Configure group claims for applications by using Microsoft Entra ID for more information.
+1. Also on the **Token configuration** tab, select **Add groups claim**. Security Groups is the most common, but the group types you select depends on which types of groups you want to use to give access to the SharePoint web application. For more information, see [Configure groups optional claims](/entra/identity-platform/optional-claims#configure-groups-optional-claims) and Configure group claims for applications by using Microsoft Entra ID.
 :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
 8. Go to the **Manifest** tab, and manually change **replyUrlsWithType** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.
@@ -97,7 +97,7 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 ## Step 2: Change SharePoint farm properties
 
-In this step, you'll need to modify the SharePoint Server farm properties. Start the SharePoint Management Shell as a Farm Administrator, and run the following script:
+In this step, you need to modify the SharePoint Server farm properties. Start the SharePoint Management Shell as a Farm Administrator, and run the following script:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.  You will need to enter your own environment-specific values in certain places.
@@ -124,17 +124,17 @@ $f.UpdateNonceCert($nonceCert,$true)
 
 The introduction of the OIDC nonce cookie certificate through the SharePoint Certificate Management ensures secure OIDC authentication. With this update, you can notice the following changes:
 
-- SharePoint notifies the administrators through  **Health Analyzer Rule Definitions** that the nonce certificate is not managed by the SharePoint Certificate Management. If the nonce certificate is set only in the farm properties through *SPFarm.properties* ['SP-NonceCookieCertificateThumbprint'] and is not managed by the Certificate Management, it means that the *SPFarm.NonceCertificate* is *null* or the thumb-print doesn't match. In this scenario, the following notification appears for the administrators.
+- SharePoint notifies the administrators through  **Health Analyzer Rule Definitions** that the nonce certificate isn't managed by the SharePoint Certificate Management. If the nonce certificate is set in the farm properties through *SPFarm.properties* ['SP-NonceCookieCertificateThumbprint'] and isn't managed by the Certificate Management, it means that the *SPFarm.NonceCertificate* is *null* or the thumb-print doesn't match. In this scenario, the following notification appears for the administrators.
   :::image type="content" source="../media/health-analyzer-rule-definitions.png" alt-text="Screenshot that shows the health analyzer rule.":::
-- If the administrator enables or disables the OIDC on web application, the permission of teh nonce certificate is automatically updated on the Web Application Pool Account. You can extend or delete a web application that has OIDC enabled with grant or remove permissions on the nonce certificate, respectively.
-   - To replace the nonce certificate, using the Central Administartion Site, go to **Security** > **Manage Certificate**. Select *nonce certificate* and select **Replace**.
+- If the administrator enables or disables the OIDC on web application, the permission of the nonce certificate is automatically updated on the Web Application Pool Account. You can extend or delete a web application that has OIDC enabled with grant or remove permissions on the nonce certificate, respectively.
+   - To replace the nonce certificate, using the Central Administration Site, go to **Security** > **Manage Certificate**. Select *nonce certificate* and select **Replace**.
    - Replace the nonce certificate using PowerShell cmdlet.
      Switch-SPCertificate -Identity <old>nonce certificate name</old> -NewCertificate <new>nonce certificate</new>  
 
      ```powershell
      Switch-SPCertificate -Identity "SharePoint Cookie Cert" -NewCertificate "SharePoint Cookie Cert2"
      ```
-  :::image type="content" source="../media/replace-certificate-assignment.png" alt-text="Screenshot that shows the replace certificate.":::
+  :::image type="content" source="../media/replace-certificate-assignment.png" alt-text="Screenshot that shows the replaced certificate.":::
 
 ## Step 3: Configure SharePoint to trust the identity provider
 
@@ -142,14 +142,14 @@ You can configure SharePoint to trust the identity provider in either of the fol
 
 - Configure SharePoint to trust Microsoft Entra ID as the OIDC provider **manually**.
 - Configure SharePoint to trust Microsoft Entra ID as the OIDC provider by using the **metadata endpoint**.
-  - By using the metadata endpoint, a lot of parameters you need in 'Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually' can be automatically retrieved by metadata endpoint.
+  - By using the metadata endpoint, several parameters you need in 'Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually' are automatically retrieved by metadata endpoint.
 
 > [!NOTE]
 > Follow either the manual configuration steps or the metadata endpoint steps, but not both.
    
 ### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
 
-In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
+In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace \<tenantid\> with your own Directory (tenant) ID.
@@ -189,11 +189,11 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 |ImportTrustCertificate     | Imports a list of X509 Certificates, which will be used to validate `id_token` from OIDC identifier. If the OIDC identity provider (IDP) uses more than one certificate to digital sign the `id_token`, import these certificates and SharePoint will then validate `id_token` by matching the digital signature generated by using these certificates. |
 | ClaimsMappings | A `SPClaimTypeMapping` object, which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint. |
 | IdentifierClaim | Specifies the type of identifier. |
-| RegisteredIssuerName | Specifies the issuer identifier, which issues the `id_token`. It will be used to validate the `id_token`. |
+| RegisteredIssuerName | Specifies the issuer identifier, which issues the `id_token`. It's used to validate the `id_token`. |
 | AuthorizationEndPointUrl | Specifies the authorization endpoint of the OIDC identity provider. |
-| SignoutUrl | Specifies the sign-out endpoint of the OIDC identity provider. |
-| DefaultClientIdentifier | Specifies the `client_id` of SharePoint server, which is assigned by OIDC identity provider. This will be validated against aud claim in `id_token`. |
-| ResponseTypesSupported | Specifies the response type of IDP, which can be accepted by this token issuer. It can accept two strings: `id_token` and `code id_token`. If this parameter isn't provided, it will use `code id_token` as default. |
+| SignoutUrl | Specifies the sign out endpoint of the OIDC identity provider. |
+| DefaultClientIdentifier | Specifies the `client_id` of SharePoint server, which is assigned by OIDC identity provider. This is validated against aud claim in `id_token`. |
+| ResponseTypesSupported | Specifies the response type of IDP, which can be accepted by this token issuer. It can accept two strings: `id_token` and `code id_token`. If this parameter isn't provided, it uses `code id_token` as default. |
 
 > [!IMPORTANT]
 > The relevant certificate must be added to the SharePoint root authority certificate store:
@@ -206,7 +206,7 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 
 SharePoint Server Subscription Edition now supports OIDC metadata discovery capability during configuration.
 
-By using the metadata endpoint provided by the OIDC identity provider, some of the configuration will be retrieved from the OIDC provider metadata endpoint directly, including:
+When you use the metadata endpoint provided by the OIDC identity provider, some of the configuration is retrieved from the OIDC provider metadata endpoint directly, including:
 
 1. Certificate
 2. Issuer
@@ -238,15 +238,15 @@ New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.loc
 |------------|-------------|
 |Name     | Gives a name to the new token issuer. |
 |Description     | Gives a description to the new token issuer. |
-|ImportTrustCertificate     | A certificate that will be used to validate `id_token` from OIDC identifier. |
+|ImportTrustCertificate     | A certificate that is used to validate `id_token` from OIDC identifier. |
 | ClaimsMappings | A `SPClaimTypeMapping` object, which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint. |
 | IdentifierClaim | Specifies the type of identifier. |
-| DefaultClientIdentifier | Specifies the `client_id` of SharePoint server, which is assigned by OIDC identity provider. This will be validated against aud claim in `id_token`. |
+| DefaultClientIdentifier | Specifies the `client_id` of SharePoint server, which is assigned by OIDC identity provider. This is validated against aud claim in `id_token`. |
 | MetadataEndPoint | Specifies the well-known metadata endpoint from OIDC identity provider, which can be used to retrieve latest certificate, issuer, authorization endpoint, and sign out endpoint. |
 
 ## Step 4: Configure the SharePoint web application
 
-In this step, you'll configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step.
+In this step, you configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step.
 
 > [!IMPORTANT]
 >
@@ -332,7 +332,7 @@ Since OIDC 1.0 authentication can only work with HTTPS protocol, a certificate m
 
 ## Step 6: Create the site collection
 
-In this step, you'll create a team site collection with two administrators: One as a Windows administrator and one as a federated (Microsoft Entra ID) administrator.
+In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (Microsoft Entra ID) administrator.
 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
@@ -353,7 +353,7 @@ In this step, you'll create a team site collection with two administrators: One 
 11. Go to the account and select **OK** to close the People Picker dialog.
 12. Select **OK** again to create the site collection.
 
-Once the site collection is created, you will be able to sign-in using either the Windows or the federated site collection administrator account.
+Once the site collection is created, you are able to sign-in using either the Windows or the federated site collection administrator account.
 
 ## Step 7: Set up People Picker
 
@@ -363,7 +363,7 @@ To do this, perform the following steps:
 
 ### 1. Create a new claim provider
 
-In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), you've already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you'll use the following PowerShell cmdlet to create a claim provider, which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
+In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), you already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you use the following PowerShell cmdlet to create a claim provider, which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
   $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer -Description “OIDC Claim Provider” -Default:$false
@@ -392,7 +392,7 @@ Specify the following parameters:
 |------------|-------------|
 | token issuer name | The token issuer this People Picker will use. |
 | -ClaimProvider | The `SPClaimProvider`, which will be used to generate claim. |
-| -IsOpenIDConnect | Required when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter, OIDC `SPTrustedIdentityTokenIssuer` configuration will fail. |
+| -IsOpenIDConnect | Required when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter, OIDC `SPTrustedIdentityTokenIssuer` configuration fails. |
 
 An example of this command is:
 
@@ -422,9 +422,9 @@ During the synchronization, the following three properties must be provided to t
 
     1. `SPS-ClaimID`
 
-        During the synchronization, you must pick which unique identity property in the source will be mapped to the `SPS-ClaimID` property in the UPSA. We suggest using **Email** or **User Principal Name** for the `SPS-ClaimID`. The corresponding **IdentifierClaim** value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
+        During the synchronization, you must pick which unique identity property in the source is mapped to the `SPS-ClaimID` property in the UPSA. We suggest using **Email** or **User Principal Name** for the `SPS-ClaimID`. The corresponding **IdentifierClaim** value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
 
-        For AD Import synchronization, **Central Administration > Application Management > Manage service applications > User Profile Service Application > Manage User Properties** will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to **Email**.
+        For AD Import synchronization, **Central Administration > Application Management > Manage service applications > User Profile Service Application > Manage User Properties** allows administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to **Email**.
 
         :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID":::
         :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimProviderID":::
@@ -465,7 +465,7 @@ Perform the following steps to enable the People Picker control to work with gro
     This sample cmdlet first creates a `claimmap` object of type `groupsid` and indicates that it works with the `SID` property of the group and then creates a new identity issuer, which can understand this mapping.
 
 2. Synchronize `SID` property of groups from the identity provider to the `SID` property in UPSA.
-    1. For AD Import synchronization, `SID` will be synchronized automatically without additional setup from the source identity provider to the SharePoint UPSA.
+    1. For AD Import synchronization, `SID` is synchronized automatically without other setup from the source identity provider to the SharePoint UPSA.
     2. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint UPSA so that MIM can synchronize the group `SID` from the identity provider to the SharePoint UPSA. This is similar to how we do user profile synchronization for the `SPS-ClaimID` property for user profiles.
 
 1. For MIM synchronization, `sAMAccountName` should also be mapped to `accountName` from MIM to the SharePoint UPSA. If it doesn’t exist, admin should create mapping pair from `sAMAccountName` to `accountName` in MIM manually.
