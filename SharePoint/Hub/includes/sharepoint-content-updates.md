@@ -2,6 +2,15 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/15/2024 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | modified |
+| 2/15/2024 | [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
+
+
 ## Week of February 05, 2024
 
 
