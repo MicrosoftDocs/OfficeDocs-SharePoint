@@ -179,20 +179,12 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 The following are the known limitations.
 
 1. The API doesn't delete versions created in the last 30 days. This means your input to the API can't be less than 30 days.
-    
+
 1. The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
 
 - **Manual Count Limit:** The manual count limit trim mode sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
 :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="manual count limit":::
-
-### Learn More
-
-For more information, check out the following resources:
-
-- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site/sharePoint/sharePointOnline/tutorial-version-history.md)
-- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial-run-what-if-analysis-on-version-storage-report-file/sharePoint/sharePointOnline/tutorial-version-history.md)
-- [Tutorial: Queue Job to Trim Versions](#tutorial-perform-a-2-step-trim-by-analyzing-impact--scheduling-trim/sharePoint/sharePointOnline/tutorial-version-history.md)
 
 ## Auditing Versioning Events
 
@@ -217,4 +209,12 @@ The following table enumerates the scenarios and the expected version storage be
 | Version storage on sites that are Read Only (locked sites) or items that are subject to retention policy or an on eDiscovery hold. | For items that are subject to a retention policy (or an eDiscovery hold), the versioning limits for the document library are ignored until the retention period of the document is reached (or the eDiscovery hold is released). Trimming of expired versions on Sites that are under retention or are on hold is suspended till the site is unlocked. For more information, see [How retention works with document versions](/purview/retention-policies-sharepoint) |
 | Versions deletion on items with retention labels applied. | Versioning limits are honored on items with retention labels when the content isn't subject to a retention policy (or an eDiscovery hold). Versions matching the limit criteria are automatically deleted to accommodate new versions, but users are still prevented from deleting versions. |
 | Version deletion on items marked as records. | Version deletion on documents marked as records is blocked. For more information, see [Use record versioning in SharePoint or OneDrive | Microsoft Learn](/purview/record-versioning) |
+
+### Learn More
+
+For more information, check out the following resources:
+
+- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site/sharePoint/sharePointOnline/tutorial-version-history.md)
+- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial-run-what-if-analysis-on-version-storage-report-file/sharePoint/sharePointOnline/tutorial-version-history.md)
+- [Tutorial: Queue Job to Trim Versions](#tutorial-perform-a-2-step-trim-by-analyzing-impact--scheduling-trim/sharePoint/sharePointOnline/tutorial-version-history.md)
 
