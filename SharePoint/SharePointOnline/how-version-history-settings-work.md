@@ -68,7 +68,7 @@ Take an example of Contoso with an existing Marketing site with a set of librari
 
 - **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
 
-:::image type="content" source="media/version-history/break-inheritance-at-site-level.png" alt-text="tenant version history":::
+:::image type="content" source="media/version-history/break-inheritance-at-site-level.png" alt-text="break inheritance":::
 
 ## Set Version limits for a Site
 
