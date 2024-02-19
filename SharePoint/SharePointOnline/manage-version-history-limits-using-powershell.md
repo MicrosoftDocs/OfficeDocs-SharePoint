@@ -30,29 +30,29 @@ To manage **Version history limits** for a Site using PowerShell, install the la
 
 ### Apply Automatic settings
 
-:::image type="content" source="media/version-history/automatic-setting-pnp-site.PNG" alt-text="automatic set pnp":::
+:::image type="content" source="media/version-history/automatic-setting-pnp-site.png" alt-text="automatic set pnp":::
 
 ### Apply Manual Setting with versions count and Time limits
 
-:::image type="content" source="media/version-history/manual-setting-pnp-site-time-limit.PNG" alt-text="manual set pnp time limit":::
+:::image type="content" source="media/version-history/manual-setting-pnp-site-time-limit.png" alt-text="manual set pnp time limit":::
 
 ### Apply Manual Setting with versions count and No Time limits
 
-:::image type="content" source="media/version-history/manual-setting-pnp-site-no-time-limit.PNG" alt-text="manual set pnp no time limit":::
+:::image type="content" source="media/version-history/manual-setting-pnp-site-no-time-limit.png" alt-text="manual set pnp no time limit":::
 
 ## Set site version policy for new document libraries only
 
 ### Apply Automatic settings 
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs.PNG" alt-text="automatic set for new libs":::
+:::image type="content" source="media/version-history/automatic-setting-new-libs.png" alt-text="automatic set for new libs":::
 
 ### Apply Manual Setting with Major Version Count and Time limits
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs-time-limit.PNG" alt-text="automatic setting new libs with time limit":::
+:::image type="content" source="media/version-history/automatic-setting-new-libs-time-limit.png" alt-text="automatic setting new libs with time limit":::
 
 ### Apply Manual Setting with Major Version Count and No Time limits  
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs-no-time-limit.PNG" alt-text="automatic setting new libs with no time limit":::
+:::image type="content" source="media/version-history/automatic-setting-new-libs-no-time-limit.png" alt-text="automatic setting new libs with no time limit":::
 
 ### Clear Site Level Version history limits  
 
@@ -60,27 +60,27 @@ If the setting on the site is cleared, the new document libraries use the tenant
 > [!NOTE]
 > Clearing a setting on a Site will only apply to New Document Libraries created on the site and will not impact the settings on existing doc libraries.  
 
-:::image type="content" source="media/version-history/inherit-tenant-new-doc-libs.PNG" alt-text="inherit tenant new doc libs":::
+:::image type="content" source="media/version-history/inherit-tenant-new-doc-libs.png" alt-text="inherit tenant new doc libs":::
 
 ## Set site version policy for existing document libraries only
 
 ### Apply Automatic settings
 
-:::image type="content" source="media/version-history/automatic-setting-existing-libs.PNG" alt-text="automatic setting existing libs":::
+:::image type="content" source="media/version-history/automatic-setting-existing-libs.png" alt-text="automatic setting existing libs":::
 
 ### Apply Manual Setting with Versions count and Time limits
 
-:::image type="content" source="media/version-history/manual-setting-existing-libs-time-limit.PNG" alt-text="manual setting existing libs time limit":::
+:::image type="content" source="media/version-history/manual-setting-existing-libs-time-limit.png" alt-text="manual setting existing libs time limit":::
 
 ### Apply Manual Setting with Versions count and NO Time limits
 
-:::image type="content" source="media/version-history/manual-setting-existing-libs-no-time-limit.PNG" alt-text="manual setting existing libs no time limit":::
+:::image type="content" source="media/version-history/manual-setting-existing-libs-no-time-limit.png" alt-text="manual setting existing libs no time limit":::
 
 ### Cancel the request  
 
 Cancels the settings update request on libraries that isn't processed. This won't revert the change for document libraries where the settings update was already processed.
 
-:::image type="content" source="media/version-history/cancel-existing-libs.PNG" alt-text="cancel existing libs":::
+:::image type="content" source="media/version-history/cancel-existing-libs.png" alt-text="cancel existing libs":::
 
 ## Get progress for Set site version policy
 
@@ -100,17 +100,17 @@ Here's the description of the status in response:
 
 - `NoRequestFound`
 
-:::image type="content" source="media/version-history/norequest.PNG" alt-text="no request":::
+:::image type="content" source="media/version-history/norequest.png" alt-text="no request":::
 
 - `New`request
 
-:::image type="content" source="media/version-history/newrequest.PNG" alt-text="new request":::
+:::image type="content" source="media/version-history/newrequest.png" alt-text="new request":::
 
 - `InProgress` request
 
-:::image type="content" source="media/version-history/inprogress.PNG" alt-text="in progress":::
+:::image type="content" source="media/version-history/inprogress.png" alt-text="in progress":::
 
 - `Complete` request
 
-:::image type="content" source="media/version-history/completedrequest.PNG" alt-text="completed request":::
+:::image type="content" source="media/version-history/completedrequest.png" alt-text="completed request":::
 
