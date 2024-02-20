@@ -266,3 +266,4 @@ To stop the more batch deletion for the document library Documents in site colle
 
 :::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
 
+
