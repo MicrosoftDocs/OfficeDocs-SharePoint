@@ -54,12 +54,12 @@ There are two modes of manual configuration.
 1. Select **Automatically**.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
-:::image type="content" source="media/version-history/version-history-limits-automatic.PNG" alt-text="automatic":::
+:::image type="content" source="media/version-history/version-history-limits-automatic.png" alt-text="automatic":::
 
 To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
 ```PowerShell
-    Set-SPOtenant -EnableAutoExpirationVersionTrim $true
+    Set-SPOTenant - EnableAutoExpirationVersionTrim $true
 ```
 
 ## Set Manual Version Count Limits with No Expiration
@@ -70,7 +70,7 @@ To set Automatic version history limits for all new document libraries created i
 1. Enter a value between 100 and 50,000 in the **Number of major versions** box.
 1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This ensures that no expiration is stamped on versions.
 
-:::image type="content" source="media/version-history/version-history-limits-manual.PNG" alt-text="custom":::
+:::image type="content" source="media/version-history/version-history-limits-manual.png" alt-text="custom":::
 
 ## Set Manual Version Count and Expiration Storage Limits
 
@@ -82,11 +82,22 @@ To set Automatic version history limits for all new document libraries created i
 1. To enter a custom value for **Delete versions after**, select the custom value from the dropbox and enter value greater than 30 days in the **Days** box and **Save**.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
-:::image type="content" source="media/version-history/powershell-manual-version.PNG" alt-text="powershell manual version":::
+To set count and expiration limits for all new document libraries created in your organization using PowerShell, run the following command:
+
+```PowerShell
+   
+   Set-SPOTenant | select EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays,MajorVersionLimit
+```
 
 ## Review Organization Version Storage Limits
 
 1. Go to **Settings** in the [SharePoint admin center](/sharepoint/sharepoint-admin-role), and sign in with an account that has [administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 1. Select **Version history limits**.
 
-:::image type="content" source="media/version-history/powershell-review.PNG" alt-text="powershell review":::
+```PowerShell
+   
+   Set-SPOTenant 
+   - EnableAutoExpirationVersionTrim $false
+   - MajorVersionLimit<int>
+   - ExpireVersionsAfterDays<0>
+```
