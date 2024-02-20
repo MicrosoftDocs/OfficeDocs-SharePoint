@@ -205,7 +205,7 @@
 ## Versions
 ### [Introduction to Version History](versioning-overview.md)
 ### [How Version History Limits for Document Libraries Work](how-version-history-settings-work.md)
-### [Manage Version history limits for a Site using PowerShell](manage-version-history-limits-using-powershell.md)
+### [Manage Version history limits for a Site using PowerShell (Preview)](manage-version-history-limits-using-powershell.md)
 
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
