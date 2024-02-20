@@ -160,7 +160,7 @@ Run the following command to **clear an existing version history limit applied o
    Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true -
    ApplyToExistingDocumentLibraries
 ```
-:::image type="content" source="media/version-history/automatic-setting-existing-libs.png" alt-text="automatic setting existing libs":::
+:::image type="content" source="media/version-history/automatic-setting-existing-libs.png" lightbox="media/version-history/automatic-setting-existing-libs.png" alt-text="automatic setting existing libs":::
 
 - Apply Manual Setting with Versions count and Time limits
 
