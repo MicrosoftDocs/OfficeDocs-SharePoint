@@ -20,7 +20,7 @@ description: "This article provides guidance on Version Usage, What-If Analysis,
 
 ---
 
-# Tutorials
+# Tutorials (Preview)
 
 ## Tutorial: Generate and Analyze Version Usage Report for SharePoint Site
 
@@ -39,7 +39,7 @@ In this tutorial we'll cover how to:
 
 Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
 
-- Here’s an example of the PowerShell script that generates a **site-scoped** report at the [report location](https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv).  
+- Here’s an example of the PowerShell script that generates a **site-scoped** report at the `report location`, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
 
 > [!NOTE]
 > The report location is within a SharePoint document library.
@@ -49,6 +49,9 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 :::image type="content" source="media/version-history/powershell-site-scoped-1.png" alt-text="powershell site scoped 1":::
 
 - Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
+
+> [!NOTE]
+> The report location is within a SharePoint document library.
 
 :::image type="content" source="media/version-history/library-scoped-report-powershell.png" alt-text="library scoped report powershell":::
 
@@ -77,7 +80,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 - Here’s an example of file version expiration report and its column breakdown.
 
-:::image type="content" source="media/version-history/expiration-report.png" alt-text="file version expiration report":::
+:::image type="content" source="media/version-history/expiration-report.png" alt-text="expiration report":::
 
 There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
 
@@ -125,11 +128,11 @@ Follow these steps to populate the workbook:
 
 1. On the **Configuration** worksheet, enter the full path to the What-If report file in **Cell B3**.
 
-:::image type="content" source="media/version-history/analyze-version-step1.png" alt-text="configuration worksheet":::
+:::image type="content" source="media/version-history/analyze-version-step1.png" lightbox="media/version-history/analyze-version-step1.png" alt-text="configuration worksheet":::
 
 2. If you want to change the date range of graphs in **Number of Versions Available** worksheet, or **Size of Versions Expired** worksheet, change the corresponding values in Cells B6, B7, B10, and/or B11. This is optional.  
 
-:::image type="content" source="media/version-history/analyze-version-step2.png" alt-text="analyze version configuration":::
+:::image type="content" source="media/version-history/analyze-version-step2.png" lightbox="media/version-history/analyze-version-step2.png" alt-text="analyze version configuration":::
 
 3. At the top of Excel, select **Data** tab, and in the Ribbon, select **Refresh All** button.
 
@@ -160,10 +163,10 @@ All worksheets should now be up to date. You can check the information you're in
 3. The output displays four tables:
 
 - **Current Expiration Schedule:** this table contains a time-series summary for your versions as they are. It has the following columns:
-    1. Date: the first column represents the date.
-    1. NumberOfVersionsAvailable: the number of versions available on that date under the current schedule.  
-    1. NumberOfVersionsExpired: the number of versions expired on that date under the current schedule.  
-    1. SizeOfVersionsExpiredMB: the size of versions expired on that date under the current schedule.  
+    1. **Date**: the first column represents the date.
+    1. **NumberOfVersionsAvailable**: the number of versions available on that date under the current schedule.  
+    1. **NumberOfVersionsExpired**: the number of versions expired on that date under the current schedule.  
+    1. **SizeOfVersionsExpiredMB**: the size of versions expired on that date under the current schedule.  
 
 :::image type="content" source="media/version-history/current-expiration-schedule.png" alt-text="Current Expiration Schedule":::
 
@@ -196,15 +199,21 @@ In this tutorial, we'll cover how to:
 
 Download the report file to your local computer and leverage the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could leverage PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
 
+**Example: Apply Automatic Trim Setting**
+
 - Here's an example of PowerShell script you could apply to generate a What-If Report file that applies the **Automatic Expiration**  policy on the report file `C:\Report.csv`.  
 
 :::image type="content" source="media/version-history/expiration-automation.png" alt-text="expiration automation":::
 
-- Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to 30 on the report file `C:\Report.csv`.  
+**Example: Apply Manual Expiration**
+
+- Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to **30** on the report file `C:\Report.csv`.  
 
 :::image type="content" source="media/version-history/manual-expiration.png" alt-text="manual expiration":::
 
-- Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to 50 on the report file `C:\Report.csv`.
+**Example: Apply Manual Count Limits**
+
+- Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
 
 :::image type="content" source="media/version-history/manual-with-count-limits-a.png" alt-text="manual with count limits-a":::
 
@@ -212,7 +221,7 @@ Download the report file to your local computer and leverage the provided script
 
 ## Tutorial: Queue a Trim Job for a Site or Document Library
 
-In this tutorial we will cover:
+In this tutorial we'll cover:
 
 - Schedule a batch trim job from a site or library.
 - Stop an in-progress batch deletion job.
@@ -229,17 +238,17 @@ Follow the PowerShell examples below to start deleting old file versions. Make s
 
 **Example 1. Queue trim job to delete versions on all libraries on a Site.**
 
-To delete versions that are older than 180 days old for all document libraries in the [site collection](https://contoso.sharepoint.com).
+To delete versions that are older than 180 days old for all document libraries in the site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-trim-all-lib.png" alt-text="batch trim all library":::
 
 **Example 2. Batch trim versions on a single library on a site.**
 
-To delete versions that are older than 30 days in document library ‘Documents’ in the [site collection](https://contoso.sharepoint.com).
+To delete versions that are older than 30 days in document library ‘Documents’ in the site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-trim-single-lib.png" alt-text="batch trim single library":::
 
-Once the cmdlet executes successfully, versions that match your criteria is deleted asynchronously in batches in the upcoming days.
+Once the cmdlet executes successfully, versions that match your criteria are deleted asynchronously in batches in the upcoming days.
 
 ### Cancel an in-progress Batch Trim Job
 
@@ -247,13 +256,13 @@ If needed, you can cancel an in-progress batch trim job. Once the cmdlet execute
 
 **Example 1. Stop additional batch deletion on site scoped trim job.**
 
-To stop the more batch deletion for the [site collection](https://contoso.sharepoint.com).
+To stop the more batch deletion for the site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-deletion-site-scoped.png" alt-text="batch deletion site scoped":::
 
 **Example 2. Stop additional batch deletion on library scoped trim job.**
 
-To stop the more batch deletion for the document library Documents in [site collection](https://contoso.sharepoint.com).
+To stop the more batch deletion for the document library Documents in site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
 
