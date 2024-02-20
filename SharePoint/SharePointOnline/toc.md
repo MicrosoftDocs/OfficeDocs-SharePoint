@@ -203,8 +203,8 @@
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
 ## [Versions]()
-### [Introduction to Version History](versioning-overview.md)
-### [How Version History Limits for Document Libraries Work](how-version-history-settings-work.md)
+### [Plan Version Storage for your Organization (Preview)](plan-version-storage-for-your-organization.md)
+### [Manage Version history limits (Preview)](manage-version-history-limits.md)
 
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
