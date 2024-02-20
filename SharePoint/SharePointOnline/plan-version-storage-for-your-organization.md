@@ -29,7 +29,7 @@ In the sections below, we call out the options and decisions that you as an admi
 
 ## Determine Default Version limits for your organization
 
-Before you decide the default version history limits for your organization you need to consider your **organization’s recovery objective** and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
+Before you decide the default version history limits for your organization, you need to consider your organization’s recovery objective,** and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
 
 In the following sections, we outline the options and decisions administrators should consider when setting up version limits for your organization:
 
@@ -71,7 +71,7 @@ In other words, SharePoint thins out low-value versions on your behalf to reduce
 - Weekly versions (versions created at the beginning of the week) beyond 180 days or more, is available indefinitely until the maximum 500 count limit has reached.
 The service trims the intermediate versions as the above milestones are reached.
 
-Take an example of file with a consistent version creation pattern between the months of June till Jan. Under Automatic setting, intermittent versions will be purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.
+Take an example of file with a consistent version creation pattern between the months of June till Jan. Under Automatic setting, intermittent versions are purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.
 
 :::image type="content" source="media/version-history/automatic-limit-impact-version.PNG" alt-text="automatic limit impact":::
 
@@ -85,13 +85,13 @@ In considering which limits to set, we recommend a balanced approach:
 
 ## Report on Version Storage Usage in a SharePoint Site
 
-As a SharePoint Site Administrator, you can request an inventory of the versions on a site, library or file, which can be used for various scenarios:
+As a SharePoint Site Administrator, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
 
 - Review current version storage used by existing versions.
 
 - Understand how a version limit impacts new versions by applying the desired limits on existing versions. before configuring limits.  
 
-- Analyze impact of trimming existing versions prior to scheduling a trim job.
+- Analyze the impact of trimming existing versions before scheduling a trim job.
 
 > [!NOTE]
 > Additional reporting options are available with [Microsoft Graph Data Connect](/graph/data-connect-datasets#onedrive-and-sharepoint-online).

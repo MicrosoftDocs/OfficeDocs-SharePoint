@@ -37,7 +37,7 @@ The Set version history limits has two setting options:
 
 - Automatic is a recommended option providing the most optimal storage option without having to estimate the version count or age limits.
 
-- Deploys an algorithm to preserve a sufficient high-value versions, prioritizing more recent versions over those farther back in time, to ensure availability in case restores are required.
+- Deploys an algorithm to preserve a sufficient high-value version, prioritizing more recent versions over those farther back in time, to ensure availability in case restores are required.
  
 **Manually**
 
