@@ -43,6 +43,8 @@ The following image depicts the restore options and the storage use for each set
 
 :::image type="content" source="media/version-history/compare-restore-options-storage-use.png" lightbox="media/version-history/compare-restore-options-storage-use.png" alt-text="compare and restore":::
 
+**Example Scenario**
+
 Take an example of a file where 500 versions were created in May, June, and July. Let’s compare the versions available under each version limits:
 
 - **Manual Limits: 500 major versions with expiration of 60 days:** No more than 500 versions are stored and any version older than 60 days will also be deleted. On this file, all versions will eventually be deleted as the versions age.  
