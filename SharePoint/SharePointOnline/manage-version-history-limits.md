@@ -58,9 +58,10 @@ There are two modes of manual configuration.
 
 To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
-    ```PowerShell
+```PowerShell
     Set-SPOtenant -EnableAutoExpirationVersionTrim $true
-    ```
+```
+
 ## Set Manual Version Count Limits with No Expiration
 
 1. Go to **Settings** in the [SharePoint admin center](/sharepoint/sharepoint-admin-role), and sign in with an account that has [administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
