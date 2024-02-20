@@ -69,6 +69,7 @@ To set Automatic version history limits for all new document libraries created i
 1. Select **Manually**
 1. Enter a value between 100 and 50,000 in the **Number of major versions** box.
 1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This ensures that no expiration is stamped on versions.
+1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
 :::image type="content" source="media/version-history/version-history-limits-manual.png" lightbox="media/version-history/version-history-limits-manual.png" alt-text="custom":::
 
