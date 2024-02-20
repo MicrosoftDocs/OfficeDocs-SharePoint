@@ -54,7 +54,7 @@ There are two modes of manual configuration.
 1. Select **Automatically**.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
-:::image type="content" source="media/version-history/version-history-limits-automatic.png" alt-text="automatic":::
+:::image type="content" source="media/version-history/version-history-limits-automatic.png" lightbox="media/version-history/version-history-limits-automatic.png" alt-text="automatic":::
 
 To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
@@ -70,7 +70,7 @@ To set Automatic version history limits for all new document libraries created i
 1. Enter a value between 100 and 50,000 in the **Number of major versions** box.
 1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This ensures that no expiration is stamped on versions.
 
-:::image type="content" source="media/version-history/version-history-limits-manual.png" alt-text="custom":::
+:::image type="content" source="media/version-history/version-history-limits-manual.png" lightbox="media/version-history/version-history-limits-manual.png" alt-text="custom":::
 
 ## Set Manual Version Count and Expiration Storage Limits
 
