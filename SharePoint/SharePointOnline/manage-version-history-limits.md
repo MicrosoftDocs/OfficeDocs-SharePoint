@@ -19,7 +19,9 @@ search.appverid:
 description: "This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings."
 ---
 
-# Manage Version history limits for your Organization
+# Manage Version history limits (Preview)
+
+## Manage Version history limits for your Organization
 
 This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings for Microsoft SharePoint and Microsoft OneDrive.
 
@@ -54,8 +56,11 @@ There are two modes of manual configuration.
 
 :::image type="content" source="media/version-history/version-history-limits-automatic.PNG" alt-text="automatic":::
 
-:::image type="content" source="media/version-history/powershell.PNG" alt-text="powershell expiration":::
+To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
+    ```PowerShell
+    Set-SPOtenant -EnableAutoExpirationVersionTrim $true
+    ```
 ## Set Manual Version Count Limits with No Expiration
 
 1. Go to **Settings** in the [SharePoint admin center](/sharepoint/sharepoint-admin-role), and sign in with an account that has [administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.

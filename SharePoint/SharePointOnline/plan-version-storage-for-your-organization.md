@@ -19,7 +19,7 @@ search.appverid:
 description: "This article provides guidance on how to plan version storage for your organization."
 ---
 
-# Plan Version Storage for your Organization
+# Plan Version Storage for your Organization (Preview)
 
 A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. As Versions count towards your SharePoint storage usage, your Organization’s version limits needs to meet your recovery objectives and optimize on version storage.
 
