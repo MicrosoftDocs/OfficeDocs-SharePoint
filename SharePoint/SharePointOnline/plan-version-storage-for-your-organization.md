@@ -21,6 +21,8 @@ description: "This article provides guidance on how to plan version storage for 
 
 # Plan Version Storage for your Organization (Preview)
 
+## Plan Version Storage for your Organization
+
 A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. As Versions count towards your SharePoint storage usage, your Organization’s version limits needs to meet your recovery objectives and optimize on version storage.
 
 In the sections below, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
@@ -39,7 +41,7 @@ In the following sections, we outline the options and decisions administrators s
 
 The following image depicts the restore options and the storage use for each setting:
 
-:::image type="content" source="media/version-history/compare-restore-options-storage-use.PNG" alt-text="compare and restore":::
+:::image type="content" source="media/version-history/compare-restore-options-storage-use.png" lightbox="media/version-history/compare-restore-options-storage-use.png" alt-text="compare and restore":::
 
 Take an example of a file where 500 versions were created in May, June, and July. Let’s compare the versions available under each version limits:
 
