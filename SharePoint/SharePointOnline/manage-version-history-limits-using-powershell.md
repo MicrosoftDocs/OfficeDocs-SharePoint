@@ -20,74 +20,73 @@ description: "This article provides guidance on how to manage version history li
 
 ---
 
-# Manage Version history limits for a Site using PowerShell
+# Manage Version history limits for a Site using PowerShell (Preview)
 
-## Environment Setup
+This article describes how Site Admins can choose to manage version history limits on individual sites. Using PnP PowerShell you can view any version history limits applied on a site, set a version limit for all, new or existing libraries, clear existing version limits on site to inherit from tenant level settings.
 
-To manage **Version history limits** for a Site using PowerShell, install the latest PnP PowerShell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
+To manage version history limits for a site, use the following PowerShell commands:
 
-## Set Site Level Version Limits for both new and existing document libraries
+| **Action:** | **PowerShell Command** |
+|:-----|:-----|
+| To view the version history limits set on a site | `Get-PnPSiteVersionPolicy`|
+| To set version history limits for all libraries on a site. <br><br> Version history limits set on site level will be applied immediately to all new document libraries created in the site and will create a background request to asynchronously process the update on existing document libraries. | To set Automatic Version History Limits: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $true` <br><br> To set Manual limits with Count and time parameters: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br><br> To set Manual limits with Count parameters only: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0`  |
+| To set version history limits to apply only to new document libraries created on a site without impacting the limits set on existing libraries. |To set Automatic Version History Limits for new libraries created on a site: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries` <br><br> To set Manual limits with Count and time parameters for new libraries created on a site: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0`  <br><br> To set Manual limits with Count parameters only: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br>  `-MajorVersions <delete major versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0` <br> `-ApplyToNewDocumentLibraries` |
+| To clear the existing version history limits set on a site and inherit Organization version limits on new document libraries created on the site. | `Set-PnPSiteVersionPolicy -InheritFromTenant` |
 
-### Apply Automatic settings
+## Getting Started
 
-:::image type="content" source="media/version-history/automatic-setting-pnp-site.png" alt-text="automatic set pnp":::
+1. Install the latest PnP PowerShell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
+1. Connect to Site you want to apply the version history limits on.  
+For example, <br> `Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred`
 
-### Apply Manual Setting with versions count and Time limits
+## Set version limits to apply to all document libraries in a site
 
-:::image type="content" source="media/version-history/manual-setting-pnp-site-time-limit.png" alt-text="manual set pnp time limit":::
+You can set version limits to apply to all document libraries in a site by running the command to apply the selected setting. Once you run the command you will be able to review progress of settings update background job or optionally cancel the update job that are `<InProgress>`.  
 
-### Apply Manual Setting with versions count and No Time limits
+### Apply desired version history limits to all document libraries on a site.
 
-:::image type="content" source="media/version-history/manual-setting-pnp-site-no-time-limit.png" alt-text="manual set pnp no time limit":::
+- Run the following commands to **apply Automatic setting** and check policy setting applied.
 
-## Set site version policy for new document libraries only
+```PowerShell
 
-### Apply Automatic settings 
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true
+   # Check version policy setting on site
+   Get-PnPSiteVersionPolicy 
+``` 
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs.png" alt-text="automatic set for new libs":::
+- Run the following commands to **apply Manual Setting with count and time limits** and check policy setting applied.
+ 
+In this example count limits are set to 100 major versions with 10 minor versions and versions are set to 
+expire after 200 days.
 
-### Apply Manual Setting with Major Version Count and Time limits
+```PowerShell
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs-time-limit.png" alt-text="automatic setting new libs with time limit":::
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+   MajorWithMinorVersions 10 -ExpireVersionsAfterDays 200
+   # Check version policy setting on site
+   Get-PnPSiteVersionPolicy 
+```
 
-### Apply Manual Setting with Major Version Count and No Time limits  
+- Run the following commands to **apply Manual Setting with count limits** and check policy setting applied. 
 
-:::image type="content" source="media/version-history/automatic-setting-new-libs-no-time-limit.png" alt-text="automatic setting new libs with no time limit":::
+In this example count limits are set to 300 major versions with 20 minor versions.
 
-### Clear Site Level Version history limits  
+```PowerShell
 
-If the setting on the site is cleared, the new document libraries use the tenant level settings.  
-> [!NOTE]
-> Clearing a setting on a Site will only apply to New Document Libraries created on the site and will not impact the settings on existing doc libraries.  
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 300 -
+   MajorWithMinorVersions 20 -ExpireVersionsAfterDays 0
+   # Check version policy setting on site
+   Get-PnPSiteVersionPolicy 
+```
 
-:::image type="content" source="media/version-history/inherit-tenant-new-doc-libs.png" alt-text="inherit tenant new doc libs":::
+### Get progress of an in-progress setting update request
 
-## Set site version policy for existing document libraries only
+Version limits on all new libraries created in the site will be immediately applied. Settings on existing libraries will be asynchronously updated using a background job. Run the following commands **to get the progress of the settings update job**. 
 
-### Apply Automatic settings
+```PowerShell
 
-:::image type="content" source="media/version-history/automatic-setting-existing-libs.png" alt-text="automatic setting existing libs":::
-
-### Apply Manual Setting with Versions count and Time limits
-
-:::image type="content" source="media/version-history/manual-setting-existing-libs-time-limit.png" alt-text="manual setting existing libs time limit":::
-
-### Apply Manual Setting with Versions count and NO Time limits
-
-:::image type="content" source="media/version-history/manual-setting-existing-libs-no-time-limit.png" alt-text="manual setting existing libs no time limit":::
-
-### Cancel the request  
-
-Cancels the settings update request on libraries that isn't processed. This won't revert the change for document libraries where the settings update was already processed.
-
-:::image type="content" source="media/version-history/cancel-existing-libs.png" alt-text="cancel existing libs":::
-
-## Get progress for Set site version policy
-
-It is for setting version policy for **existing** document libraries on the site.  
-
-`Get-PnPSiteVersionPolicyProgress`
-
+   Get-PnPSiteVersionPolicyProgress
+```
 Here's the description of the status in response:
 
 | **Status:** | **Description** |
@@ -98,19 +97,83 @@ Here's the description of the status in response:
 | `CompleteSuccess` | The request was processed and completed successfully. |
 | `CompleteWithFailure`  | It was processed and completed, but some document libraries failed to set the version policy. |
 
-- `NoRequestFound`
+### Cancel an in-progress request to update version history limits on existing libraries. 
 
-:::image type="content" source="media/version-history/norequest.png" alt-text="no request":::
+Run the following commands to cancel an `<InProgress>` settings update request. Cancels the settings update request on libraries that isn't processed. This won't revert the change for document libraries where the settings update was already processed.
 
-- `New`request
+```PowerShell
 
-:::image type="content" source="media/version-history/newrequest.png" alt-text="new request":::
+   Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
+```
 
-- `InProgress` request
+## Set version history limits to apply on new document libraries created on a site
 
-:::image type="content" source="media/version-history/inprogress.png" alt-text="in progress":::
+- Run the following commands to **apply Automatic setting** and check policy setting applied.
 
-- `Complete` request
+```PowerShell
 
-:::image type="content" source="media/version-history/completedrequest.png" alt-text="completed request":::
+  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true -
+  ApplyToNewDocumentLibraries
+  # Check version policy setting on site
+  Get-PnPSiteVersionPolicy 
+```
 
+- Run the following commands to **apply Manual setting with count and time limits** and check policy setting applied. 
+
+In this example count limits are set to 100 major versions and versions are set to expire after 200 days.
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+   ExpireVersionsAfterDays 200 -ApplyToNewDocumentLibraries
+   # Check version policy setting on site
+   Get-PnPSiteVersionPolicy 
+```
+
+- Run the following commands to **apply Manual setting with count limits** and check policy setting applied.
+
+In this example count limits are set to 300 major versions with 20 minor versions.
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 300 -
+   ExpireVersionsAfterDays 0 -ApplyToNewDocumentLibraries
+   # Check version policy setting on site
+   Get-PnPSiteVersionPolicy 
+```
+
+## Clear version history limits set on a site
+
+Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits will be applied on the new document libraries, but no changes will be made to the limits on existing libraries.
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -InheritFromTenant
+```
+
+## Set version history policy for existing document libraries only
+
+- Run the following commands to **apply Automatic setting** and check policy setting applied.
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true -
+   ApplyToExistingDocumentLibraries
+```
+:::image type="content" source="media/version-history/automatic-setting-existing-libs.png" alt-text="automatic setting existing libs":::
+
+- Apply Manual Setting with Versions count and Time limits
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+MajorWithMinorVersions 5 -ExpireVersionsAfterDays 200 -ApplyToExistingDocumentLibraries
+```
+
+- Apply Manual Setting with Versions count and NO Time limits
+
+```PowerShell
+
+   Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+MajorWithMinorVersions 5 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries
+```
