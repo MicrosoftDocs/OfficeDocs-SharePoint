@@ -86,7 +86,10 @@ To set count and expiration limits for all new document libraries created in you
 
 ```PowerShell
    
-   Set-SPOTenant | select EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays,MajorVersionLimit
+   Set-SPOTenant 
+   - EnableAutoExpirationVersionTrim $false
+   - MajorVersionLimit<int>
+   - ExpireVersionsAfterDays<0>
 ```
 
 ## Review Organization Version Storage Limits
@@ -96,8 +99,5 @@ To set count and expiration limits for all new document libraries created in you
 
 ```PowerShell
    
-   Set-SPOTenant 
-   - EnableAutoExpirationVersionTrim $false
-   - MajorVersionLimit<int>
-   - ExpireVersionsAfterDays<0>
+   Get-SPOTenant | select EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays,MajorVersionLimit
 ```
