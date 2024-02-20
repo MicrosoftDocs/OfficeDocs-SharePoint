@@ -41,7 +41,7 @@ For example, <br> `Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/
 
 ## Set version limits to apply to all document libraries in a site
 
-You can set version limits to apply to all document libraries in a site by running the command to apply the selected setting. Once you run the command you will be able to review progress of settings update background job or optionally cancel the update job that are `<InProgress>`.  
+You can set version limits to apply to all document libraries in a site by running the command to apply the selected setting. Once you run the command, you'll be able to review progress of settings update background job, or optionally cancel the update job that is `<InProgress>`.  
 
 ### Apply desired version history limits to all document libraries on a site.
 
@@ -120,7 +120,7 @@ Run the following commands to cancel an `<InProgress>` settings update request. 
 
 - Run the following commands to **apply Manual setting with count and time limits** and check policy setting applied. 
 
-In this example count limits are set to 100 major versions and versions are set to expire after 200 days.
+In this example count, limits are set to 100 major versions and versions are set to expire after 200 days.
 
 ```PowerShell
 
@@ -132,7 +132,7 @@ In this example count limits are set to 100 major versions and versions are set 
 
 - Run the following commands to **apply Manual setting with count limits** and check policy setting applied.
 
-In this example count limits are set to 300 major versions with 20 minor versions.
+In this example count, limits are set to 300 major versions with 20 minor versions.
 
 ```PowerShell
 
@@ -144,7 +144,7 @@ In this example count limits are set to 300 major versions with 20 minor version
 
 ## Clear version history limits set on a site
 
-Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits will be applied on the new document libraries, but no changes will be made to the limits on existing libraries.
+Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits are applied on the new document libraries, but no changes are made to the limits on existing libraries.
 
 ```PowerShell
 
