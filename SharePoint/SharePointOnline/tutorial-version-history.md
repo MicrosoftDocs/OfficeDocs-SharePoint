@@ -80,7 +80,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 - Here’s an example of file version expiration report and its column breakdown.
 
-:::image type="content" source="media/version-history/expiration-report.png" alt-text="expiration report":::
+:::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="expiration report":::
 
 There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
 
