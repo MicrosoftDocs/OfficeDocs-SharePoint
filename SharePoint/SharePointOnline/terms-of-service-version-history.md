@@ -23,22 +23,22 @@ description: "Learn the terms and conditions for versions."
 
 **Effective Date: March 2024** 
 
-“Customer” means the Enterprise customer that uses these Preview Features.
+'Customer' means the Enterprise customer that uses these Preview Features.
 **By using these Preview Features, you accept these Terms and Conditions and all rights and obligations within**.**If you do not agree to these Terms and Conditions, DO NOT use the Preview Feature.** These Terms and Conditions govern the use of the Preview Feature offerings as described below.
 
-“Feedback” is all suggestions, comments, feedback, ideas, or know how, in any form, that Customer provides to Microsoft.  It doesn't include sales forecasts, financial results, future release scheduled, marketing plans and high-level product plans or feature lists for anticipated products.
+'Feedback' is all suggestions, comments, feedback, ideas, or know how, in any form, that Customer provides to Microsoft.  It doesn't include sales forecasts, financial results, future release scheduled, marketing plans and high-level product plans or feature lists for anticipated products.
 
 **MICROSOFT OFFERINGS:**  
 
-Version History Limits (“Preview Feature”) is a new functionality where there will be two version control modes – **Automatic mod**e that consider important factors like a version’s age and restore probability to offer more intelligent version pruning options & **Manual mode** that will allow Admins to set Version Expiration and Count limits on the versions created. Version history settings for Document Libraries can be set at Organization, Site or individual library level allowing admins and site owners the ability to better manage content recovery and auditing requirements.  
+Version History Limits ('Preview Feature') is a new functionality where there will be two version control modes – **Automatic mod**e that consider important factors like a version’s age and restore probability to offer more intelligent version pruning options & **Manual mode** that will allow Admins to set Version Expiration and Count limits on the versions created. Version history settings for Document Libraries can be set at Organization, Site, or individual library level allowing admins and site owners the ability to better manage content recovery and auditing requirements.  
 
-**THE PREVIEW FEATURE IS PROVIDED “AS-IS,” “WITH ALL FAULTS,” AND “AS AVAILABLE.”**  Microsoft provides no performance guarantee for the Feature Preview (including accompanying URLs provided for embedded or unauthenticated viewing) and Customer bear the risk of using it. As this is a Preview *We recommend you to try this feature in a non-production tenant environment*.
+**THE PREVIEW FEATURE IS PROVIDED “AS-IS,” “WITH ALL FAULTS,” AND “AS AVAILABLE.”**  Microsoft provides no performance guarantee for the Feature Preview (including accompanying URLs provided for embedded or unauthenticated viewing) and Customer bear the risk of using it. As this is a Preview *We recommend you to try this feature in a nonproduction tenant environment*.
 
 No SLA applies to this Feature Preview.
 
 ## LICENSE
 
-If Customer provides Feedback, Customer grants to Microsoft, without charge, the non-exclusive License to make, modify, distribute, or otherwise commercialize the Input as part of any Microsoft offering.
+If Customer provides Feedback, Customer grants to Microsoft, without charge, the nonexclusive License to make, modify, distribute, or otherwise commercialize the Input as part of any Microsoft offering.
 
 This License doesn't extend to any technologies that may also be necessary to make or use any offering or portion thereof that incorporates the Feedback but aren't themselves expressly part of the Feedback (for example, enabling technologies).
 
@@ -65,11 +65,11 @@ This Agreement can't be extended. Microsoft may also choose not to make the Prev
 
 **Authority.** Customer represents it has all rights and authority necessary to be legally bound to these Terms and Conditions and grant the rights described therein for itself and its affiliates.  
 
-**Limitations.** All information, materials and feedback are provided “as-is” and Microsoft bears the risk of using them; Customer gives no express warranties, guarantees or conditions as to its Feedback; and to the extent permitted under local law, Customer excludes the implied warranties of merchantability, fitness for a particular purpose, title and non-infringement as to its Input.
+**Limitations.** All information, materials, and feedback are provided “as-is” and Microsoft bears the risk of using them; Customer gives no express warranties, guarantees, or conditions as to its Feedback; and to the extent permitted under local law, Customer excludes the implied warranties of merchantability, fitness for a particular purpose, title, and noninfringement as to its Input.
 
 ## LIMITATIONS ON AND EXCLUSIONS OF REMEDIES AND DAMAGES
 
-Except as described herein, the only remedy for claims relating to these Terms and Conditions is for Customer to terminate its use of the Preview Feature. Neither Party can recover any damages, including direct, consequential, lost profits, special, punitive, indirect or incidental damages from the other. This limitation applies:
+Except as described herein, the only remedy for claims relating to these Terms and Conditions is for Customer to terminate its use of the Preview Feature. Neither Party can recover any damages, including direct, consequential, lost profits, special, punitive, indirect, or incidental damages from the other. This limitation applies:
 
 1. To claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.
 
