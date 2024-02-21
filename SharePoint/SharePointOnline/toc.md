@@ -204,7 +204,7 @@
 
 ## Versions
 ### [Tutorials](tutorial-version-history.md)
-### [FAQs for Version history limits](faqs-for-versions.md)
+### [FAQs](faqs-for-versions.md)
 ### [Terms of Service](terms-of-service-version-history.md)
 
 
