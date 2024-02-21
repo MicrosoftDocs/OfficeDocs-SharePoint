@@ -35,12 +35,12 @@ The following table summarizes the various ways of managing **Version history li
 |:-----|:-----|
 | **Set Default Version history limits for new document libraries created in your organization** | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
 | **Set Site or Library Level Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
-| **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions prior to scheduling trim job. |
+| **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions before scheduling trim job. |
 | **Trim Existing Versions** | Site Admins can choose to trim existing version history storage by running ‘What-If’ reports to understand the impact and then scheduling a timer job to execute the trimming. |
 
 By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings are applied to all new libraries created on the site.
 
-:::image type="content" source="media/version-history/version-limits-new-libraries-flow.png" alt-text="version limits for new libraries":::
+:::image type="content" source="media/version-history/version-limits-new-libraries-flow.png" alt-text="Diagram of version limits for new libraries":::
 
 ## Types of Version limits
 
@@ -69,13 +69,13 @@ Organization-level version settings define the default version storage limits se
 
 **Example Scenario**
 
-Take an example of Contoso with an existing Marketing site with a set of libraries set to 500 major version limits. When the admin updates the organization version limits to ‘Automatic’ library, version limits for document libraries will be set in the following ways:
+Take an example of Contoso with an existing Marketing site with a set of libraries set to 500 major version limits. When the admin updates the organization version limits to 'Automatic' library, version limits for document libraries are set in the following ways:
 
-- **Library version limits on existing Marketing Site**: Version limits on all new libraries created in the Marketing site will be set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits won't be updated to Automatic.  
+- **Library version limits on existing Marketing Site**: Version limits on all new libraries created in the Marketing site are set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits won't be updated to Automatic.  
 
 - **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
 
-:::image type="content" source="media/version-history/break-inheritance-at-site-level.png" alt-text="break inheritance":::
+:::image type="content" source="media/version-history/break-inheritance-at-site-level.png" alt-text="Diagram of break inheritance":::
 
 ## Set Version limits for a Site
 
@@ -92,13 +92,13 @@ Site-level **Version history limits** for sites can be managed in the following 
 
 **Example Scenario**
 
-Take an example of Contoso where organizational version limits are set to Automatic, no version limits set for Marketing Site and Legal Site. Suppose Site Administrator of Legal site sets the site version history limit to 500 major version count limit for new and existing libraries. Library version limits for Contoso will be set in the following ways:
+Take an example of Contoso where organizational version limits are set to Automatic, no version limits set for Marketing Site and Legal Site. Suppose Site Administrator of Legal site sets the site version history limit to 500 major version count limit for new and existing libraries. Library version limits for Contoso are set in the following ways:
 
-- **Library version limits on Marketing Site**: Since there's no site level version limit set for Marketing site, organization limit of Automatic will be set on all new libraries created in marketing site.  
+- **Library version limits on Marketing Site**: Since there's no site level version limit set for Marketing site, organization limit of Automatic is set on all new libraries created in marketing site.  
 
 - **Library version limits on Legal Site**: Since version limits are set for Legal site, all new libraries are set to store 500 major versions.
 
-:::image type="content" source="media/version-history/set-version-limits-for-a-site.png" alt-text="break inheritance at site level":::
+:::image type="content" source="media/version-history/set-version-limits-for-a-site.png" alt-text="Diagram of set version limits for a site level":::
 
 > [!IMPORTANT]
 >
@@ -113,7 +113,7 @@ The default **Version history limits** for new document libraries are set by eit
 
 Here's a summary of the expected behavior when Document Libraries version expiration or count limits are updated:  
 
-- **When Library level version expiration setting is updated**, the new expiration limit is applied to newly created versions only. Take an example of a Library with version expiration settings updated from **Never Expire** to **Expire after six months**. New version created is set to expire after six months with no impact on versions that had already been created.  
+- **When Library level version expiration setting is updated**, the new expiration limit is applied to newly created versions only. Take an example of a Library with version expiration settings updated from **Never Expire** to **Expire after six months**. New version created is set to expire after six months with no impact on versions that is already created.  
 
 - **When Library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Consider a library where the version count limit is initially set to 500 versions but is later reduced to 300 versions. In this scenario, if there's a file with 500 versions, each time a user updates the file, the system will gradually purge the oldest 20 versions with each new version creation until the total number of versions aligns with the updated limit of 300. It's crucial to note that when count limits are lowered, the process of version deletion occurs gradually, with up to 20 versions being removed for every new version created.  
 
@@ -125,49 +125,49 @@ Here's a summary of the expected behavior when Document Libraries version expira
 The important points to note are as follows:
 
 - Default Workflow: The following is the default workflows for document library **Version history limits**:
-    - Default organization Level Limits: The default **Version history limits** for your organization will be set to Manual mode with **500 Major Version Limit** set to **Never Expire**.
-    - Default Site or Library Level Limits: By default, there will be no **Version history limits** set on individual sites as new document libraries inherit the organization level limits.
+    - Default organization Level Limits: The default **Version history limits** for your organization is set to Manual mode with **500 Major Version Limit** set to **Never Expire**.
+    - Default Site or Library Level Limits: By default, **Version history limits** won't be set on individual sites, as new document libraries inherit the organization-level limits.
 
 - Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
-- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't be applied to existing libraries or to versions that were already created.
+- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't apply to existing libraries or to versions that were already created.
 
-- A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file won't change.
+- A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file remains unchanged.
 
 - When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
  
 ## Trim Existing Versions from Sites or Libraries
 
-As a SharePoint Site Administrator, you can schedule a job to trim existing versions on your sites to reduce the version storage footprint of your site or align existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using scheduled jobs are permanently deleted. This deletion bypasses the normal recycle bin and deleted versions can't be recovered.
+As a SharePoint Site Administrator, you can schedule a job to trim existing versions on your sites. This reduces the version storage footprint of your site or aligns existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using scheduled jobs are permanently deleted. This deletion bypasses the normal recycle bin and deleted versions can't be recovered.
 
 SharePoint supports two ways to trim existing versions on a site or library. Use the following information to help you choose which trim method is best for your use case.
 
 | **Use Case** | **Recommended approach** | **Description** |
 |:-----|:-----|:-----|
-| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming prior to scheduling the trim job. <br> <br> You'll be able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits, Automatic or other custom trimming logic, apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
-| Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you are comfortable with directly applying the trimming and do not need to review impact before committing to the trim job. |
+| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits, Automatic or other custom trimming logic, apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
+| Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
 
-:::image type="content" source="media/version-history/trimming-workflows.png" alt-text="trimming workflows":::
+:::image type="content" source="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::
 
 The following sections describe the different trimming methods:  
 
 ### Queue Trim Job
 
-The version trimming workflow uses a job to asynchronously delete versions matching the criteria specified in the trim mode. To queue a trim job you need to follow these steps:
+The version trimming workflow uses a job to asynchronously delete versions matching the criteria specified in the trim mode. To queue a trim job, you need to follow these steps:
 
 1. **Set Trim Scope:** Determine the **Scope [Site, Library]** for version deletion. You can delete old file versions for all document libraries in a site or for a specific document library.
 
 1. **Set Trim Mode:** Determine the **Trim Mode** you wish to apply for trimming file versions within the specified scope.
 
-1. **Review Impact:** Before committing to trim existing versions, you have the option to review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope.
+1. **Review Impact:** Before committing to trim existing versions, you can review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope.
 
-1. **Queue Trim Job:** Once you are ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria.
+1. **Queue Trim Job:** Once you're ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria.
 
-1. **Track progress:** You will be able to monitor the progress of committed trim jobs to keep track of the deletion progress.  
+1. **Track progress:** You're able to monitor the progress of committed trim jobs to keep track of the deletion progress.  
 
 ### Review impact by running ‘What-if’ Analysis
 
-Before committing to trim existing versions, you can review the impact of the purge action by running a ‘What-if’ analysis operation.  Running a ‘What-if’ operation will follow these steps:  
+Before committing to trim existing versions, you can review the impact of the purge action by running a ‘What-if’ analysis operation. Running a ‘What-if’ operation follows these steps:  
 
 **Step 1: Generate a Version Storage Use report for a Site or Library:** This report can support multiple uses including version storage use analytics or to gain key insights on the impact of applying different trimming settings.
 
@@ -183,7 +183,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 - **Manual Expiration:** The manual expiration mode sets the target expiration date on matching versions with the specified value.
 
-:::image type="content" source="media/version-history/manual-expiration-trim-table.png" alt-text="manual expiration":::
+:::image type="content" source="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
 
 The following are the known limitations.
 
@@ -193,7 +193,7 @@ The following are the known limitations.
 
 - **Manual Count Limit:** The manual count limit trim mode sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
-:::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="manual count limit":::
+:::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
 
 ## Auditing Versioning Events
 
@@ -213,9 +213,9 @@ The following table enumerates the scenarios and the expected version storage be
 | **Scenario:** |**Version Trimming Behavior** |
 |:-----|:-----|
 | User deletes versions from the version history of a file. | When a user deletes a version from the version history of a file the deleted version is moved to the site's recycle bin and can be recovered for a period. For more information, see [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be) |
-| Versions exceed settings applied on the document library. | When versions exceed the limits set at the library, versions matching the criteria are marked for permanent deletion. This version deletion workflow will bypass the normal recycle bin and the deleted versions cannot be recovered from recycle bin.|
-| Timer job scheduled to trim existing versions on a library or site. | Versions deleted using scheduled jobs will be permanently deleted. This version deletion workflow will bypass the normal recycle bin and deleted versions cannot be recovered from recycle bin.|
-| Version storage on sites that are Read Only (locked sites) or items that are subject to retention policy or an on eDiscovery hold. | For items that are subject to a retention policy (or an eDiscovery hold), the versioning limits for the document library are ignored until the retention period of the document is reached (or the eDiscovery hold is released). Trimming of expired versions on Sites that are under retention or are on hold is suspended till the site is unlocked. For more information, see [How retention works with document versions](/purview/retention-policies-sharepoint) |
+| Versions exceed settings applied on the document library. | When versions exceed the limits set at the library, versions matching the criteria are marked for permanent deletion. This version deletion workflow bypasses the normal recycle bin and the deleted versions can't be recovered from recycle bin.|
+| Timer job scheduled to trim existing versions on a library or site. | Versions deleted using scheduled jobs are permanently deleted. This version deletion workflow bypasses the normal recycle bin and deleted versions can't be recovered from recycle bin.|
+| Version storage on sites that are Read Only (locked sites) or items that are subject to retention policy or on an eDiscovery hold. | For items that are subject to a retention policy (or an eDiscovery hold), the versioning limits for the document library are ignored. This continues until the retention period of the document is reached (or the eDiscovery hold is released). Trimming of expired versions on Sites that are under retention or are on hold is suspended until the site is unlocked. For more information, see [How retention works with document versions](/purview/retention-policies-sharepoint) |
 | Versions deletion on items with retention labels applied. | Versioning limits are honored on items with retention labels when the content isn't subject to a retention policy (or an eDiscovery hold). Versions matching the limit criteria are automatically deleted to accommodate new versions, but users are still prevented from deleting versions. |
 | Version deletion on items marked as records. | Version deletion on documents marked as records is blocked. For more information, see [Use record versioning in SharePoint or OneDrive | Microsoft Learn](/purview/record-versioning) |
 
