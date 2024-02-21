@@ -2,8 +2,8 @@
 ms.date: 01/07/2019
 title: "Migrate from My Sites to OneDrive in Office 365"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

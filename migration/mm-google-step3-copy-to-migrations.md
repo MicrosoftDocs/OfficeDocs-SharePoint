@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: "Step 3: Copy to migrations tab for Google migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

@@ -2,8 +2,8 @@
 ms.date: 09/06/2023
 title: "Review the destination paths for your Egnyte migration with Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

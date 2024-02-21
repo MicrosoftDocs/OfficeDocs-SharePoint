@@ -18,6 +18,8 @@ search.appverid:
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- essentials-compliance
+- essentials-security
 ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc

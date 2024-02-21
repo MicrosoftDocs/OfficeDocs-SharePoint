@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- essentials-security
 ms.assetid: 32bc4341-ba5f-444b-bd55-462f67f16c27
 description: "Find resources about security, including planning for authentication in SharePoint Server."
 ---

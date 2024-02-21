@@ -2,8 +2,8 @@
 ms.date: 10/11/2023
 title: "Setup Migration Manager agents"
 ms.reviewer: jhendr
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
@@ -72,7 +72,7 @@ To calculate the minimum required number of agents to use for your migration:
 2. From the SharePoint admin center, select <strong><a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a></strong>. You need to sign in with an account that has [SharePoint Administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 3. Under "For file shares", select **Get started**.
 4. Select the **Agents** tab, and then select **Add**.
-5. Select **Download agent setup file**.
+1. Select **Download agent setup file**. (You can also download the Agent v2.0 build, currently in public preview. For more details and the download link, please check the '[What’s New](/sharepointmigration/mm-whats-new)' page)
 6. Open the setup file. On the Welcome page, select **Next**.
 7. Enter the SharePoint admin username and password of the environment where you are migrating your content. Select **Next**.
 8. Enter the password of the Windows account that provides access to **all** the file shares that contain the content you want to migrate. Select **Install**.

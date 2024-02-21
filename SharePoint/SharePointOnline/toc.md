@@ -202,9 +202,15 @@
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
-## [Versions]()
+## Versions
 ### [Introduction to Version History](versioning-overview.md)
 ### [How Version History Limits for Document Libraries Work](how-version-history-settings-work.md)
+### [Plan Version Storage for your Organization (Preview)](plan-version-storage-for-your-organization.md)
+### [Manage Version history limits (Preview)](manage-version-history-limits.md)
+### [Manage Version history limits for a Site using PowerShell (Preview)](manage-version-history-limits-using-powershell.md)
+### [Tutorials](tutorial-version-history.md)
+### [FAQs](faqs-for-versions.md)
+### [Terms of Service](terms-of-service-version-history.md)
 
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)

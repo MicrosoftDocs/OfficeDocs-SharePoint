@@ -1,8 +1,8 @@
 ---
 title: "Migration Assessment Scan Site Notebook"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.date: 7/23/2018

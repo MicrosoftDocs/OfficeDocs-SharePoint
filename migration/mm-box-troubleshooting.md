@@ -2,8 +2,8 @@
 ms.date: 03/31/2021
 title: "Troubleshooting Migration Manager Box"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

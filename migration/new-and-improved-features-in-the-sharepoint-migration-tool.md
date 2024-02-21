@@ -2,8 +2,8 @@
 ms.date: 10/27/2023
 title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
@@ -30,7 +30,7 @@ Download and install SPMT using one of the links listed below.
 
 | Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[4.1.125.8](https://aka.ms/spmt-beta-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|
+|Last released build|[4.1.125.9](https://aka.ms/spmt-beta-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|[4.1.125.8](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 4.1
 

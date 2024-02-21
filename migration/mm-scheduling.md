@@ -2,8 +2,8 @@
 ms.date: 07/15/2021
 title: "Setting migration task schedules in Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
