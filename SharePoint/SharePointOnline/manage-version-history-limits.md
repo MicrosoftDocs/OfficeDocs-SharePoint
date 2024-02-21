@@ -98,6 +98,8 @@ To set count and expiration limits for all new document libraries created in you
 1. Go to **Settings** in the [SharePoint admin center](/sharepoint/sharepoint-admin-role), and sign in with an account that has [administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 1. Select **Version history limits**.
 
+To review the default version history limits for all new document libraries using PowerShell, run the following command:
+
 ```PowerShell
    
    Get-SPOTenant | select EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays,MajorVersionLimit
