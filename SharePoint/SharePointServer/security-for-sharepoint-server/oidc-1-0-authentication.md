@@ -29,7 +29,7 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 2. Forms-based authentication
 3. Security Assertion Markup Language (SAML) 1.1-based authentication
 
-OIDC 1.0 authentication protocol is supported only by SharePoint Server Subscription Edition. With this capability, you can set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
+OIDC 1.0 authentication protocol only supports SharePoint Server Subscription Edition. With this capability, you can set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
 
 The OIDC 1.0 authentication protocol now integrates with the SharePoint Certificate Management to manage the nonce (number used once) cookie certification. The nonce cookie certificate ensures that OIDC authentication tokens are secure.
 
