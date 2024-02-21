@@ -45,7 +45,7 @@ There are two modes of manual configuration.
 
 - Major version count and time limits: versions are deleted after exceeding the specified number of major versions or after the set time period.
 
-- Major version count limits only: versions are deleted after they exceed the set number of major versions. There are no time limits are set on versions.
+- Major version count limits only: versions are deleted after they exceed the set number of major versions. There are no time limits set on versions.
 
 ## Set Automatic Version Storage limits
 
