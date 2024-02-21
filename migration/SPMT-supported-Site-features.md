@@ -3,8 +3,8 @@ ms.date: 05/20/2019
 title: "SPMT Supported SharePoint Server site features"
 audience: ITPro
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 ms.audience: ITPro

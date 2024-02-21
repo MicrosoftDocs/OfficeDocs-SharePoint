@@ -20,6 +20,7 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365initiative-spsitemanagement
+- essentials-manage
 search.appverid:
 - SPO160
 - MOE150

@@ -202,7 +202,7 @@
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
-## [Versions]()
+## Versions
 ### [Introduction to Version History](versioning-overview.md)
 ### [How Version History Limits for Document Libraries Work](how-version-history-settings-work.md)
 ### [Plan Version Storage for your Organization (Preview)](plan-version-storage-for-your-organization.md)

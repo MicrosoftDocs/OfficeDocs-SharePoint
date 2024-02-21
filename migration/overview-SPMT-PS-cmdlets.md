@@ -3,8 +3,8 @@ ms.date: 06/19/2018
 title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
 audience:  ITPro
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 f1.keywords:

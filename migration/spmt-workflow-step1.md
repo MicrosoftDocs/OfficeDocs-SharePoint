@@ -2,8 +2,8 @@
 ms.date: 09/26/2023
 title: "Step 1: Configure endpoints and Power Automate for Sharepoint workflow migration"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: Admin

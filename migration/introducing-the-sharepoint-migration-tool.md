@@ -2,11 +2,11 @@
 ms.date: 02/27/2023
 title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
-audience: ITPro
+audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article
@@ -21,6 +21,7 @@ ms.collection:
 - highpri
 ms.custom:
 - seo-marvel-apr2020
+search.appverid: met150
 description: "Overview of the SharePoint Migration Tool and resources for download and support."
 ---
 
@@ -40,16 +41,16 @@ SPMT also supports the migration of workflows from:
 - SharePoint Server 2010 out-of-the-box workflows (OOTB)
 - SharePoint Designer 2010 & 2013 workflows
 
-For a complete description of features, see [What does SPMT support?](what-is-supported-SPMT.md) 
+For a complete description of features, see [What does SPMT support?](what-is-supported-SPMT.md).
 
 All SPMT functionality is also supported in PowerShell, if you prefer to use that method. See [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
 
-### Supported authentication methods
+## Supported authentication methods
 
 SPMT supports NTLM, Kerberos, Forms, ADFS, multifactor authentication, SAML-based claims, and Client certificate authentication.
 
 > [!IMPORTANT]
-> If the on-premises server is configured to support multiple authentication providers, including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
+> If the on-premises server is configured to support multiple authentication providers, including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication.
 
 ## Planning and assessment
 
@@ -66,15 +67,15 @@ To get started:
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin. 
+- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin.
 - **Access to the source**: SharePoint credentials that have read access to the SharePoint Server content you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-#### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
-#### [Step 2: Create a migration task](spmt-create-task.md)
-#### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 
+### [Step 2: Create a migration task](spmt-create-task.md)
 
+### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 
 ## Related articles
 
@@ -91,4 +92,3 @@ Make sure that you have:
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [SharePoint provided Azure containers and queues for SharePoint Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
-  

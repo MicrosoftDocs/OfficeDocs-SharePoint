@@ -16,6 +16,7 @@ search.appverid:
 ms.collection:
 - Strat_OD_admin
 - M365-collaboration
+- essentials-overview
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc

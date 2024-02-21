@@ -16,6 +16,8 @@ ms.collection:
 - Tier1
 - M365-sam
 - M365-collaboration
+- essentials-compliance
+- essentials-security
 search.appverid:
 ms.assetid: 
 ms.custom:
@@ -49,7 +51,9 @@ To enable site access restriction for your organization in SharePoint admin cent
 
 1. Expand **Policies** and select **Access control**.
 1. Select **Site access restriction**.
-1. Select **Allow access restriction** and then select **Save**.:::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard.png":::
+1. Select **Allow access restriction** and then select **Save**.
+
+   :::image type="content" source="media/rac-spac/1-rac-spac-dashboard-feb-2024.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-rac-spac-dashboard-feb-2024.png":::
 
 To enable site access restriction for your organization using PowerShell, run the following command:
 

@@ -2,8 +2,8 @@
 ms.date: 01/22/2019
 title: "Troubleshooting Migration Manager"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro
