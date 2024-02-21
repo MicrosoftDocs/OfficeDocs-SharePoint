@@ -2,8 +2,8 @@
 ms.date: 06/15/2021
 title: "Migration Manager Scan"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

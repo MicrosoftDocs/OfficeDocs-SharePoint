@@ -2,8 +2,8 @@
 ms.date: 01/11/2019
 title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: Admin

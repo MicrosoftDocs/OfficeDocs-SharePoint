@@ -2,8 +2,8 @@
 ms.date: 04/19/2022
 title: "Archive Migration Manager tasks"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

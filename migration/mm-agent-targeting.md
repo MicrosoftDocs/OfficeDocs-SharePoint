@@ -2,8 +2,8 @@
 ms.date: 03/11/2021
 title: Agent groups in Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

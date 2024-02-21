@@ -2,8 +2,8 @@
 ms.date: 04/05/2018
 title: "Migration Manager File Share migration reports"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

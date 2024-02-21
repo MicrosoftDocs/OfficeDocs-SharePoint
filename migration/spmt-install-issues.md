@@ -1,8 +1,8 @@
 ---
 ms.date: 12/14/2023
 title: Troubleshooting SPMT installation issues
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

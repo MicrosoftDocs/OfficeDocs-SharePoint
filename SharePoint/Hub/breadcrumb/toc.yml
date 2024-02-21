@@ -5,6 +5,4 @@
   - name: SharePoint in Microsoft 365
     tocHref: /sharepoint/
     topicHref: /sharepoint/introduction
-  - name: SharePoint Server
-    tocHref: /sharepoint/sharepoint-server/
-    topicHref: /sharepoint/sharepoint-server/index
+ 

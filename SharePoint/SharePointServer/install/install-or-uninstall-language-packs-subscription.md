@@ -1,7 +1,7 @@
 ---
 title: "Install or uninstall language packs for SharePoint Servers Subscription Edition"
 ms.reviewer:
-ms.author: CHRISDA
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 7/24/2018
