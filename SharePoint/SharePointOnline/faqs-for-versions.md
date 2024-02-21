@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn frequently asked questions for versions."
 ---
 
-# FAQs for Version history limits
+# FAQs 
 
 ## What happens to versions that are deleted, expired or exceeded the count limits?
 
@@ -46,4 +46,4 @@ When **Library-level count limits are updated**, if existing versions exceed the
 
 ## How will Automatic Setting impact ability to Restore a library or OneDrive?
 
-When **Automatic setting** is selected, users have access to a maximum of 500 versions created within the last 30 days enabling the user to [Restore a shared library - Microsoft Support](https://support.microsoft.com/en-us/office/restore-a-shared-library) or [Restore your OneDrive - Microsoft Support](https://support.microsoft.com/en-us/office/restore-your-onedrive).
+When **Automatic setting** is selected, users have access to a maximum of 500 versions created within the last 30 days enabling the user to [Restore a shared library - Microsoft Support](https://support.microsoft.com/en-us/office/restore-a-shared-library-317791c3-8bd0-4dfd-8254-3ca90883d39a) or [Restore your OneDrive - Microsoft Support](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15).
