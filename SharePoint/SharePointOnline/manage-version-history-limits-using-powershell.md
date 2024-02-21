@@ -177,3 +177,12 @@ MajorWithMinorVersions 5 -ExpireVersionsAfterDays 200 -ApplyToExistingDocumentLi
    Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
 MajorWithMinorVersions 5 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries
 ```
+## Learn More
+
+For more information, check out the following resources:
+
+- Get Version History Limits on a Site: [Get-PnPSiteVersionPolicy](https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html). 
+
+- Set Version History Limits on a Site: [Set-PnPSiteVersionPolicy](https://pnp.github.io/powershell/cmdlets/Set-PnPSiteVersionPolicy.html).  
+
+- Get progress of Version History Limits update on a Site: [Get-PnPSiteVersionPolicyProgress](https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicyProgress.html).
