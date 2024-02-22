@@ -58,14 +58,14 @@ The manual setting allows admins to set count limits on the number of major vers
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
  
-For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](SharePoint/SharePointOnline/planning-version-storage-for-your-organization.md).
+For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](SharePoint/SharePointOnline/plan-version-storage-for-your-organization.md).
 
 ## Set Default Version limits for your Organization
 
 Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default **Version history limits** across your organization.  
 
 > [!IMPORTANT]
-> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to [update the settings on existing libraries on a site](#setting-version-history-limits-for-a-site) or to [trim existing versions](#trimming-existing-versions-from-sites-or-libraries).
+> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the [settings on existing libraries on a site](#set-version-limits-for-a-site) or to [trim existing versions](#trim-existing-versions-from-sites-or-libraries).
 
 **Example Scenario**
 
@@ -223,7 +223,6 @@ The following table enumerates the scenarios and the expected version storage be
 
 For more information, check out the following resources:
 
-- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](#tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site/sharePoint/sharePointOnline/tutorial-version-history.md)
-- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](#tutorial-run-what-if-analysis-on-version-storage-report-file/sharePoint/sharePointOnline/tutorial-version-history.md)
-- [Tutorial: Queue Job to Trim Versions](#tutorial-perform-a-2-step-trim-by-analyzing-impact--scheduling-trim/sharePoint/sharePointOnline/tutorial-version-history.md)
-
+- Tutorial: Generate and Analyze Version Usage Report for SharePoint Site
+- Tutorial: Run ‘What-If’ analysis on Version Storage Report File
+- Tutorial: Queue Job to Trim Versions
