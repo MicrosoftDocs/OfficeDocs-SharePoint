@@ -72,7 +72,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 :::image type="content" source="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
 
-- The cmdlet returns in JSON format, and the value will look like one of the following values:
+- The cmdlet returns in JSON format, and the value appears as one of the following values:
 
 :::image type="content" source="media/version-history/json-powershell.png" alt-text="json powershell":::
 
@@ -102,7 +102,7 @@ Let’s look at the third version.
 
 The `WebId` and `DocId` values are empty because these columns are compact columns, denoted by *.Compact* post-fix, it means they should have values. If we look for the last nonempty above that row, we find `WebId` as `4c7a58c1-01f2-4fa3-a730-44081a44f689`, and `DocId` as `18c3e09c-b5be-48e7-a754-7a2ce53e0999`.
 
-We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18:08:53 UTC. It means if we trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time of this documentation is written, it has passed April 19, 2023. Instead of setting the version to expire, it's deleted right away.
+We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18:08:53 UTC. It means if we trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time of this documentation is written, it passed April 19, 2023. Instead of setting the version to expire, the document is deleted immediately.
 
 > [!NOTE]
 > All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
@@ -191,7 +191,7 @@ Optionally, you can adjust the parameters:
 
 ## Tutorial: Run ‘What-If’ analysis on Version Storage Report File
 
-In this tutorial, we'll cover how to:
+In this tutorial, we'll discuss how to:
 
 - Run impact analysis of Automatic setting.
 - Run impact analysis of Manual Expiration.
@@ -221,7 +221,7 @@ Download the report file to your local computer and leverage the provided script
 
 ## Tutorial: Queue a Trim Job for a Site or Document Library
 
-In this tutorial we'll cover:
+In this tutorial we'll discuss:
 
 - Schedule a batch trim job from a site or library.
 - Stop an in-progress batch deletion job.
@@ -244,7 +244,7 @@ To delete versions that are older than 180 days old for all document libraries i
 
 **Example 2. Batch trim versions on a single library on a site.**
 
-To delete versions that are older than 30 days in document library ‘Documents’ in the site collection `https://contoso.sharepoint.com`.
+To delete versions that are older than 30 days in document library 'Documents' in the site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-trim-single-lib.png" alt-text="batch trim single library":::
 
@@ -252,7 +252,7 @@ Once the cmdlet executes successfully, versions that match your criteria are del
 
 ### Cancel an in-progress Batch Trim Job
 
-If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that have already been deleted will still be gone.
+If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that have already been deleted stay removed.
 
 **Example 1. Stop additional batch deletion on site scoped trim job.**
 
@@ -265,5 +265,4 @@ To stop the more batch deletion for the site collection `https://contoso.sharepo
 To stop the more batch deletion for the document library Documents in site collection `https://contoso.sharepoint.com`.
 
 :::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
-
 
