@@ -1,6 +1,6 @@
 ---
 title: "Tutorial - Version Usage, What-If Analysis, and Trim Techniques"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars

@@ -1,6 +1,6 @@
 ---
 title: "Terms and Conditions"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars

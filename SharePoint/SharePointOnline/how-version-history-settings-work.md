@@ -1,6 +1,6 @@
 ---
 title: "How Version History Limits for Document Libraries Work"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -88,7 +88,7 @@ Site-level **Version history limits** for sites can be managed in the following 
 |**Apply site-level Version history limits to all new and existing document libraries in a Site:** |Using this option, the **Version history limit** set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
 |**Apply site-level Version history limits to only new document libraries created in a Site:**|Using this option, the **Version history limits** set on site-level are only applied to new document libraries created in the site. There are no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
 |**Apply limits to existing document libraries only in a Site:**|Using this option allows you to update the existing document libraries on a site while allowing the new document libraries to inherit the organization-level **Version history limits**.|
-|**Clear limits set on a Site:** |Existing limits on a site can be cleared to allow new document libraries created in the site to follow organization level limits. NOTE: Clearing a setting on a Site applies only to New Document Libraries created on the site and won't impact the settings on existing doc libraries.|
+|**Clear limits set on a Site:** |Existing limits on a site can be cleared to allow new document libraries created in the site to follow organization level limits. NOTE: Clearing a setting on a Site applies only to New Document Libraries created on the site and doesn't impact the settings on existing doc libraries.|
 
 **Example Scenario**
 
@@ -130,11 +130,11 @@ The important points to note are as follows:
 
 - Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
-- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings won't apply to existing libraries or to versions that were already created.
+- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new settings doesn't apply to existing libraries or to versions that were already created.
 
 - A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file remains unchanged.
 
-- When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether that be a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
+- When a document with versions is subject to retention settings, the retention of versions is determined by the configured retention setting. In other words, the retention setting always wins, whether it is a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint).
  
 ## Trim Existing Versions from Sites or Libraries
 
@@ -144,7 +144,7 @@ SharePoint supports two ways to trim existing versions on a site or library. Use
 
 | **Use Case** | **Recommended approach** | **Description** |
 |:-----|:-----|:-----|
-| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits, Automatic or other custom trimming logic, apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
+| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits. You can then apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
 | Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
 
 :::image type="content" source="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::

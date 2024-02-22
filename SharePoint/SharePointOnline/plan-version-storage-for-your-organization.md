@@ -1,6 +1,6 @@
 ---
 title: "Plan version storage for your organization"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars

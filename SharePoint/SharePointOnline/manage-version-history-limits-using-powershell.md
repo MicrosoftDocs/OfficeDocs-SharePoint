@@ -1,6 +1,6 @@
 ---
 title: "Manage Version history limits for a site using PowerShell"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
