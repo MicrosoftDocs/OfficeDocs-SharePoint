@@ -28,7 +28,7 @@ By understanding version storage on a site, you can better optimize the version 
 
 This tutorial shows you how to generate a version storage use report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
 
-In this tutorial we'll cover how to:
+In this tutorial we cover how to:
 
 - Generate Version storage use report file for Site or Library.
 - Check progress of report generation.
@@ -116,7 +116,7 @@ After configuring the `TargetExpirationDate` values for your report, you can cho
 Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find the following worksheets in it.  
 
 - **Configuration**: Use this worksheet to set the date range for generating the different report views.
-- **Dataset**: This is the raw dataset imported from the report file. Various reporting summary views are constructed from this dataset.
+- **Dataset**: This worksheet is the raw dataset imported from the report file. Various reporting summary views are constructed from this dataset.
 - **Preset Reports**: The following is a list of preset views that can be used to understand the impact of applying the selected setting on versions stored in the site:
     - **Summary**: Analyze the current state of version storage for this site and deleted version distribution under the new settings.
     - **Impacted Users**: Review the users whose versions would be impacted under the new settings.
@@ -130,7 +130,7 @@ Follow these steps to populate the workbook:
 
 :::image type="content" source="media/version-history/analyze-version-step1.png" lightbox="media/version-history/analyze-version-step1.png" alt-text="configuration worksheet":::
 
-2. If you want to change the date range of graphs in **Number of Versions Available** worksheet, or **Size of Versions Expired** worksheet, change the corresponding values in Cells B6, B7, B10, and/or B11. This is optional.  
+2. If you want to change the date range of graphs in **Number of Versions Available** worksheet, or **Size of Versions Expired** worksheet, change the corresponding values in Cells B6, B7, B10, and/or B11. It's optional.  
 
 :::image type="content" source="media/version-history/analyze-version-step2.png" lightbox="media/version-history/analyze-version-step2.png" alt-text="analyze version configuration":::
 
@@ -170,7 +170,7 @@ All worksheets should now be up to date. You can check the information you're in
 
 :::image type="content" source="media/version-history/current-expiration-schedule.png" alt-text="Current Expiration Schedule":::
 
-- **Target Expiration Schedule:** this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This is only helpful if you want to test out different expiration scenarios by changing the **TargetExpirationDate** column in the file version expiration report.  
+- **Target Expiration Schedule:** this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This table is only helpful if you want to test out different expiration scenarios by changing the **TargetExpirationDate** column in the file version expiration report.  
 
 :::image type="content" source="media/version-history/target-expiration-schedule.png" alt-text="Target Expiration Schedule":::
 
@@ -191,13 +191,13 @@ Optionally, you can adjust the parameters:
 
 ## Tutorial: Run ‘What-If’ analysis on Version Storage Report File
 
-In this tutorial, we'll discuss how to:
+In this tutorial, we discuss how to:
 
 - Run impact analysis of Automatic setting.
 - Run impact analysis of Manual Expiration.
 - Run impact analysis of Manual Count limits.
 
-Download the report file to your local computer and leverage the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could leverage PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
+Download the report file to your local computer and use the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could use PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
 
 **Example: Apply Automatic Trim Setting**
 
@@ -221,7 +221,7 @@ Download the report file to your local computer and leverage the provided script
 
 ## Tutorial: Queue a Trim Job for a Site or Document Library
 
-In this tutorial we'll discuss:
+In this tutorial we discuss:
 
 - Schedule a batch trim job from a site or library.
 - Stop an in-progress batch deletion job.
@@ -234,7 +234,7 @@ In this tutorial we'll discuss:
 
 ### Queue Trim Job
 
-Follow the PowerShell examples below to start deleting old file versions. Make sure you're a site administrator.
+Follow the PowerShell examples to start deleting old file versions. Make sure you're a site administrator.
 
 **Example 1. Queue trim job to delete versions on all libraries on a Site.**
 
@@ -252,7 +252,7 @@ Once the cmdlet executes successfully, versions that match your criteria are del
 
 ### Cancel an in-progress Batch Trim Job
 
-If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that have already been deleted stay removed.
+If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that are already deleted stay removed.
 
 **Example 1. Stop additional batch deletion on site scoped trim job.**
 

@@ -25,7 +25,7 @@ description: "This article provides guidance on how to plan version storage for 
 
 A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. As Versions count towards your SharePoint storage usage, your Organization’s version limits needs to meet your recovery objectives and optimize on version storage.
 
-In the sections below, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
+In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
 
 ## Determine Default Version limits for your organization
 
@@ -35,7 +35,7 @@ In the following sections, we outline the options and decisions administrators s
 
 |Select this option:|If you want to:|Benefits|
 |---|---|---|
-|**Automatic** (Recommended) |Automatically apply optimal storage of versions based on its age & restore probability.<br> With this setting, users have access to most of the recently created versions.<br> As versions age, fewer older versions are stored. No other input is required from Admins.| **Storage Use:** Automatic setting is the recommended setting that offers users' access to high value versions while optimizing storage consumption from versions.<br> <br> **Versions Restore Options:** This setting ensures Version History at key timestamps will always be available for restore even on file with no new file edits.|
+|**Automatic** (Recommended) |Automatically apply optimal storage of versions based on its age & restore probability.<br> With this setting, users have access to most of the recently created versions.<br> As versions age, fewer older versions are stored. No other input is required from Admins.| **Storage Use:** Automatic setting is the recommended setting that offers users' access to high value versions while optimizing storage consumption from versions.<br> <br> **Versions Restore Options:** This setting ensures Version History at key timestamps is always available for restore even on file with no new file edits.|
 |**Manual** with Major Version Limit and Expiration Period set| Store versions only until the configured expiration period and within the configured major versions count limits.<br> With this setting, users have access to all versions within the count and expiration period.|**Storage Use:** This setting is the best option for ensuring the lowest quota Impact from version storage as it trims versions that are older than the configured expiration.<br> <br> **Versions Restore Options:** When an expiration limit is set, it's possible for files with no recent edits to have all their versions trimmed if the updated version policy dictates that. For example, if a file doesn't get edited in six months and a six-month version expiration policy is in place, then all that file’s versions are deleted.|
 |**Manual** with **Major Version Limits and No Time** set| Always store the configured count of versions regardless of version age. Users have access to all the versions within the count limit.| **Storage Use:** This setting can lead to high quota consumption from versions if you have a high ratio of heavily edited files or if you set the limits too high. <br><br> **Version Restore Options:** This setting is the best option for storing a set number of versions offering you predictable version storage behavior. |
 
@@ -47,11 +47,11 @@ The following image depicts the restore options and the storage use for each set
 
 Take an example of a file where 500 versions were created in May, June, and July. Let’s compare the versions available under each version limits:
 
-- **Manual Limits: 500 major versions with expiration of 60 days:** No more than 500 versions are stored and any version older than 60 days will also be deleted. On this file, all versions will eventually be deleted as the versions age.  
+- **Manual Limits: 500 major versions with expiration of 60 days:** No more than 500 versions are stored and any version older than 60 days are also be deleted. On this file, all versions are eventually deleted as the versions age.  
 
-- **Manual Limits: 500 major versions with no limits:** All versions within the count limit of 500 will continue to be stored.  
+- **Manual Limits: 500 major versions with no limits:** All versions within the count limit of 500 continues to be stored.  
 
-- **Automatic limits: Under automatic settings** intermittent older versions are trimmed over time resulting in 96% version storage reduction in a 6-month period compared to count limits. Users will always have access to a set of versions even when there's no new file edit activity.
+- **Automatic limits: Under automatic settings** intermittent older versions are trimmed over time resulting in 96% version storage reduction in a 6-month period compared to count limits. Users always have access to a set of versions even when there's no new file edit activity.
 
 :::image type="content" source="media/version-history/automatic-setting-version-storage.png" alt-text="automatic setting":::
 
@@ -65,13 +65,13 @@ In other words, SharePoint thins out low-value versions on your behalf to reduce
 
 *When Automatic setting is selected, the service uses the following algorithm to determine version storage:
 
-- Users can access to a maximum of 500 versions created within the last 30 days,
-- Hourly versions (versions that were created at the top of the hour) between 30 to 60 days,
+- Users can access to a maximum of 500 versions created within the last 30 days.
+- Hourly versions (versions that were created at the top of the hour) between 30 to 60 days.
 - Daily versions (version created at the beginning of the day) between 60 to 180 days.
 - Weekly versions (versions created at the beginning of the week) beyond 180 days or more, is available indefinitely until the maximum 500 count limit has reached.
 The service trims the intermediate versions as the above milestones are reached.
 
-Take an example of file with a consistent version creation pattern between the months of June till Jan. Under Automatic setting, intermittent versions are purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.
+Take an example of file with a consistent version creation pattern between the months of June until January. Under Automatic setting, intermittent versions are purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.
 
 :::image type="content" source="media/version-history/automatic-limit-impact-version.png" alt-text="automatic limit impact":::
 
@@ -96,7 +96,7 @@ As a SharePoint Site Administrator, you can request an inventory of the versions
 > [!NOTE]
 > Additional reporting options are available with [Microsoft Graph Data Connect](/graph/data-connect-datasets#onedrive-and-sharepoint-online).
 
-When you run the report a background timer job is scheduled to generate a CSV file of every file version on a given SharePoint Site. The CSV file is saved to the location of your choosing on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+When, you run the report a background timer job is scheduled to generate a CSV file of every file version on a given SharePoint Site. The CSV file is saved to the location of your choosing on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
 
 ### Report Format
 
@@ -118,7 +118,7 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 |`ModifiedBy_UserDisplayName`|The display name of the user who created this version and is a compact column.|
 |`LastModifiedDate`|The time when the version was last modified.|
 |`SnapshotDate`|The time when the version became a historical version.|
-|`IsSnapshotDateEstimated`|If this is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.|
+|`IsSnapshotDateEstimated`|If this identifier is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.|
 
 | **Expiration Schedule information:** | Description |
 |:-----|:-----|

@@ -29,7 +29,7 @@ To manage version history limits for a site, use the following PowerShell comman
 | **Action:** | **PowerShell Command** |
 |:-----|:-----|
 | To view the version history limits set on a site | `Get-PnPSiteVersionPolicy`|
-| To set version history limits for all libraries on a site. <br><br> Version history limits set on site level will be applied immediately to all new document libraries created in the site and will create a background request to asynchronously process the update on existing document libraries. | To set Automatic Version History Limits: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $true` <br><br> To set Manual limits with Count and time parameters: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br><br> To set Manual limits with Count parameters only: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0`  |
+| To set version history limits for all libraries on a site. <br><br> Version history limits set on site level are applied immediately to all new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries. | To set Automatic Version History Limits: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $true` <br><br> To set Manual limits with Count and time parameters: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br><br> To set Manual limits with Count parameters only: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0`  |
 | To set version history limits to apply only to new document libraries created on a site without impacting the limits set on existing libraries. |To set Automatic Version History Limits for new libraries created on a site: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries` <br><br> To set Manual limits with Count and time parameters for new libraries created on a site: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br> `-MajorVersions <delete major versions exceeding limit>` <br> `-MajorWithMinorVersions <delete minor versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0`  <br><br> To set Manual limits with Count parameters only: <br><br> `Set-PnPSiteVersionPolicy` <br> `-EnableAutoExpirationVersionTrim $false` <br>  `-MajorVersions <delete major versions exceeding limit>` <br> `-ExpireVersionsAfterDays 0` <br> `-ApplyToNewDocumentLibraries` |
 | To clear the existing version history limits set on a site and inherit Organization version limits on new document libraries created on the site. | `Set-PnPSiteVersionPolicy -InheritFromTenant` |
 
@@ -37,11 +37,11 @@ To manage version history limits for a site, use the following PowerShell comman
 
 1. Install the latest PnP PowerShell. For details, see [Installing PnP PowerShell | PnP PowerShell](https://pnp.github.io/powershell/articles/installation.html).
 1. Connect to Site you want to apply the version history limits on.  
-For example, <br> `Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred`
+For example, <br> `Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred`.
 
 ## Set version limits to apply to all document libraries in a site
 
-You can set version limits to apply to all document libraries in a site by running the command to apply the selected setting. Once you run the command, you'll be able to review progress of settings update background job, or optionally cancel the update job that is `<InProgress>`.  
+You can set version limits to apply to all document libraries in a site by running the command to apply the selected setting. Once you run the command, you're able to review progress of settings update background job, or optionally cancel the update job that is `<InProgress>`.  
 
 ### Apply desired version history limits to all document libraries on a site.
 
@@ -56,7 +56,7 @@ You can set version limits to apply to all document libraries in a site by runni
 
 - Run the following commands to **apply Manual Setting with count and time limits** and check policy setting applied.
  
-In this example count limits are set to 100 major versions with 10 minor versions and versions are set to 
+In this example count, limits are set to 100 major versions with 10 minor versions and versions are set to 
 expire after 200 days.
 
 ```PowerShell
@@ -69,7 +69,7 @@ expire after 200 days.
 
 - Run the following commands to **apply Manual Setting with count limits** and check policy setting applied. 
 
-In this example count limits are set to 300 major versions with 20 minor versions.
+In this example count, limits are set to 300 major versions with 20 minor versions.
 
 ```PowerShell
 
@@ -81,7 +81,7 @@ In this example count limits are set to 300 major versions with 20 minor version
 
 ### Get progress of an in-progress setting update request
 
-Version limits on all new libraries created in the site will be immediately applied. Settings on existing libraries will be asynchronously updated using a background job. Run the following commands **to get the progress of the settings update job**. 
+Version limits on all new libraries created in the site are immediately applied. Settings on existing libraries are asynchronously updated using a background job. Run the following commands **to get the progress of the settings update job**. 
 
 ```PowerShell
 
@@ -99,7 +99,7 @@ Here's the description of the status in response:
 
 ### Cancel an in-progress request to update version history limits on existing libraries. 
 
-Run the following commands to cancel an `<InProgress>` settings update request. Cancels the settings update request on libraries that isn't processed. This won't revert the change for document libraries where the settings update was already processed.
+Run the following commands to cancel an `<InProgress>` settings update request. Cancels the settings update request on libraries that isn't processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 ```PowerShell
 
@@ -144,7 +144,7 @@ In this example count, limits are set to 300 major versions with 20 minor versio
 
 ## Clear version history limits set on a site
 
-Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits are applied on the new document libraries, but no changes are made to the limits on existing libraries.
+Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits are applied on the new document libraries. However, no changes are made to the limits on existing libraries.
 
 ```PowerShell
 
