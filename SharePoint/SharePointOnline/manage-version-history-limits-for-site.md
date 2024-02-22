@@ -1,5 +1,5 @@
 ---
-title: "Manage Version history limits for a site using PowerShell"
+title: "Manage Version history limits for a site"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to manage version history li
 
 ---
 
-# Manage Version history limits for a Site using PowerShell (Preview)
+# Manage Version history limits for a Site (Preview)
 
 This article describes how Site Admins can choose to manage version history limits on individual sites. Using PnP PowerShell you can view any version history limits applied on a site, set a version limit for all, new or existing libraries, clear existing version limits on site to inherit from tenant level settings.
 

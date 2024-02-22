@@ -1,5 +1,5 @@
 ---
-title: "How Version History Limits for Document Libraries Work"
+title: "Document Library Version History Limits"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars

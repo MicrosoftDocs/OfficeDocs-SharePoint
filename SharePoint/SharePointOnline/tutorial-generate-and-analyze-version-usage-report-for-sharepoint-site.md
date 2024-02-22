@@ -1,11 +1,11 @@
 ---
-title: "Tutorial - Version Usage, What-If Analysis, and Trim Techniques"
+title: "Tutorial: Generate and Analyze Version Usage Report for SharePoint Site"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 01/31/2023
+ms.date: 02/22/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,13 +16,11 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on Version Usage, What-If Analysis, and Trim Techniques."
+description: "This article provides guidance on how to generate and analyze Version Usage Report for SharePoint Site."
 
 ---
 
-# Tutorials (Preview)
-
-## Tutorial: Generate and Analyze Version Usage Report for SharePoint Site
+# Tutorial: Generate and Analyze Version Usage Report for SharePoint Site (Preview)
 
 By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs.
 
@@ -35,7 +33,7 @@ In this tutorial we cover how to:
 - Understand the report file.
 - Analyze version storage use using Excel or PowerShell.
 
-### Generate Version Use Report for Sites or Library
+## Generate Version Use Report for Sites or Library
 
 Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
 
@@ -62,7 +60,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 >
 > If you want to cancel a report generation in progress, you can simply delete the report file.
 
-### Check Report Generation Progress
+## Check Report Generation Progress
 
 - Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
 
@@ -76,7 +74,7 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 :::image type="content" source="media/version-history/json-powershell.png" lightbox="media/version-history/json-powershell.png" alt-text="json powershell":::
 
-### Understand Version Report File
+## Understand Version Report File
 
 - Here’s an example of file version expiration report and its column breakdown.
 
@@ -107,11 +105,11 @@ We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18
 > [!NOTE]
 > All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
 
-### Analyze Version Storage for Sites
+## Analyze Version Storage for Sites
 
 After configuring the `TargetExpirationDate` values for your report, you can choose to perform deeper analysis to see the impact of the trimming before running an actual trim. You can perform this analysis independently, or alternatively, we provide two recommended options for your analysis.  
 
-## Option one: Analyze the report using Excel
+### Option one: Analyze the report using Excel
 
 Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find the following worksheets in it.  
 
@@ -150,7 +148,7 @@ Follow these steps to populate the workbook:
 
 All worksheets should now be up to date. You can check the information you're interested in.
 
-## Option two: Analyze the report using PowerShell
+### Option two: Analyze the report using PowerShell
 
 1. Save the script as a file named **AnalyzeReportFile.ps1.**
 
@@ -188,81 +186,4 @@ Optionally, you can adjust the parameters:
 - `TimelineStepDays`: the number of days in between rows for Table 1 and 2 above.  
 - `TimelineNumSteps`: the number of rows to calculate for Table 1 and 2 above.  
 - `ShowFilesWithFewerThanNVersions`: the threshold for the number of versions in Table 3 above.
-
-## Tutorial: Run ‘What-If’ analysis on Version Storage Report File
-
-In this tutorial, we discuss how to:
-
-- Run impact analysis of Automatic setting.
-- Run impact analysis of Manual Expiration.
-- Run impact analysis of Manual Count limits.
-
-Download the report file to your local computer and use the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could use PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
-
-**Example: Apply Automatic Trim Setting**
-
-- Here's an example of PowerShell script you could apply to generate a What-If Report file that applies the **Automatic Expiration**  policy on the report file `C:\Report.csv`.  
-
-:::image type="content" source="media/version-history/expiration-automation.png" lightbox="media/version-history/expiration-automation.png" alt-text="expiration automation":::
-
-**Example: Apply Manual Expiration**
-
-- Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to **30** on the report file `C:\Report.csv`.  
-
-:::image type="content" source="media/version-history/manual-expiration.png" lightbox="media/version-history/manual-expiration.png" alt-text="manual expiration":::
-
-**Example: Apply Manual Count Limits**
-
-- Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
-
-:::image type="content" source="media/version-history/manual-with-count-limits-a.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-a":::
-
-:::image type="content" source="media/version-history/manual-with-count-limits-b.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-b":::
-
-## Tutorial: Queue a Trim Job for a Site or Document Library
-
-In this tutorial we discuss:
-
-- Schedule a batch trim job from a site or library.
-- Stop an in-progress batch deletion job.
-- Check progress of your batch deletion job.
-
-### Prerequisites
-
-1. Determine the **Scope [Site, Library]** for version deletion - You can delete old file versions for all document libraries in a site or for a specific document library.
-1. Determine the minimum **age (in days)** for the file versions you want to delete. For example, on May 1, 2023, if you choose to delete file versions that are at least 30 days old, then the versions snapshotted before April 1, 2023 (your target date), will be deleted.
-
-### Queue Trim Job
-
-Follow the PowerShell examples to start deleting old file versions. Make sure you're a site administrator.
-
-**Example 1. Queue trim job to delete versions on all libraries on a Site.**
-
-To delete versions that are older than 180 days old for all document libraries in the site collection `https://contoso.sharepoint.com`.
-
-:::image type="content" source="media/version-history/batch-trim-all-lib.png" lightbox="media/version-history/batch-trim-all-lib.png" alt-text="batch trim all library":::
-
-**Example 2. Batch trim versions on a single library on a site.**
-
-To delete versions that are older than 30 days in document library 'Documents' in the site collection `https://contoso.sharepoint.com`.
-
-:::image type="content" source="media/version-history/batch-trim-single-lib.png" lightbox="media/version-history/batch-trim-single-lib.png" alt-text="batch trim single library":::
-
-Once the cmdlet executes successfully, versions that match your criteria are deleted asynchronously in batches in the upcoming days.
-
-### Cancel an in-progress Batch Trim Job
-
-If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, asynchronous version deletion is stopped, but versions that are already deleted stay removed.
-
-**Example 1. Stop additional batch deletion on site scoped trim job.**
-
-To stop the more batch deletion for the site collection `https://contoso.sharepoint.com`.
-
-:::image type="content" source="media/version-history/batch-deletion-site-scoped.png" lightbox="media/version-history/batch-deletion-site-scoped.png" alt-text="batch deletion site scoped":::
-
-**Example 2. Stop additional batch deletion on library scoped trim job.**
-
-To stop the more batch deletion for the document library Documents in site collection `https://contoso.sharepoint.com`.
-
-:::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" lightbox="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
 

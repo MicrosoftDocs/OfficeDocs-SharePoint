@@ -203,12 +203,16 @@
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
 ## Versions
-### [Introduction to Version History](versioning-overview.md)
-### [How Version History Limits for Document Libraries Work](how-version-history-settings-work.md)
-### [Plan Version Storage for your Organization (Preview)](plan-version-storage-for-your-organization.md)
-### [Manage Version history limits (Preview)](manage-version-history-limits.md)
-### [Manage Version history limits for a Site using PowerShell (Preview)](manage-version-history-limits-using-powershell.md)
-### [Tutorials](tutorial-version-history.md)
+### [Versioning Overview](versioning-overview.md)
+### [Document Library Version History Limits (Preview)](document-library-version-history-limits.md)
+### [Plan Version Storage (Preview)](plan-version-storage.md)
+### [Manage Version History Limits]()
+#### [Manage Version History Limits (Preview)](manage-version-history-limits-for-organization.md)
+#### [Manage Version history limits for a Site (Preview)](manage-version-history-limits-for-site.md)
+### [Tutorials]()
+#### [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site (Preview)](tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site.md)
+#### [Tutorial: Run ‘What-If’ analysis on Version Storage Report File (Preview)](tutorial-run-what-if-analysis-on-version-storage-report-file.md)
+#### [Tutorial: Queue a Trim Job for a Site or Document Library (Preview)](tutorial-queue-a-trim-job-for-a-site-or-document-library.md)
 ### [FAQs](faqs-for-versions.md)
 ### [Terms of Service](terms-of-service-version-history.md)
 
