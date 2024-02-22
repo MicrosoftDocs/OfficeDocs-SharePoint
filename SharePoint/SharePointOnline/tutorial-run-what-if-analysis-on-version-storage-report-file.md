@@ -46,6 +46,7 @@ Download the report file to your local computer and use the provided scripts to 
 
 - Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
 
-:::image type="content" source="media/version-history/manual-with-count-limits-a.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-a":::
+:::image type="content" source="media/version-history/manual-with-count-limits-a.png" lightbox="media/version-history/manual-with-count-limits-a.png" alt-text="manual with count limits-a":::
 
-:::image type="content" source="media/version-history/manual-with-count-limits-b.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-b":::
+:::image type="content" source="media/version-history/manual-with-count-limits-b.png" lightbox="media/version-history/manual-with-count-limits-b.png" alt-text="manual with count limits-b":::
+
