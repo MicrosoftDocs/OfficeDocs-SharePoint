@@ -44,16 +44,16 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 > [!NOTE]
 > The report location is within a SharePoint document library.
 
-:::image type="content" source="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped":::
+:::image type="content" source="media/version-history/powershell-site-scoped.png" lightbox="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped":::
 
-:::image type="content" source="media/version-history/powershell-site-scoped-1.png" alt-text="powershell site scoped 1":::
+:::image type="content" source="media/version-history/powershell-site-scoped-1.png" lightbox="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped 1":::
 
 - Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
 
 > [!NOTE]
 > The report location is within a SharePoint document library.
 
-:::image type="content" source="media/version-history/library-scoped-report-powershell.png" alt-text="library scoped report powershell":::
+:::image type="content" source="media/version-history/library-scoped-report-powershell.png" lightbox="media/version-history/library-scoped-report-powershell.png" alt-text="library scoped report powershell":::
 
 > [!IMPORTANT]
 > The file version report generation job is complete asynchronously over the next few days. The completion time of the report depends on the size of your library or site.
@@ -66,15 +66,15 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 - Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
 
-:::image type="content" source="media/version-history/site-scoped-report.png" alt-text="site scoped report":::
+:::image type="content" source="media/version-history/site-scoped-report.png" lightbox="media/version-history/site-scoped-report.png" alt-text="site scoped report":::
 
 - Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
 
-:::image type="content" source="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
+:::image type="content" source="media/version-history/library-scoped-report-analysed.png" lightbox="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
 
 - The cmdlet returns in JSON format, and the value appears as one of the following values:
 
-:::image type="content" source="media/version-history/json-powershell.png" alt-text="json powershell":::
+:::image type="content" source="media/version-history/json-powershell.png" lightbox="media/version-history/json-powershell.png" alt-text="json powershell":::
 
 ### Understand Version Report File
 
@@ -136,17 +136,17 @@ Follow these steps to populate the workbook:
 
 3. At the top of Excel, select **Data** tab, and in the Ribbon, select **Refresh All** button.
 
-:::image type="content" source="media/version-history/analyze-version-step3.png" alt-text="analyze version data tab":::
+:::image type="content" source="media/version-history/analyze-version-step3.png" lightbox="media/version-history/analyze-version-step3.png" alt-text="analyze version data tab":::
 
 4. On the **Calculations** worksheet, autofill the **Number of Versions** and **Number of Versions Remaining After Deletion** columns.
 
-:::image type="content" source="media/version-history/analyze-version-step4-a.png" alt-text="Calculations worksheet 1":::
+:::image type="content" source="media/version-history/analyze-version-step4-a.png" lightbox="media/version-history/analyze-version-step4-a.png" alt-text="Calculations worksheet 1":::
 
-:::image type="content" source="media/version-history/analyze-version-step4-b.png" alt-text="Calculations worksheet 2":::
+:::image type="content" source="media/version-history/analyze-version-step4-b.png" lightbox="media/version-history/analyze-version-step4-b.png" alt-text="Calculations worksheet 2":::
 
 5. On the **Impacted Users** worksheet, autofill the **Number of Versions Will be Deleted** column.
 
-:::image type="content" source="media/version-history/analyze-version-step5.png" alt-text="Impacted Users worksheet":::
+:::image type="content" source="media/version-history/analyze-version-step5.png" lightbox="media/version-history/analyze-version-step5.png" alt-text="Impacted Users worksheet":::
 
 All worksheets should now be up to date. You can check the information you're interested in.
 
@@ -154,11 +154,11 @@ All worksheets should now be up to date. You can check the information you're in
 
 1. Save the script as a file named **AnalyzeReportFile.ps1.**
 
-:::image type="content" source="media/version-history/analyse-report-file.png" alt-text="AnalyzeReportFile":::
+:::image type="content" source="media/version-history/analyse-report-file.png" lightbox="media/version-history/analyse-report-file.png" alt-text="AnalyzeReportFile":::
 
 2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
 
-:::image type="content" source="media/version-history/analyze-report-powershell-command.png" alt-text="analyze report powershell command":::
+:::image type="content" source="media/version-history/analyze-report-powershell-command.png" lightbox="media/version-history/analyze-report-powershell-command.png" alt-text="analyze report powershell command":::
 
 3. The output displays four tables:
 
@@ -168,19 +168,19 @@ All worksheets should now be up to date. You can check the information you're in
     1. **NumberOfVersionsExpired**: the number of versions expired on that date under the current schedule.  
     1. **SizeOfVersionsExpiredMB**: the size of versions expired on that date under the current schedule.  
 
-:::image type="content" source="media/version-history/current-expiration-schedule.png" alt-text="Current Expiration Schedule":::
+:::image type="content" source="media/version-history/current-expiration-schedule.png" lightbox="media/version-history/current-expiration-schedule.png" alt-text="Current Expiration Schedule":::
 
 - **Target Expiration Schedule:** this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This table is only helpful if you want to test out different expiration scenarios by changing the **TargetExpirationDate** column in the file version expiration report.  
 
-:::image type="content" source="media/version-history/target-expiration-schedule.png" alt-text="Target Expiration Schedule":::
+:::image type="content" source="media/version-history/target-expiration-schedule.png" lightbox="media/version-history/target-expiration-schedule.png" alt-text="Target Expiration Schedule":::
 
 - **Files with Fewer Than 10 Versions:** a list of the URLs, and the number of versions before and after the deletion for those files whose number of versions is fewer than 10 after immediate deletion (but was more than 10 before the immediate deletion).  
 
-:::image type="content" source="media/version-history/files-with-fewer-than-10-versions.png" alt-text="Files with Fewer Than 10 Versions":::
+:::image type="content" source="media/version-history/files-with-fewer-than-10-versions.png" lightbox="media/version-history/files-with-fewer-than-10-versions.png" alt-text="Files with Fewer Than 10 Versions":::
 
 - **Users Impacted:** the users whose versions would be immediately deleted.
 
-:::image type="content" source="media/version-history/users-impacted.png" alt-text="Users Impacted":::
+:::image type="content" source="media/version-history/users-impacted.png" lightbox="media/version-history/users-impacted.png" alt-text="Users Impacted":::
 
 Optionally, you can adjust the parameters:
 
@@ -203,21 +203,21 @@ Download the report file to your local computer and use the provided scripts to 
 
 - Here's an example of PowerShell script you could apply to generate a What-If Report file that applies the **Automatic Expiration**  policy on the report file `C:\Report.csv`.  
 
-:::image type="content" source="media/version-history/expiration-automation.png" alt-text="expiration automation":::
+:::image type="content" source="media/version-history/expiration-automation.png" lightbox="media/version-history/expiration-automation.png" alt-text="expiration automation":::
 
 **Example: Apply Manual Expiration**
 
 - Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to **30** on the report file `C:\Report.csv`.  
 
-:::image type="content" source="media/version-history/manual-expiration.png" alt-text="manual expiration":::
+:::image type="content" source="media/version-history/manual-expiration.png" lightbox="media/version-history/manual-expiration.png" alt-text="manual expiration":::
 
 **Example: Apply Manual Count Limits**
 
 - Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
 
-:::image type="content" source="media/version-history/manual-with-count-limits-a.png" alt-text="manual with count limits-a":::
+:::image type="content" source="media/version-history/manual-with-count-limits-a.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-a":::
 
-:::image type="content" source="media/version-history/manual-with-count-limits-b.png" alt-text="manual with count limits-b":::
+:::image type="content" source="media/version-history/manual-with-count-limits-b.png" lightbox="media/version-history/manual-with-count-limits-a.png alt-text="manual with count limits-b":::
 
 ## Tutorial: Queue a Trim Job for a Site or Document Library
 
@@ -240,13 +240,13 @@ Follow the PowerShell examples to start deleting old file versions. Make sure yo
 
 To delete versions that are older than 180 days old for all document libraries in the site collection `https://contoso.sharepoint.com`.
 
-:::image type="content" source="media/version-history/batch-trim-all-lib.png" alt-text="batch trim all library":::
+:::image type="content" source="media/version-history/batch-trim-all-lib.png" lightbox="media/version-history/batch-trim-all-lib.png" alt-text="batch trim all library":::
 
 **Example 2. Batch trim versions on a single library on a site.**
 
 To delete versions that are older than 30 days in document library 'Documents' in the site collection `https://contoso.sharepoint.com`.
 
-:::image type="content" source="media/version-history/batch-trim-single-lib.png" alt-text="batch trim single library":::
+:::image type="content" source="media/version-history/batch-trim-single-lib.png" lightbox="media/version-history/batch-trim-single-lib.png" alt-text="batch trim single library":::
 
 Once the cmdlet executes successfully, versions that match your criteria are deleted asynchronously in batches in the upcoming days.
 
@@ -258,11 +258,11 @@ If needed, you can cancel an in-progress batch trim job. Once the cmdlet execute
 
 To stop the more batch deletion for the site collection `https://contoso.sharepoint.com`.
 
-:::image type="content" source="media/version-history/batch-deletion-site-scoped.png" alt-text="batch deletion site scoped":::
+:::image type="content" source="media/version-history/batch-deletion-site-scoped.png" lightbox="media/version-history/batch-deletion-site-scoped.png" alt-text="batch deletion site scoped":::
 
 **Example 2. Stop additional batch deletion on library scoped trim job.**
 
 To stop the more batch deletion for the document library Documents in site collection `https://contoso.sharepoint.com`.
 
-:::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
+:::image type="content" source="media/version-history/batch-deletion-lib-scoped.png" lightbox="media/version-history/batch-deletion-lib-scoped.png" alt-text="batch trim library scoped":::
 

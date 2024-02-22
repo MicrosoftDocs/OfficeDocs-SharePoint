@@ -19,7 +19,7 @@ search.appverid:
 description: "This article provides guidance on how to plan version storage for your organization."
 ---
 
-# Plan Version Storage for your Organization (Preview)
+# Plan Version Storage (Preview)
 
 ## Plan Version Storage for your Organization
 
@@ -53,9 +53,9 @@ Take an example of a file where 500 versions were created in May, June, and July
 
 - **Automatic limits: Under automatic settings** intermittent older versions are trimmed over time resulting in 96% version storage reduction in a 6-month period compared to count limits. Users always have access to a set of versions even when there's no new file edit activity.
 
-:::image type="content" source="media/version-history/automatic-setting-version-storage.png" alt-text="automatic setting":::
+:::image type="content" source="media/version-history/automatic-setting-version-storage.png" lightbox="media/version-history/automatic-setting-version-storage.png" alt-text="automatic setting":::
 
-:::image type="content" source="media/version-history/version-activity.png" alt-text="compare versions":::
+:::image type="content" source="media/version-history/version-activity.png" lightbox="media/version-history/version-activity.png" alt-text="compare versions":::
   
 ## Understand Version storage under Automatic limits
 
@@ -73,7 +73,7 @@ The service trims the intermediate versions as the above milestones are reached.
 
 Take an example of file with a consistent version creation pattern between the months of June until January. Under Automatic setting, intermittent versions are purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.
 
-:::image type="content" source="media/version-history/automatic-limit-impact-version.png" alt-text="automatic limit impact":::
+:::image type="content" source="media/version-history/automatic-limit-impact-version.png" lightbox="media/version-history/automatic-limit-impact-version.png" alt-text="automatic limit impact":::
 
 ## Determine right Count or Expiration version limits
 

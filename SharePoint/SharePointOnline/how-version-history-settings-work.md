@@ -20,7 +20,7 @@ description: "This article provides guidance on how Version History settings wor
 
 ---
 
-# Document Library Versioning Overview (Preview)
+# Document Library Version History Limits (Preview)
 
 > [!NOTE]
 > Document library version controls at Tenant and Site level and the new Automatic and Manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Microsoft 365 version history preview terms and conditions](https://microsoftapc.sharepoint.com/:w:/t/SharePointVersionTrimmingPreviewProgram/EXThSk2EYAZAmr7wACpcFG0BfPgI6GxQ8rFjJ1Sui9pS6Q?e=AQsfwM).
@@ -148,8 +148,6 @@ SharePoint supports two ways to trim existing versions on a site or library. Use
 | Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
 
 :::image type="content" source="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::
-
-The following sections describe the different trimming methods:  
 
 ### Queue Trim Job
 

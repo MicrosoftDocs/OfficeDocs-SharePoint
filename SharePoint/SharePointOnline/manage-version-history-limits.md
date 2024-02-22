@@ -19,13 +19,17 @@ search.appverid:
 description: "This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings."
 ---
 
-# Manage Version history limits (Preview)
+# Manage Version History Limits (Preview)
 
 ## Manage Version history limits for your Organization
 
 This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings for Microsoft SharePoint and Microsoft OneDrive.
 
-On the Version History Limits – SharePoint Admin Setting page use the Organization Level Version History Limits to set global default version history limits that are universally applied to all newly created document libraries in the organization.
+:::image type="content" source="media/version-history/sharepoint-admin-settings.png" lightbox="media/version-history/sharepoint-admin-settings.png" alt-text="diagram of sharepoint admin settings":::
+
+On the Version History Limits, SharePoint Admin Setting page uses the Organization Level Version History Limits to set global default version history limits that are universally applied to all newly created document libraries in the organization.
+
+:::image type="content" source="media/version-history/set-version-history-limits.png" lightbox="media/version-history/set-version-history-limits.png" alt-text="diagram of set version history limits":::
 
 The Set version history limits has two setting options:
 
@@ -37,7 +41,7 @@ The Set version history limits has two setting options:
 
 - Automatic is a recommended option providing the most optimal storage option without having to estimate the version count or age limits.
 
-- Deploys an algorithm to preserve a sufficient high-value version, prioritizing more recent versions over those farther back in time, to ensure availability in case restores are required.
+- Deploys an algorithm to preserve a sufficient high-value version, prioritizing more recent versions over ones farther back in time, to ensure availability in case restores are required.
  
 **Manually**
 
@@ -66,9 +70,9 @@ To set Automatic version history limits for all new document libraries created i
 
 1. Go to **Settings** in the [SharePoint admin center](/sharepoint/sharepoint-admin-role), and sign in with an account that has [administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 1. Select **Version history limits**.
-1. Select **Manually**
+1. Select **Manually**.
 1. Enter a value between 100 and 50,000 in the **Number of major versions** box.
-1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This ensures that no expiration is stamped on versions.
+1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This setting ensures that no expiration is stamped on versions.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
 :::image type="content" source="media/version-history/version-history-limits-manual.png" lightbox="media/version-history/version-history-limits-manual.png" alt-text="custom":::
@@ -79,7 +83,7 @@ To set Automatic version history limits for all new document libraries created i
 1. Select **Version history limits**.
 1. Select **Manually**.
 1. Enter a value between 100 and 50,000 in the **Number of major versions** box.
-1. Select one of the preset values for **Delete versions after this period of time** drop-down option or.
+1. Select one of the preset values for **Delete versions after this period of time** drop-down option. or
 1. To enter a custom value for **Delete versions after**, select the custom value from the dropbox and enter value greater than 30 days in the **Days** box and **Save**.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
