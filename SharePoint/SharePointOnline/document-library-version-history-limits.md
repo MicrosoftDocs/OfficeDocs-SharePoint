@@ -58,7 +58,7 @@ The manual setting allows admins to set count limits on the number of major vers
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
  
-For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](sharepoint/plan-version-storage-for-your-organization).
+For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](plan-version-storage.md).
 
 ## Set Default Version limits for your Organization
 
