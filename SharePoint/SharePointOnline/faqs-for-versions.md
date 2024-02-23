@@ -34,7 +34,7 @@ Versions that exceed count limits are gradually trimmed when the file is updated
 
 ## How do legal holds or retention policies impact version deletions or expirations?
 
-When a document with versions is subject to retention settings, the configured retention setting determines the retention of versions. In other words, the retention setting always wins, whether it's a deletion or hold policy. [Learn about retention for SharePoint and OneDrive - Microsoft 365 Compliance | Microsoft Docs](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#how-retention-works-with-document-versions&preserve-view=true).
+When a document with versions is subject to retention settings, the configured retention setting determines the retention of versions. In other words, the retention setting always wins, whether it's a deletion or hold policy. [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#how-retention-works-with-document-versions&preserve-view=true).
 
 ## What happens when organization level or library level version settings are updated?
 
@@ -46,4 +46,4 @@ When **Library-level count limits are updated**, if existing versions exceed the
 
 ## How will Automatic Setting impact ability to Restore a library or OneDrive?
 
-When **Automatic setting** is selected, users have access to a maximum of 500 versions created within the last 30 days enabling the user to [Restore a shared library - Microsoft Support](https://support.microsoft.com/en-us/office/restore-a-shared-library-317791c3-8bd0-4dfd-8254-3ca90883d39a) or [Restore your OneDrive - Microsoft Support](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15).
+When **Automatic setting** is selected, users have access to a maximum of 500 versions created within the last 30 days enabling the user to [Restore a shared library](https://support.microsoft.com/en-us/office/restore-a-shared-library-317791c3-8bd0-4dfd-8254-3ca90883d39a) or [Restore your OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15).
