@@ -1,6 +1,6 @@
 ---
 title: "About Version History"
-ms.reviewer: 
+ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
@@ -25,7 +25,7 @@ The Version History feature is an integral part of Microsoft’s 365 built-in da
 
 Users can use version history to:
 
-- **View a previous version**: Users can view a previous version without overwriting their current version. While examining version history within a Microsoft Office document, such as a Word or Excel file, versions can be compared to determine what the differences are. 
+- **View a previous version**: Users can view a previous version without overwriting their current version. During a review of the version history within a Microsoft Office document, such as a Word or Excel file, versions can be compared to determine what the differences are.
 
 - **Restore to a previous version**: If a user makes a mistake in a current version, the current version gets corrupted, or if they simply like a previous version better, they can replace the current version with a previous one. The restored version becomes the new current version. Learn more [Restore a previous version of an item or file in SharePoint](https://support.microsoft.com/en-us/office/restore-a-previous-version-of-an-item-or-file-in-sharepoint-f66dbda0-81f4-4d1e-b08c-793265c58934).
 

@@ -53,7 +53,7 @@ New-PnPFileVersionExpirationReportJob -Site $Site -ReportUrl
 "https://contoso.sharepoint.com/Shared Documents/SiteReport.csv"
 ```
 
-:::image type="content" source="media/version-history/powershell-site-scoped-1.png" lightbox="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped 1":::
+:::image type="content" source="media/version-history/powershell-site-scoped-1.png" lightbox="media/version-history/powershell-site-scoped-1.png" alt-text="powershell site scoped 1":::
 
 Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
 
@@ -165,14 +165,14 @@ Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find
 
 - **Configuration**: Use this worksheet to set the date range for generating the different report views.
 - **Dataset**: This worksheet is the raw dataset imported from the report file. Various reporting summary views are constructed from this dataset.
-- **Preset Reports**: The following is a list of preset views that can be used to understand the impact of applying the selected setting on versions stored in the site:
+- **Preset Reports**: Here's a list of preset views that can be used to understand the impact of applying the selected setting on versions stored in the site:
     - **Summary**: Analyze the current state of version storage for this site and deleted version distribution under the new settings.
     - **Impacted Users**: Review the users whose versions would be impacted under the new settings.
     - **Version Count**: A table and graph showing the numbers of versions that will be available over time under the current schedule and the number of versions that will be available under the new schedule.
     - **Size of Versions Expired**: Compare the size of versions that will be deleted over time under the current schedule and the number of versions that will be available under the new schedule.
     - **File Level Analysis**: Review file level version deletions under the new settings.  
 
-Follow these steps to populate the workbook:
+Populate the workbook by following these steps:
 
 1. On the **Configuration** worksheet, enter the full path to the What-If report file in **Cell B3**.
 
