@@ -20,7 +20,7 @@ description: "This article provides guidance on how to queue a Trim Job for a Si
 
 ---
 
-# Tutorial: Queue a Trim Job for a Site or Document Library (Preview)
+# Tutorial: Queue Trim Job (Preview)
 
 In this tutorial we discuss:
 

@@ -20,7 +20,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 ---
 
-# Tutorial: Run ‘What-If’ analysis on Version Storage Report File (Preview)
+# Tutorial: Run 'What-If' Analysis (Preview)
 
 In this tutorial, we discuss how to:
 
