@@ -24,25 +24,41 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 In this tutorial, we discuss how to:
 
-- Run impact analysis of Automatic setting.
-- Run impact analysis of Manual Expiration.
-- Run impact analysis of Manual Count limits.
+- Run impact analysis of setting Automatic limits.
+- Run impact analysis of expiring versions older than specified days.
+- Run impact analysis of storing version within specified count limits.
 
 Download the report file to your local computer and use the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could use PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
 
-**Example: Apply Automatic Trim Setting**
+## Run impact analysis of setting Automatic Version history limits
 
 - Here's an example of PowerShell script you could apply to generate a What-If Report file that applies the **Automatic Expiration**  policy on the report file `C:\Report.csv`.  
 
+```PowerShell
+ScheduleUpdate_Auto.ps1 
+    param (
+     [Parameter(Mandatory=$true)][string] $ImportPath, 
+     [Parameter(Mandatory=$true)][string] $ExportPath
+    )
+
+    $Schedule = Import-Csv -Path $ImportPath
+    $Schedule |
+      ForEach-Object {
+        $_.TargetExpiration Date = $_.AutomaticPolicy Expiration Date
+      }
+    $Schedule |
+     Export-Csv -Path $ExportPath -UseQuotes AsNeeded
+```
+
 :::image type="content" source="media/version-history/expiration-automation.png" lightbox="media/version-history/expiration-automation.png" alt-text="expiration automation":::
 
-**Example: Apply Manual Expiration**
+## Run impact analysis of setting Manual Expiration limits
 
 - Here's an example of PowerShell script to generate a What-If Report file. It applies **Manual Expiration** with expire-after days set to **30** on the report file `C:\Report.csv`.  
 
 :::image type="content" source="media/version-history/manual-expiration.png" lightbox="media/version-history/manual-expiration.png" alt-text="manual expiration":::
 
-**Example: Apply Manual Count Limits**
+## Run impact analysis of setting Manual Count Limits
 
 - Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
 
