@@ -37,19 +37,41 @@ In this tutorial we cover how to:
 
 Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
 
-- Here’s an example of the PowerShell script that generates a **site-scoped** report at the `report location`, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
+Here’s an example of the PowerShell script that generates a **site-scoped** report at the `report location`, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
 
 > [!NOTE]
 > The report location is within a SharePoint document library.
 
-:::image type="content" source="media/version-history/powershell-site-scoped.png" lightbox="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped":::
+```PowerShell
+
+# Connect to the site that you would like to run a report on
+Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
+
+#Get the site object and start a report.
+$Site = Get-PnPSite
+
+New-PnPFileVersionExpirationReportJob -Site $Site -ReportUrl 
+"https://contoso.sharepoint.com/Shared Documents/SiteReport.csv"
+```
 
 :::image type="content" source="media/version-history/powershell-site-scoped-1.png" lightbox="media/version-history/powershell-site-scoped.png" alt-text="powershell site scoped 1":::
 
-- Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
+Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
 
 > [!NOTE]
 > The report location is within a SharePoint document library.
+
+```PowerShell
+
+# Connect to the site that you would like to run a report on 
+Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
+
+#Get the library object and start a report. 
+$Library = Get-PnPList "MyLibrary"
+
+New-PnPFileVersionExpirationReportJob -Library $Library - ReportUrl 
+https://contoso.sharepoint.com/Shared Documents/LibraryReport.csv
+```
 
 :::image type="content" source="media/version-history/library-scoped-report-powershell.png" lightbox="media/version-history/library-scoped-report-powershell.png" alt-text="library scoped report powershell":::
 
@@ -64,15 +86,48 @@ Before you begin, determine the **Report Scope** (Site or Document Library); **R
 
 - Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
 
+
+```PowerShell
+
+# Connect to the site that you would like to run a report on
+Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin 
+
+#Get the site object and check the status of the report.
+$Site Get-PnPSite
+
+Get-PnPFileVersionExpirationReport JobProgress -Site $Site -ReportUrl 
+"https://contoso.sharepoint.com/Shared Documents/SiteReport.csv"
+```
+
 :::image type="content" source="media/version-history/site-scoped-report.png" lightbox="media/version-history/site-scoped-report.png" alt-text="site scoped report":::
 
 - Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
+
+```PowerShell
+
+# Connect to the site that contains the library
+Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
+
+#Get the library object check the status of the report. 
+$Library = Get-PnPList "MyLibrary"
+
+Get-PnPFileVersionExpirationReport JobProgress -Library $Library -ReportUrl 
+"https://contoso.sharepoint.com/Shared Documents/Library Report.csv"    
+```
 
 :::image type="content" source="media/version-history/library-scoped-report-analysed.png" lightbox="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
 
 - The cmdlet returns in JSON format, and the value appears as one of the following values:
 
-:::image type="content" source="media/version-history/json-powershell.png" lightbox="media/version-history/json-powershell.png" alt-text="json powershell":::
+```PowerShell
+JSON Response Value and Explanations
+
+{"status": "covmpleted"}: the job is complete, and the report is fully populated.
+{"status": "in_progress"}: there is an active job, and the report is partially populated.
+{"status": "no_report_found"}: there are no active jobs populating this file.
+{"status": "failed", "error_message": "<error message>"}; there are no active jobs 
+populating this file, but there was one and it failed.
+```
 
 ## Understand Version Report File
 
@@ -152,9 +207,95 @@ All worksheets should now be up to date. You can check the information you're in
 
 1. Save the script as a file named **AnalyzeReportFile.ps1.**
 
-:::image type="content" source="media/version-history/analyse-report-file.png" lightbox="media/version-history/analyse-report-file.png" alt-text="AnalyzeReportFile":::
+```PowerShell
+
+Param(
+     [Parameter(Mandatory=$true)][string] $ReportLocalFilePath,
+     [Parameter(Mandatory=$false)][int]$ShowFilesWithFewerThanNVersions=10,
+     [Parameter(Mandatory=$false)][DateTime]$TimelineStartDate=[DateTime]::Now,
+     [Parameter(Mandatory=$false)][int]$TimelineStepDays=10,
+     [Parameter(Mandatory=$false)][int]$TimelineNumSteps=10
+)
+function Import-Dataset($DatasetFilePath)
+{
+     $Dataset = Import-CSV $DatasetFilePath
+     $Columns = $Dataset `
+     | Get-Member -MemberType 'NoteProperty' `
+     | Select-Object -ExpandProperty Name
+     $CompactColumns = $Columns | Where-Object { $_ -Match ".Compact" } 
+     $Timer = [Diagnostics.Stopwatch]::StartNew()
+     for ($RowIndex = 0; $RowIndex -lt $Dataset.Count; $RowIndex++)
+     {
+         if ($RowIndex -gt 0)
+         { $PrevRow = $Dataset[$RowIndex-1]
+         }
+         $Row = $Dataset[$RowIndex]
+         foreach ($ColName in $Columns)
+         {
+             if ([string]::IsNullOrEmpty($Row.$ColName))
+             {
+             if (($ColName -in $CompactColumns) -and ($RowIndex -gt 0))
+             { $Row.$ColName = $PrevRow.$ColName
+             }
+             else
+             { $Row.$ColName = $null
+             }
+      }
+     }
+     $Row."WebId.Compact" = [Guid]$Row."WebId.Compact"
+     $Row."DocId.Compact" = [Guid]$Row."DocId.Compact"
+     $Row."MajorVersion" = [Int32]$Row."MajorVersion"
+     $Row."MinorVersion" = [Int32]$Row."MinorVersion"
+     $Row."WebUrl.Compact" = [String]$Row."WebUrl.Compact"
+     $Row."FileUrl.Compact" = [String]$Row."FileUrl.Compact"
+     $Row."Size" = [Int64]$Row."Size"
+     $Row."ModifiedBy_UserId.Compact" = [Int32]$Row."ModifiedBy_UserId.Compact"
+     $Row."ModifiedBy_DisplayName.Compact" = [String]$Row."ModifiedBy_DisplayName.Compact"
+     $Row."LastModifiedDate" = [DateTime]$Row."LastModifiedDate"
+     $Row."SnapshotDate" = [DateTime]$Row."SnapshotDate"
+     $Row."IsSnapshotDateEstimated" = [bool]$Row."IsSnapshotDateEstimated"
+     $Row."CurrentExpirationDate" = [System.Nullable[DateTime]]$Row."CurrentExpirationDate"
+     $Row."AutomaticPolicyExpirationDate" = [System.Nullable[DateTime]]$Row."AutomaticPolicyExpirationDate"
+     $Row."TargetExpirationDate" = [System.Nullable[DateTime]]$Row."TargetExpirationDate"
+ 
+$Percent = [Math]::Ceiling(100 * $RowIndex / $Dataset.Count)
+ Write-Progress `
+     -Activity "Reading dataset" `
+     -Status "$Percent% Complete ($($RowIndex + 1) / $($Dataset.Count) rows):" `
+     -PercentComplete $Percent `
+     -SecondsRemaining $(($Dataset.Count - ($RowIndex + 1)) / (($RowIndex + 1) / $Timer.Elapsed.Totalseconds))
+  }
+  $Timer.Stop()
+  return $Dataset
+}
+function Get-NumVersionExpiresByDate($Dataset, $ColName, $DateCutoff)
+{
+     $VersionsExpired = $Dataset | Where-Object { ($null -ne $_.$ColName) -and ($_.$ColName -le $DateCutoff) }
+     $IsTodayStr = ""
+     If ((Get-Date).Date -eq ($DateCutoff).Date) 
+     {
+         $IsTodayStr = "*"
+     }
+     return [PSCustomObject]@{
+         Today = $IsTodayStr
+         Date = $DateCutoff
+         NumberOfVersionsAvailable = $Dataset.Count - $VersionsExpired.Count
+         NumberOfVersionsExpired = $VersionsExpired.Count
+         SizeOfVersionsExpiredInBytes = ($VersionsExpired | Measure-Object Size -Sum).Sum
+         }
+}
+function Get-FilesWithFewerThanNVersions($Dataset, $NumVersions)
+{
+ $AvailableVersionsByFile = $Dataset `
+```
 
 2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
+
+```PowerShell
+Using AnalyzeReportFile.ps1
+. “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file 
+version expiration What-If report .csv file>”
+```
 
 :::image type="content" source="media/version-history/analyze-report-powershell-command.png" lightbox="media/version-history/analyze-report-powershell-command.png" alt-text="analyze report powershell command":::
 
