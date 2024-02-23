@@ -210,9 +210,9 @@
 #### [Manage Version History Limits (Preview)](manage-version-history-limits-for-organization.md)
 #### [Manage Version history limits for a Site (Preview)](manage-version-history-limits-for-site.md)
 ### [Tutorials]()
-#### [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site (Preview)](tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site.md)
-#### [Tutorial: Run ‘What-If’ analysis on Version Storage Report File (Preview)](tutorial-run-what-if-analysis-on-version-storage-report-file.md)
-#### [Tutorial: Queue a Trim Job for a Site or Document Library (Preview)](tutorial-queue-a-trim-job-for-a-site-or-document-library.md)
+#### [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
+#### [Tutorial: Run 'What-If' Analysis (Preview)](tutorial-run-what-if-analysis.md)
+#### [Tutorial: Queue Trim Job (Preview)](tutorial-queue-a-trim-job.md)
 ### [FAQs](faqs-for-versions.md)
 ### [Terms of Service](terms-of-service-version-history.md)
 
