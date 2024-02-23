@@ -1,4 +1,4 @@
----alt
+---
 title: "Manage Version history limits"
 ms.reviewer: rekamath
 ms.author: serdars
