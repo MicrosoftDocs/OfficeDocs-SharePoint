@@ -132,6 +132,6 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 
 For more information, check out the following resources:
 
-- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site]()
-- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File]()
+- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site.md)
+- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](tutorial-run-what-if-analysis-on-version-storage-report-file.md)
 

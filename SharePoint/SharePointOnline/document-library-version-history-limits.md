@@ -57,7 +57,7 @@ The manual setting allows admins to set count limits on the number of major vers
 - **Major version limit with expiration period**: Versions are deleted after exceeding either the set number of major versions or after the set period of time. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
- 
+
 For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](plan-version-storage.md).
 
 ## Set Default Version limits for your Organization
@@ -221,6 +221,6 @@ The following table enumerates the scenarios and the expected version storage be
 
 For more information, check out the following resources:
 
-- Tutorial: Generate and Analyze Version Usage Report for SharePoint Site
-- Tutorial: Run ‘What-If’ analysis on Version Storage Report File
-- Tutorial: Queue Job to Trim Versions
+- [Tutorial: Generate and Analyze Version Usage Report for SharePoint Site](tutorial-generate-and-analyze-version-usage-report-for-sharepoint-site.md)
+- [Tutorial: Run ‘What-If’ analysis on Version Storage Report File](tutorial-run-what-if-analysis-on-version-storage-report-file.md)
+- [Tutorial: Queue Job to Trim Versions](tutorial-queue-a-trim-job-for-a-site-or-document-library.md)
