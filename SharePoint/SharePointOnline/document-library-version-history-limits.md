@@ -83,7 +83,7 @@ By default, site-level **Version history limits** aren't set on individual sites
 
 Site-level **Version history limits** for sites can be managed in the following ways:
 
-| **Version history limits option** | Description |
+| Version history limits option | Description |
 |:-----|:-----|
 |**Apply site-level Version history limits to all new and existing document libraries in a Site:** |Using this option, the **Version history limit** set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
 |**Apply site-level Version history limits to only new document libraries created in a Site:**|Using this option, the **Version history limits** set on site-level are only applied to new document libraries created in the site. There are no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
@@ -142,7 +142,7 @@ As a SharePoint Site Administrator, you can schedule a job to trim existing vers
 
 SharePoint supports two ways to trim existing versions on a site or library. Use the following information to help you choose which trim method is best for your use case.
 
-| **Use Case** | **Recommended approach** | **Description** |
+| Use Case | Recommended approach | Description |
 |:-----|:-----|:-----|
 | Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a version storage use report, compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits. You can then apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
 | Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
@@ -181,7 +181,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 - **Manual Expiration:** The manual expiration mode sets the target expiration date on matching versions with the specified value.
 
-:::image type="content" source="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
+  :::image type="content" source="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
 
 The following are the known limitations.
 
@@ -189,9 +189,9 @@ The following are the known limitations.
 
 1. The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
 
-- **Manual Count Limit:** The manual count limit trim mode sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
+   - **Manual Count Limit:** The manual count limit trim mode sets the target expiration date on oldest versions exceeding specified count limit to be deleted right away.
 
-:::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
+     :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
 
 ## Auditing Versioning Events
 
@@ -208,7 +208,7 @@ Version storage on SharePoint Sites is determined by several factors including v
 
 The following table enumerates the scenarios and the expected version storage behavior:
 
-| **Scenario:** |**Version Trimming Behavior** |
+| Scenario | Version Trimming Behavior |
 |:-----|:-----|
 | User deletes versions from the version history of a file. | When, a user deletes a version from the version history of a file the deleted version is moved to the site's recycle bin and can be recovered for a period. For more information, see [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be) |
 | Versions exceed settings applied on the document library. | When versions exceed the limits set at the library, versions matching the criteria are marked for permanent deletion. This version deletion workflow bypasses the normal recycle bin and the deleted versions can't be recovered from recycle bin.|
