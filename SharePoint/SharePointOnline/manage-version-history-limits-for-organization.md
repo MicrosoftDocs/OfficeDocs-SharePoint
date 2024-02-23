@@ -25,11 +25,11 @@ description: "This article describes how global and SharePoint admins in Microso
 
 This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings for Microsoft SharePoint and Microsoft OneDrive.
 
-:::image type="content" source="media/version-history/sharepoint-admin-settings.png" alt-text="diagram of sharepoint admin settings":::
+:::image type="content" source="media/version-history/sharepoint-admin-settings.png" lightbox="media/version-history/sharepoint-admin-settings.png" alt-text="diagram of sharepoint admin settings":::
 
 On the Version History Limits, SharePoint Admin Setting page uses the Organization Level Version History Limits to set global default version history limits that are universally applied to all newly created document libraries in the organization.
 
-:::image type="content" source="media/version-history/set-version-history-limits.png" alt-text="diagram of set version history limits":::
+:::image type="content" source="media/version-history/set-version-history-limits.png" lightbox="media/version-history/set-version-history-limits.png" alt-text="diagram of set version history limits":::
 
 The Set version history limits has two setting options:
 
@@ -58,7 +58,7 @@ There are two modes of manual configuration.
 1. Select **Automatically**.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
-:::image type="content" source="media/version-history/version-history-limits-automatic.png" alt-text="automatic":::
+:::image type="content" source="media/version-history/version-history-limits-automatic.png" lightbox="media/version-history/version-history-limits-automatic.png" alt-text="automatic":::
 
 To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
@@ -75,7 +75,7 @@ Set-SPOTenant - EnableAutoExpirationVersionTrim $true
 1. Set the **Delete versions after this period of time** drop-down option to '**Never**.' This setting ensures that no expiration is stamped on versions.
 1. Select **Save** and **Confirm** to apply the changes to all new libraries created.
 
-:::image type="content" source="media/version-history/version-history-limits-manual.png" alt-text="custom":::
+:::image type="content" source="media/version-history/version-history-limits-manual.png" lightbox="media/version-history/version-history-limits-manual.png" alt-text="custom":::
 
 ## Set Manual Version Count and Expiration Storage Limits
 
