@@ -43,7 +43,6 @@ Here’s an example of the PowerShell script that generates a **site-scoped** re
 > The report location is within a SharePoint document library.
 
 ```PowerShell
-
 # Connect to the site that you would like to run a report on
 Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
 
@@ -62,7 +61,6 @@ Here’s a PowerShell script that generates a **library-scoped** report at the *
 > The report location is within a SharePoint document library.
 
 ```PowerShell
-
 # Connect to the site that you would like to run a report on 
 Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
 
@@ -84,11 +82,9 @@ https://contoso.sharepoint.com/Shared Documents/LibraryReport.csv
 
 ## Check Report Generation Progress
 
-- Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
-
+Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
 
 ```PowerShell
-
 # Connect to the site that you would like to run a report on
 Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin 
 
@@ -101,10 +97,9 @@ Get-PnPFileVersionExpirationReport JobProgress -Site $Site -ReportUrl
 
 :::image type="content" source="media/version-history/site-scoped-report.png" lightbox="media/version-history/site-scoped-report.png" alt-text="site scoped report":::
 
-- Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
+Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
 
 ```PowerShell
-
 # Connect to the site that contains the library
 Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
 
@@ -117,7 +112,7 @@ Get-PnPFileVersionExpirationReport JobProgress -Library $Library -ReportUrl
 
 :::image type="content" source="media/version-history/library-scoped-report-analysed.png" lightbox="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
 
-- The cmdlet returns in JSON format, and the value appears as one of the following values:
+The cmdlet returns in JSON format, and the value appears as one of the following values:
 
 ```PowerShell
 JSON Response Value and Explanations
@@ -131,7 +126,7 @@ populating this file, but there was one and it failed.
 
 ## Understand Version Report File
 
-- Here’s an example of file version expiration report and its column breakdown.
+Here’s an example of file version expiration report and its column breakdown.
 
 :::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="expiration report":::
 
