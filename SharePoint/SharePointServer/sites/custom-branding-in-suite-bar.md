@@ -49,10 +49,23 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
 
 ### Example 1
 
-1. Set the feature release ring to **Early release** for your farm to make this feature available in the SharePoint Server Subscription Edition version 23H2. For more information, see
-[Feature release rings](../administration/feature-release-rings.md).
+1. Set **IsTAPCustomer** farm-level property to **1**.
 
-2. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
+   ```PowerShell
+      $farm = Get-SPFarm
+      $farm.Properties["IsTAPCustomer"] = "1"
+      $farm.Update()
+   ```
+
+2. Set the feature release preference for the farm to **early**.
+
+   ```PowerShell
+      Set-SPFeatureReleasePreference -FeatureReleaseRing Early
+   ```
+
+3. Run the SharePoint Configuration Wizard to ensure the above two changes are applied.
+
+4. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
 
    ```PowerShell
       $webapp = Get-SPWebApplication http://spwfe
@@ -60,7 +73,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
       $webapp.Update()
    ```
 
-3. Set all the options, as shown in the following command-syntax example:
+5. Set all the options, as shown in the following command-syntax example:
 
    ```PowerShell
       $webapp.SuiteNavBrandingText = "Suite Bar Branding"
