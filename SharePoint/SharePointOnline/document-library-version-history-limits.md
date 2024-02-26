@@ -1,5 +1,5 @@
 ---
-title: "Document Library Version History Limits"
+title: "Document Library Version History Limits Overview"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -65,7 +65,7 @@ For more information on setting types of Version history limits, see [Plan Versi
 
 ## Set Default Version limits for your Organization
 
-Organization-level version settings define the default version storage limits that will be applied on all new document libraries created across all existing or newly created SharePoint sites. This setting allows Admins to define the global default version history limits that apply across the organization to ensure consistent version storage use.  
+Organization-level version settings define the default version storage limits that applies on all new document libraries created across all existing or newly created SharePoint sites. This setting allows Admins to define the global default version history limits that apply across the organization to ensure consistent version storage use.  
 
 **Example Scenario**
 
@@ -127,13 +127,13 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 ## Trim Existing Versions from Sites or Libraries
 
-As a SharePoint Site Administrator, you can queue a job to trim existing versions on your sites to reduce the version storage footprint of your site or align existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted. This deletion workflow will bypass the normal recycle bin and deleted versions can't be recovered. 
+As a SharePoint Site Administrator, you can queue a job to trim existing versions on your sites to reduce the version storage footprint of your site. You can also align existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted. This deletion workflow bypasses the normal recycle bin and deleted versions can't be recovered.
 
 SharePoint supports two ways to trim existing versions on a site or library. Use the following information to help you choose which trim method is best for your use case.
 
 | Use Case | Recommended approach | Description |
 |:-----|:-----|:-----|
-| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You are able to generate a report to review version storage usage. Review the storage savings and user impact of the trim mode before committing to the trim. <br> <br> Once you have reviewed the impact, you can queue a job to trim which will asynchronously delete versions that match the trimming criteria. |
+| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a report to review version storage usage. Review the storage savings and user impact of the trim mode before committing to the trim. <br> <br> Once you review the impact, you can queue a job to trim which will asynchronously delete versions that match the trimming criteria. |
 | Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. <br> <br> Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
 
 :::image type="content" source="media/version-history/trimming-workflows.png" lightbox="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::

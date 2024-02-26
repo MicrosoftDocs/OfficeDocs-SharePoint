@@ -1,5 +1,5 @@
 ---
-title: "Plan version storage for your organization"
+title: "Plan Version Storage for Document Libraries"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars

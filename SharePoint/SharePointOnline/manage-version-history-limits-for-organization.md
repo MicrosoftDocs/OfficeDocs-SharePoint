@@ -1,5 +1,5 @@
 ---
-title: "Manage Version history limits"
+title: "Manage Version history limits for your Organization"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
