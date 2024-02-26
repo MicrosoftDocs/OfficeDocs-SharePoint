@@ -18,6 +18,9 @@ description: "Learn how to add a custom search vertical to your results page in 
 # How to add a custom search vertical to your search results page in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
+
+> [!NOTE]
+> Custom search verticals are available in both the modern search result experience and the classic search result experience, starting with SharePoint Server Subscription Edition Version 24H1. In previous versions of SharePoint Server, custom search verticals were only available in the classic search result experience.
   
 In the previous article in this series, [How to add refiners to your search results page in SharePoint Server](how-to-add-refiners-to-your-search-results-page.md), we showed you how to add and configure refiners for your classic search results page. In this article you'll learn:
   
@@ -40,13 +43,13 @@ Suppose you enjoy skiing, so you often search for ski-related content. When you 
   
 ![Search Vertical Web](../media/OTCSP_WebSki.png)
   
-You are delighted to see there is much information out there about skiing, but in this case, you are just looking for great ski pictures. This is where search verticals can be used.
+You're delighted to see there's much information out there about skiing, but in this case, you're just looking for great ski pictures. This is where search verticals can be used.
   
-On the same search results page, you click **IMAGES**, and in an instant your screen is filled with images of people in colorful clothing, racing down white slopes while bathing in sunshine from a clear blue sky. Wow! 
+On the same search results page, you select **IMAGES**, and in an instant your screen is filled with images of people in colorful clothing, racing down white slopes while bathing in sunshine from a clear blue sky. Wow! 
   
 ![Search Vertical Images](../media/OTCSP_ImagesSki.png)
   
-When you click **IMAGES**, you are using a search vertical. Bing has five search verticals: **WEB**, **Images**, **VIDEOS** **Maps**, and **NEWS**. 
+When you select **IMAGES**, you're using a search vertical. Bing has five search verticals: **WEB**, **Images**, **VIDEOS** **Maps**, and **NEWS**. 
   
 ![Five Search Verticals](../media/OTCSP_BingVerticals.png)
   
@@ -59,11 +62,11 @@ In SharePoint Server, search verticals are displayed in the **Search Navigation 
   
 ![Four Default Search Verticals](../media/OTCSP_DefaultSPSearchVerticals.png)
   
-When users click one of these search verticals, it will in fact move to a new page. For example, the default search results page, the **Everything** search vertical, uses the **results.aspx** page. 
+When users select one of these search verticals, it will in fact move to a new page. For example, the default search results page, the **Everything** search vertical, uses the **results.aspx** page. 
   
 ![Everything Page](../media/OTCSP_EverythingPage.png)
   
-When a user clicks on the **People** search vertical, they navigate to the **peopleresults.aspx** page. 
+When a user selects the **People** search vertical, they navigate to the **peopleresults.aspx** page. 
   
 ![People Page](../media/OTCSP_PeoplePage.png)
   
@@ -92,7 +95,7 @@ The default vertical pages all use these Web Parts:
     
 4. Search Results Web Part
     
-The difference between these pages is how the **Search Results Web Part** is configured. To be specific: the Web Parts are configured to use different  *result sources*  . 
+The difference between these pages is how the **Search Results Web Part** is configured. To be specific: the Web Parts are configured to use different  *result sources*. 
   
 ## Result sources - why setting limits is a good thing
 <a name="BKMK_ResultSourcesWhySettingLimitsisaGoodThing"> </a>
@@ -121,13 +124,13 @@ In our internal search center scenario, all search results are list items that r
     
 But, before we could begin to create these search verticals, we had to create one result source for each custom search vertical. We showed you how to create a result source in [How to create a result source](how-to-configure-the-search-results-web-part-to-use-a-new-result-source.md#BKMK_HowtoCreateaResultSource).
   
-This is how we defined the  *Art result source*  . 
+This is how we defined the  *Art result source*. 
   
 ![Art Result Type Query](../media/OTCSP_ArtResultTypeQuery.png)
   
 Remember,  `{searchTerms?}(contentclass:sts_listitem) path:http://<path>` was the query text of the Article result source that we created earlier. To this, we added  `AND ContentType:Art`
   
-In our lists, we use the site column  *Content Type*  to specify the different media files. For example, all images have the value  *Art*  for  *Content Type*  . 
+In our lists, we use the site column  *Content Type*  to specify the different media files. For example, all images have the value  *Art*  for  *Content Type. 
   
 ![Content Type:Art](../media/OTCSP_ContentTypeArt2.png)
   
@@ -160,7 +163,7 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![Create Page](../media/OTCSP_NewArtPage.png)
   
-5. Click **Create**. 
+5. Select **Create**. 
     
     Your new page is displayed in your **Pages** library. 
     
@@ -168,17 +171,17 @@ When you create a custom search vertical, the first thing that you must do is to
   
     Now that you have a page for your custom search vertical, you can begin to create the actual search vertical. Here's what you should do:
     
-6. On the **Site Settings** page, click **Search Settings**. 
+6. On the **Site Settings** page, select **Search Settings**. 
     
      ![Search Settings](../media/OTCSP_SearchSettings.png)
   
-7. On the **Search Settings** page, in the **Configure Search Navigation** section, click **Add Link**. 
+7. On the **Search Settings** page, in the **Configure Search Navigation** section, select **Add Link**. 
     
      ![Configure Search Navigation](../media/OTCSP_AddLink.png)
   
 8. In the **Navigation Link** dialog, in the **Title** field, enter the search vertical title. This text will appear as the "tab" name on your search results page. 
     
-    In our scenario, we entered  *Art*  . 
+    In our scenario, we entered  *Art*. 
     
      ![Navigation Title](../media/OTCSP_NavigationTitle.png)
   
@@ -188,15 +191,15 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![URL Art](../media/OTCSP_URLArt.png)
   
-10. Click **OK** to close the **Navigation Link** dialog. 
+10. Select **OK** to close the **Navigation Link** dialog. 
     
-11. On the **Search Settings** page, in the **Configure Search Navigation** section, select the search verticals that you don't want to display, and then click **Delete**. 
+11. On the **Search Settings** page, in the **Configure Search Navigation** section, select the search verticals that you don't want to display, and then select **Delete**. 
     
     In our scenario, we deleted the **People**, **Conversations**, and **Videos** verticals so that we were only left with the **Everything** and the **Art** search vertical. 
     
      ![Two Verticals](../media/OTCSP_TwoVerticals.png)
   
-12. Click **OK** to save all changes. 
+12. Select **OK** to save all changes. 
     
 13. In your Search Center, enter a query. On your search results page, your newly created search vertical is displayed.
     
@@ -204,15 +207,15 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![New Art Vertical](../media/OTCSP_NewArtVertical.png)
   
-14. On your search results page, click on your newly created search vertical, and verify that the URL is the same as you specified in step 4.
+14. On your search results page, select on your newly created search vertical, and verify that the URL is the same as you specified in step 4.
     
-    In our scenario, we clicked  *Art*  , and verified that the URL was  *\<site\>/articles/Pages/art.aspx*  . We also noticed that 13 search results were displayed. 
+    In our scenario, we clicked  *Art*, and verified that the URL was  *\<site\>/articles/Pages/art.aspx*  . We also noticed that 13 search results were displayed. 
     
      ![Query Art Vertical](../media/OTCSP_QueryArtVertical.png)
   
 15. On your new search vertical page, select to edit the page, and then to edit the **Search Results Web Part**. 
     
-16. In the Web Part tool page, click **Change query**. This opens a dialog. 
+16. In the Web Part tool page, select **Change query**. This opens a dialog. 
     
      ![Change Query](../media/OTCSP_ChangeQuery.png)
   
@@ -222,7 +225,7 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![Select a Query](../media/OTCSP_SelectAQuery.png)
   
-18. Click **OK** and save the page. 
+18. Select **OK** and save the page. 
     
     On your new search vertical page, enter a query to verify that the correct search results are displayed.
     
@@ -230,11 +233,12 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![Final Art Vertical Result](../media/OTCSP_FinalArtVerticalResult.png)
   
-    In our scenario, we added two more search verticals,  *Video*  and  *Interop*  . And with that, we had completed the Search Center set up. 
+    In our scenario, we added two more search verticals,  *Video*  and  *Interop*. And with that, we had completed the Search Center set up. 
     
      ![All Search Verticals](../media/OTCSP_AllSearchVerticals.png)
   
 ## What you can do after you have successfully set up a Search Center
+
 <a name="BKMK_WhatYouCanDoAfterYouHaveSuccessfullySetUpaSearchCenter"> </a>
 
 When you have successfully set up a Search Center, the first thing that you should do is congratulate yourself on a job well done! Nice job!
