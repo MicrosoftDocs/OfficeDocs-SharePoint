@@ -20,14 +20,14 @@ description: "This article provides guidance on how Version History settings wor
 
 ---
 
-# Document Library Version History Limits (Preview)
+# Document Library Version History Limits Overview
 
 > [!NOTE]
-> Document library version controls at Tenant and Site level and the new Automatic and Manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Microsoft 365 version history preview terms and conditions](https://microsoftapc.sharepoint.com/:w:/t/SharePointVersionTrimmingPreviewProgram/EXThSk2EYAZAmr7wACpcFG0BfPgI6GxQ8rFjJ1Sui9pS6Q?e=AQsfwM).
+> Document library version controls at Tenant and Site level and the new Automatic and Manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Version History preview terms and conditions](https://microsoftapc.sharepoint.com/:w:/t/SharePointVersionTrimmingPreviewProgram/EXThSk2EYAZAmr7wACpcFG0BfPgI6GxQ8rFjJ1Sui9pS6Q?e=AQsfwM).
 
 ## How Version History Limits for Document Libraries Work
 
-You can control the version history in SharePoint at different levels—organization, site, individual library, or list level. This capability helps admins and site owners manage content recovery and auditing more effectively. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site Owners can overwrite organization-level version settings by [configuring versions settings for sites](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
+Version history limits set for Document Libraries control how versions are stored in the library. Limits can be set at Organization, Site, or individual library level allowing admins and site owners the ability to better manage content recovery and auditing requirements. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site Owners can overwrite organization-level version settings by [configuring versions settings for sites](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
 
 The following table summarizes the various ways of managing **Version history limits** on your document libraries:
 
@@ -60,12 +60,12 @@ The manual setting allows admins to set count limits on the number of major vers
 
 For more information on setting types of Version history limits, see [Plan Version Storage for your Organization](plan-version-storage.md).
 
+> [!NOTE]
+> If time version history limits are configured on a library, the file version expiration date is stamped on a version at creation time. The expiration date set on a file version is determined from the SnapshotDate of the version which is the date a version became a historical version. The SnapshotDate might be estimated if the version was snapshotted before January 1, 2023.
+
 ## Set Default Version limits for your Organization
 
-Organization-level version settings define the default version storage limits set on all new document libraries created across all existing or newly created SharePoint sites allowing you to set global default **Version history limits** across your organization.  
-
-> [!IMPORTANT]
-> When organizational-level version settings are updated, the new settings will be updated to all new document libraries (Base Type = 1). However, it will not update the history limits on the existing document libraries or result in the trimming of existing versions to meet the new limits. You'll need to take additional steps to update the [settings on existing libraries on a site](#set-version-limits-for-a-site) or to [trim existing versions](#trim-existing-versions-from-sites-or-libraries).
+Organization-level version settings define the default version storage limits that will be applied on all new document libraries created across all existing or newly created SharePoint sites. This setting allows Admins to define the global default version history limits that apply across the organization to ensure consistent version storage use.  
 
 **Example Scenario**
 
@@ -76,6 +76,13 @@ Take an example of Contoso with an existing Marketing site with a set of librari
 - **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
 
 :::image type="content" source="media/version-history/break-inheritance-at-site-level.png" lightbox="media/version-history/break-inheritance-at-site-level.png" alt-text="Diagram of break inheritance":::
+
+> [!IMPORTANT]
+> - Changes made to Organization-level version history limits apply to new SharePoint libraries and OneDrive user accounts created since the change was made.
+> - Changes made to Organization-level version history limits will not update the history limits on existing document libraries. You can [update settings on existing libraries on individual site](#set-version-limits-for-a-site) or libraries. The ability to apply version history limits to existing document libraries at the organization level is not supported.
+> - Changes made to Organization-level version history limits will not trim existing versions to meet the new limits. You can [trim existing versions](#trim-existing-versions-from-sites-or-libraries) on a site or lib. The ability to trim existing versions at the organization level is not supported.
+> - Default Version History limits for your organization is set to Manual version history limits with 500 major version count limit and no expiration.
+> - Organization-level Document Library version limit settings can be used to configure version settings on Libraries only (List template Base Type = 1). List version settings, Creation of major and minor versions or Content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
 ## Set Version limits for a Site
 
@@ -102,10 +109,9 @@ Take an example of Contoso where organizational version limits are set to Automa
 
 > [!IMPORTANT]
 >
-> - Setting site-level **Version history limits** is available using PowerShell cmdlets only.
-> - Updating the Site-level settings of existing document libraries of the site **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to [trim existing versions](#trim-existing-versions-from-sites-or-libraries).
-> - Requests to update limits on existing libraries are processed asynchronously. If a new request is issued but the old one isn't yet completed yet, it returns the message "Set-PnPSite: Can't start to set version policy for document libraries on the site because it's already in progress. Wait for it to finish or cancel it."
-> - MinorVersions count only applies to the document libraries that enabled minor versioning.
+> - Setting site-level Version history limits is available using PowerShell cmdlets only.
+> - Setting site-level Version history limits **will not** trim existing versions to meet the newly set limits. Additional steps will need to be taken to [trim existing versions](#trim-existing-versions-from-sites-or-libraries).
+> - Requests to update limits on existing libraries are processed asynchronously which can take up to 24 hours to process.
 
 ## Set Version limits for Individual Document Library
 
@@ -119,33 +125,16 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 :::image type="content" source="media/version-history/overright-version-history-limits-document-library.png" lightbox="media/version-history/overright-version-history-limits-document-library.png" alt-text="overwrite version history":::
 
-> [!CAUTION]
-> Versions deleted either under the automatic setting or due to versions' age or count exceeded the limits set by the admin are marked for permanent deletion. These will not be available to restore from the recycle bin.
-
-The important points to note are as follows:
-
-- Default Workflow: The following is the default workflows for document library **Version history limits**:
-    - Default organization Level Limits: The default **Version history limits** for your organization is set to Manual mode with **500 Major Version Limit** set to **Never Expire**.
-    - Default Site or Library Level Limits: By default, **Version history limits** isn't set on individual sites, as new document libraries inherit the organization-level limits.
-
-- Organizational-level version limit settings can be used to configure version settings on libraries only. List version settings, creation of major and minor versions or content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
-
-- Changes made to organization-level settings apply to new libraries created since the change was made. The ability to apply the setting to existing document libraries at the organization-level isn't yet released. The new setting doesn't apply to the existing libraries or to versions that were already created.
-
-- A version's expiration date is determined from library version settings and is stamped on the version when a version is created. If expiration settings at the library are modified, the expiration date on the existing versions of a file remains unchanged.
-
-- Retention settings determine the retention of versions for a document subject to such settings. In other words, the retention setting always wins, whether it's a deletion or hold policy. [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint).
- 
 ## Trim Existing Versions from Sites or Libraries
 
-As a SharePoint Site Administrator, you can schedule a job to trim existing versions on your sites. This action reduces the version storage footprint of your site or aligns existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using scheduled jobs are permanently deleted. This deletion bypasses the normal recycle bin and deleted versions can't be recovered.
+As a SharePoint Site Administrator, you can queue a job to trim existing versions on your sites to reduce the version storage footprint of your site or align existing version storage with updated version history limits by scheduling a job to trim existing versions. There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted. This deletion workflow will bypass the normal recycle bin and deleted versions can't be recovered. 
 
 SharePoint supports two ways to trim existing versions on a site or library. Use the following information to help you choose which trim method is best for your use case.
 
 | Use Case | Recommended approach | Description |
 |:-----|:-----|:-----|
-| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You're able to generate a version storage use report. Compare the storage savings and user impact of different trimming modes like Manual Count or Expiration limits. You can then apply a desired trimming mode on the report and finally queue the job to trim versions. <br> <br> |
-| Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
+| Review impact before scheduling version trim job.<br> <br> Compare different trimming modes for desired savings and acceptable impact. | Analyze and Trim  | The 2-step trim workflow allows you to assess the impact of version trimming before scheduling the trim job. <br> <br> You are able to generate a report to review version storage usage. Review the storage savings and user impact of the trim mode before committing to the trim. <br> <br> Once you have reviewed the impact, you can queue a job to trim which will asynchronously delete versions that match the trimming criteria. |
+| Trim versions without analyzing impact. | Directly queue the trim job |Skip the impact analysis step by and queue the job to trim existing versions. <br> <br> Use this workflow only if you're comfortable with directly applying the trimming and don't need to review impact before committing to the trim job. |
 
 :::image type="content" source="media/version-history/trimming-workflows.png" lightbox="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::
 

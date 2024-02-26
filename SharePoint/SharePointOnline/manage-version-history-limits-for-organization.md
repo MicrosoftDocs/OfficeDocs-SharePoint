@@ -19,9 +19,7 @@ search.appverid:
 description: "This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings."
 ---
 
-# Manage Version History Limits (Preview)
-
-## Manage Version history limits for your Organization
+# Manage Version history limits for your Organization
 
 This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level Version History Limit settings for Microsoft SharePoint and Microsoft OneDrive.
 
