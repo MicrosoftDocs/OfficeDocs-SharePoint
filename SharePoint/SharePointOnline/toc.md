@@ -204,10 +204,10 @@
 
 ## Versions
 ### [Versioning Overview](versioning-overview.md)
-### [Document Library Version History Limits (Preview)](document-library-version-history-limits.md)
-### [Plan Version Storage (Preview)](plan-version-storage.md)
+### [Document Library Version History Limits Overview](document-library-version-history-limits.md)
+### [Plan Version Storage for Document Libraries](plan-version-storage.md)
 ### [Manage Version History Limits]()
-#### [Manage Version History Limits (Preview)](manage-version-history-limits-for-organization.md)
+#### [Manage Version history limits for your Organization](manage-version-history-limits-for-organization.md)
 #### [Manage Version history limits for a Site (Preview)](manage-version-history-limits-for-site.md)
 ### [Tutorials]()
 #### [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
