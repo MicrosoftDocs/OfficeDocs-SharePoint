@@ -115,7 +115,7 @@ Take an example of Contoso where organizational version limits are set to Automa
 
 ## Set Version limits for Individual Document Library
 
-The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to overwrite the setting of a document library.
+The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to [configure versioning for a library](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
 Here's a summary of the expected behavior when Document Libraries version expiration or count limits are updated:  
 
