@@ -170,7 +170,12 @@ This setting specifies the default location of the OneDrive folder for each orga
 
 The parameters are **TenantID** and **DefaultFolderPath**.
 The **TenantID** value is a string that determines the tenants to whom the **default folder location** setting is applicable.
-The **DefaultFolderPath** value is a string that specifies the default location of the folder.
+The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (i.e. the default location) you can specify the path as ~/. The string would look like this:
+
+
+```
+<string>~/</string>
+```
 
 The following are the conditions governing the default folder location:
 -**Mac App Store**: The path must already exist when the user is setting up the sync app.
@@ -179,14 +184,12 @@ The following are the conditions governing the default folder location:
 The example for this setting in the .plist file is:
 ```xml
 <key>DefaultFolder</key>
-<array>
-	<dict>
-		<key>Path</key>
-		<string>(DefaultFolderPath)</string>
-		<key>TenantId</key>
-		<string>(TenantID)</string>
-	</dict>
-</array>
+<dict>
+<key>Path</key>
+<string>(DefaultFolderPath)</string>
+<key>TenantId</key>
+<string>(TenantID)</string>
+</dict>
 ```
 
 ### DisableAutoConfig
