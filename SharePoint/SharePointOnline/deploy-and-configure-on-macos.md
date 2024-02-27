@@ -179,12 +179,14 @@ The following are the conditions governing the default folder location:
 The example for this setting in the .plist file is:
 ```xml
 <key>DefaultFolder</key>
-<dict>
-<key>Path</key>
-<string>(DefaultFolderPath)</string>
-<key>TenantId</key>
-<string>(TenantID)</string>
-</dict>
+<array>
+	<dict>
+		<key>Path</key>
+		<string>(DefaultFolderPath)</string>
+		<key>TenantId</key>
+		<string>(TenantID)</string>
+	</dict>
+</array>
 ```
 
 ### DisableAutoConfig
