@@ -61,7 +61,7 @@ There are two modes of manual configuration.
 To set Automatic version history limits for all new document libraries created in your organization using PowerShell, run the following command:
 
 ```PowerShell
-Set-SPOTenant - EnableAutoExpirationVersionTrim $true
+Set-SPOTenant-EnableAutoExpirationVersionTrim $true
 ```
 
 ## Set Manual Version Count Limits with No Expiration
@@ -89,9 +89,9 @@ To set count and expiration limits for all new document libraries created in you
 
 ```PowerShell
 Set-SPOTenant 
-- EnableAutoExpirationVersionTrim $false
-- MajorVersionLimit<int>
-- ExpireVersionsAfterDays<0>
+-EnableAutoExpirationVersionTrim $false
+-MajorVersionLimit<int>
+-ExpireVersionsAfterDays<0>
 ```
 
 ## Review Organization Version Storage Limits

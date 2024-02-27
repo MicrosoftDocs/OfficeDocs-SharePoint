@@ -49,7 +49,7 @@ You can set version limits to apply to all document libraries in a site by runni
 - Run the following commands to **apply Automatic setting** and check policy setting applied.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $true
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
   ``` 
@@ -60,7 +60,7 @@ You can set version limits to apply to all document libraries in a site by runni
 expire after 200 days.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
   MajorWithMinorVersions 10 -ExpireVersionsAfterDays 200
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
@@ -71,7 +71,7 @@ expire after 200 days.
   In this example count, limits are set to 300 major versions with 20 minor versions.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 300 -
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $false -MajorVersions 300 -
   MajorWithMinorVersions 20 -ExpireVersionsAfterDays 0
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
@@ -79,7 +79,7 @@ expire after 200 days.
 
 ### Get progress of an in-progress setting update request
 
-Version limits on all new libraries created in the site are immediately applied. Settings on existing libraries are asynchronously updated using a background job. Run the following commands **to get the progress of the settings update job**. 
+Version limits on all new libraries created in the site are immediately applied. Settings on existing libraries are asynchronously updated using a background job. Run the following commands **to get the progress of the settings update job**.
 
 ```PowerShell
 Get-PnPSiteVersionPolicyProgress
@@ -100,7 +100,7 @@ Here's the description of the status in response:
 Run the following commands to cancel an `<InProgress>` settings update request. Cancels the settings update request on libraries that isn't processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 ```PowerShell
-Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
+Set-PnPSiteVersionPolicy-CancelForExistingDocumentLibraries
 ```
 
 ## Set version history limits to apply on new document libraries created on a site
@@ -108,7 +108,7 @@ Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
 - Run the following commands to **apply Automatic setting** and check policy setting applied.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true -
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $true -
   ApplyToNewDocumentLibraries
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
@@ -119,8 +119,8 @@ Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
   In this example count, limits are set to 100 major versions and versions are set to expire after 200 days.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
-  ExpireVersionsAfterDays 200 -ApplyToNewDocumentLibraries
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+  ExpireVersionsAfterDays 200-ApplyToNewDocumentLibraries
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
   ```
@@ -130,8 +130,7 @@ Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
   In this example count, limits are set to 300 major versions with 20 minor versions.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 300 -
-  ExpireVersionsAfterDays 0 -ApplyToNewDocumentLibraries
+  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 300-ExpireVersionsAfterDays 0-ApplyToNewDocumentLibraries
   # Check version policy setting on site
   Get-PnPSiteVersionPolicy 
   ```
@@ -141,7 +140,7 @@ Set-PnPSiteVersionPolicy -CancelForExistingDocumentLibraries
 Run the following command to **clear an existing version history limit applied on a site**. When the setting on the site is cleared, the tenant level version history limits are applied on the new document libraries. However, no changes are made to the limits on existing libraries.
 
 ```PowerShell
-Set-PnPSiteVersionPolicy -InheritFromTenant
+Set-PnPSiteVersionPolicy-InheritFromTenant
 ```
 
 ## Set version history policy for existing document libraries only
@@ -149,7 +148,7 @@ Set-PnPSiteVersionPolicy -InheritFromTenant
 - Run the following commands to **apply Automatic setting** and check policy setting applied.
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $true -
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $true -
   ApplyToExistingDocumentLibraries
   ```
 
@@ -158,15 +157,15 @@ Set-PnPSiteVersionPolicy -InheritFromTenant
 - Apply Manual Setting with Versions count and Time limits
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
-  MajorWithMinorVersions 5 -ExpireVersionsAfterDays 200 -ApplyToExistingDocumentLibraries
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+  MajorWithMinorVersions 5-ExpireVersionsAfterDays 200-ApplyToExistingDocumentLibraries
   ```
 
 - Apply Manual Setting with Versions count and NO Time limits
 
   ```PowerShell
-  Set-PnPSiteVersionPolicy -EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
-  MajorWithMinorVersions 5 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries
+  Set-PnPSiteVersionPolicy-EnableAutoExpirationVersionTrim $false -MajorVersions 100 -
+  MajorWithMinorVersions 5-ExpireVersionsAfterDays 0-ApplyToExistingDocumentLibraries
   ```
 
 ## Learn More

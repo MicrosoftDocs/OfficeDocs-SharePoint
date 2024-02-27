@@ -184,7 +184,7 @@ The following are the known limitations.
 
 ## Auditing Versioning Events
 
-Audit events are available on the Microsoft Purview compliance portal to help you monitor version history activities. Audit events are logged for the following activities: 
+Audit events are available on the Microsoft Purview compliance portal to help you monitor version history activities. Audit events are logged for the following activities:
 
 - Changes made to Organization version history limits.
 - Changes made to Site version history limits.
