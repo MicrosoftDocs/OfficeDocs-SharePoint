@@ -1,9 +1,9 @@
 ---
-ms.date: 01/09/2024
+ms.date: 02/28/2024
 title: SharePoint Copilot Best Practices
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -19,7 +19,7 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "Learn about the best practices when using SharePoint Copilot."
+description: "Learn about the best practices for content sharing when enabling Microsoft Copilot for Microsoft 365."
 ---
 # SharePoint Copilot best practices
 
