@@ -113,7 +113,7 @@ You have the option of ignoring this setting to display all content in search re
 |Always index all Web Parts on this site  <br/> |Show content of all ASPX pages on the site in search results regardless of permissions.  <br/> |
 |Never index any Web Parts on this site  <br/> |Hide content of all ASPX pages on the site from search results regardless of permissions.  <br/> |
    
-## Exclude content in columns from search results
+## Exclude content in columns from search results only applicable for SharePoint On premises. 
 <a name="__toc356211704"> </a>
 
 As a site owner you can control whether the content in specific columns in lists or libraries appears in search results. By default, all content is included in search results. This setting is useful when you want to prevent sensitive data from appearing in search results.
