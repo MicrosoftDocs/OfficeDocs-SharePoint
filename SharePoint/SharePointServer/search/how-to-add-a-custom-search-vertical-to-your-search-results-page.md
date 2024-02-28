@@ -22,7 +22,7 @@ description: "Learn how to add a custom search vertical to your results page in 
 > [!NOTE]
 > Custom search verticals are available in both the modern search result experience and the classic search result experience, starting with SharePoint Server Subscription Edition Version 24H1. In previous versions of SharePoint Server, custom search verticals were only available in the classic search result experience.
   
-In the previous article in this series, [How to add refiners to your search results page in SharePoint Server](how-to-add-refiners-to-your-search-results-page.md), we showed you how to add and configure refiners for your classic search results page. In this article you'll learn:
+In the previous article in this series, [How to add refiners to your search results page in SharePoint Server](how-to-add-refiners-to-your-search-results-page.md), we showed you how to add and configure refiners for your search results page. In this article you'll learn:
   
 - [Using a search vertical in an everyday situation](how-to-add-a-custom-search-vertical-to-your-search-results-page.md#BKMK_UsingaSearchVerticalinanEverydaySituation)
     
@@ -178,6 +178,9 @@ When you create a custom search vertical, the first thing that you must do is to
 7. On the **Search Settings** page, in the **Configure Search Navigation** section, select **Add Link**. 
     
      ![Configure Search Navigation](../media/OTCSP_AddLink.png)
+
+    > [!IMPORTANT]
+    > Deleting default search navigation items will only take effect in the classic search results page, but not in the modern search results page.
   
 8. In the **Navigation Link** dialog, in the **Title** field, enter the search vertical title. This text will appear as the "tab" name on your search results page. 
     
