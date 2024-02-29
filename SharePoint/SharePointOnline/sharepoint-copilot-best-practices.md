@@ -69,7 +69,7 @@ Once you have identified the SharePoint sites with potential oversharing issues,
 
 - Identify SharePoint sites that have been inactive for a long time. See how you can easily do that via [our new Inactive Site Policies](/sharepoint/site-lifecycle-management#create-an-inactive-site-policy). You can then lock down permissions on these sites via the [Restricted Access Control policy](/sharepoint/restricted-access-control). You can also consider archiving or deleting these sites.
 
-- Consider hiding wide scope permissions from your end users to reduce risks around accidental misuse. [This example](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#example-2) hides the "Everyone Except External Users" in People Picker control so that no end user can use it.
+- Consider hiding wide scope permissions from your end users to reduce risks around accidental misuse. [This example](/powershell/module/sharepoint-online/set-spotenant?#example-2) hides the "Everyone Except External Users" in People Picker control so that no end user can use it.
 • Consider implementing Conditional Access policies for SharePoint and OneDrive. For example, a policy could require users visiting specific sites with sensitive data to access from a managed device or known network location. Copilot for Microsoft 365 also honors these restrictions. Learn more [here](/sharepoint/authentication-context-example).
 
 - Consider [adopting sharing best practices](/microsoft-365/solutions/microsoft-365-limit-sharing) like changing sharing link defaults from companywide sharing to specific people links.
