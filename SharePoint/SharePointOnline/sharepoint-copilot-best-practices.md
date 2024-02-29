@@ -1,6 +1,6 @@
 ---
 ms.date: 02/29/2024
-title: SharePoint Copilot Best Practices
+title: Microsoft Copilot for Microsoft 365 Best Practices with SharePoint
 ms.reviewer: 
 ms.author: ruihu
 author: maggierui
@@ -19,11 +19,11 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "Learn about the best practices for content sharing when enabling Microsoft Copilot for Microsoft 365."
+description: "Learn about the best practices with SharePoint for content sharing when enabling Microsoft Copilot for Microsoft 365."
 ---
 # How do SharePoint permissions affect your users’ Copilot for Microsoft 365 experience?
 
-Microsoft Copilot for Microsoft 365 provides value by connecting Large Language Models (LLMs) to your organizational data. Copilot for Microsoft 365 accesses content and context through [Microsoft Graph](/graph/overview) and can generate responses based on your organizational data. The data sources include user documents stored in SharePoint and OneDrive, emails, calendars, chats, meetings, and contacts. Copilot for Microsoft 365 combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on a topic, or the chat conversations the user had last week. Copilot uses this combination of content and context to help provide accurate, relevant, and contextual responses.
+Microsoft Copilot for Microsoft 365 provides value by connecting Large Language Models (LLMs) to your organizational data. Copilot for Microsoft 365 accesses content and context through [Microsoft Graph](/graph/overview) and can generate responses based on your organizational data. The data sources include user documents stored in SharePoint and OneDrive, emails, calendars, chats, meetings, and contacts. Copilot for Microsoft 365 combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on a topic, or the chat conversations the user had last week. Copilot for Microsoft 365 uses this combination of content and context to help provide accurate, relevant, and contextual responses.
 
 Copilot for Microsoft 365 only surfaces organizational data to which individual users have *at least view permissions*. It's important to use the permission models in SharePoint to ensure the right users or groups have the right access to the right content within your organization.
 This article provides guidance and best practices that you, as a SharePoint administrator, can take control of the SharePoint permissions model before you [enable Copilot for Microsoft 365 for your users](/microsoft-365-copilot/microsoft-365-copilot-enable-users).
