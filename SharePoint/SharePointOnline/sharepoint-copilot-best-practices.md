@@ -36,9 +36,9 @@ Recommended reading:
 
 ## Before enabling Copilot for Microsoft 365
 
-Organizations operate at various levels of maturity in governing SharePoint data. While some enterprises strictly monitor permissions and oversharing of content, this is not the case for all enterprises. Adding to the complexity, many enterprises have valid business cases to share “some” data broadly within the company.  
-Sometimes, end users in your organization make choices that result in the oversharing of SharePoint content.  As an example, it is noticed that end users do not always pay attention to the permissions of the site/library/folder where they are uploading files. They may end up uploading or saving sensitive content in locations where other users may have access and may include external users. Similarly, it is also noticed that end users often find it easier to share files in SharePoint with a large group instead of individual people, which can lead to oversharing. 
-Copilot for Microsoft 365 utilizes all data that a user has access to, which may include broadly shared files that the user is unaware of. As such, users may perceive Copilot as exposing content that has been overshared.
+Organizations operate at various levels of maturity in governing SharePoint data. While some enterprises strictly monitor permissions and oversharing of content, not all enterprises do this. Adding to the complexity, many enterprises have valid business cases to share “some” data broadly within the company.  
+Sometimes, end users in your organization make choices that result in the oversharing of SharePoint content.  As an example, it is noticed that end users do not always pay attention to the permissions of the site/library/folder where they are uploading files. They may end up uploading or saving sensitive content in locations where other users may have access and may include external users. It has been also observed that some end users tend to prefer sharing files in SharePoint with large groups rather than with individuals. This practice can result in oversharing.  
+Copilot for Microsoft 365 utilizes all data that a user has access to, which may include broadly shared files that the user is unaware of. As a result, users might see Copilot for Microsoft 365 as exposing content that was overshared.
 To identify and remediate overshared content in SharePoint, follow these best practices:
 
 > [!Note]
