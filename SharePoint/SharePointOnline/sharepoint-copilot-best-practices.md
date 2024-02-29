@@ -1,6 +1,6 @@
 ---
 ms.date: 02/29/2024
-title: Microsoft Copilot for Microsoft 365 Best Practices with SharePoint
+title: Microsoft Copilot for Microsoft 365 best practices with SharePoint
 ms.reviewer: 
 ms.author: ruihu
 author: maggierui
