@@ -45,7 +45,7 @@ To identify and remediate overshared content in SharePoint, follow these best pr
 
 ### Step 1: Check for signs of oversharing
 
-A SharePoint admin can run reports in the SharePoint Admin Center to discover broad sharing activity happening over the last month. SharePoint Advanced Management’s new [data access governance reports](/sharepoint/data-access-governance-reports) can help here.  A SharePoint admin can run reports on:
+A SharePoint admin can run reports in the SharePoint Admin Center to discover broad sharing activity happening over the last month. [SharePoint Advanced Management’s](/sharepoint/advanced-management) new [data access governance reports](/sharepoint/data-access-governance-reports) can help here.  A SharePoint admin can run reports on:
 
 - Usage of "Everyone Except External Users" in last 28 days
 - Usage of 'broad companywide sharing links' in last 28 days
@@ -63,7 +63,7 @@ Once you have identified the SharePoint sites with potential oversharing issues,
    1. For high-profile instances, you may want to determine who/how/when the oversharing took place.  Use the [Change History](/sharepoint/change-history-report) feature to see what changes may have contributed to the oversharing.
 1. For cases where SharePoint admin needs to consult with site owners/admins for action:
    1. The SharePoint admin can reach out to the owners of sites identified in data access governance reports. SharePoint admin can advise site owners on the overshared files/folders in that site and request them to act to manually remove unnecessary access.
-   1. Soon from the spring of 2024, soon, we'll be releasing a new SharePoint Advanced Management feature called "Site Access Review" that a SharePoint admin can initiate from any 'Data Access Governance' report. Site owners will use a new Site Access Review UI to review broadly shared content in their side and either take remediation action to remove overly broad permissions or provide business justification to the SharePoint admin.
+   1. Soon from the spring of 2024, soon, we'll be releasing a new [SharePoint Advanced Management](/sharepoint/advanced-management) feature called "Site Access Review" that a SharePoint admin can initiate from any 'Data Access Governance' report. Site owners will use a new Site Access Review UI to review broadly shared content in their side and either take remediation action to remove overly broad permissions or provide business justification to the SharePoint admin.
 
 ### Step 3: Take preventive actions
 
