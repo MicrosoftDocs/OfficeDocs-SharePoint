@@ -28,7 +28,7 @@ Microsoft Copilot for Microsoft 365 provides value by connecting Large Language 
 ## How do SharePoint permissions affect your users’ Copilot for Microsoft 365 experience?
 
 Copilot for Microsoft 365 only surfaces organizational data to which individual users have *at least view permissions*. It's important to use the permission models in SharePoint to ensure the right users or groups have the right access to the right content within your organization.
-This article provides guidance and best practices that you, as a SharePoint administrator, can take control of the SharePoint permissions model before you [enable Copilot for Microsoft 365 for your users](/microsoft-365-copilot/microsoft-365-copilot-enable-users).
+This article provides guidance and best practices that you, as a SharePoint administrator, can take control of the SharePoint permissions model before your organization [enable Copilot for Microsoft 365 for your users](/microsoft-365-copilot/microsoft-365-copilot-enable-users).
 
 
 ## Before enabling Copilot for Microsoft 365
