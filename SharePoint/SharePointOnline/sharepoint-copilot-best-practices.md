@@ -58,7 +58,7 @@ These reports can be downloaded as csv files. You can also build your own report
 Set-SPOTenant -ShowEveryoneExceptExternalUsersClaim $false
 ```
 
-### Step 2: Take remediation action to fix oversharing issue
+### Step 2: Take remediation action to fix the oversharing issue
 
 Once you have identified the SharePoint sites with a potential oversharing issue, it is time to act. Your actions should consider several factors, including data sensitivity, the severity of the oversharing, and the need to maintain business operations. These actions include:
 1. For sensitive data that has been overshared and needs immediate action:
@@ -68,60 +68,18 @@ Once you have identified the SharePoint sites with a potential oversharing issue
    1. The SharePoint admin can reach out to the owners of sites identified in data access governance reports. SharePoint admin can advise site owners on the overshared files/folders in that site and request them to act to manually remove unnecessary access. 
    1. Soon from the spring of 2024, soon, we will be releasing a new SharePoint Advanced Management feature called “Site Access Review” that a SharePoint admin can initiate from any “Data Access Governance” report. Site owners will use a new Site Access Review UI to review broadly shared content in their side and either take remediation action to remove overly broad permissions or provide business justification to the SharePoint admin. 
 
+### Step 3: Take preventive actions
 
-Learn more about these reports: 
+- Train your staff on the range of sharing methods and options, particularly from their own OneDrive. Highlight the OneDrive [sharing report](/sharepoint/sharing-reports) to them. Remind SharePoint Site Owners and Team Owners that they are responsible for their content and highlight info on [sharing reports](/sharepoint/sharing-reports) to them, the [impact of inheritance](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782), and how to handle sensitive document types. Ensure that Site Owners are the recipients of [access requests](https://support.microsoft.com/office/set-up-and-manage-access-requests-94b26e0b-2822-49d4-929a-8455698654b3). Show site owners [how they can restrict members from sharing](/microsoft-365/solutions/microsoft-365-limit-sharing#sharing-with-specific-people).  
 
-- [**Data access governance reports for SharePoint sites**](/sharepoint/data-access-governance-reports#sharing-links-reports)
+- Identify SharePoint sites that have been inactive for a long time. See how you can easily do that via [our new Inactive Site Policies](/sharepoint/site-lifecycle-management#create-an-inactive-site-policy). You can then lock down permissions on these sites via the [Restricted Access Control policy](/sharepoint/restricted-access-control). You can also consider archiving or deleting these sites.
+ 
+- Consider hiding wide scope permissions from your end users to reduce risks around accidental misuse. [This example](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#example-2) hides the "Everyone Except External Users" in People Picker control so that no end user can use it. 
+•	Consider implementing Conditional Access policies for SharePoint and OneDrive. For example, a policy could require users visiting specific sites with sensitive data to access from a managed device or known network location. These restrictions are also honored by CoPilot. Learn more [here](/sharepoint/authentication-context-example). 
 
-Learn how to restrict access to OneDrive and SharePoint sites by security groups. Using security groups prevents access to a limited known set of users for specific sites and OneDrive. Contents from these sites aren't available to Copilot or to users who previously had access before implementing the policy.
+- Consider [adopting sharing best practices](/microsoft-365/solutions/microsoft-365-limit-sharing) like changing sharing link defaults from companywide sharing to specific people links. 
 
-- [**Restrict OneDrive access by security group**](/sharepoint/limit-access)
+- Consider blocking downloads from selected sites via [a block download policy](/sharepoint/block-download-from-sites).
 
-- [**Restrict SharePoint site access to members of a group**](/sharepoint/restricted-access-control)
+- Finally, consider applying encryption action with “extract rights” enforced on sensitive office documents. Learn more [here](/purview/ai-microsoft-purview). 
 
-
-### Configure defaults and sensitivity labels
-
-Configure defaults & sensitivity labels to best match your organization's needs
-
-You can choose to change the default sharing link type for the entire tenant or selected sensitive sites. This lets specific people link or people with existing access link.
-
-- [**Change the default sharing link for a site**](/sharepoint/change-default-sharing-link)
-
-You can also prevent members of a site sharing directly requiring consent from the site owner before sharing any file/folder from that site.
-
-- [**Limit sharing in Microsoft 365**](/microsoft-365/solutions/microsoft-365-limit-sharing?view=o365-worldwide#sharepoint-site)
-
-You can also control the “default sharing link type” and “change how members can share” features using sensitivity labels. Doing so lets you scale across thousands of sites, and millions of documents. https://learn.microsoft.com/en-us/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot
-
-- [**Use sensitivity labels to configure the default sharing link type**](/purview/sensitivity-labels-default-sharing-link)
-
-### Train your users on sharing practices
-
-Train your users on sharing features, especially for OneDrive accounts. Generate a OneDrive sharing report to help users understand how sharing is being used and if any files or folders are being shared with guests.
-
-- [**Report on file and folder sharing in a SharePoint site**](https://learn.microsoft.com/en-us/sharepoint/sharing-reports)
-
-Remind SharePoint site and team owners that they're responsible for their content. Advise them on how to review sharing reports, understand the impact of inheritance, and how to handle sensitive document types. Make sure that site owners are notified of all site access requests. Also adding sensitivity label to files, even without encryption, adds protection.
-
--  [**Understand the impact of inheritance**](/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
-
-- [**Set up and manage access requests**](/office/set-up-and-manage-access-requests-94b26e0b-2822-49d4-929a-8455698654b3).
-
-
-### Implement conditional access for SharePoint and OneDrive
-
-Learn more about conditional access support in SharePoint and OneDrive. 
-
-- [**Microsoft Syntex - SharePoint Advanced Management overview**](/sharepoint/advanced-management)
-
-### Searchability of documents
-
-Consider the searchability of your documents. Users won't see any document appear in Copilot if that document isn't searchable in the first place.
-
->[!Note]
->Configuring "NoIndex" on a site should be considered and compared with [Restricted access Control (RAC)](/sharepoint/restricted-access-control). Using restricted access control makes the documents of the site available to Copilot and Search only for the selected set of users.
-
-Identify specific sites or libraries that would benefit from being excluded from search results and exclude them as necessary. Evaluate the impact excluding sites would have on users and decide if this works for your organization.
-
-- [**Exclude content from search results**](/office/enable-content-to-be-searchable-d7ba92db-8618-43fe-87ee-adf03d973062)
