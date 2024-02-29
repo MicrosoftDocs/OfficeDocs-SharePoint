@@ -54,7 +54,7 @@ A SharePoint admin can run reports in the SharePoint Admin Center to discover br
 These reports can be downloaded as csv files. You can also build your own report by using [Microsoft Graph Data Connect for SharePoint](/graph/data-connect-datasets#onedrive-and-sharepoint-online).  
 
 
-### Step 2: Take remediation action
+### Step 2: Take remediation actions
 
 Once you have identified the SharePoint sites with potential oversharing issues, it's time to act. Your actions should consider several factors, including data sensitivity, the severity of the oversharing, and the need to maintain business operations. These actions include:
 
