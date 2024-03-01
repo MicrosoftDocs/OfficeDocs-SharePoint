@@ -51,7 +51,6 @@ The configuration of this feature is based on the same architecture as the exist
 
 For more information, see [How to add a custom search vertical to your search results page in SharePoint Server.](../search/how-to-add-a-custom-search-vertical-to-your-search-results-page.md)
 
-
 ### OpenID Connect (OIDC) integration with SharePoint certificate management
 
 OpenID Connect (OIDC) is a modern authentication protocol that seamlessly integrates applications and devices with the identity and authentication management solutions to keep pace with the evolving security and compliance needs of your organization. 
@@ -62,3 +61,14 @@ SharePoint farm administrators can now use the SharePoint Certificate Management
 
 For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID.](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md)
 
+### Customer feedback experience in Central Administration
+
+SharePoint Server Subscription Edition Version 24H1 introduces One Customer Voice (OCV) into the SharePoint Central Administration site to collect customer feedback from the SharePoint farm administrators. The feedback goes directly to the SharePoint Server product team at Microsoft to help us to continue to improve the product to meet customer needs.
+
+The OCV experience currently offers a two-question survey, which automatically appears in SharePoint Central Administration based on these rules:
+
+The first survey appears two weeks after a farm administrator visits the Central Admin site after the update is installed.
+The second survey will appear after six months if the SharePoint farm administrator completes the first survey.
+If the SharePoint Administrator chooses to skip the survey, it will appear again every two weeks until the survey is completed.
+
+For more information, see [Configure the One Customer Voice (OCV) feedback.](../administration/configure-ocv.md)
