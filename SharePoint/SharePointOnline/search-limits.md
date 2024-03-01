@@ -2,7 +2,7 @@
 ms.date: 07/11/2018
 title: "Search limits for SharePoint"
 ms.reviewer: 
-ms.author: jhendr
+ms.author: jtremper
 author: JoanneHendrickson
 manager: jtremper
 recommendations: true
