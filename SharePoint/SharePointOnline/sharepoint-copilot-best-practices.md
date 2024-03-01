@@ -1,6 +1,6 @@
 ---
 ms.date: 02/29/2024
-title: Microsoft Copilot for Microsoft 365 best practices with SharePoint
+title: Microsoft Copilot for Microsoft 365 - best practices with SharePoint
 ms.reviewer: 
 ms.author: ruihu
 author: maggierui
@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 description: "Learn about the best practices with SharePoint for content sharing when enabling Microsoft Copilot for Microsoft 365."
 ---
-# Microsoft Copilot for Microsoft 365 Best Practices with SharePoint
+# Microsoft Copilot for Microsoft 365 - best practices with SharePoint
 
 Microsoft Copilot for Microsoft 365 provides value by connecting Large Language Models (LLMs) to your organizational data. Copilot for Microsoft 365 accesses content and context through [Microsoft Graph](/graph/overview) and can generate responses based on your organizational data. The data sources include user documents stored in SharePoint and OneDrive, emails, calendars, chats, meetings, and contacts. Copilot for Microsoft 365 combines this content with the user’s working context, such as the meeting a user is in now, the email exchanges the user had on a topic, or the chat conversations the user had last week. Copilot for Microsoft 365 uses this combination of content and context to help provide accurate, relevant, and contextual responses.
 
