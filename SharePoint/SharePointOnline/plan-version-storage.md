@@ -27,7 +27,7 @@ In the following sections, we call out the options and decisions that you as an 
 
 ## Determine Default Version limits for your organization
 
-Before you decide the default version history limits for your organization, you need to consider your organization’s recovery objective,** and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
+Before you decide the default version history limits for your organization, you need to consider your **organization’s recovery objective**, and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
 
 In the following sections, we outline the options and decisions administrators should consider when setting up version limits for your organization:
 
