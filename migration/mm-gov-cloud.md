@@ -20,9 +20,6 @@ description: "Explanation of Government Cloud configuration settings when using 
 ---
 # Government cloud settings for Migration Manager 
 
->[!Note]
->Migration Manager only supports **File Share migration** for the Government cloud. 
-
 If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.
 
 
