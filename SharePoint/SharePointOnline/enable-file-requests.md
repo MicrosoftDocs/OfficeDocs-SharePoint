@@ -79,7 +79,7 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 
    - Run `Get-SPOTenant`.
 
-   - Check if `OneDriveRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -OneDriveRequestFIlesLinkEnabled $True`. 
+   - Check if `OneDriveRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -OneDriveRequestFilesLinkEnabled $True`. 
 
      - If this is set to **True**, **Request files** link on the OneDrive partition for all OneDrive sites will be available. If this value isn't set, the **Request files** link will be disabled on OneDrive. 
 
