@@ -7,6 +7,7 @@ author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
