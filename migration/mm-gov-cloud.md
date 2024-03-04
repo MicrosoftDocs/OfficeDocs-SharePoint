@@ -38,7 +38,7 @@ Configuration values for government cloud tenants are listed below.  The default
 |Cloud|Setting value|
 |:-----|:-----|
 |Consumer|0|
-|GCC|0|
+|GCC|4|
 |GCC High|2|
 |DoD|3|
 
@@ -55,11 +55,11 @@ If you are either a **GCC high** or **DoD** customer, you need to make a change 
 2. Open the setup file and remain on the **Welcome** page. 
 3. Open *C:\Users\<user>\AppData\Roaming\Microsoft\SPMigration\Bin\microsoft.sharepoint.migration.common.dll.config*.
 4. Open *C:\Users\<user>\AppData\Local\Temp\SPMigrationAgentSetup\SPMigrationAgentSetup\microsoft.sharepoint.migration.common.dll.config*.
-5. For GCCH, change the value of *SPOEnvironmentType* from 0 to 2, and for DoD, change the value of *SPOEnvironmentType* from 0 to 3.
-    </br>
-  
-    ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
+1. For GCCH, change the value of *SPOEnvironmentType* from 0 to 2, and for DoD, change the value of *SPOEnvironmentType* from 0 to 3.
+</br>
 
+    ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
+   
 5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
 6. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
 7. Test agent access (optional) or click **Close**.
