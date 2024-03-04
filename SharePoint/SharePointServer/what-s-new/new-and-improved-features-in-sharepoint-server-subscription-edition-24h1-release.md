@@ -31,10 +31,10 @@ The following table provides a summary of the new features introduced in the Sha
 
 |**Feature**|**Release ring**|**More information**|
 |:-----|:-----|:-----|
-|  **Custom branding in the Suite Bar**  |  Standard release   |  For more information, see [Custom branding in the Suite Bar](new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release.md#custom-branding-in-the-suite-bar). |
+|  **Custom branding in the Suite Bar**  |  Standard release   |  For more information, see [Custom branding in the Suite Bar](new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release.md#custom-branding-in-the-suite-bar).<br> <br>This was part of *Early release* in the Version 23H2 feature update. <br/>  |
 |  **Search vertical customization in modern search results**  | Early release  | For more information, see [Search vertical customization in modern search results](#search-vertical-customization-in-modern-search-results). |
 |  **OpenID Connect (OIDC) integration with SharePoint certificate management**  | Early release  | For more information, see [OpenID Connect (OIDC) integration with SharePoint certificate management](#openid-connect-oidc-integration-with-sharepoint-certificate-management). |
-| **Customer feedback experience in Central Administration**   |Early release   |For more information, see [Customer feedback experience in Central Administration](#customer-feedback-experience-in-central-administration).<br> <br>This was part of *Early release* in the Version 23H2 feature update. <br/> |
+| **Customer feedback experience in Central Administration**   |Early release   |For more information, see [Customer feedback experience in Central Administration](#customer-feedback-experience-in-central-administration).|
 
 ## Detailed description of features
 
