@@ -1,9 +1,9 @@
 ---
-ms.date: 07/26/2023
+ms.date: 03/05/2024
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
