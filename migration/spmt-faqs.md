@@ -36,8 +36,10 @@ Answer: SPMT logs are stored here: *C:\Users\<Username>\AppData\Roaming\Microsof
 Answer: Yes. Learn how to configure your settings: [Government cloud settings](spmt-settings.md#government-cloud-support)
 
 **Question**: Can I migrate only Site Pages?
+Answer: Yes, However, site pages can only be migrated by uploading a CSV or JSON file.
 
-Answer: Yes, However, site pages can only be migrated by uploading a CSV or JSON file. 
+**Question**: What authentication methods does SPMT support connecting to SharePoint Online?
+Answer: SPMT only supports username & password.
 
 **JSON Example**
 >>>>>>> main
