@@ -97,7 +97,37 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 ## Step 2: Change SharePoint farm properties
 
-You can configure the SharePoint Server farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificate. The nonce cookie certificate ensures secure OIDC authentication.
+In this step, you'll need to modify SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
+
+> [!NOTE]
+> Read the instructions mentioned in the following PowerShell script carefully.
+
+```powershell
+# Setup farm properties to work with OIDC
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
+$rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
+$fileName = $rsaCert.key.UniqueName
+
+#if you have multiple SharePoint servers in the farm, you need to export certificate by Export-PfxCertificate and import certificate to all other SharePoint servers in the farm by Import-PfxCertificate. 
+
+#After certificate is successfully imported to SharePoint Server, we will need to grant access permission to certificate private key.
+
+$path = "$env:ALLUSERSPROFILE\Microsoft\Crypto\RSA\MachineKeys\$fileName"
+$permissions = Get-Acl -Path $path
+
+#Please replace the <web application pool account> with real application pool account of your web application
+$access_rule = New-Object System.Security.AccessControl.FileSystemAccessRule(<Web application pool account>, 'Read', 'None', 'None', 'Allow')
+$permissions.AddAccessRule($access_rule)
+Set-Acl -Path $path -AclObject $permissions
+
+#Then we update farm properties
+$f = Get-SPFarm
+$f.Farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
+$f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
+$f.Farm.Update()
+```
+
+When you start with the SharePoint Server Subscription Edition Version 24H1, you can configure the SharePoint Server Farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificates. Run the following script to secure the OIDC authentication tokens:
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -369,7 +399,8 @@ Specify the following parameters:
 | AssemblyName | To be specified as `Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c`. |
 | Type | To be specified as `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider` so that this command creates a claim provider, which uses UPA as the claim source. |
 | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), which uses this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`. |
-| Default | As we've created a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it won’t be used by any other authentication method assigned to the web application by default. |
+| Default | As we've created a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it zDFTRG5YU6HJIKL6;IOP{"
+} any other authentication method assigned to the web application by default. |
 
 ### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
 
@@ -394,7 +425,8 @@ An example of this command is:
   Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider -IsOpenIDConnect
   ```
 
-### 3. Synchronize profiles to user profile service application
+?
+#., ## 3. Synchronize profiles to user profile service application
 
 Now, customers can start to synchronize profiles into the SharePoint user profile service application (UPSA) from the identity provider used in the organization so that the newly created claim provider can work on the correct data set.
 

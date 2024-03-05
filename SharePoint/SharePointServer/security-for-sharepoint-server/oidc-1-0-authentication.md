@@ -38,15 +38,9 @@ Earlier, the administrators had to use Certificate snap-in in Windows to check t
 The farm administrators can now use the following command to establish or replace the nonce certificate at the farm level. This command can be used regardless of the fact if it's being done during the initial configuration or during replacement of an existing nonce certificate.
 
 ```powershell
-$f = Get-SPFarm 
+$farm = Get-SPFarm 
 $farm.UpdateNonceCert($nonceCert, $true)
 ```
-
-> [!Note]
-> The property name, in upcoming builds, will change to:
-> ```powershell
-> $farm.UpdateNonceCertificate($nonceCert, $true)
-> ```
 
 You can set up OIDC authentication in SharePoint Server with either of these options:
 
