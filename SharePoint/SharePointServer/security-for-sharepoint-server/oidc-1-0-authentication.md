@@ -20,8 +20,7 @@ description: "Learn how to set up OIDC authentication in SharePoint Server."
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-OpenID Connect (OIDC) 1.0 is a modern authentication protocol that seamlessly integrates applications and devices with the identity and authentication management solutions to keep pace with the
-evolving security and compliance needs of your organization.
+OpenID Connect (OIDC) 1.0 is a modern authentication protocol that seamlessly integrates applications and devices with identity and authentication management solutions to keep pace with the evolving security and compliance needs of your organization.
 
 In SharePoint 2019 and prior versions, SharePoint Server supported three types of authentication methods:
 
