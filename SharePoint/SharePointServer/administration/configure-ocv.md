@@ -19,22 +19,20 @@ description: "Learn how to configure the One Customer Voice (OCV) feedback."
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 > [!Note]
-> This feature is now available only for preview channel. Your SharePoint Server can't use this feature.
+> The One Customer Voice (OCV) feature is now available in the SharePoint Server Subscription Edition Version 24H1 feature update. This feature is only available in the *Early release* feature release ring. For more information, see [Feature release rings](feature-release-rings.md).
 
 Microsoft aspires to bring the best possible experiences for users around the world through its innovative product offerings. Play a key role in helping Microsoft build the features that you need as we develop our products or services.
 
 SharePoint Server uses One Customer Voice (OCV) as our 1st-party solution to collect customer feedback from the farm administrators. The SharePoint Server asks farm administrators to provide Net Promoter Score (NPS) with an OCV pop-up dialog when each admin launches the Central Administration page either locally or remotely through a browser. Your feedback goes directly to our engineers and helps us shape the future of SharePoint Server and services for our users.
 
-The following data is collected from the customers: NPS score, the admin provides the score (optional), contact email (optional), Farm ID, and SharePoint Server Version.
-
 As of now, this survey is a two question survey, which automatically shows up based on the following rules:
 
 - The first NPS survey pops up every two weeks after a farm administrator visits the Central Administration site for the first time after the update is installed. The admin sees the following survey dialog:
+
   :::image type="content" source="../media/feedback-microsoft-ocv.png" alt-text="Screenshot that shows the feedback to Microsoft survey.":::
+
 - The NPS survey shows up again after six months, if the administrator completes the survey.
 - The NPS survey pops up every two weeks until it's completed by the administrator.
-
-In the survey, you can provide recommendation for the SharePoint Server product, feedback, and e-mail ID, if you would like to be contacted.
 
 > [!Note]
 > By default, this feature is enabled.
