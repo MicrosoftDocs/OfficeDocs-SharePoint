@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: IT Admins - Use OneDrive policies to control sync settings
 ms.reviewer: gacarini
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
