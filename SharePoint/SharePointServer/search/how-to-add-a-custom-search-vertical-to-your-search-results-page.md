@@ -130,7 +130,7 @@ This is how we defined the  *Art result source*.
   
 Remember,  `{searchTerms?}(contentclass:sts_listitem) path:http://<path>` was the query text of the Article result source that we created earlier. To this, we added  `AND ContentType:Art`
   
-In our lists, we use the site column  *Content Type*  to specify the different media files. For example, all images have the value  *Art*  for  *Content Type. 
+In our lists, we use the site column  *Content Type*  to specify the different media files. For example, all images have the value  *Art*  for  *Content Type*. 
   
 ![Content Type:Art](../media/OTCSP_ContentTypeArt2.png)
   
@@ -212,7 +212,7 @@ When you create a custom search vertical, the first thing that you must do is to
   
 14. On your search results page, select on your newly created search vertical, and verify that the URL is the same as you specified in step 4.
     
-    In our scenario, we clicked  *Art*, and verified that the URL was  *\<site\>/articles/Pages/art.aspx*  . We also noticed that 13 search results were displayed. 
+    In our scenario, we clicked *Art*, and verified that the URL was *\<site\>/articles/Pages/art.aspx*. We also noticed that 13 search results were displayed. 
     
      ![Query Art Vertical](../media/OTCSP_QueryArtVertical.png)
   
