@@ -145,20 +145,6 @@ $f = Get-SPFarm
 $f.Farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
-With the update of the nonce cookie certificate, you can notice the following changes:
-
-- SharePoint notifies the administrators through  **Health Analyzer Rule Definitions** that the nonce certificate isn't managed by the SharePoint Certificate Management. If the nonce certificate is set in the farm properties through *SPFarm.properties* ['SP-NonceCookieCertificateThumbprint'] and isn't managed by the Certificate Management, it means that the *SPFarm.NonceCertificate* is *null* or the thumb-print doesn't match. In this scenario, the following notification appears for the administrators.
-  :::image type="content" source="../media/health-analyzer-rule-definitions.png" alt-text="Screenshot that shows the health analyzer rule.":::
-- If the administrator enables or disables the OIDC on web application, the permission of the nonce certificate is automatically updated on the Web Application Pool Account. You can extend or delete a web application that has OIDC enabled with grant or remove permissions on the nonce certificate, respectively.
-   - To replace the nonce certificate, using the Central Administration Site, go to **Security** > **Manage Certificate**. Select *nonce certificate* and select **Replace**.
-   - Replace the nonce certificate using PowerShell cmdlet.
-     Switch-SPCertificate -Identity \<old nonce certificate name> -NewCertificate \<new nonce certificate>  
-
-     ```powershell
-     Switch-SPCertificate -Identity "SharePoint Cookie Cert" -NewCertificate "SharePoint Cookie Cert2"
-     ```
-  :::image type="content" source="../media/replace-certificate-assignment.png" alt-text="Screenshot that shows the replaced certificate.":::
-
 ## Step 3: Configure SharePoint to trust the identity provider
 
 You can configure SharePoint to trust the identity provider in either of the following ways:
