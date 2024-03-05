@@ -121,10 +121,10 @@ $permissions.AddAccessRule($access_rule)
 Set-Acl -Path $path -AclObject $permissions
 
 #Then we update farm properties
-$f = Get-SPFarm
-$f.Farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
-$f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
-$f.Farm.Update()
+$farm = Get-SPFarm
+$farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
+$farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
+$farm.Update()
 ```
 
 When you start with the SharePoint Server Subscription Edition Version 24H1, you can configure the SharePoint Server Farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificates. Run the following script to secure the OIDC authentication tokens:
@@ -141,8 +141,8 @@ $certPassword = ConvertTo-SecureString -String <password> -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $certPassword
 $nonceCert = Import-SPCertificate -Path $certPath -Password $certPassword -Store "EndEntity" -Exportable:$true
 
-$f = Get-SPFarm 
-$f.Farm.UpdateNonceCertificate($nonceCert,$true)
+$farm = Get-SPFarm 
+$farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
 ## Step 3: Configure SharePoint to trust the identity provider
