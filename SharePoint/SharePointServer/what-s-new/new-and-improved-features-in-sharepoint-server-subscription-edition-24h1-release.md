@@ -45,7 +45,7 @@ This section provides detailed descriptions of the new and updated features in S
 
 ### Search vertical customization in modern search results
 
-SharePoint Server Subscription Edition Version 24H1 introduced search vertical customization to the modern search experience, previously available only in the classic search experience. This customization feature allows users to add a custom search vertical to their search results page at the site and organizational levels.
+SharePoint Server Subscription Edition Version 24H1 introduces search vertical customization to the modern search experience, previously available only in the classic search experience. This customization feature allows users to add a custom search vertical to their search results page at the site and organizational levels.
 
 The configuration of this feature is based on the same architecture as the existing classic UI, so the steps to configure this feature in the modern UI are similar to the classic UI.
 
