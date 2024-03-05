@@ -45,7 +45,7 @@ This section provides detailed descriptions of the new and updated features in S
 
 ### Search vertical customization in modern search results
 
-SharePoint Server Subscription Edition Version 24H1 introduced search vertical customization to the modern search experience, previously available only in the classic search experience. This  customization feature allows users to add a custom search vertical to their search results page at the site and organizational levels.
+SharePoint Server Subscription Edition Version 24H1 introduced search vertical customization to the modern search experience, previously available only in the classic search experience. This customization feature allows users to add a custom search vertical to their search results page at the site and organizational levels.
 
 The configuration of this feature is based on the same architecture as the existing classic UI, so the steps to configure this feature in the modern UI are similar to the classic UI.
 
@@ -55,9 +55,9 @@ For more information, see [How to add a custom search vertical to your search re
 
 OpenID Connect (OIDC) is a modern authentication protocol that seamlessly integrates applications and devices with identity and authentication management solutions to keep pace with the evolving security and compliance needs of your organization. 
 
-SharePoint Server Subscription Edition Version 24H1 introduces the ability to manage OIDC nonce cookie certificates via SharePoint Certificate Management. The nonce cookie certificate is part of the infrastructure that ensures OIDC authentication tokens are secure.
+SharePoint Server Subscription Edition Version 24H1 allows administrators to manage OIDC nonce cookie certificates via SharePoint Certificate Management. The nonce cookie certificate is part of the infrastructure that ensures OIDC authentication tokens are secure.
 
-SharePoint farm administrators can now use the SharePoint Certificate Management feature to manage the full lifecycle of the OIDC nonce cookie certificate. This will automatically deploy the OIDC nonce cookie certificate to all servers on the farm and automatically configure the necessary permissions. A new SharePoint Health Analyzer health rule has been added to notify administrators if the nonce cookie certificate is not managed through SharePoint Certificate Management.
+SharePoint farm administrators can now use the SharePoint Certificate Management feature to manage the full lifecycle of the OIDC nonce cookie certificate. This will automatically deploy the OIDC nonce cookie certificate to all servers in the farm and automatically configure the necessary permissions. A new SharePoint Health Analyzer health rule has been added to notify administrators if the nonce cookie certificate is not managed through SharePoint Certificate Management.
 
 For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID.](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md)
 
