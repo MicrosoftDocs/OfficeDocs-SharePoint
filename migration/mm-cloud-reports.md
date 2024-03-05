@@ -20,9 +20,9 @@ search.appverid: MET150
 description: "Learn about reports, errors, and status codes for cloud to cloud migrations using Migration Manager in Microsoft 365."
 ---
 
-# Reports, errors & status codes for cloud migrations
+# Reports and errors for cloud migrations
 
-Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
+Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios such as Google Drive, Dropbox, Box, and Egnyte.
 
 A scan/migration task presents as a row in the Migration Manager scan/migration list. Normally, a task equals: 
 
@@ -33,24 +33,23 @@ A scan/migration task presents as a row in the Migration Manager scan/migration 
 
 ## Reports
 
-Use these reports to help manage, audit, and troubleshoot your migration process.
+There are 4 types of reports to help manage, audit, and troubleshoot your migration process.
 
 - [Scan summary report](#scan-summary-report)
 - [Scan detailed report](#scan-detailed-report)
 - [Migration summary report](#migration-summary-report)
 - [Migration detailed report](#migration-detailed-report)
 
->[!Important]
->These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
->
->These reports expire in 90 days. Microsoft doesn't retain the raw data (the log files).
-
-## Failure and status codes 
+> [!Important]
+> These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
+> > These reports expire in 90 days. Microsoft doesn't retain the log files.
+## Status and failure codes
 
 Your reports may reference a failure or status code to provide specific details as to the nature of the issue. 
-  
-- [Failure codes](#failure-codes): Result codes or "failure codes" represent item level errors during both the scan and migration process.  
-- [Status codes](#status-codes): Status codes provide the final status of the scan and migration tasks.  
+
+- [Status codes](#status-codes): Provide the final status of the scan and migration tasks. Status codes can be located in scan/migration summary reports.How to download reports.
+
+- [Failure codes](#failure-codes): Represent file level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 ## How to download reports
 
@@ -60,9 +59,9 @@ There are limits on the number of tasks can be selected for bulk download for ea
 
 |Report type|Number of tasks allowed per download|
 |:-----|:-----|
-|Scan summary report|1000| 
+|Scan summary report|5,000|
 |Scan detailed report|100 |
-|Migration summary report|1000|
+|Migration summary report|5,000|
 |Migration detailed report|100|
 
 >[!Note]
@@ -78,24 +77,17 @@ There are limits on the number of tasks can be selected for bulk download for ea
 
    :::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
-3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. For example:  
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
 
-   :::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
-
-4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
-
-   :::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
-
-   :::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
-
-
+   ![1111111](media/mm-cloud-reports/1111111.png)
+   
+   
+   
 ### Download Migration reports
 
 1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
-3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. 
-4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
-
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
 ## Scan reports
 
 The following reports are downloaded from the **Scans** tab in Migration Manager. 
@@ -321,9 +313,47 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |FilePermissions| File-level permission migration is set to be on or off. The default setting is **Off**. |
 
 
+## Status codes
+
+Status codes provide the final status of the scan and migration tasks. Status codes can be located in scan/migration summary reports.
+
+|Status Code|Scan/Migration Task Status|Message|
+| -------- | -------- | -------- |
+|100|Ready to migrate/Copied to migrate/Completed|Success|
+|101|Ready to migrate/Copied to migrate/Completed|Success. No files needed copying|
+|102|Ready to migrate/Copied to migrate/Completed|Success. Some files aren't supported by Destination name and weren't transferred.|
+|120|Ready to migrate/Copied to migrate/Completed|Success. Some files aren't supported by Source name and weren't transferred.|
+|122|Ready to migrate/Copied to migrate/Completed|Success. Some unsupported files existed and weren't transferred.|
+|201|Warning|Some upload errors. Download and look up the detailed report before trying again.|
+|202|Warning|No files copied. Some upload errors. Download and look up the detailed report before trying again.|
+|210|Warning|Some download errors. Download and look up the detailed report before trying again.|
+|220|Warning|No files copied. Some download errors. Download and look up the detailed report before trying again.|
+|211|Warning|Some download and upload errors. Download and look up the detailed report before trying again.|
+|222|Warning|No files copied. Some download and upload errors. Download and look up the detailed report before trying again.|
+|230|Canceled|Canceled|
+|250|Failed|Already running. Wait a while and try again.|
+|260|Failed|Storage Quota Exceeded on Destination name|
+|261|Failed|Quota API Exceeded on Destination name|
+|300|In progress|Running|
+|302|In progress|Waiting for Microsoft batch processing|
+|400|Failed|General failure. Try again.|
+|401|Failed|Couldn't upload anything. Try again.|
+|402|Failed|Connector authorization failed. Try reauthorizing Source name or Destination name|
+|403|Failed|No status. Try again.|
+|404|Failed|Crashed. Try again.|
+|405|Failed|Crashed. Try again.|
+|410|Failed|Couldn't connect to Source name. Try reauthorizing.|
+|423|Failed|Source connector not found. Try again.|
+|490|Failed|Ended by company name Admin. Try again.|
+|491|Failed|Microsoft migration reporting communication failure. Try again.|
+|500|Failed|Unknown, contact support|
+|600|Queued|Queued to start.|
+|601|Queued|Queued to start.|
+|620|In progress|Running pre-checks|
+
 ## Failure codes
 
-Result codes or "failure codes" represent item level errors during both the scan and migration process.
+Failure codes represent file level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 |Failure code|Description |User action|
 |:-----|:-----|:-----|
@@ -404,40 +434,3 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MNOUSERINFO|Failed to get Microsoft user info||
 |MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
 
-## Status codes
-
-Status codes provide the final status of the scan and migration tasks.
-
-|Code | Status |Message|
-|:-----|:-----|:-----|
-|100 |Ready to migrate/Copied to migrate/completed. | Success. |
-|101 |Ready to migrate/Copied to migrate/completed. | Success. No files needed copying. |
-|102 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Destination name and weren't transferred. |
-|120 |Ready to migrate/Copied to migrate/completed. | Success. Some files aren't supported by Source name and weren't transferred. |
-|122 |Ready to migrate/Copied to migrate/completed. |Success. Some unsupported files not transferred. |
-|201 |Warning|Some upload errors. Download and review the detailed report before trying again. |
-|202 |Warning|No files copied. Some upload errors. Download and review the detailed report before trying again.|
-|210 |Warning|Some download errors. Download and review the detailed report before trying again. |
-|211 |Warning|Some download and upload errors. Download and review the detailed report before trying again. |
-|220 |Warning|No files copied. Some download errors. Download and review the detailed report before trying again. |
-|222 |Warning|No files copied. Some download and upload errors. Download and review the detailed report before trying again. |
-|230 |Canceled|Canceled|
-|250 |Failed|Already running. Wait a while and then try again.|
-|260 |Failed|Storage quota exceeded on destination name.|
-|261 |Failed| Quota API exceeded on destination name |
-|300 |In progress|Running |
-|302 |In progress|Waiting for Microsoft batch processing |
-|400 |Failed|General failure. Try again.|
-|401 |Failed|Couldn't upload anything. Try again.|
-|402 |Failed|Connector authorization failed. Try reauthorizing Source name or Destination name. |
-|403 |Failed|No status. Try again.|
-|404 |Failed|Crashed. Try again.|
-|405 |Failed|Crashed. Try again.|
-|410 |Failed|Couldn't connect to Source name. Try reauthorizing. |
-|423 |Failed|Source connector not found. Try again.|
-|490 |Failed|Ended by company name Admin. Try again.|
-|491 |Failed|Microsoft migration reporting communication failure. Try again.|
-|500 |Failed|Unknown, contact support. |
-|600 |Queued|Queued to start. |
-|601 |Queued|Queued to start. |
-|620 |In progress|Running pre-checks. |
