@@ -25,6 +25,10 @@ description: "Learn about the Custom Branding feature, which is one of the newly
 
 This article describes the "Custom branding in Suite Navigation Bar" feature, which is one of the new features introduced in the SharePoint Server Subscription Edition Version 23H2 feature update.
 
+> [!NOTE]
+> Custom branding in the Suite Navigation Bar was first introduced in SharePoint Server Subscription Edition Version 23H2, but it was initially available only for SharePoint farms in Early release. And starting with SharePoint Server Subscription Edition Version 24H1, it's available regardless of whether your SharePoint farm is in Early release or Standard release.
+
+
 ## Custom branding in the Suite Navigation Bar
 
 The SharePoint Server modern UX provides a powerful yet intuitive user interface that scales from desktop to mobile devices. However, the architecture of the modern UX limited the opportunities for organizations to apply custom branding to the Suite Navigation Bar, which is the global navigation bar that provides access to the App Launcher, contextual settings menu, and user welcome control in SharePoint sites.
