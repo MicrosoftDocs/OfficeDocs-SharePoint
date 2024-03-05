@@ -79,7 +79,7 @@ There are limits on the number of tasks can be selected for bulk download for ea
 
 1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
 
-   ![1111111](media/mm-cloud-reports/1111111.png)
+   ![A message dialog about viewing reports generation status and the final download links in recent actions.](media/mm-cloud-reports/1111111.png)
    
    
    

@@ -37,9 +37,9 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## February 2024
 
-**Download limit increase.** Now download up to 5,000 tasks for summary reports and 500 tasks for detailed reports. [Learn more about report types and download limits](/sharepointmigration/mm-cloud-reports"/sharepointmigration/mm-cloud-reports")
+**Download limit increase.** Now download up to 5,000 tasks for summary reports and 500 tasks for detailed reports. [Learn more about report types and download limits](mm-cloud-reports.md).
 
-**Migration Manager Agent v2.0 (for File Share migration).** Enhanced multitasking and report uploading capabilities improve agent performance. The v2.0 build is now generally available: [Download link](https://spmtreleasescus.blob.core.windows.net/download/A9EB5CE93791/v2.0/agentsetup.exe"https://spmtreleasescus.blob.core.windows.net/download/A9EB5CE93791/v2.0/agentsetup.exe")
+**Migration Manager Agent v2.0 (for File Share migration).** Enhanced multitasking and report uploading capabilities improve agent performance. The v2.0 build is now generally available: [Download link](https://aka.ms/AApex94").
 
 **Recent action panel redesign.** Redesigned for a smoother report downloading experience, with progress prompts for download job status updates.
 
