@@ -97,7 +97,7 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 ## Step 2: Change SharePoint farm properties
 
-In this step, you'll need to modify SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
+In this step, you need to modify SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.
@@ -127,7 +127,7 @@ $farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $farm.Update()
 ```
 
-When you start with the SharePoint Server Subscription Edition Version 24H1, you can configure the SharePoint Server Farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificates. Run the following script to secure the OIDC authentication tokens:
+When you start with the SharePoint Server Subscription Edition Version 24H1, you can configure the SharePoint Server Farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificates. Run the following script to configure the SharePoint Server farm properties:
 
 ```powershell
 # Setup farm properties to work with OIDC
