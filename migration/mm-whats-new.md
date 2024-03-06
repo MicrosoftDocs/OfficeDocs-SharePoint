@@ -30,10 +30,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 
 ## Coming soon
-- **Identity mapping capacity.** Improvements to identity mapping capacity to better support larger migrations.
+- **Identity mapping capacity.** Improvement to identity mapping capacity to better support larger migrations.
 - **Forms migration.** Support migrating Forms during Google Drive migration.
 
-**Skip scan.** Allow to skip scan process in Box migration.
+- **Skip scan.** Allow to skip scan process in Box migration.
 
 ## February 2024
 
