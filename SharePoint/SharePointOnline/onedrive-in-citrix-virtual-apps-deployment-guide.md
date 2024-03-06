@@ -1,9 +1,9 @@
 ---
-ms.date: 04/27/2023
+ms.date: 03/05/2024
 title: Set up OneDrive in Citrix Virtual Apps
 ms.reviewer: gacarini
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -26,22 +26,22 @@ description: In this article, you'll learn how to enable OneDrive in Citrix Virt
 
 This article describes how to enable and use OneDrive in Citrix Virtual Apps.
 
-## Prerequisites:
+## Prerequisites
 
 To enable OneDrive in Citrix Virtual Apps, you must have the following  versions of Windows and Citrix Virtual Apps and Desktops (CVAD):
 
 **Windows**:
 
-- Windows 11: KB5014019 
+- Windows 11: KB5014019
 - Windows Server 2022: KB5014021
 - Windows 10: KB5014023
 - Windows Server 2019: KB5014022
 
 **Citrix**:
 
-- CVAD 7 2203 LTSR CU1 or later. 
-- VDA 2212 enables Shellbridge by default, all earlier versions require Shellbridge to be enabled manually.  
-- To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH or Windows 11 RDSH) add the following registry details: 
+- CVAD 7 2203 LTSR CU1 or later.
+- VDA 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.  
+- To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH, or Windows 11 RDSH) add the following registry details:
 
     `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`<p>
     `Name: Shellbridge`<p>
@@ -53,14 +53,14 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 **We recommend adding OneDrive.exe to `LogoffCheckSysModules`**.
 
    `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI` <p>
-   `Value Name:LogoffCheckSysModules` <p> 
+   `Value Name:LogoffCheckSysModules` <p>
    `Type:REG_SZ` <p>
-   `String:OneDrive.exe, Microsoft.Sharepoint.exe` <p> 
+   `String:OneDrive.exe, Microsoft.Sharepoint.exe` <p>
 
 > [!IMPORTANT]
 > [FSLogix](/fslogix/how-to-install-fslogix) must be used in conjunction with Citrix Virtual Apps for OneDrive to be supported.
 
-## How to setup OneDrive
+## How to set up OneDrive
 
 1. Install OneDrive Sync app per machine. See [Install the sync app per-machine](per-machine-installation.md).
 1. Install the latest version of FSLogix. See [Install FSLogix Applications](/fslogix/how-to-install-fslogix).
