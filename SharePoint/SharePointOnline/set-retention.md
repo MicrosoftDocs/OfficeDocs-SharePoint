@@ -1,9 +1,9 @@
 ---
-ms.date: 11/17/2023
+ms.date: 03/05/2024
 title: "Set the OneDrive retention for deleted users"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -35,7 +35,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
  **To set the retention time for OneDrive accounts**
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
- 
+
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
@@ -45,7 +45,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
   
 3. Enter a value from 30 through 3650 in the **Days to retain files a deleted user's OneDrive** box.
 
-    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. 
+    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time.
 
 4. Select **Save**.
 
@@ -56,4 +56,3 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](retention-and-deletion.md)
   
 [Overview of retention policies](/office365/securitycompliance/retention-policies)
-
