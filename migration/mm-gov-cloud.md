@@ -1,5 +1,5 @@
 ---
-ms.date: 05/27/2020
+ms.date: 03/06/2024
 title: "Migration Manager Government Cloud settings"
 ms.reviewer: 
 ms.author: heidip
@@ -33,7 +33,7 @@ If your tenant resides in a government cloud, you may have extra steps to perfor
 
 ## Configuration values
 
-Configuration values for government cloud tenants are listed in the table below.  The default setting is **0**.
+Configuration values for government cloud tenants are listed in the following table. The default setting is **0**.
 
 |Cloud|Setting value|
 |:-----|:-----|
@@ -48,8 +48,7 @@ Configuration values for government cloud tenants are listed in the table below.
 
 ## GCC High and DoD customers
 
-If you are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. All other cloud customers do not have to make this change as the default is already set to 0.
-
+If you're either a **GCC high** or **DoD** customer, you need to make a change to your configuration file before you install the agent. All other cloud customers don't have to make this change as the default is already set to 0.
 
 1. Download the agent setup file.
 2. Open the setup file and remain on the **Welcome** page. 
@@ -60,9 +59,9 @@ If you are either a **GCC high** or **DoD** customer, you need to make a change 
 
     ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
    
-5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
+5. On the Welcome page, select **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
 6. Enter your Windows credentials that provides access to **all** the file shares that contain the content you want to migrate. Select **Install**.
-7. Test agent access (optional) or click **Close**.
+7. Test agent access (optional) or select **Close**.
 </br>
 
 ## Endpoints for Government
