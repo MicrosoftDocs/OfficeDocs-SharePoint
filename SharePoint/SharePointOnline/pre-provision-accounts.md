@@ -1,5 +1,5 @@
 ---
-ms.date: 003/05/2024
+ms.date: 03/05/2024
 title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
 ms.author: mactra

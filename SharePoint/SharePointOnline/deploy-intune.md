@@ -3,7 +3,7 @@ ms.date: 03/05/2024
 title: "Deploy OneDrive apps using Intune"
 ms.reviewer: 
 ms.author: mactra
-author: JMachelleTranMSFT
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
