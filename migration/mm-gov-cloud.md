@@ -23,7 +23,7 @@ description: "Explanation of Government Cloud configuration settings when using 
 >[!Note]
 >Migration Manager only supports **File Share migration** for the Government cloud. 
 
-If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.
+If your tenant resides in a government cloud, you may have extra steps to perform before using Migration Manager.
 
 
 - [Configuration values](#configuration-values)
@@ -33,7 +33,7 @@ If your tenant resides in a government cloud, you may have additional steps to p
 
 ## Configuration values
 
-Configuration values for government cloud tenants are listed below.  The default setting is **0**.
+Configuration values for government cloud tenants are listed in the table below.  The default setting is **0**.
 
 |Cloud|Setting value|
 |:-----|:-----|
@@ -61,7 +61,7 @@ If you are either a **GCC high** or **DoD** customer, you need to make a change 
     ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
    
 5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
-6. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+6. Enter your Windows credentials that provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
 7. Test agent access (optional) or click **Close**.
 </br>
 
