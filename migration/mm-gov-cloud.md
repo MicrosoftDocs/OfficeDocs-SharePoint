@@ -61,7 +61,7 @@ If you are either a **GCC high** or **DoD** customer, you need to make a change 
     ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
    
 5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
-6. Enter your Windows credentials that provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+6. Enter your Windows credentials that provides access to **all** the file shares that contain the content you want to migrate. Select **Install**.
 7. Test agent access (optional) or click **Close**.
 </br>
 
