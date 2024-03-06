@@ -97,37 +97,14 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 ## Step 2: Change SharePoint farm properties
 
-In this step, you need to modify SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
+You can modify SharePoint Farm properties based on your SharePoint Subscription Edition.
 
-> [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully.
+- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version 24H1, see [Subscription Edition Version 24H1](#configuring-sharepoint-farm-properties-for-subscription-edition-version-24h1).
+- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [SharePoint farm properties prior to version 24H1](#configuring-sharepoint-farm-properties-prior-to-version-24h1).
 
-```powershell
-# Setup farm properties to work with OIDC
-$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
-$rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
-$fileName = $rsaCert.key.UniqueName
+### Configuring SharePoint farm properties for subscription edition version 24H1
 
-#if you have multiple SharePoint servers in the farm, you need to export certificate by Export-PfxCertificate and import certificate to all other SharePoint servers in the farm by Import-PfxCertificate. 
-
-#After certificate is successfully imported to SharePoint Server, we will need to grant access permission to certificate private key.
-
-$path = "$env:ALLUSERSPROFILE\Microsoft\Crypto\RSA\MachineKeys\$fileName"
-$permissions = Get-Acl -Path $path
-
-#Please replace the <web application pool account> with real application pool account of your web application
-$access_rule = New-Object System.Security.AccessControl.FileSystemAccessRule(<Web application pool account>, 'Read', 'None', 'None', 'Allow')
-$permissions.AddAccessRule($access_rule)
-Set-Acl -Path $path -AclObject $permissions
-
-#Then we update farm properties
-$farm = Get-SPFarm
-$farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
-$farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
-$farm.Update()
-```
-
-When you start with the SharePoint Server Subscription Edition Version 24H1, you can configure the SharePoint Server Farm properties by employing SharePoint Certificate Management to manage the OIDC nonce cookie certificates. Run the following script to configure the SharePoint Server farm properties:
+When you start with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server Farm properties by employing SharePoint Certificate Management to manage OIDC nonce cookie certificates. Run the following script to configure SharePoint Server farm properties:
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -145,13 +122,45 @@ $farm = Get-SPFarm
 $farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
+### Configuring SharePoint farm properties prior to version 24H1
+
+To modify SharePoint farm properties, start SharePoint Management Shell and run the following script:
+
+> [!NOTE]
+> Read the instructions mentioned in the following PowerShell script carefully.
+
+```powershell
+# Setup farm properties to work with OIDC
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
+$rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
+$fileName = $rsaCert.key.UniqueName
+
+#if you have multiple SharePoint servers in the farm, you need to export certificate by Export-PfxCertificate and import certificate to all other SharePoint servers in the farm by Import-PfxCertificate. 
+
+#After certificate is successfully imported to SharePoint Server, we will need to grant access permission to certificate private key.
+
+$path = "$env:ALLUSERSPROFILE\Microsoft\Crypto\RSA\MachineKeys\$fileName"
+$permissions = Get-Acl -Path $path
+
+#Replace the <web application pool account> with real application pool account of your web application
+$access_rule = New-Object System.Security.AccessControl.FileSystemAccessRule(<Web application pool account>, 'Read', 'None', 'None', 'Allow')
+$permissions.AddAccessRule($access_rule)
+Set-Acl -Path $path -AclObject $permissions
+
+#Then we update farm properties
+$farm = Get-SPFarm
+$farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
+$farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
+$farm.Update()
+```
+
 ## Step 3: Configure SharePoint to trust the identity provider
 
 You can configure SharePoint to trust the identity provider in either of the following ways:
 
 - Configure SharePoint to trust Microsoft Entra ID as the OIDC provider **manually**.
 - Configure SharePoint to trust Microsoft Entra ID as the OIDC provider by using the **metadata endpoint**.
-  - By using the metadata endpoint, several parameters you need in 'Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually' are automatically retrieved by metadata endpoint.
+  - By using the metadata endpoint, several parameters you need in 'Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually' is automatically retrieved by metadata endpoint.
 
 > [!NOTE]
 > Follow either the manual configuration steps or the metadata endpoint steps, but not both.
@@ -385,7 +394,7 @@ Specify the following parameters:
 | AssemblyName | To be specified as `Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c`. |
 | Type | To be specified as `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider` so that this command creates a claim provider, which uses UPA as the claim source. |
 | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), which uses this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`. |
-| Default | As we've created a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it zDFTRG5YU6HJIKL6;IOP{"
+| Default | As we create a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it zDFTRG5YU6HJIKL6;IOP{"
 } any other authentication method assigned to the web application by default. |
 
 ### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
