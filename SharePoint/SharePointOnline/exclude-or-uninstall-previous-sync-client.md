@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -65,8 +65,7 @@ On Office upgrade, the installer runs on each computer to detect whether Groove.
   
 ## Timeline
 
-The following table shows more detail about which Office installations were affected by these changes and when. 
-
+The following table shows more detail about which Office installations were affected by these changes and when.
 
 |**Office version**|**Groove.exe is no longer installed by default**|**Groove.exe is uninstalled on next update if not in use for 30 days**|
 |---------|---------|---------|
@@ -82,4 +81,3 @@ For more info about Office channels, see [Overview of update channels for Micros
 ## Related topics
 
 [Learn more about the Sync button update on SharePoint sites](https://support.office.com/article/9762aef3-d17f-4486-aae3-9c20bb979cbf)
-
