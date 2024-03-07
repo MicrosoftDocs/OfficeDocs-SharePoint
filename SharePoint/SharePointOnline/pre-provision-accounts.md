@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -51,9 +51,8 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 > The user accounts that you're pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
 > To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license.
 
-
 > [!NOTE]
-> If you're pre-provisioning OneDrive for a large number of users, it might take multiple days for the OneDrive locations to be created. 
+> If you're pre-provisioning OneDrive for a large number of users, it might take multiple days for the OneDrive locations to be created.
 
 ## Pre-provision OneDrive for users
 
@@ -87,7 +86,6 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     ```
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
-
 
 ## Pre-provision OneDrive for all licensed users in your organization
 

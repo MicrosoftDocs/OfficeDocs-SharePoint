@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: "Redirect and move macOS known folders to OneDrive"
 ms.reviewer: cagreen
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -59,7 +59,7 @@ If a user’s Desktop and Documents folders are currently redirected to OneDrive
   
 ## About the Folder Backup settings
 
-You can set OneDrive settings using software distribution tools such as [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS) as well as [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html). You can also configure settings in a .plist file. For a full reference of available preferences and their settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).  
+You can set OneDrive settings using software distribution tools such as [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS) and [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html). You can also configure settings in a .plist file. For a full reference of available preferences and their settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).  
 
 For new machines, Folder Backup can be configured from the start, so all new files are uploaded to the cloud. This is great for organizations as it increases user engagement with OneDrive, and admins can easily protect files with enterprise-level security and compliance that comes built in.
 
@@ -71,7 +71,7 @@ The following settings control the Folder Backup feature:
 
     :::image type="content" source="media/redirect-macos-manage-folder-backup.png" alt-text="Screenshot of the dialog that prompts users to back up their important folders.":::
 
-    If users dismiss the prompt, a reminder notification will appear in the Sync Activity Center until they move all available folders.
+    If users dismiss the prompt, a reminder notification appears in the Sync Activity Center until they move all available folders.
 
     :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
@@ -80,11 +80,11 @@ The following settings control the Folder Backup feature:
   
 - [Silently move macOS Desktop and Documents folders to OneDrive (KFMSilentOptIn)](deploy-and-configure-on-macos.md#kfmsilentoptin)
 
-    Use **KFMSilentOptIn** to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the setting won't affect the folder again, even if the selection for the folder changes.
+    Use **KFMSilentOptIn** to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders are moved. After a folder is moved, the setting won't affect the folder again, even if the selection for the folder changes.
 
     You can choose to display a notification to users after their folders have been redirected.
 
-    We also recommend using this setting together with **[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)**. If moving the Desktop and Documents folders silently does not succeed, users will be prompted to correct the error and continue.
+    We also recommend using this setting together with **[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)**. If moving the Desktop and Documents folders silently doesn't succeed, users are prompted to correct the error and continue.
 
     > [!IMPORTANT]
     > We recommend deploying the silent setting for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.

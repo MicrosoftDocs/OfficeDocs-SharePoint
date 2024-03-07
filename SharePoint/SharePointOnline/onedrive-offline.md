@@ -1,10 +1,10 @@
 ---
-ms.date: 10/25/2023
+ms.date: 03/05/2024
 title: OneDrive webapp in offline mode
 ms.reviewer:
-ms.author: v-mathavale
-author: v-mathavale
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: "Block syncing of specific file types"
 ms.reviewer: gacarini
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -23,14 +23,14 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 7d7168dd-9015-4245-a971-61b504f834d6
-description: "In this article, you'll learn how to prevent users from uploading specific file types."
+description: "In this article, you learn how to prevent users from uploading specific file types."
 ---
 
 # Block syncing of specific file types
 
 You can prevent users from uploading specific file types when they sync their OneDrive files.
 
-This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
+This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files sync to their computer, but any changes they make on their computer won't be uploaded.
 
 > [!NOTE]
 > The OneDrive sync app doesn't sync .tmp, .ini, and .lnk files.
@@ -38,7 +38,7 @@ This setting prevents file types from being uploaded but not downloaded. If user
  **To block uploading of specific file types**
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
- 
+
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
@@ -59,6 +59,3 @@ This setting prevents file types from being uploaded but not downloaded. If user
    > When you configure this setting, it takes approximately 8 hours for the OneDrive sync app to detect it and apply the change.
 
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction). For info about using a policy to block upload of specific files, see [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded).
-
-
-
