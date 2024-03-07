@@ -105,7 +105,7 @@ In this step, you need to modify the SharePoint Server farm properties based on 
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions).
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1).
 
-### Configure SharePoint Server Subscription Edition Version 24H1 or higher versions
+#### Configure SharePoint Server Subscription Edition Version 24H1 or higher versions
 
 Starting with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server farm properties by employing SharePoint Certificate Management to manage the nonce cookie certificate. The nonce cookie certificate is part of the infrastructure to ensure OIDC authentication tokens are secure. Run the following script to configure:
 
@@ -125,7 +125,7 @@ $farm = Get-SPFarm
 $farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
-### Configure SharePoint Server Subscription Edition prior to Version 24H1
+#### Configure SharePoint Server Subscription Edition prior to Version 24H1
 
 ```powershell
 # Setup farm properties to work with OIDC
