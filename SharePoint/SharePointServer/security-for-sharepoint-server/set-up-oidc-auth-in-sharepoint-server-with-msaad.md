@@ -95,14 +95,14 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
-## Step 2: Change SharePoint farm properties
+## Step 2: Change SharePoint Farm properties
 
-You can modify SharePoint Farm properties based on your SharePoint Subscription Edition.
+You can modify SharePoint Farm properties based on your SharePoint Server Subscription Edition.
 
-- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version 24H1, see [Subscription Edition Version 24H1](#configuring-sharepoint-farm-properties-for-subscription-edition-version-24h1).
-- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [SharePoint farm properties prior to version 24H1](#configuring-sharepoint-farm-properties-prior-to-version-24h1).
+- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version 24H1, see [SharePoint Server Edition Version 24H1 PowerShell cmdlets](#configuring-sharepoint-farm-properties-for-subscription-edition-version-24h1).
+- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [SharePoint Server Edition PowerShell cmdlets prior to version 24H1](#configuring-sharepoint-farm-properties-prior-to-version-24h1).
 
-### Configuring SharePoint farm properties for subscription edition version 24H1
+### Configuring SharePoint Farm properties for subscription edition version 24H1
 
 When you start with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server Farm properties by employing SharePoint Certificate Management to manage OIDC nonce cookie certificates. Run the following script to configure SharePoint Server farm properties:
 
@@ -122,7 +122,7 @@ $farm = Get-SPFarm
 $farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
-### Configuring SharePoint farm properties prior to version 24H1
+### Configuring SharePoint Farm properties prior to version 24H1
 
 To modify SharePoint farm properties, start SharePoint Management Shell and run the following script:
 
