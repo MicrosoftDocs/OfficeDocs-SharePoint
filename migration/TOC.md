@@ -62,7 +62,9 @@
 #### [Permissions](mm-project-settings-permissions.md)
 #### [Google sheet scan settings](mm-google-sheet-scan.md)
 ### [Migration time estimator](mm-time-estimator.md)
-### [Reports, errors, and status codes for cloud migrations](mm-cloud-reports.md)
+### [Reports for cloud migrations](mm-cloud-reports.md)
+#### [Status codes](mm-cloud-reports-status-codes.md)
+#### [Failure codes](mm-cloud-reports-failure-codes.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Reports and error codes for file share migrations](mm-reports.md)
