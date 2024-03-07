@@ -37,6 +37,11 @@ Prior to OIDC 1.0 authentication integration with SharePoint Certificate Managem
 The farm administrators can use the following command to establish or replace the nonce certificate at the farm level. This command can be used regardless of the fact if it's being done during the initial configuration or during replacement of an existing nonce certificate.
 
 ```powershell
+# Use one of the commands to acquire the nonce cookie certificate if it's already imported:
+$nonceCert = Get-SPCertificate -DisplayName <the certificate name>
+$nonceCert = Get-SPCertificate -Thumbprint <thumbprint>
+
+# Update
 $farm = Get-SPFarm 
 $farm.UpdateNonceCertificate($nonceCert, $true)
 ```

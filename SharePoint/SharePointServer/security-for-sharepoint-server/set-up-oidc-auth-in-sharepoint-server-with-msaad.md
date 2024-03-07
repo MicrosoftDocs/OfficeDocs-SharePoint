@@ -95,16 +95,19 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
-## Step 2: Change SharePoint Farm properties
+## Step 2: Change SharePoint farm properties
 
-You can modify SharePoint Farm properties based on your SharePoint Server Subscription Edition.
+In this step, you need to modify the SharePoint Server farm properties based on the version of your SharePoint Server.
 
-- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version 24H1, see [SharePoint Server Edition Version 24H1 PowerShell cmdlets](#configuring-sharepoint-farm-properties-for-subscription-edition-version-24h1).
-- For more information on configuring SharePoint Farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [SharePoint Server Edition PowerShell cmdlets prior to version 24H1](#configuring-sharepoint-farm-properties-prior-to-version-24h1).
+> [!Note]
+> Start the SharePoint Management Shell as a farm Administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully, and you will need to enter your own environment-specific values in certain places.
 
-### Configuring SharePoint Farm properties for subscription edition version 24H1
+- For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions).
+- For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1).
 
-When you start with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server Farm properties by employing SharePoint Certificate Management to manage OIDC nonce cookie certificates. Run the following script to configure SharePoint Server farm properties:
+### Configure SharePoint Server Subscription Edition Version 24H1 or higher versions
+
+Starting with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server farm properties by employing SharePoint Certificate Management to manage the nonce cookie certificate. The nonce cookie certificate is part of the infrastructure to ensure OIDC authentication tokens are secure. Run the following script to configure:
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -122,12 +125,7 @@ $farm = Get-SPFarm
 $farm.UpdateNonceCertificate($nonceCert,$true)
 ```
 
-### Configuring SharePoint Farm properties prior to version 24H1
-
-To modify SharePoint farm properties, start SharePoint Management Shell and run the following script:
-
-> [!NOTE]
-> Read the instructions mentioned in the following PowerShell script carefully.
+### Configure SharePoint Server Subscription Edition prior to Version 24H1
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -167,7 +165,7 @@ You can configure SharePoint to trust the identity provider in either of the fol
 
 ### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
 
-In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
+In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a farm Administrator, and run the following script to create it:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace \<tenantid\> with your own Directory (tenant) ID.
