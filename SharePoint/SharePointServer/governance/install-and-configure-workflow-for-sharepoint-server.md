@@ -109,17 +109,18 @@ New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
 
 To create a SharePoint Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard.
 
-Logon to the SharePoint Workflow Manager server, click on “Workflow Manager Configuration” and click on “Configure Workflow Manager with Default settings” or “Configure Workflow Manager with Custom Settings”, depending on the requirements.
+Logon to the SharePoint Workflow Manager server, click on “Workflow Manager Configuration” and click on “Configure Workflow Manager with Default settings” or “Configure Workflow Manager with Custom Settings”, depending on the requirements. If you want to use different ports, custom certificates, or custom database names, you'll want to use the "Configure Workflow Manager with Custom Settings" option.
 
 In this example, we will use the Default settings.
 
 > [!NOTE] 
-> If you want to use different ports, custom certificates, or custom database names, you'll want to use the "Configure Workflow Manager with Custom Settings" option.
+>  By default, only HTTPS (TLS / SSL) port 12290 is configured for the Workflow Management site.  If you'd like to also allow communication over unencrypted HTTP port 12291, you must select the "Allow Workflow Management over HTTP on this computer" check box.
+
+
 
 Provide the necessary SQL and service account details in the workflow wizard.  
 
-> [!NOTE] 
->  By default, only HTTPS (TLS / SSL) port 12290 is configured for the Workflow Management site.  If you'd like to also allow communication over unencrypted HTTP port 12291, you must select the "Allow Workflow Management over HTTP on this computer" check box.
+
 
 If you are creating a multi-server SharePoint Workflow Manager farm, you must run the workflow configuration wizard on the other nodes and join the existing farm.
 
@@ -217,8 +218,8 @@ Follow these steps to validate that you have successfully installed and configur
   
  **To validate the installation**
   
-1. Add a user to your SharePoint site, and grant the user Site Designer permissions.   
-2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo).    
+1. Add a user to your SharePoint site and grant the user Site Designer permissions.   
+2. Install SharePoint Designer 2013 on a client machine and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo).    
 3. Run this workflow from the SharePoint user interface.
     
 ## Troubleshooting
