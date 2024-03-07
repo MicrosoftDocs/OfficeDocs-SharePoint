@@ -95,7 +95,6 @@ The table lists the latest set of supported settings found under the **Settings*
 || Default time zone|
 |**OneDrive Sync**|Show Sync button on the OneDrive website|
 |**SharePoint Version history limits**|Set version history limits|
-|||
 
 #### Access control settings
 
@@ -108,7 +107,6 @@ The table lists the latest set of supported settings found in **Policies** under
 |**Network location**|Allow access only from specific IP addresses|
 |**Apps that don't use modern authentication**|Block access from Office 2010 and other apps that can't enforce device-based restrictions|
 |**OneDrive access restriction**|Restrict access to OneDrive content by security group|
-|||
 
 #### Sharing settings
 
@@ -120,7 +118,6 @@ The table lists the latest set of supported settings found in **Policies** under
 |**File and folder settings**|Choose the type of link selected by default when users share files and folders in SharePoint and OneDrive|
 ||Choose the permission selected by default for sharing links|
 ||Choose who can access files with the URL to a file copied from the browser address bar|
-|||
 
 ## Related topics
 
