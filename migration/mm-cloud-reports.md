@@ -20,7 +20,7 @@ search.appverid: MET150
 description: "Learn about reports, errors, and status codes for cloud to cloud migrations using Migration Manager in Microsoft 365."
 ---
 
-# Reports and errors for cloud migrations
+# Reports and codes for cloud migrations
 
 Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios such as Google Drive, Dropbox, Box, and Egnyte.
 
@@ -43,13 +43,13 @@ There are 4 types of reports to help manage, audit, and troubleshoot your migrat
 > [!Important]
 > These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
 > > These reports expire in 90 days. Microsoft doesn't retain the log files.
-## Status and failure codes
+## Codes
 
-Your reports may reference a failure or status code to provide specific details as to the nature of the issue. 
+Your reports may reference a status or failure code to provide specific details as to the nature of the issue. 
 
 - [Status codes](#status-codes): Provide the final status of the scan and migration tasks. Status codes can be located in scan/migration summary reports.How to download reports.
 
-- [Failure codes](#failure-codes): Represent file level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
+- [Failure codes](#failure-codes): Represent file-level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 ## How to download reports
 
@@ -79,10 +79,6 @@ There are limits on the number of tasks can be selected for bulk download for ea
 
 1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
 
-   ![A message dialog about viewing reports generation status and the final download links in recent actions.](media/mm-cloud-reports/1111111.png)
-   
-   
-   
 ### Download Migration reports
 
 1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
@@ -353,7 +349,7 @@ Status codes provide the final status of the scan and migration tasks. Status co
 
 ## Failure codes
 
-Failure codes represent file level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
+Failure codes represent file-level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 |Failure code|Description |User action|
 |:-----|:-----|:-----|
