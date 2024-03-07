@@ -164,7 +164,7 @@ You can configure SharePoint to trust the identity provider in either of the fol
 
 > [!NOTE]
 > Follow either the manual configuration steps or the metadata endpoint steps, but not both.
-   
+
 ### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
 
 In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a Farm Administrator, and run the following script to create it:
@@ -287,7 +287,7 @@ To create a new web application, do the following:
       $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
       ```
 
-  2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/Secure Sockets Layer (SSL) named SharePoint - OIDC on contoso.local.
+  2. Follow [Create a web application in SharePoint Server](../administration/create-a-web-application.md) to create a new web application enabling HTTPS/Secure Sockets Layer (SSL) named SharePoint - OIDC on contoso.local.
   3. Open the SharePoint Central Administration site.
   4. Open the web application you created and pick **contoso.local** as **Trusted Identity Provider**.
 
@@ -427,11 +427,11 @@ Now, customers can start to synchronize profiles into the SharePoint user profil
 
 There are two ways to synchronize user profiles into the SharePoint UPSA:
 
-- Create a new SharePoint Active Directory Import (AD Import) connection with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
+- Create a new SharePoint Active Directory Import (AD Import) connection with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](../administration/manage-profile-synchronization.md).
 
     :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="Add New Synchronization Connections":::
 
-- Use Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
+- Use Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](../administration/microsoft-identity-manager-in-sharepoint-server.md).
   - There should be two agents inside the MIM Synchronization Service Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint UPSA.
 
 During the synchronization, the following three properties must be provided to the UPSA:
