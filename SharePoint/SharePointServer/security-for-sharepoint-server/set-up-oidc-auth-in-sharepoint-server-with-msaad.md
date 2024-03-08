@@ -110,12 +110,12 @@ In this step, you need to modify the SharePoint Server farm properties based on 
 Starting with SharePoint Server Subscription Edition Version 24H1, you can configure SharePoint Server farm properties by employing SharePoint Certificate Management to manage the nonce cookie certificate. The nonce cookie certificate is part of the infrastructure to ensure OIDC authentication tokens are secure. Run the following script to configure:
 
 ```powershell
-# Setup farm properties to work with OIDC
+# Set up farm properties to work with OIDC
 
 # Create the Nonce certificate
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
 
-#Import certificate to Certificate Management
+# Import certificate to Certificate Management
 $certPath = <path to save the exported cert>
 $certPassword = ConvertTo-SecureString -String <password> -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $certPassword
@@ -128,24 +128,24 @@ $farm.UpdateNonceCertificate($nonceCert,$true)
 #### Configure SharePoint Server Subscription Edition prior to Version 24H1
 
 ```powershell
-# Setup farm properties to work with OIDC
+# Set up farm properties to work with OIDC
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
 $rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
 $fileName = $rsaCert.key.UniqueName
 
-#if you have multiple SharePoint servers in the farm, you need to export certificate by Export-PfxCertificate and import certificate to all other SharePoint servers in the farm by Import-PfxCertificate. 
+# If you have multiple SharePoint servers in the farm, you need to export the certificate by Export-PfxCertificate and import the certificate to all other SharePoint servers in the farm by Import-PfxCertificate. 
 
-#After certificate is successfully imported to SharePoint Server, we will need to grant access permission to certificate private key.
+# After the certificate is successfully imported to SharePoint Server, we will need to grant access permission to the certificate's private key.
 
 $path = "$env:ALLUSERSPROFILE\Microsoft\Crypto\RSA\MachineKeys\$fileName"
 $permissions = Get-Acl -Path $path
 
-#Replace the <web application pool account> with real application pool account of your web application
+# Replace the <web application pool account> with the real application pool account of your web application
 $access_rule = New-Object System.Security.AccessControl.FileSystemAccessRule(<Web application pool account>, 'Read', 'None', 'None', 'Allow')
 $permissions.AddAccessRule($access_rule)
 Set-Acl -Path $path -AclObject $permissions
 
-#Then we update farm properties
+# Then we update farm properties
 $farm = Get-SPFarm
 $farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
 $farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
@@ -165,7 +165,7 @@ You can configure SharePoint to trust the identity provider in either of the fol
 
 ### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
 
-In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a farm Administrator, and run the following script to create it:
+In this step, you create a `SPTrustedTokenIssuer` that stores the configuration that SharePoint needs to trust Microsoft Entra OIDC as the OIDC provider. Start the SharePoint Management Shell as a farm administrator, and run the following script to create it:
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.  For example, replace \<tenantid\> with your own Directory (tenant) ID.
