@@ -39,29 +39,7 @@ Learn how to:
 
 Use any text editor, or an application like Microsoft Excel, to create the CSV file. The first three columns are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data.
 
-**Example**: Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
-  
-![Spreadsheet view of SharePoint Migration Tool sample format when using a CSV file.](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
-  
-The following example shows how it would look in a .txt file.
-  
-```
-Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
-C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrarySubfolder_name,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-\\sharedfolder\homedrives\meganb,,,https://contoso-my.sharepoint.com/personal/meganb_contoso_com/,DocLibraryName,DocLibraryName_subfolder
-```
-
-**Before you begin**
-
-- Enter one migration source and destination per row. Account for all six columns in your file.
-- *Don't* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
-- Remember to account for all six columns in the file, even if you don't need a value for a given field.
-- If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you get an "invalid document library" error.
-- If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
-
-
-**Column definitions**    
+### Column definitions  
   
 |Column content|Description|
 |:-----|:-----|
@@ -77,13 +55,34 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 >[!Important]
 >**Hub site association:** Registering and associating hubsites occurs at the final stage of the migration. If you terminate a task before it completes, the hub site work may not be performed.  SPMT will not change the hub association if it finds the site is already associated to a hub site.  A site will not be -"un-registered" if it already registered as a hub site.
 
+## Example CSV  
 
+Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive. 
+
+**Before you begin**
+
+- Enter one migration source and destination per row.
+- If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you get an "invalid document library" error.
+- If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
+
+> [!IMPORTANT]
+> All columns detailed above must be present and can be blank if not needed.
+  
+![Spreadsheet view of SharePoint Migration Tool sample format when using a CSV file.](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
+  
+The following example shows how it would look if opened in a text editor.
+  
+```
+C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
+https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrarySubfolder_name,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
+\\sharedfolder\homedrives\meganb,,,https://contoso-my.sharepoint.com/personal/meganb_contoso_com/,DocLibraryName,DocLibraryName_subfolder
+```
 
 ## Use a JSON file for bulk upload
 
 The following example shows the JSON file format that you can use to migrate your data.
 
-As with a CSV file, the minimum required values are *Source*, *Target Web*, and *Target DocLib*.  
+The minimum required values are *SourcePath* and *TargetPath*.  
 
 ```json
 {
@@ -145,8 +144,7 @@ As with a CSV file, the minimum required values are *Source*, *Target Web*, and 
 
 ## Troubleshooting
 
-
-## Proxy connections
+### Proxy connections
 
 Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
 
@@ -157,9 +155,8 @@ If you wish to use your system proxy settings, use one of these methods:
 1. Download the latest version of SPMT. Start SPMT.
 2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
 3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-4. Uncomment the default proxy setting shown here:
-    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
-
+4. Uncomment the default proxy setting shown here:  
+![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)  
 5. Restart SPMT.
 
 </br>
@@ -168,19 +165,15 @@ If you wish to use your system proxy settings, use one of these methods:
 
 1. If SPMT can't upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
 2. Open the **installclient.exe.config** file. 
-3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
-</br>
-
-   ![Edit the config file](media/spmt-proxy-edits.png)
-
+3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag:  
+![Edit the config file](media/spmt-proxy-edits.png)  
 4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-6. Uncomment the default proxy setting:
-7. 
-    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
-
+6. Uncomment the default proxy setting:  
+![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)  
 5. Restart SPMT.
 
+### Additional Errors
 
 |Error|Description|
 |:-----|:-----|
