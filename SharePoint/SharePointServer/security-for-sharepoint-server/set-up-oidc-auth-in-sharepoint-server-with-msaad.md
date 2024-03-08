@@ -100,7 +100,7 @@ Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`) and sa
 In this step, you need to modify the SharePoint Server farm properties based on the version of your SharePoint Server.
 
 > [!Note]
-> Start the SharePoint Management Shell as a farm Administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully, and you will need to enter your own environment-specific values in certain places.
+> Start the SharePoint Management Shell as a farm administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully, and you will need to enter your own environment-specific values in certain places.
 
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions).
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1).
