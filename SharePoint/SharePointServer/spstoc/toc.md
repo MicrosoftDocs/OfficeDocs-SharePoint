@@ -902,6 +902,7 @@
 #### [The current server is running low on memory](../technical-reference/the-current-server-is-running-low-on-memory.md)
 #### [AMSI protection may not be working](../technical-reference/amsi-protection-may-not-be-working.md)
 #### [Basic authentication is deprecated](../technical-reference/basic-auth-is-being-deprecated.md)
+#### [The nonce cookie certificate is not imported](../technical-reference/the-nonce-cookie-certificate-is-not-imported.md)
 ### [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md)
 #### [Default timer jobs in SharePoint Server 2019](../technical-reference/default-timer-jobs-in-sharepoint-server-2019.md)
 #### [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md)

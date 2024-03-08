@@ -22,7 +22,7 @@ description: "Learn how to troubleshoot problems in SharePoint Server using Shar
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-The Health Analyzer rules in this section are arranged by categories, as they appear in the Health Analyzer Rule Definitions page in the SharePoint Central Administration website.
+The Health Analyzer rules in this section is arranged by categories, as they appear in the Health Analyzer Rule Definitions page in the SharePoint Central Administration website.
   
 In this section:
   
