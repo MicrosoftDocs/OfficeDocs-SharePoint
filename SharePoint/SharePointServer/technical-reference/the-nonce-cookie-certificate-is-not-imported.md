@@ -24,7 +24,7 @@ description: "Learn to ensure proper management and notification of the certific
 
 **Summary:** OpenID Connect (OIDC) authentication is configured in your SharePoint Server farm, but the certificate used to generate the nonce cookie isn't managed by the Certificate Management of SharePoint Server. As a result, you don't receive any system notification if that certificate is close to expiration, which would lead to farm service outage. SharePoint Server doesn't automatically grant required permissions of nonce cookie certificate to the Web Application Pool account if you enable OIDC for web applications, and you need to do it manually.
 
-**Cause:** The certificate used to generate the nonce cookie is currently being used and not managed by SharePoint Server farm.
+**Cause:** SharePoint Server farm currently uses the certificate that is used to generate the nonce cookie but doesn't manage it.
 
 **Resolution:** **Import the nonce cookie certificate**
 
