@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Learn to ensure proper management and notification of the certificate expiration to avoid issues with the Web Application Pool account while enabling OIDC in a web application"
+description: "Learn to ensure proper management and notification of the certificate expiration to avoid issues with the Web Application Pool account while enabling OIDC in a web application."
 ---
 
 # Certificate Management does not manage the nonce cookie certificate (SharePoint Server)
 
-**Rule Name:** SharePoint Server doesn't manage the nonce cookie certificate
+**Rule Name:** SharePoint Server doesn't manage the nonce cookie certificate.
 
-**Summary:** OpenID Connect (OIDC) authentication is configured in your SharePoint Server farm, but the certificate used to generate the nonce cookie isn't managed by the Certificate Management of SharePoint Server. As a result, you'll not receive any system notification if that certificate is close to expiration which would lead to farm service outage. Additionally, SharePoint Server won't automatically grant required permissions of nonce cookie certificate to the Web Application Pool account if you enable OIDC for web applications, and you'll need to do it manually.
+**Summary:** OpenID Connect (OIDC) authentication is configured in your SharePoint Server farm, but the certificate used to generate the nonce cookie doesn't manage the Certificate Management of SharePoint Server. As a result, you don't receive any system notification if that certificate is close to expiration, which would lead to farm service outage. SharePoint Server doesn't automatically grant required permissions of nonce cookie certificate to the Web Application Pool account if you enable OIDC for web applications, and you need to do it manually.
 
-**Cause:** The certificate used to generate the nonce cookie is currently in use but isn't managed by the SharePoint Server farm.
+**Cause:** The certificate used to generate the nonce cookie is currently being used and not managed by SharePoint Server farm.
 
 **Resolution:** **Import the nonce cookie certificate**
 
-It's recommended to follow these resolution steps to ensure proper management and notification of the certificate expiration to avoid issues with Web Application Pool account while enabling OIDC in web application:
+Ensure proper management and notification of the certificate expiration by following the steps below to avoid issues with Web Application Pool account while enabling OIDC in web application:
 
 1. Import nonce cookie certificate in Certificate Management of SharePoint Server.
 1. Start SharePoint Management Shell and run the following script to update the certificate property:
