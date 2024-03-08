@@ -83,6 +83,8 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
 ## Configuration
 
 The following Health Analyzer rules relate to configuration of SharePoint Server.
+
+- [Certificate Management does not manage the nonce cookie certificate (SharePoint Server)](the-nonce-cookie-certificate-is-not-imported.md)
   
 - [Alternate access URLs have not been configured (SharePoint Server)](alternate-access-urls-have-not-been-configured.md)
     
