@@ -33,14 +33,14 @@ Ensure proper management and notification of the certificate expiration by follo
 1. Import nonce cookie certificate in Certificate Management of SharePoint Server.
 1. Start SharePoint Management Shell and run the following script to update the certificate property:
 
-```powershell
-# Use one of the commands to acquire nonce cookie certificate imported:
-$nonceCert = Get-SPCertificate -DisplayName <the certificate name>
-$nonceCert = Get-SPCertificate -Thumbprint <thumbprint>
+   ```powershell
+    # Use one of the commands to acquire nonce cookie certificate imported:
+    $nonceCert = Get-SPCertificate -DisplayName <the certificate name>
+    $nonceCert = Get-SPCertificate -Thumbprint <thumbprint>
 
-# Update
-$farm = Get-SPFarm 
-$farm.UpdateNonceCertificate($nonceCert, $true)
-```
+    # Update
+    $farm = Get-SPFarm 
+    $farm.UpdateNonceCertificate($nonceCert, $true)
+   ```
 
 For more information, see [Change SharePoint farm properties](../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
