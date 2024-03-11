@@ -28,7 +28,7 @@ description: "Learn to ensure proper management and notification of the certific
 
 **Resolution:** **Import the nonce cookie certificate**
 
-Ensure proper management and notification of the certificate expiration by following the steps below to avoid issues with Web Application Pool account while enabling OIDC in web application:
+Ensure proper management and notification of the certificate expiration by following the steps to avoid issues with Web Application Pool account while enabling OIDC in web application:
 
 1. Import nonce cookie certificate in Certificate Management of SharePoint Server.
 1. Start SharePoint Management Shell and run the following script to update the certificate property.
