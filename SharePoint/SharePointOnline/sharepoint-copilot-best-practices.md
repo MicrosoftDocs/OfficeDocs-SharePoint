@@ -14,6 +14,7 @@ ms.topic: conceptual
 ms.service: sharepoint-online
 ms.collection: 
 - M365-collaboration
+- m365copilot
 - Tier2
 ms.custom:
 - seo-marvel-apr2020
