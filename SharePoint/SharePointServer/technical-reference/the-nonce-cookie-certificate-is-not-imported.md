@@ -18,7 +18,7 @@ description: "Learn to ensure proper management and notification of the certific
 
 # Certificate Management is not managing the nonce cookie certificate (SharePoint Server)
 
-[!INCLUDE[[appliesto-xxx-xxx-xxx-SUB-xxx-md.md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]]
+[!INCLUDE[[appliesto-xxx-xxx-xxx-SUB-xxx-md.md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 **Rule Name:** SharePoint Server doesn't manage the nonce cookie certificate.
 

@@ -101,7 +101,6 @@ In this step, you'll need to modify the SharePoint Server farm properties. Start
 
 > [!NOTE]
 > Read the instructions mentioned in the following PowerShell script carefully.  You will need to enter your own environment-specific values in certain places.
-
 ```powershell
 # Setup farm properties to work with OIDC
 
