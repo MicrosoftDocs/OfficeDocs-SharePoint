@@ -124,7 +124,7 @@
 ### [Create an organization news site](organization-news-site.md)
 
 ## [Copilot]()
-### [Microsoft Copilot for Microsoft 365 - best practices](sharepoint-copilot-best-practices)
+### [Microsoft Copilot for Microsoft 365 - best practices](sharepoint-copilot-best-practices.md)
 
 ## [OneDrive users and storage]()
 ### [Pre-provision accounts](pre-provision-accounts.md)
