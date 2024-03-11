@@ -83,7 +83,6 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
 ## Configuration
 
 The following Health Analyzer rules relate to configuration of SharePoint Server.
-
 - [Alternate access URLs have not been configured (SharePoint Server)](alternate-access-urls-have-not-been-configured.md)
     
 - [The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)](the-application-discovery-and-load-balancer-service-is-not-running-in-this-farm.md)
