@@ -140,7 +140,7 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
     
 - [InfoPath form library forms cannot be filled out in a Web browser (SharePoint Server)](infopath-form-library-forms-cannot-be-filled-out-in-a-web-browser.md)
     
-- [InfoPath Forms Services forms can't be filled out in a Web browser because no State Service connection is configured (SharePoint Server)](infopath-forms-services-forms-cannot-be-filled-out-in-a-web-browser-because-no-s.md)
+- [InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)](infopath-forms-services-forms-cannot-be-filled-out-in-a-web-browser-because-no-s.md)
     
 - [Expired sessions are not being deleted from the ASP.NET Session State database (SharePoint Server)](expired-sessions-are-not-being-deleted-from-the-asp-net-session-state-database.md)
     
@@ -190,7 +190,7 @@ The following Health Analyzer rules relate to availability of SharePoint Server.
     
 - [Database has large amounts of unused space (SharePoint Server)](database-has-large-amounts-of-unused-space.md)
     
-- [The Net.Pipe Listener Adapter is not available (SharePoint Server)](the-net-pipe-listener-adapter-isn-t-available.md)
+- [The Net.Pipe Listener Adapter isn't available (SharePoint Server)](the-net-pipe-listener-adapter-isn-t-available.md)
     
 - [The Security Token Service is not available (SharePoint Server)](the-security-token-service-is-not-available.md)
     
