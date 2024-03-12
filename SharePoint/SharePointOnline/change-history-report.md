@@ -1,6 +1,6 @@
 ---
-ms.date: 03/07/2024
-title: "Create change history reports for SharePoint sites"
+ms.date: 03/12/2024
+title: "Create change history reports"
 ms.reviewer: daminasy
 manager: jtremper
 recommendations: true
@@ -19,7 +19,7 @@ ms.collection:
 description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
 ---
 
-# Create change history reports for SharePoint sites
+# Create change history reports
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
@@ -27,7 +27,7 @@ You can create custom change history reports in the [SharePoint admin center](ge
 
 Change history reports can increase visibility and let you monitor changes made to the SharePoint configuration across various levels of your organization.
 
-Create up to 10 reports that tracks what changed, when it happened, and who initiated the change across the site and organization settings.
+Create up to 10 reports that track what changed, when it happened, and who initiated the change across the site and organization settings.
 
 :::image type="content" source="media/change-history/1-change-history-dashboard.png" alt-text="screenshot of change history report dashboard.":::
 
@@ -66,22 +66,20 @@ You can create new reports, delete, and refresh their statuses from the change h
 
 Generate a site settings report for a given date range and filter by sites and users. You can download the report as a CSV file to view the site property changes. All site actions performed by Site administrators, Global administrators, and SharePoint administrators are captured in the report.
 
-### Organization Settings Report (preview)
+### Audited organization settings (preview)
 
 > [!NOTE]
-> Organization settings reports are in public preview. A table listing trackable organization settings is included in this article.
+> Audited organization settings reports are available in public preview. The trackable [organizations settings table](#organization-settings) is listed further in this article.
 
-You can also generate an organization settings report tracking changes made to organization settings from the SharePoint Admin Center. You can generate these reports for custom date ranges while filtering for specific users of interest. A best practice is to review the downloaded reports to ensure there are no deviations in settings from the desired state.
+You can also generate an organization settings report to track changes made to organization settings from the SharePoint Admin Center. You can generate these reports for custom date ranges while filtering for specific users of interest. A best practice is to review the downloaded reports to ensure there are no deviations in settings from the desired state.
+
+Any changes made to the following organization settings are reflected in the reports. We're continuously working to bring more settings under the ambit of these reports.
 
 > [!TIP]
 > You can export data for up to 180 days with a change history report depending on the user license. The report may contain data for users that go back 180 days as well as data for others that don’t. Since the type of user license isn’t shown on the report, it may appear as if data is missing for some users.
 
 > [!NOTE]
 > Admins assigned the [global reader role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true%3Do365-worldwide) do not have the permissions to create or delete a report, but can download to review the changes.
-
-### Audited settings (preview)
-
-Any changes made to the following tenant settings are reflected in the reports. We're continuously working to bring more settings under the ambit of these reports.
 
 #### Organization settings
 
@@ -90,9 +88,7 @@ The table lists the latest set of supported settings found under the **Settings*
 |Name|Description|
 |---|---|
 |**SharePoint Pages**|Allow commenting on modern pages|
-|**SharePoint Site creation**|Users can create SharePoint site|
-||Create teams sites under|
-|| Default time zone|
+|**SharePoint Site creation**|Users can create SharePoint site, Create teams sites under, Default time zone|
 |**OneDrive Sync**|Show Sync button on the OneDrive website|
 |**SharePoint Version history limits**|Set version history limits|
 
@@ -115,9 +111,7 @@ The table lists the latest set of supported settings found in **Policies** under
 |Name|Description|
 |---|---|
 |**External Sharing**|Content can be shared with, more external sharing settings|
-|**File and folder settings**|Choose the type of link selected by default when users share files and folders in SharePoint and OneDrive|
-||Choose the permission selected by default for sharing links|
-||Choose who can access files with the URL to a file copied from the browser address bar|
+|**File and folder settings**|Choose the type of link selected by default when users share files and folders in SharePoint and OneDrive, Choose the permission selected by default for sharing links, Choose who can access files with the URL to a file copied from the browser address bar|
 
 ## Related topics
 
