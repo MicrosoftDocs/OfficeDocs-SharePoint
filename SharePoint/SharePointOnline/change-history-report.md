@@ -29,7 +29,7 @@ Change history reports can increase visibility and let you monitor changes made 
 
 Create up to 10 reports that track what changed, when it happened, and who initiated the change across the site and organization settings.
 
-:::image type="content" source="media/change-history/1-change-history-dashboard.png" alt-text="screenshot of change history report dashboard.":::
+:::image type="content" source="media/change-history/1-change-history-dashboard.png" alt-text="Screenshot of change history report dashboard.":::
 
 ## Requirements
 
@@ -58,7 +58,7 @@ To view change history reports, expand **Reports** and select **Change history**
 
 You can create new reports, delete, and refresh their statuses from the change history page. This page can only show 10 reports at a time. The best practice is to delete a previous report before creating a new one.
 
-:::image type="content" source="media/change-history/2-change-history-dashboard-panel-expanded.png" alt-text="screenshot of change history dashboard with a prefilled new report panel":::
+:::image type="content" source="media/change-history/2-change-history-dashboard-panel-expanded.png" alt-text="Screenshot of change history dashboard with a prefilled new report panel.":::
 
 ## Reporting
 
