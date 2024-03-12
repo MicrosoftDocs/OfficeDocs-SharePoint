@@ -42,7 +42,9 @@ There are 4 types of reports to help manage, audit, and troubleshoot your migrat
 
 > [!Important]
 > These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
-> > These reports expire in 90 days. Microsoft doesn't retain the log files.
+> 
+> These reports expire in 90 days. Microsoft doesn't retain the log files.
+
 ## Codes
 
 Your reports may reference a status or failure code to provide specific details as to the nature of the issue. 
