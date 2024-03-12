@@ -10,6 +10,7 @@
 #### [New and improved features in SharePoint Server Subscription Edition Version 22H2](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md)
 #### [New and improved features in SharePoint Server Subscription Edition Version 23H1](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md)
 #### [New and improved features in SharePoint Server Subscription Edition Version 23H2](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release.md)
+#### [New and improved features in SharePoint Server Subscription Edition Version 24H1](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md)
 #### [What's deprecated or removed from SharePoint Server Subscription Edition](../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md)
 ### [SharePoint Server 2019]()
 #### [New and improved features in SharePoint Server 2019](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md)
