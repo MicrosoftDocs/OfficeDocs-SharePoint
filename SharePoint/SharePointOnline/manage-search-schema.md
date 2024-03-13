@@ -1,9 +1,9 @@
 ---
-ms.date: 07/12/2018
+ms.date: 03/13/2024
 title: "Manage the search schema in SharePoint"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: misvenso
+author: MikaelSvenson
 manager: jtremper
 recommendations: true
 audience: Admin
