@@ -69,7 +69,7 @@ Generate a site settings report for a given date range and filter by sites and u
 ### Organization settings report (preview)
 
 > [!NOTE]
-> Organization settings reports are available in public preview. The [audited organization settings table](#current-audited-organization-settings) listed further in this article reflects the list of settings that are currently tracked under these reports.
+> Organization settings reports are available in public preview. The [audited organization settings table](#current-audited-organization-settings) listed later in this article reflects the list of settings that are currently tracked under these reports.
 
 You can also generate an organization settings report to track changes made to organization settings from the SharePoint Admin Center. You can generate these reports for custom date ranges while filtering for specific users of interest. A best practice is to review the downloaded reports to ensure there are no deviations in settings from the desired state.
 
