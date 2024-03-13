@@ -83,7 +83,6 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
 ## Configuration
 
 The following Health Analyzer rules relate to configuration of SharePoint Server.
-  
 - [Alternate access URLs have not been configured (SharePoint Server)](alternate-access-urls-have-not-been-configured.md)
     
 - [The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)](the-application-discovery-and-load-balancer-service-is-not-running-in-this-farm.md)
@@ -171,6 +170,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [The Machine Translation Service is not running when it should be running (SharePoint Server)](the-machine-translation-service-is-not-running-when-it-should-be-running.md)
     
 - [XLIFF translations for the Machine Translation Service is disabled (SharePoint Server)](xliff-translations-for-the-machine-translation-service-is-disabled.md)
+
+- [Certificate Management is not managing the nonce cookie certificate (SharePoint Server)](the-nonce-cookie-certificate-is-not-imported.md)
     
 ## Availability
 

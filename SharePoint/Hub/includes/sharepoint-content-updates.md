@@ -2,40 +2,38 @@
 
 
 
-## Week of November 27, 2023
+## Week of February 26, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/27/2023 | [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements) | modified |
+| 2/26/2024 | [Find your Microsoft 365 tenant ID](/SharePoint/find-your-office-365-tenant-id) | modified |
+| 2/26/2024 | [Restore a deleted OneDrive](/SharePoint/restore-deleted-onedrive) | modified |
+| 3/1/2024 | [Search limits for SharePoint](/SharePoint/search-limits) | modified |
 
 
-## Week of November 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/21/2023 | [SharePoint documentation # < 60 chars](/SharePoint/index) | modified |
-| 11/22/2023 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
-| 11/22/2023 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
-
-
-## Week of November 13, 2023
+## Week of February 12, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/16/2023 | [OneDrive webapp in offline mode](/SharePoint/onedrive-offline) | added |
-| 11/16/2023 | [Restrict access to a user's OneDrive content to people in a group](/SharePoint/onedrive-site-access-restriction) | added |
-| 11/17/2023 | [Microsoft OneDrive customer office hours](/SharePoint/onedrive-office-hours) | modified |
+| 2/15/2024 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | modified |
+| 2/15/2024 | [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
 
 
-## Week of November 06, 2023
+## Week of February 05, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/6/2023 | [Use Microsoft Purview risk and compliance solutions instead of the older information management and records management features in SharePoint for Microsoft 365](/SharePoint/use-microsoft-purview-risk-and-compliance-solutions) | modified |
-| 11/7/2023 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
-| 11/7/2023 | [Restrict OneDrive access by security group](/SharePoint/limit-access) | modified |
-| 11/8/2023 | [Change the external sharing setting for a user's OneDrive](/SharePoint/user-external-sharing-settings) | modified |
+| 2/7/2024 | [Restrict SharePoint site access with Microsoft 365 groups and Entra security groups](/SharePoint/restricted-access-control) | modified |
+| 2/7/2024 | [Add content databases in SharePoint Server](/SharePoint/administration/add-a-content-database) | modified |
+| 2/8/2024 | [Planning your SharePoint hub sites](/SharePoint/planning-hub-sites) | modified |
+
+
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2024 | [Change a site address](/SharePoint/change-site-address) | modified |

@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- essentials-manage
 ms.assetid: 39f9eaa2-867e-47b9-b7ea-bff74f9f8c6a
 description: "The articles in this section help you operate and maintain servers, server farms, sites, and solutions in a SharePoint Server environment."
 ---

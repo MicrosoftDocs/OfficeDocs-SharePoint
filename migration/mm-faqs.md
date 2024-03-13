@@ -2,8 +2,8 @@
 ms.date: 10/31/2019
 title: "Migration Manager FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

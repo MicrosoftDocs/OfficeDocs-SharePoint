@@ -2,8 +2,8 @@
 ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Box migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: ITPro
 f1.keywords:

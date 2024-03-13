@@ -2,8 +2,8 @@
 title: "Unsupported file types in Migration Manager"
 ms.date: 08/30/2023
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 recommendations: true
 audience: ITPro

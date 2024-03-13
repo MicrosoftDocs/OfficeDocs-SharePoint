@@ -1,9 +1,9 @@
 ---
-ms.date: 04/27/2021
+ms.date: 03/05/2024
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:

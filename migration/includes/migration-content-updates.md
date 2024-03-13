@@ -2,36 +2,39 @@
 
 
 
-## Week of December 04, 2023
+## Week of January 29, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/6/2023 | [SharePoint Migration tool FAQs](/SharepointMigration/spmt-faqs) | added |
-| 12/7/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 1/30/2024 | [SharePoint Migration Tool for SharePoint and OneDrive](/SharepointMigration/introducing-the-sharepoint-migration-tool) | modified |
+| 1/30/2024 | [SharePoint Migration Assessment Tool](/SharepointMigration/overview-of-the-sharepoint-migration-assessment-tool) | modified |
+| 1/30/2024 | [Migrate SharePoint Designer workflows with SPMT](/SharepointMigration/spmt-workflow-migration-spd) | modified |
+| 1/30/2024 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
+| 2/1/2024 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+| 2/1/2024 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 2/1/2024 | [Migrated Flow structure when using SPMT](/SharepointMigration/spmt-workflow-migrated-flows) | modified |
+| 2/1/2024 | [Migrate SharePoint Designer workflows with SPMT](/SharepointMigration/spmt-workflow-migration-spd) | added |
+| 2/1/2024 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
+| 2/1/2024 | [Step 2: Migrate SharePoint Server workflows with SPMT](/SharepointMigration/spmt-workflow-step2) | modified |
+| 2/1/2024 | [Step 3: Activate workflows after migration](/SharepointMigration/spmt-workflow-step3) | modified |
 
 
-## Week of November 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/28/2023 | [Migration Assessment Scan Large List Views](/SharepointMigration/migration-assessment-scan-large-list-views) | modified |
-| 11/28/2023 | [Migration Assessment Scan Large Lists](/SharepointMigration/migration-assessment-scan-large-lists) | modified |
-| 11/28/2023 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
-| 11/28/2023 | [Review the destination paths for your Dropbox migration with Migration Manager](/SharepointMigration/mm-dropbox-step4-review-destinations) | modified |
-| 11/28/2023 | [Review the destination paths for your Egnyte migration with Migration Manager](/SharepointMigration/mm-egnyte-step4-review-destinations) | modified |
-| 11/28/2023 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
-| 11/28/2023 | [Review the destination paths for your Google migration with Migration Manager](/SharepointMigration/mm-google-step4-review-destinations) | modified |
-| 11/29/2023 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
-| 11/29/2023 | [Step 5: Map Google identities with Migration Manager](/SharepointMigration/mm-google-step5-map-identities) | modified |
-
-
-## Week of November 13, 2023
+## Week of January 22, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/14/2023 | [Scan Google Sheet spreadsheets with Migration Manager](/SharepointMigration/mm-google-sheet-scan) | modified |
-| 11/15/2023 | [Permission settings in Migration Manager](/SharepointMigration/mm-project-settings-permissions) | added |
-| 11/15/2023 | [Project settings in Migration Manager](/SharepointMigration/mm-project-settings) | added |
+| 1/25/2024 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
+| 1/25/2024 | [Migration Manager Egnyte FAQs](/SharepointMigration/mm-faqs-egnyte) | modified |
+| 1/25/2024 | [SharePoint Server Team Sites Migration Guide](/SharepointMigration/sp-teams-sites-migration-guide) | modified |
+| 1/25/2024 | [Microsoft 365 Migration Admin role](/SharepointMigration/mm-migration-admin-role) | added |
+| 1/25/2024 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+
+
+## Week of January 15, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/19/2024 | [SharePoint Migration tool FAQs](/SharepointMigration/spmt-faqs) | modified |

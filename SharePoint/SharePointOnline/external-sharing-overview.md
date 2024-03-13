@@ -38,7 +38,7 @@ description: "Learn about the external sharing options in SharePoint and OneDriv
 
 # Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 
-The external sharing features of SharePoint and OneDrive let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+The external sharing features of SharePoint and OneDrive let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams). Also read [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
 Planning for external sharing should be included as part of your overall permissions planning for SharePoint and OneDrive. This article describes what happens when users share, depending on what they're sharing and with whom. 
 

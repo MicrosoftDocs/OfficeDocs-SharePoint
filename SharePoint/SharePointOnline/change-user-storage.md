@@ -1,9 +1,9 @@
 ---
-ms.date: 10/23/2023
+ms.date: 03/05/2024
 title: "Change a specific user's OneDrive storage space"
 ms.reviewer: jmcdowe
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -18,6 +18,7 @@ search.appverid:
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- Essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc

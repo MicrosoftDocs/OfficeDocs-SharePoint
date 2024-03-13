@@ -123,6 +123,9 @@
 #### [Support for organization fonts in PowerPoint for the web](support-for-organization-fonts-in-PowerPoint-for-the-web.md)
 ### [Create an organization news site](organization-news-site.md)
 
+## [Copilot]()
+### [Microsoft Copilot for Microsoft 365 - best practices](sharepoint-copilot-best-practices.md)
+
 ## [OneDrive users and storage]()
 ### [Pre-provision accounts](pre-provision-accounts.md)
 ### [Set default storage space](set-default-storage-space.md)

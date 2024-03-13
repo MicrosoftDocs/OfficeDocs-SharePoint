@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/05/2024
 title: "Control notifications"
 ms.reviewer: shahna
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
@@ -38,7 +38,7 @@ By default, users receive notifications about file activity in OneDrive and Shar
 ## Allow or block notifications
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-    
+
 2. Select the **Notifications** setting for OneDrive.
   
 3. Select or clear **Allow notifications**.
@@ -47,7 +47,7 @@ You can also control this setting in PowerShell by using [Set-SPOTenant -Notific
 
 The Notifications page of the OneDrive admin center included three other settings under "Email OneDrive owners when":
 
-- Other users invite more external users to shared files. You can control this by using [Set-SPOTenant -NotifyOwnersWhenItemsReshared](/powershell/module/sharepoint-online/set-spotenant). 
+- Other users invite more external users to shared files. You can control this by using [Set-SPOTenant -NotifyOwnersWhenItemsReshared](/powershell/module/sharepoint-online/set-spotenant).
 - External users accept invitations to access files. (This setting no longer works for the new sharing experience that appears in most places.)
 - An anonymous access link is created or changed. You can control this by using [Set-SPOTenant -OwnerAnonymousNotification](/powershell/module/sharepoint-online/set-spotenant).
 
@@ -55,4 +55,3 @@ The Notifications page of the OneDrive admin center included three other setting
 
 For info about controlling SharePoint notifications, see [Control notifications](/sharepoint/notifications).
 To control whether sharing emails include "At a glance" content, see [Set-SPOTenant -IncludeAtAGlanceInShareEmails](/powershell/module/sharepoint-online/set-spotenant).
-

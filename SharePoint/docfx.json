@@ -76,19 +76,17 @@
         "daswifty",
         "Reraghavan",
         "denisebmsft",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
+        "dstrome2",
+        "rjagiewich",  
+        "American-Dipper",
         "claydetels19", 
         "jborsecnik",
-        "tiburd",
-        "garycentric",
-        "v-dihans",
-        "AngelaMotherofDragons",
-        "beccarobins",
+        "v-stchambers",
+        "shdyas",
         "Stacyrch140",
-        "v-stsavell",
-        "American-Dipper"
+        "garycentric",
+        "dstrome",
+        "beccarobins"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "Standard",
@@ -96,7 +94,10 @@
       "recommendations": true
     },
     "fileMetadata": {
-        "searchScope": { 
+       "breadcrumb_path": {
+         "SharePointServer/**/*.md": "/SharePoint/breadcrumb/subtoc_breadcrumb/toc.json"
+      },
+            "searchScope": { 
             "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"],
             "SharePointServer/**/*.md": ["SharePoint Server"],
             "SharePointOnline/**/*.yml": ["SharePoint in Microsoft 365"],
