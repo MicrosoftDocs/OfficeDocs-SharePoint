@@ -1,5 +1,5 @@
 ---
-ms.date: 03/12/2024
+ms.date: 03/13/2024
 title: "Create change history reports"
 ms.reviewer: daminasy
 manager: jtremper
@@ -66,10 +66,10 @@ You can create new reports, delete, and refresh their statuses from the change h
 
 Generate a site settings report for a given date range and filter by sites and users. You can download the report as a CSV file to view the site property changes. All site actions performed by Site administrators, Global administrators, and SharePoint administrators are captured in the report.
 
-### Audited organization settings (preview)
+### Organization settings report (preview)
 
 > [!NOTE]
-> Audited organization settings reports are available in public preview. The trackable [organizations settings table](#organization-settings) is listed further in this article.
+> Organization settings reports are available in public preview. The [audited organization settings table](#Current-audited-organization-settings) listed further in this article reflects the list of settings that are currently tracked under these reports.
 
 You can also generate an organization settings report to track changes made to organization settings from the SharePoint Admin Center. You can generate these reports for custom date ranges while filtering for specific users of interest. A best practice is to review the downloaded reports to ensure there are no deviations in settings from the desired state.
 
@@ -81,9 +81,9 @@ Any changes made to the following organization settings are reflected in the rep
 > [!NOTE]
 > Admins assigned the [global reader role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true%3Do365-worldwide) do not have the permissions to create or delete a report, but can download to review the changes.
 
-#### Organization settings
+#### Current audited organization settings
 
-The table lists the latest set of supported settings found under the **Settings** node:
+The following table lists the latest set of supported settings found under the **Settings** node:
 
 |Name|Description|
 |---|---|
@@ -92,9 +92,7 @@ The table lists the latest set of supported settings found under the **Settings*
 |**OneDrive Sync**|Show Sync button on the OneDrive website|
 |**SharePoint Version history limits**|Set version history limits|
 
-#### Access control settings
-
-The table lists the latest set of supported settings found in **Policies** under the **Access control** node:
+The following table lists the latest set of supported settings found in **Access Control** under the **Policies** node:
 
 |Name|Description|
 |---|---|
@@ -104,9 +102,7 @@ The table lists the latest set of supported settings found in **Policies** under
 |**Apps that don't use modern authentication**|Block access from Office 2010 and other apps that can't enforce device-based restrictions|
 |**OneDrive access restriction**|Restrict access to OneDrive content by security group|
 
-#### Sharing settings
-
-The table lists the latest set of supported settings found in **Policies** under the **Sharing** node:
+The following table lists the latest set of supported settings found in **Sharing** under the **Policies** node:
 
 |Name|Description|
 |---|---|
