@@ -88,20 +88,6 @@ Install **only** the SharePoint Workflow Manager **Client** on all servers in th
 > [!NOTE]
 > Though it is supported to install SharePoint Workflow Manager on servers running SharePoint Server, it is recommended that SharePoint Workflow Manager is installed on its own dedicated servers for performance and reliability reasons.
 
-### Configure App Management and Subscriptions Settings services
-The App Management and Subscription Settings services are required in the SharePoint farm for SharePoint 2013-platform workflows to function.
-If not already set up in the SharePoint farm, on the SharePoint server, set up App Management and Subscription Settings services, service applications and service application proxies. 
-
-The App Managment service can be created using Central Administration.
-
-You can use PowerShell to create a Subscription Settings Service application:
-
-```powershell
-$sa = New-SPSubscriptionSettingsServiceApplication -ApplicationPool 'SharePoint Web Services Default' -Name 'Subscriptions Settings Service Application' -DatabaseName 'Subscription'
-
-New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
-```
-
 ### Configure SharePoint Workflow Manager farm
 
 To create a SharePoint Workflow Manager farm and join your servers to the farm, you can configure SharePoint Workflow Manager through the Workflow Manager Configuration Wizard.
@@ -128,6 +114,21 @@ The configuration wizard should complete successfully.  If it fails, please sele
 :::image type="content" source="media/install-and-configure-workflow-for-sharepoint-server/configuration-wizard-completed.png" alt-text="A screenshot showing the SharePoint Workflow Manager configuration wizard completing successfully.":::
 
 If you are creating a multi-server SharePoint Workflow Manager farm, you must run the workflow configuration wizard on the other nodes and chose the "Join an Existing Workflow Manager Farm" option.
+
+
+### Configure App Management and Subscriptions Settings services in the SharePoint farm
+The App Management and Subscription Settings services are required in the SharePoint farm for SharePoint 2013-platform workflows to function.
+If not already set up in the SharePoint farm, on the SharePoint server, set up App Management and Subscription Settings services, service applications and service application proxies. 
+
+The App Managment service can be created using Central Administration.
+
+You can use PowerShell to create a Subscription Settings Service application:
+
+```powershell
+$sa = New-SPSubscriptionSettingsServiceApplication -ApplicationPool 'SharePoint Web Services Default' -Name 'Subscriptions Settings Service Application' -DatabaseName 'Subscription'
+
+New-SPSubscriptionSettingsServiceApplicationProxy -ServiceApplication $sa
+```
 
 ### Configure SharePoint Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>
@@ -188,9 +189,15 @@ Consider the following key factors before configuring SharePoint Workflow Manage
 
 Microsoft Workflow Manager cannot be upgraded in-place, and SharePoint Workflow Manager can't be placed on top of Microsoft Workflow Manager. In order to update Microsoft Workflow Manager (Classic WFM) to SharePoint Workflow Manager (SPWFM), you must uninstall any prior versions of Workflow Manager, Workflow Manager Client, and Service Bus.
 
-You can upgrade to SharePoint Workflow Manager from any version of Microsoft Workflow Manager. 
+> [!NOTE]
+> You can upgrade to SharePoint Workflow Manager from any version of Microsoft Workflow Manager. 
+> Because you are upgrading an existing "Classic WFM" farm to SPWFM, the WFM databases will be reused, and your existing registration and workflows should remain intact.
 
 Follow the steps below to uninstall Microsoft Workflow Manager and install SharePoint Workflow Manager:
+
+> [!IMPORTANT]
+> Because the upgrade steps require that you disjoin and then rejoin an existing WFM farm, you will need the WFM "Certificate Generation Key", when rejoining. If you are not sure what that key is, and have not documented it somewhere, you may need to [Reset Certificate Generation Key](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager) before proceeding. 
+> You will not be able to join the existing workflow farm without a valid Certificate Generation Key.
 
 1. Run the Workflow Manager Configuration Wizard.
 
@@ -209,18 +216,19 @@ Follow the steps below to uninstall Microsoft Workflow Manager and install Share
 
 1. If it's not already installed, use the steps from the [Prerequisites section above](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server#prerequisites) to install Azure Service Fabric.
 
-1. Install SharePoint Workflow Manager and SharePoint Workflow Manager Client.
+1. Install SharePoint Workflow Manager and SharePoint Workflow Manager Client. SharePoint Workflow Manager and SharePoint Workflow Manager Client can be downloaded from [here](https://www.microsoft.com/download/details.aspx?id=104867).  The system requirements can be found on that page as well.
 
-1. If there's more than one server in your Workflow Manager farm, repeat the previous steps on all workflow farm servers.
-
-1. Run the Workflow Manager Configuration Wizard and choose the "Join an Existing Workflow Manager Farm" to rejoin the previous farm with the databases you noted in the previous steps.  
+1. Run the Workflow Manager Configuration Wizard and choose the "Join an Existing Workflow Manager Farm" to rejoin the previous farm.  Use the database, service account, and Certificate Generation Key information used in the previous "Classic WFM" farm.  
    > [!NOTE]
    > When upgrading, there is typically no need to delete the existing Workflow Service Application Proxy and reconnect using the Register-SPWorkflowService cmdlet. If you encounter the invalidity of the Certificate Generation Key for SharePoint Workflow Manager and Service Bus, you may need to reset it, see [Reset Certificate Generation Key](/SharePoint/governance/reset-certificate-generation-key-sharepoint-workflow-manager).
 1. Rerun the Workflow Manager Configuration Wizard, select **Upgrade Workflow Manager Farm**, and confirm subsequent steps until the end.  
    > [!NOTE]
    > This step should be run on all servers in the SharePoint Workflow Manager farm.
-   > The "Upgrade Workflow Manager Farm" option is always presented in the Workflow Manager Configuration Wizard, whether an upgrade is required or not.  There's no harm in running it multiple times.
+   > The "Upgrade Workflow Manager Farm" option is always presented in the Workflow Manager Configuration Wizard, whether an upgrade is required or not.  There's no harm in running it multiple times, or when there's no upgrade pending.
+1. If there's more than one server in your Workflow Manager farm, repeat the previous steps on all workflow farm servers.
+
 1. Install the SharePoint Workflow Manager **Client** on each server in the SharePoint Server farm after uninstalling any previous versions.
+
 ## Validate the installation
 <a name="section6"> </a>
 
