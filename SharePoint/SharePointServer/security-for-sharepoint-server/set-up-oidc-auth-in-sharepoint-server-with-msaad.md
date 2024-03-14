@@ -76,10 +76,7 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 ## Step 2: Change SharePoint farm properties
 
-In this step, you need to modify the SharePoint Server farm properties based on the version of your SharePoint Server.
-
-> [!Note]
-> Start the SharePoint Management Shell as a farm administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully, and you will need to enter your own environment-specific values in certain places.
+In this step, you need to modify the SharePoint Server farm properties based on the version of your SharePoint Server farm.
 
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions).
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1).
@@ -88,6 +85,8 @@ In this step, you need to modify the SharePoint Server farm properties based on 
 
 Starting with SharePoint Server Subscription Edition Version 24H1 (March 2024), you can configure SharePoint Server farm properties by employing SharePoint Certificate Management to manage the nonce cookie certificate. The nonce cookie certificate is part of the infrastructure to ensure OIDC authentication tokens are secure. Run the following script to configure:
 
+> [!Note]
+> Start the SharePoint Management Shell as a farm administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.
 ```powershell
 # Set up farm properties to work with OIDC
 
@@ -100,6 +99,7 @@ $certPassword = ConvertTo-SecureString -String <password> -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $certPassword
 $nonceCert = Import-SPCertificate -Path $certPath -Password $certPassword -Store "EndEntity" -Exportable:$true
 
+# Update farm property
 $farm = Get-SPFarm 
 $farm.UpdateNonceCertificate($nonceCert,$true)
 ```
@@ -108,6 +108,8 @@ $farm.UpdateNonceCertificate($nonceCert,$true)
 
 Prior to the 24H1 (March 2024) update, the nonce cookie certificate must be managed manually.  This includes manually installing it on each server in the farm and setting permissions on the private key.  The following PowerShell script can be used to accomplish that.
 
+> [!Note]
+> Start the SharePoint Management Shell as a farm administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.
 ```powershell
 # Set up farm properties to work with OIDC
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
@@ -147,8 +149,8 @@ You can configure SharePoint to trust the identity provider in either of the fol
 - Configure SharePoint to trust Microsoft Entra ID as the OIDC provider **manually**.
 
 > [!NOTE]
-> Follow either the manual configuration steps or the metadata endpoint steps, but not both.  Using the metadata endpoint is recommended because it simplifies the process.
-
+> Follow either the manual configuration steps or the metadata endpoint steps, but not both.  
+> Using the metadata endpoint is recommended because it simplifies the process.
 ### Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint
 
 SharePoint Server Subscription Edition now supports using the OIDC metadata discovery capability when creating the Trusted Identity Token Issuer.
