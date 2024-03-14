@@ -210,7 +210,7 @@ In Microsoft Entra ID, there are two versions of OIDC authentication endpoints. 
 - V1.0: `https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration`
 - V2.0: `https://login.microsoftonline.com/<TenantID>/v2.0/.well-known/openid-configuration`
 
-Replace TenantID with the **Directory (tenant) ID** saved in [Step 1: Setup identity provider](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-1-setup-identity-provider) and connect to the endpoint through your browser. Then, save the following information:
+Replace TenantID with the **Directory (tenant) ID** saved in [Step 1: Setup identity provider](#step-1-setup-identity-provider) and connect to the endpoint through your browser. Then, save the following information:
 
 | Value | Link |
 |---------|---------|
