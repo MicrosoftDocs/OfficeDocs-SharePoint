@@ -34,7 +34,7 @@ Keep employees informed and engaged by providing a shared place to securely view
 ![Intelligent intranet overview](media/intelligent_intranet_overview1.png)
  
 ### Build an intelligent intranet
-Learn how to move through the [process of creating an intranet](https://aka.ms/IntelligentIntranet) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://aka.ms/Implement-Intranet) quickly. Then, learn how to [engage with viewers](https://aka.ms/Engage-Intranet) and maintain your intranet over time as the organization changes and scales. 
+Learn how to move through the [process of creating an intranet](https://aka.ms/IntelligentIntranet) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://aka.ms/Implement-Intranet) quickly. Then, learn how to [engage with viewers](https://aka.ms/Engage-Intranet) and maintain your intranet over time as the organization changes and scales. 
 
 ### Help your organization engage and inform
 
