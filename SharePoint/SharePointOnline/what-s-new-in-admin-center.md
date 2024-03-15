@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "What's new in the SharePoint admin center"
 ms.reviewer: daminasy
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
