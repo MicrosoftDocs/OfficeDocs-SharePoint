@@ -1,8 +1,8 @@
 ---
 title: Allow or prevent custom script
 ms.reviewer: lucaband
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 08/09/2023

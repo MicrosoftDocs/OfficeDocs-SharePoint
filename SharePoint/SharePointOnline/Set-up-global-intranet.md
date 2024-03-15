@@ -2,8 +2,8 @@
 ms.date: 11/10/2020
 title: "Planning considerations for a global intranet"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

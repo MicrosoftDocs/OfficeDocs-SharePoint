@@ -2,8 +2,8 @@
 ms.date: 01/17/2020
 title: "Prevent guest access to files while DLP rules are applied"
 ms.reviewer: samust
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

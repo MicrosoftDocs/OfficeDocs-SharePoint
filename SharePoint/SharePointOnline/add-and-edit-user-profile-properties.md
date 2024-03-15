@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Add and edit user profile properties in SharePoint"
 ms.reviewer: waynewin
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
