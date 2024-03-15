@@ -25,14 +25,14 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about how to plan a new SharePoint intranet with focus on bringing sites online quickly and getting a return on your investment"
+description: "Learn about how to plan a new SharePoint intranet with focus on bringing sites online quickly and getting a return on your investment."
 ---
 
 # Plan an intelligent SharePoint intranet
 
-Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint in Microsoft 365 might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
+Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint in Microsoft 365 might take a while, particularly if you already have extensive intranet content. In this article, we look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
 
-We'll cover how to:
+We cover how to:
 
 - Understand your key organizational priorities
 - Understand your audience
@@ -46,9 +46,9 @@ We'll cover how to:
 
 With SharePoint, any user can create highly functional intranet pages quickly without the need for writing code or other difficult customizations. These sites look great on any device or screen and provide deeply engaging experiences for your users.
 
-If you're currently using SharePoint Server for your intranet, you'll find SharePoint in Microsoft 365 to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
+If you're currently using SharePoint Server for your intranet, you'll find SharePoint in Microsoft 365 to be easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
 
-As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides a variety of examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
+As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides various examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
 
 For an understanding about how the different component parts work together, review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
 
@@ -58,43 +58,43 @@ In the following sections, we look at how to find the best starting point for yo
 
 ## Understand current business goals and key stakeholders
 
-The most successful intranets don’t just look good, they are primarily focused on helping people get work done and often on promoting engagement. The look book can help inspire you to think about how your content might appear, but your business outcome goals are important to understand what content and functionality are most important for your users and your organization.
+The most successful intranets don’t just look good, they're primarily focused on helping people get work done and often on promoting engagement. The look book can help inspire you to think about how your content might appear, but your business outcome goals are important to understand what content and functionality are most important for your users and your organization.
 
-All organizations have important strategic goals that drive behavior and investments. If you want to be sure that your intranet is successful – and gets the right level of funding – you need to ensure that it is aligned with these goals. You can also use these goals to help prioritize your intranet initiatives. Unlike many technology projects, an intranet project is never “done” because your organization priorities and interests will change over time. But, at any given time, you want to focus on the intranet initiatives that are most closely aligned with your organizational priorities and key business stakeholders.
+All organizations have important strategic goals that drive behavior and investments. If you want to be sure that your intranet is successful – and gets the right level of funding – you need to ensure that it's aligned with these goals. You can also use these goals to help prioritize your intranet initiatives. Unlike many technology projects, an intranet project is never 'done' because your organization priorities and interests will change over time. But, at any given time, you want to focus on the intranet initiatives that are most closely aligned with your organizational priorities and key business stakeholders.
 
-In addition, take a look at recent employee satisfaction survey data. A good way to become more informed about the information and tools that your employees need is to look at the pain points identified in these surveys.
+In addition, take a look at recent employee satisfaction survey data. A good way to become more informed about the information and tools that your employees need are to look at the pain points identified in these surveys.
 
 ## Understand your audience
 
-A good place to start thinking about your new intranet is what it will be like when the intranet is in place. What will people be able to accomplish? How will they start their day? What will people say about the intranet? One potentially helpful exercise to frame the overall objectives for the intranet is to engage your key intranet stakeholders in a [cover story](https://gamestorming.com/cover-story/) exercise. This is an exercise in imagination. The purpose is to think broadly about an ideal future state by imagining a magazine cover story about the new intranet, including the key headlines, sidebars, and quotes from users.
+A good place to start thinking about your new intranet is what it is like when the intranet is in place. What will people be able to accomplish? How will they start their day? What will people say about the intranet? One potentially helpful exercise to frame the overall objectives for the intranet is to engage your key intranet stakeholders in a [cover story](https://gamestorming.com/cover-story/) exercise. This is an exercise in imagination. The purpose is to think broadly about an ideal future state by imagining a magazine cover story about the new intranet, including the key headlines, sidebars, and quotes from users.
 
-With the end in mind, it can also be helpful to create [personas](https://www.nngroup.com/articles/persona/) for your key users. A persona is a fictional but realistic description of a typical intranet user (for example, new starter/new employee, knowledge worker, field worker, sales rep, people manager, or content author). You’ll want to do some research to engage with people who represent these different personas to understand their information requirements. You can’t build an intranet without an understanding of the people for whom you are building it. Site owners alone are not enough – their perspective is what they want to publish. That is often not the same thing as what their users want to consume.
+With the end in mind, it can also be helpful to create [personas](https://www.nngroup.com/articles/persona/) for your key users. A persona is a fictional but realistic description of a typical intranet user (for example, new starter/new employee, knowledge worker, field worker, sales rep, people manager, or content author). You’ll want to do some research to engage with people who represent these different personas to understand their information requirements. You can’t build an intranet without an understanding of the people for whom you are building it. Site owners alone aren't enough – their perspective is what they want to publish. That is often not the same thing as what their users want to consume.
 
 ## Think about governance
 
-If your users complain that search is not successful because too much irrelevant content is discovered, this can indicate a governance problem. Before you think about your new intranet project, think about how you will govern the architecture and the content. These are decisions that are a lot easier to make and enforce if they are decided early in your intranet project. For example, you will want to think about:
+If your users complain that search isn't successful because too much irrelevant content is discovered, this can indicate a governance problem. Before you think about your new intranet project, think about how you'll govern the architecture and the content. These are decisions that are a lot easier to make and enforce if they're decided early in your intranet project. For example, you'll want to think about:
 
-- Who can provision new sites and when they are provisioned, what is the process to ensure that sites are discovered in navigation or as key [bookmarks](/microsoftsearch/make-content-easy-to-find#bookmarks) in search?
+- Who can provision new sites and when they're provisioned, what is the process to ensure that sites are discovered in navigation or as key [bookmarks](/microsoftsearch/make-content-easy-to-find#bookmarks) in search?
 - Do you want all sites to follow a similar pattern so that users can easily find key content as they move from site to site?
 - Who is accountable and responsible for the content on sites? How often does content need to be reviewed?
 - Is content management for intranet sites in the performance goals or job descriptions for people with edit or owner permissions?
 - Does intranet content need to be [retained](/microsoft-365/compliance/retention-policies) based on your retention policies or [classified](/microsoft-365/compliance/sensitivity-labels) based on its sensitivity?
 
-You do not need to make every governance decision up front, but if you don’t have a plan for how you will govern your new, intelligent intranet, it can quickly become a wasteland of information that fails to achieve your critical business goals.
+You don't need to make every governance decision up front, but if you don’t have a plan for how you'll govern your new, intelligent intranet, it can quickly become a wasteland of information that fails to achieve your critical business goals.
 
 ## Review your existing intranet
 
-Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business outcome goals for new sites. Take stock of where your content is located and how much content you would need to move when creating a new intranet site. Look at your current content to understand if it is current or needs to be updated prior to moving to a new site. It’s not unusual to find a migration strategy where existing content is left behind. You don’t have to migrate anything – you may find that it is more effective to create new content that is optimized for the modern SharePoint experience rather than migrate existing, out-of-date content to the new location.
+Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business outcome goals for new sites. Take stock of where your content is located and how much content you would need to move when creating a new intranet site. Look at your current content to understand if it's current or needs to be updated prior to moving to a new site. It’s not unusual to find a migration strategy where existing content is left behind. You don’t have to migrate anything – you may find that it's more effective to create new content that is optimized for the modern SharePoint experience rather than migrate existing, out-of-date content to the new location.
 
 As part of these meetings, you can identify the business needs that are addressed by each existing site as well as any requirements you might have for new sites.
 
 In addition to meeting with current site owners, you may also want to convene a focus group of new employees. New employees are a key audience for the intranet and people who have joined the organization in the past two to three months can provide some valuable insights about what is missing or hard to learn in your current intranet, or resources they wish they had when they first started. They may also provide you with some valuable ideas from the organizations where they previously worked to help you think about new and important capabilities to incorporate.
 
-Think of this step as an opportunity to learn. You are learning about what is important to your users and to the business. You will use this information to identify initiatives for your intranet.
+Think of this step as an opportunity to learn. You're learning about what is important to your users and to the business. You'll use this information to identify initiatives for your intranet.
 
 ## Identify initiatives
 
-Using the information you gathered during your research, work with your key intranet stakeholders to identify initiatives that reflect your organizational priorities – as well as any barriers that might exist when you are implementing them.
+Using the information you gathered during your research, work with your key intranet stakeholders to identify initiatives that reflect your organizational priorities – and any barriers that might exist when you're implementing them.
 
 While you may ultimately implement solutions to address all of the identified initiatives, prioritizing which project to do first will help you achieve early success and user engagement as efficiently as possible.
 
@@ -117,7 +117,7 @@ To help decide which initiative to address first, work with the business leaders
 |:------------|:-----------------|:-----------------|
 |Educate employees about benefits (Benefits site)|- Announcements <br> - Training videos|HR|- News post views <br> - Training video views|Help requests are reduced by x%|
 |Weekly news post by a senior leader|- Streaming events <br> - Formal training|Engineering|- Training content produced for all aspects of coding excellence <br> - Monthly streaming events|Training completed successfully by x% of engineering staff|
-|Foster positive employee agreement about company strategy (Executive Leadership Viva Engage Community)|News posts <br> - Streaming events <br> - Viva Engage conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|- Viva Engage conversations show positive sentiment <br> - Comments addressed within 24 hours – “no question/comment left behind” <br> - x% increase in employee satisfaction scores for executive communications|
+|Foster positive employee agreement about company strategy (Executive Leadership Viva Engage Community)|News posts <br> - Streaming events <br> - Viva Engage conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|- Viva Engage conversations show positive sentiment <br> - Comments addressed within 24 hours – "no question/comment left behind" <br> - x% increase in employee satisfaction scores for executive communications|
 |Improve timeliness consistency in proposal development (Marketing site)|- Company business value slides <br> - Proposal templates|Marketing|- Slide downloads <br> - Sales team alignment|x% reduction in the time to create proposals|
 
 ## Choose pilot scenarios
@@ -160,9 +160,9 @@ After you have compiled this information, create a design brief to help map out 
 
 ## Choose solution components
 
-SharePoint offers a variety of building blocks that you can use to create an intranet:
+SharePoint offers various building blocks that you can use to create an intranet:
 
-- **[Communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)** - Use communication sites to share news, reports, statuses, and other information through a variety of templates and web parts.
+- **[Communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)** - Use communication sites to share news, reports, statuses, and other information through various templates and web parts.
 - **[Home site](home-site.md)** - A home site is a communication site that you set as the intranet landing page for your organization.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
@@ -172,13 +172,13 @@ SharePoint offers a variety of building blocks that you can use to create an int
 
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype, and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.
 
-At this stage, we recommend that you involve your help desk so that they are prepared to answer questions after the site rolls out to a larger audience.
+At this stage, we recommend that you involve your help desk so that they're prepared to answer questions after the site rolls out to a larger audience.
 
 For best practices for launching an intranet site, review [Creating and launching a healthy SharePoint portal](portal-health.md).
 
 ## Roll out the pilot
 
-When the prototype has evolved to a point where you want to share it more broadly, you can roll it out to a pilot group, or even to the whole organization. User adoption is a critical part of success for a new intranet site. To drive site usage, we recommend that you use both a top down and bottom up approach:
+When the prototype has evolved to a point where you want to share it more broadly, you can roll it out to a pilot group, or even to the whole organization. User adoption is a critical part of success for a new intranet site. To drive site usage, we recommend that you use down both a top and bottom up approach:
 
 - Recruit executive sponsors who can ensure that the intranet project is funded, and can help message the importance of the new site to others in the organization.
 - Empower champions throughout the organization to promote the new site on a grass roots level.
@@ -189,11 +189,11 @@ Other things you can do to drive success include:
 - Provide formal training.
 - Hold regular office hours where users can ask questions.
 
-As the site rolls out and more users engage, watch your success metrics and make adjustments as needed to drive additional engagement and user satisfaction.
+As the site rolls out and more users engage, watch your success metrics and make adjustments as needed to drive more engagement and user satisfaction.
 
 When the site is on its way to success, take stock of any lessons learned in the process and proceed on to the next intranet project that you want to undertake.
 
-## Related topics
+## Related articles
 
 [SharePoint look book](https://aka.ms/sharepointlookbook)
 

@@ -24,14 +24,14 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "Use the guidance in this document to help you create the right navigation for your organization"
+description: "Use the guidance in this document to help you create the right navigation for your organization."
 ---
 
 # Plan and implement SharePoint site navigation
 
-The fundamental principles and practices for site and page navigation apply to classic and modern SharePoint architectures. However, your options for implementing navigation differ based on the framework for your sites and intranet. For example, the default navigation experiences available in classic SharePoint site hierarchies - sites with subsites - are not available in the modern experience. 
+The fundamental principles and practices for site and page navigation apply to classic and modern SharePoint architectures. However, your options for implementing navigation differ based on the framework for your sites and intranet. For example, the default navigation experiences available in classic SharePoint site hierarchies - sites with subsites - aren't available in the modern experience. 
 
-Instead, [hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint. No matter which framework you are using, you can use the guidance in this document to help you create the right navigation for your organization.
+Instead, [hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint. No matter which framework you're using, you can use the guidance in this document to help you create the right navigation for your organization.
 
 **In this article:**
 
@@ -55,7 +55,7 @@ This planning guide primarily addresses *site* navigation: the top (team and com
 
 ![Hub navigation example:](media/hub-nav-example.png)
 
-*"When we're observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating they may resort to using site search."* -- Gerry McGovern
+*"When we're observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating, they may resort to using site search."* -- Gerry McGovern
 
 ## Why navigation is important
 
@@ -63,13 +63,13 @@ The most effective SharePoint sites help viewers find what they need quickly so 
 
 Even when search is available, [most viewers start their web experiences by browsing](https://gerrymcgovern.com/search-and-navigation-interconnections/). That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available on the site and, combined with the home page, provide a comprehensive "story" for the site.
 
-Page navigation and site navigation display differently. The links that you see in site navigation are static on every page in the site. The navigation links on individual pages are accessed only when the viewer lands on the page. A benefit to on-page links is that they can be different from page to page. Both types of navigational links guide your viewers by providing *wayfinding* experiences. 
+Page navigation and site navigation display differently. The links in site navigation are static on every page in the site. The navigation links on individual pages are accessed only when the viewer lands on the page. A benefit to on-page links is that they can be different from page to page. Both types of navigational links guide your viewers by providing *wayfinding* experiences. 
 
-The key advantage of site navigation links is that they are always visible in the context of the site. Because site navigation links are persistent, they provide an opportunity to provide significant value for site viewers as they traverse the site and address their goals: to find and do what they came for. Hub navigation links extend this wayfinding experience to other sites in the hub “family.” This supports navigating to related content not just on the site, but on related sites as well. Setting site navigation links to open in a new tab can help site viewers find the information they want, without navigating away from the current page that they are on. 
+The key advantage of site navigation links is that they're always visible in the context of the site. Because site navigation links are persistent, they provide an opportunity to provide significant value for site viewers as they traverse the site and address their goals: to find and do what they came for. Hub navigation links extend this wayfinding experience to other sites in the hub “family.” This supports navigating to related content not just on the site, but on related sites as well. Setting site navigation links to open in a new tab can help site viewers find the information they want, without navigating away from the current page that they are on. 
 
 ## Site and page navigation fundamentals
 
-Planning site and page navigation involves thinking about:
+When you plan site and page navigation, you want to think about:
 
 - **Organizing** – Grouping logical and similar intents
 - **Labeling** – Writing clear labels your users will immediately understand
@@ -82,7 +82,7 @@ Therefore, organizing and labeling your navigation links is critical for the pur
 
 ### Organizing
 
-There is no one right way to organize your navigation links. You will make different choices based on the type of site you are creating and your viewers. Organizing concepts might include:
+There is no one right way to organize your navigation links. You will make different choices based on the type of site you're creating and your viewers. Organizing concepts might include:
 
 - Services
 - Products
@@ -90,9 +90,9 @@ There is no one right way to organize your navigation links. You will make diffe
 - Audiences (if your viewers can clearly identify the audience to which they belong – such as student or teacher)
 - Expertise areas or functions
 
-The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you are building your site, but they are not typically going to add value to your viewers once your site is ready to launch. 
+The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you're building your site, but they are not typically going to add value to your viewers once your site is ready to launch. 
 
-This is because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you are ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide.
+This is because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you're ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide.
 
 The default navigation for [**team sites**](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e) includes links to the related services provided by Microsoft 365 for modern teams – including a link to the shared team notebook and the conversations for the team in Outlook. These represent the typical features that teams need to effectively collaborate and might be hard for people to find without the experience provided by the navigation. 
 
@@ -114,7 +114,7 @@ There are two types of navigation menu styles for SharePoint sites - cascading a
 
 There are two types of navigation links: a label and a link. A label is simply a category link – it lets you group related links but is not a link itself. A link requires a hyperlink and presents a “clickable” experience for the user. A label should always have at least one link below.
 
-Both cascading and mega menus support up to three levels of navigation in your menu. The first level represents the tabs you see across the top. The second level is the next level below the tab and the third level is indented or below the second level. Mega menus work best when you are using all three levels of navigation experiences. If you use a mega menu, the second level of links will appear in **bold**. If you only need two levels in your menu, consider using the cascading style.
+Both cascading and mega menus support up to three levels of navigation in your menu. The first level represents the tabs you see across the top. The second level is the next level below the tab and the third level is indented or below the second level. Mega menus work best when you're using all three levels of navigation experiences. If you use a mega menu, the second level of links will appear in **bold**. If you only need two levels in your menu, consider using the cascading style.
 
 ### Menu experiences
 
@@ -124,7 +124,7 @@ There are two types navigation experiences – targeted and not targeted. With t
 
 All types of menu links support some decoration with emojis. Emojis can be used at the beginning or end of a link label to add some visual interest to your links. 
 
-Choose an emoji that relates to the label topic. You can search for emojis at [emojipedia.org](https://emojipedia.org/), or use the Windows key + period (.). Copy the emoji and add it to the label when you are editing your navigation.
+Choose an emoji that relates to the label topic. You can search for emojis at [emojipedia.org](https://emojipedia.org/), or use the Windows key + period (.). Copy the emoji and add it to the label when you're editing your navigation.
 
 
 ### Link to pages, not individual documents
