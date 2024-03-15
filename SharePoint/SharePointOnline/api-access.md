@@ -2,8 +2,8 @@
 ms.date: 06/30/2020
 title: "Manage access to Microsoft Entra ID-secured APIs - SharePoint"
 ms.reviewer: lucaband
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

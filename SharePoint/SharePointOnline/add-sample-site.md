@@ -1,9 +1,9 @@
 ---
 ms.date: 11/15/2019
-title: Add a sample site to your tenant
+title: Add a sample site to your organization
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -18,17 +18,17 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to add a sample site to your tenant."
+description: "Learn how to add a sample site to your organization."
 ---
 
-# Add a sample site to your tenant
+# Add a sample site to your organization
 
-Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint look book and integrated provisioning service to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your tenant. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can do this all with the SharePoint look book and the integrated SharePoint provisioning service.</br>
+Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint look book and integrated provisioning service to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your organization. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can add a sample site with the SharePoint look book and the integrated SharePoint provisioning service.</br>
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDLk]
 
-What's included in a sample? You'll get:
+What's included in a sample? You get:
 
 - A modern communication or team site, depending on the sample you choose
 - A site home page with sample branding, web parts, content, and images
@@ -43,9 +43,9 @@ Browse the samples in the online [SharePoint look book](https://lookbook.microso
 
 ![Lookbook main](media/LookBookCover0.png)
 
-Select a sample to learn more about it. You’ll see the site features, web parts used, and content included. To show you how to use these features, links are provided to a help topic for each feature and its web part(s) in the list.  
+Select a sample to learn more about it. You see the site features, web parts used, and content included. To show you how to use these features, links are provided to a help article for each feature and its web parts in the list.  
 
-After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a Global Administrator or SharePoint Administrator in Microsoft 365.
+After you decide on the sample you want to use in your organization, near the bottom of the page, select **Add to your tenant**. To use this service, you need to be signed in as a Global Administrator or SharePoint Administrator in Microsoft 365.
 
 ![Lookbook 1](media/LookBookCover1.png)
 
@@ -57,13 +57,13 @@ Next, enter your email address (for a notification of when your site is ready to
 
 ### Start provisioning
 
-Select **Provision**, and in a short time your site will be ready for you to use. How will you know? You’ll get an email (sent to the email address you provided on the form above) like this:
+Select **Provision**, and in a short time your site will be ready for you to use. How will you know? You get an email (sent to the email address you provided on the form above) like this:
 
 ![PRov form2](media/Prov2.png)
 
 ### Open and explore your site
 
-Select **Open site**, and you’ll see your sample site and content in your tenant!
+Select **Open site**, and you see your sample site and content in your organization!
 
 ![Prov site](media/ProvSite.png)
 

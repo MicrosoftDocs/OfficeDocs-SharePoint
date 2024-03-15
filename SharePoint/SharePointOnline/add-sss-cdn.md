@@ -1,8 +1,8 @@
 ---
 ms.date: 08/26/2020
 title: Add SharePoint Success Site content to your M365 Learning Pathways solution
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
