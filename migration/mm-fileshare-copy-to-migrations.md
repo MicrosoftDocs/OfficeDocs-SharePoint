@@ -78,5 +78,5 @@ An incremental check of your SharePoint destination environment is performed. Fi
 >[!NOTE]
 >Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
 >
-> This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+> This feature is not supported for Consumer, GCC High, or DoD.
 
