@@ -46,7 +46,7 @@ As you plan your overall migration project, plan your tag strategy to align with
 |Regional|German Data Center, Oslo division, Australia|Group by geography
  
 >[!Note]
->Only tags can be updated using this .csv file. The ID, source name, and source path are included for reference only.
+>Only tags can be updated using this <a href="https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv" target="_blank">.csv file</a>. The ID, source name, and source path are included for reference only.
 
 
 ## Import and update tags
