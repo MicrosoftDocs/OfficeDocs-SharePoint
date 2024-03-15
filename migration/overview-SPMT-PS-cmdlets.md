@@ -72,6 +72,9 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
    Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
    ```
 
+> [!IMPORTANT] 
+> Currently SharePoint Migration Tool authentication method is username/password.
+
 ## Create and initialize a migration session
 
 <a name="Step1CreateInitialize"> </a>
