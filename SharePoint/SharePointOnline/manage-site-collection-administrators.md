@@ -38,7 +38,7 @@ This article describes how Global Administrators and SharePoint Administrators i
   
 ## Add or remove site admins in the new SharePoint admin center
 
-By using the new<a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can change the owners for sites that use the new team site and communication site templates. You can also add and remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Microsoft 365 groups](/office365/admin/create-groups/add-or-remove-members-from-groups). 
+By using the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can change the owners for sites that use the new team site and communication site templates. You can also add and remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Microsoft 365 groups](/office365/admin/create-groups/add-or-remove-members-from-groups). 
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
