@@ -2,8 +2,8 @@
 ms.date: 08/02/2023
 title: "About the SharePoint Administrator role in Microsoft 365"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

@@ -2,8 +2,8 @@
 ms.date: 09/08/2021
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

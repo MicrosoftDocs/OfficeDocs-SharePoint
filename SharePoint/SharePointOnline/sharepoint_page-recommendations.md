@@ -2,8 +2,8 @@
 ms.date: 12/19/2019
 title: "How SharePoint page recommendations are generated"
 ms.reviewer: patkel
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
