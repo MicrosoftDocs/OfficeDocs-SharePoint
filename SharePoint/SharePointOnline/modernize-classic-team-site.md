@@ -31,12 +31,12 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 - The site must be a **classic team site that's not connected to a Microsoft 365 group** (the STS #0 site template).
 - The site must be the top-level site in the site collection. It can't be a subsite.
 - The user who runs the PowerShell cmdlet must have full owner permission on the target site.
-- The site must not have SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn how to enable and disable publishing features](https://support.microsoft.com/office/479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more about features enabled on a publishing site](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
+- The site must not have SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn how to enable and disable publishing features](https://support.microsoft.com/office/479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but are now deactivated, go to the [site contents page](https://support.microsoft.com/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more about features enabled on a publishing site.](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
 
 ## Effects of this change
 
 - A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes.
-- Any user that has access to the site will see the new home page with the default web parts and content immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
+- Any user that has access to the site sees the new home page with the default web parts and content immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
 - Full width pages with horizontal navigation are available. (The top navigation from classic view is hidden, but can be seen on classic pages like the site settings page.) You can now [customize the navigation](https://support.office.com/article/Customize-the-navigation-on-your-SharePoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) on this site.
 - [Custom script](allow-or-prevent-custom-script.md) isn't allowed on the site.
 - Minor versioning on the Site Pages library is enabled. [Learn more about versioning](https://support.microsoft.com/office/0f6cd105-974f-44a4-aadb-43ac5bdfd247)
@@ -45,7 +45,7 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 - The SharePoint lists and libraries experience isn't changed.
 - Any content types enabled in the site aren't changed.
 - If the classic site collection had subsites, they aren't changed.
-- If you intend to launch this site as a high traffic portal experience or share the site with a large number of users, make sure to follow the [portal launch guidelines](portal-health.md).
+- If you plan to launch this site as a high traffic portal or share the site with a large number of users, make sure to follow the [portal launch guidelines](portal-health.md).
 
 ## Run the PowerShell cmdlet
 
@@ -86,11 +86,11 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 **Will this cmdlet change all my classic sites?**
 
-- No. The cmdlet can be run on one site at time.
+-  No. The cmdlet can be run on one site at time.
 
 **Will this cmdlet change the site template?**
 
-- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
+-  No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site continues to appear as "Team site (classic experience)" in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 **Why can't I use this cmdlet on publishing sites?**
 
