@@ -2,8 +2,8 @@
 ms.date: 09/10/2020
 title: "Summaries in sharing emails for Word docs"
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
