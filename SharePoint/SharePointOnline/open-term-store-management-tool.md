@@ -2,8 +2,8 @@
 ms.date: 07/23/2018
 title: "Open the Term Store Management Tool"
 ms.reviewer: shrganguly
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
