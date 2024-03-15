@@ -2,8 +2,8 @@
 ms.date: 06/10/2022
 title: Plan file sync for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

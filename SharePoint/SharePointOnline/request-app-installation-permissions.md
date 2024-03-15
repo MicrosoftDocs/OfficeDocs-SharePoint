@@ -1,8 +1,8 @@
 ---
 title: "Overview of apps in SharePoint in Microsoft 365"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 5/22/2018

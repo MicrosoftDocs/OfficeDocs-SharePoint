@@ -2,8 +2,8 @@
 ms.date: 09/19/2020
 title: "Plan and implement SharePoint site navigation"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

@@ -2,8 +2,8 @@
 ms.date: 11/26/2019
 title: "Plan an intelligent SharePoint intranet"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
