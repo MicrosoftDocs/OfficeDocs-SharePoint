@@ -4,8 +4,8 @@ title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: jtremper
 recommendations: true
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - CSH
