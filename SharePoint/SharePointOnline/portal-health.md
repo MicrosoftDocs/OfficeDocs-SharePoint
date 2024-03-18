@@ -28,7 +28,7 @@ Typically portals have relatively few people who create and author the site and 
 >[!Tip]
 > Are you wanting to host a live event or town hall?  Here are the options we recommend:
 > - [Learn about Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
-> - [Learn about hosting events with Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events)
+> - [Learn about hosting events with Viva Engage](https://support.microsoft.com/office/attend-a-live-event-in-viva-engage-41f1afe3-2a8e-4998-a25b-843d96791b10)
 > - Link directly to the live event you are streaming (**not** through your portal)
 
 ## What type of site should I use as my portal?

@@ -166,7 +166,7 @@ SharePoint offers various building blocks that you can use to create an intranet
 - **[Home site](home-site.md)** - A home site is a communication site that you set as the intranet landing page for your organization.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
-- **[Viva Engage](/viva/engage/viva-engage-landing-page)** - Use Viva Engage to connect with people across your organization beyond the boundaries of projects, functions, and departments.
+- **[Viva Engage](/viva/engage/overview)** - Use Viva Engage to connect with people across your organization beyond the boundaries of projects, functions, and departments.
 - **[Forms](/forms-pro)** - Use forms to create custom quizzes, surveys, questionnaires, registrations, and more.
 - **[Stream](/stream)** - Use Stream to deliver live and on-demand meetings, events, and training.
 
