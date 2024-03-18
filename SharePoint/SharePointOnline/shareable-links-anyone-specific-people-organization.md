@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: How shareable links work in OneDrive and SharePoint in Microsoft 365
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

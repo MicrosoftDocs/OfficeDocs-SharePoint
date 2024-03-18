@@ -3,7 +3,7 @@ ms.date: 05/13/2019
 title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
-author: JoanneHendrickson
+author: maggierui
 manager: jtremper
 audience: admin
 recommendations: true
@@ -14,13 +14,13 @@ ms.tgt_pltfrm: na
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.author: jhendr
+ms.author: ruihu
 localization_priority: None 
 ---
 
 # Create guidelines for site usage
 
-Using the steps below as a template, create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. Each section provides guidance about what to include, sample text to help you get started, and links to resources to learn more about each area.
+Using the following steps as a template, create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. Each section provides guidance about what to include, sample text to help you get started, and links to resources to learn more about each area.
 
 [Download the PDF](https://download.microsoft.com/download/f/8/8/f889e9fe-02c5-40f7-b52d-987f1344b71e/Sites-Usage-Guidelines-template.pdf)
 
@@ -30,7 +30,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 - Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
 **Sample text:**</br>
-*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
+*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [Enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
 
 
  
@@ -45,14 +45,15 @@ Using the steps below as a template, create your own custom guidance for SharePo
 **Sample text:**</br>
 *Here are some things to keep in mind as you work with your SharePoint sites. Refer to [**insert your organization's name**] business resource use policy. These policies apply to all SharePoint site usage.*
 
- 
+
 ## ![Subsite creation guidelines](media/subsite.png "Site")  Guidelines for creating your site
 
 **Guidance:**</br>
+
 - Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the "Create site" link on the SharePoint start page or you may have a unique provisioning process for your organization.  
 - If you have specific site templates that you want your site owners to select when they create their own sites, include that info in this section.</br>
 - Include information on custom provisioning solutions.</br>
-- Are there any ownership or site classification requirements your organization has implemented? </br>
+- Are there any ownership or site classification requirements your organization implements? </br>
 - When you set up your site, it's important to select the appropriate site classification level. Include references or links to your organization's data classification guidelines.</br>
 
 **Resources:**</br>
@@ -79,11 +80,11 @@ Using the steps below as a template, create your own custom guidance for SharePo
 **Resources:**</br>
 - [Manage site creation](manage-site-creation.md)
 - [SharePoint site theming overview](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
-- [Plan customizations, solutions and apps for SharePoint](extend-and-develop.md)
+- [Plan customizations, solutions, and apps for SharePoint](extend-and-develop.md)
 
 
 **Sample text:**</br>
-*It's important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
+*It's important that your site meets your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
 
  
 ## ![Sharing the guidelines](media/sharing.png "Sharing") Sharing guidelines
@@ -98,7 +99,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 **Sample text:** </br>
 *Your site and its contents can be shared internally within our organization or externally with your customers or partners.* 
 
-*As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.*
+*As site owner, you receive access requests when someone shares your site. You can approve or decline any requests sent to you.*
 
  
 ## ![Guidelines related to storage capacity](media/capacity.png "Capacity")  Capacity guidelines 
@@ -116,19 +117,19 @@ Using the steps below as a template, create your own custom guidance for SharePo
 ## ![Securing access](media/secure.png "Access")   Managing access
 
 **Guidance:**</br>
-- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
+- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you're reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you communicate changes to permissions to them.
 
 **Resources:** </br>
 - [Secure SharePoint Sites and Files](/microsoft-365/security/office-365-security/sharepoint-file-access-policies)
 
 **Sample text:** </br>
-*Plan to review your site's permissions on a regular basis and set the level of access appropriately.*
+*Plan to review your site's permissions regularly and set the level of access appropriately.*
 
 
 ## ![Policy of site lifecycle](media/policy.png "Policy")   Site lifecycle policy
 
 **Guidance:**</br>
-- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
+- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they are notified, what will happen and what they need to do to extend their site.
 - Setting this policy requires Microsoft 365 Global Administrator permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 

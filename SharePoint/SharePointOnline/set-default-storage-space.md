@@ -2,8 +2,8 @@
 ms.date: 10/23/2023
 title: "Set the default storage space for OneDrive users"
 ms.reviewer: jmcdowe
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 audience: Admin
 f1.keywords:

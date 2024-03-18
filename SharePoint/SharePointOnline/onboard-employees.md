@@ -2,8 +2,8 @@
 ms.date: 09/23/2021
 title: Onboard new employees into your organization
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

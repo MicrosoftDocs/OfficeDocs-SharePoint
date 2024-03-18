@@ -1,8 +1,8 @@
 ---
 title: "Specify search settings for a site collection or a site"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 6/21/2018

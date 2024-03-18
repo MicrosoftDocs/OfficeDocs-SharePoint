@@ -2,8 +2,8 @@
 ms.date: 03/31/2021
 title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
