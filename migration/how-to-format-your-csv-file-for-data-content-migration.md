@@ -63,7 +63,7 @@ Here's an example of the CSV file format. The first row shows files that are bei
 
 - Enter one migration source and destination per row.
 - If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you get an "invalid document library" error.
-- If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
+- If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at 'https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14'.
 
 > [!IMPORTANT]
 > All columns detailed above must be present and can be blank if not needed.
