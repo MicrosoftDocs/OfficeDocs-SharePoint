@@ -25,7 +25,7 @@ description: "Overview of the Microsoft New Employee Onboarding sites"
 
 There are three (3) new templates for New Employee Onboarding (NEO) to help organizations improve their onboarding process. The NEO sites are designed to deliver a flexible and consistent experience. The NEO sites can be used on their own, or together.
 
-The NEO sites helps organizations by:
+The NEO sites help organizations by:
 
 - Providing new employees a place to get started
 - Connecting new employees to people and culture
