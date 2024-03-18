@@ -1,8 +1,8 @@
 ---
 title: "Overview of apps in SharePoint in Microsoft 365"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 5/22/2018
@@ -40,7 +40,7 @@ At this point, site owners can check the **Your Requests** list to view the stat
 
 ## Delegate approval authority
 
-As a Global Administrator or SharePoint Administrator in your organization, you can delegate app approval authority as a way of spreading the approval work around, or alleviating approval bottlenecks. Remember that apps are stored and managed in the Apps site. To grant app approval permission to select users, you can add them as site admins on the Apps site. 
+As a Global Administrator or SharePoint Administrator in your organization, you can delegate app approval authority as a way of spreading the approval workaround, or alleviating approval bottlenecks. Remember that apps are stored and managed in the Apps site. To grant app approval permission to select users, you can add them as site admins on the Apps site. 
   
 > [!CAUTION]
 > When you add users as site admins on the Apps site, you are giving them the ability to approve the installation of apps that have organization-wide impact. Consider this decision carefully. 
