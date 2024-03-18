@@ -1,8 +1,8 @@
 ---
 title: "Required URLs and ports for OneDrive consumer"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 ms.date: 04/3/2018
 audience: Admin

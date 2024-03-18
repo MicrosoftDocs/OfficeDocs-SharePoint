@@ -1,5 +1,5 @@
 ---
-ms.date: 07/12/2018
+ms.date: 03/13/2024
 title: "Manage the search schema in SharePoint"
 ms.reviewer: 
 ms.author: ruihu
@@ -51,6 +51,11 @@ Each managed property has settings that determine how users can search for the c
 You can create new, **custom** managed properties, but these can only contain text or Yes/No. If you need other content types in your custom managed property, then use one of the unused, **built-in** managed properties that search comes with. These managed properties can contain information in integer, decimal, date and time, double precision float, or binary format. You can "rename" these unused managed properties by using the alias setting. 
   
 For the built-in managed properties, you can change their mappings to crawled properties, but the only setting you can change is the alias.
+
+> [!IMPORTANT]
+> If an alias is added to a managed property ensure a managed property with the same name as the alias does not already exist. Aliased managed properties take precedence during search and Microsoft 365 experiences relying on specific properties and values may break as a result.
+>
+> It is not advisable to change the mapping or mapping order of crawled properties for existing managed properties outside of the [default unused managed properties](#default-unused-managed-properties) provided for reuse, or for managed properties manually created. Changing crawled property mappings may break Microsoft 365 experiences relying on specific properties and values.
   
  **Define which content that users can search and get results for**
   
