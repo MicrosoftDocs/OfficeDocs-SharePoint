@@ -48,11 +48,11 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 
 5. Select **Add**.
 
-    :::image type="content" alt-text="Deploy a SharePoint Framework app from the store." source="media/deployspfxappfromstore.gif" lightbox="media/deployspfxappfromstore.gif".:::
+    :::image type="content" alt-text="Deploy a SharePoint Framework app from the store." source="media/deployspfxappfromstore.gif" lightbox="media/deployspfxappfromstore.gif":::
 
 6. Review app permissions and data access.
 
-7. Some apps can be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**. 
+7. Some apps can be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**.
 
 8. Select **Add**.
 
@@ -91,7 +91,7 @@ When you upload a custom app to the Apps site, it's available for users to insta
     
 1. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
     
-1. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you'll need.
+1. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you need.
     
 1. Close the panel.
 
@@ -102,7 +102,7 @@ App developers can choose to allow administrators to automatically add an app to
 If you didn't choose to add an app to all sites when you enabled it, you can do so later on the Apps site.
 
 To add an app to all sites
-1. On the Manage apps page, select the app that you want to add to all sites.
+1. On the **Manage apps page**, select the app that you want to add to all sites.
 1.  Select **Add to all sites**.
 1. Select **Confirm**.
 1. Select **Close**.
