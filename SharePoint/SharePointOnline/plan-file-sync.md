@@ -150,7 +150,7 @@ If you are using the previous OneDrive sync app (Groove.exe), see [Transition fr
 
 ## Do you want to limit sync to computers joined to a specific domain?
 
-To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
+To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. For more information, see [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
 
 ## Next steps
 
