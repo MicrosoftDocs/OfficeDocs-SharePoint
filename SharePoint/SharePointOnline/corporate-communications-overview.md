@@ -15,14 +15,14 @@ ms.collection:
   - m365solution-overview
   - m365solution-corpcomms
   - highpri
-description: "Learn about planning and managing Organizational communications for your organization"
+description: "Learn about planning and managing Organizational communications for your organization."
 ---
 
 # Organizational communications: Guidance, methods, and products
 
 Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method (or combinations of methods) to use and when to use them depends on your audience and the communication culture of your organization.
 
-Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Viva Engage, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
+Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Viva Engage, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available that help drive engagement in your organization.
 
 **In this solution:**
 
@@ -37,24 +37,24 @@ Start by learning about Microsoft 365 tools that are designed for your specific 
 <br>
 <br>
 
-| Step 1: Learn about tools and define your audience profile    | Step 2: Identify the scenario(s) to meet your communication goal |Step 3: Plan, build, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
+| Step 1: Learn about tools and define your audience profile    | Step 2: Identify one or more scenarios to meet your communication goal |Step 3: Plan, build, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a wayfinding sign icon.](media/icon-plan-organize.png)  |   ![Image of a thumb tack icon.](media/pin-blue.png) |   ![Image of a checklist icon.](media/numbered-blue.png) | ![Image of a calendar icon.](media/icon-calendar.png) |
-| Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
+| Review common scenarios & outcomes|Select a scenario   | Gather requirements and content  |Update permissions and settings as needed   |
 | Review Microsoft 365 tools                 | Learn how to get started planning    |  Align with partners      | Maintain relevant content           |
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
-|Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
+|Check technical and license requirements          | Learn how to use and integrate Microsoft 365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
 #### Step 1: Learn more about communication tools and define your audience profile
-Start by getting familiar with [common corporate communications scenarios](plan-communication-strategy.md). Next, [review Microsoft 365 communication apps](review-communication-apps.md) to make sure you understand engagement opportunities and analytics options. Then, learn how to [define and scope your audience](audience-profile.md). After following these basic steps, you will be ready to select the right communication solution that fits your organization's needs.
+Start by getting familiar with [common corporate communications scenarios](plan-communication-strategy.md). Next, [review Microsoft 365 communication apps](review-communication-apps.md) to make sure you understand engagement opportunities and analytics options. Then, learn how to [define and scope your audience](audience-profile.md). After following these basic steps, you'll be ready to select the right communication solution that fits your organization's needs.
 
 
-#### Step 2: Identify the scenario(s) to meet your communication goal
-Once you have defined your audience profile and scoped the size of your audience,you can [choose a corporate communication solution](choose-communication-method.md) or combination of solutions. Each communication solution covers step-by-step guidance and includes best practices to ensure your success.
+#### Step 2: Identify one or more scenarios to meet your communication goal
+Once you define your audience profile and scoped the size of your audience, you can [choose a corporate communication solution](choose-communication-method.md) or combination of solutions. Each communication solution covers step-by-step guidance and includes best practices to ensure your success.
 
 
 #### Step 3: Plan, build, and launch your communication strategy
-Once you've selected a solution or combination of solutions, you'll learn how to plan, build, and launch. Each communication solution can be customized and integrated with other communication solutions depending on your goals. Understanding your audience's needs and how they currently use M365 apps will heavily influence how you make decisions.   
+Once you select a solution or combination of solutions, you learn how to plan, build, and launch. Each communication solution can be customized and integrated with other communication solutions depending on your goals. Understanding your audience's needs and how they currently use Microsoft 365 apps will heavily influence how you make decisions.
 
 
 #### Step 4: Manage and maintain communication and content over time
@@ -65,7 +65,7 @@ Some communication solutions are a one-time event while others may have several 
 ## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 
-This poster illustrates how Relecloud keeps employees informed and engaged across popular communication scenarios. Relecloud uses a variety of M365 apps, including a new offering, Viva Connections.
+This poster illustrates how Relecloud keeps employees informed and engaged across popular communication scenarios. Relecloud uses various Microsoft 365 apps, including a new offering, Viva Connections.
 
 [ ![Image of the corporate communication planning poster.](media/corporate-communication-relecloud.png)](media/corporate-communication-relecloud.png#lightbox)
 
@@ -89,7 +89,7 @@ This poster illustrates how Relecloud keeps employees informed and engaged acros
 
 
 ### End-user guidance and support
-Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training](/training).
+Give end users a head start by helping them use and engage using popular Microsoft 365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning) to help end users learn more about Microsoft 365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training](/training).
 
 
 | Logo                 | Communication app     | Guidance              | 
@@ -109,12 +109,12 @@ Give end users a head start by helping them use and engage using popular M365 co
 
 | Capability or feature  | Description                | Licensing         |
 | :------------------- | :-------------------- |:---------------- |
-| Outlook email and calendar | Connect and stay organized with business-class email, calendaring, and contacts all in one place. | M365 E5 <br> M365 E3 |
-| Microsoft Teams meetings, chats, and voice   | Deliver elevated meeting experiences with sophisticated call functionality and a central hub for meetings, chat, content, and calling.                | M365 E5 <br> M365 E3  |
-| SharePoint and Viva Engage   | Connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.                 | M365 E5 <br> M365 E3            |
-| Files and content management in OneDrive     | Access files from any device, at any time. Engage with intelligent video and create visually striking content in minutes.                | M365 E5 <br> M365 E3     |
-| Live events in Viva Engage                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | M365 E5 <br> M365 E3         |
-| Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
+| Outlook email and calendar | Connect and stay organized with business-class email, calendaring, and contacts all in one place. | Microsoft 365 E5 <br> Microsoft 365 E3 |
+| Microsoft Teams meetings, chats, and voice   | Deliver elevated meeting experiences with sophisticated call functionality and a central hub for meetings, chat, content, and calling.                | Microsoft 365 E5 <br> Microsoft 365 E3  |
+| SharePoint and Viva Engage   | Connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.                 | Microsoft 365 E5 <br> Microsoft 365 E3            |
+| Files and content management in OneDrive     | Access files from any device, at any time. Engage with intelligent video and create visually striking content in minutes.                | Microsoft 365 E5 <br> Microsoft 365 E3     |
+| Live events in Viva Engage                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | Microsoft 365 E5 <br> Microsoft 365 E3         |
+| Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | Microsoft 365 E5 <br> Microsoft 365 E3         |
 | Microsoft Viva        | Bring together organizational news, tools, knowledge, learning, and insights with a full employee experience suite.   | [Learn more](https://www.microsoft.com/microsoft-viva/pricing)     |
 
 <br>

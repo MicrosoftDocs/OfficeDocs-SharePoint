@@ -27,7 +27,7 @@ description: "Learn what the default SharePoint groups are available for SharePo
 
 # Default SharePoint groups
 
-The default SharePoint groups are created automatically when you create a site (previously called a "site collection"). The default groups use SharePoint's default permission levels - sometimes called SharePoint roles - to grant users rights and access. The permission levels that these groups have represent common levels of access that users have to have. They are a good place to start when you add users to a SharePoint site. 
+The default SharePoint groups are created automatically when you create a site (previously called a "site collection"). The default groups use SharePoint's default permission levels - sometimes called SharePoint roles - to grant users rights and access. The permission levels that these groups have represent common levels of access that users have to have. They're a good place to start when you add users to a SharePoint site. 
   
 Administrators can create additional groups to align more closely with specific business needs. Deciding how to design and populate your SharePoint groups is an important decision that affects security for your site and site content. 
   
@@ -42,7 +42,7 @@ Here are links to information on understanding and setting SharePoint permission
 
 SharePoint groups enable you to control access for sets of users instead of individual users. SharePoint groups are usually composed of many individual users. They can also hold Microsoft Entra security groups (created in Microsoft 365 or Microsoft Entra ID), or can be a combination of individual users and security groups. 
   
-Each SharePoint group has a permission level. A permission level is simply a collection of individual permissions, such as Open, View, Edit or Delete. All the users in a group automatically have the permission level of the group. You can organize users into any number of groups, depending on the complexity of your organization, or your needs.
+Each SharePoint group has a permission level. A permission level is simply a collection of individual permissions, such as Open, View, Edit, or Delete. All the users in a group automatically have the permission level of the group. You can organize users into any number of groups, depending on the complexity of your organization, or your needs.
   
 Each site template has a set of SharePoint groups associated with it. When you create a site, you use a site template, and SharePoint automatically creates the correct set of SharePoint groups for the site. The specific collection of groups depends on the type of template that you choose. 
   
@@ -85,7 +85,7 @@ The following table describes the SharePoint groups that are created when you us
 
 "Everyone except external users" is a special group that doesn't appear in the Microsoft 365 admin center, and "Company Administrator" acts like a group but is a role in Microsoft Entra ID. 
   
- **Everyone except external users** All users added to your organization automatically become members of "Everyone except external users". Please note that you cannot change default permissions granted to "Everyone except external users" on Microsoft 365 group-connected team sites. If a group-connected team site is set to "Public", "Everyone except external users" has a default permission level of "Edit". When a group-connected team site is set to "Private", "Everyone except external users" can be manually added to the site through "Site permissions". To change the privacy setting for a group-connected team site, select the Settings icon, and then select **Site information**. 
+ **Everyone except external users** All users added to your organization automatically become members of "Everyone except external users". Note that you can't change default permissions granted to "Everyone except external users" on Microsoft 365 group-connected team sites. If a group-connected team site is set to "Public", "Everyone except external users" has a default permission level of "Edit". When a group-connected team site is set to "Private", "Everyone except external users" can be manually added to the site through "Site permissions". To change the privacy setting for a group-connected team site, select the Settings icon, and then select **Site information**. 
   
  **Company Administrator** This group contains all users who are assigned the global admin role. For more info about this role and its permissions in Microsoft Entra ID, see [Company administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#company-administrator). The root site for your organization is created with "Company Administrator" as the primary admin. 
   
@@ -105,6 +105,6 @@ In SharePoint Server, you designate a site collection administrator when you cre
 |:-----|:-----|:-----|
 |Who can use this group?  | Yes  | No, by default.  <br/> Requires special installation.  | 
    
-In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
+In SharePoint in Microsoft 365, there's also a SharePoint admin. A SharePoint admin can use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
-If you are using SharePoint Server, you do not have a SharePoint admin or SharePoint admin center.
+If you're using SharePoint Server, you don't have a SharePoint admin or SharePoint admin center.
