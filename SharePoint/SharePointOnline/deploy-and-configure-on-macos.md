@@ -2,8 +2,10 @@
 ms.date: 03/05/2024
 title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: 
+
 ms.author: mactra
 author: MachelleTranMSFT
+
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -174,7 +176,12 @@ This setting specifies the default location of the OneDrive folder for each orga
 
 The parameters are **TenantID** and **DefaultFolderPath**.
 The **TenantID** value is a string that determines the tenants to whom the **default folder location** setting is applicable.
-The **DefaultFolderPath** value is a string that specifies the default location of the folder.
+The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (i.e. the default location) you can specify the path as ~/. The string would look like this:
+
+
+```
+<string>~/</string>
+```
 
 The following are the conditions governing the default folder location:
 -**Mac App Store**: The path must already exist when the user is setting up the sync app.
