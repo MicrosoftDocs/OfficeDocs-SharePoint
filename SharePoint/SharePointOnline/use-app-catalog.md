@@ -42,7 +42,7 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 
 2. On the Manage apps page, select **SharePoint Store** in the left pane.
 
-3. Search for an app or select a category on the left to scroll through available apps.
+3. Search for an app or select a category to scroll through available apps.
 
 4. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
 
@@ -57,6 +57,7 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 8. Select **Add**.
 
 9. If the app requires additional permissions, a message appears. Select **Go to API access page** to approve the permission request.
+
 
 ## Add custom apps
 <a name="__add_custom_apps"> </a>
@@ -138,7 +139,8 @@ If you want to prevent users from using an app that you've already enabled, you 
 ## Remove an app from the Apps site
 <a name="__toc347303053"> </a>
 
-If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users remain, but the app will no longer be available for users to add to additional sites.
+If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users remain, but the app is no longer available for users to add to more sites.
+
 
 > [!IMPORTANT]
 > If you delete an app, existing instances of the app will no longer work.

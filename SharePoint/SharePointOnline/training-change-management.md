@@ -33,6 +33,7 @@ Your users need to learn how to do these tasks in SharePoint and OneDrive. The r
 
 If you are using both your existing solution and Microsoft 365 during your rollout, consider how users navigate back and forth and include that in the guidance you give your users.
 
+
 Consider these options for helping your users navigate the transition to SharePoint and OneDrive:
 
 - Office hours where users can attend or call in to ask questions.
