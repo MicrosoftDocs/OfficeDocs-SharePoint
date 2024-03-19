@@ -47,7 +47,7 @@ As part of your SharePoint rollout, we recommend that you create your own custom
 
 External sharing in SharePoint and OneDrive uses [Microsoft Entra B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) to create guest accounts for people outside the organization. Guests can be given access to SharePoint sites or to individual files and folders in SharePoint and OneDrive.
 
-External sharing is enabled by default in Microsoft 365, including SharePoint and OneDrive. We recommend leaving external sharing enabled. Microsoft 365 external sharing options can provide a more secure and governable sharing environment than sending attachments though email or using consumer sharing services.
+External sharing is enabled by default in Microsoft 365, including SharePoint and OneDrive. We recommend leaving external sharing enabled. Microsoft 365 external sharing options can provide a more secure and governable sharing environment than sending attachments through email or using consumer sharing services.
 
 Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the SharePoint admin center</a> to configure your sharing options. For details, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
