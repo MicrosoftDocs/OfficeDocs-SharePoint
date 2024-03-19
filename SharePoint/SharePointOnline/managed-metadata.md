@@ -1,8 +1,8 @@
 ---
 title: "Introduction to managed metadata"
 ms.reviewer: shrganguly
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 09/18/2023

@@ -1,8 +1,8 @@
 ---
 ms.date: 05/22/2019
 title: "Create an organization news site"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

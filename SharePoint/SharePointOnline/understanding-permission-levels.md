@@ -104,7 +104,7 @@ The following table describes the default permission levels and associated permi
 |**Group**|**Permission level**|
 |:-----|:-----|
 |**Visitors** <br/> |**Read** This level includes these permissions:  <br/>  Open  <br/>  View Items, Versions, pages, and Application pages  <br/>  Browse User Information  <br/>  Create Alerts  <br/>  Use Self-Service Site Creation  <br/>  Use Remote Interfaces  <br/>  Use Client Integration Features  <br/> |
-|**Members** <br/> |**Edit** This level includes all permissions in Read, plus:  <br/>  View, add, update and delete Items  <br/>  Add, Edit and Delete Lists  <br/>  Delete Versions  <br/>  Browse Directories  <br/>  Edit Personal User Information  <br/>  Manage Personal Views  <br/>  Add , Update, or Remove Personal Web Parts  <br/> |
+|**Members** <br/> |**Edit** This level includes all permissions in Read, plus:  <br/>  View, add, update and delete Items  <br/>  Add, Edit and Delete Lists  <br/>  Delete Versions  <br/>  Browse Directories  <br/>  Edit Personal User Information  <br/>  Manage Personal Views  <br/>  Add, Update, or Remove Personal Web Parts  <br/> |
 |**Owners** <br/> |**Full Control** This level includes all available SharePoint permissions.  <br/> |
    
 ## Site permissions and permission levels

@@ -2,8 +2,8 @@
 ms.date: 09/19/2018
 title: "Why move from publishing sites to communication sites? - SharePoint"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

@@ -2,8 +2,8 @@
 ms.date: 07/26/2021
 title: "Choose a communication method"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
