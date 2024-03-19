@@ -37,7 +37,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ## Create your site
 
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with an existing Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically be associated with that hub site).
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with an existing Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically associated with that hub site).
 
 ![Image of the Create site option](media/create-your-site.png)
 
