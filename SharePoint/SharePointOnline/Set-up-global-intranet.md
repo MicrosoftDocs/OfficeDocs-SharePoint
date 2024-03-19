@@ -2,8 +2,8 @@
 ms.date: 11/10/2020
 title: "Planning considerations for a global intranet"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -46,7 +46,7 @@ The advantage to using hub sites is that they provide a flat architecture that i
 
 ![Hub site concept](media\HubSiteExample.png)
 
-If you have subsidiaries in different regions that have thei\nr own branding and navigation, an option for you is to create a hub site for each region.
+If you have subsidiaries in different regions that have their own branding and navigation, an option for you is to create a hub site for each region.
 
 [Learn how to plan for hub sites](./planning-hub-sites.md)
 

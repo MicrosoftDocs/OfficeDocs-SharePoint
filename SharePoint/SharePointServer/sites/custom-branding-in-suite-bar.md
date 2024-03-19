@@ -25,6 +25,10 @@ description: "Learn about the Custom Branding feature, which is one of the newly
 
 This article describes the "Custom branding in Suite Navigation Bar" feature, which is one of the new features introduced in the SharePoint Server Subscription Edition Version 23H2 feature update.
 
+> [!NOTE]
+> Custom branding in the Suite Navigation Bar was first introduced in SharePoint Server Subscription Edition Version 23H2, but it was initially available only for SharePoint farms in Early release. Starting with SharePoint Server Subscription Edition Version 24H1, it's available regardless of whether your SharePoint farm is in Early release or Standard release.
+
+
 ## Custom branding in the Suite Navigation Bar
 
 The SharePoint Server modern UX provides a powerful yet intuitive user interface that scales from desktop to mobile devices. However, the architecture of the modern UX limited the opportunities for organizations to apply custom branding to the Suite Navigation Bar, which is the global navigation bar that provides access to the App Launcher, contextual settings menu, and user welcome control in SharePoint sites.
@@ -49,10 +53,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
 
 ### Example 1
 
-1. Set the feature release ring to **Early release** for your farm to make this feature available in the SharePoint Server Subscription Edition version 23H2. For more information, see
-[Feature release rings](../administration/feature-release-rings.md).
-
-2. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
+1. Enable a web application to allow custom branding by setting the **SuiteNavAllowCustom** web application-level property to **true**. This property must be set to **true** for any of the other properties to take effect.
 
    ```PowerShell
       $webapp = Get-SPWebApplication http://spwfe
@@ -60,7 +61,7 @@ SharePoint Server Subscription Edition Version 23H2 introduces the ability for o
       $webapp.Update()
    ```
 
-3. Set all the options, as shown in the following command-syntax example:
+2. Set all the options, as shown in the following command-syntax example:
 
    ```PowerShell
       $webapp.SuiteNavBrandingText = "Suite Bar Branding"

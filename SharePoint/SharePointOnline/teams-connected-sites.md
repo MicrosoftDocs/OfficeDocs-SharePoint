@@ -2,8 +2,8 @@
 ms.date: 07/28/2023
 title: Teams and SharePoint integration
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

@@ -1,9 +1,9 @@
 ---
-ms.date: 07/26/2023
+ms.date: 03/05/2024
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: mactra
+author: MachelleTranMSFT
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -43,14 +43,14 @@ For these reasons, we recommend moving (redirecting) known folders to OneDrive i
 
 We recommend that you upgrade to the latest available build before you deploy.
 
-For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). Note that Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
+For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
 
 > [!IMPORTANT]
 > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the configuration slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) temporarily to minimize the network impact and then disable the policy once uploads are complete.
 
 ### Folders redirected to other organizations
 
-If a user's Documents, Pictures, or Desktop folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Documents, Pictures, or Desktop folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
+If a user's Documents, Pictures, or Desktop folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Documents, Pictures, or Desktop folders and the user will see an empty desktop. The user has to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
 
 ## About the Known Folder Move policies
 
@@ -64,7 +64,7 @@ The following policies control the Known Folder Move feature:
 
     :::image type="content" source="media/kfm-prompt-windows-1.png" alt-text="Screenshot of the dialog that prompts users to back up their important folders.":::
 
-    If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
+    If users dismiss the prompt, a reminder notification appears in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
     :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
@@ -77,7 +77,7 @@ The following policies control the Known Folder Move feature:
 
   You can choose to display a notification to users after their folders have been redirected.
 
-  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive.](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive.](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently doesn't succeed, users are prompted to correct the error and continue.
 
   > [!IMPORTANT]
   > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.
@@ -121,5 +121,3 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share.
   3. Enable Known Folder Move Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
-
-

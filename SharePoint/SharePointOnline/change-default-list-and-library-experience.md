@@ -4,8 +4,8 @@ title: "Change the default list and library experience"
 ms.reviewer: jdemaris
 manager: jtremper
 recommendations: true
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 audience: ITPro
 f1.keywords:
 - NOCSH

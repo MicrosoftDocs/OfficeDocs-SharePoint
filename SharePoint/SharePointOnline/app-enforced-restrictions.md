@@ -2,8 +2,8 @@
 ms.date: 10/07/2020
 title: "Use app-enforced restrictions"
 ms.reviewer: samust
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

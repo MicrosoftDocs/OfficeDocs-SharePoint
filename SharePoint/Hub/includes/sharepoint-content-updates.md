@@ -2,6 +2,16 @@
 
 
 
+## Week of February 26, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/26/2024 | [Find your Microsoft 365 tenant ID](/SharePoint/find-your-office-365-tenant-id) | modified |
+| 2/26/2024 | [Restore a deleted OneDrive](/SharePoint/restore-deleted-onedrive) | modified |
+| 3/1/2024 | [Search limits for SharePoint](/SharePoint/search-limits) | modified |
+
+
 ## Week of February 12, 2024
 
 
@@ -27,24 +37,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 2/1/2024 | [Change a site address](/SharePoint/change-site-address) | modified |
-
-
-## Week of January 22, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/22/2024 | [Restrict SharePoint site access with Microsoft 365 groups and Entra security groups](/SharePoint/restricted-access-control) | modified |
-| 1/22/2024 | [The OneDrive sync app update process](/SharePoint/sync-client-update-process) | modified |
-| 1/23/2024 | [Data access governance reports for SharePoint sites](/SharePoint/data-access-governance-reports) | modified |
-| 1/23/2024 | [Set up and configure Access Services for Access apps in SharePoint Server 2013](/SharePoint/administration/set-up-and-configure-access-services-for-access-apps) | modified |
-| 1/25/2024 | [Report on file and folder sharing in a SharePoint site](/SharePoint/sharing-reports) | modified |
-
-
-## Week of January 15, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/16/2024 | [Software boundaries and limits for SharePoint Servers 2016 and 2019](/SharePoint/install/software-boundaries-limits-2019) | modified |
-| 1/19/2024 | [Prevent guest access to files while DLP rules are applied](/SharePoint/sensitive-by-default) | modified |
