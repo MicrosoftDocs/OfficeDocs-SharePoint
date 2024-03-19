@@ -52,11 +52,12 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 
 6. Review app permissions and data access.
 
-7. Some apps have the option to be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**. 
+7. Some apps can be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**.
 
 8. Select **Add**.
 
-9. If the app requires more permissions, a message appears. Select **Go to API access page** to approve the permission request.
+9. If the app requires additional permissions, a message appears. Select **Go to API access page** to approve the permission request.
+
 
 ## Add custom apps
 <a name="__add_custom_apps"> </a>
@@ -102,7 +103,7 @@ App developers can choose to allow administrators to automatically add an app to
 If you didn't choose to add an app to all sites when you enabled it, you can do so later on the Apps site.
 
 To add an app to all sites
-1. On the Manage apps page, select the app that you want to add to all sites.
+1. On the **Manage apps page**, select the app that you want to add to all sites.
 1.  Select **Add to all sites**.
 1. Select **Confirm**.
 1. Select **Close**.
@@ -139,6 +140,7 @@ If you want to prevent users from using an app that you've already enabled, you 
 <a name="__toc347303053"> </a>
 
 If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users remain, but the app is no longer available for users to add to more sites.
+
 
 > [!IMPORTANT]
 > If you delete an app, existing instances of the app will no longer work.

@@ -1,8 +1,8 @@
 ---
 title: Microsoft OneDrive customer office hours
 ms.reviewer: padiamo
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 audience: Admin
 f1.keywords:

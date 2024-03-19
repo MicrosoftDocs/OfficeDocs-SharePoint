@@ -2,8 +2,8 @@
 ms.date: 10/11/2019
 title: "Manage site redirects"
 ms.reviewer: adwood
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

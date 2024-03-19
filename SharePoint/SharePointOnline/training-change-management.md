@@ -31,7 +31,8 @@ As part of your change management plan, review how your users do core tasks such
 
 Your users need to learn how to do these tasks in SharePoint and OneDrive. The resources in this article can help users learn how to do these and other tasks. If you have specific business processes around these tasks, you may need to create separate documentation for your users to incorporate that.
 
-If you're using both your existing solution and Microsoft 365 during your rollout, consider how users navigate back and forth and include that in the guidance you give your users.
+If you are using both your existing solution and Microsoft 365 during your rollout, consider how users navigate back and forth and include that in the guidance you give your users.
+
 
 Consider these options for helping your users navigate the transition to SharePoint and OneDrive:
 

@@ -2,8 +2,8 @@
 ms.date: 06/11/2019
 title: Microsoft Entra B2B integration for SharePoint & OneDrive
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

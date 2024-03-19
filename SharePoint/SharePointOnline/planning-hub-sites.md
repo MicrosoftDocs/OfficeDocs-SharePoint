@@ -4,8 +4,8 @@ title: "Planning your SharePoint hub sites"
 ms.reviewer: cathed
 manager: jtremper
 recommendations: true
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - CSH

@@ -2,8 +2,8 @@
 ms.date: 05/22/2019
 title: "Create an organization assets library"
 ms.reviewer: cathed
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

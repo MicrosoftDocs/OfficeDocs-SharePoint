@@ -2,8 +2,8 @@
 ms.date: 03/01/2021
 title: "Control notifications in the SharePoint mobile app"
 ms.reviewer: shahna
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 audience: Admin
 f1.keywords:

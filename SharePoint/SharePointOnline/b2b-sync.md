@@ -2,8 +2,8 @@
 ms.date: 02/04/2019
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 audience: Admin
 f1.keywords:
