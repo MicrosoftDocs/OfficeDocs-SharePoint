@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Guided walkthrough: Creating a training site for your organization"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

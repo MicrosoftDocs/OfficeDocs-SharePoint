@@ -2,8 +2,8 @@
 ms.date: 06/10/2022
 title: Plan sharing and collaboration options in SharePoint and OneDrive
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

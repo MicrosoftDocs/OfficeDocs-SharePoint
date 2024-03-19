@@ -1,8 +1,8 @@
 ---
 title: Manually request crawling and reindexing of a site, a library or a list
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 6/20/2018

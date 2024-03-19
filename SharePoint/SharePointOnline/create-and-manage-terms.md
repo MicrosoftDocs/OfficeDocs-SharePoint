@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Create and manage terms in a term set"
 ms.reviewer: shrganguly
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: End User
