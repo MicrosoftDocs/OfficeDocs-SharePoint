@@ -1,8 +1,8 @@
 ---
 ms.date: 09/15/2020
 title: "deprecation of site mailboxes"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

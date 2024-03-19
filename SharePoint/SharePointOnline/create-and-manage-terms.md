@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Create and manage terms in a term set"
 ms.reviewer: shrganguly
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: End User
@@ -34,7 +34,7 @@ To create a term in a term set
     
 2. In the tree-view pane, select the term set to which you want to add a term.
 
-3. Click **Add term**.
+3. Select **Add term**.
     
     ![Screenshot of the term store page in the SharePoint admin center with Add term highlighted.](media/create-manage-term-sets.png)
     
@@ -46,13 +46,13 @@ To create a term in a term set
 
     - On the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save**.
 
-    - On the **Advanced** tab, to use shared or local custom properties to store additional data about term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
+    - On the **Advanced** tab, to use shared or local custom properties to store more data about term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
 
   
 ## Take another action with terms
 <a name="__toc327965090"> </a>
 
-There are several actions that you can take on terms that will help you build and manage term sets as the business needs of your organization evolve. 
+There are several actions that you can take on terms that help you build and manage term sets as the business needs of your organization evolve. 
   
 To take any of the following actions, first select the term that you want to update.
   
@@ -84,7 +84,7 @@ Select **Copy term with children**. This action is only available on terms havin
 ### Delete term
 <a name="__delete_a_term"> </a>
 
-If you delete this term, any terms below it will also be deleted. Terms that are shared with other term sets will be placed in the Orphaned terms term set under System.
+If you delete this term, any terms below it will also be deleted. Terms that are shared with other term sets will be placed in the Orphaned terms set under System.
 
 1. Select **Delete term**.
     
@@ -93,7 +93,7 @@ If you delete this term, any terms below it will also be deleted. Terms that are
 ### Pin term
 <a name="__pin_term_to"> </a>
 
-Pinning a term makes linked copies of the term and its children available at the destination. You can only create or edit the children of a pinned term at the source and the changes will reflect everywhere the term is used.
+Pinning a term makes linked copies of the term and its children available at the destination. You can only create or edit the children of a pinned term at the source and the changes reflect everywhere the term is used.
 
 1. Select **Pin term**. The **Pin term to** panel appears.
 
@@ -104,7 +104,7 @@ Pinning a term makes linked copies of the term and its children available at the
 ### Reuse term
 <a name="__reuse_a_term"> </a>
 
-Reusing a term makes linked copies of the term and its children available at the destination. You can create children for a reused term anywhere it is used but will exist only in the term set they were created.
+Reusing a term makes linked copies of the term and its children available at the destination. You can create children for a reused term anywhere it's used but will exist only in the term set they were created.
 
 1. Select **Reuse term**. The **Reuse term to** panel appears.
     
@@ -115,7 +115,7 @@ Reusing a term makes linked copies of the term and its children available at the
 ### Merge term
 <a name="__merge_a_term"> </a>
 
-Merging this term with another will collapse its synonyms, translations and custom properties into the other term.
+Merging this term with another will collapse its synonyms, translations, and custom properties into the other term.
 
 1. Select **Merge term**. The **Merge to** panel appears.
     
@@ -126,7 +126,7 @@ Merging this term with another will collapse its synonyms, translations and cust
 ### Deprecate term
 <a name="__deprecate_a_term"> </a>
 
-This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term are not deprecated.
+This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term aren't deprecated.
 
 - Select **Deprecate term**. 
 
