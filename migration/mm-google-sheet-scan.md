@@ -47,7 +47,7 @@ You must grant the **Microsoft 365 Migration** app access to all your Google She
 
 You must grant Google Spreadsheet permissions before Migration Manager can run a **sheet scan** on Google Sheets. Learn how here:
 
-  :::image type="content" source="media/mm-google-permission-gsheet.png" alt-text="google permissions granting for gsheet":::
+  :::image type="content" source="media/mm-google-permission-gsheet.png" alt-text="Screenshot that shows google permissions granting for gsheet":::
 
 
 3. If it hasn't been granted, select **Grant access** at the top of the page to grant access.
