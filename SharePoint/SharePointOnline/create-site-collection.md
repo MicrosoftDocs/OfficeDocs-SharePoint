@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Create a site"
 ms.reviewer: metorres
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

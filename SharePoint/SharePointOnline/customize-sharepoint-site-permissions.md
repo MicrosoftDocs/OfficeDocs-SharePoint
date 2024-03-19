@@ -2,8 +2,8 @@
 ms.date: 10/15/2018
 title: "Customize SharePoint site permissions"
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

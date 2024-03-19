@@ -29,7 +29,8 @@ The Basic Search Center is a classic search experience. To offer your users a ri
 - Rely on the modern search experience that SharePoint comes with. 
 [Learn about differences between classic and modern search](./differences-classic-modern-search.md) and [when to choose which search experience](./get-started-with-modern-search-experience.md) for your organization.
 
-If you're currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed.  This feature results in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap) PowerShell cmdlet to swap the Search Centers.
+
+If you're currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed. The swap results in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap) PowerShell cmdlet to swap.
 
 ## How to use Invoke-SPOSiteSwap to swap your Search Center sites
 
@@ -64,16 +65,15 @@ Here's an example of how to use these parameters when swapping an existing Enter
 - **For your -TargetUrl**, you need the URL of your Enterprise Search Center site that you want to replace. For our example, we use \<spam\>\<spam\>https://contoso.sharepoint.com/search\<spam\>\<spam\>.
 - **For your -ArchiveUrl**, use a Url that doesn't currently exist at the location. Your Enterprise Search Center site is archived to this site location. For our example, we use \<spam\>\<spam\>https://contoso.sharepoint.com/sites/ArchivedEntSearch\<spam\>\<spam\>. 
 
-Here's how to use the examples above in the Invoke-SPOSiteSwap cmdlet:
+Here's how to use the examples in the Invoke-SPOSiteSwap cmdlet:
 
 ```PowerShell  
 Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -TargetUrl https://contoso.sharepoint.com/search -ArchiveUrl https://contoso.sharepoint.com/sites/ArchivedEntSearch
 ```
 
-Successfully running the cmdlet above would result in:
-- Basic Search is the default Search Center experience. When users go to \<spam\>\<spam\>https://contoso.sharepoint.com/search\<spam\>\<spam\>, they'll now be using the Basic Search Center.
-- The Enterprise Search Center site will no longer be available as the default Search Center experience.
-
+Successfully running the cmdlet would result in:
+- Basic Search is the default Search Center experience. When users go to \<spam\>\<spam\>https://contoso.sharepoint.com/search\<spam\>\<spam\>, they're now using the Basic Search Center.
+- The Enterprise Search Center site is no longer available as the default Search Center experience.
 
     
 ## See also
