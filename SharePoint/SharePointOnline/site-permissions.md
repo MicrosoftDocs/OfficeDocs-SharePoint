@@ -2,8 +2,8 @@
 ms.date: 06/12/2023
 title: "Admin center site permissions reference"
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

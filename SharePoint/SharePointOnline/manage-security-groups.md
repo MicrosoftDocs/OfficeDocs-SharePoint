@@ -2,8 +2,8 @@
 ms.date: 08/04/2023
 title: Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally
 ms.reviewer: srice
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

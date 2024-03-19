@@ -2,8 +2,8 @@
 title: Set up SharePoint and OneDrive in Microsoft 365 with a step-by-step guide
 ms.date: 06/23/2023
 ms.reviewer: salarson
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

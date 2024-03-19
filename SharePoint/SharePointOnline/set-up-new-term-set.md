@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Set up a new term set"
 ms.reviewer: shrganguly
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
