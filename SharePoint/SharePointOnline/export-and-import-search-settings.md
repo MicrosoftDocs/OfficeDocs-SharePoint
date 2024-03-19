@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Export and import customized search configuration settings"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

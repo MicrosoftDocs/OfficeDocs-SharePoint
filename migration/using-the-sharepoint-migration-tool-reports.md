@@ -1,16 +1,15 @@
 ---
 ms.date: 08/07/2023
 title: "Step 4 - Monitor and reporting status of your SPMT migration tasks"
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration

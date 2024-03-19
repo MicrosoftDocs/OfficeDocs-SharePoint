@@ -2,7 +2,7 @@
 ms.date: 08/01/2022
 title: "New and improved features in SharePoint Server Subscription Edition Version 22H2"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 audience: ITPro

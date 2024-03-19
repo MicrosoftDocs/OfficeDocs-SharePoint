@@ -1,10 +1,10 @@
 ---
 ms.date: 07/11/2018
 title: "Create and manage terms in a term set"
-ms.reviewer: anfra
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: shrganguly
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: End User
 f1.keywords: NOCSH

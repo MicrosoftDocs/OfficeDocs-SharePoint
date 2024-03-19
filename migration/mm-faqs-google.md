@@ -2,20 +2,20 @@
 ms.date: 03/18/2021
 title: "Migration Manager Google FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: Migration Manager Google FAQs
 ---
@@ -68,8 +68,11 @@ Answer:  No.  We automatically suppress all emails to users so they aren't bomba
 Answer: No. During a migration, we only transfer permissions for user drives. Permissions for shared drives aren't migrated. [Learn how to migrate Google Shared Drives](/sharepointmigration/mm-google-overview#google-shared-drives)
 
 **Question:**  What can't Migration Manager migrate from Google?</br>
-Answer: Google does not allow us to export drawings, forms, sites, and maps from Google Drive. [Learn more about what isn't migrated](/sharepointmigration/mm-google-overview#what-isnt-migrated)
+Answer: Google does not allow us to export drawings, sites, and maps from Google Drive. [Learn more about what isn't migrated](/sharepointmigration/mm-google-overview#what-isnt-migrated)
+
+**Question:**  Does Migration Manager migrate Google Forms?</br>
+Answer:  Yes. Migration Manager now will migrate Google Forms.
 
 **Question:**  Does Google calculate the size of their proprietary files?</br>
-Answer:  Google only started calculating the size of its proprietary files, including Google Docs, Sheets, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
+Answer:  Google only started calculating the size of its proprietary files, including Google Docs, Sheets, Forms, and Slides, on May 2, 2022. Any Google proprietary files created and modified **before** May 2, 2022 don't include file size in the metadata info we get from the API calls. As a result, all Google proprietary files created before May 2, 2022 default to a scanned size of 1 byte and are reported as such in our *ScanSummary report*.
 

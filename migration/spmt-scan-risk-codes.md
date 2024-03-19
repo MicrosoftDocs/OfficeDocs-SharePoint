@@ -2,16 +2,15 @@
 ms.date: 11/09/2022
 title: "SharePoint Migration Tool assessment risk errors "
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -49,7 +48,7 @@ To learn more about scan assessment, see [Scan and assess a SharePoint Server si
 |LOOKUP_LIST_IN_UNKNOWN_WEB|Lookup column {0} in {1} refers to unknown list out of current scan scope.|Find the lookup list and include it within the migration scope by .json file.|
 |LOOKUP_LIST_IN_PARENT_WEB|	Lookup column {0} in {1} refers to list in its parent web.|You need to migrate the parent web and the current site.|
 |LIST_TARGET_AUDIENCE_ENABLED|Target audience is enabled. This list may be skipped during migration.|There's no 'audience targeting setting' in SharePoint Online.  Turn on the migration setting 'Skip list with audience targeting enabled' to skip this list. Otherwise, it's still migrated but the audience targeting is missing.|
-|ITEM_COUNT_EXCEED_LIMIT|File count '{0}' exceeds limit '{1}'|SharePoint can store up to 30 million items per list. If item count exceeds 30 million, migration will fail. To learn more, see: [Manage large lists and libraries](/office/manage-large-lists-and-libraries-b8588dae-9387-48c2-9248-c24122f07c59)|
+|ITEM_COUNT_EXCEED_LIMIT|File count '{0}' exceeds limit '{1}'|SharePoint can store up to 30 million items per list. If item count exceeds 30 million, migration will fail. To learn more, see: [Manage large lists and libraries](https://support.microsoft.com/office/b8588dae-9387-48c2-9248-c24122f07c59)|
 |ITEM_COUNT_EXCEED_INDEX_LIMIT|	File count '{0}' is too large to create index|	SharePoint Online has 20,000 index creation limit. If the item count exceeds 20,000, then adding column index is prohibited in that library. SPMT will give a warning in that case but won’t block migration.|
 |LIST_VIEW_EXCEED_LIMIT	|The list view shows more than {0} items.| You may run into a list view threshold error in the classic experience.	SharePoint Online has a 5, 000 list view limit. This threshold is a barrier of efficient searching but won’t impact migration.|
 |UNIQUE_PERMISSION_EXCEED_LIMIT|	Unique permissions per list should remain below {0} in total	|The supported limit of unique permissions for items in a list or library is 50,000. However, the recommended general limit is 5,000. Making changes to more than 5,000 uniquely permitted items at a time takes longer. Reduce the number of uniquely permitted items in a list or library.  Learn more: [Error when breaking SharePoint inheritance](/sharepoint/troubleshoot/lists-and-libraries/error-share-break-inheritance)|

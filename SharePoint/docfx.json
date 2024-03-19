@@ -70,32 +70,34 @@
     "markdownEngineName": "markdig",    
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-SharePoint",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
         "Reraghavan",
         "denisebmsft",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
+        "dstrome2",
+        "rjagiewich",  
+        "American-Dipper",
         "claydetels19", 
         "jborsecnik",
-        "tiburd",
+        "v-stchambers",
+        "shdyas",
+        "Stacyrch140",
         "garycentric",
-        "v-dihans",
-        "AngelaMotherofDragons",
+        "dstrome",
         "beccarobins"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
-      "feedback_product_url": "https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472",
+      "feedback_system": "Standard",
+            "feedback_product_url": "https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472",
       "recommendations": true
     },
     "fileMetadata": {
-        "searchScope": { 
+       "breadcrumb_path": {
+         "SharePointServer/**/*.md": "/SharePoint/breadcrumb/subtoc_breadcrumb/toc.json"
+      },
+            "searchScope": { 
             "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"],
             "SharePointServer/**/*.md": ["SharePoint Server"],
             "SharePointOnline/**/*.yml": ["SharePoint in Microsoft 365"],

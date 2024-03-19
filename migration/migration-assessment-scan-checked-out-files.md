@@ -1,17 +1,16 @@
 ---
 title: "Migration Assessment Scan Checked-out files"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -19,6 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid: 43ca2e32-1ed7-4a4b-a575-7573b435594b
 description: "Learn about issues with checked-out files during data migration."

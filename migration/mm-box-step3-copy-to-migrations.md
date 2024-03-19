@@ -2,15 +2,14 @@
 ms.date: 01/21/2021
 title: "Step 3: Copy to migrations tab for Box migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 3: Copy to migrations using Migration Manager."
 ---

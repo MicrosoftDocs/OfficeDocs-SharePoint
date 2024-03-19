@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Identify business requirements for SharePoint and OneDrive
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -12,6 +12,7 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
+  - essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Identify your business requirements for SharePoint and OneDrive as you plan your rollout.

@@ -1,9 +1,9 @@
 ---
 title: "Performance in the modern SharePoint experience"
 ms.reviewer: 
-ms.author: kvice
-author: kelleyvice-msft
-manager: laurawi
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 3/19/2019
 audience: Admin

@@ -2,9 +2,9 @@
 ms.date: 09/08/2021
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -22,16 +22,16 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about SharePoint view in File Explorer for Edge."
+description: "Learn about SharePoint view in File Explorer for Microsoft Edge."
 ---
 
 # View SharePoint files with File Explorer in Microsoft Edge
 
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
-By default, the View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
+By default, the View in File Explorer menu option won't be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
 
-## Configure View in File Explorer with Edge
+## Configure View in File Explorer with Microsoft Edge
 
 Follow the steps below to use View in File Explorer in Microsoft Edge:
 
@@ -67,7 +67,7 @@ Use the options below to enable View in File Explorer using group policy or Intu
 
      Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
 
-5. Verify the policy has been enabled by opening Microsoft Edge and navigating to Edge://policy/.
+5. Verify the policy has been enabled by opening Microsoft Edge and navigating to **Microsoft Edge://policy/**.
 
     :::image type="content" source="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
 
@@ -108,23 +108,23 @@ You can verify that the policy has been applied by navigating to **edge://policy
 
 **The error message _This policy is blocked - its value will be ignored_ appeared while checking to see if the policy was applied via edge://policy. What's wrong?**
 
-This error will occur when you attempt to apply this policy to a non-domain joined device. Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances enrolled for device management.
+This error occurs when you attempt to apply this policy to a nondomain joined device. Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances enrolled for device management.
 
 :::image type="content" source="media/edge-error.png" lightbox="media/edge-error.png" alt-text="User interface of the 'This policy is blocked - its value will be ignored' error message.":::
 
 **What happens if I have the policy applied without the tenant setting enabled?**
 
-If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true), the View in File Explorer button will not appear in the interface of the SharePoint site.
+If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true), the View in File Explorer button won't appear in the interface of the SharePoint site.
 
 **What happens if the tenant setting is enabled without the Edge policy applied?**
 
-If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
+If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button results in a blank screen.
 
 :::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
 
 **When running Set-SPOTenant -ViewInFileExplorerEnabled $True I received the error "The requested operation is part of an experimental feature that is not supported in the current environment". What's wrong?**
 
-You may receive this error if this functionality is not supported in your current environment. We are still rolling out functionality to all Production environments and will update this article once worldwide rollout has been completed.
+You may receive this error if this functionality isn't supported in your current environment. We're still rolling out functionality to all Production environments and will update this article once worldwide rollout has been completed.
 
 ## Learn More
 

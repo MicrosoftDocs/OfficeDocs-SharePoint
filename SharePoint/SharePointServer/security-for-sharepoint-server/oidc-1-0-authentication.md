@@ -2,7 +2,7 @@
 ms.date: 07/11/2021
 title: "OpenID Connect 1.0 authentication"
 ms.reviewer: 
-ms.author: v-jmathew
+ms.author: serdars
 author: jitinmathew
 manager: serdars
 audience: ITPro
@@ -20,8 +20,7 @@ description: "Learn how to set up OIDC authentication in SharePoint Server."
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-OpenID Connect (OIDC) 1.0 is a modern authentication protocol that seamlessly integrates applications and devices with the identity and authentication management solutions to keep pace with the
-evolving security and compliance needs of your organization.
+OpenID Connect (OIDC) 1.0 is a modern authentication protocol that seamlessly integrates applications and devices with identity and authentication management solutions to keep pace with the evolving security and compliance needs of your organization.
 
 In SharePoint 2019 and prior versions, SharePoint Server supported three types of authentication methods:
 
@@ -29,11 +28,26 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 2. Forms-based authentication
 3. Security Assertion Markup Language (SAML) 1.1-based authentication
 
-SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol. With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
+OIDC 1.0 authentication protocol only supports SharePoint Server Subscription Edition. With this capability, you can set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
+
+The OIDC 1.0 authentication protocol integrates with SharePoint Certificate Management to manage the nonce (number used once) cookie certification. The nonce cookie certificate ensures that OIDC authentication tokens are secure.
+
+Prior to OIDC 1.0 authentication integration with SharePoint Certificate Management, the administrators used the Certificate snap-in in Windows to check the status of the nonce certificate. In a multi-server farm, the administrators needed to manually export certificates, import certificates, and grant permissions on each server individually. When administrators enable OIDC for a new web application using a new application pool account, the administrators had to remember to grant permissions for the account.
+
+Farm administrators can use the following command to establish or replace the nonce certificate at the farm level. This command can be used regardless of the fact if it's being done during the initial configuration or during replacement of an existing nonce certificate.
+
+```powershell
+# Use one of the commands to acquire the nonce cookie certificate if it's already imported:
+$nonceCert = Get-SPCertificate -DisplayName <the certificate name>
+$nonceCert = Get-SPCertificate -Thumbprint <thumbprint>
+
+# Update
+$farm = Get-SPFarm 
+$farm.UpdateNonceCertificate($nonceCert, $true)
+```
 
 You can set up OIDC authentication in SharePoint Server with either of these options:
 
-- Microsoft Azure Active Directory (Azure AD). For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
+- Microsoft Entra ID. For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
 
 - Active Directory Federation Services (AD FS). For more information, see [Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)](set-up-oidc-auth-in-sharepoint-server-with-adfs.md).
-

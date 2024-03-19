@@ -1,10 +1,10 @@
 ---
 ms.date: 05/22/2019
 title: "Create an organization assets library"
-ms.reviewer: niwoon
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: cathed
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -77,7 +77,7 @@ If your organization needs to store and manage files for all your users to use, 
     ```
 
    - *LibraryURL* is the absolute URL of the library to be designated as a central location for organization assets.
-   - *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site.
+   - *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the organization's name.
    - *OrgAssetType* is either `ImageDocumentLibrary` or `OfficeTemplateLibrary`. If you don't specify the *OrgAssetType*, the library will be designated as an image library by default.
    - If you don't specify the *CdnType*, it will enable a private CDN by default.
 

@@ -31,48 +31,48 @@ When a Search service application is created, a content source named "Local Shar
 ## Before you begin
 <a name="begin"> </a>
 
-Before you begin this operation, review the following information about prerequisites: 
+Before you begin this operation, see the following article for information about prerequisites regarding the creation of content sources: 
   
-- Create a Search service application
+- [Create a Search service application](create-and-configure-a-search-service-application.md)
+
     
 ## Create, edit, or delete a content source
+
 <a name="proc1"> </a>
 
  **To get to the Manage Content Sources page**
   
 1. Verify that the user account that is performing this procedure is an administrator for the Search service application. 
     
-2. On the home page of the SharePoint Server Central Administration website, in the **Application Management** section, click **Manage service applications**.
-    
-3. On the Manage Service Applications page, click the Search service application.
-    
-4. On the Search Administration Page, in the **Crawling** section, click **Content Sources**.
+2. On SharePoint Server Central Administration home page, navigate to **Application Management > Manage service applications > Search service application**.
+      
+3. On the **Search Administration** page, under **Crawling**, select **Content Sources**.
     
 
 <a name="proc2"> </a>
 
  **To create a content source**
   
-1. On the Manage Content Sources page, click **New Content Source**.
+1. On the **Manage Content Sources** page, select **New Content Source**.
     
-2. On the Add Content Source page, in the **Name** section, in the **Name** box, type a name for the new content source. 
+2. On the **Add Content Source** page, under **Name**, type a name for the new content source in the **Name** box. 
     
-3. In the **Content Source Type** section, select the type of content that you want to crawl. 
+3. Under **Content Source Type**, select the type of content that you want to crawl. 
     
-4. In the **Start Addresses** section, in the **Type start addresses below (one per line)** box, type the URLs from which the crawler should begin crawling. 
+4. Under **Start Addresses**, type the URLs from which the crawler should begin crawling in the **Type start addresses below (one per line)** box.
     
-5. In the **Crawl Settings** section, select the crawling behavior that you want. 
+5. Under **Crawl Settings**, select the crawling behavior that you want.
     
-6. In the **Crawl Schedules** section, to specify a schedule for full crawls, select a defined schedule from the **Full Crawl** list. A full crawl crawls all content that is specified by the content source, regardless of whether the content has changed. To define a full crawl schedule, click **Create schedule**.
+6. Under **Crawl Schedules**, to specify a schedule for full crawls, select a defined schedule from the **Full Crawl** list. A full crawl involves crawling all content that is specified by the content source, regardless of whether the content has changed. To define a full crawl schedule, select **Create schedule**.
     
-7. To specify a schedule for incremental crawls, select a defined schedule from the **Incremental Crawl** list. An incremental crawl crawls content that is specified by the content source that has changed since the last crawl. To define a schedule, click **Create schedule**. You can change a defined schedule by clicking **Edit schedule**.
+7. To specify a schedule for incremental crawls, select a defined schedule from the **Incremental Crawl** list. An incremental crawl involves crawling content that is specified by the content source that has changed since the last crawl. To define a schedule, select **Create schedule**. You can change a defined schedule by selecting **Edit schedule**.
     
-    > [!NOTE]
-    > For a content source that is of type SharePoint Server sites, you can enable continuous crawls. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md). 
+   > [!NOTE]
+   > For a content source that is of type SharePoint Server sites, you can enable continuous crawls. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md). 
   
-8. To set the priority of this content source, in the **Content Source Priority** section, on the **Priority** list, select **Normal** or **High**. 
+8. To set the priority of this content source, under **Content Source Priority**, select **Normal** or **High** from the **Priority** list. 
     
-9. Click **OK**. 
+9. Select **OK**. 
     
 
 <a name="proc3"> </a>
@@ -81,17 +81,30 @@ Before you begin this operation, review the following information about prerequi
   
 1. You can edit a content source to change the schedule on which the content is crawled, the crawl start addresses, the content source priority, or the name of the crawl. Crawl settings and content source type cannot be changed when you edit a content source.
     
-2. On the Manage Content Sources page, in the list of content sources, point to the name of the content source that you want to edit, click the arrow that appears, and then click **Edit**. 
+2. On the **Manage Content Sources** page, in the list of content sources, point to the name of the content source that you want to edit, click the arrow that appears, and then select **Edit**. 
     
-3. After you make the changes that you want, click **OK**.
-    
+3. After you make the changes that you want, select **OK**.
 
 <a name="proc4"> </a>
 
  **To delete a content source**
   
-1. On the Manage Content Sources page, in the list of content sources, point to the name of the content source that you want to delete, click the arrow that appears, and then click **Delete**.
+1. On the **Manage Content Sources** page, in the list of content sources, point to the name of the content source that you want to delete, click the arrow that appears, and then select **Delete**.
     
-2. Click **OK** to confirm that you want to delete this content source. 
+2. Select **OK** to confirm that you want to delete this content source. 
     
+Starting with the SharePoint Server Subscription Edition Version 23H2 feature update, you have the ability to configure the HTTP protocol version that applications would use to search your content sources.
 
+> [!NOTE]
+> By default, the search service application search crawler uses the HTTP 1.1 protocol version. The search crawler will use the HTTP 1.0 protocol version when configured so.
+
+You can configure an HTTP protocol version to be applicable to specific content sources. These HTTP protocol versions can be configured only by using the following cmdlets:
+
+- New-SPEnterpriseSearchCrawlContentSource
+- Set-SPEnterpriseSearchCrawlContentSource
+
+When you use these PowerShell cmdlets, you can specify the `HttpProtocol` parameter with the following options:
+
+- **Default**: This option refers to the system default one, currently HTTP 1.1.
+- **Http_1_0**: This option refers to the HTTP 1.0 protocol.
+- **Http_1_1**: This option refers to the HTTP 1.1 protocol.

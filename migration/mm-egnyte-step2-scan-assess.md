@@ -2,15 +2,14 @@
 ms.date: 08/07/2023
 title: "Step 2: Scan and assess Egnyte folders using Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection:
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Step 2:  Scan and assess Egnyte folders using Migration Manager."

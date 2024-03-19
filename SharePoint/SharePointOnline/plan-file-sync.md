@@ -2,16 +2,17 @@
 ms.date: 06/10/2022
 title: Plan file sync for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection:  
+ms.collection:
+  - essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn how to plan file sync for SharePoint and OneDrive in your organization
@@ -149,7 +150,7 @@ If you are using the previous OneDrive sync app (Groove.exe), see [Transition fr
 
 ## Do you want to limit sync to computers joined to a specific domain?
 
-To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
+To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. For more information, see [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
 
 ## Next steps
 

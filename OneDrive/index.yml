@@ -1,0 +1,70 @@
+### YamlMime:Hub
+
+title: OneDrive documentation # < 60 chars
+summary: OneDrive documentation, training, and other resources for developers, IT professionals, and admins # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: m365
+
+metadata:
+  title: OneDrive documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: OneDrive documentation, training, and other resources for developers, IT professionals, and admins # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: one-drive #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 11/15/2023 #Required; mm/dd/yyyy format.
+  ms.custom: intro-hub-or-landing
+  ms.collection: essentials-navigation
+
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Documentation and training # < 60 chars (optional)
+      items:
+        # Card
+        - title: For IT Professionals and admins
+          summary: Get the practical guidance you need to get the most out of Microsoft OneDrive in your organization.
+          links:
+            - text: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
+              url: /sharepoint/introduction
+            - text: Overview of OneDrive in Microsoft 365
+              url: /sharepoint/onedrive-overview
+            - text: Hybrid deployments
+              url: /sharepoint/hybrid/plan-hybrid-onedrive-for-business
+            - text: Troubleshoot
+              url: /sharepoint/troubleshoot/onedrive-welcome/
+            - text: Training - Use OneDrive in Microsoft 365
+              url: /training/modules/m365-onedrive-collaboration-use/      
+        # Card
+        - title: For developers
+          summary: Guidance for developing solutions for Microsoft OneDrive.
+          links:
+            - text: OneDrive & SharePoint developer platform
+              url: /onedrive/developer/?view=odsp-graph-online
+            - text: Get started with OneDrive API
+              url: /onedrive/developer/rest-api/getting-started/
+        # Card
+        - title: For end users
+          summary: Find help, training, and technical support for your OneDrive users.
+          links:
+            - text: OneDrive help & learning
+              url: https://support.office.com/onedrive
+
+    - title: More resources
+      items:    
+        # Card
+        - title: Shows
+          summary: Learn about OneDrive from Microsoft technical experts
+          links:
+            - text: OneDrive for Business - Access files anywhere from any device
+              url: /shows/taste-of-premier/onedrive-business-access-files-anywhere-from-any-device
+        # Card
+        - title: Answers
+          summary: Find questions and answers tagged with OneDrive in Microsoft Q&A
+          links:
+            - text: Microsoft Q&A OneDrive
+              url: /answers/tags/211/office-onedrive
+

@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
+ms.date: 10/23/2023
 title: "Set the default storage space for OneDrive users"
-ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: jmcdowe
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- essentials-manage
 search.appverid:
 - ODB160
 - ODB150

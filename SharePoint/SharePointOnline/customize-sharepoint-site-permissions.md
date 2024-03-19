@@ -2,9 +2,9 @@
 ms.date: 10/15/2018
 title: "Customize SharePoint site permissions"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jhendr
+author: JoanneHendrickson
+manager: jtremper
 recommendations: true
 audience: Admin
 ROBOTS: NOINDEX
@@ -12,7 +12,8 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - MET150

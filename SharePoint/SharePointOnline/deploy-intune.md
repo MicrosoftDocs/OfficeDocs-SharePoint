@@ -1,10 +1,10 @@
 ---
-ms.date: 09/12/2018
+ms.date: 03/05/2024
 title: "Deploy OneDrive apps using Intune"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -34,11 +34,10 @@ If you're a global admin or assigned [a role in Intune](/mem/intune/fundamentals
 
 ## Deploy the OneDrive app for iOS or Android
 
-To deploy apps in Intune, you use the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps). For the steps to deploy apps to iOS devices, see [Add iOS store apps to Microsoft Intune](/mem/intune/apps/store-apps-ios). For the steps to deploy apps to Android devices, see [Add Android store apps to Microsoft Intune](/mem/intune/apps/store-apps-android). Use **https://play.google.com/store/apps/details?id=com.microsoft.skydrive** as the Appstore URL. For info about assigning apps to groups, see [Assign apps to groups with Microsoft Intune](/mem/intune/apps/apps-deploy).
+To deploy apps in Intune, you use the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps). For the steps to deploy apps to iOS devices, see [Add iOS store apps to Microsoft Intune](/mem/intune/apps/store-apps-ios). For the steps to deploy apps to Android devices, see [Add Android store apps to Microsoft Intune](/mem/intune/apps/store-apps-android). Use **<https://play.google.com/store/apps/details?id=com.microsoft.skydrive>** as the Appstore URL. For info about assigning apps to groups, see [Assign apps to groups with Microsoft Intune](/mem/intune/apps/apps-deploy).
 
-## Deploy the OneDrive sync app to Windows 10 devices 
+## Deploy the OneDrive sync app to Windows 10 devices
 
 Although the sync app comes with Windows 10, you might choose to switch to [per-machine installation](per-machine-installation.md).
 
 For info about configuring sync app settings using Intune, see [Use administrative templates in Intune](configure-sync-intune.md).
-

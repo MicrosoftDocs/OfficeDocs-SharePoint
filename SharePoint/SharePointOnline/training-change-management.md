@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Training and change management for rolling out SharePoint and OneDrive
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -19,7 +19,7 @@ description: Learn about how to help your users adopt and use SharePoint and One
 
 # Training and change management for rolling out SharePoint and OneDrive
 
-Using SharePoint and OneDrive can be a big change for your users, depending on what your current systems are. Spend time understanding your user journeys - those sequences of tasks that users regularly follow in the course of their work. Determine how using SharePoint and OneDrive fit into these journeys and use that information to create a transition plan and resources to help your users.
+Using SharePoint and OneDrive can be a significant change for your users, depending on what your current systems are. Spend time understanding your user journeys - those sequences of tasks that users regularly follow in the course of their work. Determine how using SharePoint and OneDrive fit into these journeys and use that information to create a transition plan and resources to help your users.
 
 As part of your change management plan, review how your users do core tasks such as:
 
@@ -29,20 +29,20 @@ As part of your change management plan, review how your users do core tasks such
 - How to share files with people outside the organization
 - How to create a site or other location for collaboration with others
 
-Your users will need to learn how to do these tasks in SharePoint and OneDrive. The resources in this article can help users learn how to do these and other tasks. If you have specific business processes around these tasks, you may need to create separate documentation for your users to incorporate that.
+Your users need to learn how to do these tasks in SharePoint and OneDrive. The resources in this article can help users learn how to do these and other tasks. If you have specific business processes around these tasks, you may need to create separate documentation for your users to incorporate that.
 
-If you'll be using both your existing solution and Microsoft 365 during your rollout, consider how users will navigate back and forth and include that in the guidance you give your users.
+If you are using both your existing solution and Microsoft 365 during your rollout, consider how users navigate back and forth and include that in the guidance you give your users.
 
 Consider these options for helping your users navigate the transition to SharePoint and OneDrive:
 
 - Office hours where users can attend or call in to ask questions.
 - Special support channels for users in the process of migrating to SharePoint and OneDrive.
-- Single-page or very brief printouts or electronic documents that give steps to core tasks.
+- Single-page or brief printouts or electronic documents that give steps to core tasks.
 - Before and after guidance that shows the old and new way of doing tasks.
 
 ## Resources for your users
 
-The training resources in this section can help your users learn the everyday tasks they'll need to know to be successful with SharePoint and OneDrive.
+The training resources in this section can help your users learn the everyday tasks they need to know to be successful with SharePoint and OneDrive.
 
 ### Getting started
 
@@ -109,7 +109,7 @@ For more information about Viva Learning, see [Overview of Microsoft Viva Learni
 > [!div class="nextstepaction"]
 > [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
-## Related topics
+## Related articles
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
 

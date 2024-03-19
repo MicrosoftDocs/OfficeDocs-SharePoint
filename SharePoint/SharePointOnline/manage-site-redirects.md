@@ -2,9 +2,9 @@
 ms.date: 10/11/2019
 title: "Manage site redirects"
 ms.reviewer: adwood
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

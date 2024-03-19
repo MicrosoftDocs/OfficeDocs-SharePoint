@@ -2,16 +2,15 @@
 ms.date: 04/05/2018
 title: "File & folder permission when using SharePoint Migration Tool"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration
@@ -28,9 +27,9 @@ description: "Learn about what happens to the file and folder permissions when u
 
 ## What happens to the permissions on a file when it is migrated?
 
-The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (Azure AD), can affect the permission settings on your files after they have been migrated to SharePoint in Microsoft 365.
+The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Microsoft Entra ID, can affect the permission settings on your files after they have been migrated to SharePoint in Microsoft 365.
 
- **Syncing your environment:** In order to maintain existing on-premises file permissions, there must be a corresponding user in SPO. The easiest way to accomplish this is to synchronize your Active Directory accounts to Azure Active Directory (Azure AD).
+ **Syncing your environment:** In order to maintain existing on-premises file permissions, there must be a corresponding user in SPO. The easiest way to accomplish this is to synchronize your Active Directory accounts to Microsoft Entra ID.
 
 |How|File share|SharePoint on-prem files|
 |---|---|---|
@@ -64,4 +63,3 @@ The SharePoint Migration Tool permission control is affected by various conditio
 |Site/Web|Yes|NA|Inherited|Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
 |Site/Web(A) with Subsite B (both migrated with SPMT)|Yes|NA|||Subsite B or sub web inherited from main Site A Subsite B/web unique from the new SharePoint main site A Site A is migrated as described for normal site migration.  Subsite B becomes unique and role assignment **will be replaced** by those in the source Subsite B|
 |Site/Web|Yes|NA|Unique|Unique|Role assignment of source site/web will be added as new role assignments to the target site/web|
-

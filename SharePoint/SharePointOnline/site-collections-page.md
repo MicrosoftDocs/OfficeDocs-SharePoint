@@ -2,10 +2,10 @@
 ms.date: 05/12/2020
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - CSH

@@ -2,9 +2,9 @@
 ms.date: 09/10/2020
 title: Provision the SharePoint Success Site from the look book
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

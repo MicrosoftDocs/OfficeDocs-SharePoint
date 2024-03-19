@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Remove search results"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: End User
 f1.keywords:
@@ -23,7 +23,7 @@ description: "As a search administrator, you can temporarily remove items from t
 
 # Remove search results
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been canceled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents or pages that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been canceled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
   
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 

@@ -2,20 +2,20 @@
 ms.date: 03/18/2021
 title: "Migration Manager Egnyte FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: Migration Manager Egnyte FAQs
 ---
@@ -24,7 +24,7 @@ description: Migration Manager Egnyte FAQs
 
 
 **Question:**  **Is Migration Manager Egynte available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  No. Migration Manager Egnyte is not available for any of the Government clouds.
+Answer.  No. Migration Manager Egnyte isn't available for any of the Government clouds.
 
 **Question:**   **What gets transferred?**</br>
 Answer: Only owned folders and the root files for each user are copied. If a user isn't the owner of data they can access, we don't copy it. Content may be automatically re-shared after it's migrated so that each user has access to their content exactly as before.
@@ -41,12 +41,12 @@ Answer: There's a source-to-destination delta; when you run a transfer, we compa
 </br>
 
 **Question:**   **Does Migration Manager delete my files?**</br>
-Answer: No. We never delete your data from any source. We simply take your data from one place and copy it to another; akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons. 
+Answer: No. We never delete your data from any source. We take your data from one place and copy it to another; akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons. 
 
 </br>
 
 **Question:**   **Can I rearrange content during a migration?**</br>
-Answer:  Not recommended. Any major changes in directory structure should happen before or after your migration. It's also not a good idea to use our app to rearrange content.  The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transferred, including all subfolders.  When sharing permissions are transferred, both owners and collaborators receive duplicate data if content has been rearranged or renamed.
+Answer:  Not recommended. Any major changes in directory structure should happen before or after your migration. It's also not a good idea to use our app to rearrange content.  The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is retransferred, including all subfolders.  When sharing permissions are transferred, both owners and collaborators receive duplicate data if content was rearranged or renamed.
 </br>
 
 **Question:**   **What happens to external sharing links?**</br>

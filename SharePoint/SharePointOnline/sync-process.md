@@ -1,10 +1,10 @@
 ---
-ms.date: 03/22/2019
+ms.date: 03/05/2024
 title: "How sync works"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -43,28 +43,27 @@ Here's how it works:
 - WNS alerts the sync app of the change.
 
 - OneDrive adds it to the Internal Server Changes Queue.
-    - Any metadata changes happen immediately, like renaming or deleting files.
-    - Downloading content also starts a specific session with the client.
+  - Any metadata changes happen immediately, like renaming or deleting files.
+  - Downloading content also starts a specific session with the client.
 
 - Microsoft 365 has metadata pointers directing it through Microsoft Azure.
 
-- The changes are processed in the order they are received.
+- The changes are processed in the order they're received.
 
-The previous OneDrive for Business sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
+The previous OneDrive sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a significant amount of computing power. Using WNS is a significant enhancement.
   
-
 ## Authentication protocols
 
-The authentication protocols depend on which version of SharePoint you are using.
+The authentication protocols depend on which version of SharePoint you're using.
 
- - SharePoint Server 2019 uses NTLM.
- - SharePoint in Microsoft 365 uses FedAuth.
+- SharePoint Server 2019 uses NTLM.
+- SharePoint in Microsoft 365 uses FedAuth.
 
 ## Syncing different file types
 
 OneDrive handles sync differently depending on the type of file.
 
-For Office 2016 and Office 2019 files, OneDrive collaborates directly with the specific apps to ensure data are transferred correctly. If the Office desktop app is running, it will handle the syncing. If it is not running, OneDrive will.
+For Office 2016 and Office 2019 files, OneDrive collaborates directly with the specific apps to ensure data are transferred correctly. If the Office desktop app is running, it handles the syncing. If it isn't running, OneDrive will.
 
 For other types of files and folders, items smaller than 8 MB are sent inline in a single HTTPS request. Anything 8 MB or larger is divided into file chunks and sent separately one at a time through a [Background Intelligent Transfer Service](/windows/desktop/Bits/background-intelligent-transfer-service-portal) (BITS) session. Other changes are batched together into HTTPS requests to the server.
   
@@ -85,5 +84,3 @@ File chunks are stored in multiple containers in Azure, each of which is given a
 ## Related topic
 
 - [SharePoint Authentication in Microsoft 365](/sharepoint/authentication)
-
-

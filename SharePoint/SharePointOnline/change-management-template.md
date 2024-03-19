@@ -2,9 +2,9 @@
 ms.date: 08/21/2020
 title: Add the Workplace transformation site
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -18,10 +18,10 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: Provision and customize the Workplace transformation site
+description: Provision and customize the Workplace transformation site.
 ---
 
-# Overview of the Workplace transformation site 
+# Overview of the Workplace transformation site
 
 Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. 
 <br>
@@ -34,7 +34,7 @@ The Workplace transformation site template is designed help people in your organ
 **The Workplace transformation site template helps organizations:**
 
 - Inspire employees on the new possibilities' your change management project offers
-- Provide employees with the information, resources, and support they will need to successfully adopt new ways of working
+- Provide employees with the information, resources, and support they'll need to successfully adopt new ways of working
 - Ready employees for a successful transition to new processes, tools, and expectations
 
 
@@ -42,7 +42,7 @@ The Workplace transformation site template is designed help people in your organ
 
 - A landing place for people in your organization to get more information, news, and support
 - Specialized support channels for many audiences like managers, teams, and champions 
-- Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management projects
+- Prepopulated content and web parts that can be customized to fit the needs of your organization and specific change management projects
 - Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
 - Integration with Microsoft 365 lists that let you customize and manage the change management journey 
 - Examples of micro-learning content that can be adapted to your change project
@@ -50,7 +50,7 @@ The Workplace transformation site template is designed help people in your organ
  
 
 ### How to use the Workplace transformation site template
-The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
+The Workplace transformation site can be used to drive any article or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
 
 **Examples of the types of change projects that could benefit from the workplace transformation template:**
 <br>
@@ -81,29 +81,29 @@ The Workplace transformation site can be used to drive any topic or scope of org
 **4. Use and consult –** Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) to help your organization manage tasks and knowledge checks associated with training and change management objectives.
 <br>
 
-**5. Sustain –** Help users practice and sustain new skillsets and habits by using micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories.
+**5. Sustain –** Help users practice and sustain new skill set and habits by using micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories.
 
 
 
-### Pre-populated content focuses on the hybrid workplace
-The workplace transformation site features pre-populated content that revolves around helping organizations transition to a hybrid workplace. The hybrid workplace is one that is flexible when and where people do their work. Many organizations plan to allow employees to work from home up to 50% of the time, which means the organization will need to adopt new ways of working to ensure wellbeing and productivity.
+### Prepopulated content focuses on the hybrid workplace
+The workplace transformation site features prepopulated content that revolves around helping organizations transition to a hybrid workplace. The hybrid workplace is one that is flexible when and where people do their work. Many organizations plan to allow employees to work from home up to 50% of the time, which means the organization needs to adopt new ways of working to ensure wellbeing and productivity.
 <br>
 
 Learn more about the [future of work](https://www.microsoft.com/research/theme/future-of-work/) and [what we have learned about remote work so far](https://www.microsoft.com/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/).
 
 
 ## Overview of the site contents
-The workplace transformation site is full of pre-populated content, web parts, news templates, and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize pre-populated content before sharing broadly with end users.
+The workplace transformation site is full of prepopulated content, web parts, news templates, and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize prepopulated content before sharing broadly with end users.
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
  
-- **Home page –** Help employees easily understand "what's in it for me?" right away by providing a landing place for employees to learn more right away about why the change is happening and how it will impact their day-to-day work. 
+- **Home page –** Help employees easily understand "what's in it for me?" right away by providing a landing place for employees to learn more right away about why the change is happening and how it impacts their day-to-day work. 
 <br>
 
 - **Hybrid work –** Explain in more detail what is changing and what success will look like when change is adopted and sustained.
 <br>
 
-- **Get started –** Give employees a jumping-off place to dive into messages form leadership, view the change management checklist, and RSVP to an upcoming event.
+- **Get started –** Give employees a jumping-off place to dive into messages from leadership, view the change management checklist, and RSVP to an upcoming event.
 <br>
 
 - **Community –** Help recognize and celebrate success within the organization and give employees and opportunity to connect in a change management Viva Engage community.
@@ -115,7 +115,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 - **Quick tips –** Create micro-learning opportunities to help employees adopt and sustain new skills.
 <br>
 
-- **A message from our CEO –** Unite the organization around a central change by sharing a recording or written message form leadership endorsing the change project.
+- **A message from our CEO –** Unite the organization around a central change by sharing a recording or written message from leadership endorsing the change project.
 <br>
 
 - **Champions program –** Recruit subject matter experts into your champions program.
@@ -127,8 +127,8 @@ The workplace transformation site is full of pre-populated content, web parts, n
 - **Get help –** Make sure employees know where to go for support and have more than one option for getting 1:1 help or learning from others. 
 
 
-### Considerations for M365 Learning Pathways
-[Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
+### Considerations for Microsoft 365 Learning Pathways
+[Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the Microsoft 365 Learning pathways web part right onto SharePoint pages. Consider using the Microsoft 365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
 
 Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to customize learning pathways and playlists](/office365/customlearning/custom_overview). 
 
@@ -142,17 +142,17 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 
 1. Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the workplace transformation site template. Select **Add to your tenant**.
 2. Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
-3. Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
+3. Select **Provision**, and in less than 15 minutes you'll receive an email confirmation with a link to your new site.
 <br> 
 Learn more about [provisioning site templates from the look book](./add-sample-site.md). 
 
 
 ### Share the site with site owners and members to customize
-Once the site has been provisioned and you are ready to customize. If other people from your organization will be making site customizations, make sure you [share the site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20Site%20in%20SharePoint%201%20Communication%20sites.,external%20users%22%20to%20share%20the%20...%20See%20More.) add them as site owners and site members to ensure they have access and the right permissions to make edits to site content, theme, navigation, [settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42), and permissions. 
+Once the site has been provisioned and you're ready to customize. If other people from your organization are making site customizations, make sure you [share the site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20Site%20in%20SharePoint%201%20Communication%20sites.,external%20users%22%20to%20share%20the%20...%20See%20More.) add them as site owners and site members to ensure they have access and the right permissions to make edits to site content, theme, navigation, [settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42), and permissions. 
 
 
 ## Step 2: Customize the Workplace transformation site
-Customize the workplace transformation site to fit the needs of your organization's change management project. Customize the theme, logo, navigation, web parts, and pre-populated content.
+Customize the workplace transformation site to fit the needs of your organization's change management project. Customize the theme, logo, navigation, web parts, and prepopulated content.
 
 > [!NOTE]
 > You need site member (or higher) permissions to the Workplace transformation site template in order to make customizations. 
@@ -163,12 +163,12 @@ Customize the workplace transformation site to fit the needs of your organizatio
 2. **Sign in** with your username and password.
 3. Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
 
-### Review pre-populated content
-The workplace transformation site is full of pre-populated content, web parts, news templates, and a Microsoft list. Carefully review and customize pre-populated content before sharing broadly with end users. 
+### Review prepopulated content
+The workplace transformation site is full of prepopulated content, web parts, news templates, and a Microsoft list. Carefully review and customize prepopulated content before sharing broadly with end users. 
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
 
-The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](#pre-populated-content-focuses-on-the-hybrid-workplace). 
+The workplace transformation site features prepopulated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](#prepopulated-content-focuses-on-the-hybrid-workplace). 
 
 ### Customize web parts and content
 Learn how to customize web parts and content that will appear on certain pages or throughout the site.
@@ -185,7 +185,7 @@ Learn how to customize web parts and content that will appear on certain pages o
 
    ![Image of the news web part](media/hybrid-news.png)
 
-**News and news post templates -** Use pre-populated news templates to create news posts in the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#:~:text=%20Use%20the%20News%20web%20part%20on%20a,but%20there%20may%20be%20one%20or...%20More) on the **Community page**. Find the templates by navigating to **Setting > Site Content > Site pages > Templates**.
+**News and news post templates -** Use prepopulated news templates to create news posts in the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#:~:text=%20Use%20the%20News%20web%20part%20on%20a,but%20there%20may%20be%20one%20or...%20More) on the **Community page**. Find the templates by navigating to **Setting > Site Content > Site pages > Templates**.
 <br> 
 
    ![Image of the Viva Engage web part](media/hyrbid-yammer.png)
@@ -207,7 +207,7 @@ Learn how to customize web parts and content that will appear on certain pages o
 
    ![Image of the button web part on the Community page](media/hybrid-news-templates.png)
 
-Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a#:~:text=%20Add%20the%20Button%20web%20part%20%201,pane%20on%20the%20right,%20enter%20your...%20More) on bottom of the **Community** page to give users an opportunity to engage and acknowledge others. Connect the Button web part to a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where users can submit nominations. Then, use the pre-populated news post templates in **Settings > Site contents** to publish news. 
+Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a#:~:text=%20Add%20the%20Button%20web%20part%20%201,pane%20on%20the%20right,%20enter%20your...%20More) on bottom of the **Community** page to give users an opportunity to engage and acknowledge others. Connect the Button web part to a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where users can submit nominations. Then, use the prepopulated news post templates in **Settings > Site contents** to publish news. 
 <br>
 
 #### Edit the change management checklist
@@ -219,10 +219,10 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 2. Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
 3. Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
 
-[Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
+[Learn more about Microsoft 365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
 #### Use Microsoft 365 learning pathways to embed training content on a page
-If your tenant admin has set up [M365 Learning pathways](/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](/office365/customlearning/custom_measureimpact) to measure content impact.
+If your tenant admin has set up [Microsoft 365 Learning pathways](/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](/office365/customlearning/custom_measureimpact) to measure content impact.
 <br>
 
 #### Use tools to help target content to specific audiences or protect content from specific audiences
@@ -239,7 +239,7 @@ Site navigation is important because it helps users immediately understand what 
 
 ## Step 3: Share the Workplace transformation site with end users
 
-Once the site has been customized and republished, it is ready to share with end users.
+Once the site has been customized and republished, it's ready to share with end users.
 
 1. Select **Share site** from the right-hand corner.
 2. In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.

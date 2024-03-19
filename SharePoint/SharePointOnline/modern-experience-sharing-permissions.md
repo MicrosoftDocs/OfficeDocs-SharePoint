@@ -4,7 +4,7 @@ title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- essentials-security
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -113,11 +114,13 @@ To set up guest sharing for a site, see [Collaborate with guests in a site](/mic
 
 If you have confidential information that should never be shared externally, we recommend storing the information in a site that has external sharing turned off. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
 
-## SharePoint and OneDrive integration with Azure AD B2B 
+<a name='sharepoint-and-onedrive-integration-with-azure-ad-b2b'></a>
 
-Azure AD B2B collaboration provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
+## SharePoint and OneDrive integration with Microsoft Entra B2B 
 
-With [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), the Azure B2B collaboration one-time passcode feature is used for external sharing of files, folders, list items, document libraries, and sites. (Shared channels in Teams don't use Azure B2B collaboration, but rather [Azure B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview).)
+Microsoft Entra B2B collaboration provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
+
+With [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md), the Azure B2B collaboration one-time passcode feature is used for external sharing of files, folders, list items, document libraries, and sites. (Shared channels in Teams don't use Azure B2B collaboration, but rather [Azure B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview).)
 
 ## Related topics
 
@@ -134,4 +137,3 @@ With [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b
 [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings)
-

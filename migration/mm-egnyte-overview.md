@@ -2,15 +2,14 @@
 ms.date: 08/11/2023
 title: "Overview: Migrate Egnyte using Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Overview of how to migrate your Egnyte content using Migration Manager."

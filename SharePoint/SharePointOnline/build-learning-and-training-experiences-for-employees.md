@@ -2,9 +2,9 @@
 ms.date: 09/23/2021
 title: Build Learning and Training Experiences for Employees
 ms.reviewer:
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -128,7 +128,7 @@ Record each session so employees can review the learning material later, or so f
 
 Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Viva Engage. Viva Engage is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Viva Engage allows you to set up a community specifically for employees within the same or similar disciplines.
 
-Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](/viva/engage/get-started-with-viva-engage/new-viva-engage-faq).
+Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](https://support.microsoft.com/topic/communities-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4).
 
 ### Make sure all tools and experiences are accessible
 

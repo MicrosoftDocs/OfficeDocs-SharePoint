@@ -1,10 +1,10 @@
 ---
-ms.date: 06/12/2020
+ms.date: 03/05/2024
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,7 +22,7 @@ search.appverid:
 - MED150
 - MBS150
 - ODB150
-description: "In this article, you'll learn how to configure the Microsoft OneDrive sync app by using administrative templates in Microsoft Intune."
+description: "In this article, you learn how to configure the Microsoft OneDrive sync app by using administrative templates in Microsoft Intune."
 ---
 
 # Use administrative templates in Intune

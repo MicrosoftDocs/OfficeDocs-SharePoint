@@ -1,17 +1,17 @@
 ---
 ms.date: 03/31/2021
 title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11"
-ms.reviewer: aharmetz
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.reviewer: 
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150

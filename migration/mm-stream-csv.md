@@ -2,27 +2,27 @@
 ms.date: 09/24/2021
 title: "Bulk upload Stream source paths into Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How to format a CSV or JSON file to bulk upload Stream source paths into Migration Manager."
 ---
 
 # Bulk upload Stream source paths into Migration Manager using a CSV file 
 
-Migration Manager lets you bulk upload your Stream source paths using a comma-separated (CSV) file. Use any text editor, or an application like Excel, to create the CSV file.  JSON files are not supported.
+Migration Manager lets you bulk upload your Stream source paths using a comma-separated (CSV) file. Use any text editor, or an application like Excel, to create the CSV file.  JSON files aren't supported.
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ Migration Manager lets you bulk upload your Stream source paths using a comma-se
 
 - [Container ID]|[Container type]
 
-For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, or ‘StreamOnlyGroup’. 
+For container type, use **User**, **M365Group**, **CompanywideChannel**, or **StreamOnlyGroup**. 
 
 >[!Tip]
 >To discover your Container ID: Go to Stream classic and copy the unique identifier that appears after the word */group/* or */channel/*
@@ -60,5 +60,5 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 
 :::image type="content" source="media/mm-stream-upload-csv.png" alt-text="stream upload":::
 
-4. View your added files in the **Scans** tab. Continue to the next step, "Add to Migrations".
+4. View your added files in the **Scans** tab. Continue to the next step, **Add to Migrations**.
 

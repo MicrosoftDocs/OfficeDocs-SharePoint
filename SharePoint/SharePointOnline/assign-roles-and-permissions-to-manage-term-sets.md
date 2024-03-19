@@ -1,10 +1,10 @@
 ---
 ms.date: 07/11/2018
 title: "Assign roles and permissions to manage term sets"
-ms.reviewer: vrchowdh
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: shrganguly
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: End User
 f1.keywords: NOCSH

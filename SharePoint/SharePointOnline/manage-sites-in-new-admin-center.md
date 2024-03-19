@@ -2,9 +2,9 @@
 ms.date: 03/21/2023
 title: "Manage sites in the SharePoint admin center"
 ms.reviewer: daminasy
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365initiative-spsitemanagement
+- essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

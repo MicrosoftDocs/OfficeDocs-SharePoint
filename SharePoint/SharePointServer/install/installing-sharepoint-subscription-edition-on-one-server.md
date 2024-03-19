@@ -1,8 +1,8 @@
 ---
 title: "Installing SharePoint Server Subscription Edition on one server"
 ms.reviewer: 
-ms.author: v-nsatapathy
-author: nimishasatapathy
+ms.author: serdars
+author: alekyaj
 manager: serdars
 ms.date: 06/23/2021
 audience: ITPro
@@ -183,7 +183,7 @@ Use the following procedure to install and configure the configuration database 
 
     If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Server Subscription Edition are installed, in the`%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS` folder.
 
-    If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
+    If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configure-browser-settings).
 
 ### Configure browser settings
 <a name="configurebrowser"> </a>

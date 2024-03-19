@@ -1,10 +1,10 @@
 ---
 ms.date: 01/07/2019
-title: "Remove users from SharePoint"
-ms.reviewer: waynewin
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+title: Troubleshoot user profile removal issues in SharePoint
+ms.reviewer: jmcdowe
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -24,16 +24,16 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you'll learn how to remove users from SharePoint in different scenarios."
+description: "In this article, you learn how to troubleshoot user profile removal issues in SharePoint."
 ---
 
-# How to remove users from SharePoint
+# Troubleshoot user profile removal issues in SharePoint
 
 This article describes how to remove users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
 
 - **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint.**
  
-    When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information is not removed. Their profile still appears, which may cause confusion when people view the people picker.
+    When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information isn't removed. Their profile still appears, which may cause confusion when people view the people picker.
 
 - **Scenario 2: Site User ID Mismatch.**
  
@@ -59,7 +59,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 3. Select **Delete a user**.
 
-4. Select the user, click **Select**, and then click **Delete**.
+4. Select the user, select **Select**, and then select **Delete**.
  
 ## Delete a guest by using the SharePoint Online Management Shell
 
@@ -92,14 +92,14 @@ The preceding steps removed access to Microsoft 365 and SharePoint. However, the
 
 ### Browsing site by site in SharePoint 
 
-You'll have to browse to each site collection that the user or guest visited, and then follow these steps:
+You have to browse to each site collection that the user or guest visited, and then follow these steps:
  
 > [!NOTE]
 > This option is available only if the user previously browsed to the site collection. They won't be listed if they were granted access but never visited the site. 
 
 1. Browse to the site and edit the URL by adding the following string to the end of it: **/_layouts/15/people.aspx?MembershipGroupId=0**
  
-     For example, the full URL will resemble the following: **`https://fabrikam.sharepoint.com/_layouts/15/people.aspx?membershipGroupId=0`**
+     For example, the full URL resembles the following: **`https://fabrikam.sharepoint.com/_layouts/15/people.aspx?membershipGroupId=0`.**
 
 2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  
@@ -119,7 +119,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 ## Clear browser history
 
-SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
+SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Microsoft Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
 

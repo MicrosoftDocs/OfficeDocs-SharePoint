@@ -2,9 +2,9 @@
 ms.date: 07/18/2019
 title: "Modernize your root site"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
