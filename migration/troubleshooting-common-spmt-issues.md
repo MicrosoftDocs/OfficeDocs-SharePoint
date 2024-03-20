@@ -106,6 +106,7 @@ This article describes common issues and errors you may encounter when using the
 |0x0131000D|Could not get all list item versions; tool sends request to fetch item versions, but nothing is returned. This error can occur when the download link is different between the common file and .aspx file. This case is fixed in 4.x version.|
 |0x0131000F|Failed to Read the file. File is checked out.|
 |0x0111000A|Scan File Failure: File size exceeds limit. See [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md) for current limits.|
+|0x01410001|While processing, SPMT was unable to open a file. Review your FailureSummaryReport.csv to identify which data source you can't access. Check your network status, and also try to access the data source directly through Windows Explorer or other tools. Try again.|
 
 
 ## Navigation errors
