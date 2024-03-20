@@ -1,8 +1,8 @@
 ---
 ms.date: 08/06/2021
 title: "Distribute corporate news to your organization"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

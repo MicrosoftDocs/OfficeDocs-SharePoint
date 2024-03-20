@@ -2,8 +2,8 @@
 ms.date: 01/27/2020
 title: "SharePoint governance overview"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

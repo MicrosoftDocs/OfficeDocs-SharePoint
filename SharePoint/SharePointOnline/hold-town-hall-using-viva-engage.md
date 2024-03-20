@@ -2,8 +2,8 @@
 ms.date: 08/21/2020
 title: Hold a town hall in Viva Engage and keep the conversation going
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

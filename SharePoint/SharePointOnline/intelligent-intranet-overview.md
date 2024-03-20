@@ -1,8 +1,8 @@
 ---
 ms.date: 09/07/2021
 title: Intelligent intranet overview
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
