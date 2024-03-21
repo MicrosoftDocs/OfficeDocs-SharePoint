@@ -2,8 +2,8 @@
 ms.date: 01/16/2020
 title: Automatic modernization of classic home pages
 ms.reviewer: metorres
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
