@@ -89,7 +89,7 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 - Develop the schedule and time limits for the town hall.
 - Assign roles to moderators and brief them on key tasks. If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions.
-- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-viva-engage-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-viva-engage-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412).
+- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-viva-engage-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff), and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-viva-engage-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412).
 
 
 ### E. Use Viva Engage to host your town hall event
@@ -130,8 +130,8 @@ The Viva Connections home page features the Feed and Dashboard web parts that ca
 
 ## Produce and host a town hall
 
-Depending on the kind of event, live events can be run by one person, or as a team. Some of these roles may be played by the same person. A practice run with everyone for the live event will help make everyone feel confident and prepared during the event. Testing equipment, screensharing, and practicing the flow of multiple presenters or hand-offs is important to walk through prior to the event to 
-ensure smooth transitions. A run through with the latest content, notes or demo environments is key to make sure everyone is on the same page.
+Depending on the kind of event, live events can be run by one person, or as a team. Some of these roles may be played by the same person. A practice run with everyone for the live event will help make everyone feel confident and prepared during the event. Testing equipment, screen sharing, and practicing the flow of multiple presenters or hand-offs is important to walk through prior to the event to 
+ensure smooth transitions. A run-through with the latest content, notes or demo environments is key to make sure everyone is on the same page.
 
 |Role|Description|Role details |
 |:---:|:---|:---|
