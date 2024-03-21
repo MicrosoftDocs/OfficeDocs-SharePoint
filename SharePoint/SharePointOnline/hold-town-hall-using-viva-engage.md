@@ -126,7 +126,7 @@ Include objectives or talking points in the invite. This will help attendees pre
 
 Viva Connections is an app in Microsoft Teams and is built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences that centralize important information, tools, and resources on both desktop and mobile devices.
 
-The Viva Connections home page features the Feed and Dashboard web parts that can be used to promote your event. Learn more about [Viva Connections](/microsoft-viva/connections). Use SharePoint news posts and [video news links](/viva/connections/video-news-links) to promote the event and to share the event recording after the event. Then, event content will display prominently in the [Viva Connections Feed](/viva/connections/viva-connections-overview#viva-connections-feed).
+The Viva Connections home page features the Feed and Dashboard web parts that can be used to promote your event. Learn more about [Viva Connections](/viva/connections/viva-connections-overview). Use SharePoint news posts and [video news links](/viva/connections/video-news-links) to promote the event and to share the event recording after the event. Then, event content will display prominently in the [Viva Connections Feed](/viva/connections/viva-connections-overview#viva-connections-feed).
 
 ## Produce and host a town hall
 
@@ -145,7 +145,7 @@ ensure smooth transitions. A run through with the latest content, notes or demo 
 #### Step 1: Get set up in Viva Engage
 
 Creating and producing live events in Viva Engage requires Microsoft Stream and/ or Teams licenses and specific permissions. Viva Engage administrators can schedule live meetings in Viva Engage.
-For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events).
+For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Viva Engage](/viva/engage/organize-live-event).
 
 #### Step 2: Test equipment
 

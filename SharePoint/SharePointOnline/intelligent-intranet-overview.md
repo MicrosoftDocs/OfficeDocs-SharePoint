@@ -34,13 +34,13 @@ Keep employees informed and engaged by providing a shared place to securely view
 ![Intelligent intranet overview](media/intelligent_intranet_overview1.png)
  
 ### Build an intelligent intranet
-Learn how to move through the [process of creating an intranet](https://aka.ms/IntelligentIntranet) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://aka.ms/Implement-Intranet) quickly. Then, learn how to [engage with viewers](https://aka.ms/Engage-Intranet) and maintain your intranet over time as the organization changes and scales. 
+Learn how to move through the [process of creating an intranet](https://aka.ms/IntelligentIntranet) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://www.bing.com/ck/a?!&&p=a1804b93b80a14fdJmltdHM9MTcxMDg5MjgwMCZpZ3VpZD0zZTA2NDcwMC1kYzdiLTYyZGMtMWE2Ni01NjM2ZGQ1NzYzYzUmaW5zaWQ9NTI1MQ&ptn=3&ver=2&hsh=3&fclid=3e064700-dc7b-62dc-1a66-5636dd5763c5&psq=microsoft+intranet+lifecycle&u=a1aHR0cHM6Ly9kb3dubG9hZC5taWNyb3NvZnQuY29tL2Rvd25sb2FkL2QvZS8yL2RlMmMzMjRjLWVkZjMtNGZlMC1iYmJkLWY5OGM5MThkY2Y2YS9JbnRyYW5ldCUyMGxpZmVjeWNsZS5wZGY&ntb=1). Learn how to align goals into priority scenarios that you can [get started implementing](https://aka.ms/Implement-Intranet) quickly. Then, learn how to [engage with viewers](https://aka.ms/Engage-Intranet) and maintain your intranet over time as the organization changes and scales. 
 
 ### Help your organization engage and inform
 
 Use SharePoint and other Microsoft 365 products to create communication channels that serve specific audiences. Learn how to [create and share organizational news](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) and [use the News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) into key landing pages and portals.
 
-Integrate [Viva Engage](https://support.microsoft.com/office/what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5) and the [Viva Engage web parts](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) to embed conversations and highlights in sites. Use the power of video to [share pre-recorded messages](/stream/portal-upload-video) and [record organizational events](/stream/live-event-overview) for later viewing. Use content services like [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure key audience are targeted specific content. 
+Integrate [Viva Engage](https://support.microsoft.com/viva-engage) and the [Viva Engage web parts](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) to embed conversations and highlights in sites. Use the power of video to [share pre-recorded messages](/stream/portal-upload-video) and [record organizational events](/stream/live-event-overview) for later viewing. Use content services like [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure key audience are targeted specific content. 
 
 ### Enhance collaboration and sharing
 
@@ -78,7 +78,7 @@ Learn more about [how to think about your intelligent intranet](./trad-vs-modern
 - Establish a [governance plan](./intranet-governance.md)
 - Plan [intranet hubs](./planning-hub-sites.md) and [branding](./branding-sharepoint-online-sites-modern-experience.md)
 
-Get familiar with the [intranet lifecycle](https://download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet lifecycle.pdf) and basic SharePoint intranet and [site building blocks](https://download.microsoft.com/download/f/7/0/f70e5c6d-5618-457f-b642-3a4173daff21/Building blocks - sites and pages.pdf).
+Get familiar with the [intranet lifecycle](https://www.bing.com/ck/a?!&&p=a1804b93b80a14fdJmltdHM9MTcxMDg5MjgwMCZpZ3VpZD0zZTA2NDcwMC1kYzdiLTYyZGMtMWE2Ni01NjM2ZGQ1NzYzYzUmaW5zaWQ9NTI1MQ&ptn=3&ver=2&hsh=3&fclid=3e064700-dc7b-62dc-1a66-5636dd5763c5&psq=microsoft+intranet+lifecycle&u=a1aHR0cHM6Ly9kb3dubG9hZC5taWNyb3NvZnQuY29tL2Rvd25sb2FkL2QvZS8yL2RlMmMzMjRjLWVkZjMtNGZlMC1iYmJkLWY5OGM5MThkY2Y2YS9JbnRyYW5ldCUyMGxpZmVjeWNsZS5wZGY&ntb=1) and [site building blocks](/sharepoint/plan-intranet#choose-solution-components).
 
 ### 3 - Implement plans and start building
 
