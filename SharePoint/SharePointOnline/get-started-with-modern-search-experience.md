@@ -2,8 +2,8 @@
 ms.date: 09/20/2018
 title: Get started with the modern search experience
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
