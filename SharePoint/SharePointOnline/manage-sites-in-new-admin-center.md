@@ -1,5 +1,5 @@
 ---
-ms.date: 03/21/2023    
+ms.date: 03/21/2024    
 title: "Manage sites in the SharePoint admin center"
 ms.reviewer: daminasy
 ms.author: ruihu
@@ -24,7 +24,7 @@ search.appverid:
 - MET150
 - BSA160
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
-description: "In this article, you'll learn about tasks you can perform on the Active sites page of the SharePoint admin center."
+description: "In this article, you learn about tasks you can perform on the Active sites page of the SharePoint admin center, such as view site details, view and change site membership, and change a site's hub association."
 ---
 
 # Manage sites in the SharePoint admin center
