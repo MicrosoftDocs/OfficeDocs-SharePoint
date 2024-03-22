@@ -18,6 +18,7 @@ ms.custom:
   - admindeeplinkSPO
   - onedrive-toc
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid:
 - ODB160
 - ODB150
@@ -167,6 +168,8 @@ As an admin in Microsoft 365, you can share with people outside the organization
 ### Use PowerShell to bulk create guest accounts and add them to a SharePoint group
 
 If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma-separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
+
+[!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
 
 As users are added to the Microsoft Entra group, they should receive an email welcoming them to the group. After running the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
 
