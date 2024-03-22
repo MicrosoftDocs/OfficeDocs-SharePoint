@@ -1,8 +1,8 @@
 ---
 title: "Enable content on a site to be searchable"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 6/29/2018

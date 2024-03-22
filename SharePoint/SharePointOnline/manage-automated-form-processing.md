@@ -2,8 +2,8 @@
 ms.date: 04/19/2020
 title: "Manage automated document processing"
 ms.reviewer: ssquires
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

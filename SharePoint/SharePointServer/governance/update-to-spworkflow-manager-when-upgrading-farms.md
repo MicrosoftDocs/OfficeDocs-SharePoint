@@ -1,8 +1,8 @@
 ---
 title: "Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: serdars
 ms.date: 05/17/2023
 audience: ITPro

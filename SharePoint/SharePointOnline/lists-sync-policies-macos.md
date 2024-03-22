@@ -1,8 +1,8 @@
 ---
 ms.date: 03/03/2023
 title: "Configure lists sync on Mac"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 audience: Admin
 f1.keywords:

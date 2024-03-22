@@ -2,8 +2,8 @@
 ms.date: 01/14/2020
 title: "Intelligent intranet roles and tasks"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

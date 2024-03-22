@@ -1,8 +1,8 @@
 ---
 ms.date: 09/10/2020
 title: "Lock and unlock sites"
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
