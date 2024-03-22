@@ -31,7 +31,7 @@ description: "In this article, you learn about tasks you can perform on the Acti
 
 The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, channel sites, and sites that belong to Microsoft 365 groups. It also lets you [sort and filter sites](customize-admin-center-site-list.md), search for a site, and create new sites. The Active sites page lists the root website for each site collection.
   
-![Active sites page](media/sharepoint-admin-center-active-site.png)
+![Screenshot of Active sites page](media/sharepoint-admin-center-active-site.png)
 
 > [!NOTE]
 > Subsites and the following sites aren't included:
@@ -102,7 +102,7 @@ For all site types except channel sites, you can add or remove site admins and c
 
 For more info about a site, select the site name or click anywhere on the site row except on the URL column to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
-![The General tab of the details panel](media/site-details.png)
+![Screenshot of the General tab of the details panel](media/site-details.png)
   
 To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
