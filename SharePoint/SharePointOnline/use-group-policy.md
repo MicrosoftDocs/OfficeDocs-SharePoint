@@ -89,6 +89,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
+- (DisableFREAnimation) [Disable animation that appears during OneDrive Setup](use-group-policy.md#disable-animation-that-appears-during-onedrive-setup)
+
 - (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
 
 - (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web).
@@ -328,9 +330,15 @@ If you disable or don't configure this setting, the reminder will appear until u
 Enabling this policy sets the following registry key value to 1:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog =dword:00000001`
 
-### Hide the messages to sync Consumer OneDrive files
+### Disable animation that appears during OneDrive Setup
 
-<a name="syncconsumeronedrive"> </a>
+This setting lets you prevent the animation from showing during OneDrive Setup.
+
+Enabling this policy sets the following registry key value to 1:
+
+`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFREAnimation =dword:00000001`
+
+### Hide the messages to sync Consumer OneDrive files
 
 This setting determines whether a user will be prompted to sync their Consumer files using a detected known Microsoft Account (MSA).
 
@@ -422,8 +430,6 @@ Re-enable offline mode in OneDrive on the web for libraries and folders that are
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineModeForExternalLibraries"="dword:0"`
 
 ### Prevent users from fetching files remotely
-
-<a name="RemoteAccessGPOEnabled"> </a>
 
 > [!NOTE]
 > This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature was deprecated on July 31, 2020.
