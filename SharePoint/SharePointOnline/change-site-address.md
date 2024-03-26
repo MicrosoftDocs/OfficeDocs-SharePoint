@@ -101,13 +101,13 @@ Before you change the address of a site, it's important to communicate the chang
 3. Run the following command to verify that the site address can be changed:
 
     ```PowerShell
-    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl> -ValidationOnly
+    Start-SPOSiteRename -Identity https://contoso.sharepoint.com/sites/project-x -NewSiteUrl https://contoso.sharepoint.com/sites/project-y -ValidationOnly
     ```
 
 4. Run the following command to change the site address:
 
    ```PowerShell
-   Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
+   Start-SPOSiteRename -Identity https://contoso.sharepoint.com/sites/project-x -NewSiteUrl https://contoso.sharepoint.com/sites/project-y
    ```
 
    For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps&preserve-view=true).
@@ -189,8 +189,8 @@ When the site address change is complete, users are able to access their SharePo
 If you need to change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you later want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
 For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-x* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y* and want to revert back, the steps to follow are:
-1. Delete the redirect from *project-x* to *project-y* by using the Remove-SPOSite cmdlet on the *project-x* address.
+1. Delete the redirect from *project-x* to *project-y* by using the [Remove-SPOSite cmdlet](/powershell/module/sharepoint-online/remove-sposite?view=sharepoint-ps) on the *project-x* address.
 2. Initiate a new site address change from *project-y* to *project-x*.
-3. Delete the redirect from *project-y* to *project-x* by using the Remove-SPOSite cmdlet on the *project-y* address.
+3. Delete the redirect from *project-y* to *project-x* by using the [Remove-SPOSite cmdlet](/powershell/module/sharepoint-online/remove-sposite?view=sharepoint-ps) on the *project-y* address.
 
 After following these steps, you should be back to the original state before the site address change.
