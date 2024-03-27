@@ -192,9 +192,9 @@ You can also use data loss prevention to restrict *Anyone* link access to files 
 
 ***People in your organization* links**
 
-*People in your organization* links are a great way to share information within your organization. *People in your organization* links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link when clicked, gives them access to the particular file or folder and can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites – such as design, marketing, and support groups.
+*People in your organization* links are a great way to share information within your organization. *People in your organization* links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link when redeemed, gives access to the particular file or folder and can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites – such as design, marketing, and support groups.
 
-Creating a *People in your organization* link does not cause the file or folder to show up in search, Copilot, or give everyone in the organization direct access to the file or folder. The action of creating the link doesn't give the entire organization access, users must be given the link and then click it in order to access the file or folder. The link does not work for guests or other people outside your organization.
+Creating a *People in your organization* link does not cause the file or folder to show up in search, Copilot, or give everyone in the organization direct access to the file or folder. The action of creating the link doesn't give the entire organization access to the content. Users must have the link and the link must be redeemed in order to access the file or folder. Links can be redeemed by a user clicking them or in certain cases are redeemed on behalf of the user automatically via email, chat, or other experiences used to send the link to another person. The link does not work for guests or other people outside your organization.
 
 ***Specific people* links**
 
