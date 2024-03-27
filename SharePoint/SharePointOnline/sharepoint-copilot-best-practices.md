@@ -60,7 +60,7 @@ You can then lock down permissions on these sites via the Restricted Access Cont
 A SharePoint admin can run reports in the SharePoint Admin Center to discover broad sharing activity happening over the last month. [SharePoint Advanced Management’s](/sharepoint/advanced-management) new [data access governance reports](/sharepoint/data-access-governance-reports) can help here.  A SharePoint admin can run reports on:
 
 - Usage of "Everyone Except External Users" in the last 28 days
-- Usage of broad org-wide ["People in <your organization" sharing links](/sharepoint/shareable-links-anyone-specific-people-organization) in the last 28 days
+- Usage of broad org-wide ["People in your organization" sharing links](/sharepoint/shareable-links-anyone-specific-people-organization) in the last 28 days
 - Usage of "Anyone" sharing links in the last 28 days
 
 These reports can be downloaded as CSV files. You can also build your own report by using [Microsoft Graph Data Connect for SharePoint](/graph/data-connect-datasets#onedrive-and-sharepoint-online).  
