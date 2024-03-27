@@ -35,7 +35,7 @@ Moving to Microsoft 365? **Migration Manager** helps you migrate your content ea
 >[!Note]
 >This feature is currently in public preview, with full availability by June 2024.
 
-A Microsoft 365 Migration Administrator role is now available to provide access to Migration Manager within the Microsoft 365 Admin Center. Currently, your migration team s must be assigned the SharePoint admin role, giving more access than needed. With this new role, you limit usage to only what is required to migrate your content, reserving SharePoint Admin access to only users who need it.
+A Microsoft 365 Migration Administrator role is now available to provide access to Migration Manager within the Microsoft 365 Admin Center. Currently, your migration teams must be assigned the SharePoint admin role, giving more access than needed. With this new role, you limit usage to only what is required to migrate your content, reserving SharePoint Admin access to only users who need it.
 
 Learn more:  [**Migration Admin role**](mm-migration-admin-role.md)
 
@@ -85,7 +85,7 @@ If you're onboarding your classic on-premises SharePoint Server pages to SharePo
 
 - **Cross-tenant OneDrive migration**. During mergers or divestitures, you commonly need the ability to move your users OneDrive accounts into a new Microsoft 365 tenant. With Cross-tenant OneDrive migration, tenant administrators can use PowerShell to transition users into their new organization. To learn more, see [**Cross-tenant OneDrive migration**](/microsoft-365/enterprise/cross-tenant-onedrive-migration)</br>
 
-- **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.</br>
+- **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud. When you need assistance to help you get started on your migration project.</br>
 
 - **Azure Data Box**. Want to remove the dependency on your WAN link to transfer data?  The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md).</br>
 
