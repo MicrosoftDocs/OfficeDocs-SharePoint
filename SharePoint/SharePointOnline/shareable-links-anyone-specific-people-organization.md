@@ -37,7 +37,7 @@ When users share files and folders in Microsoft 365, a shareable link is created
   
   Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they're prompted to sign in. 
 
-Creating a *People in your organization* link will not make the associated file or folder appear in search results, be accessible via Copilot, or grant access to everyone within the organization. Simply creating this link does not provide organizational-wide access to the content. For individuals to access the file or folder, they must possess the link and it needs to be activated through redemption. A user can redeem the link by clicking on it, or, in some instances, the link may be automatically redeemed when sent to someone via email, chat, or other communication methods. The link does not work for guests or other people outside your organization.
+Creating a *People in your organization* link doesn't make the associated file or folder appear in search results, be accessible via Copilot, or grant access to everyone within the organization. Simply creating this link doesn't provide organizational-wide access to the content. For individuals to access the file or folder, they must possess the link and it needs to be activated through redemption. A user can redeem the link by clicking on it, or in some instances, the link can be automatically redeemed when sent to someone via email, chat, or other communication methods. The link doesn't work for guests or other people outside your organization.
   
 - *Specific people* links only work for the people that users specify when they share the item.  
 
@@ -49,6 +49,6 @@ Creating a *People in your organization* link will not make the associated file 
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
-## Related topics
+## Related articles
 
 [Change the default link type for a site](change-default-sharing-link.md)
