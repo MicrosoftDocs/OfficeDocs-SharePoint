@@ -21,31 +21,6 @@ ms.custom:
 search.appverid: MET150
 description: In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint in Microsoft 365.
 ---
-
----
-ms.date: 08/07/2023
-title: Plan and deploy a file collaboration environment - SharePoint
-ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
-recommendations: true
-audience: Admin
-f1.keywords: NOCSH
-ms.topic: article
-ms.service: sharepoint-online
-ms.localizationpriority: medium
-ms.collection:  
-- Strat_SP_admin
-- M365-collaboration
-- essentials-security
-ms.custom:
-- seo-marvel-apr2020
-- admindeeplinkSPO
-search.appverid: MET150
-description: In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint in Microsoft 365.
----
-
 # Plan and deploy a file collaboration environment - SharePoint
 
 With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 reach beyond the traditional SharePoint site. Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily and where your organization's sensitive content remains secure.
