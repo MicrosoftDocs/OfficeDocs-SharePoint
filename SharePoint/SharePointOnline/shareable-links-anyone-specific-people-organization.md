@@ -43,10 +43,10 @@ When users share files and folders in Microsoft 365, a shareable link is created
 - *Specific people* links only work for the people that users specify when they share the item.  
 
   ![Diagram showing how specific people links only work for the people specified.](media/DMC_SharePointSharingLinks_Specific.png)
+
+  A *specific people* link is a nontransferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link don't work if they're opened by anybody other than the person specified by the sender.  
   
-      A *specific people* link is a nontransferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link don't work if they're opened by anybody other than the person specified by the sender.  
-  
-      *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient needs to authenticate as the user specified in the link. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel.
+  *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient needs to authenticate as the user specified in the link. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel.
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
