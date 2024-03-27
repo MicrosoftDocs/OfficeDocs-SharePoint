@@ -35,7 +35,9 @@ When users share files and folders in Microsoft 365, a shareable link is created
 
   ![Diagram showing how people in my organization links can be passed from user to user inside the company.](media/DMC_SharePointSharingLinks_PeopleInYourOrganization.png)
   
-  Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they're prompted to sign in. Creating a People in your organization link does not cause the file or folder to show up in search, Copilot, or give everyone in the organization direct access to the file or folder. The action of creating the link doesn't give the entire organization access, users must be given the link and then click it in order to access the file or folder. 
+  Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they're prompted to sign in. 
+
+Creating a *People in your organization* link will not make the associated file or folder appear in search results, be accessible via Copilot, or grant access to everyone within the organization. Simply creating this link does not provide organizational-wide access to the content. For individuals to access the file or folder, they must possess the link and it needs to be activated through redemption. A user can redeem the link by clicking on it, or, in some instances, the link may be automatically redeemed when sent to someone via email, chat, or other communication methods. The link does not work for guests or other people outside your organization.
   
 - *Specific people* links only work for the people that users specify when they share the item.  
 
