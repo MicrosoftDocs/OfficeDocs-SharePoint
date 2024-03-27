@@ -25,7 +25,7 @@ Microsoft 365 has a wide range of governance and compliance features to address 
 
 ## Data lifecycle management
 
-Use data lifecycle management capabilities in Microsoft Purview to govern your OneDrive and SharePoint content for compliance or regulatory requirements. The following table describes the capabilities to help you keep the content you need you and delete what you don't need.
+Use data lifecycle management capabilities in Microsoft Purview to govern your OneDrive and SharePoint content for compliance or regulatory requirements. The following table describes the capabilities to help you keep the content you need and delete what you don't need.
 
 |Capability|What problems does it solve?|Get started|
 |:------|:------------|:----------------------------|
