@@ -2,8 +2,8 @@
 ms.date: 06/29/2021
 title: "Use Microsoft 365 to connect leaders and teams"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

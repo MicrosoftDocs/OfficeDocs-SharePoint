@@ -2,8 +2,8 @@
 ms.date: 07/06/2021
 title: "Custom list templates"
 ms.reviewer: hasaladi
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

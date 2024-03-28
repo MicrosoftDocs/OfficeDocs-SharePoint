@@ -2,8 +2,8 @@
 ms.date: 03/28/2024
 title: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
