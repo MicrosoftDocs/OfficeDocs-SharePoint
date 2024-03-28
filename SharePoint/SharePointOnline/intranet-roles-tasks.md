@@ -20,7 +20,7 @@ ms.collection:
 
 # Introduction to roles, tasks, and timelines
 
-When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams aren't very large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
+When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams aren't large but contain the right partners and stakeholder who can make decisions that serve the entire organization.
 
 ## Roles and tasks at-a-glance
 
@@ -68,7 +68,7 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 *Start by* — Developing an understanding about what you need your intranet to accomplish and start organizing content assets to align with key outcome goals. Organize depending on the needs of the business — by region, department, or function — and by the topics that your users care about.
 
-*You'll know you're done when* — Business owners and users confirm they can find and have access to the content that makes their jobs more productive.
+*You know you're done when* — Business owners and users confirm they can find and have access to the content that makes their jobs more productive.
 
 #### Brand your intranet
 
@@ -76,7 +76,7 @@ Branding provides a way to align your intranet with your organizational culture.
 
 *Start by* — Answer, do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own look and feel? Then, collect approved brand assets like brand colors, logos, and images depending on your organization's branding requirements.
 
-*You'll know you're done when* — You've determined the end-to-end look of the intranet from the home page to hubs to individual sites.
+*You know you're done when* — You've determined the end-to-end look of the intranet from the home page to hubs to individual sites.
 
 ## IT pros and admins
 
@@ -84,7 +84,7 @@ IT Pros and admins implement the needed platform integration steps needed by you
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
-- Establish a governance plan that supports business needs as well as your retention, security, and compliance goals.
+- Establish a governance plan that supports business needs and your retention, security, and compliance goals.
 - Make sure all site owners, content authors, and visitors understand how governance applies to their roles.
 - Clean up existing content prior to migration. Only migrate content that is relevant, current, and supports the outcome goals of each site.
 - Enable social connection that encourages communication, engagement, and collaboration.
@@ -98,7 +98,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 *Start by* — Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR, and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
-*You'll know you're done when* — When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business.
+*You know you're done when* — When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business.
 
 #### Migrate content from your existing intranet
 
@@ -108,7 +108,7 @@ Your current business owners and site owners may be best suited to evaluate if c
 
 *Start by* — Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
-*You'll know you're done when* — A curated set of content has been migrated to SharePoint.
+*You know you're done when* — A curated set of content has been migrated to SharePoint.
 
 #### Customize SharePoint to meet your business needs
 
@@ -129,7 +129,7 @@ Depending on their background, the people in your organization may need some hel
 
 *Start by* — Determining your users' needs for training on SharePoint and making these references known.
 
-*You'll know you're done when* — Questions about SharePoint intranet usage on organization social media channels and through the help desk have decreased to a modest level.
+*You know you're done when* — Questions about SharePoint intranet usage on organization social media channels and through the help desk have decreased to a modest level.
 
 ## Business owners and site owners
 
@@ -149,7 +149,7 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up to date, and what's no longer needed and can be deleted or archived.
 
-Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you'll create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
+Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
 
 Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You'll get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
@@ -159,25 +159,25 @@ Video is a great way to communicate to the people in your organization for execu
 
 *Start by* — Understanding the full scope of content that might need to be migrated and then define the criteria used to target content that should be migrated, should be edited and then migrated, and should be retired.
 
-*You'll know you're done when* — You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
+*You know you're done when* — You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
 
 #### Determine your permissions and sharing strategy
 
-SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups.
+SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be more permission and sharing options available like using Microsoft 365 groups.
 
-*Start by* — Determining who needs access, who shouldn't have access, and how you'll grant access requests.
+*Start by* — Determining who needs access, who shouldn't have access, and how you grant access requests.
 
-*You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
+*You know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page, also known as the home site
 
-The [main intranet portal for your organization](home-site-plan.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
+The [main intranet portal for your organization](home-site-plan.md) is a large part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Viva Engage feeds](/viva/engage/viva-engage-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
 *Start by* — Considering the goals from the perspective of your organization's communications team, your executive sponsor, your IT department, and end users. Design the portal home page with simplicity and scalability in mind.
 
-*You'll know you're done when* — You've created a launch plan using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and users.
+*You know you're done when* — You've created a launch plan using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and users.
 
 #### Design your business, or topic-specific intranet site
 
@@ -191,7 +191,7 @@ To align your organization's branding requirements, you can [change the look of 
 
 *Start by* — Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
 
-*You'll know you're done when* — Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
+*You know you're done when* — Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
 
 ## Content authors
 
@@ -221,7 +221,7 @@ Enable users to work on any device. When users keep files on their local device 
 
 *Start by* —  Organizing content into topics, creating pages for each topic. Determine whether the page content should include text, links, list, or libraries. Align the content to the story to ensure that the reader can get the information that they need efficiently by quickly scanning or skimming the page.
 
-*You'll know you're done when* —  You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e), and asking users for feedback.
+*You know you're done when* —  You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e), and asking users for feedback.
 
 #### Build culture and community
 
@@ -229,7 +229,7 @@ Help work groups connect and engage across your organization using Viva Engage. 
 
 *Start by* — Finding news, announcements, and events to amplify on your site.
 
-*You'll know you're done when* — You're regularly promoting news and events that start conversations and engage and connect wide audiences.
+*You know you're done when* — You're regularly promoting news and events that start conversations and engage and connect wide audiences.
 
 ## Up next
 
