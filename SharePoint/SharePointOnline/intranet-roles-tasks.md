@@ -33,7 +33,7 @@ When planning to create, or update, your organization's intranet, there will be 
 
 See what the [intranet lifecycle](https://download.microsoft.com/download/d/e/2/de2c324c-edf3-4fe0-bbbd-f98c918dcf6a/Intranet%20lifecycle.pdf) looks like.
 
-Learn more about basic site [building blocks.](https://download.microsoft.com/download/f/7/0/f70e5c6d-5618-457f-b642-3a4173daff21/Building blocks%20-%20sites%20and%20pages.pdf)
+Learn more about basic site [building blocks.](https://download.microsoft.com/download/f/7/0/f70e5c6d-5618-457f-b642-3a4173daff21/Building%20blocks%20-%20sites%20and%20pages.pdf)
 
 ## Organization intranet owners
 
@@ -173,7 +173,7 @@ SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed
 
 The [main intranet portal for your organization](home-site-plan.md) is a large part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
-The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Viva Engage feeds](/viva/engage/viva-engage-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
+The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Viva Engage feeds](/viva/engage/overview) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
 *Start by* — Considering the goals from the perspective of your organization's communications team, your executive sponsor, your IT department, and end users. Design the portal home page with simplicity and scalability in mind.
 

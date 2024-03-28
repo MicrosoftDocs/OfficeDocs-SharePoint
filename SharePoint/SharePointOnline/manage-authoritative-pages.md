@@ -2,7 +2,7 @@
 ms.date: 07/11/2018
 title: "Manage authoritative pages"
 ms.reviewer: 
-ms.author: jhendr
+ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
