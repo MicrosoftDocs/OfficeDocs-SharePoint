@@ -38,7 +38,7 @@ Following are the configuration steps to make the UPA-backed People Picker work.
 
 > [!NOTE] 
 > For SAML 1.1 trusted identity token issuers, you can add a UPA-backed claim provider when you create the token issuer, or you can assign one later.  
-> For OIDC 1.0 trusted identity token issuers, the token issuer must be created first, then you can assign the claim provider.  See [Add a UPA backed claim provider to an existing SPTrustedIdentityTokenIssuer](#Add-a-UPA-backed-claim-provider-to-an-existing-SPTrustedIdentityTokenIssuer)
+> For OIDC 1.0 trusted identity token issuers, the token issuer must be created first, then you can assign the claim provider.  See [Add a UPA backed claim provider to an existing SPTrustedIdentityTokenIssuer](#add-a-upa-backed-claim-provider-to-an-existing-sptrustedidentitytokenissuer)
 
 ### Create a new SPTrustedIdentityTokenIssuer and assign a UPA backed claim provider at the same time
 
