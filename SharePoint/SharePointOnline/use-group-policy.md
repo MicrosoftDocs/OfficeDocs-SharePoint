@@ -26,7 +26,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "Learn how admins can use OneDrive policies to configure the OneDrive sync app by using Group Policy."
+description: Learn how admins can use OneDrive policies to configure the OneDrive sync app settings by using Group Policy.
 ---
 
 # IT Admins - Use OneDrive policies to control sync settings
