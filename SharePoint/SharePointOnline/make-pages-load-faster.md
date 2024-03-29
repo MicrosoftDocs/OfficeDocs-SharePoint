@@ -86,7 +86,7 @@ The queries in **CSWP 3 and 4** are configured to **show different results to di
   
  **CSWP 3** shows one set of results to people who work in the HR department, and another set of results to people who work in the Sales department. In most cases, you can make the page load faster by using caching in this Web Part. However, if you have many small departments with only a few employees in each department, the number of search results that will be stored in the cache could overload the cache and actually increase the page load time.
   
- **CSWP 4** shows, which documents the logged-in user has worked on recently. You shouldn't use caching in this Web Part. Because the query is tailored to each user, all individual search results are stored in the cache. This overloads the cache and might increase the page load time.
+ **CSWP 4** shows which documents the logged-in user has worked on recently. You shouldn't use caching in this Web Part. Because the query is tailored to each user, all individual search results are stored in the cache. This overloads the cache and might increase the page load time.
   
 ## How does caching make web pages load faster?
 <a name="BKMK_HoCachingWorks"> </a>
