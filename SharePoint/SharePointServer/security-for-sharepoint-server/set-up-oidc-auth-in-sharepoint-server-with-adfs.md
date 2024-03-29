@@ -276,12 +276,12 @@ You can complete this configuration either by:
  New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
   ```
 
-    2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
-    3. Filter the display with the web application that was extended and confirm that you see the following information:
+```
+2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+3. Filter the display with the web application that was extended and confirm that you see the following information:
 
-        :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
-
-## Step 5: Ensure the web application is configured with SSL certificate
+    :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
+```## Step 5: Ensure the web application is configured with SSL certificate
 
 Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. If you have not already done so, perform the following steps to set a certificate:
 
@@ -293,13 +293,13 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
     1. Open the SharePoint PowerShell console.
     2. Run the following script to generate a self-signed certificate and add it to the SharePoint farm:
 
-        ```powershell
-        New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
-        Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
-        ```
+    ```powershell
+    New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
+    Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
+    ```
 
-        > [!IMPORTANT]
-        > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
+    > [!IMPORTANT]
+    > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
 
 - Set the certificate:
 
