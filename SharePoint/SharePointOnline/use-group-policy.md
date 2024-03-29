@@ -26,7 +26,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "Learn how admins can use OneDrive policies to configure the OneDrive sync app by using Group Policy."
+description: Learn how admins can use OneDrive policies to configure the OneDrive sync app settings by using Group Policy.
 ---
 
 # IT Admins - Use OneDrive policies to control sync settings
@@ -44,10 +44,10 @@ This article describes the OneDrive Group Policy objects (GPOs) that administrat
 
 1. Install the OneDrive sync app for Windows. (For information on the builds that are being released, and on the download builds, see [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to `%localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\` (for [per-machine sync app](per-machine-installation.md) browse to `%ProgramFiles(x86)%\Microsoft OneDrive\BuildNumber\adm\` or `%ProgramFiles%\Microsoft OneDrive\BuildNumber\adm\` (depending on the OS architecture)) to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings under the **About** tab).
+1. Browse to `%localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\` (for [per-machine sync app](per-machine-installation.md) browse to `%ProgramFiles(x86)%\Microsoft OneDrive\BuildNumber\adm\` or `%ProgramFiles%\Microsoft OneDrive\BuildNumber\adm\` (depending on the OS architecture)) to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings under the **About** tab).
 
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
-  
+   
 3. Copy the .adml and .admx files.
 
 4. Paste the .admx file in your domain's Central Store, `\\\\*domain*\sysvol\domain\Policies\PolicyDefinitions` (where *domain* is your domain name, such as corp.contoso.com), and the .adml file in the appropriate language subfolder, such as en-us. If the PolicyDefinitions folder doesn't exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/help/3087759), or use your local policy store under `%windir%\policydefinitions`.
@@ -89,6 +89,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
+- (DisableFREAnimation) [Disable animation that appears during OneDrive Setup](use-group-policy.md#disable-animation-that-appears-during-onedrive-setup)
+
 - (DisableNewAccountDetection) [Hide the messages to sync Consumer OneDrive files](use-group-policy.md#hide-the-messages-to-sync-consumer-onedrive-files)
 
 - (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web).
@@ -116,6 +118,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
+
+- (EnableODIgnoreFolderListFromGPO) Exclude specific kinds of folders from being uplodaed
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
@@ -297,6 +301,22 @@ Enabling this policy creates a list of strings under the following path:
 > [!NOTE]
 > This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also, with this setting, users don't see errors for the excluded files. <br> This setting doesn't support upload of Office files that are being excluded. All other file types are supported.
 
+### Exclude specific kinds of folders from being uploaded
+
+This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain folders to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters.
+
+If you enable this setting, the sync app doesn't upload new folders that match the keywords you specified. New files in existing folders that match the keywords won't be uploaded.
+
+No errors appear for the skipped folders, and the folders remain in the local OneDrive folder.
+
+The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
+
+If you disable or do not configure this setting, the sync app uploads all supported folderssetting, all supported files in all synced folders will be uploaded.
+
+Enabling this policy creates a list of strings under the following path:
+
+`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreFolderListFromGPO`
+
 ### Hide the "Deleted files are removed everywhere" reminder
 
 When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the devices of the user and on the web. This setting lets you hide the warning message.
@@ -310,9 +330,15 @@ If you disable or don't configure this setting, the reminder will appear until u
 Enabling this policy sets the following registry key value to 1:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog =dword:00000001`
 
-### Hide the messages to sync Consumer OneDrive files
+### Disable animation that appears during OneDrive Setup
 
-<a name="syncconsumeronedrive"> </a>
+This setting lets you prevent the animation from showing during OneDrive Setup.
+
+Enabling this policy sets the following registry key value to 1:
+
+`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFREAnimation =dword:00000001`
+
+### Hide the messages to sync Consumer OneDrive files
 
 This setting determines whether a user will be prompted to sync their Consumer files using a detected known Microsoft Account (MSA).
 
@@ -331,7 +357,7 @@ Enabling this policy sets the following registry key value to 1:
 This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync app (OneDrive.exe) can use to upload files. Setting this throughput as a percentage lets the sync app respond to both increases and decreases in throughput. The lower the percentage you set, the slower the files get uploaded. We recommend a value of 50% or higher. The sync app periodically uploads without restriction for one minute and then slows down to the upload percentage you set. This pattern lets small files upload quickly while preventing large uploads from dominating the computer's upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive), or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive) to control the network impact of uploading known folder contents.
 
 ![Upload Throughput Calculation](media/limit-upload-rate-percentage-throughput.png)
-  
+
 > [!NOTE]
 > The maximum throughput value detected by the sync app can sometimes be higher or lower than expected because of the different traffic-throttling mechanisms that your Internet Service Provider (ISP) might use. <br>For information about estimating the network bandwidth you need for a sync, see [Network utilization planning for the OneDrive sync app](network-utilization-planning.md).
 
@@ -404,8 +430,6 @@ Re-enable offline mode in OneDrive on the web for libraries and folders that are
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableOfflineModeForExternalLibraries"="dword:0"`
 
 ### Prevent users from fetching files remotely
-
-<a name="RemoteAccessGPOEnabled"> </a>
 
 > [!NOTE]
 > This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature was deprecated on July 31, 2020.
@@ -652,7 +676,7 @@ Enabling this policy sets the following registry key value to a number from 0 th
 Find *User Configuration policies* under User Configuration\Policies\Administrative Templates\OneDrive.
   
 ![OneDrive settings in Group Policy Management Editor](media/8e121823-b5bf-440c-999d-c2a9ada4705d.png)
-  
+
 ### Allow users to choose how to handle Office file sync conflicts
 
 <a name="EnableHoldTheFile"> </a>

@@ -23,11 +23,13 @@ description: "Configure the Content Search Web Part to cache search results for 
 
 # Make pages load faster with caching in the Content Search Web Part
 
+
 [Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a) (CSWP) offers much flexibility for configuring the query it contains. However, if you configure the Web Part to use a complex query, or if you have many CSWPs on a page, the page can take longer time to load. To make the page load faster, you can configure the CSWP to cache search results for users who belong to the same AD security groups. Because it's faster to look up search results in the cache than in the search index, the page loads faster.
+
   
 When you have configured a CSWP to use caching, it will first look in the cache for existing search results that match the query and the AD security group. If it doesn't find any search results in the cache, it looks in the search index.
   
-We recommend that you use caching only in CSWPs that are on pages that have more than 10 page loads per 15 minutes, for example on popular home pages or on category pages that are starting points for navigating to more detailed catalog pages.
+We recommend that you use caching only in CSWPs that are on pages that have more than 10 page loads per 15 minutes, for example of popular home pages or on category pages that are starting points for navigating to more detailed catalog pages.
   
 > [!TIP]
 > See [Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a#BKMK_Tips) for other things you can do to make pages load faster.
@@ -86,7 +88,9 @@ The queries in **CSWP 3 and 4** are configured to **show different results to di
   
  **CSWP 3** shows one set of results to people who work in the HR department, and another set of results to people who work in the Sales department. In most cases, you can make the page load faster by using caching in this Web Part. However, if you have many small departments with only a few employees in each department, the number of search results that will be stored in the cache could overload the cache and actually increase the page load time.
   
- **CSWP 4** shows, which documents the logged-in user has worked on recently. You shouldn't use caching in this Web Part. Because the query is tailored to each user, all individual search results are stored in the cache. This overloads the cache and might increase the page load time.
+
+ **CSWP 4** shows which documents the logged-in user has worked on recently. You shouldn't use caching in this Web Part. Because the query is tailored to each user, all individual search results are stored in the cache. This overloads the cache and might increase the page load time.
+
   
 ## How does caching make web pages load faster?
 <a name="BKMK_HoCachingWorks"> </a>

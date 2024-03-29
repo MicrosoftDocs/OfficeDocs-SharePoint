@@ -75,7 +75,9 @@ At a minimum, consider each of these elements as part of your intranet governanc
 ### Vision
 The vision statement describes, at a high level, what you want to achieve with your intranet - essentially how the solution delivers value to the organization and to each individual employee. Use the intranet vision statement to guide your governance plan. Be sure that the vision is clear because the degree of formality and the depth to which you need to document the governance plan should align with the outcomes you want to achieve. 
 
+
 A clear vision statement provides critical guidance to the inevitable decision tradeoffs you need to make for your governance plan. For example, you probably don't want a completely uncontrolled environment with unstructured and “unfindable” content if your intranet vision is to provide a key source of organizational knowledge and information. In this case, the unstructured environment with no controls is unpredictable and will likely misalign with desired business outcomes. In a different scenario, some users may have a goal to create an experimental place where new site owners can create “practice” sites to try out new skills or test alternative approaches to solve specific business problems. For this use case, an overly restrictive governance plan may not make much sense. You may determine that you don’t want to support an unlimited number of “practice” sites, so you may want a governance policy that says that all “test” sites are deleted after a specific period of time. But, for these practice or test sites, the unstructured environment is fine. You can only know what is level of governance is ideal because you have a clear vision. The vision provides a framework for both the context and your investment in governance. Once you're clear about your intranet vision, your governance team can use that vision to guide the governance decisions.
+
 
 Your intranet vision includes defining ownership. There's no right answer about which organizational entity should “own” the intranet – and often, intranet ownership is shared by more than one organizational unit. However, most intranet professionals agree that there's one organization that shouldn't be the exclusive intranet owner – IT. IT can't build an intranet for the business. IT can only build an intranet with the business and with a commitment from the business. Successful intranets have a champion and owner from the business, ideally at an executive level. 
 
@@ -84,7 +86,9 @@ Your intranet vision includes defining ownership. There's no right answer about 
 ### Policies and guidelines
 Policies define the rules and guidelines for your intranet. From a governance perspective, policies are usually driven by statutory, regulatory, or organizational requirements. Users are expected to meet policies without deviation. If your organization is subject to regulatory oversight, be sure you can enforce your policies as a failure to do so may target your organization as being “non-compliant.” Guidelines are usually established to encourage consistent practices. In many cases, guidelines are more recommendations, but policies are requirements.
 
-For example, consider the topic of site ownership. A policy might state, “All SharePoint sites have a primary and secondary contact responsible for the site and its content.” A related guideline might state, “The site contact is listed in a web part in the lower left-hand corner of the site home page.” The guideline might become a policy for major functional sites but remain a guideline or recommendation for topic-specific microsites. Another example of a policy is whether people outside the organization can have access to the intranet as a whole or only to individual sites. The policy might have a default value of no external access but there could be a process that allows for exceptions to allow specific partner users to have access to some intranet sites.
+
+For example, consider the site ownership. A policy might state, “All SharePoint sites have a primary and secondary contact responsible for the site and its content.” A related guideline might state, “The site contact is listed in a web part in the lower left-hand corner of the site home page.” The guideline might become a policy for major functional sites but remain a guideline or recommendation for topic-specific microsites. Another example of a policy is whether people outside the organization can have access to the intranet as a whole or only to individual sites. The policy might have a default value of no external access but there could be a process that allows for exceptions to allow specific partner users to have access to some intranet sites.
+
 
 Each organization has its own set of policies and guidelines. General topics should include content oversight, site design, branding and user experience, site management, and security. 
 
@@ -119,7 +123,9 @@ You can easily [hide the option to create a new site](./manage-site-creation.md)
 
 If you enable self-service site provisioning, you want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You'll also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
+
 In addition to providing a process to provision new sites, you'll also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by the Global Administrator or SharePoint Administrator so you need to think about how you'll plan and govern the creation of new hubs.
+
 
 When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you'll delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft Purview compliance documentation](/microsoft-365/compliance), including [records management](/microsoft-365/compliance/records-management) and [eDiscovery (Premium)](/microsoft-365/compliance/overview-ediscovery-20).
 
@@ -130,9 +136,8 @@ Intranet governance should cover several key aspects of your information archite
 - **Navigation architecture** – how your sites and hubs are associated to support users who navigate or browse for content.
 - **Page architecture** – guidelines for pages, especially site home pages, to help create consistent experiences across all intranet sites.
 - **Metadata architecture** – columns and content type planning to support consistent approaches for organizing content and pages.
+
 - **Search experiences** – understanding how users find content when they don’t know where it might be in the architecture and how they discover content. You can help users discover content and improve search outcomes by using several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more information, learn how to [make content easy to find](/microsoftsearch/make-content-easy-to-find) and how [search experiences](./get-started-with-modern-search-experience.md) work in SharePoint. Your governance plan should include how you'll support and manage the creation of the search discovery attributes.
-
-
 
 ### Branding
 Brand standards help to define the look and feel of your intranet. These standards are reflected in site and page designs. Your brand standards can include standards for the use of imagery, including requirements to use only brand-compliant images or icons from an [organization assets library](./organization-assets-library.md) on intranet pages, and requirements to use only brand-compliant [custom themes](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) for sites. Your standards might prescribe a specific theme for different types of sites or sites with different access levels. Your standards might also include content authoring standards such as tone of voice, spelling conventions, [accessibility standards](https://www.microsoft.com/accessibility/office?activetab=pivot_1:primaryr2), and other guidelines that support your organizational brand. Learn more about [branding in SharePoint](./branding-sharepoint-online-sites-modern-experience.md).
@@ -165,10 +170,12 @@ Your governance plan should include these key content management concepts:
 - Do you have requirements to implement [records retention policies](/microsoft-365/compliance/records-management) on some or all content to prevent accidental deletion?
 
 ### Security and information management
+
 Your governance plan shouldn't only include what *should* be posted on the intranet – but it should also include guidelines for content that *shouldn't* be posted on the intranet. You may be able to enforce some policies using [automated information protection](/microsoft-365/compliance/protect-information) capabilities, but you want to provide training and guidance for site owners and content authors to ensure that they understand their responsibilities when it comes to security and information management for both sites and content.
 
 ### Roles and responsibilities
 Roles and responsibilities describe how each employee as an individual or in a role (such as Site Owner) is responsible for ensuring success of the intranet. Documenting roles and responsibilities is a critical aspect of your intranet governance plan. To ensure that intranet responsibilities are treated seriously, it's helpful to partner with your human resources organization to ensure that intranet responsibilities are part of job descriptions or performance goals.
+
 
 It “takes a village” to successfully support an intranet in any organization. You need a team - and the team may include specialized roles that you use on an occasional basis, such as developers to create a custom web part, permanent roles such as site owners for whom intranet site management is a small part of their job, and other permanent roles for people whose entire job responsibilities involve intranet management. Some organizations find it helpful to organize their intranet resources in a center of excellence, which may include full time members of the IT staff supplemented with virtual members who work in different business groups around the organization. Others extend their centralized staff to include “[intranet champions](https://www.microsoft.com/microsoft-365/success/champions),” who extend the support team into various departments and geographic locations by volunteering to help ensure intranet success. 
 

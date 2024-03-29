@@ -46,7 +46,8 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Keep in mind**:
 
-Intranets are a constant work in progress and are never considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet starts losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
+Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet starts losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
+
 
 ## How to think about an intelligent vs traditional intranet design
 

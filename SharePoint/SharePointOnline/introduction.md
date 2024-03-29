@@ -1,5 +1,5 @@
 ---
-ms.date: 06/05/2023
+ms.date: 03/28/2024
 title: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
 ms.reviewer: 
 ms.author: ruihu

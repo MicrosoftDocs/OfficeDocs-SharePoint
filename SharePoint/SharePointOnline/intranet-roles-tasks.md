@@ -68,7 +68,8 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 *Start by—Developing an understanding about what you need your intranet to accomplish and start organizing content assets to align with key outcome goals. Organize depending on the needs of the business—by region, department, or function—and by the topics that your users care about.
 
-*You know you're done when*—Business owners and users confirm they can find and have access to the content that makes their jobs more productive.
+*You know you're done when* — Business owners and users confirm they can find and have access to the content that makes their jobs more productive.
+
 
 #### Brand your intranet
 
@@ -171,7 +172,7 @@ SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed
 
 #### Design the intranet portal page, also known as the home site
 
-The [main intranet portal for your organization](home-site-plan.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
+The [main intranet portal for your organization](home-site-plan.md) is a large part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Viva Engage feeds](/viva/engage/overview) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
@@ -191,7 +192,9 @@ To align your organization's branding requirements, you can [change the look of 
 
 *Start by* — Prioritizing business objectives, and then decide the type of sites and web parts that are needed initially.
 
-*You know you're done when*—Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
+
+*You know you're done when* — Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
+
 
 ## Content authors
 

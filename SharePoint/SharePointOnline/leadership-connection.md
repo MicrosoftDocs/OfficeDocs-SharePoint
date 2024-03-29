@@ -115,7 +115,9 @@ Create and produce live events for people in the leadership Viva Engage network,
 
 ![Screenshot of a woman presenting in a live event in Teams.](media/lc-event-questions.png)
 
+
 There are two ways [live events in Viva Engage can be produced](https://support.microsoft.com/office/organize-a-live-event-in-viva-engage-7338782a-4f0b-4fd0-a6c3-33625906ead1). The requirements depend on which video production methods you intend to use in your organization. Learn more about which method of live event you should use. For live events that only require visual and audio support, consider [hosting a live event using Viva Engage in Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d).
+
 
 Once you've determined the right method for your live event, get started organizing and scheduling the event.
 
