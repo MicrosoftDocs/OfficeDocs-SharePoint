@@ -1,5 +1,5 @@
 ---
-ms.date: 09/18/2023
+ms.date: 03/28/2024
 title: IT Admins - SharePoint and OneDrive unmanaged device access controls
 ms.reviewer: samust
 ms.author: ruihu

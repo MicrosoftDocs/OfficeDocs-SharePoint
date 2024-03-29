@@ -2,8 +2,8 @@
 ms.date: 06/29/2021
 title: "Use Microsoft 365 to connect leaders and teams"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -115,7 +115,7 @@ Create and produce live events for people in the leadership Viva Engage network,
 
 ![Screenshot of a woman presenting in a live event in Teams.](media/lc-event-questions.png)
 
-There are two ways [live events in Viva Engage can be produced](/viva/engage/manage-viva-engage-groups/viva-engage-live-events#types-of-live-events). The requirements depend on which video production methods you intend to use in your organization. Learn more about which method of live event you should use. For live events that only require visual and audio support, consider [hosting a live event using Viva Engage in Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d).
+There are two ways [live events in Viva Engage can be produced](/viva/engage/organize-live-event). The requirements depend on which video production methods you intend to use in your organization. Learn more about which method of live event you should use. For live events that only require visual and audio support, consider [hosting a live event using Viva Engage in Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d).
 
 Once you've determined the right method for your live event, get started organizing and scheduling the event.
 
@@ -142,7 +142,7 @@ Viva Connections offers added functionality through three primary components - t
 
 - **Dashboard:** [The Viva Connections Dashboard](/viva/connections/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
 - **Feed:** [The Feed](/viva/connections/viva-connections-overview#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to.
-- **Resources:** [The Resources](/viva/connections/viva-connections-overview#viva-connections-resources) experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
+- **Resources:** [The Resources](/viva/connections/viva-connections-overview#viva-connections-resources) experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 
 ## Launch and manage your communication strategy

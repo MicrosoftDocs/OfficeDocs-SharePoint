@@ -2,8 +2,8 @@
 ms.date: 07/02/2021
 title: "Lists sync policies"
 ms.reviewer: andreye
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -57,7 +57,7 @@ Restore external List sync with:
 
 ### Prevent users from getting silently signed in to offline experiences on the web
 
-Offline experiences in Microsoft Lists and OneDrive on the web are set up to automatically sign in users with their Microsoft Entra account credentials. If you enable this setting, people who used offline experiences in Microsoft Lists and OneDrive on the web previously and who are signed in on an Microsoft Entra-joined PC will no longer be able to set up offline experiences without entering their account credentials.  
+Offline experiences in Microsoft Lists and OneDrive on the web are set up to automatically sign in users with their Microsoft Entra account credentials. If you enable this setting, people who used offline experiences in Microsoft Lists and OneDrive on the web previously and who are signed in on a Microsoft Entra-joined PC will no longer be able to set up offline experiences without entering their account credentials.  
 
 > [!IMPORTANT]
 > If the M365 browser extension isn't installed on users' Chromium-based browsers (Microsoft Edge, Google Chrome, and so on), we recommend leaving silent account configuration enabled to ensure the seamless operation of List sync.
