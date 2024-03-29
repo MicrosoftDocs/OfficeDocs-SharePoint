@@ -1,8 +1,8 @@
 ---
 title: "Make sure content can be found"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 ms.date: 6/14/2017
