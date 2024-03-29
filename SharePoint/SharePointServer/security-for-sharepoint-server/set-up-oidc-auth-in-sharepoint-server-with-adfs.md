@@ -168,7 +168,7 @@ $farm = Get-SPFarm
 $farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
 $farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $farm.Update()
-``
+```
 
 ## Step 3: Configure SharePoint to trust the identity providers
 
@@ -245,11 +245,11 @@ You can complete this configuration either by:
 - Creating a new web application and using both Windows and AD FS OIDC authentication in the Default zone. To create a new web application, do the following:
   1. Start the SharePoint Management Shell and run the following script to create a new `SPAuthenticationProvider`:
 
-        ```powershell
-        # This script creates a trusted authentication provider for OIDC    
-        $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
-        $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
-        ```
+    ```powershell
+    # This script creates a trusted authentication provider for OIDC    
+    $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
+    $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+    ```
 
   2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named SharePoint - OIDC on contoso.local.
   3. Open the SharePoint Central Administration site.
@@ -265,23 +265,24 @@ You can complete this configuration either by:
 - Extending an existing web application to set AD FS OIDC authentication on a new zone. To extend an existing web application, do the following:
     1. Start the SharePoint Management Shell and run PowerShell to extend the web application:
 
-**Example:**      
- ```powershell
- # Get the trusted provider
- $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
- $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
- # Get the web app
- $wa = Get-SPWebApplication http://spsites
- # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
- New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
-  ```
+    **Example:**      
+    ```powershell
+    # Get the trusted provider
+    $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+    $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+    # Get the web app
+    $wa = Get-SPWebApplication http://spsites
+    # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
+    New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
+    ```
 
-```
+
 2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
 3. Filter the display with the web application that was extended and confirm that you see the following information:
 
     :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
-```## Step 5: Ensure the web application is configured with SSL certificate
+
+## Step 5: Ensure the web application is configured with SSL certificate
 
 Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. If you have not already done so, perform the following steps to set a certificate:
 
