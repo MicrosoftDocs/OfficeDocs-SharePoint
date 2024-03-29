@@ -1,8 +1,8 @@
 ---
 title: "Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: serdars
 ms.date: 05/17/2023
 audience: ITPro
@@ -167,7 +167,7 @@ Example:
 
 - On the SPWFM server, go to Start | Run and type in "cliconfg"  
 
-:::image type="content" source="../media/sp-worflow-createalias.png" alt-text="Example on creating a sql alias":::![image.png](/.attachments/image-85d3556b-9bb2-43dc-8e86-3aade3498431.png)
+:::image type="content" source="../media/sp-worflow-createalias.png" alt-text="Example on creating a sql alias":::
 
 - On the Alias tab, select Add.
 - Choose TCP/IP for the Network library.

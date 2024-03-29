@@ -1,5 +1,5 @@
 ---
-ms.date: 06/29/2021
+ms.date: 03/21/2024
 title: "Intelligent intranet introduction"
 ms.reviewer: 
 ms.author: ruihu
@@ -26,7 +26,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Roadmap contents**:
 
-- Introduction to key success factors and considerations 
+- Introduction to key success factors and considerations
 - Review of the different [roles and tasks](intranet-roles-tasks.md)
 - How to [get started](intranet-get-started.md)
 
@@ -47,6 +47,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 **Keep in mind**:
 
 Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet starts losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
+
 
 ## How to think about an intelligent vs traditional intranet design
 
@@ -79,14 +80,10 @@ Over the years, we have learned about what makes an intranet successful. These f
 
 Review the different [roles and responsibilities](intranet-roles-tasks.md) when creating your intelligent intranet.
 
-### Related topics
+### Related articles
 
 [Create and launch healthy portals](/sharepoint/portal-health)
 
 [Ways to work with SharePoint](https://support.office.com/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
 
 [Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
-
-
-
-

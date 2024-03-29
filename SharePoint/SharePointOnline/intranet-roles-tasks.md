@@ -50,15 +50,15 @@ As you plan and implement your intranet, keep in mind these key success factors:
 - For your intranet, as a whole:
   - Have a sponsor for each initiative and an executive sponsor from the business for the intranet as a whole.
   - Ensure that your intranet goals are directly tied to key business goals.
-  - Get a core team together to think about governance — make sure you align your governance decisions to business goals.
+  - Get a core team together to think about governance—make sure you align your governance decisions to business goals.
   - Align your intranet with your organization brand and culture.
-  - Don't assume you have to launch with a "big bang" — align communications and training with your launch plan.
+  - Don't assume you have to launch with a "big bang"—align communications and training with your launch plan.
 
 - For each initiative:
-  - Gather outcomes, not requirements — be sure to talk to site users, not just owners.
-  - Design to align to your organization standards — but allow the site "story" to dictate the navigation and page layouts.
+  - Gather outcomes, not requirements—be sure to talk to site users, not just owners.
+  - Design to align to your organization standards—but allow the site "story" to dictate the navigation and page layouts.
   - Establish success goals for each site and review them regularly.
-  - Test your proposed navigation with site visitors — make sure that visitors can easily get to their top tasks.
+  - Test your proposed navigation with site visitors—make sure that visitors can easily get to their top tasks.
 
 ### Key tasks
 
@@ -66,21 +66,22 @@ As you plan and implement your intranet, keep in mind these key success factors:
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hubs](planning-hub-sites.md), you can create an intuitive intranet with common navigation across related sites and an easy-to-manage permissions structure. For a detailed look at site navigation in SharePoint, see [Planning navigation for the modern SharePoint experience](./plan-navigation-modern-experience.md).
 
-*Start by* — Developing an understanding about what you need your intranet to accomplish and start organizing content assets to align with key outcome goals. Organize depending on the needs of the business — by region, department, or function — and by the topics that your users care about.
+*Start by—Developing an understanding about what you need your intranet to accomplish and start organizing content assets to align with key outcome goals. Organize depending on the needs of the business—by region, department, or function—and by the topics that your users care about.
 
 *You know you're done when* — Business owners and users confirm they can find and have access to the content that makes their jobs more productive.
+
 
 #### Brand your intranet
 
 Branding provides a way to align your intranet with your organizational culture. With SharePoint, you can [add branding to your SharePoint site](./branding-sharepoint-online-sites-modern-experience.md), and also [customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).
 
-*Start by* — Answer, do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own look and feel? Then, collect approved brand assets like brand colors, logos, and images depending on your organization's branding requirements.
+*Start by—Answer, do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own look and feel? Then, collect approved brand assets like brand colors, logos, and images depending on your organization's branding requirements.
 
 *You know you're done when* — You've determined the end-to-end look of the intranet from the home page to hubs to individual sites.
 
 ## IT pros and admins
 
-IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals — such as with databases or line-of-business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
+IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals—such as with databases or line-of-business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
@@ -94,7 +95,7 @@ As you plan and implement your intranet, keep in mind these key success factors:
 
 #### Plan and align the governance strategy
 
-Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal — ensuring organization content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](./governance-overview.md): naming conventions, guest access, classification of sites, groups, and files.
+Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal—ensuring organization content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](./governance-overview.md): naming conventions, guest access, classification of sites, groups, and files.
 
 *Start by* — Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR, and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
@@ -151,7 +152,7 @@ One of the largest tasks in creating a new intranet site is migrating your exist
 
 Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you create confusion for your users who won't be able to rely on search to consistently find the latest version of documents.
 
-Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You'll get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
+Train your users to take advantage of SharePoint's automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
 [Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
@@ -189,9 +190,11 @@ To post important or interesting stories, announcements, people news, status upd
 
 To align your organization's branding requirements, you can [change the look of your site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818).
 
-*Start by* — Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
+*Start by* — Prioritizing business objectives, and then decide the type of sites and web parts that are needed initially.
+
 
 *You know you're done when* — Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
+
 
 ## Content authors
 
