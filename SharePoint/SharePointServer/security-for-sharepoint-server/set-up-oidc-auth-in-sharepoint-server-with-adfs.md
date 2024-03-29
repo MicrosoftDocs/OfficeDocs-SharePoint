@@ -22,7 +22,7 @@ description: "Learn how to set up OIDC authentication in SharePoint Server with 
 
 ## Prerequisites
 
-When you configure with AD FS with OIDC authentication, you need the following resources to perform the configuration:
+When you configure SharePoint Server with Active Directory Federation Services (AD FS) using OpenID Connect (OIDC) authentication, you need the following resources to perform the configuration:
 
 1. A SharePoint Server Subscription Edition farm.
 2. AD FS in Windows Server 2016 or later, already created, with the public key of the AD FS signing certificate exported in a `.cer` file.
