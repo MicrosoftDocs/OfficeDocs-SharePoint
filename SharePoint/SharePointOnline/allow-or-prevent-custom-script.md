@@ -102,18 +102,18 @@ If you change this setting for a classic team site, it will be overridden by the
 > [!NOTE]
 > You cannot allow or prevent custom scripts to an individual user's OneDrive.
   
-## Manage custom script from SharePoint tenant administration
+## Manage custom script from SharePoint admin center
 
 > [!NOTE]
-> If you don't see the new options in SharePoint tenant administration, it means that the feature is not enbaled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024.  
+> If you don't see the new options in SharePoint tenant administration, it means that the feature is not enabled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024.  
 
-Tenants administrators have a set of tools available in SharePoint tenant administration to manage custom script among their organization. Specifically, tenant admninistrators can do the following:
+Tenants administrators have a set of tools available in SharePoint tenant administration to manage custom script within their organization. Specifically, tenant administrators can do the following:
 * verify custom script status 
 * change custom script settings 
 * persist custom script settings
 
 ### Verify custom script status
-A new "Custom script" column is now available in the "Active sites" page under "sites.
+A new "Custom script" column is now available in the "Active sites" page under "sites".
 ![Active sites view with custom script column visible](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/232a2283-7f38-4f77-b32d-e076bbcbbb01)
 
 The column can be added to any view. A new "Custom script allowed sites" is also available to provide an easy access to all the sites where custom script is enabled:
@@ -126,7 +126,7 @@ In the "Active sites" page, upon selecting a site, under "settings", a "Custom s
 Administrators can control custom script settings for a specific site; deciding if they want to allow or block custom script on a specific site:
 ![Custom script values](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4)
 
-By default, any changes to custom script settings for a specific site only last for a maximu of 24 hours. After that time, the setting gets reset to its original value for that specific site.
+By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting gets reset to its original value for that specific site.
 
 ### Persist custom script settings
 To prevent SharePoint in resetting custom script settings to its original value to the whole tenant follow these steps:
@@ -145,7 +145,7 @@ To prevent SharePoint in resetting custom script settings to its original value 
     ```
 
 > [!NOTE]
-> This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024.  
+> This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value to the whole tenant.   
 
 ## Features affected when custom script is blocked
 
