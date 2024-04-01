@@ -268,24 +268,25 @@ You can complete this configuration either by:
 
 - Extending an existing web application to set AD FS OIDC authentication on a new zone. To extend an existing web application, do the following:
 
-    1. Start the SharePoint Management Shell and run PowerShell to extend the web application:
+  1. Start the SharePoint Management Shell and run PowerShell to extend the web application:
 
-       **Example:**      
-       ```powershell
-       # Get the trusted provider
-       $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
-       $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
-       # Get the web app
-       $wa = Get-SPWebApplication http://spsites
-       # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
-       New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
-       ```
+     **Example:**
 
-2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+     ```powershell
+     # Get the trusted provider
+     $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+     $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+     # Get the web app
+     $wa = Get-SPWebApplication http://spsites
+     # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
+     New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
+     ```
 
-3. Filter the display with the web application that was extended and confirm that you see the following information:
+  2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
 
-   :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
+  3. Filter the display with the web application that was extended and confirm that you see the following information:
+
+     :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
 
 ## Step 5: Ensure the web application is configured with SSL certificate
 
