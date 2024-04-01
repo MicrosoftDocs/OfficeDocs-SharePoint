@@ -18,7 +18,6 @@ ms.custom:
   - admindeeplinkSPO
   - onedrive-toc
   - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
 search.appverid:
 - ODB160
 - ODB150
