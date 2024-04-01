@@ -253,7 +253,7 @@ You can complete this configuration either by:
 
   2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named SharePoint - OIDC on contoso.local.
   3. Open the SharePoint Central Administration site.
-  4. Open the web application you created, chose "Authentication Providers" in the Ribbon, click the link for the "Default" zone, and pick **contoso.local** as **Trusted Identity Provider**.
+  4. Open the web application you created, choose "Authentication Providers" in the Ribbon, click the link for the "Default" zone, and pick **contoso.local** as **Trusted Identity Provider**.
 
       :::image type="content" source="../media/authentication-providers-3.jpg" alt-text="Authentication Providers 3":::
 
@@ -336,4 +336,4 @@ In this step, you create a team site collection with two administrators: One as 
 Once the site collection is created, you should be able to sign-in using either the Windows or the federated (AD FS OIDC) site collection administrator account.
 
 ## Step 7: Set up People Picker
-In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method)
+In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method).
