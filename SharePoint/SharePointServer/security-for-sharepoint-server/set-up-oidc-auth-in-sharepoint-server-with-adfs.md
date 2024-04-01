@@ -243,44 +243,49 @@ In this step, you'll configure a web application in SharePoint to use AD FS OIDC
 You can complete this configuration either by:
 
 - Creating a new web application and using both Windows and AD FS OIDC authentication in the Default zone. To create a new web application, do the following:
+
   1. Start the SharePoint Management Shell and run the following script to create a new `SPAuthenticationProvider`:
 
-    ```powershell
-    # This script creates a trusted authentication provider for OIDC    
-    $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
-    $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
-    ```
+     ```powershell
+     # This script creates a trusted authentication provider for OIDC    
+     $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
+     $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+     ```
 
   2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named SharePoint - OIDC on contoso.local.
+
   3. Open the SharePoint Central Administration site.
+
   4. Open the web application you created, choose "Authentication Providers" in the Ribbon, click the link for the "Default" zone, and pick **contoso.local** as **Trusted Identity Provider**.
 
-      :::image type="content" source="../media/authentication-providers-3.jpg" alt-text="Authentication Providers 3":::
+     :::image type="content" source="../media/authentication-providers-3.jpg" alt-text="Authentication Providers 3":::
 
   5. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+  
   6. Filter the display with the new web application and confirm that you see the following information:
 
-      :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection-1":::
+     :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection-1":::
 
 - Extending an existing web application to set AD FS OIDC authentication on a new zone. To extend an existing web application, do the following:
+
     1. Start the SharePoint Management Shell and run PowerShell to extend the web application:
 
-    **Example:**      
-    ```powershell
-    # Get the trusted provider
-    $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
-    $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
-    # Get the web app
-    $wa = Get-SPWebApplication http://spsites
-    # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
-    New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
-    ```
-
+       **Example:**      
+       ```powershell
+       # Get the trusted provider
+       $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+       $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+       # Get the web app
+       $wa = Get-SPWebApplication http://spsites
+       # Extend the web app to the "Intranet" zone using trusted provider auth and a SharePoint managed certificate called "SharePoint OIDC Site"
+       New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
+       ```
 
 2. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+
 3. Filter the display with the web application that was extended and confirm that you see the following information:
 
-    :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
+   :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
 
 ## Step 5: Ensure the web application is configured with SSL certificate
 
@@ -288,27 +293,28 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
 
 - Generate the site certificate:
 
-    > [!NOTE]
-    > You may skip this step if you have already generated the certificate.
+  > [!NOTE]
+  > You may skip this step if you have already generated the certificate.
 
-    1. Open the SharePoint PowerShell console.
-    2. Run the following script to generate a self-signed certificate and add it to the SharePoint farm:
+  1. Open the SharePoint PowerShell console.
 
-    ```powershell
-    New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
-    Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
-    ```
+  2. Run the following script to generate a self-signed certificate and add it to the SharePoint farm:
 
-    > [!IMPORTANT]
-    > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
+     ```powershell
+     New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
+     Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
+     ```
+
+     > [!IMPORTANT]
+     > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
 
 - Set the certificate:
 
-    You can use the following PowerShell cmdlet to assign the certificate to the web application:
+  You can use the following PowerShell cmdlet to assign the certificate to the web application:
 
-    ```powershell
-    Set-SPWebApplication -Identity https://spsites.contoso.local -Zone Default -SecureSocketsLayer -Certificate "Contoso SharePoint (2021)"
-    ```
+  ```powershell
+  Set-SPWebApplication -Identity https://spsites.contoso.local -Zone Default -SecureSocketsLayer -Certificate "Contoso SharePoint (2021)"
+  ```
 
 ## Step 6: Create the site collection
 
