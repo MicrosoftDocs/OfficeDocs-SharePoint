@@ -76,7 +76,9 @@ When users in your organization create a list (in SharePoint, Teams, or the List
 
 ## Scope the permissions to a custom template 
 
+
 By default, the custom list template is available to everyone in your organization. If you want, you can limit access to specific users or a security group. The following example shows how to grant an individual user view rights to a template. 
+
 
 ```PowerShell
 Grant-SPOSiteDesignRights 
