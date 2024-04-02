@@ -22,9 +22,9 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can't search, resolve, and validate users and groups.  Instead, the default behavior is to resolve any value that is entered, even if it's not a valid claim.  In previous versions of SharePoint Server, the only solution was to use a Custom Claims Provider.
+When modern ("trusted identity provider") authentication such as Security Assertion Markup Language (SAML) 1.1 or OpenID Connect (OIDC) 1.0 is used, the People Picker control can't search, resolve, and validate users and groups.  Instead, the default behavior is to resolve any value that is entered, even if it's not a valid claim.  In previous versions of SharePoint Server, the only solution was to use a Custom Claims Provider.
 
-In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA, aka: UPSA).  The UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a Custom Claims Provider.
+In SharePoint Server Subscription Edition (SPSE), the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA, aka: UPSA).  The UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to resolve valid users and groups without requiring a Custom Claims Provider.
 
 > [!NOTE] 
 > Using a Custom Claims Provider in SharePoint Server Subscription Edition is still a valid solution to the People Picker problem.  If the limitations of the UPA-backed claims provider discussed in this article are too limiting for your organization, see [Create a claims provider in SharePoint](/sharepoint/dev/general-development/how-to-create-a-claims-provider-in-sharepoint)
@@ -45,7 +45,7 @@ Following are the configuration steps to make the UPA-backed People Picker work.
 > [!NOTE] 
 > This is only available for SAML 1.1 trusted identity token issuers.
 
-Create a new token issuer using the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) PowerShell cmdlet.
+Create a new token issuer using the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) PowerShell cmdlet and assign a claim provider by adding the UseUPABackedClaimProvider switch.
 
 ```powershell
 New-SPTrustedIdentityTokenIssuer
