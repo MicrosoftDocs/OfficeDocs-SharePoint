@@ -158,6 +158,9 @@ The SharePoint mobile apps detect the site's new URL. Make sure that users have 
 **SharePoint web parts**
 Any embedded URLs in any SharePoint web parts (News, List, etc.) won't be updated and may break. This includes page thumbnail images in news posts existing on the site. After the site address is changed, you might need to update individual web parts to use the new URL.
 
+**SharePoint workflow 2013**
+SharePoint workflow 2013 will need to be republished after the site address is changed.
+
 **Sharing links**  
 After the site address is changed, sharing links will automatically redirect to the new URL.
 
