@@ -1,5 +1,5 @@
 ---
-ms.date: 08/09/2023
+ms.date: 04/08/2024
 title: "Change your SharePoint domain name"
 ms.reviewer: anfra
 ms.author: ruihu
@@ -154,30 +154,31 @@ Since this is a part of SharePoint Advanced Management, participants need to eit
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
-
+2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). If this succeeds, and the new domain appears in the "Healthy" state, move directly to [Step 2 to schedule your rename](change-your-sharepoint-domain-name.md#step-2-use-microsoft-powershell-to-rename-your-domain).
     > [!IMPORTANT]
-    > You must use the link [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) to go to the Custom domain names page in the Microsoft Entra admin center. If you browse to the page instead of using the link, you won't be able to add your custom onmicrosoft.com domain successfully.
+    > Do not make this domain your fallback domain.
+    
+3. If you face issues with domain addition in the M365 Admin Center, go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
 
-3. Select **Add custom domain**.
+4. Select **Add custom domain**.
 
-4. In the **Custom domain name** box, enter the full new “.onmicrosoft.com” domain, and then select **Add domain**.
+5. In the **Custom domain name** box, enter the full new “.onmicrosoft.com” domain, and then select **Add domain**.
 
     ![Custom domain name pane](media/custom-domain-name.png)
 
     > [!IMPORTANT]
     > When adding the domain, it needs to be an “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. You do not need to purchase the “onmicrosoft.com” domain to add it and it does not require any public DNS registration.
  
-5. If you get a message that the domain isn't available, try a different domain. 
+6. If you get a message that the domain isn't available, try a different domain. 
  
-6. After getting a confirmation that the domain was added successfully, you might see a message that the properties couldn't be found. Select the message to refresh domain references.
+7. After getting a confirmation that the domain was added successfully, you might see a message that the properties couldn't be found. Select the message to refresh domain references.
 
     > [!WARNING]
     > Do NOT add any other domains.
     > Do NOT configure the new domain as the initial domain.
     > If, after adding the domain, you are prompted to create a new TXT record with your domain name registrar, the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted, you will need to delete the invalid domain and return to Step 2.
  
-7. In the navigation at the top of the page, select the name of your tenant to go back to the Custom domain names page. Make sure the onmicrosoft.com domain you added is on the list and the Status appears as Verified. 
+8. In the navigation at the top of the page, select the name of your tenant to go back to the Custom domain names page. Make sure the onmicrosoft.com domain you added is on the list and the Status appears as Verified. 
 
     ![Domain status verified](media/domain-verified.png)
 
