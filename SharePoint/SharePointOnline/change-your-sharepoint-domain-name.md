@@ -154,7 +154,7 @@ Since this is a part of SharePoint Advanced Management, participants need to eit
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](https://learn.microsoft.com/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). If this succeeds, and the new domain appears in the "Healthy" state, move directly to [Step 2 to schedule your rename](change-your-sharepoint-domain-name.md#step-2-use-microsoft-powershell-to-rename-your-domain).
+2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). If this succeeds, and the new domain appears in the "Healthy" state, move directly to [Step 2 to schedule your rename](change-your-sharepoint-domain-name.md#step-2-use-microsoft-powershell-to-rename-your-domain).
     > [!IMPORTANT]
     > Do not make this domain your fallback domain.
     
