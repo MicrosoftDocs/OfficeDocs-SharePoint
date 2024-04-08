@@ -1,5 +1,5 @@
 ---
-ms.date: 08/09/2023
+ms.date: 04/08/2024
 title: "Change your SharePoint domain name"
 ms.reviewer: anfra
 ms.author: ruihu
