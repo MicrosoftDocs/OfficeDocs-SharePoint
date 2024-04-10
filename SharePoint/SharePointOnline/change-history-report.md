@@ -1,26 +1,5 @@
 ---
-ms.date: 03/13/2024
-title: "Create change history reports"
-ms.reviewer: daminasy
-manager: jtremper
-recommendations: true
-ms.author: mactra
-author: MachelleTranMSFT
-audience: Admin
-f1.keywords:
-- NOCSH
-ms.topic: article
-ms.service: sharepoint-online
-ms.localizationpriority: medium
-ms.collection:
-- M365-collaboration
-- Highpri
-- Tier1
-description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
----
-
----
-ms.date: 03/13/2024
+ms.date: 04/10/2024
 title: "Create change history reports"
 ms.reviewer: daminasy
 manager: jtremper
