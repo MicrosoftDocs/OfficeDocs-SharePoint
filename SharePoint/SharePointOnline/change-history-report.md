@@ -126,6 +126,7 @@ The following table lists the latest set of supported settings found in **Access
 |**Idle session sign out**|Automatically sign out users from inactive browser sessions|
 |**Network location**|Allow access only from specific IP addresses|
 |**Apps that don't use modern authentication**|Block access from Office 2010 and other apps that can't enforce device-based restrictions|
+|**SharePoint access restriction**|Restrict access to SharePoint sites & content by security group|
 |**OneDrive access restriction**|Restrict access to OneDrive content by security group|
 
 The following table lists the latest set of supported settings found in **Sharing** under the **Policies** node:
