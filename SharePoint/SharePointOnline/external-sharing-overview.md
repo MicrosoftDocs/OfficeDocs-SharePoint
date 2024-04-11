@@ -2,8 +2,8 @@
 ms.date: 06/19/2023
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 recommendations: true
 audience: Admin

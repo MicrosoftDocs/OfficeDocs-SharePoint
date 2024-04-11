@@ -2,8 +2,8 @@
 ms.date: 11/08/2023
 title: "Change the external sharing setting for a user's OneDrive"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 audience: Admin
 f1.keywords:
