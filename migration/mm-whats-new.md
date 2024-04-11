@@ -34,6 +34,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Forms migration.** Support migrating Forms during Google Drive migration.
 - **Skip scan.** Allow to skip scan process in Box migration.
 
+## March 2024
+
+- **Skip scan.** You can now skip scan process in Box migration scenario. Once the users (tasks) are added to the Scan list, they can be send to Migrations tab instantly for migration operations.
+
 ## February 2024
 - **Download limit increase.** Now download up to 5,000 tasks for summary reports and 500 tasks for detailed reports. [Learn more about report types and download limits](mm-cloud-reports.md).
 - **Migration Manager Agent v2.0 (for File Share migration).** Enhanced multitasking and report uploading capabilities improve agent performance. The v2.0 build is now generally available: [Download link](https://spmtreleasescus.blob.core.windows.net/download/A9EB5CE93791/v2.0/agentsetup.exe).
