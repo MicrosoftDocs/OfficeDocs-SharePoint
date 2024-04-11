@@ -2,8 +2,8 @@
 ms.date: 09/19/2020
 title: "Get started planning and implementing SharePoint navigation design"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

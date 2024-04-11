@@ -1,8 +1,8 @@
 ---
 ms.date: 05/21/2020
 title: How to think about your intelligent intranet
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

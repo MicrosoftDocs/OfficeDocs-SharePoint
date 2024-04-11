@@ -1,9 +1,9 @@
 ---
-ms.date: 07/11/2018
+ms.date: 03/18/2024
 title: "Manage site admins"
 ms.reviewer: trgreen
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

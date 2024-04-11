@@ -40,8 +40,6 @@ Answer: Yes. Learn how to configure your settings: [Government cloud settings](s
 Answer: Yes, However, site pages can only be migrated by uploading a CSV or JSON file. 
 
 **JSON Example**
->>>>>>> main
-
 
 ```javascript
 {
@@ -64,10 +62,13 @@ Answer: Yes, However, site pages can only be migrated by uploading a CSV or JSON
 }
 ```
 
-**Question**: How can I preserve existing web parts on a destination site in site incremental migration?
-Answer: Under the setting "Migration of web parts and pages", select "Don’t migrate to skip webpart migration" in incremental migration. Learn more: [**SharePoint Migration Tool Settings**](/sharepointmigration/spmt-settings#sharepoint).
+**Question**: How can I preserve existing web parts on a destination site in site incremental migration?</br>
+Answer: Under the setting "Migration of web parts and pages", select "Don’t migrate to skip webpart migration" in incremental migration. Learn more: **[SharePoint Migration Tool Settings](/sharepointmigration/spmt-settings#sharepoint)**.
 
-**Question**: What features are not supported by SPMT for SharePoint on-premises Server migrations?
+**Question**: Why do I see deletion entries in the audit log by the system account after completing migration?</br>
+Answer: This behavior is expected during migration. When you migrate files to SharePoint Online using the SharePoint Migration Tool (SPMT), the tool checks if the source files are newer than the destination files. If the source files are newer, the system account will delete the destination files and log the deletion in the audit log. Deletion entries in the audit log after migration are due to this behavior.
+
+**Question**: which features does SPMT not support for SharePoint on-premises Server migrations?</br>
 Answer: See items listed in table.
 
 |Not supported|Description|

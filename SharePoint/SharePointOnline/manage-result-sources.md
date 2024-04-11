@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: "Manage result sources"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: End User

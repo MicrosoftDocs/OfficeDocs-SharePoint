@@ -2,8 +2,8 @@
 ms.date: 08/02/2023
 title: Intro to file collaboration in Microsoft 365, powered by SharePoint
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -203,3 +203,4 @@ To let users easily access team site files from File Explorer (as they might hav
 ## Related topics
 
 [Invalid file names and file types](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
+[SharePoint help & learning](https://support.microsoft.com/sharepoint) (for end users)

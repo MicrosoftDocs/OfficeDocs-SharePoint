@@ -2,49 +2,48 @@
 
 
 
-## Week of February 12, 2024
+## Week of March 18, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/15/2024 | [Manage site lifecycle policies](/SharePoint/site-lifecycle-management) | modified |
-| 2/15/2024 | [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
+| 3/18/2024 | [Plan an intelligent SharePoint intranet](/SharePoint/plan-intranet) | modified |
+| 3/18/2024 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
+| 3/18/2024 | [Overview of the Microsoft New Employee Onboarding sites](/SharePoint/provision-neo-hub) | modified |
+| 3/18/2024 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
+| 3/18/2024 | [Remove a hub site](/SharePoint/remove-hub-site) | modified |
+| 3/18/2024 | [Troubleshoot user profile removal issues in SharePoint](/SharePoint/remove-users) | modified |
+| 3/18/2024 | [Switch from an Enterprise Search Center to Basic in SharePoint](/SharePoint/switch-from-enterprise-search-center-to-basic) | modified |
+| 3/18/2024 | [Training and change management for rolling out SharePoint and OneDrive](/SharePoint/training-change-management) | modified |
+| 3/18/2024 | [Manage apps using the Apps site - SharePoint](/SharePoint/use-app-catalog) | modified |
+| 3/18/2024 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 3/18/2024 | [Set up OIDC authentication in SharePoint Server with Microsoft Entra ID](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad) | modified |
+| 3/19/2024 | [Control Microsoft Lists](/SharePoint/control-lists) | modified |
+| 3/19/2024 | [Organizational communications overview](/SharePoint/corporate-communications-overview) | modified |
+| 3/19/2024 | [Manually request crawling and reindexing of a site, a library or a list](/SharePoint/crawl-site-content) | modified |
+| 3/19/2024 | [Create and manage terms in a term set](/SharePoint/create-and-manage-terms) | modified |
+| 3/19/2024 | [Guided walkthrough - Create a communication site](/SharePoint/create-communication-site) | modified |
+| 3/19/2024 | [Guided walkthrough: Creating a training site for your organization](/SharePoint/create-training-site) | modified |
+| 3/19/2024 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
+| 3/19/2024 | [Default SharePoint groups](/SharePoint/default-sharepoint-groups) | modified |
+| 3/19/2024 | [Deploy and configure the OneDrive sync app for Mac](/SharePoint/deploy-and-configure-on-macos) | modified |
+| 3/19/2024 | [Switch from an Enterprise Search Center to Basic in SharePoint](/SharePoint/switch-from-enterprise-search-center-to-basic) | modified |
+| 3/20/2024 | [Add the LGBTQ+ Employee Resource Group template](/SharePoint/employee-resource-template) | modified |
+| 3/20/2024 | [Enable auto-acceleration in SharePoint](/SharePoint/enable-auto-acceleration) | modified |
+| 3/20/2024 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
+| 3/20/2024 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
+| 3/20/2024 | [Add the Hispanic Heritage Employee Resource Group site template](/SharePoint/hispanic-erg-template) | modified |
+| 3/20/2024 | [Hold a town hall in Viva Engage and keep the conversation going](/SharePoint/hold-town-hall-using-viva-engage) | modified |
+| 3/20/2024 | [Associate a hub site to another hub site in the SharePoint admin center](/SharePoint/hub-to-hub-association) | modified |
+| 3/20/2024 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
+| 3/20/2024 | [Intelligent intranet overview](/SharePoint/intelligent-intranet-overview) | modified |
 
 
-## Week of February 05, 2024
+## Week of February 26, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/7/2024 | [Restrict SharePoint site access with Microsoft 365 groups and Entra security groups](/SharePoint/restricted-access-control) | modified |
-| 2/7/2024 | [Add content databases in SharePoint Server](/SharePoint/administration/add-a-content-database) | modified |
-| 2/8/2024 | [Planning your SharePoint hub sites](/SharePoint/planning-hub-sites) | modified |
-
-
-## Week of January 29, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/1/2024 | [Change a site address](/SharePoint/change-site-address) | modified |
-
-
-## Week of January 22, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/22/2024 | [Restrict SharePoint site access with Microsoft 365 groups and Entra security groups](/SharePoint/restricted-access-control) | modified |
-| 1/22/2024 | [The OneDrive sync app update process](/SharePoint/sync-client-update-process) | modified |
-| 1/23/2024 | [Data access governance reports for SharePoint sites](/SharePoint/data-access-governance-reports) | modified |
-| 1/23/2024 | [Set up and configure Access Services for Access apps in SharePoint Server 2013](/SharePoint/administration/set-up-and-configure-access-services-for-access-apps) | modified |
-| 1/25/2024 | [Report on file and folder sharing in a SharePoint site](/SharePoint/sharing-reports) | modified |
-
-
-## Week of January 15, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/16/2024 | [Software boundaries and limits for SharePoint Servers 2016 and 2019](/SharePoint/install/software-boundaries-limits-2019) | modified |
-| 1/19/2024 | [Prevent guest access to files while DLP rules are applied](/SharePoint/sensitive-by-default) | modified |
+| 2/26/2024 | [Find your Microsoft 365 tenant ID](/SharePoint/find-your-office-365-tenant-id) | modified |
+| 2/26/2024 | [Restore a deleted OneDrive](/SharePoint/restore-deleted-onedrive) | modified |
+| 3/1/2024 | [Search limits for SharePoint](/SharePoint/search-limits) | modified |

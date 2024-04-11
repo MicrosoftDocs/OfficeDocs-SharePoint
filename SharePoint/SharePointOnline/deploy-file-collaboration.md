@@ -21,7 +21,6 @@ ms.custom:
 search.appverid: MET150
 description: In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint in Microsoft 365.
 ---
-
 # Plan and deploy a file collaboration environment - SharePoint
 
 With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 reach beyond the traditional SharePoint site. Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily and where your organization's sensitive content remains secure.
@@ -168,9 +167,9 @@ You can also use data loss prevention to restrict *Anyone* link access to files 
 
 ***People in your organization* links**
 
-*People in your organization* links are a great way to share information within your organization. *People in your organization* links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link gives them access to the particular file or folder and can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites – such as design, marketing, and support groups.
+*People in your organization* links are a great way to share information within your organization. *People in your organization* links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link when redeemed, gives access to the particular file or folder and can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites – such as design, marketing, and support groups.
 
-Creating a *People in your organization* link does not cause the file or folder to show up in search or give everyone direct access to the file or folder. Users must have the link in order to access the file or folder. The link does not work for guests or other people outside your organization.
+Creating a *People in your organization* link will not make the associated file or folder appear in search results, be accessible via Copilot, or grant access to everyone within the organization. Simply creating this link does not provide organizational-wide access to the content. For individuals to access the file or folder, they must possess the link and it needs to be activated through redemption. A user can redeem the link by clicking on it, or in some instances, the link may be automatically redeemed when sent to someone via email, chat, or other communication methods. The link does not work for guests or other people outside your organization.
 
 ***Specific people* links**
 

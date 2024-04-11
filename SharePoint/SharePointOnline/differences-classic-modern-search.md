@@ -2,8 +2,8 @@
 ms.date: 08/17/2018
 title: "Difference between classic & modern search experiences - SharePoint"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

@@ -34,6 +34,8 @@
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 #### [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 #### [Set up SharePoint and OneDrive with a wizard](setup-wizard.md)
+## [Copilot]()
+### [Microsoft Copilot for Microsoft 365 - best practices](sharepoint-copilot-best-practices.md)
 ## [Classic to modern]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [Customization options](extend-and-develop.md)

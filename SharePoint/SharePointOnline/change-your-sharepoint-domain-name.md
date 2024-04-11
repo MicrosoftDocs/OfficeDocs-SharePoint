@@ -1,9 +1,9 @@
 ---
-ms.date: 08/09/2023
+ms.date: 04/08/2024
 title: "Change your SharePoint domain name"
 ms.reviewer: anfra
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -30,7 +30,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
-description: "Learn about changing the domain name in your SharePoint and OneDrive URLs"
+description: "Learn about changing the domain name in your SharePoint and OneDrive URLs."
 ---
 
 # Change your SharePoint domain name
@@ -60,10 +60,10 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
-| Hub site menu items | Although the menu items will continue to work, items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
+| Hub site menu items | Although the menu items continue to work, items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
 | Office "Recent" and "Pinned" lists | These lists are updated over time depending on usage. | None |
 | Office.com | The URLs at https://www.office.com can take 24 hours to be updated. | None |
-| OneDrive | Only the domain name portion in URLs is changed. The relative path that's based on the User Principle Name (UPN) isn't changed. | None |
+| OneDrive | Only the domain name portion in URLs is changed. The relative path based on the User Principle Name (UPN) isn't changed. | None |
 | OneDrive sync app (OneDrive.exe) | Requires version 17.3.6943.0625 or later for all users. | Make sure the URLs "oneclient.sfx.ms" and "g.live.com." aren't blocked, and that all computers in your organization can reach them to apply updates. |
 | OneDrive sync app (OneDrive.exe) | The organization name displayed in Office apps isn't changed. (For example, the app displays the old folder name C:\Users\Sophia\OneDrive – Contoso) | Users can disconnect and reconnect their account in the Office app. |  
 | OneNote | Requires a recent version of OneNote. | Make sure all users have the following versions installed: <br> OneNote desktop app: Version 16.0.8326.2096 or later. <br> OneNote for Windows 10: Version 16.0.8431.1006 or later. <br> OneNote mobile app: Version 16.0.8431.1011 or later. |
@@ -72,7 +72,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | SharePoint mobile apps | While the domain name is being changed, users might receive a notebook sync error. | None | 
 | Search and Delve | The search index might take a while to reflect new URL changes. | None |
 | Search and Delve | Search results might not be complete or might return results for the original URLs until the search index is updated.| None |
-| SharePoint content  | Although content (such as text on pages) that includes the domain name will continue to work, it won't be updated to display the new name. | Search for the old domain name and edit content to display the new domain name. |
+| SharePoint content  | Although content (such as text on pages) that includes the domain name continues to work, it won't be updated to display the new name. | Search for the old domain name and edit content to display the new domain name. |
 
 ### Medium impact
 
@@ -83,17 +83,17 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Delve | It can take 24 hours before People profiles can be viewed. | None |
 | eDiscovery | Holds can't be removed until you update the URLs. | In the Microsoft Purview compliance portal, change the eDiscovery hold URLs to the new domain name. |
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
-| Microsoft 365 Archive | Archived sites will not be renamed. | Reactivate archived sites before the rename. <br>Avoid archiving any sites during the rename. |
+| Microsoft 365 Archive | Archived sites won't be renamed. | Reactivate archived sites before the rename. <br>Avoid archiving any sites during the rename. |
 | Microsoft Forms | Forms that have the option to upload attachments in responses won't work. | Remove the upload button and add it again in the form. |
 | Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if necessary change the URL of the save location. |
 | OneDrive | The Quick access links in OneDrive and SharePoint won't work. | No action is available.  |
 | Power Automate | Request sign-off flows that use SharePoint as a connection won’t work. | Remove and re-create the Request sign-off flow. |
 | Power Automate | Any flows deployed as solutions with managed layers that use SharePoint as a connection won’t work. | Remove and re-create the flows. |
-| Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
-| Project Online | Workflows that are “in flight” won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
+| Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that aren't created or maintained in the Power BI Desktop app will need to be recreated. |
+| Project Online | Workflows that are "in flight" won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
 | Project Online | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
 | Project Online | References to PWA sites in Project Online at https://project.microsoft.com won't work. | In Project Online at https://project.microsoft.com, change the URL of the PWA sites under Settings > My PWA Site. |
-| Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source won't work. | These reports will need to be reconnected. |
+| Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source won't work. | These reports need to be reconnected. |
 | Project Pro | The app won't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts. |
 | SharePoint 2013 workflows | Workflows that are “in flight” won't complete and will be orphaned. <br> New 2013 Workflow instances can't be initiated. <br>Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. |
 | SharePoint 2013 workflows | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
@@ -101,14 +101,14 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | SharePoint hub sites | Sites registered as hub sites won't work. | Unregister and register the affected sites as hub sites in the SharePoint admin center after the rename. |
 | SharePoint web parts | Some web parts may not function as expected. | The web parts may rely on direct URL references. Update the web parts with the new URLs. |
 | Site customizations and embedded code | Absolute URLs embedded in SharePoint customizations aren't updated. | Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name. |
-| Teams on the web and Teams desktop app | The first time someone tries to access the Files tab for a team or private channel, they'll receive an error. The tab will work for all users after that. | None |
+| Teams on the web and Teams desktop app | The first time someone tries to access the Files tab for a team or private channel, they receive an error. The tab will work for all users after that. | None |
 | Teams on the web and Teams desktop app | It can take 72 hours for meeting notes to work (for both current and previous meetings). | None |
 | Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and re-add the folders. |
 | Teams on the web and Teams desktop app | Document libraries added as a tab won't work. | Remove and re-add the tab. |
-| Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki .mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
+| Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki.mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
 | Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
-| Isolated web parts and full page apps | Isolated components are not updated and will stop working. | Solutions that contain isolated components need to be re-published in the tenant app catalog. The solution will start working again after that. |
+| Isolated web parts and full page apps | Isolated components are not updated and will stop working. | Solutions that contain isolated components need to be republished in the tenant app catalog. The solution will start working again after that. |
 
 ### High impact
 
@@ -116,12 +116,12 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 |---------|---------|---------|
 | Business Productivity Online Suite (BPOS) sites | If your tenant still has Microsoft Business Productivity Online Suite (BPOS) sites remaining in it, your domain name can't be changed. | BPOS sites and its configuration need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with BPOS sites](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20BPOS%20sites). |
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
-| Historical German cloud (.de) tenants | If your tenant was originally in the German cloud with a .de domain, your domain name can't be changed. This applies even if your tenant was subsequently migrated to the regular cloud but still retains the .de domain. | No action available. |
+| Historical German cloud (.de) tenants | If your tenant was originally in the German cloud with a .de domain, your domain name can't be changed. This applies even if your tenant was later migrated to the regular cloud but still retains the .de domain. | No action available. |
 | Locked sites and OneDrive accounts | Any site or OneDrive that has been locked (the LockState is NoAccess) can't be renamed. | Before changing your domain name, review any sites and OneDrive accounts that have been locked to determine if the lock should be removed. [Lock and unlock sites](manage-lock-status.md)|
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Root site replacement | Your [root site](modern-root-site.md) can't be replaced (using either the SharePoint admin center or the PowerShell cmdlet Invoke-SPOSiteSwap) between the time you schedule your domain name change and when it completes. | Replace your root site before you schedule the domain name change or after it completes. |
-| SharePoint public sites | If your tenant contains old SharePoint public sites, your SharePoint domain name change will not be allowed.| Public sites on the tenant need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with Public site](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20Public%20site). |
+| SharePoint public sites | If your tenant contains old SharePoint public sites, your SharePoint domain name change won't be allowed.| Public sites on the tenant need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with Public site](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20Public%20site). |
 | Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
@@ -133,19 +133,19 @@ Advanced Tenant Rename is a part of SharePoint Advanced Management, and is curre
 ### How to participate
 The limited preview can currently only support tenants meeting the following conditions:
 - Your organization has less than 100,000 total sites.
-- Your organization does not have Multi-Geo set up.
-- Your organization does not use government clouds, including GCC, GCC High and DoD.
-- Your organization does not use vanity domain configurations.
+- Your organization doesn't have Multi-Geo set up.
+- Your organization doesn't use government clouds, including GCC, GCC High and DoD.
+- Your organization doesn't use vanity domain configurations.
 
 If you would like to participate in the preview, and meet the above conditions, please express your interest through our [sign up form](https://forms.microsoft.com/r/DhBqqJVgSW). Make sure to include all of the requested information and indicate your interest in the **Organization Lifecycle Management** section by selecting the **Advanced Tenant Rename** option.
 
-There are limited slots available, and each application will be reviewed. Microsoft will reach out if there is space in the preview program and share more information and work with you on next steps.
+There are limited slots available, and each application will be reviewed. Microsoft will reach out if there's space in the preview program and share more information and work with you on next steps.
 
-Since this is a part of SharePoint Advanced Management, participants will need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
+Since this is a part of SharePoint Advanced Management, participants need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
 
 ## Step 1: Add the new domain name
 
-1. Check the availability of the new domain you want. For example, if you want your SharePoint and OneDrive URLs to begin with `fabrikam.sharepoint.com`, enter `https://fabrikam.sharepoint.com` in a browser. If you get a message that the address couldn’t be found (404), it’s probably available. If you get a sign-in screen or a message that your username couldn’t be found in the fabrikam.sharepoint.com directory, then the domain has already been taken and you’ll need to try a different one. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
+1. Check the availability of the new domain you want. For example, if you want your SharePoint and OneDrive URLs to begin with `fabrikam.sharepoint.com`, enter `https://fabrikam.sharepoint.com` in a browser. If you get a message that the address couldn’t be found (404), it’s probably available. If you get a sign-in screen or a message that your username couldn’t be found in the fabrikam.sharepoint.com directory, then the domain has already been taken and you need to try a different one. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
 
     -or-
 
@@ -154,30 +154,31 @@ Since this is a part of SharePoint Advanced Management, participants will need t
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
-
+2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). If this succeeds, and the new domain appears in the "Healthy" state, move directly to [Step 2 to schedule your rename](change-your-sharepoint-domain-name.md#step-2-use-microsoft-powershell-to-rename-your-domain).
     > [!IMPORTANT]
-    > You must use the link [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) to go to the Custom domain names page in the Microsoft Entra admin center. If you browse to the page instead of using the link, you won't be able to add your custom onmicrosoft.com domain successfully.
+    > Do not make this domain your fallback domain.
+    
+3. If you face issues with domain addition in the M365 Admin Center, go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
 
-3. Select **Add custom domain**.
+4. Select **Add custom domain**.
 
-4. In the **Custom domain name** box, enter the full new “.onmicrosoft.com” domain, and then select **Add domain**.
+5. In the **Custom domain name** box, enter the full new “.onmicrosoft.com” domain, and then select **Add domain**.
 
     ![Custom domain name pane](media/custom-domain-name.png)
 
     > [!IMPORTANT]
     > When adding the domain, it needs to be an “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. You do not need to purchase the “onmicrosoft.com” domain to add it and it does not require any public DNS registration.
  
-5. If you get a message that the domain isn't available, try a different domain. 
+6. If you get a message that the domain isn't available, try a different domain. 
  
-6. After getting a confirmation that the domain was added successfully, you might see a message that the properties could not be found. Select the message to refresh domain references.
+7. After getting a confirmation that the domain was added successfully, you might see a message that the properties couldn't be found. Select the message to refresh domain references.
 
     > [!WARNING]
     > Do NOT add any other domains.
     > Do NOT configure the new domain as the initial domain.
     > If, after adding the domain, you are prompted to create a new TXT record with your domain name registrar, the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted, you will need to delete the invalid domain and return to Step 2.
  
-7. In the navigation at the top of the page, select the name of your tenant to go back to the Custom domain names page. Make sure the onmicrosoft.com domain you added is on the list and the Status appears as Verified. 
+8. In the navigation at the top of the page, select the name of your tenant to go back to the Custom domain names page. Make sure the onmicrosoft.com domain you added is on the list and the Status appears as Verified. 
 
     ![Domain status verified](media/domain-verified.png)
 
@@ -221,11 +222,11 @@ You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Mak
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate). 
 
-To verify success of the rename operation, please ensure that you review the status of the rename operation, as well as the count of renamed sites in comparison to total sites. The count of sites that cannot be renamed to the new domain will be shown in the **Attention Required** field. To get more information on these sites, run `Get-SPOSiteRenameState` and pass the RenameJobID listed in the tenant rename status as the ParentOperationID, and the desired status (Success/Failed/Suspended). If you want to export these results to a CSV file, you can use the `Export-Csv` cmdlet.
+To verify success of the rename operation, please ensure that you review the status of the rename operation, and the count of renamed sites in comparison to total sites. The count of sites that can't be renamed to the new domain will be shown in the **Attention Required** field. To get more information on these sites, run `Get-SPOSiteRenameState` and pass the RenameJobID listed in the tenant rename status as the ParentOperationID, and the desired status (Success/Failed/Suspended). If you want to export these results to a CSV file, you can use the `Export-Csv` cmdlet.
 
  `Get-SPOSiteRenameState -ParentOperationID <RenameJobID> -State Failed | Export-Csv -Path <Path>`
 
-To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
+To cancel a rename that hasn't started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
 
 ## Step 3: Review features and settings after the rename
 

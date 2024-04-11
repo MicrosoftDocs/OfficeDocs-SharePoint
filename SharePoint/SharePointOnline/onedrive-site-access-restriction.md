@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2023
+ms.date: 03/05/2024
 title: Restrict access to a user's OneDrive content to people in a group
 ms.author: mactra
 author: MachelleTranMSFT
@@ -33,11 +33,11 @@ You can restrict access to an individual user's OneDrive content to users in a s
 
 The policy is applied using [Microsoft Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) that contain the people who should be able to access files in that OneDrive.
 
-When the policy is applied, the people in the security group are not granted permissions to any files directly. The OneDrive owner must share the content as they normally would. The OneDrive access restriction policy prevents anyone who is not in the security group from accessing the OneDrive content even if it's shared with them.
+When the policy is applied, the people in the security group aren't granted permissions to any files directly. The OneDrive owner must share the content as they normally would. The OneDrive access restriction policy prevents anyone who isn't in the security group from accessing the OneDrive content even if it's shared with them.
 
 Access restriction policies are applied when a user attempts to access a file. Users can still see files in search results if they have direct permissions to the file, but they won't be able to access the file if they're not part of the specified security group.
 
-Note that you can also restrict access to the OneDrive service itself to people in a security group. For more information, see [Restrict OneDrive access by security group](limit-access.md).
+You can also restrict access to the OneDrive service itself to people in a security group. For more information, see [Restrict OneDrive access by security group](limit-access.md).
 
 ## Requirements
 
@@ -61,7 +61,7 @@ To enable site access restriction for your organization using PowerShell, run th
 Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
-It might take up to one hour for command to take effect
+It might take up to one hour for command to take effect.
 
 > [!NOTE]
 > For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.
@@ -87,6 +87,7 @@ To manage access restriction for OneDrive, use the following commands:
 ## Auditing
 
 Audit events are available in the Microsoft Purview compliance portal to help you monitor site access restriction activities. Audit events are logged for the following activities:
+
 - Applying site access restriction for site
 - Removing site access restriction for site
 - Changing site access restriction groups for site

@@ -2,8 +2,8 @@
 ms.date: 07/11/2018
 title: Manage Business Connectivity Service Applications
 ms.reviewer: abloesch
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin

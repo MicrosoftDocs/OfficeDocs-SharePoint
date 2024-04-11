@@ -1,9 +1,9 @@
 ---
-ms.date: 06/29/2021
+ms.date: 03/21/2024
 title: "Intelligent intranet introduction"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: ruihu
+author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -26,27 +26,28 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Roadmap contents**:
 
-- Introduction to key success factors and considerations 
+- Introduction to key success factors and considerations
 - Review of the different [roles and tasks](intranet-roles-tasks.md)
 - How to [get started](intranet-get-started.md)
 
 ## Who should use this roadmap?
 
 - **Organization intranet owners** — This is the person managing the overall direction and coordination of your organization's intranet.
-- **IT pros and admins**—One or more IT and SharePoint Administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
-- **Business owners and site owners**—The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
+- **IT pros and admins**—One or more IT and SharePoint Administrators who are responsible for managing the backend configuration and implementation for your organization's intranet.
+- **Business owners and site owners**—The various stakeholders who are responsible for creating and maintaining portions of the intranet.
 - **Content authors** — The people creating and managing content on sites and pages.
 
 **What you'll learn**:
 
-- Understand, at a high level, the various roles and responsibilities of creating an intelligent intranet.
+- Understand, at a high level, the various roles, and responsibilities of creating an intelligent intranet.
 - See what you can do with SharePoint out-of-the-box sites and web parts.
 - Framework for planning and aligning your intranet around strategic business outcomes.
 - Known success factors for creating engaging intranet experiences.
 
 **Keep in mind**:
 
-Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet will start losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
+Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet starts losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
+
 
 ## How to think about an intelligent vs traditional intranet design
 
@@ -55,7 +56,7 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 
 | Traditional intranet           | Intelligent intranet                |
 | :----------------------------- | :----------------------------- |
-| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/article/video-what-is-viva-engage-47526868-b136-40cc-a80d-c870eadd9ba5)| 
+| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.microsoft.com/office/what-is-viva-engage-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
 | Static information like FAQ| Dynamic information that's community generated in [Viva Engage](https://support.office.com/article/Video-What-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
 | Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
 |Hierarchical collection of websites | Dynamic collection of experiences and services provided by independent site collections |
@@ -79,14 +80,10 @@ Over the years, we have learned about what makes an intranet successful. These f
 
 Review the different [roles and responsibilities](intranet-roles-tasks.md) when creating your intelligent intranet.
 
-### Related topics
+### Related articles
 
 [Create and launch healthy portals](/sharepoint/portal-health)
 
 [Ways to work with SharePoint](https://support.office.com/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
 
 [Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
-
-
-
-
