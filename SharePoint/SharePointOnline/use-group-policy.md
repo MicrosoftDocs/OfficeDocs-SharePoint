@@ -119,8 +119,6 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
-- (EnableODIgnoreFolderListFromGPO) Exclude specific kinds of folders from being uplodaed
-
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
 - (EnableSyncAdminReports) [Enable sync health reporting for OneDrive](use-group-policy.md#enable-sync-health-reporting-for-onedrive)
@@ -299,25 +297,7 @@ Enabling this policy creates a list of strings under the following path:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO`
 
 > [!NOTE]
-> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also, with this setting, users don't see errors for the excluded files. <br> This setting doesn't support upload of Office files that are being excluded. All other file types are supported.
-
-### Exclude specific kinds of folders from being uploaded
-
-This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain folders to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters.
-
-If you enable this setting, the sync app doesn't upload new folders that match the keywords you specified. New files in existing folders that match the keywords won't be uploaded.
-
-No errors appear for the skipped folders, and the folders remain in the local OneDrive folder.
-
-The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
-
-If you disable or do not configure this setting, the sync app uploads all supported folderssetting, all supported files in all synced folders will be uploaded.
-
-Enabling this policy creates a list of strings under the following path:
-
-`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreFolderListFromGPO`
-
-### Hide the "Deleted files are removed everywhere" reminder
+> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also, with this setting, users don't see errors for the excluded files. <br> This setting doesn't support upload of Office files that are being excluded. All other file types are supported.### Hide the "Deleted files are removed everywhere" reminder
 
 When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the devices of the user and on the web. This setting lets you hide the warning message.
 
