@@ -54,6 +54,7 @@ Two endpoints, https://production.odyssey.ops.mover.io and https://production-wu
 |:-----|:-----|
 |`https://secure.aadcdn.microsoftonline-p.com`|Authentication|
 |`https://graph.windows.net`|Microsoft 365 APIs for content move and validation.|
+|`https://graph.microsoft.com`|Access Microsoft Graph API to get tenant information and site information for public cloud and GCC.|
 |`https://spmtreleasescus.blob.core.windows.net`|Installation|
 |`https://*.queue.core.windows.net`|Migration API Azure requirement|
 |`https://*.blob.core.windows.net`|Migration API Azure requirement|
