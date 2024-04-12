@@ -2,8 +2,8 @@
 ms.date: 08/02/2023
 title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 recommendations: true
 audience: Admin
