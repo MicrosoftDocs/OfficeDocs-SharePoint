@@ -27,7 +27,8 @@ description: "Learn about SharePoint view in File Explorer for Microsoft Edge."
 
 # View SharePoint files with File Explorer in Microsoft Edge
 
-Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
+> [!IMPORTANT]
+> In June 2022, we stopped supporting Internet Explorer 11 (IE 11) at Microsoft 365 apps and services. As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
 By default, the View in File Explorer menu option won't be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
 
@@ -39,15 +40,15 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 2. Ensure that Windows instances are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances that are enrolled for device management.
 
-3. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) policy for Microsoft Edge that allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer. 
+3. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) policy for Microsoft Edge that allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer.
 
 Use the options below to enable View in File Explorer using group policy or Intune:
 
-   - **To enable by using group policy**:
+- **To enable by using group policy**:
 
      1. Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge).
 
-     2. Make sure you've downloaded the Microsoft Edge administrative template at [Download and deploy Microsoft Edge for business](https://www.microsoft.com/edge/business/download) or you may not see the policy listed.
+     2. Make sure you've downloaded the Microsoft Edge administrative template [based on the operating system version](/troubleshoot/windows-client/group-policy/create-and-manage-central-store#links-to-download-the-administrative-templates-files-based-on-the-operating-system-version) or you may not see the policy listed.
 
      3. Once the template is downloaded, open the Group Policy Object Editor. Right-click **Administrative Templates** in the Computer Configuration or User Configuration node and select **Add/Remove Templates** and browse to the downloaded template.
 
@@ -63,7 +64,7 @@ Use the options below to enable View in File Explorer using group policy or Intu
 
         For more examples, see [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) on Microsoft Edge policy reference.
 
-   - **To enable by using Intune**:
+- **To enable by using Intune**:
 
      Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
 
@@ -133,4 +134,3 @@ You may receive this error if this functionality isn't supported in your current
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
 - [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)
 - [OneDrive sync reports in the Apps Admin Center](/onedrive/sync-health)
-
