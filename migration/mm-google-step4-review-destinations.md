@@ -28,18 +28,16 @@ In this step, review the destination paths of the accounts that you moved to the
 
 ## Single destination edit
 
-If a destination is missing on a single user, highlight the row and update the value. 
+If a destination is missing on a migration task (equals a Drive in Google), highlight the row and update the value. 
 
-1. Highlight the row, a panel displays. Under **Destination**, select **Edit.**
+1. Highlight the row, a panel displays. Under **Destination**, select **Edit** to open the "Edit destination" panel.
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination. Depending on your selection:
-
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
     - For SharePoint, enter the site URL and location
     - For Teams, select the team and the channel
-    - For Forms, enter the site URL and location
-
 3. Select **Save path**.
-
+>[!Note]
+>If the task contains Google Forms, the "Edit destination" panel will prompt you to update an additional value called "Forms destination". Enter the email address of the destination user in Microsoft 365 where you want to store the Forms files.
 
 ## Upload destinations using a CSV file
 
@@ -61,6 +59,8 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >[!Important]
 >Rows with vacant destination paths will be skipped in the validation process.  
 
+>[!Note]
+>The "Forms destination" column is required to successfully migrate Google Forms. In the CSV file, if a task (row) contains Google Forms, the "Forms destination" column will display the message "Forms destination required, please input an email as the Forms destination". Replace this message with the email address of the destination user in Microsoft 365 where you want to store the Forms files.
 
 ### Destination path format
 
