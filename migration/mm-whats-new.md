@@ -32,7 +32,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## Coming soon
 - **Identity mapping capacity.** Improvement to identity mapping capacity to better support larger migrations.
 - **Forms migration.** Support migrating Forms during Google Drive migration.
-- **Skip scan.** Allow to skip scan process in Box migration.
+
+## March 2024
+
+- **Skip scan.** You can now skip scan process in Box migration scenario. Once the users (tasks) are added to the Scan list, they can be send to Migrations tab instantly for migration operations.
 
 ## February 2024
 - **Download limit increase.** Now download up to 5,000 tasks for summary reports and 500 tasks for detailed reports. [Learn more about report types and download limits](mm-cloud-reports.md).
