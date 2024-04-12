@@ -32,6 +32,8 @@ description: "In this article, you'll learn how you can use Intune to deploy the
 
 If you're a global admin or assigned [a role in Intune](/mem/intune/fundamentals/role-based-access-control) that gives you the necessary permissions, you can use Intune to deploy OneDrive apps. Before you begin deploying, make sure you review the planning information and deployment options in the [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).
 
+To deploy apps in Intune, you use the [Microsoft Intune admin center](https://intune.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps). 
+
 ## Deploy the OneDrive sync app to Windows devices
 
 OneDrive is preinstalled on Windows 10 and later. You can choose to switch to [per-machine installation](per-machine-installation.md).
@@ -39,8 +41,6 @@ OneDrive is preinstalled on Windows 10 and later. You can choose to switch to [p
 For info about configuring sync app settings using Intune, see [Configure settings with Intune](configure-sync-intune.md).
 
 ## Deploy the OneDrive app to iOS devices
-
-To deploy apps in Intune, you use the [Microsoft Intune admin center](https://intune.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps). 
 
 There are two options for deploying the OneDrive app on iOS:
 - **Apple VPP.** Using this option and deploying with device licensing, the app is installed without user interaction. For more information, see [How to manage iOS and macOS apps purchased through Apple Business Manager with Microsoft Intune](/mem/intune/apps/vpp-apps-ios).
