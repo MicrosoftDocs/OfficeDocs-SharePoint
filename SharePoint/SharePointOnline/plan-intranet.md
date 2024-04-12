@@ -52,7 +52,7 @@ As a first step, to see examples of what's possible with SharePoint, we recommen
 
 For an understanding about how the different component parts work together, review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
 
-For inspirations and demonstrations on adopting the intelligent intranet, visit the [The intelligent intranet - Microsoft Adoption] (https://adoption.microsoft.com/intelligent-intranet/).
+For inspirations and demonstrations on adopting the intelligent intranet, visit the [The intelligent intranet - Microsoft Adoption](https://adoption.microsoft.com/intelligent-intranet/).
 
 In the following sections, we look at how to find the best starting point for your SharePoint intranet and how to prioritize the different intranet solutions that you may need for your organization. Keep these references handy as you work with your stakeholders - they can help you get the most value and best time to value for your intranet solutions.
 
