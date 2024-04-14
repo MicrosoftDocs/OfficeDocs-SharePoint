@@ -1,5 +1,5 @@
 ---
-ms.date: 4/12/2024
+ms.date: 4/14/2024
 title: "Restricted SharePoint Search Admin PowerShell Scripts"
 ms.reviewer: 
 ms.author: ruihu
@@ -59,8 +59,9 @@ Restricted SharePoint Search is disabled by default. To verify this feature’s 
 >
 > **Syntax**
 >
-> Get-SPOTenantRestrictedSearchMode
->
+```powershell Get-SPOTenantRestrictedSearchMode
+```
+
 > **Description**
 >
 > The Get-SPOTenantRestrictedSearchMode cmdlet returns the current mode that is set in the tenant."
@@ -77,19 +78,20 @@ Get-SPOTenantRestrictedSearchMode
 
 To enable or disable the Restricted SharePoint Search, you can run:
 
-> **Set-SPOTenantRestrictedSearchMode**
->
+ **Set-SPOTenantRestrictedSearchMode**
+
 > Module: [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
 >
 > Applies to: SharePoint Online
 >
 > **Syntax**
->
->Set-SPOTenantRestrictedSearchMode  
-> \[-Mode\] {Disabled \| Enabled}
 
-> \[\<CommonParameters\>\]
->
+```powershell
+Set-SPOTenantRestrictedSearchMode 
+ \[-Mode\] {Disabled \| Enabled}
+ \[\<CommonParameters\>\]
+```
+
 > **Description:** Enable or disabled the Restricted Search setting with the default being disabled. The first time when the setting is enabled the allow list is empty.  
 >
 
@@ -108,7 +110,7 @@ Set-SPOTenantRestrictedSearchMode – Mode Disabled  
 
 > This example disables the Restricted Tenant Search mode for the tenant.
 >
-> 
+ 
 > **Parameters**
 >
 > **-Mode**
@@ -135,13 +137,16 @@ When Restricted SharePoint Search is enabled, you can add site URLs to the allow
 >
 > **Syntax**
 >
-> Add-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
->
-> Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]  
+```powershell Add-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+```
+
+```powershell 
+Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]  
 >
 > \[\<CommonParameters\>\]
->
-> **Description**
+``
+
+**Description**
 >
 > Restricted SharePoint Search gives Global and SharePoint admins the ability to enable/disable organization-wide search. When enabled, this control offers up to 100 sites to be included in organization-wide search, including user's previously accessed files and content from user's frequent sites. The allow list is a set of curated sites where the customer has reviewed the permissions and applied data governance to them. The allow list supports Site Collections, Hub, and Communication sites.
 >
@@ -205,12 +210,14 @@ You can remove sites from the allowed list by providing the Site URL in string o
 >
 > **Syntax**
 >
-> Remove-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
->
-> Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]
+```powershell  Remove-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+```
+
+```powershell 
+Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]
 >
 > \[\<CommonParameters\>
->
+```
 >  
 >
 > **Description**
@@ -248,9 +255,7 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 | Accept Pipeline input:       | False    |
 | Accept wildcard characters:  | False    |
 
->  
->
->  
+ 
 >
 > **-SitesListFileURL**
 >
