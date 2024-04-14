@@ -54,68 +54,65 @@ You can find the most active sites using the SharePoint Admin Center (SPAC). If 
 
 - **Using SPAC DAG Activity(sharing) report** to [identify sites](/SharePoint/data-access-governance-reports) that have been shared most in the last 28 days.
 
-### Using SharePoint Admin Center (SPAC) to find the most active sites
+### Use SharePoint Admin Center (SPAC) to find the most active sites
 
-Admins can use SharePoint Admin Center (SPAC) features to identify sites that can be part of the allowed list based on their criteria. The [Active sites page in the SharePoint admin center]((https://go.microsoft.com/fwlink/?linkid=2185220)) lets you  view the SharePoint sites in your organization. Based on your organization’s needs, you can [sort and filter sites](/sharepoint/customize-admin-center-site-list#sort-and-filter-the-site-list) based on columns such as Last activity, Page views, Page visits. You can search for sites, and [customize the columns and views](/sharepoint/customize-admin-center-site-list#customize-columns).
+Admins can use SharePoint Admin Center (SPAC) features to identify sites that can be part of the allowed list based on their criteria. The [Active sites page in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185220) lets you  view the SharePoint sites in your organization. Based on your organization’s needs, you can [sort and filter sites](/sharepoint/customize-admin-center-site-list#sort-and-filter-the-site-list) based on columns such as Last activity, Page views, Page visits. You can search for sites, and [customize the columns and views](/sharepoint/customize-admin-center-site-list#customize-columns).
 
 **Step 1:** In SPAC left pane, select “Active Sites.”
 
-[!Screenshot of the first step of getting to the active sites page in SPAC](media/rss-spac-1.png)
+![Screenshot of the first step of getting to the active sites page in SPAC](media/rss-spac-1.png)
 
 **Step 2:** Using the sorting and filtering functionality of the Active sites you can curate top 100 sites based on your organization needs and create a custom view.
 
-[!Screenshot of using filter and sorting functions to sort active sites page in SPAC](media/rss-spac-2.png)
+![Screenshot of using filter and sorting functions to sort active sites page in SPAC](media/rss-spac-2.png)
 
 **Step 3:** First move the columns by scrolling to right and clicking the “Customize columns”.  
 
-[!Screenshot of how to get to customize columns](media/rss-spac-3.png)
+![Screenshot of how to get to customize columns](media/rss-spac-3.png)
 
 Use up and down arrows next to each column's name to move up the Page Views and Files next to the URL, so it's easy for you to see the important columns together for analysis.  
 
-[!Screenshot of how to move columns up and down.](media/rss-spac-4.png)
+![Screenshot of how to move columns up and down.](media/rss-spac-4.png)
 
-**Step 4:** To create custom view of the top 100 sites sorted by “page views” for last 30 days do the below.  
+**Step 4:** To create custom view of the top 100 sites sorted by “page views” for last 30 days do the following:  
 
-1.  Select the arrow next to the column header of “Page views” and select “Large to Small.”
+1. Select the arrow next to the column header of **Page views** and select **Large to Small**.
 
-<!-- -->
+1. Select the arrow next to the column header of **Last activity** select on the **Filter by last activity**> **Last 30 days**.
 
-2.  Select the arrow next to the column header of “Last activity” \> select on the “Filter by last activity “\> Last 30 days.
+1. You can use the other columns to sort, or filter based on your needs.
 
-<!-- -->
+![Screenshot of using other columns to filter and sort to sort active sites](media/rss-spac-5.png)
 
-3.  You can use the other columns to sort, or filter based on your needs
+**Step 5:** Once you are done with your sorting and filtering, you can create a custom view based on your current setting, and save it for future use. To create a custom view, select **All sites** > **Save view as**.
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image6.png" style="width:6.5in;height:3.35486in" alt="A screenshot of a computer Description automatically generated" />
+![Screenshot of saving custom active sites view](media/rss-spac-6.png)
+Enter a name for your custom view:
+![Screenshot of naming custom active sites view](media/rss-spac-7.png)
 
-**Step \#4:** Once you're done with your sorting and filtering, you can create a custom view that you can use in future to refer for Active sites sorted by page views.
+Your saved custom view is now available for you to choose from the drop down menu next time.
+![Screenshot of naming custom active sites view](media/rss-spac-8.png)
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image7.png" style="width:6.5in;height:3.38472in" alt="A screenshot of a computer Description automatically generated" />
+  **Step #6:** Export the sites and manage the list in CSV file that you can use to add to the list by selecting the **Export** tab.
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image8.png" style="width:6.25in;height:3.27014in" alt="A screenshot of a computer Description automatically generated" />
+![Screenshot of naming custom active sites view](media/rss-spac-export.png)
+![Screenshot of naming custom active sites view](media/rss-spac-csv.png)
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image9.png" style="width:6.45764in;height:3.3125in" alt="A screenshot of a computer Description automatically generated" />
+### Use SPAC DAG Activity (sharing) report to find most shared sites
 
-  **Step \#5:** Export the sites and manage the list in CSV file that you can use to add to the list.
+The SPAC DAG report (Data access governance reports for SharePoint sites) is part of [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219). Admins with Microsoft 365 E5 licensing or Microsoft Syntex - SharePoint Advanced Management can access this report. This report helps you identify potential sites that are active and shared in the last 28 days.   
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image10.png" style="width:0.65764in;height:0.25972in" alt="Text Box" /><img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image11.png" style="width:6.5in;height:1.8125in" alt="A screenshot of a computer Description automatically generated" />
+**Step 1:** In the left pane, select **Reports** > **Data access governance**. Select the **Sharing links** report.
+![Screenshot of where to find SPAC DAG report.](media/rss-spac-dag-1.png)
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image12.png" style="width:6.5in;height:1.64514in" alt="A screenshot of a computer Description automatically generated" />
+**Step #2:** In the right pane **Sharing Links** page, select on the **Anyone links** report.
 
-**SPAC DAG Activity(sharing) report** to identify sites that have been shared more in the last 28 days.
+![Screenshot of where to find Anyone link.](media/rss-spac-dag-2.png)
 
-**<u>Documentation: [Data access governance reports for SharePoint sites - SharePoint in Microsoft 365 \| Microsoft Learn](https://learn.microsoft.com/en-US/SharePoint/data-access-governance-reports?WT.mc_id=365AdminCSH_inproduct)</u>**
+**Step #3:** **"Anyone" links** report gives you a list of sites in which the highest number of Anyone links were created. These links let anyone access files and folders without signing in. These sites might be great candidates to allow in tenant/org wide search.
 
-This report is part of [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219). Admins with Microsoft 365 E5 licensing can access this report. Sharing links helps you identify potential sites that are active and shared in the last 28 days.  
+![Screenshot of where to find Anyone link.](media/rss-spac-dag-2.png)
 
-**Step \#1:** In the left pane, select **Reports \> Data access governance.** Select on the **“Sharing links”** report.
+## Resources
 
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image13.png" style="width:6.5in;height:3.47986in" alt="A screenshot of a computer Description automatically generated" />
-
-**Step \#2:** In the right pane “Sharing Links” page, select on the “Anyone links” report.
-
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image14.png" style="width:6.5in;height:3.5in" alt="A screenshot of a computer Description automatically generated" />
-
-**Step \#3:** **"Anyone" links** report gives you a list of sites in which the highest number of Anyone links were created. These links let anyone access files and folders without signing in. These sites might be great candidates to allow in tenant/org wide search.
-
-<img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image15.png" style="width:6.5in;height:3.54236in" alt="A screenshot of a computer Description automatically generated" />
+[Microsoft Copilot for Microsoft 365 - best practices with SharePoint](/sharepoint/sharepoint-copilot-best-practices)
