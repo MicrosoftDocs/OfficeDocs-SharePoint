@@ -97,7 +97,8 @@ Set-SPOTenantRestrictedSearchMode 
 
 > **Example 1**
 
-```powershell Set-SPOTenantRestrictedSearchMode -Mode Enabled  
+```powershell
+Set-SPOTenantRestrictedSearchMode -Mode Enabled  
 ```
 
 > This example sets or enables the Restricted Tenant Search mode for the tenant.
@@ -137,14 +138,14 @@ When Restricted SharePoint Search is enabled, you can add site URLs to the allow
 >
 > **Syntax**
 >
-```powershell Add-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+```powershell
+Add-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
 ```
 
 ```powershell 
 Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]  
->
-> \[\<CommonParameters\>\]
-``
+ \[\<CommonParameters\>\]
+```
 
 **Description**
 >
@@ -153,7 +154,7 @@ Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-Contain
 > **Example 1**
 >
 ```powershell
-Add-SPOTenantRestrictedSearchAllowedList -SitesList @(“[<u>https://contoso.sharepoint.com/sites/Marketing</u>](https://contoso.sharepoint.com/sites/Marketing)”, “[<u>https://contoso.sharepoint.com/sites/Benefits</u>](https://contoso.sharepoint.com/sites/Benefits)”)
+Add-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/Benefits](https://contoso.sharepoint.com/sites/Benefits)”)
 ```
 
 > This example lets the admin add the sites to the allowed list.
@@ -167,8 +168,6 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 >  
 >
 > This example lets the admin add the sites to the allowed list by giving a CSV file. Add the list of site URL’s in URL column.
->
->  
 >
 > **Parameters**
 >
@@ -185,7 +184,7 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 | Accept wildcard characters:  | False    |
 
 >  
->
+
 > **-SitesListFileURL**
 >
 > **File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.**
@@ -204,19 +203,19 @@ You can remove sites from the allowed list by providing the Site URL in string o
 
 > **Remove-SPOTenantRestrictedSearchAllowedList**
 >
-> **Module:** [<u>Microsoft.Online.SharePoint.PowerShell</u>](/powershell/module/sharepoint-online)
+> **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
 >
 > **Applies to:** SharePoint Online
 >
 > **Syntax**
 >
-```powershell  Remove-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+```powershell
+Remove-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
 ```
 
 ```powershell 
 Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]
->
-> \[\<CommonParameters\>
+ \[\<CommonParameters\>
 ```
 >  
 >
@@ -227,7 +226,7 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-Cont
 > **Example 1**
 >
 ```powershell
-Remove-SPOTenantRestrictedSearchAllowedList -SitesList @(“[<u>https://contoso.sharepoint.com/sites/Marketing</u>](https://contoso.sharepoint.com/sites/Marketing)”, “[<u>https://contoso.sharepoint.com/sites/HR</u>](https://contoso.sharepoint.com/sites/HR)”)
+Remove-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/HR](https://contoso.sharepoint.com/sites/HR)”)
 ```
 
 > This example lets the admin remove the sites to the allowed list.
@@ -255,8 +254,6 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 | Accept Pipeline input:       | False    |
 | Accept wildcard characters:  | False    |
 
- 
->
 > **-SitesListFileURL**
 >
 > **File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.**
@@ -280,9 +277,11 @@ You can get the existing list of URLs in the allowed list by running the followi
 > **Applies to:** SharePoint Online
 >
 > **Syntax**
->
-> Get-SPOTenantRestrictedSearchAllowedList
->
+
+```powershell 
+ Get-SPOTenantRestrictedSearchAllowedList
+```
+
 > **Description**
 >
 > Restricted SharePoint Search gives an ability to Global/Tenant and SharePoint admins to Global/Tenant and SharePoint admins to enable/disable organization wide search. This control, when enabled offers up to 100 sites to be allowed in organization wide search, includes user’s previously accessed files and includes content from user’s frequent sites. Allow list is a set of curated sites where the customer has reviewed the permissions and has applied data governance on them. Allow list will support Site Collections, Hub and Comm sites.
@@ -296,7 +295,7 @@ You can get the existing list of URLs in the allowed list by running the followi
 > **Example 1**
 
 ```powershell
- Get-SPOTenantRestrictedSearchAllow<u>ed</u>List
+ Get-SPOTenantRestrictedSearchAllowedList
 ```
 
 > This example lets the admin get the existing allowed list in the tenant.
