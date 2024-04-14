@@ -91,12 +91,13 @@ Enter a name for your custom view:
 ![Screenshot of naming custom active sites view](media/rss-spac-7.png)
 
 Your saved custom view is now available for you to choose from the drop down menu next time.
-![Screenshot of naming custom active sites view](media/rss-spac-8.png)
+![Screenshot of reviewing saved custom active sites view](media/rss-spac-8.png)
 
   **Step #6:** Export the sites and manage the list in CSV file that you can use to add to the list by selecting the **Export** tab.
 
-![Screenshot of naming custom active sites view](media/rss-spac-export.png)
-![Screenshot of naming custom active sites view](media/rss-spac-csv.png)
+![Screenshot of exporting  active sites results](media/rss-spac-export.png)
+Your exported CSV file looks similar to the following CSV file:
+![Screenshot of exported csv file](media/rss-spac-csv.png)
 
 ### Use SPAC DAG Activity (sharing) report to find most shared sites
 
