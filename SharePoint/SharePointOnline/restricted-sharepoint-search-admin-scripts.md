@@ -112,7 +112,7 @@ This example disables the Restricted Tenant Search mode for the tenant.
 
  **Sets the mode for the Restricted Tenant Search.**
 
-| Type:                        | String:   |
+| Type                         | String    |
 |------------------------------|-----------|
 | Position:                    | 0         |
 | Default Value:               | Disabled  |
@@ -163,19 +163,19 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 
  **Site list for allowed list.**
 
-| Type:                        | String:  |
+| Type                         | String  |
 |------------------------------|----------|
 | Position:                    | 0        |
 | Default Value:               | None     |
 | Required:                    | True     |
 | Accept Pipeline input:       | False    |
 | Accept wildcard characters:  | False    |
- 
+
  **-SitesListFileURL**
 
  **File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.**
 
-| Type:                        | String:  |
+| Type                         | String  |
 |------------------------------|----------|
 | Position:                    | 0        |
 | Default Value:               | None     |
@@ -226,7 +226,7 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 
  **Site list that will be removed from allowed list.**
 
-| Type:                        | String:  |
+| Type                         | String   |
 |------------------------------|----------|
 | Position:                    | 0        |
 | Default Value:               | None     |
@@ -238,7 +238,7 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 
  **File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.**
 
-| Type:                        | String:  |
+| Type                         | String   |
 |------------------------------|----------|
 | Position:                    | 0        |
 | Default Value:               | None     |
