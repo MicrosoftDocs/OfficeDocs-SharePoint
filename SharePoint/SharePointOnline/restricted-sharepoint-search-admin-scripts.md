@@ -29,7 +29,7 @@ By default, **Restricted SharePoint Search** is not enabled. To enable and set u
 
 - Add sites to the allowed list by providing URL
 
-- Remove sites to the allowed list by providing URL
+- Remove sites from the allowed list by providing URL
 
 - Get the existing list of URLs that are added in allow list
 
@@ -63,7 +63,7 @@ Restricted SharePoint Search is disabled by default. To verify this feature’s 
 Get-SPOTenantRestrictedSearchMode
 ```
 
-**Example 1**
+**Example**
 
 ```powershell
 Get-SPOTenantRestrictedSearchMode
@@ -95,15 +95,15 @@ Set-SPOTenantRestrictedSearchMode 
 Set-SPOTenantRestrictedSearchMode -Mode Enabled  
 ```
 
-> This example sets or enables the Restricted Tenant Search mode for the tenant.
->
-> **Example 2**
+Example 1 sets or enables the Restricted Tenant Search mode for the tenant.
+
+ **Example 2**
 
 ```powershell
 Set-SPOTenantRestrictedSearchMode – Mode Disabled  
 ```
 
-This example disables the Restricted Tenant Search mode for the tenant.
+Example 2 disables the Restricted Tenant Search mode for the tenant.
 
 
  **Parameters**
@@ -202,15 +202,15 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesList <List[string]> [<CommonPa
 ```powershell
 Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl <string> [-ContainsHeader <bool>]
  [<CommonParameters>]
-``` 
+```
 
- **Example 1**
+**Example 1**
 
 ```powershell
 Remove-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/HR](https://contoso.sharepoint.com/sites/HR)”)
 ```
 
- This example lets the admin remove the sites to the allowed list.
+Example 1 lets the admin remove the sites to the allowed list.
 
  **Example 2**
 
@@ -218,7 +218,7 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sha
 Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Downloads\UrlList.csv
 ```
 
- This example lets the admin add the sites to the allowed list by giving a CSV file.
+Example 2 lets the admin add the sites to the allowed list by giving a CSV file.
 
  **Parameters**
 
@@ -262,10 +262,10 @@ You can get the existing list of URLs in the allowed list by running the followi
  Get-SPOTenantRestrictedSearchAllowedList
 ```  
 
-> **Example 1**
+**Example**
 
 ```powershell
  Get-SPOTenantRestrictedSearchAllowedList
 ```
 
-> This example lets the admin get the existing allowed list in the tenant.
+This example lets the admin get the existing allowed list in the tenant.
