@@ -154,10 +154,6 @@
 #### [Workflow Associations 2013](migration-assessment-scan-workflow-associations-2013.md)
 #### [Workflow Running Solutions 2010](migration-assessment-scan-workflow-running-solutions-2010.md)
 #### [Workflow Running Solutions 2013](migration-assessment-scan-workflow-running-solutions-2013.md)
-### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
-#### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
-#### [Microsoft Entra Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-#### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 ## Migration Scenario Guides
 ### [Migrating file shares to OneDrive, Teams, and SharePoint](fileshare-to-odsp-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
