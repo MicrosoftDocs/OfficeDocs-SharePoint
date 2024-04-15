@@ -110,7 +110,7 @@ Example 2 disables the Restricted Tenant Search mode for the tenant.
 
  **-Mode**
 
- **Sets the mode for the Restricted Tenant Search.**
+ Sets the mode for the Restricted Tenant Search.
 
 | Type                         | String    |
 |------------------------------|-----------|
@@ -161,7 +161,7 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 
  **-SitesList**
 
- **Site list for allowed list.**
+ Site list for allowed list.
 
 | Type                         | String  |
 |------------------------------|----------|
@@ -173,7 +173,7 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 
  **-SitesListFileURL**
 
- **File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.**
+ File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.
 
 | Type                         | String  |
 |------------------------------|----------|
@@ -224,7 +224,7 @@ Example 2 lets the admin add the sites to the allowed list by giving a CSV file.
 
  **-SitesList**
 
- **Site list that will be removed from allowed list.**
+ Site list that will be removed from allowed list.
 
 | Type                         | String   |
 |------------------------------|----------|
@@ -236,7 +236,7 @@ Example 2 lets the admin add the sites to the allowed list by giving a CSV file.
 
  **-SitesListFileURL**
 
- **File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.**
+ File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.
 
 | Type                         | String   |
 |------------------------------|----------|
