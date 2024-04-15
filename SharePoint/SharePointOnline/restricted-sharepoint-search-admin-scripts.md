@@ -51,51 +51,45 @@ Before you use the PowerShell scripts in this article, you need to do the follow
 
 Restricted SharePoint Search is disabled by default. To verify this feature’s current mode, you can run the following script:
 
-> **Get-SPOTenantRestrictedSearchMode**
->
-> **Module**: [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
->
-> **Applies to:** SharePoint Online
->
-> **Syntax**
->
-```powershell Get-SPOTenantRestrictedSearchMode
-```
+**Get-SPOTenantRestrictedSearchMode**
 
-> **Description**
->
-> The Get-SPOTenantRestrictedSearchMode cmdlet returns the current mode that is set in the tenant."
+ **Module**: [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
 
-> **Example 1**
+ **Applies to:** SharePoint Online
+
+ **Syntax**
 
 ```powershell
 Get-SPOTenantRestrictedSearchMode
 ```
 
-> This example lets the admin get the existing allowed list in the tenant. Result can be ‘Enabled’ or ‘Disabled’ based on the current setting.
+**Example 1**
+
+```powershell
+Get-SPOTenantRestrictedSearchMode
+```
+
+This example lets the admin get the existing allowed list in the tenant. Result can be ‘Enabled’ or ‘Disabled’ based on the current setting.
 
 ## Enable or disable the Restricted Search setting
 
-To enable or disable the Restricted SharePoint Search, you can run:
+Enable or disabled the Restricted Search setting with the default being disabled. The first time when the setting is enabled the allow list is empty. To enable or disable the Restricted SharePoint Search, you can run:
 
  **Set-SPOTenantRestrictedSearchMode**
 
-> Module: [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
->
-> Applies to: SharePoint Online
->
-> **Syntax**
+ Module: [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
+
+Applies to: SharePoint Online
+
+**Syntax**
 
 ```powershell
 Set-SPOTenantRestrictedSearchMode 
- \[-Mode\] {Disabled \| Enabled}
- \[\<CommonParameters\>\]
+[-Mode] {Disabled | Enabled}
+ [<CommonParameters>]
 ```
 
-> **Description:** Enable or disabled the Restricted Search setting with the default being disabled. The first time when the setting is enabled the allow list is empty.  
->
-
-> **Example 1**
+ **Example 1**
 
 ```powershell
 Set-SPOTenantRestrictedSearchMode -Mode Enabled  
@@ -109,14 +103,14 @@ Set-SPOTenantRestrictedSearchMode -Mode Enabled  
 Set-SPOTenantRestrictedSearchMode – Mode Disabled  
 ```
 
-> This example disables the Restricted Tenant Search mode for the tenant.
->
- 
-> **Parameters**
->
-> **-Mode**
->
-> **Sets the mode for the Restricted Tenant Search.**
+This example disables the Restricted Tenant Search mode for the tenant.
+
+
+ **Parameters**
+
+ **-Mode**
+
+ **Sets the mode for the Restricted Tenant Search.**
 
 | Type:                        | String:   |
 |------------------------------|-----------|
@@ -130,50 +124,44 @@ Set-SPOTenantRestrictedSearchMode – Mode Disabled  
 
 When Restricted SharePoint Search is enabled, you can add site URLs to the allowed list in string or csv file:
 
-> **Add-SPOTenantRestrictedSearchAllowedList**
->
-> **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
->
-> **Applies to:** SharePoint Online
->
-> **Syntax**
->
+**Add-SPOTenantRestrictedSearchAllowedList**
+
+ **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
+
+ **Applies to:** SharePoint Online
+
+ **Syntax**
+
 ```powershell
-Add-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+Add-SPOTenantRestrictedSearchAllowedList -SitesList <List[string]> [<CommonParameters>]
 ```
 
-```powershell 
-Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]  
- \[\<CommonParameters\>\]
+```powershell
+Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl <string> [-ContainsHeader <bool>]  
+ [<CommonParameters>]
 ```
 
-**Description**
->
-> Restricted SharePoint Search gives Global and SharePoint admins the ability to enable/disable organization-wide search. When enabled, this control offers up to 100 sites to be included in organization-wide search, including user's previously accessed files and content from user's frequent sites. The allow list is a set of curated sites where the customer has reviewed the permissions and applied data governance to them. The allow list supports Site Collections, Hub, and Communication sites.
->
-> **Example 1**
->
+ **Example 1**
+
 ```powershell
 Add-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/Benefits](https://contoso.sharepoint.com/sites/Benefits)”)
 ```
 
-> This example lets the admin add the sites to the allowed list.
->
-> **Example 2**
->
+This example lets the admin add the sites to the allowed list.
+
+ **Example 2**
+
 ```powershell
 Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Downloads\UrlList.csv
 ```
+  
+ This example lets the admin add the sites to the allowed list by giving a CSV file. Add the list of site URL’s in URL column.
 
->  
->
-> This example lets the admin add the sites to the allowed list by giving a CSV file. Add the list of site URL’s in URL column.
->
-> **Parameters**
->
-> **-SitesList**
->
-> **Site list for allowed list.**
+ **Parameters**
+
+ **-SitesList**
+
+ **Site list for allowed list.**
 
 | Type:                        | String:  |
 |------------------------------|----------|
@@ -182,12 +170,10 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 | Required:                    | True     |
 | Accept Pipeline input:       | False    |
 | Accept wildcard characters:  | False    |
+ 
+ **-SitesListFileURL**
 
->  
-
-> **-SitesListFileURL**
->
-> **File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.**
+ **File that has list of sites URLs that can be added to an allowed list when the tenant is set to Restricted Tenant Search Mode.**
 
 | Type:                        | String:  |
 |------------------------------|----------|
@@ -201,50 +187,44 @@ Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Down
 
 You can remove sites from the allowed list by providing the Site URL in string or csv file using PowerShell script:
 
-> **Remove-SPOTenantRestrictedSearchAllowedList**
->
-> **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
->
-> **Applies to:** SharePoint Online
->
-> **Syntax**
->
+ **Remove-SPOTenantRestrictedSearchAllowedList**
+
+ **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
+
+ **Applies to:** SharePoint Online
+
+ **Syntax**
+
 ```powershell
-Remove-SPOTenantRestrictedSearchAllowedList -SitesList \<List\[string\]\> \[\<CommonParameters\>\]
+Remove-SPOTenantRestrictedSearchAllowedList -SitesList <List[string]> [<CommonParameters>]
 ```
 
-```powershell 
-Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl \<string\> \[-ContainsHeader \<bool\>\]
- \[\<CommonParameters\>
-```
->  
->
-> **Description**
->
-> Restricted SharePoint Search gives an ability to Global/Tenant and SharePoint admins to Global/Tenant and SharePoint admins to enable/disable organization wide search. This control, when enabled offers up to 100 sites to be allowed in organization wide search, includes user’s previously accessed files and includes content from user’s frequent sites. Allow list is a set of curated sites where the customer has reviewed the permissions and has applied data governance on them. Allow list will support Site Collections, Hub and Comm sites. This command gives the ability to remove sites from existing allowed list so they can be removed from organization wider search.  
->
-> **Example 1**
->
+```powershell
+Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl <string> [-ContainsHeader <bool>]
+ [<CommonParameters>]
+``` 
+
+ **Example 1**
+
 ```powershell
 Remove-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/HR](https://contoso.sharepoint.com/sites/HR)”)
 ```
 
-> This example lets the admin remove the sites to the allowed list.
->
-> **Example 2**
->
+ This example lets the admin remove the sites to the allowed list.
+
+ **Example 2**
+
 ```powershell
 Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Downloads\UrlList.csv
 ```
 
-> This example lets the admin add the sites to the allowed list by giving a CSV file.
->
->  
-> **Parameters**
->
-> **-SitesList**
->
-> **Site list that will be removed from allowed list.**
+ This example lets the admin add the sites to the allowed list by giving a CSV file.
+
+ **Parameters**
+
+ **-SitesList**
+
+ **Site list that will be removed from allowed list.**
 
 | Type:                        | String:  |
 |------------------------------|----------|
@@ -254,9 +234,9 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 | Accept Pipeline input:       | False    |
 | Accept wildcard characters:  | False    |
 
-> **-SitesListFileURL**
->
-> **File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.**
+ **-SitesListFileURL**
+
+ **File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.**
 
 | Type:                        | String:  |
 |------------------------------|----------|
@@ -270,28 +250,18 @@ Remove-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl C:\Users\admin\Dow
 
 You can get the existing list of URLs in the allowed list by running the following PowerShell script:
 
-> **Get-SPOTenantRestrictedSearchAllowedList**
->
-> **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
->
-> **Applies to:** SharePoint Online
->
-> **Syntax**
+ **Get-SPOTenantRestrictedSearchAllowedList**
 
-```powershell 
+ **Module:** [Microsoft.Online.SharePoint.PowerShell](/powershell/module/sharepoint-online)
+
+ **Applies to:** SharePoint Online
+
+ **Syntax**
+
+```powershell
  Get-SPOTenantRestrictedSearchAllowedList
-```
+```  
 
-> **Description**
->
-> Restricted SharePoint Search gives an ability to Global/Tenant and SharePoint admins to Global/Tenant and SharePoint admins to enable/disable organization wide search. This control, when enabled offers up to 100 sites to be allowed in organization wide search, includes user’s previously accessed files and includes content from user’s frequent sites. Allow list is a set of curated sites where the customer has reviewed the permissions and has applied data governance on them. Allow list will support Site Collections, Hub and Comm sites.
->
-> The Get-SPOTenantRestrictedSearchAllowedList cmdlet will return all the sites that are in the allowed list in the tenant.  
->
-> You must be a SharePoint Online or global administrator to run the Get-SPOTenantRestrictedSearchAllowedList cmdlet.
->
->  
->
 > **Example 1**
 
 ```powershell
