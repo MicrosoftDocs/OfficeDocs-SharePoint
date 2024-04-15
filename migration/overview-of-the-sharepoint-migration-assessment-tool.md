@@ -29,26 +29,9 @@ The SharePoint Migration Assessment Tool is a simple command line executable too
 The tool is designed to run without impacting your environment, so you might observe that the tool requires one to two days to complete a scan of your environment. During this time, the tool reports progress in the console window. After the scan finishes, the output files are in the Logs directory. This is where you can find the summary and more detailed insights into the scenarios that could be impacted by migration.
 
 > [!NOTE]
-> To download the SharePoint Migration Tool, see [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598).
-
+> To download the SharePoint Migration Assessment Tool, see [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598).
 > [!NOTE]
 > To improve the quality of Microsoft products and services, the tool reports anonymous statistical information back to Microsoft. Optionally, you can identify your organization when prompted at the end of the scan. If the tool can't connect to the internet to report this information, the tool still functions as otherwise expected.
-
-## Modes in SharePoint Migration Assessment Tool
-
-The tool offers two modes: Assessment and Identity Mapping.
-
-### Assessment
-
-This is the default mode. If you run SMAT.exe, the assessment runs. The assessment process runs scans against the SharePoint farm and associated content. It looks for issues that have been known to cause issues for customers who are migrating into SharePoint. For more info about the scans that are available, see [SharePoint Migration Assessment Tool: Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md).
-
-### Identity Mapping
-
-You can use Identity Mapping to generate a report of all the user and group identities that have access to your SharePoint environment and attempts to map those identities to Microsoft Entra user and group identities.
-
-This process is very important to migration. If identities aren't correctly set up before migration, users could possibly lose access to content, as well as incorrect information on the site. For example, the **Created By** and **Modified** fields might not show the correct identity post migration.
-
-For more info about Identity Mapping, see [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md).
 
 ## Prerequisites
 
@@ -66,7 +49,7 @@ You can modify two config files for SMAT:
 
 - **SiteSkipList.csv** is installed in the same directory as SMAT.exe. Adding sites to this CSV tells SMAT not to include these sites in the report output. For examples about how to add sites to the skip list, see SiteSkipList.csv.
 
-- **ScanDef.json** is installed in the same directory as the SMAT. You can use ScanDef.json to enable or disable individual scans for SMAT. This file contains configurations for assessment on both SharePoint 2010 and 2013, as well as Identity Mapping.
+- **ScanDef.json** is installed in the same directory as the SMAT. You can use ScanDef.json to enable or disable individual scans for SMAT. This file contains configurations for assessment on both SharePoint 2010 and 2013.
 
 To disable a scan, locate the entry in the ScanDef.json file, and set  *Enabled*  to **false**. This is useful if there is a scan that your business doesn't care about. Disabling the scan reduces the overall execution time of SMAT.
 
@@ -96,8 +79,9 @@ SMAT.exe is a launcher program that determines your intentions based on the para
 
 - **SMIT.exe** - Performs identity mapping work for both SharePoint 2010 and 2013 environments.
 
+> [!NOTE]
+> SMIT stops functioning after June 30th, 2023 due to the deprecation of Azure AD Graph service. For more details on the latest announcement, see [Important: Azure AD Graph Retirement and Powershell Module Deprecation](https://aka.ms/aadgraphupdate).
 When running SMAT.exe to perform an assessment from PowerShell.exe, the following actions occur. The PowerShell window running SMAT.exe launches the app to perform the work. After the working app is loaded, the SMAT.exe loader program terminates, and returns control to the operator. The tool performing the work runs in its own window until it completes.
-
 ## Log files
 
 You might see up to three log files in the output directory:
@@ -114,12 +98,11 @@ If you need to schedule the assessment process, you can do so by running the spe
 
 Any scripting scenario must use the `-q` switch to run the .exe file in quiet mode. This mode doesn't provide any output to the console and avoids anything that would prompt the operator for input.
 
-At this time, the executable file for Identity Mapping (SMIT.exe) doesn't support scripting. This process prompts for credentials to Azure at a minimum and might prompt for credentials to connect to Active Directory. If you attempt to script against this executable file, it hangs and doesn't complete when the program prompts for credentials.
-
 ## More info
 
 To download the SharePoint Migration Tool, and for more info about how to address issues identified in the assessment reports, see
 
 - [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/download/details.aspx?id=53598)
 
-- [SharePoint Migration Assessment Tool: Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+- [SharePoint Migration Assessment Tool: Scan Reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+

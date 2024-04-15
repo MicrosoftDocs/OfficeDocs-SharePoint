@@ -58,15 +58,13 @@ When Migration Manager discovers an unsupported file during a scan or migration,
 ## What isn't migrated from Google Drive
 
 Google doesn't allow us to export these items from Drive.
-
-- Google Drawings
 - Google Sites
 - Google Maps
-- Google Forms
 
->[!Important]
->We don't scan unorganized or "orphaned" files. As a result, they won't be migrated or shown in any of our reports. To learn more about unorganized files see:  [Unorganized or "orphaned" files in Google](https://support.google.com/drive/thread/4333474/can-t-find-a-file-s-location-on-drive-no-location-provided?hl=en)
-
+> [!Important]
+> - Google Forms are now migrated by default. Forms Desintination must be designated for migration tasks with Forms. [Learn more about Forms Destination](/sharepointmigration/mm-google-step4-review-destinations)
+> - Google Drawings are migrated as PNG files by default.
+- We don't scan unorganized or "orphaned" files. As a result, they won't be migrated or shown in any of our reports. To learn more about unorganized files see:  [Unorganized or "orphaned" files in Google](https://support.google.com/drive/thread/4333474/can-t-find-a-file-s-location-on-drive-no-location-provided?hl=en)
 ### Google Docs, Slides, and Sheets are converted
 
 Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When you migrate your content from Google Workspace, the Google API converts the files into Microsoft Office files. The original files in Google Drive aren't affected.

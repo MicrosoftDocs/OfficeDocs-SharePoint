@@ -2,8 +2,8 @@
 ms.date: 08/07/2023
 title: Plan and deploy a file collaboration environment - SharePoint
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 recommendations: true
 audience: Admin

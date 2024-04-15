@@ -102,7 +102,7 @@ reg delete HKCU\Software\Microsoft\OneDrive /v ClientEverSignedIn /f
 reg delete HKCU\Software\Microsoft\OneDrive /v PersonalUnlinkedTimeStamp /f
 reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
 ```
-
+<!-- update below step 2 to match if you update above reg key list -->
 <a name="VerifySilentAccountConfig"></a>
 
 ## Verify SilentAccountConfig
@@ -113,9 +113,12 @@ reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
 
 2. Clear the registry of any previous successful Silent Business Config runs:
 
-   ```console
-   reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
-   ```
+```console
+reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+reg delete HKCU\Software\Microsoft\OneDrive /v ClientEverSignedIn /f
+reg delete HKCU\Software\Microsoft\OneDrive /v PersonalUnlinkedTimeStamp /f
+reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
+```
 
 3. Set the Silent Config policy registry entry (must be run from an administrator CMD window):
 
@@ -131,14 +134,14 @@ reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
 
 7. If instead you see the "Set up OneDrive" screen, SilentAccountConfig couldn't silently sign in or failed for another reason. Verify you completed these steps correctly by repeating them again. Follow the [Verify Single Sign On (SSO)](use-silent-account-configuration.md#VerifySSO) steps later in this article to confirm that SSO isn't a problem. Gather sync app logs to send to the engineering team for further help.
 
-### Instructions for SharePoint Server 2019
+### Instructions for SharePoint Server 2019 or newer
 
-1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server 2019 before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app) for details.
+1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server, 2019 or newer, before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app) for details.
 
-2. Set the SharePointOnPremPrioritization reg key value to 1 (this ensures that SharePoint Server takes precedence over SharePoint in Microsoft 365, delete the registry key to revert to SharePoint in Microsoft 365):
+2. Set the SharePointOnPremPrioritization reg key value to 1 (this ensures that your on premises SharePoint Server takes precedence over Microsoft 365 SharePoint cloud, delete the registry key to revert to SharePoint in Microsoft 365):
 
    ```console
-   reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SharePointOnPremPrioritization /t REG_DWORD /d 0x1 /f
+   reg add HKLM\SOFTWARE\Policies\Microsoft\OneDrive /v SharePointOnPremPrioritization /t REG_DWORD /d 0x1 /f
    ```
 
 3. Follow steps 1 through 6 in the previous procedure for SharePoint in Microsoft 365.
@@ -148,7 +151,7 @@ reg delete HKCU\Software\Microsoft\OneDrive /v OneAuthUnrecoverableTimestamp /f
 ### To prevent Silent Business Config
 
 ```console
-reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /f
+reg delete HKLM\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /f
 ```
 
 <a name="VerifySSO"></a>

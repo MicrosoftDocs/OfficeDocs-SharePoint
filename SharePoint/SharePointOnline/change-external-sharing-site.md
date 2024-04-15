@@ -2,8 +2,8 @@
 ms.date: 07/18/2023
 title: Change the sharing settings for a site
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 recommendations: true
 audience: Admin

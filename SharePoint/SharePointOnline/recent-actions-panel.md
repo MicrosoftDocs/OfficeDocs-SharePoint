@@ -1,6 +1,6 @@
 ---
-ms.date: 10/11/2023
-title: "Review recent SharePoint administrator site actions"
+ms.date: 04/10/2024
+title: "Review your recent changes to SharePoint site properties"
 ms.reviewer: daminasy
 manager: jtremper
 recommendations: true
@@ -12,22 +12,19 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
+- ContentEnagagementFY24 
 - M365-collaboration
 - M365-sam
 - Highpri
 - Tier1
-description: "Learn how to review recent admin actions in SharePoint admin center."
+description: "Learn how to review your recent changes to SharePoint site properties."
 ---
-# Review recent SharePoint administrator site actions
+# Review your recent changes to SharePoint site properties
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-With the recent actions panel, administrators can make changes to SharePoint site properties and review their most recent actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
-
-Changes to site properties like site name, site deletion and storage quota show as recent actions.
-
-The recent actions panel only shows the changes you make to site properties. Changes made by other administrators and organization-level changes don't show in the panel.
+The recent actions panel lets you review and monitor the last 30 changes you've made to a SharePoint site's properties (such as renaming a site, deleting a site, changing storage quota) within the last 30 days in the [SharePoint admin center](/sharepoint/get-started-new-admin-center). This feature only shows changes made by you and not other administrators. Also, changes made to site properties at the organization-level will not show in the panel.
 
 :::image type="content" source="media/RAC_panel.png" alt-text="Screenshot of Recent admin actions panel":::
 
@@ -36,11 +33,11 @@ The recent actions panel only shows the changes you make to site properties. Cha
 
 ## Requirements
 
-The following features require [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+To access the recent actions panel and the following features, your organization must have a [Microsoft Syntex - SharePoint Advanced Management subscription.](advanced-management.md)
 
 - Review the last 30 actions made within the last 30 days in the recent actions panel.
 - View more details such as previous and current value of the settings changed and directly access the site details panel to review the change.
-- Export and download a. csv file detailing all the changes made within the last 30 days.
+- Export and download CSV files detailing all your changes made within the last 30 days.
 
 > [!IMPORTANT]
 > Without Microsoft Syntex - SharePoint Advanced Management, you can only view actions made in the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
@@ -49,13 +46,13 @@ The following features require [Microsoft Syntex - SharePoint Advanced Managemen
 
 1. In the SharePoint admin center, expand **Sites** and select **Active sites**.
 2. Select **Your recent actions**. The recent actions panel appears and lists your most recent 30 actions made within the last 30 days.
-3. Select **Export** to download the list as a .csv file.
+3. Select **Export** to download the list as a CSV file.
 4. Select **View site details** to open the site info panel. From here, you can make changes to site properties like site name, site address, hub association and aliases.
 
 :::image type="content" source="media/Exported_CSV.png" alt-text="Screenshot of .csv file of recent admin actions":::
 
 > [!NOTE]
->If you close the browser while actions are in-progress, they will not be recorded in the panel or .csv file. Failed actions are recorded in the panel, but are removed once you exit the current session. The export .csv file will not contain failed actions.
+>If you close the browser while actions are in-progress, they will not be recorded in the panel or the CSV file. Failed actions are recorded in the panel, but are removed once you exit the current session. The exported CSV file will not contain failed actions.
 
 ## Bulk site edits
 

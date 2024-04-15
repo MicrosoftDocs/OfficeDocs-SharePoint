@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2024
+ms.date: 04/10/2024
 title: "Create change history reports"
 ms.reviewer: daminasy
 manager: jtremper
@@ -87,9 +87,14 @@ The following table lists the latest set of supported settings found under the *
 
 |Name|Description|
 |---|---|
-|**SharePoint Pages**|Allow commenting on modern pages|
-|**SharePoint Site creation**|Users can create SharePoint site, Create teams sites under, Default time zone|
-|**OneDrive Sync**|Show Sync button on the OneDrive website|
+|**SharePoint Pages**|Allow commenting on modern pages, Allow users to create new modern pages|
+|**SharePoint Site creation**|Users can create SharePoint site, Create teams sites under, Default time zone, Default storage limit for new sites|
+|**SharePoint Notifications**|Allow notifications|
+|**SharePoint Site storage limits**|Automatic, manual|
+|**OneDrive Notifications**|Allow notifications|
+|**OneDrive Retention**|Days to retain a deleted user's OneDrive|
+|**OneDrive Storage limit**|Default storage limit|
+|**OneDrive Sync**|Show Sync button on the OneDrive website, Allow syncing only on computers joined to specific domains, Block download of specific file types|
 |**SharePoint Version history limits**|Set version history limits|
 
 The following table lists the latest set of supported settings found in **Access Control** under the **Policies** node:
@@ -100,13 +105,14 @@ The following table lists the latest set of supported settings found in **Access
 |**Idle session sign out**|Automatically sign out users from inactive browser sessions|
 |**Network location**|Allow access only from specific IP addresses|
 |**Apps that don't use modern authentication**|Block access from Office 2010 and other apps that can't enforce device-based restrictions|
+|**SharePoint access restriction**|Restrict access to SharePoint sites & content by security group|
 |**OneDrive access restriction**|Restrict access to OneDrive content by security group|
 
 The following table lists the latest set of supported settings found in **Sharing** under the **Policies** node:
 
 |Name|Description|
 |---|---|
-|**External Sharing**|Content can be shared with, more external sharing settings|
+|**External Sharing**|Content can be shared with, more external sharing settings, other settings|
 |**File and folder settings**|Choose the type of link selected by default when users share files and folders in SharePoint and OneDrive, Choose the permission selected by default for sharing links, Choose who can access files with the URL to a file copied from the browser address bar|
 
 ## Related topics
