@@ -33,6 +33,8 @@ As a SharePoint Administrator or Global Administrator in Microsoft 365, you can 
   
 For information about your options for developing custom apps for SharePoint, see [Overview of the SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) and [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
+> [!IMPORTANT]
+> Starting April 2, 2026, SharePoint add-ins will be retired for SharePoint in Microsoft 365 and users will no longer be able to use SharePoint add-ins. Installing SharePoint add-ins from the SharePoint Store will not be possible as of July 1, 2024. [Learn more about the retirement of add-ins](/sharepoint/dev/sp-add-ins/retirement-announcement-for-add-ins).
 ## Add apps from the SharePoint Store
 <a name="__toc347303050"> </a>
 
@@ -76,8 +78,8 @@ When you upload a custom app to the Apps site, it's available for users to insta
 1. Review the info in the **Enable app** panel. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Enable this app and add it to all sites**. 
 
     ![Screenshot of the Enable app confirmation dialog box.](media/apps-enable-app.png)
-
-    > [!NOTE]
+   
+       > [!NOTE]
     > We recommend testing solutions before deploying them broadly. 
 
 1. Select **Enable app**.
@@ -87,7 +89,7 @@ When you upload a custom app to the Apps site, it's available for users to insta
 1. To help site owners identify and use the app, select the app, and then select **Properties**.
 
     ![Screenshot of the menu dropdown with Properties option.](media/apps-select-properties.png)
-
+   
 1. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
 1. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
