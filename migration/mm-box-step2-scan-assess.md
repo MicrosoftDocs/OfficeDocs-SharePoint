@@ -27,8 +27,8 @@ description: "Step 2:  Scan and assess Box users using Migration Manager."
 
 > [!NOTE]
 > "Step 2: Scan and access Box users" can now be skipped to alleviate Box throttling. Once the users (tasks) are added to the Scan list, they can be copied to the Migrations tab instantly for migration operations. Please note that Migration Manager will not discover any possible errors and warnings before migration if the scan process is skipped.
-After you connect, scan and assess your Box user accounts.
 
+After you connect, scan and assess your Box user accounts.
 1. Select **Add users** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Box</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
 2. Choose to **Automatically start scanning now** or choose to scan later.
 3. Select **Add**.
