@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/17/2024
 title: "Manage site creation in SharePoint"
 ms.reviewer: metorres
 ms.author: ruihu
