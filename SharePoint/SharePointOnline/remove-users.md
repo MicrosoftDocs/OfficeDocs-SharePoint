@@ -35,7 +35,7 @@ This article describes how to remove users so they no longer appear in SharePoin
  
     When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information isn't removed. Their profile still appears, which may cause confusion when people view the people picker.
 
-- **Scenario 2: Site User ID Mismatch.**
+- **Scenario 2: [Site User ID Mismatch](/sharepoint/troubleshoot/sharing-and-permissions/fix-site-user-id-mismatch).**
  
     This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different ID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect ID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
  
@@ -51,16 +51,16 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 ## Delete a guest from the Microsoft 365 admin center
 
 1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
-    
+
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, select **Users** \> **Guest users**.
 
-3. Select **Delete a user**.
+1. In the left pane, select **Users** \> **Guest users**.
 
-4. Select the user, select **Select**, and then select **Delete**.
- 
+1. Select the user, then select **Delete a user**.
+
+
+
 ## Delete a guest by using the SharePoint Online Management Shell
 
 1. [Install the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).

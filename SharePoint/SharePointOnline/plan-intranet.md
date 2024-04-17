@@ -1,5 +1,5 @@
 ---
-ms.date: 11/26/2019
+ms.date: 04/11/2024
 title: "Plan an intelligent SharePoint intranet"
 ms.reviewer: 
 ms.author: ruihu
@@ -52,7 +52,7 @@ As a first step, to see examples of what's possible with SharePoint, we recommen
 
 For an understanding about how the different component parts work together, review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
 
-For an interactive workshop to learn how to succeed with a SharePoint intranet, look for an [Accelerator workshop](https://resources.techcommunity.microsoft.com/events/intelligent-intranet-accelerator-workshop) in a city near you.
+For inspirations and demonstrations on adopting the intelligent intranet, visit the [The intelligent intranet - Microsoft Adoption](https://adoption.microsoft.com/intelligent-intranet/).
 
 In the following sections, we look at how to find the best starting point for your SharePoint intranet and how to prioritize the different intranet solutions that you may need for your organization. Keep these references handy as you work with your stakeholders - they can help you get the most value and best time to value for your intranet solutions.
 
@@ -167,7 +167,7 @@ SharePoint offers various building blocks that you can use to create an intranet
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
 - **[Viva Engage](/viva/engage/overview)** - Use Viva Engage to connect with people across your organization beyond the boundaries of projects, functions, and departments.
-- **[Forms](/forms-pro)** - Use forms to create custom quizzes, surveys, questionnaires, registrations, and more.
+- **[Dynamics 365 Customer Voice](/dynamics365/customer-voice/help-hub)** - Use Dynamics 365 Customer Voice to create custom quizzes, surveys, questionnaires, registrations, and more.
 - **[Stream](/stream)** - Use Stream to deliver live and on-demand meetings, events, and training.
 
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype, and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.

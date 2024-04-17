@@ -69,7 +69,7 @@ Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="
     
 2. Under **Site Creation**, select to show or hide the **Create site** command.
 
-    ![Site creation settings in the classic SharePoint admin center](media/classic-site-creation-settings.png)
+    ![Screenshot of Site creation settings in the classic SharePoint admin center.](media/classic-site-creation-settings.png)
 
    - If you choose **Disable subsite creation for all sites**, it will hide the subsite creation command (including classic) and disable users from being able to create new subsites through a URL or API. 
    - If you choose **Enable subsite creation for classic sites only**, users will be able to create new subsites for classic sites. 
