@@ -42,8 +42,8 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> - This feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization.
-> - If your organization has over 10,000 total sites but less than 100,000 total sites, you may be interested in Advanced Tenant Rename, which is currently in a limited, invite-based preview. See [Advanced Tenant Rename (preview)](change-your-sharepoint-domain-name.md#advanced-tenant-rename-preview).
+> - The standard version of this feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined.
+> - Advanced Tenant Rename is available to organizations that have less than 100,000 total sites, available with SharePoint Advanced Management. See [Advanced Tenant Rename](change-your-sharepoint-domain-name.md#advanced-tenant-rename).
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
@@ -125,23 +125,28 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
-## Advanced Tenant Rename (preview)
-If you have over 10,000 total sites in your organization, or want to have greater control over the rename operation, you can consider Advanced Tenant Rename. It supports changing of the SharePoint domain on tenants with up to 100,000 total sites currently, and also has the ability for admins to prioritize up to 4,000 sites in their organization for early execution. This allows for select business-critical or high-visibility sites to complete first and reduce any risk or concerns with its impact on daily operations.
+## Advanced Tenant Rename
+If you have over 10,000 total sites in your organization or want to have greater control over the rename operation, you can consider Advanced Tenant Rename. It supports changing the SharePoint domain on tenants with up to 100,000 total sites currently and has the ability for admins to prioritize up to 4,000 sites in their organization for early execution within the overall rename. This allows for select business-critical or high-visibility sites to complete first and reduce any risk or concerns with its impact on daily operations. 
 
-Advanced Tenant Rename is a part of SharePoint Advanced Management, and is currently in a **limited, invite-based preview**.
+Advanced Tenant Rename is a part of SharePoint Advanced Management.
 
-### How to participate
+### Prerequisites
 The limited preview can currently only support tenants meeting the following conditions:
-- Your organization has less than 100,000 total sites.
-- Your organization doesn't have Multi-Geo set up.
-- Your organization doesn't use government clouds, including GCC, GCC High and DoD.
-- Your organization doesn't use vanity domain configurations.
+- You must have SharePoint Advanced Management licenses purchased for all users in your organization.
+- Your organization has <100,000 total sites.
+- Your organization doesn’t have Microsoft365 Multi Geo enabled.
+- Your organization doesn’t use government clouds, including GCC, GCC High and DoD.
+- Your organization doesn’t use vanity domains (from the earlier MTE offering). 
 
-If you would like to participate in the preview, and meet the above conditions, please express your interest through our [sign up form](https://forms.microsoft.com/r/DhBqqJVgSW). Make sure to include all of the requested information and indicate your interest in the **Organization Lifecycle Management** section by selecting the **Advanced Tenant Rename** option.
+### Prioritizing sites
+With Advanced Tenant Rename, you can prioritize up to 4,000 sites for early execution. This can include both OneDrive for Business and SharePoint Online sites, excluding root sites (e.g., contoso.sharepoint.com, contoso-admin.sharepoint.com, contoso-my.sharepoint.com). 
 
-There are limited slots available, and each application will be reviewed. Microsoft will reach out if there's space in the preview program and share more information and work with you on next steps.
+Prioritized sites would be picked up for processing first, among all the sites in your organization. This allows them the opportunity to complete their renames sooner. You can make the most of this by planning your tenant rename to start at the beginning of a low impact period (weekends, holidays, etc.) and prioritize those sites that you believe are going to be important to have accessible at the start of the next business day. 
 
-Since this is a part of SharePoint Advanced Management, participants need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
+To manage prioritization, you can make use of the following PowerShell cmdlets.
+- [Set-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/set-spotenantrenamesiteprioritization) – This allows you to prioritize the specified site for early execution.
+- [Remove-SPOTenantRenameSitePrioritization](powershell/module/sharepoint-online/remove-spotenantrenamesiteprioritization) – This allows you to remove prioritization for the specified site.
+- [Get-SPOTenantRenameSitePrioritization](powershell/module/sharepoint-online/get-spotenantrenamesiteprioritization) – This allows you to view the current list of prioritized sites. 
 
 ## Step 1: Add the new domain name
 
