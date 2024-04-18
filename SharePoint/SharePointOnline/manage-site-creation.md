@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/17/2024
 title: "Manage site creation in SharePoint"
 ms.reviewer: metorres
 ms.author: ruihu
@@ -79,16 +79,6 @@ Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="
 
 > [!NOTE]
 > Creating a subsite in OneDrive is not supported. You will see an error, “New subsites are not available in this site. Create a new site instead.”
-
-> [!NOTE]
-> Currently, the following site templates are considered "modern".
-> 
-> - GROUP#0
-> - STS#3
-> - SITEPAGEPUBLISHING#0
-> - TEAMCHANNEL#0
-> - TEAMCHANNEL#1
-
 
 > [!TIP]
 > Instead of using subsites, we recommend that you use hub sites. [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) allow you to group similar topics and content together using modern architecture design. Plan to [create hub sites.](create-hub-site.md)
