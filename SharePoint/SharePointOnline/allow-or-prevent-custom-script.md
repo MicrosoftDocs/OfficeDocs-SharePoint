@@ -113,7 +113,7 @@ Tenants administrators have a set of tools available in SharePoint tenant admini
 * persist custom script settings
 
 ### Verify custom script status
-A new "Custom script" column is now available in the "Active sites" page under "sites".
+A new "Custom script" column is now available in the "Active sites" page under "Sites".
 ![Active sites view with custom script column visible](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/232a2283-7f38-4f77-b32d-e076bbcbbb01)
 
 The column can be added to any view. A new "Custom script allowed sites" is also available to provide an easy access to all the sites where custom script is enabled:
