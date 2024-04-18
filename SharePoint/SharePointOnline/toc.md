@@ -5,6 +5,11 @@
 ### [OneDrive office hours](onedrive-office-hours.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
+### [Brand center]()
+#### [Overview](brand-center-overview.md)
+#### [Brand fonts](brand-fonts.md)
+#### [Font packages](brand-center-font-packages.md)
+
 ### [Governance overview](governance-overview.md)
 ### [SharePoint and Teams integration]()
 #### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
