@@ -18,7 +18,7 @@ description: "Learn how to use SharePoint Admin Center active sites report and S
 
 # Curate the allowed list for Restricted SharePoint Search
 > [!IMPORTANT]
-> Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the overview of Restricted SharePoint Search for more information.
+> Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
 
 As a Global and SharePoint admin, you can set up an allowed list of Restricted SharePoint Search with a maximum of 100 selected SharePoint sites. For Copilot and organization-wide search, besides the contents that they already have access to, either by direct sharing, visiting, or owning, your organization’s users will only be able to reach the sites on the allowed list, honoring these sites’ current permissions.
 
@@ -84,13 +84,13 @@ Use up and down arrows next to each column's name to move up the Page Views and 
 
 ![Screenshot of using other columns to filter and sort to sort active sites](media/rss-spac-5.png)
 
-**Step 5:** Once you are done with your sorting and filtering, you can create a custom view based on your current setting, and save it for future use. To create a custom view, select **All sites** > **Save view as**.
+**Step 5:** Once you're done with your sorting and filtering, you can create a custom view based on your current setting, and save it for future use. To create a custom view, select **All sites** > **Save view as**.
 
 ![Screenshot of saving custom active sites view](media/rss-spac-6.png)
 Enter a name for your custom view:
 ![Screenshot of naming custom active sites view](media/rss-spac-7.png)
 
-Your saved custom view is now available for you to choose from the drop down menu next time.
+Your saved custom view is now available for you to choose from the drop-down menu next time.
 ![Screenshot of reviewing saved custom active sites view](media/rss-spac-8.png)
 
   **Step #6:** Export the sites and manage the list in CSV file that you can use to add to the list by selecting the **Export** tab.
