@@ -105,7 +105,7 @@ If you change this setting for a classic team site, it will be overridden by the
 ## Manage custom script from SharePoint admin center
 
 > [!NOTE]
-> If you don't see the new options in SharePoint tenant administration, it means that the feature is not enabled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024.  
+If you do not see the new options in SharePoint tenant admin center, the feature is not enabled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024
 
 Tenants administrators have a set of tools available in SharePoint tenant administration to manage custom script within their organization. Specifically, tenant administrators can do the following:
 * verify custom script status 
