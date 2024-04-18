@@ -86,7 +86,7 @@ To manage your custom brand fonts, you will need to navigate to the Brand Fonts 
 
 SEPARATE ARTICLE
 
-# Font Licensing for the brand center
+## Font Licensing for the brand center
 
 Fonts are a kind of software. Like many other kinds of software, you get a license to use font files instead of buying them. Different vendors have different licenses for their fonts, but generally most licenses, including the ones for the fonts Microsoft provides with applications and Windows, do not let you put the fonts in applications or share them with others.
 
