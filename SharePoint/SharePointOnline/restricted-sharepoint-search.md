@@ -92,6 +92,11 @@ No, this capability isn't part of Restricted SharePoint Search. However, SharePo
 
 Yes, any product where Enterprise Search is enabled and could have SharePoint content and/or files as search results will be impacted.
 
+### Does Restricted SharePoint Search impact other features based on the Microsoft Index? For example, Purview or SharePoint Advanced Management features?
+
+No, Restricted SharePoint Search will not affect any other features 
+based on the Microsoft Index.
+
 ### After enabling RSS how long does it take to take place?
 
 RSS will go into effect within an hour after it's enabled.
