@@ -20,7 +20,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 ---
 
-# Tutorial: Run 'What-If' Analysis (Preview)
+# Tutorial: Run 'What-If' Analysis 
 
 In this tutorial, we discuss how to:
 

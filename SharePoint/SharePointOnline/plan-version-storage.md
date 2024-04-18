@@ -1,11 +1,9 @@
 ---
-title: "Plan Version Storage for Document Libraries"
-ms.reviewer: rekamath
-ms.author: serdars
+title: "Plan Version Storage for Document Libraries(Preview)
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 12/12/2023
+ms.date: 04/30/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,15 +17,15 @@ search.appverid:
 description: "This article provides guidance on how to plan version storage for your organization."
 ---
 
-# Plan Version Storage for Document Libraries
+# Plan Version Storage on Document Libraries (Preview)
 
-A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. As Versions count towards your SharePoint storage usage, your Organization’s version limits needs to meet your recovery objectives and optimize on version storage.
+A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. The Version limits you configure need to meet both recovery objectives and optimize on version storage.
 
 In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
 
 ## Determine Default Version limits for your organization
 
-Before you decide the default version history limits for your organization, you need to consider your **organization’s recovery objective**, and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
+Before you decide the default version history limits for your organization, you need to consider your **organization’s recovery objective** and **version storage usage targets** and evaluate your needs with the **version restore options available to your users** and **storage usage** of the three version storage modes supported by SharePoint.  
 
 In the following sections, we outline the options and decisions administrators should consider when setting up version limits for your organization:
 
@@ -80,56 +78,4 @@ In considering which limits to set, we recommend a balanced approach:
 - Setting count limits too high or setting expiration limits for longer duration or never expiring,  stores most versions created, offering users most of versions to restore from. However, a high proportion of actively edited files can result in versions using a high storage.  
 
 - Setting count or expiration limits that are too low can result in data loss due to unrecoverable changes impacting your user’s ability to undo unwanted changes, and other recovery scenarios.
-
-## Report on Version Storage Usage in a SharePoint Site
-
-As a SharePoint Site Administrator, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
-
-- Review current version storage used by existing versions.
-
-- Understand how a version limit impacts new versions by applying the desired limits on existing versions. before configuring limits.  
-
-- Analyze the impact of trimming existing versions before scheduling a trim job.
-
-> [!NOTE]
-> Additional reporting options are available with [Microsoft Graph Data Connect](/graph/data-connect-datasets#onedrive-and-sharepoint-online).
-
-When, you run the report a background timer job is scheduled to generate a CSV file of every file version on a given SharePoint Site. The CSV file is saved to the location of your choosing on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
-
-### Report Format
-
-The file version expiration report is in Comma-Separated Values (CSV) format. Each row corresponds to a file version, and it contains the following columns:
-
-| **File Version Identifiers:** | Description |
-|:-----|:-----|
-|`WebId`|The unique identifier of the web and is a compact column <sup>1</sup>.|
-|`DocId`|The unique identifier of the document and is a compact column.|
-|`MajorVersion`|The major version number of the file version.|
-|`MinorVersion`|The minor version number of the file version.|
-
-| **File Version Information:** | Description |
-|:-----|:-----|
-|`WebUrl`|The SharePoint Url to the web and is a compact column.|
-|`FileUrl`|The web relative Url to the file and is a compact column.|
-|`Size`|The size of the version in bytes.|
-|`ModifiedBy_UserId`|The identifier of the user who created this version and is a compact column.|
-|`ModifiedBy_UserDisplayName`|The display name of the user who created this version and is a compact column.|
-|`LastModifiedDate`|The time when the version was last modified.|
-|`SnapshotDate`|The time when the version became a historical version.|
-|`IsSnapshotDateEstimated`|If this identifier is set to true, then the `SnapshotDate` is a best-effort estimation. The `SnapshotDate` might be estimated if the version was snapshot before January 1, 2023.|
-
-| **Expiration Schedule information:** | Description |
-|:-----|:-----|
-|`CurrentExpirationDate`|Time when the version is going to expire as it currently stands.|
-|`AutomaticPolicyExpirationDate`|Time when the version would be expiring if an automatic expiration policy were to be retroactively applied, estimated on a best-effort basis.|
-|`TargetExpirationDate`|Is populated to the same value as `CurrentExpirationDate`. This column is useful for any What-If analysis and batch-updating the expiration dates.|
-
-<sup>1</sup> Compact columns are columns that won't repeat values if two consecutive rows have the same value. It puts empty string for the repeated records. The header for these columns have "Compact" postfix.
-
-### Learn More
-
-For more information, check out the following resources:
-
-- [Tutorial: Generate Version Usage Report](tutorial-generate-version-usage-report.md).
-- [Tutorial: Run 'What-If' analysis](tutorial-run-what-if-analysis.md).
 

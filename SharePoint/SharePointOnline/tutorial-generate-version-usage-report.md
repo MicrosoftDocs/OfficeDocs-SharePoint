@@ -182,7 +182,7 @@ Populate the workbook by following these steps:
 
 :::image type="content" source="media/version-history/analyze-version-step2.png" lightbox="media/version-history/analyze-version-step2.png" alt-text="analyze version configuration":::
 
-3. At the top of Excel, select **Data** tab, and in the Ribbon, select **Refresh All** button.
+3. At the top of Excel, select the **Data** tab, and in the Ribbon, select the **Refresh All** button.
 
 :::image type="content" source="media/version-history/analyze-version-step3.png" lightbox="media/version-history/analyze-version-step3.png" alt-text="analyze version data tab":::
 

@@ -23,14 +23,14 @@ description: "Learn the terms and conditions for versions."
 
 **Effective Date: March 2024** 
 
-'Customer' means the Enterprise customer that uses these Preview Features.
+**'Customer'** means the Enterprise customer that uses these Preview Features.
 **By using these Preview Features, you accept these Terms and Conditions and all rights and obligations within**.**If you do not agree to these Terms and Conditions, DO NOT use the Preview Feature.** These Terms and Conditions govern the use of the Preview Feature offerings as described in the following sections.
 
 'Feedback' is all suggestions, comments, feedback, ideas, or know how, in any form, that Customer provides to Microsoft. It doesn't include sales forecasts, financial results, future release scheduled, marketing plans and high-level product plans or feature lists for anticipated products.
 
 **MICROSOFT OFFERINGS:**  
 
-Version History Limits ('Preview Feature') is a new functionality where there are two version control modes – **Automatic mod**e that consider important factors like a version’s age and restore probability to offer more intelligent version pruning options & **Manual mode** that allows Admins to set Version Expiration and Count limits on the versions created. Version history settings for Document Libraries can be set at Organization, Site, or individual library level allowing admins and site owners the ability to better manage content recovery and auditing requirements.  
+**Version History Limits ('Preview Feature')** is a new functionality where there are two version control modes – **Automatic mode** that consider important factors like a version’s age and restore probability to offer more intelligent version pruning options & **Manual mode** that allows Admins to set Version Expiration and Count limits on the versions created. Version history settings for Document Libraries can be set at Organization, Site, or individual library level allowing admins and site owners the ability to better manage content recovery and auditing requirements.  
 
 **THE PREVIEW FEATURE IS PROVIDED 'AS-IS,' 'WITH ALL FAULTS,' AND 'AS AVAILABLE.'**  Microsoft provides no performance guarantee for the Feature Preview (including accompanying URLs provided for embedded or unauthenticated viewing) and Customer bear the risk of using it. As this is a Preview, *We recommend you to try this feature in a nonproduction tenant environment*.
 

@@ -5,7 +5,7 @@ ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 12/12/2023
+ms.date: 04/30/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,7 +19,7 @@ search.appverid:
 description: "This article provides guidance on version history feature that enables a user to easily view or restore a file's earlier version."
 ---
 
-# Versioning Overview
+# Version History Overview
 
 The Version History feature is an integral part of Microsoft’s 365 built-in data protection in SharePoint and OneDrive. An item or file's version history lets a user see or restore to a previous version, helpful for undoing unintended changes, whether accidental or due to malicious activities like ransomware. It also ensures auditability to meet an organization's legal and audit requirements.
 

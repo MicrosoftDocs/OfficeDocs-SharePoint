@@ -208,13 +208,16 @@
 ### [Block meeting recording download](/MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
-## Versions
-### [Versioning Overview](versioning-overview.md)
-### [Document Library Version History Limits Overview](document-library-version-history-limits.md)
-### [Plan Version Storage for Document Libraries](plan-version-storage.md)
-### [Manage Version History Limits]()
-#### [Manage Version history limits for your Organization](manage-version-history-limits-for-organization.md)
-#### [Manage Version history limits for a Site (Preview)](manage-version-history-limits-for-site.md)
+## Version History
+### [Overview](versioning-overview.md)
+### [Version Controls](document-library-version-history-limits.md)
+### [Plan Version Storage (Preview)](plan-version-storage.md)
+### [Set Organization Version Limits (Preview)](set-default-org-version-limits.md) 
+### [Site Version Limits (Preview)]()
+#### [Set Version limits for a Site(Preview)](site-version-limits.md)
+#### [Generate Version Storage Usage Report for a SharePoint Site(Preview)](version-storage-report-site.md)
+### [Set Version limits for a document library(Preview)](library-version-limits.md)
+### [Change Version limits on OneDrive using PowerShell (Preview)](version-limits-onedrive-ps.md)
 ### [Tutorials]()
 #### [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
 #### [Tutorial: Run 'What-If' Analysis (Preview)](tutorial-run-what-if-analysis.md)
