@@ -39,17 +39,17 @@ The brand center app lets you access and manage your organization's brand assets
 
 ## Setting up the brand center
 
-To enable the new brand center the global administrator will need to perform a set of simple steps in the Microsoft 365 admin center to create/activate the Brand center app. The brand center app requires the use of Public CDN.
+To enable the new brand center the global administrator needs to perform a set of simple steps in the Microsoft 365 admin center to create/activate the Brand center app. The brand center app requires the use of Public CDN.
 
-The brand center administrative experience finds the site that has your organization’s existing organization asset libraries if you are using them and base your brand center on this site. If you are not using the organization asset library feature, we will prompt you to make a new site to be your brand center.
+The brand center administrative experience finds the site that has your organization’s existing organization asset libraries if you're using them and base your brand center on this site. If you aren't using the organization asset library feature, we'll prompt you to make a new site to be your brand center.
 
-When you turn on the SharePoint brand center for your organization, this will let you use the custom fonts feature in SharePoint and Viva Connections. You can find more details in the Message Center post for Custom Fonts.
+When you turn on the SharePoint brand center for your organization, this lets you use the custom fonts feature in SharePoint and Viva Connections. You can find more details in the Message Center post for Custom Fonts.
 
-To enable the SharePoint brand center the global administrator will need to perform a few simple steps in the Microsoft 365 admin center to create/activate the Brand center app.
+To enable the SharePoint brand center, the global administrator needs to perform a few simple steps in the Microsoft 365 admin center to create/activate the Brand center app.
 
 The steps required depend on your current tenant configuration. The following describes steps you need to do for each of the three scenarios:
 
-- Scenario 1: Your tenant does not currently utilize the SharePoint Organization Assets feature.
+- Scenario 1: Your tenant doesn't currently utilize the SharePoint Organization Assets feature.
 
 - Scenario 2: Your tenant uses the SharePoint Organization Assets feature with Private CDN.
 
@@ -57,7 +57,7 @@ The steps required depend on your current tenant configuration. The following de
 
 ![Screenshot of accessing brand center from microsofto 365 admin center](media/mac-brand-center.png)
 
-**Scenario 1:** Your tenant does not currently utilize the SharePoint Organization Assets feature.
+**Scenario 1:** Your tenant doesn't currently utilize the SharePoint Organization Assets feature.
 
 For this scenario, the global administrator performs the following steps to create the Brand center app.
 
@@ -91,7 +91,7 @@ For this scenario, the global administrator performs the following steps to crea
 
 **Scenario 3:** Your tenant uses the SharePoint Organization Assets feature with Public CDN.
 
-For this scenario, the global administrator will need to perform the following steps to create the Brand center app.
+For this scenario, the global administrator needs to perform the following steps to create the Brand center app.
 
 1. In the admin center, go to **Settings \> Org settings**.
 
@@ -107,9 +107,9 @@ After you finish setting up your SharePoint brand center, you can control who ca
 
 ## Managing the brand center
 
-The SharePoint brand center includes two levels of management: the Microsoft 365 Admin Center and the Brand Center associated SharePoint site. Within the Microsoft 365 Admin Center the global administrator has control over the enablement of the Brand Center as well as easy access to the associated site with management in the SharePoint Admin Center.
+The SharePoint brand center includes two levels of management: the Microsoft 365 Admin Center and the Brand Center associated SharePoint site. Within the Microsoft 365 Admin Center, the global administrator has control over the enablement of the Brand Center and easy access to the associated site with management in the SharePoint Admin Center.
 
-From the Brand center associated site, the Global administrators, site administrators and owners can update the site permissions in the SharePoint Admin Center such as adding additional brand managers to the experience. You can do this by adding members to the site owners’ group. Within the app itself, the brand managers will be able to upload and manage their organization’s brand assets.
+From the Brand center associated site, the Global administrators, site administrators, and owners can update the site permissions in the SharePoint Admin Center such as adding more brand managers to the experience. You can do this by adding members to the site owners’ group. Within the app itself, the brand managers are able to upload and manage their organization’s brand assets.
 
 |Who?|Where?|What?|
 |----|------|-----|
@@ -125,7 +125,7 @@ One of the challenges of managing brand assets across geographies is ensuring co
 
 The SharePoint brand center currently only creates a single brand center app in the primary geo of a tenant. We haven’t changed anything about how this impacts the current multi-geo operations for Organization Asset Image or Template Libraries. However, for custom fonts to work across geographies, the following requirements must be met:
 
-Each additional geography where custom fonts are wanted must have an organization asset library set up in a site that uses the Public CDN. Once these requirements are met, custom fonts will show up in the Change the Look panel and will work in that geography.
+Each additional geography where custom fonts are wanted must have an organization asset library set up in a site that uses the Public CDN. Once these requirements are met, custom fonts show up in the **Change the Look** panel and will work in that geography.
 
 > [!NOTE]
 > This does not impact Organization Asset Image Libraries and Template Libraries.
@@ -136,22 +136,22 @@ Every organization has a set of brand assets that are important for expressing i
 
 One of the challenges of managing brand assets is to ensure consistency and quality across different platforms and devices. You want your brand to look sharp and professional everywhere, without spending too much time and effort on resizing, formatting, or providing appropriate access to your users.
 
-The SharePoint brand center will make the management of brand assets simple across the M365 product ecosystem. This centralized management system will enable both asset management along with customization for how the assets are utilized within each product.
+The SharePoint brand center makes the management of brand assets simple across the Microsoft 365 product ecosystem. This centralized management system enables both asset management along with customization for how the assets are utilized within each product.
 
 ### Brand Images
 
 SharePoint offers a feature called the organization asset library (OAL), which allows you to store and access your brand images from a central location. You can upload and manage your organization's logos, icons, backgrounds, and other images in a centralized library that can be accessed by all your users. This way, you can ensure that your team members have access to the latest and most relevant images that reflect your brand identity and message. You can also use organization assets to create templates and themes that incorporate your images and fonts, making it easy to create professional and consistent slides and documents.
 
-Learn more about [image asset management] (/sharepoint/organization-assets-library)
+Learn more about [image asset management.] (/sharepoint/organization-assets-library)
 
 ### Brand Fonts
 
-A font is not just a way of writing. It is a visual feature that connects your content to your brand and expresses your tone and character. A font can give your content a professional, creative, friendly, or authoritative appearance, depending on the typeface, size, color, and spacing you use.
+A font isn't just a way of writing. It's a visual feature that connects your content to your brand and expresses your tone and character. A font can give your content a professional, creative, friendly, or authoritative appearance, depending on the typeface, size, color, and spacing you use.
 
-For SharePoint and Viva Connections experiences, an organization will use the SharePoint brand center to control your organization’s fonts. This will help you make sure that your font selections are coherent and match your brand identity and guidelines.
+For SharePoint and Viva Connections experiences, an organization uses the SharePoint brand center to control your organization’s fonts. This helps you make sure that your font selections are coherent and match your brand identity and guidelines.
 
 Learn more about brand fonts in the SharePoint brand center \<link to new brand fonts article\>
 
 Organization font support for PowerPoint for the web is also available utilizing the organization assets infrastructure. Customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts.
 
-Learn more about [brand organization fonts for PowerPoint for the web] (/sharepoint/support-for-organization-fonts-in-powerpoint-for-the-web)
+Learn more about [brand organization fonts for PowerPoint for the web.] (/sharepoint/support-for-organization-fonts-in-powerpoint-for-the-web)

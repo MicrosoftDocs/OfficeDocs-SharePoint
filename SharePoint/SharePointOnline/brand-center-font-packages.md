@@ -22,9 +22,9 @@ description: "Learn what font packages are, default font packages, components of
 ---
 # Font packages
 
-A font package is a collection of fonts that are packaged together. Font packages are used in SharePoint and Viva Connections to control how the fonts will look in different areas within each product.
+A font package is a collection of fonts that are packaged together. Font packages are used in SharePoint and Viva Connections to control how the fonts look in different areas within each product.
 
-Typography provides the visual framework for presenting text. It is an important part of expressing a brand or creating a beautiful design. You will often see multiple terms mixed or used interchangeably when referring to typography, such as typeface and fonts A typeface is the entire font family while a font is an individual font style. We often use these terms interchangeably. We will refer to fonts to cover both scenarios for the SharePoint brand center.
+Typography provides the visual framework for presenting text. It's an important part of expressing a brand or creating a beautiful design. You'll often see multiple terms mixed or used interchangeably when referring to typography, such as typeface and fonts A typeface is the entire font family while a font is an individual font style. We often use these terms interchangeably. We refer to fonts to cover both scenarios for the SharePoint brand center.
 
 > [!NOTE]
 > Known Limitations:
@@ -59,7 +59,7 @@ These font packages have been designed for readability, so you might find them u
 
 ## Anatomy of a font package
 
-Each font package is comprised of two font families. We consider these to be our Display and Content fonts.
+Each font package is composed of two font families. We consider these to be our Display and Content fonts.
 
 ### Display font
 
@@ -71,7 +71,7 @@ The content font is used more widely to ensure consistency and legibility at all
 
 ## Font slot mappings
 
-Font packages use four font slots that correspond to different parts of the experience. For each part, you will pick a font and font style that will change the fonts of different components based on these chosen font styles. These include:
+Font packages use four font slots that correspond to different parts of the experience. For each part, you pick a font and font style that will change the fonts of different components based on these chosen font styles. These include:
 
 ### Title
 
@@ -90,16 +90,16 @@ The body font is used in more versatile ways and should be easy to read. Conside
 The interactive font is used for items that trigger action, such as buttons. Consider using your content font with a bold or semibold style.
 
 Create your own font packages  
-In the SharePoint brand center, a brand manager will be able to create custom font packages for your organization. These font packages will be available in the Change the Look experience for site owners and Viva Connections operators to apply to their sites and experiences.
+In the SharePoint brand center, a brand manager is able to create custom font packages for your organization. These font packages are available in the Change the Look experience for site owners and Viva Connections operators to apply to their sites and experiences.
 
 > [!NOTE]
 > To create a custom font package, you must upload your organization’s fonts to the brand fonts library.
 
 Visit the SharePoint or Viva Connections branding experiences and select **New Font Package**
 
-**Step 1**: Select display and content fonts using the font families visible in your Brand fonts library. You can select up to 2 different font families, you can select the same font family for both display and content fonts if desired.
+**Step 1**: Select display and content fonts using the font families visible in your Brand fonts library. You can select up to two different font families, you can select the same font family for both display and content fonts if desired.
 
-**Step 2**: Select your font family and font style for each of the 4 font slot mappings.
+**Step 2**: Select your font family and font style for each of the four font slot mappings.
 
 **Step 3**: Name your font package and preview in different experiences. Determine the Visible setting for your font package.
 
@@ -109,23 +109,23 @@ An accessible font doesn't exclude or slow down the reading speed of anyone rea
 
 To reduce the reading load, select familiar fonts such as Segoe UI or Aptos. Avoid using all capital letters and excessive italics or underlines.
 
-A person with a vision disability might miss out on the meaning conveyed by particular colors. For example, add an underline to color-coded hyperlink text so that people who are colorblind know that the text is linked even if they can’t see the color. For headings, consider adding bold or using a larger font.
+A person with a vision disability might miss out on the meaning conveyed by particular colors. For example, add an underline to color-coded hyperlink text so that people who are color-blind know that the text is linked even if they can’t see the color. For headings, consider adding bold or using a larger font.
 
-The text on your site should be readable in a high contrast mode. For example, use bright colors or high-contrast color schemes on opposite ends of the color spectrum. White and black schemes make it easier for people who are colorblind to distinguish text and shapes.
+The text on your site should be readable in a high contrast mode. For example, use bright colors or high-contrast color schemes on opposite ends of the color spectrum. White and black schemes make it easier for people who are color-blind to distinguish text and shapes.
 
 For instructions on how to work with fonts and text, go to [Add accessible content and links to a SharePoint Online site](https://support.microsoft.com/office/add-accessible-content-and-links-to-a-sharepoint-online-site-dc34fac7-32d7-4dcf-b694-2cc6115ac8b9#PickTab=Online_Modern_Experience) and [Add text to a SharePoint space](https://support.microsoft.com/office/add-text-to-a-sharepoint-space-1b88da65-b38f-4a77-984a-0d4e5d2faf0e).
 
 ## Use a font package to change the fonts in your experience
 
-With the introduction of the brand center app, custom fonts become available to Site owners to use from the Change the Look panel to customize the look and feel of their content. Once you have created a font package for your organization the “From my organization” section of the Font packages dropdown to the Change the Look \> Font (preview) panel.
+With the introduction of the brand center app, custom fonts become available to Site owners to use from the **Change the Look panel** to customize the look and feel of their content. Once you have created a font package for your organization the “From my organization” section of the Font packages dropdown to the Change the Look \> Font (preview) panel.
 
-Learn more about [Change the Look](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
+Learn more about [Change the Look.](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
 
 ## Font Packages in SharePoint
 
 ### Supported custom fonts components in SharePoint
 
-Custom fonts is currently supported in the following areas:
+Custom fonts are currently supported in the following areas:
 
 1. Site header - site title
 
@@ -165,7 +165,7 @@ Custom fonts is currently supported in the following areas:
 
 ### Supported custom fonts components in Viva Connections
 
-Custom fonts is currently supported in the following areas:
+Custom fonts are currently supported in the following areas:
 
 1. Welcome/Greeting text
 

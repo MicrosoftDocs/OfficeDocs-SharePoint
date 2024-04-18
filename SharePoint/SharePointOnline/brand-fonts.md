@@ -18,7 +18,7 @@ ms.collection:
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
-description: "Learn what Brand fonts are, how to add brand fonts to the brand center, how to locate custom fonts on the web, how to install and manage custom fonts, supported font file types and font licensing."
+description: "Learn what brand fonts are, how to add brand fonts to the brand center, and how to locate custom fonts on the web. Learn how to install and manage custom fonts, supported font file types, and font licensing."
 ---
 # Brand Fonts
 
@@ -26,21 +26,21 @@ The choice of font can have a significant impact on the look and feel of your co
 
 ![screenshots of brand fonts](media/brand-fonts.png)
 
-Brand fonts are your organization’s fonts that are uploaded and managed within the SharePoint brand center. In this article we’ll talk about how to manage your brand fonts so you can use them in Microsoft 365.
+Brand fonts are your organization’s fonts that are uploaded and managed within the SharePoint brand center. In this article, we talk about how to manage your brand fonts so you can use them in Microsoft 365.
 
 NOTE: \<font licensing note to link to the font licensing page\>
 
-There are different types of font format types and font file types. The way a font is used, digital or printed, can change the font file type needed.
+There are different types of font format types and font file types. The way a font is used, digital, or printed, can change the font file type needed.
 
 ### Web-safe fonts
 
-Web-safe fonts are a set of fonts that are widely used and available on most devices by default. They are designed to be compatible with different browsers and operating systems, and to reduce the risk of font substitution or distortion.
+Web-safe fonts are a set of fonts that are widely used and available on most devices by default. They're designed to be compatible with different browsers and operating systems, and to reduce the risk of font substitution or distortion.
 
 ## Adding brand fonts to the brand center
 
 SharePoint and Viva Connections include a set of font options that are available for use within Microsoft web products.
 
-However, sometimes you may want to use a custom font that you’ve created, purchased or downloaded from somewhere else. These custom fonts might be more accurate to how you would like to represent your brand within Microsoft 365 applications like SharePoint and Viva Connections.
+However, sometimes you may want to use a custom font that you’ve created, purchased, or downloaded from somewhere else. These custom fonts might be more accurate to how you would like to represent your brand within Microsoft 365 applications like SharePoint and Viva Connections.
 
 ### Locate custom fonts on the Web
 
@@ -48,7 +48,7 @@ You can also get and use fonts that are installed with other applications, or do
 
 ## Install a custom brand font
 
-After choosing your custom brand font, you will need to upload it into the SharePoint brand center so that it can be part of your font packages. You will go to the Brand Fonts library from the Brand center app.
+After choosing your custom brand font, you'll need to upload it into the SharePoint brand center so that it can be part of your font packages. You'll go to the Brand Fonts library from the Brand center app.
 
 1.  Download or locate your custom brand font files. These often come in .zip folders.
 
@@ -56,9 +56,9 @@ After choosing your custom brand font, you will need to upload it into the Share
 
 3.  Navigate to the Brand fonts library in the SharePoint brand center app. Using the upload button
 
-After the brand font files are uploaded our system will extract the needed metadata from the font files for use in the Brand center.
+After the brand font files are uploaded our system extracts the needed metadata from the font files for use in the Brand center.
 
-NOTE: There is a slight delay in the time from upload until this metadata is populated into the library and the font is available for use.
+NOTE: There's a slight delay in the time from upload until this metadata is populated into the library and the font is available for use.
 
 ### Supported font file types: 
 
@@ -69,13 +69,13 @@ NOTE: There is a slight delay in the time from upload until this metadata is pop
 | Web Open Format Font | .woff          |
 | Web Open Format Font | .woff2         |
 
-The Web Open Format file is a web-only font format that compresses the fonts to make them load faster on websites. This format cannot be used for other purposes, such as installing the fonts on your computer. WOFF 2.0 is the ideal format for web fonts being used on SharePoint and Viva Connections. These fonts work well on the web but not in graphics software.
+The Web Open Format file is a web-only font format that compresses the fonts to make them load faster on websites. This format can't be used for other purposes, such as installing the fonts on your computer. WOFF 2.0 is the ideal format for web fonts being used on SharePoint and Viva Connections. These fonts work well on the web but not in graphics software.
 
-Font file Size Limit: 10MB
+Font file Size Limit: 10 MB
 
 ## Manage your custom brand fonts
 
-To manage your custom brand fonts, you will need to navigate to the Brand Fonts library in the Brand center app.
+To manage your custom brand fonts, you'll need to navigate to the Brand Fonts library in the Brand center app.
 
 1.  Select your custom font file from the library.
 
@@ -88,15 +88,15 @@ SEPARATE ARTICLE
 
 ## Font Licensing for the brand center
 
-Fonts are a kind of software. Like many other kinds of software, you get a license to use font files instead of buying them. Different vendors have different licenses for their fonts, but generally most licenses, including the ones for the fonts Microsoft provides with applications and Windows, do not let you put the fonts in applications or share them with others.
+Fonts are a kind of software. Like many other kinds of software, you get a license to use font files instead of buying them. Different vendors have different licenses for their fonts, but most licenses, including the ones for the fonts Microsoft provides with applications and Windows, don't let you put the fonts in applications or share them with others.
 
 Any font used in Microsoft 365 applications requires a font license that covers the conditions of font usage for the intended product. This could include a webfont license, application license, desktop license, server license, or several other license types.
 
 ** Warning**
 
-By using this feature and publishing font files, a font catalog will be created. The newly created font catalog files will be publicly stored, along with the fonts, in the cloud and will not respect the site classification guidelines if the Organization Asset Library is hosted in Restricted SharePoint Site. The font catalog files will contain font names and other font related metadata. Be aware that the files will be accessible to anyone, even people outside of your organization, who can get the URLs that link to them.
+By using this feature and publishing font files, a font catalog is created. The newly created font catalog files are publicly stored, along with the fonts, in the cloud and won't respect the site classification guidelines if the Organization Asset Library is hosted in Restricted SharePoint Site. The font catalog files contain font names and other font related metadata. The files are accessible to anyone, even people outside of your organization, who can get the URLs that link to them.
 
-Do not use this feature if your fonts contain proprietary information, or if they have license usage restrictions, such as restrictions on cloud hosting, or your organization isn't comfortable making the fonts publicly available.
+Don't use this feature if your fonts contain proprietary information, or if they have license usage restrictions, such as restrictions on cloud hosting, or your organization isn't comfortable making the fonts publicly available.
 
 ### Microsoft provided fonts
 
@@ -106,12 +106,12 @@ Some of the fonts supplied with the Brand center were created specifically for M
   
 Reference: [Cloud fonts in Office - Microsoft Support](https://support.microsoft.com/en-us/office/cloud-fonts-in-office-f7b009fe-037f-45ed-a556-b5fe6ede6adb?ui=en-us&rs=en-us&ad=us)
 
-NOTE:  
-Microsoft provided fonts are available to Microsoft 365 subscribers
+> [!NOTE]  
+> Microsoft provided fonts are available to Microsoft 365 subscribers.
 
 ### Custom brand fonts
 
-For fonts obtained elsewhere or supplied with other apps, you will need to review the license agreements that accompany those applications.
+For fonts obtained elsewhere or supplied with other apps, you'll need to review the license agreements that accompany those applications.
 
 **Why must I dig up and read those agreements?**
 
