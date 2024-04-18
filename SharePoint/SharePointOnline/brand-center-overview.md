@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - admindeeplinkSPO
-- onedrive-toc
+
 description: "Learn what SharePoint Brand Center is, how to set it up and manage it, and learn about brand assets."
 ---
 
