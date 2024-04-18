@@ -84,13 +84,13 @@ Use up and down arrows next to each column's name to move up the Page Views and 
 
 ![Screenshot of using other columns to filter and sort to sort active sites](media/rss-spac-5.png)
 
-**Step 5:** Once you are done with your sorting and filtering, you can create a custom view based on your current setting, and save it for future use. To create a custom view, select **All sites** > **Save view as**.
+**Step 5:** Once you're done with your sorting and filtering, you can create a custom view based on your current setting, and save it for future use. To create a custom view, select **All sites** > **Save view as**.
 
 ![Screenshot of saving custom active sites view](media/rss-spac-6.png)
 Enter a name for your custom view:
 ![Screenshot of naming custom active sites view](media/rss-spac-7.png)
 
-Your saved custom view is now available for you to choose from the drop down menu next time.
+Your saved custom view is now available for you to choose from the drop-down menu next time.
 ![Screenshot of reviewing saved custom active sites view](media/rss-spac-8.png)
 
   **Step #6:** Export the sites and manage the list in CSV file that you can use to add to the list by selecting the **Export** tab.
