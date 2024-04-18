@@ -81,20 +81,11 @@ Google only started calculating the size of its proprietary files, including Goo
 ### Files marked as restricted
 
 Google Workspace/Drive allows owners to control the ability for users to copy, download, or print files on a per-file basis. By default, this feature is enabled for each file. To ensure a successful migration, this setting must remain enabled. Disabling it may result in the following error when migrating a file owned by another user:
-
 `Permissions issue: File marked as restricted or not copyable`
-
 To enable this setting:
-
 1. Navigate to the **Share** panel for the file.
-
 1. Click on the **Settings Icon** located at the top right corner.
-
 1. Select the checkbox for the setting "**Viewers and commenters can see the option to download, print, and copy.**"
 
->[!NOTE]
->
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
->Google migration is not available for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
+
 
