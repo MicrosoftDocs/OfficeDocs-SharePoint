@@ -126,7 +126,7 @@ In the "Active sites" page, upon selecting a site, under "settings", a "Custom s
 Administrators can control custom script settings for a specific site; deciding if they want to allow or block custom script on a specific site:
 ![Custom script values](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4)
 
-By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting gets reset to its original value for that specific site.
+By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting will reset to its original value for that specific site.
 
 ### Persist custom script settings
 To prevent SharePoint in resetting custom script settings to its original value to the whole tenant follow these steps:
