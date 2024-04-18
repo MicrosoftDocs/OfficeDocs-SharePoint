@@ -21,80 +21,137 @@ ms.custom:
 description: "Learn what SharePoint Brand Center is, how to set it up and manage it, and learn about brand assets."
 ---
 
-# Overview of OneDrive in Microsoft 365
+# SharePoint brand center
 
-OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide describes the features available and how they can benefit your organization.
+The SharePoint brand center offers a centralized branding management application that empowers your brand managers or designated brand owners to help your organization to customize the look and feel of their experiences.
 
-## Key OneDrive features
+With this new brand asset management system, you can handle your colors, fonts, and images, and other assets all in one place.
 
-The features listed in this section address common customer concerns or specific compliance requirements, or provide unique functionality available only in OneDrive. For a full list of features available across OneDrive plans, see [Microsoft OneDrive](https://onedrive.live.com/about).
+## What is the brand center?
 
-### OneDrive Files On-Demand
+The brand center uses the SharePoint Organization Asset Library (OAL) to store and manage assets in the background. The brand center app is located in a designated site within your tenant.
 
-OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer, without downloading all the files to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. As shown in the following screenshot, files that haven't been downloaded have a cloud icon for their status. For those files that have been downloaded, the status shows a green checkmark.
+![Screenshot of Brand Center preview overview](media/brand-center-preview.png)
 
-![Screenshot of Windows Explorer with some OneDrive files that have been downloaded and others that are only in the cloud.](media/what-is-onedrive-small-business_image1.png)
+**NOTE**: The SharePoint brand center currently only allows one brand center for your organization, and the Global Administrator sets it up.
 
-By default, files are downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following screenshot shows the right-click menu for OneDrive files on a device running Windows.
+The brand center app lets you access and manage your organization's brand assets from one central place. By using the brand center app, you can make sure that your organization's brand identity is coherent and professional in all your communication channels. You can also save time and resources by avoiding duplication and confusion of brand assets, and by empowering your employees to create high-quality branded content.
 
-![Screenshot of the OneDrive right-click menu, with options for "Always keep on this device" and "Free up space."](media/What-is-onedrive-small-business_image2.png)
+## Setting up the brand center
 
-For more information about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
+To enable the new brand center the global administrator will need to perform a set of simple steps in the Microsoft 365 admin center to create/activate the Brand center app. The brand center app requires the use of Public CDN.
 
-### Modern attachments
+The brand center administrative experience finds the site that has your organization’s existing organization asset libraries if you are using them and base your brand center on this site. If you are not using the organization asset library feature, we will prompt you to make a new site to be your brand center.
 
-OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions back and forth in email. In addition, you can configure sharing permissions on the files directly from within Outlook.
+When you turn on the SharePoint brand center for your organization, this will let you use the custom fonts feature in SharePoint and Viva Connections. You can find more details in the Message Center post for Custom Fonts.
 
-![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options.](media/what-is-onedrive-small-business_image3.png)
+To enable the SharePoint brand center the global administrator will need to perform a few simple steps in the Microsoft 365 admin center to create/activate the Brand center app.
 
-To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of Outlook, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook 2016](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
+The steps required depend on your current tenant configuration. The following describes steps you need to do for each of the three scenarios:
 
-### Files Restore
+- Scenario 1: Your tenant does not currently utilize the SharePoint Organization Assets feature.
 
-The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, select the file history entry to which you want to restore, and all changes after that point will be rolled back.
+- Scenario 2: Your tenant uses the SharePoint Organization Assets feature with Private CDN.
 
-![Screenshot of the Restore my OneDrive page in Microsoft 365.](media/what-is-onedrive-small-business_image4.png)
+- Scenario 3: Your tenant uses the SharePoint Organization Assets feature with Public CDN.
 
-In addition, because the histogram shows individual activity on a file, users can use this feature to quickly view their files' modification history. For more information about this feature, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
+![Screenshot of accessing brand center from microsofto 365 admin center](media/mac-brand-center.png)
 
-### Recycle bin
+**Scenario 1:** Your tenant does not currently utilize the SharePoint Organization Assets feature.
 
-OneDrive has a recycle bin similar to the one available in Windows. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
+For this scenario, the global administrator performs the following steps to create the Brand center app.
 
-### Known Folder Move
+1. In the admin center, go to **Settings \> Org settings**.
 
-Known Folder Move enables Windows and Mac users to select commonly used folders, such as their desktop and documents to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders. For more information about Known Folder Move, see [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders) and [Redirect and move macOS Desktop and Documents folders to OneDrive](/onedrive/redirect-known-folders-macos).
+1. Select **Brand center (preview)**.
 
-### Syncing files
+1. Choose site name for the Brand Center site – Suggested “Brand Guide”.
 
-Users can upload, download, and interact with OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
+1. Read and give consent to the use of Public CDN in your tenant for the Brand center.
 
-For information about planning and deploying the sync app for your organization, see [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).
+1. Create the site and configure Public CDN in your tenant.
 
-## Manage OneDrive
+1. Add site owners to the Brand center site you created and share the link to the site to those owners to unlock the Brand center app.
 
-Many organizations use OneDrive without changing any of the options. To change these settings, use the SharePoint admin center.
+**Scenario 2:** Your tenant uses the SharePoint Organization Assets feature with Private CDN.
 
-- **Sharing.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing</a> to set sharing settings at the organization level. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+For this scenario, the global administrator performs the following steps to create the Brand center app.
 
-- **Sync.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select  **Sync**. You can require that synced computers be joined to your domain or block uploads based on file type.
+1. In the admin center, go to **Settings \>** **Org settings**.
 
-- **Storage limit.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits.
+1. Select **Brand center (preview)**.
 
-- **Retention.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Retention**. Configure how long to keep data for users whose accounts have been deleted (the default is 30 days).
+1. The Brand center recognizes your existing organization assets site location and will utilize this as the location for the Brand center app.
 
-- **Access control.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control</a> to control access from unmanaged devices or based on network location.
+1. Read and give consent to the use of Public CDN in your tenant for the Brand center.
 
-- **Compliance.** [View the compliance and risk management solutions available in Microsoft 365](https://compliance.microsoft.com/solutioncatalog)
+1. Activate Public CDN in your tenant.
 
-- **Notifications.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Notifications**. For information about this setting, see [Control notifications](/onedrive/turn-on-external-sharing-notifications).
+1. Copy and share the link to the Brand center site/app to your site owners to unlock the Brand center app.
 
-## Get help with OneDrive
+**Scenario 3:** Your tenant uses the SharePoint Organization Assets feature with Public CDN.
 
-If you need help with OneDrive, you have many ways to find solutions to common issues or request help:
+For this scenario, the global administrator will need to perform the following steps to create the Brand center app.
 
-- **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+1. In the admin center, go to **Settings \> Org settings**.
 
-- **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7), [Employee file storage (video training)](https://support.office.com/article/12dbe3e4-dbef-48f8-a90e-87f1bc607073) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
+1. Select **Brand center (preview)**.
 
-- **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
+1. The Brand center recognizes your existing organization assets site location and will utilize this as the location for the Brand center app.
+
+1. Activate the Brand center app for your organization.
+1.
+1. Copy and share the link to the Brand center site/app to your site owners to unlock the Brand center app.
+
+After you finish setting up your SharePoint brand center, you can control who can access the brand center app by customizing the site permissions of the brand center site. Site owners of the brand center site will be able to use the brand center app.
+
+## Managing the brand center
+
+The SharePoint brand center includes two levels of management: the Microsoft 365 Admin Center and the Brand Center associated SharePoint site. Within the Microsoft 365 Admin Center the global administrator has control over the enablement of the Brand Center as well as easy access to the associated site with management in the SharePoint Admin Center.
+
+From the Brand center associated site, the Global administrators, site administrators and owners can update the site permissions in the SharePoint Admin Center such as adding additional brand managers to the experience. You can do this by adding members to the site owners’ group. Within the app itself, the brand managers will be able to upload and manage their organization’s brand assets.
+
+|Who?|Where?|What?|
+|----|------|-----|
+|Global administrator|Microsoft 365 Admin Center|- Enablement of the brand center <br> -Access to the SharePoint Admin Center of the brand center site|
+|- Global administrator<br>- Site administrator<br >- Site owner|Microsoft 365 Admin Center|Update permissions|
+
+> [!NOTE]
+> The brand center app is limited to brand font management while in Preview.
+
+## Managing brands in Multi-geo organizations
+
+One of the challenges of managing brand assets across geographies is ensuring consistency and compliance with local regulations and cultural preferences. Brand managers need to be able to adapt their brand assets to different markets and languages, while still maintaining a unified and recognizable brand identity.
+
+The SharePoint brand center currently only creates a single brand center app in the primary geo of a tenant. We haven’t changed anything about how this impacts the current multi-geo operations for Organization Asset Image or Template Libraries. However, for custom fonts to work across geographies, the following requirements must be met:
+
+Each additional geography where custom fonts are wanted must have an organization asset library set up in a site that uses the Public CDN. Once these requirements are met, custom fonts will show up in the Change the Look panel and will work in that geography.
+
+> [!NOTE]
+> This does not impact Organization Asset Image Libraries and Template Libraries.
+
+## Brand Assets
+
+Every organization has a set of brand assets that are important for expressing its brand identity. Brand assets are the things that give your brand its distinctive look, sound, and feel. They include your logo, colors, fonts, images, voice, and guidelines. You use your brand assets to show your brand personality and style in all the places where you communicate with your customers, such as websites, social media, marketing materials, presentations, and products. When you use your brand assets well, you make your brand more memorable, trustworthy, and unique.
+
+One of the challenges of managing brand assets is to ensure consistency and quality across different platforms and devices. You want your brand to look sharp and professional everywhere, without spending too much time and effort on resizing, formatting, or providing appropriate access to your users.
+
+The SharePoint brand center will make the management of brand assets simple across the M365 product ecosystem. This centralized management system will enable both asset management along with customization for how the assets are utilized within each product.
+
+### Brand Images
+
+SharePoint offers a feature called the organization asset library (OAL), which allows you to store and access your brand images from a central location. You can upload and manage your organization's logos, icons, backgrounds, and other images in a centralized library that can be accessed by all your users. This way, you can ensure that your team members have access to the latest and most relevant images that reflect your brand identity and message. You can also use organization assets to create templates and themes that incorporate your images and fonts, making it easy to create professional and consistent slides and documents.
+
+Learn more about [image asset management] (/sharepoint/organization-assets-library)
+
+### Brand Fonts
+
+A font is not just a way of writing. It is a visual feature that connects your content to your brand and expresses your tone and character. A font can give your content a professional, creative, friendly, or authoritative appearance, depending on the typeface, size, color, and spacing you use.
+
+For SharePoint and Viva Connections experiences, an organization will use the SharePoint brand center to control your organization’s fonts. This will help you make sure that your font selections are coherent and match your brand identity and guidelines.
+
+Learn more about brand fonts in the SharePoint brand center \<link to new brand fonts article\>
+
+Organization font support for PowerPoint for the web is also available utilizing the organization assets infrastructure. Customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts.
+
+Learn more about [brand organization fonts for PowerPoint for the web] (/sharepoint/support-for-organization-fonts-in-powerpoint-for-the-web)
