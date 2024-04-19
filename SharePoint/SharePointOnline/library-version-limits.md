@@ -33,7 +33,7 @@ Here's a summary of the expected behavior when Document Libraries version expira
 
 :::image type="content" source="media/version-history/overright-version-history-limits-document-library.png" lightbox="media/version-history/overright-version-history-limits-document-library.png" alt-text="overwrite version history":::
 
-#### Manage Version history limits for a library using PowerShell
+## Manage Version history limits for a library using PowerShell
 
 Follow these steps to manage version history limits for a site by using PowerShell.
 
@@ -53,7 +53,7 @@ Follow these steps to manage version history limits for a site by using PowerShe
 | Set Manual limits with Count with no expiration limit on a library. | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
 
 
-### Learn More
+## Learn More
 
 For more information, check out the following resources:
 

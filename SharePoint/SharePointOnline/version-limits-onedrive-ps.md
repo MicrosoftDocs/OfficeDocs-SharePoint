@@ -43,7 +43,7 @@ Follow these steps to manage version history limits for a site by using PowerShe
 | Set manual limits with count with no expiration limit for a user | To set manual limits with count limits set the `-ExpireVersionsAfterDays parameter` to 0:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
 | Clear the existing version history limits for a user<br><br>**Note:** Clearing a setting for a user applies to new versions created on files stored on the user’s OneDrive account and doesn't trim existing versions. | `Remove-SPOSiteVersionPolicyJob -Identity $siteUrl` |
 
-**Learn More**
+## Learn More
 
 [Change a specific user's OneDrive storage space](change-user-storage.md)
 

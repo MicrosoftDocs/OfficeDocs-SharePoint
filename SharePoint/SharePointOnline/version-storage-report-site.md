@@ -43,7 +43,7 @@ When you run the report, a background timer job is scheduled to generate a CSV f
 > If you wish to cancel an in-progress report generation, you may simply delete the report file. 
 
 
-### Report Format
+## Report Format
 
 The file version expiration report is in Comma-Separated Values (CSV) format. Each row corresponds to a file version and it contains the following columns:
 
@@ -92,7 +92,7 @@ Follow these steps to manage version history limits for a site by using PowerShe
 | Generate a version storage usage report for a Library | `New-SPOListFileVersionExpirationReportJob -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
 | Track progress of the job to generate report for a Library | `Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
 
-**Learn More**
+##Learn More
 
 1. [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
 1. [Tutorial: Run 'What-If' Analysis](tutorial-run-what-if-analysis.md)

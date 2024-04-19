@@ -21,17 +21,17 @@ description: "This article provides guidance on how to trim existing versions fr
 ---
 
 
-## Trim existing Versions from Site, Library, or OneDrive(Preview) 
+# Trim existing Versions from Site, Library, or OneDrive(Preview) 
 
 > [!CAUTION]
 > Versions deleted using trimming jobs are permanently deleted. This deletion workflow bypasses the normal recycle bin retention and deleted versions cannot be recovered. 
 
-As a global or SharePoint admin in Microsoft 365, you can queue a job to trim existing versions on a Site, Library or OneDrive user account to reduce the version storage footprint of your site. You can also align existing version storage with updated version history limits by scheduling a job to trim existing versions or align existing version storage with updated version history limits.<br> There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted and cannot be recovered from recycle bin. 
+As a global or SharePoint admin in Microsoft 365, you can queue a job to trim existing versions on a Site, Library, or OneDrive user account to reduce the version storage footprint of your site. You can also align existing version storage with updated version history limits by scheduling a job to trim existing versions or align existing version storage with updated version history limits.<br> There are several things you need to consider before you decide to trim existing version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted and can't be recovered from recycle bin. 
 
 | **Phase** | **Recommended Actions** |
 | --- | --- |
-| Prepare | **Evaluate your recovery objectives and target version storage use:** Determine the right trim mode and trim scope that you will need to meet your organization’s recovery objectives.<br><br>**Review Impact:** Before committing to trim existing versions, you have the option to review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope. |
-| Queue Job | Once you are ready to commit to a trim job, you can queue a version trimming job to asynchronously delete versions matching the criteria specified in the trim mode within a Site, Library, or OneDrive user account. |
+| Prepare | **Evaluate your recovery objectives and target version storage use:** Determine the right trim mode and trim scope that you'll need to meet your organization’s recovery objectives.<br><br>**Review Impact:** Before committing to trim existing versions, you have the option to review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope. |
+| Queue Job | Once you're ready to commit to a trim job, you can queue a version trimming job to asynchronously delete versions matching the criteria specified in the trim mode within a Site, Library, or OneDrive user account. |
 | Track Progress | You can track the progress of all queued jobs to review the progress made in trimming versions.  |
 
 
@@ -39,7 +39,7 @@ As a global or SharePoint admin in Microsoft 365, you can queue a job to trim ex
 :::image type="content" source="media/version-history/trimming-workflows.png" lightbox="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::
 
 
-### Version Trim Modes
+## Version Trim Modes
 
 Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site, document library, or OneDrive account.
 
@@ -59,14 +59,14 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Automatic Trim Mode:** Delete older versions according to the automatic version storage algorithm. 
 
-### Queue Trim Job and Track Progress
+## Queue Trim Job and Track Progress
 
 The version trimming workflow uses a job to asynchronously delete versions matching the criteria specified in the trim mode.<br> 
 To queue the trim job, you need to determine the **scope** for version deletion. You can delete old file versions for all document libraries in a site or for a specific document library.  
 Next, you need to determine the **trim mode** you wish to apply for trimming file versions within the specified scope.<br>
-Once you are ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You can monitor the progress of committed trim jobs to keep track of the deletion progress  
+Once you're ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You can monitor the progress of committed trim jobs to keep track of the deletion progress.  
 
-### Trim existing Versions using PowerShell
+## Trim existing Versions using PowerShell
 
 Follow these steps to trim existing versions using PowerShell.
 
@@ -87,7 +87,7 @@ Follow these steps to trim existing versions using PowerShell.
 | Get the status for a file version trimming job | **To get status of a site level trimming job:**<br><br>`Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity $siteUrl`<br><br>**To get status of a library level trimming job:**<br><br>`Get-SPOListFileVersionBatchDeleteJobProgress -Site $siteUrl -List $libName` |
 
 
-### Learn More
+## Learn More
 
 For more information, check out the following resources:
 

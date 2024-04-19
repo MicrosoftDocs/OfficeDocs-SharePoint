@@ -36,8 +36,8 @@ Take an example of Contoso with an existing Marketing site with a set of librari
 
 > [!IMPORTANT]
 > - Changes made to Organization-level version history limits apply to new SharePoint libraries and OneDrive user accounts created since the change was made.
-> - Changes made to Organization-level version history limits will not update the history limits on existing document libraries. You can [update settings on existing libraries on individual site](#set-version-limits-for-a-site) or libraries. The ability to apply version history limits to existing document libraries at the organization level is not supported.
-> - Changes made to Organization-level version history limits will not trim existing versions to meet the new limits. You can [trim existing versions](#trim-existing-versions-from-sites-or-libraries) on a site or lib. The ability to trim existing versions at the organization level is not supported.
+> - Changes made to Organization-level version history limits will not update the history limits on existing document libraries. You can [update settings on existing libraries on individual site](document-library-version-history-limits.md#version-storage-behavior)or libraries. The ability to apply version history limits to existing document libraries at the organization level is not supported.
+> - Changes made to Organization-level version history limits will not trim existing versions to meet the new limits. You can [trim existing versions](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell) on a site or lib. The ability to trim existing versions at the organization level is not supported.
 > - Default Version History limits for your organization is set to Manual version history limits with 500 major version count limit and no expiration.
 > - Organization-level Document Library version limit settings can be used to configure version settings on Libraries only (List template Base Type = 1). List version settings, Creation of major and minor versions or Content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 > - If your organization is configured for multi-geo, the Organization level version history levels can be set for each geo. 
@@ -111,9 +111,7 @@ To review the default version history limits for all new document libraries usin
 Get-SPOTenant | select EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays,MajorVersionLimit
 ```
 
-
-
-### Learn More
+## Learn More
 
 For more information, check out the following resources:
 

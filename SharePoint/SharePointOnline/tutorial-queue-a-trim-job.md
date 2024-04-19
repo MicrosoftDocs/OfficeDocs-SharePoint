@@ -22,7 +22,7 @@ description: "This article provides guidance on how to queue a Trim job for a si
 
 # Tutorial: Queue a Trim job for a Site or Document Library
 
-In this tutorial, you will learn how to trim existing versions from a site or library by queuing a trim job using PowerShell. You will learn how to:
+In this tutorial, you'll learn how to trim existing versions from a site or library by queuing a trim job using PowerShell. You'll learn how to:
 
 - Queue trim job to delete versions from a site
 - Queue trim job to delete versions from a library.
@@ -32,7 +32,7 @@ In this tutorial, you will learn how to trim existing versions from a site or li
 
 ## Before you begin
 
-Versions deleted using the batch delete trimming are permanently deleted and cannot be recovered from the recycle bin. We recommend you prepare by performing the following actions: 
+Versions deleted using the batch delete trimming are permanently deleted and can't be recovered from the recycle bin. We recommend you prepare by performing the following actions: 
 - Review your organization’s recovery objectives and version storage usage quota targets to help determine the trim action and scope needed to meet your requirements. 
 - If needed, run an impact analysis to understand the trimming impact.
 - Determine the scope of version deletion. You can create jobs to delete old file versions for all document libraries in a site or for a specific document library.  
@@ -49,7 +49,7 @@ You can queue a job to trim versions for all document libraries in the site coll
 
 **Example: Queue trim job to delete versions based on age for all libraries on a Site.**
 
-In the example below, the trim job will be queued to  delete versions that are older than 180 days old for all document libraries in the site collection https://contoso.sharepoint.com.
+In the example below, the trim job is queued to  delete versions that are older than 180 days old for all document libraries in the site collection https://contoso.sharepoint.com.
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -DeleteBeforeDays 180

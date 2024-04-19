@@ -41,7 +41,7 @@ Before you begin:
 
 ## Set version limits to for a Site  
 
-You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command. Once you run the command, you can review progress of the settings update background job or optionally cancel the update job that are <InProgress>.
+You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command. Once you run the command, you can review progress of the settings update background job or optionally cancel the update job that are `<InProgress>`.
 
 Consider the following example to apply Automatic version history limits on a site.
 
@@ -78,7 +78,7 @@ Get-PnPSiteVersionPolicy
 
 ## Cancel an in-progress request to update version history limits on existing libraries
 
-Run the following commands to cancel an <InProgress> settings update request.Cancelling the job doesn't revert the change for document libraries where the update was already processed.
+Run the following commands to cancel an `<InProgress>` settings update request.Cancelling the job doesn't revert the change for document libraries where the update was already processed.
 
 ```
 PowerShell
