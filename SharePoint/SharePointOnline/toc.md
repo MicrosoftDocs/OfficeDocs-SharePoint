@@ -9,6 +9,7 @@
 #### [Overview](brand-center-overview.md)
 #### [Brand fonts](brand-fonts.md)
 #### [Font packages](brand-center-font-packages.md)
+#### [Font licensing](brand-font-licensing.md)
 
 ### [Governance overview](governance-overview.md)
 ### [SharePoint and Teams integration]()

@@ -33,7 +33,8 @@ The brand center uses the SharePoint Organization Asset Library (OAL) to store a
 
 ![Screenshot of Brand Center preview overview](media/brand-center-preview.png)
 
-**NOTE**: The SharePoint brand center currently only allows one brand center for your organization, and the Global Administrator sets it up.
+> [!NOTE]
+> The SharePoint brand center currently only allows one brand center for your organization, and the Global Administrator sets it up.
 
 The brand center app lets you access and manage your organization's brand assets from one central place. By using the brand center app, you can make sure that your organization's brand identity is coherent and professional in all your communication channels. You can also save time and resources by avoiding duplication and confusion of brand assets, and by empowering your employees to create high-quality branded content.
 
