@@ -101,7 +101,7 @@ For this scenario, the global administrator needs to perform the following steps
 1. The Brand center recognizes your existing organization assets site location and will utilize this as the location for the Brand center app.
 
 1. Activate the Brand center app for your organization.
-1.
+
 1. Copy and share the link to the Brand center site/app to your site owners to unlock the Brand center app.
 
 After you finish setting up your SharePoint brand center, you can control who can access the brand center app by customizing the site permissions of the brand center site. Site owners of the brand center site will be able to use the brand center app.
