@@ -72,7 +72,7 @@ Among these eight sub-sites:
 - Two (HR Team site and Benefits site) are private Teams channel sites. Their corresponding Teams channel owners are sites owners in SharePoint and channel members are site members.
 - One (Manager Portal) is restricted. Users not in a specified group can't access this site or its content, even if they have permissions to the HR Hub site.
 
-Let's consider Alex Wilber, a marketing specialist at Contoso Electronics. Before the organization uses Restricted SharePoint Search, Alex can see not only his own personal contents, like his OneDrive files, chats, emails, contents that he owns or visited, but also content from some sites that hasn't undergone access permission review or Access Control Lists (ACL) hygiene, and doesn't have data governance applied. For example, Contoso Electronics has a budgeting site with important business information. Most people don't know about this site, so the site owner hasn't set up proper permissions and hasn't followed correct data governance process. The site might be open to some users who are not allowed to see it, such as Alex. When Alex asks Copilot for some budgeting information, Copilot gets information from the budgeting site.
+Let's consider Alex Wilber, a marketing specialist at Contoso Electronics. Before the organization uses Restricted SharePoint Search, Alex can see not only his own personal contents, like his OneDrive files, chats, emails, contents that he owns or visited, but also content from some sites that haven't undergone access permission review or Access Control Lists (ACL) hygiene, and doesn't have data governance applied. For example, Contoso Electronics has a budgeting site with important business information. Most people don't know about this site, so the site owner hasn't set up proper permissions and hasn't followed correct data governance process. The site might be open to some users who aren't allowed to see it, such as Alex. When Alex asks Copilot for some budgeting information, Copilot gets information from the budgeting site.
 
 The IT admin at Contoso Electronics uses Restricted SharePoint Search to limit what sites can be searched through the allowed list. They check SPAC and SPAC DAG reports and decide to exclude this budgeting site from the allowed list. After RSS is turned on, Alex can still access things that he owns or has recently visited, or that are directly shared with him, but he can’t access any other sites, unless the site is in the allowed list and he has permission to it. When Alex asks Copilot the same question about budgeting now, Copilot won’t show them any information from that site.
 
@@ -92,13 +92,18 @@ No, this capability isn't part of Restricted SharePoint Search. However, SharePo
 
 Yes, any product where Enterprise Search is enabled and could have SharePoint content and/or files as search results will be impacted.
 
+### Does Restricted SharePoint Search impact other features based on the Microsoft Index? For example, Purview or SharePoint Advanced Management features?
+
+No, Restricted SharePoint Search won't affect any other features 
+based on the Microsoft Index.
+
 ### After enabling RSS how long does it take to take place?
 
 RSS will go into effect within an hour after it's enabled.
 
 ### If I give the URL of a hub site, will it also include all of the child sites or sites associated hub sites with it? Do these other sites count towards the 100 sites in the allowed lists?
 
-Only the hub site (the URL in the Allowed list) is included in the 100. The sub sites under the hub site are not counted against the 100 limit but RSS is effective on the sub sites.
+Only the hub site (the URL in the Allowed list) is included in the 100. The sub sites under the hub site aren't counted against the 100 limit but RSS is effective on the sub sites.
 
 ## What to do next?
 
