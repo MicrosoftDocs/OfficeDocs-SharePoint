@@ -80,4 +80,5 @@ To manage your custom brand fonts, you'll need to navigate to the Brand Fonts li
 
 1. Edit the Visible property on your font file to control the availability of the font for experiences.  
 
-> [!NOTE] Deletion of custom brand fonts is not allowed from the Brand center app at this time.
+> [!NOTE] 
+> Deletion of custom brand fonts is not allowed from the Brand center app at this time.

@@ -1,6 +1,6 @@
 ---
-ms.date: 04/18/2024
-title: Brand fonts  
+ms.date: 04/19/2024
+title: Brand font licensing
 ms.reviewer:
 ms.author: ruihu
 author: maggierui
