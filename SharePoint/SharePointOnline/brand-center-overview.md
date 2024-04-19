@@ -105,6 +105,8 @@ For this scenario, the global administrator needs to perform the following steps
 
 After you finish setting up your SharePoint brand center, you can control who can access the brand center app by customizing the site permissions of the brand center site. Site owners of the brand center site will be able to use the brand center app.
 
+![Screenshot of accessing sharepoint admin center from MAC](media/brand-center-admin-setup-final.png)
+
 ## Managing the brand center
 
 The SharePoint brand center includes two levels of management: the Microsoft 365 Admin Center and the Brand Center associated SharePoint site. Within the Microsoft 365 Admin Center, the global administrator has control over the enablement of the Brand Center and easy access to the associated site with management in the SharePoint Admin Center.
