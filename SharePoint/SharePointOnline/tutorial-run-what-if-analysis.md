@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Run 'What-If' analysis on Version Storage Report File"
+title: "Tutorial: Run 'What-If' analysis"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 01/31/2023
+ms.date: 04/30/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,19 +16,21 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to run 'What-If' analysis on Version Storage Report File."
+description: "This article provides guidance on how to run 'What-If' analysis on Version storage report file."
 
 ---
 
-# Tutorial: Run 'What-If' Analysis 
+# Tutorial: Run 'What-If' Analysis on Version storage report file
 
-In this tutorial, we discuss how to:
+In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either Automatic or Manual limits on version storage or impacted users. You will learn how to: :
 
 - Run impact analysis of setting Automatic limits.
 - Run impact analysis of expiring versions older than specified days.
 - Run impact analysis of storing version within specified count limits.
 
-Download the report file to your local computer and use the provided scripts to apply the desired setting to the file - Automatic, Manual Expiration Limits or Manual with Count Limits Only. If needed, you could use PowerShell and Excel examples to understand the impact of the selected setting on version storage or impacted users.
+Before you begin, in the previous tutorial, you had generated a version storage usage report. This tutorial assumes that the report generation job has successfully completed and the report is fully populated.<br>
+Start by downloading the report file to your local computer. Use the scripts provided below to apply the desired setting on the file.
+
 
 ## Run impact analysis of setting Automatic Version history limits
 
@@ -81,7 +83,7 @@ $Schedule |
 
 ## Run impact analysis of setting Manual Count Limits
 
-Here's an example of PowerShell script to generate a What-If Report file, It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
+Here's an example of PowerShell script to generate a What-If Report file. It applies a **Manual with Count Limits** policy with major version limit set to **50** on the report file `C:\Report.csv`.
 
 ```PowerShell
 ScheduleUpdate_Count.ps1

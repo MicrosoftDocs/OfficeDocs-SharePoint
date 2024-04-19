@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Generate and Analyze Version Usage Report for SharePoint Site"
+title: "Tutorial: Generate and analyze Version usage report (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 02/22/2024
+ms.date: 04/30/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,112 +16,65 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to generate and analyze Version Usage Report for SharePoint Site."
+description: "This article provides guidance on how to generate and analyze Version usage report for SharePoint Site."
 
 ---
 
-# Tutorial: Generate Version Usage Report (Preview)
+# Tutorial: Generate and analyze Version usage report for SharePoint site (Preview)
 
 By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs.
 
-This tutorial shows you how to generate a version storage use report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
+This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
 
 In this tutorial we cover how to:
 
-- Generate Version storage use report file for Site or Library.
+- Generate Version storage usage report file for Site or Library.
 - Check progress of report generation.
 - Understand the report file.
 - Analyze version storage use using Excel or PowerShell.
 
-## Generate Version Use Report for Sites or Library
-
-Before you begin, determine the **Report Scope** (Site or Document Library); **Report Location** (a location within a SharePoint document library that you want to save the report to). The Report Location tells us where to generate a report file, and it should be a link to a file and there can't be a file with the same name.
-
-Here’s an example of the PowerShell script that generates a **site-scoped** report at the `report location`, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
-
-> [!NOTE]
-> The report location is within a SharePoint document library.
-
-```PowerShell
-# Connect to the site that you would like to run a report on
-Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
-
-#Get the site object and start a report.
-$Site = Get-PnPSite
-
-New-PnPFileVersionExpirationReportJob -Site $Site -ReportUrl 
-"https://contoso.sharepoint.com/Shared Documents/SiteReport.csv"
-```
-
-:::image type="content" source="media/version-history/powershell-site-scoped-1.png" lightbox="media/version-history/powershell-site-scoped-1.png" alt-text="powershell site scoped 1":::
-
-Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` Ensure that the report location is within a SharePoint document library.
+In later tutorials, review how you can run impact analysis on the generated CSV report.
+Before you begin
+1.	Identify the SharePoint Site, OneDrive account, or document library whose version storage usage you want to understand. 
+2. Choose a location within the SharePoint document library that you want to save the report to. 
 
 > [!NOTE]
-> The report location is within a SharePoint document library.
+> 1. The report file is generated within the report location specified. 
+> 2. The report location must be within a SharePoint document library itself. 
+> 3. There cannot be a file with the same name as the report in the document library.  
+
+
+## Generate Version usage report for Sites or Library
+
+Here’s an example of the PowerShell script that generates a **site-scoped** report at the **report location**, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
 
 ```PowerShell
-# Connect to the site that you would like to run a report on 
-Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
-
-#Get the library object and start a report. 
-$Library = Get-PnPList "MyLibrary"
-
-New-PnPFileVersionExpirationReportJob -Library $Library - ReportUrl 
-https://contoso.sharepoint.com/Shared Documents/LibraryReport.csv
+New-SPOSiteFileVersionExpirationReportJob -Identity $siteUrl -ReportUrl “https://contoso.sharepoint.com/Shared Documents/SiteReport.csv”
 ```
+Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` 
 
-:::image type="content" source="media/version-history/library-scoped-report-powershell.png" lightbox="media/version-history/library-scoped-report-powershell.png" alt-text="library scoped report powershell":::
+## Check progress on the report generation 
 
-> [!IMPORTANT]
-> The file version report generation job is complete asynchronously over the next few days. The completion time of the report depends on the size of your library or site.
->
-> While the job is processing, you will see the report file being gradually populated. Do not update the file during this time, as it may lead to job failure. Check the progress of the report generation to ensure that the report is fully populated and ready to process.
->
-> If you want to cancel a report generation in progress, you can simply delete the report file.
-
-## Check Report Generation Progress
-
-Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed.
+Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed. 
 
 ```PowerShell
-# Connect to the site that you would like to run a report on
-Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin 
-
-#Get the site object and check the status of the report.
-$Site Get-PnPSite
-
-Get-PnPFileVersionExpirationReport JobProgress -Site $Site -ReportUrl 
-"https://contoso.sharepoint.com/Shared Documents/SiteReport.csv"
+Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -ReportUrl $reportUrl
 ```
-
-:::image type="content" source="media/version-history/site-scoped-report.png" lightbox="media/version-history/site-scoped-report.png" alt-text="site scoped report":::
-
 Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
 
 ```PowerShell
-# Connect to the site that contains the library
-Connect-PnPOnline -Url "https://contoso.sharepoint.com" -UseWebLogin
-
-#Get the library object check the status of the report. 
-$Library = Get-PnPList "MyLibrary"
-
-Get-PnPFileVersionExpirationReport JobProgress -Library $Library -ReportUrl 
-"https://contoso.sharepoint.com/Shared Documents/Library Report.csv"    
+Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl    
 ```
 
-:::image type="content" source="media/version-history/library-scoped-report-analysed.png" lightbox="media/version-history/library-scoped-report-analysed.png" alt-text="library scoped report analysed":::
-
-The cmdlet returns in JSON format, and the value appears as one of the following values:
+The cmdlet returns a response in JSON format and the value appears as one of the following values:
 
 ```PowerShell
 JSON Response Value and Explanations
 
-{"status": "covmpleted"}: the job is complete, and the report is fully populated.
+{"status": "completed"}: the job is complete, and the report is fully populated.
 {"status": "in_progress"}: there is an active job, and the report is partially populated.
 {"status": "no_report_found"}: there are no active jobs populating this file.
-{"status": "failed", "error_message": "<error message>"}; there are no active jobs 
-populating this file, but there was one and it failed.
+{"status": "failed", "error_message": "<error message>"}; there are no active jobs populating this file, but there was one and it failed.
 ```
 
 ## Understand Version Report File
@@ -136,7 +89,7 @@ Let’s go through the first file version displayed in this report.
 
 - `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify this version in your SharePoint site.  
 
-- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
+- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
 
 - `Size` indicates that the version takes 92,246 bytes of storage.  
 

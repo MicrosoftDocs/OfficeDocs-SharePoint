@@ -218,10 +218,12 @@
 #### [Generate Version Storage Usage Report for a SharePoint Site(Preview)](version-storage-report-site.md)
 ### [Set Version limits for a document library(Preview)](library-version-limits.md)
 ### [Change Version limits on OneDrive using PowerShell (Preview)](version-limits-onedrive-ps.md)
+### [Trim Versions from Site, Library, or OneDrive(Preview)](trim-versions.md)
 ### [Tutorials]()
 #### [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
 #### [Tutorial: Run 'What-If' Analysis (Preview)](tutorial-run-what-if-analysis.md)
-#### [Tutorial: Queue Trim Job (Preview)](tutorial-queue-a-trim-job.md)
+#### [Tutorial: Manage Version limits for a Site, Library, or OneDrive](tutorial-manage-version-limits.md)
+#### [Tutorial: Queue Trim Job](tutorial-queue-a-trim-job.md)
 ### [FAQs](faqs-for-versions.md)
 ### [Terms of Service](terms-of-service-version-history.md)
 

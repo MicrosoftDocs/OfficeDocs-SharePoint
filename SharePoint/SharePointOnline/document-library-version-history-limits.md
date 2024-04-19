@@ -1,5 +1,5 @@
 ---
-title: "Version History Limits for Document Library and OneDrive Accounts Overview (Preview)"
+title: "Version History Limits for Document Library and OneDrive Overview (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -20,7 +20,7 @@ description: "This article provides guidance on how Version History settings wor
 
 ---
 
-# Overview of Version History Limits for Document Libraries and OneDrive Accounts (Preview)
+# Overview of Version History Limits for Document Libraries and OneDrive (Preview)
 
 > [!NOTE]
 > Document library version controls at Tenant and Site level and the new Automatic and Manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Version History preview terms and conditions](https://microsoftapc.sharepoint.com/:w:/t/SharePointVersionTrimmingPreviewProgram/EXThSk2EYAZAmr7wACpcFG0BfPgI6GxQ8rFjJ1Sui9pS6Q?e=AQsfwM).

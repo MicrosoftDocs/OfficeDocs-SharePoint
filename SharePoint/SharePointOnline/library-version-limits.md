@@ -21,7 +21,7 @@ description: "This article provides guidance on how admins can set Version limit
 ---
 
 
-## Set Version limits for individual document library (Preview)
+# Set Version limits for individual document library (Preview)
 
 The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to [configure versioning for a library](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 

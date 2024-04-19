@@ -1,5 +1,7 @@
 ---
-title: "Plan Version Storage for Document Libraries(Preview)
+title: "Plan Version Storage for Document Libraries(Preview)"
+ms.reviewer: rekamath
+ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
