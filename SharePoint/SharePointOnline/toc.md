@@ -210,7 +210,7 @@
 
 ## Version History
 ### [Overview](versioning-overview.md)
-### [Version Controls](document-library-version-history-limits.md)
+### [Version Controls (Preview)](document-library-version-history-limits.md)
 ### [Plan Version Storage (Preview)](plan-version-storage.md)
 ### [Set Organization Version Limits (Preview)](set-default-org-version-limits.md) 
 ### [Site Version Limits (Preview)]()
@@ -222,8 +222,8 @@
 ### [Tutorials(Preview)]()
 #### [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
 #### [Tutorial: Run 'What-If' Analysis (Preview)](tutorial-run-what-if-analysis.md)
-#### [Tutorial: Manage Version limits](tutorial-manage-version-limits.md)
-#### [Tutorial: Queue Trim Job](tutorial-queue-a-trim-job.md)
+#### [Tutorial: Manage Version limits (Preview)](tutorial-manage-version-limits.md)
+#### [Tutorial: Queue Trim Job (Preview)](tutorial-queue-a-trim-job.md)
 ### [FAQs](faqs-for-versions.md)
 ### [Terms of Service](terms-of-service-version-history.md)
 
