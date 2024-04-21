@@ -145,8 +145,8 @@ Prioritized sites would be picked up for processing first, among all the sites i
 
 To manage prioritization, you can make use of the following PowerShell cmdlets.
 - [Set-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/set-spotenantrenamesiteprioritization) – This allows you to prioritize the specified site for early execution.
-- [Remove-SPOTenantRenameSitePrioritization](powershell/module/sharepoint-online/remove-spotenantrenamesiteprioritization) – This allows you to remove prioritization for the specified site.
-- [Get-SPOTenantRenameSitePrioritization](powershell/module/sharepoint-online/get-spotenantrenamesiteprioritization) – This allows you to view the current list of prioritized sites.
+- [Remove-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/remove-spotenantrenamesiteprioritization) – This allows you to remove prioritization for the specified site.
+- [Get-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/get-spotenantrenamesiteprioritization) – This allows you to view the current list of prioritized sites.
 
 > [!NOTE]
 > The PowerShell cmdlets for prioritization should be used once the tenant rename has been scheduled. Changes to the list of prioritized sites will be supported up to 2 hours before the scheduled start time of the rename. Once the rename starts, further changes will not be accepted. 
