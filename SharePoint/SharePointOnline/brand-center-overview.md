@@ -145,7 +145,7 @@ The SharePoint brand center makes the management of brand assets simple across t
 
 SharePoint offers a feature called the organization asset library (OAL), which allows you to store and access your brand images from a central location. You can upload and manage your organization's logos, icons, backgrounds, and other images in a centralized library that can be accessed by all your users. This way, you can ensure that your team members have access to the latest and most relevant images that reflect your brand identity and message. You can also use organization assets to create templates and themes that incorporate your images and fonts, making it easy to create professional and consistent slides and documents.
 
-Learn more about [image asset management.] (/sharepoint/organization-assets-library)
+Learn more about [image asset management](/sharepoint/organization-assets-library).
 
 ### Brand Fonts
 
@@ -153,8 +153,8 @@ A font isn't just a way of writing. It's a visual feature that connects your con
 
 For SharePoint and Viva Connections experiences, an organization uses the SharePoint brand center to control your organization’s fonts. This helps you make sure that your font selections are coherent and match your brand identity and guidelines.
 
-Learn more about brand fonts in the SharePoint brand center \<link to new brand fonts article\>
+Learn more about [brand fonts in the SharePoint brand center](/sharepoint/brand-fonts). 
 
 Organization font support for PowerPoint for the web is also available utilizing the organization assets infrastructure. Customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts.
 
-Learn more about [brand organization fonts for PowerPoint for the web.] (/sharepoint/support-for-organization-fonts-in-powerpoint-for-the-web)
+Learn more about [brand organization fonts for PowerPoint for the web](/sharepoint/support-for-organization-fonts-in-powerpoint-for-the-web).
