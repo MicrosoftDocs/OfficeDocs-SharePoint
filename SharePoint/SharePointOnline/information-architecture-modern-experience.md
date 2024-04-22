@@ -1,5 +1,5 @@
 ---
-ms.date: 09/19/2018
+ms.date: 04/22/2024
 title: "Introduction to SharePoint information architecture"
 ms.reviewer: 
 ms.author: ruihu
