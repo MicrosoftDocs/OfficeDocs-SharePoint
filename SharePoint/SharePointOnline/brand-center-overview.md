@@ -31,7 +31,7 @@ With this new brand asset management system, you can handle your colors, fonts, 
 
 The brand center uses the SharePoint Organization Asset Library (OAL) to store and manage assets in the background. The brand center app is located in a designated site within your tenant.
 
-![Screenshot of Brand Center preview overview](media/brand-center-preview.png)
+![Screenshot of Brand Center preview overview.](media/brand-center-preview.png)
 
 > [!NOTE]
 > The SharePoint brand center currently only allows one brand center for your organization, and the Global Administrator sets it up.
@@ -56,7 +56,7 @@ The steps required depend on your current tenant configuration. The following de
 
 - Scenario 3: Your tenant uses the SharePoint Organization Assets feature with Public CDN.
 
-![Screenshot of accessing brand center from microsofto 365 admin center](media/mac-brand-center.png)
+![Screenshot of accessing brand center from microsofto 365 admin center.](media/mac-brand-center.png)
 
 **Scenario 1:** Your tenant doesn't currently utilize the SharePoint Organization Assets feature.
 
@@ -106,7 +106,7 @@ For this scenario, the global administrator needs to perform the following steps
 
 After you finish setting up your SharePoint brand center, you can control who can access the brand center app by customizing the site permissions of the brand center site. Site owners of the brand center site will be able to use the brand center app.
 
-![Screenshot of accessing sharepoint admin center from MAC](media/brand-center-admin-setup-final.png)
+![Screenshot of accessing sharepoint admin center from MAC.](media/brand-center-admin-setup-final.png)
 
 ## Managing the brand center
 
