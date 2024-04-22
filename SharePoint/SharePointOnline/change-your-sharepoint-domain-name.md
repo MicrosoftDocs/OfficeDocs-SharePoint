@@ -42,8 +42,8 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> - This feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization.
-> - If your organization has over 10,000 total sites but less than 100,000 total sites, you may be interested in Advanced Tenant Rename, which is currently in a limited, invite-based preview. See [Advanced Tenant Rename (preview)](change-your-sharepoint-domain-name.md#advanced-tenant-rename-preview).
+> - The standard version of this feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined.
+> - Advanced Tenant Rename is available to organizations that have less than 100,000 total sites, available with SharePoint Advanced Management. See [Advanced Tenant Rename](change-your-sharepoint-domain-name.md#advanced-tenant-rename).
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
@@ -125,23 +125,31 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
-## Advanced Tenant Rename (preview)
-If you have over 10,000 total sites in your organization, or want to have greater control over the rename operation, you can consider Advanced Tenant Rename. It supports changing of the SharePoint domain on tenants with up to 100,000 total sites currently, and also has the ability for admins to prioritize up to 4,000 sites in their organization for early execution. This allows for select business-critical or high-visibility sites to complete first and reduce any risk or concerns with its impact on daily operations.
+## Advanced Tenant Rename
+If you have over 10,000 total sites in your organization or want to have greater control over the rename operation, you can consider Advanced Tenant Rename. It supports changing the SharePoint domain on tenants with up to 100,000 total sites currently and has the ability for admins to prioritize up to 4,000 sites in their organization for early execution within the overall rename. This allows for select business-critical or high-visibility sites to complete first and reduce any risk or concerns with its impact on daily operations. 
 
-Advanced Tenant Rename is a part of SharePoint Advanced Management, and is currently in a **limited, invite-based preview**.
+Advanced Tenant Rename is a part of SharePoint Advanced Management.
 
-### How to participate
+### Prerequisites
 The limited preview can currently only support tenants meeting the following conditions:
-- Your organization has less than 100,000 total sites.
-- Your organization doesn't have Multi-Geo set up.
-- Your organization doesn't use government clouds, including GCC, GCC High and DoD.
-- Your organization doesn't use vanity domain configurations.
+- You must have SharePoint Advanced Management licenses purchased for all users in your organization.
+- Your organization has <100,000 total sites.
+- Your organization doesn’t have Microsoft365 Multi Geo enabled.
+- Your organization doesn’t use government clouds, including GCC, GCC High and DoD.
+- Your organization doesn’t use vanity domains (from the earlier MTE offering). 
 
-If you would like to participate in the preview, and meet the above conditions, please express your interest through our [sign up form](https://forms.microsoft.com/r/DhBqqJVgSW). Make sure to include all of the requested information and indicate your interest in the **Organization Lifecycle Management** section by selecting the **Advanced Tenant Rename** option.
+### Prioritizing sites
+With Advanced Tenant Rename, you can prioritize up to 4,000 sites for early execution. This can include both OneDrive for Business and SharePoint Online sites, excluding root sites (e.g., contoso.sharepoint.com, contoso-admin.sharepoint.com, contoso-my.sharepoint.com). 
 
-There are limited slots available, and each application will be reviewed. Microsoft will reach out if there's space in the preview program and share more information and work with you on next steps.
+Prioritized sites would be picked up for processing first, among all the sites in your organization. This allows them the opportunity to complete their renames sooner. You can make the most of this by planning your tenant rename to start at the beginning of a low impact period (weekends, holidays, etc.) and prioritize those sites that you believe are going to be important to have accessible at the start of the next business day. 
 
-Since this is a part of SharePoint Advanced Management, participants need to either already be a SharePoint Advanced Management customer, or enable the free trial at the time of the planned rename.
+To manage prioritization, you can make use of the following PowerShell cmdlets.
+- [Set-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/set-spotenantrenamesiteprioritization) – This allows you to prioritize the specified site for early execution.
+- [Remove-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/remove-spotenantrenamesiteprioritization) – This allows you to remove prioritization for the specified site.
+- [Get-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/get-spotenantrenamesiteprioritization) – This allows you to view the current list of prioritized sites.
+
+> [!NOTE]
+> The PowerShell cmdlets for prioritization should be used once the tenant rename has been scheduled. Changes to the list of prioritized sites will be supported up to 2 hours before the scheduled start time of the rename. Once the rename starts, further changes will not be accepted. 
 
 ## Step 1: Add the new domain name
 
@@ -154,36 +162,12 @@ Since this is a part of SharePoint Advanced Management, participants need to eit
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). If this succeeds, and the new domain appears in the "Healthy" state, move directly to [Step 2 to schedule your rename](change-your-sharepoint-domain-name.md#step-2-use-microsoft-powershell-to-rename-your-domain).
+2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). 
     > [!IMPORTANT]
-    > Do not make this domain your fallback domain.
-    
-3. If you face issues with domain addition in the M365 Admin Center, go to [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain).
+    > - Do not use the "Add domain" option directly present in the Domains page, since that does not create a .onmicrosoft.com domain. Use the steps in the link above to correctly create one.
+    > - Do not make this domain your fallback domain.
 
-4. Select **Add custom domain**.
-
-5. In the **Custom domain name** box, enter the full new “.onmicrosoft.com” domain, and then select **Add domain**.
-
-    ![Custom domain name pane](media/custom-domain-name.png)
-
-    > [!IMPORTANT]
-    > When adding the domain, it needs to be an “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. You do not need to purchase the “onmicrosoft.com” domain to add it and it does not require any public DNS registration.
- 
-6. If you get a message that the domain isn't available, try a different domain. 
- 
-7. After getting a confirmation that the domain was added successfully, you might see a message that the properties couldn't be found. Select the message to refresh domain references.
-
-    > [!WARNING]
-    > Do NOT add any other domains.
-    > Do NOT configure the new domain as the initial domain.
-    > If, after adding the domain, you are prompted to create a new TXT record with your domain name registrar, the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted, you will need to delete the invalid domain and return to Step 2.
- 
-8. In the navigation at the top of the page, select the name of your tenant to go back to the Custom domain names page. Make sure the onmicrosoft.com domain you added is on the list and the Status appears as Verified. 
-
-    ![Domain status verified](media/domain-verified.png)
-
-    > [!IMPORTANT]
-    > If the status is NOT "Verified" then you will NOT be able to perform a rename. 
+3. Go back to the Domains page and check that the newly added .onmicrosoft.com domain appears in a 'Healthy' state.
 
 ## Step 2: Use Microsoft PowerShell to rename your domain
 
@@ -218,7 +202,38 @@ Since this is a part of SharePoint Advanced Management, participants need to eit
     > [!NOTE]
     > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, make sure you installed the latest SharePoint Online Management Shell. Before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`. For more info about the Start-SPOTenantRename cmdlet, see [Start-SPOTenantRename](/powershell/module/sharepoint-online/start-spotenantrename)
 
-You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC format. [More info about Get-SPOTenantRenameStatus](/powershell/module/sharepoint-online/get-spotenantrenamestatus)
+To cancel a rename that hasn't started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
+
+## Step 3: Prioritize sites (premium)
+
+If you had purchased SharePoint Advanced Management licenses for all users at the time of scheduling your rename, it would be automatically considered an Advanced Tenant Rename, with the ability to prioritize sites. 
+
+You can prioritize individual sites using the Set-SPOTenantRenameSitePrioritization cmdlet. For example, to prioritize a site _‘projectx’_, you should run the following command: 
+
+`Set-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx`
+
+If you have already identified the list of sites you’d want prioritized and want to perform the Set operation in bulk, you can populate them in a CSV file and then use PowerShell to import it and iteratively execute the cmdlets. The file should just have a single column with title as ‘SiteUrl’, and every subsequent row should be the full URL of the desired site.
+
+Example:
+
+`Import-Csv <Path> | ForEach-Object {Set-SPOTenantRenameSitePrioritization -SiteUrl  $_.SiteUrl}`
+
+> [!NOTE]
+> If you attempt this with a file that has the entire 4,000 sites in it, the complete execution of this cmdlet can take approximately 4-6 hours. If you want shorter waiting times, we recommend splitting your list of sites up and performing this in batches.
+
+To view the list of sites prioritized currently, run the following command: 
+
+`Get-SPOTenantRenameSitePrioritization`
+
+And if you want to remove prioritization for a site, you can run the Remove-SPOTenantRenameSitePrioritization cmdlet. For example, to remove prioritization for the ‘projectx’ site, you should run the following command: 
+
+`Remove-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx`
+
+Please note that prioritizing a site is not a guarantee that it will be completed first. There are several factors that can affect processing times, and multiple site renames are processed in parallel. Prioritized sites have a much higher chance of completing first. 
+
+## Step 4: Monitor the status of the rename
+
+You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC time (but will follow the local format of the system where the cmdlet is run). [More info about Get-SPOTenantRenameStatus](/powershell/module/sharepoint-online/get-spotenantrenamestatus)
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate). 
 
@@ -226,9 +241,7 @@ To verify success of the rename operation, please ensure that you review the sta
 
  `Get-SPOSiteRenameState -ParentOperationID <RenameJobID> -State Failed | Export-Csv -Path <Path>`
 
-To cancel a rename that hasn't started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
-
-## Step 3: Review features and settings after the rename
+## Step 5: Review features and settings after the rename
 
 1. Review any firewall rules that might block access to the new domain.
 
