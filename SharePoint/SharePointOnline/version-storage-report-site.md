@@ -92,7 +92,7 @@ Follow these steps to manage version history limits for a site by using PowerShe
 | Generate a version storage usage report for a Library | `New-SPOListFileVersionExpirationReportJob -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
 | Track progress of the job to generate report for a Library | `Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
 
-##Learn More
+## Learn More
 
 1. [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
 1. [Tutorial: Run 'What-If' Analysis](tutorial-run-what-if-analysis.md)
