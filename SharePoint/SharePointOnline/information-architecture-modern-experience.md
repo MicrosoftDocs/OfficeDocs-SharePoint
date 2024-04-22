@@ -125,7 +125,7 @@ SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-
 
 Hub navigation appears above the local navigation on each site, just below the suite bar, as shown in the image earlier in this article. Hub navigation is established in the site that is declared to be the hub. It's defined by the hub owner and is shared by all the associated sites.
 
-![SharePoint hubs example](media/hub_nav_example.png)
+![SharePoint hubs example](media/hub-nav-home-example.png)
 
 Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. For more information, see [Planning your SharePoint hubs](./planning-hub-sites.md).
 
@@ -154,11 +154,11 @@ Where you see local navigation elements:
 
 **Team site navigation**
 
-![Team site navigation](media/team_site_nav.png)
+![Team site navigation](media/team-site-nav.png)
 
 **Communication site navigation**
 
-![Communication site navigation](media/comm_site_nav.png)
+![Communication site navigation](media/comm-site-nav.png)
 
 ### Sites
 
