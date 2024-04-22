@@ -24,7 +24,7 @@ description: "Learn what brand fonts are, how to add brand fonts to the brand ce
 
 The choice of font can have a significant impact on the look and feel of your content. A font can convey your brand personality, tone, and style, as well as enhance the readability and aesthetics of your text. Whether you want to create a professional, elegant, playful, or creative impression, using a font that matches your brand identity can help you stand out from the crowd and connect with your audience.
 
-![screenshots of brand fonts](media/brand-fonts.png)
+![Screenshots of brand fonts.](media/brand-fonts.png)
 
 Brand fonts are your organization’s fonts that are uploaded and managed within the SharePoint brand center. In this article, we talk about how to manage your brand fonts so you can use them in Microsoft 365.
 
