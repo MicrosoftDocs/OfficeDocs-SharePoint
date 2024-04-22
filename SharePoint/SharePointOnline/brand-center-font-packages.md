@@ -103,7 +103,7 @@ Visit the SharePoint or Viva Connections branding experiences and select **New F
 
 **Step 3**: Name your font package and preview in different experiences. Determine the Visible setting for your font package.
 
-![Screenshot of step 3 of creating a new font package](media/brand-center-font-package-creation-step3.png)
+![Screenshot of step 3 of creating a new font package.](media/brand-center-font-package-creation-step3.png)
 
 ## Pay attention to Accessibility
 
@@ -121,7 +121,7 @@ For instructions on how to work with fonts and text, go to [Add accessible cont
 
 With the introduction of the brand center app, custom fonts become available to Site owners to use from the **Change the Look panel** to customize the look and feel of their content. Once you have created a font package for your organization the “From my organization” section of the Font packages dropdown to the **Change the Look** \> **Font (preview)** panel.
 
-![Screenshot of changing the font from the font preview panel](media/brand-center-change-look-org-section.png)
+![Screenshot of changing the font from the font preview panel.](media/brand-center-change-look-org-section.png)
 
 Learn more about [Change the Look.](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
 
