@@ -1,5 +1,5 @@
 ---
-ms.date: 06/21/2023
+ms.date: 04/23/2024
 title: Manage site storage limits in SharePoint in Microsoft 365
 ms.reviewer: trgreen
 ms.author: ruihu
@@ -64,7 +64,7 @@ If you prefer to fine-tune the storage space allocated to each site, you can set
 ## Manage individual site storage limits
 <a name="__toc365547981"> </a>
 
-Follow these steps to specify individual site storage limits when your storage management option is set to "manual." We recommend that you also set an email alert so that you and other site admins can be notified when sites are nearing the storage limit. To learn how to set the default storage limit for new sites, see [Manage site creation](manage-site-creation.md). 
+Follow these steps to specify individual site storage limits *when your storage management option is set to "manual."* We recommend that you also set an email alert so that you and other site admins can be notified when sites are nearing the storage limit. To learn how to set the default storage limit for new sites, see [Manage site creation](manage-site-creation.md). 
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -86,7 +86,13 @@ Follow these steps to specify individual site storage limits when your storage m
 If a site runs out of storage, site admins can request more by following these steps:
 
 1. Go to the Site Settings page.
-2. Under **Site Collection Administration**, select **Storage Metrics**.
-3. Select **Request more quota** in the upper right.
+
+1. Under **Site Collection Administration**, select **Storage Metrics**.
+
+> [!NOTE]
+> Depending on your site, you may need to do the following to see the **Site Collection Administration** section:
+> On the upper right corner of your site, select **Settings** and then select **Site Settings**. If you don't see **Site settings**, select **Site information** and then select **View all site settings**.
+
+1. Select **Request more quota** in the upper right.
 
 This sends a storage request email to the Global Administrators in the organization.
