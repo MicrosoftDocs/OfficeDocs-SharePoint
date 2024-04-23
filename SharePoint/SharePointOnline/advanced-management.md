@@ -1,5 +1,5 @@
 ---
-ms.date: 02/06/2024
+ms.date: 04/10/2024
 title: "Microsoft Syntex - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
@@ -50,7 +50,7 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 **[Block download policy for SharePoint sites and OneDrive](block-download-from-sites.md)** - You can block download of files from SharePoint sites or OneDrive without needing to use Microsoft Entra Conditional Access policies. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps.
 
-**[Recent SharePoint admin actions](recent-actions-panel.md)** - You can review and export the most recent site-related actions you made in the SharePoint admin center in the last 30 days by using the recent actions panel. Site property changes like site name, site creation and deletion, site URL, sharing settings, and storage quota are listed as actions in the panel. Note that changes made to organization-level settings, and changes made by other admins aren't shown in the panel.
+**[Review your recent changes to SharePoint site properties](recent-actions-panel.md)** - The recent actions panel lets you review and monitor the last 30 changes you've made to a SharePoint site's properties (such as renaming a site, deleting a site, changing storage quota) within the last 30 days in the SharePoint admin center. This feature only shows changes made by you and not other administrators. Also, changes made to site properties at the organization-level will not show in the panel.
 
 **[Manage site lifecycle policies](site-lifecycle-management.md)** - You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy.
 

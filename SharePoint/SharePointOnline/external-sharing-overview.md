@@ -2,8 +2,8 @@
 ms.date: 06/19/2023
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -105,13 +105,13 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
 
-Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
+Because these guests don't have a license in your organization, they're limited to basic collaboration tasks:
   
 - They can use Office.com for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license.
 
-- They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and files.
+- They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they'll have Edit permissions and they'll be able to add, edit and delete lists; they'll also be able to view, add, update and delete list items and files.
 
-- They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
+- They'll be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They'll also be able to do things like view site feeds.
 
 If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license.
 

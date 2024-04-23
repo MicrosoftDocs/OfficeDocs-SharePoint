@@ -62,9 +62,9 @@ There are limits on the number of tasks can be selected for bulk download for ea
 |Report type|Number of tasks allowed per download|
 |:-----|:-----|
 |Scan summary report|5,000|
-|Scan detailed report|100 |
+|Scan detailed report|500 |
 |Migration summary report|5,000|
-|Migration detailed report|100|
+|Migration detailed report|500|
 
 >[!Note]
 >For each report type, only one can be processed at a time. For example, there can’t be two scan summary reports running simultaneously.

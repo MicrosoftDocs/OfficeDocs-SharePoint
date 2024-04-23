@@ -109,6 +109,7 @@ The following site settings are unavailable when users are prevented from runnin
 |:-----|:-----|:-----|
 |Save Site as Template  <br/> |No longer available in Site Settings  <br/> |Users can still build sites from templates created before custom script was blocked.  <br/> |
 |Save document library as template  <br/> |No longer available in Library Settings  <br/> |Users can still build document libraries from templates created before custom script was blocked.  <br/> |
+|Save list as template  <br/> |	No longer available in List Settings  <br/> |Users can still build lists from templates created before custom script was blocked.  <br/> |
 |Solution Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use solutions created before custom script was blocked.  <br/> |
 |Theme Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use themes created before custom script was blocked.  <br/> |
 |Help Settings  <br/> |No longer available in Site Settings  <br/> |Users can still access help file collections available before custom script was blocked.  <br/> |
