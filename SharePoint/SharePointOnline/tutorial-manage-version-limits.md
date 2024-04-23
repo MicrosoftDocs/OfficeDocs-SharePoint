@@ -25,25 +25,28 @@ description: "This article provides guidance on how to manage Version history li
 
 In this tutorial, you will learn how to manage the version history limits for a site, document library, or OneDrive account. You will learn how to:
 
-- Set site level settings for all libraries on the site.
-- Check progress of your settings update job.
-- Stop an in-progress settings update job.
+- Set Version history limits settings on the site. 
+- Stop an in-progress settings update job. 
 
-Before you begin:
+## Before you begin
 
-1. Review your **organization’s recovery objectives** and **version storage use quota targets** along with the **site-specific version storage needs** to evaluate if a break of inheritance of version settings at site, library, or OneDrive account level is needed.
-2. If needed **run an impact analysis** with the desired setting, to understand the impact the new setting would have using current version storage usage patterns.
-3. For site version settings, evaluate the scope of document libraries that should be updated. Depending on business need, you can choose one of the following:
+- Review your **organization’s recovery objectives** and **version storage use quota targets** along with the **site-specific version storage needs** to evaluate if a break of inheritance of version settings at site, library, or OneDrive account level is needed.
 
-- Update new libraries only without impacting existing library settings.
-- Update existing libraries only and inherit organization default settings for new libraries.
-- Update both existing and all new libraries for consistent version storage at the site level.
+- If needed **run an impact analysis** with the desired setting, to understand the impact the new setting would have using current version storage usage patterns.
+- For site version settings, evaluate the scope of document libraries that should be updated. Depending on business need, you can choose one of the following:
+    - Update new libraries only without impacting existing library settings.
+    - Update existing libraries only and inherit organization default settings for new libraries.
+    - Update both existing and all new libraries for consistent version storage at the site level.
 
 ## Set Version limits for a Site  
 
-You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command. Once you run the command, you can review progress of the settings update background job or optionally cancel the update job that are `<InProgress>`.
+You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command to break inheritance from the organization version history limits.  
 
-### Example: Apply Automatic Version history limits on a site
+- Use the `–ApplyToNewDocumentLibraries` parameter to apply the changes only to new libraries created in the site. 
+
+- Use the `–ApplyToExistingDocumentLibraries` to only update the Version history limits on existing libraries on a site. Any new library created inherits the default organization limits. 
+
+### Example: Apply Automatic version history limits to all document libraries on a site
 
 Run the following commands to **apply Automatic setting** to all document libraries on a site.
 
@@ -51,50 +54,46 @@ Run the following commands to **apply Automatic setting** to all document librar
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true  
 ```
 
-### Example: Apply Manual setting with Count and Time version history limits on a site
+### Example: Apply Automatic version history limits to new document libraries on a site
 
-Run the following commands to **apply manual setting with count and time limits.**
+In the following example, Automatic Version history limits are applied to all new document libraries created on the site. The settings on existing libraries will not be impacted.
+  
+```PowerShell
+ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries
+```
 
-In this example count limits are set to 100 major versions with 10 minor versions and versions are set to expire after 200 days.
+### Example: Apply Manual setting with Count and Time version history limits to existing libraries only on a site
+
+In the following example, Version history limits of all existing libraries on a site are updated to Manual Version history limits.
 
 ```PowerShell
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 100 -MajorWithMinorVersionsLimit 10 -ExpireVersionsAfterDays 200 
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries
 ```
+
+## Cancel an in-progress request to update Version history limits on existing libraries.
+
+If required, you can cancel the update job that is currently `<InProgress>` using the `Remove-SPOSiteVersionPolicyJob`. 
 
 > [!NOTE]
-> ‘MajorWithMinorVersions’ count only applies to the document libraries that enabled minor versioning.
+> Cancelling the job doesn't revert the change for document libraries where the update is already processed.  
 
-### Example: Apply Manual setting with Count only Version history limits on a site
-
-Run the following commands to **apply manual setting with count limits** and check policy setting applied.
-
-In this example count limits are set to 300 major versions with 20 minor versions.
+In the example below, the in-progress job to update settings on site will be stopped. 
 
 ```PowerShell
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 300 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0 
+Remove-SPOSiteVersionPolicyJob -Identity https://contoso.sharepoint.com/sites/site1
 ```
 
-## Set Version history limits on new document libraries created on a site
 
-Use the `–ApplyToNewDocumentLibraries` parameter to apply the changes only to new libraries created in the site.  
 
-In the following example, Automatic Version history limits are applied to all new document libraries created on the site. The settings on existing libraries aren't impacted.   
 
-```PowerShell
 
- Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries 
+
+
+
+
 ```
 
-## Set Version history policy for existing document libraries only
 
-Use the `–ApplyToExistingDocumentLibraries` to update the Version history limits only on existing libraries on a site. Any new library created will inherit the default organization limits. 
-
-In the following example, Version history limits of all existing libraries on a site are updated to Manual Version history limits. 
-
-```PowerShell
-
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries 
-```
 
 
 ## Learn More

@@ -43,6 +43,11 @@ Take an example of Contoso where organizational version limits are set to Automa
 
 :::image type="content" source="media/version-history/set-version-limits-for-a-site.png" lightbox="media/version-history/set-version-limits-for-a-site.png" alt-text="Diagram of set version limits for a site level":::
 
+> [!IMPORTANT]
+> - Site level Version history limits can be set using PowerShell cmdlets only.
+> - Setting site level Version history limits doesn't trim existing versions to meet the new limits. Additional steps are needed to [trim existing versions on a site or library.](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell)
+> - Requests to update the limits on existing libraries are processed asynchronously which can take up to 24 hours to process. You can review the progress of settings to update background job of all jobs that are in progress.
+> - Cancelling an in-progress job stops the update on libraries that were not processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 
 ## Manage Version history limits for a Site using PowerShell
@@ -75,26 +80,23 @@ Run the following command **to get progress of the settings update job**.
 Get-SPOSiteVersionPolicyJobProgress -Identity $siteUrl
 ```
 
-The following table enumerates the various progress status.
+The following table enumerates the various progress status that can be reported when attempting to update the version settings for existing libraries in a site collection:
 
 | **Status** | **Description** |
 | --- | --- |
-| NoRequestFound | There is no request on the site to set version policy for existing document libraries. |
-| New | It is a new request and never processed. |
-| InProgress | The request was processed but not completed yet. |
-| CompleteSuccess | The request was processed and completed successfully. |
-| CompleteWithFailure | It was processed and completed, but some document libraries failed to set the version policy. |
+| NoRequestFound | There are no requests on the site to set or update version settings on existing document libraries.  |
+| New | The update request is New and is not processed yet. |
+| InProgress | The update request is processed and the settings update request is in progress.  |
+| CompleteSuccess | The update request is completed successfully.  |
+| CompleteWithFailure | The update request is completed, but setting update on some document libraries has failed.  |
 
-> [!IMPORTANT]
-> - Site level Version history limits can be set using PowerShell cmdlets only.
-> - Setting site level Version history limits doesn't trim existing versions to meet the new limits. Additional steps are needed to [trim existing versions on a site or library.](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell)
-> - Requests to update the limits on existing libraries are processed asynchronously which can take up to 24 hours to process. You can review the progress of settings to update background job of all jobs that are in progress.
-> - Cancelling an in-progress job stops the update on libraries that were not processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 ## Learn More:
 
-- [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite)
-- [Get-SPOSiteVersionPolicyJobProgress] 
+- [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account (Preview)](tutorial-manage-version-limits.md)
+- Manage Version history limits for a Site using [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite)
+- Review progress of settings update on existing libraries in a Site using Get-SPOSiteVersionPolicyJobProgress
+- Cancel an in-progress settings update job using Remove-SPOSiteVersionPolicyJob 
 
 
 

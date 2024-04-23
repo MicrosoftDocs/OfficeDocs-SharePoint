@@ -34,7 +34,9 @@ In this tutorial we cover how to:
 - Analyze version storage use using Excel or PowerShell.
 
 In later tutorials, review how you can run impact analysis on the generated CSV report.
-Before you begin
+
+## Before you begin
+
 1.	Identify the SharePoint Site, OneDrive account, or document library whose version storage usage you want to understand. 
 2. Choose a location within the SharePoint document library that you want to save the report to. 
 
@@ -46,50 +48,58 @@ Before you begin
 
 ## Generate Version usage report for Sites or Library
 
-Here’s an example of the PowerShell script that generates a **site-scoped** report at the **report location**, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
+You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
+
+In the example below, a job is queued to generate a site-scoped report at the report location, https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv.  
 
 ```PowerShell
-New-SPOSiteFileVersionExpirationReportJob -Identity $siteUrl -ReportUrl “https://contoso.sharepoint.com/Shared Documents/SiteReport.csv”
+New-SPOSiteFileVersionExpirationReportJob -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"  
 ```
-Here’s a PowerShell script that generates a **library-scoped** report at the **report location**, `https://contoso.sharepoint.com/Shared Documents/SiteReport.csv.` 
+In the example below, a job is queued to generates a library-scoped report at the report location, https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv.  
+
+```PowerShell
+New-SPOListFileVersionExpirationReportJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"
+```   
 
 ## Check progress on the report generation 
 
-Here’s a PowerShell script that allows you to check if your **site scoped report** is fully populated and ready to be analyzed. 
+Use the `Get-SPOListFileVersionExpirationReportJobProgress` command to track the progress of report generation request.  
+
+The example below shows how you can check if your **site scoped report** is fully populated and ready to be analyzed.  
 
 ```PowerShell
-Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -ReportUrl $reportUrl
+Get-SPOSiteFileVersionExpirationReportJobProgress -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"
 ```
-Here’s a PowerShell script that allows you to check if your **library scoped report** is fully populated and ready to be analyzed.
+
+The example below shows how you can check if your **library scoped report** is fully populated and ready to be analyzed.
+  
 
 ```PowerShell
-Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl    
+Get-SPOListFileVersionExpirationReportJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"    
 ```
 
 The cmdlet returns a response in JSON format and the value appears as one of the following values:
 
-```PowerShell
-JSON Response Value and Explanations
-
-{"status": "completed"}: the job is complete, and the report is fully populated.
-{"status": "in_progress"}: there is an active job, and the report is partially populated.
-{"status": "no_report_found"}: there are no active jobs populating this file.
-{"status": "failed", "error_message": "<error message>"}; there are no active jobs populating this file, but there was one and it failed.
-```
+| JSON Status Response | Explanation |
+| --- | --- |
+| “completed” | The job has successfully completed and the report is fully populated. |
+| “in_progress” | There is an active job. The report is partially populated. |
+| “no_report_found” | There are no active jobs populating the specified file. |
+| “failed, error message:” | The job to generate the report has failed due to the error message. |
 
 ## Understand Version Report File
 
-Here’s an example of file version expiration report and its column breakdown.
+The generated report is in CSV format with each row corresponds to a file version.
+Here’s an example of file version expiration report and its column breakdown.  
 
 :::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="expiration report":::
 
-There are 12 rows in this table. The first row is the header row. The compact columns are denoted with *.Compact* post-fix. The other 11 rows represent file versions, where each row represents 1 version.
-
+The first row is the header with the column identifiers containing File Version Identifiers, Version Metadata information, and expiration timestamp. Compact columns are denoted with “.Compact” post-fix that won’t repeat values if two consecutive rows have the same value. The other rows represent file versions, where each row represents a single version.  
 Let’s go through the first file version displayed in this report.  
 
-- `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify this version in your SharePoint site.  
+- File Version Identifiers: `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify each version in your SharePoint site.  
 
-- `WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
+- Version metadata Identifiers:`WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
 
 - `Size` indicates that the version takes 92,246 bytes of storage.  
 
@@ -97,7 +107,7 @@ Let’s go through the first file version displayed in this report.
 
 - `LastModifiedDate` indicates that the version’s content was last modified on March 13, 2023, at 22:36:09 UTC. `SnapshotDate` displays that the version became a historical version on March 20, 2023, at 16:56:51 UTC. `IsSnapshotDateEstimated` shows that `SnapshotDate` is the actual snapshot date.  
 
-- `CurrentExpirationDate` indicates that this version is currently set to never expire. `AutomaticPolicyExpirationDate` shows that under the automatically expire policy, this version is also set to never expire. `TargetExpirationDate` indicates that if we follow this schedule for trimming, we would set this version to never expire.  
+- Expiration Schedule Identifiers:`CurrentExpirationDate` indicates that this version is currently set to never expire. `AutomaticPolicyExpirationDate` shows that under the automatically expire policy, this version is also set to never expire. `TargetExpirationDate` indicates that if we follow this schedule for trimming, we would set this version to never expire.  
 
 Let’s look at the third version.  
 

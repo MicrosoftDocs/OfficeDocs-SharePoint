@@ -45,6 +45,9 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Manual Expiration Trim Mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
+**Example:** In the example below, a trim job is queued to trim versions older than 60 days. On August 31st, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31st .
+
+
   :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
 
 > [!IMPORTANT]
@@ -54,17 +57,23 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Manual Count Limit Trim Mode:** Deletes the oldest versions exceeding the specified count limit.
 
+**Example:** In the example below, a trim job is queued to delete versions that exceed 50 major version counts. On August 31st, the job starts permanently deleting older versions that exceed the 50 major version count limit as of August 31st.
+
    :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" lightbox="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
 
 
-**Automatic Trim Mode:** Delete older versions according to the automatic version storage algorithm. 
+**Automatic Trim Mode:** Delete older versions according to the automatic version storage algorithm.<br> 
+Automatic Trim Mode applies automatic algorithm to delete existing versions. Depending on the version age, the job permanently deletes versions or sets expiration time according to the automatic version storage algorithm.
+> [!TIP]
+> Review the [tutorial to run impact analysis of of setting automatic version history limits](tutorial-run-what-if-analysis.md#run-impact-analysis-of-setting-automatic-version-history-limits) to understand version deletion and expiration criteria.
 
 ## Queue Trim Job and Track Progress
 
-The version trimming workflow uses a job to asynchronously delete versions matching the criteria specified in the trim mode.<br> 
-To queue the trim job, you need to determine the **scope** for version deletion. You can delete old file versions for all document libraries in a site or for a specific document library.  
-Next, you need to determine the **trim mode** you wish to apply for trimming file versions within the specified scope.<br>
-Once you're ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You can monitor the progress of committed trim jobs to keep track of the deletion progress.  
+The version trimming workflow uses a job to asynchronously delete versions matching the criteria specified in the trim mode.
+
+To queue the trim job, you need to determine the scope for version deletion and the trim mode to set the criteria for existing version deletion. You can delete old file versions based on version age, count limits, or automatic algorithm for all document libraries in a site or for a specific document library.  
+
+Once you are ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You will be able to monitor the progress of committed trim jobs to keep track of the deletion progress. 
 
 ## Trim existing Versions using PowerShell
 

@@ -28,7 +28,9 @@ In this tutorial, we discuss how to leverage provided scripts and excel examples
 - Run impact analysis of expiring versions older than specified days.
 - Run impact analysis of storing version within specified count limits.
 
-Before you begin, in the previous tutorial, you had generated a version storage usage report. This tutorial assumes that the report generation job has successfully completed and the report is fully populated.<br>
+## Before you begin
+
+In the previous tutorial, you had generated a version storage usage report. This tutorial assumes that the report generation job has successfully completed and the report is fully populated.<br>
 Start by downloading the report file to your local computer. Use the scripts provided below to apply the desired setting on the file.
 
 
