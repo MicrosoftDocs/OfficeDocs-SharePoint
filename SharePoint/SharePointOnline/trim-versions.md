@@ -30,7 +30,7 @@ As a global or SharePoint admin in Microsoft 365, you can queue a job to trim ex
 
 | **Phase** | **Recommended Actions** |
 | --- | --- |
-| Prepare | **Evaluate your recovery objectives and target version storage use:** Determine the right trim mode and trim scope that you'll need to meet your organization’s recovery objectives.<br><br>**Review Impact:** Before committing to trim existing versions, you have the option to review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope. |
+| Prepare | **Evaluate your recovery objectives and target version storage use:** Determine the right trim mode and trim scope that you need to meet your organization’s recovery objectives.<br><br>**Review Impact:** Before committing to trim existing versions, you have the option to review the impact of the purge action by running a ‘What-if’ analysis operation of the selected trim mode on the specified scope. |
 | Queue Job | Once you're ready to commit to a trim job, you can queue a version trimming job to asynchronously delete versions matching the criteria specified in the trim mode within a Site, Library, or OneDrive user account. |
 | Track Progress | You can track the progress of all queued jobs to review the progress made in trimming versions.  |
 
@@ -45,7 +45,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Manual Expiration Trim Mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
-**Example:** In the example below, a trim job is queued to trim versions older than 60 days. On August 31st, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31st .
+**Example:** In the example below, a trim job is queued to trim versions older than 60 days. On August 31, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31 .
 
 
   :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
@@ -57,7 +57,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Manual Count Limit Trim Mode:** Deletes the oldest versions exceeding the specified count limit.
 
-**Example:** In the example below, a trim job is queued to delete versions that exceed 50 major version counts. On August 31st, the job starts permanently deleting older versions that exceed the 50 major version count limit as of August 31st.
+**Example:** In the example below, a trim job is queued to delete versions that exceed 50 major version counts. On August 31, the job starts permanently deleting older versions that exceed the 50 major version count limit as of August 31.
 
    :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" lightbox="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
 
@@ -73,7 +73,7 @@ The version trimming workflow uses a job to asynchronously delete versions match
 
 To queue the trim job, you need to determine the scope for version deletion and the trim mode to set the criteria for existing version deletion. You can delete old file versions based on version age, count limits, or automatic algorithm for all document libraries in a site or for a specific document library.  
 
-Once you are ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You will be able to monitor the progress of committed trim jobs to keep track of the deletion progress. 
+Once you're ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You'll be able to monitor the progress of committed trim jobs to keep track of the deletion progress. 
 
 ## Trim existing Versions using PowerShell
 
