@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - M365-collaboration
+- m365copilot
+- magic-ai-copilot
 description: "Helps you prevent certain content on SharePoint sites from being shared too widely. This feature lets you as the administrator decide which SharePoint sites appear in the search across your organization and the initial Copilot experiences."
 ---
 # Restricted SharePoint Search

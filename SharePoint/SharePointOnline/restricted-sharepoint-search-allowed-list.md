@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - M365-collaboration
+- m365copilot
+- magic-ai-copilot
 description: "Learn how to use SharePoint Admin Center active sites report and SharePoint Advanced Management Data Access Governance report to find the most active and shared sites for the Restricted SharePoint Search allowed list. "
 ---
 
