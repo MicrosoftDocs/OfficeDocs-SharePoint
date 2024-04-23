@@ -5,7 +5,6 @@
 ### [OneDrive office hours](onedrive-office-hours.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
-
 ### [Governance overview](governance-overview.md)
 ### [SharePoint and Teams integration]()
 #### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
