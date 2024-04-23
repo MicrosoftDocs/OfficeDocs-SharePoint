@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - M365-collaboration
+- m365copilot
+- magic-ai-copilot
 description: "Learn how to use PowerShell scripts as a global admin to get current mode of Restricted SharePoint Search, enable/disable Restricted SharePoint search, add to or remove from the allowed list, and get the list of current sites in the allowed list."
 ---
 
