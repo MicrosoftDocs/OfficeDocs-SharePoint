@@ -93,6 +93,6 @@ If a site runs out of storage, site admins can request more by following these s
 > Depending on your site, you may need to do the following to see the **Site Collection Administration** section:
 > On the upper right corner of your site, select **Settings** and then select **Site Settings**. If you don't see **Site settings**, select **Site information** and then select **View all site settings**.
 
-1. Select **Request more quota** in the upper right.
+3. Select **Request more quota** in the upper right.
 
 This sends a storage request email to the Global Administrators in the organization.
