@@ -15,6 +15,7 @@ ms.service: sharepoint-online
 ms.collection: 
 - M365-collaboration
 - m365copilot
+- magic-ai-copilot
 - Tier2
 ms.custom:
 - seo-marvel-apr2020
