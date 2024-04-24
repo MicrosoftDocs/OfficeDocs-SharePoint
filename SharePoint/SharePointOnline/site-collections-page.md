@@ -100,7 +100,7 @@ On the panel, select the **Settings** tab and select **More sharing settings** u
 
 Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
 
-![screenshot of limit site sharing by domains](media/site-sharing-domains.png)
+![Screenshot of limit site sharing by domains.](media/site-sharing-domains.png)
 
 ### Turn off sharing for all non-owners on all sites in the site collection 
 
