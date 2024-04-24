@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Manage user profiles in the SharePoint admin center"
 ms.reviewer: waynewin
 ms.author: ruihu
@@ -138,7 +138,4 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     
     ![The permissions dialog for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
 
-> [!NOTE]
-> The **Disable OneDrive** check box has no effect. Use the "Create Personal Site" check box to specify the security groups that have permission to create a OneDrive.  
-  
 5. Select **OK**.
