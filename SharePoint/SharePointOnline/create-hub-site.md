@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Create a hub site in SharePoint"
 ms.reviewer: metorres
 ms.author: ruihu
