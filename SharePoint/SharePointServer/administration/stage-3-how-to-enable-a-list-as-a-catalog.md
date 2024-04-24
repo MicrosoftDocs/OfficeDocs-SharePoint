@@ -25,7 +25,7 @@ description: Learn how to enable a list as a catalog in SharePoint Server 2016.
   
 ## Quick overview
 
-As described in as described in [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), we've imported content about Contoso's product line into the **Products** list. To display this product information in our Publishing Portal (the Contoso website), we must enable the **Products** list as a catalog. 
+As described in [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), we've imported content about Contoso's product line into the **Products** list. To display this product information in our Publishing Portal (the Contoso website), we must enable the **Products** list as a catalog. 
   
 ## Start stage 3
 
@@ -51,9 +51,9 @@ By selecting this, we confirm that content from the **Products** list should be 
     
      ![Anonymous Access](../media/OTCSP_AnonymousAccess.PNG)
   
-By doing this, we grant anonymous visitors, that is, visitors who are not logged on to Contoso's website, access to view content from this list.
+By doing this, we grant anonymous visitors, that is, visitors who aren't logged on to Contoso's website, access to view content from this list.
     
-Note that we're **not** granting visitors access to the list itself. All we're doing is granting anonymous visitors access to **view** the catalog content from the search index. Anonymous visitors will never be able to see the actual **Products** list. 
+We're **not** granting visitors access to the list itself. All we're doing is granting anonymous visitors access to **view** the catalog content from the search index. Anonymous visitors will never be able to see the actual **Products** list. 
     
 ![Anonymous Access Image](../media/OTCSP_AnonymousAccessImage.gif)
   
@@ -79,7 +79,7 @@ The terms from the **Product Hierarchy** term set will also be used to create a 
     
      ![Item URL](../media/OTCSP_ItemURL.PNG)
   
-The URL to a specific product will be composed of the terms that we specify in **Navigation Hierarchy** (previous step),  *and*  the values from the fields we specify as **Catalog Item URL Fields**. When selecting these fields, we should use at least one field that contains a product unique value, because we want to use this unique value in the product URL. By doing this, the URL to the product  *Fabricam Home Movimaker M300*  will differ from the URL to the product  *Fabricam Home Movimaker M400*  . 
+The URL to a specific product will be composed of the terms that we specify in **Navigation Hierarchy** (previous step),  *and*  the values from the fields we specify as **Catalog Item URL Fields**. When selecting these fields, we should use at least one field that contains a product unique value, because we want to use this unique value in the product URL. By doing this, the URL to the product  *Fabricam Home Movimaker M300*  will differ from the URL to the product  *Fabricam Home Movimaker M400*. 
     
 For Contoso, the unique identifier of a product is the value in the **Item Number** column. We also want to use the value of the **Group Number** column. Therefore, we'll add them both. Later in this series, we'll explain why we also want to use **Group Number**. 
     

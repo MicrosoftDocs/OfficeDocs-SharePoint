@@ -33,7 +33,7 @@ Here's how the Usage analytics features work:
     
 2. The usage event is recorded in the **Event store**. 
     
-3. The usage events are sent to the **Analytics Processing Component**, where they are analyzed. The result is sent to the **Search index**. 
+3. The usage events are sent to the **Analytics Processing Component**, where they're analyzed. The result is sent to the **Search index**. 
     
 4. When visitors browse to a page that contains a **Recommendations** or **Popular Items Web Part**, a query is automatically issued and sent to the search index. 
     
@@ -81,11 +81,11 @@ To view the usage event definitions, do the following:
 > [!IMPORTANT]
 > One important aspect of how Usage analytics works is step 2 of the overview: *The usage event is recorded in the Event store*. In the Event store, each usage event must be recorded using *the URL of the item*. 
   
-This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example `http://www.contoso/sites/Pages/ContosoItemPage.aspx`. Because the same catalog item page is used to display many items, the usage event cannot be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example `http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12`. 
+This is especially important in a cross-site publishing scenario (see [An introduction to cross-site publishing in SharePoint Server](an-introduction-to-cross-site-publishing.md)). With cross-site publishing, content is stored in an Authoring site collection and displayed in a Publishing site collection. Managed navigation is used together with category pages and catalog item pages to display content (see [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md)). This means that when a visitor views an item on the publishing site, the usage event happens on the catalog item page, for example `http://www.contoso/sites/Pages/ContosoItemPage.aspx`. Because the same catalog item page is used to display many items, the usage event can't be recorded using the URL of the catalog item page. For Usage analytics to work in a cross-site publishing scenario, the usage event must be recorded using the URL of the item in the authoring site collection, for example `http://www.contoso/sites/catalog/Lists/Products/DispForm.aspx?ID=12`. 
   
 ![Usage Event Recorded Using URL](../media/OTCSP_IntroductionRecommendations2.jpg)
   
-Depending on how you've set up your website, SharePoint Server can automatically record the usage event on the URL of the item in the authoring site. Here's the question that you must ask yourself: which Web Part are you using to display items on your catalog item page? If the answer is Catalog Item Reuse Web Parts, then you have nothing to worry about. The Catalog Item Reuse Web Part will automatically make sure that usage events are recorded correctly in the Event store. But, if you are using a Content Search Web Part to display items on your catalog item page, you must do some additional configuration steps. But don't worry, all these steps will be explained later in this series.
+Depending on how you've set up your website, SharePoint Server can automatically record the usage event on the URL of the item in the authoring site. Here's the question that you must ask yourself: which Web Part are you using to display items on your catalog item page? If the answer is Catalog Item Reuse Web Parts, then you have nothing to worry about. The Catalog Item Reuse Web Part will automatically make sure that usage events are recorded correctly in the Event store. But, if you're using a Content Search Web Part to display items on your catalog item page, you must do some extra configuration steps. But don't worry, all these steps will be explained later in this series.
   
 Before we move on, there's one more thing that you need to know about: the *UsageAnalyticsID* managed property. 
   
@@ -104,7 +104,7 @@ The default Usage analytics calculation will consider the color of items when ca
   
 ![Item Recommendations](../media/OTCSP_ItemRecommendations.png)
   
-The two recommended keyboards are the same product, and so are the two mouse devices. These are not good recommendations. To get recommendations that will ignore the product color, we have to change the mapping of the *UsageAnalyticsID* managed property. 
+The two recommended keyboards are the same product, and so are the two mouse devices. These aren't good recommendations. To get recommendations that will ignore the product color, we have to change the mapping of the *UsageAnalyticsID* managed property. 
   
 By default, *UsageAnalyticsID* is mapped to the crawled property *ows_ProductCatalogItemNumber*. If you used the Product Catalog site template when you created your authoring site collection (as explained in [Stage 1: Create site collections for cross-site publishing in SharePoint Server](stage-1-create-site-collections-for-cross-site-publishing.md)), this crawled property represents the site column *Item Number* in your *Products* list. 
   

@@ -46,7 +46,7 @@ Before you begin this operation, review the following list of possible customiza
     
   - Assemblies
     
-- Authored site elements, which are typically created by web designers, are not explicitly compiled and are located in a content database. Authored site elements include the following:
+- Authored site elements, which are typically created by web designers, aren't explicitly compiled and are located in a content database. Authored site elements include the following:
     
   - Master pages
     
@@ -62,7 +62,7 @@ Before you begin this operation, review the following list of possible customiza
     
 - Changes to sites created by direct editing through the browser
     
-- Developed customizations that are not packaged as solutions
+- Developed customizations that aren't packaged as solutions
     
 > [!NOTE]
 > Each of these kinds of customizations requires a different type of backup. 
@@ -78,7 +78,7 @@ The method that you use to back up solution packages is determined by whether th
   
 Trusted solutions are solution packages that farm administrators deploy. Trusted solutions are deployed to the entire farm and can be used on any site within the farm. Trusted solutions are stored in the configuration database. Trusted solutions are backed up when a farm is backed up by using SharePoint Server backup, and are included in configuration-only backups. You can also back up trusted solutions as a group or individually. Trusted solutions are visible in the backup hierarchy.
   
-Sandboxed solutions are solution packages that site collection administrators can deploy to a single site collection. Sandboxed solutions are stored in the content database that is associated with the site collection to which the solution packages are deployed. They are included in SharePoint Server farm, web application, content database, and site collection backups, but are not visible in the backup hierarchy and cannot be selected or backed up individually.
+Sandboxed solutions are solution packages that site collection administrators can deploy to a single site collection. Sandboxed solutions are stored in the content database that is associated with the site collection to which the solution packages are deployed. They're included in SharePoint Server farm, web application, content database, and site collection backups, but aren't visible in the backup hierarchy and can't be selected or backed up individually.
   
 We recommend that you keep a backup of the original .wsp file and the source code used to build the .wsp file for both trusted solutions and sandboxed solutions. 
   
@@ -113,12 +113,12 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -140,19 +140,19 @@ For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/B
 ### Backing up sandboxed solutions in SharePoint Server
 <a name="SandboxedSolutions"> </a>
 
-You cannot back up only sandboxed solutions. Instead, you must back up the farm, Web application, or content database with which the sandboxed solution is associated.
+You can't back up only sandboxed solutions. Instead, you must back up the farm, Web application, or content database with which the sandboxed solution is associated.
   
 ## Back up authored site elements in SharePoint Server
 <a name="AuthoredSite"> </a>
 
-You cannot back up only authored site elements. Instead, you must back up the farm, Web application, or content database with which the authored site element is associated.
+You can't back up only authored site elements. Instead, you must back up the farm, Web application, or content database with which the authored site element is associated.
   
 ## Back up workflows in SharePoint Server
 <a name="Workflows"> </a>
 
 Workflows are a special case of customizations that you can back up. Make sure that your backup and recovery plan addresses any of the following scenarios that apply to your environment:
   
-- Declarative workflows, such as those that were created in SharePoint Designer, are stored in the content database for the site collection to which they are deployed. Backing up the content database protects these workflows.
+- Declarative workflows, such as those that were created in SharePoint Designer, are stored in the content database for the site collection to which they're deployed. Backing up the content database protects these workflows.
     
 - Custom declarative workflow actions have components in the following three locations: 
     
@@ -160,7 +160,7 @@ Workflows are a special case of customizations that you can back up. Make sure t
     
   - The XML definition files (.ACTIONS files) are stored in the 16\TEMPLATE\< _LCID_>\Workflow directory.
     
-  - An XML entry to mark the action as an authorized type is stored in the Web.config file for the Web applications in which it is used.
+  - An XML entry to mark the action as an authorized type is stored in the Web.config file for the Web applications in which it's used.
     
     If the farm workflows use custom actions, you should use a file backup system to protect these files and XML entries. Similar to features such as Web Parts and event receivers, these files should be reapplied to the farm as needed after recovery.
     
@@ -168,14 +168,14 @@ Workflows are a special case of customizations that you can back up. Make sure t
     
 - If you create a custom workflow that interacts with a site collection other than the one where the workflow is deployed, you must back up both site collections to protect the workflow. This includes workflows that write to a history list or other custom list in another site collection. Performing a farm backup is sufficient to back up all site collections in the farm and all workflows that are associated with them.
     
-- Workflows that are not yet deployed must be backed up and restored separately. When you are developing a new workflow but have not yet deployed it to the SharePoint Server farm, make sure that you back up the folder where you store the workflow project files by a file system backup application.
+- Workflows that aren't yet deployed must be backed up and restored separately. When you're developing a new workflow but haven't yet deployed it to the SharePoint Server farm, make sure that you back up the folder where you store the workflow project files by a file system backup application.
     
 ## Back up changes to the Web.config file in SharePoint Server
 <a name="WebConfig"> </a>
 
 A common customization to SharePoint Server is to change the Web.config file. We strongly recommend that you make changes to the Web.config file by using Central Administration or the SharePoint Server APIs and object model. Because these changes are stored in the configuration database, they can be recovered from a farm or configuration-only backup. 
   
-Changes to the Web.config file that are not made by using Central Administration or the SharePoint Server APIs and object model should be protected by using a file system backup. 
+Changes to the Web.config file that aren't made by using Central Administration or the SharePoint Server APIs and object model should be protected by using a file system backup. 
   
 > [!NOTE]
 > If you are using forms-based authentication, provider registration in the Web.config file is manual, and is not protected by SharePoint Server backup. In this case, make sure that you back up the Web.config file by using a file system backup. 
@@ -183,12 +183,12 @@ Changes to the Web.config file that are not made by using Central Administration
 ## Back up third-party products in SharePoint Server
 <a name="ThirdParty"> </a>
 
-If third-party products are deployed as solution packages, they are protected by SharePoint Server backup. We recommend that you keep all the original files, distribution media, documentation, and the license and product keys that are required for installation.
+If third-party products are deployed as solution packages, they're protected by SharePoint Server backup. We recommend that you keep all the original files, distribution media, documentation, and the license and product keys that are required for installation.
   
-## Back up developed customizations that are not packaged as solutions in SharePoint Server
+## Back up developed customizations that aren't packaged as solutions in SharePoint Server
 <a name="DevelopedCustomizations"> </a>
 
-Backing up developed customizations that are not deployed as solution packages can be a complex process because the customization file locations might not be stored in standardized places and SharePoint Server does not automatically back them up.
+Backing up developed customizations that aren't deployed as solution packages can be a complex process because the customization file locations might not be stored in standardized places and SharePoint Server doesn't automatically back them up.
   
 Consult with the development team or customization vendor to determine whether the customizations involve additional add-in software or files in other locations. We recommend that you back up these directories with a file system backup solution. The following table lists locations where developed customizations are typically stored on Web servers.
   
