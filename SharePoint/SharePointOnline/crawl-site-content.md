@@ -58,9 +58,9 @@ See also: [Enable content on a site to be searchable](make-site-content-searchab
 
 1. On the site, go to the list or library that you want to reindex. 
     
-1. On the upper right corner, selet **Settings**, then choose **Library Settings** or **List Settings**. 
+1. In the upper right corner, selet **Settings**, and then choose **Library Settings** or **List Settings**. 
 
-1. On the Settings page, under **General Settings**, choose **Advanced settings**. If you don't see the **Settings** page, you may need to choose **More libary settings** or **More List settings**.
+1. On the Settings page, under **General Settings**, choose **Advanced settings**. If you don't see the **Settings** page, you may need to choose **More library settings** or **More List settings**.
     
 2. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. A warning appears. Select the button again to confirm. The content is reindexed during the next scheduled crawl.
   
