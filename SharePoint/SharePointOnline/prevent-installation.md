@@ -4,7 +4,7 @@ ms.reviewer: cagreen
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
-ms.date: 03/05/2024
+ms.date: 04/11/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -27,7 +27,7 @@ description: "Learn how to hide the Sync button to prevent users from downloadin
 
 The Sync button helps users install and set up the new OneDrive sync app. If you want to manage the rollout of the sync app to your organization, you can hide the Sync button on the OneDrive website to prevent your users from downloading the sync app themselves.
   
- **To prevent users from downloading the OneDrive sync app**
+ ## To prevent users from downloading the OneDrive sync app
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 

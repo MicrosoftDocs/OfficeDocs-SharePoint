@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/14/2023
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
-ms.reviewer: 
+ms.reviewer: kafeaver
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

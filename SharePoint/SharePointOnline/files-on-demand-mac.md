@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/14/2023
 title: "Set Files On-Demand states on Mac"
-ms.reviewer: 
+ms.reviewer: cagreen
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

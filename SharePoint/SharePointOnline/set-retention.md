@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/09/2024
 title: "Set the OneDrive retention for deleted users"
-ms.reviewer: 
+ms.reviewer: jmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
