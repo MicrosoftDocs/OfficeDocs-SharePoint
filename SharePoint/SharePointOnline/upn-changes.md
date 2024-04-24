@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/09/2024
 title: "How UPN changes affect OneDrive"
-ms.reviewer: waynewin
+ms.reviewer: jmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

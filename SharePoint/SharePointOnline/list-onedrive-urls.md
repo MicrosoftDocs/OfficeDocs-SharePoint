@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/09/2024
 title: "View the list of OneDrive URLs for users in your organization"
-ms.reviewer: 
+ms.reviewer: kmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

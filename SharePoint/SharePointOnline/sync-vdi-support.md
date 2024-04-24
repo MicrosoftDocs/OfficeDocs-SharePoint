@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/11/2024
 title: "Use the sync app on virtual desktops"
-ms.reviewer: sraja
+ms.reviewer: kafeaver
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -31,12 +31,10 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 - Virtual desktops that persist between sessions.
 - Non-persistent virtual desktops that use [Azure Virtual Desktop](/azure/virtual-desktop).
 - Non-persistent virtual desktops that have [FSLogix Apps](/fslogix/configure-profile-container-tutorial) or [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
-  - Windows 10, 32-bit or 64-bit (supports VHDX files)
-  - Windows 7, 32-bit or 64-bit (supports VHD files)
+  - Windows 10 and 11, 32-bit or 64-bit (supports VMDK files)
   - Windows Server 2019 (supports VHDX)
   - Windows Server 2016 (supports VHDX)
   - Windows Server 2012 R2 (supports VHDX)
-  - Windows Server 2008 R2 (supports VHD)
 
 > [!NOTE]
 > It is not supported to roam the OneDrive registry hive as part of a non-persistent VDI environment. Do not roam `HKEY_CURRENT_USER\Software\Microsoft\OneDrive\` in your non-persistent VDI user profiles.

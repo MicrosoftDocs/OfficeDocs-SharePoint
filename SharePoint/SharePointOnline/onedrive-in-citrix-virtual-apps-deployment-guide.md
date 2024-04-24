@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/14/2023
 title: Set up OneDrive in Citrix Virtual Apps
 ms.reviewer: gacarini
 ms.author: mactra
@@ -40,7 +40,7 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following  versions
 **Citrix**:
 
 - CVAD 7 2203 LTSR CU1 or later.
-- VDA 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.  
+- VDA 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.
 - To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH, or Windows 11 RDSH) add the following registry details:
 
     `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`<p>

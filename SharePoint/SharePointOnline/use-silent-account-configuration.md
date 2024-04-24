@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 4/11/2024
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
 ms.author: mactra

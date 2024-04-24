@@ -1,11 +1,9 @@
 ---
-ms.date: 03/05/2024
+ms.date: 03/14/2024
 title: "Deploy and configure the OneDrive sync app for Mac"
-ms.reviewer: 
-
+ms.reviewer: cagreen
 ms.author: mactra
 author: MachelleTranMSFT
-
 manager: jtremper
 audience: Admin
 f1.keywords:
@@ -22,7 +20,6 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: eadddc4e-edc0-4982-9f50-2aef5038c307
-
 description: "Learn how to change settings when deploying or managing the OneDrive sync app on macOS."
 ---
 
