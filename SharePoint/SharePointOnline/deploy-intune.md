@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 4/12/2024
 title: "Deploy OneDrive apps using Intune"
-ms.reviewer: 
+ms.reviewer: scbree
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

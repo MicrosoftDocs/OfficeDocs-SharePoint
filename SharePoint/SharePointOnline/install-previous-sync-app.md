@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/12/2024
 title: "Install the previous OneDrive sync app"
 ms.reviewer: garezni
 ms.author: mactra
