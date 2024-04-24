@@ -21,9 +21,7 @@ description: "This article provides guidance on how to plan version storage for 
 
 # Plan Version Storage on Document Libraries (Preview)
 
-A file version is created when you edit the file, coauthor a document, another user starts working on the document, a user selects **Save** to upload changes to the library, or when a file's properties are changed. The Version limits you configure need to meet both recovery objectives and optimize on version storage.
-
-In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
+The Version limits you configure need to meet your organization’s recovery objectives and optimize on version storage. In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization:
 
 ## Determine Default Version limits for your organization
 

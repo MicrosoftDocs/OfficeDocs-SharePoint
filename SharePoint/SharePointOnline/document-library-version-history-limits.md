@@ -26,7 +26,7 @@ description: "This article provides guidance on how Version History settings wor
 > Document library version controls at Tenant and Site level and the new Automatic and Manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Version History preview terms and conditions](https://microsoftapc.sharepoint.com/:w:/t/SharePointVersionTrimmingPreviewProgram/EXThSk2EYAZAmr7wACpcFG0BfPgI6GxQ8rFjJ1Sui9pS6Q?e=AQsfwM).
 
 
-Version history limits control how versions are stored in a SharePoint document library or OneDrive account. Limits can be set at Organization, Site, Library or OneDrive user account level allowing admins and site owners the ability to better manage content recovery and auditing requirements. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site Owners can overwrite organization-level version settings by [configuring versions settings for sites](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
+Version history limits control how versions are stored in a SharePoint document library or OneDrive account. Limits can be set at Organization, Site, Library or OneDrive user account level allowing admins and site owners the ability to better manage content recovery and auditing requirements. Global and SharePoint admins in Microsoft 365 can set **Version history limits** at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site owners can overwrite organization-level version settings by [configuring version settings for sites](site-version-limits.md) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
 
 The following table summarizes the various ways of managing **Version history limits** on your document libraries:
 
@@ -37,7 +37,19 @@ The following table summarizes the various ways of managing **Version history li
 | **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions before scheduling trim job. |
 | **Trim Existing Versions** | Site Admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
 
-By default, Organization level settings are applied to all new libraries created in the organization. If **Version history limits** are configured on a site, the site settings are applied to all new libraries created on the site.
+## How Version history limits are applied
+
+Version history limits are applied in the following ways:
+
+- **Default Organization limits:** Organization default settings are applied to all new libraries created on sites that don't have site level settings configured.  
+- **Site Limits:** It is possible to break inheritance for a site by configuring Version history limits for the site. When version limits are configured on a site, the settings are applied to all new libraries created on the site.
+- **Library Limits:** It is possible to break inheritance at library level to define version limits for files stored in the library. 
+
+In the example below, default organization limits are applied to new libraries created on marketing and sales sites as these sites do not have site level limits applied. Legal site has site level limits applied and broken inheritance from the organization defaults. Libraries created in the legal site follows the limits applied at the legal site level. 
+
+:::image type="content" source="media/version-history/version-limits-applied.png" alt-text="Screenshot of how version history limits are applied." lightbox="media/version-history/version-limits-applied.png":::
+
+The figure below shows the workflow of applying a version limit on new document libraries. When a new library is created, site level setting check is performed. 
 
 :::image type="content" source="media/version-history/version-limits-new-libraries-flow.png" lightbox="media/version-history/version-limits-new-libraries-flow.png" alt-text="Diagram of version limits for new libraries":::
 

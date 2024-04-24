@@ -24,7 +24,7 @@ description: "This article provides guidance on how admins can set version histo
 
 By default, Organization level settings define the Version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct **Version history limits** on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
-**Version history limits** for an individaul site can be managed in the following ways:
+**Version history limits** for an individual site can be managed in the following ways:
 
 | Version history limits option | Description |
 |:-----|:-----|
