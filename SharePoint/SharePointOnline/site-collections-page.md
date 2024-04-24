@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2020
+ms.date: 04/24/2024
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: jtremper
