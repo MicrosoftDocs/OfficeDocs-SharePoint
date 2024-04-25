@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 07/01/2023
 title: "Recommended sync app configuration"
 ms.reviewer: gacarini
 ms.author: mactra

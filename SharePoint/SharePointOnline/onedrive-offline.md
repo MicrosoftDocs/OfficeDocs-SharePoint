@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/21/2023
 title: OneDrive webapp in offline mode
 ms.reviewer:
 ms.author: mactra

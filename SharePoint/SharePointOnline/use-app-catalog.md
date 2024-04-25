@@ -1,5 +1,5 @@
 ---
-ms.date: 04/15/2024
+ms.date: 04/24/2024
 title: "Manage apps using the Apps site - SharePoint"
 ms.reviewer: yihan1
 ms.author: ruihu
@@ -48,25 +48,20 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 
 4. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
 
-5. Select **Add**.
+5. Select **Add to Apps site**.
 
-    :::image type="content" alt-text="Deploy a SharePoint Framework app from the store." source="media/deployspfxappfromstore.gif" lightbox="media/deployspfxappfromstore.gif":::
+6. Some apps can be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Enable this app and add it to all sites**.
 
-6. Review app permissions and data access.
+7. Select **Add**.
 
-7. Some apps can be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**.
-
-8. Select **Add**.
-
-9. If the app requires additional permissions, a message appears. Select **Go to API access page** to approve the permission request.
-
+8. If the app requires additional permissions, a message appears. [Go to **API access page** in SharePoint admin Center to approve the permission requests](/sharepoint/api-access#approve-a-pending-request).
 
 ## Add custom apps
 <a name="__add_custom_apps"> </a>
 
-When you upload a custom app to the Apps site, it's available for users to install when they browse apps under **From Your Organization**. 
+When you upload a custom app to the Apps site, it's available for users to install when they browse apps under **From Your Organization**.
 
-1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to [**More features** in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -78,15 +73,16 @@ When you upload a custom app to the Apps site, it's available for users to insta
 1. Review the info in the **Enable app** panel. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Enable this app and add it to all sites**. 
 
     ![Screenshot of the Enable app confirmation dialog box.](media/apps-enable-app.png)
-   
-       > [!NOTE]
-    > We recommend testing solutions before deploying them broadly. 
+If the app can be added to Teams, you can check the **Add to Teams** option that appears under **Enable this app and add it to all sites**.
+   ![Screenshot of the Add to Teams box.](media/apps-add-app-teams.png)
+> [!NOTE]
+> We recommend testing solutions before deploying them broadly. 
 
-1. Select **Enable app**.
+5. Select **Enable app** or **Add** for apps that can be added to Teams.
 
-1. Select **Close**.
+6. Select **Close**.
 
-1. To help site owners identify and use the app, select the app, and then select **Properties**.
+7. To help site owners identify and use the app, select the app, and then select **Properties**.
 
     ![Screenshot of the menu dropdown with Properties option.](media/apps-select-properties.png)
    
@@ -117,7 +113,7 @@ If you chose to have an app automatically added to all sites, you can stop addin
 To stop adding an app to new sites
 1. On the Manage apps page, select the app that you want to stop adding to new sites.
 1. Select **Stop adding to new sites**.
-1. Select **Confirm**.
+1. Select **Save**.
 1. Select **Close**.
 
 ## Add an app to Teams
@@ -132,17 +128,18 @@ To add an app to Teams
 
 If you want to prevent users from using an app that you've already enabled, you can disable it.
 
+![screenshot of where to find the properties option.](media/apps-properties.png)
+
 1. On the Manage apps page, select the app that you want to disable, and then select **Properties**.
     
 1. Clear the **Enabled** check box.
 
 1. Close the panel.
 
-## Remove an app from the Apps site
+## Delete an app from the Manage apps page
 <a name="__toc347303053"> </a>
 
-If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users remain, but the app is no longer available for users to add to more sites.
-
+If you just want to remove an app from a specific site, see [here](https://support.microsoft.com/office/remove-an-app-from-a-site-03198d1b-c33b-498d-9469-af641a587d6c) for more information. If you no longer want a specific app to be available for users to add, you can delete it from on the Manage apps page. Any instances of the app that have already been added to sites by users remain, but the app is no longer available for users to add to more sites.
 
 > [!IMPORTANT]
 > If you delete an app, existing instances of the app will no longer work.
@@ -159,4 +156,3 @@ If you no longer want a specific app to be available for users to add, you can r
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
   
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
-
