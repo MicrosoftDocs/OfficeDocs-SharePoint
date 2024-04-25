@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Queue a Trim job(Preview)"
+title: "Tutorial: Queue a trim job(Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -16,31 +16,31 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to queue a Trim job for a site or document library."
+description: "This article provides guidance on how to queue a trim job for a site or document library."
 
 ---
 
-# Tutorial: Queue a Trim job for a Site or Document Library(Preview)
+# Tutorial: Queue a trim job for a site or document library(Preview)
 
 In this tutorial, you'll learn how to trim existing versions from a site or library by queuing a trim job using PowerShell. You'll learn how to:
 
-- Queue trim job to delete versions from a Site
-- Queue trim job to delete versions from a library.
-- Check progress of your trim job
+- Queue a job to trim versions from a site.
+- Queue a job to trim versions from a library.
+- Check progress of your trim job.
 - Stop an in-progress trim job.
 
 
 ## Before you begin
 
-Versions deleted using the batch delete trimming are permanently deleted and can't be recovered from the recycle bin. We recommend you prepare by performing the following actions: 
+Versions deleted by a trim job are permanently deleted and can't be recovered from the recycle bin. We recommend you prepare by performing the following actions: 
 - Review your **organization’s recovery objectives** and **version storage usage quota targets** to help determine the trim action and scope needed to meet your requirements.
  
-- If needed, run an impact analysis to understand the trimming impact.
+- If needed, [run an impact analysis](tutorial-run-what-if-analysis.md) to understand the trimming impact.
 - Determine the **scope of** version deletion. You can create jobs to delete old file versions for all document libraries in a site or for a specific document library.  
 - Determine the **trim mode** you want to apply on existing versions. You can choose to delete based on version age, count limit, or based on the automatic algorithm.
 
 
-## Queue trim job to delete versions on Site
+## Queue a job to trim versions on site
 
 You can queue a job to trim versions for all document libraries in the site collection using the `New-SPOSiteFileVersionBatchDeleteJob` PowerShell command. 
 - Use the `-<DeleteBeforeDays>` parameter to specify the age criteria you wish to apply for deleting versions. Versions older than the specified days are deleted asynchronously in batches in the upcoming days. 
@@ -48,30 +48,30 @@ You can queue a job to trim versions for all document libraries in the site coll
 - Use the `<Automatic>` parameter to apply Automatic setting trimming logic on existing file versions. 
 
 
-### Example: Queue trim job to delete versions based on age for all libraries on a Site.
+### Example: Queue a job to trim versions based on age for all libraries on a site
 
-In the example below, the trim job is queued to  delete versions that are older than 180 days old for all document libraries in the site collection https://contoso.sharepoint.com/sites1.
+In the example below, the job is queued to trim versions that are older than 180 days old for all document libraries in the site collection https://contoso.sharepoint.com/sites1.
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 360 
 ```
 
-### Example: Queue trim job to delete the oldest versions exceeding the specified count limit on a Site.
+### Example: Queue a job to trim oldest versions exceeding the specified count limit on a site
 
-In the example below, the trim job is queued to delete oldest versions that exceed 100 major version count limit for all document libraries in the site collection https://contoso.sharepoint.com.  
+In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection https://contoso.sharepoint.com.  
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl - MajorVersionLimit 100
 ```
-### Example: Queue trim job to delete the versions based on the Automatic logic on a Site.
+### Example: Queue a job to trim versions based on the Automatic logic on a site
 
-In the example below, the trim job is queued to delete versions based on the Automatic algorithm for all document libraries in the site collection https://contoso.sharepoint.com/sites/site1.  
+In the example below, the job is queued to trim versions based on the Automatic algorithm for all document libraries in the site collection https://contoso.sharepoint.com/sites/site1.  
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -Automatic 
 ```
 
-## Queue trim job to delete versions on a document library
+## Queue a job to trim versions on a document library
 
 You can queue a job to trim versions from a particular document library in the site collection using the `New-SPOListFileVersionBatchDeleteJob` PowerShell command. 
 - Use the `<DeleteBeforeDays>` parameter to specify the age criteria you wish to apply for deleting versions. Versions older than the specified days are asynchronously in batches in the upcoming days. 
@@ -79,7 +79,7 @@ You can queue a job to trim versions from a particular document library in the s
 - Use the `<Automatic>` parameter to apply Automatic setting trimming logic on existing file versions. 
 
 
-### Example: Queue trim job to delete versions based on age on a single library on a site.
+### Example: Queue a job to trim versions based on age on a single library on a site
 
 To delete versions that are older than 360 days in document library 'Documents' in the site collection https://contoso.sharepoint.com.
 
@@ -106,7 +106,7 @@ If needed, you can cancel an in-progress batch trim job. Once the cmdlet execute
 
 ### Example: Stop additional batch deletion on site scoped trim job
 
-To stop the additional batch deletion for the site collection https://contoso.sharepoint.com/sites/site1.
+To stop the additional batch deletion for the site collection https://contoso.sharepoint.com/sites/site1:
 
 ```PowerShell
 Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1
@@ -114,9 +114,9 @@ Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com
 
 ### Example: Stop additional batch deletion on library scoped trim job
 
-To stop the additional batch deletion for the document library Documents in site collection https://contoso.sharepoint.com/sites/site1.
+To stop the additional batch deletion for the document library in site collection https://contoso.sharepoint.com/sites/site1:
 
 ```PowerShell
-Get-SPOListFileVersionBatchDeleteJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List "Documents"
+Remove-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents"
 ```
 

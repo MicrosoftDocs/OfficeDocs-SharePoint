@@ -24,7 +24,7 @@ description: "This article provides guidance on how to generate and analyze Vers
 
 By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs.
 
-This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to perform ‘What-if’ analysis of applying different version limits or trimming existing versions.  
+This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to [run ‘What-if’ analysis](tutorial-run-what-if-analysis.md) of applying different version limits or trimming existing versions.  
 
 In this tutorial we cover how to:
 
@@ -37,8 +37,9 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 
 ## Before you begin
 
-1.	Identify the SharePoint Site, OneDrive account, or document library whose version storage usage you want to understand. 
+1.	Identify the SharePoint site, OneDrive account, or document library whose version storage usage you want to understand. 
 2. Choose a location within the SharePoint document library that you want to save the report to. 
+1. [Download the latest SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
 
 > [!NOTE]
 > 1. The report file is generated within the report location specified. 
@@ -78,7 +79,7 @@ The example below shows how you can check if your **library scoped report** is f
 Get-SPOListFileVersionExpirationReportJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"    
 ```
 
-The cmdlet returns a response in JSON format and the value appears as one of the following values:
+The cmdlet will return a response in JSON format. The returned json response has a key named status. Refer to the table below for one of the following expected values:  
 
 | JSON Status Response | Explanation |
 | --- | --- |

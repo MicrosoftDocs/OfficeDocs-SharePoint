@@ -20,7 +20,7 @@ description: "This article provides guidance on how to generate version storage 
 ---
 
 
-# Generate Version Storage Usage Report for a SharePoint Site (Preview)
+# Generate Version Storage Usage Report for a SharePoint site (Preview)
 
 As a global or SharePoint admin in Microsoft 365, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
 
@@ -33,7 +33,7 @@ As a global or SharePoint admin in Microsoft 365, you can request an inventory o
 > [!NOTE]
 > Additional reporting options are available with [Microsoft Graph Data Connect](/graph/data-connect-datasets#onedrive-and-sharepoint-online).
 
-When you run the report, a background timer job is scheduled to generate a CSV file of every file version on a given SharePoint Site. The CSV file is saved to the location of your choice on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+When you run the report, a background timer job is scheduled to generate a CSV file of every file version on a given SharePoint site. The CSV file is saved to the location of your choice on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
 
 > [!IMPORTANT]
 > The file version report generation job completes asynchronously over the next few days. The time it takes for the report to complete depends on the size of your library or site. For smaller sites or libraries, it takes over 24 hours to complete. For larger ones, it takes a few days to complete. 
@@ -67,15 +67,15 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 
 | **Expiration Schedule information:** | Description |
 |:-----|:-----|
-|`CurrentExpirationDate`|Time when the version is going to expire as it currently stands.|
+|`CurrentExpirationDate`|Time when the version will expire as it currently stands.|
 |`AutomaticPolicyExpirationDate`|Time when the version would be expiring if an automatic expiration policy were to be retroactively applied, estimated on a best-effort basis.|
 |`TargetExpirationDate`|Is populated to the same value as `CurrentExpirationDate`. This column is useful for any What-If analysis and batch-updating the expiration dates.|
 
 <sup>1</sup> Compact columns are columns that won't repeat values if two consecutive rows have the same value. It puts empty string for the repeated records. The header for these columns have "Compact" postfix.
 
-## How to generate Site Version Storage Use report for Site, OneDrive or Library
+## How to generate site version storage usage report for site, OneDrive or library
 
-Follow these steps to manage version history limits for a site by using PowerShell.
+Follow these steps to manage Version history limits for a site by using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -87,10 +87,10 @@ Follow these steps to manage version history limits for a site by using PowerShe
 
 | **Action** | **PowerShell Command** |
 | --- | --- |
-| Generate a version storage usage report for a Site or OneDrive Account | `New-SPOSiteFileVersionExpirationReportJob -Identity $siteUrl -ReportUrl $reportUrl` |
-| Track progress of the job to generate report for a Site or OneDrive Account | `Get-SPOSiteFileVersionExpirationReportJobProgress -Identity $siteUrl -ReportUrl $reportUrl` |
-| Generate a version storage usage report for a Library | `New-SPOListFileVersionExpirationReportJob -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
-| Track progress of the job to generate report for a Library | `Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
+| Generate a version storage usage report for a site or OneDrive account | `New-SPOSiteFileVersionExpirationReportJob -Identity $siteUrl -ReportUrl $reportUrl` |
+| Track progress of the job to generate report for a site or OneDrive account | `Get-SPOSiteFileVersionExpirationReportJobProgress -Identity $siteUrl -ReportUrl $reportUrl` |
+| Generate a version storage usage report for a library | `New-SPOListFileVersionExpirationReportJob -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
+| Track progress of the job to generate report for a library | `Get-SPOListFileVersionExpirationReportJobProgress -Site $siteUrl -List $libName -ReportUrl $reportUrl` |
 
 ## Learn More
 
