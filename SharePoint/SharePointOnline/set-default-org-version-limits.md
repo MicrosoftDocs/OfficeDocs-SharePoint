@@ -22,29 +22,29 @@ description: "This article provides guidance on how admins can set default organ
 
 # Set Default Organization Version Limits for New Document Libraries and OneDrive Accounts
 
-Organization-level version settings define the default version storage limits that applies on all new document libraries created across all existing or newly created SharePoint sites and new OneDrive Accounts. This setting allows Admins to define the global default version history limits that apply across the organization to ensure consistent version storage use and restore options.  
+Organization-level version settings define the default version storage limits that apply on all new document libraries created across all existing or newly created SharePoint sites and new OneDrive Accounts. This setting allows admins to define the global default version history limits that apply across the organization to ensure consistent version storage use and restore options.  
 
 **Example Scenario**
 
-Take an example of Contoso with an existing Marketing site with a set of libraries set to 500 major version limits. When the admin updates the organization version limits to 'Automatic' library, version limits for document libraries are set in the following ways:
+Take an example of Contoso with an existing marketing site with a set of libraries set to 500 major version limits. When the admin updates the organization version limits to 'Automatic' library, version limits for document libraries are set in the following ways:
 
-- **Library version limits on existing Marketing Site**: Version limits on all new libraries created in the Marketing site are set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits aren't updated to Automatic.  
+- **Library version limits on existing marketing site**: Version limits on all new libraries created in the marketing site are set to the organization limits of Automatic. Version limits on existing libraries remain unchanged that is, limits aren't updated to Automatic.  
 
-- **Library version limits on new Legal Site**: When a new Legal site is created, version limits on all libraries created in the legal site set to the organization version limits.
+- **Library version limits on new legal site**: When a new legal site is created, version limits on all libraries created on the legal site are set to the organization version limits.
 
 :::image type="content" source="media/version-history/break-inheritance-at-site-level.png" lightbox="media/version-history/break-inheritance-at-site-level.png" alt-text="Diagram of break inheritance":::
 
 > [!IMPORTANT]
 > - Changes made to Organization-level version history limits apply to new SharePoint libraries and OneDrive user accounts created since the change was made.
-> - Changes made to Organization-level version history limits will not update the history limits on existing document libraries. You can [update settings on existing libraries on individual site](document-library-version-history-limits.md#version-storage-behavior)or libraries. The ability to apply version history limits to existing document libraries at the organization level is not supported.
-> - Changes made to Organization-level version history limits will not trim existing versions to meet the new limits. You can [trim existing versions](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell) on a site or lib. The ability to trim existing versions at the organization level is not supported.
+> - Changes made to Organization-level version history limits don't update the history limits on existing document libraries. You can [update settings on existing libraries on individual site](document-library-version-history-limits.md#version-storage-behavior) or libraries. The ability to apply version history limits to existing document libraries at the organization level is not supported.
+> - Changes made to Organization-level version history limits don't trim existing versions to meet the new limits. You can [trim existing versions](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell) on a site or lib. The ability to trim existing versions at the organization level is not supported.
 > - Default Version History limits for your organization is set to Manual version history limits with 500 major version count limit and no expiration.
-> - Organization-level Document Library version limit settings can be used to configure version settings on Libraries only (List template Base Type = 1). List version settings, Creation of major and minor versions or Content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+> - Organization-level Document Library version limit settings can be used to configure version settings on libraries only (List template Base Type = 1). List version settings, creation of major and minor versions, or content approval workflows need to be [configured at individual library or list level](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 > - If your organization is configured for multi-geo, the Organization level version history levels can be set for each geo. 
 
 ## Manage Version history limits for your Organization
 
-This article describes how Global and SharePoint admins in Microsoft 365 can change the default Version History Limits for all new SharePoint document libraries and OneDrive accounts created in the organization. 
+This article describes how global and SharePoint admins in Microsoft 365 can change the default Version History Limits for all new SharePoint document libraries and OneDrive accounts created in the organization. 
 
 :::image type="content" source="media/version-history/sharepoint-admin-settings.png" lightbox="media/version-history/sharepoint-admin-settings.png" alt-text="diagram of sharepoint admin settings":::
 

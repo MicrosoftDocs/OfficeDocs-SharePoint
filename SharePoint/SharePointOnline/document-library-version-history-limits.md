@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how Version History settings work."
+description: "This article provides guidance on how Version history limits are applied at Organization, Site, Library or OneDrive user account level."
 
 ---
 
@@ -33,23 +33,23 @@ The following table summarizes the various ways of managing **Version history li
 | Area | How does it work? |
 |:-----|:-----|
 | **Set Default Version history limits for new document libraries created in your organization** | Default Organization **Version history limits** is set on all new document libraries created across existing and new SPO sites. |
-| **Set Site or Library Level Version history limits** | If needed, Site Admins can break inheritance from the default Organization limits for an individual Site or Library. |
-| **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits or analyze the impact of trimming existing versions before scheduling trim job. |
-| **Trim Existing Versions** | Site Admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
+| **Set Site or Library Level Version history limits** | If needed, site admins can break inheritance from the default organization limits for an individual site or library. |
+| **Report on Version Storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits, or analyze the impact of trimming existing versions before scheduling trim job. |
+| **Trim Existing Versions** | Site admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
 
 ## How Version history limits are applied
 
 Version history limits are applied in the following ways:
 
 - **Default Organization limits:** Organization default settings are applied to all new libraries created on sites that don't have site level settings configured.  
-- **Site Limits:** It is possible to break inheritance for a site by configuring Version history limits for the site. When version limits are configured on a site, the settings are applied to all new libraries created on the site.
-- **Library Limits:** It is possible to break inheritance at library level to define version limits for files stored in the library. 
+- **Site limits:** It is possible to break inheritance for a site by configuring Version history limits for the site. When version limits are configured on a site, the settings are applied to all new libraries created on the site.
+- **Library limits:** It is possible to break inheritance at library level to define version limits for files stored in the library. 
 
-In the example below, default organization limits are applied to new libraries created on marketing and sales sites as these sites do not have site level limits applied. Legal site has site level limits applied and broken inheritance from the organization defaults. Libraries created in the legal site follows the limits applied at the legal site level. 
+In the following example, default organization limits are applied to new libraries created on marketing and sales sites as these sites do not have site level limits applied. Legal site has site level limits applied and broken inheritance from the organization defaults. Libraries created in the legal site follows the limits applied at the legal site level. 
 
 :::image type="content" source="media/version-history/version-limits-applied.png" alt-text="Screenshot of how version history limits are applied." lightbox="media/version-history/version-limits-applied.png":::
 
-The figure below shows the workflow of applying a version limit on new document libraries. When a new library is created, site level setting check is performed. 
+The following figure shows the workflow of applying a version limit on new document libraries. When a new library is created, site level setting check is performed. If no site setting is defined, the organization default setting is applied to new libraries. 
 
 :::image type="content" source="media/version-history/version-limits-new-libraries-flow.png" lightbox="media/version-history/version-limits-new-libraries-flow.png" alt-text="Diagram of version limits for new libraries":::
 
@@ -57,11 +57,11 @@ The figure below shows the workflow of applying a version limit on new document 
 
 There are two Version history settings that admins can use to configure version limits for all new libraries created in their organization:
 
-### **Automatic Setting:**
+### Automatic Setting
 
-Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that Version History offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
+Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that Version history offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
 
-### **Manual setting:**
+### Manual setting
 
 The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways:
 
