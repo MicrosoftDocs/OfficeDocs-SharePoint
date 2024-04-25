@@ -5,7 +5,7 @@ ms.author: serdars
 author: serdars
 manager: serdars
 recommendations: true
-ms.date: 12/12/2023
+ms.date: 04/30/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how admins can set version history limits on individual sites."
+description: "This article provides guidance on how admins can set Version history limits on individual sites."
 
 ---
 

@@ -22,13 +22,13 @@ description: "This article provides guidance on how to generate and analyze Vers
 
 # Tutorial: Generate and analyze Version usage report for SharePoint site (Preview)
 
-By understanding version storage on a site, you can better optimize the version history settings to meet your organization’s recovery objectives and manage storage costs.
+By understanding version storage on a site, you can better optimize the Version history settings to meet your organization’s recovery objectives and manage storage costs.
 
-This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to [run ‘What-if’ analysis](tutorial-run-what-if-analysis.md) of applying different version limits or trimming existing versions.  
+This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to [run ‘What-if’ analysis](tutorial-run-what-if-analysis.md) of applying different Version limits or trimming existing versions.  
 
 In this tutorial we cover how to:
 
-- Generate Version storage usage report file for Site or Library.
+- Generate Version storage usage report file for site or library.
 - Check progress of report generation.
 - Understand the report file.
 - Analyze version storage use using Excel or PowerShell.
@@ -47,7 +47,7 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 > 3. There cannot be a file with the same name as the report in the document library.  
 
 
-## Generate Version usage report for Sites or Library
+## Generate Version usage report for sites or library
 
 You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
 
@@ -98,28 +98,28 @@ Here’s an example of file version expiration report and its column breakdown.
 The first row is the header with the column identifiers containing File Version Identifiers, Version Metadata information, and expiration timestamp. Compact columns are denoted with “.Compact” post-fix that won’t repeat values if two consecutive rows have the same value. The other rows represent file versions, where each row represents a single version.  
 Let’s go through the first file version displayed in this report.  
 
-- File Version Identifiers: `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify each version in your SharePoint site.  
+- File version identifiers: `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify each version in your SharePoint site.  
 
-- Version metadata Identifiers:`WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
+- Version metadata identifiers:`WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
 
 - `Size` indicates that the version takes 92,246 bytes of storage.  
 
-- The next two columns, `ModifiedBy_UserId` and `ModifiedBy_DisplayName` indicate that the user, Michelle Harris (with user ID 6), has created this version.  
+- The next two columns, `ModifiedBy_UserId` and `ModifiedBy_DisplayName` indicate that the user Michelle Harris (with user ID 6) has created this version.  
 
 - `LastModifiedDate` indicates that the version’s content was last modified on March 13, 2023, at 22:36:09 UTC. `SnapshotDate` displays that the version became a historical version on March 20, 2023, at 16:56:51 UTC. `IsSnapshotDateEstimated` shows that `SnapshotDate` is the actual snapshot date.  
 
-- Expiration Schedule Identifiers:`CurrentExpirationDate` indicates that this version is currently set to never expire. `AutomaticPolicyExpirationDate` shows that under the automatically expire policy, this version is also set to never expire. `TargetExpirationDate` indicates that if we follow this schedule for trimming, we would set this version to never expire.  
+- Expiration schedule identifiers:`CurrentExpirationDate` indicates that this version is currently set to never expire. `AutomaticPolicyExpirationDate` shows that under the automatically expire policy, this version is also set to never expire. `TargetExpirationDate` indicates that if we follow this schedule for trimming, we would set this version to never expire.  
 
 Let’s look at the third version.  
 
 The `WebId` and `DocId` values are empty because these columns are compact columns, denoted by *.Compact* post-fix, it means they should have values. If we look for the last nonempty above that row, we find `WebId` as `4c7a58c1-01f2-4fa3-a730-44081a44f689`, and `DocId` as `18c3e09c-b5be-48e7-a754-7a2ce53e0999`.
 
-We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18:08:53 UTC. It means if we trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time of this documentation is written, it passed April 19, 2023. Instead of setting the version to expire, the document is deleted immediately.
+We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18:08:53 UTC. It means if we trim based on this schedule, we would be setting the expiration date for this version to that time. However, at the time this documentation was written, it passed April 19, 2023. Instead of setting the version to expire, the document is deleted immediately.
 
 > [!NOTE]
 > All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
 
-## Analyze Version Storage for Sites
+## Analyze Version Storage for sites
 
 After configuring the `TargetExpirationDate` values for your report, you can choose to perform deeper analysis to see the impact of the trimming before running an actual trim. You can perform this analysis independently, or alternatively, we provide two recommended options for your analysis.  
 

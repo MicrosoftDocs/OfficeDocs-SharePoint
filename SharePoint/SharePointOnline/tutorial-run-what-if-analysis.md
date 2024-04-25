@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Run 'What-If' analysis"
+title: "Tutorial: Run 'What-If' analysis (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 ---
 
-# Tutorial: Run 'What-If' Analysis on Version storage report file
+# Tutorial: Run 'What-If' Analysis on Version storage report file (Preview)
 
 In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either Automatic or Manual limits on version storage or impacted users. You will learn how to: :
 

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Manage Version history limits on a Site, Library, or OneDrive account (Preview)"
+title: "Tutorial: Manage Version history limits on a site, library, or OneDrive account (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -21,7 +21,7 @@ description: "This article provides guidance on how to manage Version history li
 ---
 
 
-# Tutorial: Manage Version history limits for a Site, Library, or OneDrive account (Preview)
+# Tutorial: Manage Version history limits for a site, library, or OneDrive account (Preview)
 
 In this tutorial, you will learn how to manage the version history limits for a site, document library, or OneDrive account. You will learn how to:
 
@@ -38,7 +38,7 @@ In this tutorial, you will learn how to manage the version history limits for a 
     - Update existing libraries only and inherit organization default settings for new libraries.
     - Update both existing and all new libraries for consistent version storage at the site level.
 
-## Set Version limits for a Site  
+## Set Version limits for a site  
 
 You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command to break inheritance from the organization version history limits.  
 
