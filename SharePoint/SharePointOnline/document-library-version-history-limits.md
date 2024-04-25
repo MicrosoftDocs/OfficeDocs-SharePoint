@@ -77,7 +77,7 @@ The manual setting allows admins to set count limits on the number of major vers
 
 ## Version Storage Behavior
 
-Version storage on SharePoint Sites is determined by several factors including version history limits applied on the library and user deletion activity. Additionally, it's influenced by whether the site is set to read-only and by content subject to retention policies or labels or marked as a record.
+Version storage in SharePoint is determined by several factors including limits configured on a library, user deletion activity, or retention policies. The following table enumerates the various scenarios and expected version storage behavior:
 
 The following table enumerates the scenarios and the expected version storage behavior:
 

@@ -22,24 +22,26 @@ description: "This article provides guidance on how admins can set Version histo
 
 # Set Version limits for a Site (Preview)
 
-By default, organization level settings define the Version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct **Version history limits** on individual sites. This way, users can break the inheritance from organization limits on an individual site.
+By default, organization level settings define the Version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct Version history limits on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
-**Version history limits** for an individual site can be managed in the following ways:
+Version history limits for an individual site can be managed in the following ways:
 
 | Version history limits option | Description |
 |:-----|:-----|
-|**Apply site-level Version history limits to all new and existing document libraries in a Site:** |To achieve a consistent version storage policy for a site, you can choose to **set a limit to universally apply to all libraries** in the site. Using this option, the **Version history limit** set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
-|**Apply site-level Version history limits to only new document libraries created in a Site:**|To avoid impacting the settings on existing libraries, you can **set a version history limit only for new libraries**. Using this option, the **Version history limits** set on site-level are only applied to new document libraries created in the site. There are no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
+|**Apply site-level Version history limits to all new and existing document libraries in a Site:** |To achieve a consistent version storage policy for a site, you can choose to **set a limit to universally apply to all libraries** in the site. Using this option, the Version history limit set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
+|**Apply site-level Version history limits to only new document libraries created in a Site:**|To avoid impacting the settings on existing libraries, you can **set a version history limit only for new libraries**. Using this option, the Version history limits set on site-level are only applied to new document libraries created in the site. There are no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
 |**Apply version history limits to existing document libraries only in a Site:**|You can update the limits **only on existing document libraries** on a site without setting a site level version history setting for new document libraries. Using this option creates a background request to asynchronously process the update on existing document libraries while allowing the new document libraries created in the site to inherit the organization level version history limits.|
 |**Clear existing limits set on a Site:** |You can **clear the existing limits on a site** to allow new document libraries created in the site to follow organization level limits.<br> **Note:** Clearing a setting on a Site applies only to new document libraries created on the site and doesn't impact the settings on existing doc libraries or trim existing versions.|
 
 **Example Scenario**
 
-Take an example of Contoso where organizational version limits are set to Automatic, no version limits set for marketing and legal Site. Suppose site administrator of legal site sets the site version history limit to 500 major version count limit for new and existing libraries. Library version limits for Contoso are set in the following ways:
+Take an example of Contoso, where the default organization Version history limits is configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
 
-- **Library version limits on Marketing Site**: Since there's no site level version limit set for marketing site, organization limit of Automatic is set on all new libraries created in marketing site.  
+The following is the version storage for Contoso:
 
-- **Library version limits on Legal Site**: Since version limits are set for legal site, all new libraries are set to store 500 major versions.
+- **Version storage behavior on Marketing site**: Since no limits are configured for Marketing site, all new document libraries created within Marketing site collection inherit the organization default setting of Automatic. 
+
+- **Version storage on Legal site**: Since the Legal site has Manual settings configured, all new libraries created within the Legal site have the manual settings applied.
 
 :::image type="content" source="media/version-history/set-version-limits-for-a-site.png" lightbox="media/version-history/set-version-limits-for-a-site.png" alt-text="Diagram of set version limits for a site level":::
 

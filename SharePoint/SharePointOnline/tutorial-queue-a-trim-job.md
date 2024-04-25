@@ -97,24 +97,24 @@ In the following example, the cmdlet reports the progress of the trim job for ht
 Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity https://contoso.sharepoint.com/sites/site1
 ```
 
-## Cancel an in-progress batch trim job
+## Cancel an in-progress trim job
 
-If needed, you can cancel an in-progress batch trim job. Once the cmdlet executes successfully, the in-progress job is stopped and no further deletions happen. 
+If needed, you can cancel an in-progress trim job. Once the cmdlet executes successfully, the in-progress job is stopped and no further deletions happen. 
 
 > [!NOTE]
 > Stopping a trim job doesn't revert versions that have already been deleted.
 
-### Example: Stop additional batch deletion on site scoped trim job
+### Example: Stop a site trim job
 
-To stop the additional batch deletion for the site collection https://contoso.sharepoint.com/sites/site1:
+To stop an in-progress trim job from additional version trimming on the site collection https://contoso.sharepoint.com/sites/site1:
 
 ```PowerShell
 Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1
 ```
 
-### Example: Stop additional batch deletion on library scoped trim job
+### Example: Stop a library trim job
 
-To stop the additional batch deletion for the document library in site collection https://contoso.sharepoint.com/sites/site1:
+To stop an in-progress trim job from additional version trimming in document library 'Documents' in site collection https://contoso.sharepoint.com/sites/site1:
 
 ```PowerShell
 Remove-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents"
