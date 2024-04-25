@@ -113,9 +113,9 @@ There are a few things you should check if one or more users in your organizatio
   
 #### Solutions
   
-- [Check that you allow your organization to access Delve](#check-that-you-allow-your-organization-to-access-Delve).
+- [Check that you allow your organization to access Delve](#check-that-you-allow-your-organization-to-access-delve).
     
-- [Check that you're using a subscription that supports Delve](#check-that-youre-using-a-subscription-that-supports-Delve)
+- [Check that you're using a subscription that supports Delve](#check-that-youre-using-a-subscription-that-supports-delve)
     
 - [Check that you've assigned the correct user licenses](#check-that-youve-assigned-the-correct-user-licenses)
     
