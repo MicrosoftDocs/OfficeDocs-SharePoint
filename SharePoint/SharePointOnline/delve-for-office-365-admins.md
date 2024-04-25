@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Delve for admins"
 ms.reviewer: 
 ms.author: ruihu
@@ -26,7 +26,7 @@ description: "The more you and your colleagues use Microsoft 365 to work togethe
 
 # Delve for admins
 
-The more you and your colleagues use Microsoft 365 to work together, by viewing, editing, and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve.
+The more you and your colleagues use Microsoft 365 to work together, by viewing, editing, and sharing each other's documents, the more useful [Delve](https://support.microsoft.com/office/what-is-delve-1315665a-c6af-4409-a28d-49f8916878ca) is for all of you. Learn more about how you as an admin can help users get the most out of Delve.
   
 Delve is powered by the Microsoft Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to.
   
@@ -40,18 +40,14 @@ Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Educat
 Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Microsoft Teams, users can start Microsoft Teams conversations directly from Delve.
 
 > [!IMPORTANT]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
+> Microsoft 365 apps and services ended support for Internet Explorer 11 on August 17, 2021 (Microsoft Teams ended support for Internet Explorer 11 earlier, on November 30, 2020). [Learn more](https://aka.ms/AA97tsw).  IE mode enables backward compatibility and will be supported through at least 2029. Additionally, Microsoft will provide notice one year prior to retiring IE mode.Please [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
 
 The Delve app is also enabled for modern authentication. For more info, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
   
 ## Control access to Delve
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. By default, users in your organization have access to Delve. Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings.
-
-For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
-
-For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. By default, users in your organization have access to Delve. 
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -66,7 +62,13 @@ For more info on disabling Delve, see [What is the effect of enabling or disabli
     
     - **Disable Delve**
 > [!NOTE]
-> Previously, when turning Delve on or off in the SharePoint admin center, it also had an impact on a few other insights-driven experiences in Microsoft 365. Starting July 1, 2021, the Delve setting will be decoupled from the back end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
+> Previously, when turning Delve on or off in the SharePoint admin center, it also had an impact on a few other insights-driven experiences in Microsoft 365. Starting July 1, 2021, the Delve setting is decoupled from the back end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
+
+For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+
+### Control access to documents in Delve
+
+Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings.For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
@@ -109,17 +111,16 @@ To help troubleshoot issues with Delve, see the following info.
 
 There are a few things you should check if one or more users in your organization don't see Delve in the app launcher. All these things need to be in place for your organization before people can start using Delve.
   
- **Solution(s)**
+#### Solutions
   
-- [Check that you allow your organization to access Delve](#BKMK_OfficeGraphAccess).
+- [Check that you allow your organization to access Delve](#check-that-you-allow-your-organization-to-access-Delve).
     
-- Check that you're using a subscription that supports Delve.
+- [Check that you're using a subscription that supports Delve](#check-that-youre-using-a-subscription-that-supports-Delve)
     
-- Check that you've assigned the correct user licenses.
+- [Check that you've assigned the correct user licenses](#check-that-youve-assigned-the-correct-user-licenses)
     
- **Check that you allow your organization to access Delve**
-<a name="BKMK_OfficeGraphAccess"></a>
-  
+##### Check that you allow your organization to access Delve
+
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
@@ -132,15 +133,14 @@ There are a few things you should check if one or more users in your organizatio
     > [!NOTE]
     > If you have a SharePoint standalone service (SharePoint Plan 1 or SharePoint Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet.
   
- **Check that you're using an Office 365 or Microsoft 365 plan that supports Delve**
-<a name="#BKMK_CheckPlan"></a>
+##### Check that you're using a subscription that supports Delve
   
 1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
-2. In the left pane, select **Billing** \> **Products &amp; services**.
+2. In the left pane, select **Billing** \> **Licenses**.
     
 3. Verify that you have one of the following subscriptions:
     
@@ -154,8 +154,10 @@ There are a few things you should check if one or more users in your organizatio
     
     - Microsoft 365 Business Standard
     
- **Check that you've assigned the correct user licenses**
-<a name="#BKMK_CheckLicense"></a>
+    - Microsoft 365 Business Premium
+    
+##### Check that you've assigned the correct user licenses
+
   
 1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
@@ -177,6 +179,7 @@ There are a few things you should check if one or more users in your organizatio
    - Microsoft 365 Business Basic plus SharePoint (Plan 1 or Plan 2)
     
    - Microsoft 365 Business Standard plus SharePoint (Plan 1 or Plan 2)
+   - Microsoft 365 Business Premium plus SharePoint (Plan 1 or Plan 2)
     
     For more info about how to manage licenses, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
@@ -187,7 +190,7 @@ If Microsoft Entra ID has outdated information or hasn't been synced with the Sh
   
 Delve uses info from user profiles to determine who users in your organization work with most closely. These profiles contain information from Microsoft Entra ID and from SharePoint user profiles. Every 24 hours, people information from Microsoft Entra ID is automatically added to SharePoint user profiles.
   
- **Solution(s)**
+#### Solutions
   
 - Check and clean up your Microsoft Entra ID, and wait for the information to sync to SharePoint user profiles.
     
@@ -200,7 +203,7 @@ Delve uses info from user profiles to determine who users in your organization w
 
 The user pictures in Delve are from the SharePoint user profiles. If there's no picture for a user in their SharePoint user profile, Delve has no picture to show.
   
- **Solution(s)**
+#### Solution
   
 - Make sure that users upload their user profile picture to SharePoint. For more info, point users to [View and update your profile in Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba). 
     
@@ -213,7 +216,7 @@ However, if other users still have *access* to documents from a user who has tur
   
 Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Microsoft Entra ID.
   
- **Solution(s)**
+#### Solution
   
 - No action needed.
     
@@ -224,7 +227,7 @@ The content in Delve comes from different content sources such as Exchange Onlin
   
 If users don't have any recently modified or viewed content in these content sources, and they don't have access to other users' content, Delve may have little or no content to show. Users also need to have licenses to Microsoft 365 and Office 365 services and they need to have the item insights privacy settings enabled.
   
- **Solution(s)**
+#### Solutions
   
 - Encourage your users to store and share documents in SharePoint and OneDrive. For more info, point users to [Store your documents where Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d). 
     
@@ -241,7 +244,7 @@ If users don't have any recently modified or viewed content in these content sou
 
 Delve doesn't change any permissions and users will only see what they already have access to. Not all content types will appear in Delve, and it can take up to 24 hours for new documents to show up. Also, Delve prioritizes content that's been modified or viewed in the last three months.
   
- **Solution(s)**
+#### Solutions
   
 - Check the steps under [Users see little or no content in Delve](delve-for-office-365-admins.md#BKMK_DelveNotMuchContent).
    
