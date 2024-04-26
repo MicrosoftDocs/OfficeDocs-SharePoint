@@ -57,4 +57,4 @@ Follow these steps to manage version history limits for a site by using PowerShe
 
 For more information, check out the following resources:
 
-- Set-SPOListVersionPolicy
+- Manage version history limits for a library using Set-SPOListVersionPolicy

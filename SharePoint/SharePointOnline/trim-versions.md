@@ -61,6 +61,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
   :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration.":::
 
 > [!IMPORTANT]
+> Known limitations of manual expiration mode
 > 1. The expire trim mode doesn't delete versions created in the last 30 days. This means your input can't be less than 30 days.
 > 1. The expire trim mode always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
 
