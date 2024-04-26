@@ -1,5 +1,5 @@
 ---
-title: "Trim existing Versions on site, library, or OneDrive(Preview)"
+title: "Trim existing versions on site, library, or OneDrive(Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -16,12 +16,12 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to trim existing versions from site, library, or OneDrive Account."
+description: "This article provides guidance on how to trim existing versions from site, library, or OneDrive account."
 
 ---
 
 
-# Trim existing Versions from site, library, or OneDrive(Preview) 
+# Trim existing versions from site, library, or OneDrive(Preview) 
 
 > [!CAUTION]
 > Versions deleted using trimming jobs are permanently deleted. This deletion workflow bypasses the normal recycle bin retention and deleted versions cannot be recovered. 
@@ -36,7 +36,7 @@ As a global or SharePoint admin in Microsoft 365, you can queue a job to trim ex
 
 
 
-:::image type="content" source="media/version-history/trimming-workflows.png" lightbox="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows":::
+:::image type="content" source="media/version-history/trimming-workflows.png" lightbox="media/version-history/trimming-workflows.png" alt-text="Diagram of trimming workflows.":::
 
 ## Review impact by running ‘What-if’ analysis 
 
@@ -53,23 +53,23 @@ Before committing to trim existing versions, you can review the impact of the pu
 
 Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site, document library, or OneDrive account.
 
-**Manual Expiration trim mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
+**Manual expiration trim mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
 **Example:** In the example below, a trim job is queued to trim versions older than 60 days. On August 31, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31 .
 
 
-  :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration":::
+  :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration.":::
 
 > [!IMPORTANT]
-> 1. The API doesn't delete versions created in the last 30 days. This means your input to the API can't be less than 30 days.
-> 1. The API always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
+> 1. The expire trim mode doesn't delete versions created in the last 30 days. This means your input can't be less than 30 days.
+> 1. The expire trim mode always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
 
 
-**Manual Count Limit trim mode:** Deletes the oldest versions exceeding the specified count limit.
+**Manual count Limit trim mode:** Deletes the oldest versions exceeding the specified count limit.
 
 **Example:** In the example below, a trim job is queued to delete versions that exceed 50 major version counts. On August 31, the job starts permanently deleting older versions that exceed the 50 major version count limit as of August 31.
 
-   :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" lightbox="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit":::
+   :::image type="content" source="media/version-history/manual-count-limit-trim-table.png" lightbox="media/version-history/manual-count-limit-trim-table.png" alt-text="Diagram of manual count limit.":::
 
 
 **Automatic trim mode:** Applies Automatic algorithm to delete existing versions. Depending on the version age, the job will permanently delete versions or set expiration time according to the automatic version storage algorithm.
@@ -84,7 +84,7 @@ To queue the trim job, you need to determine the scope for version deletion and 
 
 Once you're ready to commit to the trim, you can queue the job to asynchronously delete versions matching the trim mode criteria. You'll be able to monitor the progress of committed trim jobs to keep track of the deletion progress. 
 
-## Trim existing Versions using PowerShell
+## Trim existing versions using PowerShell
 
 Follow these steps to trim existing versions using PowerShell.
 

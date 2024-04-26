@@ -63,7 +63,7 @@ In the example below, the job is queued to trim oldest versions that exceed 100 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl - MajorVersionLimit 100
 ```
-### Example: Queue a job to trim versions based on the Automatic logic on a site
+### Example: Queue a job to trim versions based on the automatic logic on a site
 
 In the example below, the job is queued to trim versions based on the Automatic algorithm for all document libraries in the site collection https://contoso.sharepoint.com/sites/site1.  
 

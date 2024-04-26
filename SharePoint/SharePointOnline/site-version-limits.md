@@ -1,5 +1,5 @@
 ---
-title: "Change Version history limits for a Site (Preview)"
+title: "Change version history limits for a Site (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -16,34 +16,34 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how admins can set Version history limits on individual sites."
+description: "This article provides guidance on how admins can set version history limits on individual sites."
 
 ---
 
-# Set Version limits for a Site (Preview)
+# Set version limits for a site (Preview)
 
-By default, organization level settings define the Version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct Version history limits on individual sites. This way, users can break the inheritance from organization limits on an individual site.
+By default, organization level settings define the version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct version history limits on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
 Version history limits for an individual site can be managed in the following ways:
 
 | Version history limits option | Description |
 |:-----|:-----|
-|**Apply site-level Version history limits to all new and existing document libraries in a Site:** |To achieve a consistent version storage policy for a site, you can choose to **set a limit to universally apply to all libraries** in the site. Using this option, the Version history limit set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
+|**Apply site-level version history limits to all new and existing document libraries in a Site:** |To achieve a consistent version storage policy for a site, you can choose to **set a limit to universally apply to all libraries** in the site. Using this option, the Version history limit set on site-level is applied to all the new document libraries created in the site and creates a background request to asynchronously process the update on existing document libraries.|
 |**Apply site-level Version history limits to only new document libraries created in a Site:**|To avoid impacting the settings on existing libraries, you can **set a version history limit only for new libraries**. Using this option, the Version history limits set on site-level are only applied to new document libraries created in the site. There are no changes made to the limits on the existing document libraries or on libraries that aren't enabled for versioning in the site.|
 |**Apply version history limits to existing document libraries only in a Site:**|You can update the limits **only on existing document libraries** on a site without setting a site level version history setting for new document libraries. Using this option creates a background request to asynchronously process the update on existing document libraries while allowing the new document libraries created in the site to inherit the organization level version history limits.|
 |**Clear existing limits set on a Site:** |You can **clear the existing limits on a site** to allow new document libraries created in the site to follow organization level limits.<br> **Note:** Clearing a setting on a Site applies only to new document libraries created on the site and doesn't impact the settings on existing doc libraries or trim existing versions.|
 
-**Example Scenario**
+**Example scenario**
 
 Take an example of Contoso, where the default organization Version history limits is configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
 
 The following is the version storage for Contoso:
 
-- **Version storage behavior on Marketing site**: Since no limits are configured for Marketing site, all new document libraries created within Marketing site collection inherit the organization default setting of Automatic. 
+- **Version storage behavior on marketing site**: Since no limits are configured for marketing site, all new document libraries created within marketing site collection inherit the organization default setting of automatic. 
 
-- **Version storage on Legal site**: Since the Legal site has Manual settings configured, all new libraries created within the Legal site have the manual settings applied.
+- **Version storage on legal site**: Since the legal site has manual settings configured, all new libraries created within the legal site have the manual settings applied.
 
-:::image type="content" source="media/version-history/set-version-limits-for-a-site.png" lightbox="media/version-history/set-version-limits-for-a-site.png" alt-text="Diagram of set version limits for a site level":::
+:::image type="content" source="media/version-history/set-version-limits-for-a-site.png" lightbox="media/version-history/set-version-limits-for-a-site.png" alt-text="Diagram of set version limits for a site level.":::
 
 > [!IMPORTANT]
 > - Site level Version history limits can be set using PowerShell cmdlets only.
@@ -52,7 +52,7 @@ The following is the version storage for Contoso:
 > - Cancelling an in-progress job stops the update on libraries that were not processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 
-## Manage Version history limits for a Site using PowerShell
+## Manage Version history limits for a site using PowerShell
 
 Follow these steps to manage Version history limits for a site by using PowerShell.
 
@@ -73,10 +73,10 @@ Follow these steps to manage Version history limits for a site by using PowerShe
 | Clear the existing version history limits set on a site and inherit Organization version limits on new document libraries created on the site. | `Set-SPOSite -Identity $siteUrl -InheritVersionPolicyFromTenant` |
 | Cancel in progress update job|`Remove-SPOSiteVersionPolicyJob -Identity $siteUrl`     |
 
-## Get progress of an in-progress settings update request
+## Track progress of settings update on existing libraries on a site
 
 Version limits on all new libraries created in the site are immediately applied. Settings on existing libraries are asynchronously updated using a background job. 
-Run the following command **to get progress of the settings update job**.
+Run the following command **to track progress of settings update job**.
 
 ```PowerShell
 Get-SPOSiteVersionPolicyJobProgress -Identity $siteUrl

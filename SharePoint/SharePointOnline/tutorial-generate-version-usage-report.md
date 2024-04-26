@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Generate and analyze Version usage report (Preview)"
+title: "Tutorial: Generate and analyze version usage report (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -16,11 +16,11 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how to generate and analyze Version usage report for SharePoint Site."
+description: "This article provides guidance on how to generate and analyze version usage report for SharePoint Site."
 
 ---
 
-# Tutorial: Generate and analyze Version usage report for SharePoint site (Preview)
+# Tutorial: Generate and analyze version usage report for SharePoint site (Preview)
 
 By understanding version storage on a site, you can better optimize the Version history settings to meet your organization’s recovery objectives and manage storage costs.
 
@@ -47,7 +47,7 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 > 3. There cannot be a file with the same name as the report in the document library.  
 
 
-## Generate Version usage report for sites or library
+## Generate version usage report for sites or library
 
 You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
 
@@ -88,12 +88,12 @@ The cmdlet will return a response in JSON format. The returned json response has
 | “no_report_found” | There are no active jobs populating the specified file. |
 | “failed, error message:” | The job to generate the report has failed due to the error message. |
 
-## Understand Version Report File
+## Understand version report file
 
 The generated report is in CSV format with each row corresponds to a file version.
 Here’s an example of file version expiration report and its column breakdown.  
 
-:::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="expiration report":::
+:::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="Screenshot of expiration report.":::
 
 The first row is the header with the column identifiers containing File Version Identifiers, Version Metadata information, and expiration timestamp. Compact columns are denoted with “.Compact” post-fix that won’t repeat values if two consecutive rows have the same value. The other rows represent file versions, where each row represents a single version.  
 Let’s go through the first file version displayed in this report.  
@@ -119,7 +119,7 @@ We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18
 > [!NOTE]
 > All date times are represented in the round-trip format. For more information, see [Standard date and time format strings - .NET | Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings)
 
-## Analyze Version Storage for sites
+## Analyze version storage for sites
 
 After configuring the `TargetExpirationDate` values for your report, you can choose to perform deeper analysis to see the impact of the trimming before running an actual trim. You can perform this analysis independently, or alternatively, we provide two recommended options for your analysis.  
 
@@ -140,25 +140,25 @@ Populate the workbook by following these steps:
 
 1. On the **Configuration** worksheet, enter the full path to the What-If report file in **Cell B3**.
 
-:::image type="content" source="media/version-history/analyze-version-step1.png" lightbox="media/version-history/analyze-version-step1.png" alt-text="configuration worksheet":::
+:::image type="content" source="media/version-history/analyze-version-step1.png" lightbox="media/version-history/analyze-version-step1.png" alt-text="Screenshot of configuration worksheet.":::
 
 2. If you want to change the date range of graphs in **Number of Versions Available** worksheet, or **Size of Versions Expired** worksheet, change the corresponding values in Cells B6, B7, B10, and/or B11. It's optional.  
 
-:::image type="content" source="media/version-history/analyze-version-step2.png" lightbox="media/version-history/analyze-version-step2.png" alt-text="analyze version configuration":::
+:::image type="content" source="media/version-history/analyze-version-step2.png" lightbox="media/version-history/analyze-version-step2.png" alt-text="Screenshot of analyze version configuration.":::
 
 3. At the top of Excel, select the **Data** tab, and in the Ribbon, select the **Refresh All** button.
 
-:::image type="content" source="media/version-history/analyze-version-step3.png" lightbox="media/version-history/analyze-version-step3.png" alt-text="analyze version data tab":::
+:::image type="content" source="media/version-history/analyze-version-step3.png" lightbox="media/version-history/analyze-version-step3.png" alt-text="Screenshot of analyze version data tab.":::
 
 4. On the **Calculations** worksheet, autofill the **Number of Versions** and **Number of Versions Remaining After Deletion** columns.
 
-:::image type="content" source="media/version-history/analyze-version-step4-a.png" lightbox="media/version-history/analyze-version-step4-a.png" alt-text="Calculations worksheet 1":::
+:::image type="content" source="media/version-history/analyze-version-step4-a.png" lightbox="media/version-history/analyze-version-step4-a.png" alt-text="Screenshot of calculations worksheet 1.":::
 
-:::image type="content" source="media/version-history/analyze-version-step4-b.png" lightbox="media/version-history/analyze-version-step4-b.png" alt-text="Calculations worksheet 2":::
+:::image type="content" source="media/version-history/analyze-version-step4-b.png" lightbox="media/version-history/analyze-version-step4-b.png" alt-text="Screenshot of calculations worksheet 2.":::
 
 5. On the **Impacted Users** worksheet, autofill the **Number of Versions Will be Deleted** column.
 
-:::image type="content" source="media/version-history/analyze-version-step5.png" lightbox="media/version-history/analyze-version-step5.png" alt-text="Impacted Users worksheet":::
+:::image type="content" source="media/version-history/analyze-version-step5.png" lightbox="media/version-history/analyze-version-step5.png" alt-text="Screenshot of impacted users worksheet.":::
 
 All worksheets should now be up to date. You can check the information you're interested in.
 
@@ -167,96 +167,186 @@ All worksheets should now be up to date. You can check the information you're in
 1. Save the script as a file named **AnalyzeReportFile.ps1.**
 
 ```PowerShell
+# save this file as AnalyzeReportFile.ps1
 
 Param(
-     [Parameter(Mandatory=$true)][string] $ReportLocalFilePath,
-     [Parameter(Mandatory=$false)][int]$ShowFilesWithFewerThanNVersions=10,
-     [Parameter(Mandatory=$false)][DateTime]$TimelineStartDate=[DateTime]::Now,
-     [Parameter(Mandatory=$false)][int]$TimelineStepDays=10,
-     [Parameter(Mandatory=$false)][int]$TimelineNumSteps=10
+  [Parameter(Mandatory=$true)][string] $ReportLocalFilePath,
+  [Parameter(Mandatory=$false)][int]$ShowFilesWithFewerThanNVersions=10,
+  [Parameter(Mandatory=$false)][DateTime]$TimelineStartDate=[DateTime]::Now,
+  [Parameter(Mandatory=$false)][int]$TimelineStepDays=10,
+  [Parameter(Mandatory=$false)][int]$TimelineNumSteps=10
 )
 function Import-Dataset($DatasetFilePath)
 {
-     $Dataset = Import-CSV $DatasetFilePath
-     $Columns = $Dataset `
-     | Get-Member -MemberType 'NoteProperty' `
-     | Select-Object -ExpandProperty Name
-     $CompactColumns = $Columns | Where-Object { $_ -Match ".Compact" } 
-     $Timer = [Diagnostics.Stopwatch]::StartNew()
-     for ($RowIndex = 0; $RowIndex -lt $Dataset.Count; $RowIndex++)
-     {
-         if ($RowIndex -gt 0)
-         { $PrevRow = $Dataset[$RowIndex-1]
-         }
-         $Row = $Dataset[$RowIndex]
-         foreach ($ColName in $Columns)
-         {
-             if ([string]::IsNullOrEmpty($Row.$ColName))
-             {
-             if (($ColName -in $CompactColumns) -and ($RowIndex -gt 0))
-             { $Row.$ColName = $PrevRow.$ColName
-             }
-             else
-             { $Row.$ColName = $null
-             }
+  $Dataset = Import-CSV $DatasetFilePath
+  $Columns = $Dataset `
+    | Get-Member -MemberType 'NoteProperty' `
+    | Select-Object -ExpandProperty Name
+  $CompactColumns = $Columns | Where-Object { $_ -Match ".Compact" }
+   
+  $Timer = [Diagnostics.Stopwatch]::StartNew()
+  for ($RowIndex = 0; $RowIndex -lt $Dataset.Count; $RowIndex++)
+  {
+    if ($RowIndex -gt 0)
+    {
+      $PrevRow = $Dataset[$RowIndex-1]
+    }
+    $Row = $Dataset[$RowIndex]
+   
+    foreach ($ColName in $Columns)
+    {
+      if ([string]::IsNullOrEmpty($Row.$ColName))
+      {
+        if (($ColName -in $CompactColumns) -and ($RowIndex -gt 0))
+        {
+          $Row.$ColName = $PrevRow.$ColName
+        }
+        else
+        {
+          $Row.$ColName = $null
+        }
       }
-     }
-     $Row."WebId.Compact" = [Guid]$Row."WebId.Compact"
-     $Row."DocId.Compact" = [Guid]$Row."DocId.Compact"
-     $Row."MajorVersion" = [Int32]$Row."MajorVersion"
-     $Row."MinorVersion" = [Int32]$Row."MinorVersion"
-     $Row."WebUrl.Compact" = [String]$Row."WebUrl.Compact"
-     $Row."FileUrl.Compact" = [String]$Row."FileUrl.Compact"
-     $Row."Size" = [Int64]$Row."Size"
-     $Row."ModifiedBy_UserId.Compact" = [Int32]$Row."ModifiedBy_UserId.Compact"
-     $Row."ModifiedBy_DisplayName.Compact" = [String]$Row."ModifiedBy_DisplayName.Compact"
-     $Row."LastModifiedDate" = [DateTime]$Row."LastModifiedDate"
-     $Row."SnapshotDate" = [DateTime]$Row."SnapshotDate"
-     $Row."IsSnapshotDateEstimated" = [bool]$Row."IsSnapshotDateEstimated"
-     $Row."CurrentExpirationDate" = [System.Nullable[DateTime]]$Row."CurrentExpirationDate"
-     $Row."AutomaticPolicyExpirationDate" = [System.Nullable[DateTime]]$Row."AutomaticPolicyExpirationDate"
-     $Row."TargetExpirationDate" = [System.Nullable[DateTime]]$Row."TargetExpirationDate"
- 
-$Percent = [Math]::Ceiling(100 * $RowIndex / $Dataset.Count)
- Write-Progress `
-     -Activity "Reading dataset" `
-     -Status "$Percent% Complete ($($RowIndex + 1) / $($Dataset.Count) rows):" `
-     -PercentComplete $Percent `
-     -SecondsRemaining $(($Dataset.Count - ($RowIndex + 1)) / (($RowIndex + 1) / $Timer.Elapsed.Totalseconds))
+    }
+   
+    $Row."WebId.Compact" = [Guid]$Row."WebId.Compact"
+    $Row."DocId.Compact" = [Guid]$Row."DocId.Compact"
+    $Row."MajorVersion" = [Int32]$Row."MajorVersion"
+    $Row."MinorVersion" = [Int32]$Row."MinorVersion"
+    $Row."WebUrl.Compact" = [String]$Row."WebUrl.Compact"
+    $Row."FileUrl.Compact" = [String]$Row."FileUrl.Compact"
+    $Row."Size" = [Int64]$Row."Size"
+    $Row."ModifiedBy_UserId.Compact" = [Int32]$Row."ModifiedBy_UserId.Compact"
+    $Row."ModifiedBy_DisplayName.Compact" = [String]$Row."ModifiedBy_DisplayName.Compact"
+    $Row."LastModifiedDate" = [DateTime]$Row."LastModifiedDate"
+    $Row."SnapshotDate" = [DateTime]$Row."SnapshotDate"
+    $Row."IsSnapshotDateEstimated" = [bool]$Row."IsSnapshotDateEstimated"
+    $Row."CurrentExpirationDate" = [System.Nullable[DateTime]]$Row."CurrentExpirationDate"
+    $Row."AutomaticPolicyExpirationDate" = [System.Nullable[DateTime]]$Row."AutomaticPolicyExpirationDate"
+    $Row."TargetExpirationDate" = [System.Nullable[DateTime]]$Row."TargetExpirationDate"
+    $Percent = [Math]::Ceiling(100 * $RowIndex / $Dataset.Count)
+    Write-Progress `
+      -Activity "Reading dataset" `
+      -Status "$Percent% Complete ($($RowIndex + 1) / $($Dataset.Count) rows):" `
+      -PercentComplete $Percent `
+      -SecondsRemaining $(($Dataset.Count - ($RowIndex + 1)) / (($RowIndex + 1) / $Timer.Elapsed.Totalseconds))
   }
   $Timer.Stop()
   return $Dataset
 }
 function Get-NumVersionExpiresByDate($Dataset, $ColName, $DateCutoff)
 {
-     $VersionsExpired = $Dataset | Where-Object { ($null -ne $_.$ColName) -and ($_.$ColName -le $DateCutoff) }
-     $IsTodayStr = ""
-     If ((Get-Date).Date -eq ($DateCutoff).Date) 
-     {
-         $IsTodayStr = "*"
-     }
-     return [PSCustomObject]@{
-         Today = $IsTodayStr
-         Date = $DateCutoff
-         NumberOfVersionsAvailable = $Dataset.Count - $VersionsExpired.Count
-         NumberOfVersionsExpired = $VersionsExpired.Count
-         SizeOfVersionsExpiredInBytes = ($VersionsExpired | Measure-Object Size -Sum).Sum
-         }
+  $VersionsExpired = $Dataset | Where-Object { ($null -ne $_.$ColName) -and ($_.$ColName -le $DateCutoff) }
+  $IsTodayStr = ""
+  If ((Get-Date).Date -eq ($DateCutoff).Date) 
+  {
+    $IsTodayStr = "*"
+  }
+  return [PSCustomObject]@{
+    Today              = $IsTodayStr
+    Date              = $DateCutoff
+    NumberOfVersionsAvailable    = $Dataset.Count - $VersionsExpired.Count
+    NumberOfVersionsExpired     = $VersionsExpired.Count
+    SizeOfVersionsExpiredInBytes  = ($VersionsExpired | Measure-Object Size -Sum).Sum
+  }
 }
 function Get-FilesWithFewerThanNVersions($Dataset, $NumVersions)
 {
- $AvailableVersionsByFile = $Dataset `
+  $AvailableVersionsByFile = $Dataset `
+    | Where-Object { ($null -eq $_.TargetExpirationDate) -or ($_.TargetExpirationDate -gt [DateTime]::Now) } `
+    | Group-Object -Property WebId.Compact, DocId.Compact
+  $AvailableFilesWithNotEnoughVersions = @{}
+  # Files with some versions left but not enough
+  $AvailableVersionsByFile `
+    | Where-Object Count -lt $NumVersions `
+    | ForEach-Object { $AvailableFilesWithNotEnoughVersions[$_.Name] = $_.Count }
+  # Files with 0 versions left
+  $Dataset `
+    | Group-Object -Property WebId.Compact, DocId.Compact `
+    | Where-Object { $AvailableVersionsByFile.Name -notcontains $_.Name } `
+    | ForEach-Object { $AvailableFilesWithNotEnoughVersions[$_.Name] = 0 }
+  # Stitch all of the data together
+  return $Dataset `
+    | Group-Object -Property WebId.Compact, DocId.Compact `
+    | Where-Object Count -ge $NumVersions `
+    | Where-Object { $AvailableFilesWithNotEnoughVersions.Contains($_.Name) } `
+    | ForEach-Object `
+      {
+        $fileUrl = $_.Group[0]."WebUrl.Compact" + "/" + $_.Group[0]."FileUrl.Compact"
+        $numberOfVersionsAvailableBeforeTrim = $_.Count
+        $numberOfVersionsAvailableAfterTrim = $AvailableFilesWithNotEnoughVersions[$_.Name]
+        $numberOfVersionsTrimmed = $numberOfVersionsAvailableBeforeTrim - $numberOfVersionsAvailableAfterTrim
+        [PSObject]::new() | 
+          Add-Member -PassThru -NotePropertyMembers ([Ordered]@{
+            FileUrl = $fileUrl
+            NumberOfVersionsAvailableBeforeTrim = $numberOfVersionsAvailableBeforeTrim
+            NumberOfVersionsAvailableAfterTrim = $numberOfVersionsAvailableAfterTrim
+            NumberOfVersionsTrimmed = $numberOfVersionsTrimmed
+          })
+      } `
+    | Sort-Object -Property NumberOfVersionsAvailableAfterTrim
+}
+function Get-MostImpactedUsers($Dataset)
+{
+  $VersionsExpired = $Dataset | Where-Object { ($null -ne $_.TargetExpirationDate) -and ($_.TargetExpirationDate -le [DateTime]::Now) }
+  return $VersionsExpired `
+    | Group-Object -Property ModifiedBy_UserId.Compact `
+    | Select-Object `
+      @{ L = "UserId"; E = { $_.Group[0]."ModifiedBy_UserId.Compact" } }, `
+      @{ L = "UserDisplayName"; E = { $_.Group[0]."ModifiedBy_DisplayName.Compact" } },
+      @{ L = "NumberOfVersionsTrimmed"; E = { $_.Count } } `
+    | Sort-Object -Property NumberOfVersionsTrimmed -Descending
+}
+$Dataset = Import-Dataset -DatasetFilePath $ReportLocalFilePath
+$CurrentExpirationSummaryTable = @()
+$TargetExpirationSummaryTable = @()
+$Timer = [Diagnostics.Stopwatch]::StartNew()
+for ($Step = 0; $Step -lt $TimelineNumSteps; $Step++)
+{
+  $DateCutOff = $TimelineStartDate.AddDays($TimelineStepDays * $Step)
+  $CurrentExpirationSummaryTable += `
+    Get-NumVersionExpiresByDate -Dataset $Dataset -ColName CurrentExpirationDate -DateCutoff $DateCutOff
+  $TargetExpirationSummaryTable += `
+    Get-NumVersionExpiresByDate -Dataset $Dataset -ColName TargetExpirationDate -DateCutoff $DateCutOff
+}
+$Timer.Stop()
+Write-Host "===========================" -ForegroundColor Yellow
+Write-Host "Current Expiration Schedule" -ForegroundColor Yellow
+Write-Host "===========================" -ForegroundColor Yellow
+$CurrentExpirationSummaryTable | Format-Table -Autosize | Out-String | Write-Host
+Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds / 2)" -ForegroundColor Green
+Write-Host
+Write-Host "==========================" -ForegroundColor Yellow
+Write-Host "Target Expiration Schedule" -ForegroundColor Yellow
+Write-Host "==========================" -ForegroundColor Yellow
+$TargetExpirationSummaryTable | Format-Table -Autosize | Out-String | Write-Host
+Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds / 2)" -ForegroundColor Green
+Write-Host
+Write-Host "================================" -ForegroundColor Yellow
+Write-Host "Files with Fewer Than $ShowFilesWithFewerThanNVersions Versions" -ForegroundColor Yellow
+Write-Host "================================" -ForegroundColor Yellow
+$Timer = [Diagnostics.Stopwatch]::StartNew()
+Get-FilesWithFewerThanNVersions -Dataset $Dataset -NumVersions $ShowFilesWithFewerThanNVersions | Format-Table -Autosize | Out-String | Write-Host
+$Timer.Stop()
+Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds)" -ForegroundColor Green
+Write-Host
+Write-Host "==============" -ForegroundColor Yellow
+Write-Host "Users Impacted" -ForegroundColor Yellow
+Write-Host "==============" -ForegroundColor Yellow
+$Timer = [Diagnostics.Stopwatch]::StartNew()
+Get-MostImpactedUsers -Dataset $Dataset | Format-Table -Autosize | Out-String | Write-Host
+$Timer.Stop()
+Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds)" -ForegroundColor Green
+Write-Host
 ```
 
 2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
 
 ```PowerShell
 Using AnalyzeReportFile.ps1
-. “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file 
-version expiration What-If report .csv file>”
+. “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file version expiration What-If report .csv file>”
 ```
 
-:::image type="content" source="media/version-history/analyze-report-powershell-command.png" lightbox="media/version-history/analyze-report-powershell-command.png" alt-text="analyze report powershell command":::
+:::image type="content" source="media/version-history/analyze-report-powershell-command.png" lightbox="media/version-history/analyze-report-powershell-command.png" alt-text="Screenshot of analyze report powershell command.":::
 
 3. The output displays four tables:
 
@@ -266,19 +356,19 @@ version expiration What-If report .csv file>”
     1. **NumberOfVersionsExpired**: the number of versions expired on that date under the current schedule.  
     1. **SizeOfVersionsExpiredMB**: the size of versions expired on that date under the current schedule.  
 
-:::image type="content" source="media/version-history/current-expiration-schedule.png" lightbox="media/version-history/current-expiration-schedule.png" alt-text="Current Expiration Schedule":::
+:::image type="content" source="media/version-history/current-expiration-schedule.png" lightbox="media/version-history/current-expiration-schedule.png" alt-text="Screenshot of Current Expiration Schedule.":::
 
 - **Target Expiration Schedule:** this table is the same as Current Expiration Schedule but reflects the updated schedule instead. This table is only helpful if you want to test out different expiration scenarios by changing the **TargetExpirationDate** column in the file version expiration report.  
 
-:::image type="content" source="media/version-history/target-expiration-schedule.png" lightbox="media/version-history/target-expiration-schedule.png" alt-text="Target Expiration Schedule":::
+:::image type="content" source="media/version-history/target-expiration-schedule.png" lightbox="media/version-history/target-expiration-schedule.png" alt-text="Screenshot of Target Expiration Schedule.":::
 
 - **Files with Fewer Than 10 Versions:** a list of the URLs, and the number of versions before and after the deletion for those files whose number of versions is fewer than 10 after immediate deletion (but was more than 10 before the immediate deletion).  
 
-:::image type="content" source="media/version-history/files-with-fewer-than-10-versions.png" lightbox="media/version-history/files-with-fewer-than-10-versions.png" alt-text="Files with Fewer Than 10 Versions":::
+:::image type="content" source="media/version-history/files-with-fewer-than-10-versions.png" lightbox="media/version-history/files-with-fewer-than-10-versions.png" alt-text="Screenshot of files with fewer than 10 Versions.":::
 
 - **Users Impacted:** the users whose versions would be immediately deleted.
 
-:::image type="content" source="media/version-history/users-impacted.png" lightbox="media/version-history/users-impacted.png" alt-text="Users Impacted":::
+:::image type="content" source="media/version-history/users-impacted.png" lightbox="media/version-history/users-impacted.png" alt-text="Screenshot of Users Impacted.":::
 
 Optionally, you can adjust the parameters:
 

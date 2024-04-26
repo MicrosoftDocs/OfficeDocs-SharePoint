@@ -1,5 +1,5 @@
 ---
-title: "FAQs for Versions history limits"
+title: "FAQs for versions history limits"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -44,6 +44,6 @@ When **library-level version expiration setting is updated**, the new expiration
 
 When **library-level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Take an example of a library with count limits set to 500 versions, was reduced to 300 versions. If you had a file with 500 versions, every time a user updates the file, the oldest 20 versions are purged until you are at the right number of versions.
 
-## How will Automatic Setting impact ability to Restore a library or OneDrive?
+## How will automatic setting impact ability to restore a library or OneDrive?
 
 When **Automatic setting** is selected, users have access to a maximum of 500 versions created within the last 30 days enabling the user to [Restore a shared library](https://support.microsoft.com/en-us/office/restore-a-shared-library-317791c3-8bd0-4dfd-8254-3ca90883d39a) or [Restore your OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15).

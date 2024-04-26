@@ -1,5 +1,5 @@
 ---
-title: "Set Version limits for a document library(Preview)"
+title: "Set version limits for a document library(Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -16,14 +16,14 @@ search.appverid:
 - SPO160
 - SPS150
 - MET150
-description: "This article provides guidance on how admins can set Version limits for a document library."
+description: "This article provides guidance on how admins can set version limits for a document library."
 
 ---
 
 
-# Set Version limits for individual document library (Preview)
+# Set version limits for individual document library (Preview)
 
-The default **Version history limits** for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to [configure versioning for a library](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+The default version history limits for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to [configure versioning for a library](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
 Here's a summary of the expected behavior when document libraries version expiration or count limits are updated:  
 
@@ -31,9 +31,9 @@ Here's a summary of the expected behavior when document libraries version expira
 
 - **When library level count limits are updated**, if existing versions exceed the new count limit, then those versions are gradually trimmed when the file is updated. Consider a library where the version count limit is initially set to 500 versions but is later reduced to 300 versions. In this scenario, if there's a file with 500 versions, each time a user updates the file, the system gradually purges the oldest 20 versions with each new version creation until the total number of versions aligns with the updated limit of 300. It's crucial to note that when count limits are lowered, the process of version deletion occurs gradually, with up to 20 versions being removed for every new version created.  
 
-:::image type="content" source="media/version-history/overright-version-history-limits-document-library.png" lightbox="media/version-history/overright-version-history-limits-document-library.png" alt-text="overwrite version history":::
+:::image type="content" source="media/version-history/overright-version-history-limits-document-library.png" lightbox="media/version-history/overright-version-history-limits-document-library.png" alt-text="Screenshot of overwrite version history.":::
 
-## Manage Version history limits for a library using PowerShell
+## Manage version history limits for a library using PowerShell
 
 Follow these steps to manage version history limits for a site by using PowerShell.
 

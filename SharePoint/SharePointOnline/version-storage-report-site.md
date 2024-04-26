@@ -1,5 +1,5 @@
 ---
-title: "Generate Version Storage Usage Report for a Site(Preview)"
+title: "Generate version storage usage report for a site(Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to generate version storage 
 ---
 
 
-# Generate Version Storage Usage Report for a SharePoint site (Preview)
+# Generate version storage usage report for a SharePoint site (Preview)
 
 As a global or SharePoint admin in Microsoft 365, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
 
@@ -43,7 +43,7 @@ When you run the report, a background timer job is scheduled to generate a CSV f
 > If you wish to cancel an in-progress report generation, you may simply delete the report file. 
 
 
-## Report Format
+## Report format
 
 The file version expiration report is in Comma-Separated Values (CSV) format. Each row corresponds to a file version and it contains the following columns:
 
@@ -75,7 +75,7 @@ The file version expiration report is in Comma-Separated Values (CSV) format. Ea
 
 ## How to generate site version storage usage report for site, OneDrive or library
 
-Follow these steps to manage Version history limits for a site by using PowerShell.
+Follow these steps to manage version history limits for a site by using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 

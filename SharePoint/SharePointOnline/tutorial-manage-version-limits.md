@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Manage Version history limits on a site, library, or OneDrive account (Preview)"
+title: "Tutorial: Manage version history limits on a site, library, or OneDrive account (Preview)"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -21,7 +21,7 @@ description: "This article provides guidance on how to manage Version history li
 ---
 
 
-# Tutorial: Manage Version history limits for a site, library, or OneDrive account (Preview)
+# Tutorial: Manage version history limits for a site, library, or OneDrive account (Preview)
 
 In this tutorial, you will learn how to manage the version history limits for a site, document library, or OneDrive account. You will learn how to:
 
@@ -38,7 +38,7 @@ In this tutorial, you will learn how to manage the version history limits for a 
     - Update existing libraries only and inherit organization default settings for new libraries.
     - Update both existing and all new libraries for consistent version storage at the site level.
 
-## Set Version limits for a site  
+## Set version limits for a site  
 
 You can set version limits on a site by running the [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite) command to break inheritance from the organization version history limits.  
 
@@ -46,7 +46,7 @@ You can set version limits on a site by running the [**Set-SPOSite**](/powershel
 
 - Use the `–ApplyToExistingDocumentLibraries` to only update the Version history limits on existing libraries on a site. Any new library created inherits the default organization limits. 
 
-### Example: Apply Automatic version history limits to all document libraries on a site
+### Example: Apply automatic version history limits to all document libraries on a site
 
 Run the following commands to **apply Automatic setting** to all document libraries on a site.
 
@@ -54,7 +54,7 @@ Run the following commands to **apply Automatic setting** to all document librar
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true  
 ```
 
-### Example: Apply Automatic version history limits to new document libraries on a site
+### Example: Apply automatic version history limits to new document libraries on a site
 
 In the following example, Automatic Version history limits are applied to all new document libraries created on the site. The settings on existing libraries will not be impacted.
   
@@ -62,7 +62,7 @@ In the following example, Automatic Version history limits are applied to all ne
  Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries
 ```
 
-### Example: Apply Manual setting with Count and Time version history limits to existing libraries only on a site
+### Example: Apply manual setting with count and time version history limits to existing libraries only on a site
 
 In the following example, Version history limits of all existing libraries on a site are updated to Manual Version history limits.
 
@@ -70,7 +70,7 @@ In the following example, Version history limits of all existing libraries on a 
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries
 ```
 
-## Cancel an in-progress request to update Version history limits on existing libraries.
+## Cancel an in-progress request to update version history limits on existing libraries.
 
 If required, you can cancel the update job that is currently `<InProgress>` using the `Remove-SPOSiteVersionPolicyJob`. 
 
