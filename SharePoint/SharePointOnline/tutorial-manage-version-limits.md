@@ -70,7 +70,7 @@ In the following example, Version history limits of all existing libraries on a 
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries
 ```
 
-## Cancel an in-progress request to update version history limits on existing libraries.
+## Cancel an in-progress request to update version history limits on existing libraries
 
 If required, you can cancel the update job that is currently `<InProgress>` using the `Remove-SPOSiteVersionPolicyJob`. 
 

@@ -65,7 +65,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 > 1. The expire trim mode always deletes all versions that were created before January 1, 2023. If you want to trim versions, you can't keep any older than that. This means the value you use for the `DeleteBeforeDays` parameter should result in date after January 1, 2023.
 
 
-**Manual count Limit trim mode:** Deletes the oldest versions exceeding the specified count limit.
+**Manual count limit trim mode:** Deletes the oldest versions exceeding the specified count limit.
 
 **Example:** In the example below, a trim job is queued to delete versions that exceed 50 major version counts. On August 31, the job starts permanently deleting older versions that exceed the 50 major version count limit as of August 31.
 

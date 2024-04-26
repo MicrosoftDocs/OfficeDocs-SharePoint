@@ -24,11 +24,11 @@ description: "This article provides guidance on how to generate and analyze vers
 
 By understanding version storage on a site, you can better optimize the Version history settings to meet your organization’s recovery objectives and manage storage costs.
 
-This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to [run ‘What-if’ analysis](tutorial-run-what-if-analysis.md) of applying different Version limits or trimming existing versions.  
+This tutorial shows how you can generate a version storage usage report and analyze it to better understand the version storage footprint of the site. The report can also be used to [run ‘what-if’ analysis](tutorial-run-what-if-analysis.md) of applying different version limits or trimming existing versions.  
 
 In this tutorial we cover how to:
 
-- Generate Version storage usage report file for site or library.
+- Generate version storage usage report file for site or library.
 - Check progress of report generation.
 - Understand the report file.
 - Analyze version storage use using Excel or PowerShell.
