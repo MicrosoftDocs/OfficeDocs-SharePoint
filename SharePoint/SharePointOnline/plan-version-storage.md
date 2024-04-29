@@ -36,7 +36,8 @@ Before you decide the default version history limits for your organization, you 
 
 The following image depicts the restore options and the storage use for each setting:
 
-:::image type="content" source="media/version-history/compare-restore-options-storage-use.png" lightbox="media/version-history/compare-restore-options-storage-use.png" alt-text="Screenshot of compare and restore.":::
+:::image type="content" source="media/version-history/cmpr-res-sto-opt-2.png" lightbox="media/version-history/cmpr-res-sto-opt-2.png" alt-text="Screenshot of compare and restore.":::
+
 
 **Example Scenario**
 

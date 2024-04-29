@@ -51,12 +51,12 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 
 You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
 
-In the example below, a job is queued to generate a site-scoped report at the report location, https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv.  
+In the example below, a job is queued to generate a site-scoped report at the report location, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
 
 ```PowerShell
 New-SPOSiteFileVersionExpirationReportJob -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"  
 ```
-In the example below, a job is queued to generates a library-scoped report at the report location, https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv.  
+In the example below, a job is queued to generate a library-scoped report at the report location, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
 
 ```PowerShell
 New-SPOListFileVersionExpirationReportJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"
@@ -100,7 +100,7 @@ Let’s go through the first file version displayed in this report.
 
 - File version identifiers: `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify each version in your SharePoint site.  
 
-- Version metadata identifiers:`WebUrl` indicates the version in the [web](https://contoso.sharepoint.com), and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
+- Version metadata identifiers:`WebUrl` indicates the version in `https://contoso.sharepoint.com`, and `FileUrl` indicates that the file for this version is located at     DocLib/MyDocument.docx. In other words, it is in a Document Library called `DocLib`, while the file is in the root folder of `DocLib` and is named MyDocument.docx.  
 
 - `Size` indicates that the version takes 92,246 bytes of storage.  
 

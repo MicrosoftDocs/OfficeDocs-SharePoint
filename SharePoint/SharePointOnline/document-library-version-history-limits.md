@@ -32,7 +32,7 @@ The following table summarizes the various ways of managing version history limi
 
 | Area | How does it work? |
 |:-----|:-----|
-| **Set default version history limits for new document libraries created in your organization** | Default organization version history limits is set on all new document libraries created across existing and new SPO sites. |
+| **Set default version history limits for new document libraries created in your organization** | Default organization version history limits are set on all new document libraries created across existing and new SPO sites. |
 | **Set site or library level version history limits** | If needed, site admins can break inheritance from the default organization limits for an individual site or library. |
 | **Report on version storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits, or analyze the impact of trimming existing versions before scheduling trim job. |
 | **Trim existing versions** | Site admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
@@ -45,7 +45,7 @@ Version history limits are applied in the following ways:
 - **Site limits:** It is possible to break inheritance for a site by configuring version history limits for the site. When version limits are configured on a site, the settings are applied to all new libraries created on the site.
 - **Library limits:** It is possible to break inheritance at library level to define version limits for files stored in the library. 
 
-In the following example, default organization limits are applied to new libraries created on marketing and sales sites as these sites do not have site level limits applied. Legal site has site level limits applied and broken inheritance from the organization defaults. Libraries created in the legal site follows the limits applied at the legal site level. 
+In the following example, default organization limits are applied to new libraries created on marketing and sales sites as these sites do not have site level limits applied. Legal site has site level limits applied and broken inheritance from the organization defaults. Libraries created in the legal site follow the limits applied at the legal site level. 
 
 :::image type="content" source="media/version-history/version-limits-applied.png" alt-text="Screenshot of how version history limits are applied." lightbox="media/version-history/version-limits-applied.png":::
 

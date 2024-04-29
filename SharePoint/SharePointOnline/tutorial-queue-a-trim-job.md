@@ -50,7 +50,7 @@ You can queue a job to trim versions for all document libraries in the site coll
 
 ### Example: Queue a job to trim versions based on age for all libraries on a site
 
-In the example below, the job is queued to trim versions that are older than 180 days old for all document libraries in the site collection https://contoso.sharepoint.com/sites1.
+In the example below, the job is queued to trim versions that are older than 180 days old for all document libraries in the site collection `https://contoso.sharepoint.com/sites1`.
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 360 
@@ -58,14 +58,14 @@ New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/si
 
 ### Example: Queue a job to trim oldest versions exceeding the specified count limit on a site
 
-In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection https://contoso.sharepoint.com.  
+In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection `https://contoso.sharepoint.com`.  
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl - MajorVersionLimit 100
 ```
 ### Example: Queue a job to trim versions based on the automatic logic on a site
 
-In the example below, the job is queued to trim versions based on the Automatic algorithm for all document libraries in the site collection https://contoso.sharepoint.com/sites/site1.  
+In the example below, the job is queued to trim versions based on the Automatic algorithm for all document libraries in the site collection `https://contoso.sharepoint.com/sites/site1`.  
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -Automatic 
@@ -81,7 +81,7 @@ You can queue a job to trim versions from a particular document library in the s
 
 ### Example: Queue a job to trim versions based on age on a single library on a site
 
-To delete versions that are older than 360 days in document library 'Documents' in the site collection https://contoso.sharepoint.com.
+To delete versions that are older than 360 days in document library 'Documents' in the site collection `https://contoso.sharepoint.com`.
 
 ```PowerShell
 New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -DeleteBeforeDays 360 
@@ -91,7 +91,7 @@ New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/
 
 You can track progress of the trim job using the `Get-SPOSiteFileVersionBatchDeleteJobProgress` cmdlet.
 
-In the following example, the cmdlet reports the progress of the trim job for https://contoso.sharepoint.com/sites/site1
+In the following example, the cmdlet reports the progress of the trim job for `https://contoso.sharepoint.com/sites/site1`
 
 ```PowerShell
 Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity https://contoso.sharepoint.com/sites/site1
@@ -106,7 +106,7 @@ If needed, you can cancel an in-progress trim job. Once the cmdlet executes succ
 
 ### Example: Stop a site trim job
 
-To stop an in-progress trim job from additional version trimming on the site collection https://contoso.sharepoint.com/sites/site1:
+To stop an in-progress trim job from additional version trimming on the site collection `https://contoso.sharepoint.com/sites/site1`:
 
 ```PowerShell
 Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1
@@ -114,7 +114,7 @@ Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com
 
 ### Example: Stop a library trim job
 
-To stop an in-progress trim job from additional version trimming in document library 'Documents' in site collection https://contoso.sharepoint.com/sites/site1:
+To stop an in-progress trim job from additional version trimming in document library 'Documents' in site collection `https://contoso.sharepoint.com/sites/site1`:
 
 ```PowerShell
 Remove-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents"
