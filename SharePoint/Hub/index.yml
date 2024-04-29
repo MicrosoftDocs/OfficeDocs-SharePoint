@@ -54,7 +54,7 @@ additionalContent:
          # Card
         - title: Version History
           summary: Learn about file versioning that enables users to view or restore earlier versions.
-          url: ../SharePointOnline/versioning-overview.md
+          url: ../SharePointOnline/version-overview.md
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card

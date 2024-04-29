@@ -214,7 +214,7 @@
 ### [Sign out inactive users](sign-out-inactive-users.md)
 
 ## Version history (Preview)
-### [Overview (Preview)](versioning-overview.md)
+### [Overview (Preview)](version-overview.md)
 ### [Version controls (Preview)](document-library-version-history-limits.md)
 ### [Plan version storage (Preview)](plan-version-storage.md)
 ### [Set organization version limits (Preview)](set-default-org-version-limits.md) 

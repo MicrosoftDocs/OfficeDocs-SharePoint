@@ -46,11 +46,11 @@ Take an example of Contoso with an existing marketing site with a set of librari
 
 This article describes how global and SharePoint admins in Microsoft 365 can change the default version history limits for all new SharePoint document libraries and OneDrive accounts created in the organization. 
 
-:::image type="content" source="media/version-history/sharepoint-admin-settings-2.png" lightbox="media/version-history/v-h-l-sharepoint-admin-settings-1.png" alt-text="Diagram of sharepoint admin settings.":::
+:::image type="content" source="media/version-history/sharepoint-admin-settings-2.png" lightbox="media/version-history/sharepoint-admin-settings-2.png" alt-text="Diagram of sharepoint admin settings.":::
 
 On the version history limits, SharePoint Admin Setting page uses the Organization Level Version History Limits to set global default version history limits that are universally applied to all newly created document libraries in the organization.
 
-:::image type="content" source="media/version-history/set-version-his-lim-2.png" lightbox="media/version-history/set-v-h-l.png" alt-text="Diagram of set version history limits.":::
+:::image type="content" source="media/version-history/set-version-his-lim-2.png" lightbox="media/version-history/set-version-his-lim-2.png" alt-text="Diagram of set version history limits.":::
 
 
 ## Set automatic version history limits for the organization
