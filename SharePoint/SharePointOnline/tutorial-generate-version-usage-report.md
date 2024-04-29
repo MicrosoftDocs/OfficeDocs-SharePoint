@@ -342,7 +342,6 @@ Write-Host
 2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
 
 ```PowerShell
-Using AnalyzeReportFile.ps1
 . “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file version expiration What-If report .csv file>”
 ```
 
