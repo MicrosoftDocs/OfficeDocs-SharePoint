@@ -65,12 +65,12 @@ Restricted SharePoint Search is off by default. If you decide to enable it,  Cop
 > [!NOTE]
 > The limit of up to 100 SharePoint sites includes Hub sites, but not their sub-sites.   When you enable Hub sites, the sub-sites under a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the child sites have proper permissions.
 
-The following diagram shows an example of an HR Hub site with eight sub-sites:
+The following diagram shows an example of an HR Hub site with eight associated sites:
 ![A diagram of a hub site with sub-sites](media/rss-hubsite-example.png)
 
-Among these eight sub-sites:
+Among these eight associated sites:
 
-- Five sub-sites Diversity and Inclusion, Education Credits, Talent Acquisition, Training, and Employee Benefits inherit the HR Hub site permission settings. These five sites have the same permissions the HR Hub site has.
+- Five sites Diversity and Inclusion, Education Credits, Talent Acquisition, Training, and Employee Benefits inherit the HR Hub site permission settings. These five sites have the same permissions the HR Hub site has.
 - Two (HR Team site and Benefits site) are private Teams channel sites. Their corresponding Teams channel owners are sites owners in SharePoint and channel members are site members.
 - One (Manager Portal) is restricted. Users not in a specified group can't access this site or its content, even if they have permissions to the HR Hub site.
 
