@@ -289,7 +289,7 @@ Enabling this policy creates a list of strings under the following path:
 
 ### Exclude specific kinds of files from being uploaded
 
-This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe", or use the asterisk (*) as a wildcard character to represent a series of characters, such as*.pst. Keywords aren't case-sensitive.
+This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe", or use the asterisk (\*) as a wildcard character to represent a series of characters, such as \*.pst. Keywords aren't case-sensitive.
 
 > [!NOTE]
 > The OneDrive sync app doesn't sync .tmp and .ini files.
