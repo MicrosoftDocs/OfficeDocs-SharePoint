@@ -37,7 +37,7 @@ Follow these steps to manage Version history limits for a site by using PowerShe
 
 | **Action** | **PowerShell Command** |
 | --- | --- |
-| View the version history limits set for a user | `Get-SPOSite -Identity $siteUrl \| fl Url, EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays, MajorVersionLimit` |
+| View the version history limits set for a user | Get-SPOSite -Identity $siteUrl \| fl Url, EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays, MajorVersionLimit |
 | Set automatic Version history limits for a user | `Set-SPOSite -Identity $siteUrl -EnableAutoExpirationVersionTrim $true` |
 | Set manual limits with count and time parameters for a user | `Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>` |
 | Set manual limits with count with no expiration limit for a user | To set manual limits with count limits set the `-ExpireVersionsAfterDays parameter` to 0:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |

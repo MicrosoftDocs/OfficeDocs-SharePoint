@@ -58,7 +58,7 @@ New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/si
 
 ### Example: Queue a job to trim oldest versions exceeding the specified count limit on a site
 
-In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection `https://contoso.sharepoint.com`.  
+In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection `https://contoso.sharepoint.com/sites/site1`.  
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -MajorVersionLimit 100 -MajorWithMinorVersionsLimit 0
