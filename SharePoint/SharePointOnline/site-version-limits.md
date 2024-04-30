@@ -48,7 +48,7 @@ The following is the version storage for Contoso:
 > [!IMPORTANT]
 > - Site level Version history limits can be set using PowerShell cmdlets only.
 > - Setting site level Version history limits doesn't trim existing versions to meet the new limits. Additional steps are needed to [trim existing versions on a site or library.](library-version-limits.md#manage-version-history-limits-for-a-library-using-powershell)
-> - Requests to update the limits on existing libraries are processed asynchronously which can take up to 24 hours to process. You can review the progress of settings to update background job of all jobs that are in progress.
+> - Requests to update the limits on existing libraries are processed asynchronously by a background job, which can take up to 24 hours to process. You can use PowerShell to check the progress of the job.
 > - Cancelling an in-progress job stops the update on libraries that were not processed. This action doesn't revert the change for document libraries where the settings update was already processed.
 
 

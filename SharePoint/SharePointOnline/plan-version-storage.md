@@ -59,12 +59,17 @@ When this option is selected, SharePoint employs an algorithm* behind the scenes
 
 In other words, SharePoint thins out low-value versions on your behalf to reduce the impact of versions on your quota consumption while maintaining your ability to recover from file deletion/corruption events. In addition, this method better protects you than does a count limit setting from a ransomware attack that creates many versions that would fill up your version queue.
 
-*When Automatic setting is selected, the service uses the following algorithm to determine version storage:
+*The algorithm behind automatic version history limits is based on the design principle that restore value of a version that degrades as the version ages. When Automatic limit is selected, SharePoint deletes (thins out) intermittent older versions that are least likely to be used, while preserving sufficient high-value versions. This ensures users have access to more versions in the recent past and fewer farther back in time in case restores are required.
 
-- Users can access a maximum of 500 versions created within the last 30 days.
-- Hourly versions (versions that are created at the top of the hour) between 30 to 60 days.
-- Daily versions (version created at the beginning of the day) between 60 to 180 days.
-- Weekly versions (versions created at the beginning of the week) beyond 180 days or more, is available indefinitely until the maximum 500 count limit has reached.
+Version storage under Automatic setting is determined by the following algorithm:
+
+As versions are created, users have access to the following versions:
+
+- **All versions** created within 500 count limit in first 30 days.
+- **Hourly versions** (versions created at the top of the hour) between 30 to 60 day period.
+- **Daily versions** (versions created at the beginning of each day) between 60 to 180 day period.
+- **Weekly versions** (versions created at the beginning of the week) beyond 180 days or more are available indefinitely until the maximum 500 count limit has reached.
+
 The service trims the intermediate versions as the above milestones are reached.
 
 Take an example of file with a consistent version creation pattern between the months of June until January. Under Automatic setting, intermittent versions are purged as the versions age resulting in ~94% reduction in version storage used compared to applying count limits only.

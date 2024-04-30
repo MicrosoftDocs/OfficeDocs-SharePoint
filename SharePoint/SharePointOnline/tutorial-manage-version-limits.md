@@ -83,21 +83,7 @@ In the example below, the in-progress job to update settings on site will be sto
 Remove-SPOSiteVersionPolicyJob -Identity https://contoso.sharepoint.com/sites/site1
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Learn More
 
-- Get Version History Limits on a Site: [Get-PnPSiteVersionPolicy](https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html)
-- Set Version History Limits on a Site: [Set-PnPSiteVersionPolicy](https://pnp.github.io/powershell/cmdlets/Set-PnPSiteVersionPolicy.html)
-- Get progress of Version History Limits update on a Site: [Get-PnPSiteVersionPolicyProgress](https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicyProgress.html)
+- Track progress of version settings update request for existing document libraries on a site using [Get-SPOSiteVersionPolicyJobProgress](/powershell/module/sharepoint-online/get-spositeversionpolicyjobprogress).
+- Cancel further processing of version settings update on existing document libraries on the site collection using [Remove-SPOSiteVersionPolicyJob](/powershell/module/sharepoint-online/remove-spositeversionpolicyjob).

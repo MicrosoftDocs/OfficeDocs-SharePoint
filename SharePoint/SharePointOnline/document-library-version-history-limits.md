@@ -59,16 +59,18 @@ There are two version history settings that admins can use to configure version 
 
 ### Automatic Setting
 
-Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that Version history offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.
+Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that version history offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.<br>
+For more information, see [version storage under automatic limits](/sharepoint/plan-version-storage.md#understand-version-storage-under-automatic-limits).
 
 ### Manual setting
 
-The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways:
+The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways. <br> For more information, see [setting the right limits for your organization](/sharepoint/plan-version-storage.md#determine-right-count-or-expiration-version-limits).  
 
 - **Major version limit with expiration period**: Versions are deleted after exceeding either the set number of major versions or after the set period of time. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
 
+The UI doesn't allow a value less than 100 major versions or less than 30 days expiration time limits to be set, but it's possible to set the system to store fewer versions using public APIs. For reliability, any value less than 100 versions or less than 30 days expiration time limit isn't recommended and can result in the user activity causing an inadvertent data loss.
 
 > [!NOTE]
 > If time version history limits are configured on a library, the file version expiration date is stamped on a version at creation time. The expiration date set on a file version is determined from the SnapshotDate of the version which is the date a version became a historical version. The SnapshotDate might be estimated if the version was snapshotted before January 1, 2023.
@@ -87,7 +89,7 @@ The following table enumerates the scenarios and the expected version storage be
 | Versions exceed settings applied on the document library. | When versions exceed the limits set at the library, versions matching the criteria are marked for permanent deletion. This version deletion workflow bypasses the normal recycle bin and the deleted versions can't be recovered from recycle bin.|
 | Timer job scheduled to trim existing versions on a library or site. | Versions deleted using scheduled jobs are permanently deleted. This version deletion workflow bypasses the normal recycle bin and deleted versions can't be recovered from recycle bin.|
 | Version storage on items that are subject to retention policy or on an eDiscovery hold. | For items that are subject to a retention policy (or an eDiscovery hold), the versioning limits for the document library are ignored. This exemption  continues until the retention period of the document is reached (or the eDiscovery hold is released). For more information, see [How retention works with document versions](/purview/retention-policies-sharepoint). |
-|Trimming existing versions on sites that are Read Only (locked sites). |Trimming of expired versions on sites that are under retention or are on hold is suspended till the site is unlocked. | 
+|Trimming existing versions on sites that are Read Only (locked sites). |Trimming of expired versions on sites that are under retention or are on hold is suspended until the site is unlocked. | 
 |Versions deletion on items with retention labels applied. | Versioning limits are honored on items with retention labels when the content isn't subject to a retention policy (or an eDiscovery hold). Versions matching the limit criteria are automatically deleted to accommodate new versions, but users are still prevented from deleting versions. |
 | Version deletion on items marked as records. | Version deletion on documents marked as records is blocked. For more information, see [Use record versioning in SharePoint or OneDrive](/purview/record-versioning). |
 

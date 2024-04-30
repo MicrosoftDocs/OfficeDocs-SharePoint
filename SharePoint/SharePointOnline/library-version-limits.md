@@ -47,10 +47,10 @@ Follow these steps to manage version history limits for a site by using PowerShe
 
 | **Action** | **PowerShell Command** |
 | --- | --- |
-| View the version history limits set on a site | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
-| Set Automatic version history limits on a library. | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
-| Set Manual limits with count and time parameters on a library. | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
-| Set Manual limits with count with no expiration limit on a library. | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
+| View version history limits set on a library | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
+| Set Automatic version history limits on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
+| Set Manual limits with count and time parameters on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
+| Set Manual limits with count with no expiration limit on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersions <delete major versions exceeding limit>`<br>`-MajorWithMinorVersions <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
 
 
 ## Learn More

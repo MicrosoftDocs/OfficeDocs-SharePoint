@@ -61,7 +61,7 @@ New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/si
 In the example below, the job is queued to trim oldest versions that exceed 100 major version count limit for all document libraries in the site collection `https://contoso.sharepoint.com`.  
 
 ```PowerShell
-New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl - MajorVersionLimit 100
+New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -MajorVersionLimit 100 -MajorWithMinorVersionsLimit 0
 ```
 ### Example: Queue a job to trim versions based on the automatic logic on a site
 
@@ -97,7 +97,7 @@ In the following example, the cmdlet reports the progress of the trim job for `h
 Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity https://contoso.sharepoint.com/sites/site1
 ```
 
-## Cancel an in-progress trim job
+## Stop an in-progress trim job
 
 If needed, you can cancel an in-progress trim job. Once the cmdlet executes successfully, the in-progress job is stopped and no further deletions happen. 
 
