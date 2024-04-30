@@ -98,7 +98,7 @@ Some managed properties are generated automatically. One example is when you add
 The search schema displays the name of auto-generated managed properties and their mappings to crawled properties in grey in the search schema. The search schema doesn't hold the settings of the managed auto-generated managed properties. The settings exist, but they're hidden from the search schema. You can add mappings to other managed properties for the crawled properties, but if you change any other setting, you override the other (hidden) settings and the auto-generated managed property is converted to a regular managed property. If you decide to **change** an auto-generated managed property, review **all** the settings carefully, just as you would when you create a new property manually.
 
 >[!IMPORTANT]
->Auto-generated managed properties are case-sensitive. When accessing auto-generated managed properties, such as through a REST query, verify the casing is correct. If the casing is incorrect, no value will be returned.
+>Auto-generated managed properties are case-sensitive. When accessing auto-generated managed properties, such as through a REST query, verify the casing is correct. If the casing is incorrect, no value will be returned. <p>When the implicit mapping between a auto-generated crawled property and its corresponding auto-generated managed property is modified, the implicit mapping is disrupted. Following a reindex, the auto-generated property will be removed, and the explicit mapping will take effect to generate new managed properties for the site or list column.
   
 ### Refine on managed properties
 <a name="__toc351360838"> </a>
