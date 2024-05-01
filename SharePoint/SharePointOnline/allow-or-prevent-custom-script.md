@@ -5,7 +5,7 @@ ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 08/09/2023
+ms.date: 03/25/2024
 audience: Admin
 f1.keywords:
 - CSH
@@ -37,12 +37,15 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
   
-By default, script is allowed on most sites that admins create using the SharePoint admin center as well as all sites created using the New-SPOSite PowerShell command. It is not allowed on OneDrive, on sites users create themselves, on modern team and communication sites, and on the root site for your organization. You'll probably want to limit the amount of script you allow for security reasons. For more info about the security implications of custom script, see [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md).
+By default, script is not allowed on most sites that admins create using the SharePoint admin center as well as all sites created using the New-SPOSite PowerShell command. Same applies to OneDrive, sites users create themselves, modern team and communication sites, and the root site for your organization. For more info about the security implications of custom script, see [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md).
   
 > [!IMPORTANT]
 > If SharePoint was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, to accept the custom script settings as they appear, select **OK**, and enable cross-site copying. For more info about copying items between OneDrive and SharePoint, see [Copy files and folders between OneDrive and SharePoint sites](https://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f). 
   
 ## To allow custom script on OneDrive or user-created sites
+
+> [!NOTE]
+> This feature will be removed during H1 calendar year 2024. Once removed, it will no longer be possible to allow custom script on OneDrive sites.
 
 In the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can choose to allow users to run custom script on OneDrive (referred to as "personal sites") or on all classic team sites they create. For info about letting users create their own sites, see [Manage site creation in SharePoint](manage-site-creation.md).
   
@@ -99,6 +102,51 @@ If you change this setting for a classic team site, it will be overridden by the
 > [!NOTE]
 > You cannot allow or prevent custom scripts to an individual user's OneDrive.
   
+## Manage custom script from SharePoint admin center
+
+> [!NOTE]
+If you do not see the new options in SharePoint tenant admin center, the feature is not enabled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024
+
+Tenants administrators have a set of tools available in SharePoint tenant administration to manage custom script within their organization. Specifically, tenant administrators can do the following:
+* verify custom script status 
+* change custom script settings 
+* persist custom script settings
+
+### Verify custom script status
+A new "Custom script" column is now available in the "Active sites" page under "Sites".
+![Active sites view with custom script column visible](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/232a2283-7f38-4f77-b32d-e076bbcbbb01)
+
+The column can be added to any view. A new "Custom script allowed sites" is also available to provide an easy access to all the sites where custom script is enabled:
+![List of out of the box views which includes the custom script allowed sites view](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/e19f29a8-601a-416a-b8fd-2f128461b52c)
+
+### Change custom script settings
+In the "Active sites" page, upon selecting a site, under "settings", a "Custom scripts" setting is available for administrators:
+![Custom script setting](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/7a9c6b79-db8b-4577-9a8c-978f011196a9)
+
+Administrators can control custom script settings for a specific site; deciding if they want to allow or block custom script on a specific site:
+![Custom script values](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4)
+
+By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting will reset to its original value for that specific site.
+
+### Persist custom script settings
+To prevent SharePoint in resetting custom script settings to its original value to the whole tenant follow these steps:
+
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3. Run the following command.
+
+    ```PowerShell
+    Set-SPOTenant -DelayDenyAddAndCustomizePagesEnforcement $True
+    ```
+
+> [!NOTE]
+This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value for all sites.
+
 ## Features affected when custom script is blocked
 
 When users are prevented from running custom script on OneDrive or the classic team sites they create, site admins and owners won't be able to create new items such as templates, solutions, themes, and help file collections. If you allowed custom script in the past, items that were already created will still work.
@@ -113,7 +161,6 @@ The following site settings are unavailable when users are prevented from runnin
 |Solution Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use solutions created before custom script was blocked.  <br/> |
 |Theme Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use themes created before custom script was blocked.  <br/> |
 |Help Settings  <br/> |No longer available in Site Settings  <br/> |Users can still access help file collections available before custom script was blocked.  <br/> |
-|HTML Field Security  <br/> |Still available in Site Settings, but changes made will not take effect  <br/> |Users can still use HTML field security that they set up before custom script was blocked.  <br/> |
 |Sandbox solutions  <br/> |Solution Gallery is no longer available in Site Settings  <br/> |Users can't add, manage, or upgrade sandbox solutions. They can still run sandbox solutions that were deployed before custom script was blocked.  <br/> |
 |SharePoint Designer  <br/> |Pages that are not HTML can no longer be updated.  <br/> Handling List: **Create Form** and **Custom Action** will no longer work.  <br/> Subsites: **New Subsite** and **Delete Site** redirect to the **Site Settings** page in the browser.  <br/> Data Sources: **Properties** button is no longer available.  <br/> |Users can still open some data sources. To open a site that does not allow custom script in SharePoint Designer, you must first open a site that does allow custom script.  <br/> |
 |Uploading files that potentially include script  <br/> |The following file types can no longer be uploaded to a library  <br/> .asmx  <br/> .ascx  <br/> .aspx  <br/> .htc  <br/> .jar  <br/> .master  <br/> .swf  <br/> .xap  <br/> .xsf  <br/> |Existing files in the library are not impacted.  <br/> |
@@ -128,6 +175,7 @@ The following web parts and features are unavailable to site admins and owners w
 |Community  <br/> |About This Community  <br/> Join  <br/> My Membership  <br/> Tools  <br/> What's Happening  <br/> |
 |Content Rollup  <br/> |Categories  <br/> Project Summary  <br/> Relevant Documents  <br/> RSS Viewer  <br/> Site Aggregator  <br/> Sites in Category  <br/> Term Property  <br/> Timeline  <br/> WSRP Viewer  <br/> XML Viewer  <br/> |
 |Document Sets  <br/> |Document Set Contents  <br/> Document Set Properties  <br/> |
+|Advanced <br/> |Embed <br/> |
 |Forms  <br/> |HTML Form Web Part  <br/> |
 |Media and Content  <br/> |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  <br/> |
 |Search  <br/> |Refinement  <br/> Search Box  <br/> Search Navigation  <br/> Search Results  <br/> |
