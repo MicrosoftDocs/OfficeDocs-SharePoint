@@ -125,7 +125,7 @@ After configuring the `TargetExpirationDate` values for your report, you can cho
 
 ### Option one: Analyze the report using Excel
 
-Open the shared Excel workbook **AnalyzeReportFile_Template.xlsx**. You can find the following worksheets in it.  
+Open the shared Excel workbook [AnalyzeReportFile_Template.xlsx](//download.microsoft.com/download/b/f/e/bfed7844-b840-4854-8897-1272e914ccdd/AnalyzeReportFile_Template.xlsx). You can find the following worksheets in it.  
 
 - **Configuration**: Use this worksheet to set the date range for generating the different report views.
 - **Dataset**: This worksheet is the raw dataset imported from the report file. Various reporting summary views are constructed from this dataset.
