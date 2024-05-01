@@ -74,6 +74,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 
 **Automatic trim mode:** Applies Automatic algorithm to delete existing versions. Depending on the version age, the job will permanently delete versions or set expiration time according to the automatic version storage algorithm.
+
 > [!TIP]
 > Consider [performing a 'What-if' analysis](tutorial-run-what-if-analysis.md#run-impact-analysis-of-setting-automatic-version-history-limits) to understand versions that either will be deleted or have expiration time set on them under the Automatic trim mode.
 

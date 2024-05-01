@@ -72,8 +72,9 @@ The manual setting allows admins to set count limits on the number of major vers
 
 
 > [!NOTE]
-> The UI doesn't allow a value less than 100 major versions or less than 30 days expiration time limits to be set, but it's possible to set the system to store fewer versions using public APIs. For reliability, any value less than 100 versions or less than 30 days expiration time limit isn't recommended and can result in the user activity causing an inadvertent data loss.
-> If time version history limits are configured on a library, the file version expiration date is stamped on a version at creation time. The expiration date set on a file version is determined from the SnapshotDate of the version which is the date a version became a historical version. The SnapshotDate might be estimated if the version was snapshotted before January 1, 2023.
+> - The UI doesn't allow a value less than 100 major versions or less than 30 days expiration time limits to be set, but it's possible to set the system to store fewer versions using public APIs. For reliability, any value less than 100 versions or less than 30 days expiration time limit isn't recommended and can result in the user activity causing an inadvertent data loss.
+>
+> - If time version history limits are configured on a library, the file version expiration date is stamped on a version at creation time. The expiration date set on a file version is determined from the SnapshotDate of the version which is the date a version became a historical version. The SnapshotDate might be estimated if the version was snapshotted before January 1, 2023.
 
 
 
