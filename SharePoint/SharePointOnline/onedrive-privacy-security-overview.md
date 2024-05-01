@@ -49,7 +49,7 @@ Microsoft OneDrive works with and integrates into Microsoft 365. This means that
 
 ## Compliance
 
-Microsoft offers a [comprehensive set of compliance offerings](/compliance) to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data.
+Microsoft offers a comprehensive set of compliance offerings to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data.
 
 Microsoft OneDrive is also covered under the [Microsoft Product Terms](https://www.microsoft.com/licensing/docs/view/Product-Terms) and [Data Protection Agreement](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?year=2021#:%7E:text=Microsoft%20Products%20and%20Services%20Data%20Protection%20Addendum%20%28DPA%29,to%20the%20Product%20Terms%20site%20%28and%20formerly%20OST%29) (DPA). Learn more on the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 
