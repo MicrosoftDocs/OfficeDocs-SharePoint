@@ -32,15 +32,9 @@ Teams-connected sites include additional information to indicate the connection 
 
 ![Image of the Microsoft Teams icon in the site header](media/teams-connected-icon-2.png)
 
-In the site, the **Go to channel** link is available in the command bar when viewing document libraries. For the parent site, this link redirects to Teams and the general channel for the team. For the channel sites, it links to the channel in teams.
+In the site, the **In channels** section is available in the command bar when viewing document libraries. You can select to open each channel's folder. When hovering over each folder, you can select the Teams icon next to folder to navigate to the Teams channel. For example, the Teams icon next to the "General" folder leads you to Teams and the general channel for the team. 
 
-![Image of Go to channel links from a document library](media/teams-connected-links-2.png) 
-
-In the parent team site, the **Go to channel** link will be available in the command bar when viewing document libraries.
-
-![Image of the link to the SharePoint site from Teams settings](media/Teams-open-in-sp-2.png)
-
-Additionally, from teams and channels in Microsoft Teams, you can select the ellipsis (...) at the top-right of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
+Additionally, from teams and channels in Microsoft Teams, you can select the **Files** tab at the top  of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
 
 ## Manage settings and permissions
 
