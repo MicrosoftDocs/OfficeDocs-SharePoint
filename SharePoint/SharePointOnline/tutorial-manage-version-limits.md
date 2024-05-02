@@ -33,7 +33,7 @@ In this tutorial, you will learn how to manage the version history limits for a 
 - Review your **organization’s recovery objectives** and **version storage use quota targets** along with the **site-specific version storage needs** to evaluate if a break of inheritance of version settings at site, library, or OneDrive account level is needed.
 
 - If needed **run an impact analysis** with the desired setting, to understand the impact the new setting would have using current version storage usage patterns.
-- For site version settings, evaluate the scope of document libraries that should be updated. Depending on business need, you can choose one of the following:
+- For setting site level version limits, evaluate the scope of document libraries that should be updated. Depending on business need, you can choose one of the following:
     - Update new libraries only without impacting existing library settings.
     - Update existing libraries only and inherit organization default settings for new libraries.
     - Update both existing and all new libraries for consistent version storage at the site level.
