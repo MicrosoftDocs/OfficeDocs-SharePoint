@@ -63,16 +63,10 @@ Restricted SharePoint Search is off by default. If you decide to enable it,  Cop
 - Files that the users viewed, edited, or created.
 
 > [!NOTE]
-> The limit of up to 100 SharePoint sites includes Hub sites, but not their sub-sites.   When you enable Hub sites, the sub-sites under a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the child sites have proper permissions.
+> The limit of up to 100 SharePoint sites includes Hub sites, but not their associated sites.   When you enable Hub sites, the associated sites of a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the associated sites have proper permissions.
 
 The following diagram shows an example of an HR Hub site with eight associated sites:
-![A diagram of a hub site with sub-sites](media/rss-hubsite-example.png)
-
-Among these eight associated sites:
-
-- Five sites Diversity and Inclusion, Education Credits, Talent Acquisition, Training, and Employee Benefits inherit the HR Hub site permission settings. These five sites have the same permissions the HR Hub site has.
-- Two (HR Team site and Benefits site) are private Teams channel sites. Their corresponding Teams channel owners are sites owners in SharePoint and channel members are site members.
-- One (Manager Portal) is restricted. Users not in a specified group can't access this site or its content, even if they have permissions to the HR Hub site.
+![A diagram of a hub site with associated sites.](media/rss-hubsite-example.png) All eight associated sites plus the HR Hub site are counted as one site in the allowed-list.
 
 Let's consider Alex Wilber, a marketing specialist at Contoso Electronics. Before the organization uses Restricted SharePoint Search, Alex can see not only his own personal contents, like his OneDrive files, chats, emails, contents that he owns or visited, but also content from some sites that haven't undergone access permission review or Access Control Lists (ACL) hygiene, and doesn't have data governance applied. For example, Contoso Electronics has a budgeting site with important business information. Most people don't know about this site, so the site owner hasn't set up proper permissions and hasn't followed correct data governance process. The site might be open to some users who aren't allowed to see it, such as Alex. When Alex asks Copilot for some budgeting information, Copilot gets information from the budgeting site.
 
