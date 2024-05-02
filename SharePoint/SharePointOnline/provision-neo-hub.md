@@ -23,7 +23,7 @@ description: "Overview of the Microsoft New Employee Onboarding sites"
 
 # Overview of the Microsoft New Employee Onboarding sites
 
-There are three (3) new templates for New Employee Onboarding (NEO) to help organizations improve their onboarding process. The NEO sites are designed to deliver a flexible and consistent experience. The NEO sites can be used on their own, or together.
+There are three (3) templates for New Employee Onboarding (NEO) to help organizations improve their onboarding process. The NEO sites are designed to deliver a flexible and consistent experience. The NEO sites can be used on their own, or together.
 
 The NEO sites help organizations by:
 
@@ -66,7 +66,7 @@ NEO processes often fall short for both the new hires and the organization. Only
 
 New employee onboarding involves multiple levels within an organization, including preonboarding, corporate onboarding, and departmental onboarding. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience.
 
-Research has shown Preonboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. To deliver a flexible and consistent onboarding experience, NEO sites consist of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires.
+Research has shown preonboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. To deliver a flexible and consistent onboarding experience, NEO sites consist of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires.
 
 |Preonboarding site|Corporate onboarding site|Departmental onboarding site|
 |:---:|:---:|:---:|
