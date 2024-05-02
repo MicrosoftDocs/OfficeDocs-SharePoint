@@ -65,7 +65,7 @@ In the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank"
 
     - **Allow users to run custom script on self-service created sites**.
 
-    ![Custom script section of settings page in SharePoint admin center](media/a96d5c23-6389-4343-81cb-7f055617f6e8.png)
+    :::image type="content" alt-text="Custom script section of settings page in SharePoint admin center" source="media/a96d5c23-6389-4343-81cb-7f055617f6e8.png" lightbox="media/a96d5c23-6389-4343-81cb-7f055617f6e8.png":::
   
     > [!NOTE]
     > Because self-service site creation points to your organization's root site by default, changing the Custom Script setting allows custom script on your organization's root site. For info about changing where sites are created, see [Manage site creation in SharePoint](manage-site-creation.md). 
@@ -113,18 +113,24 @@ Tenants administrators have a set of tools available in SharePoint tenant admini
 * persist custom script settings
 
 ### Verify custom script status
+
 A new "Custom script" column is now available in the "Active sites" page under "Sites".
-![Active sites view with custom script column visible](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/232a2283-7f38-4f77-b32d-e076bbcbbb01)
+
+:::image type="content" alt-text="Active sites view with custom script column visible" source="media/232a2283-7f38-4f77-b32d-e076bbcbbb01.png" lightbox="media/232a2283-7f38-4f77-b32d-e076bbcbbb01.png":::
 
 The column can be added to any view. A new "Custom script allowed sites" is also available to provide an easy access to all the sites where custom script is enabled:
-![List of out of the box views which includes the custom script allowed sites view](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/e19f29a8-601a-416a-b8fd-2f128461b52c)
+
+:::image type="content" alt-text="List of out of the box views which includes the custom script allowed sites view" source="media/e19f29a8-601a-416a-b8fd-2f128461b52c.png" lightbox="media/e19f29a8-601a-416a-b8fd-2f128461b52c.png":::
 
 ### Change custom script settings
+
 In the "Active sites" page, upon selecting a site, under "settings", a "Custom scripts" setting is available for administrators:
-![Custom script setting](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/7a9c6b79-db8b-4577-9a8c-978f011196a9)
+
+:::image type="content" alt-text="Custom script setting" source="media/7a9c6b79-db8b-4577-9a8c-978f011196a9.png":::
 
 Administrators can control custom script settings for a specific site; deciding if they want to allow or block custom script on a specific site:
-![Custom script values](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/assets/46542683/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4)
+
+:::image type="content" alt-text="Custom script values" source="media/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4.png" lightbox="media/05b24a6e-7dec-4b50-80e8-f09fe18e7dd4.png":::
 
 By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting will reset to its original value for that specific site.
 
@@ -188,6 +194,6 @@ The following web parts and features are unavailable to site admins and owners w
 
 Before you prevent custom script on sites where you previously allowed it, we recommend communicating the change well in advance so users can understand the impact of it. Otherwise, users who are accustomed to changing themes or adding web parts on their sites will suddenly not be able to and will see the following error message.
   
-![Error message displayed when scripting is disabled on a site](media/1c7666a0-9538-484f-a691-6e424c5db71a.png)
+:::image type="content" alt-text="Error message displayed when scripting is disabled on a site" source="media/1c7666a0-9538-484f-a691-6e424c5db71a.png":::
   
 Communicating the change in advance can reduce user frustration and support calls.
