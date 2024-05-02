@@ -121,7 +121,7 @@ A new "Custom script" column is now available in the "Active sites" page under "
 
 The column can be added to any view. A new "Custom script allowed sites" is also available to provide an easy access to all the sites where custom script is enabled:
 
-:::image type="content" alt-text="List of out of the box views which includes the custom script allowed sites view" source="media/e19f29a8-601a-416a-b8fd-2f128461b52c.png" lightbox="media/e19f29a8-601a-416a-b8fd-2f128461b52c.png":::
+:::image type="content" alt-text="List of out of the box views which includes the custom script allowed sites view" source="media/e19f29a8-601a-416a-b8fd-2f128461b52c.png":::
 
 ### Change custom script settings
 
