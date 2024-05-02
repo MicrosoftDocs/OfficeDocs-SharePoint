@@ -96,9 +96,10 @@ The following table enumerates the various progress status that can be reported 
 ## Learn More:
 
 - [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account (Preview)](tutorial-manage-version-limits.md)
-- Manage Version history limits for a Site using [**Set-SPOSite**](/powershell/module/sharepoint-online/set-sposite)
-- Review progress of settings update on existing libraries in a Site using Get-SPOSiteVersionPolicyJobProgress
-- Cancel an in-progress settings update job using Remove-SPOSiteVersionPolicyJob 
+- Manage Version history limits for a Site using [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)
+- Track progress of version settings update request for existing document libraries on a site using [Get-SPOSiteVersionPolicyJobProgress](/powershell/module/sharepoint-online/get-spositeversionpolicyjobprogress)
+- Cancel further processing of version settings update on existing document libraries on the site collection using [Remove-SPOSiteVersionPolicyJob](/powershell/module/sharepoint-online/remove-spositeversionpolicyjob) 
+
 
 
 

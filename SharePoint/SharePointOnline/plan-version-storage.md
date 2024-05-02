@@ -55,11 +55,7 @@ Take an example of a file where 500 versions were created in May, June, and July
   
 ## Understand version storage under automatic limits
 
-When this option is selected, SharePoint employs an algorithm* behind the scenes. This algorithm deletes (thins out) intermittent older versions that are least likely to be needed, while preserving sufficient high-value versions. More versions in the recent past and fewer further back in time - in case restores are required. The algorithm is based on the design principle that the restore value of a version degrades as the version ages and offers end users' access to most of the recently created versions with fewer older versions.
-
-In other words, SharePoint thins out low-value versions on your behalf to reduce the impact of versions on your quota consumption while maintaining your ability to recover from file deletion/corruption events. In addition, this method better protects you than does a count limit setting from a ransomware attack that creates many versions that would fill up your version queue.
-
-*The algorithm behind automatic version history limits is based on the design principle that restore value of a version that degrades as the version ages. When Automatic limit is selected, SharePoint deletes (thins out) intermittent older versions that are least likely to be used, while preserving sufficient high-value versions. This ensures users have access to more versions in the recent past and fewer farther back in time in case restores are required.
+The algorithm behind automatic version history limits is based on the design principle that restores value of a version that degrades as the version ages. When Automatic limit is selected, SharePoint deletes (thins out) intermittent older versions that are least likely to be used, while preserving sufficient high-value versions. In case restores are required, it ensures that users have access to more versions in the recent past and fewer farther back in time.
 
 Version storage under Automatic setting is determined by the following algorithm:
 
