@@ -5,7 +5,7 @@ ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 03/25/2024
+ms.date: 05/02/2024
 audience: Admin
 f1.keywords:
 - CSH
@@ -145,7 +145,7 @@ To prevent SharePoint in resetting custom script settings to its original value 
     ```
 
 > [!NOTE]
-This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value for all sites.
+> This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value for all sites.
 
 ## Features affected when custom script is blocked
 
