@@ -108,9 +108,10 @@ If you change this setting for a classic team site, it will be overridden by the
 If you do not see the new options in SharePoint tenant admin center, the feature is not enabled in your tenant yet. Every customer will have this new set of capabilities enabled by end of June 2024
 
 Tenants administrators have a set of tools available in SharePoint tenant administration to manage custom script within their organization. Specifically, tenant administrators can do the following:
-* verify custom script status 
-* change custom script settings 
-* persist custom script settings
+
+- verify custom script status 
+- change custom script settings 
+- persist custom script settings
 
 ### Verify custom script status
 
@@ -135,6 +136,7 @@ Administrators can control custom script settings for a specific site; deciding 
 By default, any changes to custom script settings for a specific site only last for a maximum of 24 hours. After that time, the setting will reset to its original value for that specific site.
 
 ### Persist custom script settings
+
 To prevent SharePoint in resetting custom script settings to its original value to the whole tenant follow these steps:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
@@ -161,28 +163,28 @@ The following site settings are unavailable when users are prevented from runnin
   
 | Site feature | Behavior | Notes |
 |:-----|:-----|:-----|
-|Save Site as Template  <br/> |No longer available in Site Settings  <br/> |Users can still build sites from templates created before custom script was blocked.  <br/> |
-|Save document library as template  <br/> |No longer available in Library Settings  <br/> |Users can still build document libraries from templates created before custom script was blocked.  <br/> |
-|Save list as template  <br/> |	No longer available in List Settings  <br/> |Users can still build lists from templates created before custom script was blocked.  <br/> |
-|Solution Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use solutions created before custom script was blocked.  <br/> |
-|Theme Gallery  <br/> |No longer available in Site Settings  <br/> |Users can still use themes created before custom script was blocked.  <br/> |
-|Help Settings  <br/> |No longer available in Site Settings  <br/> |Users can still access help file collections available before custom script was blocked.  <br/> |
-|Sandbox solutions  <br/> |Solution Gallery is no longer available in Site Settings  <br/> |Users can't add, manage, or upgrade sandbox solutions. They can still run sandbox solutions that were deployed before custom script was blocked.  <br/> |
-|SharePoint Designer  <br/> |Pages that are not HTML can no longer be updated.  <br/> Handling List: **Create Form** and **Custom Action** will no longer work.  <br/> Subsites: **New Subsite** and **Delete Site** redirect to the **Site Settings** page in the browser.  <br/> Data Sources: **Properties** button is no longer available.  <br/> |Users can still open some data sources. To open a site that does not allow custom script in SharePoint Designer, you must first open a site that does allow custom script.  <br/> |
-|Uploading files that potentially include script  <br/> |The following file types can no longer be uploaded to a library  <br/> .asmx  <br/> .ascx  <br/> .aspx  <br/> .htc  <br/> .jar  <br/> .master  <br/> .swf  <br/> .xap  <br/> .xsf  <br/> |Existing files in the library are not impacted.  <br/> |
-|Uploading Documents to Content Types <br/>|Access denied message when attempting to attach a document template to a Content Type. <br/>|We recommend using Document Library document templates. |
-|Publishing of SharePoint 2010 Workflows <br/>|Access denied message when attempting to publish a SharePoint 2010 Workflow. <br/>| |
+|Save Site as Template |No longer available in Site Settings |Users can still build sites from templates created before custom script was blocked. |
+|Save document library as template |No longer available in Library Settings  |Users can still build document libraries from templates created before custom script was blocked.  |
+|Save list as template  |	No longer available in List Settings  |Users can still build lists from templates created before custom script was blocked.  |
+|Solution Gallery  |No longer available in Site Settings  |Users can still use solutions created before custom script was blocked.  |
+|Theme Gallery  |No longer available in Site Settings  |Users can still use themes created before custom script was blocked.  |
+|Help Settings  |No longer available in Site Settings  |Users can still access help file collections available before custom script was blocked.  |
+|Sandbox solutions  |Solution Gallery is no longer available in Site Settings  |Users can't add, manage, or upgrade sandbox solutions. They can still run sandbox solutions that were deployed before custom script was blocked.  |
+|SharePoint Designer  |Pages that are not HTML can no longer be updated.  <br/> Handling List: **Create Form** and **Custom Action** will no longer work.  <br/> Subsites: **New Subsite** and **Delete Site** redirect to the **Site Settings** page in the browser.  <br/> Data Sources: **Properties** button is no longer available.  |Users can still open some data sources. To open a site that does not allow custom script in SharePoint Designer, you must first open a site that does allow custom script.  |
+|Uploading files that potentially include script  |The following file types can no longer be uploaded to a library  <br/> .asmx  <br/> .ascx  <br/> .aspx  <br/> .htc  <br/> .jar  <br/> .master  <br/> .swf  <br/> .xap  <br/> .xsf  |Existing files in the library are not impacted.  |
+|Uploading Documents to Content Types  |Access denied message when attempting to attach a document template to a Content Type. |We recommend using Document Library document templates. |
+|Publishing of SharePoint 2010 Workflows |Access denied message when attempting to publish a SharePoint 2010 Workflow. | |
    
 The following web parts and features are unavailable to site admins and owners when you prevent them from running custom script.
   
 | Web part category | Web part |
 |:-----|:-----|
-|Business Data  <br/> |Business Data Actions  <br/> Business Data Item  <br/> Business Data Item Builder  <br/> Business Data List  <br/> Business Data Related List  <br/> Excel Web Access  <br/> Indicator Details  <br/> Status List  <br/> Visio Web Access  <br/> |
-|Community  <br/> |About This Community  <br/> Join  <br/> My Membership  <br/> Tools  <br/> What's Happening  <br/> |
-|Content Rollup  <br/> |Categories  <br/> Project Summary  <br/> Relevant Documents  <br/> RSS Viewer  <br/> Site Aggregator  <br/> Sites in Category  <br/> Term Property  <br/> Timeline  <br/> WSRP Viewer  <br/> XML Viewer  <br/> |
-|Document Sets  <br/> |Document Set Contents  <br/> Document Set Properties  <br/> |
-|Advanced <br/> |Embed <br/> |
-|Forms  <br/> |HTML Form Web Part  |
+|Business Data  |Business Data Actions  <br/> Business Data Item  <br/> Business Data Item Builder  <br/> Business Data List  <br/> Business Data Related List  <br/> Excel Web Access  <br/> Indicator Details  <br/> Status List  <br/> Visio Web Access  |
+|Community  |About This Community  <br/> Join  <br/> My Membership  <br/> Tools  <br/> What's Happening  |
+|Content Rollup  |Categories  <br/> Project Summary  <br/> Relevant Documents  <br/> RSS Viewer  <br/> Site Aggregator  <br/> Sites in Category  <br/> Term Property  <br/> Timeline  <br/> WSRP Viewer  <br/> XML Viewer  |
+|Document Sets  |Document Set Contents  <br/> Document Set Properties  |
+|Advanced |Embed |
+|Forms  |HTML Form Web Part  |
 |Media and Content  |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  |
 |Search  |Refinement  <br/> Search Box  <br/> Search Navigation  <br/> Search Results  |
 |Search-Driven Content  |Catalog-Item Reuse  |
