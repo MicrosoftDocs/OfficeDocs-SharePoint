@@ -182,13 +182,13 @@ The following web parts and features are unavailable to site admins and owners w
 |Content Rollup  <br/> |Categories  <br/> Project Summary  <br/> Relevant Documents  <br/> RSS Viewer  <br/> Site Aggregator  <br/> Sites in Category  <br/> Term Property  <br/> Timeline  <br/> WSRP Viewer  <br/> XML Viewer  <br/> |
 |Document Sets  <br/> |Document Set Contents  <br/> Document Set Properties  <br/> |
 |Advanced <br/> |Embed <br/> |
-|Forms  <br/> |HTML Form Web Part  <br/> |
-|Media and Content  <br/> |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  <br/> |
-|Search  <br/> |Refinement  <br/> Search Box  <br/> Search Navigation  <br/> Search Results  <br/> |
-|Search-Driven Content  <br/> |Catalog-Item Reuse  <br/> |
-|Social Collaboration  <br/> |Contact Details  <br/> Note Board  <br/> Organization Browser  <br/> Site Feed  <br/> Tag Cloud  <br/> User Tasks  <br/> |
-|Master Page Gallery  <br/> |Can't create or edit master pages  <br/> |
-|Publishing Sites  <br/> |Can't create or edit master pages and page layouts  <br/> |
+|Forms  <br/> |HTML Form Web Part  |
+|Media and Content  |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  |
+|Search  |Refinement  <br/> Search Box  <br/> Search Navigation  <br/> Search Results  |
+|Search-Driven Content  |Catalog-Item Reuse  |
+|Social Collaboration  |Contact Details  <br/> Note Board  <br/> Organization Browser  <br/> Site Feed  <br/> Tag Cloud  <br/> User Tasks  |
+|Master Page Gallery  |Can't create or edit master pages  |
+|Publishing Sites  |Can't create or edit master pages and page layouts  |
    
 ## Best practice for communicating script setting changes to users
 
