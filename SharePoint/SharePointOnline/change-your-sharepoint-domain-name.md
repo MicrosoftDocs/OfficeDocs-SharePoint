@@ -221,6 +221,7 @@ Example:
 
 > [!NOTE]
 > If you attempt this with a file that has the entire 4,000 sites in it, the complete execution of this cmdlet can take approximately 4-6 hours. If you want shorter waiting times, we recommend splitting your list of sites up and performing this in batches.
+
 To view the list of sites prioritized currently, run the following command: 
 
 `Get-SPOTenantRenameSitePrioritization`
