@@ -1,5 +1,5 @@
 ---
-ms.date: 01/07/2019
+ms.date: 05/02/2024
 title: Troubleshoot user profile removal issues in SharePoint
 ms.reviewer: jmcdowe
 ms.author: ruihu
