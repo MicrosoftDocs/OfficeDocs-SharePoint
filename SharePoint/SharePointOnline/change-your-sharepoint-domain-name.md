@@ -89,13 +89,13 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | OneDrive | The Quick access links in OneDrive and SharePoint don't work. | No action is available.  |
 | Power Automate | Request sign-off flows that use SharePoint as a connection won’t work. | Remove and re-create the Request sign-off flow. |
 | Power Automate | Any flows deployed as solutions with managed layers that use SharePoint as a connection won’t work. | Remove and re-create the flows. |
-| Power Automate | Some regular flows do not work after the rename. | As part of the rename operation, updates to Power Automate are attempted but a small subset may fail due to service issues. For any flows identified that do not work, manually update the URL. |
+| Power Automate | Some regular flows don't work after the rename. | As part of the rename operation, updates to Power Automate are attempted but a small subset may fail due to service issues. For any flows identified that don't work, manually update the URL. |
 | Power BI | Power BI reports using SharePoint connections as a data source don't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that aren't created or maintained in the Power BI Desktop app will need to be recreated. |
 | Project Online | Workflows that are "in flight" won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
 | Project Online | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
 | Project Online | References to PWA sites in Project Online at https://project.microsoft.com don't work. | In Project Online at https://project.microsoft.com, change the URL of the PWA sites under Settings > My PWA Site. |
 | Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source don't work. | These reports need to be reconnected. |
-| Project Pro | The app don't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts. |
+| Project Pro | The app doesn't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts. |
 | SharePoint 2013 workflows | Workflows that are “in flight” won't complete and will be orphaned. <br> New 2013 Workflow instances can't be initiated. <br>Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. |
 | SharePoint 2013 workflows | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
 | SharePoint add-ins | Add-ins might not function as expected. | The add-ins might need to be republished. <br>Review the App configuration settings in Microsoft Entra ID for the add-in and update any URLs to the new domain name. <br> For SPFx applications, in Microsoft Entra ID update the Authentication URLs to the new domain for the SharePoint Online Client Extensibility Web Application Principal. |
@@ -109,7 +109,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki.mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
 | Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
-| Isolated web parts and full page apps | Isolated components are not updated and will stop working. | Solutions that contain isolated components need to be republished in the tenant app catalog. The solution will start working again after that. |
+| Isolated web parts and full page apps | Isolated components aren't updated and will stop working. | Solutions that contain isolated components need to be republished in the tenant app catalog. The solution will start working again after that. |
 
 ### High impact
 
@@ -230,7 +230,7 @@ And if you want to remove prioritization for a site, you can run the Remove-SPOT
 
 `Remove-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx`
 
-Prioritizing a site is not a guarantee that it will be completed first. There are several factors that can affect processing times, and multiple site renames are processed in parallel. Prioritized sites have a higher chance of completing first. 
+Prioritizing a site isn't a guarantee that it will be completed first. There are several factors that can affect processing times, and multiple site renames are processed in parallel. Prioritized sites have a higher chance of completing first. 
 
 ## Step 4: Monitor the status of the rename
 
