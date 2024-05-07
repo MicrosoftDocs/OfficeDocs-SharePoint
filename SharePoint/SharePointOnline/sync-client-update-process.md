@@ -64,8 +64,8 @@ However, as the slowest ring, the Deferred ring receives performance improvement
   
 ## How the sync app checks for and applies updates
 
-The OneDrive sync app checks for available updates every 24 hours when it's running. If it stops and doesn't check for updates in more than 24 hours, the sync app checks for updates as soon as it starts. Windows 10 also has a scheduled task that updates the sync app even when it's not running.
-  
+The OneDrive sync app checks for available updates every 24 hours when it's running. If it stops and doesn't check for updates in more than 24 hours, the sync app checks for updates as soon as it starts. Windows also has a scheduled task that updates the sync app even when it's not running.
+
 To determine if an update is available, the OneDrive sync app checks if:
   
 - The latest version released to the update ring is higher than what is installed on the computer. If the installed version is too old to be updated to the current version, the sync app first updates to the minimum version within the ring.
