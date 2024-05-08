@@ -64,7 +64,7 @@ Automatic setting is recommended for optimized version storage. It combines the 
 
 ### Manual setting
 
-The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways. For more information, see [setting the right limits for your organization](plan-version-storage.md#determine-right-count-or-expiration-version-limits).   
+The manual setting allows admins to set count limits on the number of major versions or to set expiration and count limits. When this option is selected, the admins can configure it in the following ways.    
 
 - **Major version limit with expiration period**: Versions are deleted after exceeding either the set number of major versions or after the set period of time. For example, if you configure a library to store 500 major versions with a 365-day expiration, the system stores no more than 500 versions, and automatically deletes any version older than 365 days.
 
