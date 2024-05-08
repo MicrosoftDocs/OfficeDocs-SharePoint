@@ -70,6 +70,7 @@ The manual setting allows admins to set count limits on the number of major vers
 
 - **Major version limits with no expiration period**: Versions are deleted after they exceed the set number of major versions. For example, if a library is configured to store 500 major versions, no more than 500 versions is stored for each file or item.
 
+For more information, see [determining the right count or expiration version limits](plan-version-storage.md#determine-right-count-or-expiration-version-limits). 
 
 > [!NOTE]
 > - The UI doesn't allow a value less than 100 major versions or less than 30 days expiration time limits to be set, but it's possible to set the system to store fewer versions using public APIs. For reliability, any value less than 100 versions or less than 30 days expiration time limit isn't recommended and can result in the user activity causing an inadvertent data loss.

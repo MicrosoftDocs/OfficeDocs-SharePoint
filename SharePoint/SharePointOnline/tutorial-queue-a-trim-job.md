@@ -43,17 +43,17 @@ Versions deleted by a trim job are permanently deleted and can't be recovered fr
 ## Queue a job to trim versions on site
 
 You can queue a job to trim versions for all document libraries in the site collection using the `New-SPOSiteFileVersionBatchDeleteJob` PowerShell command. 
-- Use the `-<DeleteBeforeDays>` parameter to specify the age criteria you wish to apply for deleting versions. Versions older than the specified days are deleted asynchronously in batches in the upcoming days. 
+- Use the `<DeleteBeforeDays>` parameter to specify the age criteria you wish to apply for deleting versions. Versions older than the specified days are deleted asynchronously in batches in the upcoming days. 
 - Use the `<MajorVersionLimit>` to specify the count limit of major versions to store. Oldest versions exceeding the specified count are deleted asynchronously in batches in the upcoming days. 
 - Use the `<Automatic>` parameter to apply Automatic setting trimming logic on existing file versions. 
 
 
 ### Example: Queue a job to trim versions based on age for all libraries on a site
 
-In the example below, the job is queued to trim versions that are older than 180 days old for all document libraries in the site collection `https://contoso.sharepoint.com/sites1`.
+In the following example, the job is queued to trim versions that are older than 180 days for all document libraries in the site collection `https://contoso.sharepoint.com/sites1`.
 
 ```PowerShell
-New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 360 
+New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 180 
 ```
 
 ### Example: Queue a job to trim oldest versions exceeding the specified count limit on a site
@@ -84,7 +84,7 @@ You can queue a job to trim versions from a particular document library in the s
 To delete versions that are older than 360 days in document library 'Documents' in the site collection `https://contoso.sharepoint.com`.
 
 ```PowerShell
-New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -DeleteBeforeDays 360 
+New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com -List "Documents" -DeleteBeforeDays 360 
 ```
 
 ## Track progress of a trim job
