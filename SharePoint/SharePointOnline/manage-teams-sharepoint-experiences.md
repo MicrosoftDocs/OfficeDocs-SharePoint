@@ -1,5 +1,5 @@
 ---
-ms.date: 12/20/2021
+ms.date: 05/07/2024
 title: Manage settings and permissions when SharePoint and Teams are integrated
 ms.reviewer: 
 ms.author: ruihu
