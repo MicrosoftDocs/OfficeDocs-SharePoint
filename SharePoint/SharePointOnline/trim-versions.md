@@ -55,7 +55,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 
 **Manual expiration trim mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
-**Example:** In the example below, a trim job is queued to trim versions older than 60 days. On August 31, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31.
+**Example:** In the following example, a trim job is queued to trim versions older than 60 days. On August 31, the job is picked up and it starts permanently deleting versions older than 60 days as of August 31.
 
 
   :::image type="content" source="media/version-history/manual-expiration-trim-table.png" lightbox="media/version-history/manual-expiration-trim-table.png" alt-text="Diagram of manual expiration.":::
@@ -76,7 +76,7 @@ Version trimming workflows allow you to select and apply one of the trimming mod
 **Automatic trim mode:** Applies Automatic algorithm to delete existing versions. Depending on the version age, the job will permanently delete versions or set expiration time according to the automatic version storage algorithm.
 
 > [!TIP]
-> Consider [performing a 'What-if' analysis](tutorial-run-what-if-analysis.md#run-impact-analysis-of-setting-automatic-version-history-limits) to understand versions that either will be deleted or have expiration time set on them under the Automatic trim mode.
+> You can run the impact analysis of either applying the Manual Count, Expire, or Automatic trim mode to understand the version delete impact under each mode. 
 
 ## Queue trim job and track progress
 

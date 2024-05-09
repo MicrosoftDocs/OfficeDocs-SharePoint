@@ -51,12 +51,12 @@ In later tutorials, review how you can run impact analysis on the generated CSV 
 
 You can generate a report on the current version storage use on a site by running the `New-SPOSiteFileVersionExpirationReportJob` command or on a library by running the `New-SPOListFileVersionBatchDeleteJob` command.
 
-In the example below, a job is queued to generate a site-scoped report at the report location, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
+In the following example, a job is queued to generate a site-scoped report at the report location, `https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv`.  
 
 ```PowerShell
 New-SPOSiteFileVersionExpirationReportJob -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"  
 ```
-In the example below, a job is queued to generate a library-scoped report at the report location, `https://contoso.sharepoint.com/SharedDocuments/SiteReport.csv`.  
+In the following example, a job is queued to generate a library-scoped report at the report location, `https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv`.  
 
 ```PowerShell
 New-SPOListFileVersionExpirationReportJob -Site https://contoso.sharepoint.com/sites/site1 -List "Documents" -ReportUrl "https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv"
@@ -86,7 +86,7 @@ The cmdlet will return a response in JSON format. The returned json response has
 | “completed” | The job has successfully completed and the report is fully populated. |
 | “in_progress” | There is an active job. The report is partially populated. |
 | “no_report_found” | There are no active jobs populating the specified file. |
-| “failed, error message:” | The job to generate the report has failed due to the error message. |
+| “failed” | The job to generate the report has failed due to the error message. Check “error_message” for the error message from the failure. |
 
 ## Understand version report file
 
@@ -95,7 +95,7 @@ Here’s an example of file version expiration report and its column breakdown.
 
 :::image type="content" source="media/version-history/expiration-report.png" lightbox="media/version-history/expiration-report.png" alt-text="Screenshot of expiration report.":::
 
-The first row is the header with the column identifiers containing File Version Identifiers, Version Metadata information, and expiration timestamp. Compact columns are denoted with “.Compact” post-fix that won’t repeat values if two consecutive rows have the same value. The other rows represent file versions, where each row represents a single version.  
+The first row is the header with the column identifiers containing File Version Identifiers, Version Metadata information, and expiration timestamp. Compact columns are denoted with `.Compact` post-fix that won’t repeat values if two consecutive rows have the same value. The other rows represent file versions, where each row represents a single version.  
 Let’s go through the first file version displayed in this report.  
 
 - File version identifiers: `WebId`, `DocId`, `MajorVersion`, and `MinorVersion` uniquely identify each version in your SharePoint site.  
