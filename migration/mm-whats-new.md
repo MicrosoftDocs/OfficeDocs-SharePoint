@@ -31,7 +31,11 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 - **Identity mapping capacity.** Improvement to identity mapping capacity to better support larger migrations.
-- **Forms migration.** Support migrating Forms during Google Drive migration.
+- **Migration flow refinement.** Refine migration setting and destination upload process to be more intuitive.
+
+## April 2024
+
+- **Forms migration.** You can now migrate Google Forms by default. "Forms destination" is required during Forms migration. [Learn more about Forms destination](/sharepointmigration/mm-google-step4-review-destinations).
 
 ## March 2024
 
