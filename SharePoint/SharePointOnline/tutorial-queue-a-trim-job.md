@@ -50,7 +50,7 @@ You can queue a job to trim versions for all document libraries in the site coll
 
 ### Example: Queue a job to trim versions based on age for all libraries on a site
 
-In the following example, the job is queued to trim versions that are older than 180 days for all document libraries in the site collection `https://contoso.sharepoint.com/sites1`.
+In the following example, the job is queued to trim versions that are older than 180 days for all document libraries in the site collection `https://contoso.sharepoint.com/sites/site1’`.
 
 ```PowerShell
 New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 180 
