@@ -43,7 +43,7 @@ Collaborate all in one place by migrating your Dropbox documents, data, and user
 
 To get started:
 
-Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), click **Dropbox** to create a migration project and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Dropbox** to create a migration project, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
