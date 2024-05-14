@@ -5,7 +5,7 @@ ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 05/02/2024
+ms.date: 05/14/2024
 audience: Admin
 f1.keywords:
 - CSH
@@ -154,6 +154,7 @@ To prevent SharePoint in resetting custom script settings to its original value 
 
 > [!NOTE]
 > This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value for all sites.
+> Running the command where [Multi-Geo capabilities on OneDrive and SharePoint](./microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) are configured, will only affect the current geo from which you ran the command. To persiste custom script settings across the entire tenant you must run the command on each geo.
 
 ## Features affected when custom script is blocked
 
