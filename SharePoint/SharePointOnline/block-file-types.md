@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/09/2024
 title: "Block syncing of specific file types"
 ms.reviewer: gacarini
 ms.author: mactra
@@ -35,9 +35,9 @@ This setting prevents file types from being uploaded but not downloaded. If user
 > [!NOTE]
 > The OneDrive sync app doesn't sync .tmp, .ini, and .lnk files.
 
- **To block uploading of specific file types**
+## To block uploading of specific file types
   
-1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to [Settings in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.

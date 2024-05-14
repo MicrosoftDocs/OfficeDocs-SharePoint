@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 4/12/2024
 title: "Prevent users from contacting Microsoft directly"
-ms.reviewer: 
+ms.reviewer: pramod.balasu
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

@@ -1,6 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/11/2024
 title: Restrict access to a user's OneDrive content to people in a group
+ms.reviewer: nibandyo
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -80,7 +81,7 @@ To manage access restriction for OneDrive, use the following commands:
 |Enable access restriction for a given OneDrive. (Run this command before adding security groups.) |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
 |Add security group |`Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>`         |
 |Edit security group     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>`         |
-|View security group     |`Get-SPOSite -Identity <siteurl> | Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
+|View security group     |`Get-SPOSite -Identity <siteurl> Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
 |Remove security group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
 |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
 
