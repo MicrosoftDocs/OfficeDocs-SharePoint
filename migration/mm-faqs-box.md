@@ -29,9 +29,6 @@ Answer: Only owned folders and the root files for each user are copied. If a use
 **Question:**  What happens to Box Notes?</br>
 Answer: Box Notes will not be converted during migration to a .docx format.
 
-**Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  Currently Migration Manager Box isn't available for any of the Government clouds.
-</br>
 
 **Question:**   **Does Migration Manager Box sync files?**</br>
 Answer: There's a source-to-destination delta; when you run a transfer, we compare the destination directory to the source, and only transfer new or modified files over. We call this our incremental feature. We compare the timestamps of the files in both the source and destination and transfer the newest versions only. The incremental feature is always on.  Here are a few examples of how we deal with changes to files and folders.
