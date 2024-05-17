@@ -1,5 +1,5 @@
 ---
-ms.date: 08/02/2023
+ms.date: 05/17/2024
 title: "About the SharePoint Administrator role in Microsoft 365"
 ms.reviewer: 
 ms.author: ruihu
