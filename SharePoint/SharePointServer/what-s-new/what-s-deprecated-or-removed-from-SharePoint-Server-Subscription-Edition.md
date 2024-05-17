@@ -41,7 +41,7 @@ Different customers may have different interpretations of terms such as "depreca
  
 ## Deprecated features
 
- - InfoPath Forms Services
+- InfoPath Forms Services
  
  - Microsoft Workflow Manager
  
@@ -55,7 +55,7 @@ Different customers may have different interpretations of terms such as "depreca
 
 ## Removed features
 
- - Access Services 2010 
+- Access Services 2010 
  
  - Access Services 2013 
  
@@ -70,6 +70,8 @@ Different customers may have different interpretations of terms such as "depreca
  - Stsadm.exe command-line tool 
  
  - Update-SPHelp PowerShell cmdlet
+
+ - Claims to Windows Token Service (C2WTS)
  
 ## Detailed description of features deprecated or removed in SharePoint Server Subscription Edition
 
@@ -131,6 +133,11 @@ The stsadm.exe command-line administration tool has been removed from SharePoint
 ### Update-SPHelp PowerShell cmdlet
 
 As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. The Update-Help cmdlet will now be able to download the latest help content for SharePoint PowerShell cmdlets.
+
+### Claims to Windows Token Service
+
+The Claims to Windows Token Service (C2WTS) has been removed from SharePoint Server Subscription Edition. The service still appears in the Central Administration site, but the backing Windows service is not installed, so the SharePoint service will not start.  Trying to start the service in Central Administration will result in error: **SPWindowsTokenServiceInstance: could not find c2wtshost.exe.config. Please edit the configuration manually.**  
+SharePoint Server Subscription Edition replaced Windows Identity Foundation (WIF) 3.5 with WIF 4.5, in which the Claims to Windows Token Service and its associated classes are removed.  If you have a custom solution that depends on the C2WTS, you may need to adjust it to work with WIF 4.5. See [Guidelines for Migrating an Application Built Using WIF 3.5 to WIF 4.5](https://github.com/mirsaeedi/docs-1/blob/master/docs/framework/security/guidelines-for-migrating-an-application-built-using-wif-3-5-to-wif-4-5.md) for more information. 
 
 
 
