@@ -99,7 +99,7 @@ The search schema displays the name of auto-generated managed properties and the
 
 > [!IMPORTANT]
 > Auto-generated managed properties are case-sensitive. When accessing auto-generated managed properties, such as through a REST query, verify the casing is correct. If the casing is incorrect, no value will be returned.
-> When the implicit mapping between an auto-generated crawled property and its corresponding auto-generated managed property is modified, such as the auto-generated crawled property is mapped to another explicit managed property or the auto-generated managed property is mapped to another explicit crawled property, the implicit mapping is disrupted. Following a reindex, both the auto-generated crawled property and auto-generated managed property will be removed.
+> When the implicit mapping between an auto-generated crawled property and its corresponding auto-generated managed property is modified, such as when the auto-generated crawled property is mapped to another explicit managed property or the auto-generated managed property is mapped to another explicit crawled property, the implicit mapping is disrupted. Following a reindex, both the auto-generated crawled property and auto-generated managed property will be removed.
   
 ### Refine on managed properties
 <a name="__toc351360838"> </a>
