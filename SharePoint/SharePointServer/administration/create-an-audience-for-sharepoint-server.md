@@ -32,7 +32,7 @@ Learn how to use a Microsoft PowerShell script to create an audience.
     
   - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
-2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set input values specific to your organization. You will use these values in step 3. Save the file, and name it Audiences.ps1.
+2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set input values specific to your organization. You'll use these values in step 3. Save the file, and name it Audiences.ps1.
     
   ```
   ## Settings you may want to change for Audience Name and Description ## 
@@ -79,6 +79,6 @@ Learn how to use a Microsoft PowerShell script to create an audience.
   ./Audiences.ps1 
   ```
 
-For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For additional information about PowerShell scripts and .ps1 files see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
   
-For additional information about how to create audiences, see [AudienceRuleComponent class](/previous-versions/office/sharepoint-server/ms578007(v=office.15)).
+For more information about how to create audiences, see [AudienceRuleComponent class](/previous-versions/office/sharepoint-server/ms578007(v=office.15)).
