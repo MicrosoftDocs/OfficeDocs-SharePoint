@@ -23,7 +23,7 @@ description: "This article provides guidance on how version history limits are a
 # Overview of version history limits for document libraries and OneDrive (Preview)
 
 > [!NOTE]
-> Document library version controls at tenant and site level and the new automatic and manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Version History preview terms and conditions](terms-of-service-version-history.md).
+> Document library version controls at tenant and site level and the new automatic and manual expiration version history limits are currently in preview and are subject to changes. The feature is currently rolling out and might not yet be fully available to all organizations. Before you begin, read the [Version History preview terms and conditions](terms-of-service-version-history.md). Also learn how to [Enable Public Preview](#enable-public-preview).
 
 
 Version history limits control how versions are stored in a SharePoint document library or OneDrive account. Limits can be set at organization, site, library or OneDrive user account level allowing admins and site owners the ability to better manage content recovery and auditing requirements. Global and SharePoint admins in Microsoft 365 can set version history limits at the organization level. These settings apply universally to all new libraries, whether on existing or new SharePoint sites, and on default libraries on new OneDrive sites. Site owners can overwrite organization-level version settings by [configuring version settings for sites](site-version-limits.md) they own. Site owners can overwrite organization or site settings by [configuring version settings for libraries and lists](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) they own.
@@ -107,7 +107,7 @@ Audit events are available on the Microsoft Purview compliance portal to help yo
 
 ## Enable Public Preview
 
-Public preview is turned off by default. To enable Public preview, admins can run the SharePoint Online Management PowerShell cmdlet" 
+Public preview is turned off by default. To enable Public preview, admins can run the following SharePoint Online Management PowerShell cmdlet:
 
 ```powershell
 Set-SPOTenant -EnableVersionExpirationSetting $true. 
