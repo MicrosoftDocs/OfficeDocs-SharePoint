@@ -1,5 +1,5 @@
 ---
-title: "Outbound e-mail has not been configured (SharePoint Server)"
+title: "Outbound e-mail hasn't been configured (SharePoint Server)"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,11 +18,11 @@ ms.assetid: 53885793-4150-4212-af04-6ea2e6e066f7
 description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound email hasn't been configured, for SharePoint Server."
 ---
 
-# Outbound e-mail has not been configured (SharePoint Server)
+# Outbound e-mail hasn't been configured (SharePoint Server)
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
- **Rule Name:** Outbound email has not been configured. 
+ **Rule Name:** Outbound email hasn't been configured. 
   
  **Summary:** An outgoing email server hasn't been configured on this SharePoint Server deployment. With no SMPT server configured for outgoing email, SharePoint Server can't send email messages, including alert email, confirmation email, invitation email, and email about exceeding quotas. 
   
@@ -42,7 +42,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound
     
 ## See also
 
-#### Concepts
+### Concepts
 
 [Plan email integration for a SharePoint Server farm](../administration/email-integration-planning.md)
   
