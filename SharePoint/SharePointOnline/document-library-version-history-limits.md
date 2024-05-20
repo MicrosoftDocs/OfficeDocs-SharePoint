@@ -37,6 +37,17 @@ The following table summarizes the various ways of managing version history limi
 | **Report on version storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits, or analyze the impact of trimming existing versions before scheduling trim job. |
 | **Trim existing versions** | Site admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
 
+## Enable Public Preview
+
+Public preview is turned off by default. To enable Public preview, admins can run the following SharePoint Online Management PowerShell cmdlet:
+
+```powershell
+Set-SPOTenant -EnableVersionExpirationSetting $true. 
+```
+> [!NOTE]
+> 1. Ensure that you have the latest [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
+> 2. If you receive the error 'The requested operation is a part of an experimental feature that is not supported in the current environment.', this indicates that the feature has not yet reached your tenant. You can try again later.
+
 ## How Version history limits are applied
 
 Version history limits are applied in the following ways:
@@ -105,14 +116,5 @@ Audit events are available on the Microsoft Purview compliance portal to help yo
 - Changes made to library version history limits.
 - User deletes versions from the version history of a file.
 
-## Enable Public Preview
 
-Public preview is turned off by default. To enable Public preview, admins can run the following SharePoint Online Management PowerShell cmdlet:
-
-```powershell
-Set-SPOTenant -EnableVersionExpirationSetting $true. 
-```
-> [!NOTE]
-> 1. Ensure that you have the latest SharePoint Online Management Shell.
-> 2. If you receive the error 'The requested operation is a part of an experimental feature that is not supported in the current environment.', this indicates that the feature has not yet reached your tenant.
 
