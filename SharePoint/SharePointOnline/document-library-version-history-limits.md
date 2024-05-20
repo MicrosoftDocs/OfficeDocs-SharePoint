@@ -105,4 +105,14 @@ Audit events are available on the Microsoft Purview compliance portal to help yo
 - Changes made to library version history limits.
 - User deletes versions from the version history of a file.
 
+## Enable Public Preview
+
+Public preview is turned off by default. To enable Public preview, admins can run the SharePoint Online Management PowerShell cmdlet" 
+
+```powershell
+Set-SPOTenant -EnableVersionExpirationSetting $true. 
+```
+> [!NOTE]
+> 1. Ensure that you have the latest SharePoint Online Management Shell.
+> 2. If you receive the error 'The requested operation is a part of an experimental feature that is not supported in the current environment.', this indicates that the feature has not yet reached your tenant.
 
