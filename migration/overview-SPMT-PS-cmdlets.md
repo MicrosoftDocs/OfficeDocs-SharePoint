@@ -119,7 +119,7 @@ Use this cmdlet to delete the migration session.
 
 ## Sample Scenarios
 
-**Example 1:** IT admin adds a SharePoint on-prem task and starts migration in the background.
+**Example 1:** IT admin adds a SharePoint on-premises task and starts migration in the background.
 
 ```powershell
 #Define SharePoint 2013 data source#
