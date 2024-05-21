@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2018
+ms.date: 03/07/2024
 title: "Format your JSON or CSV file for data content migration - SharePoint"
 ms.reviewer: 
 ms.author: heidip
@@ -57,9 +57,9 @@ Use any text editor, or an application like Microsoft Excel, to create the CSV f
 
 ## Example CSV  
 
-Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive. 
+Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
 
-**Before you begin**
+### Before you begin
 
 - Enter one migration source and destination per row.
 - If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you get an "invalid document library" error.
@@ -72,7 +72,7 @@ Here's an example of the CSV file format. The first row shows files that are bei
   
 The following example shows how it would look if opened in a text editor.
   
-```
+```DOS
 C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
 https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrarySubfolder_name,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
 \\sharedfolder\homedrives\meganb,,,https://contoso-my.sharepoint.com/personal/meganb_contoso_com/,DocLibraryName,DocLibraryName_subfolder
@@ -146,32 +146,33 @@ The minimum required values are *SourcePath* and *TargetPath*.
 
 ### Proxy connections
 
-Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings.
 
 If you wish to use your system proxy settings, use one of these methods:
 
-**Update proxy** 
+#### Update proxy
 
-1. Download the latest version of SPMT. Start SPMT.
-2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
-3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-4. Uncomment the default proxy setting shown here:  
+1. Download the latest version of SPMT.
+1. Start SPMT.
+1. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+1. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+1. Uncomment the default proxy setting shown here:  
 ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)  
-5. Restart SPMT.
+1. Restart SPMT.
 
 </br>
 
-**If SPMT doesn't upgrade**
+#### If SPMT doesn't upgrade
 
 1. If SPMT can't upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
-2. Open the **installclient.exe.config** file. 
+2. Open the **installclient.exe.config** file.
 3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag:  
 ![Edit the config file](media/spmt-proxy-edits.png)  
 4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
 6. Uncomment the default proxy setting:  
 ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)  
-5. Restart SPMT.
+7. Restart SPMT.
 
 ### Additional Errors
 
@@ -180,5 +181,3 @@ If you wish to use your system proxy settings, use one of these methods:
 |**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT won't change the hub registration of a destination site.|
 |**Destination site cannot associate to an invalid hub site**|This happens if you're attempting to associate with an invalid hub site. Check the URL and try again.|
 |**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT won't change the association a destination site.|
-
-
