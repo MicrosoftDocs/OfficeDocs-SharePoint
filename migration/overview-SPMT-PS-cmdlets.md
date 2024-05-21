@@ -1,5 +1,5 @@
 ---
-ms.date: 06/19/2018
+ms.date: 07/10/2023
 title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
 audience:  ITPro
 ms.reviewer: 
@@ -19,7 +19,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint in Microsoft 365."
+description: "Learn how the PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine let you migrate to SharePoint in Microsoft 365."
 ---
 
 # Migrate to SharePoint using PowerShell
@@ -33,7 +33,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
   
 ## System requirements
 
-**Recommended requirements for best performance**
+### Recommended requirements for best performance*
 
 | Description | Recommendation |
 |:-----|:-----|
@@ -46,7 +46,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 > [!IMPORTANT]
 > PowerShell 5.0x and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters.
 
-**Minimum requirements (expect slow performance)**
+### Minimum requirements (expect slow performance)
 
 | Description | Minimum requirement |
 |:-----|:-----|
@@ -98,9 +98,9 @@ This cmdlet will start the registered SPMT migration.
 
 - **[Get-SPMTMigration](/powershell/module/spmt/Get-SPMTMigration)**<br>
 Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
-     - Count of scanned files
-     - Count of migrated files
-    -  Any migration error messages
+  - Count of scanned files
+  - Count of migrated files
+  - Any migration error messages
 
 ### Stop your current migration
 
@@ -177,6 +177,7 @@ Two migration tasks are defined in the file of spmt.csv.
 D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test
 C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
 ```
+
 Code snippets for bulk migration by loading one JSON file:
 
 ```powershell
@@ -247,6 +248,7 @@ Three migration tasks are defined in the file of spmt.json.
 
 These samples show how to display the progress of your migration project. **Get-SPMTMigration** returns the object of current session. It includes current tasks status and current session level settings.
 The status of current tasks includes:
+
 - Count of scanned files
 - Count of filtered out files
 - Count of migrated files
@@ -278,5 +280,3 @@ Write-Host $session.Status
 } 
  
 ```
-
-
