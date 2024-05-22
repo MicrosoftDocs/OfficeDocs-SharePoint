@@ -125,7 +125,7 @@ As a site owner you can control whether the content in specific columns in lists
     
 2. Under **Search**, click **Searchable columns**.
 
-   The option is only visible for sites with the classic [publishing feature](publishing-sites-to-modern-experience.md) enabled. If the option is not visible navigate directly to `<Site URL>>/_layouts/15/NoCrawlSettings.aspx`.
+   The option is only visible for sites with the classic [publishing feature](publishing-sites-classic-to-modern-experience.md) enabled. If the option is not visible navigate directly to `<Site URL>>/_layouts/15/NoCrawlSettings.aspx`.
     
 3. In the **Excluded Columns from Search Indexing** section, under **Excluded**, check the box next to the Column Name for the column you want to exclude in search results.
     
