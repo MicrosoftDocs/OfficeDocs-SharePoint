@@ -27,11 +27,11 @@ description: "Learn about how to use Microsoft Entra Conditional Access and auth
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-With [Microsoft Entra authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. 
+With [Microsoft Entra authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites.
 
 You can use authentication contexts to connect an [Microsoft Entra Conditional Access policy](/azure/active-directory/conditional-access/overview) to a SharePoint site. Policies can be applied directly to the site or via a sensitivity label.
 
-Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
+Note that this capability can't be applied to the root site in SharePoint (for example, <https://contoso.sharepoint.com>).
 
 ## Requirements
 
@@ -136,6 +136,7 @@ If you want to use a sensitivity label to apply the authentication context, upda
 > Sensitivity labels require Microsoft 365 E5 or Microsoft 365 E3 plus the Advanced Compliance license.
 
 To update a sensitivity label
+
 1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
 
 2. Click **Next** until you are on the **Define protection settings for groups and sites** page.
@@ -156,10 +157,10 @@ Once the label has been updated, guests accessing a SharePoint site (or the **Fi
 
 ## Blocking background apps (rolling out in preview)
 
-If authentication context is set on a site, admins can choose to prevent background apps from accessing that site for the apps assigned with that authentication context in a conditional access policy. You can configure a conditional access policy such that a specific authentication context can be assigned to chosen application principles (non-Microsoft applications). You'll need to explicitly turn this feature on via the following cmdlet. Note that you should have at least one conditional access policy with an application principle configured.   
+If authentication context is set on a site, admins can choose to prevent background apps from accessing that site for the apps assigned with that authentication context in a conditional access policy. You can configure a conditional access policy such that a specific authentication context can be assigned to chosen application principles (non-Microsoft applications). You'll need to explicitly turn this feature on via the following cmdlet. Note that you should have at least one conditional access policy with an application principle configured.
 
 ```PowerShell
-Set-SPOTenant -BlockAPPAccessToSitesWithAuthentcationContext $false/$true (default false)
+Set-SPOTenant -BlockAPPAccessToSitesWithAuthenticationContext $false/$true (default false)
 ```
 
 ## See also

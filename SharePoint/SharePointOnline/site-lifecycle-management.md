@@ -1,5 +1,5 @@
 ---
-ms.date: 02/14/2024
+ms.date: 05/21/2024
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: jtremper
@@ -14,7 +14,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 - essentials-manage
@@ -28,7 +28,7 @@ description: "Learn how to manage site lifecycle policies for SharePoint sites."
 
 ## Site lifecycle management
 
-The site lifecycle management feature from Microsoft Syntex- SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md).
+The site lifecycle management feature from Microsoft SharePoint Premium - SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md).
 
 You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the set parameters. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
 
@@ -51,7 +51,7 @@ If a site falls under multiple inactive site policies, notification emails aren'
 
 ## Requirements
 
-Site lifecycle management requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
+Site lifecycle management requires [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md).
 
 ## Create an inactive site policy
 
