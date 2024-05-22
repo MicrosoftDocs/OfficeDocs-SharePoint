@@ -1,5 +1,5 @@
 ---
-ms.date: 08/30/2023
+ms.date: 05/20/2024
 title: "Conditional access policy for SharePoint sites and OneDrive"
 ms.reviewer: samust
 ms.author: mactra
@@ -15,7 +15,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 search.appverid:
@@ -37,7 +37,7 @@ Note that this capability can't be applied to the root site in SharePoint (for e
 
 Using authentication context with SharePoint sites requires one of the following licenses:
 
-- Microsoft Syntex - SharePoint Advanced Management
+- Microsoft SharePoint Premium - SharePoint Advanced Management
 - Microsoft 365 E5/A5/G5
 - Microsoft 365 E5/A5 Compliance
 - Microsoft 365 E5 Information Protection and Governance
@@ -120,7 +120,7 @@ To create a conditional access policy:
 You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
 > [!NOTE]
-> This capability requires a Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management license.
+> This capability requires a Microsoft 365 E5 or Microsoft SharePoint Premium - SharePoint Advanced Management license.
 
 In the following example, we apply the authentication context we created above to a site called "research."
 

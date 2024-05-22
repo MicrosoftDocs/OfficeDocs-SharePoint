@@ -1,5 +1,5 @@
 ---
-ms.date: 1/19/2024
+ms.date: 05/21/2024
 title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
 ms.author: mactra
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.collection:
 - Strat_SP_admin
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 search.appverid:
@@ -36,7 +36,7 @@ Note that you can block the download of Teams meeting recording files specifical
 
 ## Requirements
 
-This feature requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
+This feature requires [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md).
 
 ## How to set this policy for a SharePoint site
 
@@ -47,12 +47,13 @@ This feature requires [Microsoft Syntex - SharePoint Advanced Management](advanc
 
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3.  Run the following command.
+3. Run the following command.
 
     ```PowerShell
     Set-SPOSite -Identity <SiteURL> -BlockDownloadPolicy $true
     ```
-    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`. You can apply this cmdlet to OneDrive as well by changing the URL to `https://contoso-my.sharepoint.com/personal/John`. 
+
+    For example, `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -BlockDownloadPolicy $true`. You can apply this cmdlet to OneDrive as well by changing the URL to `https://contoso-my.sharepoint.com/personal/John`.
 
 The following parameters can be used with this cmdlet to fine-tune it:
 
@@ -62,7 +63,7 @@ The following parameters can be used with this cmdlet to fine-tune it:
 
 - `-ExcludeBlockDownloadSharePointGroups <comma separated group IDs>`<br/>Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
 
-- `-ReadOnlyForBlockDownloadPolicy $true`<br/>Marks the site as read-only in addition to preventing downloads. 
+- `-ReadOnlyForBlockDownloadPolicy $true`<br/>Marks the site as read-only in addition to preventing downloads.
 
 You also can attach a block download policy to a site sensitivity label.
   
