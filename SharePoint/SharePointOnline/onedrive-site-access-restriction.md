@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2024
+ms.date: 05/20/2024
 title: Restrict access to a user's OneDrive content to people in a group
 ms.reviewer: nibandyo
 ms.author: mactra
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 - essentials-compliance
@@ -42,7 +42,7 @@ You can also restrict access to the OneDrive service itself to people in a secur
 
 ## Requirements
 
-The OneDrive access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
+The OneDrive access restriction policy requires [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md).
 
 ## Enable site access restriction for your organization
 

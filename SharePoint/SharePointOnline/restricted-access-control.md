@@ -1,5 +1,5 @@
 ---
-ms.date: 02/06/2024
+ms.date: 05/20/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -18,7 +18,7 @@ ms.collection:
 - M365-collaboration
 - M365-SAM
 - Highpri
-- Tier1
+- Tier2
 - ContentEngagementFY24
 search.appverid:
 description: "Learn how to restrict access to SharePoint sites to members of a Microsoft 365 or Entra security group."
@@ -35,7 +35,7 @@ Restricting site access via group membership can minimize the risk of oversharin
 
 ## Prerequisites
 
-The site access restriction policy requires [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md).
+The site access restriction policy requires [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md).
 
 ## Enable site-level access restriction for your organization
 

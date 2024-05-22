@@ -1,5 +1,5 @@
 ---
-ms.date: 04/10/2024
+ms.date: 05/21/2024
 title: "Create change history reports"
 ms.reviewer: daminasy
 manager: jtremper
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Highpri
-- Tier1
+- Tier2
 description: "Learn how to create and view SharePoint site change history reports in SharePoint admin center."
 ---
 
@@ -35,7 +35,7 @@ Create up to 10 reports that track what changed, when it happened, and who initi
 
 To access and use this feature, your organization must have the following subscription:
 
-- [Microsoft Syntex - SharePoint Advanced Management](advanced-management.md)
+- [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md)
 
 ## Create a change history report
 
@@ -117,4 +117,4 @@ The following table lists the latest set of supported settings found in **Sharin
 
 ## Related topics
 
-[Microsoft Syntex - SharePoint Advanced Management overview](advanced-management.md)
+[Microsoft SharePoint Premium - SharePoint Advanced Management overview](advanced-management.md)
