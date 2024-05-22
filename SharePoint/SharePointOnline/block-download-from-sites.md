@@ -28,11 +28,11 @@ description: Learn how administrators can block download of files from a SharePo
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature does not need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and cannot be set at the organization level.
+As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature doesn't need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and can't be set at the organization level.
 
-Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users will see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help contact your It department."
+Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help, contact your It department."
 
-Note that you can block the download of Teams meeting recording files specifically if you need to. For more information, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](/microsoftteams/block-download-meeting-recording).
+You can block the download of Teams meeting recording files specifically if you need to. For more information, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](/microsoftteams/block-download-meeting-recording).
 
 ## Requirements
 
@@ -74,7 +74,7 @@ Set-Label -Identity 'Internal' -AdvancedSettings @{ExcludedBlockDownloadGroupIds
 
 ## App impact
 
-Blocking download might impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
+Blocking download might impact the user experience in some apps, including some Office apps. We recommend that you turn on the policy for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.
 
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
