@@ -79,10 +79,10 @@ The following features and functionality have been deprecated or removed in Shar
 
 ### InfoPath Forms Services
 
-InfoPath Forms Services are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, InfoPath Forms Services will no longer be supported. Microsoft recommends exploring Power Apps as a potential alternative to InfoPath forms.
+InfoPath Forms Services is deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, InfoPath Forms Services will no longer be supported. Microsoft recommends exploring Power Apps as a potential alternative to InfoPath forms.
 
 ### Microsoft Workflow Manager
-Microsoft has released SharePoint Workflow Manager as the new workflow engine to power the SharePoint 2013 Workflow platform for SharePoint Server and replace Microsoft Workflow Manager.  We recommend that all customers using SharePoint 2013 workflows upgrade to SharePoint Workflow Manager as soon as they’re able to.  Microsoft will focus all future investments and maintenance on SharePoint Workflow Manger rather than Microsoft Workflow Manager, including providing support beyond the year 2026. For more information, see [Install and configure workflow for SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
+Microsoft has released SharePoint Workflow Manager as the new workflow engine to power the SharePoint 2013 Workflow platform for SharePoint Server and replace Microsoft Workflow Manager. We recommend that all customers using SharePoint 2013 workflows upgrade to SharePoint Workflow Manager as soon as they’re able to. Microsoft will focus all future investments and maintenance on SharePoint Workflow Manger rather than Microsoft Workflow Manager, including providing support beyond the year 2026. For more information, see [Install and configure workflow for SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
 
 ### SharePoint 2010 workflows
 
@@ -104,40 +104,40 @@ With these threats and risks in mind, Basic authentication is deprecated but wil
 
 ### Access Services 2010
 
-Access Services 2010 has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 was removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
-Access Services 2013 has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
+Access Services 2013 was removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
 
 ### Classic authentication mode for content web applications
 
-Classic authentication mode has been removed and is no longer supported by Microsoft for content web applications in SharePoint Server Subscription Edition. Content web applications will now only support claims authentication mode. The Central Administration web application continues to use and support classic authentication mode.  
+Classic authentication mode was removed and is no longer supported by Microsoft for content web applications in SharePoint Server Subscription Edition. Content web applications will now only support claims authentication mode. The Central Administration web application continues to use and support classic authentication mode.  
 
 ### Groove sync app support
 
-Groove sync app support has been removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring the Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as the replacement for the Groove sync app.
+Groove sync app support was removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring the Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as the replacement for the Groove sync app.
 
 ### Lists web service APIs for Groove sync app 
 
-The Lists web service APIs for Groove sync app have been removed and are no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring the Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as the replacement for the Groove sync app.
+The Lists web service APIs for Groove sync app were removed and are no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring the Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as the replacement for the Groove sync app.
 
 ### PerformancePoint Services
 
-PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we're making many new business intelligence investments in Power BI.
+PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services was removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we're making many new business intelligence investments in Power BI.
 
 ### Stsadm.exe command-line tool 
 
-The stsadm.exe command-line administration tool has been removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets can be used to administer SharePoint from the command line or through scripting.
+The stsadm.exe command-line administration tool was removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets can be used to administer SharePoint from the command line or through scripting.
 
 ### Update-SPHelp PowerShell cmdlet
 
-As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. The Update-Help cmdlet will now be able to download the latest help content for SharePoint PowerShell cmdlets.
+As SharePoint PowerShell cmdlets were converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. The Update-Help cmdlet will now be able to download the latest help content for SharePoint PowerShell cmdlets.
 
 ### Claims to Windows Token Service
 
-The Claims to Windows Token Service (C2WTS) has been removed from SharePoint Server Subscription Edition. The service still appears in the Central Administration site, but the backing Windows service is not installed, so the SharePoint service will not start.  Trying to start the service in Central Administration will result in error: **SPWindowsTokenServiceInstance: could not find c2wtshost.exe.config. Please edit the configuration manually.**  
-SharePoint Server Subscription Edition replaced Windows Identity Foundation (WIF) 3.5 with WIF 4.5, in which the Claims to Windows Token Service and its associated classes are removed.  If you have a custom solution that depends on the C2WTS, you may need to adjust it to work with WIF 4.5. See [Guidelines for Migrating an Application Built Using WIF 3.5 to WIF 4.5](https://github.com/mirsaeedi/docs-1/blob/master/docs/framework/security/guidelines-for-migrating-an-application-built-using-wif-3-5-to-wif-4-5.md) for more information. 
+The Claims to Windows Token Service (C2WTS) was removed from SharePoint Server Subscription Edition. The service still appears in the Central Administration site, but the backing Windows service isn't installed, so the SharePoint service won't start. Trying to start the service in Central Administration results in error: **SPWindowsTokenServiceInstance: could not find c2wtshost.exe.config. Please edit the configuration manually.**  
+SharePoint Server Subscription Edition replaced Windows Identity Foundation (WIF) 3.5 with WIF 4.5, in which the Claims to Windows Token Service and its associated classes are removed. If you have a custom solution that depends on the C2WTS, you may need to adjust it to work with WIF 4.5. See [Guidelines for Migrating an Application Built Using WIF 3.5 to WIF 4.5](https://github.com/mirsaeedi/docs-1/blob/master/docs/framework/security/guidelines-for-migrating-an-application-built-using-wif-3-5-to-wif-4-5.md) for more information. 
 
 
 
