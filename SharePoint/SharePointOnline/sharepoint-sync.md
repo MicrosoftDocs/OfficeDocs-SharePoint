@@ -1,5 +1,5 @@
 ---
-ms.date: 06/20/2023
+ms.date: 05/23/2024
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
 ms.author: ruihu
