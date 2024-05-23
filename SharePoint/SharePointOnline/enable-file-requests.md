@@ -1,6 +1,7 @@
 ---
-ms.date: 03/05/2024
-title: "Enable File Requests in SharePoint or OneDrive" 
+ms.date: 10/01/2023
+title: "Enable File Requests in SharePoint or OneDrive"
+ms.reviewer: 
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

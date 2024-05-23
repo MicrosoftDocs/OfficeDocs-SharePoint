@@ -18,7 +18,6 @@ ms.custom:
   - admindeeplinkSPO
   - onedrive-toc
   - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
 search.appverid:
 - ODB160
 - ODB150
@@ -285,18 +284,18 @@ The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneD
 
 If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
 
-```console
+```cmd
 reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_DWORD /d 1
 ```
 
 On a Mac with the Apple Store version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
 
-```console
+```cmd
 defaults write com.microsoft.OneDrive-mac BlockExternalSync -bool YES
 ```
 
 On a Mac with the Standalone version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
 
-```console
+```cmd
 defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
 ```

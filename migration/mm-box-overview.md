@@ -42,7 +42,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 
 To get started:
 
-Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Box** to create a migration project, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 

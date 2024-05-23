@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/08/2024
 title: "OneDrive retention and deletion"
-ms.reviewer: 
+ms.reviewer: kapadma
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

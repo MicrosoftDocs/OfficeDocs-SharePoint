@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Restore deleted sites"
 ms.reviewer: trgreen
 ms.author: ruihu

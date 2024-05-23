@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/14/2023
 title: "Transition from the previous OneDrive for Business sync app"
 ms.reviewer:
 ms.author: mactra

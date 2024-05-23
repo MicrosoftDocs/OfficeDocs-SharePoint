@@ -25,17 +25,20 @@ description: Overview of how to migrate from Google Workspace to Microsoft 365 w
 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
 
-Collaborate all in one place by migrating your Google Workspace documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
-
+Collaborate all in one place by migrating your Google Workspace files, metadata, and permissions to OneDrive and SharePoint in Microsoft 365. 
 
 ## How does it work?
 
-- **Step 1:** [Connect to Google](mm-google-step1-connect.md).   Sign in to your Google account and add the Microsoft 365 migration app to your Google Workspace account custom apps. 
-- **Step 2:** [Scan and assess](mm-google-step2-scan-assess.md). Google Drive accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
-- **Step 3:** [Copy to Migrations list](mm-google-step3-copy-to-migrations.md). After a Google Drive has been scanned and determined ready, add them to your migration list.
-- **Step 4:** [Review destination paths](mm-google-step4-review-destinations.md).  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
-- **Step 5:** [Map identities](mm-google-step5-map-identities.md).   Map your groups and users in Google Drive to an account in Microsoft 365 to migrate your Google Drive permission settings.
-- **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md). After reviewing your migration setup, migrate your Google accounts and monitor the progress.
+- **Step 1:** [Connect to Google](mm-google-step1-connect.md). Sign in to your Google account and install Microsoft 365 migration app in Google Workspace Marketplace. 
+
+- **Step 2:** [Scan and assess](mm-google-step2-scan-assess.md). Add Google Drives for scanning. Once the scans are complete, download [Scan reports](/sharepointmigration/mm-cloud-reports) to investigate any possible issues that might block your migration.
+- **Step 3:** [Copy to Migrations list](mm-google-step3-copy-to-migrations.md). After a Google Drive has been scanned as "Ready to migrate", add them to your migration list.
+
+- **Step 4:** [Review destination paths](mm-google-step4-review-destinations.md). We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
+
+- **Step 5:** [Map identities](mm-google-step5-map-identities.md). Map your groups and users in Google Drive to those in Microsoft 365 to migrate metadata and permissions correctly.
+
+- **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md). After reviewing your [migration setup](/sharepointmigration/mm-project-settings), migrate your Google Drives and monitor the progress.
 
 >[!Tip]
 >Watch this video to help get started:  [Migrate Google files to Microsoft 365 with Migration Manager](https://youtu.be/GZ4kTX31U-A)
@@ -45,7 +48,7 @@ Collaborate all in one place by migrating your Google Workspace documents, data,
 
 To get started:
 
-Go to the Migration overview page in the **Microsoft Admin Center** or Migration Manager in the **SharePoint Admin center.** Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Google Drive** or **Google Workspace** to create a migration project, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
@@ -55,7 +58,7 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-## Google Shared Drives
+## Google Shared Drives and permissions
 
 Google Shared drives can now be discovered and migrated normally. Google Shared Drive permissions are migrated according to what you have set in Project settings, under [general permission setting](/sharepointmigration/mm-project-settings-permissions#migrate-permissions). 
 
@@ -69,26 +72,7 @@ We recommend the following steps when migrating permissions in your shared drive
 
 ## What isn't migrated
 
-Google doesn't allow us to export these items from Drive:
-
-- Google Drawings
-- Google Sites
-- Google Maps
-- Google Forms
-
-### Docs, Slides, and Sheets
-
-Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Google export API converts to the Microsoft Office format from Google's format.
-
-|Google format|Office format|
-|:-----|:-----|
-|.gsheet|.xlsx|
-|.gdoc|.docx|
-|.gslide|.pptx|
-
-
-> [!Note]
-> The only way to migrate/download a Google format file is to request that they [Google] facilitate it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
+Google Sites and Google Maps migration are not supported, while Google Docs/Sheets/Slides/Forms are migrated as equivalent file types in Microsoft 365. [Learn more about the unsupported files](/sharepointmigration/mm-unsupported-files)
 
 ### File size of Google proprietary files
 
@@ -97,29 +81,11 @@ Google only started calculating the size of its proprietary files, including Goo
 ### Files marked as restricted
 
 Google Workspace/Drive allows owners to control the ability for users to copy, download, or print files on a per-file basis. By default, this feature is enabled for each file. To ensure a successful migration, this setting must remain enabled. Disabling it may result in the following error when migrating a file owned by another user:
-
 `Permissions issue: File marked as restricted or not copyable`
-
 To enable this setting:
-
 1. Navigate to the **Share** panel for the file.
-
 1. Click on the **Settings Icon** located at the top right corner.
-
 1. Select the checkbox for the setting "**Viewers and commenters can see the option to download, print, and copy.**"
 
-### What happens to Google Drive shortcuts?
 
-Shortcut files aren't supported for migration and therefore not migrated.
-
-## File size migration limit
-
-We support files up to 15 GB in size for Google to Microsoft 365 migrations.
-
-
->[!NOTE]
->
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
->Google migration is not available for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

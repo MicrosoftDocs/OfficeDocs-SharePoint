@@ -1,6 +1,6 @@
 ---
-ms.date: 03/05/2024
-title: "Use administrative templates in Intune"
+ms.date: 04/12/2024
+title: "Configure settings with Intune"
 ms.reviewer: kafeaver
 ms.author: mactra
 author: MachelleTranMSFT
@@ -22,42 +22,58 @@ search.appverid:
 - MED150
 - MBS150
 - ODB150
-description: "In this article, you learn how to configure the Microsoft OneDrive sync app by using administrative templates in Microsoft Intune."
+description: "In this article, you learn how to configure the Microsoft OneDrive sync app by using settings catalog in Microsoft Intune."
 ---
 
-# Use administrative templates in Intune
+# Configure settings with Intune
 
-Profiles in Microsoft Intune let you configure settings and push them to devices in your organization. The administrative templates built in to Microsoft Intune make configuring the Microsoft OneDrive sync app easier than ever.
+Profiles in Microsoft Intune let you configure settings and push them to devices in your organization. Settings catalog built in to Microsoft Intune make configuring the Microsoft OneDrive sync app easier than ever.
 
 ## Create a profile
 
-1. Go to [The Configuration profiles page of the Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/configurationProfiles).
-2. Select **Create profile**.
-3. Under **Platform**, select **Windows 10 and later**.
-4. Under **Profile**, select **Administrative Templates**.
+1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Select **Devices** > **Configuration** > **Create**.
+1. Enter the following properties:
 
-    ![Use administrative templates to create a profile](media/administrative-templates.png)
+    - **Platform**: Select **Windows 10 and later**.
+    - **Profile type**: Select **Settings catalog**.
 
-5. Select **Create**.
-6. Enter a name for the profile, and optionally a description, and then select **Next**.
-7. Under **Computer Configuration** or **User Configuration**, select **OneDrive**, and select the setting you want to configure. For info about these settings, see [Use OneDrive policies](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md).
+1. Select **Create**.
+1. In **Basics**, enter the following properties:
 
-    ![Selecting configuration settings](media/create-profile.png)
+    - **Name**: Enter a descriptive name for the profile. Name your profiles so you can easily identify them later. For example, a good profile name is **Windows: OneDrive**.
+    - **Description**: Enter a description for the profile. This setting is optional, but recommended.
 
-8. Configure the setting the way you want, and then select **OK**. Some settings require entering your tenant ID. [Learn how to find it](find-your-office-365-tenant-id.md). When you're done, select **Next**.
-9. Select scope tags, and then select **Next**. For info about scope tags, see [Use RBAC and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags).
-10. In **Assignments**, include or exclude the profile from selected groups. For info about assigning profiles, see [Assign user and device profiles](/mem/intune/configuration/device-profile-assign).
+1. Select **Next**.
 
-    If the profile is assigned to user groups, then configured ADMX settings apply to any device that the user enrolls, and signs in to. If the profile is assigned to device groups, then configured ADMX settings apply to any user that signs into that device. This assignment happens if the ADMX setting is a computer configuration (`HKEY_LOCAL_MACHINE`), or a user configuration (`HKEY_CURRENT_USER`). With some settings, a computer setting assigned to a user may also impact the experience of other users on that device.     For more info, see [User groups vs. device groups](/mem/intune/configuration/device-profile-assign#user-groups-vs-device-groups).
+1. In **Configuration settings**, select **Add settings**.
+
+1. In the settings picker, select **OneDrive** to see all the available settings.
+
+1. Select any setting you want to configure. Or, choose **Select all these settings**. After you add your settings, close the settings picker.
+    For info about these settings, see [Use OneDrive policies](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md).
+
+    :::image type="content" source="media/intune-settings-catalog.png" alt-text="A screenshot showing the configuration of the Intune settings catalog policy for OneDrive." lightbox="media/intune-settings-catalog.png":::
+
+1. Configure the settings the way you want, and then select **OK**.
+    > [!NOTE]
+    > Some settings require entering your tenant ID. [Learn how to find it](find-your-office-365-tenant-id.md). When you're done, select **Next**.
+
+1. Select scope tags, and then select **Next**. For information about scope tags, see [Use RBAC and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags).
+
+1. In **Assignments**, include or exclude the profile from selected groups. For info about assigning profiles, see [Assign user and device profiles](/mem/intune/configuration/device-profile-assign).
+
+    > [!NOTE]
+    > If the profile is assigned to user groups, then configured ADMX settings apply to any device that the user enrolls, and signs in to. If the profile is assigned to device groups, then configured ADMX settings apply to any user that signs into that device. This assignment happens if the ADMX setting is a computer configuration (`HKEY_LOCAL_MACHINE`), or a user configuration (`HKEY_CURRENT_USER`). With some settings, a computer setting assigned to a user may also impact the experience of other users on that device.
+    >
+    > For more info, see [User groups vs. device groups](/mem/intune/configuration/device-profile-assign#user-groups-vs-device-groups).
 
     When you're done, select **Next**.
 
-11. Review the profile, and then select **Create**.
+1. In **Review + create**, review your settings. When you select **Create**, your changes are saved, and the profile is assigned. The policy is also shown in the profiles list.
 
 ## See also
 
-- [Use Windows 10 templates to configure Group Policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows)
+- [Use the settings catalog to configure settings on Windows](/mem/intune/configuration/settings-catalog)
 - [Understanding ADMX-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies)
 - [Monitor device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-monitor)
-- [Deploy the OneDrive sync app to Windows 10 devices as part of Office 365](deploy-intune.md#deploy-the-onedrive-sync-app-to-windows-10-devices)
-
