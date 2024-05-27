@@ -115,6 +115,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
+| Alternate URLs | If your tenant still has alternate URLs configured, your domain name can't be changed. | Alternate URLs need to be removed before you can schedule a rename. Please contact Microsoft for support getting them removed. |
 | Business Productivity Online Suite (BPOS) sites | If your tenant still has Microsoft Business Productivity Online Suite (BPOS) sites remaining in it, your domain name can't be changed. | BPOS sites and its configuration need to be removed before scheduling of tenant renaming can be attempted. Submit a support request by selecting [Rename a SharePoint Tenant with BPOS sites](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20with%20BPOS%20sites). |
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
 | Historical German cloud (.de) tenants | If your tenant was originally in the German cloud with a .de domain, your domain name can't be changed. This applies even if your tenant was later migrated to the regular cloud but still retains the .de domain. | No action available. |
@@ -149,8 +150,7 @@ To manage prioritization, you can make use of the following PowerShell cmdlets.
 - [Remove-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/remove-spotenantrenamesiteprioritization) – This allows you to remove prioritization for the specified site.
 - [Get-SPOTenantRenameSitePrioritization](/powershell/module/sharepoint-online/get-spotenantrenamesiteprioritization) – This allows you to view the current list of prioritized sites.
 
-> [!NOTE]
-> The PowerShell cmdlets for prioritization should be used once the tenant rename has been scheduled. Changes to the list of prioritized sites will be supported up to 2 hours before the scheduled start time of the rename. Once the rename starts, further changes will not be accepted. 
+The PowerShell cmdlets for prioritization should be used once the tenant rename has been scheduled. Changes to the list of prioritized sites will be supported up to 2 hours before the scheduled start time of the rename. Once the rename starts, further changes will not be accepted. 
 
 ## Step 1: Add the new domain name
 
@@ -164,9 +164,8 @@ To manage prioritization, you can make use of the following PowerShell cmdlets.
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
 2. Add your [new .onmicrosoft.com domain using the Domains page in the M365 Admin Center](/microsoft-365/admin/setup/add-or-replace-your-onmicrosoftcom-domain#add-a-new-onmicrosoftcom-domain). 
-    > [!IMPORTANT]
-    > - Do not use the "Add domain" option directly present in the Domains page, since that does not create a .onmicrosoft.com domain. Use the steps in the link above to correctly create one.
-    > - Do not make this domain your fallback domain.
+     - Do not use the "Add domain" option directly present in the Domains page, since that does not create a .onmicrosoft.com domain. Use the steps in the link above to correctly create one.
+     - Do not make this domain your fallback domain.
     
 3. Go back to the Domains page and check that the newly added .onmicrosoft.com domain appears in a 'Healthy' state.
 
@@ -176,12 +175,7 @@ To manage prioritization, you can make use of the following PowerShell cmdlets.
 > - Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new OneDrives and sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename.
 > - Do not plan any UPN changes or renames while the change of your SharePoint domain name is in progress. If you need to perform any, please do so after the domain name change is complete.
   
-1. **REQUIRED** - [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!IMPORTANT]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell".
-    > 
-    > Make sure you review the System Requirements and Install Instructions. The app isn't supported on Mac.
+1. **REQUIRED** - [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell". Make sure you review the System Requirements and Install Instructions. The app isn't supported on Mac.
   
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -201,8 +195,7 @@ To manage prioritization, you can make use of the following PowerShell cmdlets.
 
     `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
-    > [!NOTE]
-    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, make sure you installed the latest SharePoint Online Management Shell. Before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`. For more info about the Start-SPOTenantRename cmdlet, see [Start-SPOTenantRename](/powershell/module/sharepoint-online/start-spotenantrename)
+   If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, make sure you installed the latest SharePoint Online Management Shell. Before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`. For more info about the Start-SPOTenantRename cmdlet, see [Start-SPOTenantRename](/powershell/module/sharepoint-online/start-spotenantrename)
 
 To cancel a rename before it starts, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
 
@@ -220,8 +213,7 @@ Example:
 
 `Import-Csv <Path> | ForEach-Object {Set-SPOTenantRenameSitePrioritization -SiteUrl  $_.SiteUrl}`
 
-> [!NOTE]
-> If you attempt this with a file that has the entire 4,000 sites in it, the complete execution of this cmdlet can take approximately 4-6 hours. If you want shorter waiting times, we recommend splitting your list of sites up and performing this in batches.
+If you attempt this with a file that has the entire 4,000 sites in it, the complete execution of this cmdlet can take approximately 4-6 hours. If you want shorter waiting times, we recommend splitting your list of sites up and performing this in batches.
 
 To view the list of sites prioritized currently, run the following command: 
 
@@ -250,8 +242,7 @@ To verify success of the rename operation, review the status of the rename opera
 
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
 
-> [!IMPORTANT]
-> If you have custom SharePoint Framework solutions that require access to an API, check the API access page in the SharePoint admin center to ensure that the new domain name can be used by SharePoint Framework components.
+4. If you have custom SharePoint Framework solutions that require access to an API, check the API access page in the SharePoint admin center to ensure that the new domain name can be used by SharePoint Framework components.
 
 ## Troubleshooting
 
