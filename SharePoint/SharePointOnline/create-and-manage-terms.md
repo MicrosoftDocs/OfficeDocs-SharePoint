@@ -43,8 +43,9 @@ To create a term in a term set
 5. Update the term settings as needed: 
     
     - On the **General** tab, to add languages, translations, and synonyms, select **+Add**. The **Add translation and synonyms** panel appears. Select your language, translation, description, and add synonyms. Select **Save**.
-    >[!NOTE]
-    > If you don't see **+Add**, that's probably because you have only one working language, which is your default language. You can add more working languages by selecting **Taxonomy**, then selecting **Edit** next to **Default language**
+
+      >[!NOTE]
+      > If you don't see **+Add**, that's probably because you have only one working language, which is your default language. You can add more working languages by selecting **Taxonomy**, then selecting **Edit** next to **Default language**
 
     - On the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save**.
 
