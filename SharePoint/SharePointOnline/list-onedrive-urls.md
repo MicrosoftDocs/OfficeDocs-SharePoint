@@ -1,6 +1,6 @@
 ---
 ms.date: 04/09/2024
-title: "View the list of OneDrive URLs for users in your organization"
+title: "View OneDrive URLs for users in your organization"
 ms.reviewer: kmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
@@ -28,9 +28,9 @@ ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "In this article, you'll learn how to view the OneDrive URLs for users in your organization."
 ---
 
-# View the list of OneDrive URLs for users in your organization
+# View OneDrive URLs for users in your organization
 
-This article is for global and SharePoint admins in Microsoft 365 who want to confirm the OneDrive URLs for users in their organization.
+As a global or SharePoint admin in Microsoft 365, you may need to confirm the OneDrive URLs for specific users in your organization. Whether you’re troubleshooting, provisioning new accounts, or simply ensuring accurate information, understanding the methods to retrieve OneDrive URLs is essential.
 
 ## About OneDrive URLs
 
@@ -109,3 +109,50 @@ https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
 ```
 
 Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.
+
+### Additional Methods to Retrieve OneDrive URLs
+
+#### Method 1: Using PnP PowerShell (Get-PnPUserProfileProperty)
+PnP PowerShell is a versatile tool for managing SharePoint and OneDrive. To retrieve the PersonalURL (OneDrive URL) for a user, follow these steps:
+
+1. **Install PnP PowerShell** if you haven't already. Run the following command in PowerShell:
+    ```powershell
+    Install-Module PnP.PowerShell -Scope CurrentUser
+    ```
+    - If you need more details on installation, refer to the official PnP PowerShell installation guide.
+
+2. Run the following command:
+    ```powershell
+    Get-PnPUserProfileProperty -Account "user@example.com" | Select-Object -ExpandProperty PersonalUrl
+    ```
+    - Replace `"user@example.com"` with the actual user's email address.
+
+#### Method 2: Microsoft Graph API
+The Microsoft Graph API provides programmatic access to OneDrive and other Microsoft 365 services. To get the OneDrive URL using Graph API:
+
+1. **Install the Microsoft Graph PowerShell module** if you haven't already. Use this command:
+    ```powershell
+    Install-Module Microsoft.Graph
+    ```
+    - For step-by-step instructions, check out this tutorial on installing PnP PowerShell for SharePoint Online and Azure Cloud Shell.
+
+2. Authenticate and connect to Microsoft Graph:
+    ```powershell
+    Connect-MgGraph -Scopes "Directory.ReadWrite.All", "Sites.ReadWrite.All", "Files.ReadWrite.All"
+    ```
+
+3. Retrieve the OneDrive URL for a specific user:
+    ```powershell
+    $userPrincipalName = "user@example.com"
+    $userObject = Get-MgUser -Filter "userPrincipalName eq '$userPrincipalName'"
+    $userOneDrive = Get-MgUserDefaultDrive -UserId $userObject.id
+    $oneDriveWebUrl = $userOneDrive.webUrl
+    Write-Host "OneDrive WebURL for $userPrincipalName: $oneDriveWebUrl"
+    ```
+
+#### Method 3: SharePoint Admin Center
+As an administrator, you can find the Personal Site property in the SharePoint Admin Center:
+
+1. Log in to the SharePoint admin portal.
+2. Click on "More Features."
+3. Locate the user's profile and find the Personal Site property. The URL displayed there is the OneDrive URL.
