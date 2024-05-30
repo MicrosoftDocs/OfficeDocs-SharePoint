@@ -1,7 +1,7 @@
 ---
 ms.date: 04/23/2024
 title: "B2B Sync"
-ms.reviewer: cagreen
+ms.reviewer: wsproule
 ms.author: ruihu
 author: maggierui
 manager: jtremper
