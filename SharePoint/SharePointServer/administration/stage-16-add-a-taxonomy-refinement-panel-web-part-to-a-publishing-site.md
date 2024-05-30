@@ -25,7 +25,7 @@ description: "Learn how to add a taxonomy refinement panel web part to a publish
   
 ## Quick overview
 
-[Stage 15: Add refiners for faceted navigation to a publishing site in SharePoint Server](stage-15-add-refiners-for-faceted-navigation-to-a-publishing-site.md) explained how to add refiners for faceted navigation to a publishing site. By using category-specific refiners, visitors can easily find the product they are looking for. But, visitors can't easily see the different subcategories inside a particular category. 
+[Stage 15: Add refiners for faceted navigation to a publishing site in SharePoint Server](stage-15-add-refiners-for-faceted-navigation-to-a-publishing-site.md) explained how to add refiners for faceted navigation to a publishing site. By using category-specific refiners, visitors can easily find the product they're looking for. But, visitors can't easily see the different subcategories inside a particular category. 
   
 In this article, you'll learn:
   
@@ -35,7 +35,7 @@ In this article, you'll learn:
     
 ## Start stage 16
 
-Throughout this series, when a new feature was introduced, we started by explaining the feature, and then went on to the procedures for using it. In this stage, we'll flip the sequence, because it will be easier to explain what's going on by using screen shots of the Web Part.
+Throughout this series, when a new feature was introduced, we started by explaining the feature, and then went on to the procedures for using it. In this stage, we'll flip the sequence, because it will be easier to explain what's going on by using screenshots of the Web Part.
   
 ### How to add a Taxonomy Refinement Panel Web Part to a page
 <a name="BKMK_HowToAddATaxonomyRefinementPanelWebPartToAPage"> </a>
@@ -52,7 +52,7 @@ Browse to the page where you want to add the Web Part. In our scenario, let's br
     
 5. Save the page.
     
-That's all there is to it! Without having to do any configuration, the sub-categories under "Cameras" are displayed. Also notice that refiner counts are automatically displayed.
+That's all there's to it! Without having to do any configuration, the subcategories under "Cameras" are displayed. Also notice that refiner counts are automatically displayed.
   
 ![Web Part Added](../media/OTCSP_WebPartAdded.png)
   
@@ -60,16 +60,16 @@ If we browse to "Audio," the Audio subcategories are displayed with counts.
   
 ![Audio Sub Categories](../media/OTCSP_AudioSubCategories.png)
   
-Now let's look at how these sub-categories "magically" appear.
+Now let's look at how these subcategories "magically" appear.
   
 ### About the Taxonomy Refinement Panel Web Part
 <a name="BKMK_AboutTheTaxonomyRefinementPanelWebPart"> </a>
 
-Let's start with a definition of this Web Part: The Taxonomy Refinement Panel Web Part filters search results from an associated Search Web Part, which show refiners based on the current navigation term. For example, in our case the Web Part showed the sub-categories of "Audio" and sub-categories of "Computer".
+Let's start with a definition of this Web Part: The Taxonomy Refinement Panel Web Part filters search results from an associated Search Web Part, which show refiners based on the current navigation term. For example, in our case, the Web Part showed the subcategories of "Audio" and subcategories of "Computer".
   
 For the Taxonomy Refinement Web Part to work correctly, there are two conditions that have to be considered:
   
-1. The Taxonomy Refinement Web Part must be associated with another Search Web Part on the page that it is added to.
+1. The Taxonomy Refinement Web Part must be associated with another Search Web Part on the page that it's added to.
     
 2. The Taxonomy Refinement Web Part must be associated with the managed property that represents the managed navigation of the site.
     
@@ -79,7 +79,7 @@ Let's start with the first condition.
   
 Unlike the Content Search Web Part, the Taxonomy Refinement Web Part doesn't contain a query. Because it doesn't query for content, it has to receive search results from elsewhere to display content.
   
-In the following screen shot, the Taxonomy Refinement Panel Web Part is shown in the default edit mode. In the Web Part Tool Pane, in the **Query** section, **Refinement Target** is set to **Content Search - Default**. 
+In the following screenshot, the Taxonomy Refinement Panel Web Part is shown in the default edit mode. In the Web Part Tool Pane, in the **Query** section, **Refinement Target** is set to **Content Search - Default**. 
   
 ![Refinement Target](../media/OTCSP_RefinementTarget.png)
   
@@ -125,8 +125,8 @@ That's very cool, but what makes the Taxonomy Refinement Panel Web Part even coo
   
 ![Cameras Fabrikam Refiner](../media/OTCSP_CamerasFabrikam.png)
   
-To visitors, this makes browsing for products really convenient, because they can immediately see which sub-categories have  *Fabrikam*  camera products, without having to click back and forth. 
+To visitors, this makes browsing for products convenient, because they can immediately see which subcategories have  *Fabrikam*  camera products, without having to click back and forth. 
   
-So, that was all for this series. If you are setting up your own site, we hope you'll make good use of the features that are described in this series.
+So, that was all for this series. If you're setting up your own site, we hope you'll make good use of the features that are described in this series.
   
 

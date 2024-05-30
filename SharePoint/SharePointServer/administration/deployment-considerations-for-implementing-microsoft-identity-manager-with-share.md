@@ -44,7 +44,7 @@ During MIM Synchronization Setup, the remote database access depends on the acce
   
 ## Set access rights if SQL Server is installed on a remote server
 
-If you install SQL Server on a remote computer, that is, on a different computer than the one running MIM, be sure that the policy for the SQL Server service account allows users access to that computer from the network. If access is not allowed, MIM setup will fail.
+If you install SQL Server on a remote computer, that is, on a different computer than the one running MIM, be sure that the policy for the SQL Server service account allows users access to that computer from the network. If access isn't allowed, MIM setup will fail.
   
 > [!IMPORTANT]
 > If you install SQL Server on a remote computer and allow network access to the remote computer, you'll receive a security warning from MIM setup. For this scenario, the warning can be ignored. 
@@ -59,7 +59,7 @@ After you use Export Management Agent, you can then use the **Import Management 
   
 ## Populate the displayName attribute in the metaverse to make search results easier to identify
 
-When listing objects by using Metaverse Search, MIM returns results identified by the **displayName** attribute. If the **displayName** attribute is not populated, the search results are identified by the globally unique identifier (GUID). For more information on how to use metaverse search, see [Using Metaverse Search](/previous-versions/mim/jj572785(v=ws.10))
+When listing objects by using Metaverse Search, MIM returns results identified by the **displayName** attribute. If the **displayName** attribute isn't populated, the search results are identified by the globally unique identifier (GUID). For more information on how to use metaverse search, see [Using Metaverse Search](/previous-versions/mim/jj572785(v=ws.10))
   
 ## Design your flow rules to act upon the state of an object
 
@@ -86,24 +86,24 @@ With Preview, you can run test synchronizations and view the results without com
   
 ## Schedule a recurring run profile using the Delta Synchronization step to process disconnectors automatically
 
-Objects that fail to join are not reevaluated by the Delta Import and Delta Synchronization run profile step and might remain as disconnectors. Running a Delta Synchronization step on a regular basis will reevaluates and processes these disconnectors. For more information on how to run profile steps, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
+Objects that fail to join aren't reevaluated by the Delta Import and Delta Synchronization run profile step and might remain as disconnectors. Running a Delta Synchronization step regularly will reevaluates and processes these disconnectors. For more information on how to run profile steps, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
   
 ## Save and clear the management agent run history in Operations regularly
 
-Operations records a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For more information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
+Operations record a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For more information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
   
 > [!NOTE]
 > Deleting very large numbers of runs at once make take considerable time. It's recommended you delete no more than 100 runs at a time.
   
 ## Use multiple partitions in a management agent to control synchronization of single object types
 
-To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you've one management agent with the flexibility to synchronize one or both of the selected object types. For more information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
+To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you have one management agent with the flexibility to synchronize one or both of the selected object types. For more information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
   
 ## Capacity Planning
 
-There are a number of variables that can affect the overall capacity and performance of MIM deployment.
+There are many variables that can affect the overall capacity and performance of MIM deployment.
   
-Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to auto-grow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you'll benefit from more memory. You should have at least 16 CPU cores on the SQL servers but more cores will help overall performance.
+Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to autogrow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you'll benefit from more memory. You should have at least 16 CPU cores on the SQL servers but more cores will help overall performance.
   
 Finally, it's recommended not to run MIM and SharePoint databases together on the same server.
   
@@ -114,22 +114,22 @@ The MIM solution is designed to be highly available to prevent any single point 
 > [!NOTE]
 > The information in this section are recommendations only. 
   
-- **MIM Synchronization Service** - although clustering of the MIM Synchronization Service is not supported, a warm standby server could be deployed to assume the workload of the primary in the event of a failure. However, hardware failure should not be a concern as the MIM Synchronization Service will be running on a virtual machine hosted on multiple physical nodes. Also in case of a software failure, the virtual machine hosting the synchronization server could be quickly recovered from a previous backup or rebuilt from scratch. A down time of this service has no impact on end-user interactions with the solution. It would only delay the fulfillment of all access provisioning and deprovisioning requests. When the service is brought back online those operations would resume with no data loss. The warm standby of the MIM Synchronization Service will be connected to the same SQL Server database as the primary instance and will have to be activated through a script in case the primary instance goes down and cannot be restarted in a timely manner. Note that the MIM Management Agent used to synchronize data between the MIM Synchronization Service database and the MIM Service database will have to point to the local MIM Service instance. 
+- **MIM Synchronization Service** - although clustering of the MIM Synchronization Service isn't supported, a warm standby server could be deployed to assume the workload of the primary in the event of a failure. However, hardware failure shouldn't be a concern as the MIM Synchronization Service will be running on a virtual machine hosted on multiple physical nodes. Also if there is a software failure, the virtual machine hosting the synchronization server could be quickly recovered from a previous backup or rebuilt from scratch. A down time of this service has no impact on end-user interactions with the solution. It would only delay the fulfillment of all access provisioning and deprovisioning requests. When the service is brought back online those operations would resume with no data loss. The warm standby of the MIM Synchronization Service will be connected to the same SQL Server database as the primary instance and will have to be activated through a script in case the primary instance goes down and can't be restarted in a timely manner. Note that the MIM Management Agent used to synchronize data between the MIM Synchronization Service database and the MIM Service database will have to point to the local MIM Service instance. 
     
 - **SQL Server** - A SQL Server cluster is required by the MIM solution to provide high-availability for the database layer. The MIM cluster will consist of two servers with specifications detailed in the previous paragraphs. Even though each SQL node has both SQL instances installed, only one of the two instances will be active at a given time. 
     
-    The design takes into account the best use of the clustered virtual machines without oversubscribing each node and potentially causing both nodes to go down in case of failover.
+    The design takes into account the best use of the clustered virtual machines without oversubscribing each node and potentially causing both nodes to go down if there is failover.
     
-    As the databases are hosted on a remote SQL Server the network connection between the MIM Servers and SQL Servers must be 1 Gbit. 100 Mbit network will not provide enough bandwidth and will degrade synchronization performance by 20 to 30 percent.
+    As the databases are hosted on a remote SQL Server the network connection between the MIM Servers and SQL Servers must be 1 Gbit. 100 Mbit network won't provide enough bandwidth and will degrade synchronization performance by 20 to 30 percent.
     
 ## Always use Active Directory Import as the sync setting in User Profile Administration
 
-If you plan to use the MIM Synchronization service, do not select it. Instead select the **Use SharePoint Active Directory Import** option. There is a known issue with Audience compilation and Manager attribute if the **Enable External Identity Manager** option is selected. 
+If you plan to use the MIM Synchronization service, don't select it. Instead select the **Use SharePoint Active Directory Import** option. There's a known issue with Audience compilation and Manager attribute if the **Enable External Identity Manager** option is selected. 
   
 > [!NOTE]
 > This issue is fixed in the February 2017 Public Update (PU), see [February 21, 2017, update for SharePoint Server 2016 (KB3141517)](https://support.microsoft.com/help/3141517/february-21-2017-update-for-sharepoint-server-2016-kb3141517)
   
-## Do not switch between synchronization types
+## Don't switch between synchronization types
 
 If you switch from one synchronization type to another by using the **Configure Synchronization Settings** in the SharePoint Central Administration website, you'll experience issues with no objects being returned when an import on the SharePoint Connector instance is started, and no results in the ULS logs. 
   
@@ -141,11 +141,11 @@ Microsoft Identity Manager supports exporting user profile pictures from SharePo
   
 ## No BCS Integration to support additional Profile Properties
 
-There is no Business Connectivity Services integration to support profile properties in MIM. You can manually configure Connectors to achieve this.
+There's no Business Connectivity Services integration to support profile properties in MIM. You can manually configure Connectors to achieve this.
   
 ## User Profile properties
 
-New user profile properties can be created in SharePoint Servers; however, the mappings are not created in SharePoint, but within MIM.
+New user profile properties can be created in SharePoint Servers; however, the mappings aren't created in SharePoint, but within MIM.
   
 ## NetBios name
 

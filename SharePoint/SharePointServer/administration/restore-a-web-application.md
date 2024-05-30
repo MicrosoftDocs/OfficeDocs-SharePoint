@@ -32,11 +32,11 @@ When you restore a web application, you also restore the Internet Information Se
   
 Before you begin this operation, review the following information as you prepare to restore a web application:
   
-- You can only restore one web application at a time by using the procedures in this article. However, you can at the same time restore all the web applications in the farm by restoring the complete farm.
+- You can only restore one web application at a time by using the procedures in this article. However, at the same time, you can restore all the web applications in the farm by restoring the complete farm.
     
 - If a web application uses the object cache, you must manually configure two special user accounts for the web application after you restore the web application. For more information about the object cache and how to configure these user accounts, see [Configure object cache user accounts in SharePoint Server](configure-object-cache-user-accounts.md).
     
-- You cannot use SQL Server tools to restore a web application.
+- You can't use SQL Server tools to restore a web application.
     
 - When you restore a web application that is configured to use claims-based authentication, there are additional steps that you must follow after restoring the web application to restore claims-based authentication.
     
@@ -53,12 +53,12 @@ You can use PowerShell to restore a web application manually or as part of a scr
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -76,7 +76,7 @@ You can use PowerShell to restore a web application manually or as part of a scr
     
    -  _\<GUID\>_ is the identifier of the back up to use for the restore operation. 
     
-   If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
+   If you don't specify the value of the  `BackupID` parameter, the most recent backup will be used. You can't restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
     
    ```powershell
    Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
@@ -125,13 +125,13 @@ You can use Central Administration to restore a web application.
 ## Using SQL Server tools to restore databases associated with a web application in SharePoint Server
 <a name="proc3"> </a>
 
-You cannot restore the complete web application by using SQL Server tools. However, you can restore all the databases that are associated with the web application. To restore the complete web application, use either PowerShell or Central Administration.
+You can't restore the complete web application by using SQL Server tools. However, you can restore all the databases that are associated with the web application. To restore the complete web application, use either PowerShell or Central Administration.
   
  **To restore databases associated with a web application by using SQL Server tools**
   
 1. Verify that the user account performing this procedure is a member of the **sysadmin** fixed server role. 
     
-2. If the SharePoint Timer service is running, stop the service and wait for several minutes for any currently running stored procedures to finish. Do not restart the service until after you restore the databases.
+2. If the SharePoint Timer service is running, stop the service and wait for several minutes for any currently running stored procedures to finish. Don't restart the service until after you restore the databases.
     
 3. Start SQL Server Management Studio and connect to the database server.
     
@@ -139,7 +139,7 @@ You cannot restore the complete web application by using SQL Server tools. Howev
     
 5. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**.
     
-    The database is automatically taken offline during the recovery operation and cannot be accessed by other processes.
+    The database is automatically taken offline during the recovery operation and can't be accessed by other processes.
     
 6. In the **Restore Database** dialog, specify the destination and the source, and then select the backup set or sets that you want to restore. 
     
@@ -147,7 +147,7 @@ You cannot restore the complete web application by using SQL Server tools. Howev
     
 7. In the **Select a page** pane, click **Options**.
     
-8. In the **Restore options** section, select only **Overwrite the existing database**. Unless the environment or policies require otherwise, do not select the other options in this section.
+8. In the **Restore options** section, select only **Overwrite the existing database**. Unless the environment or policies require otherwise, don't select the other options in this section.
     
 9. In the **Recovery state** section:
     
@@ -162,7 +162,7 @@ You cannot restore the complete web application by using SQL Server tools. Howev
   
 10. Click **OK** to complete the recovery operation.
     
-11. Repeat steps 4 through 10 for each database that you are restoring.
+11. Repeat steps 4 through 10 for each database that you're restoring.
     
 12. Start the Windows SharePoint Services Timer service.
     
@@ -178,7 +178,7 @@ After you restore a web application that uses forms-based authentication, you mu
 ## Additional steps to remove duplicate claims providers after restoring a web application that uses claims-based authentication in SharePoint Server
 <a name="Claims"> </a>
 
-After a web application that is configured to use claims-based authentication is restored, duplicate or additional claims providers are often visible. You must use the following process to remove the duplicate providers: 
+After a web application that is configured to use claims-based authentication is restored, duplicate, or additional claims providers are often visible. You must use the following process to remove the duplicate providers: 
   
 1. In Central Administration, click **Manage Web application**, select a web application that uses claims-based authentication, and then click **Authentication Providers**. 
     
@@ -186,10 +186,10 @@ After a web application that is configured to use claims-based authentication is
     
 3. Repeat for each zone, and then for each web application that uses claims-based authentication. 
     
-## Additional steps to re-configure object cache user accounts in SharePoint Server
+## Additional steps to reconfigure object cache user accounts in SharePoint Server
 <a name="cache"> </a>
 
-If you configured object cache user accounts for the web application, the restore process will not restore these settings. You must re-configure the settings for the web application. For more information, see [Configure object cache user accounts in SharePoint Server](configure-object-cache-user-accounts.md).
+If you configured object cache user accounts for the web application, the restore process won't restore these settings. You must reconfigure the settings for the web application. For more information, see [Configure object cache user accounts in SharePoint Server](configure-object-cache-user-accounts.md).
   
 ## See also
 <a name="cache"> </a>

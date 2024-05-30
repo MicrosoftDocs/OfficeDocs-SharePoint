@@ -46,24 +46,24 @@ By default, the rendering of the hover panel is performed by the three common ho
   
 ![Default Rendering](../media/OTCSP_DefaultRendering.png)
   
-To make life as easy as possible when you are adding custom properties to your hover panel, you should leave these three common hover panel display templates as they are, and instead concentrate on the result type specific hover panel display template (highlighted in the illustration below). That's what we did in our Search Center scenario, and it's what we'll demonstrate in this article.
+To make life as easy as possible, when you're adding custom properties to your hover panel, you should leave these three common hover panel display templates as they are, and instead concentrate on the result type specific hover panel display template (highlighted in the illustration below). That's what we did in our Search Center scenario, and it's what we'll demonstrate in this article.
   
 ![Hover Panel Display Template](../media/HoverPanelDisplayTemplate.png)
   
-This may seem confusing now, but we'll show you all the the steps that are required in the next two sections. So let's get started!
+This may seem confusing now, but we'll show you all the steps that are required in the next two sections. So let's get started!
   
 ## How to copy an existing hover panel display template
 <a name="BKMK_HowtoCopyanExistingHoverPanelDisplayTemplate"> </a>
 
-Remember when we created the custom item display template  *TechNet content*  , we started by copying the item display template named  *Item_Default*  (see [How to create a new result type in SharePoint Server](how-to-create-a-new-result-type.md) for more information). The  *Item_Default*  display template contains a reference to  *the Item_Default_HoverPanel*  hover panel display template. Because we copied the  *Item_Default*  display template, our  *TechNet content*  display template also contains a reference to the  *Item_Default_HoverPanel*  . 
+Remember when we created the custom item display template  *TechNet content, we started by copying the item display template named  *Item_Default*  (see [How to create a new result type in SharePoint Server](how-to-create-a-new-result-type.md) for more information). The  *Item_Default*  display template contains a reference to  *the Item_Default_HoverPanel*  hover panel display template. Because we copied the  *Item_Default*  display template, our  *TechNet content*  display template also contains a reference to the  *Item_Default_HoverPanel. 
   
 ![Item Default Link](../media/OTCSP_Item_DefaultLink.png)
   
-We wanted to use the  *Item_Default_HoverPanel*  hover panel display template as a basis when we added custom properties to our hover panel. Therefore, in our mapped network drive, we copied the  *Item_Default_HoverPanel*  display template 
+We wanted to use the  *Item_Default_HoverPanel*  hover panel display template as a basis when we added custom properties to our hover panel. Therefore, in our mapped network drive, we copied the  *Item_Default_HoverPanel*  display template. 
   
 ![Item Default Displayed](../media/OTCSP_ItemDefaultCopy.png)
   
-and gave it a new name:  *TechNet_Content_HoverPanel*  . 
+And gave it a new name:  *TechNet_Content_HoverPanel. 
   
 ![TechNet Hover Panel](../media/OTCSP_TechNetHoverPanel.png)
   
@@ -90,13 +90,13 @@ We wanted to add the values from the following four site columns to the hover pa
     
 - Submission Contact
     
-The following screen shot shows how these values are maintained for one item in our internal list.
+The following screenshot shows how these values are maintained for one item in our internal list.
   
 ![List Item](../media/OTCSP_ListItem.png)
   
 When adding custom properties to a hover panel, we have to add them to the **item display template** (highlighted in the illustration below). 
   
-Again, because this is not really intuitive: *When adding custom properties to a hover panel, we have to add them to the item display template*.
+Again, because this isn't intuitive: *When adding custom properties to a hover panel, we have to add them to the item display template*.
   
 ![Result Type Specific DT](../media/OTCSP_ResultTypeSpecificDT.png)
   
@@ -139,7 +139,7 @@ By doing a new search and hovering over a search result, we saw that the four cu
   
 ![Custom Properties Displayed](../media/OTCSP_CustomPropertiesDisplayed.png)
   
-But, we are not completely through yet. The values for *Internal Writer* and *Submission Contact* appeared differently. The screen shot might not show it clearly, but hopefully you can see that the value for *Internal Writer* appeared well, but the value for *Submission Contact* was very long and contained an ugly GUID. 
+But, we aren't completely through yet. The values for *Internal Writer* and *Submission Contact* appeared differently. The screenshot might not show it clearly, but hopefully you can see that the value for *Internal Writer* appeared well, but the value for *Submission Contact* was long and contained an ugly GUID. 
   
 Both these values come from a site column of type **Person or Group**. The difference is that in the site column settings, *Internal Writer* is configured to show **Name**, whereas *Submission Contact* is configured to show **Name (with presence)**. 
   
@@ -149,11 +149,11 @@ To make *Submission Contact* appear correctly, we copied the **HP.GetAuthorsHtml
   
 ![Authors Method](../media/OTCSP_AuthorsMethod.png)
   
-And now the hover panel was starting to look really good.
+And now the hover panel was starting to look good.
   
 ![Final Hover Panel](../media/OTCSP_FinalHoverPanel.png)
   
-But to make the hover panel even more helpful, we wanted to add an action to the bottom of the hover panel. will show how to do this this.
+But to make the hover panel even more helpful, we wanted to add an action to the bottom of the hover panel. will show how to do this.
   
 ### Next article in this series
 

@@ -1,5 +1,5 @@
 ---
-title: "Outbound e-mail has not been configured (SharePoint Server)"
+title: "Outbound e-mail hasn't been configured (SharePoint Server)"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,16 +15,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 53885793-4150-4212-af04-6ea2e6e066f7
-description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound email has not been configured, for SharePoint Server."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound email hasn't been configured, for SharePoint Server."
 ---
 
-# Outbound e-mail has not been configured (SharePoint Server)
+# Outbound e-mail hasn't been configured (SharePoint Server)
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
- **Rule Name:** Outbound email has not been configured. 
+ **Rule Name:** Outbound email hasn't been configured. 
   
- **Summary:** An outgoing email server has not been configured on this SharePoint Server deployment. With no SMPT server configured for outgoing email, SharePoint Server can't send email messages, including alert email, confirmation email, invitation email, and email about exceeding quotas. 
+ **Summary:** An outgoing email server hasn't been configured on this SharePoint Server deployment. With no SMPT server configured for outgoing email, SharePoint Server can't send email messages, including alert email, confirmation email, invitation email, and email about exceeding quotas. 
   
  **Cause:** An SMPT email server hasn't yet been configured in the farm. 
   
@@ -32,17 +32,17 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
-2. On the SharePoint Central Administration website, click **System Settings**.
+2. On the SharePoint Central Administration website, select **System Settings**.
     
-3. On the System Settings page, in the **E-Mail and Text Messages (SMS)** section, click **Configure outgoing e-mail settings**.
+3. On the System Settings page, in the **E-Mail and Text Messages (SMS)** section, select **Configure outgoing e-mail settings**.
     
 4. On the Outgoing E-Mail Settings page, type the SMTP server information in the **Outbound SMTP server** box, and then specify the addresses and the character set that you want to use. 
     
-5. Click **OK**.
+5. Select **OK**.
     
 ## See also
 
-#### Concepts
+### Concepts
 
 [Plan email integration for a SharePoint Server farm](../administration/email-integration-planning.md)
   

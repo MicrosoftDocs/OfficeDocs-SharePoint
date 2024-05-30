@@ -26,7 +26,7 @@ This article contains guidance on performance and capacity planning for an enter
     
 - The **test farm workload and dataset** that was used to generate test load 
     
-- **Test results and analysis** that demonstrate and explain trends in throughput, latency and hardware demand under load at specific scale points. 
+- **Test results and analysis** that demonstrate and explain trends in throughput, latency, and hardware demand under load at specific scale points. 
     
 Use the information in this article to understand the characteristics of the scenario under both normal and peak loads, and how performance trends change when farm servers are scaled out. This article can also help you estimate an appropriate starting point for your planned architecture, and the factors that are important to consider when you plan for the resources your farm will need to maintain acceptable levels of performance under peak load.
   
@@ -36,9 +36,9 @@ Use the information in this article to understand the characteristics of the sce
 
 This article provides guidance about how to scale out servers in a SharePoint Server 2013 enterprise intranet collaboration solution. Capacity planning informs decisions about hardware to purchase and system configurations that optimize your solution.
   
-Individual SharePoint Server 2013 farms are unique, and each farm has different requirements that depend on hardware, user behavior, the configuration of installed features, and many other factors. Therefore, supplement this guidance with additional testing on your own hardware in your own environment. If your planned design and workload resembles the environment described in this article, you can use this article to draw conclusions about how to scale your environment.
+Individual SharePoint Server 2013 farms are unique, and each farm has different requirements that depend on hardware, user behavior, the configuration of installed features, and many other factors. Therefore, supplement this guidance with other testing on your own hardware in your own environment. If your planned design and workload resembles the environment described in this article, you can use this article to draw conclusions about how to scale your environment.
   
-Test results that appear in this article were produced in a test lab, using a workload, dataset, and architecture emulate a production environment under highly controlled conditions. While great care was exercised in designing these tests, the performance characteristics of a test lab are never the same as the behavior of a production environment. These test results do not represent the performance and capacity characteristics of a production farm. Instead, the test results demonstrate observed trends in throughput, latency, and hardware demand, and provide analysis of the observed data that can help you make decisions about how to plan capacity and manage your own farm.
+Test results that appear in this article were produced in a test lab, using a workload, dataset, and architecture emulate a production environment under highly controlled conditions. While great care was exercised in designing these tests, the performance characteristics of a test lab are never the same as the behavior of a production environment. These test results don't represent the performance and capacity characteristics of a production farm. Instead, the test results demonstrate observed trends in throughput, latency, and hardware demand, and provide analysis of the observed data that can help you make decisions about how to plan capacity and manage your own farm.
   
 This article includes the following:
   
@@ -69,11 +69,11 @@ These articles provide the following information:
 ## Glossary
 <a name="Glossary"> </a>
 
-Here are some specialized terms that you will encounter in this article. 
+Here are some specialized terms that you'll encounter in this article. 
   
-- **RPS:** Requests per second, or the number of requests a that a farm or server receives in one second. This is a common measurement of server and farm load. 
+- **RPS:** Requests per second, or the number of requests that a farm or server receives in one second. This is a common measurement of server and farm load. 
     
-    Note that requests differ from page loads. A page contains several components, each of which creates one or more requests when a browser loads the page. Therefore, one page load creates several requests. Typically, authentication checks and events that use insignificant resources are not counted in RPS measurements.
+    Requests differ from page loads. A page contains several components, each of which creates one or more requests when a browser loads the page. Therefore, one page load creates several requests. Typically, authentication checks and events that use insignificant resources aren't counted in RPS measurements.
     
 - **Green Zone:** Green Zone represents a defined set of load characteristics under normal operation conditions, up to expected daily peak loads. A farm that operates in this range should be able to sustain response times and latency that are within acceptable parameters. 
     
@@ -121,9 +121,9 @@ This section describes the approach that we took to scale this lab environment. 
     
 3. We disabled the Distributed Cache Service on the web servers.
     
-4. We scaled out additional web servers to the maximum for the scope of testing.
+4. We scaled out more web servers to the maximum for the scope of testing.
     
-5. We conducted additional testing to compare the performance characteristics of SharePoint Server 2013 and SharePoint Server 2010.
+5. We conducted more testing to compare the performance characteristics of SharePoint Server 2013 and SharePoint Server 2010.
     
 ### Methodology and test notes
 <a name="Methodology"> </a>
@@ -135,9 +135,9 @@ Because this article provides results from a test lab environment, we could cont
   
 - Between test runs, we modified only one variable at a time to make it easy to compare results between test runs. 
     
-- The database servers were not part of a cluster because redundancy was not necessary for the purposes of these tests. 
+- The database servers weren't part of a cluster because redundancy wasn't necessary for the purposes of these tests. 
     
-- Search crawl was not running during the tests. Of course, it might be running in a production environment. To take this into account, we lowered the SQL Server CPU utilization in our definitions of 'Green Zone' and 'Red Zone' to accommodate the resources that a running search crawl would normally consume during testing. 
+- Search crawl wasn't running during the tests. It might be running in a production environment. To take this into account, we lowered the SQL Server CPU utilization in our definitions of 'Green Zone' and 'Red Zone' to accommodate the resources that a running search crawl would normally consume during testing. 
     
 ## Specifications
 <a name="Specs"> </a>
@@ -184,7 +184,7 @@ The farm has from one to 10 virtual web servers. An additional dedicated virtual
    
 #### Database Servers
 
-One physical database server runs the default SQL Server instance that has the SharePoint databases. The logging database is not tracked in this article.
+One physical database server runs the default SQL Server instance that has the SharePoint databases. The logging database isn't tracked in this article.
   
 > [!NOTE]
 > If you enable usage reporting, we recommend that you store the logging database on a separate Logical Unit Number (LUN). Large deployments and some medium deployments might require a dedicated logging database server to accommodate the processor demand of a high log volume. > In this lab environment, logging was constrained, and the logging database was stored in a separate instance of SQL Server. 
@@ -242,7 +242,7 @@ The dataset for the lab environment in this article, which represents a typical 
 
 The following results are ordered based on the scaling approach that is described in the [Overview](enterprise-intranet-collaboration-performance-and-capacity.md#Overview) section of this article. 
   
-### Web server scale out
+### Web server scale-out
 
 This section describes the test results that were obtained when we scaled out the number of web servers in this lab environment.
   
@@ -258,14 +258,14 @@ In our testing, we found the following:
   
 - The environment scaled to ten web servers per database server. The increase in throughput was fairly linear.
     
-- Even up to the maximum tested scale of ten web servers, the addition of more database servers did not increase throughput. The bottleneck was generally confined to web server resources.
+- Even up to the maximum tested scale of ten web servers, the addition of more database servers didn't increase throughput. The bottleneck was confined to web server resources.
     
-- The average latency at green zone was almost constant throughout the whole test. The number of web servers and throughput did not affect green zone latency. Red Zone latency data shows an expected trend line. Latency is very high at a single web server. A curve between 2 and 10 web servers remains comfortably within Red Zone criteria.
+- The average latency at green zone was almost constant throughout the whole test. The number of web servers and throughput didn't affect green zone latency. Red Zone latency data shows an expected trend line. Latency is high at a single web server. A curve between 2 and 10 web servers remains comfortably within Red Zone criteria.
     
     > [!NOTE]
     > Latency may be mildly affected when you move the Distributed Cache service from a farm's web servers to a server that is dedicated to the Distributed Cache. This may occur because Distributed Cache traffic, which was previously internal to each web server, begins traversing the network. Test scale-out performance in your own environment to determine whether this tradeoff is significant. Note that latency in our test environment increased mildly when the Distributed Cache service was migrated to a dedicated server. Latency decreased with each added web server as the nominal added latency was offset by the decreased processing and memory load on the web servers. > For more information about Distributed Cache capacity planning, see [Plan for feeds and the Distributed Cache service in SharePoint Server](plan-for-feeds-and-the-distributed-cache-service.md). 
   
-- When performance testing was conducted for SharePoint Server 2010, the database server became a bottleneck at maximum throughput using four web servers. Because of improvements in caching and database usage characteristics in SharePoint Server 2013, the average load on the database server layer is significantly lower than it was in SharePoint Server 2010, and it was not necessary to scale out the database servers during testing.
+- When performance testing was conducted for SharePoint Server 2010, the database server became a bottleneck at maximum throughput using four web servers. Because of improvements in caching and database usage characteristics in SharePoint Server 2013, the average load on the database server layer is lower than it was in SharePoint Server 2010, and it wasn't necessary to scale out the database servers during testing.
     
     For more information about SharePoint Server 2010 test results for this scenario, see [Enterprise intranet collaboration environment lab study (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ff758657(v=office.14))
     
@@ -353,7 +353,7 @@ This section provides information about how performance for this workload varied
   
 #### Workload
 
-To compare SharePoint Server 2013 with SharePoint Server 2010, we used a different test mix from the one outlined in the [Specifications](#Specs) section. This was necessary because some SharePoint Server 2013 features (such as the Distributed Cache Service) and operations were not available in SharePoint Server 2010. 
+To compare SharePoint Server 2013 with SharePoint Server 2010, we used a different test mix from the one outlined in the [Specifications](#Specs) section. This was necessary because some SharePoint Server 2013 features (such as the Distributed Cache Service) and operations weren't available in SharePoint Server 2010. 
   
 #### Test methodology
 
@@ -369,7 +369,7 @@ This upgraded environment was then tested again on the upgraded servers that hos
   
 - We tested two environments for comparison. One environment used physical server hardware, and the other environment used virtual machines to run the web servers on a Hyper-V host. In both cases, the database server ran on a physical server.
     
-- We did not modify the dataset after the content database upgrade for the SharePoint Server 2013 tests. 
+- We didn't modify the dataset after the content database upgrade for the SharePoint Server 2013 tests. 
     
 - The test mix for SharePoint Server 2010 excluded new SharePoint Server 2013-specific operations, and resembled the enterprise intranet collaboration solution that was tested and described earlier in this article.
     
@@ -381,7 +381,7 @@ The goal of the testing was to apply similar loads against both SharePoint Serve
     
 #### Analysis
 
-- In general, SharePoint Server 2013 performed better than SharePoint Server 2010 when scaled out to five web servers, but SharePoint Server 2010 results were better at two web servers. Testing against the upgraded SharePoint Server 2013 server farm did not involve post-upgrade optimizations or take advantage of SharePoint Server 2013 performance improvements such as the Distributed Cache Service or Request Manager. SharePoint Server 2013 test results, therefore, are significantly different from results in a real-world environment. 
+- In general, SharePoint Server 2013 performed better than SharePoint Server 2010 when scaled out to five web servers, but SharePoint Server 2010 results were better at two web servers. Testing against the upgraded SharePoint Server 2013 server farm didn't involve post-upgrade optimizations or take advantage of SharePoint Server 2013 performance improvements such as the Distributed Cache Service or Request Manager. SharePoint Server 2013 test results, therefore, are significantly different from results in a real-world environment. 
     
 - The relationship between data trends in the graphs in this section show how the SharePoint Server 2013 resource management model prioritizes the use of processor resources over disk IOPs. 
     
