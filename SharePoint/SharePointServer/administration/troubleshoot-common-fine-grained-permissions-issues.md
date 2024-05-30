@@ -25,7 +25,7 @@ After you implement fine-grained permission, a SharePoint environment could expe
 ## Recommended issues and resolutions for common fine-grained permissions performance issues
 <a name="fgpperfissuesolutions"> </a>
 
-The following issues can help reduce the effect of performance issues that are related to the extensive use of fine-grained permissions. Each of the following issues covers changes to the environment security, object hierarchy, or custom code that is contributing to the performance issues that are related to fine-grained permissions. Each issue starts with the following example environment where a single web contains multiple document libraries, each with many uniquely permissioned child objects.
+The following issues can help reduce the effect of performance issues that are related to the extensive use of fine-grained permissions. Each of the following issues covers changes to the environment security, object hierarchy or custom code that is contributing to the performance issues that are related to fine-grained permissions. Each issue starts with the following example environment where a single web contains multiple document libraries, each with many uniquely permissioned child objects.
   
 ![Illustrates a single Web contains multiple document libraries, each with a great many number of uniquely uniquely-permissioned child objects.](../media/FGP_Image3.jpg)
   
@@ -57,7 +57,7 @@ The maximum count of items or folders at any level in the hierarchy should be ab
   
 ![Illustrates the architecture how a Web-level scope should be structured.](../media/FGP_Image6.jpg)
   
-If additional changes are needed to the architecture, consider moving document libraries to different webs or site collections. The number of document libraries could also be changed to more closely support business needs and scaling recommendations that are based on the taxonomy or audience of the stored content.
+If more changes are needed to the architecture, consider moving document libraries to different webs or site collections. The number of document libraries could also be changed to more closely support business needs and scaling recommendations that are based on the taxonomy or audience of the stored content.
   
 ### Issue 2: Use fine-grained permissions by hierarchical structure changes
 <a name="sol2"> </a>
@@ -81,7 +81,7 @@ To rearchitect the environment so that it still uses fine-grained permissions, b
   
 #### Dynamic security changing code redesign
 
-In the following diagram, the scope architecture was changed so that scope membership doesn't cause ACL recalculation at the parent document library and web. As mentioned earlier, the effective membership of the web that includes all Limited Access members, should be no more than approximately 2,000 to keep the web-level scope from growing too large. In this case, by implementing a new SharePoint group to hold all members who should have Limited Access rights, the scope won't grow too large. When users are added to individual scopes under the web level by using the SharePoint Server **SPRoleAssignmentCollection.AddToCurrentScopeOnly** method, they can also be added, by additional code, to the new group that was established as having Limited Access rights at the web and document library level. 
+In the following diagram, the scope architecture was changed so that scope membership doesn't cause ACL recalculation at the parent document library and web. As mentioned earlier, the effective membership of the web that includes all Limited Access members, should be no more than approximately 2,000 to keep the web-level scope from growing too large. In this case, by implementing a new SharePoint group to hold all members who should have Limited Access rights, the scope won't grow too large. When users are added to individual scopes under the web level by using the SharePoint Server **SPRoleAssignmentCollection.AddToCurrentScopeOnly** method, they can also be added, by extra code, to the new group that was established as having Limited Access rights at the web and document library level. 
   
 ![IIustrates scope membership which does not cause ACL recalculation at the parent document library and Web.](../media/FGP_Image8.jpg)
   

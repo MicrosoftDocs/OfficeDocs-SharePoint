@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 05/28/2024
 title: "Delete a site"
 ms.reviewer: 
 manager: jtremper
