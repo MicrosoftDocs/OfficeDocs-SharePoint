@@ -77,7 +77,7 @@ In our scenario, we'll add a CSWP to Zone 3.
   
 ![CSWP Added](../media/OTCSP_CSWPadded.png)
   
-The CSWP contains a default query. Therefore, it already displays some content (Audio, Cameras and Computers). But it does not display the content we want to display. To make the Web Part display Contoso catalog content, we must configure the query in the Web Part.
+The CSWP contains a default query. Therefore, it already displays some content (Audio, Cameras, and Computers). But it doesn't display the content we want to display. To make the Web Part display Contoso catalog content, we must configure the query in the Web Part.
   
 ### How to configure a query in a Content Search Web Part on a category page
 <a name="BKMK_HowToConfigureAQueryInAContentSearchWebPartOnACategoryPage"> </a>
@@ -114,11 +114,11 @@ A key phrase in this selection is *navigation terms*. This refers to the categor
   
 Remember, one of the first things we did in this series was import catalog content into a list. We also imported terms into the term set **Product Hierarchy**. In [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), we associated each item in the list with a term from the term set. In [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md), we specified that the full site navigation should contain terms from the **Product Hierarchy** term set. Because we have used *the same term set* to tag the items in our catalog and to build our site navigation, we can use a term from our site navigation to search for catalog items that are tagged with that same term. 
     
-Our query in the CSWP will therefore display search results for items that are in the  *catalog - Products Results result source*  , and are tagged with either "Audio", or any child of "Audio", for example "MP3 players" or "Speakers". 
+Our query in the CSWP will therefore display search results for items that are in the  *catalog - Products Results result source, and are tagged with either "Audio", or any child of "Audio", for example "MP3 players" or "Speakers". 
     
 This selection reduced the relevant search results to 114, which is the number of items in our catalog that belong to the "Audio" group.
     
-Another key phrase from the selection **Restrict by current and child navigation** terms is  *current*  . More information about the importance of this phrase is provided in [About the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_AboutTheQueryConfiguration) in the next section 
+Another key phrase from the selection **Restrict by current and child navigation** terms is  *current*  . More information about the importance of this phrase is provided in [About the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_AboutTheQueryConfiguration) in the next section. 
     
 5. Select **OK**, and save the page. 
     
@@ -134,7 +134,7 @@ If we browse to the "MP3" category, we'll see three other different search resul
     
 ![MP3 Results](../media/OTCSP_MP3Results.png)
   
-If you are now thinking "OK, I understand how we got the correct search results for the "Audio" category, because that is the category we clicked, and where we changed the query in the Web Part. But why do we see different search results when we browse the catalog? And shouldn't we change the query for all the other categories also?"
+If you're now thinking "OK, I understand how we got the correct search results for the "Audio" category, because that is the category we clicked, and where we changed the query in the Web Part. But why do we see different search results when we browse the catalog? And shouldn't we change the query for all the other categories also?"
   
 Let's take a closer look at what's going on.
   
@@ -143,7 +143,7 @@ Let's take a closer look at what's going on.
 
 We only had to configure one query because the same page is used for all categories. Remember, in [Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md), when we assigned the page *ContosoCategoryPage.aspx* to all terms within the **Site Navigation** term set. We assigned this page to *all terms*. Therefore, even though we edited this page in the "Audio" category, we could have edited it in any other category, and achieved the same result. 
   
-We only had to configure the query one time, because the query issued from the Web Part differs depending on which category we browse to. Remember that the CSWP contains a query that is automatically issued when someone browses to a page that contains a CSWP, and that search results are displayed in the Web Part. Also, remember that we selected **Restrict by current and child navigation terms** when we configured the query in the Web Part. The word "current" is very important here, because it means that the query issued by the CSWP will change depending on the category the visitor is currently browsing. If you edit the Web Part from another category, you can see that the Web Part has changed. 
+We only had to configure the query one time, because the query issued from the Web Part differs depending on which category we browse to. Remember that the CSWP contains a query that is automatically issued when someone browses to a page that contains a CSWP, and that search results are displayed in the Web Part. Also, remember that we selected **Restrict by current and child navigation terms** when we configured the query in the Web Part. The word "current" is important here, because it means that the query issued by the CSWP will change depending on the category the visitor is currently browsing. If you edit the Web Part from another category, you can see that the Web Part has changed. 
   
 For example, if we browse to the "Cameras" category and take a closer look at the CSWP, we see that:
   
@@ -160,7 +160,7 @@ So, when we browse to the "Audio" category, the CSWP issues a query for catalog 
 ### How to view details of the query configuration
 <a name="BKMK_HowToViewDetailsOfTheQueryConfiguration"> </a>
 
-To view details of the query configuration, click on the **TEST** tab. The actual query issued by the CSWP, is shown in the **Query text** field. 
+To view details of the query configuration, click on the **TEST** tab. The actual query issued by the CSWP is shown in the **Query text** field. 
   
 ![TEST 2](../media/OTCSP_TEST2.png)
   
@@ -168,7 +168,7 @@ In our scenario, the query that is issued by the CSWP from the "Audio" category 
   
  `(contentclass:sts_listitem OR IsDocument:True) SPSiteUrl:http://contoso/sites/catalog ListId:3a3f66cd-9741-4f15-b53a-b4b23c3187ea owstaxidProductCatalogItemCategory:#c771504f-6a2f-423f-98de-0e12fcfa08c9`
   
-If this doesn't make any sense now, don't worry! There is logic to it, and we'll break it down to make it clearer.
+If this doesn't make any sense now, don't worry! There's logic to it, and we'll break it down to make it clearer.
   
 -  `(contentclass:sts_listitem OR IsDocument:True) SPSiteUrl:http://contoso/sites/catalog ListId:3a3f66cd-9741-4f15-b53a-b4b23c3187ea` is our catalog result source,  *catalog - Products Results* 
     
@@ -182,7 +182,7 @@ In our Product catalog site collection, in the **Product Hierarchy** term set, y
   
 So now we have configured the query for the CSWP on our category page. We still have to do some configuration to make it display more than three search results, and also give it a "Contoso look." This will be explained later in this series.
   
-The next step is to add a CSWP to our catalog item page
+The next step is to add a CSWP to our catalog item page.
   
 #### Next article in this series
 

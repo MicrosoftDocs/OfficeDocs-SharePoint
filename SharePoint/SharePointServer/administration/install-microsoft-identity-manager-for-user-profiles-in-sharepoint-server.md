@@ -47,8 +47,8 @@ Which option is right for you?
 |&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 ||**Microsoft Identity Management server** <br/> |**Active Directory Import** <br/> |
-|Pros  <br/> |1. Flexibility allows for customized import.  <br/> 2. Can be customized for bidirectional flow.  <br/> 3. Imports user profile photos automatically.  <br/> 4. Supports non-Active Directory LDAP sources.  <br/> 5. Multi-forest scenarios are supported.  <br/> |1. Very fast and performant.  <br/> 2. Known to be reliable (used by Microsoft 365).  <br/> 3. Configurable inside of Central Administration. (Less complex.)  <br/> |
-|Cons  <br/> |1. A separate MIM server is recommended for use with your SharePoint farm.  <br/> 2. The more customized the more complex the architecture, deployment, and management.  <br/> |1. Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/> 2. Import from a single Active Directory forest only.  <br/> 3. Does not import user photos.  <br/> 4. Supports Active Directory LDAP only.  <br/> 5. Multi-forest scenarios are not supported.  <br/> |
+|Pros  <br/> |1. Flexibility allows for customized import.  <br/> 2. Can be customized for bidirectional flow.  <br/> 3. Imports user profile photos automatically.  <br/> 4. Supports non-Active Directory LDAP sources.  <br/> 5. Multi-forest scenarios are supported.  <br/> |1. Fast and performant.  <br/> 2. Known to be reliable (used by Microsoft 365).  <br/> 3. Configurable inside of Central Administration. (Less complex.)  <br/> |
+|Cons  <br/> |1. A separate MIM server is recommended for use with your SharePoint farm.  <br/> 2. The more customized the more complex the architecture, deployment, and management.  <br/> |1. Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/> 2. Import from a single Active Directory forest only.  <br/> 3. Doesn't import user photos.  <br/> 4. Supports Active Directory LDAP only.  <br/> 5. Multi-forest scenarios aren't supported.  <br/> |
    
 > [!TIP]
 > If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](./configure-profile-synchronization-by-using-sharepoint-active-directory-import.md). 
@@ -56,7 +56,7 @@ Which option is right for you?
 ## Choosing MIM for use with SharePoint Server 
 <a name="BKMK_ChooseMIM"> </a>
 
-If you choose MIM, there are some **prerequisites** of which you should be aware. You will need:
+If you choose MIM, there are some **prerequisites** of which you should be aware. You'll need:
   
 1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required. For SharePoint Server Subscription Edition, a Windows Server 2019 computer is required.
     
@@ -81,9 +81,9 @@ If you choose MIM, there are some **prerequisites** of which you should be aware
 
 During these steps, you'll actually install three different elements essential to MIM. The first install will be of the MIM software, itself. You'll also need the SharePoint Management Agent.
   
-1. First, download and install MIM to the server where you want to install.
+1. First, download, and install MIM to the server where you want to install.
     
-2. Extract the .zip file and double-click Setup.exe. (Setup.exe is usually found in the SynchronizationService folder of the MIM media.)
+2. Extract the .zip file and double-click Setup.exe. (Setup.exe is found in the SynchronizationService folder of the MIM media.)
     
 3. Click **Next** > accept the end-user license agreement, and click **Next** through the feature selection screen. (You don't need to change the default selection.) 
     
@@ -96,7 +96,7 @@ During these steps, you'll actually install three different elements essential t
   
 6. Next, set up the security groups that are needed for MIM to function. You can leave these as default if you wish, but in that case your security groups will be created on the local machine were MIM is being installed. If you have more than one machine configured to run MIM, you may want to create these security groups in Active Directory (AD). Do this in the same domain as the machines where MIM is configured, and enter the group names into this page of the wizard.
     
-7. The next step (firewall rules) is optional. We recommend you do not check the firewall rule checkbox.
+7. The next step (firewall rules) is optional. We recommend you don't check the firewall rule checkbox.
     
 8. Click to install MIM.
     
@@ -108,9 +108,9 @@ During these steps, you'll actually install three different elements essential t
     > [!NOTE]
     > You will need to backup the keys generated at this point if you are to move to another database server. Save these keys to a secure location and make certain you backup the key file along with the database backup so they're both available in a disaster recovery scenario. 
   
-10. MIM installation should complete. You should log off and back onto your server again to ensure the MIM cache is updated.
+10. MIM installation should complete. You should log off and back on to your server again to ensure the MIM cache is updated.
     
-11. Once you log on again, ensure the MIM service is running on the server by going to Services (or Start or Windows key> **Run** > services.msc) and then locating the **Forefront Identity Manager Synchronization Service**. No mistake. The service name has not changed!
+11. Once you log on again, ensure the MIM service is running on the server by going to Services (or Start or Windows key> **Run** > services.msc) and then locating the **Forefront Identity Manager Synchronization Service**. No mistake. The service name hasn't changed!
     
 ### Install the SharePoint Management Agent (Forefront Identity Manager Connector for SharePoint)
 
