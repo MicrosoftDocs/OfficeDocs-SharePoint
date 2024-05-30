@@ -1,6 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 05/20/2024
 title: "Restrict OneDrive access by security group"
+ms.reviewer: nibandyo
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 - essentials-compliance
@@ -32,7 +33,7 @@ description: "Learn how to allow only users in specified security groups to acce
 
 You can restrict access and sharing of OneDrive content to users in specified Microsoft Entra ID security groups. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content when this policy is in effect.
 
-OneDrive access restriction is applied when a user attempts to open a OneDrive or access a file. Users not members of the specified security group can still see files in search results if they have existing direct permissions to the file. However, they won't be able to access the file if they're not part of the security specified group
+OneDrive access restriction is applied when a user attempts to open a OneDrive or access a file. Users not members of the specified security group can still see files in search results if they have existing direct permissions to the file. However, they won't be able to access the file if they're not part of the security specified group.
 
 You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access and sharing to your users, preventing guests from accessing any OneDrive content even if the content was previously shared with them.
 
@@ -42,7 +43,7 @@ Note that you can also restrict access to an individual user's OneDrive to peopl
 
 To access and use this feature, your organization must have one of the following subscriptions:
 
-- Microsoft Syntex - SharePoint Advanced Management
+- Microsoft SharePoint Premium - SharePoint Advanced Management
 - Office 365 E5/A5
 - Microsoft 365 E5/A5
 

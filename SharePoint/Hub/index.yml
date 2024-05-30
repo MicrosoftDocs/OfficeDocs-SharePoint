@@ -51,6 +51,10 @@ additionalContent:
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
           url: /sharepoint/troubleshoot
+         # Card
+        - title: Version History
+          summary: Learn about file versioning that enables users to view or restore earlier versions.
+          url: ../SharePointOnline/version-overview.md
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card

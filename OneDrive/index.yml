@@ -38,6 +38,8 @@ additionalContent:
               url: /sharepoint/troubleshoot/onedrive-welcome/
             - text: Training - Use OneDrive in Microsoft 365
               url: /training/modules/m365-onedrive-collaboration-use/      
+            - text: Privacy, security, and compliance in Microsoft OneDrive
+              url: /sharepoint/security/privacy-security-compliance-in-onedrive
         # Card
         - title: For developers
           summary: Guidance for developing solutions for Microsoft OneDrive.

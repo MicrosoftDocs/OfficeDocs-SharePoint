@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 10/01/2023
 title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
 ms.author: mactra

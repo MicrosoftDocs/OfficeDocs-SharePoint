@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 05/02/2024
 title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: ruihu

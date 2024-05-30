@@ -1,5 +1,5 @@
 ---
-ms.date: 10/11/2019
+ms.date: 04/24/2024
 title: "Manage site redirects"
 ms.reviewer: adwood
 ms.author: ruihu

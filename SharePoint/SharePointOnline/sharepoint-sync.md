@@ -1,5 +1,5 @@
 ---
-ms.date: 06/20/2023
+ms.date: 05/23/2024
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
 ms.author: ruihu
@@ -49,11 +49,22 @@ We recommend using OneDrive shortcuts as the more versatile option.
 
 ### Turn off OneDrive sync for SharePoint libraries
 
-You can turn off OneDrive sync from all the SharePoint libraries in your organization by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
+You can turn off OneDrive sync from all the SharePoint libraries in your organization with SharePoint Online Management Shell. 
 
-```PowerShell
-Set-SPOTenant -HideSyncButtonOnTeamSite $true
-```
+To urn off OneDrive sync from all the SharePoint libraries in your organization:
+
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
+
+3. Run the following cmdlets: 
+
+    ```PowerShell
+    Set-SPOTenant -HideSyncButtonOnTeamSite $true
+    ```
 
 Removing the sync button blocks new syncs from being started but doesn't affect existing syncs.
 

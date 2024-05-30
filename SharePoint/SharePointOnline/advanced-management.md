@@ -1,6 +1,6 @@
 ---
-ms.date: 04/10/2024
-title: "Microsoft Syntex - SharePoint Advanced Management overview"
+ms.date: 05/20/2024
+title: "Microsoft SharePoint Premium - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
 author: MachelleTranMSFT
@@ -13,19 +13,19 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 - ContentEnagagementFY24
 search.appverid:
 - MET150
 recommendations: false
-description: "Learn about Microsoft Syntex - SharePoint Advanced Management and how you can use it in your organization."
+description: "Learn about Microsoft SharePoint Premium - SharePoint Advanced Management and how you can use it in your organization."
 ---
 
-# Microsoft Syntex - SharePoint Advanced Management overview
+# Microsoft SharePoint Premium - SharePoint Advanced Management overview
 
-Microsoft Syntex - SharePoint Advanced Management is a Microsoft 365 add-on that provides a suite of features that can help you:
+Microsoft SharePoint Premium - SharePoint Advanced Management is a Microsoft 365 add-on that provides a suite of features that can help you:
 
 - Manage and govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities

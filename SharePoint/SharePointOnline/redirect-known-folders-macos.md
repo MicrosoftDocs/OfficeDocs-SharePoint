@@ -1,5 +1,5 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/14/2023
 title: "Redirect and move macOS known folders to OneDrive"
 ms.reviewer: cagreen
 ms.author: mactra

@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 04/12/2024
 title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
-ms.reviewer: 
+ms.reviewer: baladell
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
