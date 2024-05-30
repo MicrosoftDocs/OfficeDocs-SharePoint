@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f91de311-e531-4a15-bcc4-b4af01774e0b
-description: "Learn how to resolve the SharePoint Health Analyzer rul: eOne or more services have started or stopped unexpectedly, for SharePoint Server."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: eOne or more services have started or stopped unexpectedly, for SharePoint Server."
 ---
 
 # One or more services have started or stopped unexpectedly (SharePoint Server)
@@ -24,16 +24,16 @@ description: "Learn how to resolve the SharePoint Health Analyzer rul: eOne or m
   
  **Rule Name:** One or more services have started or stopped unexpectedly. 
   
- **Summary:** A critical service required for the SharePoint farm to function is not running. 
+ **Summary:** A critical service required for the SharePoint farm to function isn't running. 
   
- **Cause:** One or more critical services are not running on the specified server. 
+ **Cause:** One or more critical services aren't running on the specified server. 
   
  **Resolution: Start the service that is not running**
   
 1. Verify that the user account that is performing this procedure is a member of the Administrators group on the local computer.
     
-2. In Server Manager, click **Tools**, and then click **Services**.
+2. In Server Manager, select **Tools**, and then select **Services**.
     
-3. Right-click the service that you want to start, and then click **Start**.
+3. Right-click the service that you want to start, and then select **Start**.
     
 
