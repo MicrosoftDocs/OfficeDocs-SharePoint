@@ -1,5 +1,5 @@
 ---
-ms.date: 02/04/2019
+ms.date: 04/23/2024
 title: "B2B Sync"
 ms.reviewer: cagreen
 ms.author: ruihu
@@ -51,7 +51,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 - Content shared from a tenant in one cloud (for example, Microsoft Azure China) can't be synced by a user in a different cloud (for example, Microsoft Azure Commercial).
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
-- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
+- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, <first.last@fabrikam.com> vs <alias@fabrikam.com>.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
 - Interactive authentication UI for guest accounts from an external organization is not supported by the sync client.
 
