@@ -1,5 +1,5 @@
 ---
-ms.date: 05/17/2023
+ms.date: 05/31/2024
 title: Teams and SharePoint integration
 ms.reviewer: 
 ms.author: ruihu
