@@ -1,5 +1,5 @@
 ---
-ms.date: 08/02/2023
+ms.date: 05/31/2024
 title: Intro to file collaboration in Microsoft 365, powered by SharePoint
 ms.reviewer: 
 ms.author: ruihu
@@ -134,8 +134,6 @@ With the [OneDrive sync app](https://onedrive.live.com/about/download/), users c
 
 If your users are used to sharing files as attachments in Outlook, they can use the same steps they're familiar with to share a link to a file instead of emailing a copy. Within Outlook, users can even change the permission they give to the recipient. [Learn more about attaching files](https://support.office.com/article/BDFAFEF5-792A-42B1-9A7B-84512D7DE7FC).
 
-![Change Permission options include Recipients can edit and Recipients can view](media/sp-collabguide09.png)
-
 ### Integrate with Microsoft Office
 
 In the Office apps, users can easily [open files saved in Microsoft 365](https://support.office.com/article/97f087d8-3136-4485-8e86-c5b12a8c4176) and [save documents to OneDrive](https://support.office.com/article/b9e0c0a9-2bd7-42cf-9178-24d60c51ac75). [Learn more about working together on Office documents](https://support.office.com/article/ea3807bc-2b73-406f-a8c9-a493de18258b). When users comment on an Office document and use the **@** sign with someone's name, the person mentioned receives mail with a link to the comment. Clicking the link brings them into the document and into the conversation.
@@ -202,5 +200,6 @@ To let users easily access team site files from File Explorer (as they might hav
 
 ## Related topics
 
-[Invalid file names and file types](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
-[SharePoint help & learning](https://support.microsoft.com/sharepoint) (for end users)
+- [Invalid file names and file types](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
+
+- [SharePoint help & learning](https://support.microsoft.com/sharepoint) (for end users)
