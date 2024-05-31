@@ -1,5 +1,5 @@
 ---
-ms.date: 09/19/2020
+ms.date: 05/31/2024
 title: "Plan and implement SharePoint site navigation"
 ms.reviewer: 
 ms.author: ruihu
