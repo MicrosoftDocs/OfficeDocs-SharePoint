@@ -63,7 +63,7 @@ Use the Password Management Settings page of Central Administration to configure
     
 4. In the **Notification E-Mail Address** section of the Password Management Settings page, enter the e-mail address of one person or group to be notified of any imminent password change or expiration events. 
     
-5. If automatic password change is not configured for a managed account, enter a numeric value in the **Account Monitoring Process Settings** section that indicates the number of days before password expiration that a notification will be sent to the e-mail address configured in the **Notification E-Mail Address** section. 
+5. If automatic password change isn't configured for a managed account, enter a numeric value in the **Account Monitoring Process Settings** section that indicates the number of days before password expiration that a notification will be sent to the e-mail address configured in the **Notification E-Mail Address** section. 
     
 6. In the **Automatic Password Change Settings** section, enter a numeric value that indicates the number of seconds that automatic password change will wait (after notifying services of a pending password change) before starting the change. Enter a numeric value that indicates the number of times a password change will be tried before the process stops. 
     
@@ -76,7 +76,7 @@ Use the following guidance to avoid the most common issues that can occur when y
   
 ### Password mismatch
 
-If the automatic password change process fails because there is a password mismatch between Active Directory Domain Services (AD DS) and SharePoint Server, the password change process can result in access denial at logon, an account lockout, or AD DS read errors. If any of these issues occur, make sure that your AD DS passwords are configured correctly and that the AD DS account has read access for setup. Use Microsoft PowerShell to fix any password mismatch issues that might occur, and then resume the password change process.
+If the automatic password change process fails because there's a password mismatch between Active Directory Domain Services (AD DS) and SharePoint Server, the password change process can result in access denial at logon, an account lockout, or AD DS read errors. If any of these issues occur, make sure that your AD DS passwords are configured correctly and that the AD DS account has read access for setup. Use Microsoft PowerShell to fix any password mismatch issues that might occur, and then resume the password change process.
   
  **To correct for a password mismatch by using PowerShell**
   
@@ -86,14 +86,14 @@ If the automatic password change process fails because there is a password misma
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
    - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -107,9 +107,9 @@ If the automatic password change process fails because there is a password misma
     
 ### Service account provisioning failure
 
-If service account provisioning or re-provisioning fails on one or more servers in the farm, check the status of the Timer Service. If the Timer Service has stopped, restart it. Consider using the following Stsadm command to immediately start Timer Service administration jobs:  `stsadm -o execadmsvcjobs`
+If service account provisioning or reprovisioning fails on one or more servers in the farm, check the status of the Timer Service. If the Timer Service has stopped, restart it. Consider using the following Stsadm command to immediately start Timer Service administration jobs:  `stsadm -o execadmsvcjobs`
   
-If restarting the Timer Service does not resolve the issue, use PowerShell to repair the managed account on each server in the farm that has experienced a provisioning failure.
+If restarting the Timer Service doesn't resolve the issue, use PowerShell to repair the managed account on each server in the farm that has experienced a provisioning failure.
   
  **To resolve a service account provisioning failure**
   
@@ -119,14 +119,14 @@ If restarting the Timer Service does not resolve the issue, use PowerShell to re
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
    - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -138,7 +138,7 @@ If restarting the Timer Service does not resolve the issue, use PowerShell to re
 
 For more information, see [Repair-SPManagedAccountDeployment](/powershell/module/sharepoint-server/Repair-SPManagedAccountDeployment?view=sharepoint-ps&preserve-view=true).
     
-If the previous procedure does not resolve a service account provisioning failure, it is likely because the farm encryption key cannot be decrypted. If this is the issue, use PowerShell to update the local server pass phrase to match the pass phrase for the farm.
+If the previous procedure doesn't resolve a service account provisioning failure, it's likely because the farm encryption key can't be decrypted. If this is the issue, use PowerShell to update the local server pass phrase to match the pass phrase for the farm.
   
  **To update the local server pass phrase**
   
@@ -148,14 +148,14 @@ If the previous procedure does not resolve a service account provisioning failur
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
    - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -169,7 +169,7 @@ For more information, see [Set-SPPassPhrase](/powershell/module/sharepoint-serve
     
 ### Imminent password expiration
 
-If the password is about to expire, but automatic password change has not been configured for this account, use PowerShell to update the account password to a new value that can be chosen by the administrator or automatically generated. After you have updated the account password, make sure that the Timer Service is started and the Administrator Service is enabled on all servers in the farm. Then, the password change can be propagated to all of the servers in the farm.
+If the password is about to expire, but automatic password change hasn't been configured for this account, use PowerShell to update the account password to a new value that can be chosen by the administrator or automatically generated. After you have updated the account password, make sure that the Timer Service is started and the Administrator Service is enabled on all servers in the farm. Then, the password change can be propagated to all of the servers in the farm.
   
 > [!NOTE]
 > When an administrator performs a password change for the servers in the SharePoint search topology, there is an implied query downtime when the services are restarted. The query downtime is typically in the range of 3-5 minutes. 
@@ -182,14 +182,14 @@ If the password is about to expire, but automatic password change has not been c
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
    - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     

@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 01/01/2024
 title: "OneDrive sync reports in the Apps Admin Center"
-ms.reviewer: 
+ms.reviewer: kangan
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

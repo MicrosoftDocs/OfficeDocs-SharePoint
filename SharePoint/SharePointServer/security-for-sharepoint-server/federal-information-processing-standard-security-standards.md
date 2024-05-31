@@ -20,12 +20,12 @@ description: "Learn about the Federal Information Processing Standard (FIPS) wit
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-SharePoint Server uses several Windows encryption algorithms for computing hash values that do not comply with Federal Information Processing Standard (FIPS) 140-2,  *Security Requirements for Cryptographic Modules*  . These algorithms are not used for security purposes; they are used for internal processing. For example, SharePoint Server uses MD5 to create hash values that are used as unique identifiers. 
+SharePoint Server uses several Windows encryption algorithms for computing hash values that don't comply with Federal Information Processing Standard (FIPS) 140-2,  *Security Requirements for Cryptographic Modules*. These algorithms aren't used for security purposes; they're used for internal processing. For example, SharePoint Server uses MD5 to create hash values that are used as unique identifiers. 
   
  
 <a name="intro"> </a>
 
-Because SharePoint Server uses these algorithms, it does not support the Windows security policy setting that requires FIPS compliant algorithms for encryption and hashing. This Windows security policy is managed through the **FIPSAlgorithmPolicy** registry key in Windows, which is described in the "Configure FIPS policy for a mixed environment" section of the following topic: 
+Because SharePoint Server uses these algorithms, it doesn't support the Windows security policy setting that requires FIPS compliant algorithms for encryption and hashing. This Windows security policy is managed through the **FIPSAlgorithmPolicy** registry key in Windows, which is described in the "Configure FIPS policy for a mixed environment" section of the following article: 
   
 - [Additional System Countermeasures](/previous-versions/windows/it-pro/windows-vista/cc766392(v=ws.10))
     
@@ -35,8 +35,8 @@ FIPS 140-2 defines security standards that the United States and Canadian govern
     
 - [FIPS Publications](https://go.microsoft.com/fwlink/p/?LinkId=209157)
     
-The goal of FIPS is to provide a standardized way to ensure the security and privacy of sensitive information in computer systems of the United States and Canadian governments. Using a FIPS compliant algorithm for encryption of data over an open network is a key requirement for FISMA certification. The Windows FIPSAlgorithmPolicy registry key is neither necessary nor sufficient for FISMA certification, it is a useful enforcement tool for many solutions, but not SharePoint Server.
+The goal of FIPS is to provide a standardized way to ensure the security and privacy of sensitive information in computer systems of the United States and Canadian governments. Using a FIPS compliant algorithm for encryption of data over an open network is a key requirement for FISMA certification. The Windows FIPSAlgorithmPolicy registry key is not necessary or sufficient for FISMA certification, it's a useful enforcement tool for many solutions, but not SharePoint Server.
   
 The FIPS contribution to FISMA certification is the strength of encryption used for security purposes. Security-related encryption within SharePoint Server is performed by using FIPS-compliant cipher suites.
   
-For additional information about FISMA see,[Federal Information Security Management Act (FISMA) Implementation Project](https://go.microsoft.com/fwlink/?LinkId=242329)
+For additional information about FISMA, see,[Federal Information Security Management Act (FISMA) Implementation Project.](https://go.microsoft.com/fwlink/?LinkId=242329)

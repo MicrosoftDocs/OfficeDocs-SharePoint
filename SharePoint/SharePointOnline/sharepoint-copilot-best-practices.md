@@ -10,11 +10,12 @@ audience: Admin
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
-ms.topic: conceptual
+ms.topic: best-practices
 ms.service: sharepoint-online
 ms.collection: 
 - M365-collaboration
 - m365copilot
+- magic-ai-copilot
 - Tier2
 ms.custom:
 - seo-marvel-apr2020

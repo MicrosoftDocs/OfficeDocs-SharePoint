@@ -24,7 +24,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Drives u
   
  **Rule Name:** Drives used for SQL databases are running out of free space. 
   
- **Summary:** The databases have one or more files that exceed the available free disk drive space. If this happens, operations will fail. A disk drive should have enough free space to allow the largest database file to automatically grow to twice its size. 
+ **Summary:** The databases have one or more files that exceed the available free disk drive space. If this happens, operations will fail. A drive should have enough free space for the largest database file on it to autogrow twice. If the largest database file autogrows at 64MB increments, the drive needs 128MB of free space. If the largest database file is 512 GB and it autogrows in 1% increments, the drive needs 10.24 GB of free space.
   
  **Cause:** The databases have large files that may exceed the available free space. 
   

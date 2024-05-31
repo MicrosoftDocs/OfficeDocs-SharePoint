@@ -1,5 +1,5 @@
 ---
-ms.date: 09/07/2021
+ms.date: 05/31/2024
 title: Intelligent intranet overview
 ms.author: ruihu
 author: maggierui
@@ -106,7 +106,7 @@ Measure intranet effectiveness by reviewing [Microsoft 365 usage analytics](/mic
 |Build sites - Learn how to create and customize sites that align with your organization.|[Create and use modern pages on a SharePoint site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec)<br>[Customize your SharePoint site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b)<br>[Customize the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca)<br>[Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)|
 |Manage sites - Show site owners how to maintain site content and use site analytics to engage viewers.|[Management and life cycle of a SharePoint modern page](https://support.microsoft.com/office/management-and-lifecycle-of-a-sharepoint-modern-page-3410a04c-3ca4-4a4c-b867-33ab5c8bdcf3)<br>[Manage your SharePoint site settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42)<br>[View usage data for your SharePoint site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)|
 
-Learn more about forming a site owner or [intranet champions community](https://aka.ms/SharePoint-Adoption-Playbook) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos).
+Learn more about forming a site owner or [intranet champions community](https://adoption.microsoft.com/files/sharepoint/SharePoint-Adoption-Playbook.pptx) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos).
 
 ## SharePoint intranet key capabilities by enterprise product license
 
@@ -134,5 +134,5 @@ Learn more about forming a site owner or [intranet champions community](https://
 
 [Branding your SharePoint site](./branding-sharepoint-online-sites-modern-experience.md)<br>
 
-[SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/)
+[SharePoint adoption resources](https://adoption.microsoft.com/en-us/intelligent-intranet/)
 

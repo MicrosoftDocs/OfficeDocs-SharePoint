@@ -1,5 +1,5 @@
 ---
-ms.date: 09/10/2020
+ms.date: 04/24/2024
 title: "Lock and unlock sites"
 ms.author: ruihu
 author: maggierui

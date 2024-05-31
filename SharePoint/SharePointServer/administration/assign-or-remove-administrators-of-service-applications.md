@@ -22,12 +22,12 @@ description: "Learn how to assign or remove service administrators to a service 
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-An administrator of a SharePoint Server service application must be a member of the Farm Administrators group to assign or remove additional administrators to that service application. Service application administrators are granted security-trimmed access to the SharePoint Central Administration Web site and can manage settings related to the service application but must be a member of the Farm Administrators group to add and remove other service application administrators.
+An administrator of a SharePoint Server service application must be a member of the Farm Administrators group to assign or remove other administrators to that service application. Service application administrators are granted security-trimmed access to the SharePoint Central Administration Web site and can manage settings related to the service application but must be a member of the Farm Administrators group to add and remove other service application administrators.
   
 > [!NOTE]
 > By default, members of the Farm Administrators group have permissions to manage all service applications. 
   
-You can assign or remove service application administrators by using the SharePoint Central Administration websiteor by using Microsoft PowerShell.
+You can assign or remove service application administrators by using the SharePoint Central Administration website or by using Microsoft PowerShell.
   
 ## To assign or remove administrators to a service application by using Central Administration
 
@@ -46,7 +46,7 @@ You can assign or remove service application administrators by using the SharePo
     
 6. To remove an administrator:
     
-   - In the second text box on the page, select the administrator whom you want to remove. Note that this step does not remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
+   - In the second text box on the page, select the administrator whom you want to remove. This step doesn't remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
    - Click **Remove**.
    - After you have finished removing administrators, click **OK**.
     
@@ -58,12 +58,12 @@ You can assign or remove service application administrators by using the SharePo
     
    - You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
     
-   - You must be a member of the Administrators group on the server on which you are running the PowerShell cmdlet.
+   - You must be a member of the Administrators group on the server on which you're running the PowerShell cmdlet.
     
    > [!NOTE]
    > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-   For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true)
+   For more information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true)
     
 2. Start the SharePoint Management Shell.
     
