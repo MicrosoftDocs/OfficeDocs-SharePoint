@@ -100,7 +100,7 @@ Measure intranet effectiveness by reviewing [Microsoft 365 usage analytics](/mic
 - Consider using [Microsoft Learning Pathways](/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization) to surface training content on SharePoint pages
  
 
-|**Design process**|**Learn more**|
+| Design process | Learn more |
 |:-----|:-----|
 |Plan sites - Help site owners understand how to plan to create high impact sites that meet objectives.|[Plan your SharePoint communication site](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)<br>[Get inspired with the SharePoint look book](https://lookbook.microsoft.com/)<br>[Guided Walkthroughs: Creating sites for your organization](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c)|
 |Build sites - Learn how to create and customize sites that align with your organization.|[Create and use modern pages on a SharePoint site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec)<br>[Customize your SharePoint site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b)<br>[Customize the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca)<br>[Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)|
@@ -110,7 +110,7 @@ Learn more about forming a site owner or [intranet champions community](https://
 
 ## SharePoint intranet key capabilities by enterprise product license
 
-|**Capability or feature**|**Description**|**Licensing**|
+| Capability or feature | Description | Licensing |
 |:-----|:-----|:-----|
 |Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|Microsoft 365 E5<br> Microsoft 365 E3|
 |Social and intranet|Use SharePoint and Viva Engage to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|Microsoft 365 E5<br> Microsoft 365 E3|
