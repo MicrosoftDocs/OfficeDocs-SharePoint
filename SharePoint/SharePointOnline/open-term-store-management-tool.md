@@ -33,7 +33,7 @@ If you're a Global Administrator or SharePoint Administrator in Microsoft 365, y
 
 If you need more than your default language for the terms, you can add working languages by selecting **Edit** next to **Default language**. The **Edit languages** panel shows up. You can type to search and add languages. You can also change the default language here.
 
- ![Screenshot of adding languages in the Term Store Management Tool](media/term-store-language.png)
+ ![Screenshot of adding languages in the Term Store Management Tool.](media/term-store-language.png)
 
 ## Open term store management for a site
 
