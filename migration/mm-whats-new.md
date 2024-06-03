@@ -30,7 +30,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 
 ## Coming soon
-- **Larger file support.** The size limit of a single file will be increased to improve migration fidelity.
+- **Larger file support.** The size limit of a single file that can be migrated will be increased to improve migration fidelity.
 
 - **Migration flow refinement.** Refine migration setting and destination upload process to be more intuitive.
 
