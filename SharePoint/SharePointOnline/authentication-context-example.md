@@ -61,7 +61,7 @@ The following apps and scenarios don't work with authentication contexts:
 - Associating an authentication context to the enterprise application catalog site collection isn't supported.
 - The “Visualize SharePoint List in Power BI” feature doesn't currently support authentication context.
 - Outlook on Windows, Mac, Android, and iOS don't support communication with SharePoint sites protected by an Authentication Context.
-- The multiple-file download feature currently does not function when both the authentication context and 'Use Conditional Access App Control' in session control are enabled in the conditional access policy.
+- The multiple-file download feature currently doesn't function when both the authentication context and 'Use Conditional Access App Control' in session control are enabled in the conditional access policy.
 
 ## Setting up an authentication context
 
