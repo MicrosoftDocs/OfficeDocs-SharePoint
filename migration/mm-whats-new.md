@@ -36,7 +36,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## May 2024
 
-- **Identity mapping capacity.** The entry limit for identity mapping will be raised from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features will be enabled to help you better organize identity mapping.
+- **Identity mapping capacity.** The entry limit for identity mapping will be raised from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features are enabled to help you better organize identity mapping.
 
 ## April 2024
 
