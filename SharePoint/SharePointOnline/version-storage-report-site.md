@@ -1,9 +1,9 @@
 ---
 title: "Generate version storage usage report for a site(Preview)"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 04/30/2024
 audience: Admin
@@ -22,7 +22,7 @@ description: "This article provides guidance on how to generate version storage 
 
 # Generate version storage usage report for a SharePoint site (Preview)
 
-As a global or SharePoint admin in Microsoft 365, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
+As a SharePoint admin in Microsoft 365, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
 
 - Review current version storage used by existing versions.
 
@@ -82,7 +82,7 @@ Follow these steps to manage version history limits for a site by using PowerShe
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall **SharePoint Online Management Shell**.
 
-1. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to generate a version storage usage report:
 
 | **Action** | **PowerShell Command** |

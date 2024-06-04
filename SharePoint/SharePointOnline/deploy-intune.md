@@ -1,5 +1,5 @@
 ---
-ms.date: 4/12/2024
+ms.date: 06/04/2024
 title: "Deploy OneDrive apps using Intune"
 ms.reviewer: scbree
 ms.author: mactra
@@ -30,7 +30,7 @@ description: "In this article, you'll learn how you can use Intune to deploy the
 
 # Deploy OneDrive apps by using Intune
 
-If you're a global admin or assigned [a role in Intune](/mem/intune/fundamentals/role-based-access-control) that gives you the necessary permissions, you can use Intune to deploy OneDrive apps. Before you begin deploying, make sure you review the planning information and deployment options in the [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).
+As an [Intune Administrator](/mem/intune/fundamentals/role-based-access-control), you can use Intune to deploy OneDrive apps. Before you begin deploying, make sure you review the planning information and deployment options in the [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).
 
 To deploy apps in Intune, you use the [Microsoft Intune admin center](https://intune.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps). 
 
