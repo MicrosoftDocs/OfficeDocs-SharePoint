@@ -1,5 +1,5 @@
 ---
-ms.date: 02/25/2024
+ms.date: 06/04/2024
 title: "Restore a deleted OneDrive"
 ms.reviewer: jmcdowe
 ms.author: mactra
@@ -27,7 +27,7 @@ description: Learn how to restore a deleted user's OneDrive when the deleted use
 
 # Restore a deleted OneDrive
 
-When you delete a user in the Microsoft 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive is retained for the number of days you specify in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. (For info, see [Set the default file retention for deleted OneDrive users](set-retention.md).) The default is 30 days. During this time, other users can still access shared content. At the end of the time period, the OneDrive remains in a deleted state for 93 days and can only be restored by a global or SharePoint admin.
+When you delete a user in the Microsoft 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive is retained for the number of days you specify in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. (For info, see [Set the default file retention for deleted OneDrive users](set-retention.md).) The default is 30 days. During this time, other users can still access shared content. At the end of the time period, the OneDrive remains in a deleted state for 93 days and can only be restored by a SharePoint Administrator.
 
 For info about using Files Restore to restore a OneDrive to a previous point in time, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
@@ -42,7 +42,7 @@ If the user was deleted within 30 days, you can restore the user and all their d
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Determine if the OneDrive is available for restore.
 
