@@ -31,11 +31,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 - **Larger file support.** The size limit of a single file that can be migrated will be increased to improve migration fidelity.
-
 - **Migration flow refinement.** Refine migration setting and destination upload process to be more intuitive.
 
 ## May 2024
-
+- **Identity mapping flow refinement.** First clicking of "Migrate" button will trigger the identity mapping setting which is a key prerequisite to a successful migration.
 - **Identity mapping capacity.** The entry limit for identity mapping will be raised from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features are enabled to help you better organize identity mapping.
 
 ## April 2024
