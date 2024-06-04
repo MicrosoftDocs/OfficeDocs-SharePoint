@@ -28,7 +28,7 @@ description: Learn how administrators can block download of files from a SharePo
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature doesn't need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and can't be set at the organization level.
+As a SharePoint Administrator in Microsoft 365, you can block download of files from SharePoint sites or OneDrive. This feature doesn't need  Microsoft Entra Conditional Access policies. This feature can be set for individual sites and can't be set at the organization level.
 
 Blocking download of files allows users to remain productive while addressing the risk of accidental data loss. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When web access is limited, users see this message at the top of sites, "Your organization doesn't allow you to download, print, or sync from this site. For help, contact your It department."
 
@@ -45,7 +45,7 @@ This feature requires [Microsoft SharePoint Premium - SharePoint Advanced Manage
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command.
 
