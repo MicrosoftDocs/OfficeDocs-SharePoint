@@ -44,8 +44,6 @@ SharePoint Advanced Management features are administered by SharePoint administr
 
 **[Conditional access policy for SharePoint sites and OneDrive](authentication-context-example.md)** - With Microsoft Entra authentication context, you can enforce more stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Microsoft Entra Conditional Access policies to labeled sites.
 
-**[Secure SharePoint document libraries](/purview/sensitivity-labels-sharepoint-default-label)** - When SharePoint is enabled for sensitivity labels, you can configure a default label for document libraries. Then, any new files uploaded to that library, or existing files edited in the library will have that label applied if they don't already have a sensitivity label, or they have a sensitivity label but with lower priority.
-
 ## Advanced sites content lifecycle management
 
 **[Block download policy for SharePoint sites and OneDrive](block-download-from-sites.md)** - You can block download of files from SharePoint sites or OneDrive without needing to use Microsoft Entra Conditional Access policies. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps.

@@ -24,9 +24,9 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
   
  **Rule Name:** One or more app domains for web applications aren't configured correctly. 
   
- **Summary:** This health rule checks to see if the multiple app domains feature is enabled by looking at the state of the  _Microsoft.SharePoint.Administration.SPWebService.ContentService.SupportMultipleAppDomains_ property. If this is enabled, the health rule then checks to see if there are multiple web application zones in each web application. If there are, it continues to check if there is an app domain defined for each web application zone. The health rule alert is triggered if the final condition is not met. It is also triggered if the web application and app domain are not using the same Internet Information Services (IIS) port binding, web application zone, application pool account, and authentication type. 
+ **Summary:** This health rule checks to see if the multiple app domains feature is enabled by looking at the state of the  _Microsoft.SharePoint.Administration.SPWebService.ContentService.SupportMultipleAppDomains_ property. If this is enabled, the health rule then checks to see if there are multiple web application zones in each web application. If there are, it continues to check if there's an app domain defined for each web application zone. The health rule alert is triggered if the final condition isn't met. It's also triggered if the web application and app domain aren't using the same Internet Information Services (IIS) port binding, web application zone, application pool account, and authentication type. 
   
- **Cause:** The SharePoint Server environment is not set to use multiple app domain, or the web application is incorrectly configured for multiple web application zones. 
+ **Cause:** The SharePoint Server environment isn't set to use multiple app domains, or the web application is incorrectly configured for multiple web application zones. 
   
  **Resolution:**
   

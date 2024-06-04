@@ -27,9 +27,9 @@ SharePoint Server 2013 is optimized to perform well over WAN connections. This a
 ## Key concepts
 <a name="section1"> </a>
 
-- Bandwidth — The data transfer capacity, or speed of transmission, of a digital communications system as measured in bits-per-second (bps).
+- Bandwidth—The data transfer capacity, or speed of transmission, of a digital communications system as measured in bits-per-second (bps).
     
-- Latency — The time that is required for a request to travel from one point on a network to another point.
+- Latency—The time that is required for a request to travel from one point on a network to another point.
     
 - Network congestion - The condition of a network when the current load approaches or exceeds the available resources and bandwidth that are designed to handle that load at a particular location in the network. Packet loss and delays are associated with congestion.
     
@@ -38,46 +38,46 @@ SharePoint Server 2013 is optimized to perform well over WAN connections. This a
 
 SharePoint Server 2013 responds to incoming requests 50% faster the previous version. It utilizes available bandwidth between the server and the client almost 40% more efficiently than the previous version. These performance gains were quantified in Microsoft's environment with the busiest SharePoint farms in the world. 
   
-A Microsoft 365 environment demands higher levels of performance over WAN connections because many customers are geographically distributed. As a result, Microsoft 365 was extensively tested under WAN conditions. Testing scenarios included latencies up to 300 milliseconds, which is much higher than latencies between the North America and Asia.
+A Microsoft 365 environment demands higher levels of performance over WAN connections because many customers are geographically distributed. As a result, Microsoft 365 was extensively tested under WAN conditions. Testing scenarios included latencies up to 300 milliseconds, which is higher than latencies between the North America and Asia.
   
 To achieve up to 40% improvement in the use of available bandwidth (compared to the previous version), optimizations were targeted to various layers of the network stack:
   
 - IIS compression and image compression are more effective on the server side.
     
-- Servers respond to http and https requests much faster.
+- Servers respond to http and https requests faster.
     
 - Low-level TCP/IP optimizations result in better use of the communication ports that are open between the client and the server. The ports ramp up quicker and are used more efficiently.
     
 Users benefit not only from the performance gains but also from additional features that improve the experience:
   
-- Active download management and script on demand — these optimizations prioritize resources and JavaScript to download the content that is most meaningful to users first.
+- Active download management and script on demand—these optimizations prioritize resources and JavaScript to download the content that is most meaningful to users first.
     
 - Smooth page transitions with animations provide a rich, interactive browser experience.
     
-- Minimal download strategy — As users browse SharePoint content, only changes to a page are downloaded and sent to the client.
+- Minimal download strategy—As users browse SharePoint content, only changes to a page are downloaded and sent to the client.
     
 ## WAN product-team test results
 <a name="section3"> </a>
 
-The following diagrams detail the effect of WAN performance optimizations on one of the most popular pages in SharePoint — Teamsite. The diagrams show network traces of Teamsite for both SharePoint 2010 and SharePoint Server 2013 with the following network conditions:
+The following diagrams detail the effect of WAN performance optimizations on one of the most popular pages in SharePoint—Teamsite. The diagrams show network traces of Teamsite for both SharePoint 2010 and SharePoint Server 2013 with the following network conditions:
   
 - Approximately 300 ms latency roundtrip
     
 - 1 mpbs bandwidth connection between the server and clients
     
-These conditions represent higher latencies and lower bandwidths than are typical for global WAN connections. However, some customers who have extremely remote sites find themselves within this range (for example, mining, oil and gas, and global construction companies). 1 mpbs bandwidth connection is lower than a typical mobile phone connection.
+These conditions represent higher latencies and lower bandwidths than are typical for global WAN connections. However, some customers who have remote sites find themselves within this range (for example, mining, oil and gas, and global construction companies). 1 mpbs bandwidth connection is lower than a typical mobile phone connection.
   
 The following diagram demonstrates that SharePoint Server 2013 makes better use of available communication ports.
   
 ![Comparison of port usage between SharePoint 2010 and SharePoint 2013](../media/WAN_perf_ports.gif)
   
-In the two network traces, the horizontal rows represent the ports that are open. The colored blocks represent content that is traveling over the wire, such as the images, JavaScript, and HTML. In the SharePoint 2010 network trace, the white spaces between the colored blocks represent idle time in which the client or server is waiting for something to happen before completing the next action. In the SharePoint Server 2013 network trace, the network pipe is filled almost 100%. Communication between the client and server is ongoing until the transaction is complete. There is very little or no idle time between actions. These improvements are provided by the optimizations described earlier in this article (minimal download strategy, active download management, and script on demand).
+In the two network traces, the horizontal rows represent the ports that are open. The colored blocks represent content that is traveling over the wire, such as the images, JavaScript, and HTML. In the SharePoint 2010 network trace, the white spaces between the colored blocks represent idle time in which the client or server is waiting for something to happen before completing the next action. In the SharePoint Server 2013 network trace, the network pipe is filled almost 100%. Communication between the client and server is ongoing until the transaction is complete. There's little or no idle time between actions. These improvements are provided by the optimizations described earlier in this article (minimal download strategy, active download management, and script on demand).
   
 The following diagram calls attention to the improvement in bandwidth utilization. The blue graphs in both network traces represent the bandwidth utilization. The use of available bandwidth is more efficient in SharePoint Server 2013.
   
 ![Comparison of bandwidth utilization between SharePoint 2010 and SharePoint 2013 and illustration of improved efficiency of SharePoint 2013.](../media/WAN_perf_bandwidth.gif)
   
-This following diagram of the network traces shows that the content that users interact with on the page (the document library, prompts, navigational elements, etc.) are downloaded a full second faster in SharePoint Server 2013 compared to SharePoint 2010. Users can interact with the site much sooner.
+This following diagram of the network traces shows that the content that users interact with on the page (the document library, prompts, navigational elements, etc.) are downloaded a full second faster in SharePoint Server 2013 compared to SharePoint 2010. Users can interact with the site sooner.
   
 ![Comparison of content download speed between SharePoint 2010 and SharePoint 2013](../media/WAN_perf_content.gif)
   
@@ -85,7 +85,7 @@ Compared to SharePoint 2010, WAN optimizations in SharePoint Server 2013 achieve
   
 - Downloads 65% fewer bytes for images because of better use of image compression.
     
-- Downloads 20% more bytes for the JavaScript which provides quicker and improved functionality in the browser.
+- Downloads 20% more bytes for the JavaScript, which provides quicker and improved functionality in the browser.
     
 - Downloads 15% fewer bytes total.
     
@@ -96,7 +96,7 @@ The simplest method to test performance over WAN connections is to have a user a
   
 For example, during the early adoption phase of SharePoint Server 2013, Microsoft worked with Teck to evaluate WAN performance between the mining company's two datacenters in Santiago, Chile, and Calgary, Canada. Mahmood Jaffer, IT Specialist and SharePoint Architect, created a remote connection from his Canadian office to the datacenter in Santiago, Chile. From a computer in Santiago, he connected to a server running SharePoint Server 2013 in the Calgary datacenter and uploaded several files. He also connected to a server running SharePoint 2010 in Calgary and uploaded files that have the same characteristics. The following table records the results.
   
-**Teck unit test — File upload from Santiago to Calgary (140ms latency) with Riverbed device**
+**Teck unit test—File upload from Santiago to Calgary (140ms latency) with Riverbed device**
 
 |**File size and type**|**SharePoint 2010**|**SharePoint 2013**|
 |:-----|:-----|:-----|
@@ -105,9 +105,9 @@ For example, during the early adoption phase of SharePoint Server 2013, Microsof
    
 An important consideration for this user test is the use of a WAN accelerator device between the two locations. Teck uses a Riverbed device to accelerate traffic. WAN accelerators look for patterns within packets of data and potentially only send packets that are unique, replacing duplicate packets with content that is cached on the other end. For Teck to obtain accurate results, it was important to use files that have different content for each test, instead of just renaming files. 
   
-To repeat this unit test, the Microsoft SharePoint writing team had colleagues in the Beijing office connect to SharePoint sites in the Redmond office. In this scenario, two writers repeated the test multiple times throughout the day and produced a range of results. Files with different content were used each time to avoid potential caching issues, although a WAN accelerator device is not used between the two locations. The following table records the results.
+To repeat this unit test, the Microsoft SharePoint writing team had colleagues in the Beijing office connect to SharePoint sites in the Redmond office. In this scenario, two writers repeated the test multiple times throughout the day and produced a range of results. Files with different content were used each time to avoid potential caching issues, although a WAN accelerator device isn't used between the two locations. The following table records the results.
   
-**Microsoft writing team unit test — File upload from Beijing to Redmond (144ms latency)**
+**Microsoft writing team unit test—File upload from Beijing to Redmond (144ms latency)**
 
 |**File size and type**|**SharePoint 2010**|**SharePoint 2013**|
 |:-----|:-----|:-----|
@@ -124,7 +124,7 @@ Several observations result from a comparison of these two sets of results:
     
 - Simple unit testing can provide meaningful data. In these two cases, the real-world experience is unlikely to be duplicated by plugging numbers for bandwidth and latency into a WAN simulation device.
     
-Here are recommendations if you conduct your own simple unit testing:
+Here are recommendations if you conduct your own unit testing:
   
 - Use different files that have different content to avoid optimization of WAN accelerator devices on second upload.
     
@@ -135,13 +135,13 @@ Here are recommendations if you conduct your own simple unit testing:
 ## WAN test tools and scenarios for systematic testing
 <a name="section5"> </a>
 
-Before you begin any type of systematic load testing across a WAN environment make, sure that you understand the nature of your network. You should have data about bandwidth, latency, network congestion, packet loss and types of devices between users and the SharePoint front-end web server. This data is not always easy to obtain. However tools, such as System Center Operations Manager, can make it easier.
+Before you begin any type of systematic load testing across a WAN environment make, sure that you understand the nature of your network. You should have data about bandwidth, latency, network congestion, packet loss and types of devices between users and the SharePoint front-end web server. This data isn't always easy to obtain. However tools, such as System Center Operations Manager, can make it easier.
   
 After you understand the network environment, you'll know whether you must address items before you test over the WAN. For initial testing, minimize network congestion and packet loss. Also remove or disable network optimization devices. This will leave you with bandwidth and latency as the two primary factors that will impact your end-users from a network perspective.
   
 ### Test tools
 
-After you address WAN constraints, you can start to use a combination of tools to testing WAN efficiency. Prescriptive tools, such as Visual Studio 2012 Update 1, provide repeatable unit and load testing capabilities. Non-prescriptive tools, such as Microsoft Network Monitor (Netmon) with Visual Round Trip Analyzer, provide end-user oriented monitoring. Both types of tools can be useful because they each provide a different approach to WAN testing and data collection. The combined results can provide a complete view of the impact of WAN connections on user performance.
+After you address WAN constraints, you can start to use a combination of tools to testing WAN efficiency. Prescriptive tools, such as Visual Studio 2012 Update 1, provide repeatable unit and load testing capabilities. Nonprescriptive tools, such as Microsoft Network Monitor (Netmon) with Visual Round Trip Analyzer, provide end-user oriented monitoring. Both types of tools can be useful because they each provide a different approach to WAN testing and data collection. The combined results can provide a complete view of the impact of WAN connections on user performance.
   
 The following chart lists the strengths of both tools.
   
@@ -169,9 +169,9 @@ Create test scenarios that reflect the types of actions users will perform as pa
     
 - Add a social tag
     
-The goal is to have a well-rounded set of unit tests which capture actions that end-users perform in a SharePoint environment and expose any potential latency-sensitive transactions.
+The goal is to have a well-rounded set of unit tests, which capture actions that end-users perform in a SharePoint environment and expose any potential latency-sensitive transactions.
   
-Finally, make sure that you conduct rounds of tests at various times throughout the day to capture differences in network utilization patterns. For example, 09:00 on Monday morning may have a very different network and performance pattern compared to 23:00 on Friday. Also, be aware of events in other geographical regions, such as a natural disaster that results in region-wide power outages, that might impact WAN routing or performance. A comprehensive set of tests spread across different time intervals will provide insight and set expectations about what your end-users will experience when they use SharePoint Server 2013 across the WAN.
+Finally, make sure that you conduct rounds of tests at various times throughout the day to capture differences in network utilization patterns. For example, 09:00 on Monday morning may have a different network and performance pattern compared to 23:00 on Friday. Also, be aware of events in other geographical regions, such as a natural disaster that results in region-wide power outages, that might impact WAN routing or performance. A comprehensive set of tests spread across different time intervals will provide insight and set expectations about what your end-users will experience when they use SharePoint Server 2013 across the WAN.
   
 ### Example WAN test using Visual Studio 2013
 
@@ -191,13 +191,13 @@ The test results show that performance is good, especially for the social tasks.
   
 The next set of results shows performance for the same load test across a larger set of geographic locations where Fabrikam employees work. The SharePoint servers are located in Texas, USA.
   
-**Fabrikam— Results across the feature set for differentlocations**
+**Fabrikam—Results across the feature set for different locations**
 
 ![Fabrikam test results for WAN connections initiating in Australia, Germany, India, Singapore, South Africa, and the UK. 2-6 seconds for file download. 3-8 seconds for file upload. less than 2 seconds for most social tasks.](../media/WAN_CaseStudy_chart2.gif)
   
 Even though there are varying degrees of latency, performance is good for users across the globe. The Fabrikam test results provide an example of systematic WAN testing that uses a load test made up of many SharePoint tasks that are important to the company. 
   
-Fabrikam is an example of a world-wide company that succeeds with a central datacenter model, instead of deploying SharePoint Server 2013 to multiple regions across the world. If you plans include a move from a central datacenter model to multiple SharePoint sites in different geographical regions, make sure that you conduct WAN testing to see whether it is really necessary.
+Fabrikam is an example of a world-wide company that succeeds with a central datacenter model, instead of deploying SharePoint Server 2013 to multiple regions across the world. If your plans include a move from a central datacenter model to multiple SharePoint sites in different geographical regions, make sure that you conduct WAN testing to see whether it's necessary.
   
 ## See also
 <a name="section5"> </a>

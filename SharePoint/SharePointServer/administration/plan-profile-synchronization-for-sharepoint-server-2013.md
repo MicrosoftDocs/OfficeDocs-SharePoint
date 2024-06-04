@@ -19,7 +19,7 @@ description: "Learn how to implement profile synchronization in SharePoint Serve
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-Profile synchronization (also known as "profile sync") allows you to create user profiles by importing information from other systems that are used in your organization. Before you read this article you should understand the concepts introduced in the article [Overview of profile synchronization in SharePoint Server 2013](profile-synchronization-in-sharepoint-server-2013.md). Profile synchronization is also used in server-to-server authentication which enables servers to access and request resources from one another server on behalf of users. For more information, see [Server-to-server authentication and user profiles in SharePoint Server](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md).
+Profile synchronization (also known as "profile sync") allows you to create user profiles by importing information from other systems that are used in your organization. Before you read this article, you should understand the concepts introduced in the article [Overview of profile synchronization in SharePoint Server 2013](profile-synchronization-in-sharepoint-server-2013.md). Profile synchronization is also used in server-to-server authentication that enables servers to access and request resources from one another server on behalf of users. For more information, see [Server-to-server authentication and user profiles in SharePoint Server](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md).
   
 This article describes:
   
@@ -29,7 +29,7 @@ This article describes:
     
 - The external content types that will have to be created, if any.
     
-This article does not describe how to implement your plan. That information is covered in the article [Synchronize user and group profiles in SharePoint Server 2013](configure-profile-synchronization.md).
+This article doesn't describe how to implement your plan. That information is covered in the article [Synchronize user and group profiles in SharePoint Server 2013](configure-profile-synchronization.md).
   
 ## Before you begin
 <a name="beforeyoubegin"> </a>
@@ -45,7 +45,7 @@ Before you work through the planning tasks in this article, you should already:
 ## About planning for profile synchronization
 <a name="about"> </a>
 
-As the first step towards planning for profile synchronization, you'll identify synchronization connections, and collect information that you will need when you create the connection. If you will need any external content types, you'll document the requirements for those external content types, provide the requirements to a developer, and receive the details that you'll use to specify a synchronization connection to the business system.
+As the first step towards planning for profile synchronization, you'll identify synchronization connections, and collect information that you'll need when you create the connection. If you'll need any external content types, you'll document the requirements for those external content types, provide the requirements to a developer, and receive the details that you'll use to specify a synchronization connection to the business system.
   
 Next, you'll determine how to map user profile properties to information in the external systems so that they can be synchronized.
   
@@ -54,16 +54,16 @@ Finally, you'll answer more straightforward questions such as whether you'll syn
 ## Plan synchronization connections
 <a name="connections"> </a>
 
-Each property in a user's profile can come from an external system. There are two types of external systems: directory services and business systems. Throughout this article, the phrase business system is used to mean an external system that is not a directory service. SAP, Siebel, SQL Server, and custom applications are all examples of business systems. 
+Each property in a user's profile can come from an external system. There are two types of external systems: directory services and business systems. Throughout this article, the phrase business system is used to mean an external system that isn't a directory service. SAP, Siebel, SQL Server, and custom applications are all examples of business systems. 
   
 > [!NOTE]
 > For a list of supported directory services, see [Profile synchronization overview](profile-synchronization-in-sharepoint-server-2013.md). 
   
-In SharePoint Server 2013, a synchronization connection is a way to obtain user profile information from an external system. To import profiles from one of the supported directory services, you create a synchronization connection to the directory service. To import additional profile properties from a business system, you create an external content type to bring the data from the business system into SharePoint Server 2013, and then create a synchronization connection to the external content type. The following sections explain how to collect the information that you will need about each synchronization connection. 
+In SharePoint Server 2013, a synchronization connection is a way to obtain user profile information from an external system. To import profiles from one of the supported directory services, you create a synchronization connection to the directory service. To import additional profile properties from a business system, you create an external content type to bring the data from the business system into SharePoint Server 2013, and then create a synchronization connection to the external content type. The following sections explain how to collect the information that you'll need about each synchronization connection. 
   
 ### Connections to directory services
 
-Each user who you want to have a profile in SharePoint Server 2013 must have an identity in a directory service. (If users are not represented in a directory service, you can't synchronize user profiles.) Identify which directory services contain information about these users. Unless you can access the directory service yourself, you should also identify an administrator of the directory service. You will need this person's help to collect some information that will be needed to create synchronization connections.
+Each user who you want to have a profile in SharePoint Server 2013 must have an identity in a directory service. (If users aren't represented in a directory service, you can't synchronize user profiles.) Identify which directory services contain information about these users. Unless you can access the directory service yourself, you should also identify an administrator of the directory service. You'll need this person's help to collect some information that will be needed to create synchronization connections.
   
 The [Connection planning worksheet](https://go.microsoft.com/fwlink/p/?LinkID=268733) contains templates for the information that you need to collect for each type of connection. Each template is in a separate tab that is labeled with the name of the directory service provider to which it applies. Create a tab for each directory service that you identified. Copy the template for the type of directory service into the new tab. Then complete the information on each new tab according to the following table. 
   
@@ -74,7 +74,7 @@ The [Connection planning worksheet](https://go.microsoft.com/fwlink/p/?LinkID=26
 |Forest  <br/> |AD DS  <br/> |The name of the directory service forest.  <br/> |
 |Domain controller  <br/> |AD DS  <br/> |The name of the preferred domain controller. You only have to identify the domain controller if there are multiple domain controllers in the forest and you want to synchronize with a specific domain controller.  <br/> |
 |Authentication provider type  <br/> |All  <br/> | The type of authentication SharePoint Server 2013 should use to connect to the directory service. This is one of the following:  <br/>  Windows authentication  <br/>  Forms-based authentication  <br/>  Claims-based authentication  <br/>  The systems architect should be able to provide this information.  <br/> |
-|Authentication provider  <br/> |All  <br/> |If forms-based authentication or claims-based authentication will be used, fill in the name of the trusted provider. The systems architect should be able to provide this information. An authentication provider is not needed for Windows authentication.  <br/> |
+|Authentication provider  <br/> |All  <br/> |If forms-based authentication or claims-based authentication will be used, fill in the name of the trusted provider. The systems architect should be able to provide this information. An authentication provider isn't needed for Windows authentication.  <br/> |
 |Synchronization account  <br/> |All  <br/> |The account, including the domain, that will be used to connect to the directory service. It is likely that the directory service administrator will create an account to be used for synchronization.  <br/> **Note**: The permissions that the synchronization account must have are described in the [Plan account permissions](plan-profile-synchronization-for-sharepoint-server-2013.md#permission) section of this topic.  <br/> |
 |Synchronization account password  <br/> |All  <br/> |The password for the synchronization account.  <br/> **Note**: You must know the password for the synchronization account. We recommend that you do not record the password in the worksheet.  <br/> |
 |Connection port  <br/> |All  <br/> |The port that will be used to connect to the directory service.  <br/> |
@@ -106,7 +106,7 @@ There are two ways to join the clauses of an exclusion filter:
     
 You can't mix ANDs and ORs in a filter.
   
-For example, assume that temporary employees in your organization are given Active Directory accounts that begin with "T-". You want to synchronize profiles for all permanent (non-temporary) users whose accounts are not disabled. You could create a filter that uses the clauses in the following table.
+For example, assume that temporary employees in your organization are given Active Directory accounts that begin with "T-". You want to synchronize profiles for all permanent (non-temporary) users whose accounts aren't disabled. You could create a filter that uses the clauses in the following table.
   
 > [!NOTE]
 > After any changes are made to a filter, a full synchronization is required. 
@@ -125,7 +125,7 @@ You can't create a filter that is based on membership in a directory service gro
   
 ### Connections to business systems
 
-To import properties from a business system, you will need an external content type that brings the property value from the external system into SharePoint Server 2013. This article does not cover how to create an external content type. That task is usually done by a developer. This article describes the data that you must collect and give to the developer, and tells you what to do with the information that you receive. For developer information, see [External content types in SharePoint 2013](/sharepoint/dev/general-development/external-content-types-in-sharepoint).
+To import properties from a business system, you'll need an external content type that brings the property value from the external system into SharePoint Server 2013. This article doesn't cover how to create an external content type. That task is usually done by a developer. This article describes the data that you must collect and give to the developer, and tells you what to do with the information that you receive. For developer information, see [External content types in SharePoint 2013](/sharepoint/dev/general-development/external-content-types-in-sharepoint).
   
 You can use the [External content type planning worksheet](https://go.microsoft.com/fwlink/p/?LinkId=268734) to specify the external content types to be created. Go through the User Profile Properties Planning worksheet that you completed when you read the article [Plan user profiles in SharePoint Server](plan-user-profiles.md). In the External Content Type Planning worksheet, create one row for each user profile property that comes from a business system. Fill in the first three columns of each row according to the instructions in the following table.
   
@@ -163,7 +163,7 @@ The Connection Planning worksheet ([User profile properties and profile synchron
 
 To indicate that a user profile property comes from an external system, you map the property to a specific attribute of the external system. By default, certain user profile properties are mapped. You can only map a profile property to an attribute whose data type is compatible with the data type of the property. For example, you can't map the **SPS-HireDate** user profile property to the **homePhone** Active Directory attribute because **SPS-HireDate** is a date and **homePhone** is a Unicode string. For a list of which user profile property data types are compatible with which AD DS data types, see [User profile property data types in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/hh227257(v=office.14)).
   
-When you synchronize profile information, in addition to importing profile properties from external systems, you can also write data back to a directory service. You can't write data back to a business system. To indicate that SharePoint Server 2013 should export a user profile property, you map the property, and set the direction of the mapping to **Export**. Each property can only be mapped in one direction. You can't both import and export the same user profile property. The data that is exported overwrites any values that might already be present in the directory service. This is true for multivalued properties also—the exported value is not appended to the existing values, it overwrites them.
+When you synchronize profile information, in addition to importing profile properties from external systems, you can also write data back to a directory service. You can't write data back to a business system. To indicate that SharePoint Server 2013 should export a user profile property, you map the property, and set the direction of the mapping to **Export**. Each property can only be mapped in one direction. You can't both import and export the same user profile property. The data that is exported overwrites any values that might already be present in the directory service. This is true for multivalued properties also—the exported value isn't appended to the existing values, it overwrites them.
   
 Examine the User Profile Properties Planning worksheet that you completed as you read the [Plan user profiles in SharePoint Server](plan-user-profiles.md) topic. For each row (property) whose value will be imported from an external system, fill in the final three columns according to the instructions in the following table. 
   
@@ -189,7 +189,7 @@ For each row (property) whose value will be exported to a directory service, fil
 
 By default, SharePoint Server 2013 synchronizes groups, such as distribution lists, when it synchronizes user profiles. You can turn off this functionality from the Configure Synchronization Settings page of Central Administration. Synchronizing groups is only supported for AD DS.
   
-If you synchronize groups in addition to users, SharePoint Server 2013 imports information about the groups and about which users are members of the groups. Synchronizing a group does not create a profile for the group, and causes no additional user profiles to be created. In SharePoint Server 2013, groups are only used to create audiences and to display which memberships a visitor has in common with the person whose My Site the person is visiting.
+If you synchronize groups in addition to users, SharePoint Server 2013 imports information about the groups and about which users are members of the groups. Synchronizing a group doesn't create a profile for the group, and causes no additional user profiles to be created. In SharePoint Server 2013, groups are only used to create audiences and to display which memberships a visitor has in common with the person whose My Site the person is visiting.
   
 If you decide to synchronize groups, SharePoint Server 2013 will import information about all of the groups that exist in the directory service containers that you are synchronizing unless you choose to exclude groups by using a filter. The filter for excluding groups differs from the filter for excluding users, although both follow the same format.
   
@@ -224,7 +224,7 @@ The synchronization account for a connection to Active Directory Domain Services
   
 - It must have Replicate Directory Changes permission on the domain with which you'll synchronize.
     
-    The Replicate Directory Changes permission allows an account to query for the changes in the directory. This permission does not allow an account to make any changes in the directory.
+    The Replicate Directory Changes permission allows an account to query for the changes in the directory. This permission doesn't allow an account to make any changes in the directory.
     
 - If the domain controller is running Windows Server 2003, the synchronization account must be a member of the Pre-Windows 2000 Compatible Access built-in group. 
     
@@ -246,7 +246,7 @@ The synchronization account for a connection to a Sun Java System Directory Serv
   
 - Read, Write, Compare, and Search permissions to the RootDSE.
     
-- To perform incremental synchronization, the synchronization account must also have Read, Compare, and Search permissions to the change log (cn=changelog). If the change log does not exist, you must create it before synchronizing.
+- To perform incremental synchronization, the synchronization account must also have Read, Compare, and Search permissions to the change log (cn=changelog). If the change log doesn't exist, you must create it before synchronizing.
     
 ### IBM Tivoli version 5.2
 

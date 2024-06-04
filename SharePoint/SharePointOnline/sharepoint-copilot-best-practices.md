@@ -10,7 +10,7 @@ audience: Admin
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
-ms.topic: conceptual
+ms.topic: best-practices
 ms.service: sharepoint-online
 ms.collection: 
 - M365-collaboration

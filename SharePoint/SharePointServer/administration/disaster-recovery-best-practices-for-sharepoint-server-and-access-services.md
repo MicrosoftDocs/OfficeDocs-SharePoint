@@ -37,7 +37,7 @@ Regardless of your choice of technologies there are a few requirements and best-
   
 ## Step 1: Setting up SharePoint Server for Disaster Recovery
 
-The goal of this step is to create a smoother disaster recovery experience by removing potential points of failure. By matching Authentication Realms, and Database Server ReferenceIDs so they are the same in the disaster recovery farm as in the primary farm, you will be prepared for recovery. Likewise, it is essential to know which databases must be managed in order to recover successfully.
+The goal of this step is to create a smoother disaster recovery experience by removing potential points of failure. By matching Authentication Realms, and Database Server ReferenceIDs so they're the same in the disaster recovery farm as in the primary farm, you'll be prepared for recovery. Likewise, it's essential to know which databases must be managed in order to recover successfully.
   
 Let's drill into the details, below.
   
@@ -84,7 +84,7 @@ $newdbserver = New-SPAccessServicesDatabaseServer -ServiceContext $context -Data
 
 ```
 
-Write the ServerRefID to the screen for use when registering the secondary farm Access Services Database Server
+Write the ServerRefID to the screen for use when registering the secondary farm Access Services Database Server.
   
 ```
  $ServerRefID
@@ -115,7 +115,7 @@ These databases need to be managed as a part of your Disaster Recovery strategy.
 |:-----|:-----|
 |App Management database  <br/> |Contains Access app registrations and app principals.  <br/> |
 |Subscription Settings database  <br/> |Manages the unique identities provided to Access apps to create the URL for the Access application.  <br/> |
-|Secure Store database  <br/> |The Secure Store Service can be leveraged to provide alternate authentication methods for Access apps. The guide referred to earlier doesn't cover doing this, but we will add the Secure Store database to our strategy for completeness.  <br/> |
+|Secure Store database  <br/> |The Secure Store Service can be used to provide alternate authentication methods for Access apps. The guide referred to earlier doesn't cover doing this, but we'll add the Secure Store database to our strategy for completeness.  <br/> |
 |SharePoint Content database  <br/> |These databases contain the site collections into which Access apps have been deployed.  <br/> |
 |Access Services Application databases  <br/> |The databases containing the actual data you need to preserve for the Access Services application to function.  <br/> |
    
@@ -128,7 +128,7 @@ After failing-over to the secondary datacenter, you need to use the five differe
 > [!NOTE]
 > This article only deals with the five database types listed in the table above. To successfully recover a full SharePoint Server farm after a data center failover, additional steps are needed and the reader is directed to review the steps in [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-concepts.md). 
   
-For the test environment we discuss in this article, that means the following databases are recovered from the Primary SQL Server SQL01 to the Secondary SQL Server SQL02 in the DR site.
+For the test environment we discuss in this article, the following databases are recovered from the Primary SQL Server SQL01 to the Secondary SQL Server SQL02 in the DR site.
   
 - App Management database
     
@@ -171,7 +171,7 @@ Use the following PowerShell commands:
   $secstoreproxy = New-SPSecureStoreServiceApplicationProxy -Name "Secure Store Proxy" -ServiceApplication $secstore
   ```
 
-Also note that if you are using the secure store in the secondary farm you will need to generate a new secure store encryption key before you can leverage any Applications registered there.
+Also note that if you're using the secure store in the secondary farm you'll need to generate a new secure store encryption key before you can leverage any Applications registered there.
   
 ### b. Attach the content database(s)
 
@@ -199,20 +199,20 @@ At this point we have almost everything we need to support Access Services in Di
 
 The key elements to consider here are the domains you had specified in the primary site and the domains you intend to use in the secondary DR site. If you plan to use the same domains, repoint the CNAME record for the SP Apps domain to the secondary SharePoint server, for example repoint **\*.contosoapps.com** to the secondary SharePoint Server. 
   
-Make sure you setup the App Urls in Central Administration on the DR site.
+Make sure your setup the App Urls in Central Administration on the DR site.
   
 1. Open Central Administration, select **Apps**.
     
 2. Select **Configure App URLs**.
     
-Recovering the App Management Database does not preserve the App Domain even though it does preserve the App Prefix.
+Recovering the App Management Database doesn't preserve the App Domain even though it does preserve the App Prefix.
   
 > [!IMPORTANT]
 > Failing to set the App Domain will result in a DNS lookup failure and a site not found error in the browser.
   
 ### b. Set up Access Database Logins for the secondary site
 
-Access Services requires the Contained Databases feature of SQL Server, which supports contained database logins. However, Access Services in SharePoint 2013 and 2016 only partially leverages this feature, and so the database logins are actually stored in the Master DB, just like any other login. The downside to this is that on failover we need to regenerate any missing logins and ensure we set the same password for the account.
+Access Services requires the Contained Databases feature of SQL Server, which supports contained database logins. However, Access Services in SharePoint 2013 and 2016 only partially uses this feature, and so the database logins are stored in the Master DB, just like any other login. The downside to this is that on failover we need to regenerate any missing logins and ensure we set the same password for the account.
   
 Fortunately, Microsoft has produced an easy way to do this documented right here (and we'll be using this article in step 1, below) [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/kb/918992).
   
@@ -240,7 +240,7 @@ SharePoint Server 2016 has been tested in a disaster recovery scenario using SQL
   
 In all scenarios we were able to successfully recover the Access Applications on the Secondary SharePoint farm and perform all CRUD operations post failover, after following the guidance in this document.
   
-The key elements are : Ensure both server farms are setup with matching Authentication Realms. Ensure Access Services database servers are referenced with the same **ServerReferenceID**. Transfer SQL Logins from Production to DR SQL Servers. 
+The key elements are: Ensure both server farms are set up with matching Authentication Realms. Ensure Access Services database servers are referenced with the same **ServerReferenceID**. Transfer SQL Logins from Production to DR SQL Servers. 
   
 ## See also
 
