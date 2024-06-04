@@ -1,5 +1,5 @@
 ---
-ms.date: 05/20/2024
+ms.date: 06/04/2024
 title: "Microsoft SharePoint Premium - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra

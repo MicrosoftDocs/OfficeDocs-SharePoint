@@ -1,5 +1,5 @@
 ---
-ms.date: 05/21/2024
+ms.date: 06/04/2024
 title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
 ms.author: mactra
