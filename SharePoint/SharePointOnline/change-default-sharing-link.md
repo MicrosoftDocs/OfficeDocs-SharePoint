@@ -2,8 +2,8 @@
 ms.date: 07/16/2018
 title: "Change the default sharing link for a site"
 ms.reviewer: srice
-ms.author: jtremper
-author: jacktremper
+ms.author: ruihu
+author: maggierui
 manager: pamgreen
 audience: Admin
 f1.keywords:
