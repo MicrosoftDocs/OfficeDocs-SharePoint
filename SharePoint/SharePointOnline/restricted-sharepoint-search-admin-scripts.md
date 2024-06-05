@@ -146,7 +146,7 @@ Add-SPOTenantRestrictedSearchAllowedList -SitesListFileUrl <string> [-ContainsHe
  **Example 1**
 
 ```powershell
-Add-SPOTenantRestrictedSearchAllowedList -SitesList @(“[https://contoso.sharepoint.com/sites/Marketing](https://contoso.sharepoint.com/sites/Marketing)”, “[https://contoso.sharepoint.com/sites/Benefits](https://contoso.sharepoint.com/sites/Benefits)”)
+Add-SPOTenantRestrictedSearchAllowedList -SitesList @("https://contoso.sharepoint.com/sites/Marketing", "https://contoso.sharepoint.com/sites/Benefits")
 ```
 
 This example lets the admin add the sites to the allowed list.
