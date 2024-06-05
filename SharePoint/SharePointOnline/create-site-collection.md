@@ -36,7 +36,7 @@ description: "This article describes how global and SharePoint admins can create
 
 # Create a site
 
-This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
+This article describes how being at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](../SharePointServer/sites/create-a-site-collection.md).
 
