@@ -22,11 +22,11 @@ description: "Learn how to display recommendations and popular items on a ShareP
   
 This series of articles explains how to use the Usage analytics feature that was introduced in SharePoint Server to display "smart content" on your website. By "smart content" we mean content such as recommendations and popular items.
   
--  *Recommendations*  are based on how other visitors have interacted with your website. For example, on a product page, you can display "People who viewed this product also viewed  *\<other products\>*  ." 
+-  *Recommendations*  are based on how other visitors have interacted with your website. For example, on a product page, you can display "People who viewed this product also viewed  *\<other products\>. " 
     
 -  *Popular items*  are the most frequently viewed items on the whole site, or in a specific category. For example, the most viewed laptops on a site that sells technology products. 
     
-To help explain, we'll use examples from a fictitious company called Contoso. Here's what the website will look like when it is finished.
+To help explain, we'll use examples from a fictitious company called Contoso. Here's what the website will look like when it's finished.
   
 ![Examples](../media/OTCSP_Examples.png)
   
@@ -45,6 +45,6 @@ To help explain, we'll use examples from a fictitious company called Contoso. He
     
 - [View and configure usage analytics reports in SharePoint Server](view-and-configure-usage-analytics-reports.md)
     
-The scenario in this set of topics draws heavily upon the concepts, feature descriptions, and procedures introduced in the [How to set up a product-centric website in SharePoint Server](how-to-set-up-a-product-centric-website.md) series. We recommend reading it first, as it will makes things much easier to understand. 
+The scenario in this set of articles draws heavily upon the concepts, feature descriptions, and procedures introduced in the [How to set up a product-centric website in SharePoint Server](how-to-set-up-a-product-centric-website.md) series. We recommend reading it first, as it will make things easier to understand. 
   
 

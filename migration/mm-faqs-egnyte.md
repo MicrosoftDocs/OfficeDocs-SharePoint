@@ -24,10 +24,10 @@ description: Migration Manager Egnyte FAQs
 
 
 **Question:**  **Is Migration Manager Egynte available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  No. Migration Manager Egnyte isn't available for any of the Government clouds.
+Answer: No. Migration Manager Egnyte isn't available for any of the Government clouds.
 
 **Question:**   **What gets transferred?**</br>
-Answer: Only owned folders and the root files for each user are copied. If a user isn't the owner of data they can access, we don't copy it. Content may be automatically re-shared after it's migrated so that each user has access to their content exactly as before.
+Answer: Only owned folders and the root files for each user are copied. If a user isn't the owner of data they can access, we don't copy it. Content may be automatically reshared after it's migrated so that each user has access to their content exactly as before.
 </br>
 
 **Question:**   **Does Migration Manager Egnyte sync files?**</br>
@@ -46,7 +46,7 @@ Answer: No. We never delete your data from any source. We take your data from on
 </br>
 
 **Question:**   **Can I rearrange content during a migration?**</br>
-Answer:  Not recommended. Any major changes in directory structure should happen before or after your migration. It's also not a good idea to use our app to rearrange content.  The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is retransferred, including all subfolders.  When sharing permissions are transferred, both owners and collaborators receive duplicate data if content was rearranged or renamed.
+Answer:  Not recommended. Any major changes in directory structure should happen before or after your migration. It's also not a good idea to use our app to rearrange content. The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is retransferred, including all subfolders. When sharing permissions are transferred, both owners and collaborators receive duplicate data if content was rearranged or renamed.
 </br>
 
 **Question:**   **What happens to external sharing links?**</br>

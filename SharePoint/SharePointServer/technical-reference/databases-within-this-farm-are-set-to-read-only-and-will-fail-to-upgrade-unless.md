@@ -1,5 +1,5 @@
 ---
-title: "Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state (SharePoint Server)"
+title: "Databases within this farm are set to read only and will fail to upgrade unless it's set to a read-write state (SharePoint Server)"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,16 +15,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 85aa1c35-1322-42ad-a625-1496aee67858
-description: "Learn how to resolve the SharePoint Health Analyzer rule: Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state, for SharePoint Server."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Databases within this farm are set to read only and will fail to upgrade unless it's set to a read-write state, for SharePoint Server."
 ---
 
-# Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state (SharePoint Server)
+# Databases within this farm are set to read only and will fail to upgrade unless it's set to a read-write state (SharePoint Server)
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
- **Rule Name:** Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state. 
+ **Rule Name:** Databases within this farm are set to read only and will fail to upgrade unless it's set to a read-write state. 
   
- **Summary:** The databases are set to read-only and cannot be upgraded. 
+ **Summary:** The databases are set to read-only and can't be upgraded. 
   
  **Cause:** The databases are set to read-only. 
   

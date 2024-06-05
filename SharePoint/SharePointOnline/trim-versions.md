@@ -1,9 +1,9 @@
 ---
 title: "Trim existing versions on site, library, or OneDrive(Preview)"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 04/30/2024
 audience: Admin
@@ -26,7 +26,7 @@ description: "This article provides guidance on how to trim existing versions fr
 > [!CAUTION]
 > Versions deleted using trimming jobs are permanently deleted. This deletion workflow bypasses the normal recycle bin retention and deleted versions cannot be recovered. 
 
-As a global or SharePoint admin in Microsoft 365, you can queue a job to trim existing versions on a site, library, or OneDrive user account to reduce the version storage footprint of your site. You can also align existing version storage with updated version history limits by scheduling a job to trim existing versions or align existing version storage with updated Version history limits.<br> There are several things you need to consider before you decide to trim existing Version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted and can't be recovered from recycle bin. 
+As a SharePoint admin in Microsoft 365, you can queue a job to trim existing versions on a site, library, or OneDrive user account to reduce the version storage footprint of your site. You can also align existing version storage with updated version history limits by scheduling a job to trim existing versions or align existing version storage with updated Version history limits.<br> There are several things you need to consider before you decide to trim existing Version history on a site or library. Version availability is critical for recovery scenarios like undoing unwanted changes. Versions deleted using trimming jobs are permanently deleted and can't be recovered from recycle bin. 
 
 | **Phase** | **Recommended Actions** |
 | --- | --- |
@@ -95,7 +95,7 @@ Follow these steps to trim existing versions using PowerShell.
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or Remove programs and uninstall **SharePoint Online Management Shell**.
 
-1. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Connect to SharePoint as a [Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to trim the existing versions:
 
 | **Action** | **PowerShell Command** |
