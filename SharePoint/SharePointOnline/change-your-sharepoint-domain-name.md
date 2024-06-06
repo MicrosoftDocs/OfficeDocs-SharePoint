@@ -46,7 +46,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > - Advanced Tenant Rename is available to organizations that have less than 100,000 total sites, available with SharePoint Advanced Management. See [Advanced Tenant Rename](change-your-sharepoint-domain-name.md#advanced-tenant-rename).
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md). 
-> - This feature isn't available for organizations that have set up multi-geo. 
+> - This feature isn't available for organizations that have set up multi-geo. This includes those that had enabled a trial or the paid offering in the past. 
 > - If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), or still has a .de domain, your domain name can't be changed.
 > - When you rename your SharePoint domain, we create a redirect at the previous address which will expire 1 year after the rename.
 > - You can only rename your SharePoint domain once. If you need additional renames, submit a support request by selecting [Rename a SharePoint Tenant more than once](https://admin.microsoft.com/AdminPortal/?searchSolutions=Rename%20a%20SharePoint%20Tenant%20more%20than%20once).
