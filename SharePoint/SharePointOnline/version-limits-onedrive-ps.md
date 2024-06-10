@@ -1,9 +1,9 @@
 ---
 title: "Set version limits on OneDrive using PowerShell(Preview)"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 04/30/2024
 audience: Admin
@@ -23,7 +23,7 @@ description: "This article provides guidance on how an admin can set the version
 
 # Change version limits on OneDrive using PowerShell (Preview)
 
-By default, organization version history settings are applied to all new OneDrive accounts. As a global or SharePoint admin in Microsoft 365, you can set the version limits on OneDrive storage for a specific user.
+By default, organization version history settings are applied to all new OneDrive accounts. As a SharePoint admin in Microsoft 365, you can set the version limits on OneDrive storage for a specific user.
 
 Follow these steps to manage Version history limits for a site by using PowerShell.
 
@@ -32,7 +32,7 @@ Follow these steps to manage Version history limits for a site by using PowerShe
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall **SharePoint Online Management Shell**.
 
-1. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to manage Version history limits for a specific user:
 
 | **Action** | **PowerShell Command** |
@@ -46,5 +46,3 @@ Follow these steps to manage Version history limits for a site by using PowerShe
 ## Learn More
 
 [Change a specific user's OneDrive storage space](change-user-storage.md)
-
-

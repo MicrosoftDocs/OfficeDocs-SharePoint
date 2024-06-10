@@ -1,5 +1,5 @@
 ---
-ms.date: 04/09/2024
+ms.date: 06/04/2024
 title: "View the list of OneDrive URLs for users in your organization"
 ms.reviewer: kmcdowe
 ms.author: mactra
@@ -8,7 +8,7 @@ manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: one-drive
 ms.localizationpriority: medium
 search.appverid:
@@ -30,7 +30,7 @@ description: "In this article, you'll learn how to view the OneDrive URLs for us
 
 # View the list of OneDrive URLs for users in your organization
 
-This article is for global and SharePoint admins in Microsoft 365 who want to confirm the OneDrive URLs for users in their organization.
+This article is for SharePoint Administrators in Microsoft 365 who want to confirm the OneDrive URLs for users in their organization.
 
 ## About OneDrive URLs
 
@@ -50,7 +50,7 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's
   
 ## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
-1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint admin, global admin, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
+1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint Administrator, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
 
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), browse to **Reports** \> **Usage**. Under  **OneDrive files**, select **View more**.
@@ -97,7 +97,7 @@ The list you create in these steps will be saved to a text file.
 
 4. The script will prompt you for the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
 
-5. You'll then be prompted to sign in. Use a SharePoint admin or global admin account.
+5. You'll then be prompted to sign in. Use a SharePoint Administrator account.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive URLs in your organization. The following text provides an example of how the list of URLs in this file should be formatted.
   

@@ -8,7 +8,7 @@ manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  essentials-get-started
