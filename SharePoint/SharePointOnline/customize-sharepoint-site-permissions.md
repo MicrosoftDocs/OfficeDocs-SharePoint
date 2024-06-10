@@ -168,7 +168,7 @@ If you have customized a permission level or created a new permission level, you
 4. Click **OK**.
     
     > [!NOTE]
-    >  To see the Site Collection Administrators link, you must be a site collection administrator, or a Global Administrator or SharePoint Administrator in your organization. This link is not displayed to site owners. 
+    >  To see the Site Collection Administrators link, you must be at least a [SharePoint Administrator](./sharepoint-admin-role.md). This link is not displayed to site owners.
   
 
 
