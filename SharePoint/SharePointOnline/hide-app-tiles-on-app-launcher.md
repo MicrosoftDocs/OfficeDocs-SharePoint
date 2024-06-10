@@ -40,7 +40,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 > [!NOTE]
 > Hiding these services doesn't remove them for users. If users have saved the address of the service, they will still be able to access it. <br> If users click a tile for a service they don't have, they will see an Access Denied message.
   
-## To hide app tiles
+## To show or hide app tiles
 <a name="__top"> </a>
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
@@ -48,16 +48,18 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
 
-2. At the bottom of the page, select **classic settings page**.
+2. Open the **Settings** page.
+   
+3. At the bottom of the page, select **go to the classic settings page**.
 
-3. In **Show or Hide App Tiles**, select the tile you want to hide.
+4. In **Show or Hide App Tiles**, select the tile you want to show or hide.
 
     ![Show or Hide App Tiles settings](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.png)
   
     > [!NOTE]
     > If you have an Office 365 Education subscription, you also have the option to hide **OneNote Class Notebooks** and **OneNote Staff Notebooks**. <br> Hiding the OneDrive tile also hides the tiles for Word, Excel, PowerPoint, OneNote, and Visio.
   
-4. To save the settings, select **OK**.
+6. To save the settings, select **OK**.
     
 ## See also
 <a name="__top"> </a>
