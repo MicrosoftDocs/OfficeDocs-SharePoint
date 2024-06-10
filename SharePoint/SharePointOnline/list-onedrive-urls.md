@@ -1,11 +1,6 @@
 ---
-<<<<<<< patch-7
-ms.date: 04/09/2024
-title: "View OneDrive URLs for users in your organization"
-=======
-ms.date: 06/04/2024
+ms.date: 06/10/2024
 title: "View the list of OneDrive URLs for users in your organization"
->>>>>>> main
 ms.reviewer: kmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
@@ -30,16 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
-description: "In this article, you'll learn how to view the OneDrive URLs for users in your organization."
+description: "In this article, you learn how to view the OneDrive URLs for users in your organization."
 ---
 
 # View OneDrive URLs for users in your organization
 
-<<<<<<< patch-7
-As a global or SharePoint admin in Microsoft 365, you may need to confirm the OneDrive URLs for specific users in your organization. Whether you’re troubleshooting, provisioning new accounts, or simply ensuring accurate information, understanding the methods to retrieve OneDrive URLs is essential.
-=======
-This article is for SharePoint Administrators in Microsoft 365 who want to confirm the OneDrive URLs for users in their organization.
->>>>>>> main
+As a SharePoint Administrator, you can confirm OneDrive URLs for specific users in your organization. Whether you’re troubleshooting, provisioning new accounts, or simply ensuring accurate information, understanding the methods to retrieve OneDrive URLs is essential.
 
 ## About OneDrive URLs
 
@@ -50,7 +41,7 @@ The URL for a user's OneDrive is usually in the following format: `https://<tena
 |`onmicrosoft.com`     |      `rsimone@contoso.onmicrosoft.com`   |    `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`     |
 |custom     |    `rsimone@contoso.com`     |   `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`      |
 
-Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's always best to confirm a user's OneDrive URL if you need to specify it.
+Numbers or GUIDs might be appended to the URL if a conflict is detected. We recommend you confirm a user's OneDrive URL if you need to specify it.
 
 > [!NOTE]
 > Unless OneDrive accounts are [pre-provisioned](pre-provision-accounts.md), the URL isn't created until a user accesses their OneDrive for the first time.
@@ -68,7 +59,7 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's
 
     ![Table of URLs at the bottom of the OneDrive usage report](media/usage-report-table.png)
 
- If you see GUIDs in the table instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display de-identified names for users, groups, and sites**.
+ If you see GUIDs in the table instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display deidentified names for users, groups, and sites**.
 
 You can copy individual OneDrive URLs from the URL column. For easier searching and copying, export the table as a .csv file. In the upper left of the table, select **Export**.
 
@@ -76,9 +67,7 @@ You can copy individual OneDrive URLs from the URL column. For easier searching 
 
 ## Use PowerShell to create a list of all the OneDrive URLs in your organization
 
-<a name="BKMK_Step2"> </a>
-
-The list you create in these steps will be saved to a text file.
+The list you create in these steps are saved to a text file.
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -95,18 +84,18 @@ The list you create in these steps will be saved to a text file.
     Write-Host "Done! File saved as $($LogFile)."
     ```
 
-3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
+3. Open the SharePoint Online Management Shell. Navigate to the directory where the script was saved and run:
 
     ```PowerShell
     PS C:\>.\OneDriveSites.ps1
     ```
 
    > [!NOTE]
-   > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
+   > If an error message about being unable to run scripts appears, you'll need to change your execution policies. For more information, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
-4. The script will prompt you for the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
+4. The script prompts you for the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
 
-5. You'll then be prompted to sign in. Use a SharePoint Administrator account.
+5. When prompted, sign in with your SharePoint Administrator account credentials.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive URLs in your organization. The following text provides an example of how the list of URLs in this file should be formatted.
   
@@ -119,46 +108,55 @@ https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
 
 Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.
 
-### Additional Methods to Retrieve OneDrive URLs
+### Other methods to retrieve OneDrive URLs
 
 #### Method 1: Using the **Diagnostic Information** section in OneDrive settings
 
-1. As an admin of the OneDrive site, navigate to the site.
-2. In the upper right-hand corner, click the settings or gear icon.
-3. Select "OneDrive Settings."
-4. Choose "More Settings."
-5. Under the "Diagnostic Information" section, copy the OneDrive Web URL.
+1. As an administrator of the OneDrive site, navigate to the site.
+2. In the upper right-hand corner, select the **Settings** icon.
+3. Select **OneDrive Settings** and **More Settings**.
+4. Under the **Diagnostic Information** section, copy the OneDrive Web URL.
 
 #### Method 2: Using PnP PowerShell (Get-PnPUserProfileProperty)
+
 PnP PowerShell is a versatile tool for managing SharePoint and OneDrive. To retrieve the PersonalURL (OneDrive URL) for a user, follow these steps:
 
 1. **Install PnP PowerShell** if you haven't already. Run the following command in PowerShell:
+
     ```powershell
     Install-Module PnP.PowerShell -Scope CurrentUser
     ```
+
     - If you need more details on installation, refer to the official PnP PowerShell installation guide.
 
 2. Run the following command:
+
     ```powershell
     Get-PnPUserProfileProperty -Account "user@example.com" | Select-Object -ExpandProperty PersonalUrl
     ```
+
     - Replace `"user@example.com"` with the actual user's email address.
 
 #### Method 3: Microsoft Graph API
+
 The Microsoft Graph API provides programmatic access to OneDrive and other Microsoft 365 services. To get the OneDrive URL using Graph API:
 
 1. **Install the Microsoft Graph PowerShell module** if you haven't already. Use this command:
+
     ```powershell
     Install-Module Microsoft.Graph
     ```
+
     - For step-by-step instructions, check out this tutorial on installing PnP PowerShell for SharePoint Online and Azure Cloud Shell.
 
 2. Authenticate and connect to Microsoft Graph:
+
     ```powershell
     Connect-MgGraph -Scopes "Directory.ReadWrite.All", "Sites.ReadWrite.All", "Files.ReadWrite.All"
     ```
 
 3. Retrieve the OneDrive URL for a specific user:
+
     ```powershell
     $userPrincipalName = "user@example.com"
     $userObject = Get-MgUser -Filter "userPrincipalName eq '$userPrincipalName'"
@@ -166,4 +164,3 @@ The Microsoft Graph API provides programmatic access to OneDrive and other Micro
     $oneDriveWebUrl = $userOneDrive.webUrl
     Write-Host "OneDrive WebURL for $userPrincipalName: $oneDriveWebUrl"
     ```
-
