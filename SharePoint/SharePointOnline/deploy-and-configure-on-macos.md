@@ -69,13 +69,13 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <plist version="1">
 <dict>
 <key>PayloadUUID</key>
-<string>69DD9825-067B-4C6C-8B54-EDA83C7F179D</string>
+<string>69DD9825-067B-4C6C-8B54-EDA83C7F179D</string> <!--need a new UUID-->
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadOrganization</key>
 <string>Microsoft Corporation</string>
 <key>PayloadIdentifier</key>
-<string>com.microsoft.wdav.background</string>
+<string>com.microsoft.OneDrive</string> <!--This would be com.microsoft.OneDrive-mac for the Store app-->
 <key>PayloadDisplayName</key>
 <string>OneDrive - Background Services</string>
 <key>PayloadDescription</key>
@@ -94,9 +94,9 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <key>PayloadDescription</key>
 <string>Background Service Management for OneDrive</string>
 <key>PayloadIdentifier</key>
-<string>4DB96276-2310-44C2-AE11-C6E761FB0304.privacy.04102481-C1F1-44F2-B548-E0B554890493</string>
+<string>4DB96276-2310-44C2-AE11-C6E761FB0304.privacy.04102481-C1F1-44F2-B548-E0B554890493</string> <!--need a new UUID-->
 <key>PayloadUUID</key>
-<string>A9BF8FA9-CEA3-42A2-B8C1-E1998B84CBB0</string>
+<string>A9BF8FA9-CEA3-42A2-B8C1-E1998B84CBB0</string> <!--need a new UUID-->
 <key>Rules</key>
 <array>
 <dict>
@@ -104,12 +104,6 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <string>LabelPrefix</string>
 <key>RuleValue</key>
 <string>com.microsoft.fresno</string>
-</dict>
-<dict>
-<key>RuleType</key>
-<string>LabelPrefix</string>
-<key>RuleValue</key>
-<string>com.microsoft.dlp</string>
 </dict>
 </array>
 <key>PayloadType</key>
