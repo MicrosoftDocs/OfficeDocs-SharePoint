@@ -69,7 +69,7 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <plist version="1">
 <dict>
 <key>PayloadUUID</key>
-<string>69DD9825-067B-4C6C-8B54-EDA83C7F179D</string> <!--need a new UUID-->
+<string>9FE052B5-E7B6-4BF9-94EB-DB611E0E323E</string>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadOrganization</key>
@@ -94,9 +94,9 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <key>PayloadDescription</key>
 <string>Background Service Management for OneDrive</string>
 <key>PayloadIdentifier</key>
-<string>4DB96276-2310-44C2-AE11-C6E761FB0304.privacy.04102481-C1F1-44F2-B548-E0B554890493</string> <!--need a new UUID-->
+<string>4C3F2438-464E-43F5-8961-D4672D4A9F5D.privacy.C7B71805-73F2-43F6-A5AA-29C9CAD728B4</string>
 <key>PayloadUUID</key>
-<string>A9BF8FA9-CEA3-42A2-B8C1-E1998B84CBB0</string> <!--need a new UUID-->
+<string>F9EE3920-EAD8-4472-AF2F-52D2B57FDB31</string>
 <key>Rules</key>
 <array>
 <dict>
@@ -576,7 +576,7 @@ If you don't set any of the following settings, then the default setting moves b
 <a name="OpenAtLogin"> </a>
 
 > [!IMPORTANT]
-> Please refer to [Background services](deploy-and-configure-on-macos.ms#Backgroundservices) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
+> The OpenAtLogin setting will be deprecated with Sync app 24.113. Please refer to [Background services](deploy-and-configure-on-macos.ms#Backgroundservices) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
 
