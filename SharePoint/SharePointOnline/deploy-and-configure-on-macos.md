@@ -75,7 +75,7 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <key>PayloadOrganization</key>
 <string>Microsoft Corporation</string>
 <key>PayloadIdentifier</key>
-<string>com.microsoft.OneDrive</string> <!--This would be com.microsoft.OneDrive-mac for the Store app-->
+<string>9FE052B5-E7B6-4BF9-94EB-DB611E0E323E</string>
 <key>PayloadDisplayName</key>
 <string>OneDrive - Background Services</string>
 <key>PayloadDescription</key>
@@ -103,7 +103,13 @@ You will need to create system configuration profiles that OneDrive needs to ope
 <key>RuleType</key>
 <string>LabelPrefix</string>
 <key>RuleValue</key>
-<string>com.microsoft.fresno</string>
+<string>com.microsoft.OneDrive</string><!--This would be com.microsoft.OneDrive-mac for the Store app-->
+</dict>
+<dict>
+<key>RuleType</key>
+<string>BundleIdentifierPrefix</string>
+<key>RuleValue</key>
+<string>com.microsoft.OneDriveLauncher</string>
 </dict>
 </array>
 <key>PayloadType</key>
