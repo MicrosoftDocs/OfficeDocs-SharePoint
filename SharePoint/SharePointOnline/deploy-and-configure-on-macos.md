@@ -57,6 +57,72 @@ Configure the settings on macOS as follows:
 
 On the next start of OneDrive, the new settings will be picked up.
 
+## Background services
+
+> [!IMPORTANT]
+> macOS 13 (Ventura) contains new privacy enhancements. Beginning with this version, by default, applications cannot run in background without explicit consent. OneDrive must run its daemon process in background. This configuration profile grants Background Service permissions to OneDrive. If you previously configured OneDrive through Microsoft Intune, we recommend you update the deployment with this configuration profile.
+
+You will need to create system configuration profiles that OneDrive needs to open at login and run reliably in the background.  Here is an example:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+<dict>
+<key>PayloadUUID</key>
+<string>9FE052B5-E7B6-4BF9-94EB-DB611E0E323E</string>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadOrganization</key>
+<string>Microsoft Corporation</string>
+<key>PayloadIdentifier</key>
+<string>9FE052B5-E7B6-4BF9-94EB-DB611E0E323E</string>
+<key>PayloadDisplayName</key>
+<string>OneDrive - Background Services</string>
+<key>PayloadDescription</key>
+<string/>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadEnabled</key>
+<true/>
+<key>PayloadRemovalDisallowed</key>
+<true/>
+<key>PayloadScope</key>
+<string>System</string>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>PayloadDescription</key>
+<string>Background Service Management for OneDrive</string>
+<key>PayloadIdentifier</key>
+<string>4C3F2438-464E-43F5-8961-D4672D4A9F5D.privacy.C7B71805-73F2-43F6-A5AA-29C9CAD728B4</string>
+<key>PayloadUUID</key>
+<string>F9EE3920-EAD8-4472-AF2F-52D2B57FDB31</string>
+<key>Rules</key>
+<array>
+<dict>
+<key>RuleType</key>
+<string>LabelPrefix</string>
+<key>RuleValue</key>
+<string>com.microsoft.OneDrive</string><!--This would be com.microsoft.OneDrive-mac for the Store app-->
+</dict>
+<dict>
+<key>RuleType</key>
+<string>BundleIdentifierPrefix</string>
+<key>RuleValue</key>
+<string>com.microsoft.OneDriveLauncher</string>
+</dict>
+</array>
+<key>PayloadType</key>
+<string>com.apple.servicemanagement</string>
+<key>PayloadDisplayName</key>
+<string>Background Service Management for OneDrive</string>
+</dict>
+</array>
+</dict>
+</plist>
+```
+
+
 ## Overview of settings
 
 Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
@@ -514,6 +580,9 @@ If you don't set any of the following settings, then the default setting moves b
 ### OpenAtLogin
 
 <a name="OpenAtLogin"> </a>
+
+> [!IMPORTANT]
+> The OpenAtLogin setting will be deprecated with Sync app 24.113. Please refer to [Background services](deploy-and-configure-on-macos.ms#Backgroundservices) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
 
