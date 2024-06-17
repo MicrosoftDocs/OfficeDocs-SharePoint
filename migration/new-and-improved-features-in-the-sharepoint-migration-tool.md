@@ -196,7 +196,7 @@ The following features are now available in SPMT:
 
 |Feature| Description|
 |:-----|:-----|
-|Setting deprecated|The setting, **Migrate files and folders with invalid characters** are deprecated.|
+|Setting deprecated|The setting, **Migrate files and folders with invalid characters** is deprecated.|
 |New setting|A new setting for file share migration, **Replace invalid filename characters**, auto-replaces invalid characters in a filename with a character chosen by the user.
 |New PowerShell parameter|A new parameter for file share migration, **-ReplacementOfInvalidChar**, is added to the cmdlet **Start-SPMTMigration**. This parameter will auto-replace invalid characters in a filename with a character chosen by the user.|
 |UI|Tenant admin users can select the promotional link, "Go to Migration Manager" on the SPMT Welcome page.|
