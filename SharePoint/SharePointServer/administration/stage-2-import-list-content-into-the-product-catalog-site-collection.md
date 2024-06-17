@@ -25,7 +25,7 @@ description: "Learn how to import list content into the Product Catalog Site Col
   
 ## Start stage 2
 
-After we've set up our Product Catalog Site Collection, as described in [Stage 1: Create site collections for cross-site publishing in SharePoint Server](stage-1-create-site-collections-for-cross-site-publishing.md), we can import content into this site collection. To do this, we'll use PowerShell scripts. But before we start, let's take a look at what is automatically created in a **Product Catalog Site Collection**. 
+After we've set up our Product Catalog Site Collection, as described in [Stage 1: Create site collections for cross-site publishing in SharePoint Server](stage-1-create-site-collections-for-cross-site-publishing.md), we can import content into this site collection. To do this, use PowerShell scripts. But before we start, let's take a look at what is automatically created in a **Product Catalog Site Collection**. 
   
 In our newly created **Product Catalog Site Collection**, we can see a default list template named **Products**. 
   
@@ -39,7 +39,7 @@ The **Item Category** site column is associated with the term set named **Produc
   
 ![Product Hierarchy](../media/OTCSP_ProductHierarchy.PNG)
   
-To import list content into the **Products** list, we'll use PowerShell scripts that will: 
+To import list content into the **Products** list, use PowerShell scripts that will: 
   
 - Add content to the **Products** list. 
     
@@ -47,7 +47,7 @@ To import list content into the **Products** list, we'll use PowerShell scripts 
     
 - Associate each item in the **Products** list with the correct term from the **Product Hierarchy** term set, and display this in the **Item Category** column in the **Products** list. 
     
-Before we can run the PowerShell scripts, we'll have to prepare the following:
+Before we can run the PowerShell scripts, we have to prepare the following:
   
 - A list of the site columns we want to add to the **Products** list. 
     
@@ -59,11 +59,11 @@ The PowerShell scripts, instructions on how to create the tab delimited text fil
   
 After we have run the five PowerShell scripts, we get the following:
   
-- List content in the **Products** list. In our scenario, each list item is a product that Contoso want to display on their website. 
+- List content in the **Products** list. In our scenario, each list item is a product that Contoso wants to display on their website. 
     
 - Terms in the **Product Hierarchy** term set. In our scenario, the term set reflects how Contoso has categorized their products, for example one category is called "Laptops" and another is "MP3" players. 
     
-- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screen shot shows how the list item *Southridge Video Laptop15.4W M1548* is associated with the term *Laptops* through the **Item Category** column. 
+- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screenshot shows how the list item *Southridge Video Laptop15.4W M1548* is associated with the term *Laptops* through the **Item Category** column. 
     
 ![Item Term Connection](../media/OTCSP_ItemTermConnection.PNG)
   
@@ -77,4 +77,4 @@ So, now that we have content in the **Products** list, the next task is to enabl
 
 #### Concepts
 
-[Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md)
+[Configure cross-site publishing in SharePoint Server.](configure-cross-site-publishing.md)

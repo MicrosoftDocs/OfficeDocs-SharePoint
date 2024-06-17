@@ -1,5 +1,5 @@
 ---
-ms.date: 03/28/2024
+ms.date: 05/22/2024
 title: "Change a site address"
 ms.reviewer: waynewin
 ms.author: ruihu
@@ -30,9 +30,9 @@ description: Learn how global and SharePoint admins can change the URL of a Shar
 # Change a site address
 
 > [!NOTE]
-> This feature isn't supported for Microsoft 365 Government cloud customers, including GCC, GCC High or DoD.
+> This feature isn't supported for Microsoft 365 GCC High or DoD customers.
 
-As a Global Administrator or SharePoint Administrator in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
+As at least a [SharePoint Administrator](./sharepoint-admin-role.md) in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
 - Microsoft 365 group-connected team sites
 - Modern team sites that don't belong to a Microsoft 365 group
@@ -96,7 +96,7 @@ Before you change the address of a site, it's important to communicate the chang
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command to verify that the site address can be changed:
 

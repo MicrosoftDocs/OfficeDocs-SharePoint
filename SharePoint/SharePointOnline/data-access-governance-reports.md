@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2024
+ms.date: 06/04/2024
 title: "Data access governance reports for SharePoint sites"
 ms.reviewer: samust
 ms.author: mactra
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 ms.custom:
@@ -32,7 +32,7 @@ As sprawl and oversharing of SharePoint sites increase with exponential
 
 ## Requirements
 
-This feature requires either Microsoft 365 E5 or Microsoft Syntex - SharePoint Advanced Management.
+This feature requires either Microsoft 365 E5 or Microsoft SharePoint Premium - SharePoint Advanced Management.
 
 While admins with Microsoft 365 E5 licensing can access Data access governance reporting, they are not able to view or utilize the other [SharePoint Advanced Management features](advanced-management.md).
 

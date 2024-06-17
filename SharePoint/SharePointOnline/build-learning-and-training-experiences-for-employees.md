@@ -1,5 +1,5 @@
 ---
-ms.date: 09/23/2021
+ms.date: 05/31/2024
 title: Build Learning and Training Experiences for Employees
 ms.reviewer:
 ms.author: ruihu
@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-corpcomms
 - m365solution-scenario
 - highpri
+- best-practices
 search.appverid:
 - SPO160
 - MET150

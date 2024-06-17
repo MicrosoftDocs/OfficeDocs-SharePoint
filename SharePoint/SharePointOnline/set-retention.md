@@ -8,7 +8,7 @@ manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
-ms.topic: article
+ms.topic: how-to
 ms.custom:
 - 'O365E_ODACStorage'
 - 'seo-marvel-apr2020'

@@ -20,12 +20,12 @@ description: "Learn how to plan for search-driven pages for SharePoint cross-sit
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
-Search-driven pages are pages that use search technology to dynamically show content. This article describes features that you will use when you set up search-driven pages, such as managed properties, refiners, result sources, and recommendations, and what you must consider when you set up and use these features. 
+Search-driven pages are pages that use search technology to dynamically show content. This article describes features that you'll use when you set up search-driven pages, such as managed properties, refiners, result sources, and recommendations, and what you must consider when you set up and use these features. 
   
 ## Plan content sources and crawling
 <a name="BKMK_PlanContentSourcesAndCrawling"> </a>
 
-The default content source is Local SharePoint sites. You can use this content source to crawl all content within the web application. However, we recommend that you create separate content sources for libraries or lists that you share as catalogs. When you set up a content source for libraries or lists that are shared as catalogs, we recommend that you select **Enable Continuous Crawl** when specifying the crawl schedules. A continuous crawl starts at set intervals, which enables the search system to crawl the content and quickly add any changed content to the index. The default crawl interval for continuous crawl is 15 minutes, but you can set shorter or longer intervals. Enabling continuous crawl also means that a site administrator will not have to wait for the search service application administrator to manually start a crawl in order to update the search index with the latest changes from a catalog. 
+The default content source is Local SharePoint sites. You can use this content source to crawl all content within the web application. However, we recommend that you create separate content sources for libraries or lists that you share as catalogs. When you set up a content source for libraries or lists that are shared as catalogs, we recommend that you select **Enable Continuous Crawl** when specifying the crawl schedules. A continuous crawl starts at set intervals, which enables the search system to crawl the content and quickly add any changed content to the index. The default crawl interval for continuous crawl is 15 minutes, but you can set shorter or longer intervals. Enabling continuous crawl also means that a site administrator won't have to wait for the search service application administrator to manually start a crawl in order to update the search index with the latest changes from a catalog. 
   
 For information about how to set up a content source and manage continuous crawling, see "Configure search for cross-site publishing" in [Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md).
   
@@ -53,23 +53,23 @@ When you plan to use refiners and faceted navigation, consider the questions in 
   
 ### What type of refiners do you want to use?
 
-There are two types of refiners: stand-alone and for faceted navigation. You can use just one type on the site, or a combination of both. The structure of the content and what kind of navigation you use on the site will determine the type of refiners that you should choose.
+There are two types of refiners: stand alone and for faceted navigation. You can use just one type on the site, or a combination of both. The structure of the content and what kind of navigation you use on the site will determine the type of refiners that you should choose.
   
-- Stand-alone refiners are usually used in scenarios where you have unstructured content. Within this content, you can identify several managed properties that can be used as refiners across all content. However, you do not want the refiners to change depending on a term in a term set. For example, in an intranet scenario, you can add stand-alone refiners to a Search Center page. These stand-alone refiners are typically managed properties that apply to most items in the intranet, such as Author and Date.
+- Stand-alone refiners are used in scenarios where you have unstructured content. Within this content, you can identify several managed properties that can be used as refiners across all content. However, you don't want the refiners to change depending on a term in a term set. For example, in an intranet scenario, you can add stand-alone refiners to a Search Center page. These stand-alone refiners are typically managed properties that apply to most items in the intranet, such as Author and Date.
     
-- Refiners for faceted navigation are used in scenarios where you have structured content, such as catalog content. This content is tied to a term set, and you want to have different refiners for different terms. For example, in an Internet business scenario where a product catalog of electronic products is shown, a term set is used to categorize the different products — for example, Computers or Cameras. After you enable the managed properties Screen Size and Megapixels as refiners, you can configure faceted navigation so that Screen Size appears as a refiner for Computers, and Megapixels appears as a refiner for Cameras. This means that you can guide users to content that is relevant for a specific category. This makes it easier and faster to browse through catalog content.
+- Refiners for faceted navigation are used in scenarios where you have structured content, such as catalog content. This content is tied to a term set, and you want to have different refiners for different terms. For example, in an Internet business scenario where a product catalog of electronic products is shown, a term set is used to categorize the different products—for example, Computers or Cameras. After you enable the managed properties Screen Size and Megapixels as refiners, you can configure faceted navigation so that Screen Size appears as a refiner for Computers, and Megapixels appears as a refiner for Cameras. This means that you can guide users to content that is relevant for a specific category. This makes it easier and faster to browse through catalog content.
     
 ### How do you identify a refiner?
 
 When identifying which managed properties you want to specify as refiners, consider what kind of information users want to differentiate on and browse to.
   
-When using refiners for faceted navigation, it is especially important that you identify refiners that represent information that users will find useful when they browse through a catalog. You configure refiners in Term Store Management. You can set refiners for a specific term set, you can configure refiners to apply to all terms in a term set, or you can set specific refiners for a specific term. Consider the following:
+When using refiners for faceted navigation, it's especially important that you identify refiners that represent information that users will find useful when they browse through a catalog. You configure refiners in Term Store Management. You can set refiners for a specific term set, you can configure refiners to apply to all terms in a term set, or you can set specific refiners for a specific term. Consider the following:
   
 - Which managed properties represent information that users want to quickly browse to for all my catalog items?
     
-- Which managed properties represent information that is unique for only a sub-set of my catalog items?
+- Which managed properties represent information that is unique for only a subset of my catalog items?
     
-Note that adding many refiners to your page may increase the time to process a query. For more information, see [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](web-content-management-capacity-and-performance.md)
+Adding many refiners to your page may increase the time to process a query. For more information, see [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](web-content-management-capacity-and-performance.md)
   
 ### How should you configure refiners in the Term Store Management Tool?
 
@@ -100,22 +100,22 @@ For information about how to add refiners and configure faceted navigation, see 
 ## Plan result sources and query rules
 <a name="BKMK_PlanResultSourcesAndQueryRules"> </a>
 
-Result sources narrow the scope of search results that are retrieved. SharePoint Server 2016 provides many pre-defined result sources. Many of the pre-defined result sources have a corresponding Web Part where the result source is specified as part of the query. For example, the result source Local Video Results is set as part of the query that is used in the Videos Web Part. 
+Result sources narrow the scope of search results that are retrieved. SharePoint Server 2016 provides many predefined result sources. Many of the predefined result sources have a corresponding Web Part where the result source is specified as part of the query. For example, the result source Local Video Results is set as part of the query that is used in the Videos Web Part. 
   
-You manage result sources in Central Administration and in site collection administration. If you are familiar with Keyword Query Language (KQL), you can create custom result sources.
+You manage result sources in Central Administration and in site collection administration. If you're familiar with Keyword Query Language (KQL), you can create custom result sources.
   
 All available result sources appear in a list when you build the query in a Content Search Web Part. Users who configure this Web Part can easily narrow the scope of results that can be shown in the Web Part. For example, for an intranet site, a site collection administrator can create a result source named My PowerPoint Presentations, and configure it to narrow the scope of the search results to PowerPoint presentations created by the user who is logged on to the site. Any user can add a Content Search Web Part to their My Site and configure the Web Part by selecting the result source My PowerPoint Presentations. When users browse to their My Sites, the Web Part only shows PowerPoint presentations that they have created themselves.
   
 Another example is an Internet site, where a list that is shared as a catalog is used to maintain product data in many languages. A site collection administrator can create a result source named US English products and configure it to narrow the scope of search results to products with the language tag en-us. A user who has the Contribute permission level can then add a Content Search Web Part, and configure it to show only products that have information in US English, by selecting the US English products result source.
   
-In addition to the pre-defined result sources, SharePoint Server 2016 automatically creates a result source when you connect a catalog to a publishing site. The automatically created result source is added to the result sources in your publishing site. This result source limits search results to the URL of the catalog, which means that only content from that catalog will be shown when that result source is selected in a Web Part.
+In addition to the predefined result sources, SharePoint Server 2016 automatically creates a result source when you connect a catalog to a publishing site. The automatically created result source is added to the result sources in your publishing site. This result source limits search result to the URL of the catalog, which means that only content from that catalog will be shown when that result source is selected in a Web Part.
   
 > [!NOTE]
 > Before you create any result sources, start a full crawl of the catalog content, and connect a catalog to your publishing site. 
   
 For information about how to configure result sources, see [Configure result sources for web content management in SharePoint Server](configure-result-sources-for-web-content-management.md).
   
-Query rules can be specified for one or more result sources. Result sources are used as part of the query in Web Parts that use search technology, and you can easily influence how search results are shown for all Search Web Parts on your site. By specifying a limited time period for when a query rule is triggered, you can control when certain items are promoted within your website, without having to worry about how to add or remove content at a particular time. Let's say that you are selling electronic products through a product catalog, and you want to promote pink cameras on Valentine's day in the United States. You can create a query rule for a result source that starts on February 14th, and ends on February 15th. The query rule is triggered if a query contains the term Cameras, and pink cameras appear first in the Search Web Part. 
+Query rules can be specified for one or more result sources. Result sources are used as part of the query in Web Parts that use search technology, and you can easily influence how search results are shown for all Search Web Parts on your site. By specifying a limited time period for when a query rule is triggered, you can control when certain items are promoted within your website, without having to worry about how to add or remove content at a particular time. Let's say that you're selling electronic products through a product catalog, and you want to promote pink cameras on Valentine's day in the United States. You can create a query rule for a result source that starts on February 14th, and ends on February 15th. The query rule is triggered if a query contains the term Cameras, and pink cameras appear first in the Search Web Part. 
   
 For information about how to create query rules, see [Create query rules for web content management in SharePoint Server](create-query-rules-for-web-content-management.md).
   
@@ -126,7 +126,7 @@ The Usage Analytics feature in SharePoint Server 2016 automatically tracks how d
   
 - Views - number of views for a single item, page, or document.
     
-- Recommendations Displayed - number of times a single item, page or document was displayed as a recommendation.
+- Recommendations Displayed - number of times a single item, page, or document was displayed as a recommendation.
     
 - Recommendation Clicks - number of times a single item, page or document was clicked when it was displayed as a recommendation. 
     
@@ -136,9 +136,9 @@ You can use the data that is generated by usage events in the following ways:
     
 - Sort search results by the number of counts of a usage event. For example, show items that have the most view events at the top of search results.
     
-- View the usage event data in the **Most Popular Items** usage report. This report applies to all items in a library, and lists the most popular items for each usage event — for example, a list of the most viewed pages in a library. 
+- View the usage event data in the **Most Popular Items** usage report. This report applies to all items in a library, and lists the most popular items for each usage event—for example, a list of the most viewed pages in a library. 
     
-- View the usage event data in the **Popularity Trends** report. This report applies to a Site Collection, a Site or an individual item in a library or list. The report shows the daily and monthly counts for each usage event — for example, the total views of a page on a specific day. 
+- View the usage event data in the **Popularity Trends** report. This report applies to a Site Collection, a Site, or an individual item in a library or list. The report shows the daily and monthly counts for each usage event—for example, the total views of a page on a specific day. 
     
 The following illustration shows how usage events are sent from Web Parts, through components in the Search service application, and are then used in usage reports and to show recommendations and popular items in Web Parts. 
   
@@ -154,7 +154,7 @@ The preconfigured usage events may not be sufficient for your business needs. To
   
 ### Plan to import existing usage events
 
-When you set up a new site, there has not been any user traffic to generate usage events. Therefore, there will be no recommendations and popular items in the system. To be able to show recommendations and popular items from the beginning, you can import existing events from a previous SharePoint system, or import events from a third-party web analytics provider. To correctly import existing data, the data have to be formatted according to specific rules.
+When you set up a new site, there hasn't been any user traffic to generate usage events. Therefore, there will be no recommendations and popular items in the system. To be able to show recommendations and popular items from the beginning, you can import existing events from a previous SharePoint system, or import events from a third-party web analytics provider. To correctly import existing data, the data have to be formatted according to specific rules.
   
 Whenever a usage event occurs, the event is logged to the item in the library that you shared as a catalog. The default method for logging and sending usage events through the system is to use the URL of the item in the library as ID. However, the usage event data that you import may use a different ID to log usage events, for example InternalNumber. You must change the way that usage events in the library that you shared as a catalog are logged to match how usage events for the imported events are logged. To change this, you must do the following:
   

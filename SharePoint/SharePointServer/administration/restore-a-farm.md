@@ -28,9 +28,9 @@ You can restore a SharePoint Server farm by using the SharePoint Central Adminis
 ## Before you begin
 <a name="begin"> </a>
 
-Farm-level recovery is usually performed only after a failure that involves the complete farm, or where partial recovery of part of the farm is not possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#proc4).
+Farm-level recovery is performed only after a failure that involves the complete farm, or where partial recovery of part of the farm isn't possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#proc4).
   
- Farm recovery is usually performed for any of the following reasons: 
+ Farm recovery is performed for any of the following reasons: 
   
 - Restoring a farm after a fire, disaster, equipment failure, or other data-loss event.
     
@@ -40,11 +40,11 @@ Farm-level recovery is usually performed only after a failure that involves the 
     
 Before you begin this operation, review the following information about how to recover a farm in SharePoint:
   
-- You cannot back up from one version of SharePoint Server 2019 and restore to another version of SharePoint Server 2019. The same applies to SharePoint Servers 2016 and 2013.
+- You can't back up from one version of SharePoint Server 2019 and restore to another version of SharePoint Server 2019. The same applies to SharePoint Servers 2016 and 2013.
     
-- Backing up the farm will back up the configuration and Central Administration content databases, but these cannot be restored using SharePoint Server tools. For more information about how to back up and restore all of the farm databases, see [Move all databases in SharePoint Server](move-all-databases.md).
+- Backing up the farm will back up the configuration and Central Administration content databases, but these can't be restored using SharePoint Server tools. For more information about how to back up and restore all of the farm databases, see [Move all databases in SharePoint Server](move-all-databases.md).
     
-- When you restore the farm by using SharePoint Server, the restore process will not automatically start all of the service applications. You must manually start them by using Central Administration or Microsoft PowerShell. Do not use SharePoint Products Configuration Wizard to start the services because doing this will also re-provision the services and service proxies. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
+- When you restore the farm by using SharePoint Server, the restore process won't automatically start all of the service applications. You must manually start them by using Central Administration or Microsoft PowerShell. Don't use SharePoint Products Configuration Wizard to start the services because doing this will also reprovision the services and service proxies. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
 - The identifier (ID) of each content database is retained when you restore or reattach a database by using built-in tools. Default change log retention behavior when using built-in tools is as follows:
     
@@ -54,23 +54,23 @@ Before you begin this operation, review the following information about how to r
     
     When a database ID and change log are retained, the search system continues crawling based on the regular schedule that is defined by crawl rules.
     
-    When you restore an existing database and do not use the overwrite option, a new ID is assigned to the restored database, and the database change log is not preserved. The next crawl of the database will add data from the content database to the index.
+    When you restore an existing database and don't use the overwrite option, a new ID is assigned to the restored database, and the database change log isn't preserved. The next crawl of the database will add data from the content database to the index.
     
-    If a restore is performed and the ID in the backup package is already being used in the farm, a new ID is assigned to the restored database and a warning is added to the restore log. The ability to perform an incremental crawl instead of a full crawl depends on the content database ID being the same as before and the change log token that is used by the search system being valid for the current change log in the content database. If the change log is not preserved, the token is not valid and the search system has to perform a full crawl.
+    If a restore is performed and the ID in the backup package is already being used in the farm, a new ID is assigned to the restored database and a warning is added to the restore log. The ability to perform an incremental crawl instead of a full crawl depends on the content database ID being the same as before and the change log token that is used by the search system being valid for the current change sign-in the content database. If the change log isn't preserved, the token isn't valid and the search system has to perform a full crawl.
     
-- SharePoint Server backup backs up the Business Data Connectivity service external content type definitions but does not back up the data source itself. To protect the data, you should back up the data source when you back up the Business Data Connectivity service or the farm.
+- SharePoint Server backup backs up the Business Data Connectivity service external content type definitions but doesn't back up the data source itself. To protect the data, you should back up the data source when you back up the Business Data Connectivity service or the farm.
     
-    If you restore the Business Data Connectivity service or the farm and then restore the data source to a different location, you must change the location information in the external content type definition. If you do not, the Business Data Connectivity service might be unable to locate the data source.
+    If you restore the Business Data Connectivity service or the farm and then restore the data source to a different location, you must change the location information in the external content type definition. If you don't, the Business Data Connectivity service might be unable to locate the data source.
     
-- SharePoint Server restores remote Binary Large Objects (BLOB) stores only if you are using the FILESTREAM remote BLOB store provider to put data in remote BLOB stores.
+- SharePoint Server restores remote Binary Large Objects (BLOB) stores only if you're using the FILESTREAM remote BLOB store provider to put data in remote BLOB stores.
     
-    If you are using another provider, you must manually restore the remote BLOB stores.
+    If you're using another provider, you must manually restore the remote BLOB stores.
     
-- If you are sharing service applications across farms, be aware that trust certificates that were exchanged are not included in farm backups. You must back up your certificate store separately or keep the certificates in a separate location. When you restore a farm that shares a service application, you must import and redeploy the certificates, and then re-establish any inter-farm trusts.
+- If you're sharing service applications across farms, be aware that trust certificates that were exchanged aren't included in farm backups. You must back up your certificate store separately or keep the certificates in a separate location. When you restore a farm that shares a service application, you must import and redeploy the certificates, and then re-establish any inter-farm trusts.
     
     For more information, see [Exchange trust certificates between farms in SharePoint Server](exchange-trust-certificates-between-farms.md).
     
-- After a Web application that is configured to use claims-based authentication is restored, duplicate or additional claims providers are often visible. If duplicates appear, then you must manually save each Web application zone to remove them. For more information, see [Restore web applications in SharePoint Server](restore-a-web-application.md).
+- After a Web application that is configured to use claims-based authentication is restored, duplicate, or additional claims providers are often visible. If duplicates appear, then you must manually save each Web application zone to remove them. For more information, see [Restore web applications in SharePoint Server](restore-a-web-application.md).
     
 - Additional steps are required when you restore a farm that contains a Web application that is configured to use forms-based authentication. For more information, see [Restore web applications in SharePoint Server](restore-a-web-application.md).
     
@@ -87,12 +87,12 @@ You can use Microsoft PowerShell to restore a farm.
     
    - **db_owner** fixed database role on all databases that are to be updated. 
     
-   - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you're running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the SharePoint Management Shell.
     
@@ -111,7 +111,7 @@ You can use Microsoft PowerShell to restore a farm.
    > [!NOTE]
    > If you are not logged on as the Farm account, you are prompted for the Farm account's credentials. 
   
-   If you do not specify the `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt,type the following command: 
+   If you don't specify the `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
     
    ```powershell
    Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup [-Verbose]
@@ -121,7 +121,7 @@ You can use Microsoft PowerShell to restore a farm.
     
    -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
-    You cannot use a configuration-only backup to restore content databases together with the configuration. 
+    You can't use a configuration-only backup to restore content databases together with the configuration. 
     
 4. To restart a service application, at the PowerShell command prompt, type the following command:
     
@@ -146,14 +146,14 @@ You can use the Central Administration Web site to restore a farm.
     
 2. In Central Administration, on the home page, in the **Backup and Restore** section, click **Restore from a backup**.
     
-3. On the Restore from Backup — Step 1 of 3: Select Backup to Restore page, from the list of backups, select the backup job that contains the farm backup, and then click **Next**. You can view more details about each backup by clicking the (+) next to the backup. 
+3. On the Restore from Backup—Step 1 of 3: Select Backup to Restore page, from the list of backups, select the backup job that contains the farm backup, and then click **Next**. You can view more details about each backup by clicking the (+) next to the backup. 
     
     > [!NOTE]
     > If the correct backup job does not appear, in the **Backup Directory Location** text box, type the Universal Naming Convention (UNC) path of the correct backup folder, and then click **Refresh**. You cannot use a configuration-only backup to restore the farm. 
   
-4. On the Restore from Backup — Step 2 of 3: Select Component to Restore page, select the check box that is next to the farm, and then click **Next**.
+4. On the Restore from Backup—Step 2 of 3: Select Component to Restore page, select the check box that is next to the farm, and then click **Next**.
     
-5. On the Restore from Backup — Step 3 of 3: Select Restore Options page, in the **Restore Component** section, make sure that **Farm** appears in the **Restore the following component** list. 
+5. On the Restore from Backup—Step 3 of 3: Select Restore Options page, in the **Restore Component** section, make sure that **Farm** appears in the **Restore the following component** list. 
     
     In the **Restore Only Configuration Settings** section, make sure that the **Restore content and configuration settings** option is selected. 
     
@@ -175,7 +175,7 @@ You can use the Central Administration Web site to restore a farm.
 ## Using SQL Server tools to restore a farm
 <a name="proc3"> </a>
 
-Although you cannot restore the complete farm by using SQL Server tools, you can restore most of the farm databases. If you restore the databases by using SQL Server tools, you must restore the farm configuration by using Central Administration or PowerShell. For more information about how to restore the farm's configuration settings, see [Restore farm configurations in SharePoint Server](restore-a-farm-configuration.md).
+Although you can't restore the complete farm by using SQL Server tools, you can restore most of the farm databases. If you restore the databases by using SQL Server tools, you must restore the farm configuration by using Central Administration or PowerShell. For more information about how to restore the farm's configuration settings, see [Restore farm configurations in SharePoint Server](restore-a-farm-configuration.md).
   
 > [!NOTE]
 > The search index is not stored in SQL Server. If you use SQL Server tools to back up and restore search, you must perform a full crawl after you restore the content database. 
@@ -198,7 +198,7 @@ Use the following procedure to restore your farm databases.
   
 1. Verify that the user account that is performing this procedure is a member of the **sysadmin** fixed server role. 
     
-2. If the SharePoint Timer service is running, stop the service and wait for several minutes for any currently running stored procedures to finish. Do not restart the service until after you restore all the databases that you have to restore.
+2. If the SharePoint Timer service is running, stop the service and wait for several minutes for any currently running stored procedures to finish. Don't restart the service until after you restore all the databases that you have to restore.
     
 3. Start SQL Server Management Studio and connect to the database server.
     
@@ -206,7 +206,7 @@ Use the following procedure to restore your farm databases.
     
 5. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**.
     
-    The database is automatically taken offline during the recovery operation and cannot be accessed by other processes.
+    The database is automatically taken offline during the recovery operation and can't be accessed by other processes.
     
 6. In the **Restore Database** dialog, specify the destination and the source, and then select the backup set or sets that you want to restore. 
     
@@ -214,7 +214,7 @@ Use the following procedure to restore your farm databases.
     
 7. In the **Select a page** pane, click **Options**.
     
-8. In the **Restore options** section, select only **Overwrite the existing database**. Unless your environment or policies require otherwise, do not select the other options in this section.
+8. In the **Restore options** section, select only **Overwrite the existing database**. Unless your environment or policies require otherwise, don't select the other options in this section.
     
 9. In the **Recovery state** section:
     
@@ -222,14 +222,14 @@ Use the following procedure to restore your farm databases.
     
    - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-   - The third option, **RECOVER WITH STANDBY** is not used in this scenario.
+   - The third option, **RECOVER WITH STANDBY** isn't used in this scenario.
     
     > [!NOTE]
     > For more information about these recovery options, see [Restore Database (Options Page)]( https://go.microsoft.com/fwlink/p/?LinkID=717045&amp;clcid=0x409).
   
 10. Click **OK** to complete the recovery operation.
     
-11. Except for the configuration database, repeat steps 4 through 9 for each database that you are restoring. 
+11. Except for the configuration database, repeat steps 4 through 9 for each database that you're restoring. 
     
     > [!IMPORTANT]
     > If you are restoring the User Profile database (by default named "User Profile Service_ProfileDB_\<GUID\>"), then also restore the Social database (by default named "User Profile Service_SocialDB_\<GUID\>"). Failing to do this can cause inaccuracies in the User Profile data that might be difficult to detect and fix.

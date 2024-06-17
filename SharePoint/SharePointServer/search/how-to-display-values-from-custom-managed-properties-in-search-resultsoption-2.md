@@ -19,7 +19,7 @@ description: "Learn a second option for displaying values from custom managed pr
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
+In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) we showed a simple method to add a custom icon and values from two custom-managed properties to your classic search results. In this article, we'll look at a fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   
 - [Strategy for killing three birds with one stone - search results version](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md#BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion)
     
@@ -36,7 +36,7 @@ First, let's state what we want to achieve:
     
 - Get automatically improved relevancy for our classic search results.
     
-Before we look at details about how to achieve these goals, let's look at the strategy we want to follow. If this gets a bit complex, please try to hang in there. Hopefully it'll be clear by the end.
+Before we look at details about how to achieve these goals, let's look at the strategy we want to follow. If this gets a bit complex, please try to hang in there. Hopefully it will be clear by the end.
   
 First, remember how we can think about hit highlighting:
   
@@ -60,7 +60,7 @@ Specifically, that means that we have to do the following:
     
 - Add the custom managed properties to an item display template.
     
-- In the item display template, create a variable that will be used by the property *HitHighlightedSummary* to display our two custom managed properties with hit highlighting. 
+- In the item display template, create a variable that will be used by the property *HitHighlightedSummary* to display our two custom-managed properties with hit highlighting. 
     
 - In the item display template, leave the reference  `_#=ctx.RenderBody(ctx)=#_` so that the *Item_ComonItem_Body* display template will render the search result. This makes sure that we get automatically improved relevancy. 
     
@@ -89,7 +89,7 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
     
      ![Highlighted Properties Added](../media/OTCSP_HighlightedPropertiesAdded.png)
   
-5. Select **Apply** to save the changes. Thehe **Display Templates** section closes. 
+5. Select **Apply** to save the changes. The **Display Templates** section closes. 
     
 6. To reopen the section, select **Display Templates**, and select **Use result types to display items**. 
     
@@ -115,9 +115,9 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
   
   Next, you have to create variables in the item display template that will be used and rendered by the *Item_Common_Item_Body* display template. Here's what you should do: 
     
-10. Because you have no guarantee that the values of your custom properties will contain any of the entered query words, that is, hit highlighting won't be used, you have to create variables that guarantee that that the value of your custom properties will be displayed regardless of hit highlighting.
+10. Because you have no guarantee that the values of your custom properties will contain any of the entered query words, that is, hit highlighting won't be used, you have to create variables that guarantee that the value of your custom properties will be displayed regardless of hit highlighting.
     
-    The following screen shots show how we created two such variables for our custom properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject*. 
+    The following screenshots show how we created two such variables for our custom properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject*. 
     
      ![Two Variables](../media/OTCSP_TwoVariables.png)
   
@@ -152,11 +152,11 @@ After we made these changes, when users entered a query in the Search Center, th
     
 - The value of *ContentSummaryOWSMTXT* with hit highlighting 
     
-- The value of *owstaxIdTechnicalSubject* (The query words did not match the property value, but because of the variable that we created in step 10, the value appears.) 
+- The value of *owstaxIdTechnicalSubject* (The query words didn't match the property value, but because of the variable that we created in step 10, the value appears.) 
     
 - A link to the item in the list
     
-We wanted to make one little change to how the value for *owstaxIdTechnicalSubject* appears. We wanted to give users a bit more context as to what this value represents. Therefore, we decided to add the text "Technical Subject:" before the value. Also, because this value is not always present for all list items, we decided it should only display when a value was present. 
+We wanted to make one little change to how the value for *owstaxIdTechnicalSubject* appears. We wanted to give users a bit more context as to what this value represents. Therefore, we decided to add the text "Technical Subject:" before the value. Also, because this value isn't always present for all list items, we decided it should only display when a value was present. 
   
 To do this, we made a change to the variable that overrides the *HitHighlightedSummary* property: 
   
@@ -166,7 +166,7 @@ Note that we added a slightly different color to the text "Technical Subject:". 
   
 ![Final Search Result](../media/OTCSP_FinalSearchResult.png)
   
-In [How to create a new result type in SharePoint Server](how-to-create-a-new-result-type.md), we had decided we wanted 6 different result types. After creating the  *TechNet content*  result type and display template, it was very easy to copy this work over to the other 5 result types. 
+In [How to create a new result type in SharePoint Server](how-to-create-a-new-result-type.md), we had decided we wanted six different result types. After creating the  *TechNet content*  result type and display template, it was easy to copy this work over to the other five result types. 
   
 And here's the result:
   

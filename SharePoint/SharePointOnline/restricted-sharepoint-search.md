@@ -7,7 +7,7 @@ author: maggierui
 manager: jtremper
 recommendations: true
 audience: administrator
-ms.topic: article
+ms.topic: concept-article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:

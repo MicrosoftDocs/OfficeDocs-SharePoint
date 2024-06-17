@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2024
+ms.date: 05/20/2024
 title: "Restrict OneDrive access by security group"
 ms.reviewer: nibandyo
 ms.author: mactra
@@ -8,13 +8,13 @@ manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
-ms.topic: article
+ms.topic: how-to
 ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - Highpri
-- Tier1
+- Tier2
 - M365-sam
 - M365-collaboration
 - essentials-compliance
@@ -43,7 +43,7 @@ Note that you can also restrict access to an individual user's OneDrive to peopl
 
 To access and use this feature, your organization must have one of the following subscriptions:
 
-- Microsoft Syntex - SharePoint Advanced Management
+- Microsoft SharePoint Premium - SharePoint Advanced Management
 - Office 365 E5/A5
 - Microsoft 365 E5/A5
 

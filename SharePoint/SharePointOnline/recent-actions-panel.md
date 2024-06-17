@@ -1,5 +1,5 @@
 ---
-ms.date: 04/10/2024
+ms.date: 05/21/2024
 title: "Review your recent changes to SharePoint site properties"
 ms.reviewer: daminasy
 manager: jtremper
@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 - M365-sam
 - Highpri
-- Tier1
+- Tier2
 description: "Learn how to review your recent changes to SharePoint site properties."
 ---
 # Review your recent changes to SharePoint site properties
@@ -33,14 +33,14 @@ The recent actions panel lets you review and monitor the last 30 changes you've 
 
 ## Requirements
 
-To access the recent actions panel and the following features, your organization must have a [Microsoft Syntex - SharePoint Advanced Management subscription.](advanced-management.md)
+To access the recent actions panel and the following features, your organization must have a [Microsoft SharePoint Premium - SharePoint Advanced Management subscription.](advanced-management.md)
 
 - Review the last 30 actions made within the last 30 days in the recent actions panel.
 - View more details such as previous and current value of the settings changed and directly access the site details panel to review the change.
 - Export and download CSV files detailing all your changes made within the last 30 days.
 
 > [!IMPORTANT]
-> Without Microsoft Syntex - SharePoint Advanced Management, you can only view actions made in the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
+> Without Microsoft SharePoint Premium - SharePoint Advanced Management, you can only view actions made in the current session. Once you close the browser or sign out, the recent actions panel will clear the history.
 
 ## View recent actions of a site
 
@@ -66,4 +66,4 @@ You deleted 4 SharePoint sites on May 21 at 12:10 AM. The bulk edit shows as one
 
 ## Related articles
 
-[Microsoft Syntex Advanced Management overview](advanced-management.md)
+[Microsoft SharePoint Premium - SharePoint Advanced Management overview](advanced-management.md)

@@ -1,5 +1,5 @@
 ---
-ms.date: 03/28/2024
+ms.date: 06/04/2024
 title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: jmcdowe
 ms.author: mactra
@@ -8,7 +8,7 @@ manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: one-drive
 ms.localizationpriority: medium
 search.appverid:
@@ -49,7 +49,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 > [!IMPORTANT]
 > The user accounts that you're pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
-> To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license.
+> To provision OneDrive by using this cmdlet, you must be a SharePoint Administrator and must be assigned a SharePoint license.
 
 > [!NOTE]
 > If you're pre-provisioning OneDrive for a large number of users, it might take multiple days for the OneDrive locations to be created.
@@ -69,7 +69,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
     > [!NOTE]
     > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Update-MgUser** using the text file you created in Step 1.

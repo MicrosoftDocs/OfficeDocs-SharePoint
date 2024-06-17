@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2024
+ms.date: 05/17/2024
 title: "Manage the search schema in SharePoint"
 ms.reviewer: 
 ms.author: ruihu
@@ -57,7 +57,7 @@ For the built-in managed properties, you can change their mappings to crawled pr
 >
 > It is not advisable to change the mapping or mapping order of crawled properties for existing managed properties outside of the [default unused managed properties](#default-unused-managed-properties) provided for reuse, or for managed properties manually created. Changing crawled property mappings may break Microsoft 365 experiences relying on specific properties and values.
   
- **Define which content that users can search and get results for**
+**Define which content that users can search and get results for**
   
 If you set a managed property to be **searchable**, the content is added to the index. This means that a simple query for "Smith" returns items that contain the word "Smith" and also items whose "author" property contains "Smith". If you want users to be able to "only search for items that have this specific author", set the author property to be **queryable**. Then, to find only items that have an author named Smith, users can query for "author:Smith". 
   
@@ -65,7 +65,7 @@ If you want to prevent the content in a managed property from showing up as sear
   
 If you don't want anonymous users to see the information in a managed property, for example who has authored an item, disable the "Safe for Anonymous" setting for the managed property.
   
- **Get better search results when you have multi-lingual content and metadata with special characters**
+**Get better search results when you have multi-lingual content and metadata with special characters**
   
 When search indexes content or when it processes queries, it breaks a stream of text into smaller parts such as words, phrases, symbols, or other meaningful elements. These parts are called tokens. When users enter a query, search tries to find tokens in the index that match the tokens of the query.
   
@@ -75,7 +75,7 @@ Breaking on white spaces works fine for a language like English, but not so well
   
 Here's how you can make results better for users: When search crawls the datasheet, it extracts the product identifier. Map the crawled property for the product identifier to a new managed property, "ProductID". Enable **language neutral tokenization** for the "ProductID" managed property, and instruct users to search for product identifiers against the "ProductID" managed property, like this:  *ProductID:"11.132-8"*  . Because you've enabled language neutral tokenization for "ProductID", search uses language neutral tokenization for the query and can find matching results for the query. 
   
- **Get better search results when you have metadata with special characters**
+**Get better search results when you have metadata with special characters**
   
 To help users get better search results when they search in managed properties that contain metadata with non-alphanumeric characters, you can enable the **finer tokenization** setting for the managed property. 
   
@@ -85,20 +85,22 @@ Users who prefer to quickly enter a query and then browse the results to find th
   
 Users who search for a datasheet and expect to only get results that match the full product identifier, typically write queries like  *ProductID:"11.132-884-115#4"*  . Finer query tokenization doesn't make a difference for such queries. 
   
- **Determine which title to show in results**
+**Determine which title to show in results**
   
 A single crawled property can be mapped to multiple managed properties. Or, multiple crawled properties can be mapped to a single managed property, for example both the "Writer" and "Author" crawled properties can be mapped to the "Author" managed property.
   
 For example, a document in a library can have a SharePoint title, a title in the file metadata, and the content can have a title formatted with the style "Title". All these are mapped to the "Title" managed property. It's the title from the crawled property that's highest on the mapping list and that has a value that's included in the index.
   
- **Auto-generated managed properties**
+**Auto-generated managed properties**
   
 Some managed properties are generated automatically. One example is when you add a site column to a SharePoint library or list. When search crawls that list it automatically generates a crawled and a managed property for the site column, and a mapping between them. Another example is when crawling finds metadata in a document you've uploaded to SharePoint. If there isn't already a mapping to a managed property for that metadata, such as 'Title', search auto-generates a managed property. The type of crawled property determines the settings of the auto-generated managed property.
   
 The search schema displays the name of auto-generated managed properties and their mappings to crawled properties in grey in the search schema. The search schema doesn't hold the settings of the managed auto-generated managed properties. The settings exist, but they're hidden from the search schema. You can add mappings to other managed properties for the crawled properties, but if you change any other setting, you override the other (hidden) settings and the auto-generated managed property is converted to a regular managed property. If you decide to **change** an auto-generated managed property, review **all** the settings carefully, just as you would when you create a new property manually.
 
->[!IMPORTANT]
->Auto-generated managed properties are case-sensitive. When accessing auto-generated managed properties, such as through a REST query, verify the casing is correct. If the casing is incorrect, no value will be returned.
+> [!IMPORTANT]
+> Auto-generated managed properties are case-sensitive. When accessing auto-generated managed properties, such as through a REST query, verify that the casing is correct. If the casing is incorrect, no value will be returned.
+>
+> When the implicit mapping between an auto-generated crawled property and its corresponding auto-generated managed property is modified, such as when the auto-generated crawled property is mapped to another explicit managed property or the auto-generated managed property is mapped to another explicit crawled property, the implicit mapping is disrupted. Following a reindex, both the auto-generated crawled property and auto-generated managed property will be removed.
   
 ### Refine on managed properties
 <a name="__toc351360838"> </a>
@@ -149,8 +151,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
  
@@ -170,9 +172,8 @@ If you need a property of a different type, or one that has different characteri
     
 6. In the **Type** section, select one of the available options for the property: 
     
-  - Yes/No.
-    
-  - Text.
+   - Yes/No.  
+   - Text.
     
 7. In the **Main characteristics** section, select one or several of the available options. 
     
@@ -182,9 +183,9 @@ If you need a property of a different type, or one that has different characteri
     
 10. In the **Mappings to crawled properties** section, specify if you want to include: 
     
-  - All content from all crawled properties mapped to this managed property.
+   - All content from all crawled properties mapped to this managed property.
     
-  - Content from the first crawled property that contains a value and, optionally, in which order.
+   - Content from the first crawled property that contains a value and, optionally, in which order.
     
 11. Select **OK**.
     
@@ -195,8 +196,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -233,8 +234,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -264,8 +265,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -291,8 +292,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -320,8 +321,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -355,8 +356,8 @@ If you need a property of a different type, or one that has different characteri
     
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -384,8 +385,8 @@ If you need a property of a different type, or one that has different characteri
 
 The following table provides an overview of the default unused managed properties that you can reuse and rename using an Alias.
 
-| **Managed property type** | **Count** | **Multi** | **Query** | **Search** | **Retrieve** | **Refine** | **Sort** | **Managed property name range** | **Notes** |
-| :------------------------ | :-------- | :-------- | :-------- | :--------- | :----------- | :--------- | :------- |:------------------------------------------------------- | :--------------------------------------- |
+| Managed property type | Count | Multi | Query | Search | Retrieve | Refine | Sort | Managed property name range | Notes |
+| :-------------------- | :---- | :---- | :---- | :----- | :------- | :----- | :--- |:--------------------------- | :---- |
 | Date                      | 10        |   -   | Query | - |     -    |    -   |   -  | Date00 to Date09                                           | |
 | Date                      | 20        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDate00 to RefinableDate19                         | |
 | Date                      |  2        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateInvariant00 to RefinableDateInvariant01       | \* |
@@ -414,7 +415,7 @@ The following table provides an overview of the default unused managed propertie
 
 If you don't want a document to show up in Delve, you can create a HideFromDelve site column of the type **Yes/No**. This site column creates a new crawled property, ows_HideFromDelve, which is automatically mapped to the HideFromDelve managed property.
   
- **Add a site column to the library or list where the document is stored**
+**Add a site column to the library or list where the document is stored**
   
 1. Sign in as a site collection administrator, and go to the site where the document that you want to hide from Delve is stored.
     
@@ -429,13 +430,13 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
   
 5. Do one of the following:
     
-  - For SharePoint 2016 or SharePoint in Microsoft 365, clear the **Add to all content types** check box. 
+   - For SharePoint 2016 or SharePoint in Microsoft 365, clear the **Add to all content types** check box. 
     
-  - For SharePoint 2013, clear the **Add to default view** check box. 
+   - For SharePoint 2013, clear the **Add to default view** check box. 
     
 6. Select **OK**.
     
- **Mark the document you want to hide from Delve**
+**Mark the document you want to hide from Delve**
   
 1. Go to the site where the document that you want to hide from Delve is stored.
     
