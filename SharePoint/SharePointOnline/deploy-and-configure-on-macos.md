@@ -582,7 +582,7 @@ If you don't set any of the following settings, then the default setting moves b
 <a name="OpenAtLogin"> </a>
 
 > [!IMPORTANT]
-> The OpenAtLogin setting will be deprecated with Sync app 24.113. Please refer to [Background services](deploy-and-configure-on-macos.md#Backgroundservices) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
+> The OpenAtLogin setting will be deprecated with Sync app 24.113. Please refer to [Background services](deploy-and-configure-on-macos.md#background-services) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
 
