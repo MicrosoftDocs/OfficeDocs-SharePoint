@@ -1,5 +1,5 @@
 ---
-ms.date: 06/04/2024
+ms.date: 06/18/2024
 title: "Microsoft SharePoint Premium - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
@@ -29,6 +29,15 @@ Microsoft SharePoint Premium - SharePoint Advanced Management is a Microsoft 365
 
 - Manage and govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities
+- Secure and manage your content before deploying Copilot
+
+Sharepoint Advanced Management helps you identify, manage, and resolve common content governance issues such as:
+
+- Content sprawl (identify and initiate rule-based task automation to manage and reduce inactive sites)
+- Oversharing (deploy and control policies to reduce the risk of overshared content)
+- Content permissions and access (analyze insights from reports on usage patterns)
+- Content lifecycle management (utilize advanced management tools to monitor recent changes to site or tenant settings, rename tenants, block file download)
+- Copilot access to content management (set policies to restrict access to sites and manage content discoverability via Copilot and tenant-wide search)
 
 SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
 
