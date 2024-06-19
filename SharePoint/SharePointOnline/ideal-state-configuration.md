@@ -85,3 +85,7 @@ It is recommended to use shortcuts instead of using the Sync button. Shortcuts a
 If you're an admin and want to hide the Sync button in document libraries, use the following PowerShell command:
 
 Set-SPOTenant -HideSyncButtonOnTeamSite $true
+
+## Sync reports
+
+The [OneDrive sync reports in the Apps Admin Center](sync-health.md) provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out. You must enable this setting on the devices from which you want to get reports. For more info, see [Enable sync health reporting for OneDrive](use-group-policy.md#enable-sync-health-reporting-for-onedrive). For info about this setting for Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
