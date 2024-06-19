@@ -72,3 +72,16 @@ Windows users are familiar and comfortable with saving files to their Desktop, D
 ## Offline mode
 
 - **Keep offline mode enabled** With offline mode, users can work with OneDrive in the web in low or no internet situations. This setting is on by default on Windows and Mac. For more info, see [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web), [Prevent users at your organization from enabling offline mode in OneDrive on the web](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web), and [Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web-for-libraries-and-folders-that-are-shared-from-other-organizations). For info about this setting for Mac, see [DisableOfflineMode](deploy-and-configure-on-macos#disableofflinemode) and [DisableOfflineModeForExternalLibraries](deploy-and-configure-on-macos#disableofflinemodeforexternallibraries).
+
+## Shortcuts to shared folders
+
+Users have two options when syncing files in SharePoint libraries and Teams. They can
+
+- [Add shortcuts to libraries and folders to their OneDrive](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33).
+- [Use the Sync button in the document library](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88).
+
+It is recommended to use shortcuts instead of using the Sync button. Shortcuts are more performant because rather than syncing the entire library, only the specific folder is synced. Additionally, because the shortcuts are added to a user's OneDrive rather than to the device, it is easier to access content across all devices.
+
+If you're an admin and want to hide the Sync button in document libraries, use the following PowerShell command:
+
+Set-SPOTenant -HideSyncButtonOnTeamSite $true
