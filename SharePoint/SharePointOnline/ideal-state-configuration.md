@@ -31,10 +31,6 @@ description: "View our recommendations for deploying and configuring the OneDriv
 
 For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the OneDrive sync app.
 
-|![Diagram that shows the Download symbol.](/office/media/icons/download-blue.png)</br>Updates and rings   |![Diagram that shows the Chat symbol.](/office/media/icons/chat.png)</br>Windows Notification Service  |![Diagram that shows a Cloud symbol](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Diagram that shows the User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Diagram that shows the Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
-|---------|---------|---------|---------|---------|---------|
-|Allow traffic. Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled and enable Storage Sense policies      |     Enable the policy    |     Enable the policies    |
-
 ## Updates and rings
 
 - **Allow access to oneclient.sfx.ms and g.live.com**. Computers must be able to reach these URLs to apply updates and bug fixes, and enable or disable features. Updates are installed automatically; so, you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users.
