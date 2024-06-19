@@ -66,4 +66,9 @@ Windows users are familiar and comfortable with saving files to their Desktop, D
 - **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](redirect-known-folders.md#about-the-known-folder-move-policies)
 
 ## Office integration
+
 - **Keep Office file collaboration enabled** Office uses differential sync to sync only changes instead of the entire file each time. This makes sync faster and reduces network bandwidth. This setting is on by default on Windows and Mac. For more info, see [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For info about this setting for Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
+
+## Offline mode
+
+- **Keep offline mode enabled** With offline mode, users can work with OneDrive in the web in low or no internet situations. This setting is on by default on Windows and Mac. For more info, see [Prevent users from getting silently signed in to offline experiences on the web](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-offline-experiences-on-the-web), [Prevent users at your organization from enabling offline mode in OneDrive on the web](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web), and [Prevent users at your organization from enabling offline mode in OneDrive on the web for libraries and folders that are shared from other organizations](#prevent-users-at-your-organization-from-enabling-offline-mode-in-onedrive-on-the-web-for-libraries-and-folders-that-are-shared-from-other-organizations). For info about this setting for Mac, see [DisableOfflineMode](deploy-and-configure-on-macos#disableofflinemode) and [DisableOfflineModeForExternalLibraries](deploy-and-configure-on-macos#disableofflinemodeforexternallibraries).
