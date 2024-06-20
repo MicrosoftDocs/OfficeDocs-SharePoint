@@ -79,13 +79,14 @@ There are limits on the number of tasks can be selected for bulk download for ea
 
    :::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
-1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 7 days. 
 
 ### Download Migration reports
 
 1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
-1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 30 days. 
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 7 days. 
+
 ## Scan reports
 
 The following reports are downloaded from the **Scans** tab in Migration Manager. 
