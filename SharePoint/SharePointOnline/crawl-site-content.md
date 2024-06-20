@@ -25,7 +25,8 @@ description: Manually request crawling and full reindexing of a site by clicking
 In SharePoint, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. You'll want to manually request crawling and full reindexing of a site, a document library, or a list after a schema change has occurred. 
 
 > [!CAUTION]
->  Reindexing a site can cause a massive load on the search system. Don't reindex your site unless you've made changes that require all items to be reindexed. 
+>  Reindexing a site can cause a massive load on the search system. Don't reindex your site unless you've made changes that require all items to be reindexed.
+>  Site reindexing may add stress to the search system and take an extended amount of time to complete. Recrawls of sites with more than one million items can potentially take weeks to process. Subsequent index updates could be delayed until the reindexing is complete, leading to out-of-date search results. Make sure to only initiate a site reindex after making changes that require all items to be reindexed.
 
 ## Reindex after changing managed properties
 <a name="__top"> </a>
