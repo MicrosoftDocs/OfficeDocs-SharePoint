@@ -31,7 +31,7 @@ description: The SharePoint Migration Tool simplifies migrating your data from o
 >[!Note]
 > Use a Site Collection administrator account on the target SharePoint site when you're prompted for credentials.
   
-**Authentication:** After you open the tool, you must first authenticate to the destination, which is the tenant you'll migrate your files to. Providing your user name and password to the tenant associates the migration jobs you submit to this account. This functionality allows you to resume your migration from another computer, if needed, by logging in with the same credentials. This account should be a site admin of the destination you're migrating to. The following authentication methods are supported:
+**Authentication:** After you open the tool, you must first authenticate to the destination, which is the tenant you'll migrate your files to. Providing your user name and password to the tenant associates the migration jobs you submit to this account. This functionality allows you to resume your migration from another computer, if needed, by logging in with the same credentials. This account should be a site admin of the destination you're migrating to. The following on-premises authentication methods are supported:
 
 - NTLM
 - Kerberos
