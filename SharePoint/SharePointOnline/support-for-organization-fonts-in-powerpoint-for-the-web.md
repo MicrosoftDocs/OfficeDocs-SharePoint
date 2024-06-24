@@ -90,9 +90,9 @@ The following diagram outlines the key steps in making our solution work (PPT is
    > - Your font folder should be the directory holding all your font files and should not include any non-font files.
    > - You may be re-prompted to enter your credentials at this step.
 
-    Allow 24-hours for the SharePoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint and Word for the web.
+   Allow 24-hours for the SharePoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint and Word for the web.
    
-       :::image type="content" source="media/font_dropdown.png" alt-text="t":::
+   :::image type="content" source="media/font_dropdown.png" alt-text="t":::
 
 ## Important notes on features and its release
 
