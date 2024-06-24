@@ -1,32 +1,11 @@
 ---
-title: "Support for organization fonts in PowerPoint for the web"
+title: "Support for organization fonts in PowerPoint and Word"
 ms.reviewer:
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 01/31/2022
-audience: Admin
-f1.keywords:
-- NOCSH
-ms.topic: article
-ms.service: sharepoint-online
-ms.collection: M365-collaboration
-ms.localizationpriority: medium
-search.appverid:
-- SPO160
-- MET150
-description: "Learn how to add organization fonts to the SharePoint as Organization Asset Libraries."
----
-
----
-title: "Support for organization fonts in PowerPoint for the web"
-ms.reviewer:
-ms.author: ruihu
-author: maggierui
-manager: jtremper
-recommendations: true
-ms.date: 01/31/2022
+ms.date: 06/24/2024
 audience: Admin
 f1.keywords:
 - NOCSH
