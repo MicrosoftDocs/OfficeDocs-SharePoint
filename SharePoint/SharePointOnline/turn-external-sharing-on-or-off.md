@@ -78,7 +78,7 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
   > 
   > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
-![External sharing settings](media/externalsharing.png)
+![Screenshot of external sharing settings.](media/externalsharing.png)
    
 This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
@@ -129,7 +129,7 @@ If people who use a verification code have selected to "stay signed in" in the b
 
 Choose the option you want to show by default when a user creates a sharing link. 
 
-![Default links](media/defaultlinks.png)
+![Screenshot of default links.](media/defaultlinks.png)
 
 > [!NOTE]
 > This setting specifies the default for your organization, but you can choose a different default link type for a site.
@@ -145,7 +145,7 @@ Choose the option you want to show by default when a user creates a sharing link
 
 ### Advanced settings for **Anyone** links
 
-![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
+![Screenshot of settings in the new SharePoint admin center.](media/advanced-settings-anyone-links.png)
 
 **Link expiration** - You can require all **Anyone** links to expire, and specify the maximum number of days allowed. If you change the expiration time, existing links will keep their current expiration time if the new setting is longer, or be updated to the new setting if the new setting is shorter.
 
@@ -155,7 +155,7 @@ If you are using file requests, the link permissions must be set for **View and 
 
 ## Other settings
 
-![Other sharing settings](media/othersettings.png)
+![Screenshot of other sharing settings.](media/othersettings.png)
 
 **Show owners the names of people who viewed their files in OneDrive**
 
@@ -168,7 +168,7 @@ This setting lets you control whether the owner of a shared file can see on the 
 
 This setting lets you specify whether site owners can allow users who have access to a file, page, or news post to see on the file card who has viewed the item. 
 
-![Viewer information on the file card for a document.](media/8ff30cde-b358-4b35-9f9d-77cb01c69f09.png)
+![Screenshot of viewer information on the file card for a document.](media/8ff30cde-b358-4b35-9f9d-77cb01c69f09.png)
 
 This setting is turned on by default at the organization level and off at the site level for existing sites. Viewer information is shown only when the setting is on at both the organization and site level. We recommend that site owners turn on this feature only on team sites that don't have sensitive information. [Learn how site owners can turn on this feature](https://support.office.com/article/ee26dde0-c30e-4eca-b1c3-38922c450967).
 
