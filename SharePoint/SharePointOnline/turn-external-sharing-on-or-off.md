@@ -1,10 +1,10 @@
 ---
-ms.date: 05/23/2024
+ms.date: 06/24/2024
 title: Manage sharing settings for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
-ms.author: jtremper
-author: jacktremper
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: CSH
