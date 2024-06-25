@@ -73,14 +73,14 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
  
 1. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
 
-       > [!NOTE]
-    > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
-    > 
-    > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
+> [!NOTE]
+  > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
+  > 
+  > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
-    ![External sharing settings](media/externalsharing.png)
+![External sharing settings](media/externalsharing.png)
    
-       This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
 > [!IMPORTANT]
 > [Microsoft Entra external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization for site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Microsoft Entra guest access settings as part of your SharePoint and OneDrive sharing setup.
