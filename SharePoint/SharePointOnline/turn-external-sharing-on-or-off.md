@@ -71,16 +71,16 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
-2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
+1. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
 
-    > [!NOTE]
+       > [!NOTE]
     > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
     > 
     > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
     ![External sharing settings](media/externalsharing.png)
-
-    This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+   
+       This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
 > [!IMPORTANT]
 > [Microsoft Entra external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization for site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Microsoft Entra guest access settings as part of your SharePoint and OneDrive sharing setup.
@@ -101,8 +101,6 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 
 ### More external sharing settings
 
-![More external sharing settings](media/external-sharing.png)
-
 **Limit external sharing by domain**
 
 This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 5000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
@@ -114,10 +112,6 @@ You can also limit external sharing by domain by using the [Set-SPOTenant](/powe
 **Allow only users in specific security groups to share externally**
 
 For info about this setting, see [Manage security groups](./manage-security-groups.md).
-
-**Guests must sign in using the same account to which sharing invitations are sent**
-
-By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account. This setting only applies to sharing that doesn't use Microsoft Entra B2B collaboration.
 
 **Allow guests to share items they don't own**
 
