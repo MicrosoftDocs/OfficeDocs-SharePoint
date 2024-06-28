@@ -1,5 +1,5 @@
 ---
-ms.date: 12/01/2023
+ms.date: 06/28/2024
 title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: heidip
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: microsoft-365-migration
-ms.localizationpriority: null
+ms.localizationpriority: Low
 search.appverid: MET150
 msCollection: 
 - SPMigration
