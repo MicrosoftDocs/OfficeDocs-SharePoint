@@ -72,7 +72,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 2. **Connect to Microsoft Graph:**
    - Now that the Microsoft Graph module is installed, connect to Microsoft Graph using the following command:
      ```PowerShell
-     Connect-MgGraph
+     Connect-MgGraph -Scopes "User.Read.All", "Group.ReadWrite.All"
      ```
    - Enter your admin credentials when prompted.
 
