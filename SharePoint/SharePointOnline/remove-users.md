@@ -72,21 +72,21 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 2. **Connect to Microsoft Graph:**
    - Now that the Microsoft Graph module is installed, connect to Microsoft Graph using the following command:
      ```PowerShell
-     Connect-MgGraph -Scopes "User.Read.All", "Group.ReadWrite.All"
+     Connect-MgGraph -Scopes "User.ReadWrite.All", "Group.ReadWrite.All"
      ```
    - Enter your admin credentials when prompted.
 
 3. **Get the Guest User's UPN/Object ID:**
-   - Once connected, run the following command to get a list of all guest user accounts in your Office 365 tenant:
+   - Once connected, run the following command to get a list of all user accounts in your tenant:
      ```PowerShell
-     Get-MgUser -Filter "userType eq 'Guest'" -All:$true
+      Get-MgUser -All | Format-List  ID, DisplayName, Mail, UserPrincipalName
      ```
    - Note down the UPN or Object ID of the guest user you want to remove.
 
 4. **Remove the Guest User:**
    - Run the following command to remove the specified guest user (replace `TestUser@example.com` with the actual UPN or Object ID):
      ```PowerShell
-     Remove-MgUser -UserId "TestUser@example.com"
+     Remove-MgUser -UserId "TestUser@contoso.com#EXT#@contoso.onmicrosoft.com"
      ```
    - This command will permanently remove the user from Azure AD.
 
