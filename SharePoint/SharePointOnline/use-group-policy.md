@@ -42,10 +42,10 @@ This article describes the OneDrive Group Policy objects (GPOs) that administrat
 
 1. Install the OneDrive sync app for Windows. (For information on the builds that are being released, and on the download builds, see [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to `%localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\` (for [per-machine sync app](per-machine-installation.md) browse to `%ProgramFiles(x86)%\Microsoft OneDrive\BuildNumber\adm\` or `%ProgramFiles%\Microsoft OneDrive\BuildNumber\adm\` (depending on the OS architecture)) to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings under the **About** tab).
+1. Browse to `%localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\` (for [per-machine sync app](per-machine-installation.md) browse to `%ProgramFiles(x86)%\Microsoft OneDrive\BuildNumber\adm\` or `%ProgramFiles%\Microsoft OneDrive\BuildNumber\adm\` (depending on the OS architecture)) to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings under the **About** tab).
 
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
-
+   
 3. Copy the .adml and .admx files.
 
 4. Paste the .admx file in your domain's Central Store, `\\\\*domain*\sysvol\domain\Policies\PolicyDefinitions` (where *domain* is your domain name, such as corp.contoso.com), and the .adml file in the appropriate language subfolder, such as en-us. If the PolicyDefinitions folder doesn't exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/help/3087759), or use your local policy store under `%windir%\policydefinitions`.
@@ -114,6 +114,8 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 - (EnableAllOcsiClients) [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps)
 
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
+
+- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive automatically-when-signing-in-to-windows)
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
@@ -255,11 +257,24 @@ Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\Software\Policies\Microsoft\OneDrive]"EnableAutomaticUploadBandwidthManagement"=dword:00000001`
 
+### Always start OneDrive automatically when signing in to Windows
+
+<a name="EnableAutoStart"> </a>
+
+This policy overrides the user's choice, ensuring OneDrive will automatically start every time they sign in to Windows. 
+
+Enabling this policy sets the following registry key value to 1:
+
+
+```
+[HKCU\Software\Policies\Microsoft\OneDrive]"EnableAutoStart"=dword:00000001
+```
+
 ### Enable sync health reporting for OneDrive
 
 <a name="EnableSyncAdminReports"> </a>
 
-This setting lets the OneDrive sync app report sync device and health data included in administrative sync reports.
+This policy lets the OneDrive sync app report sync device and health data included in administrative sync reports.
 
 If you enable this setting, the OneDrive sync app will report device and health data to include in administrative sync reports. You must enable this setting on the devices you want to get reports from.
 
