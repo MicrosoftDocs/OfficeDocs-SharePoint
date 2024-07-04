@@ -49,7 +49,7 @@ From the DAG report, select one or more sites to initiate a review and select th
 
 :::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/initiate-site-access-review.png" alt-text="Initiate site access review for sites listed within DAG report":::
 
-Use the comments section to set the right context and clarify on the expectations with the corresponding site owner(s). Click 'send' and the review request will be sent as an email to all corresponding site owners.
+Use the comments section to set the right context and clarify on the expectations with the corresponding site owners. Click 'send' and the review request is sent as an email to all corresponding site owners.
 
 :::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/comments-site-access-review.png" alt-text="Provide comments for context setting for site owners":::
 
@@ -71,7 +71,7 @@ This scenario provides details on 'public sites' or 'public files/items' created
 
 ##### For sites
 
-Sites are 'public' when 'Everyone except external users' is part of the site membership,  i.e., within site owners/members/visitors. This page provides details on which SharePoint groups have 'Everyone except external users', the date when it was added to the SharePoint group and by whom.
+Sites are 'public' when 'Everyone except external users' is part of the site membership,  that is, within site owners/members/visitors. This page provides details on which SharePoint groups have 'Everyone except external users', the date when it was added to the SharePoint group and by whom.
 
 :::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/site-owner-view-foreeeu-groups.png" alt-text="sharepoint groups to which eeeu was added":::
 
@@ -89,7 +89,7 @@ Click on 'Manage access', locate the 'Everyone except external users' group in t
 
 ### Completing the review
 
-Once the site owner took the relevant actions and modified/removed relevant permissions, they can click on 'Complete review'and provide necessary comments. These comments will be shared back to the SharePoint admin who raised the review request. This marks the review as 'Completed'.
+Once the site owner took the relevant actions and modified/removed relevant permissions, they can click on 'Complete review' and provide necessary comments. These comments are shared back to the SharePoint admin who raised the review request and the review is marked as 'Completed'.
 
 ### Managing multiple reviews for site owners
 
@@ -115,4 +115,4 @@ From a SharePoint admin perspective, they can track all reviews from a central p
 
 :::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/my-review-requests.png" alt-text="Track all reviews initiated from a central page":::
 
-Each review is marked as 'pending' once SharePoint admin initiated a review and is waiting for site owner to complete. Once a site owner completes the review, the status and comments are updated with the relevant name and time. Click on a particular review to know more. A review can be marked as failed if the product couldn't determine a valid email ID for any site owner and hence there's no communication.
+Once SharePoint admin initiates a review, the review status is marked as 'pending'. A review can be marked as failed if the product couldn't determine a valid email ID for any site owner and hence there's no communication. Once a site owner completes the review, the status is updated as 'Completed' and comments given by the site owner are updated under the review details. To know more about the review details, click on a particular review.

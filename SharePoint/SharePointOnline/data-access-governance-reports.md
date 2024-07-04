@@ -34,7 +34,7 @@ As sprawl and oversharing of SharePoint sites increase with exponential
 
 This feature requires either Microsoft 365 E5 or Microsoft SharePoint Premium - SharePoint Advanced Management.
 
-While admins with Microsoft 365 E5 licensing can access Data access governance reporting, they are not able to view or utilize the other [SharePoint Advanced Management features](advanced-management.md).
+While admins with Microsoft 365 E5 licensing can access Data access governance reporting, they aren't able to view or utilize the other [SharePoint Advanced Management features](advanced-management.md).
 
 
 ## Access the reports in the SharePoint admin center
@@ -72,7 +72,8 @@ When a report is ready, select it to view the data. Each sharing link report inc
 - The policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 - The primary admin for each site.
 
-Note that the reports don't include OneDrive data.
+> [!NOTE]
+> The reports don't include OneDrive data
 
 ### Download the reports
 
@@ -113,7 +114,7 @@ After you run a report, select it to download the data. The report includes:
 
 Everyone except external users (EEEU) is a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization.
 
-1. 'Public sites' - When a site should be publicly visible to the entire organization - 'Everyone except external users' (EEEU) group is part of the site membership,  i.e., site owners/visitors/members.
+1. 'Public sites' - When a site should be publicly visible to the entire organization - 'Everyone except external users' (EEEU) group is part of the site membership,  that is, site owners/visitors/members.
 2. 'Public items' - You can pick EEEU in the people picker to share a particular item (file/folder) and then that item is visible to the entire organization.
 
 Now organizations can discover potential oversharing occurring via EEEU using the new Data access Governance (DAG) report that captures the above mentioned events in the last 28 days.
@@ -127,8 +128,8 @@ When creating a report, you can choose various options, to create focused report
 - Report name: Provide a unique name for the report.
 - Template: Lists categories of SharePoint site templates (Classic sites, Communication sites, Team sites, others). You can choose multiple values or 'All sites'.
 - Privacy: Applicable for Team sites in the scope. You can select 'Private', 'Public' or 'All'.
-- Site sensitivity: Lists all sensitivity labels. Select one or many labels if you want to report to run within the scope of labeled sites. For eg: 'Identify files within sites labeled as 'Confidential', that were shared with EEEU in the last 28 days.
-- Report type: Use this to select the scenario to be considered for this report, as discussed above,  i.e., whether you want a report for recent 'public sites' or for recent 'public items'.
+- Site sensitivity: Lists all sensitivity labels. Select one or many labels if you want to report to run within the scope of labeled sites. For for example: 'Identify files within sites labeled as 'Confidential', that were shared with EEEU in the last 28 days.
+- Report type: To select the scenario as discussed above,  i.e., whether you want a report for recent 'public sites' or for recent 'public items'.
 
 ### Run eeeu reports
 
@@ -147,7 +148,8 @@ Each EEEU report includes data as shown in the screenshot below
 - Policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), site privacy and [site external sharing policy](external-sharing-overview.md).
 - Primary admin for each site.
 
-The reports don't include OneDrive data.
+> [!NOTE]
+> The reports don't include OneDrive data
 
 ### Download eeeu reports
 
@@ -165,6 +167,6 @@ After you run a report, select it to download the data. In the report:
 
 Once SharePoint admins run the Data access governance reports to discover potential oversharing, the next step is to take actions to remediate such risks. The decision should consider factors such as sensitivity of the content, how much is the exposure and disruption to existing status.
 
-If immediate action needs to be taken, the SharePoint admin can configure [Restricted access control (RAC)](../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/restricted-access-control.md) and restrict access to a specified group (currently in preview). They can leverage the ['Change history' report](../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/change-history-report.md) to identify any recent changes by admins that could have lead to oversharing.
+If immediate action needs to be taken, the SharePoint admin can configure [Restricted access control (RAC)](../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/restricted-access-control.md) and restrict access to a specified group (currently in preview). They can use the ['Change history' report](../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/change-history-report.md) to identify any recent changes by admins that could have lead to oversharing.
 
-The SharePoint admin may also want to consult the site owner(s), whose sites are listed in DAG reports, and ask them to review the permissions and take necessary actions. This is possible with 'Site access review' feature, from within DAG reports. Site owners can also view detailed information about the relevant oversharing scenario, as per the DAG report, and take necessary action and update the SharePoint admin.
+The SharePoint admin might also want to consult the site owners and ask them to review the permissions and take necessary actions. Delegating governance to site owners is possible with 'Site access review' feature, from within DAG reports. Site owners can view detailed information about the relevant oversharing scenario, as per the DAG report, and take necessary action and update the SharePoint admin.
