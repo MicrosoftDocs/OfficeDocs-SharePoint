@@ -110,7 +110,7 @@ After you run a report, select it to download the data. The report includes:
 
 :::image type="content" source="media/details-screen.png" alt-text="Downloaded .csv file":::
 
-## Content shared with 'Everyone except external users' reports
+## Content shared with 'Everyone except external users' (EEEU) reports
 
 Everyone except external users (EEEU) is a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization.
 
@@ -119,7 +119,7 @@ Everyone except external users (EEEU) is a built-in group that represents the en
 
 Now organizations can discover potential oversharing occurring via EEEU using the new Data access Governance (DAG) report that captures the above mentioned events in the last 28 days.
 
-### Create eeeu reports
+### Create EEEU reports
 
 When creating a report, you can choose various options, to create focused reports or filter later within the report.
 
@@ -131,14 +131,14 @@ When creating a report, you can choose various options, to create focused report
 - Site sensitivity: Lists all sensitivity labels. Select one or many labels if you want to report to run within the scope of labeled sites. For for example: 'Identify files within sites labeled as 'Confidential', that were shared with EEEU in the last 28 days.
 - Report type: To select the scenario as discussed above,  i.e., whether you want a report for recent 'public sites' or for recent 'public items'.
 
-### Run eeeu reports
+### Run EEEU reports
 
 To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the **Status** column.
 
 > [!NOTE]
 > Each report can be run only once in 24 hours.
 
-### View eeeu reports
+### View EEEU reports
 
 Each EEEU report includes data as shown in the screenshot below
 
@@ -151,7 +151,7 @@ Each EEEU report includes data as shown in the screenshot below
 > [!NOTE]
 > The reports don't include OneDrive data
 
-### Download eeeu reports
+### Download EEEU reports
 
 After you run a report, select it to download the data. In the report:
 
