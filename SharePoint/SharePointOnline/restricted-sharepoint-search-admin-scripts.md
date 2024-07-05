@@ -88,7 +88,7 @@ Applies to: SharePoint Online
 ```powershell
 Set-SPOTenantRestrictedSearchMode 
 [-Mode] {Disabled | Enabled}
- [<CommonParameters>]
+[<CommonParameters>]
 ```
 
  **Example 1**
@@ -102,7 +102,7 @@ Example 1 sets or enables the Restricted Tenant Search mode for the tenant.
  **Example 2**
 
 ```powershell
-Set-SPOTenantRestrictedSearchMode – Mode Disabled  
+Set-SPOTenantRestrictedSearchMode -Mode Disabled  
 ```
 
 Example 2 disables the Restricted Tenant Search mode for the tenant.
@@ -157,7 +157,7 @@ This example lets the admin add the sites to the allowed list.
 Add-SPOTenantRestrictedSearchAllowedList  -SitesListFileUrl C:\Users\admin\Downloads\UrlList.csv
 ```
   
- This example lets the admin add the sites to the allowed list by giving a CSV file. Add the list of site URLs in URL column.
+This example lets the admin add the sites to the allowed list by giving a CSV file. Add the list of site URLs in URL column.
 
  **Parameters**
 
@@ -238,7 +238,7 @@ Example 2 lets the admin add the sites to the allowed list by giving a CSV file.
 
  **-SitesListFileURL**
 
- File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.
+File that has list of sites that can be removed from an allowed list when the tenant is set to Restricted Tenant Search Mode.
 
 | Type                         | String   |
 |------------------------------|----------|
@@ -261,13 +261,13 @@ You can get the existing list of URLs in the allowed list by running the followi
  **Syntax**
 
 ```powershell
- Get-SPOTenantRestrictedSearchAllowedList
-```  
+Get-SPOTenantRestrictedSearchAllowedList
+```
 
 **Example**
 
 ```powershell
- Get-SPOTenantRestrictedSearchAllowedList
+Get-SPOTenantRestrictedSearchAllowedList
 ```
 
 This example lets the admin get the existing allowed list in the tenant.
