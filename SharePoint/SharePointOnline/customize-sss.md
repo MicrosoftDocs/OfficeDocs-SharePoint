@@ -1,5 +1,5 @@
 ---
-ms.date: 08/21/2020
+ms.date: 07/02/2024
 title: Customize the SharePoint Success Site 
 ms.reviewer: 
 ms.author: ruihu
