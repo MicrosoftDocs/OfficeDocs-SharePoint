@@ -21,14 +21,14 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
 search.appverid: MET150
-description: "In this article, you'll learn about reports that can help you govern access to data in SharePoint."
+description: "In this article, you learn about reports that can help you govern access to data in SharePoint."
 ---
 
 # Data access governance reports for SharePoint sites
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-As sprawl and oversharing of SharePoint sites increase with exponential data growth, organizations need help to govern their data. Data access governance reports can help you govern access to SharePoint data. The reports let you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply the appropriate security and compliance policies.
+As sprawl and oversharing of SharePoint sites increase with exponential data growth, organizations need help with governing their data. Data access governance reports can help you govern access to SharePoint data. The reports let you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply the appropriate security and compliance policies.
 
 ## Requirements
 
@@ -55,14 +55,14 @@ Sharing links reports lets you identify potential sources of oversharing by show
 |Name of report|Description|
 |---|---|
 |**"Anyone" links**| This report provides a list of sites in which the highest number of "Anyone" links were created. "Anyone" links allow anyone to access files and folders without signing in.|
-|**"People in the organization" links**| This report provides a list of sites in which the highest number of “People in the organization” links were created. These links can be forwarded internally and allow anyone in the organization to access files and folders.|
-|**"Specific people" links shared externally**| This report provides a list of sites in which the highest number of “Specific people” links were created for people outside the organization.|
+|**"People in the organization" links**| This report provides a list of sites in which the highest number of "People in the organization" links were created. These links can be forwarded internally and allow anyone in the organization to access files and folders.|
+|**"Specific people" links shared externally**| This report provides a list of sites in which the highest number of "Specific people" links were created for people outside the organization.|
 
 :::image type="content" source="media/sharing-links-screen.png" alt-text="Sharing links page":::
 
 ### Run the reports
 
-To get the latest data for each report, manually run the Data access governance report. You can run all reports or select individual reports to run. It may take a few hours for reports to fully generate. To check if a report is ready or to see when it was last updated, see the **Status** column.
+To get the latest data for each report, manually run the Data access governance report. You can run all reports or select individual reports to run. It can take a few hours for reports to fully generate. To check if a report is ready or to see when it was last updated, see the **Status** column.
 
 > [!NOTE]
 > Each report can be run only once in 24 hours.
@@ -117,7 +117,7 @@ After you run a report, select the report to download the data. The report inclu
 
 Everyone except external users (EEEU) is part of a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization:
 
-- Public sites - The site is publicly visible to users within your entire organization - Everyone except external users (EEEU) group is part of the site membership,  i.e., site owners/visitors/members.
+- Public sites - The site is publicly visible to users within your entire organization - Everyone except external users (EEEU) group is part of the site membership,  that is, site owners/visitors/members.
 - Public items - You can select EEEU in the people picker to share a particular item (file/folder) and then that item is visible to the entire organization.
 
 Now organizations can discover potential oversharing occurring via EEEU using the new Data access governance (DAG) report that captures the above mentioned events in the last 28 days.
@@ -132,7 +132,7 @@ When creating a report, you can select various options like create focused repor
 - Template: Lists categories of SharePoint site templates (Classic sites, Communication sites, Team sites, others). You can choose multiple values or 'All sites'.
 - Privacy: Applicable for Team sites in the scope. You can select 'Private', 'Public' or 'All'.
 - Site sensitivity: Lists all sensitivity labels. Select one or many labels if you want to report to run within the scope of labeled sites. For for example: 'Identify files within sites labeled as 'Confidential', that were shared with EEEU in the last 28 days.
-- Report type: To select the scenario as discussed above,  i.e., whether you want a report for recent 'public sites' or for recent 'public items'.
+- Report type: To select the scenario as discussed above,  that is, whether you want a report for recent 'public sites' or for recent 'public items'.
 
 ### Run Everyone except external users reports
 
@@ -145,7 +145,7 @@ To get the latest data for a report, run the report. You can run all reports or 
 
 Each EEEU report includes data as shown in the screenshot below
 
-:::image type="content" source="media/data-access-governance/dag-eeeu-report.jpeg" alt-text="eeeu report details":::
+:::image type="content" source="media/data-access-governance/dag-eeeu-report.png" alt-text="eeeu report details":::
 
 - Up to 100 sites with highest number of items/groups shared with EEEU in the last 28 days.
 - Policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), site privacy and [site external sharing policy](external-sharing-overview.md).
@@ -163,13 +163,13 @@ After running the report, select the report to download the data. In the report:
 
 ## Limitations or known issues
 
-- Reports work if you have non-pseudonymized report data selected for your organization. To change this setting, you must be a Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
+- Reports work if you have nonpseudonymized report data selected for your organization. To change this setting, you must be a Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
 - Report data may be delayed by up to 48 hours. In new tenants, it can take a few days for data to be generated successfully and available for viewing.
 
 ## Remedial actions from Data access governance reports
 
 Once you run the Data access governance reports to discover potential oversharing, the next step is to take actions to remediate such risks. We recommend considering factors like sensitivity of the content, amount of content exposed and disruption to existing status.
 
-If immediate action needs to be taken, you can configure [Restricted access control (RAC)](./restricted-access-control.md) and restrict access to a specified group (currently in preview). You can also leverage the ['Change history' report](./change-history-report.md) to identify recent changes to site properties that could lead to oversharing.
+If immediate action needs to be taken, you can configure [Restricted access control (RAC)](./restricted-access-control.md) and restrict access to a specified group (currently in preview). You can also use the ['Change history' report](./change-history-report.md) to identify recent changes to site properties that could lead to oversharing.
 
 You can also request the site owner review the permissions before taking necessary actions via the Site access review feature that is available within the Data access governance reports.
