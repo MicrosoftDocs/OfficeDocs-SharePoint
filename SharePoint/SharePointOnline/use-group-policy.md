@@ -115,7 +115,7 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
 
-- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive automatically-when-signing-in-to-windows)
+- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive-automatically-when-signing-in-to-windows)
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
