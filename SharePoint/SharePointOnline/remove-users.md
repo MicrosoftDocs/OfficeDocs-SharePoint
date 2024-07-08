@@ -1,6 +1,6 @@
 ---
 ms.date: 05/02/2024
-title: Troubleshoot user profile removal issues in SharePoint
+title: Remove users from SharePoint
 ms.reviewer: jmcdowe
 ms.author: ruihu
 author: maggierui
@@ -24,7 +24,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you learn how to troubleshoot user profile removal issues in SharePoint."
+description: "In this article, you learn how to troubleshoot user profile removal issues in SharePoint and Remove users from SharePoint."
 ---
 
 # Troubleshoot user profile removal issues in SharePoint
@@ -59,32 +59,36 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 1. Select the user, then select **Delete a user**.
 
+   ## Delete a Guest User Using Microsoft Graph PowerShell
 
+1. **Install Microsoft Graph PowerShell Module:**
+   - Open PowerShell with elevated permissions (right-click on your Start menu or press Windows key + X).
+   - Type the following command and press Enter:
+     ```PowerShell
+     Install-Module -Name Microsoft.Graph
+     ```
+   - When prompted, type "Y" to install the NuGet provider.
 
-## Delete a guest by using the SharePoint Online Management Shell
+2. **Connect to Microsoft Graph:**
+   - Now that the Microsoft Graph module is installed, connect to Microsoft Graph using the following command:
+     ```PowerShell
+     Connect-MgGraph -Scopes "User.ReadWrite.All", "Group.ReadWrite.All"
+     ```
+   - Enter your admin credentials when prompted.
 
-1. [Install the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. **Get the Guest User's UPN/Object ID:**
+   - Once connected, run the following command to get a list of all user accounts in your tenant:
+     ```PowerShell
+      Get-MgUser -All | Format-List  ID, DisplayName, Mail, UserPrincipalName
+     ```
+   - Note down the UPN or Object ID of the guest user you want to remove.
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. Run the following command:
- 
-   ```PowerShell
-   Connect-SPOService -Url https://fabrikam-admin.sharepoint.com -Credential $cred
-   ```
-4. Remove the guest from each site collection by using the following command:
- 
-   ```PowerShell
-   $ExtUser = Get-SPOExternalUser -filter jondoe@fabrikam.com
-   ```
-   > [!NOTE]
-   >  Replace the **jondoe\@fabrikam.com** placeholder with the account for your scenario.
-
-5. Enter the following command:
- 
-   ```PowerShell
-   Remove-SPOExternalUser -UniqueIDs @($ExtUser.UniqueId)
-    ```
+4. **Remove the Guest User:**
+   - Run the following command to remove the specified guest user (replace `TestUser@example.com` with the actual UPN or Object ID):
+     ```PowerShell
+     Remove-MgUser -UserId "TestUser@contoso.com#EXT#@contoso.onmicrosoft.com"
+     ```
+   - This command will permanently remove the user from Azure AD.
 
 ## Remove people from the UserInfo list
 
