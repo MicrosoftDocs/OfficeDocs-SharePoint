@@ -24,7 +24,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you learn how to troubleshoot user profile removal issues in SharePoint and Remove users from SharePoint"
+description: "In this article, you learn how to troubleshoot user profile removal issues in SharePoint and Remove users from SharePoint."
 ---
 
 # Troubleshoot user profile removal issues in SharePoint
