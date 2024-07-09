@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Migration Admin role"
 ms.reviewer: 
-ms.author: jhendr
+ms.author: jtremper
 author: JoanneHendrickson
 manager: jtremper
 ms.date: 01/25/2024
