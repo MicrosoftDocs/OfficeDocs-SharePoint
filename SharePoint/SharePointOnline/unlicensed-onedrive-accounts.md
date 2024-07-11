@@ -28,7 +28,7 @@ In this article, you'll learn how to identify, monitor, and manage unlicensed On
 ## Changes to storage policies for unlicensed OneDrive accounts
 
 > [!IMPORTANT]
-> Beginning [DATE], OneDrive user accounts that have been unlicensed for more than 90 days will enter a frozen state where the data is inaccessible and blocked from read and/or write access. However, the data will not be deleted.
+> Beginning August 1, 2025, OneDrive user accounts that have been unlicensed for more than 90 days will enter a frozen state where the data is inaccessible and blocked from read and/or write access. However, the data will not be deleted.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ If you want to access the data from the now frozen unlicensed OneDrive account, 
 If no action is taken on unlicensed OneDrive accounts that have been frozen for more than 90 days, the accounts continue to remain frozen and inaccessible by users.
 
 > [!IMPORTANT]
-> After [DATE], you won’t be able to remove OneDrive user licenses until you choose how all future unlicensed accounts will be managed. You can choose to delete all future unlicensed accounts or set up billing to keep the OneDrive accounts accessible in Microsoft 365 Archive.
+> After August 1, 2025, you won’t be able to remove OneDrive user licenses until you choose how all future unlicensed accounts will be managed. You can choose to delete all future unlicensed accounts or set up billing to keep the OneDrive accounts accessible in Microsoft 365 Archive.
 
 > [!NOTE]
 > These changes do not apply to EDU, GCC, or DoD customers.
