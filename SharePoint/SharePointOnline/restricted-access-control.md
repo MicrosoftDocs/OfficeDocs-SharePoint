@@ -147,8 +147,7 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png)
+![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png)
 
 ## Reporting
 
