@@ -44,6 +44,9 @@ The product servicing policy timeline for SharePoint Server 2016 is described in
 |May 2020 Public Update - April 2021 Public Update|4/30/2022|
 |May 2021 Public Update - all future Public Updates|7/14/2026|
 
+>[!NOTE]
+> For information on the latest public updates for SharePoint Server 2016, see [SharePoint Updates](/officeupdates/sharepoint-updates#sharepoint-2016-update-history) article. To know more about the software update process, see [Deploy software updates for SharePoint Server 2016](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md).
+
 ## Frequently Asked Questions
 
  **Question**: **Why is Microsoft doing this?**
