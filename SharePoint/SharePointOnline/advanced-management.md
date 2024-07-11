@@ -117,7 +117,7 @@ You can purchase the *SharePoint Advanced Management Plan 1* add-on in the Micro
 
 SharePoint Advanced Management is available for Commercial, WW Commercial Public Sector, Education, Charity, and US GCC, GCC-High, and DoD customers.
 
-SharePoint Advanced Management is $3 per user per month for commercial customers. For more details on licensing, please contact your account manager. 
+SharePoint Advanced Management is $3 per user per month for commercial customers. For more details on licensing, please contact your account manager.
 
 Licensing details for each feature listed above are included in those articles.
 
