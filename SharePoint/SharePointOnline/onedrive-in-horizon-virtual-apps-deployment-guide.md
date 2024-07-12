@@ -68,7 +68,7 @@ https://docs.omnissa.com/bundle/Desktops-and-Applications-in-HorizonV2312/page/C
 `<LocalAppdata>\Microsoft\Internet Explorer` \
 `<LocalAppdata>\Microsoft\Windows\INetCache` \
 \
-![Screenshot of Select and application Template.](media/horizon/4-import-export.png)
+![Screenshot of Import / Export Settings.](media/horizon/4-import-export.png)
 
 **Validation:**
 
