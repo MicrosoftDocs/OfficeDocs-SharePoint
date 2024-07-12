@@ -54,7 +54,7 @@ This is a new page in the System Settings category of Central Administration. It
   
 The **Auto Provision** column displays whether the service is enabled in the farm. If the value **Yes** is displayed, service instances for this service will be started on the appropriate MinRole-managed servers in the farm. If the value **No** is displayed, service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm. 
   
-The **Action** column displays one of three values depending on the type of service it is and whether it is enabled in the farm: **Manage Service application**, **Disable Auto Provision**, and **Enable Auto Provision**. 
+The **Action** column displays one of three values depending on the type of service it's and whether it's enabled in the farm: **Manage Service application**, **Disable Auto Provision**, and **Enable Auto Provision**. 
   
 The **Manage Service Application** value indicates that the service is associated with a service application. This service will be enabled or disabled in the farm by its service application, typically when you create or delete the service application. Click the link to access the Service Application Management page. 
   
@@ -65,7 +65,7 @@ The **Disable Auto Provision** link disables the service in the farm. When you c
   
 The **Enable Auto Provision** link enables the service in the farm. When you click this link, service instances for this service will be started on the appropriate MinRole-managed servers in the farm. 
   
-The **Compliant** column displays whether the service is in compliance on every server in the farm. If this service is not in compliance on one or more servers, a **Fix** link will be provided. Click this link to automatically reconfigure the service instances of this service to match the expected configuration. 
+The **Compliant** column displays whether the service is in compliance on every server in the farm. If this service isn't in compliance on one or more servers, a **Fix** link will be provided. Click this link to automatically reconfigure the service instances of this service to match the expected configuration. 
   
 > [!NOTE]
 > Only members of the local Administrators group on the server that hosts Central Administration have access to the **Fix** link. 
@@ -80,7 +80,7 @@ In previous releases of SharePoint, this page was accessible only to members of 
   
 The role of the server is now displayed next to the name of the server.
   
-The **Compliant** column has been added to the page. It displays whether the service instance is in compliance on this server. If this service instance is not in compliance on this server, a Fix link will be provided. Click this link to automatically reconfigure the service instance on this server to match the expected configuration. 
+The **Compliant** column has been added to the page. It displays whether the service instance is in compliance on this server. If this service instance isn't in compliance on this server, a Fix link will be provided. Click this link to automatically reconfigure the service instance on this server to match the expected configuration. 
   
 > [!NOTE]
 > Only members of the local Administrators group on the server that hosts the Central Administration have access to the Fix link. 
@@ -108,20 +108,20 @@ New PowerShell cmdlets have been introduced to manage the services in the farm.
   
 ### Health monitoring
 
-A new health analyzer rule has been created to ensure that your servers are operating in their optimal MinRole configuration. The **Server role configuration isn't correct** rule runs every night at midnight on each server in your farm. It scans all service instances on the server to detect if any are not in compliance. If any service instance is not in compliance, the health rule will automatically reconfigure it to match the expected configuration. No manual intervention by the SharePoint farm administrator is required. 
+A new health analyzer rule has been created to ensure that your servers are operating in their optimal MinRole configuration. The **Server role configuration isn't correct** rule runs every night at midnight on each server in your farm. It scans all service instances on the server to detect if any aren't in compliance. If any service instance isn't in compliance, the health rule will automatically reconfigure it to match the expected configuration. No manual intervention by the SharePoint farm administrator is required. 
 
 :::image type="content" alt-text="Displays health rules for MinRole topology in SharePoint Servers 2016 and 2019." source="../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG" lightbox="../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG":::
   
-The automatic repair functionality of the health rule can be disabled by the SharePoint farm administrator while still allowing the health rule to run. If the health rule detects that a server is not in compliance and the automatic repair functionality is disabled, it will generate a health report in Central Administration. The health report will identify which servers are not in compliance, offer the ability to automatically repair the servers, and provide instructions on how to manually repair the servers.
+The automatic repair functionality of the health rule can be disabled by the SharePoint farm administrator while still allowing the health rule to run. If the health rule detects that a server isn't in compliance and the automatic repair functionality is disabled, it will generate a health report in Central Administration. The health report will identify which servers aren't in compliance, offer the ability to automatically repair the servers, and provide instructions on how to manually repair the servers.
   
-The SharePoint farm administrator can control the health rule schedule, changing it to run more frequently or less frequently or disabling it so that it is never scheduled. It can also run on demand.
+The SharePoint farm administrator can control the health rule schedule, changing it to run more frequently or less frequently or disabling it so that it's never scheduled. It can also run on demand.
   
 > [!NOTE]
 > This health rule will not scan or repair servers that are assigned to the Custom role. A server assigned to the Custom role will not be managed by MinRole. 
   
 ## Developers: How to assign services to server roles
 
-If you are a SharePoint developer intending to create an application with services, it is recommended that you assign each type of service instance to one or more server roles supported by MinRole:
+If you're a SharePoint developer intending to create an application with services, it's recommended that you assign each type of service instance to one or more server roles supported by MinRole:
   
  **Assign services to server roles**
   

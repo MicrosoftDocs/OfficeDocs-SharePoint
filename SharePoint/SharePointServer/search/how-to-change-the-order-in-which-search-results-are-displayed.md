@@ -21,11 +21,11 @@ description: "Learn how to change the order in which search results are displaye
   
 In the series [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) we explained how to customize the way search results are displayed by adding custom icons and properties. 
   
-When it comes to displaying search results, design and content are indeed very important. However, there is one thing that often trumps them both: the order in which search results are displayed.
+When it comes to displaying search results, design and content are indeed important. However, there's one thing that often trumps them both: the order in which search results are displayed.
   
 Think of your own behavior when looking at search results. How often do you click to view the second page of search results? Often, the answer is "rarely."
   
-So, when displaying search results, it is important that the results that your users are looking for are displayed as high up in the search results list as possible. This article, an addendum to the [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) series, explains how to use a query rule to change the order in which classic search results are displayed. To demonstrate how query rules work, we'll use an example from an internal Microsoft Search Center. 
+So, when displaying search results, it's important that the results that your users are looking for are displayed as high up in the search results list as possible. This article, an addendum to the [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) series, explains how to use a query rule to change the order in which classic search results are displayed. To demonstrate how query rules work, we'll use an example from an internal Microsoft Search Center. 
   
 In this article, you'll learn:
   
@@ -44,11 +44,11 @@ In this article, you'll learn:
 
 As you know, Microsoft publishes thousands of articles across TechNet, MSDN, and Office.com. To help in the publishing process, we use several SharePoint lists. Each item in a list represents an article or a media file. To make it easy to find information about a particular list item, we created a Search Center that searches across these lists.
   
-The following screen shot shows the default order in which search results were displayed in our Search Center. Notice that search results for articles and images were displayed in a mixed order.
+The following screenshot shows the default order in which search results were displayed in our Search Center. Notice that search results for articles and images were displayed in a mixed order.
   
 ![Search Results Default Order](../media/OTCSP_BeforeResults.png)
   
-When users search for something in this Search Center, they are usually looking for information about an article. So, to make it easier for users to find information about articles, we wanted to change the order of the search results so that images would be displayed at the bottom. To do this, we had to create a query rule.
+When users search for something in this Search Center, they're usually looking for information about an article. So, to make it easier for users to find information about articles, we wanted to change the order of the search results so that images would be displayed at the bottom. To do this, we had to create a query rule.
   
 ## When using query rules: define before you assign
 <a name="BKMK_WhenUsingQueryRulesDefineBeforeYouAssign"> </a>
@@ -57,17 +57,17 @@ A query rule is largely what the name implies: a rule that can be applied to que
   
 Basically, you have to define two things: a condition and an action. Simply put, this comes down to defining the following:
   
- *"when X (condition), do Y (action)".* 
+ *"when X (condition), do Y (action)."* 
   
-In our Search Center scenario, we knew the action part:  *Display list items that represent images at the bottom of the search results list*  . 
+In our Search Center scenario, we knew the action part:  *Display list items that represent images at the bottom of the search results list*. 
   
-In our lists, we use the site column  *Content Type*  to differentiate between the type of articles or media types a list item represents. For example, all images have the value "Art" for  *Content Type*  . 
+In our lists, we use the site column  *Content Type*  to differentiate between the type of articles or media types a list item represents. For example, all images have the value "Art" for  *Content Type*. 
   
 ![Art Content Type](../media/OTCSP_ArtListItem.png)
   
 Based on this, we were able to define the condition part so that my final definition was:
   
- *When list items are of Content Type "Art", display these at the end of the search results list.* 
+ *When list items are of Content Type "Art," display these at the end of the search results list.* 
   
 So, with the definition in place, we could begin to create the query rule that would make this happen.
   
@@ -98,7 +98,7 @@ To save space, we'll only show you how to create a query rule as a Site collecti
   
 4. On the **Add Query Rule** page, in the **Rule name** field, enter a name for the query rule. 
     
-    In our Search Center scenario, we named the query rule  *Demote Art*  . 
+    In our Search Center scenario, we named the query rule  *Demote Art*. 
     
      ![Query Rule Name](../media/OTCSP_QueryRuleName.jpg)
   
@@ -108,7 +108,7 @@ To save space, we'll only show you how to create a query rule as a Site collecti
     
      ![Remove Condition](../media/OTCSP_RemoveCondition.jpg)
   
-6. In the Actions section, specify what you want the query rule to do when it is triggered.
+6. In the Actions section, specify what you want the query rule to do when it's triggered.
     
     In our Search Center scenario, we selected **Change ranked results by changing the query**. This opened a dialog where we could define what we wanted the query rule to do. 
     
@@ -130,7 +130,7 @@ To save space, we'll only show you how to create a query rule as a Site collecti
     
      ![Manual Condition](../media/OTCSP_ManualCondition.jpg)
   
-    Remember, we wanted list items of Content Type  *Art*  to be displayed at the end of the search results list. So, in the **Manual condition** field, we entered  *ContentType:Art*  , and selected **Demote to bottom**. 
+    Remember, we wanted list items of Content Type  *Art*  to be displayed at the end of the search results list. So, in the **Manual condition** field, we entered  *ContentType: Art*, and selected **Demote to bottom**. 
     
      ![Demote content](../media/DemoteToBottom.jpg)
   
@@ -138,13 +138,13 @@ To save space, we'll only show you how to create a query rule as a Site collecti
     
     - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) explains how to find managed property names. 
     
-    - The colon : means "contains".
+    - The colon: means "contains".
     
     - **Art** is the managed property value. 
     
     - **Demote to bottom** is the action that should be taken. 
     
-    Put it together, and it matches the definition we specified:  *When list items are of Content Type "Art", display these at the end of the search results list*  . 
+    Put it together, and it matches the definition we specified:  *When list items are of Content Type "Art," display these at the end of the search results list*. 
     
 8. Select **OK**, and then **Save**. 
     
@@ -161,7 +161,7 @@ When we now entered a search in the Search Center, we could see that articles we
 ## How do I know that the query rule's been applied?
 <a name="BKMK_HowdoIKnowthattheQueryRulesBeenApplied"> </a>
 
-In our Search Center scenario, we could easily verify that the query rule we created was being applied. But, if you are uncertain about whether your query rule is being applied, the **Search Results Web Part** can give you an answer. 
+In our Search Center scenario, we could easily verify that the query rule we created was being applied. But, if you're uncertain about whether your query rule is being applied, the **Search Results Web Part** can give you an answer. 
   
 Here are the steps to verify that a query rule is being applied:
   
@@ -181,13 +181,13 @@ In our Search Center scenario, we could verify that our query rule was working b
   
 1. In the field **Applied query rules**, the name of our query rule, Demote art, was shown. 
     
-2. In the **Query text** section, XRANK was applied to  *ContentType:Art*  . 
+2. In the **Query text** section, XRANK was applied to  *ContentType: Art*. 
     
 ## Think two times before you apply a query rule
 <a name="BKMK_ThinkTwiceBeforeApplyingaQueryRule"> </a>
 
-Even though this was a fairly simple query rule, we saw that the effect was very noticeable. So a word of warning: even though query rules are great for changing the order in which classic search results are displayed, you should think carefully before you apply too many of them. The effects can be very large, and the more complex query rules that you have, the more performance resources each query will require.
+Even though this was a fairly simple query rule, we saw that the effect was noticeable. So a word of warning: even though query rules are great for changing the order in which classic search results are displayed, you should think carefully before you apply too many of them. The effects can be large, and the more complex query rules that you have, the more performance resources each query will require.
   
-But, if they are used with caution, you can make the users of your Search Center very happy customers.
+But, if they're used with caution, you can make the users of your Search Center happy customers.
   
 

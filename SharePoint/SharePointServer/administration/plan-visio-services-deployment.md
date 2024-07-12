@@ -36,7 +36,7 @@ System performance of application servers that are running the Visio Graphics Se
     
 - The performance of the data sources to which diagrams are connected
     
-- The frequency of data refresh for data-connected diagrams
+- The frequency of data refreshes for data-connected diagrams
     
 - Peak loads of users who are accessing diagrams
     
@@ -46,15 +46,15 @@ System performance of application servers that are running the Visio Graphics Se
     
 - Visio Services cache settings
     
-The diagram size limit and refresh parameters can be adjusted by the administrator. Being able to adjust these parameters can help you adjust the performance of the server. If changing these parameters does not provide the desired performance, you may have to add processing capacity or memory.
+The diagram size limit and refresh parameters can be adjusted by the administrator. Being able to adjust these parameters can help you adjust the performance of the server. If changing these parameters doesn't provide the desired performance, you may have to add processing capacity or memory.
   
-When planning system resources for Visio Services, the most important factor is peak load. For example, if users will make heaviest use of the Visio Services functionality early Monday morning, plan your server capacity for that peak load. Peak load times can vary widely depending on how Visio Services is used within your organization. It is important to estimate peak loads as best as possible to avoid overtaxing system resources.
+When planning system resources for Visio Services, the most important factor is peak load. For example, if users will make heaviest use of the Visio Services functionality early Monday morning, plan your server capacity for that peak load. Peak load times can vary widely depending on how Visio Services is used within your organization. It's important to estimate peak loads as best as possible to avoid overtaxing system resources.
   
 In addition to SharePoint Server performance considerations, you should also examine the performance impact of Visio Services on your other systems. For example, if you have a data-connected diagram that is querying data from an Oracle database, what is the effect of your Visio Services peak load on that Oracle database? Large numbers of users querying any data source at the same time could put a strain on the resources of that data source.
   
 The following best practices can be used to optimize the performance of Visio Services:
   
-- Monitor the performance of the application servers in the farm and add CPU and memory or additional Front-end role servers if they are needed to handle peak loads.
+- Monitor the performance of the application servers in the farm and add CPU and memory or additional Front-end role servers if they're needed to handle peak loads.
     
 - Limit the maximum diagram size.
     
@@ -68,7 +68,7 @@ For many deployments, a single Visio Graphics Service Application is sufficient.
   
 ## Use a Visio Services pilot deployment
 
-To help determine capacity requirements for Visio Services, consider rolling Visio Services out to a limited pilot group that is representative of typical users. Giving a fairly small number of people access to Visio Services functionality lets you monitor server resource usage and effect on related systems, such as external data sources, without overtaxing system resources.
+To help determine capacity requirements for Visio Services, consider rolling Visio Services out to a limited pilot group that is representative of typical users. Giving a fairly small amount of people access to Visio Services functionality lets you monitor server resource usage and effect on related systems, such as external data sources, without overtaxing system resources.
   
 Once you have compiled performance data for the pilot group, you can extrapolate system requirements for Visio Services when you deploy it across your whole organization. The pilot data will also help you determine peak load requirements and times when peak loads are likely to occur.
   
@@ -76,7 +76,7 @@ By monitoring other affected systems—such as data sources used by data-connect
   
 ## Monitor system resources consumed by Visio Services
 
-We highly recommend that you monitor system resources consumed by Visio Services—alongside the other services in your SharePoint Server farm. It is typical for resource usage to increase over time as additional users are brought online and existing users make more use of Visio Services and other SharePoint Server technologies.
+We highly recommend that you monitor system resources consumed by Visio Services—alongside the other services in your SharePoint Server farm. It's typical for resource usage to increase over time as additional users are brought online and existing users make more use of Visio Services and other SharePoint Server technologies.
   
 The SharePoint Server services architecture enables easy addition of servers to the farm. As user demands increase, you can continue to add servers to the farm to provide additional capacity and redundancy.
   
@@ -84,10 +84,10 @@ By monitoring resource usage, you can predict when additional capacity is likely
   
 ## Backup and recovery of data used by Visio Services
 
-Visio Services settings and Visio documents stored in SharePoint Server libraries can be backed up by the farm administrator when doing a standard farm backup. However, be aware that when working with Visio documents that are connected to data sources that are outside the farm, the data to which the Visio documents are connected is not backed up as part of a standard farm backup. In this case, the administrator of the system where the data resides should perform a separate backup procedure.
+Visio Services settings and Visio documents stored in SharePoint Server libraries can be backed up by the farm administrator when doing a standard farm backup. However, be aware that when working with Visio documents that are connected to data sources that are outside the farm, the data to which the Visio documents are connected isn't backed up as part of a standard farm backup. In this case, the administrator of the system where the data resides should perform a separate backup procedure.
   
 ## Requirements for authors of Visio diagrams
 
-Visio Services lets you display Visio diagrams in a Web Part without the need to have Visio installed on the client computer. However, Visio Services does not allow for creating or editing Visio diagrams. As part of your deployment plan for Visio Services, you should also plan for the needs of diagram authors within your organization. Each diagram author who has to use Visio Services must have a copy of Visio Professional, Visio Premium, or Visio Pro for Microsoft 365.
+Visio Services lets you display Visio diagrams in a Web Part without the need to have Visio installed on the client computer. However, Visio Services doesn't allow for creating or editing Visio diagrams. As part of your deployment plan for Visio Services, you should also plan for the needs of diagram authors within your organization. Each diagram author who has to use Visio Services must have a copy of Visio Professional, Visio Premium, or Visio Pro for Microsoft 365.
   
 

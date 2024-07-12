@@ -1,5 +1,5 @@
 ---
-ms.date: 05/20/2024
+ms.date: 06/04/2024
 title: "Data access governance reports for SharePoint sites"
 ms.reviewer: samust
 ms.author: mactra

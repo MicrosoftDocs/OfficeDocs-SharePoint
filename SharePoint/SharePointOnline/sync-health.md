@@ -1,5 +1,5 @@
 ---
-ms.date: 01/01/2024
+ms.date: 06/04/2024
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: kangan
 ms.author: mactra
@@ -43,7 +43,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync apps on the Insiders, Production, or Deferred ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global Reader](/microsoft-365/admin/add-users/about-admin-roles), Global Administrator, Security Administrator, Office Apps Administrator, or Reports Reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
+- [Office Apps Administrator](/microsoft-365/admin/add-users/about-admin-roles) or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global Reader](/microsoft-365/admin/add-users/about-admin-roles), Security Administrator, Office Apps Administrator, or Reports Reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 - Devices in your organization should allow connections to `https://clients.config.office.net`.
 
@@ -63,7 +63,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
-2. Go to [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
+2. Go to [Microsoft 365 Apps admin center](https://config.office.com) and sign in as an Office App Administrator.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
@@ -125,7 +125,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
-2. Go to the [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
+2. Go to the [Microsoft 365 Apps admin center](https://config.office.com) and sign in as an Office Apps Administrator.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
@@ -239,7 +239,7 @@ This section describes known limitations and considerations in sync reporting.
 **Considerations:**
 
 - There is negligible impact to a network after enabling the sync reports setting on devices.
-- Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant. 
+- Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant.
 - There are no Power BI templates available for sync reports.
 - Admins will see errors based on the user's client language, not in the admin's configured language.
 
