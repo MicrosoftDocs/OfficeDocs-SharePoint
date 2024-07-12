@@ -386,7 +386,7 @@ Failure codes represent file-level errors during both the scan and migration pro
 |MGETFOLDERACLS|Failure to get shared folder membership. |Check folder permissions and Try again...|
 |MHTTPCONNECTION|Connection failure.|Check your network and Try again...|
 |MINVALIDEMAIL|Invalid user email; unable to find user with that email. |Check user name and Try again...|
-|MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.
+|MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.|
 |MINVALIDPARENTID|Item has no parent ID. Id-based connectors require the item to have a parent ID.|Check file and Try again...|
 |MINVALIDPATH|Path is invalid.|Check path and Try again...|
 |MINVALIDRESPONSE|Invalid response from API call. |Try again.|
@@ -422,14 +422,15 @@ Failure codes represent file-level errors during both the scan and migration pro
 |MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and try again|
 |PFAIL|Failed to set permission|Check permissions and Try again...|
 |PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again|
-|PSUCCESS|Set permission successfully|
+|PSUCCESS|Set permission successfully||
 |PUNSUP|Unable to set permissions.|Check permission settings and try again.|
-|MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.| 
-|MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.| 
+|MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.|
+|MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.|
 |MJOBFATALERROR|Failed to process the migration job (upload package). All items in the package will be marked as failure. |Try again. |
 |MNOTSUPPORTED|Forms migration under Google shared drives is not supported.||
 |MEMPTYUSERMAPPPING	|User identity mapping is empty|Update mapping and try again.|
 |MEXCEEDFORMSQUOTA|	Failed to create new forms, due to the maximum number of forms reached.|Reduce the number of forms to migrate, and try again.|
 |MNOUSERINFO|Failed to get Microsoft user info||
 |MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
+|MQUICKXOR|Integrity check failed for the large file.|Please try again. If the issue persists, submit a support ticket.|
 

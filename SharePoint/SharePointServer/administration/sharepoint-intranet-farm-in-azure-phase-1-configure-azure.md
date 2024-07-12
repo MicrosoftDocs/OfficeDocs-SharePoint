@@ -60,7 +60,7 @@ For the first four subnets, specify a name and a single IP address space based o
     
 2. Convert the resulting bits to decimal and express it as an address space with the prefix length set to the size of the gateway subnet.
     
-See [Address space calculator for Azure gateway subnets](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) for a PowerShell command block and C# console application that performs this calculation for you. 
+See [Address space calculator for Azure gateway subnets](/microsoft-365/enterprise/address-space-calculator-for-azure-gateway-subnets) for a PowerShell command block and C# console application that performs this calculation for you. 
   
 Work with your IT department to determine these address spaces from the virtual network address space.
   
