@@ -27,11 +27,11 @@ description: "Learn about Advanced AI Insights for Microsoft SharePoint Premium 
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-The Advanced AI Insights feature for [SharePoint Advanced Management](/sharepoint/advanced-management.md) uses the power of a customized language model to identify patterns and potential issues from reporting and receive actionable recommendations to solve any issues.
+The Advanced AI Insights feature for [SharePoint Advanced Management](advanced-management.md) uses the power of a customized language model to identify patterns and potential issues from reporting and receive actionable recommendations to solve any issues.
 
 As an [IT administrator](/microsoft-365/admin/add-users/about-admin-roles), you can reduce the manual effort required to review reports during audits, and mitigate content governance issues with the Advanced AI Insights feature in [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219).
 
- :::image type="content" alt-text="Screenshot of Collaboration insights dashboard in SharePoint admin center." source="media/ai-insights/0-insights-inactive-sites.png" lightbox="media/ai-insights/0-ai-insights-inactive-sites.png":::
+ :::image type="content" alt-text="Screenshot of Collaboration insights dashboard in SharePoint admin center." source="media/ai-insights/0-ai-insights-inactive-sites.png" lightbox="media/ai-insights/0-ai-insights-inactive-sites.png":::
 
 Key capabilities of Advanced AI Insights for SharePoint Advanced Management include:
 
@@ -54,10 +54,10 @@ Advanced AI Insights is available for the following reports:
 |Top sites shared internally | Sites that are being shared with the most guests|
 |Top OneDrive collaborative users | OneDrive users that are sharing the most files|
 |Top sites shared internally | Sites that are being shared with the most people and groups|
-
+|Inactive site policy| Sites that have been in an inactive status|
 > [!NOTE]
 > AI insights are based on a partial set of data, and not the report as a whole. If you choose to generate another insight, the data will be based on the next set of data of the report.
 
 ## Related topics
 
-[Microsoft SharePoint Advanced Management - SharePoint Advanced Management overview](/sharepoint/advanced-management.md)
+[Microsoft SharePoint Advanced Management - SharePoint Advanced Management overview](advanced-management.md)
