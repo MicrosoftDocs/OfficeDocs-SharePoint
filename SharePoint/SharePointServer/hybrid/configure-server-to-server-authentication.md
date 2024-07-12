@@ -89,7 +89,7 @@ $serviceConfig.Update()
 ## Configure server-to-server authentication between on-premises SharePoint Server and SharePoint in Microsoft 365
 <a name="s2s"> </a>
 
-This section will help you set up server-to-server authentication among:
+This section helps you set up server-to-server authentication among:
 
 - SharePoint Server
 
@@ -172,7 +172,7 @@ To install the online service management tools and configure the PowerShell wind
       Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory",”Organization.ReadWrite.All”
    ```
 
-   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
+   You're prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
 
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
 
@@ -183,12 +183,12 @@ Now that you installed the tools to enable you to remotely administer Microsoft 
 
 #### About the variables you'll create
 
-This section describes the variables you will set in the procedure that follows. These variables contain important information used in many of the remaining configuration steps.
+This section describes the variables you'll set in the procedure that follows. These variables contain important information used in many of the remaining configuration steps.
 
 |Variable|Comments|
 |:-----|:-----|
-|$spcn|The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.|
-|$spsite|The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.|
+|$spcn|The root domain name of your public domain. This value shouldn't be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.|
+|$spsite|The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you're using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.|
 |$site|The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.|
 |$spoappid|The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.|
 |$spocontextID|The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.|
@@ -286,7 +286,7 @@ Here's an example:
 
  `00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com`
 
-If the common name in your certificate is sharepoint.adventureworks.com, the syntax of the SPN will look like this:
+If the common name in your certificate is sharepoint.adventureworks.com, the syntax of the SPN looks like this:
 
  `00000003-0000-0ff1-ce00-000000000000/*.adventureworks.com`
 
@@ -367,7 +367,7 @@ The output of each of these commands is the GUID that represents the context ID 
 #### Step 6: Configure an on-premises proxy for Microsoft Entra ID
 <a name="step8"> </a>
 
-In this step, you create a Microsoft Entra ID proxy service in the SharePoint Server farm. This enables Microsoft Entra ID as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint in Microsoft 365.
+In this step, you create a Microsoft Entra ID proxy service in the SharePoint Server farm. This enables Microsoft Entra ID as a *trusted token issuer* that SharePoint Server uses to sign and authenticate claims tokens from SharePoint in Microsoft 365.
 
 From the PowerShell command prompt, enter the following commands.
 
@@ -401,7 +401,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
 
 Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine.
 
-The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
+The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script attempts to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
 1. Download the [configuration script](https://www.microsoft.com/download/103240).
 
@@ -421,7 +421,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 
 4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
 
-5. After script execution, users will not see any changes when this change is implemented.
+5. After script execution, users won't see any changes when this change is implemented.
 
 #### Step 8 (Only required for SharePoint Server 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
 <a name="step10"> </a>
@@ -430,7 +430,7 @@ SharePoint Server 2013 needs a hidden constraint in every federated query. The r
 
 1. Go to `<CentralAdminURL>/_layouts/appinv.aspx` and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
 
-2. If there are items in the App Domain field, leave them be, and if it is empty, use localhost.
+2. If there are items in the App Domain field, leave them be, and if it's empty, use localhost.
 
 3. In the Redirect URL, use https://localhost.
 
@@ -453,7 +453,7 @@ After finishing the tasks in this topic and its validation steps, you should che
 
 So that you have a history of the steps you've taken, you should capture the entire contents of the PowerShell buffer into a file. This will be crucial if you need to reference your configuration history to troubleshoot, or for any other reasons. This will also help you pick up where you left off if the configuration spans multiple days or involves multiple people.
 
-After you have completed and validated the configuration tasks in this topic, continue with your [configuration roadmap](configuration-roadmaps.md).
+After you have completed and validated the configuration tasks in this article, continue with your [configuration roadmap](configuration-roadmaps.md).
 
 ## See also
 <a name="next"> </a>
