@@ -48,13 +48,12 @@ You can find the **Get AI insights** button next to various reports in the Share
 
 The AI insights feature is available for the following reports:
 
-|Reports | Description |
-|-----|-----|
-|Top collaborative users | Users with the most file interactions such as sharing, viewing, and editing|
-|Top sites shared internally | Sites that are being shared with the most guests|
-|Top OneDrive collaborative users | OneDrive users that are sharing the most files|
-|Top sites shared internally | Sites that are being shared with the most people and groups|
-|Inactive site policy| Sites that are in an inactive state|
+|Feature |Report name | Description |
+|-----|-----|-----|
+|Data access governance|Sharing links|View sites where users created the most new sharing links|
+|Data access governance|Sensitivity labels applied to files|View sites that have the most Office files that have sensitivity labels applied|
+|Site lifecycle management|Inactive site policies|View sites that are in an inactive state|
+|Change history|Sites|View recent sites actions or changes to organization settings|
 
 > [!NOTE]
 > Generated AI insights are based on a partial set of data, and not the report as a whole. If you choose to generate another insight, the data will be based on the next set of data of the report.
