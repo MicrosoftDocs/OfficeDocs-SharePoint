@@ -55,6 +55,7 @@ Advanced AI Insights is available for the following reports:
 |Top OneDrive collaborative users | OneDrive users that are sharing the most files|
 |Top sites shared internally | Sites that are being shared with the most people and groups|
 |Inactive site policy| Sites that have been in an inactive status|
+
 > [!NOTE]
 > AI insights are based on a partial set of data, and not the report as a whole. If you choose to generate another insight, the data will be based on the next set of data of the report.
 
