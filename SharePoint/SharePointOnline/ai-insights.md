@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2024
+ms.date: 07/12/2024
 title: "Advanced AI insights for Microsoft SharePoint Premium - SharePoint Advanced Management"
 ms.reviewer: daminasy
 ms.author: mactra
@@ -39,14 +39,14 @@ Key capabilities of Advanced AI insights for SharePoint Advanced Management incl
 - Detection of patterns and potential content governance issues, such as misapplied or missing labels and excessive permissions on site content
 - Provision of practical recommendations for resolving these issues using the tools and strategies available in the SharePoint ecosystem
 
-You can find the **Get AI insights** button next to a variety of reports in the SharePoint admin center. Once selected, Advanced AI insights extracts patterns from the report and offers a list of potential actions.
+You can find the **Get AI insights** button next to various reports in the SharePoint admin center. Once selected, the Advanced AI insights feature extracts patterns from the report and offers a list of potential actions.
 
 > [!NOTE]
 > You can generate up to five AI insights for each report, depending on the size of the report.
 
  :::image type="content" alt-text="Screenshot of AI insights panel after opening in the data access governance dashboard in SharePoint admin center." source="media/ai-insights/1-ai-insights-sensitivity-label.png" lightbox="media/ai-insights/1-ai-insights-sensitivity-label.png":::
 
-Advanced AI insights is available for the following reports:
+The Advanced AI insights feature is available for the following reports:
 
 |Reports | Description |
 |-----|-----|
