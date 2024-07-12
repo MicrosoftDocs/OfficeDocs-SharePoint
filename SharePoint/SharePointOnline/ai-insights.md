@@ -53,7 +53,7 @@ The AI insights feature is available for the following reports:
 |Data access governance|Sharing links|View sites where users created the most new sharing links|
 |Data access governance|Sensitivity labels applied to files|View sites that have the most Office files that have sensitivity labels applied|
 |Site lifecycle management|Inactive site policies|View sites that are in an inactive state|
-|Change history|Sites|View recent sites actions or changes to organization settings|
+|Change history|Sites|View recent site actions or changes to organization settings|
 
 > [!NOTE]
 > Generated AI insights are based on a partial set of data, and not the report as a whole. If you choose to generate another insight, the data will be based on the next set of data of the report.
