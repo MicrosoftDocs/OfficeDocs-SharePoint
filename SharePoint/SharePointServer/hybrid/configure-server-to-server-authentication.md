@@ -169,7 +169,7 @@ To install the online service management tools and configure the PowerShell wind
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
 
    ```powershell
-      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory"
+      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory",”Organization.ReadWrite.All”
    ```
 
    You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
@@ -210,7 +210,7 @@ $spsite=Get-Spsite <principal_web_application_URL>
 $site=Get-Spsite $spsite
 $spoappid="00000003-0000-0ff1-ce00-000000000000"
 $spocontextID = (Get-MgOrganization).Id
-$metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextID + "/metadata/json/1
+$metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextID + "/metadata/json/1"
 ```
 
 After you populate these variables, you can view their values by entering the variable name in the PowerShell window. For example, entering  `$metadataEndpoint` returns a value similar to the following:
@@ -229,19 +229,40 @@ The commands in this step add the on-premises STS certificate (public key only) 
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-Import-Module Microsoft.Graph.Applications
+$Cert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
 
-$params = @{
-	keyCredential = @{
-		type = "AsymmetricX509Cert"
-		usage = "Verify"
-		key = [System.Text.Encoding]::ASCII.GetBytes("MIIDYDCCAki...")
-	}
-	passwordCredential = $null
-	proof = "eyJ0eXAiOiJ..."
+$principal = Get-MgServicePrincipal -Filter "AppId eq '$spoappid’” -Property "Id,DisplayName,KeyCredentials,AppId"
+
+$existingCerts = $principal.KeyCredentials
+
+$keyCredentials = @(@{ Type = "AsymmetricX509Cert"; Usage = "Verify"; Key = $Cert.RawData; KeyId = New-Guid; StartDateTime = $Cert.NotBefore; EndDateTime = $Cert.NotAfter; })
+
+$noUpdate = $false
+
+foreach($existingCert in $existingCerts) {
+
+    if ([string]$existingCert.Key -eq [string]$Cert.RawData) {
+
+        $noUpdate = $true
+
+        break
+
+    }
+
+    else {
+
+        $existingCert.Key = $null
+
+        $keyCredentials += $existingCert
+
+    }
 }
 
-Add-MgServicePrincipalKey -ServicePrincipalId $spoappid -BodyParameter $params
+if (-Not $noUpdate) {
+
+     Update-MgServicePrincipal -ServicePrincipalId $principal.Id -KeyCredentials $keyCredentials
+
+}
 ```
 
 <a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
@@ -303,7 +324,7 @@ This step registers the SharePoint in Microsoft 365 application principal object
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$spoappprincipalID = (Get-MgServicePrincipal -Filter "servicePrincipalName eq '$spoappid'").Id
+ $spoappprincipalID  = (Get-MgServicePrincipal -Filter "AppId eq '$spoappid'").Id
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
 $appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
 ```
