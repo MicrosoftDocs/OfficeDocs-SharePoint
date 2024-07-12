@@ -64,7 +64,7 @@ When you add a site collection policy to a site content type, and an instance of
 
 
 > [!NOTE]
-> If the content type of an item changes, it might impact the enforcement of policy actions on that item. For more information about content types, see  [Introduction to content types](https://support.microsoft.com/office/introduction-to-content-types-and-content-type-publishing-e1277a2e-a1e8-4473-9126-91a0647766e5d).
+> If the content type of an item changes, it might impact the enforcement of policy actions on that item. For more information about content types, see  [Introduction to content types](https://support.microsoft.com/en-us/office/introduction-to-content-types-and-content-type-publishing-e1277a2e-a1e8-4473-9126-91a0647766e5).
 
   
 ![Site content types link on Site Settings page.](media/6f6fa51f-15d7-4782-b06f-a7b36e874cd3.png)

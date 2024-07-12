@@ -5,7 +5,7 @@ ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 05/14/2024
+ms.date: 07/10/2024
 audience: Admin
 f1.keywords:
 - CSH
@@ -192,7 +192,12 @@ The following web parts and features are unavailable to site admins and owners w
 |Social Collaboration  |Contact Details  <br/> Note Board  <br/> Organization Browser  <br/> Site Feed  <br/> Tag Cloud  <br/> User Tasks  |
 |Master Page Gallery  |Can't create or edit master pages  |
 |Publishing Sites  |Can't create or edit master pages and page layouts  |
-   
+
+Furthermore, SharePoint Framework web parts that have the _requiresCustomScript_ value set to **true**, will behave as following:   
+
+- the web part is not be available in the web part picker
+- every instance of the web part that was added to the page while custom scripts were allow to running, will no longer surface in those pages. Author will still be able to remove them while editing the page 
+
 ## Best practice for communicating script setting changes to users
 
 Before you prevent custom script on sites where you previously allowed it, we recommend communicating the change well in advance so users can understand the impact of it. Otherwise, users who are accustomed to changing themes or adding web parts on their sites will suddenly not be able to and will see the following error message.
