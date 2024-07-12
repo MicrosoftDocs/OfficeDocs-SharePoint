@@ -70,7 +70,7 @@ https://docs.omnissa.com/bundle/Desktops-and-Applications-in-HorizonV2312/page/C
 \
 ![Screenshot of Select and application Template.](media/horizon/4-import-export.png)
 
-Validation:
+**Validation:**
 
 Using the Omnissa Horizon client, launch any Microsoft Office published app.
 
