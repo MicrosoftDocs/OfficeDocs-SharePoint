@@ -40,35 +40,44 @@ https://docs.omnissa.com/bundle/Desktops-and-Applications-in-HorizonV2312/page/C
 **Omnissa Horizon**:
 
 1.	Start the Omnissa Dynamic Environment Manager management console and click **Create Config File** and select **Use an Application Template**. \
-:::image type="content" source="media/horizon/1-create-config-file.png" alt-text="Screenshot of Create Config File.":::
+\
+![Screenshot of Create Config File.](media/horizon/1-create-config-file.png)
+
 1.	Select the application template (Microsoft Office 2016/2019/365), **Select OneDrive for Business** and click **Next**. \
-:::image type="content" source="media/horizon/2-application-template.png" alt-text="Screenshot of Select and application Template.":::
+\
+![Screenshot of Select and application Template.](media/horizon/2-application-template.png)
+
 1.	Provide the File name and Description and click Finish. \
-:::image type="content" source="media/horizon/3-file-name.png" alt-text="Screenshot of .":::
+\
+![Screenshot of File name.](media/horizon/3-file-name.png)
+
 1.	Add the following **Import / Export** settings:
 
-`[IncludeRegistryTrees]` \
+    `[IncludeRegistryTrees]` \
 `HKCU\Software\Microsoft\Office` \
 `HKCU\Software\Microsoft\Internet Explorer` \
 `HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings` \
 `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached` \
 `HKCU\Software\Microsoft\OneDrive`
 
-`[IncludeFolderTrees]` \
+    `[IncludeFolderTrees]` \
 `<Appdata>\Microsoft\Windows\Recent` \
 `<Appdata>\Microsoft\crypto` \
 `<Appdata>\SystemCertificates` \
 `<LocalAppdata>\Microsoft\IdentityCache` \
 `<LocalAppdata>\Microsoft\Internet Explorer` \
 `<LocalAppdata>\Microsoft\Windows\INetCache` \
-:::image type="content" source="media/horizon/4-import-export.png" alt-text="Screenshot of Import / Export Settings.":::
+\
+![Screenshot of Select and application Template.](media/horizon/4-import-export.png)
 
 Validation:
 
 Using the Omnissa Horizon client, launch any Microsoft Office published app.
 
 Activate Microsoft Office \
-:::image type="content" source="media/horizon/activate.jpg" alt-text="Screenshot of Activation screen.":::
+\
+![Screenshot of Activation.](media/horizon/activate.jpg)
 
 After Activation, attempt to save a document and you will see the default location is OneDrive. \
-:::image type="content" source="media/horizon/validate.png" alt-text="Screenshot of validating OneDrive.":::
+\
+![Screenshot of OneDrive.](media/horizon/validate.png)
