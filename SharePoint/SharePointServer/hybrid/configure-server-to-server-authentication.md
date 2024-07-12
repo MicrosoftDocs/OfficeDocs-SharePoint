@@ -169,7 +169,7 @@ To install the online service management tools and configure the PowerShell wind
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
 
    ```powershell
-      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory",”Organization.ReadWrite.All”
+      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory","Organization.ReadWrite.All"
    ```
 
    You're prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
@@ -324,7 +324,7 @@ This step registers the SharePoint in Microsoft 365 application principal object
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
- $spoappprincipalID  = (Get-MgServicePrincipal -Filter "AppId eq '$spoappid'").Id
+$spoappprincipalID  = (Get-MgServicePrincipal -Filter "AppId eq '$spoappid'").Id
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
 $appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
 ```
