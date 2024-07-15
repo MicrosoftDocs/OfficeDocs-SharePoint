@@ -22,7 +22,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-While in support, Microsoft releases new Public Update (PU) builds for SharePoint Server Subscription Edition each month which contain the latest functionality, performance, and stability improvements for the product.
+While in support, Microsoft releases new Public Update (PU) builds for SharePoint Server Subscription Edition each month which contains the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
