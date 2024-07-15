@@ -22,7 +22,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-While in support, Microsoft releases new Public Update (PU) builds for SharePoint Server Subscription Edition each month which contain the latest functionality, performance, and stability improvements for the product.
+While in support, Microsoft releases new Public Update (PU) builds for SharePoint Server Subscription Edition each month which contains the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
@@ -45,3 +45,6 @@ The product servicing policy timeline for SharePoint Server Subscription Edition
 |March 2023 PU|3/14/2023|3/12/2024|
 |April 2023 PU|4/11/2023|4/9/2024|
 |Future PUs|Release Date|Release Date + 1 Year (second Tuesday of the Month)|
+
+> [!NOTE]
+> For information on the latest public updates for SharePoint Server Subscription Edition, see [SharePoint Server update history](/officeupdates/sharepoint-updates#sharepoint-server-subscription-edition-update-history) article. To know more about the software update process, see [Deploy software updates for SharePoint Server Subscription Edition](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md).
