@@ -22,7 +22,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
-During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2019 each month which contain the latest functionality, performance, and stability improvements for the product.
+During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2019 each month which contains the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
