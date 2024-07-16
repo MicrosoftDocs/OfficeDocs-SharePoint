@@ -1,6 +1,6 @@
 ---
-ms.date: 07/02/2024
-title: "Site access review from Data access governance reports"
+ms.date: 07/16/2024
+title: "Site access review for data access governance reports"
 ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
@@ -21,98 +21,130 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
 search.appverid: MET150
-description: "In this article, you learn about site access review as a remedial action available from Data access governance for SharePoint admins."
+description: "Learn about site access review as a remedial action available from Data access governance for SharePoint admins."
 ---
 
-# Remedial actions from Data access governance reports
+# Site access review for data access governance reports
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-## Site Access Review
+Site access review in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) lets [IT administrators](/microsoft-365/admin/add-users/assign-admin-roles) delegate the review process of [data access governance reports](data-access-governance-reports.md) to site owners of overshared sites. This feature addresses limitations of data access governance reports, which generate lists of sites but lack detailed insights or solutions for oversharing scenarios.
 
-Once a DAG report is generated and sites are listed within the report, the SharePoint admin may not be able to decide the subsequent action by themselves, due to various reasons. The data in the report is aggregated at a site level. Detailed information at a file level isn't available to SharePoint admin due to compliance reasons. In such scenarios, the site owner who is usually the custodian of the data within the site, could be the best persona suited to review the oversharing scenario and take necessary action. Now, SharePoint admins can delegate the review to site owners using 'Site access review' and that provides detailed information at a file/item level allowing the site owner to take the necessary action
+## Prerequisites
 
-Few key points to be considered for 'Site access review'
+To use the site access review feature, you must fulfill the following prerequisites:
 
-- A 'Site access review' is available only within a DAG report. This review isn't a generic review but a review within the context of oversharing as specified in the DAG report. For for example: If the report is about Content shared with 'Everyone except external users', the access review to the site owner will be about that particular content only.
-- 'Site access review' is available only via the SharePoint admin center portal/UI that is, a SharePoint admin can only select within the top 100 sites shown in the UI.
+- [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md) subscription
+- Admin credentials to access the SharePoint admin center
 
-### Support matrix
+## Understanding site access review
 
-Site access review (SAR) is available from the following DAG reports
+Site access review addresses limitations in data access governance reports by involving site owners in the review process. This is crucial because:
 
-- Content shared with 'Everyone except external users' reports
+- Data access reports provide site-level aggregation without file or item-level details due to compliance reasons.
+- IT administrators can't view or investigate oversharing scenarios beyond site-level data.
+- Site owners are best positioned to review and address oversharing issues in this scenario.
 
-### Initiate site access review
+## How site access review works
 
-From the DAG report, select one or more sites to initiate a review and select the 'Initiate site access review' button.
+- Site access review is accessible only for the top 100 data access governance reports.
+- The review doesn't encompass the entire site context.
+- Instead, a site access review specifically targets the oversharing scenario identified in the selected data access governance report.
+- When you initiate a review, the system generates a context-specific email for the site owner.
+- For instance, if you initiate a site access review for a report from the "Content shared with 'Everyone except external users'" category, the review email exclusively addresses sharing issues regarding that particular report.
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/initiate-site-access-review.png" alt-text="Initiate site access review for sites listed within DAG report":::
+> [!IMPORTANT]
+> Currently, site access review is available only for "Content shared with 'Everyone except external users'" reports.
 
-Use the comments section to set the right context and clarify on the expectations with the corresponding site owner(s). Click 'send' and the review request will be sent as an email to all corresponding site owners.
+## Initiate a site access review for "Content shared with 'Everyone except external users'" reports
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/comments-site-access-review.png" alt-text="Provide comments for context setting for site owners":::
+1. Sign in to SharePoint admin center with your admin credentials.
+1. Expand the **Reports** section and select **Data access governance**.
+1. Under "Content shared with 'Everyone except external users", select **View reports**.
+1. Select a report and choose the sites you want to review.
+    :::image type="content" source="./media/data-access-governance/initiate-site-access-review.png" alt-text="Initiate site access review for sites listed within DAG report":::
+1. Select **Initiate site access review**.
+1. Add comments in the provided section to give context to site owners.
+    :::image type="content" source="./media/data-access-governance/comments-site-access-review.png" alt-text="Provide comments for context setting for site owners":::
+1. Select **Send** to initiate the review request.
 
-### Communication to site owner
+> [!TIP]
+> You can track all initiated reviews in the "My review requests" tab on the data access governance landing page.
 
-All the site owners receive an email, for each site, with the relevant title and the comments from SharePoint admin requesting them to review permissions. The email also contains a link to the page where detailed information is provided to the site owner.
+### Tracking initiated site access reviews
 
-#### For content shared with 'Everyone except external users' reports
+To see a list of all initiated site access reviews, select the **My review requests** tab from the data access governance landing page.
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/Email - EEEU files, folders and lists.jpg" alt-text="Email received by site owners for oversharing via EEEU":::
+:::image type="content" source="./media/data-access-governance/my-review-requests.png" alt-text="Track all reviews initiated from a central page":::
 
-### Review by site owner
+When you initiate a site access review, it remains in a pending state until the site owner completes the review. Once the site owner completes the review, the status and comments are updated with the name of the reviewer and time and date of completion. A review can be marked as failed if site access review couldn't determine a valid email ID for the site owner to deliver the site access review.
 
-Clicking on the link in the email directs site owner to the access review detailed page. This page is specific for the scenario as specified in the DAG report.
+### Site access review process (for site owners)
 
-#### Content shared with 'Everyone except external users' reports
+When you initiate a review, site owners receive an email for each site that requires attention. The email includes:
 
-This scenario provides details on 'public sites' or 'public files/items' created in the last 28 days.
+- Relevant title
+- Your comments (if any)
+- A request to review site permissions
+- A link to a detailed access review page. This page is specific for the scenario as specified in the data access governance report.
 
-##### For sites
+:::image type="content" source="./media/data-access-governance/Email - EEEU files, folders and lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
 
-Sites are 'public' when 'Everyone except external users' is part of the site membership,  i.e., within site owners/members/visitors. This page provides details on which SharePoint groups have 'Everyone except external users', the date when it was added to the SharePoint group and by whom.
+> [!NOTE]
+> The link at the bottom of the email will change according to the type of data access governance report that site access review was initiated for. In the screenshot, the link says "View all EEEU claims" since the feature was initiated for a site from "Content shared with 'Everyone except external users' reporting.
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/site-owner-view-foreeeu-groups.png" alt-text="sharepoint groups to which eeeu was added":::
+#### Reviewing 'Everyone except external users' access (for site owners)
 
-Clicking on the SharePoint group opens the group membership page that displays all members of this SharePoint group. Select 'Everyone except external users' and 'Actions' and choose to 'remove users from group'.
+Site owners can review and manage access in two main areas:
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/Manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
+- **SharePoint groups:**
+  - View which groups contain 'Everyone except external users'
+  - See when and by whom the group was added
+  - Remove 'Everyone except external users' from groups if necessary:
+    1. Selecting the SharePoint group opens the group membership page that displays all members of this SharePoint group.
+    2. Select **Everyone except external users** and **Actions** and choose to **remove users from group**.
 
-##### For items
+        :::image type="content" source="./media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="view for site owner regarding items shared with eeeu":::
 
-The below page provides details on specific items (file/folder/list) shared with 'Everyone except external users' group, in the last 28 days, effectively making them 'public' items. Additional information on who shared the item and when are also provided.
+- **Individual items (files/folders/lists):**
+  - See items shared with 'Everyone except external users' in the last 28 days
+  - View sharing details (who shared and when)
+  - Manage access and remove permissions as needed:
+    1. Select **Manage access**.
+    1. Under the 'Everyone except external users' group in the **Groups** tab, select the group and select **remove access**. See [Stop sharing OneDrive or SharePoint files or folders, or change permissions](https://support.microsoft.com/office/stop-sharing-onedrive-or-sharepoint-files-or-folders-or-change-permissions-0a36470f-d7fe-40a0-bd74-0ac6c1e13323) for more information.
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="view for site owner regarding items shared with eeeu":::
+        :::image type="content" source="./media/data-access-governance/Manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
 
-Click on 'Manage access', locate the 'Everyone except external users' group in the 'Groups' tab beside 'people, click on the group and remove access, if necessary. More details are documented [here](https://support.microsoft.com/office/stop-sharing-onedrive-or-sharepoint-files-or-folders-or-change-permissions-0a36470f-d7fe-40a0-bd74-0ac6c1e13323).
+#### Completing the review (for site owners)
 
-### Completing the review
+Once the site owner takes the necessary actions like modifying or removing permissions, the site owner should:
 
-Once the site owner took the relevant actions and modified/removed relevant permissions, they can click on 'Complete review'and provide necessary comments. These comments will be shared back to the SharePoint admin who raised the review request. This marks the review as 'Completed'.
+1. Select **Complete review**.
+2. Add any relevant comments
+3. Submit the completed review
 
-### Managing multiple reviews for site owners
+Comments are shared back to the IT administrator who raised the review request, and the review request is marked as Completed.
 
-A site owner can receive review requests for multiple sites or multiple reviews for different scenario for the same site. A site owner can track all such requests from the 'site reviews' page.
+#### Managing multiple reviews (for site owners)
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/site-review-master-page.png" alt-text="Master page to track all site review for a site":::
+A site owner can receive review requests for multiple sites or multiple reviews for different scenarios at the same site. A site owner can track all requests by selecting the **Site reviews** page found in the left panel.
 
-There are multiple pathways to arrive at this page.
+:::image type="content" source="./media/data-access-governance/site-review-master-page.png" alt-text="Master page to track all site review for a site":::
 
-#### From email
+Here are the following ways a site owner can access the review page.
 
-The email provides link to the 'detailed' site review page. From within that page, a site owner can click on 'site reviews' in the breadcrumb present in the top left.
+##### From email
 
-#### From site settings
+The site review email provides a link to the detailed site review page. From the detailed site review page, the site owner can select **Site reviews** found in the left navigation panel.
 
-If you lost the email, or closed the browser, you can still find the 'site reviews' page from the 'gear' icon in the site home page.
+##### From site settings
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/site-review-from-gear-icon.png" alt-text="Path to site review page from site home page under gear icon":::
+If the site owner lost the email, or closed the browser, they can return to the site review page by selecting the **Settings** or "gear" icon from the site's home page.
 
-### Tracking all reviews by SharePoint admins
+:::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Path to site review page from site home page under gear icon":::
 
-From a SharePoint admin perspective, they can track all reviews from a central page, present as a separate tab named as 'My review requests' in Data access governance landing page.
+## Related topics
 
-:::image type="content" source="../Documents/GitHub/OfficeDocs-SharePoint-pr/SharePoint/SharePointOnline/media/data-access-governance/my-review-requests.png" alt-text="Track all reviews initiated from a central page":::
+[Data access governance](data-access-governance-reports.md)
 
-Each review is marked as 'pending' once SharePoint admin initiated a review and is waiting for site owner to complete. Once a site owner completes the review, the status and comments are updated with the relevant name and time. Click on a particular review to know more. A review can be marked as failed if the product couldn't determine a valid email ID for any site owner and hence there's no communication.
+[Microsoft SharePoint Premium - SharePoint advanced management](advanced-management.md)
