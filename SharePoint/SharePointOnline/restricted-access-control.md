@@ -1,5 +1,5 @@
 ---
-ms.date: 07/10/2024
+ms.date: 07/16/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -147,7 +147,7 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
-![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png)
+![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png) lightbox="media/rac-spac/2rac-learn-more-link.png"
 
 ## Reporting
 
