@@ -147,7 +147,7 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
-![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png) lightbox="media/rac-spac/2rac-learn-more-link.png"
+![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png)"
 
 ## Reporting
 
@@ -220,15 +220,15 @@ To fetch the status of the generated report, run the following command:
 Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy
 ```
 
-#### View all access denials in the last 28 days report
+#### View access denials in the last 28 days report
 
-To get the list of all access denials in the last 28 days, run the following command:
+To get the list of access denials in the last 28 days, run the following command:
 
 ```powershell
 Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content AllDenials
 ```
 
-The PowerShell output contains most recent 100 access denials. To view the complete list, you can download the report.
+The PowerShell output contains most recent 100 access denials. To view up to 10,000 denials, you can download the report.
 
 #### View list of top users who were denied access
 
@@ -238,7 +238,7 @@ To get the list of top users who were denied access, run the following command:
 Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopUsers
 ```
 
-The PowerShell output contains the top 100 users who faced the highest access denials. To view the complete list, download the report.
+The PowerShell output contains the top 100 users who faced the highest access denials. To view up to 10,000 users, download the report.
 
 #### View list of top sites that received maximum access denials
 
@@ -248,7 +248,7 @@ To get the list of top sites that received maximum access denials, run the follo
 Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopSites
 ```
 
-The PowerShell output contains the top 100 sites that had the highest access denials. To view the complete list, download the report.
+The PowerShell output contains the top 100 sites that had the highest access denials. To view up to 10,000 sites, download the report.
 
 #### View distribution of access denials across different types of sites report
 
