@@ -27,7 +27,7 @@ description: "Learn about AI insights for Microsoft SharePoint Premium - SharePo
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-The AI insights feature for [SharePoint Advanced Management](advanced-management.md) uses a language model to identify patterns and potential issues from reporting and receive actionable recommendations to solve any issues.
+The AI insights feature for [SharePoint Advanced Management](advanced-management.md) uses a language model to identify patterns and potential issues from reporting and receive actionable recommendations to solve issues.
 
 As an [IT administrator](/microsoft-365/admin/add-users/about-admin-roles), you can reduce the manual effort required to review reports during audits, and mitigate content governance issues with the AI insights feature in [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219).
 
