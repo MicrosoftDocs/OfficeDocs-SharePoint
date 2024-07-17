@@ -111,7 +111,7 @@ Site owners can review and manage access in two main areas:
     1. Select **Manage access**.
     1. Under the 'Everyone except external users' group in the **Groups** tab, select the group and select **remove access**. See [Stop sharing OneDrive or SharePoint files or folders, or change permissions](https://support.microsoft.com/office/stop-sharing-onedrive-or-sharepoint-files-or-folders-or-change-permissions-0a36470f-d7fe-40a0-bd74-0ac6c1e13323) for more information.
 
-        :::image type="content" source="./media/data-access-governance/Manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
+        :::image type="content" source="./media/data-access-governance/manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
 
 #### Complete site access review requests (for site owners)
 
@@ -133,7 +133,7 @@ For site owners handling multiple reviews:
 
 1. Access the 'site reviews' page via:
     - The link in the review email
-        :::image type="content" source="./media/data-access-governance/email - EEEU files, folders and lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
+        :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
     - The gear icon on the site home page:
         1. Select **Site settings**.
         1. Select **Site reviews**.
