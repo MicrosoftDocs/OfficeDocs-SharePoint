@@ -470,7 +470,7 @@ Items:
       href: authentication-context-example.md
     - name: Data access governance reports
       href: data-access-governance-reports.md
-    - name: Initiate AI insights
+    - name: Generate AI insights
       href: ai-insights.md
     - name: Initiate site access reviews for data access governance reports
       href: site-access-review.md
