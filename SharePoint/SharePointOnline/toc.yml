@@ -470,6 +470,8 @@ Items:
       href: authentication-context-example.md
     - name: Data access governance reports
       href: data-access-governance-reports.md
+    - name: Initiate AI insights
+      href: ai-insights.md
     - name: Privacy, security, and compliance in Microsoft OneDrive
       href: onedrive-privacy-security-overview.md
     - name: Default sensitivity label for a document library
