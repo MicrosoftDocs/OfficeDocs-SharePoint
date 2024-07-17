@@ -1,5 +1,5 @@
 ---
-ms.date: 07/16/2024
+ms.date: 07/17/2024
 title: "Initiate site access reviews for data access governance reports"
 ms.reviewer: samust
 ms.author: mactra
@@ -28,13 +28,12 @@ description: "Learn about how to initiate site access reviews as a remedial acti
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-Site access review in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) lets [IT administrators](/microsoft-365/admin/add-users/assign-admin-roles) delegate the review process of [data access governance reports](data-access-governance-reports.md) to site owners of overshared sites. This feature addresses limitations of data access governance reports, which generate lists of sites but lack detailed insights or solutions for oversharing scenarios.
+Site access review in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) lets [IT administrators](/microsoft-365/admin/add-users/assign-admin-roles) delegate the review process of [data access governance reports](data-access-governance-reports.md) to the site owners of overshared sites.
 
-Site access review addresses limitations in data access governance reports by involving site owners in the review process. This is crucial because:
+Site access review involves site owners in the review process so they can address the concern of overshared sites identified in data access governance reports. This feature is crucial because:
 
-- Data access reports provide site-level aggregation without file or item-level details due to compliance reasons.
-- IT administrators can't view or investigate oversharing scenarios beyond site-level data.
-- Site owners are best positioned to review and address oversharing issues in this scenario.
+- IT administrators can't have access to file-level or item-level details due to compliance reasons.
+- Site owners are best positioned to review and address oversharing issues for their own sites.
 
 ## Prerequisites
 
@@ -45,11 +44,9 @@ To use the site access review feature, you must fulfill the following prerequisi
 
 ## How site access review works
 
-- Site access review is accessible only for the top 100 data access governance reports.
-- The review doesn't encompass the entire site context.
-- Instead, a site access review specifically targets the oversharing scenario identified in the selected data access governance report.
+- Site access review is accessible only for the top 100 sites shown in the data access governance reports. Site access review specifically targets the oversharing scenario identified in the selected data access governance report.
 - When you initiate a review, the system generates a context-specific email for the site owner.
-- For instance, if you initiate a site access review for a report from the "Content shared with 'Everyone except external users'" category, the review email exclusively addresses sharing issues regarding that particular report.
+- For example, if you initiate a site access review for a report from the "Content shared with 'Everyone except external users'" category, the review email exclusively addresses sharing issues regarding that particular report.
 
 > [!IMPORTANT]
 > Currently, site access review is available only for "Content shared with 'Everyone except external users'" reports.
@@ -65,9 +62,6 @@ To use the site access review feature, you must fulfill the following prerequisi
 1. Add comments in the provided section to give context to site owners.
     :::image type="content" source="./media/data-access-governance/comments-site-access-review.png" alt-text="Provide comments for context setting for site owners":::
 1. Select **Send** to initiate the review request.
-
-> [!TIP]
-> You can track all initiated reviews in the "My review requests" tab on the data access governance landing page.
 
 ### Track initiated site access reviews
 
@@ -86,6 +80,8 @@ When you initiate a review, site owners receive an email for each site that requ
 - A request to review site permissions
 - A link to a detailed access review page. This page is specific for the scenario as specified in the data access governance report.
 
+    :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
+
 > [!NOTE]
 > The link at the bottom of the email will change according to the type of data access governance report that site access review was initiated for. In the screenshot, the link says "View all EEEU claims" since the feature was initiated for a site from "Content shared with 'Everyone except external users' reporting.
 
@@ -100,7 +96,7 @@ Site owners can review and manage access in two main areas:
     1. Selecting the SharePoint group opens the group membership page that displays all members of this SharePoint group.
     2. Select **Everyone except external users** and **Actions** and choose to **remove users from group**.
 
-        :::image type="content" source="./media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="view for site owner regarding items shared with eeeu":::
+        :::image type="content" source="./media/data-access-governance/manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
 
 - **Individual items (files/folders/lists):**
   - See items shared with 'Everyone except external users' in the last 28 days
@@ -109,7 +105,7 @@ Site owners can review and manage access in two main areas:
     1. Select **Manage access**.
     1. Under the 'Everyone except external users' group in the **Groups** tab, select the group and select **remove access**. See [Stop sharing OneDrive or SharePoint files or folders, or change permissions](https://support.microsoft.com/office/stop-sharing-onedrive-or-sharepoint-files-or-folders-or-change-permissions-0a36470f-d7fe-40a0-bd74-0ac6c1e13323) for more information.
 
-        :::image type="content" source="./media/data-access-governance/manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
+        :::image type="content" source="./media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="view for site owner regarding items shared with eeeu":::
 
 #### Complete site access review requests (for site owners)
 
@@ -131,7 +127,6 @@ For site owners handling multiple reviews:
 
 1. Access the 'site reviews' page via:
     - The link in the review email
-        :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
     - The gear icon on the site home page:
         1. Select **Site settings**.
         1. Select **Site reviews**.
