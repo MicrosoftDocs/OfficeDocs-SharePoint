@@ -1,6 +1,6 @@
 ---
 ms.date: 07/16/2024
-title: "Initiate AI insights for Microsoft SharePoint Premium - SharePoint Advanced Management"
+title: "Generate AI insights for Microsoft SharePoint Premium - SharePoint Advanced Management"
 ms.reviewer: daminasy
 ms.author: mactra
 author: MachelleTranMSFT
@@ -20,10 +20,10 @@ ms.collection:
 search.appverid:
 - MET150
 recommendations: false
-description: "Learn about how to initiate AI insights for Microsoft SharePoint Premium - SharePoint Advanced Management and how you can use it in your organization."
+description: "Learn about how to generate AI insights for Microsoft SharePoint Premium - SharePoint Advanced Management and how you can use it in your organization."
 ---
 
-# Initiate AI insights for SharePoint Advanced Management
+# Generate AI insights for SharePoint Advanced Management
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
