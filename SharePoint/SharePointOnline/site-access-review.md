@@ -83,7 +83,7 @@ When you initiate a review, site owners receive an email for each site that requ
     :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
 
 > [!NOTE]
-> The link at the bottom of the email will change according to the type of data access governance report that site access review was initiated for. In the screenshot, the link says "View all EEEU claims" since the feature was initiated for a site from "Content shared with 'Everyone except external users' reporting.
+> In the screenshot, the link says "View shared items" since the review was initiated for a site from "Content shared with 'Everyone except external users'" report.
 
 #### Review 'Everyone except external users' site access review requests (for site owners)
 
