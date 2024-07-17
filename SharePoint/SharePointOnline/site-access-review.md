@@ -56,7 +56,7 @@ Site access review addresses limitations in data access governance reports by in
 > [!IMPORTANT]
 > Currently, site access review is available only for "Content shared with 'Everyone except external users'" reports.
 
-## Initiate a site access review for "Content shared with 'Everyone except external users'" reports
+## Initiate a site access review
 
 1. Sign in to SharePoint admin center with your admin credentials.
 1. Expand the **Reports** section and select **Data access governance**.
@@ -71,7 +71,7 @@ Site access review addresses limitations in data access governance reports by in
 > [!TIP]
 > You can track all initiated reviews in the "My review requests" tab on the data access governance landing page.
 
-### Tracking initiated site access reviews
+### Track initiated site access reviews
 
 To see a list of all initiated site access reviews, select the **My review requests** tab from the data access governance landing page.
 
@@ -88,12 +88,10 @@ When you initiate a review, site owners receive an email for each site that requ
 - A request to review site permissions
 - A link to a detailed access review page. This page is specific for the scenario as specified in the data access governance report.
 
-:::image type="content" source="./media/data-access-governance/Email - EEEU files, folders and lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
-
 > [!NOTE]
 > The link at the bottom of the email will change according to the type of data access governance report that site access review was initiated for. In the screenshot, the link says "View all EEEU claims" since the feature was initiated for a site from "Content shared with 'Everyone except external users' reporting.
 
-#### Reviewing 'Everyone except external users' access (for site owners)
+#### Review 'Everyone except external users' site access review requests (for site owners)
 
 Site owners can review and manage access in two main areas:
 
@@ -115,33 +113,33 @@ Site owners can review and manage access in two main areas:
 
         :::image type="content" source="./media/data-access-governance/Manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
 
-#### Completing the review (for site owners)
+#### Complete site access review requests (for site owners)
 
 Once the site owner takes the necessary actions like modifying or removing permissions, the site owner should:
 
 1. Select **Complete review**.
-2. Add any relevant comments
-3. Submit the completed review
+2. Add any relevant comments.
+3. Submit the completed review.
 
-Comments are shared back to the IT administrator who raised the review request, and the review request is marked as Completed.
+Comments are shared back to the IT administrator who raised the review request. The review request is then marked as Completed.
 
-#### Managing multiple reviews (for site owners)
+#### Manage multiple site access review requests (for site owners)
 
-A site owner can receive review requests for multiple sites or multiple reviews for different scenarios at the same site. A site owner can track all requests by selecting the **Site reviews** page found in the left panel.
+A site owner can receive review requests for multiple sites, or receive multiple reviews for different scenarios for the same site. A site owner can track all requests by selecting the **Site reviews** page found in the left panel.
 
 :::image type="content" source="./media/data-access-governance/site-review-master-page.png" alt-text="Master page to track all site review for a site":::
 
-Here are the following ways a site owner can access the review page.
+For site owners handling multiple reviews:
 
-##### From email
-
-The site review email provides a link to the detailed site review page. From the detailed site review page, the site owner can select **Site reviews** found in the left navigation panel.
-
-##### From site settings
-
-If the site owner lost the email, or closed the browser, they can return to the site review page by selecting the **Settings** or "gear" icon from the site's home page.
-
-:::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Path to site review page from site home page under gear icon":::
+1. Access the 'site reviews' page via:
+    - The link in the review email
+        :::image type="content" source="./media/data-access-governance/email - EEEU files, folders and lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
+    - The gear icon on the site home page:
+        1. Select **Site settings**.
+        1. Select **Site reviews**.
+        :::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Path to site review page from site home page under gear icon":::
+1. View all pending site access reviews.
+1. Complete reviews as necessary.
 
 ## Related topics
 
