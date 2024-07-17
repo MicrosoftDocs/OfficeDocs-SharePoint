@@ -1,5 +1,5 @@
 ---
-ms.date: 07/16/2024
+ms.date: 07/17/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -147,9 +147,9 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
-![Screenshot that shows learn more link for restricted access control.](../SharePointOnline/media/rac-spac/2-rac-learn-more-link.png)"
+![Screenshot that shows learn more link for restricted access control.](media/rac-spac/2-rac-learn-more-link.png)
 
-## Reporting
+## Restricted site access policy insights
 
 As an IT administrator, you can view the following reports to gain more insight on SharePoint and OneDrive sites protected with restricted site access policy:
 
@@ -161,38 +161,13 @@ As an IT administrator, you can view the following reports to gain more insight 
 
 ### Sites protected by restricted site access policy report (preview)
 
-You can run the following commands in SharePoint PowerShell to generate, view, and download the report:
+You can run the following commands in SharePoint PowerShell to generate, view, and download the reports:
 
-#### Generate report
-
-To generate a new report, run the following command:
-
-```powershell
-Start-SPORestrictedAccessForSitesInsights -RACProtectedSites 
-```
-
-#### View report
-
-To fetch and view the generated report, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID>
-```
-
-The report shows the top 100 sites with the highest page views that are protected with the policy.
-
-#### Download report
-
-To download the generated report, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -Action Download 
-```
-
-The downloaded report is located on the path where the command was run.
-
-> [!IMPORTANT]
-> You must run the command as an administrator in order to download the report.
+| Action  | PowerShell command | Description |
+|---------|---------|---------|
+|Generate report     |`Start-SPORestrictedAccessForSitesInsights -RACProtectedSites`| Generates a list of site protected by restricted site access policy|
+|View report |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID>`         | The report shows the top 100 sites with the highest page views that are protected by the policy.|
+|Download report   |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -Action Download`| This command must be run as an administrator. The downloaded report is located on the path where the command was run.|
 
 ### Percentage of sites protected with restricted site access report
 
@@ -202,67 +177,21 @@ You can also view the percentage of sites that are protected with restricted sit
 Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -InsightsSummary
 ```
 
-### Access denials due to restricted site access report
+### Access denials due to restricted site access policy
 
-#### Create report
+You can run the following commands to create, fetch, and view report for access denials due to restricted site access reports:
 
-To create a new report for fetching access denial details, run the following command in PowerShell:
-
-```powershell
-Start-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy
-```
-
-#### Fetch report status
-
-To fetch the status of the generated report, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy
-```
-
-#### View access denials in the last 28 days report
-
-To get the list of access denials in the last 28 days, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content AllDenials
-```
-
-The PowerShell output contains most recent 100 access denials. To view up to 10,000 denials, you can download the report.
-
-#### View list of top users who were denied access
-
-To get the list of top users who were denied access, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopUsers
-```
-
-The PowerShell output contains the top 100 users who faced the highest access denials. To view up to 10,000 users, download the report.
-
-#### View list of top sites that received maximum access denials
-
-To get the list of top sites that received maximum access denials, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopSites
-```
-
-The PowerShell output contains the top 100 sites that had the highest access denials. To view up to 10,000 sites, download the report.
-
-#### View distribution of access denials across different types of sites report
-
-To view the distribution of access denials across different types of sites, run the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content SiteDistribution
-```
-
-> [!IMPORTANT]
-> You must run the command as an administrator to download the report.
+| Action  | PowerShell command | Description |
+|---------|---------|---------|
+|Create access denials report    |`Start-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy`| Creates a new report for fetching access denial details|
+|Fetch access denials report status |`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy`| Fetches the status of the generated report.|
+|Last 100 access denials in the past 28 days report  |`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content AllDenials`| Gets a list of the most recent 100 access denials that occurred in the past 28 days|
+|Top 100 users denied access report| `Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopUsers`|Gets a list of the top 100 users who received the most access denials|
+|View list of top sites that received the most access denials|`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopSites`| Gets a list of the top 100 sites that had the most access denials|
+|Distribution of access denials across different types of sites report|`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content SiteDistribution`|This command must be run as an administrator in order to download the report. Shows the distribution of access denials across different types of sites|
 
 > [!NOTE]
-> The downloaded report will be located on the path from where command has been run.
+> To view up to 10,000 denials, you must download the reports. The downloaded reports will be located on the path from where command was run.
 
 ## Auditing
 
