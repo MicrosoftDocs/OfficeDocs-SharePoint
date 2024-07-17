@@ -472,6 +472,8 @@ Items:
       href: data-access-governance-reports.md
     - name: Initiate AI insights
       href: ai-insights.md
+    - name: Initiate site access reviews for data access governance reports
+      href: site-access-review.md
     - name: Privacy, security, and compliance in Microsoft OneDrive
       href: onedrive-privacy-security-overview.md
     - name: Default sensitivity label for a document library

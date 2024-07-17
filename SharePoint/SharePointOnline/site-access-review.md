@@ -1,6 +1,6 @@
 ---
 ms.date: 07/16/2024
-title: "Site access review for data access governance reports"
+title: "Initiate site access reviews for data access governance reports"
 ms.reviewer: samust
 ms.author: mactra
 author: MachelleTranMSFT
@@ -21,14 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
 search.appverid: MET150
-description: "Learn about site access review as a remedial action available from Data access governance for SharePoint admins."
+description: "Learn about how to initiate site access reviews as a remedial action for data access governance for SharePoint sites."
 ---
 
-# Site access review for data access governance reports
+# Initiate site access reviews for data access governance reports
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
 Site access review in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) lets [IT administrators](/microsoft-365/admin/add-users/assign-admin-roles) delegate the review process of [data access governance reports](data-access-governance-reports.md) to site owners of overshared sites. This feature addresses limitations of data access governance reports, which generate lists of sites but lack detailed insights or solutions for oversharing scenarios.
+
+Site access review addresses limitations in data access governance reports by involving site owners in the review process. This is crucial because:
+
+- Data access reports provide site-level aggregation without file or item-level details due to compliance reasons.
+- IT administrators can't view or investigate oversharing scenarios beyond site-level data.
+- Site owners are best positioned to review and address oversharing issues in this scenario.
 
 ## Prerequisites
 
@@ -36,14 +42,6 @@ To use the site access review feature, you must fulfill the following prerequisi
 
 - [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md) subscription
 - Admin credentials to access the SharePoint admin center
-
-## Understanding site access review
-
-Site access review addresses limitations in data access governance reports by involving site owners in the review process. This is crucial because:
-
-- Data access reports provide site-level aggregation without file or item-level details due to compliance reasons.
-- IT administrators can't view or investigate oversharing scenarios beyond site-level data.
-- Site owners are best positioned to review and address oversharing issues in this scenario.
 
 ## How site access review works
 
