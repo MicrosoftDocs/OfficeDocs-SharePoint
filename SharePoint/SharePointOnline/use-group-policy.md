@@ -115,7 +115,7 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
 
-- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive automatically-when-signing-in-to-windows)
+- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive-automatically-when-signing-in-to-windows)
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
@@ -685,7 +685,9 @@ Enabling this policy sets the following registry key value to 1:
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "EnableHoldTheFile"=dword:00000001`
 
 If you disable this setting, when a sync conflict occurs, both copies of the file are kept.
-  
+
+If this policy is left unconfigured, users are given the choice on how to handle the conflict.
+
 To enable this setting, you must enable [Coauthor and share in Office desktop apps](#coauthor-and-share-in-office-desktop-apps).
   
 ### Coauthor and share in Office desktop apps
