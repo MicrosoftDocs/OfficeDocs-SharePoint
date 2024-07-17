@@ -115,7 +115,7 @@ Once the site owner takes the necessary actions like modifying or removing permi
 2. Add any relevant comments.
 3. Submit the completed review.
 
-Comments are shared back to the IT administrator who raised the review request. The review request is then marked as Completed.
+Comments are shared back to the IT administrator who raised the review request. The review request is then marked as completed.
 
 #### Manage multiple site access review requests (for site owners)
 
