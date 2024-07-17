@@ -72,23 +72,13 @@ To manage site access restriction for a group-connected site in SharePoint admin
 1. In the **Settings** tab, select **Edit** in the **Restricted site access** section.
 1. Select the **Restrict access to this site** box and select **Save**.
 
-To enable site access restriction for a group-connected site, run the following command:
+To manage site access restriction for group-connected sites using PowerShell, use the following commands:
 
-```PowerShell
-Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true
-```
-
-To view site access restriction for a group-connected site, run the following command:
-
-```PowerShell
-Get-SPOSite -Identity <siteurl> | Select RestrictedAccessControl
-```
-
-To disable site access restriction for a group-connected site, run the following command:
-
-```PowerShell
-Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
-```
+| Action  | PowerShell command |
+|---------|---------|
+|Enable site access restriction for group-connected site    |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
+|View site access restriction for group-connected site |`Get-SPOSite -Identity <siteurl> -Select RestrictedAccessControl`|
+|Disable site access restriction for group-connected site |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false`|
 
 ## Restrict site access to non-group connected sites
 
@@ -168,14 +158,7 @@ You can run the following commands in SharePoint PowerShell to generate, view, a
 |Generate report     |`Start-SPORestrictedAccessForSitesInsights -RACProtectedSites`| Generates a list of site protected by restricted site access policy|
 |View report |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID>`         | The report shows the top 100 sites with the highest page views that are protected by the policy.|
 |Download report   |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -Action Download`| This command must be run as an administrator. The downloaded report is located on the path where the command was run.|
-
-### Percentage of sites protected with restricted site access report
-
-You can also view the percentage of sites that are protected with restricted site access out of total number of sites, using the following command:
-
-```powershell
-Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -InsightsSummary
-```
+|Percentage of site protected with restricted site access report|`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -InsightsSummary`|This report shows the percentage of sites that are protected by the policy out of the total number of sites|
 
 ### Access denials due to restricted site access policy
 
