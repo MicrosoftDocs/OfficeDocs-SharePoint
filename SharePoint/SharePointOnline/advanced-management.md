@@ -28,7 +28,7 @@ description: "Learn about Microsoft SharePoint Premium - SharePoint Advanced Man
 Microsoft SharePoint Premium - SharePoint Advanced Management is a Microsoft 365 add-on that provides a suite of features that can help you:
 
 - Manage and govern SharePoint and OneDrive
-- Enhance Microsoft 365 secure collaboration capabilities
+- Enhance Microsoft 365 secure collaboration capabilities (this is a test)
 
 SharePoint Advanced Management features are administered by SharePoint administrators in the SharePoint admin center. Some features can be used by site owners.
 
