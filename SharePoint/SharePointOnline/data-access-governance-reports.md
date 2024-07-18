@@ -46,7 +46,8 @@ This feature requires either Microsoft 365 E5 or Microsoft SharePoint Premium - 
 
    - Sharing links
    - Sensitivity labels applied to files
-   - Shared with 'Everyone except external users' :::image type="content" source="media/data-access-governance/dag-landing-page.png" alt-text="screenshot of data access governance dashboard.":::
+   - Shared with 'Everyone except external users'
+     :::image type="content" source="media/data-access-governance/dag-landing-page.png" alt-text="Screenshot that shows data access governance dashboard." lightbox="media/data-access-governance/dag-landing-page.png":::
 
 ## Sharing links reports
 
@@ -126,7 +127,7 @@ Now organizations can discover potential oversharing occurring via EEEU using th
 
 When creating a report, you can select various options like create focused reports or filter later within the report.
 
-:::image type="content" source="media/data-access-governance/eeeu-addreport.png" alt-text="create an everyone except external users report":::
+:::image type="content" source="media/data-access-governance/eeeu-addreport.png" alt-text="Screenshot that shows create an everyone except external users report":::
 
 - Report name: Provide a unique name for the report.
 - Template: Lists categories of SharePoint site templates (Classic sites, Communication sites, Team sites, others). You can choose multiple values or 'All sites'.
@@ -145,7 +146,7 @@ To get the latest data for a report, run the report. You can run all reports or 
 
 Each EEEU report includes data as shown in the screenshot below
 
-:::image type="content" source="media/data-access-governance/dag-eeeu-report.png" alt-text="eeeu report details":::
+:::image type="content" source="media/data-access-governance/dag-eeeu-report.png" alt-text="Screenshot that shows eeeu report details" lightbox="media/data-access-governance/dag-eeeu-report.png":::
 
 - Up to 100 sites with highest number of items/groups shared with EEEU in the last 28 days.
 - Policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), site privacy and [site external sharing policy](external-sharing-overview.md).
