@@ -57,17 +57,21 @@ To use the site access review feature, you must fulfill the following prerequisi
 1. Expand the **Reports** section and select **Data access governance**.
 1. Under "Content shared with 'Everyone except external users", select **View reports**.
 1. Select a report and choose the sites you want to review.
-    :::image type="content" source="./media/data-access-governance/initiate-site-access-review.png" alt-text="Initiate site access review for sites listed within DAG report":::
+
+   :::image type="content" source="./media/data-access-governance/initiate-site-access-review.png" alt-text="Screenshot that shows Initiate site access review for sites listed within DAG report" lightbox="./media/data-access-governance/initiate-site-access-review.png":::
+   
 1. Select **Initiate site access review**.
 1. Add comments in the provided section to give context to site owners.
-    :::image type="content" source="./media/data-access-governance/comments-site-access-review.png" alt-text="Provide comments for context setting for site owners":::
+   
+    :::image type="content" source="./media/data-access-governance/comments-site-access-review.png" alt-text="Screenshot that shows provide comments for context setting for site owners":::
+   
 1. Select **Send** to initiate the review request.
 
 ### Track initiated site access reviews
 
 To see a list of all initiated site access reviews, select the **My review requests** tab from the data access governance landing page.
 
-:::image type="content" source="./media/data-access-governance/my-review-requests.png" alt-text="Track all reviews initiated from a central page":::
+:::image type="content" source="./media/data-access-governance/my-review-requests.png" alt-text="Screeshot that shows track all reviews initiated from a central page" lightbox="./media/data-access-governance/my-review-requests.png":::
 
 When you initiate a site access review, it remains in a pending state until the site owner completes the review. Once the site owner completes the review, the status and comments are updated with the name of the reviewer and time and date of completion. A review can be marked as failed if site access review couldn't determine a valid email ID for the site owner to deliver the site access review.
 
@@ -80,7 +84,7 @@ When you initiate a review, site owners receive an email for each site that requ
 - A request to review site permissions
 - A link to a detailed access review page. This page is specific for the scenario as specified in the data access governance report.
 
-    :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Email received by site owners for oversharing via EEEU":::
+    :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Screenshot that shows Email received by site owners for oversharing via EEEU" lightbox="./media/data-access-governance/email-eeeu-files-folders-lists.png":::
 
 > [!NOTE]
 > In the screenshot, the link says "View shared items" since the review was initiated for a site from "Content shared with 'Everyone except external users'" report.
@@ -96,7 +100,7 @@ Site owners can review and manage access in two main areas:
     1. Selecting the SharePoint group opens the group membership page that displays all members of this SharePoint group.
     2. Select **Everyone except external users** and **Actions** and choose to **remove users from group**.
 
-        :::image type="content" source="./media/data-access-governance/manage-sharepoint-group-membership.png" alt-text="Displays sharepoint group members":::
+        :::image type="content" source="./media/data-access-governance/manage-sharepoint-group-membership.png" alt-text="Screenshot that shows displays sharepoint group members" lightbox="./media/data-access-governance/manage-sharepoint-group-membership.png":::
 
 - **Individual items (files/folders/lists):**
   - See items shared with 'Everyone except external users' in the last 28 days
@@ -105,7 +109,7 @@ Site owners can review and manage access in two main areas:
     1. Select **Manage access**.
     1. Under the 'Everyone except external users' group in the **Groups** tab, select the group and select **remove access**. See [Stop sharing OneDrive or SharePoint files or folders, or change permissions](https://support.microsoft.com/office/stop-sharing-onedrive-or-sharepoint-files-or-folders-or-change-permissions-0a36470f-d7fe-40a0-bd74-0ac6c1e13323) for more information.
 
-        :::image type="content" source="./media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="view for site owner regarding items shared with eeeu":::
+        :::image type="content" source="./media/data-access-governance/site-owner-view-foreeeu-files.png" alt-text="Screenshot that shows view for site owner regarding items shared with eeeu" lightbox="./media/data-access-governance/site-owner-view-foreeeu-files.png":::
 
 #### Complete site access review requests (for site owners)
 
@@ -121,7 +125,7 @@ Comments are shared back to the IT administrator who raised the review request. 
 
 A site owner can receive review requests for multiple sites, or receive multiple reviews for different scenarios for the same site. A site owner can track all requests by selecting the **Site reviews** page found in the left panel.
 
-:::image type="content" source="./media/data-access-governance/site-review-master-page.png" alt-text="Master page to track all site review for a site":::
+:::image type="content" source="./media/data-access-governance/site-review-master-page.png" alt-text="Screenshot that shows Master page to track all site review for a site" lightbox="./media/data-access-governance/site-review-master-page.png":::
 
 For site owners handling multiple reviews:
 
@@ -130,7 +134,9 @@ For site owners handling multiple reviews:
     - The gear icon on the site home page:
         1. Select **Site settings**.
         1. Select **Site reviews**.
-        :::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Path to site review page from site home page under gear icon":::
+       
+        :::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Screenshot that shows path to site review page from site home page under gear icon" lightbox="./media/data-access-governance/site-review-from-gear-icon.png":::
+      
 1. View all pending site access reviews.
 1. Complete reviews as necessary.
 
