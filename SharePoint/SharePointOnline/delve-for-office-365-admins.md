@@ -68,7 +68,7 @@ For more info on disabling Delve, see [What is the effect of enabling or disabli
 
 ### Control access to documents in Delve
 
-Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings.For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
+Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings. For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
