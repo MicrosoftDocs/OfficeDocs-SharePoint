@@ -28,7 +28,7 @@ description: "In this article, you'll learn how to delete SharePoint sites in th
 
 # Delete a site
 
-When you, as a Global Administrator or SharePoint Administrator in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
+When you, as a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
   
 - Document libraries and files.
     

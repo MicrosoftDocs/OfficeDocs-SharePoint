@@ -60,13 +60,11 @@ If you're not sure your tenant has the site, contact your SharePoint administrat
 
 **Who has permissions to customize the site template?**
 
-- Global Administrators and SharePoint Administrators
-- SharePoint Site owner or Site member level permissions
+[Site member level permissions](/sharepoint/site-permissions#site-members) and above (./site-permissions) can customize the site template.
 
 **Who can create custom playlists and hide or show content in M365 learning pathways?**
 
-- The Site collection administrator for Microsoft 365 learning pathways
-- SharePoint Site owner or Site member permissions for Microsoft 365 learning pathways
+[Site member level permissions](/sharepoint/site-permissions#site-members) and above (./site-permissions) can create custom playlists and hide or show content in M365 learning pathways.
 
 **Who has permissions to use the SharePoint Success Site as a user?**
 
