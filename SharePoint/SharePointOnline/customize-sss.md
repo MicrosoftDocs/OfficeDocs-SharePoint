@@ -56,7 +56,7 @@ The SharePoint Success Site is prepopulated with web parts and content to guide 
 
 Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner or Site member for **both** Microsoft 365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you're not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the Microsoft 365 learning pathways and SharePoint Success Site URLs. If you're the Global Administrator (formerly called the Tenant admin) and Microsoft 365 learning pathways hasn't been provisioned, see the [provisioning guidance](./provision-sss.md#provision-the-sharepoint-success-site-1).
+If you're not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site has been provisioned and ask for the Microsoft 365 learning pathways and SharePoint Success Site URLs. If you're the Global Administrator (formerly called the Tenant admin) and Microsoft 365 learning pathways hasn't been provisioned, see the [provisioning guidance](./provision-sss.md#provision-the-sharepoint-success-site-1).
 
 **Who has permissions to customize the site template?**
 
