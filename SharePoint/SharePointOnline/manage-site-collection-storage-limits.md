@@ -30,7 +30,10 @@ description: "In this article, you'll learn how to use the SharePoint admin cent
 
 # Manage site storage limits in SharePoint in Microsoft 365
 
-The amount of SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a Global Administrator in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
+The amount of SharePoint space your organization has is based on your number of licenses (see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a Global Administrator in Microsoft 365, you can [Add storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
   
 ## View the total and available storage space for your organization
 
