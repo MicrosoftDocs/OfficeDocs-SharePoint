@@ -28,31 +28,31 @@ description: "In this article, you'll learn how to allow or prevent users from a
 
 # Allow users to create modern pages
 
-Using modern pages in Microsoft SharePoint is a great way to share ideas using images, Office files, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and modern pages look great on any device. 
+Using modern pages in Microsoft SharePoint is a great way to share ideas using images, Office files, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and modern pages look great on any device.
   
 If you're a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and [above](/sharepoint/site-permissions) in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. If you allow the creation of site pages as the organization level, you can turn it on or off at the site level by using PowerShell. Site owners can also [turn it on or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9).
   
 > [!NOTE]
-> If you want to prevent members from creating or modifying any SharePoint pages on a site, go to Site Pages, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Library settings** > **Permissions for this document library**, and then set the Members group to Read. 
+> If you want to prevent members from creating or modifying any SharePoint pages on a site, go to Site Pages, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Library settings** > **Permissions for this document library**, and then set the Members group to Read.
   
-## Change page creation settings at the organization level 
+## Change page creation settings at the organization level
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
-    
+
 2. Select **Pages**.
-    
+
 3. Select or clear **Allow users to create new modern pages**.
 
     > [!NOTE]
-    > Preventing users from creating modern pages hides the following options:<br>- On the Site Pages and Site contents pages > **New** > **Page**.<br>- **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.<br>Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News). 
+    > Preventing users from creating modern pages hides the following options:<br>- On the Site Pages and Site contents pages > **New** > **Page**.<br>- **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.<br>Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News).
 
-4. You can also select to allow or prevent commenting on modern pages. If you allow commenting, it can be turned on or off at the page level. 
+4. You can also select to allow or prevent commenting on modern pages. If you allow commenting, it can be turned on or off at the page level.
 
     ![Pages settings in the new SharePoint admin center](media/pages-setting.png)
-    
+
 ## Prevent users from creating modern pages on a specific site by using PowerShell
 
 If you allow the creation of site pages as the organization level, you can turn it off at the site level by using PowerShell.
@@ -60,17 +60,17 @@ If you allow the creation of site pages as the organization level, you can turn 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
 2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/en-us/download/details.aspx?id=42038).
-    
+
 3. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
+
     > [!NOTE]
-    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
+    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts.
   
-4. Copy the following code and paste it into a text editor, such as Notepad. 
- 
+4. Copy the following code and paste it into a text editor, such as Notepad.
+
    ```PowerShell
    # Load SharePoint Online Client Components SDK Module
    Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
@@ -120,41 +120,43 @@ If you allow the creation of site pages as the organization level, you can turn 
    ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesOut.ps1.
-    
+
     > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1. 
+    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1.
   
 6. Change to the directory where you saved the file.
-    
+
 7. Run the following command:
-    
+
    ```
    ./SitePagesOut.ps1
    ```
 
-8. The script will prompt you for a **SiteUrl** and **WebUrl**. 
-    
-   If you have a site such as "https://contoso.sharepoint.com/sites/marketing/northwindcompete"
-    
+8. The script will prompt you for a **SiteUrl** and **WebUrl**.
+
+   If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+
    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
-    
+
    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
-    
+
 ## Allow users to create modern pages on a specific site by using PowerShell
 
-If you prevented users from creating modern pages on a site, follow these steps to allow it again. 
+If you prevented users from creating modern pages on a site, follow these steps to allow it again.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-    
+
+
 2. Install the [SharePoint Client Components SDK](https://www.microsoft.com/en-us/download/details.aspx?id=42038).
-    
+
+
 3. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
+
     > [!NOTE]
-    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
-   
-4. Copy the following code and paste it into a text editor, such as Notepad. 
-    
+    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts.
+
+4. Copy the following code and paste it into a text editor, such as Notepad.
+
    ```PowerShell
    # Load SharePoint Online Client Components SDK Module
    Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
@@ -204,23 +206,22 @@ If you prevented users from creating modern pages on a site, follow these steps 
    ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesIn.ps1.
-    
+
     > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1. 
+    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1.
   
 6. Change to the directory where you saved the file.
-    
+
 7. Run the following command:
-    
+
    ```powershell
    ./SitePagesIn.ps1
    ```
 
-8. The script will prompt you for a **SiteUrl** and **WebUrl**. 
-    
-    If you have a site such as "https://contoso.sharepoint.com/sites/marketing/northwindcompete"
-    
-    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
-    
-    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+8. The script will prompt you for a **SiteUrl** and **WebUrl**.
 
+    If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+
+    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
+
+    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`

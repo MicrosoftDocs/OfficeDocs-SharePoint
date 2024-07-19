@@ -26,6 +26,9 @@ description: "Provision the SharePoint Success Site"
 
 Start the SharePoint Success Site provisioning process by understanding the prerequisites. We recommend provisioning the SharePoint Success Site from the Microsoft 365 learning pathways administration page by following the instructions in this article. Global Administrator (sometimes called tenant administrator) credentials are required to start the provisioning process for the SharePoint Success Site.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 Before getting started, [watch the provisioning instructional video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be), follow all steps in the process, and make sure you've met the requirements for provisioning.
 
 ## Meet the requirements
@@ -219,7 +222,7 @@ It's likely that the content pack hasn't been fully installed. You must return t
 
 **Question: Who has permission to customize the site template?**
 
-Answer: The Global Administrator or a site owner.
+Answer: A [SharePoint site owner](/sharepoint/site-permissions#site-owners) and [above](/sharepoint/site-permissions).
 
 **Question: Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
 
