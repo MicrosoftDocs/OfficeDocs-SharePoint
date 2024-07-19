@@ -28,7 +28,7 @@ description: "In this article, you'll learn how to delete SharePoint sites in th
 
 # Delete a site
 
-When you, as a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
+When you, as a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and [above](./site-permissions) in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
   
 - Document libraries and files.
     
@@ -48,7 +48,7 @@ You should notify the site admins and any subsite owners before you delete a sit
 
 ## Delete a site in the new SharePoint admin center
 
-By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, you can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and [above](./site-permissions) in Microsoft 365, you can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
