@@ -235,6 +235,6 @@ Use hub sites when they align with your business outcomes and solve a need for y
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
-**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](https://www.susanhanley.com/)<br>Blog: [https://www.computerworld.com/blog/essential-sharepoint](https://www.computerworld.com/blog/essential-sharepoint)**
-
-
+**Principal author: Susan Hanley, MVP
+- LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)
+- Website: [www.susanhanley.com](https://www.susanhanley.com/)
