@@ -166,7 +166,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 ## Management options
 
-As a Global Administrator or SharePoint Administrator for your organization, you have a couple of options for managing SharePoint sites and settings:
+As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) for your organization, you have a couple of options for managing SharePoint sites and settings:
 
 - **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites.
 
