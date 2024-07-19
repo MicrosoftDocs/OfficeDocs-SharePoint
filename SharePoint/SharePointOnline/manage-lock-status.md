@@ -23,7 +23,7 @@ description: "This article contains information about how to use the lock state 
 
 # Lock and unlock sites
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can block access to a site or make a site read-only by using Microsoft PowerShell to change the lock state of the site. 
+As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, you can block access to a site or make a site read-only by using Microsoft PowerShell to change the lock state of the site. 
 
 > [!NOTE]
 > You can't set the lock state on the root site.
