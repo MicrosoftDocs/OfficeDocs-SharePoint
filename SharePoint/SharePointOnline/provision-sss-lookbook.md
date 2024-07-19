@@ -30,6 +30,8 @@ You can provision the SharePoint Success Site after you confirm that you *and* y
 - You're an administrator of the App Catalog.
 - Your tenant is provisioned with Microsoft 365 learning pathways version 4.0 or later.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Start provisioning from the look book
 If your tenant is already provisioned with Microsoft 365 learning pathways version 4.0 *or later*, you can provision the SharePoint Success Site from the look book. 
@@ -110,11 +112,11 @@ Answer: The Global Administrator (formerly called the tenant admin).
 
 **Who has permission to customize the site template?**
 
-Answer: The Global Administrator (formerly called the tenant admin) or a user who has site-owner permissions.
+Answer: A user who has [SharePoint site owner](/sharepoint/site-permissions#site-owners) and [above](/sharepoint/site-permissions).
 
 **Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
 
-Answer: The site-collection administrator and users who have site-owner permissions for Microsoft 365 learning pathways.
+Answer: A user who has [SharePoint site owner](/sharepoint/site-permissions#site-owners) and [above](/sharepoint/site-permissions) permissions for Microsoft 365 learning pathways.
 
 **Who has permissions to use the SharePoint Success Site as a user?**
 
