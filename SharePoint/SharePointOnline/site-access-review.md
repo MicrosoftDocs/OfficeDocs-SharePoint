@@ -1,5 +1,5 @@
 ---
-ms.date: 07/17/2024
+ms.date: 07/18/2024
 title: "Initiate site access reviews for data access governance reports"
 ms.reviewer: samust
 ms.author: mactra
@@ -59,19 +59,19 @@ To use the site access review feature, you must fulfill the following prerequisi
 1. Select a report and choose the sites you want to review.
 
    :::image type="content" source="./media/data-access-governance/initiate-site-access-review.png" alt-text="Screenshot that shows Initiate site access review for sites listed within DAG report" lightbox="./media/data-access-governance/initiate-site-access-review.png":::
-   
+
 1. Select **Initiate site access review**.
 1. Add comments in the provided section to give context to site owners.
-   
+
     :::image type="content" source="./media/data-access-governance/comments-site-access-review.png" alt-text="Screenshot that shows provide comments for context setting for site owners":::
-   
+
 1. Select **Send** to initiate the review request.
 
 ### Track initiated site access reviews
 
 To see a list of all initiated site access reviews, select the **My review requests** tab from the data access governance landing page.
 
-:::image type="content" source="./media/data-access-governance/my-review-requests.png" alt-text="Screeshot that shows track all reviews initiated from a central page" lightbox="./media/data-access-governance/my-review-requests.png":::
+:::image type="content" source="./media/data-access-governance/my-review-requests.png" alt-text="Screenshot that shows track all reviews initiated from a central page" lightbox="./media/data-access-governance/my-review-requests.png":::
 
 When you initiate a site access review, it remains in a pending state until the site owner completes the review. Once the site owner completes the review, the status and comments are updated with the name of the reviewer and time and date of completion. A review can be marked as failed if site access review couldn't determine a valid email ID for the site owner to deliver the site access review.
 
@@ -85,9 +85,6 @@ When you initiate a review, site owners receive an email for each site that requ
 - A link to a detailed access review page. This page is specific for the scenario as specified in the data access governance report.
 
     :::image type="content" source="./media/data-access-governance/email-eeeu-files-folders-lists.png" alt-text="Screenshot that shows Email received by site owners for oversharing via EEEU" lightbox="./media/data-access-governance/email-eeeu-files-folders-lists.png":::
-
-> [!NOTE]
-> In the screenshot, the link says "View shared items" since the review was initiated for a site from "Content shared with 'Everyone except external users'" report.
 
 #### Review 'Everyone except external users' site access review requests (for site owners)
 
@@ -134,9 +131,7 @@ For site owners handling multiple reviews:
     - The gear icon on the site home page:
         1. Select **Site settings**.
         1. Select **Site reviews**.
-       
         :::image type="content" source="./media/data-access-governance/site-review-from-gear-icon.png" alt-text="Screenshot that shows path to site review page from site home page under gear icon" lightbox="./media/data-access-governance/site-review-from-gear-icon.png":::
-      
 1. View all pending site access reviews.
 1. Complete reviews as necessary.
 
