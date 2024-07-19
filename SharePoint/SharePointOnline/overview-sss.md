@@ -111,11 +111,11 @@ Answer: The Global Administrator (formerly called the Tenant admin) are required
 
 **Question: Who has permission to customize the site template?**
 
-Answer: The Global Administrator (formerly called the Tenant admin) or Site owner permissions.
+Answer: The [SharePoint site owner](/sharepoint/site-permissions#site-owner) and above (./site-permissions).
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 
-Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
+Answer: The [SharePoint site owner](/sharepoint/site-permissions#site-owner) and above (./site-permissions). M365 learning pathways.
 
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 
