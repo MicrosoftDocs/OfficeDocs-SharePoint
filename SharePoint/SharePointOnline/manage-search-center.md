@@ -48,7 +48,7 @@ These pages are located in the **Pages** library, and they contain predefined We
 |videoresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **Videos** search vertical.  <br/> |
 |advanced.aspx  <br/> |This is the search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase.  <br/> |
    
-As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions), you can also create your own search pages and add them to the Enterprise Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles), you can also create your own search pages and add them to the Enterprise Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
 
   
 ## About the Web Parts used on Search Center pages

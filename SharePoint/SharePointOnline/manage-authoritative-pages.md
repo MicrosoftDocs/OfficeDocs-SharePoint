@@ -25,7 +25,7 @@ description: "You can influence the pages or documents that should appear at the
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../SharePointServer/includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-As a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, you can influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages. Authoritative pages link to the most relevant information. A typical example of an authoritative page could be the home page of your company portal.
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages. Authoritative pages link to the most relevant information. A typical example of an authoritative page could be the home page of your company portal.
 
 Authoritative pages only work for **classic** search and only for web parts that use the **default** ranking model.
   
