@@ -39,7 +39,7 @@ By default, **Restricted SharePoint Search** isn't enabled. To enable and set up
 
 ## Before you start
 
-You must be a SharePoint Online or global administrator to run the following admin scripts.
+You must be a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 to run the following admin scripts.
 Before you use the PowerShell scripts in this article, you need to do the following:
 
 1. If you haven’t, [download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
@@ -47,7 +47,7 @@ Before you use the PowerShell scripts in this article, you need to do the follow
    > [!NOTE]
    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-1. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 ## Get the current mode that is set for Restricted Search
 

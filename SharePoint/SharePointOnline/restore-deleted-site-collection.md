@@ -36,7 +36,7 @@ Deleted SharePoint sites are retained for 93 days. After 93 days, sites and all 
  
 ## Restore a deleted site in the new SharePoint admin center
 
-In the new SharePoint admin center, you can delete and restore all the new types of sites. You can do this even as a SharePoint Administrator - you don't need to be a Global Administrator.
+In the new SharePoint admin center, you can delete and restore all the new types of sites. You can do this a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365.
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185070" target="_blank">**Deleted sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 

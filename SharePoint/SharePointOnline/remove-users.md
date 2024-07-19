@@ -50,7 +50,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 ## Delete a guest from the Microsoft 365 admin center
 
-1. Sign in to https://admin.microsoft.com as a Global Administrator or SharePoint Administrator. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
 
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
@@ -111,7 +111,7 @@ You have to browse to each site collection that the user or guest visited, and t
 
 1. [Install the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command for each site collection that the user or guest visited:
 
