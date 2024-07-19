@@ -23,6 +23,7 @@ description: "Learn how to export and import customized search configuration set
 # Export and import customized search configuration settings
 
 As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
+
   
 ## Overview
 <a name="__toc351540657"> </a>

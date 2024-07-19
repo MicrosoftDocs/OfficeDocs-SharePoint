@@ -127,6 +127,7 @@ If you enable self-service site provisioning, you want to consider providing sit
 In addition to providing a process to provision new sites, you'll also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles), so you need to think about how you'll plan and govern the creation of new hubs.
 
 
+
 When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you'll delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft Purview compliance documentation](/microsoft-365/compliance), including [records management](/microsoft-365/compliance/records-management) and [eDiscovery (Premium)](/microsoft-365/compliance/overview-ediscovery-20).
 
 
