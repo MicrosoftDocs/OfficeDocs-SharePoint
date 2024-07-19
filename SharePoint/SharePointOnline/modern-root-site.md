@@ -44,7 +44,7 @@ The root site for your organization is one of the sites that's provisioned autom
 
 
 > [!WARNING]
-> The root (top-level) site for your organization can't be deleted. If you're a [SharePoint Administrators](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365, you can replace the root site with a different site.
+> The root (top-level) site for your organization can't be deleted. If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can replace the root site with a different site.
 >
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 

@@ -135,7 +135,7 @@ There are a few things you should check if one or more users in your organizatio
   
 ##### Check that you're using a subscription that supports Delve
   
-1. Sign in to https://admin.microsoft.com as a as a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and [above](/sharepoint/site-permissions). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
@@ -159,7 +159,8 @@ There are a few things you should check if one or more users in your organizatio
 ##### Check that you've assigned the correct user licenses
 
   
-1. Sign in to https://admin.microsoft.com as a as a [SharePoint Administrator](/sharepoint/site-permissions#site-admins) and [above](/sharepoint/site-permissions). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
