@@ -51,7 +51,7 @@ We recommend using OneDrive shortcuts as the more versatile option.
 
 You can turn off OneDrive sync from all the SharePoint libraries in your organization with SharePoint Online Management Shell. 
 
-To urn off OneDrive sync from all the SharePoint libraries in your organization:
+To turn off OneDrive sync from all the SharePoint libraries in your organization:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
