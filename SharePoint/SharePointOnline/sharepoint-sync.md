@@ -58,7 +58,7 @@ To urn off OneDrive sync from all the SharePoint libraries in your organization:
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
+2. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). by using this [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) PowerShell cmdlet to remove the OneDrive sync button:
 
 3. Run the following cmdlets: 
 

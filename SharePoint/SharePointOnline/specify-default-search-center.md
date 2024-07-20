@@ -23,7 +23,7 @@ description: "Learn how to specify where searches should go by specifying the UR
 
 # Search Center settings
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you specify where searches should go for your classic site collection or site by specifying the URL of your Search Center. For example, if you've created an Enterprise Search Center which users can use to search everything in your company, you must enter the URL of that site here.
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you specify where searches should go for your classic site collection or site by specifying the URL of your Search Center. For example, if you've created an Enterprise Search Center which users can use to search everything in your company, you must enter the URL of that site here.
   
 ## Enter the address of your Search Center
 <a name="__goback"> </a>
