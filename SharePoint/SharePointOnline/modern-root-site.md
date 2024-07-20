@@ -40,10 +40,13 @@ When Microsoft SharePoint is set up for an organization, a root (or top-level) s
 
 ## What's the root site?
 
-The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, the default name is "Communication site," and the owner is Company Administrator (all Global Administrators in the organization). The root site can't be connected to a Microsoft 365 group. 
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, the default name is "Communication site," and the owner is Company Administrator (all Global Administrators in the organization). The root site can't be connected to a Microsoft 365 group.
+
 
 > [!WARNING]
-> The root (top-level) site for your organization can't be deleted. If you're a Global Administrator or SharePoint Administrator in Microsoft 365, you can replace the root site with a different site.
+> The root (top-level) site for your organization can't be deleted. If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can replace the root site with a different site.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Replace your root site
 

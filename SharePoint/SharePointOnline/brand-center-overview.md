@@ -114,7 +114,7 @@ After you finish setting up your SharePoint brand center, you can control who ca
 
 The SharePoint brand center includes two levels of management: the Microsoft 365 Admin Center and the Brand Center associated SharePoint site. Within the Microsoft 365 Admin Center, the global administrator has control over the enablement of the Brand Center and easy access to the associated site with management in the SharePoint Admin Center.
 
-From the Brand center associated site, [SharePoint site owners](/sharepoint/site-permissions#site-owners) and above (./site-permissions) can update the site permissions in the SharePoint Admin Center such as adding more brand managers to the experience. You can do this by adding members to the site owners’ group. Within the app itself, the brand managers are able to upload and manage their organization’s brand assets.
+From the Brand center associated site, [SharePoint site owners](/sharepoint/site-permissions#site-owners) and [above](/sharepoint/site-permissions) can update the site permissions in the SharePoint Admin Center such as adding more brand managers to the experience. You can do this by adding members to the site owners’ group. Within the app itself, the brand managers are able to upload and manage their organization’s brand assets.
 
 |Who?|Where?|What?|
 |----|------|-----|

@@ -29,7 +29,7 @@ After you set the organization-wide sharing settings for Microsoft SharePoint an
 > [!TIP]
 > Instead of changing the external sharing setting for an individual user's OneDrive, you might want to block external sharing of sensitive information with [Microsoft Purview data loss prevention](/purview/dlp-learn-about-dlp).
   
-1. Sign in to https://admin.microsoft.com as a Global Administrator.
+1. Sign in to https://admin.microsoft.com.
     
 2. In the left pane, select **Users** \> **Active users**.
 
