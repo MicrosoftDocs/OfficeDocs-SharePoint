@@ -33,6 +33,9 @@ This article is part of a roadmap of procedures for configuring SharePoint hybri
 
 > [!NOTE]
 > We recommend using the [SharePoint Hybrid Configuration Wizard](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to establish the Server-to-Server authentication between SharePoint Server and SharePoint in Microsoft 365. If you are unable to use the Hybrid Configuration Wizard for any reason, follow the steps in this article to enable server-to-server authentication.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 
 ## Configure server-to-server authentication
 
