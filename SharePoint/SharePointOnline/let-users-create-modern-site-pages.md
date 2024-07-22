@@ -141,7 +141,7 @@ If you allow the creation of site pages as the organization level, you can turn 
 
    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
-   And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+   And for the **WebUrl** you would enter:  `sites/marketing/northwindcompete`
 
 ## Allow users to create modern pages on a specific site by using PowerShell
 
@@ -227,4 +227,4 @@ If you prevented users from creating modern pages on a site, follow these steps 
 
     For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
-    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+    And for the **WebUrl** you would enter:  `sites/marketing/northwindcompete`
