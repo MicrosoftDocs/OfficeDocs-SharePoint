@@ -137,7 +137,7 @@ If you allow the creation of site pages as the organization level, you can turn 
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
 
-   If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+   If you have a site such as: `https://contoso.sharepoint.com/sites/marketing/northwindcompete`
 
    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
@@ -223,7 +223,7 @@ If you prevented users from creating modern pages on a site, follow these steps 
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
 
-    If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+    If you have a site such as: `https://contoso.sharepoint.com/sites/marketing/northwindcompete`
 
     For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
