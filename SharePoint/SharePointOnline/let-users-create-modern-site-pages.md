@@ -131,8 +131,8 @@ If you allow the creation of site pages as the organization level, you can turn 
 
 7. Run the following command:
 
-   ```
-   ./SitePagesOut.ps1
+   ```powershell
+   .\SitePagesOut.ps1
    ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
@@ -218,7 +218,7 @@ If you prevented users from creating modern pages on a site, follow these steps 
 7. Run the following command:
 
    ```powershell
-   ./SitePagesIn.ps1
+   .\SitePagesIn.ps1
    ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
