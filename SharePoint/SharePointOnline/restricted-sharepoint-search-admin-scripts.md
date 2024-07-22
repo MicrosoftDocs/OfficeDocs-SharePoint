@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 - m365copilot
 - magic-ai-copilot
-description: "Learn how to use PowerShell scripts as a global admin to get current mode of Restricted SharePoint Search, enable/disable Restricted SharePoint search, add to or remove from the allowed list, and get the list of current sites in the allowed list."
+description: "Learn how to use PowerShell scripts as a SharePoint Administrator or above in Microsoft 365 to get current mode of Restricted SharePoint Search, enable/disable Restricted SharePoint search, add to or remove from the allowed list, and get the list of current sites in the allowed list."
 ---
 
 # Use PowerShell Scripts for Restricted SharePoint Search
@@ -23,7 +23,7 @@ description: "Learn how to use PowerShell scripts as a global admin to get curre
 > [!IMPORTANT]
 > Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
 
-By default, **Restricted SharePoint Search** isn't enabled. To enable and set up Restricted SharePoint Search, you need to have Global and SharePoint admin roles. Depending on the scenario, some actions you need to take are:
+By default, **Restricted SharePoint Search** isn't enabled. To enable and set up Restricted SharePoint Search, you need to have a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) role in Microsoft 365. Depending on the scenario, some actions you need to take are:
 
 - Get the current mode that is set for Restricted Search
 
