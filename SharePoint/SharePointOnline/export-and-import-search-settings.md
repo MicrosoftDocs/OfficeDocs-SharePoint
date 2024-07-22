@@ -71,8 +71,8 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select Open.
     
@@ -103,8 +103,8 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
    
@@ -199,7 +199,7 @@ If managed properties or aliases contain any of the listed characters, the impor
 ## Known issue
 <a name="__toc351540666"> </a>
 
- **Unable to load Search Configuration List**
+**Unable to load Search Configuration List**
 
 When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Configuration List** could not display properly and you might receive a "File not found" error.
 
@@ -207,7 +207,7 @@ This issue only blocks the UI from displaying the list of search configuration f
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
 
- **Unable to import stale search configuration XML file**
+**Unable to import stale search configuration XML file**
 
 If the search configuration file was exported a long time ago, the import might fail.
 
