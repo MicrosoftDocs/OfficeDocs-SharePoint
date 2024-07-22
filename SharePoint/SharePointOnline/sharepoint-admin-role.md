@@ -41,6 +41,9 @@ Global Administrators in Microsoft 365 can assign users the SharePoint Administr
 
 For info about assigning a user the SharePoint administrator role, see [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles). If a user's role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 #### Site management
 
 Global Administrators and SharePoint Administrators don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
@@ -55,7 +58,7 @@ There is a separate role within SharePoint called the Term Store administrator. 
 
 #### API access
 
-To manage API access in the SharePoint admin center, the application administrator role or the Global administrator role might be required. For more information, see [Manage access to Microsoft Entra ID-secured APIs](api-access.md).
+To manage API access in the SharePoint admin center, the [application administrator role](/entra/identity/role-based-access-control/permissions-reference#application-administrator) or above might be required. For more information, see [Manage access to Microsoft Entra ID-secured APIs](api-access.md).
 
 ## Key tasks of the SharePoint admin
 <a name="BK_KeyTasks"> </a>
