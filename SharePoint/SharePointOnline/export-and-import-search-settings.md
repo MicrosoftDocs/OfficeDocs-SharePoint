@@ -34,7 +34,7 @@ When you import a search configuration file, SharePoint creates and enables each
   
 This table shows the settings that you can export or import. For each setting, you'll find dependencies on other customized search configuration settings. If the customized search configuration settings depend on a customized search configuration setting at a different level, for example, if a site query rule depends on a result source at site collection level, you must export and import settings at all of the relevant levels.
   
-|**Customized search configuration setting**|**Dependency on other customized search configuration settings**|
+| Customized search configuration setting | Dependency on other customized search configuration settings |
 |:-----|:-----|
 |Query rules. These include result blocks, promoted results, and user segments.  <br/> |Result sources, result types, search schema, ranking model.  <br/> |
 |Result sources  <br/> |Search schema  <br/> |
@@ -163,7 +163,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 If managed properties or aliases contain any of the listed characters, the import of the customized search schema that contains these properties will fail.
   
-|**Character**|**Name**|
+| Character | Name |
 |:-----|:-----|
 ||space  <br/> |
 |:  <br/> |colon  <br/> |

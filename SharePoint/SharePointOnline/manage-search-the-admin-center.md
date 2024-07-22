@@ -42,7 +42,7 @@ You can customize and tailor the classic search experience more than Microsoft S
 ## What do you want to do?
 <a name="__top"> </a>
 
-|**Choose this option:**|**To do this:**|
+| Choose this option: | To do this: |
 |:-----|:-----|
 |[Manage the search schema](manage-search-schema.md) <br/> |Learn how to create a customized search experience by changing the search schema. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties.  <br/> |
 |[Manage search dictionaries](manage-search-dictionaries.md) <br/> |Learn how to manage search dictionaries for classic search. You can use search dictionaries to include or exclude company names to be extracted from the content of your indexed documents, or you can include or exclude words for query spelling correction.  <br/> |

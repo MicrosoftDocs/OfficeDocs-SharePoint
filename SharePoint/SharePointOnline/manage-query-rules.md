@@ -221,7 +221,7 @@ When multiple query rules are active for a tenant, a site collection, or a site,
 ## Overview of conditions that make a query rule fire
 <a name="BKMK_Conditions_that_fire_query_rule"> </a>
 
-|**Query condition**|**Description**|**Configuration**|**Example**|
+| Query condition | Description | Configuration | Example |
 |:-----|:-----|:-----|:-----|
 |**Query Matches Keyword Exactly** <br/> |The query rule fires when a query exactly matches a word or phrase that you specify.  <br/> |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture."  <br/> |
 |Query Contains Action Term  <br/> |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query.  <br/> |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases.  <br/> |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index.  <br/> |

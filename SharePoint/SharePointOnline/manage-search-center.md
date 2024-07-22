@@ -39,7 +39,7 @@ If modern search doesn't cover you needs, you can [switch from the Basic Search 
 
 These pages are located in the **Pages** library, and they contain predefined Web Parts that you can customize to improve the end user's search experience. 
   
-|**Page**|**Description**|
+| Page | Description |
 |:-----|:-----|
 |default.aspx  <br/> |The home page for Search Centers, and the page where users enter their queries.  <br/> |
 |results.aspx  <br/> |The default search results page for the Search Centers. <br/> If you have an Enterprise Search Center, this is also the search results page for the **Everything** search vertical.  <br/> |
