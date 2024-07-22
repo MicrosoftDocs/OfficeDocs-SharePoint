@@ -60,4 +60,5 @@ If you have never used Power Automate with this tenant before, you must configur
 > 
 > As this user account will be used to create solutions and users in the Power Platform environment, it must also be assigned with the security roles of System Administrator, Environment Maker and Basic User.[Learn more about Power Platform data security](/power-platform/admin/database-security).
 > > Sign in to Power Automate using this account, navigate to Solutions, and verify you can create a new solution.
+
 ## Step 2:  [Migrate Workflows](spmt-workflow-step2.md)
