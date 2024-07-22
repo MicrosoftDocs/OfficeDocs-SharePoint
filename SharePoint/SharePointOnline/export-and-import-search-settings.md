@@ -36,11 +36,11 @@ This table shows the settings that you can export or import. For each setting, y
   
 | Customized search configuration setting | Dependency on other customized search configuration settings |
 |:-----|:-----|
-|Query rules. These include result blocks, promoted results, and user segments.  <br/> |Result sources, result types, search schema, ranking model.  <br/> |
-|Result sources  <br/> |Search schema  <br/> |
-|Result types  <br/> |Search schema, result sources, display templates  <br/> |
-|Search schema  <br/> |None  <br/> |
-|Ranking model  <br/> |Search schema  <br/> |
+|Query rules. These include result blocks, promoted results, and user segments. |Result sources, result types, search schema, ranking model. |
+|Result sources |Search schema |
+|Result types |Search schema, result sources, display templates |
+|Search schema |None |
+|Ranking model |Search schema |
    
 ### Conditions that can cause the import to fail
 <a name="__toc351540658"> </a>
@@ -165,36 +165,36 @@ If managed properties or aliases contain any of the listed characters, the impor
   
 | Character | Name |
 |:-----|:-----|
-||space  <br/> |
-|:  <br/> |colon  <br/> |
-|;  <br/> |semicolon  <br/> |
-|,  <br/> |comma  <br/> |
-|(  <br/> |opening parenthesis  <br/> |
-|)  <br/> |closing parenthesis  <br/> |
-|[  <br/> |opening bracket  <br/> |
-|]  <br/> |closing bracket  <br/> |
-|{  <br/> |opening brace  <br/> |
-|}  <br/> |closing brace  <br/> |
-|%  <br/> |percent  <br/> |
-|$  <br/> |dollar sign  <br/> |
-|_  <br/> |underscore  <br/> |
-|+  <br/> |plus sign  <br/> |
-|!  <br/> |exclamation point  <br/> |
-|\*  <br/> |asterisk  <br/> |
-|=  <br/> |equal sign  <br/> |
-|&amp;  <br/> |ampersand  <br/> |
-|?  <br/> |question mark  <br/> |
-|@  <br/> |at sign  <br/> |
-|#  <br/> |number sign  <br/> |
-|\  <br/> |backslash  <br/> |
-|~  <br/> |tilde  <br/> |
-|\<  <br/> |opening angle bracket  <br/> |
-|\>  <br/> |closing angle bracket  <br/> |
-|\|  <br/> |pipe  <br/> |
-|`  <br/> |grave accent  <br/> |
-|^  <br/> |caret  <br/> |
-|\'  <br/> |escape sequence  <br/> |
-|\"  <br/> |escape sequence  <br/> |
+||space |
+|: |colon |
+|; |semicolon |
+|, |comma |
+|( |opening parenthesis |
+|) |closing parenthesis |
+|[ |opening bracket |
+|] |closing bracket |
+|{ |opening brace |
+|} |closing brace |
+|% |percent |
+|$ |dollar sign |
+|_ |underscore |
+|+ |plus sign |
+|! |exclamation point |
+|\* |asterisk |
+|= |equal sign |
+|&amp; |ampersand |
+|? |question mark |
+|@ |at sign |
+|# |number sign |
+|\ |backslash |
+|~ |tilde |
+|\< |opening angle bracket |
+|\> |closing angle bracket |
+|\| |pipe |
+|` |grave accent |
+|^ |caret |
+|\' |escape sequence |
+|\" |escape sequence |
 
 ## Known issue
 <a name="__toc351540666"> </a>
