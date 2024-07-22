@@ -48,7 +48,9 @@ If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [a
 3. Select or clear **Allow users to create new modern pages**.
 
     > [!NOTE]
-    > Preventing users from creating modern pages hides the following options:<br>- On the Site Pages and Site contents pages > **New** > **Page**.<br>- **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.<br>Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News).
+    > Preventing users from creating modern pages hides the following options:
+    > <ul><li>On the Site Pages and Site contents pages > **New** > **Page**.</li><li>**Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.</li></ul>
+    > Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News).
 
 4. You can also select to allow or prevent commenting on modern pages. If you allow commenting, it can be turned on or off at the page level.
 
