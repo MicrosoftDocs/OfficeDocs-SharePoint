@@ -67,7 +67,8 @@ To get started:
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin.
+- **Access to the destination**: You must either be a OneDrive/SharePoint admin or SharePoint site admin.
+
 - **Access to the source**: SharePoint credentials that have read access to the SharePoint Server content you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
