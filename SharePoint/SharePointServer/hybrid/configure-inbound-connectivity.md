@@ -241,7 +241,7 @@ For more information about how to use split DNS in a hybrid topology, see [Archi
 #### Create an A record in the on-premises DNS
 <a name="hn_arecord"> </a>
 
-The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is https://spexternal.adventureworks.com, and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
+The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is `https://spexternal.adventureworks.com`, and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
@@ -286,7 +286,7 @@ In general, you should use the default settings. However, the following configur
 |In the **Security Configuration** section  <br/> |Ensure that **Allow Anonymous** is set to **No**.  <br/> |
 |In the **Security Configuration** section  <br/> |Ensure that **Use Secure Sockets Layer (SSL)** is set to **Yes**. You'll have to bind an SSL certificate to the web application, which we discuss more in the next section.  <br/> |
 |In the **Claims Authentication Types** section  <br/> |Select the **Enable Windows Authentication** check box, select the **Integrated Windows authentication** check box, and in the drop-down menu, select **NTLM**.  <br/> |
-|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> By default, SharePoint in Microsoft 365 appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
+|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, `https://spexternal.adventureworks.com`.  <br/> By default, SharePoint in Microsoft 365 appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
    
 To make things easier for yourself in later procedures, we recommend that you do the following.
   
@@ -314,7 +314,7 @@ For more info about how to use split DNS in a hybrid topology, see [Architecture
 #### Create an A record in the on-premises DNS
 <a name="woaam_arecord"> </a>
 
-The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is https://spexternal.adventureworks.com and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
+The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is `https://spexternal.adventureworks.com` and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
@@ -376,7 +376,7 @@ To extend the web application, use the procedures in [Extend claims-based web ap
 |In the **Security Configuration** section  <br/> |Ensure that **Allow Anonymous** is set to **No**.  <br/> |
 |In the **Security Configuration** section  <br/> |Choose the appropriate value for **Use Secure Sockets Layer (SSL)**. If you choose **No**, the web application will use unencrypted **HTTP**. If you choose **Yes**, the web application will use encrypted **HTTPS**, and you must bind an SSL certificate to the extended web application. We discuss this certificate more in the next section.  <br/> |
 |In the **Claims Authentication Types** section  <br/> |Select the **Enable Windows Authentication** check box, select the **Integrated Windows authentication** check box, and in the drop-down menu, select **NTLM**.  <br/> |
-|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> Note that by default, SharePoint appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
+|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, `https://spexternal.adventureworks.com`.  <br/> Note that by default, SharePoint appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
 |In the **Public URL** section, in the **Zone** list  <br/> |Select the zone that you want to assign to this extended web application. We recommend that you set the **Zone** value to **Internet** if it's available.  <br/> |
    
 #### Ensure that an SSL binding exists on the primary web application (if it's needed)
