@@ -1,0 +1,2001 @@
+Items:
+- name: SharePoint Server
+  href: ../sharepoint-server.yml
+  items:
+  - name: SharePoint Updates
+    href: /OfficeUpdates/sharepoint-updates?toc=/sharepoint/spstoc/toc.json
+  - name: Accessibility guidelines
+    href: ../accessibility-guidelines.md
+  - name: What's new
+    href: ../what-s-new/what-s-new.md
+    items:
+    - name: SharePoint Server Subscription Edition
+      items:
+      - name: New and improved features in SharePoint Server Subscription Edition
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md
+      - name: New and improved features in SharePoint Server Subscription Edition Version 22H2
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release.md
+      - name: New and improved features in SharePoint Server Subscription Edition Version 23H1
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h1-release.md
+      - name: New and improved features in SharePoint Server Subscription Edition Version 23H2
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release.md
+      - name: New and improved features in SharePoint Server Subscription Edition Version 24H1
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md
+      - name: What's deprecated or removed from SharePoint Server Subscription Edition
+        href: ../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md
+    - name: SharePoint Server 2019
+      items:
+      - name: New and improved features in SharePoint Server 2019
+        href: ../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md
+      - name: What's deprecated or removed from SharePoint Server 2019
+        href: ../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-2019.md
+    - name: SharePoint Server 2016
+      items:
+      - name: New and improved features in SharePoint Server 2016
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md
+      - name: New features in Feature Pack 1
+        href: ../what-s-new/new-features-november-2016.md
+      - name: New feature in Feature Pack 2
+        href: ../what-s-new/new-feature-in-feature-pack-2.md
+      - name: What's deprecated or removed from SharePoint Server 2016
+        href: ../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016.md
+  - name: Getting started
+    href: ../getting-started.md
+  - name: Security for SharePoint Server
+    href: ../security-for-sharepoint-server/security-for-sharepoint-server.md
+    items:
+    - name: Improved ASP.NET view state security and key management
+      href: ../security-for-sharepoint-server/improved-asp-net-view-state-security-key-management.md
+    - name: Plan for administrative and service accounts
+      href: ../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md
+      items:
+      - name: Automatic password change planning
+        href: ../security-for-sharepoint-server/automatic-password-change-planning.md
+    - name: Authentication overview
+      href: ../security-for-sharepoint-server/authentication-overview.md
+      items:
+      - name: Plan user authentication
+        href: ../security-for-sharepoint-server/plan-user-authentication.md
+      - name: Plan server-to-server authentication
+        href: ../security-for-sharepoint-server/plan-server-to-server-authentication.md
+      - name: Server-to-server authentication and user profiles
+        href: ../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md
+      - name: Kerberos authentication planning
+        href: ../security-for-sharepoint-server/kerberos-authentication-planning.md
+      - name: Plan for app authentication in SharePoint Server
+        href: ../security-for-sharepoint-server/plan-for-app-authentication-in-sharepoint-server.md
+      - name: Create claims-based web applications in SharePoint Server
+        href: ../security-for-sharepoint-server/create-claims-based-web-applications.md
+      - name: Create web applications that use classic mode authentication in SharePoint Server
+        href: ../security-for-sharepoint-server/create-web-applications-that-use-classic-mode-authentication.md
+      - name: Implement SAML based authentication in SharePoint Server
+        href: ../security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server.md
+      - name: OpenID Connect 1.0 authentication
+        href: ../security-for-sharepoint-server/oidc-1-0-authentication.md
+        items:
+        - name: Set up OIDC authentication in SharePoint Server with Microsoft Entra ID
+          href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md
+        - name: Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)
+          href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs.md
+      - name: Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server
+        href: ../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md
+    - name: Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server
+      href: ../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md
+      items:
+      - name: SSL Certificate Management Operations
+        href: ../administration/ssl-certificate-management.md
+        items:
+        - name: Create new certificates
+          href: ../administration/create-new-certificates.md
+        - name: Import certificates
+          href: ../administration/import-new-certificates.md
+        - name: Assign certificates to web applications
+          href: ../administration/assign-certificates-to-web-applications.md
+        - name: Replace a certificate assignment
+          href: ../administration/replace-a-certificate-assignment.md
+        - name: Remove certificates
+          href: ../administration/remove-certificates.md
+        - name: View certificates
+          href: ../administration/view-certificates.md
+        - name: Export certificates
+          href: ../administration/export-certificate.md
+        - name: Outgoing SMTP support for client certificate authentication
+          href: ../administration/outgoing-smtp-support-for-client-certificate-authentication.md
+        - name: Renew certificates
+          href: ../administration/renew-certificates.md
+        - name: Rename certificate friendly names
+          href: ../administration/rename-certificate-friendly-names.md
+        - name: Move certificates between certificate stores
+          href: ../administration/move-certificates-between-certificate-stores.md
+        - name: View certificate default settings
+          href: ../administration/view-certificate-default-settings.md
+        - name: Set certificate default settings
+          href: ../administration/set-certificate-default-settings.md
+        - name: Certificates administrative action logging
+          href: ../administration/certificates-administrative-action-logging.md
+        - name: SSL certificate management in central administration
+          href: ../administration/ssl-certificate-management-in-central-administration.md
+        - name: New health analyzer rules for SSL certificates
+          href: ../administration/new-health-analyzer-rules-for-ssl-certificates.md
+        - name: Private key management for SSL certificates
+          href: ../administration/private-key-management-for-ssl-certificates.md
+      - name: Enable TLS and SSL support in SharePoint 2013
+        href: ../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md
+      - name: Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016
+        href: ../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md
+      - name: Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019
+        href: ../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2019.md
+      - name: TLS in SharePoint Server Subscription Edition
+        items:
+        - name: Strong Transport Layer Security (TLS) Encryption
+          href: ../security-for-sharepoint-server/strong-tls-encryption.md
+        - name: Transport Layer Security (TLS) 1.3 Support
+          href: ../security-for-sharepoint-server/tls-support-1.3.md
+    - name: Security hardening
+      href: ../security-for-sharepoint-server/security-hardening.md
+      items:
+      - name: Configure AMSI integration with SharePoint Server
+        href: ../security-for-sharepoint-server/configure-amsi-integration.md
+      - name: Plan for least-privileged administration
+        href: ../security-for-sharepoint-server/plan-for-least-privileged-administration.md
+      - name: Configure SQL Server security for SharePoint environments
+        href: ../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md
+    - name: Federal Information Processing Standard security standards
+      href: ../security-for-sharepoint-server/federal-information-processing-standard-security-standards.md
+  - name: Install
+    href: ../install/install.md
+    items:
+    - name: IP support in SharePoint Server
+      href: ../install/ip-support.md
+    - name: Installation Overview for SharePoint Server Subscription Edition
+      href: ../install/install-overview-spserver-se.md
+      items:
+      - name: System requirements for SharePoint Server Subscription Edition
+        href: ../install/system-requirements-for-sharepoint-subscription-edition.md
+        items:
+        - name: Hardware and Topology Requirements for SharePoint Server Subscription Edition
+          href: ../install/hardware-and-topology-requirements-for-sharepoint-server-subscription-editon.md
+        - name: Software Requirements for Database Servers for SharePoint Server Subscription Edition
+          href: ../install/software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md
+        - name: Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition
+          href: ../install/software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition.md
+      - name: Browser support planning
+        href: ../install/browser-support-planning-subscription-edition.md
+      - name: Installing SharePoint Server Subscription Edition on one server
+        href: ../install/installing-sharepoint-subscription-edition-on-one-server.md
+      - name: Installing SharePoint Server Subscription Edition on Windows Server Core
+        href: ../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md
+      - name: Install or uninstall language packs for SharePoint Servers Subscription Edition
+        href: ../install/install-or-uninstall-language-packs-subscription.md
+      - name: Uninstall SharePoint Server Subscription Edition
+        href: ../install/uninstall-for-sharepoint-server-subscription-edition.md
+      - name: Repair SharePoint Server Subscription Edition
+        href: ../install/repair-sharepoint-server-subscription-edition.md
+    - name: Install for SharePoint Server 2019
+      href: ../install/install-for-sharepoint-server-2019.md
+      items:
+      - name: System requirements for SharePoint Servers 2016 and 2019
+        href: ../install/system-requirements-for-sharepoint-server-2016.md
+        items:
+        - name: Hardware and software requirements
+          href: ../install/hardware-and-software-requirements-2019.md
+        - name: Browser support planning
+          href: ../install/browser-support-planning-2016-2019.md
+      - name: Install SharePoint Servers 2016 or 2019 on one server
+        href: ../install/install-sharepoint-server-2016-on-one-server.md
+      - name: Install SharePoint Servers 2016 or 2019 across multiple servers
+        href: ../install/install-sharepoint-server-2016-across-multiple-servers.md
+      - name: Install or uninstall language packs
+        href: ../install/install-uninstall-language-packs-2019.md
+      - name: Add a server to a SharePoint Server 2016 or SharePoint 2019 farm
+        href: ../install/add-a-server-to-a-sharepoint-server-2016-farm.md
+    - name: Install for SharePoint Server 2016
+      href: ../install/install-for-sharepoint-server-2016.md
+      items:
+      - name: System requirements for SharePoint Servers 2016 and 2019
+        href: ../install/system-requirements-for-sharepoint-server-2016.md
+        items:
+        - name: Hardware and software requirements
+          href: ../install/hardware-and-software-requirements.md
+        - name: Browser support planning
+          href: ../install/browser-support-planning-2016-2019.md
+        - name: Software boundaries and limits
+          href: ../install/software-boundaries-limits-2019.md
+      - name: Prerequisites
+        href: ../install/prerequisites-2019.md
+        items:
+        - name: Initial deployment administrative and service accounts in SharePoint Server
+          href: ../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md
+        - name: Account permissions and security settings in SharePoint Servers 2016 and 2019
+          href: ../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md
+        - name: Install prerequisites from network share
+          href: ../install/install-prerequisites-from-network-share.md
+        - name: Overview of MinRole Server Roles in SharePoint Server
+          href: ../install/overview-of-minrole-server-roles-in-sharepoint-server.md
+        - name: Planning for a MinRole server deployment in SharePoint Server
+          href: ../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md
+      - name: Install SharePoint Servers 2016 or 2019 on one server
+        href: ../install/install-sharepoint-server-2016-on-one-server.md
+      - name: Install SharePoint Servers 2016 or 2019 across multiple servers
+        href: ../install/install-sharepoint-server-2016-across-multiple-servers.md
+      - name: Install or uninstall language packs
+        href: ../install/install-uninstall-language-packs-2019.md
+      - name: Add a server to a SharePoint Server farm
+        href: ../install/add-a-server-to-a-sharepoint-server-2016-farm.md
+    - name: Install for SharePoint 2013
+      href: ../install/install-for-sharepoint-2013.md
+      items:
+      - name: System requirements for SharePoint 2013
+        href: ../install/system-requirements-for-sharepoint-2013.md
+        items:
+        - name: Hardware and software requirements
+          href: ../install/hardware-software-requirements-2013.md
+        - name: Browser support planning
+          href: ../install/browser-support-planning.md
+        - name: Software boundaries and limits
+          href: ../install/software-boundaries-and-limits.md
+        - name: Capacity management and sizing overview
+          href: ../install/capacity-management-and-sizing-overview.md
+      - name: Prerequisites
+        href: ../install/prerequisites.md
+        items:
+        - name: Account permissions and security settings in SharePoint 2013
+          href: ../install/account-permissions-and-security-settings-in-sharepoint-2013.md
+      - name: Installation and configuration overview
+        href: ../install/installation-and-configuration-overview.md
+      - name: Single server with a built-in database
+        href: ../install/single-server-with-a-built-in-database.md
+      - name: Single server with SQL Server
+        href: ../install/single-server-with-sql-server.md
+      - name: Multiple servers for a three-tier farm
+        href: ../install/multiple-servers-for-a-three-tier-farm.md
+      - name: Install or uninstall language packs
+        href: ../install/install-or-uninstall-language-packs.md
+      - name: Add web or application server to the farm
+        href: ../install/add-web-or-application-server-to-the-farm.md
+      - name: Add a database server to an existing farm
+        href: ../install/add-a-database-server-to-an-existing-farm.md
+    - name: Best Practices for SharePoint Server installation
+      href: ../install/BestPractices-for-SharePointServer-Installation.md
+    - name: Deploying on virtual machines
+      href: ../install/deploy-sharepoint-virtual-machines.md
+    - name: Configure
+      href: ../install/configure.md
+      items:
+      - name: Configure client certificate authentication
+        href: ../install/configure-client-certificate-authentication.md
+      - name: Configure syncing with the new OneDrive sync app
+        href: ../install/configure-syncing-with-the-onedrive-sync-app.md
+      - name: User Profile service overview
+        href: ../install/user-profile-service-overview.md
+        items:
+        - name: Create a User Profile service application
+          href: ../install/create-a-user-profile-service-application.md
+      - name: My Sites overview
+        href: ../install/my-sites-overview.md
+        items:
+        - name: My Sites planning
+          href: ../install/my-sites-planning.md
+        - name: Configure My Sites
+          href: ../install/configure-my-sites.md
+  - name: Upgrade and Update
+    href: ../upgrade-and-update/upgrade-and-update.md
+    items:
+    - name: Upgrade to SharePoint Server Subscription Edition
+      href: ../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md
+      items:
+      - name: Get started with upgrade
+        href: ../upgrade-and-update/get-started-with-upgrade-subscription-edition.md
+        items:
+        - name: Overview of the upgrade process
+          href: ../upgrade-and-update/overview-of-the-upgrade-process-subscription-edition.md
+        - name: Overview of the services upgrade process
+          href: ../upgrade-and-update/overview-of-the-services-upgrade-process-subscription-edition.md
+      - name: Upgrade databases
+        href: ../upgrade-and-update/upgrade-databases-subscription-edition.md
+        items:
+        - name: Create the SharePoint Server Subscription Edition farm for a database attach upgrade
+          href: ../upgrade-and-update/create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade.md
+        - name: Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition
+          href: ../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md
+        - name: Upgrade service applications to SharePoint Server Subscription Edition
+          href: ../upgrade-and-update/upgrade-service-applications-to-sharepoint-server-subscription-edition.md
+        - name: Upgrade content databases to SharePoint Server Subscription Edition
+          href: ../upgrade-and-update/upgrade-content-databases-subscription-edition.md
+        - name: Verify database upgrades in SharePoint Server Subscription Edition
+          href: ../upgrade-and-update/verify-upgrade-for-databases-subscription-edition.md
+      - name: Upgrade a site collection
+        href: ../upgrade-and-update/upgrade-a-site-collection-subscription-edition.md
+        items:
+        - name: Troubleshoot site collection upgrade issues in SharePoint Server Subscription Edition
+          href: ../upgrade-and-update/troubleshoot-site-collection-upgrade-issues-subscription-edition.md
+    - name: Upgrade to SharePoint Server 2019
+      href: ../upgrade-and-update/upgrade-to-sharepoint-server-2019.md
+      items:
+      - name: Upgrade from SharePoint 2013 to SharePoint Server 2019
+        href: ../upgrade-and-update/Upgrade-from-SharePoint2013-to-SharePointServer-2019.md
+      - name: Get started with upgrade
+        href: ../upgrade-and-update/get-started-with-upgrade-2019.md
+        items:
+        - name: Overview of the upgrade process
+          href: ../upgrade-and-update/overview-of-the-upgrade-process-2019.md
+        - name: Overview of the services upgrade process
+          href: ../upgrade-and-update/overview-of-the-services-upgrade-process-2019.md
+      - name: Upgrade databases
+        href: ../upgrade-and-update/upgrade-databases-2019.md
+        items:
+        - name: Create the SharePoint Server 2019 farm for a database attach upgrade
+          href: ../upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md
+        - name: Copy databases to the new farm for upgrade to SharePoint Server 2019
+          href: ../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md
+        - name: Upgrade service applications to SharePoint Server 2019
+          href: ../upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2019.md
+        - name: Upgrade content databases
+          href: ../upgrade-and-update/upgrade-content-databases-2019.md
+        - name: Verify upgrade for databases
+          href: ../upgrade-and-update/verify-upgrade-for-databases-2019.md
+        - name: Upgrade a site collection
+          href: ../upgrade-and-update/upgrade-a-site-collection-2019.md
+        - name: Upgrade My Sites
+          href: ../upgrade-and-update/upgrade-my-sites-2019.md
+    - name: Upgrade to SharePoint Server 2016
+      href: ../upgrade-and-update/upgrade-to-sharepoint-server-2016.md
+      items:
+      - name: Get started with upgrade
+        href: ../upgrade-and-update/get-started-with-upgrade.md
+        items:
+        - name: Overview of the upgrade process
+          href: ../upgrade-and-update/overview-of-the-upgrade-process.md
+        - name: Overview of the services upgrade process
+          href: ../upgrade-and-update/overview-of-the-services-upgrade-process.md
+        - name: Best practices for upgrade
+          href: ../upgrade-and-update/best-practices-for-upgrade.md
+      - name: Upgrade databases
+        href: ../upgrade-and-update/upgrade-databases.md
+        items:
+        - name: Create the SharePoint Server 2016 farm for a database attach upgrade
+          href: ../upgrade-and-update/create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md
+        - name: Copy databases to the new farm for upgrade to SharePoint Server 2016
+          href: ../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md
+        - name: Upgrade service applications to SharePoint Server 2016
+          href: ../upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016.md
+        - name: Upgrade content databases
+          href: ../upgrade-and-update/upgrade-content-databases.md
+        - name: Verify upgrade for databases
+          href: ../upgrade-and-update/verify-upgrade-for-databases.md
+      - name: Upgrade site collections
+        href: ../upgrade-and-update/upgrade-site-collections.md
+        items:
+        - name: Upgrade a site collection
+          href: ../upgrade-and-update/upgrade-a-site-collection.md
+        - name: Upgrade My Sites
+          href: ../upgrade-and-update/upgrade-my-sites.md
+      - name: Video—Cleanup of databases after upgrade procedure
+        href: ../upgrade-and-update/video-cleanup-of-databases-after-upgrade-procedure.md
+    - name: Deploy updates for SharePoint Server 2016, 2019, and Subscription Edition
+      href: ../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md
+      items:
+      - name: Software updates overview
+        href: ../upgrade-and-update/software-updates-overview.md
+      - name: Install a software update
+        href: ../upgrade-and-update/install-a-software-update.md
+      - name: Video demo of Zero Downtime Patching in SharePoint Server 2016
+        href: ../upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md
+      - name: SharePoint Server zero downtime patching steps
+        href: ../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md
+      - name: Video—How to enable Remote Windows PowerShell to use with SharePoint Server
+        href: ../upgrade-and-update/video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md
+    - name: Upgrade from SharePoint 2010 to SharePoint 2013
+      href: ../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md
+      items:
+      - name: Get started with upgrade
+        href: ../upgrade-and-update/get-started-with-upgrade-2013.md
+        items:
+        - name: What's new in SharePoint 2013 upgrade
+          href: ../upgrade-and-update/what-s-new-in-sharepoint-2013-upgrade.md
+        - name: Overview of the upgrade process from SharePoint 2010 to SharePoint 2013
+          href: ../upgrade-and-update/overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md
+        - name: Upgrade overview videos for SharePoint 2013
+          href: ../upgrade-and-update/upgrade-overview-videos-for-sharepoint-2013.md
+        - name: Services upgrade overview from SharePoint 2010 to SharePoint Server 2013
+          href: ../upgrade-and-update/services-upgrade-overview-from-sharepoint-2010-to-sharepoint-server-2013.md
+        - name: Upgrade farms that share services (parent and child farms) to SharePoint 2013
+          href: ../upgrade-and-update/upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md
+        - name: Best practices for upgrading from SharePoint 2010 to SharePoint 2013
+          href: ../upgrade-and-update/best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md
+        - name: Review supported editions and products for upgrading to SharePoint 2013
+          href: ../upgrade-and-update/review-supported-editions-and-products-for-upgrading-to-sharepoint-2013.md
+      - name: Plan for upgrade
+        href: ../upgrade-and-update/plan-for-upgrade.md
+        items:
+        - name: Determine strategy for upgrade to SharePoint 2013
+          href: ../upgrade-and-update/determine-strategy-for-upgrade-to-sharepoint-2013.md
+        - name: Create a plan for current customizations during upgrade to SharePoint 2013
+          href: ../upgrade-and-update/create-a-plan-for-current-customizations-during-upgrade-to-sharepoint-2013.md
+        - name: Plan for site collection upgrades in SharePoint 2013
+          href: ../upgrade-and-update/plan-for-site-collection-upgrades-in-sharepoint-2013.md
+        - name: Create a communication plan for the upgrade to SharePoint 2013
+          href: ../upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013.md
+        - name: Clean up an environment before an upgrade to SharePoint 2013
+          href: ../upgrade-and-update/clean-up-an-environment-before-an-upgrade-to-sharepoint-2013.md
+      - name: Test and troubleshoot an upgrade
+        href: ../upgrade-and-update/test-troubleshoot-upgrade-2013.md
+        items:
+        - name: Use a trial upgrade to SharePoint 2013 to find potential issues
+          href: ../upgrade-and-update/use-a-trial-upgrade-to-sharepoint-2013-to-find-potential-issues.md
+        - name: Troubleshoot database upgrade issues in SharePoint 2013
+          href: ../upgrade-and-update/troubleshoot-database-upgrade-issues-in-sharepoint-2013.md
+        - name: Troubleshoot site collection upgrade issues in SharePoint 2013
+          href: ../upgrade-and-update/troubleshoot-site-collection-upgrade-issues-in-sharepoint-2013.md
+        - name: Branding issues that may occur when upgrading to SharePoint 2013
+          href: ../upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md
+        - name: Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013
+          href: ../upgrade-and-update/restart-a-database-attach-upgrade-or-a-site-collection-upgrade-to-sharepoint-201.md
+      - name: Upgrade databases
+        href: ../upgrade-and-update/upgrade-databases-2013.md
+        items:
+        - name: Checklist for database-attach upgrade (SharePoint 2013)
+          href: ../upgrade-and-update/checklist-for-database-attach-upgrade-sharepoint-2013.md
+        - name: Create the SharePoint 2013 farm for a database attach upgrade
+          href: ../upgrade-and-update/create-the-sharepoint-2013-farm-for-a-database-attach-upgrade.md
+        - name: Copy databases to the new farm for upgrade to SharePoint 2013
+          href: ../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-2013.md
+        - name: Upgrade service applications to SharePoint 2013
+          href: ../upgrade-and-update/upgrade-service-applications-to-sharepoint-2013.md
+        - name: Upgrade content databases from SharePoint 2010 to SharePoint 2013
+          href: ../upgrade-and-update/upgrade-content-databases-from-sharepoint-2010-to-sharepoint-2013.md
+        - name: Verify upgrade
+          href: ../upgrade-and-update/verify-upgrade.md
+        - name: Migrate from classic-mode to claims-based authentication in SharePoint 2013
+          href: ../upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md
+      - name: Upgrade site collections
+        href: ../upgrade-and-update/upgrade-site-collections-2013.md
+        items:
+        - name: Run site collection health checks in SharePoint 2013
+          href: ../upgrade-and-update/run-site-collection-health-checks-in-sharepoint-2013.md
+        - name: Upgrade a site collection to SharePoint 2013
+          href: ../upgrade-and-update/upgrade-a-site-collection-to-sharepoint-2013.md
+        - name: Review site collections upgraded to SharePoint 2013
+          href: ../upgrade-and-update/review-site-collections-upgraded-to-sharepoint-2013.md
+        - name: Manage site collection upgrades to SharePoint 2013
+          href: ../upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013.md
+        - name: Upgrade My Sites to SharePoint Server 2013
+          href: ../upgrade-and-update/upgrade-my-sites-to-sharepoint-server-2013.md
+      - name: Advanced upgrade scenarios
+        href: ../upgrade-and-update/advanced-upgrade-scenarios.md
+        items:
+        - name: Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013
+          href: ../upgrade-and-update/search-first-migration-from-fast-search-server-for-sharepoint-2010-to-sharepoint.md
+        - name: How to upgrade an environment that uses content type syndication (SharePoint Server 2013)
+          href: ../upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv.md
+        - name: Deploy custom features to upgraded site collections in SharePoint Server 2013
+          href: ../upgrade-and-update/deploy-custom-features-to-upgraded-site-collections-in-sharepoint-server-2013.md
+    - name: Deploy software updates for SharePoint 2013
+      href: ../upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md
+      items:
+      - name: Software updates overview
+        href: ../upgrade-and-update/software-updates-overview-for-sharepoint-server-2013.md
+      - name: Prepare to deploy software updates
+        href: ../upgrade-and-update/prepare-to-deploy-software-updates.md
+      - name: Install a software update
+        href: ../upgrade-and-update/install-a-software-update.md
+      - name: Update Workflow in SharePoint Server 2013
+        href: ../upgrade-and-update/update-workflow-in-sharepoint-server-2013.md
+    - name: Test and troubleshoot an upgrade
+      href: ../upgrade-and-update/test-and-troubleshoot-an-upgrade.md
+      items:
+      - name: Troubleshoot site collection upgrade issues
+        href: ../upgrade-and-update/troubleshoot-site-collection-upgrade-issues.md
+  - name: Product Servicing Policy
+    href: ../product-servicing-policy/product-servicing-policy.md
+    items:
+    - name: Updated Product Servicing Policy for SharePoint Server Subscription Edition
+      href: ../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-se.md
+      items:
+      - name: FAQs for SharePoint Server Subscription Edition product servicing policy
+        href: ../product-servicing-policy/faq/faq-subscription-edition.yml
+    - name: Updated Product Servicing Policy for SharePoint Server 2019
+      href: ../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2019.md
+    - name: Updated Product Servicing Policy for SharePoint Server 2016
+      href: ../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-2016.md
+    - name: Updated Product Servicing Policy for SharePoint 2013
+      href: ../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2013.md
+  - name: Sites
+    href: ../sites/sites.md
+    items:
+    - name: Plan sites and site collections
+      href: ../sites/plan-sites-and-site-collections.md
+      items:
+      - name: Sites and site collections overview
+        href: ../sites/sites-and-site-collections-overview.md
+      - name: Plan self-service site creation
+        href: ../sites/plan-self-service-site-creation.md
+      - name: Configure self-service site creation in SharePoint Server 2019
+        href: ../sites/configure-self-service-site-creation-in-SharePoint-Server-2019.md
+      - name: Enable SharePoint home page in SharePoint Server 2019 farms
+        href: ../sites/enable-sharepoint-home-page-in-sharepoint-server-2019-farms.md
+      - name: Site policy overview
+        href: ../sites/site-policy-overview.md
+      - name: Site navigation overview
+        href: ../sites/site-navigation-overview.md
+      - name: Plan for multilingual sites
+        href: ../sites/plan-for-multilingual-sites.md
+      - name: Plan for the multilingual user interface
+        href: ../sites/plan-for-the-multilingual-user-interface.md
+      - name: Themes overview
+        href: ../sites/themes-overview.md
+      - name: Plan site maintenance and management
+        href: ../sites/plan-site-maintenance-and-management.md
+      - name: Custom branding in Suite Navigation Bar
+        href: ../sites/custom-branding-in-suite-bar.md#custom-branding-in-suite-navigation-bar
+    - name: Manage site collections
+      href: ../sites/manage-site-collections.md
+      items:
+      - name: Create a site collection
+        href: ../sites/create-a-site-collection.md
+      - name: Delete and restore site collections
+        href: ../sites/delete-and-restore-site-collections.md
+      - name: Manage the lock status for site collections
+        href: ../sites/manage-the-lock-status-for-site-collections.md
+      - name: View all site collections
+        href: ../sites/view-all-site-collections.md
+      - name: Manage a connection to a document center or a records center
+        href: ../sites/manage-a-connection-to-a-document-center-or-a-records-center.md
+      - name: Change site collection administrators
+        href: ../sites/change-site-collection-administrators.md
+      - name: Create, edit, and delete quota templates
+        href: ../sites/create-edit-and-delete-quota-templates.md
+      - name: Manage unused site collections
+        href: ../sites/manage-unused-site-collections.md
+    - name: Manage web parts
+      href: ../sites/manage-web-parts.md
+      items:
+      - name: Configure and deploy web parts
+        href: ../sites/configure-and-deploy-web-parts.md
+      - name: Edit existing web parts in SharePoint
+        href: ../sites/edit-existing-web-parts-in-sharepoint.md
+    - name: Permissions planning for sites and content
+      href: ../sites/permissions-planning-for-sites-and-content.md
+      items:
+      - name: User permissions and permission levels
+        href: ../sites/user-permissions-and-permission-levels.md
+      - name: Overview of the Contribute permission level in SharePoint Server
+        href: ../sites/overview-of-the-contribute-permission-level-in-sharepoint-server.md
+      - name: Best practices for using fine-grained permissions in SharePoint Server
+        href: ../sites/best-practices-for-using-fine-grained-permissions-in-sharepoint-server.md
+      - name: Overview of security groups in SharePoint Server
+        href: ../sites/overview-of-security-groups-in-sharepoint-server.md
+      - name: Determine permission levels and groups in SharePoint Server
+        href: ../sites/determine-permission-levels-and-groups-in-sharepoint-server.md
+      - name: Choose administrators and owners for the administration hierarchy in SharePoint Server
+        href: ../sites/choose-administrators-and-owners-for-the-administration-hierarchy-in-sharepoint.md
+      - name: Plan site permissions in SharePoint Server
+        href: ../sites/plan-site-permissions-in-sharepoint-server.md
+      - name: Overview of site permissions in SharePoint Server
+        href: ../sites/overview-of-site-permissions-in-sharepoint-server.md
+    - name: Managing digital assets overview
+      href: ../sites/managing-digital-assets-overview.md
+      items:
+      - name: Plan digital asset libraries
+        href: ../sites/plan-digital-asset-libraries.md
+    - name: OneDrive overview
+      href: ../sites/onedrive-for-business-overview.md
+      items:
+      - name: OneDrive planning
+        href: ../sites/onedrive-for-business-planning.md
+      - name: Set up OneDrive
+        href: ../sites/set-up-onedrive-for-business.md
+      - name: Configure the OneDrive modern user experience
+        href: ../sites/configure-the-onedrive-for-business-modern-user-experience.md
+  - name: Search
+    href: ../search/search.md
+    items:
+    - name: Search planning
+      href: ../search/search-planning.md
+      items:
+      - name: Search architecture overview
+        href: ../search/search-architecture-overview.md
+      - name: Plan enterprise search architecture
+        href: ../search/plan-enterprise-search-architecture.md
+      - name: Scale enterprise search
+        href: ../search/scale-enterprise-search.md
+        items:
+        - name: Redesign topology for more content and users
+          href: ../search/redesign-topology-for-more-content-and-users.md
+        - name: Redesign for specific performance requirements
+          href: ../search/redesign-for-specific-performance-requirements.md
+      - name: Scale search for Internet sites
+        href: ../search/scale-search-for-internet-sites.md
+      - name: Best practices for organizing content for search
+        href: ../search/best-practices-for-organizing-content-for-search.md
+      - name: Plan crawling and federation
+        href: ../search/plan-crawling-and-federation.md
+      - name: Search schema overview
+        href: ../search/search-schema-overview.md
+      - name: Understanding result sources for search
+        href: ../search/understanding-result-sources-for-search.md
+      - name: Plan to transform queries and order results
+        href: ../search/plan-to-transform-queries-and-order-results.md
+      - name: Best practices of disaster recovery for search
+        href: ../search/best-practices-of-disaster-recovery-for-search.md
+      - name: Overview of search result ranking
+        href: ../search/overview-of-search-result-ranking.md
+      - name: Overview of analytics processing
+        href: ../search/overview-of-analytics-processing.md
+    - name: Configure search
+      href: ../search/configure-search.md
+      items:
+      - name: Create and configure a Search service application
+        href: ../search/create-and-configure-a-search-service-application.md
+      - name: Create a Search Center site
+        href: ../search/create-a-search-center-site.md
+      - name: Deploy people search
+        href: ../search/deploy-people-search.md
+    - name: Search administration
+      href: ../search/search-administration.md
+      items:
+      - name: Classic and modern search differences
+        href: ../search/differences-search-2016-2019.md
+      - name: Manage the Search Center
+        href: ../search/manage-the-search-center-in-sharepoint-server.md
+        items:
+        - name: Configure properties of the Search Box Web Part
+          href: ../search/configure-properties-of-the-search-box-web-part.md
+        - name: Configure properties of the Search Results Web Part
+          href: ../search/configure-properties-of-the-search-results-web-part.md
+        - name: Configure properties of the Refinement Web Part
+          href: ../search/configure-properties-of-the-refinement-web-part.md
+        - name: Configure properties of the Search Navigation Web Part
+          href: ../search/configure-properties-of-the-search-navigation-web-part.md
+      - name: Manage the index
+        href: ../search/manage-the-index.md
+        items:
+        - name: Manage the search schema
+          href: ../search/manage-the-search-schema.md
+        - name: Add or remove a file type from the search index
+          href: ../search/add-or-remove-a-file-type-from-the-search-index.md
+        - name: Delete items from the search index or from search results
+          href: ../search/delete-items-from-the-search-index-or-from-search-results.md
+        - name: Reset the search index
+          href: ../search/reset-the-search-index.md
+      - name: Manage crawling
+        href: ../search/manage-crawling.md
+        items:
+        - name: Add, edit, or delete a content source
+          href: ../search/add-edit-or-delete-a-content-source.md
+        - name: Change the default account for crawling
+          href: ../search/change-the-default-account-for-crawling.md
+        - name: Start, pause, resume, or stop a crawl
+          href: ../search/start-pause-resume-or-stop-a-crawl.md
+        - name: Manage continuous crawls
+          href: ../search/manage-continuous-crawls.md
+        - name: Manage crawl rules
+          href: ../search/manage-crawl-rules.md
+        - name: Configure and use the Exchange connector
+          href: ../search/configure-and-use-the-exchange-connector.md
+        - name: Configure and use the Documentum connector
+          href: ../search/configure-and-use-the-documentum-connector.md
+        - name: Configure and use the Lotus Notes connector
+          href: ../search/configure-and-use-the-lotus-notes-connector.md
+        - name: Manage farm-level crawl settings
+          href: ../search/manage-farm-level-crawl-settings.md
+          items:
+          - name: Configure time-out values for crawler connections
+            href: ../search/configure-time-out-values-for-crawler-connections.md
+          - name: Configure the crawler in case of SSL certificate warnings
+            href: ../search/configure-the-crawler-in-case-of-ssl-certificate-warnings.md
+          - name: Configure proxy server settings for Search
+            href: ../search/configure-proxy-server-settings-for-search.md
+        - name: Best practices for crawling
+          href: ../search/best-practices-for-crawling.md
+      - name: Manage relevance
+        href: ../search/manage-relevance.md
+        items:
+        - name: Manage query spelling correction
+          href: ../search/manage-query-spelling-correction.md
+        - name: Manage query suggestions
+          href: ../search/manage-query-suggestions.md
+        - name: Create and deploy a thesaurus
+          href: ../search/create-and-deploy-a-thesaurus.md
+        - name: Configure authoritative pages
+          href: ../search/configure-authoritative-pages.md
+        - name: Manage query rules
+          href: ../search/manage-query-rules.md
+        - name: Configure result sources for search
+          href: ../search/configure-result-sources-for-search.md
+        - name: Create and deploy custom entity extractors
+          href: ../search/create-and-deploy-custom-entity-extractors.md
+        - name: Manage company name extraction
+          href: ../search/manage-company-name-extraction.md
+        - name: Customize search result types
+          href: ../search/customize-search-result-types.md
+        - name: Create custom ranking model
+          href: ../search/create-custom-ranking-model.md
+        - name: Create custom dictionary
+          href: ../search/create-a-custom-dictionary.md
+        - name: Configure trust for search between two SharePoint Server farms
+          href: ../search/configure-trust-for-search-between-two-sharepoint-server-farms.md
+      - name: Manage the search topology
+        href: ../search/manage-the-search-topology.md
+        items:
+        - name: Change the default search topology
+          href: ../search/change-the-default-search-topology.md
+        - name: Manage search components
+          href: ../search/manage-search-components.md
+        - name: Manage the index component
+          href: ../search/manage-the-index-component.md
+        - name: Manage a paused Search service application
+          href: ../search/manage-a-paused-search-service-application.md
+      - name: View search diagnostics
+        href: ../search/view-search-diagnostics.md
+      - name: Enable search alerts
+        href: ../search/enable-search-alerts.md
+      - name: Enable query logging
+        href: ../search/enable-query-logging.md
+      - name: Export and import customized search configuration settings
+        href: ../search/export-and-import-customized-search-configuration-settings.md
+    - name: Search center scenarios
+      href: ../search/search-center-scenarios.md
+      items:
+      - name: Set up a Search Center
+        href: ../search/set-up-a-search-center.md
+        items:
+        - name: How to create a Search Center Site Collection and enable crawling of your content
+          href: ../search/how-to-create-a-search-center-site-collection-and-enable-crawling-of-your-conten.md
+        - name: How to configure the Search Results Web Part to use a new result source
+          href: ../search/how-to-configure-the-search-results-web-part-to-use-a-new-result-source.md
+        - name: Plan to use refiners on a search results page
+          href: ../search/plan-to-use-refiners-on-a-search-results-page.md
+        - name: How to add refiners to your search results page
+          href: ../search/how-to-add-refiners-to-your-search-results-page.md
+        - name: How to add a custom search vertical to your search results page
+          href: ../search/how-to-add-a-custom-search-vertical-to-your-search-results-page.md
+      - name: How to change the way search results are displayed
+        href: ../search/how-to-change-the-way-search-results-are-displayed.md
+        items:
+        - name: Understanding how search results are displayed
+          href: ../search/understanding-how-search-results-are-displayed.md
+        - name: Understanding how item display templates and hit highlighting work
+          href: ../search/understanding-how-item-display-templates-and-hit-highlighting-work.md
+        - name: How to create a new result type
+          href: ../search/how-to-create-a-new-result-type.md
+        - name: How to display values from custom managed properties in search results - option 1
+          href: ../search/display-values-custom-managed-properties.md
+        - name: How to display values from custom managed properties in search results – option 2
+          href: ../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md
+        - name: How to display values from custom managed properties in the hover panel
+          href: ../search/how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md
+        - name: How to add a custom action to the hover panel
+          href: ../search/how-to-add-a-custom-action-to-the-hover-panel.md
+        - name: How to change the text that is displayed in the Search Box Web Part
+          href: ../search/how-to-change-the-text-that-is-displayed-in-the-search-box-web-part.md
+        - name: How to change the order in which search results are displayed
+          href: ../search/how-to-change-the-order-in-which-search-results-are-displayed.md
+      - name: Create and import a thesaurus
+        href: ../search/create-and-import-a-thesaurus.md
+      - name: Create and import query suggestions
+        href: ../search/create-and-import-query-suggestions.md
+      - name: Changing the ranking of search results
+        href: ../search/changing-the-ranking-of-search-results.md
+  - name: Hybrid
+    href: ../hybrid/hybrid.md
+    items:
+    - name: Explore SharePoint Server hybrid
+      href: ../hybrid/explore-sharepoint-server-hybrid.md
+      items:
+      - name: The building blocks of Microsoft 365 hybrid
+        href: ../hybrid/the-building-blocks-of-office-365-hybrid.md
+      - name: Minimum public update levels for SharePoint hybrid features
+        href: ../hybrid/minimum-public-update-levels-for-sharepoint-hybrid-features.md
+      - name: SharePoint hybrid sites and search
+        href: ../hybrid/sharepoint-hybrid-sites-and-search.md
+      - name: Hybrid search in SharePoint
+        href: ../hybrid/hybrid-search-in-sharepoint.md
+        items:
+        - name: Learn about cloud hybrid search for SharePoint
+          href: ../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md
+        - name: Learn about hybrid federated search for SharePoint
+          href: ../hybrid/learn-about-hybrid-federated-search-for-sharepoint.md
+      - name: Hybrid Configuration Wizard in the SharePoint admin center
+        href: ../hybrid/hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md
+    - name: Plan SharePoint Server hybrid
+      href: ../hybrid/plan-sharepoint-server-hybrid.md
+      items:
+      - name: Plan hybrid SharePoint taxonomy and hybrid content types
+        href: ../hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md
+      - name: Plan hybrid OneDrive
+        href: ../hybrid/plan-hybrid-onedrive-for-business.md
+      - name: Plan cloud hybrid search for SharePoint
+        href: ../hybrid/plan-cloud-hybrid-search-for-sharepoint.md
+      - name: Plan hybrid profiles
+        href: ../hybrid/plan-hybrid-profiles.md
+      - name: The extensible hybrid app launcher
+        href: ../hybrid/the-extensible-hybrid-app-launcher.md
+      - name: Hybrid site following
+        href: ../hybrid/hybrid-site-following.md
+      - name: Plan server-to-server authentication
+        href: ../hybrid/plan-server-to-server-authentication-m365.md
+      - name: Plan hybrid federated search
+        href: ../hybrid/plan-hybrid-federated-search.md
+      - name: Plan connectivity from Microsoft 365 to SharePoint Server
+        href: ../hybrid/plan-connectivity-from-office-365-to-sharepoint-server.md
+    - name: Install and configure SharePoint Server hybrid
+      href: ../hybrid/install-and-configure-sharepoint-server-hybrid.md
+      items:
+      - name: Hardware and software requirements for SharePoint hybrid
+        href: ../hybrid/hardware-and-software-requirements-for-sharepoint-hybrid.md
+      - name: Accounts needed for hybrid configuration and testing
+        href: ../hybrid/accounts-needed-for-hybrid-configuration-and-testing.md
+      - name: Configuration roadmaps
+        href: ../hybrid/configuration-roadmaps.md
+        items:
+        - name: Configure hybrid OneDrive - roadmap
+          href: ../hybrid/configure-hybrid-onedrive-for-businessroadmap.md
+        - name: Configure hybrid sites features - roadmap
+          href: ../hybrid/configure-hybrid-sites-featuresroadmap.md
+        - name: Configure cloud hybrid search - roadmap
+          href: ../hybrid/configure-cloud-hybrid-searchroadmap.md
+        - name: Cloud hybrid search FAQ
+          href: ../hybrid/cloud-hybrid-search-faq.md
+        - name: Configure hybrid federated search (SharePoint Server) - roadmap
+          href: ../hybrid/configure-hybrid-federated-search-sharepoint-serverroadmap.md
+        - name: Configure hybrid federated search (SharePoint in Microsoft 365) - roadmap
+          href: ../hybrid/configure-hybrid-federated-search-sharepoint-onlineroadmap.md
+        - name: Configure hybrid Business Connectivity Services - roadmap
+          href: ../hybrid/configure-hybrid-business-connectivity-servicesroadmap.md
+      - name: Configure the hybrid infrastructure
+        href: ../hybrid/configure-the-hybrid-infrastructure.md
+        items:
+        - name: Configure Microsoft 365 for SharePoint hybrid
+          href: ../hybrid/configure-office-365-for-sharepoint-hybrid.md
+        - name: Set up SharePoint services for hybrid environments
+          href: ../hybrid/set-up-sharepoint-services-for-hybrid-environments.md
+        - name: Configure server-to-server authentication
+          href: ../hybrid/configure-server-to-server-authentication.md
+        - name: Run Hybrid Configuration Wizard
+          href: ../hybrid/run-hybrid-picker.md
+        - name: Configure inbound connectivity
+          href: ../hybrid/configure-inbound-connectivity.md
+        - name: Configure a reverse proxy device for SharePoint Server hybrid
+          href: ../hybrid/configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md
+          items:
+          - name: Configure Web Application Proxy for a hybrid environment
+            href: ../hybrid/configure-web-application-proxy-for-a-hybrid-environment.md
+          - name: Configure Forefront TMG for a hybrid environment
+            href: ../hybrid/configure-forefront-tmg-for-a-hybrid-environment.md
+      - name: Configure a hybrid solution
+        href: ../hybrid/configure-a-hybrid-solution.md
+        items:
+        - name: Configure hybrid OneDrive
+          href: ../hybrid/configure-hybrid-onedrive-for-business.md
+        - name: Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search
+          href: ../hybrid/show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md
+        - name: Enable previews of on-premises search results in cloud hybrid search
+          href: ../hybrid/enable-previews-of-on-premises-search-results-in-cloud-hybrid-search.md
+        - name: Display hybrid federated search results in SharePoint Server
+          href: ../hybrid/display-hybrid-federated-search-results-in-sharepoint-server.md
+        - name: Display hybrid federated search results in SharePoint in Microsoft 365
+          href: ../hybrid/display-hybrid-federated-search-results-in-sharepoint-online.md
+        - name: Configure hybrid SharePoint taxonomy and hybrid content types
+          href: ../hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md
+        - name: Hybrid self-service site creation
+          href: ../hybrid/hybrid-self-service-site-creation.md
+        - name: Deploy a Business Connectivity Services hybrid solution
+          href: ../hybrid/deploy-a-business-connectivity-services-hybrid-solution.md
+          items:
+          - name: Prepare your environment
+            href: ../hybrid/prepare-your-environment.md
+          - name: Deploy the hybrid scenario as an external list
+            href: ../hybrid/deploy-the-hybrid-scenario-as-an-external-list.md
+          - name: Validate the hybrid scenario
+            href: ../hybrid/validate-the-hybrid-scenario.md
+    - name: Remove hybrid scenarios
+      href: ../hybrid/removing-sharepoint-hybrid-scenarios.md
+  - name: Governance
+    href: ../governance/governance.md
+    items:
+    - name: What is governance in SharePoint?
+      href: ../governance/what-is-governance-in-sharepoint.md
+    - name: IT governance in SharePoint
+      href: ../governance/it-governance-in-sharepoint.md
+    - name: Application management and governance in SharePoint
+      href: ../governance/application-management-and-governance-in-sharepoint.md
+    - name: Information management and governance in SharePoint
+      href: ../governance/information-management-and-governance-in-sharepoint.md
+    - name: Managed metadata planning
+      href: ../governance/managed-metadata-planning.md
+      items:
+      - name: Configure the Managed Metadata service
+        href: ../governance/configure-the-managed-metadata-service.md
+    - name: How to use the Managed Solutions Gallery
+      href: ../governance/how-to-use-the-managed-solutions-gallery.md
+      items:
+      - name: Searching and using keywords in the eDiscovery Center
+        href: ../governance/searching-and-using-keywords-in-the-ediscovery-center.md
+      - name: Export content and create reports in the eDiscovery Center
+        href: ../governance/export-content-and-create-reports-in-the-ediscovery-center.md
+      - name: Create and run queries in the eDiscovery Center
+        href: ../governance/create-and-run-queries-in-the-ediscovery-center.md
+      - name: Add content to a case and place sources on hold in the eDiscovery Center
+        href: ../governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md
+    - name: eDiscovery and in-place holds in SharePoint Server
+      href: ../governance/ediscovery-and-in-place-holds-in-sharepoint-server.md
+      items:
+      - name: Plan for eDiscovery
+        href: ../governance/plan-for-ediscovery.md
+      - name: Configure eDiscovery
+        href: ../governance/configure-ediscovery-2019.md
+      - name: Plan and manage cases in the eDiscovery Center
+        href: ../governance/plan-and-manage-cases-in-the-ediscovery-center.md
+    - name: Records management in SharePoint Server
+      href: ../governance/records-management-in-sharepoint-server.md
+      items:
+      - name: Create a file plan to manage records
+        href: ../governance/create-a-file-plan-to-manage-records.md
+      - name: Plan how records are collected
+        href: ../governance/plan-how-records-are-collected.md
+      - name: Use a records archive or manage records in place
+        href: ../governance/use-a-records-archive-or-manage-records-in-place.md
+    - name: Document management in SharePoint Server
+      href: ../governance/document-management-in-sharepoint-server.md
+      items:
+      - name: Identify users and analyze document usage
+        href: ../governance/identify-users-and-analyze-document-usage.md
+      - name: Document library planning
+        href: ../governance/document-library-planning.md
+      - name: Content type and workflow planning
+        href: ../governance/content-type-and-workflow-planning.md
+      - name: Document set planning
+        href: ../governance/document-set-planning.md
+      - name: Information management policy planning
+        href: ../governance/information-management-policy-planning.md
+      - name: Versioning, content approval, and check-out planning
+        href: ../governance/versioning-content-approval-and-check-out-planning.md
+      - name: Co-authoring overview
+        href: ../governance/co-authoring-overview.md
+        items:
+        - name: Configure versioning for co-authoring
+          href: ../governance/configure-versioning-for-co-authoring.md
+        - name: Configure the co-authoring versioning period
+          href: ../governance/configure-the-co-authoring-versioning-period.md
+        - name: Configure the maximum number of co-authoring authors
+          href: ../governance/configure-the-maximum-number-of-co-authoring-authors.md
+        - name: Disable co-authoring
+          href: ../governance/disable-co-authoring.md
+    - name: Workflow in SharePoint Server
+      href: ../governance/workflow-in-sharepoint-server.md
+      items:
+      - name: SharePoint Workflow Manager Farm Restore and Disaster Recovery
+        href: ../governance/sp-wf-mgr-farm-restore-disaster-recovery.md
+      - name: Getting started with SharePoint Server workflow
+        href: ../governance/getting-started-with-sharepoint-server-workflow.md
+      - name: Install and configure workflow for SharePoint Server
+        href: ../governance/install-and-configure-workflow-for-sharepoint-server.md
+      - name: Reset Certificate Generation Key for SharePoint Workflow Manager
+        href: ../governance/reset-certificate-generation-key-sharepoint-workflow-manager.md
+      - name: Install Workflow Manager certificates in SharePoint Server
+        href: ../governance/install-workflow-manager-certificates-in-sharepoint-server.md
+        items:
+        - name: Video series—Install and configure Workflow in SharePoint Server 2013
+          href: ../governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013.md
+      - name: Update Workflow in SharePoint Server
+        href: ../governance/update-workflow-in-sharepoint-server.md
+      - name: Upgrade from Workflow Manager to SharePoint Workflow Manager on a new farm
+        href: ../governance/update-to-spworkflow-manager-when-upgrading-farms.md
+  - name: Administration
+    href: ../administration/administration.md
+    items:
+    - name: Server Management
+      href: ../administration/server-management.md
+      items:
+      - name: Feature release rings
+        href: ../administration/feature-release-rings.md
+      - name: Configure Request Manager in SharePoint Server
+        href: ../security-for-sharepoint-server/configure-request-manager-in-sharepoint-server.md
+      - name: Global deployment of multiple farms
+        href: ../administration/global-deployment-of-multiple-farms.md
+        items:
+        - name: Global architectures for SharePoint Server
+          href: ../administration/global-architectures.md
+        - name: WAN performance and testing
+          href: ../administration/wan-performance-and-testing.md
+      - name: SQL Server and storage
+        href: ../administration/sql-server-and-storage.md
+        items:
+        - name: Overview of SQL Server in SharePoint Server 2016 and 2019 environments
+          href: ../administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md
+        - name: Deploy SharePoint Server with Azure SQL Managed Instance
+          href: ../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers.md
+        - name: Overview of SQL Server in a SharePoint Server 2013 environment
+          href: ../administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment.md
+        - name: Storage and SQL Server capacity planning and configuration
+          href: ../administration/storage-and-sql-server-capacity-planning-and-configuration.md
+        - name: Database management
+          href: ../administration/database-management.md
+          items:
+          - name: Add a content database
+            href: ../administration/add-a-content-database.md
+          - name: Attach or detach content databases
+            href: ../administration/attach-or-detach-content-databases.md
+          - name: Move site collections between databases
+            href: ../administration/move-site-collections-between-databases.md
+          - name: Move content databases
+            href: ../administration/move-content-databases.md
+          - name: Move all databases
+            href: ../administration/move-all-databases.md
+          - name: Move or rename service application databases
+            href: ../administration/move-or-rename-service-application-databases.md
+          - name: Run a farm that uses read-only databases
+            href: ../administration/run-a-farm-that-uses-read-only-databases.md
+          - name: Manage RBS
+            href: ../administration/manage-rbs.md
+            items:
+            - name: RBS overview
+              href: ../administration/rbs-overview.md
+            - name: RBS planning
+              href: ../administration/rbs-planning.md
+            - name: Remote Share Provider
+              href: ../administration/remote-share-provider.md
+            - name: Install and configure RBS
+              href: ../administration/install-and-configure-rbs.md
+            - name: Install and configure RBS with a 3rd party provider
+              href: ../administration/install-and-configure-rbs-with-a-3rd-party-provider.md
+            - name: Set a content database to use RBS
+              href: ../administration/set-a-content-database-to-use-rbs.md
+            - name: Migrate content into or out of RBS
+              href: ../administration/migrate-content-into-or-out-of-rbs.md
+            - name: Maintain RBS
+              href: ../administration/maintain-rbs.md
+            - name: Disable RBS on a content database
+              href: ../administration/disable-rbs-on-a-content-database.md
+          - name: Best practices for SQL Server in a SharePoint Server farm
+            href: ../administration/best-practices-for-sql-server-in-a-sharepoint-server-farm.md
+        - name: Configure log shipping
+          href: ../administration/configure-log-shipping.md
+      - name: Backup and recovery overview
+        href: ../administration/backup-and-recovery-overview.md
+        items:
+        - name: Backup and recovery planning
+          href: ../administration/backup-and-recovery-planning.md
+        - name: Prepare to back up and restore
+          href: ../administration/prepare-to-back-up-and-restore.md
+        - name: Configure permissions for backup and restore
+          href: ../administration/configure-permissions-for-backup-and-restore.md
+        - name: Backup
+          href: ../administration/backup.md
+          items:
+          - name: Back up a farm
+            href: ../administration/back-up-a-farm.md
+          - name: Back up a farm configuration
+            href: ../administration/back-up-a-farm-configuration.md
+          - name: Back up a web application
+            href: ../administration/back-up-a-web-application.md
+          - name: Back up a service application
+            href: ../administration/back-up-a-service-application.md
+          - name: Back up a User Profile Service application
+            href: ../administration/back-up-a-user-profile-service-application.md
+          - name: Back up a Search service application
+            href: ../administration/back-up-a-search-service-application.md
+          - name: Back up the Secure Store Service
+            href: ../administration/back-up-the-secure-store-service.md
+          - name: Back up a content database
+            href: ../administration/back-up-a-content-database.md
+          - name: Back up databases to snapshots
+            href: ../administration/back-up-databases-to-snapshots.md
+          - name: Back up customizations
+            href: ../administration/back-up-customizations.md
+          - name: Back up site collections
+            href: ../administration/back-up-site-collections.md
+          - name: Back up apps for SharePoint
+            href: ../administration/back-up-apps-for-sharepoint.md
+          - name: Export a site, list, or document library
+            href: ../administration/export-a-site-list-or-document-library.md
+        - name: Restore
+          href: ../administration/restore.md
+          items:
+          - name: Restore a farm
+            href: ../administration/restore-a-farm.md
+          - name: Restore a farm configuration
+            href: ../administration/restore-a-farm-configuration.md
+          - name: Document farm configuration settings
+            href: ../administration/document-farm-configuration-settings.md
+          - name: Copy configuration settings between farms
+            href: ../administration/copy-configuration-settings-between-farms.md
+          - name: Restore a web application
+            href: ../administration/restore-a-web-application.md
+          - name: Restore a service application
+            href: ../administration/restore-a-service-application.md
+          - name: Restore a User Profile Service application
+            href: ../administration/restore-a-user-profile-service-application.md
+          - name: Restore a Search service application
+            href: ../administration/restore-a-search-service-application.md
+          - name: Restore a Secure Store Service application
+            href: ../administration/restore-a-secure-store-service-application.md
+          - name: Restore a content database
+            href: ../administration/restore-a-content-database.md
+          - name: Attach and restore a read-only content database
+            href: ../administration/attach-and-restore-a-read-only-content-database.md
+          - name: Restore content from an unattached content database
+            href: ../administration/restore-content-from-an-unattached-content-database.md
+          - name: Restore customizations
+            href: ../administration/restore-customizations.md
+          - name: Restore site collections
+            href: ../administration/restore-site-collections.md
+          - name: Restore apps for SharePoint
+            href: ../administration/restore-apps-for-sharepoint.md
+          - name: Import a list or document library
+            href: ../administration/import-a-list-or-document-library.md
+        - name: Best practices for backup and restore
+          href: ../administration/best-practices-for-backup-and-restore.md
+      - name: High availability and disaster recovery concepts
+        href: ../administration/high-availability-and-disaster-recovery-concepts.md
+        items:
+        - name: Plan for disaster recovery
+          href: ../administration/plan-for-disaster-recovery.md
+        - name: Plan for SQL Server Always On and Microsoft Azure disaster recovery
+          href: ../administration/plan-for-sql-server-always-on-and-microsoft-azure-disaster-recovery.md
+        - name: Supported high availability and disaster recovery options for SharePoint databases
+          href: ../administration/supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md
+        - name: Plan for high availability
+          href: ../administration/plan-for-high-availability.md
+        - name: Disaster Recovery best practices for SharePoint Server and Access Services
+          href: ../administration/disaster-recovery-best-practices-for-sharepoint-server-and-access-services.md
+      - name: Configure an Always On Availability Group
+        href: ../administration/configure-an-alwayson-availability-group.md
+      - name: Performance planning in SharePoint Server 2013
+        href: ../administration/performance-planning-in-sharepoint-server-2013.md
+        items:
+        - name: Capacity management and sizing for SharePoint Server 2013
+          href: ../administration/capacity-management-and-sizing-for-sharepoint-server-2013.md
+          items:
+          - name: Capacity planning
+            href: ../administration/capacity-planning.md
+          - name: Performance testing
+            href: ../administration/performance-testing.md
+          - name: Monitoring and maintaining
+            href: ../administration/monitoring-and-maintaining.md
+          - name: Optimize performance
+            href: ../administration/optimize-performance.md
+        - name: Performance and capacity test results and recommendations for SharePoint 2013
+          href: ../administration/performance-and-capacity-test-results-and-recommendations-for-sharepoint-2013.md
+          items:
+          - name: Enterprise intranet collaboration performance and capacity
+            href: ../administration/enterprise-intranet-collaboration-performance-and-capacity.md
+          - name: Web Content Management capacity and performance
+            href: ../administration/web-content-management-capacity-and-performance.md
+          - name: Managed Metadata Service capacity and performance
+            href: ../administration/managed-metadata-service-capacity-and-performance.md
+          - name: Video content management capacity and performance
+            href: ../administration/video-content-management-capacity-and-performance.md
+          - name: Compliance and eDiscovery capacity and performance
+            href: ../administration/compliance-and-ediscovery-capacity-and-performance.md
+          - name: Social performance and capacity
+            href: ../administration/social-performance-and-capacity.md
+          - name: Divisional collaboration performance and capacity
+            href: ../administration/divisional-collaboration-performance-and-capacity.md
+      - name: Managing a MinRole Server Farm in SharePoint Server 2016
+        href: ../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md
+        items:
+        - name: Role conversion using MinRole in SharePoint Server 2016
+          href: ../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md
+        - name: Description of MinRole and associated services in SharePoint Server 2016
+          href: ../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md
+      - name: Remove a server from a farm in SharePoint Servers 2016 or 2019
+        href: ../administration/remove-a-server-from-a-farm-in-sharepoint-server-2016.md
+      - name: Remove a server from a farm in SharePoint 2013
+        href: ../administration/remove-a-server-from-a-farm-in-sharepoint-2013.md
+      - name: Uninstall SharePoint 2013
+        href: ../administration/uninstall-sharepoint-2013.md
+      - name: Uninstall SharePoint Servers 2016 or 2019
+        href: ../administration/uninstall-sharepoint-server-2016.md
+      - name: Custom Tiles in SharePoint Server
+        href: ../administration/custom-tiles-in-sharepoint-server.md
+      - name: Configure server-to-server authentication
+        href: ../administration/configure-server-to-server-authentication-in-sharepoint.md
+      - name: Replace the STS certificate
+        href: ../administration/replace-the-sts-certificate.md
+      - name: Turn on automated document translation
+        href: ../administration/turn-on-automated-document-translation.md
+      - name: Manage the Distributed Cache service
+        href: ../administration/manage-the-distributed-cache-service.md
+        items:
+        - name: Plan for feeds and the Distributed Cache service
+          href: ../administration/plan-for-feeds-and-the-distributed-cache-service.md
+      - name: General guidance for hosters in SharePoint Server 2013
+        href: ../administration/general-guidance-for-hosters-in-sharepoint-server-2013.md
+      - name: Understanding multi-tenancy in SharePoint Server 2013
+        href: ../administration/understanding-multi-tenancy.md
+      - name: Plan service deployment in SharePoint Server
+        href: ../administration/service-deployment-planning.md
+      - name: SharePoint Server design samples—Corporate portal and extranet sites
+        href: ../administration/corporate-portal-and-extranet-sites-design-samples.md
+      - name: Host-named site collection architecture and deployment in SharePoint Server
+        href: ../administration/host-named-site-collection-architecture-and-deployment.md
+      - name: Update a web application URL and IIS bindings for SharePoint Server
+        href: ../administration/update-a-web-application-url-and-iis-bindings.md
+      - name: Change web application bindings for SharePoint Server Subscription Edition
+        href: ../administration/change-web-application-bindings.md
+      - name: Plan alternate access mappings for SharePoint Server
+        href: ../administration/plan-alternate-access-mappings.md
+        items:
+        - name: Configure alternate access mappings for SharePoint Server
+          href: ../administration/configure-alternate-access-mappings.md
+    - name: Install and manage apps for SharePoint Server
+      href: ../administration/install-and-manage-apps-for-sharepoint-server.md
+      items:
+      - name: Plan for apps for SharePoint
+        href: ../administration/plan-for-apps-for-sharepoint.md
+      - name: Configure an environment for apps for SharePoint
+        href: ../administration/configure-an-environment-for-apps-for-sharepoint.md
+      - name: Manage the App Catalog
+        href: ../administration/manage-the-app-catalog.md
+      - name: Add apps for SharePoint to a SharePoint site
+        href: ../administration/add-apps-for-sharepoint-to-a-sharepoint-site.md
+      - name: Remove app for SharePoint instances from a SharePoint site
+        href: ../administration/remove-app-for-sharepoint-instances-from-a-sharepoint-site.md
+      - name: Monitor apps for SharePoint
+        href: ../administration/monitor-apps-for-sharepoint.md
+      - name: Monitor and manage app licenses
+        href: ../administration/monitor-and-manage-app-licenses.md
+    - name: Email integration planning
+      href: ../administration/email-integration-planning.md
+      items:
+      - name: Incoming email planning
+        href: ../administration/incoming-email-planning.md
+      - name: Outgoing email planning
+        href: ../administration/outgoing-email-planning.md
+      - name: Configure Exchange Autodiscover with a My Site Host URL
+        href: ../administration/configure-exchange-autodiscover-with-a-my-site-host-url.md
+      - name: Configure email integration
+        href: ../administration/configure-email-integration.md
+        items:
+        - name: Incoming email configuration
+          href: ../administration/incoming-email-configuration.md
+        - name: Outgoing email configuration
+          href: ../administration/outgoing-email-configuration.md
+      - name: Configure Exchange task synchronization
+        href: ../administration/configure-exchange-task-synchronization.md
+      - name: Configure site mailboxes in SharePoint
+        href: ../administration/configure-site-mailboxes-in-sharepoint.md
+    - name: Service application management
+      href: ../administration/service-application-management.md
+      items:
+      - name: Start or stop a service
+        href: ../administration/start-or-stop-a-service.md
+      - name: Assign or remove administrators of service applications
+        href: ../administration/assign-or-remove-administrators-of-service-applications.md
+      - name: Configure automatic password change
+        href: ../administration/configure-automatic-password-change.md
+      - name: Delete a service application
+        href: ../administration/delete-a-service-application.md
+      - name: Share service applications across farms
+        href: ../administration/share-service-applications-across-farms.md
+        items:
+        - name: Exchange trust certificates between farms
+          href: ../administration/exchange-trust-certificates-between-farms.md
+        - name: Publish a service application
+          href: ../administration/publish-a-service-application.md
+        - name: Set permission to a published service application
+          href: ../administration/set-permission-to-a-published-service-application.md
+        - name: Connect to a service application on a remote farm
+          href: ../administration/connect-to-a-service-application-on-a-remote-farm.md
+        - name: Add or remove a service application connection to a Web application
+          href: ../administration/add-or-remove-a-service-application-connection-to-a-web-application.md
+      - name: Restrict or enable access to a service application
+        href: ../administration/restrict-or-enable-access-to-a-service-application.md
+    - name: Monitoring overview
+      href: ../administration/monitoring-overview.md
+      items:
+      - name: Using Administrative Actions logging in SharePoint Server 2016
+        href: ../administration/using-administrative-actions-logging-in-sharepoint-server-2016.md
+      - name: Configure SharePoint Hybrid Auditing (Preview)
+        href: ../administration/configure-sharepoint-hybrid-auditing-preview.md
+      - name: Configure monitoring
+        href: ../administration/configure-monitoring.md
+        items:
+        - name: Configure diagnostic logging
+          href: ../administration/configure-diagnostic-logging.md
+        - name: Configure SharePoint Health Analyzer timer jobs
+          href: ../administration/configure-sharepoint-health-analyzer-timer-jobs.md
+        - name: Configure usage and health data collection
+          href: ../administration/configure-usage-and-health-data-collection.md
+        - name: Configure SharePoint Health Analyzer rules
+          href: ../administration/configure-sharepoint-health-analyzer-rules.md
+        - name: Overview of scripted monitoring configuration
+          href: ../administration/overview-of-scripted-monitoring-configuration.md
+          items:
+          - name: Profile schema reference
+            href: ../administration/profile-schema-reference.md
+          - name: Run scripted monitoring configuration
+            href: ../administration/run-scripted-monitoring-configuration.md
+      - name: View reports and logs
+        href: ../administration/view-reports-and-logs.md
+        items:
+        - name: View health reports
+          href: ../administration/view-health-reports.md
+        - name: View diagnostic logs
+          href: ../administration/view-diagnostic-logs.md
+        - name: View timer job status
+          href: ../administration/view-timer-job-status.md
+        - name: Monitor cache performance
+          href: ../administration/monitor-cache-performance.md
+        - name: View data in the logging database
+          href: ../administration/view-data-in-the-logging-database.md
+      - name: Monitoring planning
+        href: ../administration/monitoring-planning.md
+      - name: Configure the One Customer Voice (OCV) feedback
+        href: ../administration/configure-ocv.md
+    - name: Overview of Access Services in SharePoint Server 2013
+      href: ../administration/overview-of-access-services-in-sharepoint-server-2013.md
+      items:
+      - name: Set up and configure Access Services for Access apps
+        href: ../administration/set-up-and-configure-access-services-for-access-apps.md
+      - name: Set up and configure Access Services 2010 for web databases in SharePoint 2013
+        href: ../administration/set-up-and-configure-access-services-2010-for-web-databases-in-sharepoint-2013.md
+    - name: Web applications management
+      href: ../administration/web-applications-management.md
+      items:
+      - name: Manage permissions for a web application
+        href: ../administration/manage-permissions-for-a-web-application.md
+      - name: Manage permission policies for a web application
+        href: ../administration/manage-permission-policies-for-a-web-application.md
+      - name: Manage anonymous access for a web application
+        href: ../administration/manage-anonymous-access-for-a-web-application.md
+      - name: Extend a claims-based web application
+        href: ../administration/extend-a-claims-based-web-application.md
+      - name: Define managed paths
+        href: ../administration/define-managed-paths.md
+      - name: Cache settings operations
+        href: ../administration/cache-settings-operations.md
+        items:
+        - name: Cache settings configuration for a web application
+          href: ../administration/cache-settings-configuration-for-a-web-application.md
+        - name: Configure object cache user accounts
+          href: ../administration/configure-object-cache-user-accounts.md
+        - name: Flush the BLOB cache
+          href: ../administration/flush-the-blob-cache.md
+    - name: Web content management
+      href: ../administration/web-content-management.md
+      items:
+      - name: Overview of publishing to Internet, intranet, and extranet sites
+        href: ../administration/overview-of-publishing-to-internet-intranet-and-extranet-sites.md
+      - name: Plan for Internet, intranet, and extranet publishing sites
+        href: ../administration/plan-for-internet-intranet-and-extranet-publishing-sites.md
+      - name: Plan for cross-site publishing
+        href: ../administration/plan-for-cross-site-publishing.md
+        items:
+        - name: Overview of cross-site publishing
+          href: ../administration/overview-of-cross-site-publishing.md
+        - name: Plan the logical architecture for cross-site publishing
+          href: ../administration/plan-the-logical-architecture-for-cross-site-publishing.md
+        - name: Plan SharePoint authoring sites for cross-site publishing
+          href: ../administration/plan-sharepoint-authoring-sites-for-cross-site-publishing.md
+        - name: Plan SharePoint publishing sites for cross-site publishing
+          href: ../administration/plan-sharepoint-publishing-sites-for-cross-site-publishing.md
+        - name: Plan search for SharePoint cross-site publishing sites
+          href: ../administration/plan-search-for-sharepoint-cross-site-publishing-sites.md
+        - name: Plan variations for multilingual cross-site publishing site
+          href: ../administration/plan-variations-for-multilingual-cross-site-publishing-site.md
+      - name: Overview of managed navigation
+        href: ../administration/overview-of-managed-navigation.md
+      - name: Plan navigation term sets
+        href: ../administration/plan-navigation-term-sets.md
+      - name: Variations overview
+        href: ../administration/variations-overview.md
+      - name: Plan for variations
+        href: ../administration/plan-for-variations.md
+      - name: Caching and performance planning
+        href: ../administration/caching-and-performance-planning.md
+      - name: View usage reports
+        href: ../administration/view-usage-reports.md
+      - name: How to set up a product-centric website
+        href: ../administration/how-to-set-up-a-product-centric-website.md
+        items:
+        - name: An introduction to cross-site publishing
+          href: ../administration/an-introduction-to-cross-site-publishing.md
+        - name: Stage 1—Create site collections for cross-site publishing
+          href: ../administration/stage-1-create-site-collections-for-cross-site-publishing.md
+        - name: Stage 2—Import list content into the Product Catalog Site Collection
+          href: ../administration/stage-2-import-list-content-into-the-product-catalog-site-collection.md
+        - name: Stage 3—How to enable a list as a catalog
+          href: ../administration/stage-3-how-to-enable-a-list-as-a-catalog.md
+        - name: Stage 4—Set up search and enable the crawling of your catalog content
+          href: ../administration/stage-4-set-up-search-and-enable-the-crawling-of-your-catalog-content.md
+        - name: From site column to managed property - What's up with that?
+          href: ../administration/from-site-column-to-managed-propertywhat-s-up-with-that.md
+        - name: Stage 5—Connect your publishing site to a catalog
+          href: ../administration/stage-5-connect-your-publishing-site-to-a-catalog.md
+        - name: Stage 6—Upload and apply a new master page to a publishing site
+          href: ../administration/stage-6-upload-and-apply-a-new-master-page-to-a-publishing-site.md
+        - name: Stage 7—Upload page layouts and create new pages in a publishing site
+          href: ../administration/stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md
+        - name: Stage 8—Assign a category page and a catalog item page to a term
+          href: ../administration/stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md
+        - name: Stage 9—Configure the query in a Content Search Web Part on a category page
+          href: ../administration/stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md
+        - name: Stage 10—Configure the query in a Content Search Web Part on a catalog item page
+          href: ../administration/stage-10-configure-the-query-in-a-content-search-web-part-on-a-catalog-item-page.md
+        - name: Stage 11—Upload and apply display templates to the Content Search Web Part
+          href: ../administration/stage-11-upload-and-apply-display-templates-to-the-content-search-web-part.md
+        - name: Stage 12—Plan to use refiners for faceted navigation in - Part I
+          href: ../administration/stage-12-plan-to-use-refiners-for-faceted-navigation-inpart-i.md
+        - name: Stage 13—Plan to use refiners for faceted navigation - Part II
+          href: ../administration/stage-13-plan-to-use-refiners-for-faceted-navigationpart-ii.md
+        - name: Stage 14—Configure refiners for faceted navigation
+          href: ../administration/stage-14-configure-refiners-for-faceted-navigation.md
+        - name: Stage 15—Add refiners for faceted navigation to a publishing site
+          href: ../administration/stage-15-add-refiners-for-faceted-navigation-to-a-publishing-site.md
+        - name: Stage 16—Add a Taxonomy Refinement Panel Web Part to a publishing site
+          href: ../administration/stage-16-add-a-taxonomy-refinement-panel-web-part-to-a-publishing-site.md
+      - name: How to display recommendations and popular items in SharePoint Server
+        href: ../administration/how-to-display-recommendations-and-popular-items-in-sharepoint-server.md
+        items:
+        - name: An introduction to recommendations and popular items
+          href: ../administration/an-introduction-to-recommendations-and-popular-items.md
+        - name: Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics
+          href: ../administration/change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md
+        - name: Add and configure the Recommended Items and Popular Items Web Part
+          href: ../administration/add-and-configure-the-recommended-items-and-popular-items-web-part.md
+        - name: Use recommendations and popular items on websites with anonymous users
+          href: ../administration/use-recommendations-and-popular-items-on-websites-with-anonymous-users.md
+        - name: View and configure usage analytics reports
+          href: ../administration/view-and-configure-usage-analytics-reports.md
+      - name: Search Engine Optimization (SEO)
+        href: ../administration/search-engine-optimization-seo.md
+      - name: Integrating social media with public-facing websites
+        href: ../administration/integrating-social-media-with-public-facing-websites.md
+      - name: Configure web content management solutions
+        href: ../administration/configure-web-content-management-solutions.md
+        items:
+        - name: Configure cross-site publishing
+          href: ../administration/configure-cross-site-publishing.md
+        - name: Connect a publishing site to a catalog
+          href: ../administration/connect-a-publishing-site-to-a-catalog.md
+        - name: Assign a category page and a catalog item page to a term
+          href: ../administration/assign-a-category-page-and-a-catalog-item-page-to-a-term.md
+        - name: Configure Search Web Parts
+          href: ../administration/configure-search-web-parts.md
+        - name: Configure refiners and faceted navigation
+          href: ../administration/configure-refiners-and-faceted-navigation.md
+        - name: Configure result sources for web content management
+          href: ../administration/configure-result-sources-for-web-content-management.md
+        - name: Create query rules for web content management
+          href: ../administration/create-query-rules-for-web-content-management.md
+        - name: Configure recommendations and usage event types
+          href: ../administration/configure-recommendations-and-usage-event-types.md
+    - name: Business intelligence
+      href: ../administration/business-intelligence.md
+      items:
+      - name: Software requirements for business intelligence
+        href: ../administration/software-requirements-for-business-intelligence.md
+      - name: Excel Services overview
+        href: ../administration/excel-services-overview.md
+        items:
+        - name: Configure Excel Services
+          href: ../administration/configure-excel-services.md
+        - name: BI capabilities in Excel and Excel Services
+          href: ../administration/bi-capabilities-in-excel-and-excel-services.md
+        - name: Data authentication for Excel Services
+          href: ../administration/data-authentication-for-excel-services.md
+        - name: Data sources supported in Excel Services (SharePoint Server 2013)
+          href: ../administration/data-sources-supported-in-excel-services-sharepoint-server-2013.md
+        - name: Plan Excel Services Global Settings
+          href: ../administration/plan-excel-services-global-settings.md
+          items:
+          - name: Manage Excel Services global settings
+            href: ../administration/manage-excel-services-global-settings.md
+        - name: Plan Trusted File Locations
+          href: ../administration/plan-trusted-file-locations.md
+          items:
+          - name: Manage Excel Services trusted file locations
+            href: ../administration/manage-excel-services-trusted-file-locations.md
+        - name: Plan Trusted Data Connection Libraries
+          href: ../administration/plan-trusted-data-connection-libraries.md
+          items:
+          - name: Manage Excel Services trusted data connection libraries
+            href: ../administration/manage-excel-services-trusted-data-connection-libraries.md
+        - name: Plan Excel Services Data Model settings
+          href: ../administration/plan-excel-services-data-model-settings.md
+          items:
+          - name: Manage Excel Services data model settings
+            href: ../administration/manage-excel-services-data-model-settings.md
+        - name: Manage Excel Services trusted data providers
+          href: ../administration/manage-excel-services-trusted-data-providers.md
+        - name: Manage Excel Services user defined function assemblies
+          href: ../administration/manage-excel-services-user-defined-function-assemblies.md
+        - name: Share data connections by using Excel and Excel Services (SharePoint Server 2013)
+          href: ../administration/share-data-connections-by-using-excel-and-excel-services-sharepoint-server-2013.md
+          items:
+          - name: Share a SQL Server Analysis Services data connection using Excel Services (SharePoint Server 2013)
+            href: ../administration/share-a-sql-server-analysis-services-data-connection-using-excel-services-sharep.md
+          - name: Share a SQL Server data connection using Excel Services (SharePoint Server 2013)
+            href: ../administration/share-a-sql-server-data-connection-using-excel-services-sharepoint-server-2013.md
+          - name: Share an OLE DB or ODBC connection using Excel Services (SharePoint Server 2013)
+            href: ../administration/share-an-ole-db-or-odbc-connection-using-excel-services-sharepoint-server-2013.md
+        - name: Share workbooks by using Excel Services (SharePoint Server 2013)
+          href: ../administration/share-workbooks-by-using-excel-services-sharepoint-server-2013.md
+        - name: Create an Excel Services dashboard using an OData data feed
+          href: ../administration/create-an-excel-services-dashboard-using-an-odata-data-feed.md
+        - name: Create an Excel Services dashboard using SQL Server Analysis Services data
+          href: ../administration/create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md
+        - name: Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)
+          href: ../administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md
+      - name: Configure PerformancePoint Services
+        href: ../administration/configure-performancepoint-services.md
+        items:
+        - name: PerformancePoint Services in SharePoint Server 2016 overview
+          href: ../administration/performancepoint-services-overview.md
+        - name: Enable trusted locations for PerformancePoint Services
+          href: ../administration/enable-trusted-locations-for-performancepoint-services.md
+        - name: PerformancePoint Services application settings
+          href: ../administration/performancepoint-services-application-settings.md
+      - name: Overview of Visio Services in SharePoint Server
+        href: ../administration/visio-services-overview.md
+        items:
+        - name: Configure Visio Services
+          href: ../administration/configure-visio-services.md
+        - name: Plan Visio Services security in SharePoint Server
+          href: ../administration/visio-services-security-planning.md
+        - name: Plan Visio Services deployment in SharePoint Server
+          href: ../administration/plan-visio-services-deployment.md
+        - name: Data authentication for Visio Services in SharePoint Server
+          href: ../administration/data-authentication-for-visio-services.md
+        - name: Use Visio Services with external lists in SharePoint Server
+          href: ../administration/use-visio-services-with-external-lists-in-sharepoint-server.md
+        - name: Use Visio Services with SharePoint lists
+          href: ../administration/use-visio-services-with-sharepoint-lists.md
+      - name: Configure the Secure Store Service
+        href: ../administration/configure-the-secure-store-service.md
+        items:
+        - name: Plan the Secure Store Service in SharePoint Server
+          href: ../administration/secure-store-service-planning.md
+        - name: Secure Store for Business Intelligence service applications
+          href: ../administration/secure-store-for-business-intelligence-service-applications.md
+          items:
+          - name: Use Excel Services with Secure Store
+            href: ../administration/use-excel-services-with-secure-store.md
+            items:
+            - name: Configure the unattended service account
+              href: ../administration/configure-unattended-service-account-2013.md
+            - name: Configure Excel Services data refresh by using embedded data connections in SharePoint Server 2013
+              href: ../administration/configure-excel-services-data-refresh-by-using-embedded-data-connections-in-shar.md
+            - name: Configure Excel Services data refresh by using external data connections in SharePoint Server 2013
+              href: ../administration/configure-excel-services-data-refresh-by-using-external-data-connections-in-shar.md
+          - name: Use PerformancePoint Services with Secure Store
+            href: ../administration/use-performancepoint-services-with-secure-store.md
+            items:
+            - name: Configure the unattended service account for PerformancePoint Services
+              href: ../administration/configure-the-unattended-service-account-for-performancepoint-services.md
+            - name: Configure Secure Store for use with PerformancePoint Services
+              href: ../administration/configure-secure-store-for-use-with-performancepoint-services.md
+          - name: Use Visio Services with Secure Store
+            href: ../administration/use-visio-services-with-secure-store.md
+            items:
+            - name: Configure the unattended service account
+              href: ../administration/configure-the-unattended-service-account.md
+            - name: Configure data refresh by using external data connections
+              href: ../administration/configure-data-refresh-by-using-external-data-connections.md
+        - name: Use Secure Store with SQL Server Authentication
+          href: ../administration/use-secure-store-with-sql-server-authentication.md
+      - name: Configure Power Pivot for SharePoint 2013
+        href: ../administration/configure-power-pivot-for-sharepoint-2013.md
+        items:
+        - name: Data refresh using Secure Store
+          href: ../administration/data-refresh-using-secure-store.md
+        - name: Data refresh using a specified account
+          href: ../administration/data-refresh-using-a-specified-account.md
+        - name: Data refresh using the unattended data refresh account
+          href: ../administration/data-refresh-using-the-unattended-data-refresh-account.md
+      - name: Use Analysis Services EffectiveUserName in SharePoint Server
+        href: ../administration/use-analysis-services-effectiveusername-in-sharepoint-server.md
+        items:
+        - name: Use EffectiveUserName with Excel Services (SharePoint Server 2013)
+          href: ../administration/use-effectiveusername-with-excel-services-sharepoint-server-2013.md
+        - name: Use EffectiveUserName in PerformancePoint Services
+          href: ../administration/use-effectiveusername-in-performancepoint-services.md
+      - name: Configure AdventureWorks
+        href: ../administration/configure-adventureworks.md
+    - name: User profiles and identities
+      href: ../administration/user-profiles-and-identities.md
+      items:
+      - name: Plan user profiles
+        href: ../administration/plan-user-profiles.md
+      - name: Overview of profile synchronization in SharePoint Server 2013
+        href: ../administration/overview-of-profile-synchronization-in-sharepoint-server-2013.md
+        items:
+        - name: Profile synchronization in SharePoint Server 2016
+          href: ../administration/profile-synchronization-in-sharepoint-server-2013.md
+        - name: Plan profile synchronization for SharePoint Server 2013
+          href: ../administration/plan-profile-synchronization-for-sharepoint-server-2013.md
+      - name: Microsoft Identity Manager in SharePoint Servers
+        href: ../administration/microsoft-identity-manager-in-sharepoint-server.md
+        items:
+        - name: Install Microsoft Identity Manager for User Profiles in SharePoint Servers
+          href: ../administration/install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md
+          items:
+          - name: Use a sample MIM solution in SharePoint Servers
+            href: ../administration/use-a-sample-mim-solution-in-sharepoint-server.md
+        - name: Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server
+          href: ../administration/overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser.md
+        - name: Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server
+          href: ../administration/deployment-considerations-for-implementing-microsoft-identity-manager-with-share.md
+      - name: People Picker and claims providers overview
+        href: ../administration/people-picker-and-claims-providers-overview.md
+        items:
+        - name: Plan for People Picker
+          href: ../administration/plan-for-people-picker.md
+        - name: Configure People Picker
+          href: ../administration/configure-people-picker.md
+        - name: Configure People Picker in SharePoint Server Subscription Edition
+          href: ../administration/configure-people-picker-subscription-edition.md
+        - name: Plan for custom claims providers for People Picker
+          href: ../administration/plan-for-custom-claims-providers-for-people-picker.md
+        - name: Enhanced People Picker for modern authentication
+          href: ../administration/enhanced-people-picker-for-trusted-authentication-method.md
+      - name: User Profile service administration
+        href: ../administration/user-profile-service-administration.md
+        items:
+        - name: Add, edit, or delete custom properties for a user profile
+          href: ../administration/add-edit-or-delete-custom-properties-for-a-user-profile.md
+        - name: Manage profile synchronization
+          href: ../administration/manage-profile-synchronization.md
+          items:
+          - name: Configure profile synchronization
+            href: ../administration/configure-profile-synchronization.md
+          - name: Configure profile synchronization by using SharePoint Active Directory Import
+            href: ../administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import.md
+          - name: Start profile synchronization manually
+            href: ../administration/start-profile-synchronization-manually.md
+          - name: Schedule profile synchronization
+            href: ../administration/schedule-profile-synchronization.md
+          - name: Maintain profile synchronization
+            href: ../administration/maintain-profile-synchronization.md
+      - name: Create an audience for SharePoint Server
+        href: ../administration/create-an-audience-for-sharepoint-server.md
+    - name: Create a web application in SharePoint Server
+      href: ../administration/create-a-web-application.md
+    - name: Server name indication improvement for web application
+      href: ../administration/server-name-indication-improvement-for-web-application.md
+      items:
+      - name: Configure basic authentication for a claims-based web application in SharePoint Server
+        href: ../administration/configure-basic-authentication-for-a-claims-based-web-application.md
+      - name: Configure digest authentication for a claims-based web application in SharePoint Server
+        href: ../administration/configure-digest-authentication-for-a-claims-based-web-application.md
+      - name: Edit general settings on a web application in SharePoint Server
+        href: ../administration/edit-general-settings-on-a-web-application.md
+    - name: Mobile devices overview
+      href: ../administration/mobile-devices-overview.md
+      items:
+      - name: Plan for mobile views in SharePoint 2013
+        href: ../administration/plan-for-mobile-views.md
+      - name: Mobile device browsers supported in SharePoint 2013
+        href: ../administration/supported-mobile-device-browsers.md
+      - name: Mobile security and authentication in SharePoint 2013
+        href: ../administration/mobile-security-and-authentication.md
+      - name: Authentication for mobile devices in SharePoint 2013
+        href: ../administration/authentication-for-mobile-devices.md
+      - name: Supporting the SharePoint mobile apps online and on-premises
+        href: ../administration/supporting-the-sharepoint-mobile-apps-online-and-on-premises.md
+    - name: Business Connectivity Services overview
+      href: ../administration/business-connectivity-services-overview.md
+      items:
+      - name: Configure a Business Data Connectivity service application
+        href: ../administration/configure-a-business-data-connectivity-service-application.md
+      - name: Security tasks overview
+        href: ../administration/security-tasks-overview.md
+      - name: Plan a Business Connectivity Services solution
+        href: ../administration/plan-a-business-connectivity-services-solution.md
+      - name: Configure Business Connectivity Services solutions
+        href: ../administration/configure-business-connectivity-services-solutions.md
+        items:
+        - name: Deploy an on-premises solution
+          href: ../administration/deploy-an-on-premises-solution.md
+    - name: Create Test and Developer Environments
+      href: ../administration/create-test-and-developer-environments.md
+      items:
+      - name: Test lab guides
+        href: ../administration/test-lab-guides.md
+        items:
+        - name: Configure SharePoint Server 2013 in a three-tier farm
+          href: ../administration/configure-sharepoint-server-2013-in-a-three-tier-farm.md
+        - name: Configure intranet and team sites
+          href: ../administration/configure-intranet-and-team-sites.md
+        - name: Demonstrate forms-based claims authentication
+          href: ../administration/demonstrate-forms-based-claims-authentication.md
+        - name: Demonstrate profile synchronization
+          href: ../administration/demonstrate-profile-synchronization.md
+        - name: Demonstrate SAML-based claims authentication
+          href: ../administration/demonstrate-saml-based-claims-authentication.md
+        - name: Demonstrate social features
+          href: ../administration/demonstrate-social-features.md
+        - name: Configure eDiscovery
+          href: ../administration/configure-ediscovery.md
+        - name: Configure a highly available SharePoint Server 2013 Search topology
+          href: ../administration/configure-a-highly-available-sharepoint-server-2013-search-topology.md
+      - name: SharePoint 2013 dev/test environments in Azure
+        href: ../administration/sharepoint-2013-dev-test-environments-in-azure.md
+      - name: SharePoint Server in Microsoft Azure
+        href: ../administration/sharepoint-server-in-microsoft-azure.md
+        items:
+        - name: SharePoint Server dev/test environment in Azure
+          href: ../administration/sharepoint-server-dev-test-environment-in-azure.md
+        - name: Intranet SharePoint Server in Azure dev/test environment
+          href: ../administration/intranet-sharepoint-server-in-azure-dev-test-environment.md
+        - name: Designing a SharePoint Server farm in Azure
+          href: ../administration/designing-a-sharepoint-server-farm-in-azure.md
+        - name: Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure
+          href: ../administration/deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md
+          items:
+          - name: SharePoint Intranet Farm in Azure Phase 1—Configure Azure
+            href: ../administration/sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md
+          - name: SharePoint Intranet Farm in Azure Phase 2—Configure domain controllers
+            href: ../administration/sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md
+          - name: SharePoint Intranet Farm in Azure Phase 3—Configure SQL Server Infrastructure
+            href: ../administration/sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md
+          - name: SharePoint Intranet Farm in Azure Phase 4—Configure SharePoint servers
+            href: ../administration/sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md
+          - name: SharePoint Intranet Farm in Azure Phase 5—Create the availability group and add the SharePoint databases
+            href: ../administration/sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md
+    - name: Integrate Viva Engage with on-premises SharePoint Server
+      href: ../administration/integrate-viva-engage-with-on-premises-sharepoint-server-environments.md
+      items:
+      - name: Viva Engage networks, groups, and users overview
+        href: ../administration/viva-engage-networks-groups-and-users-overview.md
+      - name: Social scenarios with Viva Engage and SharePoint Server
+        href: ../administration/social-scenarios-with-viva-engage-and-sharepoint-server.md
+        items:
+        - name: Integrate a new Viva Engage network into SharePoint Server
+          href: ../administration/integrate-a-new-viva-engage-network-into-sharepoint-server.md
+        - name: Integrate a single Viva Engage network into SharePoint Server
+          href: ../administration/integrate-a-single-viva-engage-network-into-sharepoint-server.md
+        - name: Integrate multiple Viva Engage networks into SharePoint Server
+          href: ../administration/integrate-multiple-viva-engage-networks-into-sharepoint-server.md
+        - name: Integrate a Viva Engage network into SharePoint Server with social features
+          href: ../administration/integrate-a-viva-engage-network-into-sharepoint-server-with-social-features.md
+        - name: Integrate a Viva Engage network into SharePoint Server and Microsoft 365
+          href: ../administration/integrate-a-viva-engage-network-into-sharepoint-server-and-office-365.md
+      - name: Add Viva Engage to the SharePoint Server navigation
+        href: ../administration/add-viva-engage-to-the-navigation-bar-for-sharepoint-server.md
+      - name: Hide SharePoint Server default social features
+        href: ../administration/hide-sharepoint-server-social-features.md
+      - name: Add the Viva Engage Embed widget to a SharePoint page
+        href: ../administration/add-the-viva-engage-embed-widget-to-a-sharepoint-page.md
+    - name: Troubleshoot
+      href: ../administration/troubleshoot.md
+      items:
+      - name: Claims authentication does not validate user
+        href: ../administration/claims-authentication-does-not-validate-user.md
+      - name: Troubleshoot common fine-grained permissions issues
+        href: ../administration/troubleshoot-common-fine-grained-permissions-issues.md
+      - name: SharePoint site inaccessible
+        href: ../administration/sharepoint-site-inaccessible.md
+      - name: Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager
+        href: ../administration/upgrade-sharepoint-2013-to-sharepoint-2016-through-workflow-manager.md
+      - name: Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager
+        href: ../administration/upgrade-sharepoint-2016-to-sharepoint-2019-through-workflow-manager.md
+      - name: After installing .NET security patches to address CVE-2018-8421, SharePoint crawler may fail
+        href: ../administration/after-installing-.NET-security-patches-to-address-CVE-2018-8421-SharePoint-crawler-may-fail.md
+  - name: Technical reference
+    href: ../technical-reference/technical-reference.md
+    items:
+    - name: System Center Operations Manager knowledge articles
+      href: ../technical-reference/system-center-operations-manager-knowledge-articles.md
+      items:
+      - name: Access Services in SharePoint Server
+        href: ../technical-reference/access-services-in-sharepoint-server.md
+      - name: Machine Translation service in SharePoint Server
+        href: ../technical-reference/machine-translation-service-in-sharepoint-server.md
+      - name: Search in SharePoint Server
+        href: ../technical-reference/search-in-sharepoint-server.md
+      - name: Visio Services in SharePoint Server
+        href: ../technical-reference/visio-services-in-sharepoint-server.md
+      - name: Project Server 2013 knowledge articles
+        href: ../technical-reference/project-server-2013-knowledge-articles.md
+    - name: Database types and descriptions
+      href: ../technical-reference/database-types-and-descriptions.md
+    - name: SharePoint Health Analyzer rules reference
+      href: ../technical-reference/sharepoint-health-analyzer-rules-reference.md
+      items:
+      - name: A State Service Application has no database defined
+        href: ../technical-reference/a-state-service-application-has-no-database-defined.md
+      - name: Accounts used by application pools or service identities are in the local machine Administrators group
+        href: ../technical-reference/accounts-used-by-application-pools-or-service-identities-are-in-the-local-machin.md
+      - name: All State Service databases are paused for a State Service Application
+        href: ../technical-reference/all-state-service-databases-are-paused-for-a-state-service-application.md
+      - name: Application pools recycle when memory limits are exceeded
+        href: ../technical-reference/application-pools-recycle-when-memory-limits-are-exceeded.md
+      - name: Business Data Connectivity connectors are currently enabled in a partitioned environment
+        href: ../technical-reference/business-data-connectivity-connectors-are-currently-enabled-in-a-partitioned-env.md
+      - name: Cached objects have been evicted
+        href: ../technical-reference/cached-objects-have-been-evicted.md
+      - name: Certificate notification contacts haven't been configured
+        href: ../technical-reference/certificate-notification-contacts-haven't-been-configured.md
+      - name: Content databases contain orphaned Apps
+        href: ../technical-reference/content-databases-contain-orphaned-apps.md
+      - name: Critical state of this rule indicates that the Word Automation Services is not running when it should be running
+        href: ../technical-reference/critical-state-of-this-rule-indicates-that-the-word-automation-services-is-not-r.md
+      - name: Databases exist on servers running SharePoint Foundation
+        href: ../technical-reference/databases-exist-on-servers-running-sharepoint-foundation.md
+      - name: Databases require upgrade or not supported
+        href: ../technical-reference/databases-require-upgrade-or-not-supported.md
+      - name: Databases running in compatibility range, upgrade recommended
+        href: ../technical-reference/databases-running-in-compatibility-range-upgrade-recommended.md
+      - name: Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state
+        href: ../technical-reference/databases-within-this-farm-are-set-to-read-only-and-will-fail-to-upgrade-unless.md
+      - name: Databases used by SharePoint have outdated index statistics
+        href: ../technical-reference/databases-used-by-sharepoint-have-outdated-index-statistics.md
+      - name: Dedicated crawl target configuration has one or more invalid servers
+        href: ../technical-reference/dedicated-crawl-target-configuration-has-one-or-more-invalid-servers.md
+      - name: Distributed cache service is not configured on server(s)
+        href: ../technical-reference/distributed-cache-service-is-not-configured-on-server-s.md
+      - name: Distributed cache service is not enabled in this deployment
+        href: ../technical-reference/distributed-cache-service-is-not-enabled-in-this-deployment.md
+      - name: Distributed cache service is unexpectedly configured on server(s)
+        href: ../technical-reference/distributed-cache-service-is-unexpectedly-configured-on-server-s.md
+      - name: Drives used for SQL databases are running out of free space
+        href: ../technical-reference/drives-used-for-sql-databases-are-running-out-of-free-space.md
+      - name: Expired sessions are not being deleted from the ASP.NET Session State database
+        href: ../technical-reference/expired-sessions-are-not-being-deleted-from-the-asp-net-session-state-database.md
+      - name: Firewall client settings on the cache host are incorrect
+        href: ../technical-reference/firewall-client-settings-on-the-cache-host-are-incorrect.md
+      - name: Immediate translations for the Machine Translation service are disabled
+        href: ../technical-reference/immediate-translations-for-the-machine-translation-service-are-disabled.md
+      - name: InfoPath form library forms cannot be filled out in a Web browser
+        href: ../technical-reference/infopath-form-library-forms-cannot-be-filled-out-in-a-web-browser.md
+      - name: InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured
+        href: ../technical-reference/infopath-forms-services-forms-cannot-be-filled-out-in-a-web-browser-because-no-s.md
+      - name: More cache hosts are running in this deployment than are registered with SharePoint
+        href: ../technical-reference/more-cache-hosts-are-running-in-this-deployment-than-are-registered-with-sharepo.md
+      - name: One of the cache hosts in the cluster is down
+        href: ../technical-reference/one-of-the-cache-hosts-in-the-cluster-is-down.md
+      - name: One or more servers is not responding
+        href: ../technical-reference/one-or-more-servers-is-not-responding.md
+      - name: One or more servers can't retrieve People Picker credentials
+        href: ../technical-reference/one-or-more-servers-can-t-retrieve-People-Picker-credentials.md
+      - name: One or more servers can't retrieve the outgoing email credentials
+        href: ../technical-reference/one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials.md
+      - name: One or more web applications are configured to use Windows Classic authentication
+        href: ../technical-reference/one-or-more-web-applications-are-configured-to-use-windows-classic-authenticatio.md
+      - name: Product / patch installation or server upgrade required
+        href: ../technical-reference/productpatch-installation-or-server-upgrade-required.md
+      - name: Some content databases are growing too large
+        href: ../technical-reference/some-content-databases-are-growing-too-large.md
+      - name: SSL certificates are about to expire
+        href: ../technical-reference/ssl-certificates-expire.md
+      - name: SSL certificates have expired
+        href: ../technical-reference/ssl-certificates-have-expired.md
+      - name: The Application Discovery and Load Balancer Service is not running in this farm
+        href: ../technical-reference/the-application-discovery-and-load-balancer-service-is-not-running-in-this-farm.md
+      - name: The InfoPath Forms Services Maintenance Timer Job not enabled
+        href: ../technical-reference/the-infopath-forms-services-maintenance-timer-job-not-enabled.md
+      - name: The Machine Translation Service is not running when it should be running
+        href: ../technical-reference/the-machine-translation-service-is-not-running-when-it-should-be-running.md
+      - name: The number of Distributed Cache hosts in the farm exceeds the recommended value.
+        href: ../technical-reference/the-number-of-distributed-cache-hosts-in-the-farm-exceeds-the-recommended-value.md
+      - name: The Security Token Service is not available
+        href: ../technical-reference/the-security-token-service-is-not-available.md
+      - name: The settings for the Machine Translation Service are not within the recommended limits
+        href: ../technical-reference/the-settings-for-the-machine-translation-service-are-not-within-the-recommended.md
+      - name: The settings for Word Automation Services are not within the recommended limits
+        href: ../technical-reference/the-settings-for-word-automation-services-are-not-within-the-recommended-limits.md
+      - name: The State Service Delete Expired Sessions timer job is not enabled
+        href: ../technical-reference/the-state-service-delete-expired-sessions-timer-job-is-not-enabled.md
+      - name: The timer service failed to recycle
+        href: ../technical-reference/the-timer-service-failed-to-recycle.md
+      - name: The unattended Service Account Application ID is not specified or has an invalid value
+        href: ../technical-reference/the-unattended-service-account-application-id-is-not-specified-or-has-an-invalid.md
+      - name: The Visio Graphics Service has a maximum cache age setting that will adversely impact performance
+        href: ../technical-reference/the-visio-graphics-service-has-a-maximum-cache-age-setting-that-will-adversely-i.md
+      - name: The Visio Graphics Service has a maximum cache size setting that may adversely impact performance
+        href: ../technical-reference/the-visio-graphics-service-has-a-maximum-cache-size-setting-that-may-adversely-i.md
+      - name: The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance
+        href: ../technical-reference/the-visio-graphics-service-has-a-maximum-recalc-duration-setting-that-will-adver.md
+      - name: The Visio Graphics Service has a maximum Web Drawing Size setting that will adversely impact performance
+        href: ../technical-reference/the-visio-graphics-service-has-a-maximum-web-drawing-size-setting-that-will-adve.md
+      - name: The Visio Graphics Service has a minimum cache age setting that may cause a security issue
+        href: ../technical-reference/the-visio-graphics-service-has-a-minimum-cache-age-setting-that-may-cause-a-secu.md
+      - name: The Visio Graphics Service has a minimum cache age setting that will adversely impact performance
+        href: ../technical-reference/the-visio-graphics-service-has-a-minimum-cache-age-setting-that-will-adversely-i.md
+      - name: This Distributed Cache host may cause cache reliability problems
+        href: ../technical-reference/this-distributed-cache-host-may-cause-cache-reliability-problems.md
+      - name: Upcoming SSL certificate expirations
+        href: ../technical-reference/upcoming-ssl-certificate-expirations.md
+      - name: Verify each User Profile service application has a My Site host configured
+        href: ../technical-reference/verify-each-user-profile-service-application-has-a-my-site-host-configured.md
+      - name: Verify each User Profile Service Application has an associated Managed Metadata Service Connection
+        href: ../technical-reference/verify-each-user-profile-service-application-has-an-associated-managed-metadata.md
+      - name: Verify each User Profile Service Application has an associated Search Service Connection
+        href: ../technical-reference/verify-each-user-profile-service-application-has-an-associated-search-service-co.md
+      - name: Verify that OAuth is configured correctly for the Machine Translation Service application
+        href: ../technical-reference/verify-oauth-configured-correctly-machine-translation.md
+      - name: Verify that OAuth is configured correctly for the Machine Translation Service application proxy
+        href: ../technical-reference/verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap.md
+      - name: Verify that the Activity Feed Timer Job is enabled
+        href: ../technical-reference/verify-that-the-activity-feed-timer-job-is-enabled.md
+      - name: Verify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted
+        href: ../technical-reference/verify-that-the-critical-user-profile-application-and-user-profile-proxy-applica.md
+      - name: Web Applications using Claims authentication require an update
+        href: ../technical-reference/web-applications-using-claims-authentication-require-an-update.md
+      - name: Web.config file has incorrect settings for the requestFiltering element
+        href: ../technical-reference/web-config-file-has-incorrect-settings-for-the-requestfiltering-element.md
+      - name: Web.config files are not identical on all machines in the farm
+        href: ../technical-reference/web-config-files-are-not-identical-on-all-machines-in-the-farm.md
+      - name: XLIFF translations for the Machine Translation Service is disabled
+        href: ../technical-reference/xliff-translations-for-the-machine-translation-service-is-disabled.md
+      - name: The server farm account should not be used for other services
+        href: ../technical-reference/the-server-farm-account-should-not-be-used-for-other-services.md
+      - name: Databases used by SharePoint have fragmented indices
+        href: ../technical-reference/databases-used-by-sharepoint-have-fragmented-indices.md
+      - name: The paging file size should exceed the amount of physical RAM in the system
+        href: ../technical-reference/the-paging-file-size-should-exceed-the-amount-of-physical-ram-in-the-system.md
+      - name: Automatic Update setting inconsistent across farm servers
+        href: ../technical-reference/automatic-update-setting-inconsistent-across-farm-servers.md
+      - name: Built-in accounts are used as application pool or service identities
+        href: ../technical-reference/built-in-accounts-are-used-as-application-pool-or-service-identities.md
+      - name: Missing server side dependencies
+        href: ../technical-reference/missing-server-side-dependencies.md
+      - name: One or more categories are configured with Verbose trace logging
+        href: ../technical-reference/one-or-more-categories-are-configured-with-verbose-trace-logging.md
+      - name: Outbound e-mail has not been configured
+        href: ../technical-reference/outbound-e-mail-has-not-been-configured.md
+      - name: Server role configuration isn't correct
+        href: ../technical-reference/server-role-configuration-isn-t-correct.md
+      - name: One or more app domains for web applications aren't configured correctly
+        href: ../technical-reference/one-or-more-app-domains-for-web-applications-aren-t-configured-correctly.md
+      - name: Drives are running out of free space
+        href: ../technical-reference/drives-are-running-out-of-free-space.md
+      - name: Drives are at risk of running out of free space
+        href: ../technical-reference/drives-are-at-risk-of-running-out-of-free-space.md
+      - name: Content databases contain orphaned items
+        href: ../technical-reference/content-databases-contain-orphaned-items.md
+      - name: The Net.Pipe Listener Adapter isn't available
+        href: ../technical-reference/the-net-pipe-listener-adapter-isn-t-available.md
+      - name: One or more services have started or stopped unexpectedly
+        href: ../technical-reference/one-or-more-services-have-started-or-stopped-unexpectedly.md
+      - name: The current server is running low on memory
+        href: ../technical-reference/the-current-server-is-running-low-on-memory.md
+      - name: AMSI protection may not be working
+        href: ../technical-reference/amsi-protection-may-not-be-working.md
+      - name: Basic authentication is deprecated
+        href: ../technical-reference/basic-auth-is-being-deprecated.md
+      - name: The nonce cookie certificate is not imported
+        href: ../technical-reference/the-nonce-cookie-certificate-is-not-imported.md
+    - name: Timer job reference for SharePoint Server
+      href: ../technical-reference/timer-job-reference-for-sharepoint-server.md
+      items:
+      - name: Default timer jobs in SharePoint Server 2019
+        href: ../technical-reference/default-timer-jobs-in-sharepoint-server-2019.md
+      - name: Default timer jobs in SharePoint Server 2016
+        href: ../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md
+      - name: Default timer jobs in SharePoint 2013
+        href: ../technical-reference/default-timer-jobs-in-sharepoint-2013.md
+    - name: Search technical reference
+      href: ../technical-reference/search-technical-reference.md
+      items:
+      - name: Default crawled file name extensions and parsed file types
+        href: ../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md
+      - name: Default connectors
+        href: ../technical-reference/default-connectors.md
+      - name: Linguistic search features
+        href: ../technical-reference/linguistic-search-features.md
+      - name: Crawled and managed properties overview
+        href: ../technical-reference/crawled-and-managed-properties-overview.md
+      - name: Query variables
+        href: ../technical-reference/query-variables.md
+      - name: Result types and display templates that are used to display search results
+        href: ../technical-reference/result-types-and-display-templates-that-are-used-to-display-search-results.md
+      - name: Supported and unsupported Documentum object types and properties
+        href: ../technical-reference/supported-and-unsupported-documentum-object-types-and-properties.md
+    - name: Publishing technical reference
+      href: ../technical-reference/publishing-technical-reference.md
+      items:
+      - name: Automatically created managed properties in SharePoint
+        href: ../technical-reference/automatically-created-managed-properties-in-sharepoint.md
+    - name: Stsadm to Microsoft PowerShell mapping
+      href: ../technical-reference/stsadm-to-microsoft-powershell-mapping.md
+    - name: Display template reference in SharePoint Server
+      href: ../technical-reference/display-template-reference-in-sharepoint-server.md
+    - name: Technical diagrams
+      href: ../technical-reference/technical-diagrams.md
+  - name: SharePoint PowerShell
+    href: ../sharepoint-powershell.md

@@ -23,7 +23,7 @@ description: "Learn how to manage security groups for sharing files and folders 
 
 # Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally
 
-As a SharePoint Administrator or Global Administrator in Microsoft 365, you can restrict external sharing of SharePoint and OneDrive content so that only users in specific security groups can share externally. Note that the people in these security groups must be allowed to invite guests in the [Microsoft Entra guest invite settings](/azure/active-directory/external-identities/external-collaboration-settings-configure).
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can restrict external sharing of SharePoint and OneDrive content so that only users in specific security groups can share externally. Note that the people in these security groups must be allowed to invite guests in the [Microsoft Entra guest invite settings](/azure/active-directory/external-identities/external-collaboration-settings-configure).
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -31,7 +31,7 @@ As a SharePoint Administrator or Global Administrator in Microsoft 365, you can 
 
 3. Select **Allow only users in specific security groups to share externally**, and then select **Manage security groups**.
 
-    ![Manage security groups](media/manage-security-groups.png)
+    :::image type="content" alt-text="Manage security groups" source="media/manage-security-groups.png":::
 
 4. In the **Add a security group** box, search for and select the security groups you want to use (up to 12).
 

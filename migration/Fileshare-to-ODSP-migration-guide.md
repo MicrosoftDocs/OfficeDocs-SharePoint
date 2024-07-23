@@ -1,5 +1,5 @@
 ---
-ms.date: 06/05/2018
+ms.date: 06/20/2024
 title: "Migrate file shares to SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: heidip

@@ -1,0 +1,650 @@
+Items:
+- name: SharePoint and OneDrive
+  href: introduction.md
+  items:
+  - name: Introduction
+    items:
+    - name: Intro to file collaboration
+      href: intro-to-file-collaboration.md
+    - name: Intro to OneDrive
+      href: onedrive-overview.md
+    - name: OneDrive office hours
+      href: onedrive-office-hours.md
+    - name: Intro to sites
+      href: guide-to-sharepoint-modern-experience.md
+    - name: Branding
+      href: branding-sharepoint-online-sites-modern-experience.md
+    - name: Governance overview
+      href: governance-overview.md
+    - name: SharePoint and Teams integration
+      items:
+      - name: Overview of Teams and SharePoint integration
+        href: teams-connected-sites.md
+      - name: Manage collaboration experiences
+        href: manage-teams-sharepoint-experiences.md
+  - name: Get started
+    items:
+    - name: Plan for SharePoint and OneDrive
+      href: plan-for-sharepoint-onedrive.md
+      items:
+      - name: Business requirements
+        href: business-requirements.md
+      - name: Hybrid
+        href: hybrid.md
+      - name: Sync
+        href: plan-file-sync.md
+      - name: Migration
+        href: plan-rollout-migration.md
+    - name: Compliance
+      items:
+      - name: Plan compliance requirements
+        href: compliant-environment.md
+      - name: Plan secure file collaboration
+        href: deploy-file-collaboration.md
+      - name: Permissions and sharing
+        href: modern-experience-sharing-permissions.md
+    - name: Choose collaboration options
+      href: collaboration-options.md
+    - name: Roll out OneDrive and SharePoint
+      items:
+      - name: Training and change management
+        href: training-change-management.md
+      - name: Create sites using guided walkthroughs
+        items:
+        - name: Create a SharePoint communication site
+          href: create-communication-site.md
+        - name: Create a SharePoint team site
+          href: guided-walkthrough-creating-team-site.md
+        - name: Create a fundraising site SharePoint 
+          href: create-a-giving-site-for-your-organization.md
+        - name: Create a leadership site SharePoint 
+          href: guided-walkthrough-creating-leadership-site.md
+        - name: Create a training site SharePoint
+          href: create-training-site.md
+        - name: Create a landing site SharePoint 
+          href: guided-walkthrough-creating-organization-site.md
+        - name: Create a SharePoint hub site
+          href: create-hub-site-for-your-organization.md
+        - name: Distribute news using a hub site
+          href: guided-walkthrough-set-up-news-with-hub-site.md
+      - name: Add featured links to SharePoint start page
+        href: change-links-list-on-sharepoint-home-page.md
+      - name: Roll out SharePoint and OneDrive
+        href: roll-out-sharepoint-onedrive.md
+      - name: Set up SharePoint and OneDrive with a wizard
+        href: setup-wizard.md
+  - name: Copilot
+    items:
+    - name: Microsoft Copilot for Microsoft 365 - best practices
+      href: sharepoint-copilot-best-practices.md
+    - name: Restricted SharePoint search
+      items:
+      - name: Overview
+        href: restricted-sharepoint-search.md
+      - name: Curate allowed list
+        href: restricted-sharepoint-search-allowed-list.md
+      - name: Use PowerShell admin scripts
+        href: restricted-sharepoint-search-admin-scripts.md
+  - name: Classic to modern
+    items:
+    - name: Publishing
+      href: publishing-sites-classic-to-modern-experience.md
+    - name: Customization options
+      href: extend-and-develop.md
+    - name: Lists and libraries
+      href: change-default-list-and-library-experience.md
+    - name: Automatic modernization of classic home pages
+      href: disable-auto-modernization-classic-home-pages.md
+    - name: Enable the communication site experience on classic team sites
+      href: modernize-classic-team-site.md
+    - name: Classic and modern search differences
+      href: differences-classic-modern-search.md
+  - name: The admin center
+    items:
+    - name: SharePoint Administrator role
+      href: sharepoint-admin-role.md
+    - name: Manage sites
+      href: manage-sites-in-new-admin-center.md
+    - name: Customize the site list
+      href: customize-admin-center-site-list.md
+  - name: Performance
+    items:
+    - name: Performance
+      href: modern-experience-performance.md
+    - name: Creating and launching a healthy SharePoint portal
+      href: portal-health.md
+  - name: Guide to the intelligent intranet
+    items:
+    - name: Intelligent intranet overview
+      href: intelligent-internet-overview.md
+    - name: How to think about your intelligent intranet
+      href: trad-vs-modern-intranet.md
+    - name: Intranet roadmap
+      items:
+      - name: Intranet roadmap
+        href: intranet-team-overview.md
+      - name: Intranet roles and tasks
+        href: intranet-roles-tasks.md
+      - name: Intranet roadmap summary
+        href: intranet-get-started.md
+    - name: Plan your intranet
+      href: plan-intranet.md
+    - name: Considerations when planning for a global intranet
+      href: set-up-global-intranet.md
+    - name: Intranet governance
+      href: intranet-governance.md
+  - name: Organizational communication
+    items:
+    - name: Corporate communications overview
+      href: corporate-communications-overview.md
+      items:
+      - name: Step 1—Plan your communications strategy
+        href: plan-communication-strategy.md
+      - name: Step 2—Review communication tools
+        href: review-communication-apps.md
+      - name: Step 3—Scope and define your audience
+        href: audience-profile.md
+      - name: Step 4—Choose a communication solution
+        href: choose-communication-method.md
+    - name: Set up Viva Connections
+      href: guide-to-setting-up-viva-connections.md
+    - name: Get a home site for your intranet
+      href: home-site-plan.md
+    - name: Distribute organizational news
+      href: distribute-corporate-news-to-your-organization.md
+    - name: Connect leaders and your organization
+      href: leadership-connection.md
+    - name: Onboard new employees
+      href: onboard-employees.md
+    - name: Hold a town hall using Viva Engage
+      href: hold-town-hall-using-viva-engage.md
+    - name: Build learning and training experiences
+      href: build-learning-and-training-experiences-for-employees.md
+  - name: Navigation
+    items:
+    - name: Introduction
+      href: information-architecture-modern-experience.md
+    - name: Principles
+      href: information-architecture-principles.md
+    - name: Models and examples
+      href: information-architecture-models-examples.md
+    - name: Plan navigation design
+      href: plan-implement-navigation-design.md
+    - name: Implement site navigation
+      href: plan-navigation-modern-experience.md
+  - name: Hubs
+    items:
+    - name: Planning hub sites
+      href: planning-hub-sites.md
+    - name: Create a hub site
+      href: create-hub-site.md
+    - name: Remove hub site
+      href: remove-hub-site.md
+    - name: Set up site design
+      href: set-up-site-design-hub-site.md
+  - name: Lists
+    items:
+    - name: Control Microsoft Lists
+      href: control-lists.md
+    - name: Custom list templates
+      href: lists-custom-template.md
+      items:
+      - name: Package flows into list templates
+        href: package-biz-apps-org-list-template.md
+    - name: Configure lists sync on Windows
+      href: lists-sync-policies.md
+    - name: Configure lists sync on Mac
+      href: lists-sync-policies-macos.md
+  - name: Sample sites
+    items:
+    - name: Add a sample site to your tenant
+      href: add-sample-site.md
+    - name: Add New Employee Onboarding sites
+      href: provision-neo-hub.md
+    - name: Add the Hispanic Heritage Employee Resource site
+      href: hispanic-erg-template.md
+    - name: Add the LGBTQ+ Employee Resource site
+      href: employee-resource-template.md
+    - name: Add the SharePoint success site
+      items:
+      - name: Overview
+        href: overview-sss.md
+      - name: Provision
+        href: provision-sss.md
+      - name: Customize
+        href: customize-sss.md
+    - name: Add the Workplace transformation site
+      href: change-management-template.md
+  - name: Publishing
+    items:
+    - name: How page recommendations work
+      href: sharepoint_page-recommendations.md
+  - name: Brand center
+    items:
+    - name: Overview
+      href: brand-center-overview.md
+    - name: Brand fonts
+      href: brand-fonts.md
+    - name: Font packages
+      href: brand-center-font-packages.md
+    - name: Font licensing
+      href: brand-font-licensing.md
+  - name: Site administration
+    items:
+    - name: Create sites
+      href: create-site-collection.md
+    - name: Delete sites
+      href: delete-site-collection.md
+    - name: Restore deleted sites
+      href: restore-deleted-site-collection.md
+    - name: Manage site admins
+      href: manage-site-collection-administrators.md
+    - name: Review recent site actions
+      href: recent-actions-panel.md
+    - name: Manage site creation
+      href: manage-site-creation.md
+    - name: Manage site storage limits
+      href: manage-site-collection-storage-limits.md
+    - name: Change site addresses
+      href: change-site-address.md
+    - name: Manage site redirects
+      href: manage-site-redirects.md
+    - name: Lock and unlock sites
+      href: manage-lock-status.md
+    - name: Create change history reports
+      href: change-history-report.md
+    - name: Create inactive site policy
+      href: site-lifecycle-management.md
+    - name: Root site
+      href: modern-root-site.md
+    - name: Plan, build, and launch a home site
+      href: home-site-plan.md
+    - name: Advanced management
+      href: advanced-management.md
+    - name: Change your domain name
+      href: change-your-sharepoint-domain-name.md
+    - name: Enable and set up global navigation
+      href: sharepoint-app-bar.md
+    - name: Create guidelines for site usage 
+      href: sites-usage-guidelines.md
+    - name: Create an organization assets library
+      href: organization-assets-library.md
+      items:
+      - name: Support for organization fonts in PowerPoint for the web
+        href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
+    - name: Create an organization news site
+      href: organization-news-site.md
+  - name: OneDrive users and storage
+    items:
+    - name: Pre-provision accounts
+      href: pre-provision-accounts.md
+    - name: Set default storage space
+      href: set-default-storage-space.md
+    - name: Change user storage
+      href: change-user-storage.md
+    - name: Set retention
+      href: set-retention.md
+    - name: Restore deleted OneDrive
+      href: restore-deleted-onedrive.md
+    - name: Retention and deletion
+      href: retention-and-deletion.md
+    - name: List OneDrive URLs
+      href: list-onedrive-urls.md
+    - name: Effects of username changes
+      href: upn-changes.md
+  - name: Sync
+    items:
+    - name: File sync overview
+      href: sharepoint-sync.md
+    - name: Deploy the sync app
+      items:
+      - name: Network utilization planning
+        href: network-utilization-planning.md
+      - name: Recommended sync app configuration
+        href: ideal-state-configuration.md
+      - name: Intune
+        href: deploy-intune.md
+      - name: Configuration Manager
+        href: deploy-on-windows.md
+      - name: Per-machine installation
+        href: per-machine-installation.md
+      - name: OneDrive in Citrix Virtual Apps
+        href: onedrive-in-citrix-virtual-apps-deployment-guide.md
+    - name: Sync app options
+      items:
+      - name: Sync on virtual desktops
+        href: sync-vdi-support.md
+      - name: Updates and rings
+        href: sync-client-update-process.md
+      - name: Transition from previous sync app
+        href: transition-from-previous-sync-client.md
+      - name: Exclude or uninstall previous sync app
+        href: exclude-or-uninstall-previous-sync-client.md
+      - name: Prevent installation
+        href: prevent-installation.md
+    - name: Configure sync on Windows
+      items:
+      - name: Use silent account configuration
+        href: use-silent-account-configuration.md
+      - name: Known Folder Move
+        href: redirect-known-folders.md
+      - name: OneDrive policies
+        href: use-group-policy.md
+      - name: Configure settings with Intune
+        href: configure-sync-intune.md
+      - name: Set Files On-Demand states
+        href: files-on-demand-windows.md
+    - name: Configure sync on Mac
+      items:
+      - name: Deploy and configure on macOS
+        href: deploy-and-configure-on-macos.md
+      - name: Known Folder Move
+        href: redirect-known-folders-macos.md
+      - name: Set Files On-Demand states
+        href: files-on-demand-mac.md
+    - name: Allow syncing only on specific domains
+      href: allow-syncing-only-on-specific-domains.md
+    - name: Work with OneDrive web app when offline
+      href: onedrive-offline.md
+    - name: Advanced sync settings
+      items:
+      - name: How sync works
+        href: sync-process.md
+      - name: B2B Sync
+        href: b2b-sync.md
+      - name: Block file types
+        href: block-file-types.md
+      - name: Sync Admin Reports
+        href: sync-health.md
+  - name: Sharing
+    items:
+    - name: External sharing overview
+      href: external-sharing-overview.md
+    - name: Manage sharing settings
+      href: turn-external-sharing-on-or-off.md
+    - name: Change external sharing for a site
+      href: change-external-sharing-site.md
+    - name: Change external sharing for OneDrive
+      href: user-external-sharing-settings.md
+    - name: Sharable links overview
+      href: shareable-links-anyone-specific-people-organization.md
+    - name: Change default sharing link
+      href: change-default-sharing-link.md
+    - name: External sharing notifications (OneDrive)
+      href: turn-on-external-sharing-notifications.md
+    - name: File Requests
+      href: enable-file-requests.md
+    - name: Plan secure file collaboration
+      href: deploy-file-collaboration.md
+    - name: Integration with Microsoft Entra B2B
+      href: sharepoint-azureb2b-integration.md
+    - name: Restricted domains sharing
+      href: restricted-domains-sharing.md
+    - name: Limit sharing by security group
+      href: manage-security-groups.md
+    - name: Report on sharing
+      href: sharing-reports.md
+    - name: Create a B2B extranet
+      href: create-b2b-extranet.md
+    - name: Advanced permissions customization
+      items:
+      - name: Customize site permissions
+        href: customize-sharepoint-site-permissions.md
+      - name: What is permissions inheritance?
+        href: what-is-permissions-inheritance.md
+      - name: Understanding permission levels
+        href: understanding-permission-levels.md
+      - name: Create a permission level
+        href: how-to-create-and-edit-permission-levels.md
+    - name: Reference
+      items:
+      - name: Default SharePoint groups
+        href: default-sharepoint-groups.md
+      - name: SharePoint and OneDrive error messages
+        href: sharepoint-onedrive-error-message.md
+  - name: Security and access control
+    items:
+    - name: Authentication
+      href: authentication.md
+    - name: Safeguarding your data
+      href: safeguarding-your-data.md
+    - name: Control access from unmanaged devices
+      href: control-access-from-unmanaged-devices.md
+    - name: Control access based on network location
+      href: control-access-based-on-network-location.md
+    - name: Restrict OneDrive access
+      href: limit-access.md
+    - name: Restrict OneDrive content access
+      href: onedrive-site-access-restriction.md
+    - name: Restrict SharePoint site access
+      href: restricted-access-control.md
+    - name: Enable conditional access (OneDrive)
+      href: enable-conditional-access.md
+    - name: Block download from sites and OneDrive
+      href: block-download-from-sites.md
+    - name: Block meeting recording download
+      href: /MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Sign out inactive users
+      href: sign-out-inactive-users.md
+  - name: Version history (Preview)
+    items:
+    - name: Overview (Preview)
+      href: version-overview.md
+    - name: Version controls (Preview)
+      href: document-library-version-history-limits.md
+    - name: Plan version storage (Preview)
+      href: plan-version-storage.md
+    - name: Set organization version limits (Preview)
+      href: set-default-org-version-limits.md
+    - name: Manage site version limits (Preview)
+      items:
+      - name: Set site version limits(Preview)
+        href: site-version-limits.md
+      - name: Generate version storage usage report(Preview)
+        href: version-storage-report-site.md
+    - name: Set library version limits (Preview)
+      href: library-version-limits.md
+    - name: Change OneDrive version limits (Preview)
+      href: version-limits-onedrive-ps.md
+    - name: Trim versions (Preview)
+      href: trim-versions.md
+    - name: Tutorials(Preview)
+      items:
+      - name: Tutorial—Generate version usage report (Preview)
+        href: tutorial-generate-version-usage-report.md
+      - name: Tutorial—Run 'What-If' analysis (Preview)
+        href: tutorial-run-what-if-analysis.md
+      - name: Tutorial—Manage version limits (Preview)
+        href: tutorial-manage-version-limits.md
+      - name: Tutorial—Queue trim job (Preview)
+        href: tutorial-queue-a-trim-job.md
+    - name: FAQs
+      href: faqs-for-versions.md
+    - name: Terms of Service
+      href: terms-of-service-version-history.md
+  - name: Compliance
+    items:
+    - name: Block guest access to newly added files
+      href: sensitive-by-default.md
+    - name: Manage site access based on sensitivity label
+      href: authentication-context-example.md
+    - name: Data access governance reports
+      href: data-access-governance-reports.md
+    - name: Generate AI insights
+      href: ai-insights.md
+    - name: Initiate site access reviews for data access governance reports
+      href: site-access-review.md
+    - name: Privacy, security, and compliance in Microsoft OneDrive
+      href: onedrive-privacy-security-overview.md
+    - name: Default sensitivity label for a document library
+      href: /microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Use information barriers (SharePoint)
+      href: /microsoft-365/compliance/information-barriers-sharepoint?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Use information barriers (OneDrive)
+      href: /microsoft-365/compliance/information-barriers-onedrive?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Configure information barriers compliance assistant
+      href: /microsoft-365/compliance/information-barriers-sharepoint-assistant?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Create an information barriers policy report
+      href: /microsoft-365/compliance/information-barriers-sharepoint-report?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
+    - name: Control notifications
+      href: notifications.md
+    - name: Migration guidance for older features
+      items:
+      - name: Overview
+        href: use-microsoft-purview-risk-and-compliance-solutions.md
+      - name: Migration strategies
+        href: migration-strategies.md
+  - name: Content services
+    items:
+    - name: Term store
+      items:
+      - name: Introduction
+        href: managed-metadata.md
+      - name: Open the term store
+        href: open-term-store-management-tool.md
+      - name: Set up new group for term sets
+        href: set-up-new-group-for-term-sets.md
+      - name: Create and manage terms
+        href: create-and-manage-terms.md
+      - name: Set up new term set
+        href: set-up-new-term-set.md
+      - name: Assign roles and permissions to manage term sets
+        href: assign-roles-and-permissions-to-manage-term-sets.md
+    - name: Content types
+      items:
+      - name: Create a content type
+        href: create-customize-content-type.md
+      - name: Add columns
+        href: add-columns-content-type.md
+      - name: Remove columns
+        href: remove-columns-content-type.md
+      - name: Publish
+        href: publish-content-type.md
+  - name: Search
+    items:
+    - name: Search
+      href: get-started-with-modern-search-experience.md
+    - name: Overview
+      href: overview-of-search.md
+    - name: View search usage reports
+      href: view-search-usage-reports-modern-sites.md
+    - name: Manage search—the admin center
+      href: manage-search-the-admin-center.md
+    - name: Make sure content can be found
+      items:
+      - name: Overview
+        href: make-sure-content-can-be-found.md
+      - name: Make site content searchable
+        href: make-site-content-searchable.md
+      - name: Crawl site content
+        href: crawl-site-content.md
+      - name: Remove search results
+        href: remove-search-results.md
+    - name: Make search results look great
+      items:
+      - name: Overview
+        href: make-search-results-look-great.md
+      - name: Manage Search Center
+        href: manage-search-center.md
+      - name: Specify default Search Center
+        href: specify-default-search-center.md
+      - name: Override default Search Center
+        href: override-default-search-center.md
+      - name: Search Box Web Part
+        href: search-box-web-part.md
+      - name: Search Navigation Web Part
+        href: search-navigation-web-part.md
+      - name: Refinement Web Part
+        href: refinement-web-part.md
+      - name: Use result types and display templates
+        href: use-result-types-and-display-templates.md
+      - name: About display templates
+        href: about-display-templates.md
+      - name: Make pages load faster
+        href: make-pages-load-faster.md
+      - name: Switch from an Enterprise Search Center to Basic
+        href: switch-from-enterprise-search-center-to-basic.md
+    - name: Show relevant search results
+      items:
+      - name: Overview
+        href: show-relevant-search-results.md
+      - name: Manage search schema
+        href: manage-search-schema.md
+      - name: Manage query rules
+        href: manage-query-rules.md
+      - name: Manage query suggestions
+        href: manage-query-suggestions.md
+      - name: Manage result sources
+        href: manage-result-sources.md
+      - name: Manage result types
+        href: manage-result-types.md
+      - name: Manage search dictionaries
+        href: manage-search-dictionaries.md
+      - name: Manage authoritative pages
+        href: manage-authoritative-pages.md
+      - name: Export and import search settings
+        href: export-and-import-search-settings.md
+    - name: Check logs, limits, and reports
+      items:
+      - name: Overview
+        href: check-logs-limits-and-reports.md
+      - name: Set crawl log permissions
+        href: set-crawl-log-permissions.md
+      - name: Query throttling
+        href: query-throttling.md
+      - name: Search limits
+        href: search-limits.md
+      - name: View Popularity Trends and Most Popular Items
+        href: view-popularity-trends-and-most-popular-items.md
+  - name: Advanced
+    items:
+    - name: User profiles
+      items:
+      - name: Manage user profiles
+        href: manage-user-profiles.md
+      - name: Add and edit user profile properties
+        href: add-and-edit-user-profile-properties.md
+      - name: About user profile synchronization
+        href: user-profile-sync.md
+      - name: Remove users from SharePoint
+        href: remove-users.md
+    - name: BCS connections
+      items:
+      - name: BCS retirement
+        href: business-connectivity-services-retirement.md
+      - name: Manage BCS applications
+        href: manage-business-connectivity-service-applications.md
+      - name: Create or edit Secure Store Target Application
+        href: create-or-edit-secure-store-target-application.md
+    - name: Customizations and apps
+      items:
+      - name: Apps overview
+        href: request-app-installation-permissions.md
+      - name: Manage apps
+        href: use-app-catalog.md
+      - name: Manage app requests
+        href: manage-app-requests.md
+      - name: Manage API access
+        href: api-access.md
+      - name: Allow or prevent custom script
+        href: allow-or-prevent-custom-script.md
+      - name: Security considerations of allowing custom script
+        href: security-considerations-of-allowing-custom-script.md
+      - name: Configure SharePoint Store settings
+        href: configure-sharepoint-store-settings.md
+    - name: Settings
+      items:
+      - name: Required URLs and ports
+        href: required-urls-and-ports.md
+      - name: Configure InfoPath Forms Services
+        href: configure-infopath-forms-services.md
+      - name: Hide app tiles on app launcher
+        href: hide-app-tiles-on-app-launcher.md
+      - name: Allow users to create modern pages
+        href: let-users-create-modern-site-pages.md
+    - name: Hybrid
+      href: ../SharePointServer/hybrid/hybrid.md
+    - name: Migration
+      href: /sharepointmigration/migrate-to-sharepoint-online
+    - name: Multi-Geo
+      href: /Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365

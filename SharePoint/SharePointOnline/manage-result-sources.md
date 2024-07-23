@@ -26,7 +26,7 @@ description: "Result sources limit searches to certain content or to a subset of
 
 Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. 
   
-A Global Administrator or SharePoint Administrator can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+A a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
 
 SharePoint has both a classic and a modern search experience. The modern search experience gets results from the default result source. If you change the default result source, this impacts both the classic and modern search experiences. [Learn more about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md).
   

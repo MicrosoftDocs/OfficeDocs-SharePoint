@@ -22,7 +22,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month which contain the latest functionality, performance, and stability improvements for the product.
+During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month which contains the latest functionality, performance, and stability improvements for the product.
 
 ## Policy overview
 
@@ -43,6 +43,9 @@ The product servicing policy timeline for SharePoint Server 2016 is described in
 |May 2019 Public Update - April 2020 Public Update|4/30/2021|
 |May 2020 Public Update - April 2021 Public Update|4/30/2022|
 |May 2021 Public Update - all future Public Updates|7/14/2026|
+
+> [!NOTE]
+> For information on the latest public updates for SharePoint Server 2016, see [SharePoint Server update history](/officeupdates/sharepoint-updates#sharepoint-2016-update-history) article. To know more about the software update process, see [Deploy software updates for SharePoint Server 2016](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md).
 
 ## Frequently Asked Questions
 

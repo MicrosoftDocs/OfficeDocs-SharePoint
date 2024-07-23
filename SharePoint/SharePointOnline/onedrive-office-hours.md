@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 ms.collection:  
 search.appverid:
 - MET150

@@ -1,10 +1,10 @@
 ---
-ms.date: 07/18/2023
+ms.date: 06/11/2024
 title: Change the sharing settings for a site
 ms.reviewer: srice
 ms.author: ruihu
 author: maggierui
-manager: pamgreen
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

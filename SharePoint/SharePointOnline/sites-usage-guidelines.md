@@ -133,6 +133,9 @@ Using the following steps as a template, create your own custom guidance for Sha
 - Setting this policy requires Microsoft 365 Global Administrator permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios.
+
 
 **Resources:** </br>
 - [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy)
