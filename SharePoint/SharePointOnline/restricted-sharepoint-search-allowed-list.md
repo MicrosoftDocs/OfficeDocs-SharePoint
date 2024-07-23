@@ -22,12 +22,12 @@ description: "Learn how to use SharePoint Admin Center active sites report and S
 > [!IMPORTANT]
 > Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
 
-As a Global and SharePoint admin, you can set up an allowed list of Restricted SharePoint Search with a maximum of 100 selected SharePoint sites. For Copilot and organization-wide search, besides the contents that they already have access to, either by direct sharing, visiting, or owning, your organization’s users will only be able to reach the sites on the allowed list, honoring these sites’ current permissions.
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can set up an allowed list of Restricted SharePoint Search with a maximum of 100 selected SharePoint sites. For Copilot and organization-wide search, besides the contents that they already have access to, either by direct sharing, visiting, or owning, your organization’s users will only be able to reach the sites on the allowed list, honoring these sites’ current permissions.
 
 Setting up the allowed list in Restricted SharePoint Search gives you time to review and audit site permissions. But which sites should be included in the allowed list? This article introduces strategies and techniques for curating the allowed list.
 
 ## Steps to create the curated allowed list
-To create a curated allowed list for Restricted SharePoint Search, we recommend you start by creating an initial list of sites. Then you work with your site admins and stakeholders to assess permissions and review the sites. Finally, you can [apply the list with PowerShell scripts as a Global admin](restricted-sharepoint-search-admin-scripts.md).
+To create a curated allowed list for Restricted SharePoint Search, we recommend you start by creating an initial list of sites. Then you work with your site admins and stakeholders to assess permissions and review the sites. Finally, you can [apply the list with PowerShell scripts as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365](restricted-sharepoint-search-admin-scripts.md).
 
 ### Step 1: Get an initial list of sites
 

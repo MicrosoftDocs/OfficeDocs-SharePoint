@@ -27,8 +27,11 @@ As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/m
 In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
 
 A query rule can specify the following three types of actions:
+
 - Promote a search result to appear above ranked results. For example, for the query "sick leave", a query rule could specify a particular result, such as a link to a site that has a statement of company policy regarding time off work.
+
 - Add one or more groups of search results, called result blocks. For example, for a query that contains “Fabrikam sales report”, a query rule might recognize “Fabrikam” as a customer, and then display a result block with pertinent results about Fabrikam from your customer relationship management (CRM) system.
+
 - Change the ranking of search results. For example, for a query that contains “download toolbox”, a query rule could recognize the word “download” as an action term and boost search results that point to a particular download site on your intranet.
   
 You can create query rules at different levels: for the whole tenant, for a site collection, or for a site. When you create query rules at tenant level, the query rules can be used in all site collections. When you create query rules at site collection level, the rules can be used on all sites in the site collection. When you create query rules at site level, the rules can only be used on that site.
@@ -48,11 +51,11 @@ You can add several individual promoted results. When there is more than one pro
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
-  - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
+   - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
-  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
+   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
 
-  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Query Rules**.
+   - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Query Rules**.
     
 2. On the **Manage Query Rules** page, in the **Select a Result Source** list, select a result source for the new query rule. 
     
@@ -64,30 +67,30 @@ You can add several individual promoted results. When there is more than one pro
     
 6. In the **Context** section, do one of the following: 
     
-  - To apply the query rule to all result sources, select **All sources**.
+   - To apply the query rule to all result sources, select **All sources**.
     
-  - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, select **Add Source**, select a result source in the dialog, and then select **Save**.
+   - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, select **Add Source**, select a result source in the dialog, and then select **Save**.
     
 7. In the **Query Conditions** section, do one of the following: 
     
-  - Select one of the conditions listed in [Overview of conditions that make a query rule fire](manage-query-rules.md#BKMK_Conditions_that_fire_query_rule). 
+   - Select one of the conditions listed in [Overview of conditions that make a query rule fire](manage-query-rules.md#BKMK_Conditions_that_fire_query_rule). 
     
-    > [!NOTE]
-    >  The rule fires when any condition is true. 
+     > [!NOTE]
+     > The rule fires when any condition is true. 
   
-    To add more conditions, select **Add Alternate Condition**
-    
-  - Select **Remove Condition** to configure this query rule to fire for every query that users type at the level at which you are creating the rule, and then go to the next step. For example, if you are creating this rule for a site collection, select **Remove Condition** if you want this rule to fire for every query that users type inside any search box in the site collection. 
+     To add more conditions, select **Add Alternate Condition**
+
+   - Select **Remove Condition** to configure this query rule to fire for every query that users type at the level at which you are creating the rule, and then go to the next step. For example, if you are creating this rule for a site collection, select **Remove Condition** if you want this rule to fire for every query that users type inside any search box in the site collection. 
     
 8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
-  - To promote individual results so that they appear towards the top of search results, select **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the dialog, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Choose **Render the URL as a banner instead of as a hyperlink**. Select **Save**.
+   - To promote individual results so that they appear towards the top of search results, select **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the dialog, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Choose **Render the URL as a banner instead of as a hyperlink**. Select **Save**.
     
-    You can add several individual promoted results. When there's more than one promoted result, specify the relative ranking. 
+     You can add several individual promoted results. When there's more than one promoted result, specify the relative ranking. 
     
-  - To promote a group of search results, select **Add Result Block**. For more information, see [Create and display a result block](manage-query-rules.md#__toc343764779) a bit further down. 
+   - To promote a group of search results, select **Add Result Block**. For more information, see [Create and display a result block](manage-query-rules.md#__toc343764779) a bit further down. 
     
-  - To change ranked search results, select **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
+   - To change ranked search results, select **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
     
 9. To make the query rule active during a particular time period, select **Publishing**, and then specify the period.
     
@@ -106,14 +109,14 @@ When you configure a query condition for a result block, you use  *query variabl
     
 3. Configure the query that gives results for the block. In the **Query** section, click **Launch Query Builder** and on the **BASICS** tab do the following: 
     
-  - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
+   - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
     
-  - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
+   - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
     
-  - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
+   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
-    > [!NOTE]
-    > Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green* 
+   > [!NOTE]
+   > Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green* 
   
 4. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
@@ -121,11 +124,11 @@ When you configure a query condition for a result block, you use  *query variabl
     
 6. Preview the final query that will be run by the Content Search Web Part, on the **TEST** tab. The preview is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules. Click **Show more** to display additional information. 
     
-  - The **Query text** shows the final query that'll be run by the Content Search Web Part. It's based on the original query template where dynamic variables are replaced with current values. You might end up making other changes to the query as part of query rules. 
+   - The **Query text** shows the final query that'll be run by the Content Search Web Part. It's based on the original query template where dynamic variables are replaced with current values. You might end up making other changes to the query as part of query rules. 
     
-  - The **Query template** box shows the content of the query template that is applied to the query. 
+   - The **Query template** box shows the content of the query template that is applied to the query. 
     
-  - The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
+   - The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
     
 7. Click **OK** to close the **build your query** dialog. 
     
@@ -150,11 +153,11 @@ You can also dynamically change the sorting order of the search results, based o
     
 2. On the **BASICS** tab, do the following: 
     
-  - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
+   - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
     
-  - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
+   - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
     
-  - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
+   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
 3. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
@@ -162,11 +165,11 @@ You can also dynamically change the sorting order of the search results, based o
     
 5. Preview the final query that will be run by the Content Search Web Part, on the **TEST** tab. The preview is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules. Click **Show more** to display additional information. 
     
-  - The **Query text** shows the final query that'll be run by the Content Search Web Part. It's based on the original query template where dynamic variables are replaced with current values. You might end up making other changes to the query as part of query rules. 
+   - The **Query text** shows the final query that'll be run by the Content Search Web Part. It's based on the original query template where dynamic variables are replaced with current values. You might end up making other changes to the query as part of query rules. 
     
-  - The **Query template** box shows the content of the query template that is applied to the query. 
+   - The **Query template** box shows the content of the query template that is applied to the query. 
     
-  - The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
+   - The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
     
 6. Click **OK** to close the **Build Your Query** dialog. 
     
@@ -205,24 +208,24 @@ When multiple query rules are active for a tenant, a site collection, or a site,
     
 6. In the **Order Selected Rules** dialog, do either of the following, and then click **OK**:
     
-  - Select **Move rules to new group with this name**, and then type a name for the group.
+   - Select **Move rules to new group with this name**, and then type a name for the group.
     
-  - Select **Move rules to existing group** and select a group in the list. 
+   - Select **Move rules to existing group** and select a group in the list. 
     
 7. On the **Manage Query Rules** page: 
     
-  - To change the order in which a rule in a group will fire if it's triggered, change the number ordering of the rule.
+   - To change the order in which a rule in a group will fire if it's triggered, change the number ordering of the rule.
     
-  - To prevent query rules that are ranked lowest in the group from firing, go to the row for the group's query rule that should fire last, and then in the **Actions** column, in the **Continue/Stop** list, select **Stop**.
+   - To prevent query rules that are ranked lowest in the group from firing, go to the row for the group's query rule that should fire last, and then in the **Actions** column, in the **Continue/Stop** list, select **Stop**.
     
 ## Overview of conditions that make a query rule fire
 <a name="BKMK_Conditions_that_fire_query_rule"> </a>
 
-|**Query condition**|**Description**|**Configuration**|**Example**|
+| Query condition | Description | Configuration | Example |
 |:-----|:-----|:-----|:-----|
-|**Query Matches Keyword Exactly** <br/> |The query rule fires when a query exactly matches a word or phrase that you specify.  <br/> |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture."  <br/> |
-|Query Contains Action Term  <br/> |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query.  <br/> |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases.  <br/> |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index.  <br/> |
-|Query More Common in Source  <br/> |The query rule fires if users frequently sent this query from another source that you have already specified.  <br/> |In the **Query is more likely to be used in this source** list, select a result source.  <br/> |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical.  <br/> |
-|Result Type Commonly Clicked  <br/> |The query rule fires if other users frequently clicked a particular result type after typing the same query.  <br/> |In the **Commonly clicked results match result type** list, select a result type.  <br/> |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section).  <br/> |
-|Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |
+|**Query Matches Keyword Exactly** |The query rule fires when a query exactly matches a word or phrase that you specify. |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons. |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture." |
+|Query Contains Action Term |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query. |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases. |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index. |
+|Query More Common in Source |The query rule fires if users frequently sent this query from another source that you have already specified. |In the **Query is more likely to be used in this source** list, select a result source. |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical. |
+|Result Type Commonly Clicked |The query rule fires if other users frequently clicked a particular result type after typing the same query. |In the **Commonly clicked results match result type** list, select a result type. |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section). |
+|Advanced Query Text Match |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires. |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases. |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end. |
 
