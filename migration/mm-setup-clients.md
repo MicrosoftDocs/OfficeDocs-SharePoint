@@ -25,7 +25,7 @@ description: Set up multiple Migration Manager agents
 
 When migrating file shares with Migration Manager, you first need to set up one or more migration agents. This is done by running a setup file on each computer or VM you choose to configure. You can also group agents by assigning particular migrations to a specific set of agents or separating out agents in groups based on geographical location to optimize performance.
 
-When you run the setup file, you are prompted for two sets of credentials. You need Global or SharePoint Administrator credentials, depending on your destination, and Windows credentials with read access to the source. These Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migration tasks.
+When you run the setup file, you are prompted for two sets of credentials. You need SharePoint Administrator credentials, depending on your destination, and Windows credentials with read access to the source. These Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migration tasks.
 
 After an agent is configured, anyone with permission to access the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) can create tasks. The tasks are automatically distributed to one of the available configured agents.
 
@@ -43,7 +43,7 @@ After an agent is configured, anyone with permission to access the [SharePoint a
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
 |[Check required endpoints](mm-prerequisites.md)|Verify that you have the required endpoints configured.|
 |[Multi-geo tenant](#multi-geo-agent-setup)|If you have a multi-geo tenant, be sure to understand where the agent will be installed.|
-|[Pre-provision OneDrive accounts](/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. The migration account must be given site collection administrator rights to each OneDrive site. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).|
+|[Pre-provision OneDrive accounts](/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).|
 |[Government Cloud](mm-gov-cloud.md)|If your tenant resides in a government cloud, you might have extra steps to perform before using Migration Manager.|
 
 > [!TIP]
@@ -72,7 +72,7 @@ To calculate the minimum required number of agents to use for your migration:
 2. From the SharePoint admin center, select <strong><a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a></strong>. You need to sign in with an account that has [SharePoint Administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 3. Under "For file shares", select **Get started**.
 4. Select the **Agents** tab, and then select **Add**.
-1. Select **Download agent setup file**. (You can also download the Agent v2.0 build, currently in public preview. For more details and the download link, please check the '[What’s New](/sharepointmigration/mm-whats-new)' page)
+1. Select **Download agent setup file**. (To get the latest bug fixes, feature improvements or new features, please find the latest public preview download link in '[What’s New](/sharepointmigration/mm-whats-new)')
 6. Open the setup file. On the Welcome page, select **Next**.
 7. Enter the SharePoint admin username and password of the environment where you are migrating your content. Select **Next**.
 8. Enter the password of the Windows account that provides access to **all** the file shares that contain the content you want to migrate. Select **Install**.

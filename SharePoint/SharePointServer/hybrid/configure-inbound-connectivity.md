@@ -27,11 +27,15 @@ description: Learn how to configure inbound connectivity for SharePoint hybrid.
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
 This article contains guidance the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint in Microsoft 365.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
   
 ## Before you begin
 <a name="begin"> </a>
 
- **Accessibility note:**SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md).
+ **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md).
   
 If you haven't already done this, read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) before you start to configure anything.This is important because the planning article helps you make important decisions and record them on the [SharePoint hybrid deployment worksheet](https://go.microsoft.com/fwlink/?LinkId=391835), referred to in the rest of this article as the worksheet. This in turn informs which procedures in this article to use and which you can skip over.
   

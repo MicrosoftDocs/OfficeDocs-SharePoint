@@ -41,6 +41,10 @@ This article uses the following example values for Microsoft Entra OIDC setup:
 | Windows site collection administrator     | contoso\yvand |
 | Email value of the federated site collection administrator   | yvand@contoso.local |
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+
 ## Step 1: Setup identity provider
 
 Perform the following steps to set up OIDC with Microsoft Entra ID:

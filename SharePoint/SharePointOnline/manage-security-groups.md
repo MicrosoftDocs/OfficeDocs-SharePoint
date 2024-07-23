@@ -31,7 +31,7 @@ As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/
 
 3. Select **Allow only users in specific security groups to share externally**, and then select **Manage security groups**.
 
-    ![Manage security groups](media/manage-security-groups.png)
+    :::image type="content" alt-text="Manage security groups" source="media/manage-security-groups.png":::
 
 4. In the **Add a security group** box, search for and select the security groups you want to use (up to 12).
 
