@@ -94,10 +94,8 @@ On the application server that hosts the SharePoint Server Central Administratio
   
 1. Log on to the console as a farm administrator.
     
-2. Connect to Office 365 as one of the following roles:
-   - Global Administrator
-   - Application Administrator
-   - Cloud Application Administrator
+2. Connect to Office 365 as an [Application Administrator](/entra/identity/role-based-access-control/permissions-reference#application-administrator) or [above](/entra/identity/role-based-access-control/permissions-reference#all-roles).
+
     
 3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Configuration Wizard.
     
@@ -201,10 +199,7 @@ On the application server that hosts the SharePoint Server Central Administratio
 
    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
-7. When prompted, use one of the following admin roles to sign in your Office 365 tenant:
-   - Global Admin
-   - Application Admin
-   - Cloud Application Admin
+7. When prompted, sign in your Office 365 tenant as an [Application Administrator](/entra/identity/role-based-access-control/permissions-reference#application-administrator) or [above](/entra/identity/role-based-access-control/permissions-reference#all-roles).
     
 ## Set up search architecture in SharePoint Server for cloud hybrid search
 <a name="BKMK_SetupSearchArch"> </a>
