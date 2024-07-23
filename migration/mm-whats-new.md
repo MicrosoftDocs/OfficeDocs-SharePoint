@@ -35,7 +35,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## July 2024
 
-- **Migration Manager Agent v2.3 (for File Share migration).** Enhanced throttling handling mechanism which reduces task failures caused throttling. The v2.3 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe"https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe")
+- **Migration Manager Agent v2.3 (for File Share migration).** Enhanced throttling handling mechanism which reduces task failures caused throttling. The v2.3 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe)
 
 ## May 2024
 - **Identity mapping flow refinement.** First clicking of "Migrate" button will trigger the identity mapping setting which is a key prerequisite to a successful migration.
