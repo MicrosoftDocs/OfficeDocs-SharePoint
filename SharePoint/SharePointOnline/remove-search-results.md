@@ -23,15 +23,15 @@ description: "As a search administrator, you can temporarily remove items from t
 
 # Remove search results
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents or pages that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been canceled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
+As a user who has [SharePoint administrator](/sharepoint/site-permissions#site-admins) or [above](/sharepoint/site-permissions) permissions in Microsoft 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents or pages that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been canceled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
   
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
    

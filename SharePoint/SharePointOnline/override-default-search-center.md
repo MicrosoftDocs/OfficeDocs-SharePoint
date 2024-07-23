@@ -22,7 +22,7 @@ description: "Learn how to specify how search should behave for a site collectio
 
 # Specify search settings for a site collection or a site
 
-As a Global Administrator or SharePoint Administrator, you can specify how search should behave for a classic site collection or a site. The shared Search Box at the top of most classic pages uses these search settings. Any settings you specify on site collection level applies to all sites within that site collection, unless you specify other settings for the site.
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can specify how search should behave for a classic site collection or a site. The shared Search Box at the top of most classic pages uses these search settings. Any settings you specify on site collection level applies to all sites within that site collection, unless you specify other settings for the site.
 
 You can specify where searches should go for your classic site collection or site by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center on your site where users can search everything in your company, you can enter the URL of that site here. If you do not enter a Search Center URL, searches will go to the default Search Center, available at \<host_name\>/search/.
   
@@ -35,7 +35,7 @@ You can change which search results page queries are sent to. By default, querie
 You can also configure search navigation for a site. With search navigation, users can move quickly between different search vertical pages. Navigation links are shown in the Search Navigation Web Part on search result pages, and can also be shown as a drop-down menu in the search box.
   
 > [!NOTE]
->  It may take up to 30 minutes before changes take effect.
+> It may take up to 30 minutes before changes take effect.
   
 ## Specify search settings for a site collection
 <a name="__toc349306989"> </a>
@@ -48,11 +48,11 @@ You can also configure search navigation for a site. With search navigation, use
     
 4. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
     
-  - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}.
+   - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}.
     
-    Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
+     Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
     
-  - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. If you choose this option, users can choose search vertical in the search box when they enter a query.
+   - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. If you choose this option, users can choose search vertical in the search box when they enter a query.
     
 5. Click **OK**.
 
@@ -69,20 +69,20 @@ By default, a site has the same search settings as the site collection that the 
     
 4. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following:
     
-  - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}.
+   - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}.
     
-    Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
+     Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
     
-  - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. Make sure that the search vertical you want as a default is the first option in the **Configure Search Navigation** section.
+   - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. Make sure that the search vertical you want as a default is the first option in the **Configure Search Navigation** section.
     
 5. To configure search navigation, edit settings in the **Configure Search Navigation** section as required. You can, for example: 
     
-  - Change the display name or the URL of a search vertical
+   - Change the display name or the URL of a search vertical
     
-  - Change the order of the search vertical links
+   - Change the order of the search vertical links
     
-  - Add a search vertical
+   - Add a search vertical
     
-    See [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps.
+     See [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps.
     
 6. Click **OK**.

@@ -40,7 +40,10 @@ The product servicing policy timeline for SharePoint Server 2013 and SharePoint 
 |Service Pack 1  <br/> |4/10/2018  <br/> |
 |April 2017 Public Update - March 2018 Public Update  <br/> |4/10/2019  <br/> |
 |April 2018 Public Update - all future Public Updates  <br/> |4/11/2023  <br/> |
-   
+
+> [!NOTE]
+> For information on the latest public updates for SharePoint Server 2013 and SharePoint Foundation 2013, see [SharePoint Server update history](/officeupdates/sharepoint-updates#sharepoint-2013-update-history) article. To know more about the software update process, see [Deploy software updates for SharePoint Server 2013](../upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md).
+
 ## Frequently Asked Questions
 
  **Question**: **Why is Microsoft doing this?** 

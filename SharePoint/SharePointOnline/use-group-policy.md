@@ -115,11 +115,9 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
 
-- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive automatically-when-signing-in-to-windows)
+- (EnableAutoStart) [Start OneDrive automatically when signing in to Windows](use-group-policy.md#always-start-onedrive-automatically-when-signing-in-to-windows)
 
 - (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
-
-- (EnableODIgnoreFolderListFromGPO) [Exclude specific kinds of folders from being uploaded](use-group-policy.md#exclude-specific-kinds-of-folders-from-being-uploaded)
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
@@ -283,22 +281,6 @@ If you disable or don't configure this setting, OneDrive sync app device and hea
 Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"EnableSyncAdminReports"=dword:00000001`
-
-### Exclude specific kinds of folders from being uploaded
-
-This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain folders to OneDrive or SharePoint. You can enter complete names, such as "Projects" or use the asterisk (*) as a wildcard character to represent a series of characters.
-
-If you enable this setting, the sync app doesn't upload new folders that match the keywords you specified. New folders that match the keywords won't be uploaded.
-
-No errors appear for the skipped folders, and the folders remain in the local OneDrive folder.
-
-The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
-
-If you disable or don't configure this setting, all synced folders will be uploaded.
-
-Enabling this policy creates a list of strings under the following path:
-
-`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreFolderListFromGPO`
 
 ### Exclude specific kinds of files from being uploaded
 
@@ -703,7 +685,9 @@ Enabling this policy sets the following registry key value to 1:
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "EnableHoldTheFile"=dword:00000001`
 
 If you disable this setting, when a sync conflict occurs, both copies of the file are kept.
-  
+
+If this policy is left unconfigured, users are given the choice on how to handle the conflict.
+
 To enable this setting, you must enable [Coauthor and share in Office desktop apps](#coauthor-and-share-in-office-desktop-apps).
   
 ### Coauthor and share in Office desktop apps

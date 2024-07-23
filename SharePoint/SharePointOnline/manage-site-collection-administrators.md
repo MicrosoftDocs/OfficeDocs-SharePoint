@@ -31,10 +31,10 @@ description: "Learn how global and SharePoint admins can add and remove site adm
 
 # Manage site admins
 
-This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to a Microsoft 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
+This article describes how a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to a Microsoft 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
-> If you're a Global Administrator and want info about assigning other users the SharePoint Administrator role in Microsoft 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
+> If you're a Global Administrator and want info about assigning other users the SharePoint Administrator role in Microsoft 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles).Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
   
 ## Add or remove site admins in the new SharePoint admin center
 
@@ -42,16 +42,16 @@ By using the new<a href="https://go.microsoft.com/fwlink/?linkid=2185219" target
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
-> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. In the left column, select a site.
   
 3. Select **Membership** on the command bar to open the details panel. For a group-connected team site, you can add and remove group owners and additional site admins. For other sites, you can add and remove site admins and change the primary admin. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md). 
 
-![Changing admins for a team site](media/change-admins.png)
+   :::image type="content" alt-text="Changing admins for a team site" source="media/change-admins.png":::
 
 4. In the details panel, you can add or remove the owners, members, site admins, site owners, site members, and site visitors.
 
-:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of changing membership from details panel":::
+   :::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of changing membership from details panel":::
 
