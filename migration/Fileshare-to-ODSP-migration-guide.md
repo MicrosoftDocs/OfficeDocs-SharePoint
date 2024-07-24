@@ -127,9 +127,9 @@ The following is a typical migration process that follows Microsoft's best pract
 > [!IMPORTANT]
 > Make sure that the account used to migrate content has permissions on the destination OneDrive.
 
-1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.
 2. Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cut-over event in which network file shares and local file shares are disabled and they are directed to use the SharePoint or OneDrive environment. This method is preferred as it reduces user impact.
-3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you might update your user communication template to address a question you received from a pilot user.</br></br>
+3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you might update your user communication template to address a question you received from a pilot user.
 4. Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cut-over event for all users to switch to using their OneDrive accounts and SharePoint sites. This helps eliminate users from updating duplicate copies of content.
 
 ### Migration offerings

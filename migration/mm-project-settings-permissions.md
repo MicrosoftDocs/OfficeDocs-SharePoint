@@ -50,4 +50,4 @@ Learn more about identity mapping for different cloud scenarios:
 > [!Note]
 > When migrating Google shared drive permissions, we recommend you do the following:
 - Recreate a Microsoft 365 group that has the same memberships as the Google Drive group. You can either create a new group, or edit the group linked to the Team site which you designate as the migration destination of the Google shared drive.
-> - In the Map identites setting, map the original Google Drive group of the shared rive to the Microsoft 365 group.
+> - In the Map identites setting, map the original Google Drive group of the shared drive to the Microsoft 365 group.
