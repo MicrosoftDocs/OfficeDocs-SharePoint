@@ -1,5 +1,5 @@
 ---
-ms.date: 07/19/2024
+ms.date: 07/24/2024
 title: "Manage unlicensed OneDrive user accounts"
 ms.reviewer: rebecca.gee
 manager: jtremper
@@ -28,7 +28,7 @@ In this article, you learn how to identify, monitor, and manage unlicensed OneDr
 ## Changes to storage policies for unlicensed OneDrive accounts
 
 > [!IMPORTANT]
-> Beginning on August 1st 2025, any OneDrive user account that has been unlicensed for longer than 90 days becomes inaccessible to admins and end users. The unlicensed account is automatically archived, viewable via admin tools, but remains inaccessible until administrators take action on them."
+> Beginning January 27, 2025, any OneDrive user account that has been unlicensed for longer than 90 days becomes inaccessible to admins and end users. The unlicensed account is automatically archived, viewable via admin tools, but remains inaccessible until administrators take action on them."
 
 ## Prerequisites
 
