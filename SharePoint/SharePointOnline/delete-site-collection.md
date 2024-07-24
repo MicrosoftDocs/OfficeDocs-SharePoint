@@ -61,7 +61,7 @@ By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_
 
 3. Select **Delete**, and to confirm, select **Delete**.
 
-    ![Deleting a site on the Active sites page](media/delete-site.png)
+    :::image type="content" alt-text="Deleting a site on the Active sites page" source="media/delete-site.png":::
 
 > [!NOTE]
 > To delete a hub site, you first need to unregister it as a hub site.<br/><br>Deleted Microsoft 365 groups are retained for only 30 days.<br><br/>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).

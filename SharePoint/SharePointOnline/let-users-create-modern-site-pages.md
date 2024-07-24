@@ -48,7 +48,12 @@ If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [a
 3. Select or clear **Allow users to create new modern pages**.
 
     > [!NOTE]
-    > Preventing users from creating modern pages hides the following options:<br>- On the Site Pages and Site contents pages > **New** > **Page**.<br>- **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.<br>Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News).
+    > Preventing users from creating modern pages hides the following options:
+    >
+    > - On the Site Pages and Site contents pages > **New** > **Page**.
+    > - **Settings** :::image type="icon" source="media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png"::: > **Add a page**.
+    >
+    > Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News).
 
 4. You can also select to allow or prevent commenting on modern pages. If you allow commenting, it can be turned on or off at the page level.
 
@@ -129,17 +134,17 @@ If you allow the creation of site pages as the organization level, you can turn 
 
 7. Run the following command:
 
-   ```
-   ./SitePagesOut.ps1
+   ```powershell
+   .\SitePagesOut.ps1
    ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
 
-   If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+   If you have a site such as: `https://contoso.sharepoint.com/sites/marketing/northwindcompete`
 
    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
-   And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+   And for the **WebUrl** you would enter:  `sites/marketing/northwindcompete`
 
 ## Allow users to create modern pages on a specific site by using PowerShell
 
@@ -216,13 +221,13 @@ If you prevented users from creating modern pages on a site, follow these steps 
 7. Run the following command:
 
    ```powershell
-   ./SitePagesIn.ps1
+   .\SitePagesIn.ps1
    ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**.
 
-    If you have a site such as "<https://contoso.sharepoint.com/sites/marketing/northwindcompete>"
+    If you have a site such as: `https://contoso.sharepoint.com/sites/marketing/northwindcompete`
 
     For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
 
-    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+    And for the **WebUrl** you would enter:  `sites/marketing/northwindcompete`
