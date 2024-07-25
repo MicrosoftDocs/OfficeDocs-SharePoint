@@ -201,7 +201,8 @@ If your organization wants to use managed term sets to implement formal taxonomi
 ### Managing terms, term sets, and groups
 <a name="__toc262648181"> </a>
 
-The Term Store management tool provides a tree control that you can use to perform most tasks. Your user role for this tool determines the tasks that you can perform. To work on global terms in the Term Store management tool, you must be a Global Administrator or SharePoint Administrator in Microsoft 365, or a Term Store Administrator in SharePoint. To work on terms for a site, you can be a designated Group Manager or Contributor for term sets. 
+The Term Store management tool provides a tree control that you can use to perform most tasks. Your user role for this tool determines the tasks that you can perform. To work on global terms in the Term Store management tool, you must be a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, or a Term Store Administrator in SharePoint. To work on terms for a site, you can be a designated Group Manager or Contributor for term sets.
+
   
 For more information, see [Create and manage groups and term sets](set-up-new-group-for-term-sets.md).
   

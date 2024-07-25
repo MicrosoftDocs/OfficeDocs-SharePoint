@@ -22,12 +22,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how global and SharePoint administrators can change the organization-level sharing settings for SharePoint and OneDrive in Microsoft 365."
+description: "Learn how SharePoint administrators can change the organization-level sharing settings for SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Manage sharing settings for SharePoint and OneDrive in Microsoft 365
 
-This article describes how global administrators and SharePoint administrators in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
+This article describes how SharePoint administrators in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
 - [Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)

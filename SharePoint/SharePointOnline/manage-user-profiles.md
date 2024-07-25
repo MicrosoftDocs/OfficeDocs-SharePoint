@@ -33,7 +33,7 @@ description: Use the SharePoint admin center to create and edit custom user prop
 
 # Manage user profiles in the SharePoint admin center
 
-This article is for Global Administrators and SharePoint Administrators in Microsoft 365. 
+This article is for [SharePoint Administrators](/sharepoint/site-permissions#site-admins) and above (./site-permissions) in Microsoft 365. 
 
 - If you're running SharePoint Server, see [Administer the User Profile service in SharePoint Server](../SharePointServer/administration/user-profile-service-administration.md).
   

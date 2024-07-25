@@ -38,7 +38,7 @@ Every script that runs in a SharePoint page (whether it's an HTML page in a docu
     
 ## You can't audit the insertion of script
 
-As a Global Administrator, security admin, or SharePoint Administrator, you can allow or block custom script capabilities for the whole organization or for specific site collections. (For info on how to do this, see [Allow or prevent custom script](allow-or-prevent-custom-script.md).) However, once you allow scripting, you can't identify:
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles), you can allow or block custom script capabilities for the whole organization or for specific site collections. (For info on how to do this, see [Allow or prevent custom script](allow-or-prevent-custom-script.md).) However, once you allow scripting, you can't identify:
   
 - What code has been inserted
     

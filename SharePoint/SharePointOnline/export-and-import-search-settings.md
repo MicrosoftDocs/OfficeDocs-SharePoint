@@ -22,7 +22,8 @@ description: "Learn how to export and import customized search configuration set
 
 # Export and import customized search configuration settings
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
+
   
 ## Overview
 <a name="__toc351540657"> </a>
@@ -33,13 +34,13 @@ When you import a search configuration file, SharePoint creates and enables each
   
 This table shows the settings that you can export or import. For each setting, you'll find dependencies on other customized search configuration settings. If the customized search configuration settings depend on a customized search configuration setting at a different level, for example, if a site query rule depends on a result source at site collection level, you must export and import settings at all of the relevant levels.
   
-|**Customized search configuration setting**|**Dependency on other customized search configuration settings**|
+| Customized search configuration setting | Dependency on other customized search configuration settings |
 |:-----|:-----|
-|Query rules. These include result blocks, promoted results, and user segments.  <br/> |Result sources, result types, search schema, ranking model.  <br/> |
-|Result sources  <br/> |Search schema  <br/> |
-|Result types  <br/> |Search schema, result sources, display templates  <br/> |
-|Search schema  <br/> |None  <br/> |
-|Ranking model  <br/> |Search schema  <br/> |
+|Query rules. These include result blocks, promoted results, and user segments. |Result sources, result types, search schema, ranking model. |
+|Result sources |Search schema |
+|Result types |Search schema, result sources, display templates |
+|Search schema |None |
+|Ranking model |Search schema |
    
 ### Conditions that can cause the import to fail
 <a name="__toc351540658"> </a>
@@ -70,8 +71,8 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select Open.
     
@@ -102,8 +103,8 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
    
@@ -162,43 +163,43 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 If managed properties or aliases contain any of the listed characters, the import of the customized search schema that contains these properties will fail.
   
-|**Character**|**Name**|
+| Character | Name |
 |:-----|:-----|
-||space  <br/> |
-|:  <br/> |colon  <br/> |
-|;  <br/> |semicolon  <br/> |
-|,  <br/> |comma  <br/> |
-|(  <br/> |opening parenthesis  <br/> |
-|)  <br/> |closing parenthesis  <br/> |
-|[  <br/> |opening bracket  <br/> |
-|]  <br/> |closing bracket  <br/> |
-|{  <br/> |opening brace  <br/> |
-|}  <br/> |closing brace  <br/> |
-|%  <br/> |percent  <br/> |
-|$  <br/> |dollar sign  <br/> |
-|_  <br/> |underscore  <br/> |
-|+  <br/> |plus sign  <br/> |
-|!  <br/> |exclamation point  <br/> |
-|\*  <br/> |asterisk  <br/> |
-|=  <br/> |equal sign  <br/> |
-|&amp;  <br/> |ampersand  <br/> |
-|?  <br/> |question mark  <br/> |
-|@  <br/> |at sign  <br/> |
-|#  <br/> |number sign  <br/> |
-|\  <br/> |backslash  <br/> |
-|~  <br/> |tilde  <br/> |
-|\<  <br/> |opening angle bracket  <br/> |
-|\>  <br/> |closing angle bracket  <br/> |
-|\|  <br/> |pipe  <br/> |
-|`  <br/> |grave accent  <br/> |
-|^  <br/> |caret  <br/> |
-|\'  <br/> |escape sequence  <br/> |
-|\"  <br/> |escape sequence  <br/> |
+||space |
+|: |colon |
+|; |semicolon |
+|, |comma |
+|( |opening parenthesis |
+|) |closing parenthesis |
+|[ |opening bracket |
+|] |closing bracket |
+|{ |opening brace |
+|} |closing brace |
+|% |percent |
+|$ |dollar sign |
+|_ |underscore |
+|+ |plus sign |
+|! |exclamation point |
+|\* |asterisk |
+|= |equal sign |
+|&amp; |ampersand |
+|? |question mark |
+|@ |at sign |
+|# |number sign |
+|\ |backslash |
+|~ |tilde |
+|\< |opening angle bracket |
+|\> |closing angle bracket |
+|\| |pipe |
+|` |grave accent |
+|^ |caret |
+|\' |escape sequence |
+|\" |escape sequence |
 
 ## Known issue
 <a name="__toc351540666"> </a>
 
- **Unable to load Search Configuration List**
+**Unable to load Search Configuration List**
 
 When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Configuration List** could not display properly and you might receive a "File not found" error.
 
@@ -206,7 +207,7 @@ This issue only blocks the UI from displaying the list of search configuration f
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
 
- **Unable to import stale search configuration XML file**
+**Unable to import stale search configuration XML file**
 
 If the search configuration file was exported a long time ago, the import might fail.
 

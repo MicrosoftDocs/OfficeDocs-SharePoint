@@ -34,6 +34,9 @@ Hybrid Configuration Wizard is located in Microsoft 365 for enterprises, and you
   
 > [!NOTE]
 > If you're using a pop-up blocker with your browser, be sure to turn it off before running the Hybrid Configuration Wizard.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
   
  **To run Hybrid Configuration Wizard**
   

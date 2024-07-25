@@ -33,6 +33,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Larger file support.** The size limit of a single file that can be migrated will be increased to improve migration fidelity.
 - **Migration flow refinement.** Refine migration setting and destination upload process to be more intuitive.
 
+## July 2024
+
+- **Migration Manager Agent v2.3 (for File Share migration).** Enhanced throttling handling mechanism which reduces task failures caused throttling. The v2.3 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe)
+
 ## May 2024
 - **Identity mapping flow refinement.** First clicking of "Migrate" button will trigger the identity mapping setting which is a key prerequisite to a successful migration.
 - **Identity mapping capacity.** The entry limit for identity mapping will be raised from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features are enabled to help you better organize identity mapping.
@@ -47,7 +51,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## February 2024
 - **Download limit increase.** Now download up to 5,000 tasks for summary reports and 500 tasks for detailed reports. [Learn more about report types and download limits](mm-cloud-reports.md).
-- **Migration Manager Agent v2.0 (for File Share migration).** Enhanced multitasking and report uploading capabilities improve agent performance. The v2.0 build is now generally available: [Download link](https://spmtreleasescus.blob.core.windows.net/download/A9EB5CE93791/v2.0/agentsetup.exe).
+- **Migration Manager Agent v2.0 (for File Share migration).** Enhanced multitasking and report uploading capabilities improve agent performance. The v2.0 build is now generally available: [Download link](https://spmtreleasescus.blob.core.windows.net/mmagent/agentsetup.exe).
 - **Recent action panel redesign.** Redesigned for a smoother report downloading experience, with progress prompts for download job status updates.
 - **Migration admin role.** New role to grant users only migration admin privileges for seamless migrations within Microsoft Admin Center. Applicable to cloud migrations from Google Drive, Dropbox, Box, and Egnyte.
 
