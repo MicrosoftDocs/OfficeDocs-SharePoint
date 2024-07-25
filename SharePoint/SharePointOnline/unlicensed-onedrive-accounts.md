@@ -1,5 +1,5 @@
 ---
-ms.date: 07/24/2024
+ms.date: 07/25/2024
 title: "Manage unlicensed OneDrive user accounts"
 ms.reviewer: rebecca.gee
 manager: jtremper
@@ -55,7 +55,7 @@ You can identify unlicensed OneDrive accounts using the SharePoint admin center 
 2. Go to **Reports** and select **User reports**.
 3. Under **OneDrive usage**, select **Unlicensed users**.
 4. You can download the report as a CSV file.
-5. Starting March 2025, an interactive UI will be available. You can select a username to view the details.
+5. Starting January 2025, an interactive UI will be available. You can select a username to view the details.
 
 The report shows the username, email address, account type, and last activity date of each unlicensed OneDrive account.
 
