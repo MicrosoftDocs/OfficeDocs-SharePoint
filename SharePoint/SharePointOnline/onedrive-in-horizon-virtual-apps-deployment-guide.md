@@ -42,21 +42,21 @@ For more information on configuring published apps with Omnissa Horizon, see the
 
 1. Add the following **Import / Export** settings:
 
-`[IncludeRegistryTrees]` \
-`HKCU\Software\Microsoft\Office` \
-`HKCU\Software\Microsoft\Internet Explorer` \
-`HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings` \
-`HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached` \
-`HKCU\Software\Microsoft\OneDrive`
+    `[IncludeRegistryTrees]` \
+    `HKCU\Software\Microsoft\Office` \
+    `HKCU\Software\Microsoft\Internet Explorer` \
+    `HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings` \
+    `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached` \
+    `HKCU\Software\Microsoft\OneDrive`
 
-`[IncludeFolderTrees]` \
-`<Appdata>\Microsoft\Windows\Recent` \
-`<Appdata>\Microsoft\crypto` \
-`<Appdata>\SystemCertificates` \
-`<LocalAppdata>\Microsoft\IdentityCache` \
-`<LocalAppdata>\Microsoft\Internet Explorer` \
-`<LocalAppdata>\Microsoft\Windows\INetCache` \
-`
+    `[IncludeFolderTrees]` \
+    `<Appdata>\Microsoft\Windows\Recent` \
+    `<Appdata>\Microsoft\crypto` \
+    `<Appdata>\SystemCertificates` \
+    `<LocalAppdata>\Microsoft\IdentityCache` \
+    `<LocalAppdata>\Microsoft\Internet Explorer` \
+    `<LocalAppdata>\Microsoft\Windows\INetCache` \
+    `
 
 ## Validate OneDrive as default save location
 
