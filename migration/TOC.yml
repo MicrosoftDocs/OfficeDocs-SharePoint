@@ -114,24 +114,52 @@ Items:
         href: spmt-workflow-report-and-error-codes.md
   - name: Migration Manager Reference
     items:
-    - name: File size limitations
-      href: mm-file-size-limitations.md
     - name: Migration Admin role
       href: mm-migration-admin-role.md
+    - name: File size limitations
+      href: mm-file-size-limitations.md
     - name: Unsupported files
       href: mm-unsupported-files.md
-    - name: Project settings
-      href: mm-project-settings.md
+    - name: Cloud scenarios
       items:
-      - name: Permissions
-        href: mm-project-settings-permissions.md
-      - name: Google sheet scan settings
-        href: mm-google-sheet-scan.md
-    - name: Migration time estimator
-      href: mm-time-estimator.md
-    - name: Reports and codes for cloud migrations
-      href: mm-cloud-reports.md
-    - name: File share Reference
+      - name: Project settings
+        href: mm-project-settings.md
+        items:
+        - name: Permissions
+          href: mm-project-settings-permissions.md
+        - name: Google sheet scan settings
+          href: mm-google-sheet-scan.md
+      - name: Migration time estimator
+        href: mm-time-estimator.md
+      - name: Reports and codes for cloud migrations
+        href: mm-cloud-reports.md
+      - name: Box Reference
+        items:
+        - name: FAQs
+          href: mm-faqs-box.md
+        - name: Format a CSV file for bulk upload
+          href: mm-box-bulk-upload-source-paths-csv.md
+        - name: Troubleshooting
+          href: mm-box-troubleshooting.md
+      - name: Google  Reference
+        items:
+        - name: FAQs
+          href: mm-faqs-google.md
+        - name: Bulk upload Google drives using a CSV file
+          href: mm-google-bulk-upload-source-paths-csv.md
+      - name: Dropbox  Reference
+        items:
+        - name: FAQs
+          href: mm-faqs-dropbox.md
+        - name: Bulk upload Dropbox accounts using a CSV file
+          href: mm-dropbox-bulk-upload-source-paths-csv.md
+      - name: Egnyte  Reference
+        items:
+        - name: FAQs
+          href: mm-faqs-egnyte.md
+        - name: Bulk upload Egnyte folders using a CSV file
+          href: mm-egnyte-bulk-upload.md
+    - name: File share scenario
       items:
       - name: Prerequisites and endpoints
         href: mm-prerequisites.md
@@ -159,33 +187,7 @@ Items:
         href: mm-faqs.md
       - name: How to reinstall a Migration agent
         href: mm-reinstall-agent.md
-    - name: Box Reference
-      items:
-      - name: FAQs
-        href: mm-faqs-box.md
-      - name: Format a CSV file for bulk upload
-        href: mm-box-bulk-upload-source-paths-csv.md
-      - name: Troubleshooting
-        href: mm-box-troubleshooting.md
-    - name: Google  Reference
-      items:
-      - name: FAQs
-        href: mm-faqs-google.md
-      - name: Bulk upload Google drives using a CSV file
-        href: mm-google-bulk-upload-source-paths-csv.md
-    - name: Dropbox  Reference
-      items:
-      - name: FAQs
-        href: mm-faqs-dropbox.md
-      - name: Bulk upload Dropbox accounts using a CSV file
-        href: mm-dropbox-bulk-upload-source-paths-csv.md
-    - name: Egnyte  Reference
-      items:
-      - name: FAQs
-        href: mm-faqs-egnyte.md
-      - name: Bulk upload Egnyte folders using a CSV file
-        href: mm-egnyte-bulk-upload.md
-    - name: Stream Reference
+    - name: Other scenarios
       items:
       - name: Bulk upload Stream source paths into Migration Manager
         href: mm-stream-csv.md
