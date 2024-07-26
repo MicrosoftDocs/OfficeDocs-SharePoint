@@ -69,8 +69,8 @@ To assign a license to an unlicensed OneDrive account, you need to assign a Micr
 
 You can also bulk assign licenses using either of the following methods:
 
-- [Assign a license to users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
-- [Assign a license to users with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
+- [Assign licenses to user accounts in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Assign licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 
 ### Delete unlicensed OneDrive account
 
@@ -86,14 +86,10 @@ Microsoft 365 Archive charges for both storage and file reactivation. For more i
 
 ## Related topics
 
-[OneDrive retention and deletion](retention-and-deletion.md)
-[Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/archive/archive-pricing)
-
-[Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-with-microsoft-365-archive)
-
-[Set the OneDrive retention for deleted users](set-retention.md)
-[Create retention labels for exceptions](/purview/create-retention-labels-data-lifecycle-management)
-
-[Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user)
-
-[Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
+- [OneDrive retention and deletion](retention-and-deletion.md)
+- [Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/archive/archive-pricing)
+- [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-with-microsoft-365-archive)
+- [Set the OneDrive retention for deleted users](set-retention.md)
+- [Create retention labels for exceptions](/purview/create-retention-labels-data-lifecycle-management)
+- [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user)
+- [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
