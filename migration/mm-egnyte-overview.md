@@ -47,11 +47,12 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
 - **Access to the destination**: You must be one of the following roles in the Microsoft 365 tenant where you want to migrate your content: 
 
   - Global admin
-  
   - OneDrive/SharePoint admin
-  
   - User that is granted with the "[Microsoft 365 Migration Administrator](/sharepointmigration/mm-migration-admin-role)" role
-  
+
+>[!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 - **Access to the source**: Have Egnyte account credentials that have read access to any Egnyte user account you plan to migrate.
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
