@@ -56,7 +56,7 @@ For more information on configuring published apps with Omnissa Horizon, see the
     `<LocalAppdata>\Microsoft\IdentityCache` \
     `<LocalAppdata>\Microsoft\Internet Explorer` \
     `<LocalAppdata>\Microsoft\Windows\INetCache` \
-    `
+
 
 ## Validate OneDrive as default save location
 
