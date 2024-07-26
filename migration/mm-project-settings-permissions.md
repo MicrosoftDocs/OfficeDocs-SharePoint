@@ -33,8 +33,8 @@ File permissions migration can be enabled by Project settings:
 Once enabled, the destination file permissions will be the same as they are in source.  This ensures that migrated files are shared with the same users as before migration.  
 
 > [!Note]
-- Migrating file permissions may slow down your migration process.
-> - While permissions are migrated, 'Share With Me' information cannot be surfaced for now. 
+> - Migrating file permissions may slow down your migration process.
+> - While permissions are migrated, 'Share With Me' information in OneDrive cannot be surfaced for now. 
 ## Map identities
 
 Identity Mapping is when you match the user and group identities that have access to your source environment and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities aren't properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
