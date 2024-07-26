@@ -42,12 +42,16 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 
 To get started:
 
-Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Box** to create a migration project, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Box** to create a migration project. Make sure that you have:
 
-Make sure that you have:
+- **Access to the destination**: You must be one of the following roles in the Microsoft 365 tenant where you want to migrate your content: 
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-
+  - Global admin
+    
+  - OneDrive/SharePoint admin
+    
+  - User that is granted with the "[Microsoft 365 Migration Administrator](/sharepointmigration/mm-migration-admin-role)" role
+    
 - **Access to the source**: Have Box account credentials that have read access to any Box user account you plan to migrate.
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
