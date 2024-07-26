@@ -34,7 +34,7 @@ Once enabled, the destination file permissions will be the same as they are in s
 
 > [!Note]
 > - Migrating file permissions may slow down your migration process.
-> - While permissions are migrated, 'Share With Me' information cannot be surfaced. In the OneDrive 'Shared' tab, the 'With You' information will be empty after migration.
+> - While permissions are migrated, 'Share With Me' information in OneDrive can't be surfaced for now. 
 ## Map identities
 
 Identity Mapping is when you match the user and group identities that have access to your source environment and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities aren't properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
@@ -42,12 +42,14 @@ Identity Mapping is when you match the user and group identities that have acces
 Learn more about identity mapping for different cloud scenarios:
 
 - [Google Drive](mm-google-step5-map-identities.md)
-- [Dropbox](mm-dropbox-step5-map-identities.md)
-- [Box](mm-box-step5-map-identities.md)
-- [Egnyte](mm-egnyte-step5-map-identities.md)
 
+- [Dropbox](mm-dropbox-step5-map-identities.md)
+
+- [Box](mm-box-step5-map-identities.md)
+
+- [Egnyte](mm-egnyte-step5-map-identities.md)
 
 > [!Note]
 > When migrating Google shared drive permissions, we recommend you do the following:
-- Recreate a Microsoft 365 group that has the same memberships as the Google Drive group. You can either create a new group, or edit the group linked to the Team site which you designate as the migration destination of the Google shared drive.
-> - In the Map identites setting, map the original Google Drive group of the shared rive to the Microsoft 365 group.
+> - Recreate a Microsoft 365 group that has the same memberships as the Google Drive group. You can either create a new group, or edit the group linked to the Team site which you designate as the migration destination of the Google shared drive.
+> - In the "Map identites" setting, map the original Google Drive group of the shared Drive to the Microsoft 365 group recreated above.
