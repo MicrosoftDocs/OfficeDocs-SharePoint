@@ -87,7 +87,7 @@ Microsoft 365 Archive charges for both storage and file reactivation. For more i
 ## Related topics
 
 - [OneDrive retention and deletion](retention-and-deletion.md)
-- [Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/archive/archive-pricing)
+- [Pricing model for Microsoft 365 Archive](/microsoft-365/archive/archive-pricing)
 - [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-with-microsoft-365-archive)
 - [Set the OneDrive retention for deleted users](set-retention.md)
 - [Create retention labels for exceptions](/purview/create-retention-labels-data-lifecycle-management)
