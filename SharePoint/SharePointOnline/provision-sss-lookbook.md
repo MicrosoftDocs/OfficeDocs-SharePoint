@@ -24,7 +24,6 @@ description: "Provision the SharePoint Success Site from the look book."
 # Provision the SharePoint Success Site from the look book
 
 > [!IMPORTANT]
-
 > Look book is currently unavailable, please follow [steps here](/sharepoint/provision-sss#provision-the-sharepoint-success-site-to-your-tenant-from-the-learning-pathways-administrative-page) to provision the SharePoint Success Site. 
 
 

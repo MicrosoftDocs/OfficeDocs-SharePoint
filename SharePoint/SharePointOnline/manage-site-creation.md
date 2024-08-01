@@ -45,7 +45,7 @@ As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/
     
 2. Select **Site creation**. The **Site creation** page appears.
 
-   :::image type="content" source="media/site-creation-screen.png" alt-text="The screenshot that shows the Site creation page." lightbox="media/site-creation-page.png":::
+   :::image type="content" source="media/site-creation-screen.png" alt-text="The screenshot that shows the Site creation page.":::
 
 3. If you want users to be able to create sites, select **Users can create SharePoint sites**. This setting controls whether users can create sites from SharePoint, OneDrive, the PnP PowerShell cmdlet, and the REST API. This setting doesn't affect whether users can create teams or Microsoft 365 groups and their connected sites.
  
@@ -69,7 +69,7 @@ Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="
     
 2. Under **Site Creation**, select to show or hide the **Create site** command.
 
-    ![Screenshot of Site creation settings in the classic SharePoint admin center.](media/classic-site-creation-settings.png)
+   :::image type="content" alt-text="Screenshot of Site creation settings in the classic SharePoint admin center." source="media/classic-site-creation-settings.png" lightbox="media/classic-site-creation-settings.png":::
 
    - If you choose **Disable subsite creation for all sites**, it will hide the subsite creation command (including classic) and disable users from being able to create new subsites through a URL or API. 
    - If you choose **Enable subsite creation for classic sites only**, users will be able to create new subsites for classic sites. 
