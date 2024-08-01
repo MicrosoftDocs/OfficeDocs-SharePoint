@@ -34,13 +34,9 @@ The following endpoints are required by workflow migration.
 
 |Endpoint|
 |---|
-|<https://service.powerapps.com>|
 |<https://api.bap.microsoft.com>|
-|<https://gov.service.powerapps.us>|
 |<https://gov.api.bap.microsoft.us>|
-|<https://high.service.powerapps.us>|
 |<https://high.api.bap.microsoft.us>|
-|<https://service.apps.appsplatform.us>|
 |<https://api.bap.appsplatform.us>|
 
 ## Configure Power Automate
