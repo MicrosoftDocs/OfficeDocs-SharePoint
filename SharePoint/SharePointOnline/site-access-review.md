@@ -40,7 +40,8 @@ Site access review involves site owners in the review process so they can addres
 To use the site access review feature, you must fulfill the following prerequisites:
 
 - [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md) subscription
-- Admin credentials to access the SharePoint admin center
+- Admin credentials to access the SharePoint admin center to initiate an access review
+- Site owner to respond to the review request, take actions and complete the review
 
 ## How site access review works
 
