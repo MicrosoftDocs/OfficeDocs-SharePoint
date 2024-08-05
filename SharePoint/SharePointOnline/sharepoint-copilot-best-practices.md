@@ -66,10 +66,6 @@ A SharePoint admin can run reports in the SharePoint Admin Center to discover br
 
 These reports can be downloaded as CSV files. You can also build your own report by using [Microsoft Graph Data Connect for SharePoint](/graph/data-connect-datasets#onedrive-and-sharepoint-online).  
 
-> [!Note]
->
-> Reports on "Everyone Except External Users" is currently (March 2024) in private preview.Use [this link](https://aka.ms/DAGPreviewSignUp) to sign up. 
-
 ### Step 4: Take remediation actions to address oversharing
 
 Once you have identified the SharePoint sites with potential oversharing issues, it's time to act. Your actions should consider several factors, including data sensitivity, the severity of the oversharing, and the need to maintain business operations. These actions include:
@@ -79,7 +75,7 @@ Once you have identified the SharePoint sites with potential oversharing issues,
    1. For high-profile instances, you may want to determine who/how/when the oversharing took place.  Use the [Change History](/sharepoint/change-history-report) feature to see what changes may have contributed to the oversharing.
 1. For cases where SharePoint admin needs to consult with site owners/admins for action:
    1. The SharePoint admin can reach out to the owners of sites identified in data access governance reports. SharePoint admin can advise site owners on the overshared files/folders in that site and request them to act to manually remove unnecessary access.
-   1. In the spring of 2024, we'll be releasing a new [SharePoint Advanced Management](/sharepoint/advanced-management) feature called "Site Access Review" that a SharePoint admin can initiate from any 'Data Access Governance' report. Site owners will use a new Site Access Review UI to review broadly shared content on their side and either take remediation action to remove overly broad permissions or provide business justification to the SharePoint admin.
+   1. A new [SharePoint Advanced Management](/sharepoint/advanced-management) feature called "[Site Access Review](site-access-review.md)" allows a SharePoint admin to initiate a review from any 'Data Access Governance' report. Site owners will use a new Site Access Review UI to review broadly shared content on their side and either take remediation action to remove overly broad permissions or provide business justification to the SharePoint admin.
 
 ### Step 5: Set restricted access control and block file download policies on business-critical sites
 
