@@ -103,7 +103,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Teams on the web and Teams desktop app | The first time someone tries to access the Files tab for a team or private channel, they receive an error. The tab will work for all users after that. | None |
 | Teams on the web and Teams desktop app | It can take 72 hours for meeting notes to work (for both current and previous meetings). | None |
 | Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) don't work.| Remove and re-add the folders. |
-| Teams on the web and Teams desktop app | Document libraries added as a tab don't work. | Remove and re-add the tab. |
+| Teams on the web and Teams desktop app | Document libraries & SharePoint Lists added as tabs don't work. | Remove and re-add the tabs. |
 | Teams on the web and Teams desktop app | Embedded images in Wikis aren't displayed. | Edit the Wiki.mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
 | Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
