@@ -84,9 +84,9 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## July 2023
 
-- **New. Multi-project support on a single source.** You can now create up to five projects for each cloud source and easily switch between projects. Included for Google, Box, Dropbox, and Egnyte.
+- **New. Multi-project support.** You can now create up to 5 separate projects per cloud source. For instance, you can create and simultaneously migrate up to 5 separate Box tenants. This makes acquisitions and mergers easier to consolidate into one M365 tenant.
 
- 
+
 ## June 2023
 
 - **New. File level permission migration.** For Google Drive migration, customers can now enable File Level Permission (FLP) migration in the "Settings - Sharing & metadata" section, located in the top right corner.
