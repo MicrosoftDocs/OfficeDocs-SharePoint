@@ -335,6 +335,7 @@ Status codes provide the final status of the scan and migration tasks. Status co
 |261|Failed|Quota API Exceeded on Destination name|
 |300|In progress|Running|
 |302|In progress|Waiting for Microsoft batch processing|
+|303|In progress|Waiting for Forms migration|
 |400|Failed|General failure. Try again.|
 |401|Failed|Couldn't upload anything. Try again.|
 |402|Failed|Connector authorization failed. Try reauthorizing Source name or Destination name|
