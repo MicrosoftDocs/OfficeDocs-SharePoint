@@ -35,11 +35,11 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## July 2024
 
-- **Migration Manager Agent v2.3 (for File Share migration).** Enhanced throttling handling mechanism which reduces task failures caused throttling. The v2.3 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe)
+- **Migration Manager Agent v2.3 (for File Share migration).** Enhanced throttling handling mechanism, which reduces task failures caused throttling. The v2.3 build is now in public preview: [Download link](https://spmtreleasescus.blob.core.windows.net/download/697b3ea6-1f82-4185-9e69-5111a6a90d75/agentsetup.exe)
 
 ## May 2024
-- **Identity mapping flow refinement.** First clicking of "Migrate" button will trigger the identity mapping setting which is a key prerequisite to a successful migration.
-- **Identity mapping capacity.** The entry limit for identity mapping will be raised from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features are enabled to help you better organize identity mapping.
+- **Identity mapping flow refinement.** First clicking of "Migrate" button triggers the identity mapping setting that is a key prerequisite to a successful migration.
+- **Identity mapping capacity.** The entry limit for identity mapping is raising from 50K to 500K to better support large migrations. Additionally, single entry addition, identity exporting, and identity clearing features are enabled to help you better organize identity mapping.
 
 ## April 2024
 
@@ -84,7 +84,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## July 2023
 
-- **New. Multi-project support.** You can now create up to 5 separate projects per cloud source. For instance, you can create and simultaneously migrate up to 5 separate Box tenants. This makes acquisitions and mergers easier to consolidate into one M365 tenant.
+- **New. Multi-project support.** You can now create up to 5 separate projects per cloud source. For instance, you can create and simultaneously migrate up to 5 separate Box tenants. Multi-project feature makes acquisitions and mergers easier to consolidate into one M365 tenant.
 
 
 ## June 2023
@@ -95,7 +95,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## May 2023
 
 - **New. Overview page.** A new guided tour can be accessed from the overview page, to walk you through key migration steps and present general overviews of each core migration step. Links to relevant documentation are available at each stage.
-- **New. Migration filter setting.**  You can now filter content to be migrated by factors such as dates, file types, and invalid characters. Select filters from the migration setting panel that displays when scanned tasks are "copied to migration."
+- **New. Migration filter setting.**  You can now use factors such as dates, file types, and invalid characters to filter content for migration. Select filters from the migration setting panel that displays when scanned tasks are "copied to migration."
 - **Change. Summary report limit increase.** When bulk-downloading a scan or migration summary report for selected tasks, you can select up to 1000 tasks. The previous limit was 100.
 
 
