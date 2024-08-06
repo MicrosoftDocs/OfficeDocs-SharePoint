@@ -22,7 +22,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 # Tutorial: Run 'What-If' analysis on version storage report file (Preview)
 
-In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either automatic or manual limits on version storage or impacted users. You will learn how to: :
+In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either automatic or manual limits on version storage or impacted users. You will learn how to: 
 
 - Run impact analysis of setting Automatic limits.
 - Run impact analysis of expiring versions older than specified days.

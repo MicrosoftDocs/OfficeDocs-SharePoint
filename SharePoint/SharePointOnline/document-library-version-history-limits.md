@@ -32,7 +32,7 @@ The following table summarizes the various ways of managing version history limi
 
 | Area | How does it work? |
 |:-----|:-----|
-| **Set default version history limits for new document libraries created in your organization** | Default organization version history limits are set on all new document libraries created across existing and new SPO sites. |
+| **Set default organization version history limits** | Default organization version history limits are set on all new document libraries created across existing and new SPO sites. |
 | **Set site or library level version history limits** | If needed, site admins can break inheritance from the default organization limits for an individual site or library. |
 | **Report on version storage on a site** | Run a report to analyze version storage use of existing versions, understand how a version limit works before configuring limits, or analyze the impact of trimming existing versions before scheduling trim job. |
 | **Trim existing versions** | Site admins can choose to trim existing versions by queuing a timer job to execute the trimming. |
