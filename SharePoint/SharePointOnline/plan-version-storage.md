@@ -64,7 +64,7 @@ Take an example of a file where 500 versions were created in May, June, and July
 
 :::image type="content" source="media/version-history/version-activity.png" lightbox="media/version-history/version-activity.png" alt-text="Screenshot of compare versions.":::
   
-## Understand Version storage under Automatic limits
+### Understand Version storage under Automatic limits
 
 The algorithm behind automatic version history limits is based on the design principle that restores value of a version degrades as the version ages. When Automatic limit is selected, SharePoint deletes (thins out) intermittent older versions that are least likely to be used, while preserving sufficient high-value versions. In case restores are required, it ensures that users have access to more versions in the recent past and fewer farther back in time.
 
@@ -83,7 +83,7 @@ Take an example of file with a consistent version creation pattern between the m
 
 :::image type="content" source="media/version-history/automatic-limit-impact-version.png" lightbox="media/version-history/automatic-limit-impact-version.png" alt-text="Screenshot of automatic limit impact.":::
 
-## Determine right Count or Expiration version limits
+### Determine right Count or Expiration version limits
 
 In considering which limits to set, we recommend a balanced approach:
 
