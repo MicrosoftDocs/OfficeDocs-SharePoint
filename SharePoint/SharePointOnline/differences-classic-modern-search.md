@@ -47,5 +47,5 @@ You use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_b
 - If you temporarily [remove a search result](remove-search-results.md), the result is removed in both search experiences.
 - The classic search experience lets admins define **promoted results** to help users find important content, while the Microsoft Search experience uses **bookmarks** to achieve the same. For clouds which support **bookmarks**, only **bookmarks** will show at the organization level on the **All** tab. For clouds without **bookmark** support, promoted results will show on the **All** tab if they searched across the whole organization. On site or hub site scope, promoted results defined at that site will show. In addition promoted results defined at the tenant level will show **All** tab.
 
-> [!TIP]
-> If you want the the same bookmark to appear for both the organization level and site levels, you must create both a tenant **bookmark** and a **promoted result** for the sites where you want the bookmark to appear.
+    > [!TIP]
+    > If you want the the same bookmark to appear for both the organization level and site levels, you must create both a tenant **bookmark** and a **promoted result** for the sites where you want the bookmark to appear.
