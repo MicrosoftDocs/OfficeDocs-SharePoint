@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2024
+ms.date: 08/12/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -138,6 +138,20 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
 ![Screenshot that shows learn more link for restricted access control.](media/rac-spac/2-rac-learn-more-link.png)
+
+## Site owner experience for sites protected with restricted site access
+
+Site owners are notified that their site is protected with restricted site access policy.
+
+For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
+
+|Site Information panel|Permissions panel|
+|-|-|
+|![Screenshot of site information panel for restricted access control](media/rac-spac/3-rac-site-information-page.png)|![Screenshot of site permissions panel for restricted access control](media/rac-spac/4-rac-site-permissions-page.png)|
+
+For communication sites, policy status and all configured control groups are displayed on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
+
+![Screenshot of site access panel for restricted access control](media/rac-spac/5-rac-site-access-page.png)
 
 ## Restricted site access policy insights
 
