@@ -115,7 +115,7 @@ To manage site access restriction for non-group connected sites using PowerShell
 |Remove group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
 |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
 
-For communication sites and non-group connected sites, the policy status and all configured control groups are displayed on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
+After enabling the policy for communication sites and non-group connected sites, the policy status and all configured control groups are displayed on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
 
 ![Screenshot of site access panel for restricted access control](media/rac-spac/5-rac-site-access-page.png)
 
