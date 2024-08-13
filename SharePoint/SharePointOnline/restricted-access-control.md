@@ -1,5 +1,5 @@
 ---
-ms.date: 05/20/2024
+ms.date: 07/18/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -23,6 +23,7 @@ ms.collection:
 search.appverid:
 description: "Learn how to restrict access to SharePoint sites to members of a Microsoft 365 or Entra security group."
 ---
+
 # Restrict SharePoint site access with Microsoft 365 groups and Entra security groups
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
@@ -71,23 +72,13 @@ To manage site access restriction for a group-connected site in SharePoint admin
 1. In the **Settings** tab, select **Edit** in the **Restricted site access** section.
 1. Select the **Restrict access to this site** box and select **Save**.
 
-To enable site access restriction for a group-connected site, run the following command:
+To manage site access restriction for group-connected sites using PowerShell, use the following commands:
 
-```PowerShell
-Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true
-```
-
-To view site access restriction for a group-connected site, run the following command:
-
-```PowerShell
-Get-SPOSite -Identity <siteurl> | Select RestrictedAccessControl
-```
-
-To disable site access restriction for a group-connected site, run the following command:
-
-```PowerShell
-Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false
-```
+| Action  | PowerShell command |
+|---------|---------|
+|Enable site access restriction for group-connected site    |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
+|View site access restriction for group-connected site |`Get-SPOSite -Identity <siteurl> -Select RestrictedAccessControl`|
+|Disable site access restriction for group-connected site |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false`|
 
 ## Restrict site access to non-group connected sites
 
@@ -124,6 +115,66 @@ For shared channel sites, only internal users in the resource tenant are subject
 
 > [!IMPORTANT]
 > Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to add or remove the same users of the teams channel in Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
+
+## Configure learn more link for access denial error page
+
+Configure your learn more link to inform users who were denied access to a SharePoint site due to the restricted site access control policy. With this customizable error link, you can provide more information and guidance to your users.
+
+> [!NOTE]
+> The learn more link is a tenant-level setting that applies to all sites that have restricted access control policy enabled.  
+
+To configure the link, run the following command in SharePoint PowerShell:
+
+```powershell
+Set-SPOTenant -RestrictedAccessControlForSitesErrorHelpLink “<Learn more URL>” 
+```
+
+To fetch the value of the link, run the following command:
+
+```powershell
+Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink 
+```
+
+The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
+
+![Screenshot that shows learn more link for restricted access control.](media/rac-spac/2-rac-learn-more-link.png)
+
+## Restricted site access policy insights
+
+As an IT administrator, you can view the following reports to gain more insight about SharePoint sites protected with restricted site access policy:
+
+- Sites protected by restricted site access policy (RACProtectedSites)
+- Details of access denials due to restricted site access (ActionsBlockedByPolicy)
+
+> [!NOTE]
+> It can take a few hours to generate each report.
+
+### Sites protected by restricted site access policy report (preview)
+
+You can run the following commands in SharePoint PowerShell to generate, view, and download the reports:
+
+| Action  | PowerShell command | Description |
+|---------|---------|---------|
+|Generate report     |`Start-SPORestrictedAccessForSitesInsights -RACProtectedSites`| Generates a list of sites protected by restricted site access policy|
+|View report |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID>`| The report shows the top 100 sites with the highest page views that are protected by the policy.|
+|Download report   |`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -Action Download`| This command must be run as an administrator. The downloaded report is located on the path where the command was run.|
+|Percentage of site protected with restricted site access report|`Get-SPORestrictedAccessForSitesInsights -RACProtectedSites -ReportId <Report GUID> -InsightsSummary`|This report shows the percentage of sites that are protected by the policy out of the total number of sites|
+
+### Access denials due to restricted site access policy
+
+You can run the following commands to create, fetch, and view report for access denials due to restricted site access reports:
+
+| Action  | PowerShell command | Description |
+|---------|---------|---------|
+|Create access denials report    |`Start-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy`| Creates a new report for fetching access denial details|
+|Fetch access denials report status |`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy`| Fetches the status of the generated report.|
+|Latest access denials in the past 28 days|`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content AllDenials`| Gets a list of the most recent 100 access denials that occurred in the past 28 days|
+|View list of top users who were denied access| `Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopUsers`|Gets a list of the top 100 users who received the most access denials|
+|View list of top sites that received the most access denials|`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content TopSites`| Gets a list of the top 100 sites that had the most access denials|
+|Distribution of access denials across different types of sites|`Get-SPORestrictedAccessForSitesInsights -ActionsBlockedByPolicy -ReportId <Report ID> -Content SiteDistribution`|Shows the distribution of access denials across different types of sites|
+
+> [!NOTE]
+> To view up to 10,000 denials, you must download the reports. Run the download command as an administrator and the downloaded reports will be located on the path from where command was run.
 
 ## Auditing
 

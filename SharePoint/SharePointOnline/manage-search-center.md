@@ -39,16 +39,16 @@ If modern search doesn't cover you needs, you can [switch from the Basic Search 
 
 These pages are located in the **Pages** library, and they contain predefined Web Parts that you can customize to improve the end user's search experience. 
   
-|**Page**|**Description**|
+| Page | Description |
 |:-----|:-----|
-|default.aspx  <br/> |The home page for Search Centers, and the page where users enter their queries.  <br/> |
-|results.aspx  <br/> |The default search results page for the Search Centers. <br/> If you have an Enterprise Search Center, this is also the search results page for the **Everything** search vertical.  <br/> |
-|peopleresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **People** search vertical.   <br/> |
-|conversationresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **Conversations** search vertical. <br/> |
-|videoresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **Videos** search vertical.  <br/> |
-|advanced.aspx  <br/> |This is the search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase.  <br/> |
+|default.aspx |The home page for Search Centers, and the page where users enter their queries. |
+|results.aspx |The default search results page for the Search Centers. <br/> If you have an Enterprise Search Center, this is also the search results page for the **Everything** search vertical. |
+|peopleresults.aspx |If you have an Enterprise Search Center, this is the search results page for the **People** search vertical. |
+|conversationresults.aspx |If you have an Enterprise Search Center, this is the search results page for the **Conversations** search vertical. |
+|videoresults.aspx |If you have an Enterprise Search Center, this is the search results page for the **Videos** search vertical. |
+|advanced.aspx |This is the search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase. |
    
-As a Global Administrator or SharePoint Administrator, you can also create your own search pages and add them to the Enterprise Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles), you can also create your own search pages and add them to the Enterprise Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
 
   
 ## About the Web Parts used on Search Center pages

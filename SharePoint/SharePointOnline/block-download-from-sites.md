@@ -61,7 +61,7 @@ The following parameters can be used with this cmdlet to fine-tune it:
 
 - `-ExcludedBlockDownloadGroupIds <comma separated group IDs>`<br/>Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
 
-- `-ExcludeBlockDownloadSharePointGroups <comma separated group IDs>`<br/>Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
+- `-ExcludeBlockDownloadSharePointGroups <comma separated group names>`<br/>Exempts users from the mentioned SharePoint groups from this policy and they can fully download any content for the site.
 
 - `-ReadOnlyForBlockDownloadPolicy $true`<br/>Marks the site as read-only in addition to preventing downloads.
 

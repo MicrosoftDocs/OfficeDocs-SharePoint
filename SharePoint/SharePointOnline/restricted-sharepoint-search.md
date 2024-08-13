@@ -24,7 +24,7 @@ description: "Helps you prevent certain content on SharePoint sites from being s
 
 ## What is Restricted SharePoint Search?
 
-Restricted SharePoint Search is a setting that helps you as Global and SharePoint administrator to maintain a list of SharePoint sites ("allowed list") that you have checked  the permissions and applied data governance for. The allowed list defines which SharePoint sites can participate in organization-wide search and Copilot experiences. By default, the Restricted SharePoint Search setting is turned off and the allowed list is empty. This feature is currently available as Public Preview for customers who have Microsoft 365 and Copilot licenses.
+Restricted SharePoint Search is a setting that helps you as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 to maintain a list of SharePoint sites ("allowed list") that you have checked  the permissions and applied data governance for. The allowed list defines which SharePoint sites can participate in organization-wide search and Copilot experiences. By default, the Restricted SharePoint Search setting is turned off and the allowed list is empty. This feature is currently available as Public Preview for customers who have Microsoft 365 and Copilot licenses.
 
 Restricted SharePoint Search allows you to restrict both organization-wide search and Copilot experiences to a curated set of SharePoint sites of your choice. Additionally, whether you have enabled Restricted SharePoint Search, users in your organization are still able to interact with files and content they own or that they have previously accessed in Copilot.  
 
@@ -46,7 +46,7 @@ Remember, whether you have enabled Restricted SharePoint Search, users in your o
 
 ## How does Restricted SharePoint Search work?
 
-As the Global/Tenant and SharePoint administrator, you're able to:
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you're able to:
 
 - Check the current status of Restricted SharePoint Search (enabled or disabled)
 - Enable or disable Restricted SharePoint Search

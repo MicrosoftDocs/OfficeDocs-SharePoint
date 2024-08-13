@@ -310,6 +310,8 @@ Items:
         href: per-machine-installation.md
       - name: OneDrive in Citrix Virtual Apps
         href: onedrive-in-citrix-virtual-apps-deployment-guide.md
+      - name: OneDrive in Horizon Virtual apps
+        href: onedrive-in-horizon-virtual-apps-deployment-guide.md
     - name: Sync app options
       items:
       - name: Sync on virtual desktops
@@ -470,8 +472,14 @@ Items:
       href: authentication-context-example.md
     - name: Data access governance reports
       href: data-access-governance-reports.md
+    - name: Generate AI insights
+      href: ai-insights.md
+    - name: Initiate site access reviews for data access governance reports
+      href: site-access-review.md
     - name: Privacy, security, and compliance in Microsoft OneDrive
       href: onedrive-privacy-security-overview.md
+    - name: Manage unlicensed OneDrive accounts
+      href: unlicensed-onedrive-accounts.md
     - name: Default sensitivity label for a document library
       href: /microsoft-365/compliance/sensitivity-labels-sharepoint-default-label?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
     - name: Use information barriers (SharePoint)

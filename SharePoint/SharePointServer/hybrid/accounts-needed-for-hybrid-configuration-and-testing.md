@@ -30,7 +30,9 @@ When you configure a SharePoint Server hybrid environment, you need several user
 In a hybrid environment, some or all user accounts in Active Directory are synchronized with Microsoft Entra directory services. We refer to these accounts as federated users. SharePoint Server and SharePoint in Microsoft 365 are configured with a server-to-server (S2S) trust relationship, and service applications can be configured to enable federated users to access content and resources from both farms using a single identity. Because user accounts and credentials are synchronized between SharePoint Server and SharePoint in Microsoft 365, list and library content security can be applied in both farms using the same set of users and groups.
   
 > [!NOTE]
-> This table does not include service accounts, which may have specific requirements for service applications and features in certain SharePoint Server hybrid solutions. For more information about the requirements for each supported solution, see the solution configuration articles at [Configure a hybrid solution for SharePoint Server](configure-a-hybrid-solution.md). 
+> This table does not include service accounts, which may have specific requirements for service applications and features in certain SharePoint Server hybrid solutions. For more information about the requirements for each supported solution, see the solution configuration articles at [Configure a hybrid solution for SharePoint Server](configure-a-hybrid-solution.md).
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
   
 **Table: Accounts needed for SharePoint hybrid configuration and testing**
 
