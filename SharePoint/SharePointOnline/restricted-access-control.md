@@ -1,5 +1,5 @@
 ---
-ms.date: 08/12/2024
+ms.date: 08/13/2024
 title: "Restrict SharePoint site access with Microsoft 365 groups and Entra security groups"
 ms.reviewer: nibandyo
 manager: jtremper
@@ -80,6 +80,14 @@ To manage site access restriction for group-connected sites using PowerShell, us
 |View site access restriction for group-connected site |`Get-SPOSite -Identity <siteurl> -Select RestrictedAccessControl`|
 |Disable site access restriction for group-connected site |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false`|
 
+Once the policy is enabled for a site, the site owner can view the details of how the site access restriction policy affects the site.
+
+For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
+
+![Screenshot of site information panel for restricted access control](media/rac-spac/3-rac-site-information-page.png)
+
+![Screenshot of site permissions panel for restricted access control](media/rac-spac/4-rac-site-permissions-page.png)
+
 ## Restrict site access to non-group connected sites
 
 You can restrict access to non-group connected sites by specifying [Entra security groups](/azure/active-directory/fundamentals/how-to-manage-groups) or Microsoft 365 groups that contain the people who should be allowed access to the site. You can configure up to 10 Entra security groups or Microsoft 365 groups. Once the policy is applied, users in the specified group who have site access permissions are granted access to the site and its content. You can use [dynamic security groups](/azure/active-directory/enterprise-users/groups-create-rule) if you want to base group membership on user properties.
@@ -106,6 +114,10 @@ To manage site access restriction for non-group connected sites using PowerShell
 |View group     |`Get-SPOSite -Identity <siteurl> Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
 |Remove group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
 |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
+
+For communication sites and non-group connected sites, the policy status and all configured control groups are displayed on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
+
+![Screenshot of site access panel for restricted access control](media/rac-spac/5-rac-site-access-page.png)
 
 ## Shared and private channel sites
 
@@ -138,20 +150,6 @@ Get-SPOTenant | select RestrictedAccessControlForSitesErrorHelpLink
 The configured learn more link is launched when the user selects the **Know more about your organization’s policies here** link.
 
 ![Screenshot that shows learn more link for restricted access control](media/rac-spac/2-rac-learn-more-link.png)
-
-## Site owner experience for sites protected with restricted site access
-
-Site owners are notified that their site is protected with restricted site access policy.
-
-For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
-
-![Screenshot of site information panel for restricted access control](media/rac-spac/3-rac-site-information-page.png)
-
-![Screenshot of site permissions panel for restricted access control](media/rac-spac/4-rac-site-permissions-page.png)
-
-For communication sites, policy status and all configured control groups are displayed on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
-
-![Screenshot of site access panel for restricted access control](media/rac-spac/5-rac-site-access-page.png)
 
 ## Restricted site access policy insights
 
