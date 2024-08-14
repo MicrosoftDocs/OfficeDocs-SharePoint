@@ -37,7 +37,7 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 
 To change the sharing settings for a site after you've set the organization-level sharing settings, see [Change sharing settings for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a specific user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 
-<a name='sharepoint-and-onedrive-integration-with-azure-ad-b2b'></a>
+[!INCLUDE [sharepoint-setup-guide-tip.md](includes/sharepoint-setup-guide-tip.md)]
 
 ### SharePoint and OneDrive integration with Microsoft Entra B2B
 
@@ -74,12 +74,12 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 1. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
 
 > [!NOTE]
-  > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
-  > 
-  > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
+> The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
+
+> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
 ![Screenshot of external sharing settings.](media/externalsharing.png)
-   
+
 This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
 > [!IMPORTANT]
@@ -174,7 +174,6 @@ This setting is turned on by default at the organization level and off at the si
 
 > [!NOTE]
 > Historical data is included when this setting is enabled. Likewise, if the setting is turned off and back on at the organization level or site level, the views during the off period are included in the history.
-
 **Use short links for sharing files and folders**
 
 Uses a shorter link format for sharing files and folders. This may be useful if you have integrations that require a shorter URL.
