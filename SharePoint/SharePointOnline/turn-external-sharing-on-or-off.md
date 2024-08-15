@@ -75,7 +75,7 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 
 > [!NOTE]
 > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
-
+>
 > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
 ![Screenshot of external sharing settings.](media/externalsharing.png)
