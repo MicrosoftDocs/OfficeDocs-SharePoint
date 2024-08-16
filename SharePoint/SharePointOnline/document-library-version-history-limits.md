@@ -68,7 +68,7 @@ The following figure shows the workflow of applying a version limit on new docum
 
 There are two version history settings that admins can use to configure version limits for all new libraries created in their organization:
 
-### Automatic Setting
+### Automatic setting
 
 Automatic setting is recommended for optimized version storage. It combines the data recovery benefits that version history offers while optimizing for its storage. For admins, this setting offers the most optimal storage option without having to estimate the version count or age limits needed to meet the diversified need of their end users.<br> For more information, see [version storage under automatic limits](plan-version-storage.md#understand-version-storage-under-automatic-limits).
 
