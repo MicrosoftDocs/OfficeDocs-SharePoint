@@ -33,8 +33,7 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**
   
 ![Screenshot of Active sites page](media/sharepoint-admin-center-active-site.png)
 
-> [!NOTE]
-> Subsites and the following sites aren't included:
+[!INCLUDE [sharepoint-setup-guide-tip.md](includes/sharepoint-setup-guide-tip.md)]
 
 - Sites with these URLs aren't included for the Active sites page:
   
@@ -103,7 +102,7 @@ For all site types except channel sites, you can add or remove site admins and c
 For more info about a site, select the site name or click anywhere on the site row except on the URL column to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
 ![Screenshot of the General tab of the details panel](media/site-details.png)
-  
+
 To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
 To view site admins, owners, members, and visitors, select the **Membership** tab.
