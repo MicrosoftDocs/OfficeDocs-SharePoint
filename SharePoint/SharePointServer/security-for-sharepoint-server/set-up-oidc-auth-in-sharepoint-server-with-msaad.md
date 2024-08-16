@@ -83,7 +83,7 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 In this step, you need to modify the SharePoint Server farm properties based on the version of your SharePoint Server farm.
 
-- For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions-with-Early-Release-feature-preference).
+- For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version 24H1, see [Configure SPSE Version 24H1 or higher version](#configure-sharepoint-server-subscription-edition-version-24h1-or-higher-versions-with-early-release-feature-preference).
 - For more information on configuring SharePoint farm properties for SharePoint Server Subscription Edition Version preceding 24H1, see [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1).
 
 #### Configure SharePoint Server Subscription Edition Version 24H1 or higher versions with Early Release feature preference 
@@ -101,8 +101,8 @@ Starting with SharePoint Server Subscription Edition Version 24H1 (March 2024), 
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
 
 # Import certificate to Certificate Management
-$certPath = <path to save the exported cert>
-$certPassword = ConvertTo-SecureString -String <password> -Force -AsPlainText
+$certPath = "<path and file name to save the exported cert.  ex: c:\certs\nonce.pfx>"
+$certPassword = ConvertTo-SecureString -String "<password>" -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $certPassword
 $nonceCert = Import-SPCertificate -Path $certPath -Password $certPassword -Store "EndEntity" -Exportable:$true
 
