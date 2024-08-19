@@ -56,7 +56,7 @@ To enable site-level access restriction for your organization using PowerShell, 
 Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
-It might take up to one hour for command to take effect.
+It might take up to one hour for command to take effect
 
 > [!NOTE]
 > For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.
@@ -72,22 +72,22 @@ To manage site access restriction for a group-connected site in SharePoint admin
 1. In the **Settings** tab, select **Edit** in the **Restricted site access** section.
 1. Select the **Restrict access to this site** box and select **Save**.
 
-   To manage site access restriction for group-connected sites using PowerShell, use the following commands:
-    
-   | Action  | PowerShell command |
-   |---------|---------|
-   |Enable site access restriction for group-connected site    |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
-   |View site access restriction for group-connected site |`Get-SPOSite -Identity <siteurl> -Select RestrictedAccessControl`|
-   |Disable site access restriction for group-connected site |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false`|
-    
-    > [!NOTE]
-    > Once the policy is enabled for a site, the site owner can view the details of how the site access restriction policy affects the site.
+To manage site access restriction for group-connected sites using PowerShell, use the following commands:
 
-    For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
-    
-    :::image type="content" source="media/rac-spac/3-rac-site-information-page.png" alt-text="screenshot of site information page for restricted access control." lightbox="media/rac-spac/3-rac-site-information-page.png":::
-    
-    :::image type="content" source="media/rac-spac/4-rac-site-permissions-page.png" alt-text="screenshot of site permissions page for restricted access control." lightbox="media/rac-spac/4-rac-site-permissions-page.png":::
+| Action  | PowerShell command |
+|---------|---------|
+|Enable site access restriction for group-connected site    |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
+|View site access restriction for group-connected site |`Get-SPOSite -Identity <siteurl> -Select RestrictedAccessControl`|
+|Disable site access restriction for group-connected site |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $false`|
+
+> [!NOTE]
+> Once the policy is enabled for a site, the site owner can view the details of how the site access restriction policy affects the site.
+
+For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
+
+:::image type="content" source="media/rac-spac/3-rac-site-information-page.png" alt-text="screenshot of site information page for restricted access control." lightbox="media/rac-spac/3-rac-site-information-page.png":::
+
+:::image type="content" source="media/rac-spac/4-rac-site-permissions-page.png" alt-text="screenshot of site permissions page for restricted access control." lightbox="media/rac-spac/4-rac-site-permissions-page.png":::
 
 ## Restrict site access to non-group connected sites
 
@@ -101,24 +101,24 @@ To manage site access to a non-group connected site:
 1. Select the **Restrict SharePoint site access to only users in specified groups** check box.
 1. Add or remove your security groups or Microsoft 365 groups and select **Save**.
 
-   In order for site access restriction to be applied to the site, you must add at least one group to the site access restriction policy.
-    
-   :::image type="content" source="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png" alt-text="screenshot showing site access restriction security groups being added to non-group connected sites." lightbox="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png":::
+In order for site access restriction to be applied to the site, you must add at least one group to the site access restriction policy.
 
-    To manage site access restriction for non-group connected sites using PowerShell, use the following commands:
-    
-    | Action  | PowerShell command |
-    |---------|---------|
-    |Enable site access restriction     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
-    |Add group |`Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>`         |
-    |Edit group     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>`         |
-    |View group     |`Get-SPOSite -Identity <siteurl> Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
-    |Remove group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
-    |Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
-    
-    After enabling the policy for communication sites, the policy status and all configured control groups are displayed for site owners on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
-    
-    :::image type="content" source="media/rac-spac/5-rac-site-access-page.png" alt-text="screenshot of site access panel for restricted access control." lightbox="media/rac-spac/5-rac-site-access-page.png":::
+:::image type="content" source="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png" alt-text="screenshot showing site access restriction security groups being added to non-group connected sites." lightbox="media/rac-spac/non-group-connected-sites/restricted-access-control-non-group-connected-site-page.png":::
+
+To manage site access restriction for non-group connected sites using PowerShell, use the following commands:
+
+| Action  | PowerShell command |
+|---------|---------|
+|Enable site access restriction     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControl $true`|
+|Add group |`Set-SPOSite -Identity <siteurl> -AddRestrictedAccessControlGroups <comma separated group GUIDS>`         |
+|Edit group     |`Set-SPOSite -Identity <siteurl> -RestrictedAccessControlGroups <comma separated group GUIDS>`         |
+|View group     |`Get-SPOSite -Identity <siteurl> Select RestrictedAccessControl, RestrictedAccessControlGroups`         |
+|Remove group     |`Set-SPOSite -Identity <siteurl> -RemoveRestrictedAccessControlGroups <comma separated group GUIDS>`         |  
+|Reset site access restriction  |`Set-SPOSite -Identity <siteurl> -ClearRestrictedAccessControl`         |
+
+After enabling the policy for communication sites, the policy status and all configured control groups are displayed for site owners on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
+
+:::image type="content" source="media/rac-spac/5-rac-site-access-page.png" alt-text="screenshot of site access panel for restricted access control." lightbox="media/rac-spac/5-rac-site-access-page.png":::
 
 ## Shared and private channel sites
 
