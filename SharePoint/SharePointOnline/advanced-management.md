@@ -81,7 +81,7 @@ By preventing oversharing and managing access effectively, you can ensure that C
 
 **[Block download policy for SharePoint and OneDrive sites](block-download-from-sites.md)** You can block download of files from SharePoint sites or OneDrive without needing to use Microsoft Entra Conditional Access policies. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps.
 
-:::image type="content" source="media/sam-overview/9-block-download-policy-sharepoint-onedrive.png" alt-text="Screenshot of block download policy for SharePoint and OneDrive sites." lightbox="media/sam-overview/9-block-download-policy-sharepoint-onedrive.png":::
+:::image type="content" source="media/sam-overview/9-block-download-policy-sharepoint-onedrive.png" alt-text="Screenshot of block download policy for SharePoint and OneDrive sites.":::
 
 ### Conditional access policy for SharePoint and OneDrive sites
 
