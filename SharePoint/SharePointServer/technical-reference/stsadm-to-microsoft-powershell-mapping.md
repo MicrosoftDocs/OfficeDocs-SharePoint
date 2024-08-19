@@ -116,7 +116,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Listlogginglevels**  |[Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps&preserve-view=true)  |
 |**Listqueryprocessoroptions**  |None   |
 |**Listregisteredsecuritytrimmers**  |[Get-SPEnterpriseSearchSecurityTrimmer](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchSecurityTrimmer?view=sharepoint-ps&preserve-view=true)  |
-|**Localupgradestatus**  |None   |
+|**Localupgradestatus**  |None. However, [Get-SPPendingUpgradeActions](/powershell/module/sharepoint-server/get-sppendingupgradeactions?view=sharepoint-server-ps) provides similar information.   |
 |**Managepermissionpolicylevel**  |None   |
 |**Mergecontentdbs**  |[Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps&preserve-view=true)  |
 |**Migrateuser**  |[Move-SPUser](/powershell/module/sharepoint-server/Move-SPUser?view=sharepoint-ps&preserve-view=true)  |
