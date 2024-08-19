@@ -1,5 +1,5 @@
 ---
-ms.date: 08/13/2024
+ms.date: 08/19/2024
 title: "Microsoft SharePoint Premium - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
@@ -33,13 +33,13 @@ Whether preparing for [Copilot deployment](/copilot/microsoft-365/microsoft-365-
 - streamline access management for SharePoint and OneDrive sites, and
 - analyze usage patterns through comprehensive reporting.
 
-![screenshot of SharePoint Advanced Management pillars](../SharePointOnline/media/sam-overview/0-sam-overview-pillars.png)
+:::image type="content" source="media/sam-overview/0-sam-overview-pillars.png" alt-text="Screenshot of SharePoint Advanced Management pillars." lightbox="media/sam-overview/0-sam-overview-pillars.png":::
 
 We recommend utilizing SharePoint Advanced Management features along with our [best practices for Copilot for Microsoft 365](/sharepoint/sharepoint-copilot-best-practices) to reduce the risk of oversharing, control content sprawl, and manage content lifecycle.
 
 SharePoint Advanced Management features are managed by [IT administrators](/microsoft-365/admin/add-users/about-admin-roles) with access to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219). Some features can be used by site owners.
 
-![screenshot of SharePoint Advanced Management features dashboard](../SharePointOnline/media/sam-overview/1-SAM-feature-list.png)
+:::image type="content" source="media/sam-overview/1-sam-feature-list.png" alt-text="Screenshot of SharePoint Advanced Management features dashboard." lightbox="media/sam-overview/1-sam-feature-list.png":::
 
 SharePoint Advanced Management helps you identify, manage, and resolve common content governance issues such as:
 
@@ -51,7 +51,7 @@ SharePoint Advanced Management helps you identify, manage, and resolve common co
 
 You can run automated, rule-based policies to manage and reduce inactive sites with the [**Inactive SharePoint sites policy**](site-lifecycle-management.md) feature from SharePoint Advanced Management.
 
-![screenshot of inactive sites policy](../SharePointOnline/media/sam-overview/2-inactive-sites-policy.png)
+:::image type="content" source="media/sam-overview/2-inactive-sites-policy.png" alt-text="Screenshot of inactive sites policy." lightbox="media/sam-overview/2-inactive-sites-policy.png":::
 
 The inactive sites policy combats content sprawl by automatically identifying and managing inactive SharePoint sites. It operates by defining inactivity criteria, such as lack of updates or user activity over a set period. Once identified, site owners receive email notifications to confirm the active/inactive state of the site.
 
@@ -75,19 +75,19 @@ By preventing oversharing and managing access effectively, you can ensure that C
 
 **[Data access governance insights](data-access-governance-reports.md)** lets you view reports that identify sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
-![Screenshot of data access governance reports dashboard](../SharePointOnline/media/sam-overview/7-data-access-governance.png)
+:::image type="content" source="media/sam-overview/7-data-access-governance.png" alt-text="Screenshot of data access governance reports dashboard." lightbox="media/sam-overview/7-data-access-governance.png":::
 
 ### Block download policy for SharePoint and OneDrive sites
 
 **[Block download policy for SharePoint and OneDrive sites](block-download-from-sites.md)** You can block download of files from SharePoint sites or OneDrive without needing to use Microsoft Entra Conditional Access policies. Users have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps.
 
-![Screenshot of block download policy for SharePoint and OneDrive sites](../SharePointOnline/media/sam-overview/9-block-download-policy-sharepoint-onedrive.png)
+:::image type="content" source="media/sam-overview/9-block-download-policy-sharepoint-onedrive.png" alt-text="Screenshot of block download policy for SharePoint and OneDrive sites." lightbox="media/sam-overview/9-block-download-policy-sharepoint-onedrive.png":::
 
 ### Conditional access policy for SharePoint and OneDrive sites
 
 **[Conditional access policy for SharePoint and OneDrive sites](authentication-context-example.md)** lets you enforce stringent access conditions when users access SharePoint sites. Authentication contexts can be directly applied to sites or used with sensitivity labels to connect Microsoft Entra Conditional Access policies to labeled sites.
 
-![Screenshot of conditional access policy dashboard](../SharePointOnline/media/sam-overview/8-conditional-access-policies.png)
+:::image type="content" source="media/sam-overview/8-conditional-access-policies.png" alt-text="Screenshot of conditional access policy dashboard." lightbox="media/sam-overview/8-conditional-access-policies.png":::
 
 ## Control Copilot access to content
 
@@ -97,7 +97,7 @@ Before enabling Copilot for your organization and tenant, you can proactively se
 
 You can prevent sites and content from being discovered at the site-level by enabling **[Restricted access control for SharePoint sites](restricted-access-control.md)**. Site access restriction allows only users in the specified security group or Microsoft 365 group to access content. This policy can be used with Microsoft 365 group-connected, Teams-connected, and non-group connected sites.
 
-![Screenshot of restricted access control for SharePoint sites](../SharePointOnline/media/sam-overview/3-restricted-access-control-sharepoint-sites.png)
+:::image type="content" source="media/sam-overview/3-restricted-access-control-sharepoint-sites.png" alt-text="Screenshot of saved changes for restricted access control for SharePoint sites." lightbox="media/sam-overview/3-restricted-access-control-sharepoint-sites.png":::
 
 ### Restricted access control for OneDrive
 
@@ -105,11 +105,11 @@ You can limit access to shared content of a user's OneDrive to only people in a 
 
 Once the policy is enabled, anyone who is not in the designated security group won't be able to access content in that OneDrive even if it was previously shared with them. To block users from accessing OneDrive as a service, you can enable the [Restrict OneDrive service access](limit-access.md) feature.
 
-![Screenshot of restricted access control for OneDrive](../SharePointOnline/media/sam-overview/4-restricted-accesa-control-onedrive.png)
+:::image type="content" source="media/sam-overview/4-restricted-access-control-onedrive.png" alt-text="Screenshot of restricted access control for OneDrive." lightbox="media/sam-overview/4-restricted-access-control-onedrive.png":::
 
 ## Manage content lifecycle
 
-You can manage the content lifecycle for SharePoint and OneDrive sites with SharePoint advanced management features that streamline content creation, organization, and retention through automated workflows, detailed reporting, and robust compliance settings. 
+You can manage the content lifecycle for SharePoint and OneDrive sites with SharePoint advanced management features that streamline content creation, organization, and retention through automated workflows, detailed reporting, and robust compliance settings.
 
 Effective lifecycle management not only ensures streamlined governance and enhanced collaboration but also optimizes storage, maintains data integrity, and supports regulatory compliance, ultimately improving efficiency and security
 
@@ -117,13 +117,13 @@ Effective lifecycle management not only ensures streamlined governance and enhan
 
  The **[Recent SharePoint admin actions](recent-actions-panel.md)** policy lets you review and monitor the last 30 changes you've made to a SharePoint site's properties within the last 30 days in the SharePoint admin center. This feature only shows changes made by you and not other administrators.
 
-![Screenshot of recent admin actions panel](../SharePointOnline/media/sam-overview/5-recent-admin-actions-panel.png)
+:::image type="content" source="media/sam-overview/5-recent-admin-actions-panel.png" alt-text="Screenshot of restricted access control for SharePoint sites." lightbox="media/sam-overview/5-recent-admin-actions-panel.png":::
 
 ### Change history - Site changes
 
 The **[Change history - Site changes](change-history-report.md)** feature lets you create change history reports in the SharePoint admin center to review SharePoint site property changes made within the last 180 days. Create up to five reports for a given date range and filter by sites and users. You can download the report as a .csv file to view the site property changes.
 
-![Screenshot of change history report dashboard](../SharePointOnline/media/sam-overview/6-change-history-report.png)
+:::image type="content" source="media/sam-overview/6-change-history-report.png" alt-text="Screenshot of change history report dashboard." lightbox="media/sam-overview/6-change-history-report.png":::
 
 ## Licensing
 
