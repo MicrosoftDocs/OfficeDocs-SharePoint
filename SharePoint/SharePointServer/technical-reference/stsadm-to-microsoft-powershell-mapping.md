@@ -23,7 +23,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
- Where there is no one-to-one mapping between the operations and cmdlets, the table lists the specific PowerShell parameters you must use to get the same functionality. 
+Where there is no one-to-one mapping between the Stsadm operations and PowerShell cmdlets, the table lists the specific PowerShell parameters you must use to get similar functionality. 
   
 
 |&nbsp;|&nbsp;|
@@ -103,20 +103,20 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Extendvs**  |[New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps&preserve-view=true)  |
 |**Extendvsinwebfarm**  |[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps&preserve-view=true)  |
 |**Forcedeletelist**  |None   |
-|**Getadminport**  |[Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true)  Use the following syntax:  `Get-SPWebApplication -IncludeCentralAdministration | ? {$_.IsAdministrationWebApplication -eq $true}`|
-|**Getdataconnectionfileproperty** property   |[Get-SPDataConnectionFile](/powershell/module/sharepoint-server/Get-SPDataConnectionFile?view=sharepoint-ps&preserve-view=true)  Use the following syntax:   `Get-SPDataConnectionFile | where {$_.Name -eq "dataConFileName"} | format-list`|
-|**Getformtemplateproperty** property   |[Get-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Get-SPInfoPathFormTemplate?view=sharepoint-ps&preserve-view=true)  Use the following syntax:   `Get-SPInfoPathFormTemplate | where {$_.DisplayName -eq "formTemplateName"} | format-list`|
+|**Getadminport**  |[Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true)  Use the following syntax:  `Get-SPWebApplication -IncludeCentralAdministration| ? {$_.IsAdministrationWebApplication -eq $true}`|
+|**Getdataconnectionfileproperty** property   |[Get-SPDataConnectionFile](/powershell/module/sharepoint-server/Get-SPDataConnectionFile?view=sharepoint-ps&preserve-view=true)  Use the following syntax:   `Get-SPDataConnectionFile| where {$_.Name -eq "dataConFileName"}| format-list`|
+|**Getformtemplateproperty** property   |[Get-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Get-SPInfoPathFormTemplate?view=sharepoint-ps&preserve-view=true)  Use the following syntax:   `Get-SPInfoPathFormTemplate| where {$_.DisplayName -eq "formTemplateName"}| format-list`|
 |**Getosearchsetting**  |None   |
 |**Getproperty**  |[Get-SPFarmConfig](/powershell/module/sharepoint-server/Get-SPFarmConfig?view=sharepoint-ps&preserve-view=true)  [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Disable-SPTimerJob](/powershell/module/sharepoint-server/Disable-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Start-SPTimerJob](/powershell/module/sharepoint-server/Start-SPTimerJob?view=sharepoint-ps&preserve-view=true)  |
 |**Getsitelock**  |[Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration?view=sharepoint-ps&preserve-view=true)  |
-|**Getsiteuseraccountdirectorypath**  |None   |
+|**Getsiteuseraccountdirectorypath**  |Use [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps&preserve-view=true) to get the site object, then output the UserAccountDirectoryPath property.|
 |**Geturlzone**  |[Get-SPAlternateURL](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps&preserve-view=true)  |
 |**Import**  |[Import-SPWeb](/powershell/module/sharepoint-server/import-spweb?view=sharepoint-ps&preserve-view=true)  |
 |**Installfeature**  |[Install-SPFeature](/powershell/module/sharepoint-server/Install-SPFeature?view=sharepoint-ps&preserve-view=true)  |
 |**Listlogginglevels**  |[Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps&preserve-view=true)  |
 |**Listqueryprocessoroptions**  |None   |
 |**Listregisteredsecuritytrimmers**  |[Get-SPEnterpriseSearchSecurityTrimmer](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchSecurityTrimmer?view=sharepoint-ps&preserve-view=true)  |
-|**Localupgradestatus**  |None. However, [Get-SPPendingUpgradeActions](/powershell/module/sharepoint-server/get-sppendingupgradeactions?view=sharepoint-server-ps) provides similar information.   |
+|**Localupgradestatus**  |None. However, [Get-SPPendingUpgradeActions](/powershell/module/sharepoint-server/get-sppendingupgradeactions?view=sharepoint-ps&preserve-view=true) provides similar information.   |
 |**Managepermissionpolicylevel**  |None   |
 |**Mergecontentdbs**  |[Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps&preserve-view=true)  |
 |**Migrateuser**  |[Move-SPUser](/powershell/module/sharepoint-server/Move-SPUser?view=sharepoint-ps&preserve-view=true)  |
@@ -156,7 +156,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Setproperty**  |[Set-SPFarmConfig](/powershell/module/sharepoint-server/Set-SPFarmConfig?view=sharepoint-ps&preserve-view=true)  [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Disable-SPTimerJob](/powershell/module/sharepoint-server/Disable-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps&preserve-view=true)  [Start-SPTimerJob](/powershell/module/sharepoint-server/Start-SPTimerJob?view=sharepoint-ps&preserve-view=true)  |
 |**Setqueryprocessoroptions**  |None   |
 |**Setsitelock**  |[Set-SPSiteAdministration](/powershell/module/sharepoint-server/Set-SPSiteAdministration?view=sharepoint-ps&preserve-view=true)  Use the **LockState** parameter.   |
-|**Setsiteuseraccountdirectorypath**  |[Get-SPSiteSubscription](/powershell/module/sharepoint-server/Get-SPSiteSubscription?view=sharepoint-ps&preserve-view=true)  [New-SPSiteSubscription](/powershell/module/sharepoint-server/New-SPSiteSubscription?view=sharepoint-ps&preserve-view=true)  [Remove-SPSiteSubscription](/powershell/module/sharepoint-server/Remove-SPSiteSubscription?view=sharepoint-ps&preserve-view=true)  |
+|**Setsiteuseraccountdirectorypath**  |[Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps&preserve-view=true) Use the **UserAccountDirectoryPath** parameter. |
 |**Setworkflowconfig**  |[Set-SPWorkflowConfig](/powershell/module/sharepoint-server/Set-SPWorkflowConfig?view=sharepoint-ps&preserve-view=true)  |
 |**Siteowner**  |[Set-SPSiteAdministration](/powershell/module/sharepoint-server/Set-SPSiteAdministration?view=sharepoint-ps&preserve-view=true)  |
 |**Sync**  |[Update-SPProfileSync](/powershell/module/sharepoint-server/Update-SPProfileSync?view=sharepoint-ps&preserve-view=true) [Clear-SPContentDatabaseSyncData](/powershell/module/sharepoint-server/Clear-SPContentDatabaseSyncData?view=sharepoint-ps&preserve-view=true) [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true) (with the -DaysSinceLastProfileSync parameter)  |
@@ -177,7 +177,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Uploadformtemplate**  |[Install-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Install-SPInfoPathFormTemplate?view=sharepoint-ps&preserve-view=true)  |
 |**Userrole**  |[Get-SPUser](/powershell/module/sharepoint-server/Get-SPUser?view=sharepoint-ps&preserve-view=true)  [Move-SPUser](/powershell/module/sharepoint-server/Move-SPUser?view=sharepoint-ps&preserve-view=true)  [New-SPUser](/powershell/module/sharepoint-server/New-SPUser?view=sharepoint-ps&preserve-view=true)  [Remove-SPUser](/powershell/module/sharepoint-server/Remove-SPUser?view=sharepoint-ps&preserve-view=true)  [Set-SPUser](/powershell/module/sharepoint-server/Set-SPUser?view=sharepoint-ps&preserve-view=true)  |
 |**Verifyformtemplate**  |[Test-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Test-SPInfoPathFormTemplate?view=sharepoint-ps&preserve-view=true)  |
-   
+
 ## See also
 
 #### Other Resources
