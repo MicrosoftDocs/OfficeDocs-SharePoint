@@ -85,9 +85,9 @@ To manage site access restriction for group-connected sites using PowerShell, us
 
 For group-connected sites, the policy status and the configured control group details are displayed on the **Site Information** and **Permissions** panels.
 
-![Screenshot of site information panel for restricted access control](media/rac-spac/3-rac-site-information-page.png)
+:::image type="content" source="media/rac-spac/3-rac-site-information-page.png" alt-text="screenshot of site information page for restricted access control." lightbox="media/rac-spac/3-rac-site-information-page.png":::
 
-![Screenshot of site permissions panel for restricted access control](media/rac-spac/4-rac-site-permissions-page.png)
+:::image type="content" source="media/rac-spac/4-rac-site-permissions-page.png" alt-text="screenshot of site permissions page for restricted access control." lightbox="media/rac-spac/4-rac-site-permissions-page.png":::
 
 ## Restrict site access to non-group connected sites
 
@@ -118,7 +118,7 @@ To manage site access restriction for non-group connected sites using PowerShell
 
 After enabling the policy for communication sites, the policy status and all configured control groups are displayed for site owners on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
 
-![Screenshot of site access panel for restricted access control](media/rac-spac/5-rac-site-access-page.png)
+:::image type="content" source="media/rac-spac/5-rac-site-access-page.png" alt-text="screenshot of site access panel for restricted access control." lightbox="media/rac-spac/5-rac-site-access-page.png":::
 
 ## Shared and private channel sites
 
