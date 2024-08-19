@@ -1,7 +1,7 @@
 ---
 title: "Remove certificates"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 06/20/2022
@@ -23,10 +23,10 @@ description: "Learn how SharePoint supports removing certificates."
 
 SharePoint supports removing certificates via [Remove-SPCertificate](/powershell/module/sharepoint-server/remove-spcertificate) PowerShell cmdlet.
 
-- By default, SharePoint will not allow you to remove a certificate if it is currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
+- By default, SharePoint won't allow you to remove a certificate if it's currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
 - The certificate and any private key associated with that certificate is removed from the Windows certificate store on every server in the SharePoint farm.
-- The certificate and any private key associated with it is removed from the SharePoint configuration database.
-- Any previous exports from the certificate through the SharePoint administration interface will not be removed. Those exported files will still exist.
+- The certificate and any private key associated with it's removed from the SharePoint configuration database.
+- Any previous exports from the certificate through the SharePoint administration interface won't be removed. Those exported files will still exist.
 
 Use the `Remove-SPCertificate` cmdlet to remove a certificate from SharePoint.
 

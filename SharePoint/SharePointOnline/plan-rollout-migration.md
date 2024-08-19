@@ -2,9 +2,9 @@
 ms.date: 06/10/2022
 title: Migration planning for SharePoint and OneDrive rollout
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

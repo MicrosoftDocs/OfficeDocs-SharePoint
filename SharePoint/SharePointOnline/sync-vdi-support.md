@@ -1,10 +1,10 @@
 ---
-ms.date: 04/23/2019
+ms.date: 04/11/2024
 title: "Use the sync app on virtual desktops"
-ms.reviewer: sraja
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: kafeaver
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
@@ -28,16 +28,19 @@ description: "Learn about the OneDrive sync app support for desktop virtualizati
 
 For all [supported operating systems](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e), the OneDrive sync app supports:
 
-- Virtual desktops that persist between sessions. 
+- Virtual desktops that persist between sessions.
 - Non-persistent virtual desktops that use [Azure Virtual Desktop](/azure/virtual-desktop).
 - Non-persistent virtual desktops that have [FSLogix Apps](/fslogix/configure-profile-container-tutorial) or [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
-  - Windows 10, 32 or 64-bit (supports VHDX files) 
-  - Windows 7, 32 or 64-bit (supports VHD files) 
+  - Windows 10 and 11, 32-bit or 64-bit (supports VMDK files)
+  - Windows Server 2022 (supports VHDX)
+    
   - Windows Server 2019 (supports VHDX)
   - Windows Server 2016 (supports VHDX)
   - Windows Server 2012 R2 (supports VHDX)
-  - Windows Server 2008 R2 (supports VHD)
- 
+
+> [!NOTE]
+> It is not supported to roam the OneDrive registry hive as part of a non-persistent VDI environment. Do not roam `HKEY_CURRENT_USER\Software\Microsoft\OneDrive\` in your non-persistent VDI user profiles.
+
 > [!NOTE]
 > The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7653.47581](/fslogix/whats-new).
 >
@@ -54,4 +57,3 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 Learn more about [VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD](/windows/desktop/vstor/about-vhd).
 
 For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks).
-

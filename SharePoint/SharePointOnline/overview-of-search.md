@@ -1,11 +1,11 @@
 ---
 title: "Overview of search in SharePoint"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
-ms.date: 6/20/2018
+ms.date: 04/24/2024
 audience: Admin
 f1.keywords:
 - CSH
@@ -27,7 +27,9 @@ ms.custom:
 
 If you're responsible for search in your organization, learn how you can tailor the search experience to your organization and make search even better for your users.
 
-SharePoint in Microsoft 365 has both a classic and a modern search experience, where [Microsoft Search in SharePoint](/microsoftsearch/overview-microsoft-search) is the modern search experience. The most visible difference is that the Microsoft Search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft Search is personal. The results one user sees are different from what other users see, even when they search for the same words. Users see results before they start typing in the search box, based on their previous activity and trending content in Microsoft 365, and the results update as they type. The search results are easy to explore without any effort from you as an admin. Learn more about the Microsoft Search experience for users in [Find what you need with Microsoft Search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87).
+SharePoint in Microsoft 365 has both a classic and a modern search experience, where [Microsoft Search in SharePoint](/microsoftsearch/overview-microsoft-search) is the modern search experience. As a search admin, you can’t enable or disable either search experience, both are enabled by default. 
+
+Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the Microsoft Search experience on the SharePoint start page, hub sites, communication sites, and modern team sites. The most visible difference is that the Microsoft Search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft Search is personal. The results one user sees are different from what other users see, even when they search for the same words. Users see results before they start typing in the search box, based on their previous activity and trending content in Microsoft 365, and the results update as they type. The search results are easy to explore without any effort from you as an admin. Learn more about the Microsoft Search experience for users in [Find what you need with Microsoft Search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87).
 
 Both search experiences use the same search index to find search results. You can customize and tailor the classic search experience more than Microsoft Search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft Search](differences-classic-modern-search.md). Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience is best for your organization.
 
@@ -67,7 +69,7 @@ In lists and libraries, site columns store detailed information about each docum
   
 1. Search **crawls** the lists and libraries and adds the site columns and values to the search index.
 
-2. In the **search index**, site columns are mapped to managed properties.
+2. In the **search index**, site columns are mapped to [managed properties](/sharepoint/manage-search-schema#managed-properties-and-search).
 
 3. When a user enters a **query** in a search box, the query is sent to the search index. 
 

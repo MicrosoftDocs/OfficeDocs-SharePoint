@@ -1,7 +1,7 @@
 ---
 title: "Hardware and topology requirements for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: v-nsatapathy
+ms.author: serdars
 author: nimishasatapathy
 manager: serdars
 ms.date: 6/22/2021
@@ -45,7 +45,7 @@ Ensure the following before you proceed with deployment of SharePoint environmen
 |Single server role that uses SQL Server|Development or evaluation installation with the minimum recommended services for development environments.|64-bit, 4 cores|16 GB|80 GB for system drive  <br/> 100 GB for second drive|
 |Single server role that uses SQL Server|Pilot or user acceptance test installation running all available services.|64-bit, 4 cores|24 GB|80 GB for system drive  <br/> 100 GB for second drive and additional drives|
 |SharePoint server in a multi-tier farm|Development or evaluation installation with a minimum number of services.|64-bit, 4 cores|12 GB|80 GB for system drive  <br/> 80 GB for second drive|
-|SharePoint server in a multi-tier farm|Pilot or user acceptance test installation running all available services.|64-bit, 4 cores|16 GB|80 GB for system drive  <br/> 80 GB for second drive and additional drives|
+|SharePoint server in a multi-tier farm|Pilot, user acceptance test, or production installation running all available services.|64-bit, 4 cores|16 GB|80 GB for system drive  <br/> 80 GB for second drive and additional drives|
 
 > [!NOTE]
 > Hard disk space and number of drives depends on the amount of content and the way you choose to distribute data for a SharePoint environment.

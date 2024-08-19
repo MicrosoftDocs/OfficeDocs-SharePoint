@@ -1,15 +1,15 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Manage user profiles in the SharePoint admin center"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
-ms.topic: article
+ms.topic: how-to
 ms.custom:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
@@ -20,6 +20,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-manage
 search.appverid:
 - SPO160
 - MOE150
@@ -32,7 +33,7 @@ description: Use the SharePoint admin center to create and edit custom user prop
 
 # Manage user profiles in the SharePoint admin center
 
-This article is for Global Administrators and SharePoint Administrators in Microsoft 365. 
+This article is for [SharePoint Administrators](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. 
 
 - If you're running SharePoint Server, see [Administer the User Profile service in SharePoint Server](../SharePointServer/administration/user-profile-service-administration.md).
   
@@ -43,10 +44,10 @@ Most organizations don't need to change any user profile settings in the <a href
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>
 
-In Microsoft 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Microsoft 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint receives this profile information as described in [About user profile synchronization](user-profile-sync.md). If you need to store additional info about your users, you can create custom properties in the classic SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
+In Microsoft 365, identity is managed by Microsoft Entra ID. For info about this, see [Understanding Microsoft 365 identity and Microsoft Entra ID](/office365/enterprise/about-office-365-identity). SharePoint receives this profile information as described in [About user profile synchronization](user-profile-sync.md). If you need to store additional info about your users, you can create custom properties in the classic SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
-> Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
+> Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Microsoft Entra admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
   
 ## Add and remove admins for a user's OneDrive
 <a name="addremoveadmins"> </a>
@@ -137,8 +138,4 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     
     ![The permissions dialog for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
 
-> [!NOTE]
-> The **Disable OneDrive** check box has no effect. Use the "Create Personal Site" check box to specify the security groups that have permission to create a OneDrive.  
-  
 5. Select **OK**.
-

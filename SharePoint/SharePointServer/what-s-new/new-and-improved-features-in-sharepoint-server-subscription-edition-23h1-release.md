@@ -1,8 +1,9 @@
 ---
+ms.date: 09/06/2023
 title: "New and improved features in SharePoint Server Subscription Edition Version 23H1"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -24,9 +25,9 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates introduced in the SharePoint Server Subscription Edition Version 23H1 feature update.
 
-## List of new features and updates to existing features
+## Summary of the features
 
-The following table provides the list of new features and updates to existing features in SharePoint Server Subscription Edition.
+The following table provides a summary of the new features introduced in the SharePoint Server Subscription Edition Version 23H1 feature update.
 
 |**Feature**|**Release ring**|**More information**|
 |:-----|:-----|:-----|

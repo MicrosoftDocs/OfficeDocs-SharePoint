@@ -1,11 +1,11 @@
 ---
-ms.date: 07/11/2018
+ms.date: 02/08/2024
 title: "Planning your SharePoint hub sites"
-ms.reviewer: metorres
-manager: serdars
+ms.reviewer: cathed
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - CSH
@@ -85,13 +85,12 @@ At their core, the three types of building blocks share a common structure. For 
 
 || Team site <br/> | Communication site <br/> | Hub site <br/> |
 |:-----|:-----|:-----|:-----|
-|**Primary business objective** <br/> |**Collaborate** <br/> When you want to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas, you want a team site. Team sites are connected by default to a Microsoft 365 group to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.  <br/> |**Communicate** <br/> When you want to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people, you want a communication site. Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development. This is a great place to connect a Yammer community.  <br/> |**Connect** <br/> When you want to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.  <br/> |
+|**Primary business objective** <br/> |**Collaborate** <br/> When you want to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas, you want a team site. Team sites are connected by default to a Microsoft 365 group to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.  <br/> |**Communicate** <br/> When you want to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people, you want a communication site. Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development. This is a great place to connect a Viva Engage community.  <br/> |**Connect** <br/> When you want to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.  <br/> |
 |**Content authors** <br/> |**All members are content authors** who jointly create and edit content.  <br/> |**Small number of content authors** and a much larger number of content readers or consumers.  <br/> |**Hub site owner** defines the shared experiences for hub navigation and theme. **Hub site members** create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.  <br/> |
 |**Governance** <br/> (as allowed for your organization based on the settings in the Security &amp; Compliance center)  <br/> |Norms typically **determined by the team**. Practices are aligned in the best way to get work done.  <br/> |Policies often **determined by the organization** to ensure consistency of experience and effective management of organizational information.  <br/> |Governance **determined by each owner of the associated site based on the type of site and organizational policies**. The best experience for visitors is achieved when everyone has at least read permissions for associated sites (but this is not required).  <br/> |
 |**Permissions** <br/> |Microsoft 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions - but you may add a "reader" group to the hub to make it easier to provide read access to associated sites. For more information, see: [Hub permissions](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals). <br/> |
-|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global Administrator** or **SharePoint Administrator** in Microsoft 365  <br/> |
+|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |[SharePoint site administrators](/sharepoint/site-permissions#site-admins) and [above](/sharepoint/site-permissions) in Microsoft 365  <br/> |
 |**Examples** <br/> | - Project team working together to complete deliverables and manage tasks.  <br/> - Holiday party planning committee planning the annual get-together.  <br/>  - HR performance management team.  <br/> - Executive committee—different leadership groups within the organization.  <br/> - Extranet site to work with Partner A.  <br/> | - Travel team publishing guidelines about corporate travel.  <br/> - Policies and procedures.  <br/> - Micro-site for a new corporate initiative.  <br/> - Resources for the sales team for a product or service.  <br/> | - HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.  <br/> - Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.  <br/>  - Location-specific hub that groups the communication and team sites for a specific location (for example, the New York office).  <br/> |
-   
 ## What should be a hub site?
 
 Hub sites complement the search experience by helping you discover information in context.
@@ -139,7 +138,7 @@ Some organizational functions have an enterprise-wide scope but a regional or pr
   
 > [!NOTE]
 > An organization can have up to 2,000 hub sites. You might not need a hub site for every function and it's important to do some planning before you create hubs. 
-  
+
 There is no "one size fits all" way to determine how to align sites to a hub in this scenario. Always start by answering these questions:
   
 - Who is your audience and what do they need to accomplish?
@@ -151,12 +150,12 @@ With hub sites multi-geo capabilities, you can create a better user experience a
   
 > [!NOTE]
 > A site can only associate with a hub family. However, hub families can be connected to one another using links either on the page or in hub navigation. In addition, hubs can also be associated to other hubs to create an extended search scope for your hub families. For example, you may have a hub called Northeast Region Sales that you want to "connect" to a Global Sales hub. You can now [associate a hub to another hub](/sharepoint/hub-to-hub-association) to expand search results across multiple hubs in your organization.
-  
+
 A good practice is to start with a consistent approach for all functions that have a pattern, such as Sales. If you align region-specific functions to the regional hub, do that for all functions. Either approach is valid, but from a usability perspective, it helps to be consistent.
   
 ## How should I organize my hub site?
 
-Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by the Global Administrator or SharePoint Administrator in Microsoft 365, planning, managing, and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
+Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by [SharePoint site administrators](/sharepoint/site-permissions#site-admins) and [above] in Microsoft 365, planning, managing, and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
   
 - Association
     
@@ -172,14 +171,14 @@ Associating with the hub does not automatically add the site to the hub navigati
   
 > [!NOTE]
 > Association with a hub does not change the permissions on a site. If you associate a site that has restricted access with a hub, only users who have access to the restricted site will see content rolled up on the hub. Information surfaced on the hub site is security trimmed: if you don't have access to the content, you won't see it. Something you may want to consider is adjusting permissions on the associated sites after you have assembled your hub family or [adding a hub "read" permission group to the hub](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals) and adding that permission group to associated sites. 
-  
+
 ### Navigation
 
 The hub site owner determines which sites are reflected in the shared navigation and can also include links to other resources. This navigation appears at the top, below the suite bar. Most of the time, you will want to add associated sites to your hub navigation. That's one of the benefits of the experiences that you can enable with a hub. Your hub navigation can have up to three levels, which lets you organize your hub family in a way that helps users discover and find relevant content.
 
 > [!NOTE]
 > The default navigation menu style for team sites hub navigation will be cascading. 
-  
+
 However, you may not want to add every associated site to your navigation and you may want to consider adding sites that aren't associated to the navigation. Consider the following as you plan your hub navigation.
   
 - **Do you want to add private or restricted access sites to the navigation?** Maybe. For example, HR may want to associate their private team site with the HR hub to make it more convenient for HR team members. But, the HR hub owner may not want to display a link to the HR team site in the shared navigation for the HR hub because this would make the private HR site more discoverable by everyone in the organization, who will get an access challenge when they click the link to the HR team site. If you add private sites to hub navigation, consider using [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) so that the link only appears for members of the private site. In another scenario, there may be a site that is "semi-private" that you want interested people to discover. For example, you might have a community that wants to restrict membership to people with a specific expertise, but also wants to discover experts across the organization. In this scenario, users might get an access denied/request access message, but the site owner is prepared and wants to grant access to interested people. 
@@ -197,7 +196,21 @@ However, you may not want to add every associated site to your navigation and yo
 There is no requirement to have more than one hub for your organization, but you should think about what this means for information organization and discovery. An advantage to having just one hub is that every site in the intranet will share a consistent top navigation. However, since every site can also share consistent global navigation in the App Bar, you may want to consider taking advantage of more than one hub.
   
 If you have only one hub, you'll miss the ability to easily surface related information in context and the ability to easily define a search scope for related content. For example, if you have a single enterprise hub, it will be harder to surface just HR-related news on the HR site. Even small organizations may find that restricting the context in which users find information is helpful in managing information overload. We now have the ability to create a hierarchy of hubs to create [hub to hub associations](/sharepoint/hub-to-hub-association). This allows you to create a network of hubs that roll-up to each other to create connections and additional search scopes. When hubs are associated with each other, content can be searched for and displayed on hubs up to three levels of association.
+
+## How many sites should I associate to a hub?
+
+Though there is technically no limit to the number of sites you can associate to a hub, there are practical guidelines to consider so that you will get the optimal benefit of using hubs in your information architecture (IA).
+
   
+As with most IA decisions, you should first focus on the outcomes you are trying to achieve by using hubs and then use that goal to help determine a practical number of sites to associate to a hub. A good place to start is to focus on the key benefits of using a hub to organize sites.
+
+|Key Benefit/Outcome Goal|Practical Guidance|
+| -------- | -------- |
+|Share a common theme across all sites|In general, you would not establish a hub when the only outcome goal is to share a consistent theme for all sites. For more information about SharePoint site themes, see: [SharePoint site theming - PowerShell cmdlets | Microsoft Learn](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-powershell).|
+|Display links to all sites in the hub in site navigation|**Technically no more than 500, practically and from a performance perspective, no more than 100.** There is a [technical limit to the number of navigation nodes that you can have in a SharePoint site](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). However, unless you are using audience targeting to limit the number of sites that a given user sees, showing 500 navigation links would create a very challenging user experience to read. From a user experience and performance perspective, the [recommended number of links is no more than 100](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). If you want to display all sites in your hub in your navigation, the recommended maximum number of sites per hub is 100. |
+|Display a security trimmed, dynamic list of all sites in the hub without written code. |**No more than 99.** The [sites web part](https://support.microsoft.com/office/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d) can be set to filter for "all sites in the hub" up to a maximum of 99 sites. |
+|Shared search scope for all sites in the hub. |**Approximately 2,000.** Technically, there is no hard limit to the number of sites you can associate to a hub from a search perspective. However, you could experience performance issues when you have large numbers of sites associated to a hub. Consider your outcome goal - do you really need a site for each "topic", or would a document library achieve your goals? You can have 2000 lists and libraries in a site collection and within each library, you can have up to 30 million files and folders. You may find that using multiple document libraries in a site may achieve your outcome goals if the primary purpose of your hub is to search across related files. If you need a site for each topic, you should consider the challenges of managing large number of site collections associated to a single hub and whether there may be an alternative approach to get the outcome goals you want. |
+
 ## Additional important considerations
 
 - **Finding hubs if you have more than one**. Hubs are an important building block for your intranet. Here are some ways you can make your hub sites discoverable: 
@@ -222,6 +235,7 @@ Use hub sites when they align with your business outcomes and solve a need for y
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
-**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
 
-
+**Principal author: Susan Hanley, MVP**
+- LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)
+- Website: [www.susanhanley.com](http://www.susanhanley.com)

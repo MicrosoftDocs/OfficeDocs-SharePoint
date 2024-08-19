@@ -1,16 +1,15 @@
 ---
-ms.date: 10/05/2021
+ms.date: 08/11/2023
 title: "Overview: Migrate Egnyte using Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,16 +18,15 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
-ROBOTS: NOINDEX
-description: "Overview of how to migrate your Egnyte content using Migration Manager"
+description: "Overview of how to migrate your Egnyte content using Migration Manager."
 ---
 # Overview: Migrate Egnyte using Migration Manager
 
 Collaborate all in one place by migrating your Egnyte documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-![Migration Manager main landing page](media/mm-egnyte-landing.png)
 
 ## How does it work?
 
@@ -44,17 +42,22 @@ Collaborate all in one place by migrating your Egnyte documents, data, and users
 
 To get started:
 
-Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Egnyte** to create a migration project. Make sure that you have:
 
-Make sure that you have:
+- **Access to the destination**: You must be one of the following roles in the Microsoft 365 tenant where you want to migrate your content: 
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
+  - Global admin
+  - OneDrive/SharePoint admin
+  - User that is granted with the "[Microsoft 365 Migration Administrator](/sharepointmigration/mm-migration-admin-role)" role
+
+>[!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 - **Access to the source**: Have Egnyte account credentials that have read access to any Egnyte user account you plan to migrate.
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
+- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it's likely that it won't allow you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
 
 **Sample request email:**
 

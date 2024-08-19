@@ -2,9 +2,9 @@
 ms.date: 08/21/2020
 title: Guided walkthrough - Setting up news for your organization using a hub site
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

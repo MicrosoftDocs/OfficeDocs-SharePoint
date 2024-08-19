@@ -2,9 +2,9 @@
 ms.date: 09/19/2020
 title: "Information architecture principles in SharePoint"
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

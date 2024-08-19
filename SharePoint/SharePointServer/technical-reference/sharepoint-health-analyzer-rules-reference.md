@@ -45,7 +45,11 @@ The following Health Analyzer rules relate to security in SharePoint Server:
 - [The server farm account should not be used for other services (SharePoint Server)](the-server-farm-account-should-not-be-used-for-other-services.md)
     
 - [The unattended Service Account Application ID is not specified or has an invalid value (SharePoint Server)](the-unattended-service-account-application-id-is-not-specified-or-has-an-invalid.md)
-    
+
+- [Antimalware Scan Interface (AMSI) protection may not be working (SharePoint Server)](amsi-protection-may-not-be-working.md)
+
+- [Basic authentication is being deprecated (SharePoint Server)](basic-auth-is-being-deprecated.md)
+
 ## Performance
 
 The following Health Analyzer rules relate to performance for SharePoint Server:
@@ -79,7 +83,6 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
 ## Configuration
 
 The following Health Analyzer rules relate to configuration of SharePoint Server.
-  
 - [Alternate access URLs have not been configured (SharePoint Server)](alternate-access-urls-have-not-been-configured.md)
     
 - [The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)](the-application-discovery-and-load-balancer-service-is-not-running-in-this-farm.md)
@@ -167,6 +170,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [The Machine Translation Service is not running when it should be running (SharePoint Server)](the-machine-translation-service-is-not-running-when-it-should-be-running.md)
     
 - [XLIFF translations for the Machine Translation Service is disabled (SharePoint Server)](xliff-translations-for-the-machine-translation-service-is-disabled.md)
+
+- [Certificate Management is not managing the nonce cookie certificate (SharePoint Server)](the-nonce-cookie-certificate-is-not-imported.md)
     
 ## Availability
 

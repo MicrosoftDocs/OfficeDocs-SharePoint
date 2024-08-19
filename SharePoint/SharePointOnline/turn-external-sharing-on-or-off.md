@@ -1,19 +1,20 @@
 ---
-ms.date: 06/19/2023
+ms.date: 06/24/2024
 title: Manage sharing settings for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: CSH
-ms.topic: article
+ms.topic: how-to
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
+- essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -21,12 +22,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how global and SharePoint administrators can change the organization-level sharing settings for SharePoint and OneDrive in Microsoft 365."
+description: "Learn how SharePoint administrators can change the organization-level sharing settings for SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Manage sharing settings for SharePoint and OneDrive in Microsoft 365
 
-This article describes how global administrators and SharePoint administrators in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
+This article describes how SharePoint administrators in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
 - [Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
@@ -36,26 +37,28 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 
 To change the sharing settings for a site after you've set the organization-level sharing settings, see [Change sharing settings for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a specific user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 
-### SharePoint and OneDrive integration with Azure AD B2B
+[!INCLUDE [sharepoint-setup-guide-tip.md](includes/sharepoint-setup-guide-tip.md)]
+
+### SharePoint and OneDrive integration with Microsoft Entra B2B
 
 There are two external sharing models used in SharePoint and OneDrive:
 
 - SharePoint external authentication
 
-- SharePoint and OneDrive integration with Azure AD B2B
+- SharePoint and OneDrive integration with Microsoft Entra B2B
 
-When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+When using Microsoft Entra B2B integration, Microsoft Entra external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
 
 The following table shows the differences between the two sharing models.
 
 |Sharing method|Files and folders|Sites|
 |:--|:----------------|:----|
-|SharePoint external authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
-|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+|SharePoint external authentication<br>(Microsoft Entra B2B integration not enabled)|No guest account created*<br>Microsoft Entra settings don't apply|N/A<br>(Microsoft Entra B2B always used)|
+|Microsoft Entra B2B integration enabled|Guest account always created<br>Microsoft Entra settings apply|Guest account always created<br>Microsoft Entra settings apply|
 
 *A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
 
-For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+For information on how to enable or disable Microsoft Entra B2B integration, see [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md).
 
 ## Video demonstration
 
@@ -68,19 +71,19 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
-2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
+1. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is **Anyone**.
 
-    > [!NOTE]
-    > The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams.
-    > 
-    > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
+> [!NOTE]
+> The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups and teams. Groups and Teams guest sharing settings also affect connected SharePoint sites.
+>
+> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
 
-    ![External sharing settings](media/externalsharing.png)
+![Screenshot of external sharing settings.](media/externalsharing.png)
 
-    This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
 
 > [!IMPORTANT]
-> [Azure Active Directory external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization for site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Azure AD guest access settings as part of your SharePoint and OneDrive sharing setup.
+> [Microsoft Entra external collaboration settings](/azure/active-directory/external-identities/external-collaboration-settings-configure) determine who can invite guests in your organization for site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Microsoft Entra guest access settings as part of your SharePoint and OneDrive sharing setup.
 
 ### Which option to select
 
@@ -98,23 +101,17 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 
 ### More external sharing settings
 
-![More external sharing settings](media/external-sharing.png)
-
 **Limit external sharing by domain**
 
-This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 3000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
+This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 5000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
 
 You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
 
-[Allowed or blocked domains in Azure AD](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Azure AD collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
+[Allowed or blocked domains in Microsoft Entra ID](/azure/active-directory/external-identities/allow-deny-list) also affect SharePoint and OneDrive site sharing (always) and file and folder sharing (if Azure B2B collaboration is enabled). Be sure to review Microsoft Entra collaboration restrictions as part of your SharePoint and OneDrive sharing setup.
 
 **Allow only users in specific security groups to share externally**
 
 For info about this setting, see [Manage security groups](./manage-security-groups.md).
-
-**Guests must sign in using the same account to which sharing invitations are sent**
-
-By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account. This setting only applies to sharing that doesn't use Azure AD B2B collaboration.
 
 **Allow guests to share items they don't own**
 
@@ -126,13 +123,13 @@ If your administrator has set an expiration time for guest access, each guest th
 
 **People who use a verification code must reauthenticate after this many days**
 
-If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation by entering a code sent to that account. If Azure B2B collaboration is enabled, the [Azure AD setting](/azure/active-directory/external-identities/one-time-passcode) is used instead of this setting.
+If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation by entering a code sent to that account. If Azure B2B collaboration is enabled, the [Microsoft Entra setting](/azure/active-directory/external-identities/one-time-passcode) is used instead of this setting.
 
 ## File and folder links
 
 Choose the option you want to show by default when a user creates a sharing link. 
 
-![Default links](media/defaultlinks.png)
+![Screenshot of default links.](media/defaultlinks.png)
 
 > [!NOTE]
 > This setting specifies the default for your organization, but you can choose a different default link type for a site.
@@ -148,7 +145,7 @@ Choose the option you want to show by default when a user creates a sharing link
 
 ### Advanced settings for **Anyone** links
 
-![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
+![Screenshot of settings in the new SharePoint admin center.](media/advanced-settings-anyone-links.png)
 
 **Link expiration** - You can require all **Anyone** links to expire, and specify the maximum number of days allowed. If you change the expiration time, existing links will keep their current expiration time if the new setting is longer, or be updated to the new setting if the new setting is shorter.
 
@@ -158,7 +155,7 @@ If you are using file requests, the link permissions must be set for **View and 
 
 ## Other settings
 
-![Other sharing settings](media/othersettings.png)
+![Screenshot of other sharing settings.](media/othersettings.png)
 
 **Show owners the names of people who viewed their files in OneDrive**
 
@@ -171,13 +168,12 @@ This setting lets you control whether the owner of a shared file can see on the 
 
 This setting lets you specify whether site owners can allow users who have access to a file, page, or news post to see on the file card who has viewed the item. 
 
-![Viewer information on the file card for a document.](media/8ff30cde-b358-4b35-9f9d-77cb01c69f09.png)
+![Screenshot of viewer information on the file card for a document.](media/8ff30cde-b358-4b35-9f9d-77cb01c69f09.png)
 
 This setting is turned on by default at the organization level and off at the site level for existing sites. Viewer information is shown only when the setting is on at both the organization and site level. We recommend that site owners turn on this feature only on team sites that don't have sensitive information. [Learn how site owners can turn on this feature](https://support.office.com/article/ee26dde0-c30e-4eca-b1c3-38922c450967).
 
 > [!NOTE]
 > Historical data is included when this setting is enabled. Likewise, if the setting is turned off and back on at the organization level or site level, the views during the off period are included in the history.
-
 **Use short links for sharing files and folders**
 
 Uses a shorter link format for sharing files and folders. This may be useful if you have integrations that require a shorter URL.
@@ -195,4 +191,3 @@ You can also find help on security and permissions in these [YouTube videos from
 [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)
-

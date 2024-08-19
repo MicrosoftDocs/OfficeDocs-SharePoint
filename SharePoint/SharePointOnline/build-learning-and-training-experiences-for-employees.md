@@ -1,10 +1,10 @@
 ---
-ms.date: 09/23/2021
+ms.date: 05/31/2024
 title: Build Learning and Training Experiences for Employees
 ms.reviewer:
-ms.author: hokavian
-author: Holland-ODSP
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-corpcomms
 - m365solution-scenario
 - highpri
+- best-practices
 search.appverid:
 - SPO160
 - MET150
@@ -80,7 +81,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 - **Use Microsoft Teams to hold live learning events.** Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting.
 
-- **Provide an opportunity for employees to learn from each other in Yammer.** [Create a Yammer channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.
+- **Provide an opportunity for employees to learn from each other in Viva Engage.** [Create a Viva Engage channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Viva Engage web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.
 
 ## Build the learning and training experience
 
@@ -122,19 +123,19 @@ Make this live event fun and engaging by giving employees an opportunity to comm
 
 Record each session so employees can review the learning material later, or so future employees can experience the session as well. Make this recording available through the SharePoint Learning and Training site or through the Viva Learning platform. Learn more about [Teams live events.](/microsoftteams/teams-live-events/what-are-teams-live-events).
 
-### Provide an opportunity for employees to learn from each other in communities on Yammer
+### Provide an opportunity for employees to learn from each other in communities on Viva Engage
 
-![Screenshot of Yammer home page.](media/th4.png)
+![Screenshot of Viva Engage home page.](media/th4.png)
 
-Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for employees within the same or similar disciplines.
+Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Viva Engage. Viva Engage is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Viva Engage allows you to set up a community specifically for employees within the same or similar disciplines.
 
-Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq).
+Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](https://support.microsoft.com/topic/communities-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4).
 
 ### Make sure all tools and experiences are accessible
 
 Ensure each learning and training experience is accessible by [incorporating accessibility best practices across all relevant Microsoft 365 tools](https://www.microsoft.com/microsoft-365/business/accessibility-tools). Make sure everything in your learning and training experience is visible and labeled properly. Use alternative text for images and graphics. Incorporate [transcripts](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) in videos and training material.
 
-Share this experience with the right people. Make sure employees know how to access all the tools needed in the learning experience. Use all sharing options including email, Teams messages, Yammer posts, SharePoint web parts, Viva Learning, and [Viva Connections](/sharepoint/viva-connections-overview) to build awareness and increase accessibility.
+Share this experience with the right people. Make sure employees know how to access all the tools needed in the learning experience. Use all sharing options including email, Teams messages, Viva Engage posts, SharePoint web parts, Viva Learning, and [Viva Connections](/sharepoint/viva-connections-overview) to build awareness and increase accessibility.
 
 Ensure every employee and instructor has access to all tools and resources. Consider the unique needs of everyone involved in making sure the learning and training experience is successful. Stay informed about the specific time zones of every stakeholder to make sure all timelines and deliverables are feasible for everyone involved.
 

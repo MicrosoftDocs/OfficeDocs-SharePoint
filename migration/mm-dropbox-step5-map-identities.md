@@ -2,15 +2,14 @@
 ms.date: 01/21/2021
 title: "Step 5: Map Dropbox identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 5:  Map Dropbox identities with Migration Manager." 
 ---
@@ -50,16 +50,12 @@ Migration Manager will migrate broken permission inheritance.
 
 Authentication between Migration Manager and DropBox should be with Application Auth. If you received the error *Unable to access DropBox*, it's most likely not related to breaking permission inheritance in a subfolder. 
 
-
 ## Map identities
 
 Map your groups and users in Dropbox to those in Microsoft 365 to migrate your Dropbox sharing settings.
 
 1. Select the Migrations tab.
 2. Select **Map identities** on the menu bar.
-
-![Map Dropbox identities](media/mm-box-upload-destinations-bulk.png)
-</br>
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values using a CSV file.
 
 
@@ -67,7 +63,6 @@ Map your groups and users in Dropbox to those in Microsoft 365 to migrate your D
 
 1. To edit a single mapping, highlight the row. Enter the mapping Microsoft 365 user account. 
 2. Select **Save**.
-
 
 ### Import users and groups
 

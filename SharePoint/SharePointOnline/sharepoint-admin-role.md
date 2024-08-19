@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
-title: "About the SharePoint admin role in Microsoft 365"
+ms.date: 05/17/2024
+title: "About the SharePoint Administrator role in Microsoft 365"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -20,6 +20,7 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365initiative-spsitemanagement
+- essentials-manage
 search.appverid:
 - SPO160
 - MOE150
@@ -29,34 +30,36 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: f08144d5-9d50-4922-8e77-4e1a27b40705
-description: "Learn about the SharePoint admin role in Microsoft 365. SharePoint admins administer SharePoint and OneDrive in your organization."
+description: "Learn about the SharePoint Administrator role in Microsoft 365. SharePoint Administrators administer SharePoint and OneDrive in your organization."
 ---
 
 # About the SharePoint Administrator role in Microsoft 365
 
-Global Administrators in Microsoft 365 can assign users the SharePoint Administrator role for help with administering Microsoft SharePoint. The global admin role already has all the permissions of the SharePoint Administrator role. For info about assigning a user the SharePoint Administrator role, see [Assign admin roles in Microsoft 365 for business](/office365/admin/add-users/assign-admin-roles).
+Users assigned the SharePoint Administrator role have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can create and manage sites, designate site admins, manage sharing settings, and manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
 
-For info about adding or removing a site admin (previously called "site collection administrator"), see [Manage site admins](manage-site-collection-administrators.md).
+Global Administrators in Microsoft 365 can assign users the SharePoint Administrator. The Global Administrator role already has all the permissions of the SharePoint Administrator role. 
 
-![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
-  
-Users assigned the SharePoint Administrator role have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can create and manage sites (previously called "site collections"), designate site admins, manage sharing settings, and more. 
+For info about assigning a user the SharePoint administrator role, see [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles). If a user's role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
 > [!IMPORTANT]
-> - SharePoint Administrators can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
-> - If a user’s role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+#### Site management
 
 Global Administrators and SharePoint Administrators don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
-  
-Site admins are users that have permission to manage sites, including any subsites. They don't need to have an admin role in Microsoft 365, and aren't given access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. 
-  
-> [!NOTE]
-> Global Administrators, SharePoint Administrators, and site admins all need to be assigned a SharePoint license. If you have a standalone OneDrive for Business plan, admins can access the SharePoint admin center without a SharePoint license.
->
-> There is a separate role within SharePoint called the **Term Store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
-> 
-> To manage API access in the SharePoint admin center, the application administrator role or the Global administrator role might be required. For more information, see [Manage access to Azure AD-secured APIs](api-access.md).
- 
+
+Site admins have permission to manage sites, but they don't need to have an admin role in Microsoft 365, and don't have access to the SharePoint admin center.
+
+For info about adding or removing a site admin, see [Manage site admins](manage-site-collection-administrators.md).
+
+#### Term store administration
+
+There is a separate role within SharePoint called the Term Store administrator. Users assigned to this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md).
+
+#### API access
+
+To manage API access in the SharePoint admin center, the [application administrator role](/entra/identity/role-based-access-control/permissions-reference#application-administrator) or above might be required. For more information, see [Manage access to Microsoft Entra ID-secured APIs](api-access.md).
+
 ## Key tasks of the SharePoint admin
 <a name="BK_KeyTasks"> </a>
 
@@ -80,4 +83,3 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 [About Microsoft 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

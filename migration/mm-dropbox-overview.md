@@ -1,16 +1,15 @@
 ---
-ms.date: 01/21/2021
+ms.date: 07/29/2024
 title: "Overview: Migrate Dropbox using Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
@@ -18,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of migration from Dropbox to Microsoft 365 using Migration Manager.
@@ -28,7 +28,6 @@ description: Overview of migration from Dropbox to Microsoft 365 using Migration
 
 Collaborate all in one place by migrating your Dropbox documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-:::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing-Dropbox.png":::
 
 ## How does it work?
 
@@ -44,11 +43,16 @@ Collaborate all in one place by migrating your Dropbox documents, data, and user
 
 To get started:
 
-Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](https://admin.microsoft.com/#/featureexplorer/collections/Migrations), select **Dropbox** to create a migration project. Make sure that you have:
 
-Make sure that you have:
+- **Access to the destination**: You must be one of the following roles in the Microsoft 365 tenant where you want to migrate your content: 
 
-- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
+  - Global admin
+  - OneDrive/SharePoint admin
+  - User that is granted with the "[Microsoft 365 Migration Administrator](/sharepointmigration/mm-migration-admin-role)" role
+
+  >[!IMPORTANT]
+  >Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 - **Access to the source**: Have Dropbox account credentials that have read access to any Dropbox user account you plan to migrate.
 

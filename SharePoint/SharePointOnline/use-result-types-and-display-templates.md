@@ -1,9 +1,9 @@
 ---
 title: "Change how search results look by using result types and display templates"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 4/5/2018
 audience: Admin

@@ -1,16 +1,15 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 5: Map Egnyte identities with Migration Manager"
 ms.reviewer: jhendr
-author: JoanneHendrickson
-ms.author: jhendr
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - CSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Step 5:  Map Egnyte identities with Migration Manager." 
@@ -35,14 +35,8 @@ Map your groups and users in Egnyte to those in Microsoft 365 to migrate your Eg
 
 1. Select the Migrations tab.
 2. Select **Map identities** on the menu bar.
-
-![Map Egnyte identities](media/mm-box-upload-destinations-bulk.png)
-</br>
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values using a CSV file.
 
-
-
-</br>
 
 ## Mapping individual identities
 

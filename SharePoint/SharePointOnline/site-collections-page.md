@@ -1,11 +1,11 @@
 ---
-ms.date: 05/12/2020
+ms.date: 04/24/2024
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - CSH
@@ -36,7 +36,7 @@ This article covers all the features on the classic site collections page and wh
 
 ## New (create a new private site collection)
 
-To create a site collection in the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, and then select **Create** on the command bar. To create a classic site, select **Other options**.
+To create a site collection in the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, and then select **Create** on the command bar. To create a classic site, select **Browse more sites**.
 
 <br/>
 
@@ -44,7 +44,6 @@ To create a site collection in the new SharePoint admin center, go to <a href="h
 |:-----|:-----|
 |![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png)|
 
-<br/>
 
 |Classic|New|
 |:-----|:-----|
@@ -52,11 +51,12 @@ To create a site collection in the new SharePoint admin center, go to <a href="h
 |Change the URL path to /sites/ or /teams/|Site address boxes appear after you begin entering a site name.|
 |Web Site Address|Site address boxes appear after you begin entering a site name. The name is entered by default as the address. To change it, select the Edit icon.|
 |Select a language|Select a language|
-|Select a template: </br>**Community**: Team site (classic experience), Blog, Developer site, Project Site, Community Site</br>**Enterprise**: Document Center, eDiscovery Center, Records Center, Team Site – SharePoint Online configuration, Business Intelligence Center, Compliance Policy Center, My Site Host, Community Portal, Basic Search Center, Visio Process Repository</br>**Publishing**: Publishing Portal, Enterprise Wiki, Product Catalog </br>**Custom**: \<Select template later...>|In the **Choose a template** box, you can select **Document Center**, **Enterprise Wiki**, or **Publishing Portal**. To select the others, select **More templates**. This opens the classic Create Site Collection window.|
+|Select a template: </br>**Collaboration**: Team site (classic experience), Developer site, Project Site, Community Site</br>**Enterprise**: Document Center, eDiscovery Center, Records Center, Team Site – SharePoint Online configuration, Business Intelligence Center, Compliance Policy Center, Enterprise Search Center, My Site Host, Community Portal, Basic Search Center, Visio Process Repository</br>**Publishing**: Publishing Portal, Enterprise Wiki </br>**Custom**: \<Select template later...>|In the **Choose a template** box, you can select **Document Center**, **Enterprise Wiki**, or **Publishing Portal**. To select the others, select **More templates**. This opens the classic Create Site Collection window.|
 |Time Zone|Expand **Advanced settings** and select **Time zone**.|
 |Administrator|Primary Administrator|
+|Storage Quota|Assign storage quota for the site.|
 |Server Resource Quota|This setting has had no effect for more than a year.|
-|Private Site Collection with Project Web App|Create a site and then use the [PowerShell cmdlet Set-SPOSite -EnablePWA](/powershell/module/sharepoint-online/set-sposite) to add or remove Project Web App.|
+
 
 ## Delete
 
@@ -66,78 +66,51 @@ On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank"
 
 The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row to open the details panel, except in the URL column.
 
-<br/>
 
-|Classic|New|
-|:-----|:-----|
-|![Site collections properties](media/site-collection-properties.png)|![Communication site](media/communication-site.png)|
+![Communication site](media/communication-site.png)
 
-<br/>
+## Site membership
 
-|Classic|New|
-|:-----|:-----|
-|Title|Site name column|
-|Complete Web Site Address link|URL column shows the path after the domain. You can copy the link to save the full URL to the Clipboard.|
-|Primary Administrator|Primary admin column.|
-|Other Administrators|For any sites that aren't connected to a Microsoft 365 group, select the site, and on the command bar, select **Membership** to open the details panel. (For group-connected sites, you have options for managing group owners and additional admins.)|
-|Number of subsites|Not available|
-|Storage Usage|Storage used (GB) column.|
-|Resource Usage, Server Resource Quota, Resource Usage Warning Level|These settings have had no effect for more than a year.|
+To change the site membership, such as site admins, site owners, site members, and site visitors, for any site that isn't connected to a Microsoft 365 group, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, select **Membership** on the command bar to open the details panel from where you can edit the membership information.
 
-## Owners
+[Manage admins](media/manage-admins.png)
 
-To change the owners for any site that isn't connected to a Microsoft 365 group, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, select **Membership** on the command bar to open the details panel from where you can edit the membership information.
+### Site admins
 
-<br/>
+Select **Site admins** then select **Add site admins** to add a site admin. To remove a site admin, check the box in front of their name, then select **Remove as site admin**.
 
-|Classic|New|
-|:-----|:-----|
-|![Manage administrators](media/manage-administrators.png)|![Manage admins](media/manage-admins.png)|
+#### Assign the primary site admin
 
-<br/><br/>
+Each site has one primary admin. You can assign the primary site admin by selecting an existing admin, then select **Make primary site admin**.
 
-|Classic|New|
-|:-----|:-----|
-|Primary Site Collection Administrator|Switch the role of an existing admin to Primary Admin, or add an admin and then switch them to Primary admin.|
-|Site Collection Administrators|Use the Add an admin box to add an admin and the Remove button to remove an admin.|
-|Add Support Partner|This option is available in PowerShell only. Go to the Site Permissions page for a site where you've added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps&preserve-view=true).|
+> [!NOTE]
+> You can't remove a primary admin. To remove a primary admin, you can first assign the primary admin role to another existing admin, then come back to remove the current admin.
 
 ## Sharing
 
 To change sharing settings for a site, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, and select **Sharing** on the command bar.
 
-<br/>
+![Sharing modern](media/sharing-modern.png)
 
-|Classic|New|
-|:-----|:-----|
-|![Sharing classic](media/sharing-classic.png)|![Sharing modern](media/sharing-modern.png)|
+### Limit external sharing by domain
 
-<br/>
+On the [**Active sites page** of SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185220), select the site name that you want to restrict domains to open the details panel.
 
-|Classic|New|
-|:-----|:-----|
-|Sharing outside your company|External sharing <br/> - "Don't allow sharing outside your organization" is the same as "Only people in your organization." <br/> - "Allow sharing only with the external users that already exist in your organization's directory" is the same as "Existing guests only." <br/> - "Allow external users who accept sharing invitations and sign in as authenticated users" is the same as "New and existing guests." <br/> - "Allow sharing with all external users, and by using anonymous access links" is the same as "Anyone." <br/>|
-|Default link type|Default sharing link type <br/> - "Respect default organization setting" is the same as "Same as organization-level setting."  <br/> - "Direct" is the same as "Specific people." <br/> - "Internal" is the same as "Only people in your organization." <br/> - "Anonymous Access" is the same as "Anyone with the link." <br/>|
-|Default link permission|"Respect default organization setting" is the same as "Same as organization-level setting." Both the classic and new admin centers have View and Edit options.  <br/>|
-|Limit external sharing by domain <br/>|Under **Advanced settings for external sharing**, select **Limit sharing by domain**. <br/>|
-|Turn off sharing for all non-owners on all sites in the site collection <br/>|This option is available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -DisableSharingForNonOwners <br/>|
+On the panel, select the **Settings** tab and select **More sharing settings** under **External file sharing**.
+
+Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
+
+![Screenshot of limit site sharing by domains.](media/site-sharing-domains.png)
+
+### Turn off sharing for all non-owners on all sites in the site collection 
+
+This option is available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -DisableSharingForNonOwners <br/>|
 
 ## Storage quota
 
 These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, and select **Storage** on the command bar.
 
-<br/>
-
-|Classic|New|
-|:-----|:-----|
-|![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)|
-
-<br/>
-
-|Classic|New|
-|:-----|:-----|
-|Limit storage quota for each selected site collection to a maximum of|Maximum storage for this site <br/>|
-|Send e-mail to site collection administrators when a site collection's storage reaches|Allow notifications|
+![Edit storage limit](media/edit-storage-limit.png)
 
 ## Buy storage
 

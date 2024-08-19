@@ -1,9 +1,9 @@
 ---
 ms.date: 05/21/2020
 title: How to think about your intelligent intranet
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -32,7 +32,7 @@ Use this guide to understand how to leverage SharePoint to meet your organizatio
 
 ## What does intelligent mean?
 
-In the modern world, the intranet should be the center of your workplace. An intelligent SharePoint intranet is engaging, informative, personalized, and integrated with the other portals and sites in your intranet as well as other Microsoft 365 apps like Microsoft Teams and Yammer. Modern intranets take many shapes and sizes depending on the ever-evolving needs of the business.
+In the modern world, the intranet should be the center of your workplace. An intelligent SharePoint intranet is engaging, informative, personalized, and integrated with the other portals and sites in your intranet as well as other Microsoft 365 apps like Microsoft Teams and Viva Engage. Modern intranets take many shapes and sizes depending on the ever-evolving needs of the business.
 
 Hallmarks of what constitutes an intelligent intranet:
 
@@ -72,7 +72,7 @@ What makes modernizing your intranet worth the effort:
 
 |Traditional|New|How to get started |
 |:-------|:------|:--------|
-| Communication primarily through email   | Communicate primarily through SharePoint news, community portals, and Yammer   |  Instead of sharing a project update in a newsletter, announce your update on your project's site and in the Yammer feed to start an engaging conversation. </br>  [Learn more about using the Yammer web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
+| Communication primarily through email   | Communicate primarily through SharePoint news, community portals, and Viva Engage   |  Instead of sharing a project update in a newsletter, announce your update on your project's site and in the Viva Engage feed to start an engaging conversation. </br>  [Learn more about using the Viva Engage web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
 | Outdated news is shared in a corporate news feed or newsletter | SharePoint news posts transform news into a visually engaging experience that can be created quickly and distributed to specific audiences in real-time |Instead of communicating big announcements through an org-wide email, create a news post that will dynamically display to your relevant audience. </br> [Learn more about creating a news site](./organization-news-site.md)|
 | Disjointed experience for international organizations | Multi-lingual and audience targeting features ensure users relate to relevant information | Instead of creating separate experiences for unique viewers, target navigational links to specific audiences. </br> [Learn more about targeting content to specific audiences](https://support.microsoft.com/en-us/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) <!-- The preceding link requires a locale specifier.--> |
 
@@ -81,17 +81,17 @@ What makes modernizing your intranet worth the effort:
 |Traditional|New|How to get started |
 |:-------|:------|:--------|
 | Intranet structure is based on organization structure   | Role and task-based portals house community initiative-driven projects   |  Instead of separating content by organizational structure, use hubs to organize content based on business initiatives. </br>  [Learn more about planning hubs](./planning-hub-sites.md) |
-| In-person gatherings to build team and organizational culture | Frequent engagement through online events that showcase people, celebrate milestones, and maintain consistent conversation using Yammer and Microsoft Stream |Instead of semi-annual gatherings, record online events and embed the event recording using Microsoft stream in a news post. </br> [Learn more about using the Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B)|
-| Infrequent interaction between the organization and leadership | Aligns organizations with leadership through live events, dynamic content like news, and social connection | Instead of formal engagements with leadership, create accessible outlets in the form of live events in Yammer. </br> [Learn more about organizing a live event in Yammer](https://support.office.com/article/Organize-a-live-event-in-Yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) |
+| In-person gatherings to build team and organizational culture | Frequent engagement through online events that showcase people, celebrate milestones, and maintain consistent conversation using Viva Engage and Microsoft Stream |Instead of semi-annual gatherings, record online events and embed the event recording using Microsoft stream in a news post. </br> [Learn more about using the Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B)|
+| Infrequent interaction between the organization and leadership | Aligns organizations with leadership through live events, dynamic content like news, and social connection | Instead of formal engagements with leadership, create accessible outlets in the form of live events in Viva Engage. </br> [Learn more about organizing a live event in Viva Engage](https://support.office.com/article/Organize-a-live-event-in-yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) |
 
 ### Creates and extends knowledge
 
 |Traditional|New|How to get started |
 |:-------|:------|:--------|
-| Static information like FAQ   | Dynamic information that's community generated in Yammer   |  Instead of creating a FAQ page, embed a Yammer web part that connects viewers to subject matter experts and provides insights into previous conversations. </br>  [Learn more about using the Yammer web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
+| Static information like FAQ   | Dynamic information that's community generated in Viva Engage   |  Instead of creating a FAQ page, embed a Viva Engage web part that connects viewers to subject matter experts and provides insights into previous conversations. </br>  [Learn more about using the Viva Engage web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
 | Browse to find | Search *and* browse to find |Instead of limiting viewers access to content, use SharePoint modern search features that protect sensitive content while increasing search success. </br> [Learn more about search in SharePoint](./overview-of-search.md)|
 | Collection of websites | Collection of experiences | Instead of organizing your internet by area of business, organize by business outcomes and initiatives. </br> [Learn more about planning hubs](./planning-hub-sites.md) |
-| Limited number and access to subject matter experts | Find subject matter experts and communities of expertise | Instead of relying on finding subject matter experts in siloed organizations, surface expertise in social communities like Yammer and Teams. </br> [Learn more about organizing a live event in Yammer](https://support.office.com/article/Organize-a-live-event-in-Yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) |
+| Limited number and access to subject matter experts | Find subject matter experts and communities of expertise | Instead of relying on finding subject matter experts in siloed organizations, surface expertise in social communities like Viva Engage and Teams. </br> [Learn more about organizing a live event in Viva Engage](https://support.office.com/article/Organize-a-live-event-in-viva-engage-105dd7af-9caf-4a5e-8a44-56d203e96551) |
 
 ## Moving in the modern direction
 

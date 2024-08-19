@@ -1,16 +1,15 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/03/2023
 title: "Step 2: Scan and assess Box accounts using Migration Manager"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -19,29 +18,27 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 2:  Scan and assess Box users using Migration Manager."
 ---
 
 # Step 2: Scan and assess Box users
 
-After you connect, add the source paths to scan and assess your Box user accounts.
+> [!NOTE]
+> "Step 2: Scan and access Box users" can now be skipped to alleviate Box throttling. Once the users (tasks) are added to the Scan list, they can be copied to the Migrations tab instantly for migration operations. Please note that Migration Manager will not discover any possible errors and warnings before migration if the scan process is skipped.
 
-1. Select **Add source paths** and choose a method; to auto-discover users in Box, target a single source path, or bulk upload the source paths using a CSV file.
-
-![add source paths manually in Box](media/mm-add-source-path.png)
-
-![add source path selections](media/mm-add-source-path-choices-box.png)
-
-2. After adding the source, highlight any or all of the accounts and then select **Scan**.
+After you connect, scan and assess your Box user accounts.
+1. Select **Add users** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Box</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
+2. Choose to **Automatically start scanning now** or choose to scan later.
+3. Select **Add**.
+4. Highlight any or all of the accounts and then select **Scan** if you chose not to auto scan earlier.
 
 >[!Important]
 > The total number cannot exceed 50,000 tasks.
 
-3. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
+5. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes User item counts, migration readiness, and any issues that need attention. 
 4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-
-   ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
 
 
 ## Download reports
@@ -51,7 +48,7 @@ Summary and detailed scan reports are available to assist you in troubleshooting
 1. Once the scan is complete, select **Download reports** from the menu bar for *summary* reports.
 
    ![add source paths manually in Box](media/mm-add-source-path.png)
-
+   
 2. Highlight a selected Box user, and select **Download scan log**  to download a *detailed* scan report of that user account. </br>
 
 ## Managing users who own large amounts of data

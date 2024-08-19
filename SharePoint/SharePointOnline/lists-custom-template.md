@@ -2,9 +2,9 @@
 ms.date: 07/06/2021
 title: "Custom list templates"
 ms.reviewer: hasaladi
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -22,7 +22,8 @@ description: "Add and remove custom templates and change who has permission to a
 
 # Creating custom list templates  
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This feature enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
+
 
 > [!NOTE]
 > Custom list templates are only available in [targeted release](/microsoft-365/admin/manage/release-options-in-office-365). 
@@ -67,7 +68,7 @@ Follow these steps to create a custom list template.
       -Thumbnail "https://contoso.sharepoint.com/SiteAssets/site-thumbnail.png" 
     ```
 
-When users in your organization create a list (in SharePoint, Teams, or the Lists app), they'll see the template on the "From your organization" tab. 
+When users in your organization create a list (in SharePoint, Teams, or the Lists app), they see the template on the "From your organization" tab. 
 
 ![The "Contoso customer tracking" template on the "From your organization" tab of the Create a list dialog box.](media/contoso-customer-tracking.png)
 
@@ -76,7 +77,9 @@ When users in your organization create a list (in SharePoint, Teams, or the List
 
 ## Scope the permissions to a custom template 
 
-By default, the custom list template will be available to everyone in your organization. If you want, you can limit access to specific users or a security group. The following example shows how to grant an individual user view rights to a template. 
+
+By default, the custom list template is available to everyone in your organization. If you want, you can limit access to specific users or a security group. The following example shows how to grant an individual user view rights to a template. 
+
 
 ```PowerShell
 Grant-SPOSiteDesignRights 
@@ -85,7 +88,7 @@ Grant-SPOSiteDesignRights
   -Rights View 
 ```
 
-## Get template(s) 
+## Get templates 
 
 The following example retrieves all custom list templates. 
 

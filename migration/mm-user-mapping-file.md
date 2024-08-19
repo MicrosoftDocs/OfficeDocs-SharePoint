@@ -1,23 +1,23 @@
 ---
 title: "Create a user-mapping file for Migration Manager"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 ms.date: 09/22/2020
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Create a user-mapping file for data content migration when using Migration Manager"

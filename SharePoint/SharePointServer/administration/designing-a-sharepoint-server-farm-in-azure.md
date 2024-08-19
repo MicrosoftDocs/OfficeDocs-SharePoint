@@ -192,7 +192,7 @@ For the subnets of your VNet, fill in the following table before creating them, 
 
 All VMs in an Azure VNet by default are assigned a set of DNS servers to perform name registration and resolution. You can override this by assigning DNS servers to individual VM network interfaces.
   
-For a SharePoint Server farm in Azure that uses [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
+For a SharePoint Server farm in Azure that uses [Microsoft Entra Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
   
 For a SharePoint Server farm in Azure that contains a set of Windows Server AD domain controllers that are also acting as DNS servers, assign the IP addresses of the domain controllers as the DNS servers. For a cross-premises VNet, you need two sets of DNS servers:
   
@@ -277,7 +277,7 @@ Azure supports [standard and premium types of storage](/azure/storage/common/sto
   
 ### Step 4: Identity
 
-SharePoint Server requires Windows Server AD domain membership. Therefore, a SharePoint Server farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview).
+SharePoint Server requires Windows Server AD domain membership. Therefore, a SharePoint Server farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Microsoft Entra Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview).
   
 When using VMs acting as domain controllers:
   

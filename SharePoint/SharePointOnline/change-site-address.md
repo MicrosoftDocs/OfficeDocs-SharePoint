@@ -1,10 +1,10 @@
 ---
-ms.date: 02/22/2023
+ms.date: 05/22/2024
 title: "Change a site address"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -24,15 +24,15 @@ search.appverid:
 - FRP150
 - MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
-description: "In this article, you'll learn how global and SharePoint admins can change the URL of a SharePoint site."
+description: Learn how global and SharePoint admins can change the URL of a SharePoint site.
 ---
 
 # Change a site address
 
 > [!NOTE]
-> This feature isn't available for Microsoft 365 Government GCC High customers.
+> This feature isn't supported for Microsoft 365 GCC High or DoD customers.
 
-As a Global Administrator or SharePoint Administrator in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
+As at least a [SharePoint Administrator](./sharepoint-admin-role.md) in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
 - Microsoft 365 group-connected team sites
 - Modern team sites that don't belong to a Microsoft 365 group
@@ -48,13 +48,13 @@ You can change only the address of the site within the URL, for example:
 
 https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-x*  
 to
-https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y* 
+https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y*
 
 You can't move the site from "/sites" to "/teams." For info about changing your SharePoint domain name, see [Change your SharePoint domain name](change-your-sharepoint-domain-name.md).
 
-It can take about 10 minutes to change the site address (depending on the size of the site), and the site will be read-only during this time. We recommend changing addresses during times when site usage is low. 
+It can take about 10 minutes to change the site address (depending on the size of the site), and the site is read-only during this time. We recommend changing addresses during times when site usage is low.
 
-You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
+You can change the address of up to 100 sites at a time. To change another site address, wait for ongoing changes to finish.
 
 > [!NOTE]
 > If you need to revert a site address change, follow the steps in [Revert a site address change](#revert-a-site-address-change).
@@ -63,11 +63,11 @@ You can change the address of up to 100 sites at a time. To change an additional
 
 Before you change the address of a site, it's important to communicate the change to site users (generally anyone with the ability to edit or view the site). This can help reduce user confusion and calls to your help desk. [Review the effects](#effects-of-changing-a-site-address) of changing a site address and let users know the following information:
 
-- When the change will happen  
-- What the new URL will be  
+- The planned date of the change
+- The planned URL
 - Users should close their files and not make edits during the address change
-- Users should check the site recycle bin to make sure it contains no files they want to keep 
-- File permissions and sharing won't change  
+- Users should check the site recycle bin to make sure it contains no files they want to keep
+- File permissions and sharing stay the same  
 
 ## Change a site address in the new SharePoint admin center
 
@@ -86,8 +86,8 @@ Before you change the address of a site, it's important to communicate the chang
 
    > [!NOTE]
    > You can't change the address of hub sites, sites that are locked or on hold, Project Web App (PWA) sites, or sites that have BCS connections.
-   > 
-   > When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
+   >
+   > When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md)
 
 ## Change site addresses by using Microsoft PowerShell
 
@@ -96,18 +96,18 @@ Before you change the address of a site, it's important to communicate the chang
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command to verify that the site address can be changed:
 
     ```PowerShell
-    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl> -ValidationOnly
+    Start-SPOSiteRename -Identity https://contoso.sharepoint.com/sites/project-x -NewSiteUrl https://contoso.sharepoint.com/sites/project-y -ValidationOnly
     ```
 
 4. Run the following command to change the site address:
 
    ```PowerShell
-   Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
+   Start-SPOSiteRename -Identity https://contoso.sharepoint.com/sites/project-x -NewSiteUrl https://contoso.sharepoint.com/sites/project-y
    ```
 
    For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps&preserve-view=true).
@@ -115,79 +115,83 @@ Before you change the address of a site, it's important to communicate the chang
 ## Effects of changing a site address
 
 While the change is in progress, the site is set to read-only, and a redirect is created. After the change is complete, users are redirected to the new URL if they've saved the site as a favorite, or if they select a link to the site.
- 
+
 **Apps**<br>
 If apps in your organization refer to the site's URL, you might need to republish the apps when you change the site's address.
 
 **Custom Forms Created in Power Apps**<br>
-You need to recreate the Custom Form after the site address change. 
+You need to recreate the Custom Form after the site address change.
 
 **Hub sites**<br>
-If the site is associated with a hub, it must be reassociated after the site address is changed. 
+If the site is associated with a hub, it must be reassociated after the site address is changed.
 
 **InfoPath forms**<br>
 InfoPath forms that refer to URLs might not work after the site address is changed.
 
 **List View web part**<br>
-If a List View web part on a page is scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
+If a List View web part on a page is scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page, and then add it again.
 
-**Microsoft Forms**<br>
-If the site is a Microsoft 365 group-connected site that has forms in Microsoft Forms, any File Upload questions in forms will break. To fix this issue, recreate the file upload questions to allow responders to upload files again.
+**Microsoft Forms**
+If the site is a Microsoft 365 group-connected site that has forms in Microsoft Forms, any File Upload questions in forms break. To fix this issue, recreate the file upload questions to allow responders to upload files again.
 
-**OneNote**<br>
-If users have a notebook open during the site address change, they'll see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
+**OneNote**
+If users have a notebook open during the site address change, they see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
 
 - OneNote desktop app – Version 16.0.8326.2096 and later
-- OneNote for Windows 10 – Version 16.0.8431.1006 and later 
-- OneNote mobile app – Version 16.0.8431.1011 and later 
+- OneNote for Windows 10 – Version 16.0.8431.1006 and later
+- OneNote mobile app – Version 16.0.8431.1011 and later
 
 Users don't need to sign in again or take any other action.
 
-**Permissions**<br>
+**Permissions**
 People who have permission to access the site can access the site during and after the site address change.  
 
-**Recent lists inside Office apps**<br>
+**Recent lists inside Office apps**
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
 
 **Recycle bin**
 Files in the recycle bin will be restorable as per the usual deletion timeframe.
 
-**SharePoint mobile apps for Android and iOS**<br>
-The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
+**SharePoint mobile apps for Android and iOS**
+The SharePoint mobile apps detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
-**SharePoint web parts**<br>
-Any embedded URLs in any SharePoint web parts (News, List, etc.) will not be updated and may break. After the site address is changed, you might need to update individual web parts to use the new URL. 
+**SharePoint web parts**
+Any embedded URLs in any SharePoint web parts (News, List, etc.) won't be updated and may break. This includes page thumbnail images in news posts existing on the site. After the site address is changed, you might need to update individual web parts to use the new URL.
 
-**SharePoint workflow 2013**<br>
+**SharePoint workflow 2013**
 SharePoint workflow 2013 will need to be republished after the site address is changed.
 
-**Sharing links**<br>
+**Sharing links**  
 After the site address is changed, sharing links will automatically redirect to the new URL.
 
-**Site customizations and embedded code**<br>
-Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address will preserve data stored in SharePoint but won't change URL dependencies in custom solutions.
+**Site customizations and embedded code**
+Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address preserves data stored in SharePoint but won't change URL dependencies in custom solutions.
 
-**Synced locations**<br>
-The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
-If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
+**Synced locations**
+The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.)
+If a user updates a file while the site address is being changed, they see a message that file uploads are pending during the change.
 
-**Teams (for Microsoft 365 group-connected sites)**<br>
-When the site address change is complete, users will be able to access their SharePoint files in the Teams app, with the following limitations.
+**Microsoft 365 groups**
+The email address of the group won't be renamed. The group name is updated only if the site name is updated during the rename process.
+
+**Teams (for Microsoft 365 group-connected sites)**
+When the site address change is complete, users are able to access their SharePoint files in the Teams app, with the following limitations.
 
 |Functionality  |Limitation  |
 |:---------|:---------|
-|Viewing files in Teams |Files shared in channels before the address was changed can be viewed in the Teams app on the channel's Files tab. They can also be viewed in Office apps for the web from the channel's Files tab or the conversation. To view Word, Excel, and PowerPoint files in the desktop apps:<br>Select the “Open in Desktop” option from the channel's Files tab.<br>Open the file in the Office app for the web, and then select “Open in Desktop”. |
-|Uploading files to channels |Uploading files from a computer or OneDrive to a channel conversation will work after a user has visited the Files tab for any channel in the site. |
-|File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
+|Viewing files in Teams |Files shared in channels before the address were changed can be viewed in the Teams app on the channel's Files tab. They can also be viewed in Office apps for the web from the channel's Files tab or the conversation. To view Word, Excel, and PowerPoint files in the desktop apps:<br>Select the "Open in Desktop" option from the channel's Files tab.<br>Open the file in the Office app for the web, and then select "Open in Desktop". |
+|Uploading files to channels |Uploading files from a computer or OneDrive to a channel conversation will work after a user visits the Files tab for any channel in the site. |
+|File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user visits the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
 
 ## Revert a site address change
 
-If you need change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you subsequently want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
+If you need to change the address of a site that was previously changed, we recommend not renaming the site again. This can cause issues if you later want to use the current address for another site. Instead, we recommend returning the site back to its original address. To do so, you use an additional site rename and delete certain redirect sites. [Learn how to delete redirect sites](manage-site-redirects.md).
 
 For a case where you changed https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-x* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*project-y* and want to revert back, the steps to follow are:
-1. Delete the redirect from *project-x* to *project-y* by using the Remove-SPOSite cmdlet on the *project-x* address.
+
+1. Delete the redirect from *project-x* to *project-y* by using the [Remove-SPOSite cmdlet](/powershell/module/sharepoint-online/remove-sposite) on the *project-x* address.
 2. Initiate a new site address change from *project-y* to *project-x*.
-3. Delete the redirect from *project-y* to *project-x* by using the Remove-SPOSite cmdlet on the *project-y* address.
+3. Delete the redirect from *project-y* to *project-x* by using the [Remove-SPOSite cmdlet](/powershell/module/sharepoint-online/remove-sposite) on the *project-y* address.
 
 After following these steps, you should be back to the original state before the site address change.

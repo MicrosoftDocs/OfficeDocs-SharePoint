@@ -2,9 +2,9 @@
 ms.date: 08/20/2018
 title: "Set up a site template for your hub site"
 ms.reviewer: metorres
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -37,7 +37,7 @@ A site template is one or more site scripts that Microsoft SharePoint runs when 
 > For organizations using Multi-Geo Capabilities in Microsoft 365, hub site templates work only when sites are in the same geo location as the hub site.
 
 > [!NOTE]
-> These instructions require the SharePoint Administrator or Global Administrator role in Microsoft 365.
+> These instructions require a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365.
 
 ## 1. Create a JSON script, add it, and create the site template 
 

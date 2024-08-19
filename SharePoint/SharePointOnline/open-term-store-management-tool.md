@@ -1,10 +1,10 @@
 ---
-ms.date: 07/23/2018
+ms.date: 05/28/2024
 title: "Open the Term Store Management Tool"
-ms.reviewer: anfra
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: shrganguly
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -22,12 +22,18 @@ description: "Learn how to open the Term Store Management Tool from the Site Set
 
 # Open the Term Store Management Tool
 
-If you're a Global Administrator or SharePoint Administrator in Microsoft 365, you can access the Term Store Management Tool from the SharePoint admin center.
+If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can access the Term Store Management Tool from the SharePoint admin center.
 
 1. Open the SharePoint admin center.
 2. In the left navigation, under **Content services**, choose <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
 
     ![Screenshot of the Term Store Management Tool](media/term-store-management-tool.png)
+
+## Manage the default language and working languages
+
+If you need more than your default language for the terms, you can add working languages by selecting **Edit** next to **Default language**. The **Edit languages** panel shows up. You can type to search and add languages. You can also change the default language here.
+
+ ![Screenshot of adding languages in the Term Store Management Tool.](media/term-store-language.png)
 
 ## Open term store management for a site
 

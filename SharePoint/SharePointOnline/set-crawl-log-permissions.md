@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Crawl log permissions"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -25,7 +25,7 @@ description: "You can grant users or groups read access to crawl log information
 
 # Crawl log permissions
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
   
 A typical use case is in eDiscovery, where you can grant a security group permission to view the crawl log information for the tenant. The users in the security group can view the crawl log data via the eDiscovery portal to check whether crawled content was successfully added to the search index, or whether indexing failed because of an error. For more information, see [Get started with eDiscovery (Standard) in Microsoft Purview](/microsoft-365/compliance/get-started-core-ediscovery) and [Investigating partially indexed items in eDiscovery](/microsoft-365/compliance/investigating-partially-indexed-items-in-ediscovery).
   

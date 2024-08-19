@@ -1,9 +1,9 @@
 ---
 title: "Change settings for the Refinement Web Part"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 6/29/2018
 audience: Admin
@@ -26,17 +26,15 @@ The Refinement Web Part filters search results into categories called refiners. 
   
 By default, the Refinement Web Part is used on all default search vertical pages in the Enterprise Search Center, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
   
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can change how the Refinement Web Part is set up. You can:
+As a user who has [SharePoint site administrator](/sharepoint/sharepoint-admin-role) or [above](/sharepoint/site-permissions) permissions in Microsoft 365, you can change how the Refinement Web Part is set up. You can:
   
 - Filter search results from a different Search Results Web Part.
-    
 - Specify which refiners to show.
-    
+
     > [!NOTE]
-    >  Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners.
+    > Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners.
   
 - Change the display template for a refiner.
-    
 - Change display names for refiners.
     
 - Add counts to refiners.

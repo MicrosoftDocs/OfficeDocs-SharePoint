@@ -2,9 +2,9 @@
 ms.date: 09/22/2020
 title: "Control Microsoft Lists"
 ms.reviewer: hasaladi
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -22,7 +22,7 @@ description: "Control settings in the Lists app."
 
 # Control settings for Microsoft Lists
 
-As a Global Administrator or SharePoint Administrator in Microsoft 365, you can control settings for Microsoft Lists. You can:
+As at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365, you can control settings for Microsoft Lists. You can:
 
 - Disable the creation of personal lists (prevent users from saving new lists to "My lists").
 - Disable built-in list templates that aren't relevant for your organization.
@@ -42,7 +42,7 @@ If you change this setting, when users create a list, they must select a SharePo
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -65,7 +65,7 @@ Disabling these templates removes them from all places users create lists (the L
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -95,12 +95,12 @@ Where the template ID is:
 
 To re-enable a built-in template, use the parameter `EnableModernListTemplateIds`.
 
-## Disable additional features on a built-in template
+## Disable extra features on a built-in template
 
-Some built-in list templates include additional features such as automations and custom formatting. If you wish to keep only the base schema of a built-in list template but not the rest of its features included in that template:
+Some built-in list templates include extra features such as automations and custom formatting. If you wish to keep only the base schema of a built-in list template but not the rest of its features included in that template:
 
 1. Create a list from the built-in list template.
-2. [Create a custom list template](lists-custom-template.md) based off of that list. The custom list template will not include any additional features by default.
+2. [Create a custom list template](lists-custom-template.md) based off of that list. The custom list template won't include any extra features by default.
 3. [Disable the original built-in list template](#disable-built-in-list-templates). 
 
     > [!NOTE]

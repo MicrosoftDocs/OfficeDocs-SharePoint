@@ -27,11 +27,15 @@ description: Learn how to configure inbound connectivity for SharePoint hybrid.
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
 This article contains guidance the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint in Microsoft 365.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
   
 ## Before you begin
 <a name="begin"> </a>
 
- **Accessibility note:**SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md).
+ **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md).
   
 If you haven't already done this, read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) before you start to configure anything.This is important because the planning article helps you make important decisions and record them on the [SharePoint hybrid deployment worksheet](https://go.microsoft.com/fwlink/?LinkId=391835), referred to in the rest of this article as the worksheet. This in turn informs which procedures in this article to use and which you can skip over.
   
@@ -237,7 +241,7 @@ For more information about how to use split DNS in a hybrid topology, see [Archi
 #### Create an A record in the on-premises DNS
 <a name="hn_arecord"> </a>
 
-The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is https://spexternal.adventureworks.com, and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
+The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is `https://spexternal.adventureworks.com`, and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
@@ -282,7 +286,7 @@ In general, you should use the default settings. However, the following configur
 |In the **Security Configuration** section  <br/> |Ensure that **Allow Anonymous** is set to **No**.  <br/> |
 |In the **Security Configuration** section  <br/> |Ensure that **Use Secure Sockets Layer (SSL)** is set to **Yes**. You'll have to bind an SSL certificate to the web application, which we discuss more in the next section.  <br/> |
 |In the **Claims Authentication Types** section  <br/> |Select the **Enable Windows Authentication** check box, select the **Integrated Windows authentication** check box, and in the drop-down menu, select **NTLM**.  <br/> |
-|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> By default, SharePoint in Microsoft 365 appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
+|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, `https://spexternal.adventureworks.com`.  <br/> By default, SharePoint in Microsoft 365 appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
    
 To make things easier for yourself in later procedures, we recommend that you do the following.
   
@@ -310,7 +314,7 @@ For more info about how to use split DNS in a hybrid topology, see [Architecture
 #### Create an A record in the on-premises DNS
 <a name="woaam_arecord"> </a>
 
-The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is https://spexternal.adventureworks.com and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
+The reverse proxy device must be able to resolve the internal URL of the host-named site collection. You can do this by creating an A record in the desired on-premises DNS namespace. This doesn't have to be in the same namespace as the reverse proxy device. However, the reverse proxy device must be able to resolve this namespace. This A record maps the host name of the External URL to the IP address of the on-premises SharePoint farm. Here's an example of an A record where the External URL is `https://spexternal.adventureworks.com` and the IP address of the network load balancer for the SharePoint farm is 10.0.0.13.
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
@@ -372,7 +376,7 @@ To extend the web application, use the procedures in [Extend claims-based web ap
 |In the **Security Configuration** section  <br/> |Ensure that **Allow Anonymous** is set to **No**.  <br/> |
 |In the **Security Configuration** section  <br/> |Choose the appropriate value for **Use Secure Sockets Layer (SSL)**. If you choose **No**, the web application will use unencrypted **HTTP**. If you choose **Yes**, the web application will use encrypted **HTTPS**, and you must bind an SSL certificate to the extended web application. We discuss this certificate more in the next section.  <br/> |
 |In the **Claims Authentication Types** section  <br/> |Select the **Enable Windows Authentication** check box, select the **Integrated Windows authentication** check box, and in the drop-down menu, select **NTLM**.  <br/> |
-|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> Note that by default, SharePoint appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
+|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, `https://spexternal.adventureworks.com`.  <br/> Note that by default, SharePoint appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
 |In the **Public URL** section, in the **Zone** list  <br/> |Select the zone that you want to assign to this extended web application. We recommend that you set the **Zone** value to **Internet** if it's available.  <br/> |
    
 #### Ensure that an SSL binding exists on the primary web application (if it's needed)
@@ -513,9 +517,9 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
 13. In the **Target Application Administrators** section, in the box, enter the names of users who will have access to manage the settings of this target application. Make sure to add any users who will test the hybrid configuration so that they can make changes, if it's needed. 
     
-14. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
+14. In the **Members** section, in the box, enter the names of the Microsoft Entra users and groups that you want to enable to use hybrid solutions. 
     
-    The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint in Microsoft 365 groups.
+    The Microsoft 365 global admin can create Microsoft Entra groups. These are domain groups, not SharePoint in Microsoft 365 groups.
     
 |Icon|Description|
 |:-----|:-----|

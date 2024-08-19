@@ -1,9 +1,9 @@
 ---
 title: "Check logs, limits and reports"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 6/14/2017
 audience: Admin

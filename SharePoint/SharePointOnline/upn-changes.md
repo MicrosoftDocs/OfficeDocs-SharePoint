@@ -1,10 +1,10 @@
 ---
-ms.date: 11/29/2018
+ms.date: 04/09/2024
 title: "How UPN changes affect OneDrive"
-ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: jmcdowe
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,8 +15,10 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
-- seo-marvel-apr2020
-- onedrive-toc
+  - seo-marvel-apr2020
+  - onedrive-toc
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid:
 - ODB160
 - MOE150
@@ -35,7 +37,7 @@ user1@contoso.com
 
 In this case, the prefix is "user1" and the suffix is "contoso.com."
 
-You can change a user's UPN in the [Microsoft 365 admin center](/office365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide&preserve-view=true) by changing the user's username or by setting a different email alias as primary. You can also change a user's UPN in the [Azure AD admin center](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) by changing their username. And you can change a UPN by [using Microsoft PowerShell](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0&preserve-view=true).
+You can change a user's UPN in the [Microsoft 365 admin center](/office365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide&preserve-view=true) by changing the user's username or by setting a different email alias as primary. You can also change a user's UPN in the [Microsoft Entra admin center](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) by changing their username. And you can change a UPN by [using Microsoft PowerShell](/powershell/module/microsoft.graph.users/update-mguser).
 
 > [!NOTE]
 > A user's UPN (used for signing in) and email address can be different. If you just need to add a new email address for a user, you can add an alias without changing the UPN.
@@ -74,7 +76,7 @@ After you change a UPN, any saved links to the user's OneDrive (such as desktop 
   
 ## Sync
 
-The sync app (on both Windows and Mac) will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync app that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync app. The error will go away when the UPN change has been fully propagated and the sync app is updated to use the user's new OneDrive URL.  
+The sync app (on both Windows and Mac) will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync app that "One or more libraries couldn't be synced." If they select for more information, they'll see "You don't have permission to sync this library." Users who see this error should restart the sync app. The error goes away when the UPN change has been fully propagated and the sync app is updated to use the user's new OneDrive URL.  
 
 > [!NOTE]
 > Synced team sites are not impacted by the OneDrive URL change.
@@ -89,15 +91,15 @@ After a UPN change, users will need to close and reopen their OneNote notebooks 
 
 ## Recent files lists
 
-After a UPN change, users will need to browse to re-open active OneDrive files in their new location. Any links to the files (including browser favorites, desktop shortcuts, and "Recent" lists in Office apps and Windows) will no longer work.
+After a UPN change, users will need to browse to reopen active OneDrive files in their new location. Any links to the files (including browser favorites, desktop shortcuts, and "Recent" lists in Office apps and Windows) will no longer work.
 
 ## Shared OneDrive files
 
-If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user will need to re-share the files.
+If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user needs to reshare the files.
 
 ## Office Backstage View
 
-After a UPN change, although Office will continue to work as expected, the user's original UPN will continue to be displayed in the Office Backstage View. To update the Office Backstage View to display the changed UPN, the user will need to sign out and then sign in using the Office client.
+After a UPN change, although Office will continue to work as expected, the user's original UPN will continue to be displayed in the Office Backstage View. To update the Office Backstage View to display the changed UPN, the user needs to sign out and then sign in using the Office client.
 
 ## Search and Delve
 
@@ -107,7 +109,7 @@ Delve will also link to old OneDrive URLs for a period of time after a UPN chang
 
 ## SharePoint automated workflows and customizations
 
-Any automated workflows that were created with Power Automate or SharePoint 2013 workflows and refer to a OneDrive URL will not work after a UPN change. Similarly, any SharePoint apps (including Power Apps) that reference a OneDrive URL will need to be updated after a UPN change.
+Any automated workflows that were created with Power Automate or SharePoint 2013 workflows and refer to a OneDrive URL won't work after a UPN change. Similarly, any SharePoint apps (including Power Apps) that reference a OneDrive URL will need to be updated after a UPN change.
 
 ## Recommendations
 
@@ -118,4 +120,3 @@ Any automated workflows that were created with Power Automate or SharePoint 2013
 ## See also
 
 [Info about UserPrincipalName attribute population in hybrid identity](/azure/active-directory/hybrid/plan-connect-userprincipalname)
-

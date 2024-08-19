@@ -30,13 +30,13 @@ After you have extended a web application into a zone with a set of Internet Inf
 ## About updating a web application URL and IIS bindings
 <a name="section1"> </a>
 
-Unlike typical IIS applications, you cannot simply use IIS Manager or other IIS metabase tools to modify the bindings of IIS web applications that have been extended with SharePoint Server. 
+Unlike typical IIS applications, you can't use IIS Manager or other IIS metabase tools to modify the bindings of IIS web applications that have been extended with SharePoint Server. 
   
-If you modify the IIS bindings of a web application by adding a host header binding or SSL port or by changing a port number, SharePoint Server will not be aware of these changes and will not update the web application's alternate access mapping URLs. If you update the web application's alternate access mappings to change a host header, switch to an SSL URL, or change a port number, SharePoint Server will not automatically update your IIS bindings to match.
+If you modify the IIS bindings of a web application by adding a host header binding or SSL port or by changing a port number, SharePoint Server won't be aware of these changes and won't update the web application's alternate access mapping URLs. If you update the web application's alternate access mappings to change a host header, switch to an SSL URL, or change a port number, SharePoint Server won't automatically update your IIS bindings to match.
   
 To update the URL or IIS bindings of a web application, unextend and reextend the web application and reconfigure the alternate access mapping URLs or IIS website bindings.
   
-We do not recommend reusing the same IIS website for your HTTP and SSL hosting. Instead, extend a dedicated HTTP and a dedicated SSL website, with each assigned to its own alternate access mapping zone and URLs.
+We don't recommend reusing the same IIS website for your HTTP and SSL hosting. Instead, extend a dedicated HTTP and a dedicated SSL website, with each assigned to its own alternate access mapping zone and URLs.
   
 For more information about alternate access mappings, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings.md).
   
@@ -85,7 +85,7 @@ After you have unextended the web application, you can reextend the web applicat
     
 4. In the **Port**, **Host Header**, and **Use Secure Sockets Layer (SSL)** fields, type the IIS bindings you want to use. 
     
-5. In the **Load Balanced URL** section, in the **URL** field, type the URL that users will use to locate this web application. If you are using a load balancer or reverse proxy, this is the URL of the load balancer or reverse proxy. 
+5. In the **Load Balanced URL** section, in the **URL** field, type the URL that users will use to locate this web application. If you're using a load balancer or reverse proxy, this is the URL of the load balancer or reverse proxy. 
     
 6. In the **Load Balanced URL** section, in the **Zone** list, click the zone that you previously selected. 
     
@@ -98,7 +98,7 @@ To complete the process of updating a web application URL or IIS bindings, perfo
   
 ### Update the alternate access mapping URLs for the zone
 
-If you are using a load balancer or a reverse proxy, make sure that your internal URLs are updated in the alternate access mappings to reflect the new IIS bindings. In addition, update your load balancer rules or your reverse proxy rules to align with the new IIS bindings.
+If you're using a load balancer or a reverse proxy, make sure that your internal URLs are updated in the alternate access mappings to reflect the new IIS bindings. In addition, update your load balancer rules or your reverse proxy rules to align with the new IIS bindings.
   
 ### Apply an SSL certificate
 
@@ -125,4 +125,4 @@ If Excel Services in SharePoint Server 2013 is part of your deployment, verify t
   
 ### Redeploy solutions
 
-When you remove SharePoint Server from an IIS website, if you are removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For additional information about how to manage solutions, see [Install and manage solutions for SharePoint Server](./configure-excel-services.md)
+When you remove SharePoint Server from an IIS website, if you're removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For more information about how to manage solutions, see [Install and manage solutions for SharePoint Server](./configure-excel-services.md)

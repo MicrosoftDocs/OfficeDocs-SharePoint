@@ -4,7 +4,7 @@ ms.reviewer: neilh
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 6/30/2021
+ms.date: 12/22/2023
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -19,6 +19,8 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 ms.custom:
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
 description: Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365.
 ---
@@ -31,6 +33,9 @@ This article is part of a roadmap of procedures for configuring SharePoint hybri
 
 > [!NOTE]
 > We recommend using the [SharePoint Hybrid Configuration Wizard](hybrid-configuration-wizard-in-the-sharepoint-online-admin-center.md#hybrid-configuration-wizard-in-the-sharepoint-admin-center) to establish the Server-to-Server authentication between SharePoint Server and SharePoint in Microsoft 365. If you are unable to use the Hybrid Configuration Wizard for any reason, follow the steps in this article to enable server-to-server authentication.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 
 ## Configure server-to-server authentication
 
@@ -87,15 +92,15 @@ $serviceConfig.Update()
 ## Configure server-to-server authentication between on-premises SharePoint Server and SharePoint in Microsoft 365
 <a name="s2s"> </a>
 
-This section will help you set up server-to-server authentication among:
+This section helps you set up server-to-server authentication among:
 
 - SharePoint Server
 
 - SharePoint in Microsoft 365
 
-- Azure Active Directory
+- Microsoft Entra ID
 
-When you set up server-to-server authentication for hybrid environments, you create a **trust relationship** between your **on-premises SharePoint farm** and your **SharePoint in Microsoft 365** **tenant**, which uses Azure Active Directory as a trusted token signing service. By adding the required PowerShell modules and snap-ins, this process can occur in a single PowerShell window on an on-premises SharePoint web server.
+When you set up server-to-server authentication for hybrid environments, you create a **trust relationship** between your **on-premises SharePoint farm** and your **SharePoint in Microsoft 365** **tenant**, which uses Microsoft Entra ID as a trusted token signing service. By adding the required PowerShell modules and snap-ins, this process can occur in a single PowerShell window on an on-premises SharePoint web server.
 
 > [!TIP]
 > You'll want to keep a record of your steps, the PowerShell cmdlets you run, and any errors that you might encounter. You should capture all the contents of the PowerShell buffer when you have finished and before you close the window. This will give you a history of the steps that you took, which will be helpful if you have to troubleshoot or explain the process to others. This can also be useful to refresh your memory if the setup happens in stages.
@@ -116,27 +121,27 @@ Here's a high-level view of the procedures you have to complete in this section:
 
    - Configure a common authentication realm between your on-premises SharePoint Server farm and SharePoint in Microsoft 365.
 
-   - Configure an Azure Active Directory application proxy on-premises.
+   - Configure a Microsoft Entra application proxy on-premises.
 
 ### Install online service management tools and configure the Windows PowerShell window
 <a name="step2"> </a>
 
 To continue, you need to install these tools on an on-premises SharePoint Server web server:
 
-- Azure Active Directory Module for Windows PowerShell
+- Microsoft Graph PowerShell
 
 - SharePoint in Microsoft 365 Management Shell
 
 This is most easily accomplished on a web server in your SharePoint farm because it's easier to load the  *Microsoft.SharePoint.PowerShell*  snap-in on the web servers than on servers that don't have SharePoint Server installed.
 
-Authentication to SharePoint Server, SharePoint in Microsoft 365, and Azure Active Directory requires different user accounts. For information about how to determine which account to use, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md).
+Authentication to SharePoint Server, SharePoint in Microsoft 365, and Microsoft Entra ID requires different user accounts. For information about how to determine which account to use, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md).
 
 > [!NOTE]
-> To make it easier to complete the steps in this section, we'll open a PowerShell Command Prompt window on a SharePoint Server web server and add the modules and snap-ins that let you connect to SharePoint Server, SharePoint in Microsoft 365, and Azure Active Directory. (We'll give you detailed steps on how to do this later in this article.) We'll then keep this window open to use for all the remaining PowerShell steps in this article.
+> To make it easier to complete the steps in this section, we'll open a PowerShell Command Prompt window on a SharePoint Server web server and add the modules and snap-ins that let you connect to SharePoint Server, SharePoint in Microsoft 365, and Microsoft Entra ID. (We'll give you detailed steps on how to do this later in this article.) We'll then keep this window open to use for all the remaining PowerShell steps in this article.
 
 To install the online service management tools and configure the PowerShell window:
 
-1. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
+1. Install the [latest version of the Microsoft Graph PowerShell](/powershell/microsoftgraph/installation)
 
 2. Install the SharePoint in Microsoft 365 Management Shell:
 
@@ -159,7 +164,7 @@ To install the online service management tools and configure the PowerShell wind
    ```powershell
    Add-PSSnapin Microsoft.SharePoint.PowerShell
    Import-Module Microsoft.PowerShell.Utility
-   Import-Module MSOnline -force
+   Import-Module Microsoft.Graph
    ```
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
@@ -167,31 +172,30 @@ To install the online service management tools and configure the PowerShell wind
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
 
    ```powershell
-   $cred=Get-Credential
-   Connect-MsolService -Credential $cred
+      Connect-MgGraph -Scopes "Group.ReadWrite.All","RoleManagement.ReadWrite.Directory","Organization.ReadWrite.All"
    ```
 
-   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account.
+   You're prompted to sign in. You need to sign in using a Microsoft 365 global admin account. You can explore [other ways to connect to Microsoft Graph](/powershell/microsoftgraph/authentication-commands).
 
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
 
 ### Configure server-to-server (S2S) authentication
 <a name="step2"> </a>
 
-Now that you installed the tools to enable you to remotely administer Azure Active Directory and SharePoint in Microsoft 365, you're ready to set up server-to-server authentication.
+Now that you installed the tools to enable you to remotely administer Microsoft Entra ID and SharePoint in Microsoft 365, you're ready to set up server-to-server authentication.
 
 #### About the variables you'll create
 
-This section describes the variables you will set in the procedure that follows. These variables contain important information used in many of the remaining configuration steps.
+This section describes the variables you'll set in the procedure that follows. These variables contain important information used in many of the remaining configuration steps.
 
 |Variable|Comments|
 |:-----|:-----|
-|$spcn|The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.|
-|$spsite|The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.|
+|$spcn|The root domain name of your public domain. This value shouldn't be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.|
+|$spsite|The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you're using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.|
 |$site|The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.|
 |$spoappid|The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.|
 |$spocontextID|The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.|
-|$metadataEndpoint|The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.|
+|$metadataEndpoint|The URL that is used by your Microsoft Entra ID proxy to connect to your Microsoft Entra tenancy.  <br/> You don't need to input a value for this variable.|
 
 #### Step 1: Set variables
 <a name="step3"> </a>
@@ -208,7 +212,7 @@ $spcn="*.<public_root_domain_name>.com"
 $spsite=Get-Spsite <principal_web_application_URL>
 $site=Get-Spsite $spsite
 $spoappid="00000003-0000-0ff1-ce00-000000000000"
-$spocontextID = (Get-MsolCompanyInformation).ObjectID
+$spocontextID = (Get-MgOrganization).Id
 $metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextID + "/metadata/json/1"
 ```
 
@@ -228,18 +232,50 @@ The commands in this step add the on-premises STS certificate (public key only) 
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$stsCert=(Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
-$binCert = $stsCert.GetRawCertData()
-$credValue = [System.Convert]::ToBase64String($binCert);
-New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
+$Cert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
+
+$principal = Get-MgServicePrincipal -Filter "AppId eq '$spoappid’” -Property "Id,DisplayName,KeyCredentials,AppId"
+
+$existingCerts = $principal.KeyCredentials
+
+$keyCredentials = @(@{ Type = "AsymmetricX509Cert"; Usage = "Verify"; Key = $Cert.RawData; KeyId = New-Guid; StartDateTime = $Cert.NotBefore; EndDateTime = $Cert.NotAfter; })
+
+$noUpdate = $false
+
+foreach($existingCert in $existingCerts) {
+
+    if ([string]$existingCert.Key -eq [string]$Cert.RawData) {
+
+        $noUpdate = $true
+
+        break
+
+    }
+
+    else {
+
+        $existingCert.Key = $null
+
+        $keyCredentials += $existingCert
+
+    }
+}
+
+if (-Not $noUpdate) {
+
+     Update-MgServicePrincipal -ServicePrincipalId $principal.Id -KeyCredentials $keyCredentials
+
+}
 ```
 
-#### Step 3: Add an SPN for your public domain name to Azure Active Directory
+<a name='step-3-add-an-spn-for-your-public-domain-name-to-azure-active-directory'></a>
+
+#### Step 3: Add an SPN for your public domain name to Microsoft Entra ID
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN.
+In this step, you add a service principal name (SPN) to your Microsoft Entra tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN.
 
-Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
+Just like SPNs function in Active Directory, creating this SPN registers an object in Microsoft Entra ID that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
 
 **\<service type\>/\<instance name\>**
 
@@ -253,25 +289,26 @@ Here's an example:
 
  `00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com`
 
-If the common name in your certificate is sharepoint.adventureworks.com, the syntax of the SPN will look like this:
+If the common name in your certificate is sharepoint.adventureworks.com, the syntax of the SPN looks like this:
 
  `00000003-0000-0ff1-ce00-000000000000/*.adventureworks.com`
 
 Using a wildcard value lets SharePoint in Microsoft 365 validate connections with  *any host*  in that domain. This is useful if you ever need to change the host name of the external endpoint (if your topology includes one) or if you want to change your SharePoint Server web application, in the future.
 
-To add the SPN to Azure Active Directory, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
+To add the SPN to Microsoft Entra ID, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
-$spns = $msp.ServicePrincipalNames
-$spns.Add("$spoappid/$spcn")
-Set-MsolServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
+$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid'"
+$params =@{
+  "servicePrincipalNames"="$spoappid/$spcn"
+}
+Update-MgServicePrincipal -ServicePrincipalId $msp.Id -BodyParameter $params
 ```
 
-To validate that the SPN was set, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
+To validate that the SPN was set, enter the following commands in the Microsoft Graph PowerShell command prompt.
 
 ```powershell
-$msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
+$msp = Get-MgServicePrincipal -Filter "AppId eq '$spoappid'"
 $spns = $msp.ServicePrincipalNames
 $spns
 ```
@@ -290,7 +327,7 @@ This step registers the SharePoint in Microsoft 365 application principal object
 From the PowerShell command prompt, type the following commands.
 
 ```powershell
-$spoappprincipalID = (Get-MsolServicePrincipal -ServicePrincipalName $spoappid).ObjectID
+$spoappprincipalID  = (Get-MgServicePrincipal -Filter "AppId eq '$spoappid'").Id
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
 $appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
 ```
@@ -328,10 +365,12 @@ The output of each of these commands is the GUID that represents the context ID 
 > [!IMPORTANT]
 > If you have configured farm setup scripts that specify the farm authentication realm value, you should update the setup scripts with this new value before you run them again. > For more information about the requirements for realm values in farm setup scripts, see [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md). Because you have now configured this SharePoint farm to participate in the hybrid configuration, the SharePoint farm authentication realm value must always match the tenant context identifier. If you change this value, the farm will no longer participate in hybrid functionality.
 
-#### Step 6: Configure an on-premises proxy for Azure Active Directory
+<a name='step-6-configure-an-on-premises-proxy-for-azure-active-directory'></a>
+
+#### Step 6: Configure an on-premises proxy for Microsoft Entra ID
 <a name="step8"> </a>
 
-In this step, you create an Azure Active Directory proxy service in the SharePoint Server farm. This enables Azure Active Directory as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint in Microsoft 365.
+In this step, you create a Microsoft Entra ID proxy service in the SharePoint Server farm. This enables Microsoft Entra ID as a *trusted token issuer* that SharePoint Server uses to sign and authenticate claims tokens from SharePoint in Microsoft 365.
 
 From the PowerShell command prompt, enter the following commands.
 
@@ -365,7 +404,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
 
 Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine.
 
-The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
+The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script attempts to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
 1. Download the [configuration script](https://www.microsoft.com/download/103240).
 
@@ -385,7 +424,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 
 4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
 
-5. After script execution, users will not see any changes when this change is implemented.
+5. After script execution, users won't see any changes when this change is implemented.
 
 #### Step 8 (Only required for SharePoint Server 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
 <a name="step10"> </a>
@@ -394,7 +433,7 @@ SharePoint Server 2013 needs a hidden constraint in every federated query. The r
 
 1. Go to `<CentralAdminURL>/_layouts/appinv.aspx` and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
 
-2. If there are items in the App Domain field, leave them be, and if it is empty, use localhost.
+2. If there are items in the App Domain field, leave them be, and if it's empty, use localhost.
 
 3. In the Redirect URL, use https://localhost.
 
@@ -417,7 +456,7 @@ After finishing the tasks in this topic and its validation steps, you should che
 
 So that you have a history of the steps you've taken, you should capture the entire contents of the PowerShell buffer into a file. This will be crucial if you need to reference your configuration history to troubleshoot, or for any other reasons. This will also help you pick up where you left off if the configuration spans multiple days or involves multiple people.
 
-After you have completed and validated the configuration tasks in this topic, continue with your [configuration roadmap](configuration-roadmaps.md).
+After you have completed and validated the configuration tasks in this article, continue with your [configuration roadmap](configuration-roadmaps.md).
 
 ## See also
 <a name="next"> </a>

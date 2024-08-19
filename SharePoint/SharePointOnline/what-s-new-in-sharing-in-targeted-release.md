@@ -1,10 +1,10 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/24/2024
 title: "Secure external sharing in SharePoint"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -18,16 +18,16 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: cc78357c-6d48-499c-9cc7-dae447d0d391
-description: "In SharePoint, if you share with a user who is not in the directory, they are sent a one-time code that they can use to verify their identity."
+description: "In SharePoint, if you share with a user who isn't in the directory, they're sent a one-time code that they can use to verify their identity."
 ---
 
 # Secure external sharing recipient experience
 
-In SharePoint, if you share with a person who is not in the directory, they're sent a one-time code that they can use to verify their identity.
+In SharePoint, if you share with a person who isn't in the directory, they're sent a one-time code that they can use to verify their identity.
 
-This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), which will replace this experience.
+This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md), which replaces this experience.
 
-Recipients of secure external sharing who also use Microsoft 365 in their organization can sign in using their work or school account to access the document. After they have entered the one-time passcode for verification the first time, they will authenticate with their work or school account and have a guest account created in the host's organization. IT admins can manage them like any other guest account in their directory.
+Recipients of secure external sharing who also use Microsoft 365 in their organization can sign in using their work or school account to access the document. After they enter the one-time passcode for verification the first time, they authenticate with their work or school account and have a guest account created in the host's organization. IT admins can manage them like any other guest account in their directory.
 
 Guest accounts are used for sharing sites, and you can always add guests to your directory if you need to give them access to more than just a file or folder.
 
@@ -41,9 +41,9 @@ The following table shows the differences between sharing with people who have g
 |Can have friendly name|Yes|Friendly name is the email address that the file or folder was shared with|
 |Can be Group members|Yes|No|
 |Can edit in Word, Excel, PowerPoint, or other Microsoft 365 apps|Yes|No|
-|Access controlled by AAD conditional access policies|Yes|No|
+|Access controlled by Microsoft Entra Conditional Access policies|Yes|No|
 
- When you use the Share dialog box to share with "specific people" and the recipients are all outside the organization, then a secure link will be created and the specified email addresses will be secured, or added, to the link. This appears in audit logs in the following ways.
+ When you use the Share dialog box to share with "specific people" and the recipients are all outside the organization, then a secure link is created and the specified email addresses are secured, or added, to the link. This appears in audit logs in the following ways.
 
 > [!NOTE]
 > If the UserType property of a User object is "guest", the user is outside of your organization but may be an ad hoc external recipient that does not have a guest account.

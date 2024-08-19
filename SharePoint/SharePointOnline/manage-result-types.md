@@ -1,9 +1,9 @@
 ---
 title: "Manage result types"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 6/29/2018
 audience: End User

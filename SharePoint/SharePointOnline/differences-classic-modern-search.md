@@ -2,9 +2,9 @@
 ms.date: 08/17/2018
 title: "Difference between classic & modern search experiences - SharePoint"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -45,5 +45,7 @@ You use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_b
 - In environments where vertical configuration is not available the modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both modern and classic search experiences are impacted.
 - Depending on the search scenario, some Microsoft Search features might not work if the [classic global Search Center URL](./specify-default-search-center.md) is not set to point to the URL of the default classic Search Center. Depending on your tenant, this URL is "yourcompanyname.sharepoint.com/search" or "yourcompanyname.sharepoint.com/search/pages". Furthermore, ensure that the Search Center site collection exists and that all users have read access to it.
 - If you temporarily [remove a search result](remove-search-results.md), the result is removed in both search experiences.
-- The classic search experience lets admins define **promoted results** to help users find important content, while the Microsoft Search experience uses **bookmarks** to achieve the same. When you [create a promoted result](../SharePointServer/search/manage-query-rules.md) at the organization level, users might also see it on the **All** tab on the Microsoft Search results page if they searched across the whole organization. For example, when users search from the search box on a hub site, they're only searching in the sites associated with the hub and therefore they don't see any promoted results even if they are on the **All** tab. But when users search from the SharePoint start page, they might see promoted results on the **All** tab. If you have defined both a promoted result and a bookmark for the same content (same URL), only the bookmark will appear on the **All** tab.
+- The classic search experience lets admins define **promoted results** to help users find important content, while the Microsoft Search experience uses **bookmarks** to achieve the same. For clouds which support **bookmarks**, only **bookmarks** will show at the organization level on the **All** tab. For clouds without **bookmark** support, promoted results will show on the **All** tab if they searched across the whole organization. On site or hub site scope, promoted results defined at that site will show. In addition promoted results defined at the tenant level will show **All** tab.
 
+    > [!TIP]
+    > If you want the the same bookmark to appear for both the organization level and site levels, you must create both a tenant **bookmark** and a **promoted result** for the sites where you want the bookmark to appear.

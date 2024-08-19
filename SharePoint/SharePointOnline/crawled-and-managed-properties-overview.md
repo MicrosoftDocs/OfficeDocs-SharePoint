@@ -1,9 +1,9 @@
 ---
 title: "Overview of crawled and managed properties in SharePoint Online"
 ms.reviewer: misvenso
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 ms.date: 03/10/2023
 audience: ITPro
 f1.keywords:

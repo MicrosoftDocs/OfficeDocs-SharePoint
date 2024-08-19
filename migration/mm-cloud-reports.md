@@ -1,17 +1,16 @@
 ---
-ms.date: 12/05/2022
+ms.date: 10/10/2023
 title: Migration Manager cloud migration reports
 ms.reviewer: JoanneHendrickson
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration
@@ -20,46 +19,57 @@ mscollection:
 search.appverid: MET150
 description: "Learn about reports, errors, and status codes for cloud to cloud migrations using Migration Manager in Microsoft 365."
 ---
-# Migration Manager: Reports, errors & status codes for cloud migrations
 
-Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
+# Reports and codes for cloud migrations
+
+Migration Manager generates a series of logs and reports for scan/migration tasks in cloud migration scenarios such as Google Drive, Dropbox, Box, and Egnyte.
+
+A scan/migration task presents as a row in the Migration Manager scan/migration list. Normally, a task equals: 
+
+- **Google Drive:** Personal or Shared Drive
+- **Dropbox:** Member or Team folder
+- **Box:** User, Admin, or Co-admin
+- **Egnyte:** Private or Shared folder
 
 ## Reports
 
-Use these reports to help manage, audit, and troubleshoot your migration process.
+There are 4 types of reports to help manage, audit, and troubleshoot your migration process.
 
-|Report type|Scan report|Description|
-|:-----|:-----|:-----|
-|Detailed|[TransactionItem.csv](#scan-transactionitemcsv)|Details of the last scan for all items.|
-|Summary|[FileExtension.csv](#fileextensioncsv)|Provides the statistics of extension types existing in each task.|
-|Summary|[LargeFileSize.csv](#largefilesizecsv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|Summary|[LongPath.csv](#longpathcsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|Summary|[ProjectError.csv](#scan-projecterrorcsv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|Summary|[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+- [Scan summary report](#scan-summary-report)
+- [Scan detailed report](#scan-detailed-report)
+- [Migration summary report](#migration-summary-report)
+- [Migration detailed report](#migration-detailed-report)
 
+> [!Important]
+> These reports are for cloud migrations only. For file share migrations, learn more at: [**Reports and errors for file share migrations**](mm-reports.md).
+> 
+> These reports expire in 90 days. Microsoft doesn't retain the log files.
 
-|Report type|Migration report|Description|
-|:-----|:-----|:-----|
-|Detailed|[TransactionItem.csv](#migration-transactionitemcsv)|Lists the final migration status of all items of the selected task.|
-|Summary|[ProjectError.csv](#migration-projecterrorcsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|Summary|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
+## Codes
 
->[!Note]
->These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
+Your reports may reference a status or failure code to provide specific details as to the nature of the issue. 
 
-## Failure and status codes 
+- [Status codes](#status-codes): Provide the final status of the scan and migration tasks. Status codes can be located in scan/migration summary reports.How to download reports.
 
-Your reports may reference a failure or status code to provide specific details as to the nature of the issue. 
-  
-- [Failure codes](#failure-codes): Result codes or "failure codes" represent item level errors during both the scan and migration process.  
-- [Status codes](#status-codes): Status codes provide the final status of the scan and migration tasks.  
+- [Failure codes](#failure-codes): Represent file-level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 ## How to download reports
 
-Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. You can select up to 100 tasks for each report type.
+Detailed and summary reports of your scan and migration tasks can be downloaded individually or in bulk. 
+
+There are limits on the number of tasks can be selected for bulk download for each report type: 
+
+|Report type|Number of tasks allowed per download|
+|:-----|:-----|
+|Scan summary report|5,000|
+|Scan detailed report|500 |
+|Migration summary report|5,000|
+|Migration detailed report|500|
 
 >[!Note]
->Reports are processed one at a time, even when selecting multiple tasks and downloading the reports in bulk.
+>For each report type, only one can be processed at a time. For example, there can’t be two scan summary reports running simultaneously.
+>
+>The option to download all summary reports when no drives are selected is disabled. To download multiple summary reports efficiently, use the multi-select or select-all function on tasks.
 
 
 ### Download Scan reports
@@ -67,31 +77,30 @@ Detailed and summary reports of your scan and migration tasks can be downloaded 
 1. On the **Scan** tab, select one or more rows listed in the table. Each row in the table represents a scan task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
 
-:::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
+   :::image type="content" source="media/mm-cloud-reports-download-dropdown.png" alt-text="Dropdown menu for downloading either detailed or summary reports":::
 
-3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. For example:  
-
-:::image type="content" source="media/mm-cloud-reports-download-ready-linkbox.png" alt-text="link for download ready":::
-
-4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
-
-:::image type="content" source="media/mm-cloud-recent-actions-button-on-menu.png" alt-text="recent actions button on menu bar":::
-
-:::image type="content" source="media/mm-cloud-recent-actions-reports.png" alt-text="recent actions action panel":::
-
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 7 days. 
 
 ### Download Migration reports
 
 1. On the **Migration** tab, select one or more rows from the list of migration tasks. Each row in the table represents a migration task.
 2. From the action bar, select **Download reports**. Then select either **Detailed** or **Summary** depending on the type of report you need.
-3. After the reports have been created, a message appears with a link to download the .zip file containing the reports. 
-4. You can also access reports that you have requested by selecting **Recent actions** from the menu bar at the top of the screen.  Reports can be accessed for up to 30 days.
+1. You can access reports that you have requested by selecting **Recent actions** icon from the menu bar at the top right of the screen. Reports generated can be accessed for up to 7 days. 
 
 ## Scan reports
 
 The following reports are downloaded from the **Scans** tab in Migration Manager. 
 
-### Scan TransactionItem.csv 
+### Scan detailed report 
+
+Scan detailed report consists of one csv file: 
+
+|File name|Description|
+|:-----|:----|
+|**TransactionItem.csv**. |This file contains the details of the last scan for all items.|
+
+
+#### Scan TransactionItem.csv 
 
 The TransactionItem.csv report details the last scan for all items. Each row in the .csv file represents an item of the selected task. 
 
@@ -121,7 +130,19 @@ The TransactionItem.csv report details the last scan for all items. Each row in 
 |DestinationType |File or folder in the destination. |
 |DestinationSize |Data size of the item in the destination. |
 
-### FileExtension.csv 
+### Scan summary report 
+
+The scan summary report consists of 5 .CSV files: 
+
+|File name|Description|
+|:-----|:-----|
+|FileExtension.csv|Provides the statistics of extension types existing in each task. |
+|LargeFileSize.csv |Lists all items larger than 15 GB that can't be migrated. |
+|LongPath.csv|Lists all items with path lengths larger than 300 characters and that can't be migrated. |
+|ProjectError.csv|Lists all item level errors that occurred during the scan process of all tasks. |
+|ScanSummary.csv |Task level summary of all scan tasks. You can find the scan results based on the scan status code listed. |
+
+#### FileExtension.csv 
 
 The FileExtension.csv report details the extension types in each task. 
 
@@ -134,7 +155,7 @@ The FileExtension.csv report details the extension types in each task.
 |SourceExtension|Extension type exists in the task. |
 |TotalSize|Total data size of the extension type in the task. |
 
-### LargeFileSize.csv
+#### LargeFileSize.csv
 
 The LargeFileSize.csv report details all items larger than 15 GB that can't be migrated. 
 
@@ -147,7 +168,7 @@ The LargeFileSize.csv report details all items larger than 15 GB that can't be m
 |SourceSize |Data size in Byte of the item in the source. |
 |SourceSizeInGB |Data size in GB of the item in the source. |
 
-### LongPath.csv
+#### LongPath.csv
 
 The LongPath.csv report details all items with path lengths larger than 300 and that can't be migrated. 
 
@@ -159,7 +180,7 @@ The LongPath.csv report details all items with path lengths larger than 300 and 
 |FullPath |Full path of the item in the source. |
 |SourcePathLength |Path length of the item in the source. |
 
-### Scan ProjectError.csv 
+#### Scan ProjectError.csv 
 
 The ProjectError.csv report details all item level scan errors that have occurred. 
 
@@ -174,7 +195,7 @@ The ProjectError.csv report details all item level scan errors that have occurre
 |FailureReason|Primary reason for the task failing the scan.|
 
 
-### ScanSummary.csv 
+#### ScanSummary.csv 
 
 The ScanSummary.csv report is a task level summary of all scan tasks.
 
@@ -198,11 +219,17 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ScanStatusCode |Scan status code of the scanned task. To learn more, see [Status codes](#status-codes).  |
 |MostRecentScan |The most recent scan time in UTC of the task. |
 
-
-
 ## Migration reports
 
-### Migration TransactionItem.csv 
+### Migration detailed report 
+
+Migration detailed report consists of 1 csv file: 
+
+|File name|Description|
+|:-----|:-----|
+|**TransactionItem.csv**|Lists the final migration status of all items of the selected task. |
+
+#### Migration TransactionItem.csv 
 
 The TransactionItem.csv report details the final migration status for all items of the selected task. Each row in the .csv file represents an item of the selected task. 
 
@@ -233,7 +260,16 @@ The TransactionItem.csv report details the final migration status for all items 
 |DestinationSize |Data size of the item in the destination. |
 
 
-### Migration ProjectError.csv 
+### Migration summary report 
+
+Migration detailed report consists of two .CSV files:
+
+|File name|Description|
+|:-----|:-----|
+|ProjectError.csv|Lists all item level errors that ever occurred during the migration process of all tasks.| 
+|Migration summary.csv|Task level summary of all migration tasks.| 
+
+#### Migration ProjectError.csv 
 
 The Projecterror.csv report details all item level errors that ever occurred during the migration process of all tasks. 
 
@@ -248,7 +284,7 @@ The Projecterror.csv report details all item level errors that ever occurred dur
 |FailureReason|Failure description of the failed item. If the item status is "Success", this column is blank.To learn more, see [Failure codes](#failure-codes). |
 
 
-### Migration Summary.csv 
+#### Migration Summary.csv 
 
 The Migration Summary.csv report is a task level summary of all migration tasks.
 
@@ -276,9 +312,48 @@ The Migration Summary.csv report is a task level summary of all migration tasks.
 |FilePermissions| File-level permission migration is set to be on or off. The default setting is **Off**. |
 
 
+## Status codes
+
+Status codes provide the final status of the scan and migration tasks. Status codes can be located in scan/migration summary reports.
+
+|Status Code|Scan/Migration Task Status|Message|
+| -------- | -------- | -------- |
+|100|Ready to migrate/Copied to migrate/Completed|Success|
+|101|Ready to migrate/Copied to migrate/Completed|Success. No files needed copying|
+|102|Ready to migrate/Copied to migrate/Completed|Success. Some files aren't supported by Destination name and weren't transferred.|
+|120|Ready to migrate/Copied to migrate/Completed|Success. Some files aren't supported by Source name and weren't transferred.|
+|122|Ready to migrate/Copied to migrate/Completed|Success. Some unsupported files existed and weren't transferred.|
+|201|Warning|Some upload errors. Download and look up the detailed report before trying again.|
+|202|Warning|No files copied. Some upload errors. Download and look up the detailed report before trying again.|
+|210|Warning|Some download errors. Download and look up the detailed report before trying again.|
+|220|Warning|No files copied. Some download errors. Download and look up the detailed report before trying again.|
+|211|Warning|Some download and upload errors. Download and look up the detailed report before trying again.|
+|222|Warning|No files copied. Some download and upload errors. Download and look up the detailed report before trying again.|
+|230|Canceled|Canceled|
+|250|Failed|Already running. Wait a while and try again.|
+|260|Failed|Storage Quota Exceeded on Destination name|
+|261|Failed|Quota API Exceeded on Destination name|
+|300|In progress|Running|
+|302|In progress|Waiting for Microsoft batch processing|
+|303|In progress|Waiting for Forms migration|
+|400|Failed|General failure. Try again.|
+|401|Failed|Couldn't upload anything. Try again.|
+|402|Failed|Connector authorization failed. Try reauthorizing Source name or Destination name|
+|403|Failed|No status. Try again.|
+|404|Failed|Crashed. Try again.|
+|405|Failed|Crashed. Try again.|
+|410|Failed|Couldn't connect to Source name. Try reauthorizing.|
+|423|Failed|Source connector not found. Try again.|
+|490|Failed|Ended by company name Admin. Try again.|
+|491|Failed|Microsoft migration reporting communication failure. Try again.|
+|500|Failed|Unknown, contact support|
+|600|Queued|Queued to start.|
+|601|Queued|Queued to start.|
+|620|In progress|Running pre-checks|
+
 ## Failure codes
 
-Result codes or "failure codes" represent item level errors during both the scan and migration process.
+Failure codes represent file-level errors during both the scan and migration process. Failure codes can be located in *ResultCode* column of scan/migration detailed reports.
 
 |Failure code|Description |User action|
 |:-----|:-----|:-----|
@@ -304,7 +379,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MEXPORTFILERESTRICTED|This file is restricted, and can’t be migrated from the source.|Check to see if this file has legal restrictions such as copyright claims.|
 |MEXPORTFILEUNSUPPORTED|Unsupported file type. |You can't migrate this file from the source.|
 |MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.|You can't migrate this file from the source. Check file at source.|
-|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector.|Try again.|
+|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office 365 connector.|Try again.|
 |MFILEIMPORT|This file type isn't supported in the destination location. |Check source file.|
 |MFILELOCKED|"File is locked, and can't download or get metadata. |Unlock file.  Try again.|
 |MFILENAMELENGTH|Filename exceeds maximum allowable length. |Rename file and Try again...|
@@ -312,7 +387,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MGETFOLDERACLS|Failure to get shared folder membership. |Check folder permissions and Try again...|
 |MHTTPCONNECTION|Connection failure.|Check your network and Try again...|
 |MINVALIDEMAIL|Invalid user email; unable to find user with that email. |Check user name and Try again...|
-|MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.
+|MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.|
 |MINVALIDPARENTID|Item has no parent ID. Id-based connectors require the item to have a parent ID.|Check file and Try again...|
 |MINVALIDPATH|Path is invalid.|Check path and Try again...|
 |MINVALIDRESPONSE|Invalid response from API call. |Try again.|
@@ -330,7 +405,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MNOTFOUND|Item not found.|Check file and Try again...|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
 |MNOTPERMITTED|Can't traverse to the folder level; can't perform actions outside a users folder.|Check permissions and Try again...|
-|MNOTUSERORTEAMDRIVE|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
+|MNOTUSERORTEAMDRIVE||Confirm that the name of the item in the source service matches what you have in the task's source path. Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
 |MOWNERNOTFOUND|The original owner was removed or its information wasn't found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and Try again...|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
@@ -345,54 +420,18 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MUSERINFONOTFOUND|User account info not found.|Check user info and Try again...|
 |MUSERNOTFOUND|User isn't found; either it's disabled or deleted.|Check user and correct as necessary. Try again.|
 |MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error responses and resource types](/graph/errors) |
-|MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and Try again...|
+|MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and try again|
 |PFAIL|Failed to set permission|Check permissions and Try again...|
-|PFAILUNSUP|Unsupported file permissions not set.|Check permissions and Try again...|
-|PSUCCESS|Set permission successfully|
-|PUNSUP|Unable to set permissions.|Check permission settings and Try again...|
-|MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.| 
-|MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.| 
+|PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again|
+|PSUCCESS|Set permission successfully||
+|PUNSUP|Unable to set permissions.|Check permission settings and try again.|
+|MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.|
+|MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.|
 |MJOBFATALERROR|Failed to process the migration job (upload package). All items in the package will be marked as failure. |Try again. |
-
-
-## Status codes
-
-Status codes provide the final status of the scan and migration tasks. 
-
-|Status Code |Message |
-|:-----|:-----|
-|100 |Success |
-|101 |Success. No files needed copying |
-|102 |Success. Some files aren't supported by Destination name and weren't transferred. |
-|120 |Success. Some files aren't supported by Source name and weren't transferred. |
-|122 |Success. Some unsupported files not transferred. |
-|201 |Some upload errors. Try again.|
-|202 |No files copied. Some upload errors. Try again.|
-|210 |Some download errors. Try again.|
-|220 |No files copied. Some download errors. Try again.|
-|211 |Some download and upload errors. Try again.|
-|222 |No files copied. Some download and upload errors. Try again.|
-|227 |Some files aren't supported on the source or destination |
-|230 |Canceled|
-|250 |Already running |
-|260 |Storage Quota Exceeded on Destination name |
-|261 |Quota API Exceeded on Destination name |
-|300 |Running |
-|302 |Waiting for Microsoft batch processing |
-|400 |General failure. Try again.|
-|401 |Couldn't upload anything. Try again.|
-|402 |Connector authorization failed. Try reauthorizing Source name or Destination name |
-|403 |No status. Try again.|
-|404 |Crashed. Try again.|
-|405 |Crashed. Try again.|
-|410 |Couldn't connect to Source name. Try reauthorizing. |
-|411 |Invalid root path |
-|422 |User for schedule not found |
-|423 |Connector not found |
-|490 |Ended by company name Admin. Try again.|
-|491 |Microsoft migration reporting communication failure. Try again.|
-|500 |Unknown, contact support |
-|600 |Queued to start. |
-|601 |Queued to start. |
-|620 |Running pre-checks |
+|MNOTSUPPORTED|Forms migration under Google shared drives is not supported.||
+|MEMPTYUSERMAPPPING	|User identity mapping is empty|Update mapping and try again.|
+|MEXCEEDFORMSQUOTA|	Failed to create new forms, due to the maximum number of forms reached.|Reduce the number of forms to migrate, and try again.|
+|MNOUSERINFO|Failed to get Microsoft user info||
+|MGENERALEXCEPTION|An error occurred when migrating forms from Google.|Try again.|
+|MQUICKXOR|Integrity check failed for the large file.|Please try again. If the issue persists, submit a support ticket.|
 

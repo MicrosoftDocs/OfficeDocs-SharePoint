@@ -1,14 +1,14 @@
 ---
-ms.date: 07/11/2018
+ms.date: 04/09/2024
 title: "Set the OneDrive retention for deleted users"
-ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: jmcdowe
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - CSH
-ms.topic: article
+ms.topic: how-to
 ms.custom:
 - 'O365E_ODACStorage'
 - 'seo-marvel-apr2020'
@@ -19,12 +19,13 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- Essentials-manage
 search.appverid:
 - ODB160
 - ODB150
 - MET150
 ms.assetid: fa1641ea-9f03-4f34-a826-dbd8697e76fe
-description: "Learn how to specify how long the OneDrive files of deleted users are preserved. "
+description: "Learn how to specify how long the OneDrive files of deleted users are preserved."
 ---
 
 # Set the OneDrive retention for deleted users
@@ -34,7 +35,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
  **To set the retention time for OneDrive accounts**
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
- 
+
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
@@ -44,7 +45,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
   
 3. Enter a value from 30 through 3650 in the **Days to retain files a deleted user's OneDrive** box.
 
-    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. 
+    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time.
 
 4. Select **Save**.
 
@@ -55,4 +56,3 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](retention-and-deletion.md)
   
 [Overview of retention policies](/office365/securitycompliance/retention-policies)
-

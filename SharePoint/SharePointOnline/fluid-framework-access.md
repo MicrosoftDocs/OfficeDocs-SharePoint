@@ -2,9 +2,9 @@
 ms.date: 05/22/2019
 title: "Manage access to Fluid Framework"
 ms.reviewer: kaarins
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Create or edit a Secure Store Target Application"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -28,7 +28,7 @@ When you want to use external data (such as data from your other business applic
 BCS makes it possible for you to set up a connection to the Target Application, and the Secure Store enables you to manage the credentials that are required by the external data source. 
 
 >[!NOTE]
-> To access the Secure Store, you must have the SharePoint Administrator role or Global Administrator role.
+> To access the Secure Store, you must have at least the [SharePoint Administrator](./sharepoint-admin-role.md) role.
   
 ## How the Secure Store Service Works
 <a name="__toc346879710"> </a>

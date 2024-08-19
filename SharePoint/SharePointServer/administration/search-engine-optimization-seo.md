@@ -20,7 +20,7 @@ description: "Learn about Search Engine Optimization (SEO) in SharePoint Server 
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
-If you are a website owner, you know how important it is that users can easily find your website by using Internet search engines such as Bing or Google. The higher your website is shown in the search results list, the more likely it is that users will click on it. Just think of your own behavior when looking at search results. When was the last time that you clicked to view the second page of search results?
+If you're a website owner, you know how important it's that users can easily find your website by using Internet search engines such as Bing or Google. The higher your website is shown in the search results list, the more likely it's that users will click on it. Just think of your own behavior when looking at search results. When was the last time that you clicked to view the second page of search results?
   
 ## Optimizing SharePoint Server 2016 websites for Internet search engines
 

@@ -2,15 +2,14 @@
 ms.date: 05/12/2020
 title: "Step 6: Migrate and monitor Box migration"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
@@ -19,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 6: Migrate and monitor Box migration"
 ---
@@ -36,9 +36,6 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 ![Select accounts to migrate](media/mm-box-select-to-migrate.png)
 
 2. Select **Migrate**.
-
-![Select migrate button](media/mm-box-migrate-button.png) 
-
 3. A confirmation step displays.  Click **Migrate**.  
 
 >[!Note]

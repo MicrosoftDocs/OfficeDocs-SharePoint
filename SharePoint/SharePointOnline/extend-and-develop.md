@@ -2,9 +2,9 @@
 ms.date: 07/11/2018
 title: "Plan customizations, solutions, and apps for SharePoint"
 ms.reviewer: lucaband
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:

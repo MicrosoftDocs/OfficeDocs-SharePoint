@@ -2,18 +2,19 @@
 ms.date: 06/10/2022
 title: Plan for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Start here if you're planning to roll out SharePoint and OneDrive in a medium to large organization.
@@ -77,7 +78,7 @@ These references can also help with planning your rollout:
 
 - [Networking roadmap for Microsoft 365](/microsoft-365/enterprise/networking-roadmap-microsoft-365)
 
-- [Office 365 URLs and IP address ranges](/enterprise/urls-and-ip-address-ranges)
+- [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 - [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo)
 

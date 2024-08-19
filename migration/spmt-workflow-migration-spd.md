@@ -2,20 +2,20 @@
 ms.date: 02/08/2023
 title: "Migrate SharePoint Designer workflows with SPMT"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 ms.assetid:
 description: Overview Migrate your SharePoint Designer 2010 & 2013 created workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
@@ -26,7 +26,7 @@ The SharePoint Migration Tool (SPMT) 4.1 now supports the migration of SharePoin
 
 **Actions** are the main elements that form a workflow definition. The current release of SPMT can migrate some commonly used actions, but not all are currently supported. Future releases of SPMT will support more SPD actions.
 
-## Actions 
+## Actions
 
 |Workflow action category|Workflow action |Workflow version|Flow action in Power Automate|
 |:-----|:-----|:-----|:-----|
@@ -71,16 +71,12 @@ The SharePoint Migration Tool (SPMT) 4.1 now supports the migration of SharePoin
 |Condition|The file size in a specific range kilobyte|2010|If/else|
 |Condition|The file type is a specific type|2010|If/else|
 
-
 >[!Note]
 >"*" There is no direct matching action in Power Automate for workflow actions like “Log to History List” and “Set Workflow Status”, “Compose” action is used as a placeholder action in migrated flow.
 >
 >"**" A workflow with multiple stage forms a directed graph. A general directed graph cannot be supported in Power Automate. The migration tool will only convert workflow with stage format of Directed Rooted Tree (or Arborescence), and report error otherwise.
 
-
-
 ## Designer workflow actions not migrated
-
 
 |Workflow action category|Workflow action|Workflow version|
 |:-----|:-----|:-----|
@@ -114,9 +110,7 @@ The SharePoint Migration Tool (SPMT) 4.1 now supports the migration of SharePoin
 |Document Set|Set content approval status for doc set|2010|
 |Document Set|Start document set approval process|2010|
 
-
-By default, the migration tool stops workflow migration and reports errors if there are one or more unsupported actions in the source workflow. You can let the tool continue the migration process by selecting “Convert to Compose action” option in the migration settings, “Handle Unsupported Action”. 
-
+By default, the migration tool stops workflow migration and reports errors if there are one or more unsupported actions in the source workflow. You can let the tool continue the migration process by selecting “Convert to Compose action” option in the migration settings, “Handle Unsupported Action”.
 
 ## Lookups
 
@@ -125,9 +119,9 @@ Lookups are used in many workflow actions. Lookup types include
 - Lookup for string. It's used in text field, such as email “body” field, task “request” field.
 - Lookup for user. It's used in user field, such as email “to” field, task “participant” field.
 
-In Power Automate, “Dynamic content” is used to provide dynamic value, similar with lookup in workflow. 
+In Power Automate, “Dynamic content” is used to provide dynamic value, similar with lookup in workflow.
 
-### Lookup for string 
+### Lookup for string
 
 Supported lookups for string include:
 
@@ -143,20 +137,17 @@ Unsupported lookups for string include:
 - Get field value of associated task list
 - Get field value of associated history list
 
-
 ### Lookup for user
 
 Supported lookups for user include:
 
-- User name. An Active Director (AD) user in the workflow will be mapped to anAzure Active Directory (AAD) user in migration Power Automate flow.
+- User name. An Active Directory (AD) user in the workflow will be mapped to a Microsoft Entra user in migration Power Automate flow.
 
 Unsupported lookups for user include:
 
 - SharePoint group name
 - Hierarchy manager
 
-
 ## Initiation Form Parameters
 
 In the SharePoint Designer workflow, initiation form parameters can be configured for a manually started workflow. When workflows are run, these parameters are provided by the user, and their values are set as variables. After migration, initiation form parameters are converted to the inputs of the manual-triggered Power Automate flow.
-

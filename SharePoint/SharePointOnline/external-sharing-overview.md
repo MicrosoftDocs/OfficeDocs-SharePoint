@@ -1,10 +1,10 @@
 ---
-ms.date: 06/19/2023
+ms.date: 06/12/2024
 title: Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -38,7 +38,10 @@ description: "Learn about the external sharing options in SharePoint and OneDriv
 
 # Overview of external sharing in SharePoint and OneDrive in Microsoft 365
 
-The external sharing features of SharePoint and OneDrive let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+The external sharing features of SharePoint and OneDrive let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams). Also read [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
+
+> [!IMPORTANT]
+> Trial tenants can utilize SharePoint's robust collaboration features, but the scope of external sharing will be restricted compared to licensed tenants. This is designed to prevent potential abuse and ensure a safe experience for all users.
 
 Planning for external sharing should be included as part of your overall permissions planning for SharePoint and OneDrive. This article describes what happens when users share, depending on what they're sharing and with whom. 
 
@@ -53,26 +56,28 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint and OneDrive environment. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
 
-### SharePoint and OneDrive integration with Azure AD B2B
+<a name='sharepoint-and-onedrive-integration-with-azure-ad-b2b'></a>
+
+### SharePoint and OneDrive integration with Microsoft Entra B2B
 
 There are two external sharing models used in SharePoint and OneDrive:
 
 - SharePoint external authentication
 
-- SharePoint and OneDrive integration with Azure AD B2B
+- SharePoint and OneDrive integration with Microsoft Entra B2B
 
-When using Azure AD B2B integration, Azure AD external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
+When using Microsoft Entra B2B integration, Microsoft Entra external collaboration settings, such as [guest invite settings and collaboration restrictions](/azure/active-directory/external-identities/external-collaboration-settings-configure) apply.
 
 The following table shows the differences between the two sharing models.
 
 |Sharing method|Files and folders|Sites|
 |:--|:----------------|:----|
-|SharePoint external authentication<br>(Azure AD B2B integration not enabled)|No guest account created*<br>Azure AD settings don't apply|N/A<br>(Azure AD B2B always used)|
-|Azure AD B2B integration enabled|Guest account always created<br>Azure AD settings apply|Guest account always created<br>Azure AD settings apply|
+|SharePoint external authentication<br>(Microsoft Entra B2B integration not enabled)|No guest account created*<br>Microsoft Entra settings don't apply|N/A<br>(Microsoft Entra B2B always used)|
+|Microsoft Entra B2B integration enabled|Guest account always created<br>Microsoft Entra settings apply|Guest account always created<br>Microsoft Entra settings apply|
 
 *A guest account may already exist from another sharing workflow, such as sharing a team, in which case it's used for sharing.
 
-For information on how to enable or disable Azure AD B2B integration, see [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+For information on how to enable or disable Microsoft Entra B2B integration, see [SharePoint and OneDrive integration with Microsoft Entra B2B](sharepoint-azureb2b-integration.md).
 
 ## How the external sharing settings work
 
@@ -103,13 +108,13 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
 
-Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
+Because these guests don't have a license in your organization, they're limited to basic collaboration tasks:
   
 - They can use Office.com for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license.
 
-- They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and files.
+- They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they'll have Edit permissions and they'll be able to add, edit and delete lists; they'll also be able to view, add, update and delete list items and files.
 
-- They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
+- They'll be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They'll also be able to do things like view site feeds.
 
 If your authenticated guests need greater capability such as OneDrive storage or creating a Power Automate flow, you must assign them an appropriate license.
 

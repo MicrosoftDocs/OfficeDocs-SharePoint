@@ -60,7 +60,7 @@ For the first four subnets, specify a name and a single IP address space based o
     
 2. Convert the resulting bits to decimal and express it as an address space with the prefix length set to the size of the gateway subnet.
     
-See [Address space calculator for Azure gateway subnets](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) for a PowerShell command block and C# console application that performs this calculation for you. 
+See [Address space calculator for Azure gateway subnets](/microsoft-365/enterprise/address-space-calculator-for-azure-gateway-subnets) for a PowerShell command block and C# console application that performs this calculation for you. 
   
 Work with your IT department to determine these address spaces from the virtual network address space.
   
@@ -102,7 +102,7 @@ For the two Domain Name System (DNS) servers in your on-premises network that yo
  **Table D: On-premises DNS servers**
   
 > [!NOTE]
-> If you are using [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas, you do not need these DNS server IP addresses. 
+> If you are using [Microsoft Entra Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas, you do not need these DNS server IP addresses. 
   
 To route packets from the cross-premises network to your organization network across the site-to-site VPN connection, you must configure the virtual network with a local network that contains a list of the address spaces (in CIDR notation) for all of the reachable locations on your organization's on-premises network. The list of address spaces that define your local network must be unique and must not overlap with the address space used for other virtual networks or other local networks.
   

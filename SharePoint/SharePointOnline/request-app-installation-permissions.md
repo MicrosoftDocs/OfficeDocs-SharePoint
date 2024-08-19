@@ -1,9 +1,9 @@
 ---
 title: "Overview of apps in SharePoint in Microsoft 365"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 ms.date: 5/22/2018
 audience: Admin
@@ -30,7 +30,7 @@ Only those users who have the appropriate permission level can add apps to a sit
  
 When the app requires organization-level permissions, the requestor will need approval from a Microsoft 365 admin to continue with the installation. The approval process includes a workflow, called the permission request flow, which ensures installation requests are directed to the right person. 
   
-This article is intended for Global Administrators and SharePoint Administrators at the organization level who receive requests for app installation.
+This article is intended for [SharePoint Administrators](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 at the organization level who receive requests for app installation.
 
 ## Make the application available
 
@@ -40,7 +40,7 @@ At this point, site owners can check the **Your Requests** list to view the stat
 
 ## Delegate approval authority
 
-As a Global Administrator or SharePoint Administrator in your organization, you can delegate app approval authority as a way of spreading the approval work around, or alleviating approval bottlenecks. Remember that apps are stored and managed in the Apps site. To grant app approval permission to select users, you can add them as site admins on the Apps site. 
+As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 in your organization, you can delegate app approval authority as a way of spreading the approval workaround, or alleviating approval bottlenecks. Remember that apps are stored and managed in the Apps site. To grant app approval permission to select users, you can add them as site admins on the Apps site. 
   
 > [!CAUTION]
 > When you add users as site admins on the Apps site, you are giving them the ability to approve the installation of apps that have organization-wide impact. Consider this decision carefully. 

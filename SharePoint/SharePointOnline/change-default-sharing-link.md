@@ -2,9 +2,9 @@
 ms.date: 07/16/2018
 title: "Change the default sharing link for a site"
 ms.reviewer: srice
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - CSH
@@ -39,7 +39,7 @@ Users can share files and folders in Microsoft SharePoint by sending a link. The
 
 ![Screenshot of Link settings.](media/link-settings.png)
 
-As a Global Administrator or SharePoint Administrator, you may want to enable users to send "Anyone" links, but you may not want this to be the default type of link when users select to share files and folders. You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. You can change this setting at the organization level and at the site (previously called "site collection") level. 
+At least as a [SharePoint Administrator](./sharepoint-admin-role.md), you may want to enable users to send "Anyone" links, but you may not want this to be the default type of link when users select to share files and folders. You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. You can change this setting at the organization level and at the site (previously called "site collection") level. 
   
 > [!NOTE]
 > The default sharing link setting applies only to libraries that use the new experience.<br>This setting does not affect Outlook Web App, Outlook 2016, or Office clients prior to Office 2016. 

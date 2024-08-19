@@ -2,16 +2,17 @@
 ms.date: 06/10/2022
 title: Hybrid OneDrive and SharePoint in Microsoft 365
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
+  - essentials-get-started
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn about setting up hybrid OneDrive and SharePoint in Microsoft 365.

@@ -1,16 +1,15 @@
 ---
-ms.date: 01/21/2021
+ms.date: 08/07/2023
 title: "Step 2: Scan and assess Google accounts using Migration Manager"
 ms.reviewer:
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -19,28 +18,25 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 - highpri
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Step 2:  Scan and assess Google users using Migration Manager."
 ---
 
 # Step 2: Scan and assess Google Drives
 
-After you have connected to Google, add the source paths to scan and assess your Google Drives.
+After you have connected to Google, add the Drives to scan and assess.
 
-1. Select **Add source paths** and choose a method: to look for new users in Google Drives, target a single source path, or bulk upload the source paths using a CSV file.
+1. Select **Add Drives** and choose a method: to look for new users in Google Drives, target a single source path, or bulk upload the source paths using a CSV file.  You can choose to automatically start scanning or do it later.  However, all drives must be scanned before you can migrate them.
 
-![add source paths manually in Google](media/mm-google-add-source-paths.png)
+   :::image type="content" source="media/mm-google-add-drive-choices.png" alt-text="select how to add google drives":::
 
-2. After adding the source, highlight any or all of the drives and then select **Scan**.
+2. After adding the drives, highlight any or all of the drives and then select **Scan** if you haven't already.
 
 >[!Important]
 > The total number cannot exceed 50,000 tasks.
 
-3. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
-4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-
-   ![Summary of scanned Google drives ](media/mm-google-table-summary.png)
-
+3. Once the scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. Review the scanned users. Search for specific text, or select a filter to review the list more easily or download summary and detailed reports to troubleshoot further.
 
 ## Download reports
 
@@ -84,6 +80,7 @@ When mapping please ensure that each Service Account has its own unique matching
 |serviceaccount1@contoso.com|serviceaccount1@contoso.com/[upload folder]*|
 |serviceaccount2@contoso.com|serviceaccount2@contoso.com/[upload folder]*|
 |serviceaccount3@contoso.com|serviceaccount3@contoso.com/[upload folder]*|
+
 
 Asterisk (*) = optional folder
 

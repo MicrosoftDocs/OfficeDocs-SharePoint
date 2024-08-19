@@ -1,11 +1,11 @@
 ---
-ms.date: 07/11/2018
+ms.date: 05/28/2024
 title: "Delete a site"
 ms.reviewer: 
-manager: serdars
+manager: jtremper
 recommendations: true
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: ruihu
+author: maggierui
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -28,7 +28,8 @@ description: "In this article, you'll learn how to delete SharePoint sites in th
 
 # Delete a site
 
-When you, as a Global Administrator or SharePoint Administrator in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
+When you, as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
+
   
 - Document libraries and files.
     
@@ -43,9 +44,13 @@ You should notify the site admins and any subsite owners before you delete a sit
 > [!WARNING]
 > We do not recommend deleting the root site for your organization. If you do, all your SharePoint sites will be inaccessible until you restore the site or create a new root site. Instead of deleting the root site, we recommend replacing it. [Learn more about the root site and how to replace it](modern-root-site.md)
 
+> [!NOTE]
+> Deleted sites in the Recycle Bin do not count toward the organization’s total storage usage. It will take up to 48 hours for the storage usage to update. 
+
 ## Delete a site in the new SharePoint admin center
 
-By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. Both Global Administrators and SharePoint Administrators can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, you can delete both classic and modern sites. As a a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -56,7 +61,7 @@ By using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_
 
 3. Select **Delete**, and to confirm, select **Delete**.
 
-    ![Deleting a site on the Active sites page](media/delete-site.png)
+    :::image type="content" alt-text="Deleting a site on the Active sites page" source="media/delete-site.png":::
 
 > [!NOTE]
 > To delete a hub site, you first need to unregister it as a hub site.<br/><br>Deleted Microsoft 365 groups are retained for only 30 days.<br><br/>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).

@@ -2,9 +2,9 @@
 ms.date: 06/18/2020
 title: Create or customize a content type
 ms.reviewer: anfra
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
@@ -30,7 +30,7 @@ Content types created in the SharePoint admin center are saved to the SharePoint
 
 To learn more about content types, see [Introduction to content types and content type publishing](https://support.microsoft.com/office/e1277a2e-a1e8-4473-9126-91a0647766e5).
 
-To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
+To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://download.microsoft.com/download/0/b/b/0bb74648-212a-4c5d-b8a4-1b991dcf0a7d/sharepoint-default-content-types-hierarchy.pdf).
 
 ## Create a content type
 

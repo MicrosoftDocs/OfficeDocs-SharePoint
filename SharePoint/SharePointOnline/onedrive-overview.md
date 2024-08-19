@@ -1,10 +1,10 @@
 ---
-ms.date: 06/10/2022
+ms.date: 03/14/2024
 title: Overview of OneDrive in Microsoft 365
 ms.reviewer:
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ search.appverid:
 ms.collection:
 - Strat_OD_admin
 - M365-collaboration
+- essentials-overview
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc
@@ -32,11 +33,11 @@ The features listed in this section address common customer concerns or specific
 
 ### OneDrive Files On-Demand
 
-OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer, without downloading all the files to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. As shown in the following screenshot, files that have not been downloaded have a cloud icon for their status. For those files that have been downloaded, the status shows a green checkmark.
+OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer, without downloading all the files to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. As shown in the following screenshot, files that haven't been downloaded have a cloud icon for their status. For those files that have been downloaded, the status shows a green checkmark.
 
 ![Screenshot of Windows Explorer with some OneDrive files that have been downloaded and others that are only in the cloud.](media/what-is-onedrive-small-business_image1.png)
 
-By default, files are downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, simply make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following screenshot shows the right-click menu for OneDrive files on a device running Windows.
+By default, files are downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following screenshot shows the right-click menu for OneDrive files on a device running Windows.
 
 ![Screenshot of the OneDrive right-click menu, with options for "Always keep on this device" and "Free up space."](media/What-is-onedrive-small-business_image2.png)
 
@@ -52,7 +53,7 @@ To reduce the potential for confusion when users choose to add a copy versus a l
 
 ### Files Restore
 
-The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, simply select the file history entry to which you want to restore, and all changes after that point will be rolled back.
+The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, select the file history entry to which you want to restore, and all changes after that point will be rolled back.
 
 ![Screenshot of the Restore my OneDrive page in Microsoft 365.](media/what-is-onedrive-small-business_image4.png)
 
@@ -68,7 +69,7 @@ Known Folder Move enables Windows and Mac users to select commonly used folders,
 
 ### Syncing files
 
-Users can upload, download, and interact with OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is much easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
+Users can upload, download, and interact with OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
 
 For information about planning and deploying the sync app for your organization, see [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).
 
@@ -99,4 +100,3 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 - **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7), [Employee file storage (video training)](https://support.office.com/article/12dbe3e4-dbef-48f8-a90e-87f1bc607073) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
 
 - **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
-

@@ -1,9 +1,10 @@
 ---
-ms.date: 01/17/2023
-title: "Enable File Requests in SharePoint or OneDrive" 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.date: 10/01/2023
+title: "Enable File Requests in SharePoint or OneDrive"
+ms.reviewer: 
+ms.author: mactra
+author: MachelleTranMSFT
+manager: jtremper
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,17 +24,19 @@ ms.assetid:
 description: Learn how to enable a file request in OneDrive or Sharepoint.
 ---
 
-# Enable File Requests in SharePoint or OneDrive 
+# Enable File Requests in SharePoint or OneDrive
 
-With the [file request feature](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af) in OneDrive or SharePoint, you can choose a folder where others can upload files using a link that you send them. People you request files from can only upload files; they can't see the content of the folder, edit, delete, or download files, or even see who else has uploaded files. 
+With the [file request feature](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af) in OneDrive or SharePoint, you can choose a folder where others can upload files using a link that you send them. People you request files from can only upload files; they can't see the content of the folder, edit, delete, or download files, or even see who else has uploaded files.
 
-Admins can use the SharePoint Online Management Shell to disable or enable the **Request files** feature on OneDrive or SharePoint sites. If there's no change on sharing capability for all sites, then the file request feature can be enabled. 
+Admins can use the SharePoint Online Management Shell to disable or enable the **Request files** feature on OneDrive or SharePoint sites. If there's no change on sharing capability for all sites, then the file request feature can be enabled.
 
 > [!IMPORTANT]
 > **Request files** is available only if all of the following statement are true. Please contact your admin if you don't see this feature:
+>
 > - You're using OneDrive for work or school accounts.
 > - Your admin has [enabled **Anyone** links for SharePoint](/sharepoint/turn-external-sharing-on-or-off).
 > - Your admin has configured the **View, edit, and upload** permission for **Anyone** links as described in [Advanced settings for **Anyone** links](/sharepoint/turn-external-sharing-on-or-off#advanced-settings-for-anyone-links).
+> - Your admin hasn't configured [Allow only members in specific security groups to share SharePoint and OneDrive files and folders externally](manage-security-groups.md).
 > - This feature is not available for Office 365 operated by 21Vianet, OneDrive for home, or Office 365 Germany.
 
 > [!NOTE]
@@ -44,25 +47,25 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 > [!NOTE]
 > If you do not want File Requests to appear on SharePoint sites, you can opt out by running the following SharePoint Online management shell command: "Set-SPOTenant -CoreRequestFilesLinkEnabled $False".
 
-1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
+1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting).
 
-2. Ensure folder permissions are set to **View, edit and upload**. 
+2. Ensure folder permissions are set to **View, edit and upload**.
 
    ![Screenshot for folder permissions settings.](media/select-folder.png)
 
 3. Check `CoreRequestFilesLinkEnabled` is set correctly via [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).  
 
-   - Run `Get-SPOTenant`. 
+   - Run `Get-SPOTenant`.
 
-   - Check if `CoreRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -CoreRequestFIlesLinkEnabled $True`. 
+   - Check if `CoreRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -CoreRequestFIlesLinkEnabled $True`.
 
-     - If this is set to **True**, **Request files** link on the core partition for all SharePoint sites is enabled (not including OneDrive sites). If this value isn't set, **Request files** will only show for OneDrive with **Anyone** links enabled. 
-     
+     - If this is set to **True**, **Request files** link on the core partition for all SharePoint sites is enabled (not including OneDrive sites). If this value isn't set, **Request files** will only show for OneDrive with **Anyone** links enabled.
+
 4. You can also set the `RequestFilesLink` Expiration by using `Set-SPOTenant -CoreRequestFilesLinkExpirationInDays` (Optional).
 
 ## Enable or Disable Request Files for OneDrive
 
-1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
+1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting).
 
 2. Ensure folder permissions are set to **View, edit and upload**.
 
@@ -73,20 +76,20 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 4. For example, you can set OneDrive sharing capability to **New and Existing guests** and still allow OneDrive File Requests by following the instructions below as long as SharePoint **Anyone** links are turned on.  
 
    ![Screenshot for setting OneDrive sharing capability.](media/content.png)
-   
+
 5. Check `OneDriveRequestFilesLinkEnabled` is set correctly via [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).  
 
    - Run `Get-SPOTenant`.
 
-   - Check if `OneDriveRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -OneDriveRequestFIlesLinkEnabled $True`. 
+   - Check if `OneDriveRequestFilesLinkEnabled` is set to **True**. If it isn't set to **True**, run `Set-SPOTenant -OneDriveRequestFIlesLinkEnabled $True`.
 
-     - If this is set to **True**, **Request files** link on the OneDrive partition for all OneDrive sites will be available. If this value isn't set, the **Request files** link will be disabled on OneDrive. 
+     - If this is set to **True**, **Request files** link on the OneDrive partition for all OneDrive sites will be available. If this value isn't set, the **Request files** link will be disabled on OneDrive.
 
 6. You can also set the **Request files** Links to expire by using `Set-SPOTenant – OneDriveRequestFilesLinkExpirationInDays` (Optional).
 
 ## Enable or Disable Request Files per site
 
-1. Check if you have enabled [Anyone links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
+1. Check if you have enabled [Anyone links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting).
 
 2. Ensure folder permissions are set to **View, edit and upload** at Tenant Level in SharePoint tenant admin.
 
@@ -102,4 +105,3 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
   
 For more information on File Requests, see [Create a file request](https://support.microsoft.com/office/create-a-file-request-f54aa7f8-2589-4421-b351-d415fc3b83af).
   
-

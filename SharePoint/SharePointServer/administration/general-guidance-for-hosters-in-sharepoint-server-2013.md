@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 52e844d0-5f65-4091-8c16-549b1f25a587
-description: "Administrator guidance for multi-tenant hosts in SharePoint Server."
+description: "Administrator guidance for multitenant hosts in SharePoint Server."
 ---
 
 # General guidance for hosters in SharePoint Server 2013
@@ -28,7 +28,7 @@ For information about architectural, security, operational, and management guida
   
 ## Main Characteristics of Multi-Tenancy and Considerations
 
-When considering multi-tenancy, there are two extremes for the implementation model of a multi-tenant hosting platform:
+When considering multi-tenancy, there are two extremes for the implementation model of a multitenant hosting platform:
   
 - **Dedicated**
     
@@ -40,7 +40,7 @@ These extremes lie at opposite ends of a spectrum as shown in the following diag
 
 ![This diagram shows the two implementation methods to consider when deploying a multi-tenant hosting platform](../media/DedicatedShared.jpg)
   
-The decision to implement a multi-tenant hosting platform comes down to selecting between these two implementation models. The decision is typically based on the required functional components, and the following service-level related attributes that ordinarily influence the choice of an appropriate implementation model for a multi-tenant hosting platform.
+The decision to implement a multitenant hosting platform comes down to selecting between these two implementation models. The decision is typically based on the required functional components, and the following service-level related attributes that ordinarily influence the choice of an appropriate implementation model for a multitenant hosting platform.
   
 - Cost Saving
     
@@ -52,7 +52,7 @@ The decision to implement a multi-tenant hosting platform comes down to selectin
     
 - Quality of Service
     
-These key attributes are important to consider when you make the decisions for selecting the appropriate architecture, implementation, and deployment of a multi-tenant SharePoint Server 2013 hosting platform. The following diagram shows how these key attributes vary from one implementation model to the other.
+These key attributes are important to consider when you make the decisions for selecting the appropriate architecture, implementation, and deployment of a multitenant SharePoint Server 2013 hosting platform. The following diagram shows how these key attributes vary from one implementation model to the other.
   
 ![This diagram shows key attributes of Multi-tenant Hosting Platforms](../media/KeyAttributes.jpg)
   
@@ -64,21 +64,21 @@ In SharePoint Server 2010, a new shared service model was implemented. This new 
   
 In SharePoint, multi-tenancy refers to the ability to partition the data of otherwise shared services to accommodate multiple tenants. This contrasts with setting up separate dedicated hardware or even running multiple dedicated instances of a given service.
   
-Services can be configured to share data across all tenants or to partition data for each tenant, for example, provide data isolation. Each service can be set up differently. Services can be created in partitioned mode by using Microsoft PowerShell or in un-partitioned mode by using Microsoft PowerShell or Central Administration. Once created, the mode of the Service cannot be changed. To achieve partitioning, both the service and the service connection must be deployed in partitioned mode. The service connection is called a proxy in Microsoft PowerShell.
+Services can be configured to share data across all tenants or to partition data for each tenant, for example, provide data isolation. Each service can be set up differently. Services can be created in partitioned mode by using Microsoft PowerShell or in unpartitioned mode by using Microsoft PowerShell or Central Administration. Once created, the mode of the Service can't be changed. To achieve partitioning, both the service and the service connection must be deployed in partitioned mode. The service connection is called a proxy in Microsoft PowerShell.
   
-Not all services can be partitioned. Services that do not store tenant data, such as PowerPoint Automation Services, do not have to be partitioned. These services can be shared across multiple tenants without risk of exposing tenant-specific data.
+Not all services can be partitioned. Services that don't store tenant data, such as PowerPoint Automation Services, don't have to be partitioned. These services can be shared across multiple tenants without risk of exposing tenant-specific data.
   
 The following diagram shows how service data is partitioned:
   
 ![This diagram shows how data is partitioned in a multi-tenancy platform](../media/PartitionData.jpg)
   
-In SharePoint, multi-tenancy is tied to site subscriptions. A site subscription is a logical group of site collections that can share settings, features, and service data. Site collections for each tenant are brought together with a subscription ID. The subscription ID is used to map features, services, and sites to tenants and also to partition service data according to tenant. The Subscription Settings service keeps track of multi-tenant services and subscription IDs.
+In SharePoint, multi-tenancy is tied to site subscriptions. A site subscription is a logical group of site collections that can share settings, features, and service data. Site collections for each tenant are brought together with a subscription ID. The subscription ID is used to map features, services, and sites to tenants and also to partition service data according to tenant. The Subscription Settings service keeps track of multitenant services and subscription IDs.
   
-Here is how it works:
+Here's how it works:
   
-1. Farm administrators deploy services to the farm. This includes the Subscription Settings service. Service applications can be either deployed as partitioned where data is isolated for each tenant, or un-partitioned where data is shared across all tenants. Some services do not store tenant data and are shared across all tenants without a partition.
+1. Farm administrators deploy services to the farm. This includes the Subscription Settings service. Service applications can be either deployed as partitioned where data is isolated for each tenant, or unpartitioned where data is shared across all tenants. Some services don't store tenant data and are shared across all tenants without a partition.
     
-2. Farm administrators deploy a Tenant Administration site for each tenant by using Microsoft PowerShell. The Tenant Administration site is associated with a subscription ID. Administrators can deploy additional site collections for each tenant. Each site collection is tied to the subscription ID of the tenant.
+2. Farm administrators deploy a Tenant Administration site for each tenant by using Microsoft PowerShell. The Tenant Administration site is associated with a subscription ID. Administrators can deploy other site collections for each tenant. Each site collection is tied to the subscription ID of the tenant.
     
 3. All service applications that are connected at the web application level are available for use by site collections within the web application. Administrators choose the services to offer and become active for each tenant. The subscription ID for a tenant is used to map services to the site collections.
     
@@ -120,24 +120,24 @@ By following these guidelines, future SharePoint upgrades can be scoped to eithe
   
 #### Physical vs. Logical Data Partitioning
 
-Data partitioning plays a big role in deciding which approach to take for a SharePoint deployment then a physical partition is required. The solution is to have a farm and even a single Identity Provider per tenant. But if some data can be shared we can then move towards sharing elements of the infrastructure across multiple tenants, database servers, some SharePoint services, and the farm.
+Data partitioning plays a large role in deciding which approach to take for a SharePoint deployment then a physical partition is required. The solution is to have a farm and even a single Identity Provider per tenant. But if some data can be shared we can then move towards sharing elements of the infrastructure across multiple tenants, database servers, some SharePoint services, and the farm.
   
 #### What Identity and Authentication model do I want?
 
-Depending upon authentication requirements, custom code may be required. When using Windows Authentication, code is not required and the SharePoint people picker is fully functional. Security Assertion Markup Language (SAML) or Forms Based authentication (FBA) require a custom claims provider that implements search and validates procedures.
+Depending upon authentication requirements, custom code may be required. When using Windows Authentication, code isn't required and the SharePoint people picker is fully functional. Security Assertion Markup Language (SAML) or Forms Based authentication (FBA) require a custom claims provider that implements search and validates procedures.
   
 > [!NOTE]
 > The previous considerations are valid for both single-tenant per farm and multi-tenant per farm. 
   
-For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
+For more information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 #### The Tenant Administrator Experience
 
-Depending on the topology, the administrator experience can be significantly different: 
+Depending on the topology, the administrator experience can be different: 
   
-- In a one tenant per farm approach there are no in-product possibilities to separate the Service administration experience from the tenant administration experience. In other words, there's no way to delegate specific functionalities of the the SharePoint Central Administration website to the tenant administrator to provision new site collections. You also can't configure a default Search Center for the tenant without permitting any Farm Topology change or Service configuration change. 
+- In a one tenant per farm approach there are no in-product possibilities to separate the Service administration experience from the tenant administration experience. In other words, there's no way to delegate specific functionalities of the SharePoint Central Administration website to the tenant administrator to provision new site collections. You also can't configure a default Search Center for the tenant without permitting any Farm Topology change or Service configuration change. 
     
-- In a multiple tenants per farm approach, the product provides an in-product tenant administration console. In this approach, the Tenant Administration Site Collection lets tenant administrators perform specific functionalities. In the previous configuration, there are specific functionalities in the Central Administration that cannot be performed without causing potential unexpected results. For example, don't create site collections in Central Administration. 
+- In a multiple tenants per farm approach, the product provides an in-product tenant administration console. In this approach, the Tenant Administration Site Collection lets tenant administrators perform specific functionalities. In the previous configuration, there are specific functionalities in the Central Administration that can't be performed without causing potential unexpected results. For example, don't create site collections in Central Administration. 
     
 ## Different Type of Topologies
 
@@ -155,7 +155,7 @@ There three topologies available for hosting in SharePoint Server 2016 in an on-
    
 #### Services and Functionalities
 
-The collection of features and services that enable multi-tenancy with SharePoint Server 2013 comprise a base platform that is typically extended to provide the end-to-end service offering by hosting organizations. A number of key operational service management aspects of SharePoint Server 2013 behave differently when they use multi-tenancy, and therefore require careful consideration. These aspects vary between different organizations based on service levels and operational capabilities. Hosting partners should guarantee that satisfactory planning for the required additional customization, either with custom solutions or Microsoft PowerShell is in place as soon as possible, to meet customer expectations. Examples in this space include: 
+The collection of features and services that enable multi-tenancy with SharePoint Server 2013 comprise a base platform that is typically extended to provide the end-to-end service offering by hosting organizations. Many key operational service management aspects of SharePoint Server 2013 behave differently when they use multi-tenancy, and therefore require careful consideration. These aspects vary between different organizations based on service levels and operational capabilities. Hosting partners should guarantee that satisfactory planning for the required more customization, either with custom solutions or Microsoft PowerShell is in place as soon as possible, to meet customer expectations. Examples in this space include: 
   
 - Initial tenant provisioning
     
@@ -189,10 +189,10 @@ The service applications available in a SharePoint Server 2013 on-premises envir
 |Visio Graphics  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
 |Excel Calculation  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Performance Point  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|Yammer  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Viva Engage  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |SharePoint Integration for OneDrive  <br/> |No  <br/> |No  <br/> |No  <br/> |
    
 > [!NOTE]
 > The column, **Supported for Multi-Tenancy**, means you can't configure it in multi-tenancy. You will get an error message. 
   
-Along with the previous considerations, tenant provisioning and de-provisioning processes and scripts have to account for each service application that stores tenant data. For some service applications, all the management of tenant data is moved to elements of the tenant administration site, whereas with some, a combination of farm-level and tenant-level administration is required.
+Along with the previous considerations, tenant provisioning and deprovisioning processes and scripts have to account for each service application that stores tenant data. For some service applications, all the management of tenant data is moved to elements of the tenant administration site, whereas with some, a combination of farm-level and tenant-level administration is required.

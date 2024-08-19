@@ -1,20 +1,21 @@
 ---
-ms.date: 03/21/2023
+ms.date: 03/21/2024    
 title: "Manage sites in the SharePoint admin center"
 ms.reviewer: daminasy
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
-ms.topic: article
+ms.topic: how-to
 ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
 - m365initiative-spsitemanagement
+- essentials-manage
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -23,18 +24,18 @@ search.appverid:
 - MET150
 - BSA160
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
-description: "In this article, you'll learn about tasks you can perform on the Active sites page of the SharePoint admin center."
+description: "In this article, you learn about tasks you can perform on the Active sites page of the SharePoint admin center, such as view site details, view and change site membership, and change a site's hub association."
 ---
 
 # Manage sites in the SharePoint admin center
 
-The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, channel sites, and sites that belong to Microsoft 365 groups. It also lets you [sort and filter sites](customize-admin-center-site-list.md), search for a site, and create new sites.
+The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, channel sites, and sites that belong to Microsoft 365 groups. It also lets you [sort and filter sites](customize-admin-center-site-list.md), search for a site, and create new sites. The Active sites page lists the root website for each site collection.
   
-![Active sites page](media/active-sites-page.png)
-  
-The Active sites page lists the root website for each site collection. Subsites and the following sites aren't included.
+![Screenshot of Active sites page](media/sharepoint-admin-center-active-site.png)
 
-- Sites with these URLs:
+[!INCLUDE [sharepoint-setup-guide-tip.md](includes/sharepoint-setup-guide-tip.md)]
+
+- Sites with these URLs aren't included for the Active sites page:
   
    |**URL**|**Description**|
    |:-----|:-----|
@@ -44,7 +45,7 @@ The Active sites page lists the root website for each site collection. Subsites 
    |/search |Search site |
    |/personal/ |OneDrive sites |
 
-- Sites with these templates:
+- Sites with these templates aren't included for the Active sites page:
 
    |**ID**|**Name**|**Description**|
    |:-----|:-----|:-----|
@@ -61,6 +62,8 @@ The Active sites page lists the root website for each site collection. Subsites 
    |16 |TENANTADMIN# |Tenant admin site |
    |301 |REDIRECTSITE# |Redirect site |
    |70 |CSPCONTAINER# |CSP container |
+
+Note that you may see differences between the sites in the active sites list and those listed in the [SharePoint site usage report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) because the site templates and URLs listed above are included in the SharePoint site usage report.
 
 For more info about tasks on the Active sites page, see:
 
@@ -80,7 +83,7 @@ For all site types except channel sites, you can add or remove site admins and c
 2. In the left column, select a site. 
     
 3. Select **Membership** on the command bar to open the details panel to update the permissions of the members.
-   :::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of membership tab in details panel":::
+   :::image type="content" source="media/add-remove-site-members.png" alt-text="Screenshot of membership tab in details panel":::
 
 4. Add or remove people or change their role, and then select **Save**.
     
@@ -98,13 +101,13 @@ For all site types except channel sites, you can add or remove site admins and c
 
 For more info about a site, select the site name or click anywhere on the site row except on the URL column to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
-![The General tab of the details panel](media/general-tab-details-panel.png)
-  
+![Screenshot of the General tab of the details panel](media/site-details.png)
+
 To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
 To view site admins, owners, members, and visitors, select the **Membership** tab.
 
-:::image type="content" source="media/membership-details-panel.png" alt-text="Screenshot of Membership tab selection on details panel":::
+:::image type="content" source="media/view-site-members.png" alt-text="Screenshot of Membership tab selection on details panel":::
   
 For info about the roles in this panel, see [About site permissions](site-permissions.md).
 

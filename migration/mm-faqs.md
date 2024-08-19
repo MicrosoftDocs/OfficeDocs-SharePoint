@@ -2,20 +2,20 @@
 ms.date: 10/31/2019
 title: "Migration Manager FAQs"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migration Manager FAQs
@@ -106,6 +106,10 @@ Answer:  The % complete indicates the progress of the overall task migration, in
 
 **Question:**  What is the maximum file size that can be migrated?
 Answer: In cloud scenarios, the limit is 15 GB. For file share migrations, a file size of 250 GB is supported. See below.
+
+**Question:**  In file share migrations, what is the content type of a migrated document?
+Answer: In file share migrations, files are transferred to the SharePoint document library with the default "Document" content type. This process doesn't take into account any content type configurations that may be set on the library.
+
 
 |Scenario|Maximum file size migrated|
 |:-----|:-----|

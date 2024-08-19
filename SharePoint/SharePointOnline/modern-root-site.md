@@ -1,10 +1,10 @@
 ---
-ms.date: 07/18/2019
+ms.date: 05/02/2024
 title: "Modernize your root site"
 ms.reviewer: waynewin
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -40,10 +40,12 @@ When Microsoft SharePoint is set up for an organization, a root (or top-level) s
 
 ## What's the root site?
 
-The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, the default name is "Communication site," and the owner is Company Administrator (all Global Administrators in the organization). The root site can't be connected to a Microsoft 365 group. 
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, the default name is "Communication site," and the owner is Company Administrator (all Global Administrators in the organization). The root site can't be connected to a Microsoft 365 group.
 
 > [!WARNING]
-> The root (top-level) site for your organization can't be deleted. If you're a Global Administrator or SharePoint Administrator in Microsoft 365, you can replace the root site with a different site.
+> The root (top-level) site for your organization can't be deleted. If you're a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can replace the root site with a different site.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Replace your root site
 
@@ -75,8 +77,8 @@ We recommend replacing the root site at a time when site usage is low.
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+   > [!NOTE]
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. In the upper right, make sure the **All sites** view is selected.
 
@@ -101,5 +103,7 @@ We recommend replacing the root site at a time when site usage is low.
 9. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
 
 > [!NOTE]
-> For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.
+> For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).
+>
+> Project Server sites might need to be validated to make sure they're still associated correctly.
 

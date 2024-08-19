@@ -1,0 +1,334 @@
+Items:
+- name: Migrate to Microsoft 365
+  href: migrate-to-sharepoint-online.md
+  items:
+  - name: What's new in Migration Manager
+    href: mm-whats-new.md
+  - name: What's new in SPMT
+    href: new-and-improved-features-in-the-sharepoint-migration-tool.md
+  - name: Migration solutions posters
+    href: migration-solution-posters.md
+  - name: Solutions
+    items:
+    - name: Migrate file shares
+      items:
+      - name: Overview
+        href: mm-get-started.md
+      - name: Step 1—Set up Migration Manager agents
+        href: mm-setup-clients.md
+      - name: Step 2—Scan sources and assess
+        href: mm-fileshare-scan-assess.md
+      - name: Step 3—Copy to Migrations
+        href: mm-fileshare-copy-to-migrations.md
+    - name: Migrate from Box
+      items:
+      - name: Overview
+        href: mm-box-overview.md
+      - name: Step 1—Connect to Box
+        href: mm-box-step1-connect.md
+      - name: Step 2—Scan and assess
+        href: mm-box-step2-scan-assess.md
+      - name: Step 3—Copy to Migrations list
+        href: mm-box-step3-copy-to-migrations.md
+      - name: Step 4—Review destination paths
+        href: mm-box-step4-review-destinations.md
+      - name: Step 5—Map identities
+        href: mm-box-step5-map-identities.md
+      - name: Step 6—Migrate and Monitor
+        href: mm-box-step6-migrate-monitor.md
+    - name: Migrate from Google Workspace
+      items:
+      - name: Overview
+        href: mm-google-overview.md
+      - name: Step 1—Connect to Google Workspace
+        href: mm-google-step1-connect.md
+      - name: Step 2—Scan and assess
+        href: mm-google-step2-scan-assess.md
+      - name: Step 3—Copy to Migrations list
+        href: mm-google-step3-copy-to-migrations.md
+      - name: Step 4—Review destination paths
+        href: mm-google-step4-review-destinations.md
+      - name: Step 5—Map identities
+        href: mm-google-step5-map-identities.md
+      - name: Step 6—Migrate and Monitor
+        href: mm-google-step6-migrate-monitor.md
+    - name: Migrate from Dropbox
+      items:
+      - name: Overview
+        href: mm-Dropbox-overview.md
+      - name: Step 1—Connect to Dropbox
+        href: mm-Dropbox-step1-connect.md
+      - name: Step 2—Scan and assess
+        href: mm-Dropbox-step2-scan-assess.md
+      - name: Step 3—Copy to Migrations list
+        href: mm-Dropbox-step3-copy-to-migrations.md
+      - name: Step 4—Review destination paths
+        href: mm-Dropbox-step4-review-destinations.md
+      - name: Step 5—Map identities
+        href: mm-Dropbox-step5-map-identities.md
+      - name: Step 6—Migrate and Monitor
+        href: mm-Dropbox-step6-migrate-monitor.md
+    - name: Migrate from Egnyte
+      items:
+      - name: Overview
+        href: mm-egnyte-overview.md
+      - name: Step 1—Connect to Egnyte
+        href: mm-egnyte-step1-connect.md
+      - name: Step 2—Scan and assess
+        href: mm-egnyte-step2-scan-assess.md
+      - name: Step 3—Copy to Migrations list
+        href: mm-egnyte-step3-copy-to-migrations.md
+      - name: Step 4—Review destination paths
+        href: mm-egnyte-step4-review-destinations.md
+      - name: Step 5—Map identities
+        href: mm-egnyte-step5-map-identities.md
+      - name: Step 6—Migrate and Monitor
+        href: mm-egnyte-step6-migrate-monitor.md
+    - name: Migrate SharePoint Server sites and content with SPMT
+      items:
+      - name: Overview
+        href: introducing-the-sharepoint-migration-tool.md
+      - name: Step 1—Install SPMT
+        href: how-to-use-the-sharepoint-migration-tool.md
+      - name: Step 2—Scan and assess (for site migration only)
+        href: spmt-scan.md
+      - name: Step 3—Create a migration task
+        href: spmt-create-task.md
+      - name: Step 4—Monitor and report
+        href: using-the-sharepoint-migration-tool-reports.md
+    - name: Migrate SharePoint Server workflows with SPMT
+      items:
+      - name: Overview
+        href: spmt-workflow-overview.md
+      - name: Step 1—Configure endpoints and Power Automate
+        href: spmt-workflow-step1.md
+      - name: Step 2—Migrate workflows
+        href: spmt-workflow-step2.md
+      - name: Step 3—Activate workflows
+        href: spmt-workflow-step3.md
+      - name: Sharepoint Designer workflows
+        href: spmt-workflow-migration-spd.md
+      - name: SharePoint Server 2010 OOTB migrated workflows
+        href: spmt-workflow-migrated-flows.md
+      - name: Workflow migration reports and error codes
+        href: spmt-workflow-report-and-error-codes.md
+  - name: Migration Manager Reference
+    items:
+    - name: File size limitations
+      href: mm-file-size-limitations.md
+    - name: Migration Admin role
+      href: mm-migration-admin-role.md
+    - name: Unsupported files
+      href: mm-unsupported-files.md
+    - name: Project settings
+      href: mm-project-settings.md
+      items:
+      - name: Permissions
+        href: mm-project-settings-permissions.md
+      - name: Google sheet scan settings
+        href: mm-google-sheet-scan.md
+    - name: Migration time estimator
+      href: mm-time-estimator.md
+    - name: Reports and codes for cloud migrations
+      href: mm-cloud-reports.md
+    - name: File share Reference
+      items:
+      - name: Prerequisites and endpoints
+        href: mm-prerequisites.md
+      - name: Reports and error codes for file share migrations
+        href: mm-reports.md
+      - name: Settings
+        href: mm-settings.md
+      - name: Create an Agent group
+        href: mm-agent-targeting.md
+      - name: Government cloud configuration
+        href: mm-gov-cloud.md
+      - name: How Migration Manager works
+        href: mm-how-it-works.md
+      - name: Troubleshooting
+        href: mm-troubleshoot.md
+      - name: Upload file share sources to scan using a CSV file
+        href: mm-fileshare-source-scan-csv-upload.md
+      - name: Format a CSV or JSON file for bulk upload
+        href: mm-bulk-upload-format-csv-json.md
+      - name: Create a user mapping file
+        href: mm-user-mapping-file.md
+      - name: Performance dashboard
+        href: mm-performance-dashboard.md
+      - name: FAQs
+        href: mm-faqs.md
+      - name: How to reinstall a Migration agent
+        href: mm-reinstall-agent.md
+    - name: Box Reference
+      items:
+      - name: FAQs
+        href: mm-faqs-box.md
+      - name: Format a CSV file for bulk upload
+        href: mm-box-bulk-upload-source-paths-csv.md
+      - name: Troubleshooting
+        href: mm-box-troubleshooting.md
+    - name: Google  Reference
+      items:
+      - name: FAQs
+        href: mm-faqs-google.md
+      - name: Bulk upload Google drives using a CSV file
+        href: mm-google-bulk-upload-source-paths-csv.md
+    - name: Dropbox  Reference
+      items:
+      - name: FAQs
+        href: mm-faqs-dropbox.md
+      - name: Bulk upload Dropbox accounts using a CSV file
+        href: mm-dropbox-bulk-upload-source-paths-csv.md
+    - name: Egnyte  Reference
+      items:
+      - name: FAQs
+        href: mm-faqs-egnyte.md
+      - name: Bulk upload Egnyte folders using a CSV file
+        href: mm-egnyte-bulk-upload.md
+    - name: Stream Reference
+      items:
+      - name: Bulk upload Stream source paths into Migration Manager
+        href: mm-stream-csv.md
+  - name: SPMT Reference
+    items:
+    - name: SPMT FAQs
+      href: spmt-faqs.md
+    - name: Scan and assess a SharePoint Server site with SPMT
+      href: spmt-scan.md
+    - name: SharePoint Migration Tool (SPMT) scan assessment error codes
+      href: spmt-scan-risk-codes.md
+    - name: File size limitations
+      href: mm-file-size-limitations.md
+    - name: Settings and prerequisites
+      items:
+      - name: Settings
+        href: spmt-settings.md
+      - name: Prerequisites and endpoints
+        href: spmt-prerequisites.md
+      - name: File and folder permissions
+        href: understanding-permissions-when-migrating.md
+    - name: Supported features
+      items:
+      - name: General features
+        href: what-is-supported-spmt.md
+      - name: List templates
+        href: sharepoint-migration-supported-list-templates.md
+      - name: Site features
+        href: spmt-supported-site-features.md
+      - name: SharePoint web parts
+        href: spmt-supported-webparts.md
+    - name: How to
+      items:
+      - name: Migrate OneNote notebooks
+        href: migrate-onenote-spmt.md
+      - name: Bulk upload migration tasks with CSV or JSON file
+        href: how-to-format-your-csv-file-for-data-content-migration.md
+      - name: Create user mapping files
+        href: create-a-user-mapping-file-for-data-content-migration.md
+      - name: How the SharePoint Migration Tool works
+        href: how-the-sharepoint-migration-tool-works.md
+    - name: Reports
+      href: using-the-sharepoint-migration-tool-reports.md
+    - name: Troubleshooting
+      items:
+      - name: Troubleshooting installation issues
+        href: spmt-install-issues.md
+      - name: Troubleshooting common issues and errors
+        href: troubleshooting-common-spmt-issues.md
+  - name: SharePoint Server Migration Assessment Tool (SMAT)
+    items:
+    - name: Overview
+      href: overview-of-the-sharepoint-migration-assessment-tool.md
+    - name: Scan reports
+      href: sharepoint-migration-assessment-toolscan-reports-roadmap.md
+      items:
+      - name: Alerts
+        href: migration-assessment-scan-alerts.md
+      - name: Apps
+        href: migration-assessment-scan-apps.md
+      - name: BCS
+        href: migration-assessment-scan-bcs.md
+      - name: Browser File Handling
+        href: migration-assessment-scan-browser-file-handling.md
+      - name: Checked-out files
+        href: migration-assessment-scan-checked-out-files.md
+      - name: Custom permission level
+        href: migration-assessment-scan-custom-permission-level.md
+      - name: Custom Profile Property Mappings
+        href: migration-assessment-scan-custom-profile-property-mappings.md
+      - name: Customized Pages
+        href: migration-assessment-scan-customized-pages.md
+      - name: Customized Profile Pages
+        href: migration-assessment-scan-customized-profile-pages.md
+      - name: Email Enabled Lists
+        href: migration-assessment-scan-email-enabled-lists.md
+      - name: External List
+        href: migration-assessment-scan-external-list.md
+      - name: File Versions
+        href: migration-assessment-scan-file-versions.md
+      - name: Full Trust Component Results
+        href: migration-assessment-scan-full-trust-component-results.md
+      - name: InfoPath
+        href: migration-assessment-scan-infopath.md
+      - name: IRM Enabled Lists
+        href: migration-assessment-scan-irm-enabled-lists.md
+      - name: Large Excel Files
+        href: migration-assessment-scan-large-excel-files.md
+      - name: Large List Views
+        href: migration-assessment-scan-large-list-views.md
+      - name: Large Lists
+        href: migration-assessment-scan-large-lists.md
+      - name: Large Sites
+        href: migration-assessment-scan-large-sites.md
+      - name: List Items with Audience Targeting
+        href: migration-assessment-scan-list-items-audience-targeting.md
+      - name: Locked Sites
+        href: migration-assessment-scan-locked-sites.md
+      - name: Long OneDrive URLs
+        href: migration-assessment-scan-long-onedrive-urls.md
+      - name: Managed Metadata Columns
+        href: migration-assessment-scan-managed-metadata-columns.md
+      - name: Main Pages
+        href: migration-assessment-scan-master-pages.md
+      - name: Publishing Pages
+        href: migration-assessment-scanpublishing-pages.md
+      - name: Publishing Sites
+        href: migration-assessment-scan-publishing-sites.md
+      - name: Sandbox Solution
+        href: migration-assessment-scan-sandbox-solution.md
+      - name: Secure Store
+        href: migration-assessment-scan-secure-store.md
+      - name: Site Notebook
+        href: migration-assessment-scan-site-notebook.md
+      - name: Site Template Language
+        href: migration-assessment-scan-site-template-language.md
+      - name: Unsupported Site Templates
+        href: migration-assessment-scan-unsupported-site-templates.md
+      - name: Web Application Policies
+        href: migration-assessment-scan-web-application-policies.md
+      - name: Workflow Associations 2010
+        href: migration-assessment-scan-workflow-associations-2010.md
+      - name: Workflow Associations 2013
+        href: migration-assessment-scan-workflow-associations-2013.md
+      - name: Workflow Running Solutions 2010
+        href: migration-assessment-scan-workflow-running-solutions-2010.md
+      - name: Workflow Running Solutions 2013
+        href: migration-assessment-scan-workflow-running-solutions-2013.md
+  - name: Migration Scenario Guides
+    items:
+    - name: Migrating file shares to OneDrive, Teams, and SharePoint
+      href: fileshare-to-odsp-migration-guide.md
+    - name: MySites to OneDrive Migration Guide
+      href: mysites-to-onedrive-migration-guide.md
+    - name: SharePoint Server team sites Migration Guide
+      href: sp-teams-sites-migration-guide.md
+  - name: Migrate to Microsoft 365 using PowerShell
+    href: overview-SPMT-PS-cmdlets.md
+  - name: Migrate to Microsoft 365 using the Azure Data Box
+    href: how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md
+  - name: Migration performance
+    items:
+    - name: General migration guidance
+      href: sharepoint-online-and-onedrive-migration-speed.md
+    - name: Performance guidance for SPMT & Migration Manager
+      href: spmt-performance-guidance.md

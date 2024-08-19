@@ -1,11 +1,11 @@
 ---
 title: "Enable content on a site to be searchable"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
-ms.date: 6/29/2018
+ms.date: 5/22/2024
 audience: End User
 f1.keywords:
 - NOCSH
@@ -124,6 +124,8 @@ As a site owner you can control whether the content in specific columns in lists
 1. On the site that contains the list or library, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Searchable columns**.
+
+   The option is only visible for sites with the classic [publishing feature](publishing-sites-classic-to-modern-experience.md) enabled. If the option is not visible navigate directly to `<Site URL>>/_layouts/15/NoCrawlSettings.aspx`.
     
 3. In the **Excluded Columns from Search Indexing** section, under **Excluded**, check the box next to the Column Name for the column you want to exclude in search results.
     

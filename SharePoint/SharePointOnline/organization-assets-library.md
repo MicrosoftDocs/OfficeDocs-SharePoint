@@ -1,10 +1,10 @@
 ---
-ms.date: 05/22/2019
+ms.date: 03/28/2024
 title: "Create an organization assets library"
-ms.reviewer: niwoon
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.reviewer: cathed
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -59,7 +59,10 @@ If your organization needs to store and manage files for all your users to use, 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
 
-2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Microsoft 365 Group. Add "Everyone except external users" as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
+2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Microsoft 365 Group.
+
+    >[!NOTE]
+    > Adding "Everyone except external users" as visitors is required. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
 
 3. Upload the images or Office templates to a document library.
 
@@ -77,7 +80,7 @@ If your organization needs to store and manage files for all your users to use, 
     ```
 
    - *LibraryURL* is the absolute URL of the library to be designated as a central location for organization assets.
-   - *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site.
+   - *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the organization's name.
    - *OrgAssetType* is either `ImageDocumentLibrary` or `OfficeTemplateLibrary`. If you don't specify the *OrgAssetType*, the library will be designated as an image library by default.
    - If you don't specify the *CdnType*, it will enable a private CDN by default.
 

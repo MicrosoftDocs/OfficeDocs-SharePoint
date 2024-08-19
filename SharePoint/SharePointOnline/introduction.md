@@ -1,10 +1,10 @@
 ---
-ms.date: 06/05/2023
+ms.date: 03/28/2024
 title: Introduction to SharePoint and OneDrive in Microsoft 365 for administrators
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- essentials-overview
 ms.custom:
 - seo-marvel-apr2020
 - intro-overview

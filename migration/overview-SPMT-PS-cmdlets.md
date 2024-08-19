@@ -1,17 +1,16 @@
 ---
-ms.date: 06/19/2018
+ms.date: 07/10/2023
 title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
 audience:  ITPro
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 recommendations: true
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
-ms.subservice: sharepoint-migration
+ms.service: microsoft-365-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -20,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint in Microsoft 365."
+description: "Learn how the PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine let you migrate to SharePoint in Microsoft 365."
 ---
 
 # Migrate to SharePoint using PowerShell
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](/powershell/spmt/intro).
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint migration, see the [Microsoft SharePoint Migration Tool cmdlet reference](/powershell/spmt/intro).
 
 The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md).
 
@@ -34,7 +33,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
   
 ## System requirements
 
-**Recommended requirements for best performance**
+### Recommended requirements for best performance*
 
 | Description | Recommendation |
 |:-----|:-----|
@@ -45,9 +44,9 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
 
 > [!IMPORTANT]
-> PowerShell 5.0 and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters.
+> PowerShell 5.0x and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters.
 
-**Minimum requirements (expect slow performance)**
+### Minimum requirements (expect slow performance)
 
 | Description | Minimum requirement |
 |:-----|:-----|
@@ -57,7 +56,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 |Network card |High-speed Internet connection |
 |Operating system |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2 |
 |Microsoft Visual C++ 2015 Redistributable |Required for OneNote migration.|
-|PowerShell |PowerShell 5.0 or higher required to support migration of file paths of up to 400 characters.|
+|PowerShell |PowerShell 5.x required to support migration of file paths of up to 400 characters. PowerShell 6.0 or higher isn't supported.|
 
 ## Before you begin
 
@@ -83,7 +82,7 @@ After a session is registered, you can add a task to the session and start migra
 ### Add a migration task
 
 - **[Add-SPMTTask](/powershell/module/spmt/Add-SPMTTask)**<br>
-Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
+Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks aren't allowed.
   
 ### Remove a task
 
@@ -98,10 +97,10 @@ This cmdlet will start the registered SPMT migration.
 ### Return the object of current session
 
 - **[Get-SPMTMigration](/powershell/module/spmt/Get-SPMTMigration)**<br>
-Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
-     - Count of scanned files
-     - Count of migrated files
-    -  Any migration error messages
+Return the object of the current session. This cmdlet includes the status of current tasks and current session level settings. Current task status includes:
+  - Count of scanned files
+  - Count of migrated files
+  - Any migration error messages
 
 ### Stop your current migration
 
@@ -120,7 +119,7 @@ Use this cmdlet to delete the migration session.
 
 ## Sample Scenarios
 
-**Example 1:** IT admin adds a SharePoint on-prem task and starts migration in the background.
+**Example 1:** IT admin adds a SharePoint on-premises task and starts migration in the background.
 
 ```powershell
 #Define SharePoint 2013 data source#
@@ -178,6 +177,7 @@ Two migration tasks are defined in the file of spmt.csv.
 D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test
 C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
 ```
+
 Code snippets for bulk migration by loading one JSON file:
 
 ```powershell
@@ -248,13 +248,14 @@ Three migration tasks are defined in the file of spmt.json.
 
 These samples show how to display the progress of your migration project. **Get-SPMTMigration** returns the object of current session. It includes current tasks status and current session level settings.
 The status of current tasks includes:
-- Count of scanned files
-- Count of filtered out files
-- Count of migrated files
-- Count of failed files
-- Migration progress of current task (0 ~ 100)
-- Current task status
-- Migration error message if there is any.
+
+- A count of scanned files.
+- A count of filtered out files.
+- A count of migrated files.
+- A count of failed files.
+- The migration progress of the current task (0 ~ 100).
+- The current task status.
+- Migration error messages, if there are any.
 
 ```powershell
 
@@ -279,5 +280,3 @@ Write-Host $session.Status
 } 
  
 ```
-
-

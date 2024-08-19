@@ -2,9 +2,9 @@
 ms.date: 08/21/2020
 title: Guided walkthrough - Creating a Team site
 ms.reviewer: 
-ms.author: matteva
-author: MattEEvans
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -18,20 +18,20 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to create a SharePoint Team site"
+description: "Learn how to create a SharePoint Team site."
 ---
 
 # Guided walkthrough: Creating a Team site
 
 In this article, we show you elements of an example SharePoint Team site to inspire you, and help you learn how to create similar sites for your own organization.
 
-Use a team site when you want to collaborate with other members of your team or with others on a specific project. With a team site, typically all or most members can contribute content to the site and the information is limited to only the members of the team or project and specific stakeholders. Additionally, team sites are connected to [groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and a [Teams channel](https://support.microsoft.com/office/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d). This makes it easy for your team to have group permissions, as well as a Teams space to chat, meet, and share files.
+Use a team site when you want to collaborate with other members of your team or with others on a specific project. With a team site, typically all or most members can contribute content to the site and the information is limited to only the members of the team or project and specific stakeholders. Additionally, team sites are connected to [groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and a [Teams channel](https://support.microsoft.com/office/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d). This makes it easy for your team to have group permissions, and a Teams space to chat, meet, and share files.
 
 First, if you haven't already created a Team site, check out [Create a team site in SharePoint](https://support.microsoft.com/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 
 If you need to learn how to edit and publish the page on your site, check out the section [Manage sections and web parts](#manage-sections-and-web-parts) in this article.
 
-Once you've created your site and know how to edit pages, you can use the guidance below to add the elements shown.
+Once you've created your site and know how to edit pages, you can use the following guidance to add the elements shown.
 
 ## Example Team site
 
@@ -59,13 +59,13 @@ Once you've created your site and know how to edit pages, you can use the guidan
 
 ## Manage sections and web parts
 
-Sections make up your page, and are where you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
+Sections make up your page, and are where you place one or more web parts. When you edit the page, each section shows controls to edit the layout, move, or delete the sections.
 
 Start editing by clicking **Edit** on the top right of the page.
 
 ![Image of the edit button at the top of the page](media/gw-leadership/gw-9.png)
 
-The + symbol before or after a section will add a section using one of several layouts.
+The + symbol before or after a section adds a section using one of several layouts.
 
 ![Image of the available section layouts](media/gw-team/gw-team-2.png)
 
@@ -97,7 +97,7 @@ Select the **...** on the right side of each menu item to **Edit**, **Move**, or
 
 ![Image of the menu options](media/gw-team/gw-team-5.png)
 
-While editing, your drafts can either be saved for later or discarded. When your page updates are ready, select **Publish** to make them visible to site viewers.
+While you're editing, your drafts can either be saved for later or discarded. When your page updates are ready, select **Publish** to make them visible to site viewers.
 
 ![Image of the Publish button](media/gw-leadership/gw-9.png)
 
@@ -115,7 +115,7 @@ The Quick links web part offers several easy-to-use menu formats for listing lin
 
 ![Image of the Quick links web part](media/gw-team/gw-team-7.png)
 
-For more details on using the Quick links web part, see [Use the Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
+For more information on using the Quick links web part, see [Use the Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 
 ### Group calendar
 
@@ -131,7 +131,7 @@ Display site content including documents where the team can easily find it. You 
 
 ![Image of the List web part](media/gw-team/gw-team-9.png)
 
-For more details on using the List web part, see [Using the List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537).
+For more information on using the List web part, see [Using the List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537).
 
 [Back to top](#example-team-site)
 
@@ -141,7 +141,7 @@ Team sites allow you to show news for the entire team or filter news tailored to
 
 ![Image of the News web part with layout options](media/gw-team/gw-team-10.png)
 
-For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
+For more information on using the News web part, see [Use the News web part on a SharePoint page.](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
 
 [Back to top](#example-team-site)
 
@@ -161,7 +161,7 @@ In this example, the Hero web part is in a full-width section.
 
 ![Image of the Hero web part on a page](media/gw-team/gw-team-11.png)
 
-For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)
+For more information on using the Hero web part, see [Use the Hero web part.](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)
 
 [Back to top](#example-team-site)
 
@@ -171,7 +171,7 @@ If you use [Microsoft Planner](https://support.office.com/planner) to manage you
 
 ![Image of the Planner web part on a page](media/gw-team/gw-team-12.png)
 
-For more details on using the Planner web part, see [Use the planner web part](https://support.microsoft.com/office/use-the-planner-web-part-a1e4ada8-8817-4e57-8e65-1bf546808843)
+For more information on using the Planner web part, see [Use the planner web part.](https://support.microsoft.com/office/use-the-planner-web-part-a1e4ada8-8817-4e57-8e65-1bf546808843)
 
 [Back to top](#example-team-site)
 
@@ -183,7 +183,7 @@ In this example, the web part is in a one-column section.
 
 ![Image of the Site activity web part on a page](media/gw-team/gw-team-13.png)
 
-For more details on using the Site activity web part, see [Use the site activity web part](https://support.microsoft.com/office/use-the-site-activity-web-part-1fa91401-ac36-42b6-beba-bb8469d6cbfa)
+For more information on using the Site activity web part, see [Use the site activity web part.](https://support.microsoft.com/office/use-the-site-activity-web-part-1fa91401-ac36-42b6-beba-bb8469d6cbfa)
 
 [Back to top](#example-team-site)
 

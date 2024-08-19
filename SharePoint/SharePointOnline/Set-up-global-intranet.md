@@ -2,9 +2,9 @@
 ms.date: 11/10/2020
 title: "Planning considerations for a global intranet"
 ms.reviewer:
-ms.author: loreenl
-author: LoreenLa
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -27,7 +27,7 @@ description: Learn about setting up a SharePoint intranet for a global organizat
 ---
 # Considerations when planning for a global intranet
 
-If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions. You may want to target content to team members in certain regions or countries. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries.
+If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions. You may want to target content to team members in certain countries/regions. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries/regions.
 Here are options to consider which can be used independently or in combination to meet the needs of your global intranet and create the best experience for your users.
 
 [Hub sites](#hub-sites)
@@ -46,7 +46,7 @@ The advantage to using hub sites is that they provide a flat architecture that i
 
 ![Hub site concept](media\HubSiteExample.png)
 
-If you have subsidiaries in different regions that have thei\nr own branding and navigation, an option for you is to create a hub site for each region.
+If you have subsidiaries in different regions that have their own branding and navigation, an option for you is to create a hub site for each region.
 
 [Learn how to plan for hub sites](./planning-hub-sites.md)
 
@@ -87,7 +87,7 @@ For example, you might want to prominently display news about a sales meeting in
 
 ## Microsoft 365 Multi-Geo
 
-Some countries have laws requiring that user data be stored within that country. To accommodate these requirements, you can set up a Microsoft 365 Multi-Geo tenant. With a Multi-Geo tenant, your tenant may be provisioned in one country, but user data for SharePoint, OneDrive, and Exchange can be stored in other countries. For example, you may have 5,000 employees in Europe and 8,000 employees in North America. All the users are working within the same tenant, but data for the 5,000 employees are stored in Europe while data for the 8,000 employees is stored in North America. This allows for seamless collaboration across your organization while still meeting data residency requirements.
+Some countries/regions have laws requiring that user data be stored within that country. To accommodate these requirements, you can set up a Microsoft 365 Multi-Geo tenant. With a Multi-Geo tenant, your tenant may be provisioned in one country, but user data for SharePoint, OneDrive, and Exchange can be stored in other countries/regions. For example, you may have 5,000 employees in Europe and 8,000 employees in North America. All the users are working within the same tenant, but data for the 5,000 employees are stored in Europe while data for the 8,000 employees is stored in North America. This allows for seamless collaboration across your organization while still meeting data residency requirements.
 
 After Multi-Geo is enabled for your tenant, you can set up and manage geo locations on the <a href="https://go.microsoft.com/fwlink/p/?linkid=2185076" target="_blank">Geo locations page</a> in the SharePoint admin center.
 

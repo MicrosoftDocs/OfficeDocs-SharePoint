@@ -26,6 +26,7 @@ Articles contain an overview of new and improved product features, updates, depr
   
 |**Content**|**Description**|
 |:-----|:-----|
+|[New and improved features in SharePoint Server Subscription Edition Version 24H1](new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 24H1.  <br/> |
 |[New and improved features in SharePoint Server Subscription edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server Subscription edition.  <br/> |
 |[What's deprecated or removed from SharePoint Server Subscription edition](what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server Subscription edition.  <br/> |
 |[New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2019.  <br/> |
@@ -34,6 +35,8 @@ Articles contain an overview of new and improved product features, updates, depr
 |[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-november-2016.md) <br/> |Learn about the new features that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |[New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)](new-feature-in-feature-pack-2.md) <br/> |Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016(Feature Pack 2).  <br/> |
 |[What's deprecated or removed from SharePoint Server 2016](what-s-deprecated-or-removed-from-sharepoint-server-2016.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server 2016.  <br/> |
+
+
    
 ## See also
 
