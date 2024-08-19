@@ -50,16 +50,16 @@ To enable site-level access restriction for your organization in SharePoint admi
 
    :::image type="content" source="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png" alt-text="screenshot of site access restriction in sharepoint admin center dashboard." lightbox="media/rac-spac/1-RAC-SPAC-dashboard-feb-2024.png":::
 
-   To enable site-level access restriction for your organization using PowerShell, run the following command:
-    
-   ```Powershell
-   Set-SPOTenant -EnableRestrictedAccessControl $true
-   ```
-    
-   It might take up to one hour for command to take effect.
-    
-   > [!NOTE]
-   > For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.
+To enable site-level access restriction for your organization using PowerShell, run the following command:
+
+```Powershell
+Set-SPOTenant -EnableRestrictedAccessControl $true
+```
+
+It might take up to one hour for command to take effect.
+
+> [!NOTE]
+> For Microsoft 365 Multi-Geo users, run this command separately for each desired geo-location.
 
 ## Restrict access to group-connected sites (Microsoft 365 Groups and Teams)
 
