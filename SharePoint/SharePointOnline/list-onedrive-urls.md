@@ -50,7 +50,7 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected. We reco
   
 ## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
-1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint Administrator, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
+1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint Administrator, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization. For additional roles with access see [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide#who-can-see-reports))
 
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), browse to **Reports** \> **Usage**. Under  **OneDrive files**, select **View more**.
