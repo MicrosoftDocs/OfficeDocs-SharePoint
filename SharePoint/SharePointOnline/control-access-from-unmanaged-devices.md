@@ -33,8 +33,6 @@ As at least a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsof
 
 - All sites in the organization or only some sites.
 
-[!INCLUDE [sharepoint-setup-guide-tip.md](includes/sharepoint-setup-guide-tip.md)]
-
 Blocking access helps provide security but comes at the cost of usability and productivity. When access is blocked, users will see the following error.
 
 ![The experience when access is blocked](media/unmanaged-device-access-blocked.png)
