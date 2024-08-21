@@ -37,9 +37,9 @@ The site lifecycle management feature from Microsoft SharePoint Premium - ShareP
 
 :::image type="content" source="media/site-lifecycle-management/1-inactive-site-policy-dashboard.png" alt-text="screenshot of site lifecycle management dashboard" lightbox="media/site-lifecycle-management/1-inactive-site-policy-dashboard.png":::
 
-You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the parameters you've set. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
+You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the parameters you set. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
 
-The active policy runs monthly and generates reports, sending notifications to the respective owners to confirm the inactive site status. If the active policy fails during a particular month, it will run again on the next schedule. The active policy will take an enforcement action on those inactive sites that have not been certified by the site owner or admin. However this enforcement will take place only if the tenant admin has configured the policy in that manner.
+The active policy runs monthly and generates reports, sending notifications to the respective owners to confirm the inactive site status. If the active policy fails during a particular month, it will run again on the next schedule. The active policy takes an enforcement action on those inactive sites that haven't been certified by the site owner or admin. However this enforcement takes place only if the tenant admin configures the policy in that manner.
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ To access and use site lifecycle management, your organization must have the [Mi
 1. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png":::
 
 1. Beginning August 2024, you can configure the policy in the following ways:
-:::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+:::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="Screenshot of site lifecycle management set policy scope filled out." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
     - Choose to send emails to site owners/admins
     - Choose to take the following enforcement actions when there's no response from site owners or site admins after 3 notifications:
         - Mark the inactive site as read-only
@@ -65,7 +65,7 @@ To access and use site lifecycle management, your organization must have the [Mi
             >
 > Microsoft 365 Archive must be enabled from the Microsoft Admin Center before archival is available. To learn more about Microsoft 365 Archive, see [Overview of Microsoft 365 Archive](/microsoft-365/archive/archive-overview).
 
-1. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
+1. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="Screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
 
 1. Select **Done**. Your policy is now created and can be viewed and managed from the Site lifecycle management dashboard.
 
@@ -77,17 +77,17 @@ Site owners are notified monthly for three months and then no notifications are 
 
 #### Automated enforcement actions
 
-You or the tenant admin can configure the policy to take an automated enforcement action for unresponsive notification recipients. If site owners do not respond to the notification emails, additional notifications will be sent informing the site owners or admins.
+You or the tenant admin can configure the policy to take an automated enforcement action for unresponsive notification recipients. If site owners don't respond to the notification emails, additional notifications are sent informing the site owners or admins.
 
-If you configure the policy to take an automated enforcement action when there is no response from the notification recipients, then additional notifications are sent to inform the site owners or admins.
+If you configure the policy to take an automated enforcement action when there's no response from the notification recipients, then additional notifications are sent to inform the site owners or admins.
 
 ##### Read-only sites
 
-Site owners will receive notification when the site goes into read-only mode.
+Site owners receive notification when the site goes into read-only mode.
 
 Once the site is in read-only mode, the policy applies the read-only banner to the site until the site owner contacts you for removal.
 
-You'll be able to remove the read-only mode for the site from the SharePoint admin center by following the following steps:
+You're able to remove the read-only mode for the site from the SharePoint admin center by following the following steps:
 
 1. Expand **Sites** and select **Active sites**.
 1. Select the site you want to manage and then select **Unlock**.
