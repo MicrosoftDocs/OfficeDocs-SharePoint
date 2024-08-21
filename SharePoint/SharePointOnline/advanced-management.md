@@ -33,7 +33,7 @@ Whether preparing for [Copilot deployment](/copilot/microsoft-365/microsoft-365-
 - streamline access management for SharePoint and OneDrive sites, and
 - analyze usage patterns through comprehensive reporting.
 
-:::image type="content" source="media/sam-overview/0-sam-overview-pillars-new.png" alt-text="Screenshot of SharePoint Advanced Management pillars." lightbox="media/sam-overview/0-sam-overview-pillars.png":::
+:::image type="content" source="media/sam-overview/0-sam-overview-pillars-new.png" alt-text="Screenshot of SharePoint Advanced Management pillars." lightbox="media/sam-overview/0-sam-overview-pillars-new.png":::
 
 We recommend utilizing SharePoint Advanced Management features along with our [best practices for Copilot for Microsoft 365](/sharepoint/sharepoint-copilot-best-practices) to reduce the risk of oversharing, control content sprawl, and manage content lifecycle.
 
