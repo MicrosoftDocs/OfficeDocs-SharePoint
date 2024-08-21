@@ -1,5 +1,5 @@
 ---
-ms.date: 08/19/2024
+ms.date: 08/21/2024
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: jtremper
@@ -28,7 +28,8 @@ description: "Learn how to manage site lifecycle policies for SharePoint sites."
 
 ## Site lifecycle management
 
-This feature is currently rolling out and may not yet be fully available for all organizations.
+> [!NOTE]                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+> This feature is currently rolling out and may not yet be fully available for all organizations.
 
 SharePoint sites are growing rapidly, and one of the major challenges faced by IT administrators is managing the lifecycle of the large number of sites.
 
@@ -52,9 +53,10 @@ To access and use site lifecycle management, your organization must have the [Mi
 
 1. Select **+ Create policy** and select **Next**.
 
-1. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+1. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png":::
 
 1. Beginning August 2024, you can configure the policy in the following ways:
+:::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
     - Choose to send emails to site owners/admins
     - Choose to take the following enforcement actions when there's no response from site owners or site admins after 3 notifications:
         - Mark the inactive site as read-only
