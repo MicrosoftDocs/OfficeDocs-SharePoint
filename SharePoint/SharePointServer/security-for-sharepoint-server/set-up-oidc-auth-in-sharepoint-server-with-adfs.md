@@ -125,7 +125,7 @@ In this step, you need to modify the SharePoint Server farm properties based on 
 
 Starting with SharePoint Server Subscription Edition Version 24H1 (March 2024), if the SharePoint farm is configured for [Early Release feature preference](/sharepoint/administration/feature-release-rings#early-release), you can configure SharePoint Server farm properties by employing SharePoint Certificate Management to manage the nonce cookie certificate. The nonce cookie certificate is part of the infrastructure to ensure OIDC authentication tokens are secure. Run the following PowerShell script to configure:
 > [!IMPORTANT] 
-> To use this script, the SharePoint farm must be set to Early Release as noted above.  If it is not, the script will complete without error, but the call to $farm.UpdateNonceCertificate() will not do anything.  If you do not want to configure your farm for Early Release, then you must use the [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1) steps instead.
+> To use this script, the SharePoint farm must be set to Early Release, as noted above.  If it is not, the script will complete without error, but the call to $farm.UpdateNonceCertificate() will not do anything.  If you do not want to configure your farm for Early Release, then you must use the [Configure SPSE prior to Version 24H1](#configure-sharepoint-server-subscription-edition-prior-to-version-24h1) steps instead.
 
 > [!Note]
 > Start the SharePoint Management Shell as a farm administrator to run the following script. Read the instructions mentioned in the following PowerShell script carefully. You will need to enter your own environment-specific values in certain places.
