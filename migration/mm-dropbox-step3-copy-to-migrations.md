@@ -37,7 +37,7 @@ After your Dropbox folders have been scanned and marked as ready, add them to yo
 
 1. Select **Copy to Folder migrations** to send the tasks to **Folder migrations** tab for subsequent migration operations.
 
-1. Go to **Folder Migrations** tab and proceed to the next step.
+1. Go to the **Folder Migrations** tab and proceed to the next step.
 
 ## [**Step 4: Review destinations**](mm-dropbox-step4-review-destinations.md)
 
