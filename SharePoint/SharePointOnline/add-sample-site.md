@@ -39,7 +39,7 @@ What's included in a sample? You get:
 
 ### Select a sample you like
 
-Browse the samples in the online [SharePoint look book](https://lookbook.microsoft.com/).
+Browse the samples in the online [SharePoint look book](https://adoption.microsoft.com/en-us/sharepoint-look-book/).
 
 ![Lookbook main](media/LookBookCover0.png)
 
