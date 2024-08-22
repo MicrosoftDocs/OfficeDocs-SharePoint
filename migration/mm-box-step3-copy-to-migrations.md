@@ -33,7 +33,7 @@ After the Box users have been scanned and marked as ready, add them to your migr
 1. Edit **Destinations**. You can apply [Single destination edit](/sharepointmigration/mm-box-step4-review-destinations) or [Upload destinations using a CSV file](/sharepointmigration/mm-box-step4-review-destinations) to designate where you want to migrate these selected tasks.
 1. Review **Task migration settings**. You can either follow the [Project settings](/sharepointmigration/mm-project-settings) or customize the task settings.
 1. Select **Copy to User migrations** to send the tasks to **User migrations** tab for subsequent migration operations.
-1. Go to **User Migrations** tab and proceed to the next step.
+1. Go to the **User Migrations** tab and proceed to the next step.
 
 ## [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
