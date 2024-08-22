@@ -26,20 +26,19 @@ description: "Learn what the third step in using Migration Manager to migrate Eg
 
 # Step 3: Copy to migrations
 
-After an Egnyte account has been scanned and determined ready, add them to your migration list.  
+After your Egnyte folders have been scanned and marked as ready, add them to your migration list.  
 
-1. Select the **Users** tab. The table will list all users that have been copied to migration.
-2. Select the users that are ready to be added to the Users migrations list.
-3. Select **Copy to User migrations**.
-4. Review the settings. Only content mathcing these settings will be migrated to your target destination. 
-5. Select **Customize settings** if you want to change any of the settings. Select **Edit** for each area you want to update. 
+1. In the **Folders** tab, select the tasks (folders) with a scan status of "Ready to migrate".
 
-:::image type="content" source="media/mm-file-folder-filters.png" alt-text="select edit to update any migration setting":::
+1. Select **Copy to Folder migrations** from the action bar to activate the "Copy to migrations" setting panel.
 
-6. Select **Go to User Migrations**, and proceed to the next step.
+1. Edit **Destinations**. You can apply [Single destination edit](/sharepointmigration/mm-egnyte-step4-review-destinations) or [Upload destinations using a CSV file](/sharepointmigration/mm-egnyte-step4-review-destinations) to designate where you want to migrate these selected tasks.
 
+1. Review **Task migration settings**. You can either follow the [Project settings](/sharepointmigration/mm-project-settings) or customize the task settings.
 
-![Migrations tab](media/mm-box-migration-tab.png)
+1. Select **Copy to Folder migrations** to send the tasks to **Folder migrations** tab for subsequent migration operations.
+
+1. Go to **Folder Migrations** tab and proceed to the next step.
 
 ## [**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
 
