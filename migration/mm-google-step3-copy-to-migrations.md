@@ -29,7 +29,7 @@ After your Google Drives have been scanned, the drive status will show if it's e
 
 1. In the **Drives** tab, select the tasks (Drives) with a scan status of "Ready to migrate".
 
-1. Select **Copy to Drive migrations** from the action bar to activate "Copy to migrations" setting panel.
+1. Select **Copy to Drive migrations** from the action bar to activate the "Copy to migrations" setting panel.
 
 1. Edit **Destinations**. You can apply [Single destination edit](/sharepointmigration/mm-google-step4-review-destinations) or [Upload destinations using a CSV file](/sharepointmigration/mm-google-step4-review-destinations) to designate where you want to migrate these selected tasks.
 
@@ -37,7 +37,7 @@ After your Google Drives have been scanned, the drive status will show if it's e
 
 1. Select **Copy to Drive migrations** to send the tasks to **Drive migrations** tab for subsequent migration operations.
 
-1. Go to **Drive Migrations** tab and proceed to the next step.
+1. Go to the **Drive Migrations** tab and proceed to the next step.
 
 ## Go to [**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
 
