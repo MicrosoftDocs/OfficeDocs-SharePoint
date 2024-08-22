@@ -25,18 +25,19 @@ description: "Learn what the third step in using Migration Manager to migrate Dr
 
 # Step 3: Copy to migrations tab for Dropbox migration
 
-After a Dropbox account has been scanned and determined ready, add it to your user migration list.  
+After your Dropbox folders have been scanned and marked as ready, add them to your migration list.  
 
-1. Select the **Folders** tab. The table will list all folders that have been copied to migration.
-2. Select the folders that are ready to be added to the Folder migrations list.
-3. Select **Copy to folder migrations**.
-4. Review the settings. Only content mathcing these settings will be migrated to your target destination. 
-5. Select **Customize settings** if you want to change any of the settings. Select **Edit** for each area you want to update. 
+1. In the **Folders** tab, select the tasks (folders) with a scan status of "Ready to migrate".
 
-:::image type="content" source="media/mm-file-folder-filters.png" alt-text="select edit to update any migration setting":::
+1. Select **Copy to Folder migrations** from the action bar to activate the "Copy to migrations" setting panel.
 
-6. Select **Go to Folder Migrations**, and proceed to the next step.
+1. Edit **Destinations**. You can apply [Single destination edit](/sharepointmigration/mm-dropbox-step4-review-destinations) or [Upload destinations using a CSV file](/sharepointmigration/mm-dropbox-step4-review-destinations) to designate where you want to migrate these selected tasks.
 
+1. Review **Task migration settings**. You can either follow the [Project settings](/sharepointmigration/mm-project-settings) or customize the task settings.
+
+1. Select **Copy to Folder migrations** to send the tasks to **Folder migrations** tab for subsequent migration operations.
+
+1. Go to **Folder Migrations** tab and proceed to the next step.
 
 ## [**Step 4: Review destinations**](mm-dropbox-step4-review-destinations.md)
 
