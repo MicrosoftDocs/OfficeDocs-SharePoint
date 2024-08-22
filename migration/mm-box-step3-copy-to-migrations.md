@@ -26,7 +26,7 @@ description: "Step 3: Copy to migrations using Migration Manager."
 # Step 3: Copy to migrations using Migration Manager
 
 
-After a Box user has been scanned and marked as ready, add them to your migration list.  
+After the Box users have been scanned and marked as ready, add them to your migration list.  
 
 1. In the **Users** tab, select the tasks (users) with a scan status of "Ready to migrate".
 1. Select **Copy to User migrations** from the action bar to activate "Copy to migrations" setting panel.
