@@ -59,10 +59,10 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
 
-2. Select **Unmanaged devices**.
+1. Select **Unmanaged devices**.
 
     ![The Unmanaged devices pane in the SharePoint admin center](media/unmanaged-devices-block-access.png)
-
+   
 3. Select **Block access**, and then select **Save**.
 
     > [!IMPORTANT]
@@ -83,10 +83,10 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 
 2. Select **Unmanaged devices**.
 
-3. Select **Allow limited, web-only access**, and then select **Save**. (Note that selecting this option will disable any previous conditional access policies you created from this page and create a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
+1. Select **Allow limited, web-only access**, and then select **Save**. (Note that selecting this option will disable any previous conditional access policies you created from this page and create a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png)
-
+   
 If you revert back to **Allow Full Access**, it could take up to 24 hours for the changes to take effect.
 
 > [!IMPORTANT]

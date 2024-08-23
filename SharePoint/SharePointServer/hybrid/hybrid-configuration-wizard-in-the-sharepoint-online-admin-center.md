@@ -56,6 +56,9 @@ To run the Hybrid Configuration Wizard, you must be:
 
 > [!IMPORTANT]
 > The Hybrid Configuration Wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, or SharePoint Server Subscription Edition installed. Launch it in the environment you want to use for your SharePoint hybrid.
+>
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 
 ## SharePoint Hybrid features offered in the Hybrid Configuration Wizard
 

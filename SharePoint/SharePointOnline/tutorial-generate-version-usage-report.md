@@ -215,7 +215,7 @@ function Import-Dataset($DatasetFilePath)
     $Row."WebUrl.Compact" = [String]$Row."WebUrl.Compact"
     $Row."FileUrl.Compact" = [String]$Row."FileUrl.Compact"
     $Row."Size" = [Int64]$Row."Size"
-    $Row."ModifiedBy_UserId.Compact" = [Int32]$Row."ModifiedBy_UserId.Compact"
+    $Row."ModifiedBy_UserId.Compact" = [String]$Row."ModifiedBy_UserId.Compact"
     $Row."ModifiedBy_DisplayName.Compact" = [String]$Row."ModifiedBy_DisplayName.Compact"
     $Row."LastModifiedDate" = [DateTime]$Row."LastModifiedDate"
     $Row."SnapshotDate" = [DateTime]$Row."SnapshotDate"
@@ -339,7 +339,10 @@ Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds)" -ForegroundCo
 Write-Host
 ```
 
-2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
+2. Open PowerShell and run the following command, replacing the placeholder values with the appropriate values.  
+
+> [!NOTE]
+> Use PowerShell 7 to run the commands. You can install PowerShell 7 by following these instructions: [Installing PowerShell on Windows - PowerShell | Microsoft Learn](/powershell/scripting/install/installing-powershell-on-windows).
 
 ```PowerShell
 . “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file version expiration What-If report .csv file>”

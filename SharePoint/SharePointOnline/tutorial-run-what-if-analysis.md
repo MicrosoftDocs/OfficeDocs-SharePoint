@@ -22,7 +22,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 # Tutorial: Run 'What-If' analysis on version storage report file (Preview)
 
-In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either automatic or manual limits on version storage or impacted users. You will learn how to: :
+In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either automatic or manual limits on version storage or impacted users. You will learn how to: 
 
 - Run impact analysis of setting Automatic limits.
 - Run impact analysis of expiring versions older than specified days.
@@ -55,6 +55,9 @@ $Schedule | 
   Export-Csv -Path $ExportPath -UseQuotes AsNeeded -NoTypeInformation
 ```
 
+> [!NOTE]
+> Use PowerShell 7 to run the commands. You can install PowerShell 7 by following these instructions: [Installing PowerShell on Windows - PowerShell | Microsoft Learn](/powershell/scripting/install/installing-powershell-on-windows).
+
 :::image type="content" source="media/version-history/expiration-automation.png" lightbox="media/version-history/expiration-automation.png" alt-text="Screenshot of expiration automation.":::
 
 ## Run impact analysis of setting manual expiration limits
@@ -83,6 +86,10 @@ $Schedule | 
 $Schedule | 
   Export-Csv -Path $ExportPath -UseQuotes AsNeeded -NoTypeInformation
 ```
+
+> [!NOTE]
+> Use PowerShell 7 to run the commands. You can install PowerShell 7 by following these instructions: [Installing PowerShell on Windows - PowerShell | Microsoft Learn.](/powershell/scripting/install/installing-powershell-on-windows)
+
 
 :::image type="content" source="media/version-history/manual-expiration.png" lightbox="media/version-history/manual-expiration.png" alt-text="Screenshot of manual expiration.":::
 
@@ -172,6 +179,8 @@ foreach ($FilesAndVersions in $FileToVersions.GetEnumerator())
 $Schedule | 
   Export-Csv -Path $ExportPath -UseQuotes AsNeeded -NoTypeInformation
 ```
+> [!NOTE]
+> Use PowerShell 7 to run the commands. You can install PowerShell 7 by following these instructions: [Installing PowerShell on Windows - PowerShell | Microsoft Learn](/powershell/scripting/install/installing-powershell-on-windows).
 
 :::image type="content" source="media/version-history/manual-with-count-limits-b.png" lightbox="media/version-history/manual-with-count-limits-b.png" alt-text="Screenshot of manual with count limits-b.":::
 

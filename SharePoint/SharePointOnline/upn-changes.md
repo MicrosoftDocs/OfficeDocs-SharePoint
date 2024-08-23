@@ -89,6 +89,22 @@ After a UPN change, users will need to close and reopen their OneNote notebooks 
 
 [Open a notebook in OneNote for Windows](https://support.office.com/article/2e99ead1-a1db-43e3-9945-0b0df9542888)
 
+## Microsoft Teams
+
+After a UPN change, accessing the OneDrive app in Microsoft Teams can result in an error: 404 File not found.
+
+Until a fix is released, to resolve the error:
+
+1. Create a 1:1 chat with another user.
+
+1. In the message box, select __Actions and apps__ __> Attach file > Upload from this device__.
+
+1. Select a file you will send to the other user, then select __Open__.
+
+1. Press __Enter__ to send the file or select __Send__.
+
+After you’ve sent the file, navigate to the OneDrive app in Teams.
+
 ## Recent files lists
 
 After a UPN change, users will need to browse to reopen active OneDrive files in their new location. Any links to the files (including browser favorites, desktop shortcuts, and "Recent" lists in Office apps and Windows) will no longer work.

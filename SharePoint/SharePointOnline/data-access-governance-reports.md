@@ -173,4 +173,4 @@ Once you run the Data access governance reports to discover potential oversharin
 
 If immediate action needs to be taken, you can configure [Restricted access control (RAC)](./restricted-access-control.md) and restrict access to a specified group (currently in preview). You can also use the ['Change history' report](./change-history-report.md) to identify recent changes to site properties that could lead to oversharing.
 
-You can also request the site owner review the permissions before taking necessary actions via the Site access review feature that is available within the Data access governance reports.
+You can also request the site owner review the permissions before taking necessary actions via [the Site access review feature](site-access-review.md) that is available within the Data access governance reports.
