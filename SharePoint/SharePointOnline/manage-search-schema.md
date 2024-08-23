@@ -397,7 +397,7 @@ The following table provides an overview of the default unused managed propertie
 | Double                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDouble00 to RefinableDouble09                     | |
 | Integer                   | 50        |   -   | Query | - |     -    |    -   |   -  | Int00 to Int49                                             | |
 | Integer                   | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableInt00 to RefinableInt49                           | |
-| String                    | 200       | Multi | Query | - | Retrieve | Refine | Sort | RefinableString00 to RefinableString199                    | |
+| String                    | 200       | Multi | Query | - | Retrieve | Refine | Sort | RefinableString00 to RefinableString219                    | |
 | String                    | 40        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringFirst00 to RefinableStringFirst39           | \* |
 | String                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringLn00 to RefinableStringLn09                 | \*\* |
 | String                    | 50        |   -   | Query | - | Retrieve | Refine | Sort | RefinableStringWbOff00 to RefinableStringWbOff49           | \*\*\* |
