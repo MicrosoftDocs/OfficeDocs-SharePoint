@@ -24,19 +24,19 @@ description: "This article provides guidance on how to plan version storage for 
 The Version history limits you configure need to meet your organization’s recovery objectives. In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization.
 
 As you plan your version storage strategy, consider these key decision areas: 
-- Determine the default document library version history limit for your organization.
-- Identify any sites or OneDrive user accounts that would need an exception from the organization default limit. 
-- Determine whether to enforce organization version history limits on current content by updating settings on existing document libraries and reducing file version history.  
+- Determine the default new document library version history limit for your organization.
+- Identify any exceptions needed from the organization default limits. 
+- Determine if current content should be updated to align with the default organization version history limits.  
 
 
-## Determine default version limits for your organization
+## Determine default version limits for new document libraries in your organization
 
 To set appropriate default limits for your organization, assess the restore options and storage consumption associated with the three version storage modes offered by SharePoint. This helps you to evaluate how the default limits could affect your users' access to their document versions and the overall storage space utilized by those versions.  
 
 
 |Select this option:|If you want to:|Benefits|
 |---|---|---|
-|**Automatic** (Recommended) |Automatically apply optimal storage of versions based on its age and restore probability.<br> With this setting, users have access to most of the recently created versions.<br> As versions age, fewer older versions are stored. No other input is required from admins.| **Storage use:** Automatic setting is the recommended setting that offers your users access to high value versions while optimizing version storage use.<br> <br> **Restore options:** This setting ensures version history at key timestamps is always available for restore even on file with no new file edits.|
+|**Automatic** (Recommended) |Automatically optimize storage by storing versions based on their creation date.<br> With this setting, users have access to most of the recently created versions.<br> As versions age, fewer older versions are stored, keeping the few most likely needed ones. No other input is required from admins.| **Storage use:** Automatic setting is the recommended setting that offers your users access to high value versions while optimizing version storage use.<br> <br> **Restore options:** This setting ensures version history at key timestamps is always available for restore even on file with no new file edits.|
 |**Manual** with Major Version Limit and Expiration Period set| Store versions only until the configured expiration period and within the configured major versions count limits.<br> With this setting, users have access to all versions within the count and expiration period.|**Storage use:** This setting is the best option for ensuring the lowest quota impact from version storage as it trims versions that are older than the configured expiration.<br> <br> **Restore options:** When an expiration limit is set, it's possible for files with no recent edits to have all their versions trimmed if the updated version policy dictates that. For example, if a file doesn't get edited in six months and a six-month version expiration policy is in place, then all that file’s versions are deleted.|
 |**Manual** with **Major Version Limits and No Time** set| Always store the configured count of versions regardless of version age. Users have access to all the versions within the count limit.| **Storage use:** This setting can lead to high quota consumption from versions if you have a high ratio of heavily edited files or if you set the limits too high. <br><br> **Restore options:** This setting is the best option for storing a set number of versions offering you predictable version storage behavior. |
 
