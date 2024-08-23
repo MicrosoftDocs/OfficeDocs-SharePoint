@@ -51,7 +51,7 @@ Before committing to trim existing versions, you can review the impact of the pu
 
 ## Version trim modes
 
-Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site, document library, or OneDrive account.
+Version trimming workflows allow you to select and apply one of the trimming modes for queuing a trim job on a site, document library, or OneDrive account.
 
 **Manual expiration trim mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
