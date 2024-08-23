@@ -154,7 +154,7 @@ To prevent SharePoint in resetting custom script settings to its original value 
 
 > [!NOTE]
 > This setting affects all sites. There are no options to preserve changes to custom script settings only on some specific sites. This parameter will be available until November 2024. After that date, it will no longer be possible to prevent SharePoint in resetting custom script settings to its original value for all sites.
-> Running the command where [Multi-Geo capabilities on OneDrive and SharePoint](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) are configured, will only affect the current geo from which you ran the command. To persiste custom script settings across the entire tenant you must run the command on each geo.
+> Running the command where [Multi-Geo capabilities on OneDrive and SharePoint](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) are configured, will only affect the current geo from which you ran the command. To persist custom script settings across the entire tenant you must run the command on each geo.
 
 ## Features affected when custom script is blocked
 
@@ -172,7 +172,7 @@ The following site settings are unavailable when users are prevented from runnin
 |Help Settings  |No longer available in Site Settings  |Users can still access help file collections available before custom script was blocked.  |
 |Sandbox solutions  |Solution Gallery is no longer available in Site Settings  |Users can't add, manage, or upgrade sandbox solutions. They can still run sandbox solutions that were deployed before custom script was blocked.  |
 |SharePoint Designer  |Pages that are not HTML can no longer be updated.  <br/> Handling List: **Create Form** and **Custom Action** will no longer work.  <br/> Subsites: **New Subsite** and **Delete Site** redirect to the **Site Settings** page in the browser.  <br/> Data Sources: **Properties** button is no longer available.  |Users can still open some data sources. To open a site that does not allow custom script in SharePoint Designer, you must first open a site that does allow custom script.  |
-|Uploading files that potentially include script  |The following file types can not open from a library  <br/> .asmx  <br/> .ascx  <br/> .aspx  <br/> .htc  <br/> .jar  <br/> .master  <br/> .swf  <br/> .xap  <br/> .xsf  |Existing files in the library are not impacted.  |
+|Uploading files that potentially include script  |The following file types cannot open from a library  <br/> .asmx  <br/> .ascx  <br/> .aspx  <br/> .htc  <br/> .jar  <br/> .master  <br/> .swf  <br/> .xap  <br/> .xsf  |Existing files in the library are not impacted.  |
 |Uploading Documents to Content Types  |Access denied message when attempting to attach a document template to a Content Type. |We recommend using Document Library document templates. |
 |Publishing of SharePoint 2010 Workflows |Access denied message when attempting to publish a SharePoint 2010 Workflow. | |
    
@@ -195,8 +195,8 @@ The following web parts and features are unavailable to site admins and owners w
 
 Furthermore, SharePoint Framework web parts that have the _requiresCustomScript_ value set to **true**, will behave as following:   
 
-- the web part is not be available in the web part picker
-- every instance of the web part that was added to the page while custom scripts were allow to running, will no longer surface in those pages. Author will still be able to remove them while editing the page 
+- the web part is not available in the web part picker
+- every instance of the web part that was added to the page while custom scripts that were allowed to run, will no longer surface in those pages. Author will still be able to remove them while editing the page 
 
 ## Best practice for communicating script setting changes to users
 
