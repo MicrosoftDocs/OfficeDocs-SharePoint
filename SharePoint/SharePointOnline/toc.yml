@@ -428,37 +428,37 @@ Items:
       href: /MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
     - name: Sign out inactive users
       href: sign-out-inactive-users.md
-  - name: Version history (Preview)
+  - name: Version history
     items:
-    - name: Overview (Preview)
+    - name: Overview
       href: version-overview.md
-    - name: Version controls (Preview)
+    - name: Version controls
       href: document-library-version-history-limits.md
-    - name: Plan version storage (Preview)
+    - name: Plan version storage
       href: plan-version-storage.md
-    - name: Set organization version limits (Preview)
+    - name: Set organization version limits
       href: set-default-org-version-limits.md
-    - name: Manage site version limits (Preview)
+    - name: Manage site version limits
       items:
-      - name: Set site version limits(Preview)
+      - name: Set site version limits
         href: site-version-limits.md
-      - name: Generate version storage usage report(Preview)
+      - name: Generate version storage usage report
         href: version-storage-report-site.md
-    - name: Set library version limits (Preview)
+    - name: Set library version limits 
       href: library-version-limits.md
-    - name: Change OneDrive version limits (Preview)
+    - name: Change OneDrive version limits 
       href: version-limits-onedrive-ps.md
-    - name: Trim versions (Preview)
+    - name: Trim versions 
       href: trim-versions.md
-    - name: Tutorials(Preview)
+    - name: Tutorials
       items:
-      - name: Tutorial—Generate version usage report (Preview)
+      - name: Tutorial—Generate version usage report 
         href: tutorial-generate-version-usage-report.md
-      - name: Tutorial—Run 'What-If' analysis (Preview)
+      - name: Tutorial—Run 'What-If' analysis 
         href: tutorial-run-what-if-analysis.md
-      - name: Tutorial—Manage version limits (Preview)
+      - name: Tutorial—Manage version limits 
         href: tutorial-manage-version-limits.md
-      - name: Tutorial—Queue trim job (Preview)
+      - name: Tutorial—Queue trim job 
         href: tutorial-queue-a-trim-job.md
     - name: FAQs
       href: faqs-for-versions.md
