@@ -45,13 +45,12 @@ Follow these steps to manage version history limits for a site by using PowerShe
 1. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to manage version history limits on a library:
 
-| **Action** | **PowerShell Command** |
-| --- | --- |
-| View version history limits set on a library | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
-| Set Automatic version history limits on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
-| Set Manual limits with count and time parameters on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
-| Set Manual limits with count with no expiration limit on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0` |
-
+   | **Action** | **PowerShell Command** |
+   | --- | --- |
+   | View version history limits set on a library | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
+   | Set Automatic version history limits on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
+   | Set Manual limits with count and time parameters on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
+   | Set Manual limits with count with no expiration limit on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0` |
 
 ## Learn More
 
