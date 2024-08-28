@@ -35,7 +35,7 @@ Version history limits for an individual site can be managed in the following wa
 
 **Example scenario**
 
-Take an example of Contoso, where the default organization Version history limits is configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
+Take an example of Contoso, where the default organization Version history limits are configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
 
 The following is the version storage for Contoso:
 
