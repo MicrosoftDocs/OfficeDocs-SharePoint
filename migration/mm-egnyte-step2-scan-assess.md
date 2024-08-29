@@ -28,7 +28,7 @@ description: "Step 2:  Scan and assess Egnyte folders using Migration Manager."
 
 After you connect to Egnyte, add the source paths scan and assess your Egnyte accounts.
 
-1. Select **Add folders** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Box</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
+1. Select **Add folders** from the menu bar to choose how to add users:</br> - **All new users** to auto-discover all new users in Egnyte</br>- **Single user** for only one account,  or </br>- **Multiple specific users** to bulk upload users by entering them into a CSV file to upload.
 2. Choose to **Automatically start scanning now** or choose to scan later.
 3. Select **Add**.
 4. Highlight any or all of the accounts and then select **Scan** if you chose not to auto scan earlier.
