@@ -136,8 +136,8 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 ## Step 1: Provision the Workplace transformation site template
 
 > [!NOTE]
-> - Tenant administrators' credentials (or higher) are required to provision a template
-> - The workplace transformation site will take about 15 minutes to provision 
+> - Tenant administrators' credentials (or higher) are required to provision a template.
+> - The workplace transformation site will take about 15 minutes to provision. 
 
 Start by navigating to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the Hybrid work PnP template. Follow [the instructions](/sharepoint/dev/solution-guidance/applying-pnp-templates) to provision the PnP template.
 
