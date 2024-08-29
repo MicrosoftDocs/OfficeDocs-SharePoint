@@ -1,5 +1,5 @@
 ---
-ms.date: 07/26/2024
+ms.date: 08/28/2024
 title: "Manage unlicensed OneDrive user accounts"
 ms.reviewer: rebecca.gee
 manager: jtremper
@@ -55,7 +55,7 @@ You can identify unlicensed OneDrive accounts using the SharePoint admin center 
 2. Go to **Reports** and select **User reports**.
 3. Under **OneDrive usage**, select **Unlicensed users**.
 4. You can download the report as a CSV file.
-5. Starting January 2025, an interactive UI will be available. You can select a username to view the details.
+5. Starting January 2025, an interactive UI is available. You can select a username to view the details.
 
 The report shows the username, email address, account type, and last activity date of each unlicensed OneDrive account.
 
@@ -86,39 +86,62 @@ Microsoft 365 Archive charges for both storage and file reactivation. For more i
 
 ## Frequently Asked Questions
 
-**1. What is an unlicensed OneDrive account?**<br>
+**1. What is an unlicensed OneDrive account?**
+
 **Answer:** When an employee leaves an organization or a license is removed, their OneDrive account becomes unlicensed after the admin takes one of two steps:
 
 **License Removal:**
+
 - Go to the Admin Center.
 - Navigate to Billing > Your Products.
-- Select the subscription and click on Remove licenses.
+- Select the subscription and select on Remove licenses.
 
 **User Deletion:**
+
 - Go to the Admin Center.
 - Navigate to Active users.
 - Delete the user.
 
 For additional information: [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user).
 
-**2. When can I see the Unlicensed OneDrive accounts report in the admin center?**<br>
-**Answer:** Some admins will have access to this page as soon as July 26, 2024, but most admins will be able to access the page closer to August 16, 2024.
+**2. When will an unlicensed account get archived?**
 
-**3. When will an unlicensed account get archived?**<br>
 **Answer:** For newly unlicensed OneDrive accounts, it will be after 93 days of the license removal or user deletion. For example, a OneDrive account that became unlicensed on August 1, 2025, will be inaccessible to users as of November 2, 2025. For unlicensed OneDrive accounts with license removal before October 26, 2024, the accounts will be archived sometime between late January 2025 to late March 2025.
 
-**4. How does it impact eDiscovery in Microsoft Purview?**<br>
-**Answer:** Microsoft Purview eDiscovery and Content Search will still be discoverable in archived content. You will need to reactivate any archived sites first to access content, and then an export option will be available. Files with retention policies will follow standard procedures of deletion and restoration.
+**3. How does it impact eDiscovery in Microsoft Purview?**
 
-**5. How does it impact Retention Policy, Retention Setting, or Litigation Hold?**<br>
-**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a 5-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving does not reset the timeline of the retention policy or holds.
+**Answer:** Microsoft Purview eDiscovery and Content Search are still discoverable in archived content.
 
-**6. Can I delete an unlicensed account without Archive reactivation?**<br>
-**Answer:** Yes. An archived unlicensed account can be deleted from the archive state. However, if the account is under retention policy, the unlicensed account cannot be deleted, and the admin will receive an error message.
+**4. How does it impact Retention Policy, Retention Setting, or Litigation Hold?**
 
-**7. When will I get charged?**<br>
-**Answer:** Once a payment method is provided, billing will follow the routine cycle for archived content. If there is no retention policy and billing stops, your content will be deleted within a 93-day period. If a retention policy is still active, the policy will be honored regardless of billing status. If the account has no retention and billing, the 93-day content deletion lifecycle will begin.
+**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a five-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving doesn't reset the timeline of the retention policy or holds.
 
+**5. Can I delete an unlicensed account without Archive reactivation?**
+
+**Answer:** Yes. An archived unlicensed account can be deleted from the archive state. However, if the account is under retention policy, the unlicensed account can't be deleted, and the administrator receives an error message.
+
+**6. When will I get charged?**
+
+**Answer:** Once a payment method is provided, billing follows the routine cycle for archived content. If there's no retention policy and billing stops, your content is deleted within a 93-day period. If a retention policy is still active, the policy is honored regardless of billing status. If the account has no retention and billing, the 93-day content deletion lifecycle begins.
+
+**7. Can unlicensed ODB leverage unused SPO storage quota?**
+
+**Answer:** No. They're independent. Unlicensed OneDrive accounts can't use unused SharePoint storage quota, even though there's Microsoft 365 Archive set up in the SharePoint tenant.
+
+**8. What's the guidance on 'duplicate accounts'?**
+
+**Answer:** A duplicate account is created when an employee switches to a different country/region or a different firm within the organization. If the duplicate accounts aren't desired, we recommend using the downloadable CSV in the SharePoint Admin Center to identify the accounts and delete them. For already-archived unlicensed OneDrive accounts, it can be deleted from the archived state without the need of reactivation.
+
+**9. What is the outcome if an Unlicensed OneDrive account is restored from the Recycle Bin, 90 days after its license removal? Does the account get automatically archived?**
+
+**Answer:** Yes. If 90 days have past since the license removal, bringing back an unlicensed OneDrive account from the recycle bin can lead to automatic archival.
+
+**10. Once I initiate the reactivation of an account from Microsoft 365 Archive, how long do I have to wait until the data is available?**
+
+**Answer:** It takes up to 24 hours for the account to be accessible. Once the account is reactivated, it remains active for a total of 30 days before it gets automatically archived again.
+
+**11. Is there any charge to use the eDiscovery Hold feature?**
+**Answer:** We honor eDiscovery hold and charge accordingly. eDiscovery Hold works the same way as retention policy and legal hold.
 
 ## Related topics
 
