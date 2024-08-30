@@ -114,7 +114,10 @@ For additional information: [Delete a user from your organization](/microsoft-36
 
 **4. How does it impact Retention Policy, Retention Setting, or Litigation Hold?**
 
-**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a five-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving doesn't reset the timeline of the retention policy or holds. *Note: if a OneDrive account is retained due to a Retention Policy, Retention Setting, or Litigation Hold and has been* *archived due to being unlicensed for 93 days or longer, then you will still pay for the monthly archive storage costs.*
+**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a five-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving doesn't reset the timeline of the retention policy or holds. 
+
+>[!Note]
+> If a OneDrive account is retained due to a Retention Policy, Retention Setting, or Litigation Hold and has been* *archived due to being unlicensed for 93 days or longer, then you will still pay for the monthly archive storage costs.
 
 **5. Can I delete an unlicensed account without Archive reactivation?**
 
