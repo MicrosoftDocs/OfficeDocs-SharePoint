@@ -82,7 +82,7 @@ Once you delete the unlicensed account, both the OneDrive account and its files 
 
 If no action is taken, the account remains archived through [Microsoft 365 Archive](/microsoft-365/syntex/archive/archive-overview). Archiving the account lets you keep the OneDrive account and its data for long periods of time in case you need to retrieve it later.
 
-Microsoft 365 Archive charges for both storage and file reactivation. For more information about Microsoft 365 Archive pricing, see [Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/syntex/archive/archive-pricing).
+Microsoft 365 Archive charges for both storage and account reactivation. For more information about Microsoft 365 Archive pricing, see [Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/syntex/archive/archive-pricing).
 
 ## Frequently Asked Questions
 
@@ -114,7 +114,10 @@ For additional information: [Delete a user from your organization](/microsoft-36
 
 **4. How does it impact Retention Policy, Retention Setting, or Litigation Hold?**
 
-**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a five-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving doesn't reset the timeline of the retention policy or holds.
+**Answer:** Archived OneDrive accounts fully honor retention policies, settings, and litigation holds. For example, if your company has a five-year retention policy, it remains unchanged whether the OneDrive account is active or archived. Archiving doesn't reset the timeline of the retention policy or holds. 
+
+>[!Note]
+> If a OneDrive account is retained due to a Retention Policy, Retention Setting, or Litigation Hold and has been* *archived due to being unlicensed for 93 days or longer, then you will still pay for the monthly archive storage costs.
 
 **5. Can I delete an unlicensed account without Archive reactivation?**
 
