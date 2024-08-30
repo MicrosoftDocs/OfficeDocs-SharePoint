@@ -135,6 +135,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
+  [DisableFREAnimation](deploy-and-configure-on-macos.md#disablefreanimation)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
@@ -275,6 +276,21 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableAutoConfig</key>
 <integer>1</integer>
+```
+
+### DisableFREAnimation 
+
+<a name="DisableFREAnimation"> </a>
+
+This setting lets you prevent the animation from showing during OneDrive Setup.
+
+If you set the setting's value to **True**, animations will not be shown during OneDrive Setup
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableFREAnimation</key>
+<(Bool)/>
 ```
 
 ### DisableHydrationToast
