@@ -135,6 +135,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
+- [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
@@ -275,6 +276,25 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableAutoConfig</key>
 <integer>1</integer>
+```
+
+### DisableCustomRoot
+
+<a name="DisableCustomRoot"> </a>
+
+This setting lets you block users from changing the location of the OneDrive folder on their computer.
+
+If you enable this setting, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableCusomRoot</key>
+<integer>1</integer>
+<dict>
+<key>TenantId</key>
+<string>(TenantID)</string>
+</dict>
 ```
 
 ### DisableHydrationToast
