@@ -135,6 +135,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
+- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disableFirstDeleteDialog)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
@@ -275,6 +276,21 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableAutoConfig</key>
 <integer>1</integer>
+```
+
+### DisableFirstDeleteDialog
+
+<a name="DisableFirstDeleteDialog"> </a>
+
+When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the devices of the user and on the web. This setting lets you hide the warning message.
+
+If you set the setting's value to **True**, users won't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableFirstDeleteDialog</key>
+<(Bool)/>
 ```
 
 ### DisableHydrationToast
