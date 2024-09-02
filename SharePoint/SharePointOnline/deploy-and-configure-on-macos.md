@@ -135,16 +135,13 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
-- [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
 - [DisableTutorial](deploy-and-configure-on-macos.md#disabletutorial)
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
-- [EnableAllOcsiClients](deploy-and-configure-on-macos.md#enableallocsiclients)
 - [EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)
 - [EnableSyncAdminReports](deploy-and-configure-on-macos.md#enablesyncadminreports)
-- [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
 - [KFMBlockOptIn](deploy-and-configure-on-macos.md#kfmblockoptin)
@@ -277,21 +274,6 @@ The example for this setting in the .plist file is:
 <integer>1</integer>
 ```
 
-### DisableHydrationToast
-
-<a name="DisableHydrationToast"> </a>
-
-This setting prevents toasts from appearing when applications cause file contents to be downloaded.
-
-If you set the setting's value to **True**, toasts don't appear when applications trigger the download of file contents.
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableHydrationToast</key>
-<(Bool)/>
-```
-
 ### DisableOfflineMode
 
 This setting prevents users from enabling offline mode in OneDrive on the web.
@@ -387,26 +369,6 @@ The example for this setting in the .plist file is:
 <integer>(Download Throughput Rate in KB/sec)</integer>
 ```
 
-### EnableAllOcsiClients
-
-<a name="EnableAllOcsiClients"> </a>
-
-This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
-
-> [!IMPORTANT]
-> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth usage. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
-
-If you set this setting to **True** or don't set this setting, the **Office** tab appears in OneDrive sync preferences, and **Use Office applications to sync Office files that I open** is selected, by default.
-
-If you set this setting to **False**, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting is disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>EnableAllOcsiClients</key>
-<(Bool)/>
-```
-
 ### EnableODIgnore
 
 <a name="EnableODIgnore"> </a>
@@ -439,28 +401,6 @@ The following example shows how this setting looks like in the .plist file:
 ```xml
 <key>EnableSyncAdminReports</key>
 <integer>1</integer>
-```
-
-### FilesOnDemandEnabled
-
-<a name="FilesOnDemandEnabled"> </a>
-
-This setting specifies whether Files On-Demand is enabled.
-
-> [!NOTE]
-> Beginning in macOS Monterey 12.1, Files On-Demand will be permanently enabled and this setting will no longer have any effect.
-
-#### macOS versions prior to Monterey 12.1
-
-If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default.
-
-If you set this setting to **False**, **FilesOnDemand** is disabled and the users won't be able to turn it on.
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>FilesOnDemandEnabled</key>
-<(Bool)/>
 ```
 
 > [!NOTE]
