@@ -92,7 +92,7 @@ Visit the SharePoint or Viva Connections branding experiences and select **New t
 
 ![Screenshot of creating a new theme](media/brand-center-new-theme.png)
  
-## Pay attention to Accessibility
+## Pay attention to accessibility
 Color and contrast are important for accessibility. People with low vision, such as those with macular degeneration, need a certain amount of contrast to be able to see what’s on the screen. It’s also important to be careful with color selection, because color blind people can’t tell the differences between certain colors. For example, someone who has red-green color-blindness sees red and green as the same color.
 In this theme creation experience we provide a color contrast checker built into the UI Elements preview to guide you towards creating accessible themes. 
 
