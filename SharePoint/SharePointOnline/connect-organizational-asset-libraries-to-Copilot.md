@@ -21,7 +21,8 @@ ms.custom:
 description: "Learn how to enable Copilot to provide an on-brand asset experience by specifying organization asset libraries for users to query images, logos, or illustrations directly from chat."
 ---
 
-Your organization can now enable Copilot to provide an on-brand asset experience. Specify the organization asset libraries you want Copilot to search from and users within your company will be able to query for images, logos, or illustrations directly from chat.
+Your organization can now enable Copilot to provide an on-brand asset experience. Specify the organization asset libraries you want Copilot to search from and users within your organization are able to query for images, logos, or illustrations directly from chat.
+
 > [!NOTE]
 > Organization asset libraries can currently be searched from PowerPoint and Word Copilot chat, on both desktop and web. Support for further Copilot features, endpoints and M365 applications are currently in development.
 > This feature is currently in preview.
@@ -31,7 +32,7 @@ Your organization can now enable Copilot to provide an on-brand asset experience
 - Assigning an organization image library authorizes Copilot to search and download content directly from the library. 
 - Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt will direct the query to the search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
 ![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
-- Powered by Graph search. Copilot uses the image tags, file name, description and location added to the content in the organization asset library to find a relevant image.
+- Powered by Graph search. Copilot uses the image tags, file name, description, and location added to the content in the organization asset library to find a relevant image.
  
 ## Use Microsoft PowerShell to specify an organization image document library to be searchable
 
@@ -40,7 +41,7 @@ First, if you haven't, [download the latest SharePoint Online Management Shell](
 > [!NOTE]
 > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-Connect to SharePoint as a [SharePoint Administrator or above](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Connect to SharePoint as a [SharePoint Administrator or higher](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 Run the following command to designate a document library as an organization image library and enable Copilot search functionality. 
 
@@ -49,12 +50,12 @@ Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType I
 ```
 - *LibraryURL* is the absolute URL of the library to be designated as a central location for organizational assets. 
 
-- *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the organization's name. 
+- *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library is the organization's name. 
 
-- *OrgAssetType* must be ImageDocumentLibrary. For now search functionality only support ImageDocumentLibrary. 
+- *OrgAssetType* must be ImageDocumentLibrary. For now search functionality only supports ImageDocumentLibrary. 
 
 - *CopilotSearchable* is the toggle of the search functionality. To enable the organization image library, set CopilotSearchable to true in this location. 
-If you don't specify the CdnType, it will enable a private CDN by default. 
+If you don't specify the CdnType, it enables a private CDN by default. 
 
 Run the following command to existing organization image library and enable Copilot search functionality:
 
@@ -64,9 +65,9 @@ Set-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType I
 
 - *LibraryURL* is the absolute URL of the library to be designated as a central location for organizational assets. 
 
-- *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the organization's name. 
+- *ThumbnailURL* is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library is the organization's name. 
 
-- *OrgAssetType* must be ImageDocumentLibrary. For now search functionality only support ImageDocumentLibrary. 
+- *OrgAssetType* must be ImageDocumentLibrary. For now search functionality only supports ImageDocumentLibrary. 
 
 - *CopilotSearchable* is the toggle of the search functionality. To enable the organization image library, set CopilotSearchable to true in this location. 
 
@@ -84,9 +85,9 @@ Set-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType I
 
 Follow these guidelines to improve the organization asset library image search experience from Copilot:
 - Avoid Multiple formats and resolutions of the same image. Copilot may return multiple versions of the same image reducing the breadth of search results. 
-- Avoid exceptionally large images. Images over 10MB will result in search latency and slow downloads, host application limits may also apply.
+- Avoid exceptionally large images. Images over 10 MB result in search latency and slow downloads, host application limits may also apply.
 - Remove any files that aren’t image based. Non-image files may be included in search results but fail on insertion.
-- Insufficient tagging and descriptions. Successful search results require meaningful file names, image tags, location, and descriptions to be included with the content in the organization image asset library. Insufficient metadata will reduce search hit rates and lower result relevancy.
+- Insufficient tagging and descriptions. Successful search results require meaningful file names, image tags, location, and descriptions to be included with the content in the organization image asset library. Insufficient metadata reduces search hit rates and lower result relevancy.
 - The following image formats are supported. JPEG, PNG, SVG, BMP, GIF, TIFF, WEB P, HEIF, ICO.
 
 ## Reference
