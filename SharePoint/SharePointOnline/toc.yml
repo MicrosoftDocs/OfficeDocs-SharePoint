@@ -235,7 +235,7 @@ Items:
       items:
       - name: Site theme
         href: site-theme.md
-    - name: Create an organization assets library
+    - name: Organization assets library
       href: organization-assets-library.md
       items:
       - name: Support for organization fonts in PowerPoint for the web
