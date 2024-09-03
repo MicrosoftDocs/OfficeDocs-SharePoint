@@ -42,7 +42,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 | Component | Requirement |
 |:-----|:-----|
-|CPU  |64-bit 1.4 GHz 2-core processor or better |
+|CPU  |64-bit 1.4-GHz 2-core processor or better |
 |RAM|8 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Network card|High-speed Internet connection|
@@ -76,7 +76,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https:<span><span>//graph.<span><span>microsoft.<span><span>com| Access Microsoft Graph API to get tenant information and site information for public cloud and GCC|
 |https:<span><span>//graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for GCC high|
 |https:<span><span>//dod-graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for DoD|
-|https:<span><span>//spmt.sharepointonline.<span><span>com|SPMT Installation link.
+|https:<span><span>//spmt.sharepointonline.<span><span>com|SharePoint Migration Tool (SPMT) Installation link.
 
 
 
