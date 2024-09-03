@@ -58,7 +58,7 @@ Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType I
 - *OrgAssetType* must be ImageDocumentLibrary. For now search functionality only supports ImageDocumentLibrary. 
 
 - *CopilotSearchable* is the toggle of the search functionality. To enable the organization image library, set CopilotSearchable to true in this location. 
-If you don't specify the CdnType, it enables a private CDN by default. 
+If you don't specify the *CdnType*, it enables a private CDN by default. 
 
 Run the following command to existing organization image library and enable Copilot search functionality:
 
