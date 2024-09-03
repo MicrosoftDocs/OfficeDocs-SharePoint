@@ -225,10 +225,16 @@ Items:
       href: brand-center-overview.md
     - name: Brand fonts
       href: brand-fonts.md
-    - name: Font packages
-      href: brand-center-font-packages.md
-    - name: Font licensing
-      href: brand-font-licensing.md
+      items:
+      - name: Font packages
+        href: brand-center-font-packages.md 
+      - name: Font licensing
+        href: brand-font-licensing.md
+    - name: Brand colors
+      href: brand-colors.md
+      items:
+      - name: Site theme
+        href: site-theme.md
     - name: Create an organization assets library
       href: organization-assets-library.md
       items:
