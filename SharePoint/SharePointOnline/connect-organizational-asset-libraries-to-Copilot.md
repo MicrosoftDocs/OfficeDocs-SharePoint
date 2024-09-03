@@ -22,11 +22,13 @@ description: "Learn how to enable Copilot to provide an on-brand asset experienc
 ---
 # Connect organizational asset libraries to Copilot for an on-brand experience
 
+> [!NOTE]
+> This feature is only currently available to preview customers, please follow [this link](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=406170) for the latest updates on general availability.
+
 Your organization can now enable Copilot to provide an on-brand asset experience. Specify the organization asset libraries you want Copilot to search from and users within your organization are able to query for images, logos, or illustrations directly from chat.
 
 > [!NOTE]
 > Organization asset libraries can currently be searched from PowerPoint and Word Copilot chat, on both desktop and web. Support for further Copilot features, endpoints and M365 applications are currently in development.
-> This feature is only currently available to preview customers, please follow [this link](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=406170) for the latest updates on general availability. 
 
 ## How does it work?
 
