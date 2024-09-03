@@ -20,6 +20,7 @@ ms.custom:
 - onedrive-toc
 description: "Learn how to enable Copilot to provide an on-brand asset experience by specifying organization asset libraries for users to query images, logos, or illustrations directly from chat."
 ---
+# Introduction
 
 Your organization can now enable Copilot to provide an on-brand asset experience. Specify the organization asset libraries you want Copilot to search from and users within your organization are able to query for images, logos, or illustrations directly from chat.
 
