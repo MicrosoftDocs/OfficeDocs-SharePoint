@@ -42,7 +42,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 | Component | Requirement |
 |:-----|:-----|
-|CPU  |64-bit 1.4-GHz 2-core processor or better |
+|CPU  |64-bit 1.4 GHz 2-core processor or better |
 |RAM|8 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Network card|High-speed Internet connection|
