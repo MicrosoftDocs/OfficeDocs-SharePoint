@@ -33,10 +33,10 @@ Your organization can now enable Copilot to provide an on-brand asset experience
 ## How does it work?
 
 - Assigning an organization image library authorizes Copilot to search and download content directly from the library. 
-- Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt will direct the query to the search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
-![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
+- Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt directs the query to search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
 - Powered by Graph search. Copilot uses the image tags, file name, description, and location added to the content in the organization asset library to find a relevant image.
- 
+![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
+
 ## Use Microsoft PowerShell to specify an organization image document library to be searchable
 
 First, if you haven't, [download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
