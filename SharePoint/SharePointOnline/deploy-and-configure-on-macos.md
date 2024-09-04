@@ -283,7 +283,7 @@ The example for this setting in the .plist file is:
 
 This setting lets you block users from changing the location of the OneDrive folder on their computer.
 
-If you enable this setting, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
+If you set this setting's value to **True**, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
 
 The example for this setting in the .plist file is:
 
