@@ -136,7 +136,6 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
-- [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
@@ -290,21 +289,6 @@ The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableCusomRoot</key>
-<(Bool)/>
-```
-
-### DisableHydrationToast
-
-<a name="DisableHydrationToast"> </a>
-
-This setting prevents toasts from appearing when applications cause file contents to be downloaded.
-
-If you set the setting's value to **True**, toasts don't appear when applications trigger the download of file contents.
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableHydrationToast</key>
 <(Bool)/>
 ```
 
