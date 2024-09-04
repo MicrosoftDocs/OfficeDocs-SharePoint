@@ -1219,6 +1219,16 @@
       "source_path": "migration/mover-scan.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/new-migration-transition.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/file-versions.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
     }
   ]
 }
