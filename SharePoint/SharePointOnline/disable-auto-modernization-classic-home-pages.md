@@ -133,7 +133,7 @@ For more help in transitioning to modern, refer to the following resources:
 
 - [Guide to modern experience in SharePoint](guide-to-sharepoint-modern-experience.md)
 
-- [SharePoint modern inspiration](https://lookbook.microsoft.com/)  
+- [SharePoint Look Book adoption sites](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom)  
 
 - [Modernizing your classic sites](/sharepoint/dev/transform/modernize-classic-sites)  
 

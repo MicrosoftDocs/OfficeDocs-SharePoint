@@ -142,7 +142,7 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 Start by navigating to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the Hybrid work PnP template. Follow [the instructions](/sharepoint/dev/solution-guidance/applying-pnp-templates) to provision the PnP template.
 
 <br> 
-Learn more about [provisioning site templates from the look book](./add-sample-site.md). 
+Learn more about [provisioning site templates](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom). 
 
 
 ### Share the site with site owners and members to customize
