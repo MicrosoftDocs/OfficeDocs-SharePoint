@@ -50,12 +50,12 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
 HKCU\Software\Microsoft\OneDrive
 
 [IncludeFolderTrees]
-<Appdata>\Microsoft\Windows\Recent
-<Appdata>\Microsoft\crypto
-<Appdata>\SystemCertificates
-<LocalAppdata>\Microsoft\IdentityCache
-<LocalAppdata>\Microsoft\Internet Explorer
-<LocalAppdata>\Microsoft\Windows\INetCache
+&ltAppdata&gt\Microsoft\Windows\Recent
+&ltAppdata&gt\Microsoft\crypto
+&ltAppdata&gt\SystemCertificates
+&ltLocalAppdata&gt\Microsoft\IdentityCache
+&ltLocalAppdata&gt\Microsoft\Internet Explorer
+&ltLocalAppdata&gt\Microsoft\Windows\INetCache
 
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
