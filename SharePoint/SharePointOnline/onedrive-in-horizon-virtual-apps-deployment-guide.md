@@ -24,7 +24,7 @@ description: In this article, you'll learn how to enable OneDrive in Omnissa Hor
 
 # Prerequisites
 
-•	Omnissa Horizon 
+•	Omnissa Horizon\
 •	Microsoft Windows OS
 
 All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon Virtual App environment configurations.
@@ -50,22 +50,22 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
 HKCU\Software\Microsoft\OneDrive
 
 [IncludeFolderTrees]
-&ltAppdata&gt\Microsoft\Windows\Recent
-&ltAppdata&gt\Microsoft\crypto
-&ltAppdata&gt\SystemCertificates
-&ltLocalAppdata&gt\Microsoft\IdentityCache
-&ltLocalAppdata&gt\Microsoft\Internet Explorer
-&ltLocalAppdata&gt\Microsoft\Windows\INetCache
+\<Appdata>\Microsoft\Windows\Recent
+\<Appdata>\Microsoft\crypto
+\<Appdata>\SystemCertificates
+\<LocalAppdata>\Microsoft\IdentityCache
+\<LocalAppdata>\Microsoft\Internet Explorer
+\<LocalAppdata>\Microsoft\Windows\INetCache
 
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
-1.	Launch the Omnissa Dynamic Environment Manager management console, select Create Config File and select Use an Application Template.
+1.	Launch the Omnissa Dynamic Environment Manager management console, select **Create Config File** and select **Use an Application Template**.
 
-2.	Select the application template (Microsoft Office 2016 and 2019, or Microsoft 365), Select OneDrive for Business and click Next.
+2.	Select the application template (Microsoft Office 2016 and 2019, or Microsoft 365), Select **OneDrive for Business** and click **Next**.
 
-3.	Provide the file name and description and select Finish.
+3.	Provide the file name and description and select **Finish**.
 
-4.	Add the previously listed required registry keys to Import / Export settings.
+4.	Add the previously listed **required registry keys** to **Import / Export** settings.
 
 
 #### Configure FSLogix with Omnissa Dynamic Environment Manager
@@ -74,7 +74,7 @@ Configuring FSLogix in combination with Dynamic Environment Manager will help wi
 
 Please refer to the following article to configure FSLogix Office Container (ODFC) on all Horizon Virtual App farm servers.
 
-https://learn.microsoft.com/en-us/fslogix/tutorial-configure-odfc-containers?source=recommendations
+[FSLogix](/fslogix/tutorial-configure-odfc-containers)
 
 Please install the OneDrive sync client with /allusers switch on all the Horizon Virtual App farm hosts as machine installer. 
 
