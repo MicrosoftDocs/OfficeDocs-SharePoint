@@ -283,7 +283,7 @@ The example for this setting in the .plist file is:
 
 When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the devices of the user and on the web. This setting lets you hide the warning message.
 
-If you set the setting's value to **True**, users won't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+If you set the setting's value to 1, users won't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
 
 The example for this setting in the .plist file is:
 
