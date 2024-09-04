@@ -25,13 +25,13 @@ description: "Learn how to enable Copilot to provide an on-brand asset experienc
 > [!NOTE]
 > This feature is only currently available to preview customers, please follow [this link](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=406170) for the latest updates on general availability.
 
-Copilot can now search and retrieve enterprise assets directly from your organizations asset libraries. This new workflow helps organizations democratize access of approved brand assets and simplifies retrieval through Copilot chat. Create on-brand documents with quick access to company stock images, logos, icons and illustrations.
+Copilot can now search and retrieve enterprise assets directly from your organizational asset libraries (OALs). This new workflow helps organizations democratize access of approved brand assets and simplifies retrieval through Copilot chat. Create on-brand documents with quick access to company stock images, logos, icons and illustrations.
 
 ## How does it work?
 
 - Assigning an organization image library authorizes Copilot to search and download content directly from the library. 
 - Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt directs the query to search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
-- Powered by Graph search, Copilot uses the image tags, file name, description, and location added to the content in the organization asset library to find a relevant image.
+- Searching from Copilot utilizes image metadata stored within the OAL. Image tags, file name, description, and location are used to help find the most relevant results.
 ![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
 
 ## Use Microsoft PowerShell to specify an organization image document library to be searchable
