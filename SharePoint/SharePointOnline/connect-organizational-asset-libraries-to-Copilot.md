@@ -25,13 +25,13 @@ description: "Learn how to enable Copilot to provide an on-brand asset experienc
 > [!NOTE]
 > This feature is only currently available to preview customers, please follow [this link](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=406170) for the latest updates on general availability.
 
-Your organization can now enable Copilot to provide an on-brand asset experience. Specify the organization asset libraries you want Copilot to search from and users within your organization are able to query for images, logos, or illustrations directly from chat.
+Copilot can now search and retrieve enterprise assets directly from your organizations asset libraries. This new workflow helps organizations democratize access of approved brand assets and simplifies retrieval through Copilot chat. Create on-brand documents with quick access to company stock images, logos, icons and illustrations.
 
 ## How does it work?
 
 - Assigning an organization image library authorizes Copilot to search and download content directly from the library. 
 - Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt directs the query to search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
-- Powered by Graph search. Copilot uses the image tags, file name, description, and location added to the content in the organization asset library to find a relevant image.
+- Powered by Graph search, Copilot uses the image tags, file name, description, and location added to the content in the organization asset library to find a relevant image.
 ![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
 
 ## Use Microsoft PowerShell to specify an organization image document library to be searchable
@@ -77,7 +77,7 @@ Set-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType I
 > - Organization asset libraries can currently be searched from PowerPoint and Word Copilot chat, on both desktop and web. Support for further Copilot features, endpoints and M365 applications are currently in development.
 > - You can specify only 1 organization image library to be searchable. We will support more libraries in the future.
 > - If you don’t already have an organization asset library created, use Microsoft PowerShell to specify an existing library as an organization asset library
-> - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later. (The organization assets library is not available in Word on the web or Excel on the web.) 
+> - For the organization assets library to appear to a user in PowerPoint or Word on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later.
 > - Allow up to 24 hours for the organization assets library to appear to a user in the desktop apps. 
 - Users need at least read permissions on the root site for your organization for the organization assets library to appear in the desktop apps.
 
