@@ -290,11 +290,7 @@ The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableCusomRoot</key>
-<integer>1</integer>
-<dict>
-<key>TenantId</key>
-<string>(TenantID)</string>
-</dict>
+<(Bool)/>
 ```
 
 ### DisableHydrationToast
