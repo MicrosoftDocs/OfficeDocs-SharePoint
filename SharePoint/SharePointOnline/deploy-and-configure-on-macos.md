@@ -136,7 +136,6 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
   [DisableFREAnimation](deploy-and-configure-on-macos.md#disablefreanimation)
-- [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
@@ -284,29 +283,15 @@ The example for this setting in the .plist file is:
 
 This setting lets you prevent the animation from showing during OneDrive Setup.
 
-If you set the setting's value to **True**, animations will not be shown during OneDrive Setup
+If you set the setting's value to 1, animations will not be shown during OneDrive Setup
 
 The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableFREAnimation</key>
-<(Bool)/>
+<integer>1</integer>
 ```
 
-### DisableHydrationToast
-
-<a name="DisableHydrationToast"> </a>
-
-This setting prevents toasts from appearing when applications cause file contents to be downloaded.
-
-If you set the setting's value to **True**, toasts don't appear when applications trigger the download of file contents.
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableHydrationToast</key>
-<(Bool)/>
-```
 
 ### DisableOfflineMode
 
