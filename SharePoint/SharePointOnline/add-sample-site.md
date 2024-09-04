@@ -41,7 +41,7 @@ What's included in a sample? You get:
 
 Browse the samples in the online [SharePoint Look Book adoption page](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom).
 
-Or, navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need. Follow steps mentioned in [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates#provisioning-a-template) to provision a template.
+Or, navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need. Follow steps mentioned [here](/sharepoint/dev/solution-guidance/applying-pnp-templates#provisioning-a-template) to provision a template.
 
 To use this service, you need to be signed in as a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365.
 
