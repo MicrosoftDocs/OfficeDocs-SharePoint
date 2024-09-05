@@ -136,7 +136,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#DisableFirstDeleteDialog)
-- [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
+- [DisableCustomRoot](deploy-and-configure-on-macos.md#Disablecustomroot)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
