@@ -62,7 +62,7 @@ On the next start of OneDrive, the new settings will be picked up.
 > [!IMPORTANT]
 > macOS 13 (Ventura) contains new privacy enhancements. Beginning with this version, by default, applications cannot run in background without explicit consent. OneDrive must run its daemon process in background. This configuration profile grants Background Service permissions to OneDrive. If you previously configured OneDrive through Microsoft Intune, we recommend you update the deployment with this configuration profile.
 
-You will need to create system configuration profiles that OneDrive needs to open at login and run reliably in the background.  Here is an example:
+You need to create system configuration profiles that OneDrive needs to open at sign-in and run reliably in the background. Here's an example:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -125,7 +125,7 @@ You will need to create system configuration profiles that OneDrive needs to ope
 
 ## Overview of settings
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
+Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name are different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 ## List of settings
 
@@ -135,6 +135,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
+- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#DisableFirstDeleteDialog)
 - [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
@@ -157,6 +158,8 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [UploadBandwidthLimited](deploy-and-configure-on-macos.md#uploadbandwidthlimited)
 
 ### AllowTenantList
+
+This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user is already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
 
 This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
 
@@ -204,7 +207,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
-If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does **NOT** work if you have the **AllowTenantList** setting enabled. Do **NOT** enable both settings at the same time.
+If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user is already added an account for a blocked organization, the files stop syncing. This setting does **NOT** work if you have the **AllowTenantList** setting enabled. Do **NOT** enable both settings at the same time.
 
 Enable this setting by defining IDs for the **TenantID** parameter, which determines the tenants to whom the **block tenant** setting is applicable. Also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
@@ -229,10 +232,12 @@ This setting specifies the default location of the OneDrive folder for each orga
 
 The parameters are **TenantID** and **DefaultFolderPath**.
 The **TenantID** value is a string that determines the tenants to whom the **default folder location** setting is applicable.
-The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (i.e. the default location) you can specify the path as ~/. The string would look like this:
+The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (that is, the default location), you can specify the path as ~/. The string would look like this:
 
 `
+`
 <string>~/</string>
+`
 `
 
 The following are the conditions governing the default folder location:
@@ -261,6 +266,32 @@ The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableAutoConfig</key>
+<integer>1</integer>
+```
+
+### DisableFirstDeleteDialog
+
+When a user deletes local files from a synced location, a warning message appears that the files are no longer available across all the devices of the user and on the web. This setting lets you hide the warning message.
+
+If you set the setting's value to 1, users don't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableFirstDeleteDialog</key>
+<integer>1</integer>
+```
+
+### DisableFirstDeleteDialog
+
+When a user deletes local files from a synced location, a warning message appears that the files are no longer available across all the devices of the user and on the web. This setting lets you hide the warning message.
+
+If you set the setting's value to 1, users don't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableFirstDeleteDialog</key>
 <integer>1</integer>
 ```
 
@@ -329,6 +360,8 @@ To re-enable offline mode in OneDrive on the web for libraries and folders that 
 
 ### DisablePersonalSync
 
+This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting is configured after a user sets up sync with a personal account, the user gets signed out.
+
 This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
 If you set the setting's value to **True**, users are prevented from adding or syncing personal accounts.
@@ -372,7 +405,7 @@ This setting lets you enter keywords to prevent the OneDrive sync app from uploa
 
 If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon.
 
-Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
+Users see a message in the OneDrive activity center that explains why the files aren't syncing.
 
 The example for this setting in the .plist file is:
 
@@ -387,7 +420,7 @@ The example for this setting in the .plist file is:
 
 This setting lets the OneDrive sync app report device and health data that's to be included in sync admin reports. You must enable this setting on the devices you want to get reports from. For more information about these reports, see [OneDrive sync reports in the Apps Admin Center](/sharepoint/sync-health?tabs=macos).
 
-If you disable or don't configure this setting, OneDrive sync app device and health data won't appear in the sync admin reports.
+If you disable or don't configure this setting, OneDrive sync app device and health data don't appear in the sync admin reports.
 
 The following example shows how this setting looks like in the .plist file:
 
@@ -420,6 +453,11 @@ To enable this setting, you must define a string in JSON format:
 
 `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`
 
+"appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that can be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that can be blocked.
+To enable this setting, you must define a string in JSON format:
+
+`[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`
+
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
 The example for this setting in the .plist file is:
@@ -434,7 +472,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable KFMBlockOptIn, users aren't prompted to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders remain in OneDrive. This setting doesn't take effect if you've enabled **KFMOptInWithWizard**" or **KFMSilentOptIn**.
+If you enable KFMBlockOptIn, users aren't prompted to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user previously moved their Desktop and Documents folders, the files in those folders remain in OneDrive. This setting doesn't take effect if you enabled **KFMOptInWithWizard**" or **KFMSilentOptIn**.
 
 If you set this setting's value to 1, it prevents Folder Backup. If you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
 
@@ -484,7 +522,7 @@ The example for this setting in the .plist file is:
 <string>(TenantID)</string>
 ```
 
-If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected:
+If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders are redirected:
 
 ```xml
 <key>KFMSilentOptInWithNotification</key>
@@ -552,6 +590,7 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
+If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 
 The example for this setting in the .plist file is:
