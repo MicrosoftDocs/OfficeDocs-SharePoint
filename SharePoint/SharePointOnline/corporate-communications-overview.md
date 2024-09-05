@@ -7,7 +7,7 @@ author: maggierui
 manager: jtremper
 recommendations: true
 audience: Admin
-ms.topic: article
+ms.topic: solution-overview
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
