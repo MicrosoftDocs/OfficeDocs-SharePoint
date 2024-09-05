@@ -33,7 +33,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |RAM |16 GB |
 |Local Storage|Solid-state disk: 150 GB free space|
 |Network card|1 Gbps|
-|Operating system |Windows Server 2012 R2 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later |
+|Operating system |Windows Server 2016 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later |
 
 </br>
 
@@ -46,7 +46,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |RAM|8 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Network card|High-speed Internet connection|
-|Operating system|Windows Server 2012 R2 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later|
+|Operating system|Windows Server 2016 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later|
 
 
 
@@ -76,7 +76,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https:<span><span>//graph.<span><span>microsoft.<span><span>com| Access Microsoft Graph API to get tenant information and site information for public cloud and GCC|
 |https:<span><span>//graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for GCC high|
 |https:<span><span>//dod-graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for DoD|
-|https:<span><span>//spmt.sharepointonline.<span><span>com|SPMT Installation link.
+|https:<span><span>//spmt.sharepointonline.<span><span>com|SharePoint Migration Tool (SPMT) Installation link.
 
 
 
