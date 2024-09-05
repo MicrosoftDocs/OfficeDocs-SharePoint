@@ -225,10 +225,23 @@ Items:
       href: brand-center-overview.md
     - name: Brand fonts
       href: brand-fonts.md
-    - name: Font packages
-      href: brand-center-font-packages.md
-    - name: Font licensing
-      href: brand-font-licensing.md
+      items:
+      - name: Font packages
+        href: brand-center-font-packages.md 
+      - name: Font licensing
+        href: brand-font-licensing.md
+    - name: Brand colors
+      href: brand-colors.md
+      items:
+      - name: Site theme
+        href: site-theme.md
+    - name: Organization assets library
+      href: organization-assets-library.md
+      items:
+      - name: Support for organization fonts in PowerPoint for the web
+        href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
+      - name: Connect organizational asset libraries to Copilot
+        href: connect-organizational-asset-libraries-to-copilot.md
   - name: Site administration
     items:
     - name: Create sites
@@ -267,11 +280,6 @@ Items:
       href: sharepoint-app-bar.md
     - name: Create guidelines for site usage 
       href: sites-usage-guidelines.md
-    - name: Create an organization assets library
-      href: organization-assets-library.md
-      items:
-      - name: Support for organization fonts in PowerPoint for the web
-        href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
     - name: Create an organization news site
       href: organization-news-site.md
   - name: OneDrive users and storage
