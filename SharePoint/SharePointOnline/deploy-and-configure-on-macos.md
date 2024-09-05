@@ -136,7 +136,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
-- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disableFirstDeleteDialog)
+- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disablefirstdeletedialog)
 - [DisableFREAnimation](deploy-and-configure-on-macos.md#disablefreanimation)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
@@ -290,6 +290,7 @@ The example for this setting in the .plist file is:
 ```xml
 <key>DisableFirstDeleteDialog</key>
 <integer>1</integer>
+```
 
 ### DisableFREAnimation
 
