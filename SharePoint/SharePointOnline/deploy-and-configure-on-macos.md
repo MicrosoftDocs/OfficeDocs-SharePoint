@@ -1,5 +1,5 @@
 ---
-ms.date: 03/14/2024
+ms.date: 09/05/2024
 title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: cagreen
 ms.author: mactra
@@ -235,9 +235,7 @@ The **TenantID** value is a string that determines the tenants to whom the **def
 The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (that is, the default location), you can specify the path as ~/. The string would look like this:
 
 `
-`
 <string>~/</string>
-`
 `
 
 The following are the conditions governing the default folder location:
@@ -266,19 +264,6 @@ The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableAutoConfig</key>
-<integer>1</integer>
-```
-
-### DisableFirstDeleteDialog
-
-When a user deletes local files from a synced location, a warning message appears that the files are no longer available across all the devices of the user and on the web. This setting lets you hide the warning message.
-
-If you set the setting's value to 1, users don't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableFirstDeleteDialog</key>
 <integer>1</integer>
 ```
 
