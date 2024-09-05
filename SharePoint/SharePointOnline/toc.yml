@@ -240,6 +240,8 @@ Items:
       items:
       - name: Support for organization fonts in PowerPoint for the web
         href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
+      - name: Connect organizational asset libraries to Copilot
+        href: connect-organizational-asset-libraries-to-copilot.md
   - name: Site administration
     items:
     - name: Create sites
