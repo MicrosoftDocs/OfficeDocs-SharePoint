@@ -135,9 +135,9 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
-- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disableFirstDeleteDialog)
 - [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
-  [DisableFREAnimation](deploy-and-configure-on-macos.md#disablefreanimation)
+- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disableFirstDeleteDialog)
+- [DisableFREAnimation](deploy-and-configure-on-macos.md#disablefreanimation)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
@@ -161,8 +161,6 @@ Use the following keys to preconfigure or change settings for your users. The ke
 ### AllowTenantList
 
 This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user is already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
-
-This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
@@ -268,52 +266,44 @@ The example for this setting in the .plist file is:
 <integer>1</integer>
 ```
 
+### DisableCustomRoot
+
+This setting lets you block users from changing the location of the OneDrive folder on their computer.
+
+If you set this setting's value to **True**, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableCustomRoot</key>
+<(Bool)/>
+```
+
 ### DisableFirstDeleteDialog
-### DisableFREAnimation 
 
 When a user deletes local files from a synced location, a warning message appears that the files are no longer available across all the devices of the user and on the web. This setting lets you hide the warning message.
-<a name="DisableFREAnimation"> </a>
+
+If you set the setting's value to 1, users don't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>DisableFirstDeleteDialog</key>
+<integer>1</integer>
+
+### DisableFREAnimation
 
 If you set the setting's value to 1, users don't see the Deleted files are removed everywhere reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
 This setting lets you prevent the animation from showing during OneDrive Setup.
 
-If you set the setting's value to 1, animations will not be shown during OneDrive Setup
+If you set the setting's value to 1, animations will not be shown during OneDrive Setup.
 
 The example for this setting in the .plist file is:
 
 ```xml
 <key>DisableFREAnimation</key>
-<integer>1</integer>
-<key>DisableFirstDeleteDialog</key>
-<integer>1</integer>
+<integer>1</integer
 ```
-
-### DisableCustomRoot
-
-This setting lets you block users from changing the location of the OneDrive folder on their computer.
-
-If you set this setting's value to **True**, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableCustomRoot</key>
-<(Bool)/>
-```
-
-### DisableCustomRoot
-
-This setting lets you block users from changing the location of the OneDrive folder on their computer.
-
-If you set this setting's value to **True**, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
-
-The example for this setting in the .plist file is:
-
-```xml
-<key>DisableCustomRoot</key>
-<(Bool)/>
-```
-
 
 ### DisableOfflineMode
 
@@ -368,8 +358,6 @@ To re-enable offline mode in OneDrive on the web for libraries and folders that 
 ### DisablePersonalSync
 
 This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting is configured after a user sets up sync with a personal account, the user gets signed out.
-
-This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
 If you set the setting's value to **True**, users are prevented from adding or syncing personal accounts.
 
@@ -461,11 +449,6 @@ To enable this setting, you must define a string in JSON format:
 `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`
 
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that can be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that can be blocked.
-To enable this setting, you must define a string in JSON format:
-
-`[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`
-
-"appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
 The example for this setting in the .plist file is:
 
@@ -597,7 +580,6 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
-If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 
 The example for this setting in the .plist file is:
