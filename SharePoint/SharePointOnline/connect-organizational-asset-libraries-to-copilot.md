@@ -32,7 +32,7 @@ Copilot can now search and retrieve enterprise assets directly from your organiz
 - Assigning an organization image library authorizes Copilot to search and download content directly from the library. 
 - Powered by Designer, any image request that utilizes “brand” or “enterprise” in the prompt directs the query to search the assigned organization asset library. For example, “add a brand image of a warehouse” would query the assigned library for any image with associated metadata that matches “warehouse.”
 - Searching from Copilot utilizes image metadata stored within the OAL. Image tags, file name, description, and location are used to help find the most relevant results.
-![screenshot of searching for brand images in Copilot](media/copilot-brand-image-search.png)
+![Screenshot of searching for brand images in Copilot.](media/copilot-brand-image-search.png)
 
 ## Use Microsoft PowerShell to specify an organization image document library to be searchable
 
