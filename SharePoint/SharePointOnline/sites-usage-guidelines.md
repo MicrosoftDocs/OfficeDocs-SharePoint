@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.author: ruihu
-localization_priority: None 
+ms.localizationpriority: low 
 ---
 
 # Create guidelines for site usage
