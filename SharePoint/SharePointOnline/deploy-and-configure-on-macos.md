@@ -63,6 +63,7 @@ On the next start of OneDrive, the new settings will be picked up.
 > macOS 13 (Ventura) contains new privacy enhancements. Beginning with this version, by default, applications cannot run in background without explicit consent. OneDrive must run its daemon process in background. This configuration profile grants Background Service permissions to OneDrive. If you previously configured OneDrive through Microsoft Intune, we recommend you update the deployment with this configuration profile.
 
 You will need to create system configuration profiles that OneDrive needs to open at login and run reliably in the background.  Here is an example:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -122,7 +123,6 @@ You will need to create system configuration profiles that OneDrive needs to ope
 </plist>
 ```
 
-
 ## Overview of settings
 
 Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
@@ -158,8 +158,6 @@ Use the following keys to preconfigure or change settings for your users. The ke
 
 ### AllowTenantList
 
-<a name="AllowTenantList"> </a>
-
 This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
@@ -178,8 +176,6 @@ The example for this setting in the .plist file is:
   
 ### AutomaticUploadBandwidthPercentage
 
-<a name="AutomaticUploadBandwidthPercentage"> </a>
-
 This setting enables the sync app to automatically set the amount of bandwidth that can be used for uploading files, based on available bandwidth.
 
 To enable this setting, you must define a number between 1 and 99 that determines the percentage of bandwidth the sync app can use out of the total available bandwidth.
@@ -192,8 +188,6 @@ The example for this setting in the .plist file is:
 ```
 
 ### BlockExternalSync
-
-<a name="BlockExternalSync"> </a>
 
 This setting prevents the sync app from syncing libraries and folders shared from other organizations.
 
@@ -208,7 +202,6 @@ The example for this setting in the .plist file is:
 
 ### BlockTenantList
 
-<a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
 If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does **NOT** work if you have the **AllowTenantList** setting enabled. Do **NOT** enable both settings at the same time.
@@ -232,17 +225,15 @@ The example for this setting in the .plist file is:
 
 ### DefaultFolderLocation
 
-<a name="DefaultFolderLocation"> </a>
 This setting specifies the default location of the OneDrive folder for each organization.
 
 The parameters are **TenantID** and **DefaultFolderPath**.
 The **TenantID** value is a string that determines the tenants to whom the **default folder location** setting is applicable.
 The **DefaultFolderPath** value is a string that specifies the default location of the folder. If you want to enforce the location to be the home directory of the user (i.e. the default location) you can specify the path as ~/. The string would look like this:
 
-
-```
+`
 <string>~/</string>
-```
+`
 
 The following are the conditions governing the default folder location:
 -**Mac App Store**: The path must already exist when the user is setting up the sync app.
@@ -262,8 +253,6 @@ The example for this setting in the .plist file is:
 
 ### DisableAutoConfig
 
-<a name="DisableAutoConfig"> </a>
-
 This setting determines whether or not the sync app can automatically sign in.
 
 If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Entra credential that is made available to Microsoft applications.
@@ -277,8 +266,6 @@ The example for this setting in the .plist file is:
 
 ### DisableCustomRoot
 
-<a name="DisableCustomRoot"> </a>
-
 This setting lets you block users from changing the location of the OneDrive folder on their computer.
 
 If you set this setting's value to **True**, the Change location link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation).
@@ -286,7 +273,7 @@ If you set this setting's value to **True**, the Change location link is hidden 
 The example for this setting in the .plist file is:
 
 ```xml
-<key>DisableCusomRoot</key>
+<key>DisableCustomRoot</key>
 <(Bool)/>
 ```
 
@@ -342,8 +329,6 @@ To re-enable offline mode in OneDrive on the web for libraries and folders that 
 
 ### DisablePersonalSync
 
-<a name="DisablePersonalSync"> </a>
-
 This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
 If you set the setting's value to **True**, users are prevented from adding or syncing personal accounts.
@@ -356,8 +341,6 @@ The example for this setting in the .plist file is:
 ```
 
 ### DisableTutorial
-
-<a name="DisableTutorial"> </a>
 
 This setting prevents the tutorial from being shown to the users after they set up OneDrive.
 
@@ -372,8 +355,6 @@ The example for this setting in the .plist file is:
 
 ### DownloadBandwidthLimited
 
-<a name="DownloadBandwidthLimited"> </a>
-
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
 Set this setting's value to an integer between 50 and 100000 to specify the download throughput in KB/sec that the sync app can use.
@@ -386,8 +367,6 @@ The example for this setting in the .plist file is:
 ```
 
 ### EnableODIgnore
-
-<a name="EnableODIgnore"> </a>
 
 This setting lets you enter keywords to prevent the OneDrive sync app from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as*.pst. Keywords aren't case-sensitive.
 
@@ -406,8 +385,6 @@ The example for this setting in the .plist file is:
 
 ### EnableSyncAdminReports
 
-<a name="EnableSyncAdminReports"> </a>
-
 This setting lets the OneDrive sync app report device and health data that's to be included in sync admin reports. You must enable this setting on the devices you want to get reports from. For more information about these reports, see [OneDrive sync reports in the Apps Admin Center](/sharepoint/sync-health?tabs=macos).
 
 If you disable or don't configure this setting, OneDrive sync app device and health data won't appear in the sync admin reports.
@@ -424,8 +401,6 @@ The following example shows how this setting looks like in the .plist file:
 
 ### HideDockIcon
 
-<a name="HideDockIcon"> </a>
-
 This setting specifies whether a dock icon for OneDrive is shown.
 
 If you set this setting's value to **True**, the OneDrive dock icon is hidden even if the app is running.
@@ -439,12 +414,12 @@ The example for this setting in the .plist file is:
 
 ### HydrationDisallowedApps
 
-<a name="HydrationDisallowedApps"> </a>
-
 This setting prevents apps from automatically downloading online-only files. You can use this setting to lock down apps that don't work correctly with your deployment of Files On-Demand.
 
-To enable this setting, you must define a string in JSON format as described below:
-<br/>`[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`<br/>
+To enable this setting, you must define a string in JSON format:
+
+`[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`
+
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
 The example for this setting in the .plist file is:
@@ -456,8 +431,6 @@ The example for this setting in the .plist file is:
 ```
 
 ### KFMBlockOptIn
-
-<a name="KFMBlockOptIn"> </a>
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
@@ -474,8 +447,6 @@ The example for this setting in the .plist file is:
 
 ### KFMBlockOptOut
 
-<a name="KFMBlockOptOut"> </a>
-
 This setting forces users to keep their Documents and Desktop folders directed to OneDrive.
 
 If you enable this setting, the **Stop Backup** button in the **Manage Folder Backup** window is disabled, and users receive an error if they try to stop syncing their Desktop or Documents folder.
@@ -489,8 +460,6 @@ The example for this setting in the .plist file is:
 
 ### KFMOptInWithWizard
 
-<a name="KFMOptInWithWizard"> </a>
-
 This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
 
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive sees the Folder Backup wizard window when they're signed in. If they close the window, a reminder notification appears in the Sync Activity Center until they move their Desktop and Documents folders.
@@ -503,8 +472,6 @@ The example for this setting in the .plist file is:
 ```
 
 ### KFMSilentOptIn
-
-<a name="KFMSilentOptIn"> </a>
 
 Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction.
   
@@ -535,8 +502,6 @@ If you don't set any of the following settings, then the default setting moves b
 
 ### OpenAtLogin
 
-<a name="OpenAtLogin"> </a>
-
 > [!IMPORTANT]
 > The OpenAtLogin setting will be deprecated with Sync app 24.113. Please refer to [Background services](deploy-and-configure-on-macos.md#background-services) to configure the appropriate profile for enabling OneDrive to start automatically when the user logs in.
 
@@ -553,8 +518,6 @@ The example for this setting in the .plist file is:
 
 ### SharePointOnPremFrontDoorUrl
 
-<a name="SharePointOnPremFrontDoorUrl"> </a>
-
 This setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against.
 
 To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
@@ -570,8 +533,6 @@ The example for this setting in the .plist file is:
 
 ### SharePointOnPremPrioritizationPolicy
 
-<a name="SharePointOnPremPrioritizationPolicy"> </a>
-
 This setting determines whether or not the sync app should set up sync for SharePoint Server on-premises or SharePoint in Microsoft 365 first during the first-run scenario when the account is the same for both SharePoint Server and SharePoint in Microsoft 365 in a hybrid scenario.
 
 If you set this setting's value to **1**, the OneDrive sync app sets up SharePoint Server first, followed by SharePoint in Microsoft 365.
@@ -585,15 +546,13 @@ The example for this setting in the .plist file is:
 
 ### SharePointOnPremTenantName
 
-<a name="SharePointOnPremTenantName"> </a>
-
 This setting enables you to specify the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
 
 If this setting is enabled, you can specify a TenantName that is the name the folder uses in the following convention:
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
-If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
+If you don't specify any TenantName, the folder uses the first segment of the FrontDoorURL as its name. For example, https://</span>Contoso.SharePoint.com uses Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 
 The example for this setting in the .plist file is:
 
@@ -605,8 +564,6 @@ The example for this setting in the .plist file is:
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 ### Tier
-
-<a name="Tier"> </a>
 
 This setting lets you specify the sync app update ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred. When you enable this setting and select a ring, users aren't able to change it.
 
@@ -636,8 +593,6 @@ The example for this setting in the .plist file is:
 > For example, `defaults write com.microsoft.OneDrive Tier -string "Deferred"`.
 
 ### UploadBandwidthLimited
-
-<a name="UploadBandwidthLimited"> </a>
 
 This setting defines the maximum upload throughput rate for computers running the OneDrive sync app.
 
