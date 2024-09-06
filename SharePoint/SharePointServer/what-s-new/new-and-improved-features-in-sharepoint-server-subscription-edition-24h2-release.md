@@ -64,4 +64,4 @@ OIDC is an authentication protocol that uses JSON Web Tokens (JWTs) to verify th
 
 Some OIDC providers use RSA public keys that are directly represented with RSA modulus and RSA public exponent. To support these providers, SharePoint Server Subscription Edition Version 24H2 now gives the ability to parse and validate RSA public keys in JWTs. 
 
-For more information, see [Support RSA public key in OIDC authentication configuration](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-using-rsa).
+For more information, see [Set up OIDC authentication in SharePoint Server using RSA public keys](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-using-rsa).
