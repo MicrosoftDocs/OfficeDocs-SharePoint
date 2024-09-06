@@ -41,13 +41,13 @@ A user tells Copilot what they want, and Copilot only provides response using th
 -	Control content access: Limit content access by Copilot with user group settings, and other tools. 
 -	Manage content lifecycle: remove inactive and outdated content and sites. Make sure the information Copilot access is accurate and up to date. 
 
-## Use SAM to get your organization ready for Copilot
+## Use SharePoint Advanced Management(SAM) to get your organization ready for Copilot
 
 Microsoft SharePoint Premium – SharePoint Advanced Management (SAM) is an essential Microsoft 365 add-on that helps you, as the SharePoint admin to address these four pillars around content governance. To get ready for your organization’s Microsoft 365 Copilot adoption, there are a few highly recommended steps you can take, primarily using SharePoint Advanced Management tools. These steps reduce accidental oversharing, minimize your content governance footprint, improve Copilot response quality, control content access by Copilot, and ensure data safety specifically for business-critical sites. Let's delve into the specific steps you can take:
 
 ### Step 1: Reduce accidental oversharing with SharePoint sharing settings
 
-Reduce accidental oversharing via Copilot going forward by using best practice sharing settings. The best offense is defense. The best way to prepare your organization for Copilot is to proactively set the appropriate sharing settings for end users at both the organization level and the site level:  
+To minimize accidental content oversharing via Copilot results, it's crucial to implement the best practice sharing settings. Proactive safeguards are key. To effectively prepare your organization for Gen AI, set the appropriate sharing settings for end users at both the organization and site levels:  
 
 At the organization level:
 
