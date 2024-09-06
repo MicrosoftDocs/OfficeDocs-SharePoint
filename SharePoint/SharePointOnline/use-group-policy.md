@@ -1,7 +1,7 @@
 ---
 ms.date: 05/23/2024
 title: IT Admins - Use OneDrive policies to control sync settings
-ms.reviewer: kafeaver
+ms.reviewer: gacarini
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -66,6 +66,10 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 > For information about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](/windows/client-management/mdm/policy-csp-storage).
 
 ## List of policies by string ID
+
+- (AddedFolderHardDeleteOnUnmount) [Hard-deletes the contents of an added folder when unmounted](use-group-policy.ms#hard-deletes-the-contents-of-an-added-folder-when-unmounted)
+
+- (AddedFolderUnmountOnPermissionsLoss) [Hard-deletes contents of an added folder when user loses permissions to the folder](use-group-policy.ms#hard-deletes-contents-of-an-added-folder-when-user-loses-permissions-to-the-folder)
 
 - (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
@@ -162,6 +166,26 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 Under Computer Configuration\Policies\Administrative Templates\OneDrive, navigate to **Computer Configuration > Policies**.
   
 ![Computer Configuration policies in the Group Policy Management Editor](media/07b81d35-9ccc-4c61-8a86-52d9bcff7ddb.png)
+
+### Hard-delete the contents of an added folder when unmounted
+
+If you enable this setting, when an unmount of an Added Folder is received, the Sync client will hard-delete all the contents of the folder.
+
+If admins disable or do not configure this setting, Sync will by default move the contents of the unmounted folder to the recycle-bin.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive]"AddedFolderHardDeleteOnUnmount"=dword:00000001`
+
+### Hard-delete the contents of an added folder when user loses permissions to the folder
+
+If you enable this setting, when the Sync client detects that the user lost permissions to an Added Folder, the Sync client will hard-delete all the contents of the folder and the folder itself.
+
+If admins disable or do not configure this setting, Sync will by default mark the folder in error and prompt the user to remove it. When the user confirms the removals, the contents of the folder are moved to the recycle-bin.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive]"AddedFolderUnmountOnPermissionsLoss"=dword:00000001`
 
 ### Allow OneDrive to disable Windows permission inheritance in folders synced read-only
 
