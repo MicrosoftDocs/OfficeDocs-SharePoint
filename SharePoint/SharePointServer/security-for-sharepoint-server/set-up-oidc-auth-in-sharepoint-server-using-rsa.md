@@ -22,7 +22,7 @@ description: "Learn how to set up OIDC authentication in SharePoint Server using
 
 OIDC is an authentication protocol that uses JSON Web Tokens (JWTs) to verify the identity of users, and grant them access to protected resources. JWTs are digitally signed using either symmetric keys (shared between the issuer and the consumer) or asymmetric keys (public/private key pairs).  
 
-SharePoint Server currently supports OIDC auth flow with x5c keys, which are certificates that contain the public key and other metadata. However, some OIDC providers may not use x5c keys, but instead use RSA public keys that are directly represented with RSA modulus and RSA public exponent. To support these providers, SharePoint Server added the ability to parse and validate RSA public keys in JWTs. This new feature is intended to promote OIDC authentication among 3rd-party IdPs without X.509 support like PingFederate and Okta.  
+SharePoint Server currently supports OIDC auth flow with x5c keys, which are certificates that contain the public key and other metadata. However, some OIDC providers may not use x5c keys, but instead use RSA public keys that are directly represented with RSA modulus and RSA public exponent. To support these providers, SharePoint Server added the ability to parse and validate RSA public keys in JWTs.
 
 This article explains the new improvements from Version 24H2 that will help you set up OIDC authentication in SharePoint Server using RSA public keys.
 
