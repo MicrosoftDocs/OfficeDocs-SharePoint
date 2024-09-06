@@ -45,9 +45,9 @@ This section provides detailed descriptions of the new and updated features in S
 
 ### End of support notification for SharePoint Server Builds
 
-SharePoint Server Subscription Edition (SPSE) will display notifications in Central Administration and the SharePoint Management Shell when the build of SPSE that's currently installed is approaching its end of support date. The notifications will direct SharePoint farm administrators to install the latest update for SPSE to ensure uninterrupted support.
+SharePoint Server Subscription Edition (SPSE) displays notifications in Central Administration and the SharePoint Management Shell when the build of SPSE that's currently installed is approaching its end of support date. The notifications direct SharePoint farm administrators to install the latest update for SPSE to ensure uninterrupted support.
 
-SharePoint Server Subscription Edition follows the [Modern Lifecycle Policy](/lifecycle/policies/modern) and doesn't have a fixed [End of Support](/lifecycle/definitions#end-of-support) date. However, SharePoint Server Subscription Edition does have a [product servicing policy](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-se.md) that says builds will be supported for one year after its release date.  After one year, the build will no longer be supported. This is to ensure that customers stay up to date so they are not missing important security and quality fixes that have already been released, which could cause security breaches in their environments or unnecessary support cases with Microsoft Support.  
+SharePoint Server Subscription Edition follows the [Modern Lifecycle Policy](/lifecycle/policies/modern) and doesn't have a fixed [End of Support](/lifecycle/definitions#end-of-support) date. However, SharePoint Server Subscription Edition does have a [product servicing policy](../product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-se.md) that says builds will be supported for one year after its release date. After one year, the build will no longer be supported. This is to ensure that customers stay up to date so they aren't missing important security and quality fixes that are already released, which could cause security breaches in their environments or unnecessary support cases with Microsoft Support.  
 
 The triggers for the notifications are as follows: 
 
@@ -55,9 +55,9 @@ The triggers for the notifications are as follows:
 
 - **3 months until "end of support" date:** Provide a **warning notice** in Central Administration and the SharePoint Management Shell informing the admin that the current build is approaching the end of support, and they should install a newer update. 
 
-- **Beyond "end of support" date:** Provide an **error** notice in Central Administration and the SharePoint Management Shell informing the admin that the current build is no longer supported, and they should install a newer update.  This error will also appear in the Windows Application Event Log. 
+- **Beyond "end of support" date:** Provide an **error** notice in Central Administration and the SharePoint Management Shell informing the admin that the current build is no longer supported, and they should install a newer update. This error also appears in the Windows Application Event Log. 
 
-Here is an example of the warnings that would be shown one year after the June 2024 update was installed: 
+Here's an example of the warnings that would be shown one year after the June 2024 update was installed: 
 
 :::image type="content" source="../media/whats-new-24h2-warning-1.png" alt-text="Screenshot of warnings." lightbox="../media/whats-new-24h2-warning-1.png":::
 
