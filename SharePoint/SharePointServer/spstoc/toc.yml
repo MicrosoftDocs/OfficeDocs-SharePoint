@@ -75,6 +75,9 @@ Items:
         items:
         - name: Set up OIDC authentication in SharePoint Server with Microsoft Entra ID
           href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md
+          items:
+           - name: Set up OIDC authentication in SharePoint Server using RSA public keys
+             href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-rsa-public-keys.md
         - name: Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)
           href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs.md
       - name: Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server
