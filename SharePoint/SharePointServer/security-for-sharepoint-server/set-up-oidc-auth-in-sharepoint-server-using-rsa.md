@@ -53,7 +53,7 @@ For RSA public keys, you create or set up a `SPTrustedTokenIssuer` to store the 
 
 ### Configure SharePoint to trust Microsoft Entra ID by using metadata endpoint
 
-An admin can follow the same PowerShell command that is used for x5c keys when using a metadata endpoint for RSA public keys. SharePoint figures out which kind of key is used from the metadata endpoint response and creates the `SPTrustedIdentityTokenIssuer` appropriately. For more information, see [Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint](set-up-oidc-auth-in-sharepoint-server-with-msaad.md#configure-sharepoint-to-trust-microsoft-entra-oidc-by-using-metadata-endpoint)for an example.
+An admin can follow the same PowerShell command that is used for x5c keys when using a metadata endpoint for RSA public keys. SharePoint figures out which kind of key is used from the metadata endpoint response and creates the `SPTrustedIdentityTokenIssuer` appropriately. For more information, see [Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint](set-up-oidc-auth-in-sharepoint-server-with-msaad.md#configure-sharepoint-to-trust-microsoft-entra-id-by-using-metadata-endpoint) for an example.
 
 ### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
 
