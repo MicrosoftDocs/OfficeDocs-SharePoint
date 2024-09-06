@@ -26,36 +26,25 @@ SharePoint Server currently supports OIDC auth flow with x5c keys, which are cer
 
 This article explains the new improvements from Version 24H2 that will help you set up OIDC authentication in SharePoint Server using RSA public keys.
 
-## Prerequisites
-
-To configure OpenID Connect (OIDC) using RSA public keys with Microsoft Entra ID, you need the following resources:
-
-1. A SharePoint Server Subscription Edition (SPSE) farm
-
-2. Microsoft Entra Global Administrator role of the M365 tenant
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
-
 ## OIDC configuration with RSA public keys overview
 
 1. Set up OIDC with Microsoft Entra ID using Global Administrator credentials by performing the steps mentioned [here](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-1-setup-identity-provider).
-1. Modify the SharePoint Server farm properties based on the version of your SharePoint Server farm. For more information, see [Change SharePoint farm properties](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-2-change-sharepoint-farm-properties).
-1. Configure SharePoint to trust Microsoft Entra ID as the OIDC provider by creating `SPTrustedIdentityTokenIssuer`for RSA public keys [using the steps mentioned in this article](#step-3-configure-sharepoint-to-trust-the-identity-provider-with-rsa-public-keys).
+1. Modify the SharePoint Server farm properties based on the version of your SharePoint Server farm. For more information, see [change SharePoint farm properties](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-2-change-sharepoint-farm-properties).
+1. Configure SharePoint to trust the identity provider by creating `SPTrustedIdentityTokenIssuer` with RSA public keys [using the steps mentioned in this article](#step-3-configure-sharepoint-to-trust-the-identity-provider-with-rsa-public-keys).
 1. Configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step. See [create a new web application](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-4-configure-the-sharepoint-web-application) for more details.
 1. Ensure the web application is configured with SSL certificate. To configure the web application, perform the steps to [set the certificate](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-5-ensure-the-web-application-is-configured-with-ssl-certificate).
 1. Create a team site collection as both Windows administrator and federated (Microsoft Entra ID) administrator. For more information, see [create the site collection](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-6-create-the-site-collection).
-1. Set up a People Picker by using a Custom Claims Provider, or the new UPA-backed claim provider included in SharePoint Server Subscription Edition. See [Set up People Picker](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-7-set-up-people-picker).
+1. Set up a People Picker by using a Custom Claims Provider, or the new UPA-backed claim provider included in SharePoint Server Subscription Edition. See [set up People Picker](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-7-set-up-people-picker).
 
 ## Step 3: Configure SharePoint to trust the identity provider with RSA public keys
 
 For RSA public keys, you create or set up a `SPTrustedTokenIssuer` to store the configuration that SharePoint needs to trust as the OIDC provider. You can configure SharePoint to trust the identity provider either manually or by using the metadata endpoint.
 
-### Configure SharePoint to trust Microsoft Entra ID by using metadata endpoint
+### Configure SharePoint OIDC with RSA public keys by using metadata endpoint
 
-An admin can follow the same PowerShell command that is used for x5c keys when using a metadata endpoint for RSA public keys. SharePoint figures out which kind of key is used from the metadata endpoint response and creates the `SPTrustedIdentityTokenIssuer` appropriately. For more information, see [Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint](set-up-oidc-auth-in-sharepoint-server-with-msaad.md#configure-sharepoint-to-trust-microsoft-entra-id-by-using-metadata-endpoint) for an example.
+An admin can follow the same PowerShell command that is used for x5c keys when using a metadata endpoint for RSA public keys. SharePoint figures out which kind of key is used from the metadata endpoint response and creates the `SPTrustedIdentityTokenIssuer` appropriately. For more information, see [configure SharePoint to trust Microsoft Entra ID by using metadata endpoint](set-up-oidc-auth-in-sharepoint-server-with-msaad.md#configure-sharepoint-to-trust-microsoft-entra-id-by-using-metadata-endpoint) for an example.
 
-### Configure SharePoint to trust Microsoft Entra ID as the OIDC provider manually
+### Configure SharePoint OIDC with RSA public keys manually
 
 When manually creating or setting up the `SPTrustedIdentityTokenIssuer` for RSA public keys, you must specify a new `-PublicKey` parameter. while running the `New-SPTrustedIdentityTokenIssuer` or `Set-SPTrustedIdentityTokenIssuer` cmdlets to define the RSA public key modulus and exponent.
 
