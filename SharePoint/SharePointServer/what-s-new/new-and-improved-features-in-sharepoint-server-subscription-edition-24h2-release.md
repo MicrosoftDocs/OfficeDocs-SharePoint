@@ -34,7 +34,7 @@ The following table provides a summary of the new features introduced in the Sha
 |  **Search vertical customization in modern search results**  |  Standard release   | For more information, see [Search vertical customization in modern search results](new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md#search-vertical-customization-in-modern-search-results). <br> <br>This was part of *Early release* in the Version 24H1 feature update. <br/> |
 |  **OpenID Connect (OIDC) integration with SharePoint certificate management**  | Standard release  | For more information, see [OpenID Connect (OIDC) integration with SharePoint certificate management](new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md#openid-connect-oidc-integration-with-sharepoint-certificate-management). <br> <br>This was part of *Early release* in the Version 24H1 feature update. <br/>  |
 | **End of support notification for SharePoint Server builds**   |Standard release   |For more information, see [End of support notification for SharePoint Server builds](#end-of-support-notification-for-sharepoint-server-builds).|
-| **RSA public key support in OIDC authentication configuration**   |Early release   |For more information, see [RSA public key support in OIDC authentication configuration](#rsa-public-key-support-in-oidc-authentication-configuration).|
+| **Support RSA public key in OIDC authentication configuration**   |Early release   |For more information, see [Support RSA public key in OIDC authentication configuration](#rsa-public-key-support-in-oidc-authentication-configuration).|
 
 ## Detailed description of features
 
@@ -58,10 +58,10 @@ The triggers for the notifications are as follows:
 
 - **Beyond "end of support" date:** Provide an **error** notice in Central Administration and the SharePoint Management Shell informing the admin that the current build is no longer supported, and they should install a newer update. This error also appears in the Windows Application Event Log. 
 
-### RSA public key support in OIDC authentication configuration
+### Support RSA public key in OIDC authentication configuration
 
 OIDC is an authentication protocol that uses JSON Web Tokens (JWTs) to verify the identity of users, and grant them access to protected resources. JWTs are digitally signed using either symmetric keys (shared between the issuer and the consumer) or asymmetric keys (public/private key pairs).
 
 Some OIDC providers use RSA public keys that are directly represented with RSA modulus and RSA public exponent. To support these providers, SharePoint Server Subscription Edition Version 24H2 now gives the ability to parse and validate RSA public keys in JWTs. 
 
-For more information, see [RSA public key support in OIDC authentication configuration](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-rsa-public-keys).
+For more information, see [Support RSA public key in OIDC authentication configuration](/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-using-rsa).
