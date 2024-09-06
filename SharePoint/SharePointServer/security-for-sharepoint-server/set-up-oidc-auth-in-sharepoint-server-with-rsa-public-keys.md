@@ -99,9 +99,9 @@ The `Set-SPTrustedIdentityTokenIssuer` cmdlet supports an additional `-PublicKey
 Set-SPTrustedIdentityTokenIssuer -Identity "RSA-Manual" -PublicKey $publicKeyXml -IsOpenIDConnect 
 ```
 
-## Improvements for trusted identity provider
+## Improvements for OIDC authentication
 
-With the release of 24h2, admins can expect the following improvements when configuring the SharePoint Server to trust OIDC. 
+With the release of 24H2, admins can expect the following improvements when configuring the SharePoint Server to trust OIDC. 
 
 ### Allow to configure multiple client identifiers in OIDC 
 
