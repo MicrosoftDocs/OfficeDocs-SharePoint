@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2021
-title: "Set up OIDC authentication in SharePoint Server with Microsoft Entra ID"
+title: "Set up OIDC authentication with Microsoft Entra ID"
 ms.reviewer: 
 ms.author: serdars
 author: jitinmathew
@@ -16,7 +16,7 @@ ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
 description: "Learn how to set up OIDC authentication in SharePoint Server with Microsoft Entra ID."
 ---
 
-# Set up OIDC authentication in SharePoint Server with Microsoft Entra ID
+# Set up OIDC authentication with Microsoft Entra ID
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
@@ -158,7 +158,8 @@ You can configure SharePoint to trust the identity provider in either of the fol
 > [!NOTE]
 > Follow either the manual configuration steps or the metadata endpoint steps, but not both.  
 > Using the metadata endpoint is recommended because it simplifies the process.
-### Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint
+
+### Configure SharePoint to trust Microsoft Entra ID by using metadata endpoint
 
 SharePoint Server Subscription Edition now supports using the OIDC metadata discovery capability when creating the Trusted Identity Token Issuer.
 
