@@ -34,7 +34,7 @@ The following table provides a summary of the new features introduced in the Sha
 |  **Search vertical customization in modern search results**  |  Standard release   | For more information, see [Search vertical customization in modern search results](new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md#search-vertical-customization-in-modern-search-results). <br> <br>This was part of *Early release* in the Version 24H1 feature update. <br/> |
 |  **OpenID Connect (OIDC) integration with SharePoint certificate management**  | Standard release  | For more information, see [OpenID Connect (OIDC) integration with SharePoint certificate management](new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md#openid-connect-oidc-integration-with-sharepoint-certificate-management). <br> <br>This was part of *Early release* in the Version 24H1 feature update. <br/>  |
 | **End of support notification for SharePoint Server builds**   |Standard release   |For more information, see [End of support notification for SharePoint Server builds](#end-of-support-notification-for-sharepoint-server-builds).|
-| **Support RSA public key in OIDC authentication configuration**   |Early release   |For more information, see [Support RSA public key in OIDC authentication configuration](#rsa-public-key-support-in-oidc-authentication-configuration).|
+| **Support RSA public key in OIDC authentication configuration**   |Early release   |For more information, see [Support RSA public key in OIDC authentication configuration](#support-rsa-public-key-in-oidc-authentication-configuration).|
 
 ## Detailed description of features
 
