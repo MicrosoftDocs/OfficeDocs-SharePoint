@@ -88,9 +88,9 @@ The `Set-SPTrustedIdentityTokenIssuer` cmdlet supports the new `-PublicKey` para
 Set-SPTrustedIdentityTokenIssuer -Identity "RSA-Manual" -PublicKey $publicKeyXml -IsOpenIDConnect 
 ```
 
-## Improvements for OIDC authentication
+## Improvements for OIDC configuration
 
-With Version 24H2, admins can expect the following improvements when configuring the SharePoint Server to trust OIDC. 
+With Version 24H2, admins can expect the following improvements when configuring the SharePoint Server to trust the identity provider.
 
 ### Allow to configure multiple client identifiers in OIDC 
 
@@ -108,7 +108,7 @@ The new update from Version 24H2 build allows users to add a new parameter to 
 
 New parameter: `-ClaimsMappings <SPClaimMappingPipeBind[]>`
 
-### Support OIDC IDPs which can't work with wildcard characters in redirection URL 
+### Support OIDC IdPs which can't work with wildcard characters in redirection URL 
 
 Some OIDC IdPs, such as Azure Active Directory B2C, can’t work with wildcard characters in the redirect URL. This causes SharePoint to be unable to redirect back to the original resource that is being asked after the authentication. In this release, we added a state property in the response header to preserve the redirect URL so that SharePoint will be able to know which URL to redirect to.  
 
