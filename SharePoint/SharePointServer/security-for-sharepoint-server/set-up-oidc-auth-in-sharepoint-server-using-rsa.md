@@ -1,6 +1,6 @@
 ---
 ms.date: 08/06/2024
-title: "Set up OIDC authentication using RSA public keys"
+title: "Set up OIDC authentication in SharePoint Server using RSA public keys"
 ms.reviewer: Wesleywu
 ms.author: serdars
 author: alekyaj
@@ -16,7 +16,7 @@ ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
 description: "Learn how to set up OIDC authentication in SharePoint Server using RSA public keys with Microsoft Entra ID."
 ---
 
-# Set up OIDC authentication using RSA public keys
+# Set up OIDC authentication in SharePoint Server using RSA public keys
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

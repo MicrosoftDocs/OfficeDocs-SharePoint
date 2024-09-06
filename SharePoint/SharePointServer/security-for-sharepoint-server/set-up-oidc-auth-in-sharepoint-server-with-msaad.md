@@ -1,6 +1,6 @@
 ---
 ms.date: 07/11/2021
-title: "Set up OIDC authentication with Microsoft Entra ID"
+title: "Set up OIDC authentication in SharePoint Server with Microsoft Entra ID"
 ms.reviewer: 
 ms.author: serdars
 author: jitinmathew
@@ -16,7 +16,7 @@ ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
 description: "Learn how to set up OIDC authentication in SharePoint Server with Microsoft Entra ID."
 ---
 
-# Set up OIDC authentication with Microsoft Entra ID
+# Set up OIDC authentication in SharePoint Server with Microsoft Entra ID
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
