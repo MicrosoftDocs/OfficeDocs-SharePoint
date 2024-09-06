@@ -76,7 +76,9 @@ Items:
   - name: Copilot
     items:
     - name: Microsoft Copilot for Microsoft 365 - best practices
-      href: sharepoint-copilot-best-practices.md
+      href: sharepoint-copilot-best-practices.
+    - name: Get ready for Copilot with SharePoint Advanced Management(SAM)
+      href: get-ready-copilot-sharepoint-advanced-management.md
     - name: Restricted SharePoint search
       items:
       - name: Overview
