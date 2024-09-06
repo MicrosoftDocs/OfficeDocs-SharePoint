@@ -31,7 +31,7 @@ This article explains the new improvements from Version 24H2 that will help you 
 1. Set up OIDC with Microsoft Entra ID using Global Administrator credentials by performing the steps mentioned [here](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-1-setup-identity-provider).
 1. Modify the SharePoint Server farm properties based on the version of your SharePoint Server farm. For more information, see [change SharePoint farm properties](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-2-change-sharepoint-farm-properties).
 1. Configure SharePoint to trust the identity provider by creating `SPTrustedIdentityTokenIssuer` with RSA public keys [using the steps mentioned in this article](#step-3-configure-sharepoint-to-trust-the-identity-provider-with-rsa-public-keys).
-1. Configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step. See [create a new web application](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-4-configure-the-sharepoint-web-application) for more details.
+1. Configure a web application in SharePoint to be federated with the Microsoft Entra OIDC, using the `SPTrustedIdentityTokenIssuer` created in the previous step. For more information, see [create a new web application](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-4-configure-the-sharepoint-web-application).
 1. Ensure the web application is configured with SSL certificate. To configure the web application, perform the steps to [set the certificate](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-5-ensure-the-web-application-is-configured-with-ssl-certificate).
 1. Create a team site collection as both Windows administrator and federated (Microsoft Entra ID) administrator. For more information, see [create the site collection](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-6-create-the-site-collection).
 1. Set up a People Picker by using a Custom Claims Provider, or the new UPA-backed claim provider included in SharePoint Server Subscription Edition. See [set up People Picker](/sharepoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad#step-7-set-up-people-picker).
@@ -46,7 +46,7 @@ An admin can follow the same PowerShell command that is used for x5c keys when u
 
 ### Configure SharePoint OIDC with RSA public keys manually
 
-When manually creating or setting up the `SPTrustedIdentityTokenIssuer` for RSA public keys, you must specify a new `-PublicKey` parameter. while running the `New-SPTrustedIdentityTokenIssuer` or `Set-SPTrustedIdentityTokenIssuer` cmdlets to define the RSA public key modulus and exponent.
+When manually creating or setting up the `SPTrustedIdentityTokenIssuer` for RSA public keys, you must specify a new `-PublicKey` parameter while running the `New-SPTrustedIdentityTokenIssuer` or `Set-SPTrustedIdentityTokenIssuer` cmdlets to define the RSA public key modulus and exponent.
 
 #### New-SPTrustedIdentityTokenIssuer
 
@@ -108,7 +108,7 @@ The new update from Version 24H2 build allows users to add a new parameter to 
 
 New parameter: `-ClaimsMappings <SPClaimMappingPipeBind[]>`
 
-### Support OIDC IdPs which can't work with wildcard characters in redirection URL 
+### Support OIDC IdPs that can't work with wildcard characters in redirection URL
 
 Some OIDC IdPs, such as Azure Active Directory B2C, can’t work with wildcard characters in the redirect URL. This causes SharePoint to be unable to redirect back to the original resource that is being asked after the authentication. In this release, we added a state property in the response header to preserve the redirect URL so that SharePoint will be able to know which URL to redirect to.  
 
@@ -120,13 +120,13 @@ Set-SPTrustedIdentityTokenIssuer -Identity <name> -UseStateToRedirect:$True -IsO
 
 ### Refresh certificate by timer job 
 
-A new timer job ("RefreshMetadataFeed") is created to automatically fetch the latest configuration settings from configured OIDC metadata endpoint on daily basis and update OIDC trusted token issuer accordingly. It includes the certificates used for token encryption and signing, token issuer, authorization endpoint and SignoutUrl. You can change the frequency of refresh by changing the timer job schedule. For example, you can change the schedule of timer job to “5:00 every Saturday” by using PowerShell: 
+A new timer job (RefreshMetadataFeed) is created to automatically fetch the latest configuration settings from configured OIDC metadata endpoint on daily basis and update OIDC trusted token issuer accordingly. It includes the certificates used for token encryption and signing, token issuer, authorization endpoint and SignoutUrl. You can change the frequency of refresh by changing the timer job schedule. For example, you can change the schedule of timer job to “5:00 every Saturday” by using PowerShell: 
 
 ```powershell
 Get-SPTimerJob refreshmetadafeed | Set-SPTimerJob -Schedule "weekly at sat 5:00" 
 ```
 
-This timer job will be enabled when you set up a OIDC trusted token issuer with metadata endpoint. If you have a OIDC trusted token issuer setup before applying this update, you need to reset this token issuer again so that timer job can be enabled for this token issuer. You can reset the token issuer by using PowerShell  
+This timer job is enabled when you set up a OIDC trusted token issuer with metadata endpoint. If you have a OIDC trusted token issuer setup before applying this update, you need to reset this token issuer again so that timer job can be enabled for this token issuer. You can reset the token issuer by using PowerShell  
 
 ```powershell
 Set-SPTrustedIdentityTokenIssuer -Identity <OIDCtokenissuer> -MetadataEndPoint <URL> 
