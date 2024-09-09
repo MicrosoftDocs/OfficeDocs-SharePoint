@@ -1,4 +1,4 @@
-Items:
+items:
 - name: SharePoint and OneDrive
   href: introduction.md
   items:
@@ -316,10 +316,6 @@ Items:
         href: deploy-on-windows.md
       - name: Per-machine installation
         href: per-machine-installation.md
-      - name: OneDrive in Citrix Virtual Apps
-        href: onedrive-in-citrix-virtual-apps-deployment-guide.md
-      - name: OneDrive in Horizon Virtual apps
-        href: onedrive-in-horizon-virtual-apps-deployment-guide.md
     - name: Sync app options
       items:
       - name: Sync on virtual desktops
