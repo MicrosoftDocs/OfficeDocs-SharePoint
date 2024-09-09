@@ -51,7 +51,7 @@ Microsoft SharePoint Premium – SharePoint Advanced Management (SAM) is an esse
 
 ### Step 1: Reduce accidental oversharing with SharePoint sharing settings
 
-To minimize accidental content oversharing via Copilot results, it's crucial to implement the best practice sharing settings. Proactive safeguards are key. To effectively prepare your organization for Gen AI, set the appropriate sharing settings for end users at both the organization and site levels:  
+To minimize accidental content oversharing via Copilot results, it's crucial to implement the best practice sharing settings. Proactive safeguards are key. To effectively prepare your organization for Copilot, set the appropriate sharing settings for end users at both the organization and site levels:  
 
 At the organization level:
 
