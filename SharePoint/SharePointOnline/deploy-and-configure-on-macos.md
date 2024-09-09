@@ -1,5 +1,5 @@
 ---
-ms.date: 09/05/2024
+ms.date: 09/09/2024
 title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: cagreen
 ms.author: mactra
