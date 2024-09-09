@@ -135,7 +135,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
 - [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
-- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disableFirstDeleteDialog)
+- [DisableFirstDeleteDialog](deploy-and-configure-on-macos.md#disablefirstdeletedialog)
 - [DisableCustomRoot](deploy-and-configure-on-macos.md#disablecustomroot)
 - [DisableOfflineMode](#disableofflinemode)
 - [DisableOfflineModeForExternalLibraries](#disableofflinemodeforexternallibraries)
