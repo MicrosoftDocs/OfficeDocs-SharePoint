@@ -1,5 +1,5 @@
 ---
-ms.date: 09/06/2024
+ms.date: 09/09/2024
 title: Get ready for Copilot for Microsoft 365 with SharePoint Advanced Management (SAM)
 ms.reviewer: 
 ms.author: ruihu
@@ -27,19 +27,23 @@ description: "Learn how to get ready for Microsoft 365 Copilot by using SharePoi
 # Get ready for Copilot for Microsoft 365 with SharePoint Advanced Management (SAM)
 
 ## Copilot and SharePoint
-So, your organization is getting ready to enable Microsoft Copilot for Microsoft 365. Copilot is an AI-powered productivity tool that provides real-time support for your users’ creativity, productivity, and skills. Copilot works by coordinating three components:
 
--	Large language models (LLMs)
--	The Microsoft 365 productivity apps that you use every day, such as Word, Excel, PowerPoint, Outlook, Teams, and others.
--	Content in Microsoft Graphs
+Your organization is preparing to enable Microsoft Copilot for Microsoft 365, an AI-driven productivity tool that enhances creativity, productivity, and skills in real-time.  As the SharePoint admin, it’s crucial to govern your organization's SharePoint data properly to ensure Copilot's results are appropriate, accurate, and compliant. Understanding the significance of content governance in SharePoint for Copilot begins with knowing [how Copilot works through three components](/copilot/microsoft-365/microsoft-365-copilot-overview#copilot-integration-with-graph-and-microsoft-365-apps):
 
-A user tells Copilot what they want, and Copilot only provides response using the content in Microsoft Graph, based on the users’ profile and their permissions. Content in Microsoft Graph includes emails, files, meetings, chats, calendars, and contacts. A significant portion of them are stored as SharePoint files. When you share documents with others, these documents become data stored on SharePoint sites, document libraries and OneDrive. These documents can be: Word document shared by your colleagues, a presentation that you're working with your team, meeting recordings, project notes you created in Loop and OneNote, and more. To ensure assistance provided by Copilot is appropriate, accurate, and compliant, as your organization’s SharePoint admin, it's crucial for you to ensure that your organization’s data in SharePoint is appropriately governed from the following four aspects:
+- Large language models (LLMs)
+- The Microsoft 365 productivity apps that you use every day, such as Word, Excel, PowerPoint, Outlook, Teams, and others.
+- Content in Microsoft Graphs
+
+When a user makes a request to Copilot, it processes the request using large language models (LLMs). It then generates a response with LLMs by leveraging content from Microsoft Graph and web content (optional). 
+
+Content in Microsoft Graph includes emails, files, meetings, chats, calendars, and contacts. A significant portion of them is stored as SharePoint files. When you share documents with others, these documents become data stored on SharePoint sites, document libraries and OneDrive. These documents can be: Word document shared by your colleagues, a presentation that you're working with your team, meeting recordings, project notes you created in Loop and OneNote, and more. To ensure assistance provided by Copilot is appropriate, accurate, and compliant, as your organization’s SharePoint admin, it's crucial for you to ensure that your organization’s data in SharePoint is appropriately governed from the following four aspects:
 
 ![The visual presents the four pillars of content governance: manage content sprawl, prevent content oversharing, control content access, and manage content lifecycle.](media/sam-four-pillars.png)
--	Manage content sprawl: reduce content duplication and ensure well-planned content creation. Ensure all sites and content are well managed governed by site owners.
--	Prevent content oversharing: use tools available to SharePoint admins and site owners to prevent users from oversharing content.
--	Control content access: Limit content access by Copilot with user group settings, and other tools. 
--	Manage content lifecycle: remove inactive and outdated content and sites. Make sure the information Copilot access is accurate and up to date. 
+
+- Manage content sprawl: reduce content duplication and ensure well-planned content creation. Ensure all sites and content are well managed governed by site owners.
+- Prevent content oversharing: use tools available to SharePoint admins and site owners to prevent users from oversharing content.
+- Control content access: Limit content access by Copilot with user group settings, and other tools. 
+- Manage content lifecycle: remove inactive and outdated content and sites. Make sure the information Copilot access is accurate and up to date. 
 
 ## Use SharePoint Advanced Management(SAM) to get your organization ready for Copilot
 
@@ -140,6 +144,4 @@ In Step 4—control access to content, it's advised to begin with the Site Acces
 
 In addition, in Step 5, to further protect content on your business-critical sites, you can use Restricted Content Discoverability to leave permissions in place, but prevent the content from being available to Copilot. 
 
-The Restricted Content Discoverability policy leaves site access unchanged but prevents the site’s content from being surfaced in Copilot for Microsoft 365 or organization-wide Search. The SharePoint Admin can set Restricted Content Discoverability on that site. 
-
-
+The Restricted Content Discoverability policy leaves site access unchanged but prevents the site’s content from being surfaced in Copilot for Microsoft 365 or organization-wide Search. The SharePoint Admin can set Restricted Content Discoverability on that site.
