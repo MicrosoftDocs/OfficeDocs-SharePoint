@@ -1229,6 +1229,16 @@
       "source_path": "migration/file-versions.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/onedrive-in-horizon-virtual-apps-deployment-guide.md",
+      "redirect_url": "/sharepoint/sharepointonline/sync-vdi-support",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/onedrive-in-citrix-virtual-apps-deployment-guide.md",
+      "redirect_url": "/sharepoint/sharepointonline/sync-vdi-support",
+      "redirect_document_id": true
     }
   ]
 }
