@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.service: sharepoint-server-itpro
-localization_priority: Critical
+ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top

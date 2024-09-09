@@ -9,7 +9,7 @@ audience: Admin
 f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 ms.collection:  
   - m365solution-corpcomms
