@@ -256,9 +256,9 @@ For information about querying and setting file and folder states, see [Query an
   
 ### Enable automatic upload bandwidth management for OneDrive
 
-This setting lets the OneDrive sync app (OneDrive.exe) upload data in the background only when unused bandwidth is available. It prevents the sync app from interfering with other apps that are using the network. This setting is powered by the Windows LEDBAT (Low Extra Delay Background Transport) protocol. When LEDBAT detects increased latency that indicates other TCP connections are consuming bandwidth, the sync app will reduce its own consumption to prevent interference. When network latency decreases again and bandwidth is freed up, the sync app will increase the upload rate and consume the unused bandwidth.
+This setting lets the OneDrive sync app (OneDrive.exe) upload data in the background only when unused bandwidth is available. It prevents the sync app from interfering with other apps that are using the network. This setting is powered by the Windows LEDBAT (Low Extra Delay Background Transport) protocol. When LEDBAT detects increased latency that indicates other TCP connections are consuming bandwidth, the sync app reduces its own consumption to prevent interference. When network latency decreases again and bandwidth is freed up, the sync app increases the upload rate and consume the unused bandwidth.
 
-If you enable this setting, the sync app upload rate will be set to **Adjust automatically** based on bandwidth availability, and users won't be able to change it.
+If you enable this setting, the sync app upload rate is set to **Adjust automatically** based on bandwidth availability, and users won't be able to change it.
 
 If you don't configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to **Adjust automatically**.
 
@@ -283,7 +283,7 @@ Enabling this policy sets the following registry key value to 1:
 
 This policy lets the OneDrive sync app report sync device and health data included in administrative sync reports.
 
-If you enable this setting, the OneDrive sync app will report device and health data to include in administrative sync reports. You must enable this setting on the devices you want to get reports from.
+If you enable this setting, the OneDrive sync app reports device and health data to include in administrative sync reports. You must enable this setting on the devices you want to get reports from.
 
 If you disable or don't configure this setting, OneDrive sync app device and health data won't appear in the admin reports.
 
@@ -329,7 +329,7 @@ When a user deletes local files from a synced location, a warning message appear
 
 If you enable this setting, users won't see the **Deleted files are removed everywhere** reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
 
-If you disable or don't configure this setting, the reminder will appear until users select **Don't show this reminder again**.
+If you disable or don't configure this setting, the reminder appears until users select **Don't show this reminder again**.
 
 Enabling this policy sets the following registry key value to 1:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog =dword:00000001`
@@ -439,7 +439,7 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
 > [!NOTE]
 > Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the users have already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select **No**. This setting doesn't take effect if you've enabled **Prompt users to move Windows known folders to OneDrive** or **Silently move Windows known folders to OneDrive**.
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the users have already moved their known folders, the files in those folders remain in OneDrive. To redirect the known folders back to the user's device, select **No**. This setting doesn't take effect if you've enabled **Prompt users to move Windows known folders to OneDrive** or **Silently move Windows known folders to OneDrive**.
   
 If you disable or don't configure this setting, users can choose to move their known folders.
   
@@ -497,7 +497,7 @@ For information and recommendations, see [Redirect and move Windows known folder
 
 This policy sets the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
 
-If you enable this policy, users will see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user will be given the option to continue to remove the cloud files, or restore the local files.
+If you enable this policy, users see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user is given the option to continue to remove the cloud files, or restore the local files.
 
 > [!NOTE]
 > Even if you enable this policy, users won't receive notifications if they've checked the **Always remove files** checkbox on a previous notification, or if they've cleared the **Notify me when many files are deleted in the cloud** checkbox in OneDrive sync app settings.
@@ -578,7 +578,7 @@ where "1111-2222-3333-4444" is a string value representing the [tenant ID](find-
   
 Setting this value to **1** shows a notification after a successful redirection.
 
-If you don't set any of the following policies, then the default policy will move all the folders (Desktop, Documents, and Pictures) into OneDrive. If you want to specify the folder(s) to move, then you can set any combination of the following policies:
+If you don't set any of the following policies, then the default policy will move all the folders (Desktop, Documents, and Pictures) into OneDrive. If you want to specify the folders to move, then you can set any combination of the following policies:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"=dword:00000001`: Setting this value to **1** will move the Desktop folder.
 

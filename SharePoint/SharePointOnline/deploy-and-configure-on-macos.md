@@ -129,6 +129,8 @@ Use the following keys to preconfigure or change settings for your users. The ke
 
 ## List of settings
 
+- [AddedFolderHardDeleteOnUnmount](deploy-and-configure-on-macos.md#addedfolderharddeleteonunmount)
+- [AddedFolderUnmountOnPermissionsLoss](deploy-and-configure-on-macos.md#addedfolderunmountonpermissionsloss)
 - [AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)
 - [AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage)
 - [BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)
@@ -158,6 +160,32 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [SharePointOnPremTenantName](deploy-and-configure-on-macos.md#sharepointonpremtenantname)
 - [Tier](deploy-and-configure-on-macos.md#tier)
 - [UploadBandwidthLimited](deploy-and-configure-on-macos.md#uploadbandwidthlimited)
+
+### AddedFolderHardDeleteOnUnmount
+
+This setting will control the contents of the folder when an unmount of an Added Folder is detected.
+
+Set the setting's value to **True**, to hard-delete all the contents of the folder when an unmount of an Added Folder is received. Set the value to **False** or don't enable the setting to move the contents of the unmounted folder to the recycle-bin by default.
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>AddedFolderHardDeleteOnUnmount</key>
+<(Bool)/>
+```
+
+### AddedFolderUnmountOnPermissionsLoss
+
+This setting will control the contents of the folder and the folder itself when the Sync client detects that the user lost permissions to an Added Folder.
+
+Set the setting's value to **True**, to hard-delete all the contents of the folder and the folder itself when the Sync client detects that the user lost permissions to an Added Folder. Set the value to **False** or don't enable the setting to efault mark the folder in error and prompt the user to remove it. When the user confirms the removals, the contents of the folder are moved to the recycle-bin.
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>AddedFolderUnmountOnPermissionsLoss</key>
+<(Bool)/>
+```
 
 ### AllowTenantList
 
