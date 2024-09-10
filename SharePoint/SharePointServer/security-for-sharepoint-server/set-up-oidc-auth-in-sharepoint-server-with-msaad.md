@@ -158,7 +158,8 @@ You can configure SharePoint to trust the identity provider in either of the fol
 > [!NOTE]
 > Follow either the manual configuration steps or the metadata endpoint steps, but not both.  
 > Using the metadata endpoint is recommended because it simplifies the process.
-### Configure SharePoint to trust Microsoft Entra OIDC by using metadata endpoint
+
+### Configure SharePoint to trust Microsoft Entra ID by using metadata endpoint
 
 SharePoint Server Subscription Edition now supports using the OIDC metadata discovery capability when creating the Trusted Identity Token Issuer.
 
