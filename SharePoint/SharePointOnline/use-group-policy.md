@@ -732,7 +732,7 @@ Enabling this policy sets the following registry key value to 1:
   
 ### Continue syncing when devices have battery saver mode turned on
 
-This setting lets you turn off the autopause feature for devices that have battery saver mode turned on.  
+This setting lets you turn off the auto-pause feature for devices that have battery saver mode turned on.  
 
 If you enable this setting, syncing continues when users turn on battery saver mode. OneDrive doesn't automatically pause syncing.
 
