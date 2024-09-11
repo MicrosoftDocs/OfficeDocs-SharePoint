@@ -1,3 +1,24 @@
+---
+ms.date: 09/11/2024
+title: New Migration Transition
+ms.reviewer: heidip
+ms.author: kbchen
+author: MetMS2023
+manager: DAPODEAN
+recommendations: true
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: microsoft-365-migration
+ms.localizationpriority: medium
+mscollection:
+- SPMigration
+- M365-collaboration
+- m365initiative-migratetom365
+search.appverid: MET150
+description: "Learn about the transition plan of Migration Manager with a more scalable backend infrastructure."
+---
 
 # New Migration Transition 
 
