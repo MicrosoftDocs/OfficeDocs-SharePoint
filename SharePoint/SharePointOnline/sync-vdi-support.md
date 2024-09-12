@@ -95,7 +95,7 @@ In this article, you'll learn how to enable OneDrive in Horizon Virtual Apps.
 
 ### Prerequisites
 
--	Omnissa Horizon\
+-	Omnissa Horizon
 -	Microsoft Windows OS
 
 All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon Virtual App environment configurations.
@@ -113,20 +113,20 @@ https://docs.omnissa.com/bundle/DEMInstallConfigGuideV2406/page/SoftwareRequirem
 
 Following registries help to roam the user environment on multiple nodes in the virtual application farm. We can use Omnissa Dynamic Environment Manager or a similar user environment management tool to deploy the registry to all farm servers.
 
-  -  IncludeRegistryTrees
-    `HKCU\Software\Microsoft\Office`
-    `HKCU\Software\Microsoft\Internet Explorer`
-    `HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings`
-    `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached`
-    `HKCU\Software\Microsoft\OneDrive`
+  -  IncludeRegistryTrees\
+    `HKCU\Software\Microsoft\Office`\
+    `HKCU\Software\Microsoft\Internet Explorer`\
+    `HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings`\
+    `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached`\
+    `HKCU\Software\Microsoft\OneDrive`\
 
-  - IncludeFolderTrees
-    `<Appdata>`\Microsoft\Windows\Recent
-    `<Appdata>`\Microsoft\crypto
-    `<Appdata>`\SystemCertificates
-    `<LocalAppdata>`\Microsoft\IdentityCache
-    `<LocalAppdata>`\Microsoft\Internet Explorer
-    `<LocalAppdata>`\Microsoft\Windows\INetCache
+  - IncludeFolderTrees\
+    `<Appdata>`\Microsoft\Windows\Recent\
+    `<Appdata>`\Microsoft\crypto\
+    `<Appdata>`\SystemCertificates\
+    `<LocalAppdata>`\Microsoft\IdentityCache\
+    `<LocalAppdata>`\Microsoft\Internet Explorer\
+    `<LocalAppdata>`\Microsoft\Windows\INetCache\
     
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
