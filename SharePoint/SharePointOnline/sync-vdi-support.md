@@ -89,6 +89,55 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 > [!IMPORTANT]
 > [FSLogix](/fslogix/how-to-install-fslogix) must be used in conjunction with Citrix Virtual Apps for OneDrive to be supported.
 
+## Set up OneDrive in Horizon Virtual Apps
+
+In this article, you'll learn how to enable OneDrive in Horizon Virtual Apps.
+
+### Prerequisites
+
+•	Omnissa Horizon\
+•	Microsoft Windows OS
+
+All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon Virtual App environment configurations.
+
+[Supported Windows 10 and Windows 11 Guest Operating Systems for Horizon Agent and Remote Experience, for Omnissa Horizon 8.x (2006 and later) (78714)](https://kb.omnissa.com/s/article/78714)\
+[Supported Non-Windows 10 and 11 Guest Operating Systems for Horizon 8 Agent (78715)](https://kb.omnissa.com/s/article/78715)\
+•	Omnissa Dynamic Environment Manager (DEM) or a product which enables the user environment personalization. 
+
+The system on which you plan to install DEM must meet certain software requirements.
+Please refer to the article for more information.
+
+https://docs.omnissa.com/bundle/DEMInstallConfigGuideV2406/page/SoftwareRequirements.html
+
+### Required registry keys
+
+Following registries help to roam the user environment on multiple nodes in the virtual application farm. We can use Omnissa Dynamic Environment Manager or a similar user environment management tool to deploy the registry to all farm servers.
+
+    [IncludeRegistryTrees]
+    HKCU\Software\Microsoft\Office 
+    HKCU\Software\Microsoft\Internet Explorer
+    HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+    HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
+    HKCU\Software\Microsoft\OneDrive
+
+    [IncludeFolderTrees]
+    <Appdata>\Microsoft\Windows\Recent
+    <Appdata>\Microsoft\crypto
+    <Appdata>\SystemCertificates
+    <LocalAppdata>\Microsoft\IdentityCache
+    <LocalAppdata>\Microsoft\Internet Explorer
+    <LocalAppdata>\Microsoft\Windows\INetCache
+
+### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
+
+1.	Launch the Omnissa Dynamic Environment Manager management console, select **Create Config File** and select **Use an Application Template**.
+
+2.	Select the application template (Microsoft Office 2016 and 2019, or Microsoft 365), Select **OneDrive for Business** and click **Next**.
+
+3.	Provide the file name and description and select **Finish**.
+
+4.	Add the previously listed **required registry keys** to **Import / Export** settings.
+
 ### How to set up OneDrive
 
 1. Install OneDrive Sync app per machine. See [Install the sync app per-machine](per-machine-installation.md).
