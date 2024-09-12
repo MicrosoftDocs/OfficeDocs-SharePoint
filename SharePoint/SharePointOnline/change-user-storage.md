@@ -41,7 +41,7 @@ As an IT administrator, you can adjust a user's OneDrive storage space using the
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) with your admin credentials.
 
     > [!NOTE]
-> For Office 365 operated by 21Vianet (China), [sign in here](https://login.partner.microsoftonline.cn).
+    > For Office 365 operated by 21Vianet (China), [sign in here](https://login.partner.microsoftonline.cn).
 
 2. In the left pane, expand **Users** and select **Active users**.
 
@@ -64,14 +64,14 @@ When users need more storage beyond the initial 5 TB, Microsoft increases their 
 - For users reaching 90% of their 25 TB capacity, more storage is provided via SharePoint team sites. Contact [Microsoft Support](https://go.microsoft.com/fwlink/?linkid=869559) for assistance.
 
     > [!NOTE]
-> For Office 365 A1 users, storage is limited to 100 GB. For more information, see [Office 365 Education service descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-education).
+    > For Office 365 A1 users, storage is limited to 100 GB. For more information, see [Office 365 Education service descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-education).
 
 ## Change storage space using PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-   > [!NOTE]
-> Uninstall any previous versions of the SharePoint Online Management Shell before installing the latest version.
+    > [!NOTE]
+    > Uninstall any previous versions of the SharePoint Online Management Shell before installing the latest version.
 
 2. Save the following PowerShell script to a file (for example, you can save it as UpdateOneDriveStorage.ps1):
 
@@ -92,8 +92,8 @@ When users need more storage beyond the initial 5 TB, Microsoft increases their 
     PS C:\>.\UpdateOneDriveStorage.ps1
     ```
 
-   > [!NOTE]
-> If you receive an error regarding script execution, you may need to adjust your PowerShell execution policies. For more information, see [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
+    > [!NOTE]
+    > If you receive an error regarding script execution, you may need to adjust your PowerShell execution policies. For more information, see [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 4. Enter the required values when prompted, including:
    - The SharePoint admin center URL (for example, `https://contoso-admin.sharepoint.com`)
@@ -121,9 +121,9 @@ If you encounter issues when adjusting storage or if the storage amount reverts 
 1. In the Microsoft 365 admin center, select **Run Tests** to launch the OneDrive storage quota diagnostic.
 
     > [!NOTE]
-> Diagnostics are unavailable for GCC High, DoD, Microsoft 365 operated by 21Vianet, or Microsoft 365 Education.
+    > Diagnostics are unavailable for GCC High, DoD, Microsoft 365 operated by 21Vianet, or Microsoft 365 Education.
 
 2. Follow the recommendations provided by the diagnostic.
 
     > [!NOTE]
-> For information on disabling OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+    > For information on disabling OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
