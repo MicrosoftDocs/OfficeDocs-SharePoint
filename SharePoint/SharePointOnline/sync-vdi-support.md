@@ -95,14 +95,14 @@ In this article, you'll learn how to enable OneDrive in Horizon Virtual Apps.
 
 ### Prerequisites
 
-•	Omnissa Horizon\
-•	Microsoft Windows OS
+-	Omnissa Horizon\
+-	Microsoft Windows OS
 
 All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon Virtual App environment configurations.
 
 [Supported Windows 10 and Windows 11 Guest Operating Systems for Horizon Agent and Remote Experience, for Omnissa Horizon 8.x (2006 and later) (78714)](https://kb.omnissa.com/s/article/78714)\
 [Supported Non-Windows 10 and 11 Guest Operating Systems for Horizon 8 Agent (78715)](https://kb.omnissa.com/s/article/78715)\
-•	Omnissa Dynamic Environment Manager (DEM) or a product which enables the user environment personalization. 
+-	Omnissa Dynamic Environment Manager (DEM) or a product which enables the user environment personalization. 
 
 The system on which you plan to install DEM must meet certain software requirements.
 Please refer to the article for more information.
@@ -120,13 +120,14 @@ Following registries help to roam the user environment on multiple nodes in the 
     HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
     HKCU\Software\Microsoft\OneDrive
 
-    -IncludeFolderTrees
+    [IncludeFolderTrees]
     <Appdata>\Microsoft\Windows\Recent
     <Appdata>\Microsoft\crypto
     <Appdata>\SystemCertificates
     <LocalAppdata>\Microsoft\IdentityCache
     <LocalAppdata>\Microsoft\Internet Explorer
-    <LocalAppdata>\Microsoft\Windows\INetCache ```
+    <LocalAppdata>\Microsoft\Windows\INetCache 
+    ```
     
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
