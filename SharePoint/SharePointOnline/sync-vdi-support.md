@@ -113,7 +113,8 @@ https://docs.omnissa.com/bundle/DEMInstallConfigGuideV2406/page/SoftwareRequirem
 
 Following registries help to roam the user environment on multiple nodes in the virtual application farm. We can use Omnissa Dynamic Environment Manager or a similar user environment management tool to deploy the registry to all farm servers.
 
-    ```[IncludeRegistryTrees]
+    ```
+    [IncludeRegistryTrees]
     HKCU\Software\Microsoft\Office
     HKCU\Software\Microsoft\Internet Explorer
     HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings
