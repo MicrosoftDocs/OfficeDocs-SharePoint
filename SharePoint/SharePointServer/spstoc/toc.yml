@@ -21,6 +21,8 @@ Items:
         href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-23h2-release.md
       - name: New and improved features in SharePoint Server Subscription Edition Version 24H1
         href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-24h1-release.md
+      - name: New and improved features in SharePoint Server Subscription Edition Version 24H2
+        href: ../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-24h2-release.md
       - name: What's deprecated or removed from SharePoint Server Subscription Edition
         href: ../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md
     - name: SharePoint Server 2019
@@ -77,6 +79,8 @@ Items:
           href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-msaad.md
         - name: Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)
           href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs.md
+        - name: Set up OIDC authentication in SharePoint Server using RSA public keys
+          href: ../security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-using-rsa.md
       - name: Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server
         href: ../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md
     - name: Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server
