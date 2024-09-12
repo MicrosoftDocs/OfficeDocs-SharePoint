@@ -61,12 +61,12 @@ As an IT administrator, you can adjust a user's OneDrive storage space using the
 When users need more storage beyond the initial 5 TB, Microsoft increases their storage as follows:
 
 - When a user reaches 90% of their 5 TB capacity, Microsoft increases their storage to up to 25 TB. Admins can set a lower limit if desired.
-- If usage drops below 90%, storage may reset to 5 TB.
+- If usage drops below 90%, storage limit resets to 5 TB.
 - For users reaching 90% of their 25 TB capacity, more storage is provided via SharePoint team sites. Contact [Microsoft Support](https://go.microsoft.com/fwlink/?linkid=869559) for assistance.
 
     > [!NOTE]
 >
-> For Office 365 A1 users, storage is limited to 100 GB. See [Office 365 Education service descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-education) for more details.
+> For Office 365 A1 users, storage is limited to 100 GB. For more information, see [Office 365 Education service descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-education).
 
 ## Change storage space using PowerShell
 
@@ -97,18 +97,18 @@ When users need more storage beyond the initial 5 TB, Microsoft increases their 
 
    > [!NOTE] 
 >
-> If you receive an error regarding script execution, you may need to adjust your PowerShell execution policies. See [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) for more information.
+> If you receive an error regarding script execution, you may need to adjust your PowerShell execution policies. For more information, see [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 4. Enter the required values when prompted, including:
-   - The SharePoint admin center URL (e.g., `https://contoso-admin.sharepoint.com`)
-   - The OneDrive site URL (e.g., `https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com`)
+   - The SharePoint admin center URL (for example, `https://contoso-admin.sharepoint.com`)
+   - The OneDrive site URL (for example, `https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com`)
    - Storage Quota in MB
    - Storage Quota Warning Level in MB
 
-Here is a reference table for MB to TB conversions:
+Here's a reference table for MB to TB conversions:
 
 | MB        | TB |
-| --------- | -- |
+| --------- |--|
 | 1,048,576 | 1  |
 | 2,097,152 | 2  |
 | 3,145,728 | 3  |
