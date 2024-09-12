@@ -67,7 +67,7 @@ Identify inactive sites, then take action to reduce your governance footprint an
 
 ### Step 3: Identify sites with potentially overshared content
 
-Without looking at the actual content, how do you quickly identify sites with potentially overshared content? Usually, if you see there's content on a site that is being shared with one of the following options: “**Everyone Except External Users**”, “**People in your organization**” and “**Anyone**”, there is a bigger chance that the content is overshared.  Currently, SAM activity based reports let you quickly identify most actively overshared sites, by running three individual reports:
+Without looking at the actual content, how do you quickly identify sites with potentially overshared content? Usually, if you see there's content on a site that is being shared with one of the following options: “**Everyone Except External Users**”, “**People in your organization**” and “**Anyone**”, there's a bigger chance that the content is overshared.  Currently, SAM activity based reports let you quickly identify most actively overshared sites, by running three individual reports:
 
 - Usage of "Everyone Except External Users" 
 - Usage of “People in your organization" sharing links 
@@ -116,7 +116,7 @@ It's essential to confirm all sites have valid owners before cleaning up unused 
 
 ### Use the Inactive Sites – Read only and Inactive Sites – Archive policies to clean up unused sites
 
-In Step 2 of this article, we discussed identifying inactive sites. After identifying inactive sites, you'll ask site owners to attest if the sites are still needed. If the site owners confirm the sties aren't needed, you need to put the sites either in read-only mode, or move the sites to Microsoft 365 Archive. Coming soon, you'll be able to do these at scale, by using the Inactive Sites – Read only and Inactive Sites – Archive capabilities to: 
+In Step 2 of this article, we discussed identifying inactive sites. After identifying inactive sites, you'll ask site owners to attest if the sites are still needed. If the site owners confirm the sties aren't needed, you need to put the sites either in read-only mode, or move the sites to Microsoft 365 Archive. Coming soon, you are able to do these at scale, by using the Inactive Sites – Read only and Inactive Sites – Archive capabilities to: 
 
 - Make the site read-only
 - Move the site to Microsoft 365 Archive 
@@ -125,13 +125,13 @@ In Step 2 of this article, we discussed identifying inactive sites. After identi
 
 In Step 3, we discussed how to run three usage reports to identify potentially overshared content. Coming soon, you'll be able to Run a single report to learn where content overexposure risk exists in all sites on your tenant, regardless of site activities.
 
-- You'll be able to start with running an “Oversharing Baseline Report for Sites, OneDrives and Files” report from the Data Access Governance (DAG) PowerShell commands in SharePoint Online PowerShell module. This report scans all sites in your tenant, and lists sites that share content with more than a certain number of users (you specify the number).
+- You'll be able to start with running an “Oversharing Baseline Report for Sites, OneDrives and Files” report from the Data Access Governance (DAG) PowerShell commands in SharePoint Online PowerShell module. This report scans all sites in your tenant, and lists sites that share content with more than a specified number of users (you specify the number).
 
 - You can sort, filter or download the report, and identify the sites with potentially overshared content.
 
 ### Use the Restricted Content Discoverability policy to further control accidental content discoverability 
 
-In Step 4—control access to content, it is advised to begin with the Site Access Review policy to verify if the potentially overshared content identified in Step 3 is truly overshared. Following this, apply the Restricted Access Control policy to limit access to designated user groups. Soon, a new policy, the Restricted Content Discoverability policy, will be available to further control accidental content discoverability.
+In Step 4—control access to content, it's advised to begin with the Site Access Review policy to verify if the potentially overshared content identified in Step 3 is truly overshared. Following this, apply the Restricted Access Control policy to limit access to designated user groups. Soon, a new policy, the Restricted Content Discoverability policy, will be available to further control accidental content discoverability.
 
 In addition, in Step 5, to further protect content on your business-critical sites, you can use Restricted Content Discoverability to leave permissions in place, but prevent the content from being available to Microsoft 365 Copilot and Organization-wide search experiences.
 
@@ -139,5 +139,5 @@ The Restricted Content Discoverability policy leaves site access unchanged but p
 
 ### Use AI Powered Semantic matching to find similar sites
 
-You've discovered a site containing crucial business data that lacks proper protection. Are there more sites like this one that might have similar vulnerabilities? Soon, AI Powered Semantic matching will help you locate these sites using the site you’ve discovered as the example. The AI powered semantic matching tool reads through all the sites you have, including content, files, metadata, and give you a list of similar sites based on your example site. 
+You discovered a site containing crucial business data that lacks proper protection. Are there more sites like this one that might have similar vulnerabilities? Soon, AI Powered Semantic matching helps you locate these sites using the site you discovered as the example. The AI powered semantic matching tool reads through all the sites you have, including content, files, metadata, and give you a list of similar sites based on your example site. 
 
