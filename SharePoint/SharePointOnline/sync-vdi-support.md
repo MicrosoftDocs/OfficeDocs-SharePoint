@@ -121,12 +121,12 @@ Following registries help to roam the user environment on multiple nodes in the 
     `HKCU\Software\Microsoft\OneDrive`
 
   - IncludeFolderTrees
-    <Appdata>\Microsoft\Windows\Recent
-    <Appdata>\Microsoft\crypto
-    <Appdata>\SystemCertificates
-    <LocalAppdata>\Microsoft\IdentityCache
-    <LocalAppdata>\Microsoft\Internet Explorer
-    <LocalAppdata>\Microsoft\Windows\INetCache
+  - <Appdata>\Microsoft\Windows\Recent
+  - <Appdata>\Microsoft\crypto
+  - <Appdata>\SystemCertificates
+  - <LocalAppdata>\Microsoft\IdentityCache
+  - <LocalAppdata>\Microsoft\Internet Explorer
+  - <LocalAppdata>\Microsoft\Windows\INetCache
     
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
