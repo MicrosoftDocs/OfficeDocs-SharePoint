@@ -34,7 +34,7 @@ As an IT administrator, you can adjust a user's OneDrive storage space using the
 > For setting the default storage space for all users, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For details on available storage for your Microsoft 365 subscription, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
 
 > [!IMPORTANT]
-> If a user has run out of storage, advise them to proactively review and manage their storage. Instructions can be found at [Manage your OneDrive for work](https://support.microsoft.com/en-us/office/manage-your-onedrive-for-work-or-school-storage-31519161-059c-4764-b6f8-f5cd29f7fe68).
+> If a user has run out of storage, advise them to proactively review and manage their storage. Instructions can be found at [Manage your OneDrive for work](https://support.microsoft.com/office/manage-your-onedrive-for-work-or-school-storage-31519161-059c-4764-b6f8-f5cd29f7fe68).
 
 ## Change storage space in the Microsoft 365 admin center
 
@@ -95,7 +95,7 @@ When users need more storage beyond the initial 5 TB, Microsoft increases their 
     PS C:\>.\UpdateOneDriveStorage.ps1
     ```
 
-   > [!NOTE] 
+   > [!NOTE]
 >
 > If you receive an error regarding script execution, you may need to adjust your PowerShell execution policies. For more information, see [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
@@ -132,5 +132,4 @@ If you encounter issues when adjusting storage or if the storage amount reverts 
 
     > [!NOTE]
 >
-> For information on disabling OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-user-profiles).
-
+> For information on disabling OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
