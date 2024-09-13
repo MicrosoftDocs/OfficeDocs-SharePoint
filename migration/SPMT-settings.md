@@ -125,11 +125,11 @@ If you are on a government cloud, you must first take these steps:
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
-## Allow or prevent Custom Script (NoScript)
+## Allow or prevent a Custom Script (NoScript)
 
-In Microsoft 365, tenants can control if users can run custom script on personal sites and self-service created sites.
+In Microsoft 365, tenants can control if users can run a custom script on personal sites and self-service created sites.
 
-During migration, some web parts require this setting set to **allow**. Otherwise, the web part won't be migrated.
+During migration, some web parts require this setting be set to **allow**. Otherwise, the web part won't be migrated.
 
 At least 24 hours before you start migration, do the following:
 
@@ -149,7 +149,7 @@ For more info, see, [Allow or prevent custom script](/sharepoint/allow-or-preven
 
 ## Proxy connections
 
-Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if proxy server is configured. Examples of errors you may see include "SharePoint sign in fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings.
+Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if a proxy server is configured. Examples of errors you may see include "SharePoint sign in fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings.
 
 **Update proxy**
 
