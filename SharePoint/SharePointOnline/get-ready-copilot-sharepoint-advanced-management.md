@@ -88,7 +88,7 @@ When you use either Microsoft Search or Microsoft Copilot, the results come from
 
 #### Restrict access with the Restricted Access Control Policy
 
-Until the Site Access Review is complete, you as the SharePoint Admin may want to take action to mitigate oversharing risks. To restrict access to a site with overshared content, the SharePoint Admin can set up a Restricted Access Control Policy. As a result, all access to the site is restricted to only the group of users specified in the policy. Accordingly, the content from this site is visible in Copilot for Microsoft 365 *only for this restricted group of users*. This policy can be configured at tenant level or/and an individual site or OneDrive.
+Until the Site Access Review is complete, you as the SharePoint Admin may want to take action to mitigate oversharing risks. To restrict access to a site with overshared content, the SharePoint Admin can set up a Restricted Access Control Policy. As a result, all access to the site is restricted to only the group of users specified in the policy. Accordingly, the content from this site is visible in Copilot for Microsoft 365 *only for this restricted group of users*. This policy can be configured at an individual site or OneDrive.
 
 ### Step 5: Take proactive measures on business-critical sites
 
