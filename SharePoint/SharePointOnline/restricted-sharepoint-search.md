@@ -39,7 +39,7 @@ Restricted SharePoint Search addresses oversharing concerns by allowing organiza
 
 If Restricted SharePoint Search is enabled, the customer's experience is impacted in the following ways:
 
-- Search results are limited to sites on the allowed list, users’ frequently visited sites, sites that users already have permissions to, and users’ recently accessed files.  Turning on this feature impacts the overall search experience, even for non-Copilot users.
+- Search results are limited to sites on the allowed list, users’ frequently visited sites, and users’ recently accessed files.  Turning on this feature impacts the overall search experience, even for non-Copilot users.
 - Copilot has less information available to reference, which may impact its ability to provide accurate and comprehensive responses.
 
 Remember, whether you have enabled Restricted SharePoint Search, users in your organization are always able to interact with files and content they own or that they have previously accessed in Copilot    .  
