@@ -118,7 +118,7 @@ Following registries help to roam the user environment on multiple nodes in the 
     `HKCU\Software\Microsoft\Internet Explorer`\
     `HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings`\
     `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached`\
-    `HKCU\Software\Microsoft\OneDrive`\
+    `HKCU\Software\Microsoft\OneDrive`
 
   - [IncludeFolderTrees]\
     `<Appdata>\Microsoft\Windows\Recent`\
@@ -126,7 +126,7 @@ Following registries help to roam the user environment on multiple nodes in the 
     `<Appdata>\SystemCertificates`\
     `<LocalAppdata>\Microsoft\IdentityCache`\
     `<LocalAppdata>\Microsoft\Internet Explorer`\
-    `<LocalAppdata>\Microsoft\Windows\INetCache`\
+    `<LocalAppdata>\Microsoft\Windows\INetCache`
     
 ### Configure Omnissa Dynamic Environment Manager with Horizon Apps 
 
