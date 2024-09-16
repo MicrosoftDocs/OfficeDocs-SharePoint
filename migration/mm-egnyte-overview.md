@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: microsoft-365-migration
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection: 
 - m365solution-migratefileshares
 - m365solution-migratetom365

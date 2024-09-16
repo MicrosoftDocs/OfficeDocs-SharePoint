@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SP_admin
 - M365-collaboration

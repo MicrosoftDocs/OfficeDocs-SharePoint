@@ -17,8 +17,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - Tier2
-ms.custom:
-- seo-marvel-apr2020
+
 ms.localizationpriority: medium
 search.appverid:
 - MET150

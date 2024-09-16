@@ -114,6 +114,8 @@ Items:
         href: spmt-workflow-report-and-error-codes.md
   - name: Migration Manager Reference
     items:
+    - name: New Migration transition
+      href: new-migration-transition.md
     - name: File size limitations
       href: mm-file-size-limitations.md
     - name: Migration Admin role

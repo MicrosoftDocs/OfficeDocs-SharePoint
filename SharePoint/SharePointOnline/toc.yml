@@ -1,4 +1,4 @@
-Items:
+items:
 - name: SharePoint and OneDrive
   href: introduction.md
   items:
@@ -77,6 +77,8 @@ Items:
     items:
     - name: Microsoft Copilot for Microsoft 365 - best practices
       href: sharepoint-copilot-best-practices.md
+    - name: Get ready for Copilot with SharePoint Advanced Management(SAM)
+      href: get-ready-copilot-sharepoint-advanced-management.md
     - name: Restricted SharePoint search
       items:
       - name: Overview
@@ -240,6 +242,8 @@ Items:
       items:
       - name: Support for organization fonts in PowerPoint for the web
         href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
+      - name: Connect organizational asset libraries to Copilot
+        href: connect-organizational-asset-libraries-to-copilot.md
   - name: Site administration
     items:
     - name: Create sites
@@ -314,10 +318,6 @@ Items:
         href: deploy-on-windows.md
       - name: Per-machine installation
         href: per-machine-installation.md
-      - name: OneDrive in Citrix Virtual Apps
-        href: onedrive-in-citrix-virtual-apps-deployment-guide.md
-      - name: OneDrive in Horizon Virtual apps
-        href: onedrive-in-horizon-virtual-apps-deployment-guide.md
     - name: Sync app options
       items:
       - name: Sync on virtual desktops
