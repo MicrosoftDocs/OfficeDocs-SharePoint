@@ -115,7 +115,7 @@ Signals your organization can benefit from modern:
 
 ## More modern resources
 
-[Modern inspiration in the SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom)
+[Modern inspiration in the SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book)
 
 [Information architecture in modern SharePoint](./information-architecture-modern-experience.md)
 

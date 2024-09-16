@@ -39,7 +39,7 @@ You can provision the SharePoint Success Site after you confirm that you *and* y
 
 ## Start provisioning from the SharePoint Look Book
 
-If your tenant is already provisioned with Microsoft 365 learning pathways version 4.0 *or later*, you can provision the SharePoint Success Site from the [SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom).
+If your tenant is already provisioned with Microsoft 365 learning pathways version 4.0 *or later*, you can provision the SharePoint Success Site from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book).
 
 If you aren't sure what version of Microsoft 365 learning pathways is installed on your tenant, review the [prerequisites](./provision-sss.md#meet-the-requirements). Then provision the SharePoint Success Site. 
 

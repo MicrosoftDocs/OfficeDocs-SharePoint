@@ -86,7 +86,7 @@ Research has shown preonboarding new hires, after they sign their acceptance let
 
 ## Step 1: Provision NEO sites
 
-The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom) or by navigating to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and selecting the template you need. A **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) or by navigating to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and selecting the template you need. A **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 ### Prerequisites
 

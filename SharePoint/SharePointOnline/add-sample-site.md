@@ -23,7 +23,7 @@ description: "Learn how to add a sample site to your organization."
 
 # Add a sample site to your organization
 
-Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint [Look Book adoption page](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom) to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your organization. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can add a sample site by first [browsing and selecting templates](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom) then applying [the custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates).</br>
+Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint [Look Book adoption page](https://adoption.microsoft.com/sharepoint-look-book) to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your organization. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can add a sample site by first [browsing and selecting templates](https://adoption.microsoft.com/sharepoint-look-book) then applying [the custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates).</br>
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDLk]
@@ -39,7 +39,7 @@ What's included in a sample? You get:
 
 ### Select a sample you like
 
-Browse the samples in the online [SharePoint Look Book adoption page](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom).
+Browse the samples in the online [SharePoint Look Book adoption page](https://adoption.microsoft.com/sharepoint-look-book).
 
 Or, navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need. Follow steps mentioned [here](/sharepoint/dev/solution-guidance/applying-pnp-templates#provisioning-a-template) to provision a template.
 

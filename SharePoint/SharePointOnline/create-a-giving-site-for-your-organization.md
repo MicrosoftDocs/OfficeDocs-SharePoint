@@ -170,5 +170,5 @@ For more details on using the Events web part, see [Use the Events web part](htt
 
 ### Want more?
 
-Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom).
+Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book).
 

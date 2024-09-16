@@ -25,7 +25,7 @@ description: "Provision and customize the Hispanic Heritage Employee resource gr
 
    ![Image of the Hispanic Heritage employee resource group landing page](media/HispanicERGSiteTemplate_overview.png)
 
-Use the Hispanic Heritage Employee Resource Group site template to quickly create a communication site from the [SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
+Use the Hispanic Heritage Employee Resource Group site template to quickly create a communication site from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
 
 This template features content focused on a Hispanic and Latinx employee resource group but can be adapted to fit various other employee groups at your organization.  
 
@@ -34,7 +34,7 @@ This template features content focused on a Hispanic and Latinx employee resourc
 - **Home page with a unique theme:** The site’s landing page features Hispanic heritage branding, inclusive content, and example news posts and events. 
 - **Page template:** Use the page template to create news posts and more pages for the site. 
 - **Pre-populated content and web parts:** Includes inspirational and inclusive content to make customizing the site easier. 
-- **Easy provisioning:** Provision the Hispanic Heritage Employee Resource Group site from the [SharePoint Look Book](https://adoption.microsoft.com/en-us/sharepoint-look-book/#custom) with just a few steps. 
+- **Easy provisioning:** Provision the Hispanic Heritage Employee Resource Group site from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) with just a few steps. 
 - **Mobile ready:** The Employee Resource Group site can be easily accessed [on a mobile device when you get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 
