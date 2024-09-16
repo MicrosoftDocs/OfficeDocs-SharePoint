@@ -42,7 +42,7 @@ Content in Microsoft Graph includes emails, files, meetings, chats, calendars, a
 
 ## Use SharePoint Advanced Management(SAM) to get your organization ready for Copilot
 
-Microsoft SharePoint Premium – SharePoint Advanced Management (SAM) is an essential Microsoft 365 add-on that helps you, as the SharePoint admin to address these three pillars around content governance. To get ready for your organization’s Microsoft 365 Copilot adoption, there are a few highly recommended steps you can take, primarily using SharePoint Advanced Management tools. These steps reduce accidental oversharing, minimize your content governance footprint, improve Copilot response quality, control content access by Copilot, and ensure data safety specifically for business-critical sites. Let's delve into the specific steps you can take:
+[Microsoft SharePoint Premium – SharePoint Advanced Management (SAM)](/sharepoint/advanced-management) is an essential Microsoft 365 add-on that helps you, as the SharePoint admin to address these three pillars around content governance. To get ready for your organization’s Microsoft 365 Copilot adoption, there are a few highly recommended steps you can take, primarily using SharePoint Advanced Management tools. These steps reduce accidental oversharing, minimize your content governance footprint, improve Copilot response quality, control content access by Copilot, and ensure data safety specifically for business-critical sites. Let's delve into the specific steps you can take:
 
 ### Step 1: Reduce accidental oversharing with SharePoint sharing settings
 
