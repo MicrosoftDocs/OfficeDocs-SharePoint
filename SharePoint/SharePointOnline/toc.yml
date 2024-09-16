@@ -75,7 +75,7 @@ items:
         href: setup-wizard.md
   - name: Copilot
     items:
-    - name: Microsoft Copilot for Microsoft 365 - best practices
+    - name: Microsoftpractices
       href: sharepoint-copilot-best-practices.md
     - name: Get ready for Copilot with SharePoint Advanced Management(SAM)
       href: get-ready-copilot-sharepoint-advanced-management.md
