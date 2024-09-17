@@ -57,13 +57,14 @@ As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/m
 Restricted SharePoint Search is off by default. If you decide to enable it,  Copilot and non-Copilot users are able to find and use content from:
 
 - An allowed list of curated SharePoint sites set up by admins (with *up to 100 SharePoint sites*), honoring sites’ existing permissions.
-- Content from their frequently visited SharePoint sites.
 - Users’ OneDrive files, chats, emails, calendars they have access to.
+- Files from their frequently visited SharePoint sites.
 - Files that were shared directly with the users.
 - Files that the users viewed, edited, or created.
 
 > [!NOTE]
-> The limit of up to 100 SharePoint sites includes Hub sites, but not their associated sites.   When you enable Hub sites, the associated sites of a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the associated sites have proper permissions.
+> - The limit of up to 100 SharePoint sites includes Hub sites, but not their associated sites.   When you enable Hub sites, the associated sites of a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the associated sites have proper permissions.
+> - The total number of files included from the last three bullet points (frequently visited sites, files shared directly with the user, and files the users viewed, edited, or created) is limited to the last 2,000 entities.
 
 The following diagram shows an example of an HR Hub site with eight associated sites:
 ![A diagram of a hub site with associated sites.](media/rss-hubsite-example.png) All eight associated sites plus the HR Hub site are counted as one site in the allowed-list.
