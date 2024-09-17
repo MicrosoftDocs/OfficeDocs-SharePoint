@@ -48,7 +48,7 @@ With SharePoint, any user can create highly functional intranet pages quickly wi
 
 If you're currently using SharePoint Server for your intranet, you'll find SharePoint in Microsoft 365 to be easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
 
-As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides various examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
+As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book). The look book provides various examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
 
 For an understanding about how the different component parts work together, review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
 
@@ -195,6 +195,6 @@ When the site is on its way to success, take stock of any lessons learned in the
 
 ## Related articles
 
-[SharePoint look book](https://aka.ms/sharepointlookbook)
+[SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book)
 
 

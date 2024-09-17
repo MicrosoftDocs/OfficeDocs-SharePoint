@@ -39,7 +39,7 @@ Learn more about basic site [building blocks.](https://download.microsoft.com/do
 
 The intranet owners work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit.
 
-Start by getting inspired with the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
+Start by getting inspired with the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book). The look book provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
 Next, start to [plan your intelligent SharePoint intranet](./plan-intranet.md) by working with your key stakeholders to understand your key business and intranet goals. Do research with intranet users to discover key personas and scenarios. Review your existing intranet and determine which initiative to start with for your best return on investment. As you prioritize your intranet initiatives, consider how to get the [best performance and scalability](./portal-health.md) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint](/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan. To troubleshoot page performance issues, use the [page diagnostics tool](/office365/enterprise/page-diagnostics-for-spo).
 
@@ -134,7 +134,7 @@ Depending on their background, the people in your organization may need some hel
 
 ## Business owners and site owners
 
-As a business owner, you may be responsible for intranet content for a specific area of your organization such as HR or operations. You may also be the site owner, the person who has the permissions in SharePoint to create and maintain the content and experiences on the site. Before you start configuring individual sites, for some ideas, look over the [SharePoint look book](https://aka.ms/sharepointlookbook). As part of your overall governance plan, you may decide that sites need to follow consistent patterns to ensure that readers to not have to spend too much time orienting themselves as they go from site to site or topic to topic in the intranet.
+As a business owner, you may be responsible for intranet content for a specific area of your organization such as HR or operations. You may also be the site owner, the person who has the permissions in SharePoint to create and maintain the content and experiences on the site. Before you start configuring individual sites, for some ideas, look over the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book). As part of your overall governance plan, you may decide that sites need to follow consistent patterns to ensure that readers to not have to spend too much time orienting themselves as they go from site to site or topic to topic in the intranet.
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
