@@ -195,5 +195,5 @@ In the following example, the web parts are in the second column of a three-colu
 
 ### Want more?
 
-Get inspired with more examples in the [SharePoint Look Book.](https://sharepointlookbook.azurewebsites.net/)
+Get inspired with more examples in the [SharePoint Look Book.](https://adoption.microsoft.com/sharepoint-look-book)
 
