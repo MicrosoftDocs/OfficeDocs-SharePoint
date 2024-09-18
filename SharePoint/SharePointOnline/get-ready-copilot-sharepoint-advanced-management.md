@@ -100,7 +100,8 @@ For business-critical sites, you want to take proactive measures to ensure the c
 
 ## Coming up
 
-The following policies are currently in preview and will soon be generally available. [*Sign up to participate in the preview by following instructions here*](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRw8ueKeaH4JIsskRInqtJE5UNjhYVkg5NDRNWkMxRlI0TFVDR0FYSUNGUi4u&route=shorturl).
+> [!IMPORTANT]
+> The following policies are currently in preview and will soon be generally available. [*Sign up to participate in the preview by following instructions here*](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRw8ueKeaH4JIsskRInqtJE5UNjhYVkg5NDRNWkMxRlI0TFVDR0FYSUNGUi4u&route=shorturl). 
 
 ### Use the Site Ownership policy to ensure all sites have valid owners
 
