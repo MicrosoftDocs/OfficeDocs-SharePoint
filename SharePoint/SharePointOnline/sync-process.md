@@ -1,7 +1,7 @@
 ---
-ms.date: 11/14/2023
+ms.date: 09/14/2024
 title: "How sync works"
-ms.reviewer: 
+ms.reviewer: kafeaver
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper

@@ -1,7 +1,7 @@
 ---
-ms.date: 09/12/2024
+ms.date: 09/16/2024
 title: "Change a specific user's OneDrive storage space"
-ms.reviewer: jmcdowe
+ms.reviewer: pramod.balusu
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -23,7 +23,7 @@ ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc
 ms.assetid: 7448173d-a38c-48cf-acbb-09ac1b6237d4
-description: In this article, you learn how to change a user's OneDrive storage space in Microsoft 365.
+description: In this article, you learn how to change a user's OneDrive storage space in Microsoft 365 using either PowerShell or the SharePoint admin center.
 ---
 
 # Change a specific user's OneDrive storage space

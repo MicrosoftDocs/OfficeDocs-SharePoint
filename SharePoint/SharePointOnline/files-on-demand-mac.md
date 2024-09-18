@@ -1,5 +1,5 @@
 ---
-ms.date: 11/14/2023
+ms.date: 09/18/2024
 title: "Set Files On-Demand states on Mac"
 ms.reviewer: cagreen
 ms.author: mactra
@@ -29,6 +29,7 @@ description: "Learn how to query and set file and folder states when you use One
 # Query and set Files On-Demand states on Mac
 
 With OneDrive Files On-Demand, files can be in one of three states. Each of these states corresponds to a file attribute state.
+
 To query the current state of a file or folder, use the following command:
 
 - /Applications/OneDrive.App/Contents/MacOS/OneDrive /getpin \<Path to file or folder>
