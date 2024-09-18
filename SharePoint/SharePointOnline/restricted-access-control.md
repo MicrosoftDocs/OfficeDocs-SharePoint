@@ -118,7 +118,7 @@ To manage site access restriction for non-group connected sites using PowerShell
 
 After enabling the policy for communication sites, the policy status and all configured control groups are displayed for site owners on the **Site access** panel in addition to the **Site Information** and **Permissions** panels.
 
-:::image type="content" source="media/rac-spac/5-rac-site-access-page.png" alt-text="screenshot of site access panel for restricted access control." lightbox="media/rac-spac/5-rac-site-access-page.png":::
+:::image type="content" source="media/rac-spac/5-rac-site-access-page.png" alt-text="screenshot of site access panel for restricted access control.":::
 
 ## Shared and private channel sites
 
@@ -128,6 +128,31 @@ For shared channel sites, only internal users in the resource tenant are subject
 
 > [!IMPORTANT]
 > Adding people to the security group or Microsoft 365 group won't give users access to the channel in Teams. It is recommended to add or remove the same users of the teams channel in Teams and the security group or Microsoft 365 group so users have access to both Teams and SharePoint.
+
+## Sharing of sites with Restricted site access policy
+
+Sharing of SharePoint sites and its content can be blocked with users and groups who are not allowed as per the Restricted access control policy. 
+
+The sharing control functionality is disabled by default. To enable it, run the following PowerShell command in SharePoint Online Management Shell as an Administrator: 
+
+```powershell
+Set-SPOTenant -AllowSharingOutsideRestrictedAccessControlGroups $false 
+```
+
+### Sharing with users
+
+Sharing is only allowed with users who are part of restricted access control groups. Sharing will be blocked with anyone outside of the restricted access control groups as shown below:
+
+![The screenshot of sharing with users.](media/rac-spac/rac-share-with-users.png)
+
+### Sharing with groups
+
+Sharing is allowed with Microsoft Entra Security or M365 groups which are part of the restricted access control groups list. Thus, sharing with all other groups including Everyone except external users or SharePoint groups won’t be allowed.
+
+![The screenshot of sharing with groups.](media/rac-spac/rac-share-with-groups.png)
+
+> [!NOTE]
+> At present, sharing of a site and its content will not be allowed for the nested security groups that are part of the restricted access control groups. This support will be added in the next release iteration. 
 
 ## Configure learn more link for access denial error page
 

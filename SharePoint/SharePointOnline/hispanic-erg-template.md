@@ -25,7 +25,7 @@ description: "Provision and customize the Hispanic Heritage Employee resource gr
 
    ![Image of the Hispanic Heritage employee resource group landing page](media/HispanicERGSiteTemplate_overview.png)
 
-Use the Hispanic Heritage Employee Resource Group site template to quickly create a communication site from the [SharePoint look book](https://lookbook.microsoft.com/) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
+Use the Hispanic Heritage Employee Resource Group site template to quickly create a communication site from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
 
 This template features content focused on a Hispanic and Latinx employee resource group but can be adapted to fit various other employee groups at your organization.  
 
@@ -34,7 +34,7 @@ This template features content focused on a Hispanic and Latinx employee resourc
 - **Home page with a unique theme:** The site’s landing page features Hispanic heritage branding, inclusive content, and example news posts and events. 
 - **Page template:** Use the page template to create news posts and more pages for the site. 
 - **Pre-populated content and web parts:** Includes inspirational and inclusive content to make customizing the site easier. 
-- **Easy provisioning:** Provision the Hispanic Heritage Employee Resource Group site from the SharePoint lookbook with just a few steps. 
+- **Easy provisioning:** Provision the Hispanic Heritage Employee Resource Group site from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) with just a few steps. 
 - **Mobile ready:** The Employee Resource Group site can be easily accessed [on a mobile device when you get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 
@@ -42,13 +42,12 @@ This template features content focused on a Hispanic and Latinx employee resourc
 
 | Step 1: Provision | Step 2: Customize | Step 3: Share | 
 | :------------------: | :------------------: |:---------------:| 
-| [Provision the site from the SharePoint look book](/sharepoint/add-sample-site) | Follow guidance on this page to customize the site | Share the site with the rest of your organization | 
-
+| Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need | Follow guidance on this page to customize the site | Share the site with the rest of your organization | 
 
 ## Step 1: Provision the site  
 
 1. Go to the Hispanic Heritage Employee Resource Group template page. 
-2. Select **Add to your tenant**. If you aren't signed into to your tenant, the SharePoint look book asks for your site collection admin credentials. 
+2. Select **Add to your tenant**. If you aren't signed into to your tenant, the SharePoint Look Book asks for your site collection admin credentials. 
 3. From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.** 
 
    >[!NOTE] 

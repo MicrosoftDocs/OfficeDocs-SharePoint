@@ -259,7 +259,7 @@ For more details on using the Text web part, see [Add text and tables to your pa
 
 ## Want more?
 
-Get inspired with more examples in the [SharePoint look book](https://sharepointlookbook.azurewebsites.net/).
+Get inspired with more examples in the [SharePoint look book](https://adoption.microsoft.com/sharepoint-look-book).
 
 See other [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c?ui=en-us&rs=en-us&ad=us) for creating sties for your organization.
 

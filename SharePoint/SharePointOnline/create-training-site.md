@@ -189,5 +189,4 @@ For more information on using the Microsoft Forms web part, see [Use the Microso
 
 ### Want more?
 
-Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
-
+Get inspired with more examples in the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book).

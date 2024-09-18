@@ -1,6 +1,6 @@
 ---
 ms.date: 09/12/2024
-title: Get ready for Copilot for Microsoft 365 with SharePoint Advanced Management (SAM)
+title: Get ready for Microsoft 365 Copilot with SharePoint Advanced Management (SAM)
 ms.reviewer: 
 ms.author: ruihu
 author: maggierui
@@ -22,11 +22,11 @@ search.appverid:
 - MET150
 description: "Learn how to get ready for Microsoft 365 Copilot by using SharePoint Advanced Management (SAM) to govern your organization's data effectively by controlling content sprawl, preventing oversharing, control content access by Copilot, and manage content lifecycle."
 ---
-# Get ready for Copilot for Microsoft 365 with SharePoint Advanced Management (SAM)
+# Get ready for Microsoft 365 Copilot with SharePoint Advanced Management (SAM)
 
 ## Copilot and SharePoint
 
-Your organization is preparing to enable Microsoft Copilot for Microsoft 365, an AI-driven productivity tool that enhances creativity, productivity, and skills in real-time.  As the SharePoint admin, it’s crucial to govern your organization's SharePoint data properly to ensure Copilot's results are appropriate, accurate, and compliant. Understanding the significance of content governance in SharePoint for Copilot begins with knowing [how Copilot works through three components](/copilot/microsoft-365/microsoft-365-copilot-overview#copilot-integration-with-graph-and-microsoft-365-apps):
+Your organization is preparing to enable Microsoft 365 Copilot, an AI-driven productivity tool that enhances creativity, productivity, and skills in real-time.  As the SharePoint admin, it’s crucial to govern your organization's SharePoint data properly to ensure Copilot's results are appropriate, accurate, and compliant. Understanding the significance of content governance in SharePoint for Copilot begins with knowing [how Copilot works through three components](/copilot/microsoft-365/microsoft-365-copilot-overview#copilot-integration-with-graph-and-microsoft-365-apps):
 
 - Large language models (LLMs)
 - The Microsoft 365 productivity apps that you use every day, such as Word, Excel, PowerPoint, Outlook, Teams, and others.
@@ -42,7 +42,7 @@ Content in Microsoft Graph includes emails, files, meetings, chats, calendars, a
 
 ## Use SharePoint Advanced Management(SAM) to get your organization ready for Copilot
 
-Microsoft SharePoint Premium – SharePoint Advanced Management (SAM) is an essential Microsoft 365 add-on that helps you, as the SharePoint admin to address these three pillars around content governance. To get ready for your organization’s Copilot for Microsoft 365 adoption, there are a few highly recommended steps you can take, primarily using SharePoint Advanced Management tools. These steps reduce accidental oversharing, minimize your content governance footprint, improve Copilot response quality, control content access by Copilot, and ensure data safety specifically for business-critical sites. Let's delve into the specific steps you can take:
+[Microsoft SharePoint Premium – SharePoint Advanced Management (SAM)](/sharepoint/advanced-management) is an essential Microsoft 365 add-on that helps you, as the SharePoint admin to address these three pillars around content governance. To get ready for your organization’s Microsoft 365 Copilot adoption, there are a few highly recommended steps you can take, primarily using SharePoint Advanced Management tools. These steps reduce accidental oversharing, minimize your content governance footprint, improve Copilot response quality, control content access by Copilot, and ensure data safety specifically for business-critical sites. Let's delve into the specific steps you can take:
 
 ### Step 1: Reduce accidental oversharing with SharePoint sharing settings
 
@@ -69,26 +69,26 @@ Identify inactive sites, then take action to reduce your governance footprint an
 
 Without looking at the actual content, how do you quickly identify sites with potentially overshared content? Usually, if you see there's content on a site that is being shared with one of the following options: “**Everyone Except External Users**”, “**People in your organization**” and “**Anyone**”, there's a bigger chance that the content is overshared.  Currently, SAM activity based reports let you quickly identify most actively overshared sites, by running three individual reports:
 
-- Usage of "Everyone Except External Users" 
-- Usage of “People in your organization" sharing links 
-- Usage of "Anyone" sharing links 
+- [Usage of "Everyone Except External Users"](/sharepoint/data-access-governance-reports#content-shared-with-everyone-except-external-users-eeeu-reports) 
+- [Usage of “People in your organization" sharing links](/sharepoint/data-access-governance-reports#sharing-links-reports) 
+- [Usage of "Anyone" sharing links](/sharepoint/data-access-governance-reports#sharing-links-reports) 
 
 Sites with these three types of usage are at a greater risk of oversharing compared to those without such usages. Once the report is generated, select the Get AI insights button to [get AI insights](/sharepoint/advanced-management#ai-insights) generated for the report to help you identify issues with the sites and possible actions to address these issues. 
  
 ### Step 4: Control access to content
 
-When you use either Microsoft Search or Microsoft Copilot, the results come from content in Microsoft Graph, based on each individual user’s profile and permissions. In Step 3, you have identified sites with potentially overshared content. Next, you want to ensure Copilot and organization-wide search only have access to content when appropriate. Currently, you can initiate a Site Access Review for site owners to confirm overshared content and take remediation steps. Meanwhile, you as the SharePoint admin can use the Restricted Access Control Policy to restrict access to a site with overshared content.
+When you use Microsoft Copilot, the results come from content in Microsoft Graph, based on each individual user’s profile and permissions. In Step 3, you have identified sites with potentially overshared content. Next, you want to ensure Copilot only has access to content when appropriate. Currently, you can initiate a Site Access Review for site owners to confirm overshared content and take remediation steps. Meanwhile, you as the SharePoint admin can use the Restricted Access Control Policy to restrict access to a site with overshared content.
 
 #### Site Access Review by site owners
 
-- For any site that is identified with potentially overshared content, [Site Access Review](/sharepoint/site-access-review) is needed. As the SharePoint Admin, you should initiate the Site Access Review. 
-- Site Owners use a new Site Access Review UI to review the broadly shared content in their site
-- The site owners need to determine whether the broad sharing is appropriate, or it's indeed oversharing and requires remediation. 
+- For any site that is identified with potentially overshared content, [Site Access Review](/sharepoint/site-access-review) is needed. As the SharePoint Admin, you should [initiate the Site Access Review](/sharepoint/site-access-review/#initiate-a-site-access-review). 
+- Site Owners [receive notification](/sharepoint/site-access-review#site-access-review-process-for-site-owners) for each site that requires attention. They can use the [**Site reviews page**](/sharepoint/site-access-review#manage-multiple-site-access-review-requests-for-site-owners) to track and manage multiple review requests.
+- The site owner [reviews access in two main areas](/sharepoint/site-access-review#review-everyone-except-external-users-site-access-review-requests-for-site-owners): SharePoint groups and individual items to determine whether the broad sharing is appropriate, or it is indeed oversharing and requires remediation. 
 - If the site owner determines that the content is indeed overshared, they can take easy remediation actions by using the Access Review dashboard to update permissions. 
 
 #### Restrict access with the Restricted Access Control Policy
 
-Until the Site Access Review is complete, you as the SharePoint Admin may want to take action to mitigate oversharing risks. To restrict access to a site with overshared content, the SharePoint Admin can set up a Restricted Access Control Policy. As a result, all access to the site is restricted to only the group of users specified in the policy. Accordingly, the content from this site is visible in Copilot for Microsoft 365 *only for this restricted group of users*. This policy can be configured at tenant level or/and an individual site or OneDrive.
+Until the Site Access Review is complete, you as the SharePoint Admin may want to take action to mitigate oversharing risks. To restrict access to a site with overshared content, the SharePoint Admin can set up a [Restricted Access Control Policy](/sharepoint/restricted-access-control). As a result, all access to the site is restricted to only the group of users specified in the policy. Accordingly, the content from this site is visible in Microsoft 365 Copilot *only for this restricted group of users*. This policy can be configured at an individual site or OneDrive.
 
 ### Step 5: Take proactive measures on business-critical sites
 
@@ -135,7 +135,7 @@ In Step 4—control access to content, it's advised to begin with the Site Acces
 
 In addition, in Step 5, to further protect content on your business-critical sites, you can use Restricted Content Discoverability to leave permissions in place, but prevent the content from being available to Microsoft 365 Copilot and Organization-wide search experiences.
 
-The Restricted Content Discoverability policy leaves site access unchanged but prevents the site’s content from being surfaced in Copilot for Microsoft 365 or organization-wide Search. The SharePoint Admin can set Restricted Content Discoverability on that site.
+The Restricted Content Discoverability policy leaves site access unchanged but prevents the site’s content from being surfaced in Microsoft 365 Copilot or organization-wide Search. The SharePoint Admin can set Restricted Content Discoverability on that site.
 
 ### Use AI Powered Semantic matching to find similar sites
 

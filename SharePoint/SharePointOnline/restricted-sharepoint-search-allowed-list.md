@@ -20,7 +20,7 @@ description: "Learn how to use SharePoint Admin Center active sites report and S
 
 # Curate the allowed list for Restricted SharePoint Search
 > [!IMPORTANT]
-> Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
+> Restricted SharePoint Search is designed for customers of Microsoft 365 Copilot. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
 
 As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365, you can set up an allowed list of Restricted SharePoint Search with a maximum of 100 selected SharePoint sites. For Copilot and organization-wide search, besides the contents that they already have access to, either by direct sharing, visiting, or owning, your organization’s users will only be able to reach the sites on the allowed list, honoring these sites’ current permissions.
 
@@ -118,4 +118,4 @@ The SPAC DAG report (Data access governance reports for SharePoint sites) is par
 
 ## Resources
 
-[Microsoft Copilot for Microsoft 365 - best practices with SharePoint](/sharepoint/sharepoint-copilot-best-practices)
+[Microsoft 365 Copilot - best practices with SharePoint](/sharepoint/sharepoint-copilot-best-practices)
