@@ -83,6 +83,9 @@ When a report is ready, select the name of the report to view the data. Each sha
 
 You can also download the reporting as a .csv file for up to 10,000 sites.
 
+> [!NOTE]
+> If you have SharePoint SharePoint Premium - SharePoint Advanced Management license, you can download upto 1 Million sites
+
 ## Sensitivity labels for files reports
 
 The Sensitivity labels for files report lets you control access to sensitive content by finding sites storing [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files). You can review these sites to ensure the correct policies are applied.
@@ -114,7 +117,11 @@ After you run a report, select the report to download the data. The report inclu
 
 :::image type="content" source="media/details-screen.png" alt-text="Downloaded .csv file":::
 
+
 ## Content shared with 'Everyone except external users' (EEEU) reports
+
+> [!IMPORTANT]
+> This report is ONLY available if you have SharePoint Premium - SharePoint Advanced Management license
 
 Everyone except external users (EEEU) is part of a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization:
 
@@ -168,6 +175,9 @@ After running the report, select the report to download the data. In the report:
 - Report data may be delayed by up to 48 hours. In new tenants, it can take a few days for data to be generated successfully and available for viewing.
 
 ## Remedial actions from Data access governance reports
+
+> [!IMPORTANT]
+> These remedial actions from DAG reports are ONLY available if you have SharePoint Premium - SharePoint Advanced Management license
 
 Once you run the Data access governance reports to discover potential oversharing, the next step is to take actions to remediate such risks. We recommend considering factors like sensitivity of the content, amount of content exposed and disruption to existing status.
 
