@@ -1,7 +1,7 @@
 ---
-ms.date: 10/01/2023
+ms.date: 09/18/2024
 title: "Enable conditional access support in the OneDrive sync app"
-ms.reviewer: 
+ms.reviewer: wsproule
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -70,7 +70,7 @@ The following are known issues with this release:
 
 Let us know if you run into any problems while using this release.
   
- **To report a problem**
+ To report a problem
   
 1. Right-click the blue OneDrive cloud icon in the Windows taskbar notification area or macOS menu bar.
 

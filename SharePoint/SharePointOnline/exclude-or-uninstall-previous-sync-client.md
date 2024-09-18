@@ -1,5 +1,5 @@
 ---
-ms.date: 11/14/2023
+ms.date: 09/18/2024
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: kafeaver
 ms.author: mactra
@@ -44,12 +44,12 @@ These changes don't affect your organization if you're already using the new One
 
 If your organization provides an Office deployment configuration file to Setup.exe, add this to your config file to exclude Groove in your deployment:
   
-```
+`
 <Product ID="O365ProPlusRetail" >
     <Language ID="en-us" />
     <ExcludeApp ID="Groove" />
 </Product>
-```
+`
 
 For more info about configuration options, see [Configuration options for the Office Deployment Tool](/deployoffice/office-deployment-tool-configuration-options).
   
@@ -69,12 +69,12 @@ The following table shows more detail about which Office installations were affe
 
 |**Office version**|**Groove.exe is no longer installed by default**|**Groove.exe is uninstalled on next update if not in use for 30 days**|
 |---------|---------|---------|
-|MSI (all versions)  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|Office 2016 Click-to-Run - Office Insider  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
-|Office 2016 Click-to-Run - Monthly Channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel (Preview)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
+|MSI (all versions) |Not applicable |Not applicable |
+|Office 2013 Click-to-Run |Not applicable |Not applicable |
+|Office 2016 Click-to-Run - Office Insider |Sept. 2017 - Version 1710 (Build 8530.1000) |Sept. 2017 - Version 1710 (Build 8530.1000) |
+|Office 2016 Click-to-Run - Monthly Channel |Oct. 2017 - Version 1709 (Build 8528.2139) |Oct. 2017 - Version 1709 (Build 8528.2139) |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel (Preview) |Sept. 2018 - Version 1808 (Build 10730.20102) |Sept. 2018 - Version 1808 (Build 10730.20102) |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel |Jan. 2019 - Version 1808 (Build 10730.20264) |Jan. 2019 - Version 1808 (Build 10730.20264) |
 
 For more info about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise]( /deployoffice/overview-update-channels).
   
