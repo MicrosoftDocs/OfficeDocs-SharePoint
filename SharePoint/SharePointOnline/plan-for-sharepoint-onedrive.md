@@ -1,5 +1,5 @@
 ---
-ms.date: 06/10/2022
+ms.date: 09/17/2024
 title: Plan for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
 ms.author: ruihu
