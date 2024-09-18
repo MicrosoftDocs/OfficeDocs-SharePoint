@@ -73,7 +73,7 @@ When users need more storage beyond the initial 5 TB, Microsoft increases their 
     > [!NOTE]
     > Uninstall any previous versions of the SharePoint Online Management Shell before installing the latest version.
 
-2. Save the following PowerShell script to a file (for example, you can save it as UpdateOneDriveStorage.ps1):
+2. Save the following PowerShell script to a file (for example, you can save it as _UpdateOneDriveStorage.ps1_):
 
     ```PowerShell
     $TenantUrl = Read-Host "Enter the SharePoint admin center URL"
