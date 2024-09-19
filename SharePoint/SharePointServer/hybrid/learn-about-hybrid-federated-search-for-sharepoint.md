@@ -75,7 +75,7 @@ Show search results from both environments in Search Centers both in SharePoint 
   
 ## Where do you manage hybrid federated search?
 
-Because hybrid federated search is based on federating results from the two environments, you manage search separately in each environment, just as you'd do without hybrid federated search set up.
+Because hybrid federated search is based on federating results from the two environments, you manage search separately in each environment, just as you'd do without hybrid federated search setup.
   
 ## How does hybrid federated search work?
 
