@@ -35,7 +35,7 @@ Once you have your source SharePoint list set up and are ready to work on integr
 
 1. Add a new flow or customize existing flows to this solution by referring to [Create a cloud flow in a solution](/power-automate/create-flow-solution).  
 1. Ensure that your flows use connection references for each trigger and action that you use. For more information on how to use a connection reference, see [Use a connection reference in a solution](/power-apps/maker/data-platform/create-connection-reference).
-1. Once you are satisfied with the contents of your solution (including any connection references or environment variables you wish to set up), [export and download](/power-automate/export-flow-solution) it to a disk.
+1. Once you are satisfied with the contents of your solution (including any connection references or environment variables you wish to set up), [export and download](/power-automate/export-flow-solution) it to a disk. **Important: the solution needs to be exported as an unmanaged solution.**
 1. Extract all files from the zip file into a separate folder.
 1. Browse into the folder's **Workflows** subfolder.
 1. Open each flow-related .json file and then search and replace all instances of the following elements:
