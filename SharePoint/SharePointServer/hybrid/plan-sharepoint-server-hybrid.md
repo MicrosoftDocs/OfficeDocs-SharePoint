@@ -30,7 +30,7 @@ After you have determined which hybrid solution is right for you, follow the ass
 |:-----|:-----|
 |[Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md) <br/> |Learn about how hybrid taxonomy and content types give you a single taxonomy and set of content types that you can share between SharePoint Server and SharePoint in Microsoft 365.  <br/> |
 |[Plan hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |Use this article to plan for using OneDrive in SharePoint in Microsoft 365 for your users' personal storage.  <br/> |
-|[Plan cloud hybrid search for SharePoint in Microsoft 365](plan-cloud-hybrid-search-for-sharepoint.md) <br/> |Learn how to plan for cloud hybrid search.  <br/> |
+|[Plan cloud hybrid search for SharePoint in Microsoft 365](plan-cloud-hybrid-search-for-sharepoint.md) <br/> |Learn how to plan for cloud hybrid search. _*Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound) has been retired as of September 2024.*_ Hybrid Federated Search for SharePoint Server (Outbound) and Cloud hybrid search remain operational. <br/> |
 |[Plan hybrid profiles](plan-hybrid-profiles.md) <br/> |Learn about hybrid profiles and your options for tying in external profile information.  <br/> |
 |[The extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |Learn how the hybrid extensible app launcher can bring Microsoft 365 tiles to SharePoint Server.  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |Learn how hybrid site following give you a single followed sites list for SharePoint Server and SharePoint in Microsoft 365.  <br/> |
