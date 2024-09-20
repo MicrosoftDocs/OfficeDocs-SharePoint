@@ -32,7 +32,7 @@ When a user issues a query, the search system associates the query with a result
   
 - A search provider or source URL to get search results from — for example, the search index of the local SharePoint Search service
     
-- A protocol to use to get search results — for example, the OpenSearch protocol
+- A protocol to use to get search results — As of September 2024, only `Local SharePoint` protocol option is supported.  The `Remote SharePoint` and `OpenSearch` protocol options will return zero results and will soon be removed from the configuration.
     
 - A query transform, which can narrow results from the given search provider or URL to a specified subset — for example, a subset that has a particular content type
     
@@ -90,23 +90,17 @@ From the Manage Result Sources page, you can create other result sources in eith
 <a name="BKMK_What_protocols_and_locations"> </a>
 
 A result source specifies one of four protocols to use to get search results, as shown in the following table.
+>[!IMPORTANT]
+>As of September 2024, for SharePoint Online Microsoft 365 Result Sources, the OpenSearch and Remote SharePoint protocol options have been retired and will soon be removed from the Result Source configuration UI.  Any SharePoint Online Result Source currently configured to use these options will have zero results returned.
+
   
 **Result source protocols**
 
 | **A result source that specifies this protocol** |                                        **Gets search results from this search provider**                                         |
 | :----------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
 | Local SharePoint                                 | The search index of the local Search service                                                                                     |
-| Remote SharePoint                                | The search index of a Search service hosted in another farm                                                                      |
-| OpenSearch 1.0/1.1                               | An external search provider (such as a remote search engine or feed) that uses the OpenSearch protocol to provide search results |
-   
-A result source that uses a protocol other than "Local SharePoint" must also specify a URL from which to get search results, as shown in the following table.
-  
-**Result source URLs**
-
-| **A result source that uses this protocol** |                           **Must specify this URL**                            |
-| :------------------------------------------ | :----------------------------------------------------------------------------- |
-| Remote SharePoint                           | The address of the root site collection of the remote SharePoint Server farm   |
-| OpenSearch 1.0/1.1                          | The URL of the RSS feed of a search provider that uses the OpenSearch protocol |
+| Remote SharePoint                                | The search index of a Search service hosted in another farm, the option is no longer supported and will return zero results                                                                      |
+| OpenSearch 1.0/1.1                               | An external search provider (such as a remote search engine or feed) that uses the OpenSearch protocol to provide search results, the option is no longer supported and will return zero results |   
    
 ## Who can create result sources?
 <a name="BKMK_Who"> </a>
