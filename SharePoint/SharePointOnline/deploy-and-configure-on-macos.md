@@ -154,6 +154,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [KFMBlockOptOut](deploy-and-configure-on-macos.md#kfmblockoptout)
 - [KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
 - [KFMSilentOptIn](deploy-and-configure-on-macos.md#kfmsilentoptin)
+- [LocalMassDeleteFileDeleteThreshold](deploy-and-configure-on-macos.md#localmassdeletefiledeletethreshold)
 - [OpenAtLogin](deploy-and-configure-on-macos.md#openatlogin)
 - [SharePointOnPremFrontDoorUrl](deploy-and-configure-on-macos.md#sharepointonpremfrontdoorurl)
 - [SharePointOnPremPrioritizationPolicy](deploy-and-configure-on-macos.md#sharepointonpremprioritizationpolicy)
@@ -556,6 +557,25 @@ If you don't set any of the following settings, then the default setting moves b
 <(Bool)/>
 <key>KFMSilentOptInDocuments</key>
 <(Bool)/>
+```
+
+### LocalMassDeleteFileDeleteThreshold
+
+This setting specifies the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
+
+> [!Note]
+> This policy sets the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
+> If you enable this policy, users see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user is given the option to continue to remove the cloud files, or restore the local files.
+
+To enable this setting, set a value 0 through 100000, users will see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user is given the option to continue to remove the cloud files, or restore the local files.
+
+If you don't set this setting, users will see a notification when they delete more than 200 files within a short period of time.
+
+The example for this setting in the .plist file is:
+
+```xml
+<key>LocalMassDeleteFileDeleteThreshold</key>
+<integer>(Number of items deleted)</integer>
 ```
 
 ### OpenAtLogin
