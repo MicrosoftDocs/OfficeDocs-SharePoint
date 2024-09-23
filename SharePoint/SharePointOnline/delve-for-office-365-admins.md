@@ -26,6 +26,9 @@ description: "The more you and your colleagues use Microsoft 365 to work togethe
 
 # Delve for admins
 
+> [!IMPORTANT]
+> Delve will be retired in December 2024. For more information, see [**Guidance for retiring Delve in your organization ADD link to new article about Delve retirement**].
+
 The more you and your colleagues use Microsoft 365 to work together, by viewing, editing, and sharing each other's documents, the more useful [Delve](https://support.microsoft.com/office/what-is-delve-1315665a-c6af-4409-a28d-49f8916878ca) is for all of you. Learn more about how you as an admin can help users get the most out of Delve.
   
 Delve is powered by the Microsoft Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to.
