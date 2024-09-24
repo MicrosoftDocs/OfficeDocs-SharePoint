@@ -38,7 +38,8 @@ If a destination is missing on a single user, highlight the row and update the v
     - For Teams, select the team and the channel
 
 3. Select **Save path**.
-
+>[!Note]
+> If the desired destination doesn’t appear in the dropdown list, please upload it using a CSV file as described below.
 
 ## Upload destinations using a CSV file
 
