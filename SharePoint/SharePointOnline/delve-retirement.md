@@ -88,3 +88,23 @@ The new edit-profile experience is built on top of Microsoft 365 profile cards, 
 
 [Screenshot 4]
 
+## Where can users search for users and user profile properties currently supported in Delve?
+
+Users can search for people in the modern search experience in Microsoft365.com, Office.com and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to modern search profile page on Microsoft365.com.
+
+Please note that people are presented in multiple ways in modern search. Clicks on a people result in the “all” vertical will take the user to the modern search profile experience. Clicks on people results in the people vertical will open the large profile card. Both experiences will include properties that today are surfaced in Delve.
+
+## Custom people search solutions
+
+If your tenant depends on custom solutions for people search it should continue to work as before. They are built on services powering Delve and not on the Delve experience itself. One common third party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search based experiences based on SharePoint web parts. It is easy to configure people results to support opening profile cards on hover and click. It is also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
+
+## Properties not supported by the new edit experience
+
+In general, the new edit experience built on profile cards will support editing properties in the profile card. However, there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint.
+
+However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit-profile experience in SharePoint.
+
+The new edit-profile experience built on profile cards will not support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit-profile experience, but by default they'll not be visible anywhere and only provide value if you have a custom solution. Below is a list of the mentioned properties.
+
+### Properties synced from Microsoft Entra ID that aren't editable (by default) in Delve
+
