@@ -62,10 +62,15 @@ To enable SharePoint and OneDrive integration with Microsoft Entra B2B
 
 2. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3. Run the following cmdlets:
+3. Run the following cmdlet:
 
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
+   ```
+
+   or use the [PnP CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/):
+   ```bash
+   m365 spo tenant settings set --EnableAzureADB2BIntegration true
    ```
 
 ## Disabling the integration
