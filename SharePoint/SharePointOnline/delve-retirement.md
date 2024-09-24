@@ -108,3 +108,37 @@ The new edit-profile experience built on profile cards will not support editing 
 
 ### Properties synced from Microsoft Entra ID that aren't editable (by default) in Delve
 
+- UserPrincipalName
+- DisplayName
+- GivenName
+- Sn
+- telephoneNumber
+- proxyAddresses
+- PhysicalDeliveryOfficeName
+- Title
+- Department
+- WWWHomePage
+- PreferredLanguage
+- msExchHideFromAddressList
+- Manager
+
+## When will Delve become unavailable?
+
+Delve will be retired on December 16, 2024. The extended profile card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve retires. For a limited period both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs are activated.
+
+## What we recommend administrators to do?
+
+- Educate your users about the upcoming changes by updating internal documentation and training material relevant for the Delve retirement.
+- Once released, validate that your users can solve their Delve tasks in the new edit-profile experience, updated profile pages in modern search, people search in Microsoft365.com, and the extended profile cards.
+
+## Relevant Links/Resources
+
+[Alternatives to Delve in Microsoft 365](https://support.microsoft.com/office/alternatives-to-delve-in-microsoft-365-59e29736-de90-40ce-93ee-0bbe23902a42)
+
+[Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md)
+
+[Tips and tricks on how to search for organizational content more effectively](https://techcommunity.microsoft.com/t5/microsoft-search-blog/tips-and-tricks-on-how-to-search-for-organizational-content-more/ba-p/3838452)
+
+[Profile cards in Microsoft 365](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501)
+
+[User profile synchronization](user-profile-sync.md)
