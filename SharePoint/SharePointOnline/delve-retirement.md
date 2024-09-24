@@ -45,9 +45,46 @@ The modern search experiences on Microsoft365.com/Office.com and in SharePoint i
 
 ### Example links
 
-Microsoft365.com
+- For Microsoft365.com:
 
-Office.com
+  [Example]
 
-SharePoint
+- For Office.com:
+
+  [Example]
+
+- For SharePoint:
+
+  [Example]
+
+## What happens to existing URLs pointing to Delve or SharePoint profiles?
+
+Both Delve URLs and SharePoint profile URLs will be redirected to the modern search profile pages on Microsoft365.com. For tenants not using Delve today, there'll be no change to URLs and their profile legacy experiences in SharePoint. However, they will get the extended profile page in modern search and the extended profile cards across Microsoft 365, which will include properties that today are visible in Delve.
+
+## Where can users edit properties currently editable in Delve?
+
+A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This will allow users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today are not editable in Delve, but are viewable in the SharePoint edit-profile experience.
+
+The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user-profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
+
+The same is true for the visibility attribute users can change for some properties in Delve. For now, they'll not be able to change this in the new edit experience, and must go to the legacy edit profile in SharePoint. The new edit experience will include a direct link to the legacy edit experience in SharePoint, so it's easy for users to get there. This approach is how the visibility attribute is handled in Delve today.
+
+### The link to the legacy SharePoint edit-profile expereince
+
+[Screenshot 1]
+
+### The SharePoint Edit Details dialog box
+
+[Screenshot 2]
+
+## What will the new edit experience in profile cards look like?
+
+The new edit-profile experience is built on top of Microsoft 365 profile cards, and will be presented in an overlay the same way ofile cards are handled today. The most common user pattern is to open their own profile card and selects **Edit profile**. Instead of being redirected to Delve, the edit experience will open in the profile card itself. The following illustrations are an example of this process.
+
+> [!NOTE]
+> If the new edit-profile experience isn' yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search-profile page on Microsoft365.com.
+
+[Screenshot 3]
+
+[Screenshot 4]
 
