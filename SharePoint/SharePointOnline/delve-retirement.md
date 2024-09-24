@@ -37,11 +37,11 @@ There are a couple of exceptions regarding data storage. Delve stores a limited 
 
 ## Where can users view user properties currently surfaced in Delve?
 
-Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards available in search experiences on Microsoft365.com/Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the Profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com/Office.com or SharePoint, which also offers a people search similar to what's offered in the Delve search.
+Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards available in search experiences on Microsoft365.com, Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the Profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com, Office.com, or SharePoint, which also offers a people search similar to what's offered in the Delve search.
 
 ## Direct links to profile cards
 
-The modern search experiences on Microsoft365.com/Office.com and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. We handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
+The modern search experiences on Microsoft365.com, Office.com, and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. We handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
 
 ### Example links
 
@@ -90,13 +90,13 @@ The new edit-profile experience is built on top of Microsoft 365 profile cards, 
 
 ## Where can users search for users and user profile properties currently supported in Delve?
 
-Users can search for people in the modern search experience in Microsoft365.com, Office.com and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to modern search profile page on Microsoft365.com.
+Users can search for people in the modern search experience in Microsoft365.com, Office.com, and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to modern search profile page on Microsoft365.com.
 
 Note that people are presented in multiple ways in modern search. Clicks on a people result in the “all” vertical will take the user to the modern search profile experience. Clicks on people results in the people vertical will open the large profile card. Both experiences will include properties that today are surfaced in Delve.
 
 ## Custom people search solutions
 
-If your tenant depends on custom solutions for people search it should continue to work as before. They are built on services powering Delve and not on the Delve experience itself. One common third party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search based experiences based on SharePoint web parts. It is easy to configure people results to support opening profile cards on hover and click. It is also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
+If your tenant depends on custom solutions for people search it should continue to work as before. They're built on services powering Delve and not on the Delve experience itself. One common third-party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search based experiences based on SharePoint web parts. It is easy to configure people results to support opening profile cards on hover and click. It is also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
 
 ## Properties not supported by the new edit experience
 
