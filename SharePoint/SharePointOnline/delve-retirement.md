@@ -129,9 +129,9 @@ Delve will be retired on December 16, 2024. The extended profile-card experience
 ## What we recommend administrators to do?
 
 - Educate your users about the upcoming changes by updating internal documentation and training material relevant for the Delve retirement.
-- Once released, validate that your users can solve their Delve tasks in the new edit-profile experience, updated profile pages in modern search, people search in Microsoft365.com, and the extended profile cards.
+- Once released, validate that your users can solve their Delve tasks in the new edit-profile experience, updated profile pages in modern search, people search in Microsoft365.com, and in the extended profile cards.
 
-## Relevant Links/Resources
+## Additional resources
 
 [Alternatives to Delve in Microsoft 365](https://support.microsoft.com/office/alternatives-to-delve-in-microsoft-365-59e29736-de90-40ce-93ee-0bbe23902a42)
 
