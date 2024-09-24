@@ -37,5 +37,17 @@ There are a couple of exceptions to this. Delve stores a very limited set of Del
 
 ## Where can users view user properties currently surfaced in Delve?
 
-Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards that are available in search experiences on Microsoft365.com/Office.com and in SharePoint. Eventually, these changes will be enabled everywhere the profile card is available. However, for technical reasons, this will take some time. For December 2024 we recommend directing users to Microsoft365.com/Office.com or SharePoint, which also offers a people search similar to what's offered in the Delve search.
+Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the Profile cards that are available in search experiences on Microsoft365.com/Office.com and in SharePoint. Eventually, these changes will be enabled everywhere the Profile card is available. However, for technical reasons, this will take some time. For December 2024 we recommend directing users to Microsoft365.com/Office.com or SharePoint, which also offers a people search similar to what's offered in the Delve search.
+
+## Direct links to profile cards
+
+The modern search experiences on Microsoft365.com/Office.com and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. We will handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
+
+### Example links
+
+Microsoft365.com
+
+Office.com
+
+SharePoint
 
