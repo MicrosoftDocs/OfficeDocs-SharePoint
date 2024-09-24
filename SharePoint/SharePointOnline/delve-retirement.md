@@ -27,7 +27,7 @@ description: "With the December 2024 planned retirement of Delve, this article c
 
 # Guidance for retiring Delve in your organization
 
-In December 2024, Delve will be retired. This change was first announced in a MC Post available in the [Microsoft 365 Message Center](https://admin.microsoft.com/Adminportal/Home?#/MessageCenter/:/messages/MC698136). There's also an article you can refer to, [Alternatives to Delve in Microsoft 365](https://support.microsoft.com/office/alternatives-to-delve-in-microsoft-365-59e29736-de90-40ce-93ee-0bbe23902a42), that focuses on helping end users find alternatives for their tasks within Microsoft 365. The purpose of this article is to assist administrators with the Delve offboarding process.
+In December 2024, Delve will be retired. This change was first announced in an MC Post available in the [Microsoft 365 Message Center](https://admin.microsoft.com/Adminportal/Home?#/MessageCenter/:/messages/MC698136). There's also an article you can refer to, [Alternatives to Delve in Microsoft 365](https://support.microsoft.com/office/alternatives-to-delve-in-microsoft-365-59e29736-de90-40ce-93ee-0bbe23902a42), that focuses on helping end users find alternatives for their tasks within Microsoft 365. The purpose of this article is to assist administrators with the Delve offboarding process.
 
 ## What will be retired?
 
@@ -122,7 +122,7 @@ The new edit-profile experience built on profile cards will not support editing 
 - msExchHideFromAddressList
 - Manager
 
-## When will Delve become unavailable?
+## When will Delve no longer be available?
 
 Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs are activated.
 
