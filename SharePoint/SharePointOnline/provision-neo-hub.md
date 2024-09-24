@@ -1,5 +1,5 @@
 ---
-ms.date: 06/25/2020
+ms.date: 09/24/2024
 title: Overview of the Microsoft New Employee Onboarding sites
 ms.reviewer:
 ms.author: ruihu
@@ -86,7 +86,7 @@ Research has shown preonboarding new hires, after they sign their acceptance let
 
 ## Step 1: Provision NEO sites
 
-The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint Look Book](https://adoption.microsoft.com/sharepoint-look-book) or by navigating to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and selecting the template you need. A **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) sites can be provisioned from the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates#available-templates) and selecting the template you need. A **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 ### Prerequisites
 
@@ -94,7 +94,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 ### Provision the NEO sites
 
-1. Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need. Learn more on how to [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates).
+1. Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-#available-templates) and select the template you need. Learn more on how to [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates).
 
 2. Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
