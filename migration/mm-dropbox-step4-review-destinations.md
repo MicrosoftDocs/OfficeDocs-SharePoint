@@ -24,7 +24,7 @@ description: Review your destination paths for your Dropbox migration while usin
 ---
 # Step 4: Review destination paths in Migration Manager Dropbox
 
-In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
+In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they're correct. An account can't be migrated without a destination indicated. Once you start migrating content to a destination, it can't be modified.
 
 ## Single destination edit
 
