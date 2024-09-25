@@ -69,7 +69,7 @@ The same will be true for the new edit experience. Only properties that today ar
 
 The same is true for the visibility attribute users can change for some properties in Delve. For now, they'll not be able to change this in the new edit experience, and must go to the legacy edit profile in SharePoint. The new edit experience will include a direct link to the legacy edit experience in SharePoint, so it's easy for users to get there. This approach is how the visibility attribute is handled in Delve today.
 
-### The link to the legacy SharePoint edit-profile expereince
+### The link to the legacy SharePoint edit-profile experience
 
 :::image type="content" source="media/delve-retirement-legacy-edit-experience-in-sharepoint.png" alt-text="Screenshot showing how to access the legacy edit experience in SharePoint.":::
 
