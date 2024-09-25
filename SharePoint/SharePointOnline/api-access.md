@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2020
+ms.date: 09/25/2024
 title: "Manage access to Microsoft Entra ID-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: ruihu
