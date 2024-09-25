@@ -126,7 +126,7 @@ The new edit-profile experience built on profile cards won't support editing the
 
 Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
 
-## What we recommend administrators to do?
+## What do we recommend administrators do?
 
 - Educate your users about the upcoming changes by updating internal documentation and training material relevant for the Delve retirement.
 - Once released, validate that your users can solve their Delve tasks in the new edit-profile experience, updated profile pages in modern search, people search in Microsoft365.com, and in the extended profile cards.
