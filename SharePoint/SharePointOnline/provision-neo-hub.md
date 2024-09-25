@@ -94,7 +94,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 ### Provision the NEO sites
 
-1. Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-#available-templates) and select the template you need. Learn more on how to [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates).
+1. Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates#available-templates) and select the template you need. Learn more on how to [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates).
 
 2. Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
