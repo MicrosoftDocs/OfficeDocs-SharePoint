@@ -47,15 +47,15 @@ The modern search experiences on Microsoft365.com, Office.com, and in SharePoint
 
 - For Microsoft365.com:
 
-  :::image type="content" source="media/delve-retirement-microsoft365-links.png" alt-text="Screenshot showing the kink syntax for Microsoft 365.":::
+  :::image type="content" source="media/delve-retirement-microsoft365-links.png" alt-text="Screenshot showing the link syntax for Microsoft 365.":::
 
 - For Office.com:
 
-  :::image type="content" source="media/delve-retirement-office-links.png" alt-text="Screenshot showing the kink syntax for Microsoft 365.":::
+  :::image type="content" source="media/delve-retirement-office-links.png" alt-text="Screenshot showing the link syntax for Office.com.":::
 
 - For SharePoint:
 
-  :::image type="content" source="media/delve-retirement-sharepoint-links.png" alt-text="Screenshot showing the kink syntax for Microsoft 365.":::
+  :::image type="content" source="media/delve-retirement-sharepoint-links.png" alt-text="Screenshot showing the link syntax for SharePoint.":::
 
 ## What happens to existing URLs pointing to Delve or SharePoint profiles?
 
