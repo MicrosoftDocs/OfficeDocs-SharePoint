@@ -37,7 +37,7 @@ There are a couple of exceptions regarding data storage. Delve stores a limited 
 
 ## Where can users view user properties currently surfaced in Delve?
 
-Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards available in search experiences on Microsoft365.com, Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the Profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com, Office.com, or SharePoint, which also offers a people search similar to what's offered in the Delve search.
+Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards available in search experiences on Microsoft365.com, Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com, Office.com, or SharePoint, which also offer a people search similar to what's offered in the Delve search.
 
 ## Direct links to profile cards
 
@@ -79,24 +79,24 @@ The same is true for the visibility attribute users can change for some properti
 
 ## What will the new edit experience in profile cards look like?
 
-The new edit-profile experience is built on top of Microsoft 365 profile cards, and will be presented in an overlay the same way ofile cards are handled today. The most common user pattern is to open their own profile card and selects **Edit profile**. Instead of being redirected to Delve, the edit experience will open in the profile card itself. The following illustrations are an example of this process.
+The new edit-profile experience is built on top of Microsoft 365 profile cards, and will be presented in an overlay the same way profile cards are handled today. The most common user pattern is to open their own profile card and select **Edit profile**. Instead of being redirected to Delve, the edit experience will open in the profile card itself. The following two illustrations are an example of this process.
 
 > [!NOTE]
-> If the new edit-profile experience isn' yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search profile page on Microsoft365.com.
+> If the new edit-profile experience isn't yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search profile page on Microsoft365.com.
 
 :::image type="content" source="media/delve-retirement-profile-card-with-update-button.png" alt-text="Screenshot showing an example of a profile card with the Update button.":::
 
 :::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data.":::
 
-## Where can users search for users and user profile properties that are currently supported in Delve?
+## Where can users search for people and user-profile properties that are currently supported in Delve?
 
-Users can search for people in the modern search experience in Microsoft365.com, Office.com, and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to modern search profile page on Microsoft365.com.
+Users can search for people in the modern search experience in Microsoft365.com, Office.com, and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to the modern search profile page on Microsoft365.com.
 
-Note that people are presented in multiple ways in modern search. Clicks on a people result in the "all" vertical will take the user to the modern search profile experience. Clicks on people results in the people vertical will open the large profile card. Both experiences will include properties that today are surfaced in Delve.
+Note that people are presented in multiple ways in modern search. Clicks on a people result in the "all" vertical will take the user to the modern search profile experience. Clicks on people results in the people "vertical" will open the large profile card. Both experiences will include properties that today are surfaced in Delve.
 
 ## Custom people search solutions
 
-If your tenant depends on custom solutions for people search it should continue to work as before. They're built on services powering Delve and not on the Delve experience itself. One common third-party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search based experiences based on SharePoint web parts. It's easy to configure people results to support opening profile cards on hover and click. It's also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
+If your tenant depends on custom solutions for people search it should continue to work as before. They're built on services powering Delve and not on the Delve experience itself. One common third-party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search-based experiences based on SharePoint web parts. It's easy to configure people results to support opening profile cards on hover and click. It's also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
 
 ## Properties not supported by the new edit experience
 
@@ -124,7 +124,7 @@ The new edit-profile experience built on profile cards won't support editing the
 
 ## When will Delve no longer be available?
 
-Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs are activated.
+Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
 
 ## What we recommend administrators to do?
 
