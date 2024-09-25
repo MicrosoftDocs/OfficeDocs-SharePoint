@@ -31,18 +31,19 @@ In this step, review the destination paths of the accounts you have moved to the
 If a destination is missing on a single user, highlight the row and update the value.
 
 1. Highlight the row. Under **Destination**, select **Edit.**
-2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.  Depending on your selection:
+2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination. Depending on your selection:
 
     - For OneDrive, enter the OneDrive URL or email address and the location/folder name
     - For SharePoint, enter site URL and location
     - For Teams, select the team and the channel
 
 3. Select **Save path**.
-
+>[!Note]
+> If the desired destination doesn’t appear in the dropdown list, please upload it using a CSV file as described below.
 
 ## Upload destinations using a CSV file
 
-If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. The template lists all migration tasks that have never been run, and you can add to or modify the “destination path” column. Then save your file as a .csv file using any name you wish. 
+If you have many destinations to edit, you can choose to upload a bulk destinations CSV file. Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. The template lists all migration tasks that have never been run, and you can add to or modify the “destination path” column. Then save your file as a .csv file using any name you wish. 
 
 
 ![upload destinations for Google accounts bulk](media/mm-google-bulk-upload-destination-panel.png)
