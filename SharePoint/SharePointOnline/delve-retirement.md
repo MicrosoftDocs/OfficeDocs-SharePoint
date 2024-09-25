@@ -47,15 +47,15 @@ The modern search experiences on Microsoft365.com, Office.com, and in SharePoint
 
 - For Microsoft365.com:
 
-  [Example]
+  [Screenshot 1]
 
 - For Office.com:
 
-  [Example]
+  [Screenshot 2]
 
 - For SharePoint:
 
-  [Example]
+  [Screenshot 3]
 
 ## What happens to existing URLs pointing to Delve or SharePoint profiles?
 
@@ -71,11 +71,11 @@ The same is true for the visibility attribute users can change for some properti
 
 ### The link to the legacy SharePoint edit-profile expereince
 
-[Screenshot 1]
+[Screenshot 4]
 
 ### The SharePoint Edit Details dialog box
 
-[Screenshot 2]
+[Screenshot 5]
 
 ## What will the new edit experience in profile cards look like?
 
@@ -84,9 +84,11 @@ The new edit-profile experience is built on top of Microsoft 365 profile cards, 
 > [!NOTE]
 > If the new edit-profile experience isn' yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search-profile page on Microsoft365.com.
 
-[Screenshot 3]
+[Screenshot 6]
 
-[Screenshot 4]
+
+
+[Screenshot 7]
 
 ## Where can users search for users and user profile properties currently supported in Delve?
 
