@@ -63,7 +63,7 @@ Both Delve URLs and SharePoint profile URLs will be redirected to the modern sea
 
 ## Where can users edit properties currently editable in Delve?
 
-A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This allows users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today aren't editable in Delve, but are viewable in the SharePoint edit-profile experience.
+A new edit-profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This allows users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today aren't editable in Delve, but are viewable in the SharePoint edit-profile experience.
 
 The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user-profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
 
@@ -71,11 +71,11 @@ The same is true for the visibility attribute users can change for some properti
 
 ### The link to the legacy SharePoint edit-profile expereince
 
-[Screenshot 4]
+:::image type="content" source="media/delve-retirement-legacy-edit-experience-in-sharepoint.png" alt-text="Screenshot showing how to access the legacy edit experience in SharePoint.":::
 
 ### The SharePoint Edit Details dialog box
 
-[Screenshot 5]
+:::image type="content" source="media/delve-retirement-edit-profile-in-sharepoint.png" alt-text="Screenshot showing the Edit Details dialog box in SharePoint.":::
 
 ## What will the new edit experience in profile cards look like?
 
@@ -84,11 +84,9 @@ The new edit-profile experience is built on top of Microsoft 365 profile cards, 
 > [!NOTE]
 > If the new edit-profile experience isn' yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search-profile page on Microsoft365.com.
 
-[Screenshot 6]
+:::image type="content" source="media/delve-retirement-profile-card-with-update-button.png" alt-text="Screenshot showing an example of a profile card with the Update button.":::
 
-
-
-[Screenshot 7]
+:::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data.":::
 
 ## Where can users search for users and user profile properties currently supported in Delve?
 
