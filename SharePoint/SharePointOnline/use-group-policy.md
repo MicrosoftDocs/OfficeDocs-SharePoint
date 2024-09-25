@@ -149,7 +149,7 @@ The OneDrive GPOs work by setting registry keys on the computers in your domain.
 
 - (PreventNetworkTrafficPreUserSignIn) [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#prevent-the-sync-app-from-generating-network-traffic-until-users-sign-in)
 
-- (SharedContentDeleteConfirmation) [Prompt users to confirm when they delete shared content](use-group-policy.md#Prompt-users-to-confirm-when-they-delete-shared-content)
+- (SharedContentDeleteConfirmation) [Prompt users to confirm when they delete shared content](use-group-policy.md#prompt-users-to-confirm-when-they-delete-shared-content)
 
 - (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For information about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app/).
 
