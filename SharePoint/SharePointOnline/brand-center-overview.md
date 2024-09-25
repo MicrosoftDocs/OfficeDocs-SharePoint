@@ -22,8 +22,6 @@ description: "Learn what SharePoint Brand Center is, how to set it up and manage
 ---
 
 # SharePoint brand center
-> [!NOTE]
-> The SharePoint brand center is currently in preview.
 
 The SharePoint brand center offers a centralized branding management application that empowers your brand managers or designated brand owners to help your organization to customize the look and feel of their experiences.
 
