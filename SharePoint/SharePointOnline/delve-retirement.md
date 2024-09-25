@@ -33,7 +33,7 @@ In December 2024, Delve will be retired. This change was first announced in an M
 
 Delve offers many features that are built on top of multiple Microsoft 365 services. When we say we're retiring Delve, it's important to note that we're not changing or retiring anything on the services side. Both documents and people data that are surfaced in Delve will continue to be stored and managed as today.
 
-There are a couple of exceptions regarding data storage. Delve stores a limited set of Delve-specific data, such as list of users recently viewed in Delve, Delve favorite documents, Delve favorite tags, and some Delve-specific settings. These will be retired together with Delve. You can export this data before December 16, 2024, in Delve by going to **Select Settings** > **Feature settings** > **Export data**.
+There are a couple of exceptions regarding data storage. Delve stores a limited set of Delve-specific data, such as list of users recently viewed in Delve, Delve favorite documents, Delve favorite tags, and some Delve-specific settings. These will be retired together with Delve. You can export this data before December 16, 2024, in Delve by going to **Select settings** > **Feature settings** > **Export data**.
 
 ## Where can users view user properties currently surfaced in Delve?
 
