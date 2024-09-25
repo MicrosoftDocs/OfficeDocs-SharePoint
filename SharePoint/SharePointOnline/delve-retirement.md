@@ -88,7 +88,7 @@ The new edit-profile experience is built on top of Microsoft 365 profile cards, 
 
 :::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data.":::
 
-## Where can users search for users and user profile properties currently supported in Delve?
+## Where can users search for users and user profile properties that are currently supported in Delve?
 
 Users can search for people in the modern search experience in Microsoft365.com, Office.com, and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to modern search profile page on Microsoft365.com.
 
