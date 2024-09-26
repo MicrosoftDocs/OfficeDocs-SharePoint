@@ -83,7 +83,7 @@ Please note that if the new edit profile experience isn't yet enabled in the exp
 
 :::image type="content" source="media/delve-retirement-profile-card-with-update-button.png" alt-text="Screenshot showing an example of a profile card with the Update button.":::
 
-:::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data.":::
+:::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data." lightbox="media/delve-retirement-lpe-with-background.png":::
 
 ## Where can users search for people and user profile properties that are currently supported in Delve?
 
