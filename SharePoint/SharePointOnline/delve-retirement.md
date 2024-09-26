@@ -119,7 +119,7 @@ The new edit profile experience built on profile cards won't support editing the
 
 ## When will Delve no longer be available?
 
-Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
+Delve will be retired on December 16, 2024. The extended profile card experience, the updated profile pages in modern search, and the new edit profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
 
 ## What do we recommend administrators do?
 
