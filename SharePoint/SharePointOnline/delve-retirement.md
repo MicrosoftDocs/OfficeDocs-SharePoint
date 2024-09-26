@@ -41,7 +41,7 @@ Starting December 2024, properties currently surfaced in Delve, including custom
 
 ## Direct links to profile cards
 
-The modern search experiences on Microsoft365.com, Office.com, and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. Starting December 16th we will handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
+The modern search experiences on Microsoft365.com, Office.com, and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. Starting December 16th, we will handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
 
 ### Example links
 
@@ -59,11 +59,11 @@ The modern search experiences on Microsoft365.com, Office.com, and in SharePoint
 
 ## What happens to existing URLs pointing to Delve or SharePoint profiles?
 
-Both Delve URLs and SharePoint profile URLs will be redirected to the modern search profile pages on Microsoft365.com. For tenants not using Delve today, there will be no change to URLs and their profile legacy experiences in SharePoint. However, they'll get the extended profile page in modern search and the extended profile cards across Microsoft 365, which will include the properties that are visible in Delve.
+Both Delve URLs and SharePoint profile URLs will be redirected to the modern search profile pages on Microsoft365.com. For tenants not using Delve today, there will be no change to URLs and their profile legacy experiences in SharePoint. However, they get the extended profile page in modern search and the extended profile cards across Microsoft 365, which will include the properties that are visible in Delve.
 
 ## Where can users edit properties currently editable in Delve?
 
-A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This allows users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today are not editable in Delve, but in the SharePoint edit profile experience.
+A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This will allow users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today are not editable in Delve, but in the SharePoint edit profile experience.
 
 The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
 
