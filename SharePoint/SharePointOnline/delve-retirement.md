@@ -65,7 +65,7 @@ Both Delve URLs and SharePoint profile URLs will be redirected to the modern sea
 
 A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This will allow users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today aren't editable in Delve, but in the SharePoint edit profile experience.
 
-The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
+The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user profile properties, users will have to go to the legacy edit profile experience in SharePoint.
 
 The same is true for the visibility attribute users can change for some properties in Delve. For now, they'll not be able to change this in the new edit experience, and must go to the legacy edit profile in SharePoint. The new edit experience will include a direct link to the legacy edit experience in SharePoint, so it's easy for users to get there. This approach is how the visibility attribute is handled in Delve today.
 
@@ -97,9 +97,9 @@ If your tenant depends on custom solutions for people search it should continue 
 
 ## Properties not supported by the new edit experience
 
-In general, the new edit experience built on profile cards will support editing properties in the profile card, but there there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint. However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit-profile experience in SharePoint.
+In general, the new edit experience built on profile cards will support editing properties in the profile card, but there there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint. However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit profile experience in SharePoint.
 
-The new edit-profile experience built on profile cards won't support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit-profile experience, but by default they'll not be visible anywhere and only provide value if you have a custom solution. The following list contains these properties.
+The new edit profile experience built on profile cards won't support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit profile experience, but by default they'll not be visible anywhere and only provide value if you have a custom solution. The following list contains these properties.
 
 ### Properties synced from Microsoft Entra ID that aren't editable (by default) in Delve
 
@@ -119,12 +119,12 @@ The new edit-profile experience built on profile cards won't support editing the
 
 ## When will Delve no longer be available?
 
-Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit-profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
+Delve will be retired on December 16, 2024. The extended profile-card experience, the updated profile pages in modern search, and the new edit profile experience will be available before Delve is retired. For a limited period, both Delve and the new experiences will be available for users. Delve retires when the redirect of Delve URLs is activated.
 
 ## What do we recommend administrators do?
 
 - Educate your users about the upcoming changes by updating internal documentation and training material relevant for the Delve retirement.
-- Once released, validate that your users can solve their Delve tasks in the new edit-profile experience, updated profile pages in modern search, people search in Microsoft365.com, and in the extended profile cards.
+- Once released, validate that your users can solve their Delve tasks in the new edit profile experience, updated profile pages in modern search, people search in Microsoft365.com, and in the extended profile cards.
 
 ## More resources
 
