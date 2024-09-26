@@ -79,10 +79,9 @@ The same is true for the visibility attribute users can change for some properti
 
 ## What will the new edit experience in profile cards look like?
 
-The new edit-profile experience is built on top of Microsoft 365 profile cards, and will be presented in an overlay the same way profile cards are handled today. The most common user pattern is to open their own profile card and select **Edit profile**. Instead of being redirected to Delve, the edit experience will open in the profile card itself. The following two illustrations are an example of this process.
+The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "Edit profile". Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
 
-> [!NOTE]
-> If the new edit-profile experience isn't yet enabled in the experience for a user, selecting **Edit profile** will redirect the user to the modern search profile page on Microsoft365.com.
+Please note that if the new edit profile experience is not yet yet enabled in the experience where a user is, clicking "edit profile" will redirect the user to the modern search profile page on Microsoft365.com.
 
 :::image type="content" source="media/delve-retirement-profile-card-with-update-button.png" alt-text="Screenshot showing an example of a profile card with the Update button.":::
 
