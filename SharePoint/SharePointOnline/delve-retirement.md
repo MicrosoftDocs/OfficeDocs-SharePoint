@@ -71,11 +71,11 @@ The same is true for the visibility attribute users can change for some properti
 
 :::image type="content" source="media/delve-retirement-legacy-edit-experience-in-sharepoint.png" alt-text="Screenshot showing how to access the legacy edit experience in SharePoint.":::
 
-The link to the legacy SharePoint edit-profile experience
+The link to the legacy SharePoint edit-profile experience.
 
 :::image type="content" source="media/delve-retirement-edit-profile-in-sharepoint.png" alt-text="Screenshot showing the Edit Details dialog box in SharePoint.":::
 
-The SharePoint Edit Details dialog box
+The SharePoint Edit Details dialog box.
 
 ## What will the new edit experience in profile cards look like?
 
