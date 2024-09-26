@@ -41,7 +41,7 @@ Starting December 2024, properties currently surfaced in Delve, including custom
 
 ## Direct links to profile cards
 
-The modern search experiences on Microsoft365.com, Office.com, and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. We handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
+The modern search experiences on Microsoft365.com, Office.com, and in SharePoint include profile pages built on the same data as profile cards. They have a unique link and can be used in documentation, email signatures, etc. Starting December 16th we will handle redirects from Delve profiles to these profile pages on Microsoft365.com. Although there are three places and URLs that offer the same experience, we suggest you refer to the same domain as we use in the Microsoft365.com redirects.
 
 ### Example links
 
@@ -79,7 +79,7 @@ The SharePoint Edit Details dialog box
 
 ## What will the new edit experience in profile cards look like?
 
-The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "Edit profile". Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
+The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "edit profile". Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
 
 Please note that if the new edit profile experience is not yet yet enabled in the experience where a user is, clicking "edit profile" will redirect the user to the modern search profile page on Microsoft365.com.
 
