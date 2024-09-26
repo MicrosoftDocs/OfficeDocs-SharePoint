@@ -110,7 +110,7 @@ For additional information: [Delete a user from your organization](/microsoft-36
 
 **3. How does it impact eDiscovery in Microsoft Purview?**
 
-**Answer:** Microsoft Purview eDiscovery and Content Search are still discoverable in archived content.
+**Answer:** Microsoft Purview eDiscovery and Content Search are still discoverable in archived content. Exporting the content that's supporting the search results will not require manual reactivation of the archived account, and it will take up to 24 hours to complete.
 
 **4. How does it impact Retention Policy, Retention Setting, or Litigation Hold?**
 
@@ -126,6 +126,8 @@ For additional information: [Delete a user from your organization](/microsoft-36
 **6. When will I get charged?**
 
 **Answer:** Once a payment method is provided, billing follows the routine cycle for archived content. If there's no retention policy and billing stops, your content is deleted within a 93-day period. If a retention policy is still active, the policy is honored regardless of billing status. If the account has no retention and billing, the 93-day content deletion lifecycle begins.
+
+As an example, if the billing is put down to reactivate one particular unlicensed account, the reactivation fee will be applied for $0.60/GB for that account, and from that month onward, the storing fee of $0.05/GB/Month will also be applied for all unlicensed accounts within the organization that's longer than 90 days.
 
 **7. Can unlicensed ODB leverage unused SPO storage quota?**
 
@@ -145,6 +147,14 @@ For additional information: [Delete a user from your organization](/microsoft-36
 
 **11. Is there any charge to use the eDiscovery Hold feature?**
 **Answer:** We honor eDiscovery hold and charge accordingly. eDiscovery Hold works the same way as retention policy and legal hold.
+
+**12. What's the process to relicense an account once it's archived?**
+
+**Answer:** If the archived account has an associated user, the IT admin can simply give the user a valid license and the account will automatically get reactivated within 24 hours. If the archived account does not have an associated user (for example, if the identity was deleted), then we recommend admins move any actively needed content to a SharePoint site or an active and licensed OneDrive account.
+
+**13. If a change is made to retention policies, will that change sync down to the archived sites?** 
+
+**Answer:** Yes. As an example, if the company retention policy is shortened from 5 years to 3 years, this change will be synced with all archived accounts, and the recycle bin process will start for accounts that have completed the retention policy.
 
 ## Related topics
 
