@@ -37,7 +37,7 @@ There are a couple of exceptions regarding data storage. Delve stores a limited 
 
 ## Where can users view user properties currently surfaced in Delve?
 
-Starting December 2024, properties currently surfaced in Delve, including custom user-profile properties, will be added to the profile cards available in search experiences on Microsoft365.com, Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com, Office.com, or SharePoint, which also offer a people search similar to what's offered in the Delve search.
+Starting December 2024, properties currently surfaced in Delve, including custom user profile properties, will be added to the profile cards available in search experiences on Microsoft365.com, Office.com, and in SharePoint. Eventually, these changes will be enabled everywhere the profile card is available. However, for technical reasons, this change will take time. For December 2024, we recommend directing users to Microsoft365.com, Office.com, or SharePoint, which also offer a people search similar to what's offered in the Delve search.
 
 ## Direct links to profile cards
 
@@ -63,19 +63,19 @@ Both Delve URLs and SharePoint profile URLs will be redirected to the modern sea
 
 ## Where can users edit properties currently editable in Delve?
 
-A new edit-profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This allows users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today aren't editable in Delve, but are viewable in the SharePoint edit-profile experience.
+A new edit profile experience, tightly coupled with the profile card, is currently being developed and is targeted for release in November 2024. This allows users to easily edit their profiles across Microsoft 365. Some properties that are viewable in Delve today are not editable in Delve, but in the SharePoint edit profile experience.
 
-The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user-profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
+The same will be true for the new edit experience. Only properties that today are editable in the Delve edit profile experience will be editable in the profile cards. For other properties, for example custom user profile properties, users will have to go to the legacy edit-profile experience in SharePoint.
 
 The same is true for the visibility attribute users can change for some properties in Delve. For now, they'll not be able to change this in the new edit experience, and must go to the legacy edit profile in SharePoint. The new edit experience will include a direct link to the legacy edit experience in SharePoint, so it's easy for users to get there. This approach is how the visibility attribute is handled in Delve today.
 
-### The link to the legacy SharePoint edit-profile experience
-
 :::image type="content" source="media/delve-retirement-legacy-edit-experience-in-sharepoint.png" alt-text="Screenshot showing how to access the legacy edit experience in SharePoint.":::
 
-### The SharePoint Edit Details dialog box
+The link to the legacy SharePoint edit-profile experience
 
 :::image type="content" source="media/delve-retirement-edit-profile-in-sharepoint.png" alt-text="Screenshot showing the Edit Details dialog box in SharePoint.":::
+
+The SharePoint Edit Details dialog box
 
 ## What will the new edit experience in profile cards look like?
 
@@ -87,7 +87,7 @@ Please note that if the new edit profile experience is not yet yet enabled in th
 
 :::image type="content" source="media/delve-retirement-lpe-with-background.png" alt-text="Screenshot showing an example of a profile card and personal data.":::
 
-## Where can users search for people and user-profile properties that are currently supported in Delve?
+## Where can users search for people and user profile properties that are currently supported in Delve?
 
 Users can search for people in the modern search experience in Microsoft365.com, Office.com, and SharePoint. Classic search will continue to work as before and clicks on people results that today link to Delve will redirect to the modern search profile page on Microsoft365.com.
 
@@ -99,11 +99,9 @@ If your tenant depends on custom solutions for people search it should continue 
 
 ## Properties not supported by the new edit experience
 
-In general, the new edit experience built on profile cards will support editing properties in the profile card. However, there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint.
+In general, the new edit experience built on profile cards will support editing properties in the profile card, but there there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint. However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit-profile experience in SharePoint.
 
-However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit-profile experience in SharePoint.
-
-The new edit-profile experience built on profile cards won't support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit-profile experience. However, by default, they'll not be visible anywhere and only provide value if you have a custom solution. The following list contains these properties.
+The new edit-profile experience built on profile cards won't support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit-profile experience, but by default they'll not be visible anywhere and only provide value if you have a custom solution. The following list contains these properties.
 
 ### Properties synced from Microsoft Entra ID that aren't editable (by default) in Delve
 
