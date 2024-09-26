@@ -77,7 +77,7 @@ The SharePoint Edit Details dialog box.
 
 ## What will the new edit experience in profile cards look like?
 
-The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "edit profile". Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
+The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "edit profile." Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
 
 Please note that if the new edit profile experience isn't yet enabled in the experience where a user is, clicking "edit profile" will redirect the user to the modern search profile page on Microsoft365.com.
 
@@ -97,7 +97,7 @@ If your tenant depends on custom solutions for people search it should continue 
 
 ## Properties not supported by the new edit experience
 
-In general, the new edit experience built on profile cards will support editing properties in the profile card, but there there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint. However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit profile experience in SharePoint.
+In general, the new edit experience built on profile cards will support editing properties in the profile card, but there are exceptions. One exception is with properties hosted by Microsoft Entra ID and synced to UPA (SharePoint). By default, these aren't editable in Delve or in the legacy profile edit experience in SharePoint. However, administrators can override the default behavior to make them editable for the user. If administrators make this change, some properties can be edited in Delve, and some can be edited in the legacy edit profile experience in SharePoint.
 
 The new edit profile experience built on profile cards won't support editing these properties. Users can still edit them if administrators have made the setting changes mentioned above, in the legacy edit profile experience, but by default they'll not be visible anywhere and only provide value if you have a custom solution. The following list contains these properties.
 
