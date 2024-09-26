@@ -84,7 +84,7 @@ When a report is ready, select the name of the report to view the data. Each sha
 You can also download the reporting as a .csv file for up to 10,000 sites.
 
 > [!NOTE]
-> If you have SharePoint SharePoint Premium - SharePoint Advanced Management license, you can download up to 1 million sites.
+> If you have SharePoint SharePoint Premium - SharePoint Advanced Management license AND the tenant is non Gov cloud environments, you can download up to 1 million sites.
 
 ## Sensitivity labels for files reports
 
@@ -120,7 +120,7 @@ After you run a report, select the report to download the data. The report inclu
 ## Content shared with 'Everyone except external users' (EEEU) reports
 
 > [!IMPORTANT]
-> This report is ONLY available if you have SharePoint Premium - SharePoint Advanced Management license
+> This report is ONLY available if you have SharePoint Premium - SharePoint Advanced Management license AND the tenant is in Non Gov Cloud environments. It is currently NOT available in Gov cloud environments such as GCCH/GCC-Moderate/DoD/Gallatin, even if you have SharePoint Premium - SharePoint Advanced Management license
 
 Everyone except external users (EEEU) is part of a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization:
 
@@ -176,7 +176,7 @@ After running the report, select the report to download the data. In the report:
 ## Remedial actions from Data access governance reports
 
 > [!IMPORTANT]
-> These remedial actions from DAG reports are ONLY available if you have SharePoint Premium - SharePoint Advanced Management license
+> These remedial actions from DAG reports are ONLY available if you have SharePoint Premium - SharePoint Advanced Management license AND the tenant is in Non Gov Cloud environments. It is currently NOT available in Gov cloud environments such as GCCH/GCC-Moderate/DoD/Gallatin, even if you have SharePoint Premium - SharePoint Advanced Management license
 
 Once you run the Data access governance reports to discover potential oversharing, the next step is to take actions to remediate such risks. We recommend considering factors like sensitivity of the content, amount of content exposed and disruption to existing status.
 
