@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2019
+ms.date: 09/24/2024
 title: Add a sample site to your organization
 ms.reviewer: 
 ms.author: ruihu
@@ -23,7 +23,9 @@ description: "Learn how to add a sample site to your organization."
 
 # Add a sample site to your organization
 
-Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint [Look Book adoption page](https://adoption.microsoft.com/sharepoint-look-book) to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your organization. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can add a sample site by first [browsing and selecting templates](https://adoption.microsoft.com/sharepoint-look-book) then applying [the custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates).</br>
+Discover the modern experiences you can build with Microsoft SharePoint. 
+
+Use the SharePoint [Look Book adoption page](https://adoption.microsoft.com/sharepoint-look-book) to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your organization. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can add a sample site by first [browsing and selecting templates](https://adoption.microsoft.com/sharepoint-look-book) then applying [the custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates).</br>
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDLk]
@@ -41,29 +43,13 @@ What's included in a sample? You get:
 
 Browse the samples in the online [SharePoint Look Book adoption page](https://adoption.microsoft.com/sharepoint-look-book).
 
-Or, navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need. Follow steps mentioned [here](/sharepoint/dev/solution-guidance/applying-pnp-templates#provisioning-a-template) to provision a template.
+Or, navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates) and select the template you need.
+
+### Provision a template
+
+Follow steps mentioned [here](/sharepoint/dev/solution-guidance/applying-pnp-templates#provisioning-a-template) to provision a template.
 
 To use this service, you need to be signed in as a [SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365.
-
-### Enter your information
-
-Next, enter your email address (for a notification of when your site is ready to use), the title you want to use for your site, and the site URL you want to use.
-
-![Prov form1](media/ProvForm.png)
-
-### Start provisioning
-
-Select **Provision**, and in a short time your site will be ready for you to use. How will you know? You get an email (sent to the email address you provided on the form above) like this:
-
-![PRov form2](media/Prov2.png)
-
-### Open and explore your site
-
-Select **Open site**, and you see your sample site and content in your organization!
-
-![Prov site](media/ProvSite.png)
-
-From here, you can explore the site and edit the pages and content.
 
 **Additional resources**
 
