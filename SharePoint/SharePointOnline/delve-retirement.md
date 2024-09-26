@@ -71,7 +71,7 @@ The same is true for the visibility attribute users can change for some properti
 
 :::image type="content" source="media/delve-retirement-legacy-edit-experience-in-sharepoint.png" alt-text="Screenshot showing how to access the legacy edit experience in SharePoint.":::
 
-The link to the legacy SharePoint edit-profile experience.
+The link to the legacy SharePoint edit profile experience.
 
 :::image type="content" source="media/delve-retirement-edit-profile-in-sharepoint.png" alt-text="Screenshot showing the Edit Details dialog box in SharePoint.":::
 
@@ -81,7 +81,7 @@ The SharePoint Edit Details dialog box.
 
 The new edit profile experience is built on top of Microsoft 365 profile cards, and it will be presented in an overlay as profile cards are handled today. A most common user pattern is for the user to open their own profile card and select "edit profile". Instead of being redirected to Delve, the edit experience will open in the profile card. Below is an example of what this process will look like.
 
-Please note that if the new edit profile experience isn't yet yet enabled in the experience where a user is, clicking "edit profile" will redirect the user to the modern search profile page on Microsoft365.com.
+Please note that if the new edit profile experience isn't yet enabled in the experience where a user is, clicking "edit profile" will redirect the user to the modern search profile page on Microsoft365.com.
 
 :::image type="content" source="media/delve-retirement-profile-card-with-update-button.png" alt-text="Screenshot showing an example of a profile card with the Update button.":::
 
