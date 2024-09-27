@@ -3,7 +3,7 @@
     {
       "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
       "redirect_url": "sharepoint-sync",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
