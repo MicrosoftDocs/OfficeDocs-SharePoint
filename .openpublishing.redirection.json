@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
+      "redirect_url": "/SharePoint/sharepoint-sync",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
       "redirect_url": "/sharepoint/search/create-custom-ranking-model",
       "redirect_document_id": true
