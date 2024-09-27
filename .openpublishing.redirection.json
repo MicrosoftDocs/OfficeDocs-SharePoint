@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
-      "redirect_url": "/SharepointOnline/sharepoint-sync.md",
+      "redirect_url": "Sharepoint/SharepointOnline/sharepoint-sync.md",
       "redirect_document_id": true
     },
     {
