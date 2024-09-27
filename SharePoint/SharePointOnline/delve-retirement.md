@@ -55,7 +55,7 @@ The modern search experiences on Microsoft365.com, Office.com, and in SharePoint
 
 - For SharePoint:
 
-  :::image type="content" source="media/delve-retirement-sharepoint-links.png" alt-text="Screenshot showing an example link syntax for SharePoint.":::
+  :::image type="content" source="media/delve-retirement-sharepoint-links2.png" alt-text="Screenshot showing an example link syntax for SharePoint.":::
 
 ## What happens to existing URLs pointing to Delve or SharePoint profiles?
 
