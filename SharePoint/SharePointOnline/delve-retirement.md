@@ -93,7 +93,7 @@ Note that people are presented in multiple ways in modern search. Clicks on a pe
 
 ## Custom people search solutions
 
-If your tenant depends on custom solutions for people search it should continue to work as before. They're built on services powering Delve and not on the Delve experience itself. One common third-party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search-based experiences based on SharePoint web parts. It's easy to configure people results to support opening profile cards on hover and click. It's also possible to include links to Delve profiles and the legacy SharePoint profile (person.aspx/personimmersive.aspx). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
+If your tenant depends on custom solutions for people search it should continue to work as before. They're built on services powering Delve and not on the Delve experience itself. One common third-party solution in use is the PnP Modern Search app. This particular app allows administrators to create custom search-based experiences based on SharePoint web parts. It's easy to configure people results to support opening profile cards on hover and click. It's also possible to include links to Delve profiles and the legacy SharePoint profile (_person.aspx_/_personimmersive.aspx_). These links will continue to work as users will be redirected to the modern search profile page in Microsoft365.com.
 
 ## Properties not supported by the new edit experience
 
