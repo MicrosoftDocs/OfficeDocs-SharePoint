@@ -45,7 +45,7 @@ Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need
 > [!IMPORTANT]
 > Microsoft 365 apps and services ended support for Internet Explorer 11 on August 17, 2021 (Microsoft Teams ended support for Internet Explorer 11 earlier, on November 30, 2020). [Learn more](https://aka.ms/AA97tsw). IE mode enables backward compatibility and will be supported through at least 2029. Additionally, Microsoft will provide notice one year prior to retiring IE mode. Please [follow the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
 
-The Delve app is also enabled for modern authentication. For more info, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
+The Delve app is also enabled for modern authentication. For more information, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
   
 ## Control access to Delve
 <a name="BKMK_DelveOnOff"> </a>
