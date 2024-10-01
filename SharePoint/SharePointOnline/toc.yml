@@ -109,6 +109,8 @@ items:
       href: manage-sites-in-new-admin-center.md
     - name: Customize the site list
       href: customize-admin-center-site-list.md
+    - name: Guidance for retiring Delve in your organization
+      href: delve-retirement.md
   - name: Performance
     items:
     - name: Performance
