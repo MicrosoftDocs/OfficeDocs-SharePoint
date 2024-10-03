@@ -1,11 +1,11 @@
 ---
-title: "Set default organization version limits (Preview)"
+title: "Set default organization version limits"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how admins can set default organ
 
 ---
 
-# Set default organization version limits for new document libraries and OneDrive accounts (Preview)
+# Set default organization version limits for new document libraries and OneDrive accounts
 
 Organization-level version settings define the default version storage limits that apply on all new document libraries created across all existing or newly created SharePoint sites and new OneDrive Accounts. This setting allows admins to define the global default version history limits that apply across the organization to ensure consistent version storage use and restore options.  
 

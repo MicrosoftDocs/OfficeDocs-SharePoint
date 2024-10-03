@@ -1,11 +1,11 @@
 ---
-title: "Trim existing versions on site, library, or OneDrive(Preview)"
+title: "Trim existing versions on site, library, or OneDrive"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
