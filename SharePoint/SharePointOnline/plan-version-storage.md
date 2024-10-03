@@ -1,5 +1,5 @@
 ---
-title: "Plan version storage for document libraries(Preview)"
+title: "Plan version storage for document libraries"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
@@ -19,7 +19,7 @@ search.appverid:
 description: "This article provides guidance on how to plan version storage for your organization."
 ---
 
-# Plan version storage on document libraries (Preview)
+# Plan version storage on document libraries
 
 The Version history limits you configure need to meet your organization’s recovery objectives. In the following sections, we call out the options and decisions that you as an administrator should consider when setting up version limits for your organization.
 
