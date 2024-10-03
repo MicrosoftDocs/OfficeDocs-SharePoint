@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Queue a trim job(Preview)"
+title: "Tutorial: Queue a trim job"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtemper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to queue a trim job for a si
 
 ---
 
-# Tutorial: Queue a trim job for a site or document library(Preview)
+# Tutorial: Queue a trim job for a site or document library
 
 In this tutorial, you'll learn how to trim existing versions from a site or library by queuing a trim job using PowerShell. You'll learn how to:
 

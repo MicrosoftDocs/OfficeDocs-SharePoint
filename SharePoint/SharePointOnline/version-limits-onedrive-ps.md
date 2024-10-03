@@ -1,11 +1,11 @@
 ---
-title: "Set version limits on OneDrive using PowerShell(Preview)"
+title: "Set version limits on OneDrive using PowerShell"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ description: "This article provides guidance on how an admin can set the version
 ---
 
 
-# Change version limits on OneDrive using PowerShell (Preview)
+# Change version limits on OneDrive using PowerShell
 
 By default, organization version history settings are applied to all new OneDrive accounts. As a SharePoint admin in Microsoft 365, you can set the version limits on OneDrive storage for a specific user.
 
