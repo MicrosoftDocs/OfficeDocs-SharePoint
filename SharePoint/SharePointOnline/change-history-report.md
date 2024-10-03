@@ -66,7 +66,7 @@ You can create new reports, delete, and refresh their statuses from the change h
 
 Generate a site settings report for a given date range and filter by sites and users. You can download the report as a CSV file to view the site property changes. All site actions performed by Site Administrators and SharePoint Administrators are captured in the report.
 
-### Organization settings report (preview)
+### Organization settings report
 
 > [!NOTE]
 > Organization settings reports are available in public preview. The [audited organization settings table](#current-audited-organization-settings) listed later in this article reflects the list of settings that are currently tracked under these reports.

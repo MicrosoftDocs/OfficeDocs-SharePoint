@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2020
+ms.date: 09/25/2024
 title: "Manage access to Microsoft Entra ID-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: ruihu
@@ -56,14 +56,14 @@ The API access page shows pending and approved requests. It also shows which req
 1. Select the request, and select **Reject**.
 2. Select **Reject** again to confirm.
 
-Rejecting access doesn't remove the app from the Apps site. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
+   Rejecting access doesn't remove the app from the Apps site. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Remove access to a previously approved request
 
 1. Select the request, and then select **Remove access**.
 2. Select **Remove** again to confirm.
 
-When you remove access, solutions and custom scripts that rely on the permission might not work as expected. After you remove access, the request is removed from the page and the developer will need to issue a new request with the same resource and scope.
+   When you remove access, solutions and custom scripts that rely on the permission might not work as expected. After you remove access, the request is removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Manage access by using Microsoft PowerShell
 
