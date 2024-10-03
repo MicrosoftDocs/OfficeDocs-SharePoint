@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Run 'What-If' analysis (Preview)"
+title: "Tutorial: Run 'What-If' analysis"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtemper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to run 'What-If' analysis on
 
 ---
 
-# Tutorial: Run 'What-If' analysis on version storage report file (Preview)
+# Tutorial: Run 'What-If' analysis on version storage report file
 
 In this tutorial, we discuss how to leverage provided scripts and excel examples to understand the impact of applying either automatic or manual limits on version storage or impacted users. You will learn how to: 
 

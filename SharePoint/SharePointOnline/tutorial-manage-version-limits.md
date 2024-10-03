@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Manage version history limits on a site, library, or OneDrive account (Preview)"
+title: "Tutorial: Manage version history limits on a site, library, or OneDrive account"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtemper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ description: "This article provides guidance on how to manage Version history li
 ---
 
 
-# Tutorial: Manage version history limits for a site, library, or OneDrive account (Preview)
+# Tutorial: Manage version history limits for a site, library, or OneDrive account
 
 In this tutorial, you will learn how to manage the version history limits for a site, document library, or OneDrive account. You will learn how to:
 
