@@ -1,5 +1,5 @@
 ---
-title: "Version history limits for document library and OneDrive overview (Preview)"
+title: "Version history limits for document library and OneDrive overview"
 ms.reviewer: rekamath
 ms.author: serdars
 author: serdars
