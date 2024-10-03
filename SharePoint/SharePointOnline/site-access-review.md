@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2024
+ms.date: 10/02/2024
 title: "Initiate site access reviews for data access governance reports"
 ms.reviewer: samust
 ms.author: mactra
@@ -39,9 +39,10 @@ Site access review involves site owners in the review process so they can addres
 
 To use the site access review feature, you must fulfill the following prerequisites:
 
-- [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md) subscription
-- Admin credentials to access the SharePoint admin center to initiate an access review
-- Site owner to respond to the review request, take actions and complete the review
+- Have a [Microsoft SharePoint Premium - SharePoint Advanced Management](advanced-management.md) subscription
+- Run a non-government cloud tenant environment. Site access review isn't supported in government cloud environments such as GCCH/GCC-Moderate/DoD/Gallatin
+- Have admin credentials to access the SharePoint admin center to initiate an access review
+- Have site owners respond to the review requests, take necessary actions and complete the review
 
 ## How site access review works
 

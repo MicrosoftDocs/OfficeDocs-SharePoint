@@ -26,6 +26,9 @@ description: "The more you and your colleagues use Microsoft 365 to work togethe
 
 # Delve for admins
 
+> [!IMPORTANT]
+> Delve will be retired in December 2024. For more information, see [Guidance for retiring Delve in your organization](delve-retirement.md).
+
 The more you and your colleagues use Microsoft 365 to work together, by viewing, editing, and sharing each other's documents, the more useful [Delve](https://support.microsoft.com/office/what-is-delve-1315665a-c6af-4409-a28d-49f8916878ca) is for all of you. Learn more about how you as an admin can help users get the most out of Delve.
   
 Delve is powered by the Microsoft Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to.
@@ -40,9 +43,9 @@ Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Educat
 Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Microsoft Teams, users can start Microsoft Teams conversations directly from Delve.
 
 > [!IMPORTANT]
-> Microsoft 365 apps and services ended support for Internet Explorer 11 on August 17, 2021 (Microsoft Teams ended support for Internet Explorer 11 earlier, on November 30, 2020). [Learn more](https://aka.ms/AA97tsw).  IE mode enables backward compatibility and will be supported through at least 2029. Additionally, Microsoft will provide notice one year prior to retiring IE mode.Please [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
+> Microsoft 365 apps and services ended support for Internet Explorer 11 on August 17, 2021 (Microsoft Teams ended support for Internet Explorer 11 earlier, on November 30, 2020). [Learn more](https://aka.ms/AA97tsw). IE mode enables backward compatibility and will be supported through at least 2029. Additionally, Microsoft will provide notice one year prior to retiring IE mode. Please [follow the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
 
-The Delve app is also enabled for modern authentication. For more info, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
+The Delve app is also enabled for modern authentication. For more information, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
   
 ## Control access to Delve
 <a name="BKMK_DelveOnOff"> </a>
@@ -64,11 +67,11 @@ You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?l
 > [!NOTE]
 > Previously, when turning Delve on or off in the SharePoint admin center, it also had an impact on a few other insights-driven experiences in Microsoft 365. Starting July 1, 2021, the Delve setting is decoupled from the back end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
 
-For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+For more information on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
 
 ### Control access to documents in Delve
 
-Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings. For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
+Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings. For more information on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
@@ -135,7 +138,7 @@ There are a few things you should check if one or more users in your organizatio
   
 ##### Check that you're using a subscription that supports Delve
   
-1. Sign in to https://admin.microsoft.com as a as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) and [above](/microsoft-365/admin/add-users/about-admin-roles). (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
@@ -182,14 +185,14 @@ There are a few things you should check if one or more users in your organizatio
    - Microsoft 365 Business Standard plus SharePoint (Plan 1 or Plan 2)
    - Microsoft 365 Business Premium plus SharePoint (Plan 1 or Plan 2)
     
-    For more info about how to manage licenses, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+    For more information about how to manage licenses, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
 
 If Microsoft Entra ID has outdated information or hasn't been synced with the SharePoint user profiles, Delve may not show the most relevant colleagues.
   
-Delve uses info from user profiles to determine who users in your organization work with most closely. These profiles contain information from Microsoft Entra ID and from SharePoint user profiles. Every 24 hours, people information from Microsoft Entra ID is automatically added to SharePoint user profiles.
+Delve uses information from user profiles to determine who users in your organization work with most closely. These profiles contain information from Microsoft Entra ID and from SharePoint user profiles. Every 24 hours, people information from Microsoft Entra ID is automatically added to SharePoint user profiles.
   
 #### Solutions
   
@@ -215,7 +218,7 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
   
 However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents in Delve, just as they can search for them in SharePoint.
   
-Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Microsoft Entra ID.
+Other information that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as information from the Microsoft Entra ID.
   
 #### Solution
   
@@ -270,7 +273,7 @@ Changing the Delve setting in the <a href="https://go.microsoft.com/fwlink/?link
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. If the Delve setting is disabled, users will not see the frequent sites and suggested sites in the SharePoint start page.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more information about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more information about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
