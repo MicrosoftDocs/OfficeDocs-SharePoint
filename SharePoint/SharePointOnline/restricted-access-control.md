@@ -187,7 +187,7 @@ As an IT administrator, you can view the following reports to gain more insight 
 > [!NOTE]
 > It can take a few hours to generate each report.
 
-### Sites protected by restricted site access policy report (preview)
+### Sites protected by restricted site access policy report
 
 You can run the following commands in SharePoint PowerShell to generate, view, and download the reports:
 

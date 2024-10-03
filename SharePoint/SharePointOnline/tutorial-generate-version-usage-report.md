@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Generate and analyze version usage report (Preview)"
+title: "Tutorial: Generate and analyze version usage report"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtemper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to generate and analyze vers
 
 ---
 
-# Tutorial: Generate and analyze version usage report for SharePoint site (Preview)
+# Tutorial: Generate and analyze version usage report for SharePoint site
 
 By understanding version storage on a site, you can better optimize the Version history settings to meet your organization’s recovery objectives and manage storage costs.
 
