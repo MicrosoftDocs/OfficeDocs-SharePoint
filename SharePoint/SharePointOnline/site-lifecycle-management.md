@@ -1,5 +1,5 @@
 ---
-ms.date: 08/21/2024
+ms.date: 10/04/2024
 title: "Manage site lifecycle policies"
 ms.reviewer: nvasudevan
 manager: jtremper
@@ -28,9 +28,6 @@ description: "Learn how to manage site lifecycle policies for SharePoint sites."
 
 ## Site lifecycle management
 
-> [!NOTE]                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-> This feature is currently rolling out and may not yet be fully available for all organizations.
-
 SharePoint sites are growing rapidly, and one of the major challenges faced by IT administrators is managing the lifecycle of the large number of sites.
 
 The site lifecycle management feature from Microsoft SharePoint Premium - SharePoint Advanced Management lets you manage inactive sites across your tenant from the [SharePoint admin center](get-started-new-admin-center.md).
@@ -40,6 +37,9 @@ The site lifecycle management feature from Microsoft SharePoint Premium - ShareP
 You can set up an inactive site policy to automatically detect inactive sites and send notifications to site owners via email. The owners can then confirm whether the site is still active. When you're setting up a site lifecycle policy, you can choose between a simulation policy and an active policy. The simulation policy runs once and generates a report based on the parameters you set. If the policy fails, you need to delete it and create a new simulation policy. You can also convert a simulation policy to an active policy.
 
 The active policy runs monthly and generates reports, sending notifications to the respective owners to confirm the inactive site status. If the active policy fails during a particular month, it will run again on the next schedule. The active policy takes an enforcement action on those inactive sites that haven't been certified by the site owner or admin. However this enforcement takes place only if the tenant admin configures the policy in that manner.
+
+> [!NOTE]
+> This feature is currently rolling out and may not yet be fully available for all organizations.
 
 ## Prerequisites
 
