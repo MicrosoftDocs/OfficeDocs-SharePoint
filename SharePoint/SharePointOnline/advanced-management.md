@@ -1,5 +1,5 @@
 ---
-ms.date: 08/19/2024
+ms.date: 08/20/2024
 title: "Microsoft SharePoint Premium - SharePoint Advanced Management overview"
 ms.reviewer: daminasy
 ms.author: mactra
@@ -33,9 +33,9 @@ Whether preparing for [Copilot deployment](/copilot/microsoft-365/microsoft-365-
 - streamline access management for SharePoint and OneDrive sites, and
 - analyze usage patterns through comprehensive reporting.
 
-:::image type="content" source="media/sam-overview/0-sam-overview-pillars.png" alt-text="Screenshot of SharePoint Advanced Management pillars." lightbox="media/sam-overview/0-sam-overview-pillars.png":::
+:::image type="content" source="media/sam-overview/0-sam-overview-pillars-new.png" alt-text="Screenshot of SharePoint Advanced Management pillars." lightbox="media/sam-overview/0-sam-overview-pillars-new.png":::
 
-We recommend utilizing SharePoint Advanced Management features along with our [best practices for Copilot for Microsoft 365](/sharepoint/sharepoint-copilot-best-practices) to reduce the risk of oversharing, control content sprawl, and manage content lifecycle.
+We recommend utilizing SharePoint Advanced Management features along with our [best practices for Microsoft 365 Copilot](/sharepoint/sharepoint-copilot-best-practices) to reduce the risk of oversharing, control content sprawl, and manage content lifecycle.
 
 SharePoint Advanced Management features are managed by [IT administrators](/microsoft-365/admin/add-users/about-admin-roles) with access to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219). Some features can be used by site owners.
 
@@ -143,4 +143,4 @@ Licensing details for each feature listed above are included in those articles.
 
 [Microsoft 365 Government - how to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
 
-[Get started with Microsoft Copilot for Microsoft 365](/copilot/microsoft-365/microsoft-365-copilot-setup)
+[Get started with Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-setup)

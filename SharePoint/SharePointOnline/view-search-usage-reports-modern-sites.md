@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: overview
 ms.service: sharepoint-online
 ms.collection: M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150

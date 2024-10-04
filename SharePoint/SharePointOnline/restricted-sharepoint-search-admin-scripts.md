@@ -21,7 +21,7 @@ description: "Learn how to use PowerShell scripts as a SharePoint Administrator 
 # Use PowerShell Scripts for Restricted SharePoint Search
 
 > [!IMPORTANT]
-> Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
+> Restricted SharePoint Search is designed for customers of Microsoft 365 Copilot. Visit [here](https://go.microsoft.com/fwlink/p/?linkid=2260808) and the [overview of Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search) for more information.
 
 By default, **Restricted SharePoint Search** isn't enabled. To enable and set up Restricted SharePoint Search, you need to have a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) role in Microsoft 365. Depending on the scenario, some actions you need to take are:
 

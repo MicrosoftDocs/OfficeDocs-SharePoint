@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 ms.topic: troubleshooting
 ms.service: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top

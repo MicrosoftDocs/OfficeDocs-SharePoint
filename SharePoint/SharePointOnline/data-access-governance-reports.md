@@ -1,5 +1,5 @@
 ---
-ms.date: 07/02/2024
+ms.date: 10/02/2024
 title: "Data access governance reports for SharePoint sites"
 ms.reviewer: samust
 ms.author: mactra
@@ -83,9 +83,12 @@ When a report is ready, select the name of the report to view the data. Each sha
 
 You can also download the reporting as a .csv file for up to 10,000 sites.
 
+> [!IMPORTANT]
+> You can download reporting for up to 1 million sites if you have a SharePoint SharePoint Premium - SharePoint Advanced Management license and your tenant is a non-government cloud environment.
+
 ## Sensitivity labels for files reports
 
-The Sensitivity labels for files report lets you control access to sensitive content by finding sites storing [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files). You can review these sites to ensure the correct policies are applied.
+The sensitivity labels for files report feature lets you control access to sensitive content by finding sites storing [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files). You can review these sites to ensure the correct policies are applied.
 
 ### Add the reports
 
@@ -116,6 +119,9 @@ After you run a report, select the report to download the data. The report inclu
 
 ## Content shared with 'Everyone except external users' (EEEU) reports
 
+> [!IMPORTANT]
+> This report is only available if you have a SharePoint Premium - SharePoint Advanced Management license and the tenant is a non-government cloud environment. The report is currently unavailable for government cloud environments such as GCCH/GCC-Moderate/DoD/Gallatin, even if you have a SharePoint Premium - SharePoint Advanced Management license.
+
 Everyone except external users (EEEU) is part of a built-in group that represents the entire organization without any external guests. It's used in following scenarios where content needs to be visible to the entire organization:
 
 - Public sites - The site is publicly visible to users within your entire organization - Everyone except external users (EEEU) group is part of the site membership,  that is, site owners/visitors/members.
@@ -133,7 +139,7 @@ When creating a report, you can select various options like create focused repor
 - Template: Lists categories of SharePoint site templates (Classic sites, Communication sites, Team sites, others). You can choose multiple values or 'All sites'.
 - Privacy: Applicable for Team sites in the scope. You can select 'Private', 'Public' or 'All'.
 - Site sensitivity: Lists all sensitivity labels. Select one or many labels if you want to report to run within the scope of labeled sites. For for example: 'Identify files within sites labeled as 'Confidential', that were shared with EEEU in the last 28 days.
-- Report type: To select the scenario as discussed above,  that is, whether you want a report for recent 'public sites' or for recent 'public items'.
+- Report type: To select the scenario as discussed earlier, whether you want a report for recent 'public sites' or for recent 'public items'.
 
 ### Run Everyone except external users reports
 
@@ -144,12 +150,12 @@ To get the latest data for a report, run the report. You can run all reports or 
 
 ### View EEEU reports
 
-Each EEEU report includes data as shown in the screenshot below
+Each EEEU report includes data as shown in the following screenshot:
 
 :::image type="content" source="media/data-access-governance/dag-eeeu-report.png" alt-text="Screenshot that shows eeeu report details" lightbox="media/data-access-governance/dag-eeeu-report.png":::
 
 - Up to 100 sites with highest number of items/groups shared with EEEU in the last 28 days.
-- Policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), site privacy and [site external sharing policy](external-sharing-overview.md).
+- Policies applied to these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), site privacy, and [site external sharing policy](external-sharing-overview.md).
 - Primary admin for each site.
 
 > [!NOTE]
@@ -165,9 +171,12 @@ After running the report, select the report to download the data. In the report:
 ## Limitations or known issues
 
 - Reports work if you have nonpseudonymized report data selected for your organization. To change this setting, you must be a Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
-- Report data may be delayed by up to 48 hours. In new tenants, it can take a few days for data to be generated successfully and available for viewing.
+- Report data can be delayed for up to 48 hours. In new tenants, it can take a few days for data to be generated successfully and available for viewing.
 
 ## Remedial actions from Data access governance reports
+
+> [!IMPORTANT]
+> Remedial actions from  Data access governance reports are only available for SharePoint Premium - SharePoint Advanced Management subscribers running non-government cloud environments. The feature is currently unavailable for government cloud environments such as GCCH/GCC-Moderate/DoD/Gallatin, even if you have a SharePoint Premium - SharePoint Advanced Management license.
 
 Once you run the Data access governance reports to discover potential oversharing, the next step is to take actions to remediate such risks. We recommend considering factors like sensitivity of the content, amount of content exposed and disruption to existing status.
 

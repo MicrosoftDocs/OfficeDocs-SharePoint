@@ -1,5 +1,5 @@
 ---
-ms.date: 06/25/2020
+ms.date: 09/24/2024
 title: Overview of the Microsoft New Employee Onboarding sites
 ms.reviewer:
 ms.author: ruihu
@@ -86,7 +86,7 @@ Research has shown preonboarding new hires, after they sign their acceptance let
 
 ## Step 1: Provision NEO sites
 
-The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) sites can be provisioned from the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates#available-templates) and selecting the template you need. A **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 ### Prerequisites
 
@@ -94,13 +94,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 ### Provision the NEO sites
 
-![Image of the NEO sites solution in the lookbook](media/neo-look-book.png)
-
-1. Go to the [SharePoint look book](https://lookbook.microsoft.com/), and under the **Solutions** tab, select one of the following employee onboarding options for provisioning:
-
-    - Provision the [New employee preonboarding site](https://lookbook.microsoft.com/details/8fefcc9a-7ca4-457f-bd10-acee3ae63b63)
-    - Provision the [New employee corporate onboarding site](https://lookbook.microsoft.com/details/388a159f-475b-4557-9088-c9073a26c576)
-    - Provision the [New employee department onboarding site](https://lookbook.microsoft.com/details/99d3b7ea-6ca0-430e-96bc-922d4d2de2ab)
+1. Navigate to the [custom PnP site templates](/sharepoint/dev/solution-guidance/applying-pnp-templates#available-templates) and select the template you need. Learn more on how to [apply the PnP templates here](/sharepoint/dev/solution-guidance/applying-pnp-templates).
 
 2. Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 

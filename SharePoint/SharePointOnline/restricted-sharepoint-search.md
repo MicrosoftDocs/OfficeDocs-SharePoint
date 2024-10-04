@@ -20,11 +20,11 @@ description: "Helps you prevent certain content on SharePoint sites from being s
 # Restricted SharePoint Search
 
 > [!IMPORTANT]
-> Restricted SharePoint Search is designed for customers of Copilot for Microsoft 365.  
+> Restricted SharePoint Search is designed for customers of Microsoft 365 Copilot.  
 
 ## What is Restricted SharePoint Search?
 
-Restricted SharePoint Search is a setting that helps you as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 to maintain a list of SharePoint sites ("allowed list") that you have checked  the permissions and applied data governance for. The allowed list defines which SharePoint sites can participate in organization-wide search and Copilot experiences. By default, the Restricted SharePoint Search setting is turned off and the allowed list is empty. This feature is currently available as Public Preview for customers who have Microsoft 365 and Copilot licenses.
+Restricted SharePoint Search is a setting that helps you as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 to maintain a list of SharePoint sites ("allowed list") that you have checked  the permissions and applied data governance for. The allowed list defines which SharePoint sites can participate in organization-wide search and Copilot experiences. By default, the Restricted SharePoint Search setting is turned off and the allowed list is empty. 
 
 Restricted SharePoint Search allows you to restrict both organization-wide search and Copilot experiences to a curated set of SharePoint sites of your choice. Additionally, whether you have enabled Restricted SharePoint Search, users in your organization are still able to interact with files and content they own or that they have previously accessed in Copilot.  
 
@@ -57,13 +57,14 @@ As a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) or [above](/m
 Restricted SharePoint Search is off by default. If you decide to enable it,  Copilot and non-Copilot users are able to find and use content from:
 
 - An allowed list of curated SharePoint sites set up by admins (with *up to 100 SharePoint sites*), honoring sites’ existing permissions.
-- Content from their frequently visited SharePoint sites.
 - Users’ OneDrive files, chats, emails, calendars they have access to.
+- Files from their frequently visited SharePoint sites.
 - Files that were shared directly with the users.
 - Files that the users viewed, edited, or created.
 
 > [!NOTE]
-> The limit of up to 100 SharePoint sites includes Hub sites, but not their associated sites.   When you enable Hub sites, the associated sites of a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the associated sites have proper permissions.
+> - The limit of up to 100 SharePoint sites includes Hub sites, but not their associated sites.   When you enable Hub sites, the associated sites of a Hub site are included in the allowed-list  but do not count towards the 100-site limit. This approach allows for greater flexibility while still adhering to the existing constraints. When you are picking Hub sites, make sure all the associated sites have proper permissions.
+> - The total number of files included from the last three bullet points (frequently visited sites, files shared directly with the user, and files the users viewed, edited, or created) is limited to the last 2,000 entities.
 
 The following diagram shows an example of an HR Hub site with eight associated sites:
 ![A diagram of a hub site with associated sites.](media/rss-hubsite-example.png) All eight associated sites plus the HR Hub site are counted as one site in the allowed-list.
@@ -103,4 +104,4 @@ Only the hub site (the URL in the Allowed list) is included in the 100. The sub 
 
 ## What to do next?
 
-After setting up Restricted SharePoint Search and enabling Microsoft Copilot for Microsoft 365 for your organization, you should evaluate the SharePoint sites [activities](/microsoft-365/admin/activity-reports/sharepoint-activity) and [usage](/microsoft-365/admin/activity-reports/sharepoint-site-usage) to adjust the allowed list. You can use [Microsoft SharePoint Admin Center](/sharepoint/advanced-management) and [Microsoft Purview](/purview/ai-microsoft-purview) to gradually increase the scope of search and Copilot experience for your organization. Restricted SharePoint Search honors existing site permissions, so you can work with site owners and admins to add [advanced access policies](/sharepoint/advanced-management#advanced-access-policies-for-secure-content-collaboration) and [advanced site content lifecycle management](/sharepoint/advanced-management#advanced-sites-content-lifecycle-management) for specific users and groups through Microsoft SharePoint Advanced Management. Moreover, Microsoft Purview enhances your organization’s data security and compliance for Copilot.
+After setting up Restricted SharePoint Search and enabling Microsoft 365 Copilot for your organization, you should evaluate the SharePoint sites [activities](/microsoft-365/admin/activity-reports/sharepoint-activity) and [usage](/microsoft-365/admin/activity-reports/sharepoint-site-usage) to adjust the allowed list. You can use [Microsoft SharePoint Admin Center](/sharepoint/advanced-management) and [Microsoft Purview](/purview/ai-microsoft-purview) to gradually increase the scope of search and Copilot experience for your organization. Restricted SharePoint Search honors existing site permissions, so you can work with site owners and admins to add [advanced access policies](/sharepoint/advanced-management#advanced-access-policies-for-secure-content-collaboration) and [advanced site content lifecycle management](/sharepoint/advanced-management#advanced-sites-content-lifecycle-management) for specific users and groups through Microsoft SharePoint Advanced Management. Moreover, Microsoft Purview enhances your organization’s data security and compliance for Copilot.

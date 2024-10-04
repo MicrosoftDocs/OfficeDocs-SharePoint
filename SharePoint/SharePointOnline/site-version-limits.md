@@ -1,11 +1,11 @@
 ---
-title: "Change version history limits for a Site (Preview)"
+title: "Change version history limits for a Site"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how admins can set version histo
 
 ---
 
-# Set version limits for a site (Preview)
+# Set version limits for a site
 
 By default, organization level settings define the version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct version history limits on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
@@ -35,7 +35,7 @@ Version history limits for an individual site can be managed in the following wa
 
 **Example scenario**
 
-Take an example of Contoso, where the default organization Version history limits is configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
+Take an example of Contoso, where the default organization Version history limits are configured to Automatic setting and no version limits are initially applied on marketing and legal sites. To meet business needs, the admin can decide to apply 'Manual' setting on legal site, thus breaking inheritance of legal site with the organization default version setting.
 
 The following is the version storage for Contoso:
 
@@ -68,8 +68,8 @@ Follow these steps to manage Version history limits for a site by using PowerShe
 | --- | --- |
 | View the version history limits set on a site | Get-SPOSite -Identity $siteUrl \| fl Url, EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays, MajorVersionLimit |
 | Set Automatic version history limits on a site. | To set Automatic Version History Limits for all libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $true`<br><br>Append `-ApplyToNewDocumentLibraries` parameter to apply only to new document libraries on the site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $true`<br>`-ApplyToNewDocumentLibraries` <br><br>Append `-ApplyToExistingDocumentLibraries` to apply only to existing document libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $true`<br>`-ApplyToExistingDocumentLibraries` |
-| Set Manual limits with Count and time parameters on a site. | To set Manual limits with Count and time parameters for all libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorwithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br><br>Append `-ApplyToNewDocumentLibraries` parameter to apply only to new document libraries on the site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorwithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br>`-ApplyToNewDocumentLibraries` <br><br>Append `-ApplyToExistingDocumentLibraries` to apply only to existing document libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br>`-ApplyToExistingDocumentLibraries` |
-| Set Manual count with no expiration limit on a site. | To set Manual limits with Count limits set the `-ExpireVersionsAfterDays` parameter to `0:`<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` <br><br>Append `-ApplyToNewDocumentLibraries` parameter to apply only to new document libraries on the site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0`<br>`-ApplyToNewDocumentLibraries` <br><br>Append `-ApplyToExistingDocumentLibraries` to apply only to existing document libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0`<br>`-ApplyToExistingDocumentLibraries` |
+| Set Manual limits with Count and time parameters on a site. | To set Manual limits with Count and time parameters for all libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorwithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br><br>Append `-ApplyToNewDocumentLibraries` parameter to apply only to new document libraries on the site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorwithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br>`-ApplyToNewDocumentLibraries` <br><br>Append `-ApplyToExistingDocumentLibraries` to apply only to existing document libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`<br>`-ApplyToExistingDocumentLibraries` |
+| Set Manual count with no expiration limit on a site. | To set Manual limits with Count limits set the `-ExpireVersionsAfterDays` parameter to `0:`<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0` <br><br>Append `-ApplyToNewDocumentLibraries` parameter to apply only to new document libraries on the site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0`<br>`-ApplyToNewDocumentLibraries` <br><br>Append `-ApplyToExistingDocumentLibraries` to apply only to existing document libraries on a site:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0`<br>`-ApplyToExistingDocumentLibraries` |
 | Clear the existing version history limits set on a site and inherit Organization version limits on new document libraries created on the site. | `Set-SPOSite -Identity $siteUrl -InheritVersionPolicyFromTenant` |
 | Cancel in progress update job|`Remove-SPOSiteVersionPolicyJob -Identity $siteUrl`     |
 
@@ -95,7 +95,7 @@ The following table enumerates the various progress status that can be reported 
 
 ## Learn More:
 
-- [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account (Preview)](tutorial-manage-version-limits.md)
+- [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account](tutorial-manage-version-limits.md)
 - Manage Version history limits for a Site using [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)
 - Track progress of version settings update request for existing document libraries on a site using [Get-SPOSiteVersionPolicyJobProgress](/powershell/module/sharepoint-online/get-spositeversionpolicyjobprogress)
 - Cancel further processing of version settings update on existing document libraries on the site collection using [Remove-SPOSiteVersionPolicyJob](/powershell/module/sharepoint-online/remove-spositeversionpolicyjob) 

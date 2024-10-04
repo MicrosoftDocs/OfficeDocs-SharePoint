@@ -1,5 +1,5 @@
 ---
-title: "Generate version storage usage report for a site(Preview)"
+title: "Generate version storage usage report for a site"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to generate version storage 
 ---
 
 
-# Generate version storage usage report for a SharePoint site (Preview)
+# Generate version storage usage report for a SharePoint site
 
 As a SharePoint admin in Microsoft 365, you can request an inventory of the versions on a site, library, or file, which can be used for various scenarios:
 
@@ -94,5 +94,5 @@ Follow these steps to manage version history limits for a site by using PowerShe
 
 ## Learn More
 
-1. [Tutorial: Generate Version Usage Report (Preview)](tutorial-generate-version-usage-report.md)
+1. [Tutorial: Generate Version Usage Report](tutorial-generate-version-usage-report.md)
 1. [Tutorial: Run 'What-If' Analysis](tutorial-run-what-if-analysis.md)

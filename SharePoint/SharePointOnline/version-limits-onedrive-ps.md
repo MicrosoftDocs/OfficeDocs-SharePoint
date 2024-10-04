@@ -1,11 +1,11 @@
 ---
-title: "Set version limits on OneDrive using PowerShell(Preview)"
+title: "Set version limits on OneDrive using PowerShell"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ description: "This article provides guidance on how an admin can set the version
 ---
 
 
-# Change version limits on OneDrive using PowerShell (Preview)
+# Change version limits on OneDrive using PowerShell
 
 By default, organization version history settings are applied to all new OneDrive accounts. As a SharePoint admin in Microsoft 365, you can set the version limits on OneDrive storage for a specific user.
 
@@ -39,8 +39,8 @@ Follow these steps to manage Version history limits for a site by using PowerShe
 | --- | --- |
 | View the version history limits set for a user | Get-SPOSite -Identity $siteUrl \| fl Url, EnableAutoExpirationVersionTrim, ExpireVersionsAfterDays, MajorVersionLimit |
 | Set automatic Version history limits for a user | `Set-SPOSite -Identity $siteUrl -EnableAutoExpirationVersionTrim $true` |
-| Set manual limits with count and time parameters for a user | `Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>` |
-| Set manual limits with count with no expiration limit for a user | To set manual limits with count limits set the `-ExpireVersionsAfterDays parameter` to 0:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit  <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
+| Set manual limits with count and time parameters for a user | `Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>` |
+| Set manual limits with count with no expiration limit for a user | To set manual limits with count limits set the `-ExpireVersionsAfterDays parameter` to 0:<br><br>`Set-SPOSite -Identity $siteUrl`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit  <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0` |
 | Clear the existing Version history limits for a user<br><br>**Note:** Clearing a setting for a user applies to new versions created on files stored on the user’s OneDrive account and doesn't trim existing versions. | `Remove-SPOSiteVersionPolicyJob -Identity $siteUrl` |
 
 ## Learn More

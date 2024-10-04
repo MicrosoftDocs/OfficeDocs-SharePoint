@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Generate and analyze version usage report (Preview)"
+title: "Tutorial: Generate and analyze version usage report"
 ms.reviewer: rekamath
-ms.author: serdars
-author: serdars
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtemper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how to generate and analyze vers
 
 ---
 
-# Tutorial: Generate and analyze version usage report for SharePoint site (Preview)
+# Tutorial: Generate and analyze version usage report for SharePoint site
 
 By understanding version storage on a site, you can better optimize the Version history settings to meet your organization’s recovery objectives and manage storage costs.
 
@@ -215,7 +215,7 @@ function Import-Dataset($DatasetFilePath)
     $Row."WebUrl.Compact" = [String]$Row."WebUrl.Compact"
     $Row."FileUrl.Compact" = [String]$Row."FileUrl.Compact"
     $Row."Size" = [Int64]$Row."Size"
-    $Row."ModifiedBy_UserId.Compact" = [Int32]$Row."ModifiedBy_UserId.Compact"
+    $Row."ModifiedBy_UserId.Compact" = [String]$Row."ModifiedBy_UserId.Compact"
     $Row."ModifiedBy_DisplayName.Compact" = [String]$Row."ModifiedBy_DisplayName.Compact"
     $Row."LastModifiedDate" = [DateTime]$Row."LastModifiedDate"
     $Row."SnapshotDate" = [DateTime]$Row."SnapshotDate"
@@ -339,7 +339,10 @@ Write-Host "Total elapsed seconds: $($Timer.Elapsed.TotalSeconds)" -ForegroundCo
 Write-Host
 ```
 
-2. Open PowerShell 7 and run the following command, replacing the placeholder values with the appropriate values.  
+2. Open PowerShell and run the following command, replacing the placeholder values with the appropriate values.  
+
+> [!NOTE]
+> Use PowerShell 7 to run the commands. You can install PowerShell 7 by following these instructions: [Installing PowerShell on Windows - PowerShell | Microsoft Learn](/powershell/scripting/install/installing-powershell-on-windows).
 
 ```PowerShell
 . “<path to AnalyzeReportFile.ps1>” –ReportLocalFilePath “<path to the file version expiration What-If report .csv file>”

@@ -1,5 +1,5 @@
 ---
-ms.date: 12/07/2023
+ms.date: 09/17/2024
 title: "What's new in Migration Manager"
 ms.reviewer: 
 ms.author: heidip
@@ -31,7 +31,15 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 - **Larger file support.** The size limit of a single file that can be migrated will be increased to improve migration fidelity.
-- **Migration flow refinement.** Refine migration setting and destination upload process to be more intuitive.
+- **File version migration.** Support for migrating file version histories in cloud scenarios.
+
+## Sep 2024
+- **New Migration transition.** Migration Manager is undergoing a transition to provide a more scalable migration service. Tenants with ongoing migration projects will experience transition UI elements. [Learn more about the transition](new-migration-transition.md).
+- **Improved connection wizard.** Customers now have access to quick migration settings immediately upon connecting to cloud sources.
+
+## Aug 2024
+- **Revamped "Copy to Migrations" panel.** The panel has been redesigned, enabling destination uploads and task-level customization while sending scanned tasks to the Migrations tab, improving migration flow efficiency.
+- **Unified Filter experience.** Filter functionality has been standardized across the Scans and Migrations tabs for a consistent user experience.
 
 ## July 2024
 

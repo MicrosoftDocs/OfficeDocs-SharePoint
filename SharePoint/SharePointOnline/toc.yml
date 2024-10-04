@@ -1,4 +1,4 @@
-Items:
+items:
 - name: SharePoint and OneDrive
   href: introduction.md
   items:
@@ -75,8 +75,10 @@ Items:
         href: setup-wizard.md
   - name: Copilot
     items:
-    - name: Microsoft Copilot for Microsoft 365 - best practices
+    - name: Microsoft 365 Copilot - best practices
       href: sharepoint-copilot-best-practices.md
+    - name: Get ready for Copilot with SharePoint Advanced Management(SAM)
+      href: get-ready-copilot-sharepoint-advanced-management.md
     - name: Restricted SharePoint search
       items:
       - name: Overview
@@ -107,6 +109,8 @@ Items:
       href: manage-sites-in-new-admin-center.md
     - name: Customize the site list
       href: customize-admin-center-site-list.md
+    - name: Guidance for retiring Delve in your organization
+      href: delve-retirement.md
   - name: Performance
     items:
     - name: Performance
@@ -225,10 +229,23 @@ Items:
       href: brand-center-overview.md
     - name: Brand fonts
       href: brand-fonts.md
-    - name: Font packages
-      href: brand-center-font-packages.md
-    - name: Font licensing
-      href: brand-font-licensing.md
+      items:
+      - name: Font packages
+        href: brand-center-font-packages.md 
+      - name: Font licensing
+        href: brand-font-licensing.md
+    - name: Brand colors
+      href: brand-colors.md
+      items:
+      - name: Site theme
+        href: site-theme.md
+    - name: Organization assets library
+      href: organization-assets-library.md
+      items:
+      - name: Support for organization fonts in PowerPoint for the web
+        href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
+      - name: Connect organizational asset libraries to Copilot
+        href: connect-organizational-asset-libraries-to-copilot.md
   - name: Site administration
     items:
     - name: Create sites
@@ -267,11 +284,6 @@ Items:
       href: sharepoint-app-bar.md
     - name: Create guidelines for site usage 
       href: sites-usage-guidelines.md
-    - name: Create an organization assets library
-      href: organization-assets-library.md
-      items:
-      - name: Support for organization fonts in PowerPoint for the web
-        href: support-for-organization-fonts-in-PowerPoint-for-the-web.md
     - name: Create an organization news site
       href: organization-news-site.md
   - name: OneDrive users and storage
@@ -308,10 +320,6 @@ Items:
         href: deploy-on-windows.md
       - name: Per-machine installation
         href: per-machine-installation.md
-      - name: OneDrive in Citrix Virtual Apps
-        href: onedrive-in-citrix-virtual-apps-deployment-guide.md
-      - name: OneDrive in Horizon Virtual apps
-        href: onedrive-in-horizon-virtual-apps-deployment-guide.md
     - name: Sync app options
       items:
       - name: Sync on virtual desktops
@@ -428,37 +436,37 @@ Items:
       href: /MicrosoftTeams/block-download-meeting-recording?bc=%2FSharePoint%2Ftoc.json&toc=%2FSharePoint%2Ftoc.json
     - name: Sign out inactive users
       href: sign-out-inactive-users.md
-  - name: Version history (Preview)
+  - name: Version history
     items:
-    - name: Overview (Preview)
+    - name: Overview
       href: version-overview.md
-    - name: Version controls (Preview)
+    - name: Version controls
       href: document-library-version-history-limits.md
-    - name: Plan version storage (Preview)
+    - name: Plan version storage
       href: plan-version-storage.md
-    - name: Set organization version limits (Preview)
+    - name: Set organization version limits
       href: set-default-org-version-limits.md
-    - name: Manage site version limits (Preview)
+    - name: Manage site version limits
       items:
-      - name: Set site version limits(Preview)
+      - name: Set site version limits
         href: site-version-limits.md
-      - name: Generate version storage usage report(Preview)
+      - name: Generate version storage usage report
         href: version-storage-report-site.md
-    - name: Set library version limits (Preview)
+    - name: Set library version limits 
       href: library-version-limits.md
-    - name: Change OneDrive version limits (Preview)
+    - name: Change OneDrive version limits 
       href: version-limits-onedrive-ps.md
-    - name: Trim versions (Preview)
+    - name: Trim versions 
       href: trim-versions.md
-    - name: Tutorials(Preview)
+    - name: Tutorials
       items:
-      - name: Tutorial—Generate version usage report (Preview)
+      - name: Tutorial—Generate version usage report 
         href: tutorial-generate-version-usage-report.md
-      - name: Tutorial—Run 'What-If' analysis (Preview)
+      - name: Tutorial—Run 'What-If' analysis 
         href: tutorial-run-what-if-analysis.md
-      - name: Tutorial—Manage version limits (Preview)
+      - name: Tutorial—Manage version limits 
         href: tutorial-manage-version-limits.md
-      - name: Tutorial—Queue trim job (Preview)
+      - name: Tutorial—Queue trim job 
         href: tutorial-queue-a-trim-job.md
     - name: FAQs
       href: faqs-for-versions.md

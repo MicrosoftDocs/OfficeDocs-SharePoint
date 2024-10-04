@@ -1,11 +1,11 @@
 ---
-title: "Trim existing versions on site, library, or OneDrive(Preview)"
+title: "Trim existing versions on site, library, or OneDrive"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -51,7 +51,7 @@ Before committing to trim existing versions, you can review the impact of the pu
 
 ## Version trim modes
 
-Version trimming workflows allow you to select and apply one of the trimming modes for scheduling a trim job on a site, document library, or OneDrive account.
+Version trimming workflows allow you to select and apply one of the trimming modes for queuing a trim job on a site, document library, or OneDrive account.
 
 **Manual expiration trim mode:** Evaluates the age of versions and deletes versions matching the expiration criteria. 
 
@@ -98,13 +98,13 @@ Follow these steps to trim existing versions using PowerShell.
 1. Connect to SharePoint as a [Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to trim the existing versions:
 
-| **Action** | **PowerShell Command** |
-| --- | --- |
-| Queue a trim job to expire versions | **Expire versions on a site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -DeleteBeforeDays <days>`<br><br>**Expire versions on a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -list $libName -DeleteBeforeDays <days>` |
-| Queue a trim job to delete versions exceeding the specified count limit | **Delete versions exceeding count limits from a site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -MajorVersionLimit <delete major versions exceeding limit> -MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br><br>**Delete versions exceeding count limits from a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -list $libName -MajorVersionLimit <delete major versions exceeding limit> -MajorWithMinorVersionsLimit <delete minor versions exceeding limit>` |
-| Queue trim job to delete versions using the estimated automatic trimming algorithm | **Apply automatic logic to trim existing versions from a Site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -Automatic`<br><br>**Apply automatic logic to trim existing versions from a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -List $libName -Automatic` |
-| Stop further processing of an in-progress trim job<br><br>**Note:** Once the cmdlet executes successfully, all new asynchronous version deletion is stopped. Stopping a trim job doesn't impact versions that are permanently deleted when the job was in progress. | **To stop processing an in-progress site level trim     job:**<br><br>`Remove-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl`<br><br>**To stop processing an in-progress library level trim job:**<br><br>`Remove-SPOListFileVersionBatchDeleteJob -Site $siteUrl -List $libName` |
-| Get the status for a file version trimming job | **To get status of a site level trimming job:**<br><br>`Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity $siteUrl`<br><br>**To get status of a library level trimming job:**<br><br>`Get-SPOListFileVersionBatchDeleteJobProgress -Site $siteUrl -List $libName` |
+   | **Action** | **PowerShell Command** |
+   | --- | --- |
+   | Queue a trim job to expire versions | **Expire versions on a site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -DeleteBeforeDays <days>`<br><br>**Expire versions on a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -list $libName -DeleteBeforeDays <days>` |
+   | Queue a trim job to delete versions exceeding the specified count limit | **Delete versions exceeding count limits from a site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -MajorVersionLimit <delete major versions exceeding limit> -MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br><br>**Delete versions exceeding count limits from a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -list $libName -MajorVersionLimit <delete major versions exceeding limit> -MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>` |
+   | Queue trim job to delete versions using the estimated automatic trimming algorithm | **Apply automatic logic to trim existing versions from a Site:**<br><br>`New-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl -Automatic`<br><br>**Apply automatic logic to trim existing versions from a library:**<br><br>`New-SPOListFileVersionBatchDeleteJob -Site $siteUrl -List $libName -Automatic` |
+   | Stop further processing of an in-progress trim job<br><br>**Note:** Once the cmdlet executes successfully, all new asynchronous version deletion is stopped. Stopping a trim job doesn't impact versions that are permanently deleted when the job was in progress. | **To stop processing an in-progress site level trim     job:**<br><br>`Remove-SPOSiteFileVersionBatchDeleteJob -Identity $siteUrl`<br><br>**To stop processing an in-progress library level trim job:**<br><br>`Remove-SPOListFileVersionBatchDeleteJob -Site $siteUrl -List $libName` |
+   | Get the status for a file version trimming job | **To get status of a site level trimming job:**<br><br>`Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity $siteUrl`<br><br>**To get status of a library level trimming job:**<br><br>`Get-SPOListFileVersionBatchDeleteJobProgress -Site $siteUrl -List $libName` |
 
 
 ## Learn More

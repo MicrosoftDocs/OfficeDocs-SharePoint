@@ -9,7 +9,7 @@ recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms

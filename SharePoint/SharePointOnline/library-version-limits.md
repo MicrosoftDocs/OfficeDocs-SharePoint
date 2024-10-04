@@ -1,11 +1,11 @@
 ---
-title: "Set version limits for a document library(Preview)"
+title: "Set version limits for a document library"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ description: "This article provides guidance on how admins can set version limit
 ---
 
 
-# Set version limits for individual document library (Preview)
+# Set version limits for individual document library
 
 The default version history limits for new document libraries are set by either the organization-level limits or the site-level limits. If the site has its own version history limit, it means the site breaks inheritance from the organization. However, to meet specific content requirements, site admins can decide to [configure versioning for a library](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
 
@@ -45,13 +45,12 @@ Follow these steps to manage version history limits for a site by using PowerShe
 1. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 2. Run one of the following commands to manage version history limits on a library:
 
-| **Action** | **PowerShell Command** |
-| --- | --- |
-| View version history limits set on a library | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
-| Set Automatic version history limits on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
-| Set Manual limits with count and time parameters on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
-| Set Manual limits with count with no expiration limit on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <delete minor versions exceeding limit>`<br>`-ExpireVersionsAfterDays 0` |
-
+   | **Action** | **PowerShell Command** |
+   | --- | --- |
+   | View version history limits set on a library | `Get-SPOListVersionPolicy -Site $siteUrl -List $libName` |
+   | Set Automatic version history limits on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName -EnableAutoExpirationVersionTrim $true` |
+   | Set Manual limits with count and time parameters on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays <delete versions exceeding time limit set in days>`|
+   | Set Manual limits with count with no expiration limit on a library | `Set-SPOListVersionPolicy -Site $siteUrl -List $libName`<br>`-EnableAutoExpirationVersionTrim $false`<br>`-MajorVersionLimit <delete major versions exceeding limit>`<br>`-MajorWithMinorVersionsLimit <number of major versions for which all minor versions will be kept>`<br>`-ExpireVersionsAfterDays 0` |
 
 ## Learn More
 

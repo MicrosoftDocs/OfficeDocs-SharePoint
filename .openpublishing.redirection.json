@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
+      "redirect_url": "/SharePoint/sharepoint-sync",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
       "redirect_url": "/sharepoint/search/create-custom-ranking-model",
       "redirect_document_id": true
@@ -1218,6 +1223,21 @@
     {
       "source_path": "migration/mover-scan.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/file-versions.md",
+      "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/onedrive-in-horizon-virtual-apps-deployment-guide.md",
+      "redirect_url": "/sharepoint/sync-vdi-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/onedrive-in-citrix-virtual-apps-deployment-guide.md",
+      "redirect_url": "/sharepoint/sync-vdi-support",
       "redirect_document_id": false
     }
   ]

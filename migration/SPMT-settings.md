@@ -125,6 +125,44 @@ If you are on a government cloud, you must first take these steps:
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
+## Allow or prevent a Custom Script (NoScript)
+
+In Microsoft 365, tenants can control if users can run a custom script on personal sites and self-service created sites.
+
+During migration, some web parts require this setting be set to **allow**. Otherwise, the web part won't be migrated.
+
+At least 24 hours before you start migration, do the following:
+
+1. Go to **[Settings](https://go.microsoft.com/fwlink/?linkid=2185072)**[ in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185072), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+
+1. At the bottom of the page, select **classic settings page**.
+
+1. Under **Custom Script**, select:
+
+   **Allow users to run custom script on personal sites** 
+   
+   **Allow users to run customer script on self-service created sites**
+   
+   Leave these settings in place during your migration.
+   
+For more info, see, [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script).
+
+## Proxy connections
+
+Proxy connections aren't supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests fail if a proxy server is configured. Examples of errors you may see include "SharePoint sign in fail" or "can't load document library". However, you can modify the SPMT app config file to follow your system proxy settings.
+
+**Update proxy**
+
+Download the latest version of SPMT. Start SPMT.
+
+If SPMT doesn't connect to Microsoft 365, go to **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+
+Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+
+1. Uncomment the default proxy setting shown here:![Edit the config file to comment out the proxy setting](media/spmt-settings/image.png)
+
+1. Restart SPMT.
+
 ## Related articles
 
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
