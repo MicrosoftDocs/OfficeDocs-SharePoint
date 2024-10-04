@@ -53,19 +53,27 @@ To access and use site lifecycle management, your organization must have the [Mi
 
 1. Select **+ Create policy** and select **Next**.
 
-1. Enter your policy scope parameters and select **Next**. :::image type="content" source="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png":::
+1. Enter your policy scope parameters and select **Next**.
+
+    :::image type="content" source="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png" alt-text="screenshot of site lifecycle management set policy scope." lightbox="media/site-lifecycle-management/3-inactive-site-policy-create-policy-set-scope.png":::
 
 1. Beginning August 2024, you can configure the policy in the following ways:
-:::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="Screenshot of site lifecycle management set policy scope filled out." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+
+    :::image type="content" source="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png" alt-text="Screenshot of site lifecycle management set policy scope filled out." lightbox="media/site-lifecycle-management/4-inactive-site-policy-create-policy-set-scope-filled.png":::
+
     - Choose to send emails to site owners/admins
     - Choose to take the following enforcement actions when there's no response from site owners or site admins after 3 notifications:
         - Mark the inactive site as read-only
         - Mark the inactive site as read-only for a configurable duration (3, 6, 9 or 12 months) before archival.
-            > [!NOTE]
-            >
-> Microsoft 365 Archive must be enabled from the Microsoft Admin Center before archival is available. To learn more about Microsoft 365 Archive, see [Overview of Microsoft 365 Archive](/microsoft-365/archive/archive-overview).
 
-1. Name your policy, add a description (optional) and select a policy mode. Select **Next**.:::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="Screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
+        > [!NOTE]
+        > Microsoft 365 Archive must be enabled from the Microsoft Admin Center before archival is available. To learn more about Microsoft 365 Archive, see [Overview of Microsoft 365 Archive](/microsoft-365/archive/archive-overview).
+
+1. Name your policy, add a description (optional) and select a policy mode. 
+
+1. Select **Next**.
+
+    :::image type="content" source="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png" alt-text="Screenshot of site lifecycle management name policy." lightbox="media/site-lifecycle-management/5-inactive-site-policy-name-policy.png":::
 
 1. Select **Done**. Your policy is now created and can be viewed and managed from the Site lifecycle management dashboard.
 
@@ -151,7 +159,9 @@ The following sites are excluded from site activity detection:
 
 ## Reporting
 
-Sites that have been inactive for six months are listed in the policy execution report. The report is available for download as a .csv file and lets you filter out sites that are considered unactioned by site owners. :::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
+Sites that have been inactive for six months are listed in the policy execution report. The report is available for download as a .csv file and lets you filter out sites that are considered unactioned by site owners. 
+
+:::image type="content" source="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png" alt-text="screenshot of inactive site policy downloaded csv report." lightbox="media/site-lifecycle-management/8-inactive-site-policy-downloaded-csv-report.png":::
 
 The following table describes the information included in the policy execution report:
 
