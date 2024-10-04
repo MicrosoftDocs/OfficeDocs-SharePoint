@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Sharepoint/SharepointOnline/terms-of-service-version-history.md",
+      "redirect_url": "/SharePoint/version-overview",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
       "redirect_url": "/SharePoint/sharepoint-sync",
       "redirect_document_id": false
