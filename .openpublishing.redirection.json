@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "Sharepoint/SharepointOnline/sharepoint/terms-of-service-version-history.md",
+      "source_path": "Sharepoint/SharepointOnline/terms-of-service-version-history.md",
       "redirect_url": "/SharePoint/version-overview",
       "redirect_document_id": true
     },
