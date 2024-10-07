@@ -186,7 +186,7 @@ The following web parts and features are unavailable to site admins and owners w
 |Document Sets  |Document Set Contents  <br/> Document Set Properties  |
 |Advanced |Embed |
 |Forms  |HTML Form Web Part  |
-|Media and Content  |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  |
+|Media and Content  |Content Editor  <br/> Script Editor  <br/> Silverlight Web Part  <br/> Page Viewer (can't set web page URL) |
 |Search  |Refinement  <br/> Search Box  <br/> Search Navigation  <br/> Search Results  |
 |Search-Driven Content  |Catalog-Item Reuse  |
 |Social Collaboration  |Contact Details  <br/> Note Board  <br/> Organization Browser  <br/> Site Feed  <br/> Tag Cloud  <br/> User Tasks  |
