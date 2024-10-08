@@ -75,10 +75,10 @@ When the SharePoint storage quota is exceeded, you might need to purchase additi
 Version trimming doesn't impact the files in the preservation hold library since the original copies of the files are preserved. For more on how retention settings work in SharePoint, see [Learn about retention for SharePoint and OneDrive | Microsoft Learn.](/purview/retention-policies-sharepoint)  
 
 ## Related articles 
-- Microsoft 365 Archive – cold tier SharePoint storage ideal for inactive content; learn more at [aka.ms/M365 Archive](http://aka.ms/M365%20Archive) 
+- Microsoft 365 Archive – cold tier SharePoint storage ideal for inactive content; learn more at [aka.ms/M365 Archive](https://aka.ms/M365%20Archive) 
 
-- Enhanced version controls – right version limits to optimize for recovery and storage costs; learn more at [aka.ms/versioning-overview ](http://aka.ms/versioning-overview)
+- Enhanced version controls – right version limits to optimize for recovery and storage costs; learn more at [aka.ms/versioning-overview ](https://aka.ms/versioning-overview)
 
-- Sites content lifecycle management – manage inactive sites across your tenant to optimize storage; learn more at [aka.ms/LearnSAM ](http://aka.ms/LearnSAM)
+- Sites content lifecycle management – manage inactive sites across your tenant to optimize storage; learn more at [aka.ms/LearnSAM ](https://aka.ms/LearnSAM)
 
-- Microsoft Graph Data Connect for SharePoint – rich datasets to understand your SharePoint storage trends; learn more at [aka.ms/SharePointData](http://aka.ms/SharePointData) 
+- Microsoft Graph Data Connect for SharePoint – rich datasets to understand your SharePoint storage trends; learn more at [aka.ms/SharePointData](https://aka.ms/SharePointData) 
