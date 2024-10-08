@@ -1,5 +1,5 @@
 ---
-ms.date: 09/10/2020
+ms.date: 10/07/2024
 title: "Summaries in sharing emails for Word docs"
 ms.reviewer: srice
 ms.author: ruihu
@@ -22,6 +22,9 @@ description: "Learn how to disable summary info in sharing emails."
 ---
 
 # Summaries in sharing emails
+
+> [!IMPORTANT]
+> As of May 2024, we are no longer send summaries in sharing emails for Word documents.
 
 When users share a Word document in SharePoint or OneDrive, recipients get an email that shows:
 
