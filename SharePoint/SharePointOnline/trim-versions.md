@@ -21,7 +21,7 @@ description: "This article provides guidance on how to trim existing versions fr
 ---
 
 
-# Trim existing versions from site, library, or OneDrive(Preview) 
+# Trim existing versions from site, library, or OneDrive
 
 > [!CAUTION]
 > Versions deleted using trimming jobs are permanently deleted. This deletion workflow bypasses the normal recycle bin retention and deleted versions cannot be recovered. 
