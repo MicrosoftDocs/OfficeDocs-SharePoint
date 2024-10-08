@@ -51,6 +51,9 @@ For the classic search experience, you can create your own result sources, or us
 4. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
    - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service).
+     
+>[!IMPORTANT]
+>As of September 2024, for SharePoint Online Microsoft 365 Result Sources, the OpenSearch and Remote SharePoint protocol options have been retired and will soon be removed from the Result Source configuration UI.  Any SharePoint Online Result Source currently configured to use these options will have zero results returned.
     
    - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
     
