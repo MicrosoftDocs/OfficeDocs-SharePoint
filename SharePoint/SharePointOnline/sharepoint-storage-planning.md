@@ -29,7 +29,7 @@ As storage grows over time, it's important to understand what drives storage gro
 
 - Leverage [SharePoint site usage reports](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) to review storage trends, such as usage by sites and active file count. There might be a 48-hour data latency in the usage reports and that the usage report shows usage across all geo locations while the usage values in the SharePoint Admin Center are geo location specific.  
 
-- Use [SharePoint dataset from Microsoft Graph Data connect](https://aka.ms/SharePointData) to analyze site lifecycle, ownership, and storage used by SharePoint sites and OneDrive accounts. Answer questions such as which type of site uses the most storage, how much storage is used by previous versions, and how many sites haven’t changed in the past year. File level data is also available now through the [SharePoint Files dataset.](https://techcommunity.microsoft.com/t5/microsoft-graph-data-connect-for/update-on-the-sharepoint-files-dataset/ba-p/4189538)<sup>(*)</sup> 
+- Use [SharePoint dataset from Microsoft Graph Data connect](https://aka.ms/SharePointData) to analyze site lifecycle, ownership, and storage used by SharePoint sites and OneDrive accounts. Answer questions such as which type of site uses the most storage, how much storage is used by previous versions, and how many sites haven’t changed in the past year. File level data is also available now through the [SharePoint Files dataset.](https://techcommunity.microsoft.com/t5/microsoft-graph-data-connect-for/update-on-the-sharepoint-files-dataset/ba-p/4189538)<sup>**(*)**</sup> 
 
 ## Set up storage configurations  
 Configure the site storage limits, version history limits, and retention policies that would meet your organization’s needs. Whether that’s automatic limits for simplicity or custom limits for maximum control, setting up these limits is fundamental for storage management.  
@@ -49,21 +49,21 @@ Increase available storage by cleaning up low-value versions and inactive sites,
 
 - Recover storage from deleted items by [emptying site recycle bin](https://support.microsoft.com/en-us/office/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e).  
 
-- Leverage [retention settings](/purview/retention-policies-sharepoint) to automatically delete files after a specified period of time.  
+- Leverage [retention settings](/purview/retention-policies-sharepoint) to automatically delete files after a specified period.  
 
-- Manage site lifecycle policies through [SharePoint Advanced Management](/sharepoint/advanced-management). Set up an [inactive site policy](/sharepoint/site-lifecycle-management) to automatically detect inactive sites and send notifications to site owners via email. <sup>(*)</sup> 
+- Manage site lifecycle policies through [SharePoint Advanced Management](/sharepoint/advanced-management). Set up an [inactive site policy](/sharepoint/site-lifecycle-management) to automatically detect inactive sites and send notifications to site owners via email. <sup>**(*)**</sup> 
 
 
 ## Purchase additional storage  
 To increase SharePoint storage capacity, purchase additional storage in one-gigabyte increments or acquire more SharePoint licenses.  
 
-- Purchase [additional storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/additional-file-storage) at a cost per gigabyte (GB) per month.<sup>(*)</sup>  
+- Purchase [additional storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/additional-file-storage) at a cost per gigabyte (GB) per month.<sup>**(*)**</sup>  
 
-- Purchase additional SharePoint licenses, adding 10 GB per license to the storage limit.<sup>(*)</sup>  
+- Purchase additional SharePoint licenses, adding 10 GB per license to the storage limit.<sup>**(*)**</sup>  
 
-<sup>(*)</sup>: Additional licensing/charges might apply
+<sup>**(*)**</sup>: Additional licensing/charges might apply
 
-## FAQ 
+## FAQs 
 
 1. How is the SharePoint storage quota calculated?  
 SharePoint storage quota for the tenant starts at 1 TB and each additional SharePoint license purchased adds 10 GB. For details, see [SharePoint limits - Service Descriptions | Microsoft Learn.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).   
