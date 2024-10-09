@@ -1,5 +1,5 @@
 ---
-ms.date: 07/16/2018
+ms.date: 10/09/2024
 title: "Change the default sharing link for a site"
 ms.reviewer: srice
 ms.author: ruihu
