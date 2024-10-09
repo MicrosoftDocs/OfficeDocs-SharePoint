@@ -1,5 +1,5 @@
 ---
-ms.date: 08/02/2023
+ms.date: 10/09/2024
 title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: jtremper
