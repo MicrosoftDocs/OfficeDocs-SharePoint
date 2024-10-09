@@ -43,7 +43,7 @@ For example, say Contoso.com is an international company with subsidiaries in lo
 > [!CAUTION]
 > When you do a network merge, the data in all subsidiary networks is permanently deleted. 
   
-For more information about administering Viva Engage, see [Viva Engage - Admin help](/viva-engage/).
+For more information about administering Viva Engage, see [Viva Engage - Admin help](/viva/engage/eac-overview?formCode=MG0AV3).
   
 ## Step 1: Merge multiple Viva Engage networks
 

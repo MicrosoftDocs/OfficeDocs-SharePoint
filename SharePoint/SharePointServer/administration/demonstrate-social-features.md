@@ -39,5 +39,5 @@ This document contains instructions for the following:
   
 ## See also
 
-[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+[Test Lab Guides](https://www.microsoft.com/download/details.aspx?id=34684)
 
