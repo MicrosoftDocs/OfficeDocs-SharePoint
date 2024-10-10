@@ -27,7 +27,7 @@ description: "Learn how to create and configure a SQL Server Always On Availabil
 This article provides the required information and detailed procedures to create and configure a Microsoft SQL Server Always On Availability Group for a SharePoint Server or Foundation farm.
   
 > [!IMPORTANT]
->  The steps in this article show how to deploy a new SharePoint farm and doesn't cover upgrading from SQL Server 2008 R2 to a newer version of SQL Server.
+> The steps in this article show how to deploy a new SharePoint farm and doesn't cover upgrading from SQL Server 2008 R2 to a newer version of SQL Server.
 
 > [!IMPORTANT]
 > Verify the SQL Server version compatibility with the version of SharePoint you will be deploying.
@@ -198,7 +198,7 @@ Use the following procedure to install SQL Server 2014 (SP1).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
+    For more information, see [Installing SQL Server 2014 Step by Step Tutorial](https://www.techbrothersit.com/2015/12/how-to-install-sql-server-2014-step-by.html?formCode=MG0AV3).
     
 ### Install SQL Server 2016 or SQL Server 2017
 

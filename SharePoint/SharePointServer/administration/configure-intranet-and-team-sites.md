@@ -42,5 +42,5 @@ For eBook versions of this TLG (including DOCX, EPUB, MOBI, and PDF), see [Test 
 
 #### Other Resources
 
-[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+[Test Lab Guides](https://www.microsoft.com/en-us/download/details.aspx?id=30386)
 

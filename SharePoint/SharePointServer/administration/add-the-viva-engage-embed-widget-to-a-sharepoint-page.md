@@ -87,7 +87,7 @@ There are two options:
 
         - **User**: All conversations that include messages from the specified user.
 
-        - **Open Graph**: Use this to show all conversations about a specific OpenGraph object such as a file or folder or image. It can also be used to embed a **Like** or **Follow** button on the page. For information about inserting these buttons, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Viva Engage Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
+        - **Open Graph**: Use this to show all conversations about a specific OpenGraph object such as a file or folder or image. It can also be used to embed a **Like** or **Follow** button on the page. For information about inserting these buttons, see [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Viva Engage Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
 
     - **Feed ID**: The ID you identified in Step 2 above for the specific Viva Engage group, topic, or user. This should be left blank if you select **My Feed** as the feed type.
 
