@@ -27,7 +27,7 @@ SharePoint is the most trusted and flexible platform for your content, providing
 ## Understand storage drivers  
 As storage grows over time, it's important to understand what drives storage growth and identify the areas that could need your attention. There are options to review storage trends, ranging from usage reports in the Microsoft 365 admin center, which provide easy-to-consume visuals, to rich datasets available through Microsoft Graph Data Connect (MGDC). 
 
-- Leverage [SharePoint site usage reports](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) to review storage trends, such as usage by sites and active file count. There might be a 48-hour data latency in the usage reports and that the usage report shows usage across all geo locations while the usage values in the SharePoint Admin Center are geo location specific.  
+- Leverage [SharePoint site usage reports](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) to review storage trends, such as usage by sites and active file count. There might be a 48-hour data latency in the usage reports. Note that the M365 admin center usage reports show usage across all geo locations while the SharePoint admin center usage values are geo location specific.  
 
 - Use [SharePoint dataset from Microsoft Graph Data connect](https://aka.ms/SharePointData) to analyze site lifecycle, ownership, and storage used by SharePoint sites and OneDrive accounts. Answer questions such as which type of site uses the most storage, how much storage is used by previous versions, and how many sites haven’t changed in the past year. File level data is also available now through the [SharePoint Files dataset.](https://techcommunity.microsoft.com/t5/microsoft-graph-data-connect-for/update-on-the-sharepoint-files-dataset/ba-p/4189538)<sup>**(*)**</sup> 
 
@@ -66,7 +66,7 @@ To increase SharePoint storage capacity, purchase additional storage in one-giga
 ## FAQs 
 
 1. How is the SharePoint storage quota calculated?  
-SharePoint storage quota for the tenant starts at 1 TB and each additional SharePoint license purchased adds 10 GB. For details, see [SharePoint limits - Service Descriptions | Microsoft Learn.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).   
+SharePoint storage quota for the tenant starts at 1 TB and each additional SharePoint license purchased adds 10 GB. For details, see [SharePoint limits - Service Descriptions | Microsoft Learn.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)   
 
 1. What happens if my tenant exceeds the SharePoint storage quota?  
 When the SharePoint storage quota is exceeded, you might need to purchase additional storage or manage existing storage more efficiently through deletion or archival. In addition, classic site creation is blocked.  
@@ -75,7 +75,7 @@ When the SharePoint storage quota is exceeded, you might need to purchase additi
 Version trimming doesn't impact the files in the preservation hold library since the original copies of the files are preserved. For more on how retention settings work in SharePoint, see [Learn about retention for SharePoint and OneDrive | Microsoft Learn.](/purview/retention-policies-sharepoint)  
 
 ## Related articles 
-- Microsoft 365 Archive – cold tier SharePoint storage ideal for inactive content; learn more at [aka.ms/M365 Archive](https://aka.ms/M365%20Archive) 
+- Microsoft 365 Archive – cold tier SharePoint storage ideal for inactive content; learn more at [aka.ms/M365 Archive](https://aka.ms/M365Archive) 
 
 - Enhanced version controls – right version limits to optimize for recovery and storage costs; learn more at [aka.ms/versioning-overview ](https://aka.ms/versioning-overview)
 
