@@ -19,7 +19,7 @@ description: "Learn how to configure and demonstrate Security Assertion Markup L
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)).
+This document is the [Test Lab Guide](https://www.microsoft.com/en-us/download/details.aspx?id=30386) version of the configuration described in [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)).
   
 This document contains instructions for the following:
   
@@ -44,5 +44,5 @@ This document contains instructions for the following:
 
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
   
-[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+[Test Lab Guides](https://www.microsoft.com/en-us/download/details.aspx?id=30386)
 

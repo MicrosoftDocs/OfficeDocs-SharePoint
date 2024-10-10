@@ -46,7 +46,7 @@ The following topics explain how to configure SharePoint Server with client cert
   
 1. Configure AD FS to support claims-based authentication.
     
-    For more information, see [AD FS 2.0 - How to change the local authentication type](https://go.microsoft.com/fwlink/p/?LinkId=212513).
+    For more information, see [AD FS 2.0 - How to change the local authentication type](https://github.com/technet2/Wiki/blob/master/articles/1600.ad-fs-2-0-how-to-change-the-local-authentication-type.html?formCode=MG0AV3).
     
 2. Configure SharePoint Server to support SAML-based claims authentication using AD FS.
     
