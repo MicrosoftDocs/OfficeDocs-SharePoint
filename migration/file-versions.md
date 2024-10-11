@@ -17,7 +17,7 @@ mscollection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about the transition plan of Migration Manager with a more scalable backend infrastructure."
+description: "How to configure file version migration setting in Migration Manager."
 ---
 
 # File Versions 
