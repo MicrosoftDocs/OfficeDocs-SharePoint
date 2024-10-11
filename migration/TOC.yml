@@ -129,6 +129,8 @@ Items:
         href: mm-project-settings-permissions.md
       - name: Google sheet scan settings
         href: mm-google-sheet-scan.md
+      - name: File versions
+        href: file-versions.md
     - name: Migration time estimator
       href: mm-time-estimator.md
     - name: Reports and codes for cloud migrations
