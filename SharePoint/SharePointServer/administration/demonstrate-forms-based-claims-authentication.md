@@ -19,7 +19,7 @@ description: "Learn how to configure and demonstrate form-based authentication f
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-This document is the [Test Lab Guide](https://www.microsoft.com/download/details.aspx?id=34684) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)). 
+This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)). 
   
 This document contains instructions for the following: 
   
