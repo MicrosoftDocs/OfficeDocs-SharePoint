@@ -23,11 +23,11 @@ description: Migration Manager Box FAQs
 # Frequently Asked Questions: Migration Manager Box
 
 **Question:**   **What gets transferred?**</br>
-Answer: Only owned folders and the root files for each user are copied. If a user isn't the owner of data they can access, we don't copy it. Content may be automatically reshared after it's migrated so that each user has access to their content exactly as before.
+Answer: Only files and folders owned by each user are copied. For example, if “Folder B” is located in User A’s account but owned by User B and shared with User A, it will not be scanned or migrated under User A. Instead, it will be scanned and migrated under User B.
 </br>
 
-**Question:**  What happens to Box Notes?</br>
-Answer: Box Notes will not be converted during migration to a .docx format.
+**Question:**  **What happens to Box Notes?**</br>
+Answer: Box Notes will be converted during migration to a .docx format.
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  Currently Migration Manager Box isn't available for any of the Government clouds.
