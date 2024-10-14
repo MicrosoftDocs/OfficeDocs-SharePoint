@@ -73,4 +73,4 @@ For more information about IPv6 in Microsoft products, see the [IPv6 TechCenter]
   
 ## See also
 
-[IPv6 Survival Guide in the TechNet Wiki](https://techcommunity.microsoft.com/t5/wiki-ninjas-blog/featured-wiki-article-ipv6-survival-guide/ba-p/928597?formCode=MG0AV3)
+[IPv6 Survival Guide in the TechNet Wiki](https://go.microsoft.com/fwlink/p/?LinkId=237480)

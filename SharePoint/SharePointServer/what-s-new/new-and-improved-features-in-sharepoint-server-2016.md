@@ -236,7 +236,7 @@ In SharePoint Server 2016, when you post images and videos to a document library
 ### Information Rights Management
 <a name="InfoRights"> </a>
 
-For more info, see [Secure and sync with Information Rights Management on OneDrive](https://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](/purview/apply-irm-to-a-list-or-library?formCode=MG0AV3).
+For more info, see [Secure and sync with Information Rights Management on OneDrive](https://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ### Large file support
 <a name="largefile"> </a>

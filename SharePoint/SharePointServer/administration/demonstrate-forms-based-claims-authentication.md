@@ -42,5 +42,5 @@ This document contains instructions for the following:
 
 [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14))
   
-[Test Lab Guides](https://www.microsoft.com/download/details.aspx?id=34684)
+[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
 
