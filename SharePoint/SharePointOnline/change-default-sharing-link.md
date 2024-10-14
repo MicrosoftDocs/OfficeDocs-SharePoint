@@ -37,7 +37,7 @@ Users can share files and folders in Microsoft SharePoint by sending a link. The
 - People with existing access
 - Specific people 
 
-![Screenshot of Link settings.](media/link-settings.png)
+  ![Screenshot of Link settings.](media/link-settings.png)
 
 As a [SharePoint Administrator](./sharepoint-admin-role.md) or above, you may want to enable users to send "Anyone" links, but you may not want this to be the default type of link when users select to share files and folders. You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. You can change this setting at the organization level and at the site (previously called "site collection") level. 
   
@@ -65,8 +65,8 @@ For info about the changing this setting at the organization level, see [File an
 
 5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
 
-> [!Note]
-> To change the default link type for a Teams private or shared channel site, you must use the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
+    > [!Note]
+    > To change the default link type for a Teams private or shared channel site, you must use the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
 ## Change the default link permission for a site
 
