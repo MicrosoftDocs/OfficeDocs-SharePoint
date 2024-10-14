@@ -150,7 +150,6 @@ Each user account has a certain quota for API call rate and bandwidth. Using mul
 - The number of consumers of the source computer
 - Anti-virus competes the CPU and disk with agent
 - Network speed
-- Throttling - Decided by multiple factors including client side factors and server side factors. The throttling can be mitigated by using multiple SharePoint Online migration accounts.
 
 According to our telemetry and support tickets, the typical bottleneck is from source reading. Primary reasons are:
 
