@@ -1,11 +1,11 @@
 ---
-title: "Switch from an Enterprise Search Center to Basic in SharePoint"
+title: "Switch between an Enterprise Search Center and Basic in SharePoint"
 ms.reviewer: 
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 7/25/2019
+ms.date: 10/07/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,14 +15,10 @@ ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "Learn how to swap your default search center from Enterprise back to Basic."
+description: "Learn how to swap your default search center from Enterprise back to Basic and vice versa."
 ---
 
 # Switch from an Enterprise Search Center to Basic in SharePoint
-
->[!Important]
->This feature is gradually rolling out and might not be available yet for your organization.
-
 
 The Basic Search Center is a classic search experience. To offer your users a richer search experience, you can do one of the two things:
 - Switch from a Basic Search Center to an Enterprise Search Center
