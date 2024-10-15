@@ -40,7 +40,7 @@ Tenants with ongoing migration projects will experience transition UI elements:
 * **October 8th, 2024**: The Transition UI will be released, featuring a New Migration switching panel in the top-right corner of the project page. You can select  "Switch now" button to switch to the New Migration.
   + **Before Switching**: You may occasionally see pop-up prompts encouraging you to switch to New Migration. If you don't switch proactively, the transition will be mandatory starting **November 11th**. 
   + **During Switching**: The transition process may take a few moments but won't affect your ongoing migration tasks. 
-  + **After Switching**: New Migration will become the default service, and new migration tasks can only be initiated in New Migration. An entry point to Old Migration will remain available for reviewing or completing any unfinished migration tasks. Old Migration will be permanently closed on **December 16th**. Download any summary or detailed reports beforehand if you wish to retain the migration history from Old Migration.
+  + **After Switching**: New Migration will become the default service, and new migration tasks can only be initiated in New Migration. An entry point to Old Migration will remain available for reviewing or completing any unfinished migration tasks. Old Migration will be permanently closed on **December 11th**. Download any summary or detailed reports beforehand if you wish to retain the migration history from Old Migration.
 
 >[!NOTE]
 > If you encounter any transition issues, please feel free to contact us through the 'Give Feedback' widget at the bottom right of the page.
