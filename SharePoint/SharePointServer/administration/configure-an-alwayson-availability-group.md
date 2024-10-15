@@ -198,7 +198,7 @@ Use the following procedure to install SQL Server 2014 (SP1).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Installing SQL Server 2014 Step by Step Tutorial](https://www.techbrothersit.com/2015/12/how-to-install-sql-server-2014-step-by.html?formCode=MG0AV3).
+    For more information, see [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
     
 ### Install SQL Server 2016 or SQL Server 2017
 

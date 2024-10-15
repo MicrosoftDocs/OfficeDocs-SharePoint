@@ -48,5 +48,5 @@ This document contains instructions for the following tasks:
 [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
 #### Other Resources
 
-[Test Lab Guides](https://www.microsoft.com/en-us/download/details.aspx?id=30386)
+[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
 
