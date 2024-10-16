@@ -36,7 +36,7 @@ Here are the basic parts of Teams and SharePoint and how they relate to each oth
 - **SharePoint site** - A SharePoint site is a web site in SharePoint where you can create web pages and store and collaborate on files. SharePoint sites can be used independently and are also used by Teams for file storage (called *Teams-connected sites*). A Teams-connected site is created automatically whenever you create a team.
 
 - **Team** - A team is a place in Teams where you can invite others to collaborate. Each team is connected to one or more SharePoint sites. These sites are where the team's files are stored.
-- 
+  
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams don't require a team owner to invite someone to the team.
 
 - **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
