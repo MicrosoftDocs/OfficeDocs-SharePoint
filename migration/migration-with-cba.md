@@ -31,15 +31,15 @@ Under this registered application, choose different levels of API permissions as
 
 If you want to limit the registered application to specific SharePoint sites, add the following API permissions.
 
-·       SharePoint Sites.Selected permission scope for REST and CSOM (SharePoint Client-Side Object Model) calls.
+- SharePoint Sites.Selected permission scope for REST and CSOM (SharePoint Client-Side Object Model) calls.
 
-·       MS Graph Sites.Selected permission scope for MS Graph sites-related API.
+- MS Graph Sites.Selected permission scope for MS Graph sites-related API.
 
-·      MS Graph Sites.Read.All for searching sites and looking up the root site.
+- MS Graph Sites.Read.All for searching sites and looking up the root site.
 
-·       MS Graph User.Read.All and Group.Read.All for resolving the user mapping.
+- MS Graph User.Read.All and Group.Read.All for resolving the user mapping.
 
-·       MS Graph Organization.Read.All for sending telemetry to the right Geo location.
+- MS Graph Organization.Read.All for sending telemetry to the right Geo location.
 
 Granting SharePoint AllSites.FullControl permission to the application enables the application to move content into all sites of your tenant.
 
@@ -51,17 +51,16 @@ After uploading the certificate, copy the value in “Thumbprint” for future u
 
 __4. Create configuration file__
 
-Prepare a config file named "CertificateConfig.json" with following content.
+Prepare a config file named "CertificateConfig.json" with following content. 
 
+
+```
 {
-
     "Thumbprint":"xxx", // The thumbprint for the cert
-
     "TenantId":"xxx", // Tenant ID
-
     "ClientId":"xxx" // App registration Id
-
 }
+```
 
 Copy "CertificateConfig.json" under %appdata%\Microsoft\MigrationToolStorage. If the folder does not exist, create it manually.
 
