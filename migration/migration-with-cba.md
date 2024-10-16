@@ -32,17 +32,17 @@ Under this registered application, choose different levels of API permissions as
 
 If you want to limit the registered application to specific SharePoint sites, add the following API permissions.
 
-- SharePoint 'Sites.Selected' for REST and CSOM (SharePoint Client-Side Object Model) calls.
+- 'Sites.Selected' under SharePoint API for REST and CSOM (SharePoint Client-Side Object Model) calls.
 
-- MS Graph 'Sites.Selected' for MS Graph sites-related API.
+- 'Sites.Selected' under Microsoft Graph API for MS Graph sites-related API.
 
-- MS Graph 'Sites.Read.All' for searching sites and looking up the root site.
+- 'Sites.Read.All' under Microsoft Graph APIfor searching sites and looking up the root site.
 
-- MS Graph 'User.Read.All' and Group.Read.All for resolving the user mapping.
+- 'User.Read.All' and Group.Read.All under Microsoft Graph APIfor resolving the user mapping.
 
-- MS Graph 'Organization.Read.All' for sending telemetry to the right Geo location.
+- 'Organization.Read.All' under Microsoft Graph API for sending telemetry to the right Geo location.
 
-Granting SharePoint 'AllSites.FullControl' permission to the application enables the application to move content into all sites of your tenant.
+Granting SharePoint 'AllSites.FullControl' permission under SharePoint and Microsoft Graph API to the application enables the application to move content into all sites of your tenant.
 
 __3. Upload certificate__
 
@@ -67,11 +67,11 @@ Copy "CertificateConfig.json" under %appdata%\Microsoft\MigrationToolStorage. If
 
 ## Grant destination site access permission
 
-If you set SharePoint Sites.Selected permission for the registered application, you need to grant access permissions of the destination sites to the application. “FullControl” permission is required for SPMT to create destination document library.
+If you set SharePoint Sites.Selected permission for the registered application, you need to grant access permissions of the destination sites to the application. 'FullControl' permission is required for SPMT to create destination document library.
 
 Both MS Graph API and PowerShell PnP support granting application permission.
 
-- Use MS Graph API [Create permission - Microsoft Graph v1.0 | Microsoft Learn](https://learn.microsoft.com/en-us/graph/api/site-post-permissions?view=graph-rest-1.0&tabs=http) to grant 'owner' permission role on the sites.
+- Use Microsoft Graph API [Create permission - Microsoft Graph v1.0 | Microsoft Learn](https://learn.microsoft.com/en-us/graph/api/site-post-permissions?view=graph-rest-1.0&tabs=http) to grant 'owner' permission role on the sites.
 
 - Use PowerShell PnP command “Grant-PnPAzureADAppSitePermission” to set 'FullControl' permission needed for the application.
 
@@ -79,8 +79,8 @@ Both MS Graph API and PowerShell PnP support granting application permission.
 
 ## Using CBA with SPMT
 
-If the "CertificateConfig.json" file contains the correct attributes, SPMT starta without prompting users to enter SharePoint admin credentials. However, if the file is incorrect formatted, an error message appears “The application will exit because of sign-in failure. Please double-check and try again” after SPMT is launched. If wrong attribute values are provided in the "CertificateConfig.json" file, all migrations will fail with errors in the migration report indicating insufficient permissions.
+If the "CertificateConfig.json" file contains the correct attributes, SPMT starts without prompting users to enter SharePoint admin credentials. However, if the file is incorrectly formatted, an error message appears “The application will exit because of sign-in failure. Please double-check and try again” after SPMT is launched. If wrong attribute values are provided in the "CertificateConfig.json" file, all migrations fail with errors in the migration report indicating insufficient permissions.
 
-If the "CertificateConfig.json" file is not provided, SPMT will ask users to enter SharePoint admin credentials.
+If the "CertificateConfig.json" file is not provided, SPMT asks users to enter SharePoint admin credentials.
 
 ---
