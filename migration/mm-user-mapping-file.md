@@ -30,7 +30,7 @@ This article shows how to create a user-mapping file to use with Migration Manag
   
 ## Create a user-mapping file for data content migration
 
-Migration Manager uses a default user-mapping file when migrating your file shares, however, you can choose to create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
+Migration Manager uses a default user-mapping file when migrating your file shares, however, you can choose to create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.  Using a user-mapping file reassigns permissions from source to target (i.e.  user@fabrikam.com mapped to user@contoso.com.  The contoso.com user will be granted the same privileges it had on fabrikam.com)
   
  **CSV file format**
 
