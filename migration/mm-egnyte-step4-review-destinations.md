@@ -25,7 +25,7 @@ description: Review your destination paths for your Egnyte migration while using
 ---
 # Step 4: Review destination paths in Migration Manager Egnyte
 
-In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
+In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they're correct. An account can't be migrated without a destination indicated. Once you start migrating content to a destination, it can't be modified.
 
 ## Single destination edit
 
@@ -39,7 +39,8 @@ If a destination is missing on a single user, highlight the row and update the v
     - For Teams, select the team and the channel
 
 3. Select **Save path**.
-
+>[!Note]
+> If the desired destination doesn’t appear in the dropdown list, please upload it using a CSV file as described below.
 
 
 ## Upload destinations using a CSV file

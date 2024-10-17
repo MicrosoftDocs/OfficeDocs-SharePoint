@@ -25,8 +25,11 @@ description: "Learn how to configure hybrid federated search from SharePoint in 
 # Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
+
+>[!IMPORTANT]
+>Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound), the capability to display search results from SharePoint on-premises content in SharePoint Online, has been retired as of September 2024. Hybrid Federated Search for SharePoint Server (Outbound), the ability to view SharePoint Online search results in SharePoint on-premises, and Cloud hybrid search remain operational. If you need to display search results from external content in SharePoint Online, we recommend you use Microsoft Search Graph Connectors or Cloud hybrid search.
   
-This article provides the roadmap for configuring hybrid search from SharePoint in Microsoft 365 for enterprises to SharePoint Server, which allows your users to use see search results from SharePoint Server when searching from Microsoft 365.
+This article provides the roadmap for configuring hybrid search from SharePoint in Microsoft 365 for enterprises to SharePoint Server, which allows your users to see search results from SharePoint Server when searching from Microsoft 365.
   
 Follow these steps in the order shown. If you already completed a step when you did a different roadmap, skip that step and go to the next.
   

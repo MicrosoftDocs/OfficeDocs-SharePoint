@@ -1,11 +1,11 @@
 ---
-title: "Change version history limits for a Site (Preview)"
+title: "Change version history limits for a Site"
 ms.reviewer: rekamath
 ms.author: ruihu
 author: maggierui
 manager: jtremper
 recommendations: true
-ms.date: 04/30/2024
+ms.date: 10/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides guidance on how admins can set version histo
 
 ---
 
-# Set version limits for a site (Preview)
+# Set version limits for a site
 
 By default, organization level settings define the version history limits that are applied to all new document libraries created in a site. However, to meet specific content needs, admins can choose to set distinct version history limits on individual sites. This way, users can break the inheritance from organization limits on an individual site.
 
@@ -95,7 +95,7 @@ The following table enumerates the various progress status that can be reported 
 
 ## Learn More:
 
-- [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account (Preview)](tutorial-manage-version-limits.md)
+- [Tutorial: Manage Version history limits for a Site, Library, or OneDrive account](tutorial-manage-version-limits.md)
 - Manage Version history limits for a Site using [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)
 - Track progress of version settings update request for existing document libraries on a site using [Get-SPOSiteVersionPolicyJobProgress](/powershell/module/sharepoint-online/get-spositeversionpolicyjobprogress)
 - Cancel further processing of version settings update on existing document libraries on the site collection using [Remove-SPOSiteVersionPolicyJob](/powershell/module/sharepoint-online/remove-spositeversionpolicyjob) 
