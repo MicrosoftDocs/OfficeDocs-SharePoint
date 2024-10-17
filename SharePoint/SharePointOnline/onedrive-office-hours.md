@@ -27,7 +27,7 @@ The OneDrive product and engineering team now offers monthly office hours for co
 
 **Where:** Teams meeting
 
-**How to sign up:** Every month a new call will be on [our events page](https://aka.ms/OneDriveOfficeHours). Follow [our blogs](aka.ms/OneDrive/Blog) for the latest updates.
+**How to sign up:** Every month a new call will be on [our events page](https://aka.ms/OneDriveOfficeHours). Follow [our blogs](https://aka.ms/OneDrive/Blog) for the latest updates.
  
 **Agenda:** The typical agenda for the meeting looks like this:
 
