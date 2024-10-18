@@ -66,8 +66,3 @@ We support files up to 15 GB in size for Box to Microsoft 365 migrations.
 
 Migration Manager now supports converting Box notes to .docx format. However, certain elements such as File Preview, Table of Contents, and Annotations will be omitted during the conversion process.
 
->[!NOTE]
->
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
->
->Box migration is not available for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
