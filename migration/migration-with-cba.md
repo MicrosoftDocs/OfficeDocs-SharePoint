@@ -1,5 +1,5 @@
 ---
-ms.date: 08/11/2023
+ms.date:     10/16/2024
 title:       Use Certificate Based Authentication in migration
 description: Describing how to use Certificate Based Authentication in migration.
 author:      zacsun-ms
@@ -17,7 +17,6 @@ ms.collection:
 - m365initiative-migratetom365
 ms.topic: article
 search.appverid: MET150
-ms.date:     10/16/2024
 
 ---
 
