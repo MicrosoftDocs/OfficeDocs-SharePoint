@@ -44,7 +44,3 @@ Sign in to your Dropbox for Business administrator account to connect to your Mi
 
 </br></br>
 
->[!NOTE]
->Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

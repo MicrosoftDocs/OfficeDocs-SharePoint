@@ -44,8 +44,3 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 
 ## [**Step 2: Scan and assess**](mm-box-step2-scan-assess.md)
 
-
->[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

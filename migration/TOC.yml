@@ -135,6 +135,8 @@ Items:
       href: mm-time-estimator.md
     - name: Reports and codes for cloud migrations
       href: mm-cloud-reports.md
+    - name: Specialty Environments support
+      href: mm-specialty-environments-support.md
     - name: File share Reference
       items:
       - name: Prerequisites and endpoints

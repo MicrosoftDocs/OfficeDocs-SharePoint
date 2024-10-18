@@ -52,8 +52,3 @@ If you select more than that total combined number and start scanning or migrati
 
 As a task row completes, another from the queue starts migrating or scanning automatically. The maximum allowed is 50 task rows. However, if a migration experiences any slowdowns or back-off requests, it can drop lower than this number to keep the migration stable.
 
->[!NOTE]
->Migration Manager Egnyte Workspace isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-

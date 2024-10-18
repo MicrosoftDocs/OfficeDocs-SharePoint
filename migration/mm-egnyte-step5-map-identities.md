@@ -62,8 +62,3 @@ Upload your own users and groups mappings using the M
 
 ## [**Step 6: Migrate and monitor**](mm-Egnyte-step6-migrate-monitor.md)
 
-
->[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

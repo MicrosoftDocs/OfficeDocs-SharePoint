@@ -77,9 +77,3 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 ## [**Step 5: Map identities**](mm-box-step5-map-identities.md)
 
-
->[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-

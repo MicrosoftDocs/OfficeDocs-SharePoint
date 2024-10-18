@@ -42,8 +42,3 @@ After your Dropbox folders have been scanned and marked as ready, add them to yo
 ## [**Step 4: Review destinations**](mm-dropbox-step4-review-destinations.md)
 
 
->[!NOTE]
->Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-
