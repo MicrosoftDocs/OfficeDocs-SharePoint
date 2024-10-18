@@ -78,7 +78,6 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 ## Go to [**Step 5: Map identities**](mm-google-step5-map-identities.md)
 
 
-## [**Step 5: Map identities**](mm-dropbox-step5-map-identities.md)
 
 
 
