@@ -22,6 +22,7 @@ description: "Migration Manager support status of Specialty Environments such as
 
 # Specialty Environments support
 Migration Manager currently supports the following Specialty Environments:
+
 | Migration scenario   | GCC | GCC High | DOD|Sovereign Cloud (for example, China 21Vianet)|
 |----------------------|-----|----------|----|----|
 | File Share           | ✔   | ✔        |✔   |✖   |
