@@ -43,8 +43,3 @@ After your Egnyte folders have been scanned and marked as ready, add them to you
 ## [**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
 
 
->[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-
