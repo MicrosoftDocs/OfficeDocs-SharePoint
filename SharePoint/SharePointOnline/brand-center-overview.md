@@ -119,8 +119,6 @@ From the Brand center associated site, [SharePoint site owners](/sharepoint/site
 |Global administrator|Microsoft 365 Admin Center|- Enablement of the brand center <br> -Access to the SharePoint Admin Center of the brand center site|
 |- Global administrator<br>- Site administrator<br >- Site owner|SharePoint Admin Center|Update permissions|
 
-> [!NOTE]
-> The brand center app is limited to brand font management while in Preview.
 
 ## Managing brands in Multi-geo organizations
 
