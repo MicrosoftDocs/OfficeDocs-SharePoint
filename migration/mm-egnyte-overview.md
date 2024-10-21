@@ -57,7 +57,7 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it's likely that it won't allow you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
+- **Request a rate increase from Egynte**.  Your new Egnyte application lets you connect to your Egnyte account. However, it's likely that it won't allow you to migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications. Sign into your Egynte developer account to determine your existing rate limit. Then contact Egynte support to submit your request. 
 
 **Sample request email:**
 
@@ -69,8 +69,3 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
 We support files up to 15 GB in size for Egnyte to Microsoft 365 migrations.
 
 
->[!NOTE]
->
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
->Egynte migration is not available for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

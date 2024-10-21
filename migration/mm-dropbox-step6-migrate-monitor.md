@@ -24,7 +24,7 @@ description: "Step 6: Migrate and monitor Dropbox migration"
 ---
 # Step 6:  Migrate and monitor your Dropbox migration
 
-Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
+Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you're ready to migrate.
 
 >[!Important]
 >We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
@@ -34,12 +34,12 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 ![Select migrate button](media/mm-box-migrate-button.png) 
 
-3. A confirmation step displays.  Click **Migrate**.  
+3. A confirmation step displays. Click **Migrate**.  
 
 >[!Note]
 > Starting your migration only copies content from your Dropbox account to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
-4. Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
+4. Once the migration begins, monitor the migration status, and the table summary at the top. Depending on how large your migration, this step may take hours or days.
 
 
 ## How many task rows can I run at once?
@@ -48,11 +48,7 @@ At a maximum, only 50 task rows can run simultaneously. This total includes both
 
 If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest will be queued.
 
-As a task row completes, another from the queue will start migrating or scanning automatically.  While 50 task rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
+As a task row completes, another from the queue will start migrating or scanning automatically. While 50 task rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
 
 
->[!NOTE]
->Migration Manager Dropbox Workspace isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

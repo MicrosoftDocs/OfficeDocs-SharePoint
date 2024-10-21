@@ -72,9 +72,3 @@ We recommend the following steps when migrating permissions in your shared drive
 
 ## Go to [**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
 
-
->[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-
