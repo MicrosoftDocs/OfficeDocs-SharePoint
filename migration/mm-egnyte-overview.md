@@ -69,8 +69,3 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
 We support files up to 15 GB in size for Egnyte to Microsoft 365 migrations.
 
 
->[!NOTE]
->
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
->Egynte migration is not available for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

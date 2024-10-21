@@ -86,8 +86,3 @@ Asterisk (*) = optional folder
 
 ## Go to [**Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
 
-> [!NOTE]
-> Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-

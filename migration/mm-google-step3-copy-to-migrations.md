@@ -41,8 +41,4 @@ After your Google Drives have been scanned, the drive status will show if it's e
 
 ## Go to [**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
 
->[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

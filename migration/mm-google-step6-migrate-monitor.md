@@ -60,9 +60,3 @@ If you select more than that total combined number and start scanning or migrati
 
 As a task row completes, another from the queue will start migrating or scanning automatically.  While 50 task rows are the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
 
-
->[!NOTE]
->Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-
