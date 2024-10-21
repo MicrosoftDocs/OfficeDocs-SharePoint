@@ -17,7 +17,7 @@ mscollection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Migration Manager support status of Specialty Environments such as GCC, GCC High and DoD."
+description: "Migration Manager support status of Specialty Environments such as GCC, GCC High, and DoD."
 ---
 
 # Specialty Environments support
