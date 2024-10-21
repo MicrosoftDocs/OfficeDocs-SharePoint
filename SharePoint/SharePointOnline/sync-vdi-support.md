@@ -89,16 +89,16 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 > [!IMPORTANT]
 > [FSLogix](/fslogix/how-to-install-fslogix) must be used in conjunction with Citrix Virtual Apps for OneDrive to be supported.
 
-## Set up OneDrive in Horizon Virtual Apps
+## Set up OneDrive in Horizon Apps
 
-In this article, you'll learn how to enable OneDrive in Horizon Virtual Apps.
+In this article, you'll learn how to enable OneDrive in Horizon Apps.
 
 ### Prerequisites
 
 -	Omnissa Horizon
 -	Microsoft Windows OS
 
-All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon Virtual App environment configurations.
+All the Omnissa Horizon and Windows OS requirements are detailed in the below articles which can be referred prior to the Horizon App environment configurations.
 
 [Supported Windows 10 and Windows 11 Guest Operating Systems for Horizon Agent and Remote Experience, for Omnissa Horizon 8.x (2006 and later) (78714)](https://kb.omnissa.com/s/article/78714)\
 [Supported Non-Windows 10 and 11 Guest Operating Systems for Horizon 8 Agent (78715)](https://kb.omnissa.com/s/article/78715)\
