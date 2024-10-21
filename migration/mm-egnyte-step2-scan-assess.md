@@ -50,7 +50,3 @@ Summary and detailed scan reports are available to assist you in troubleshooting
 ## [**Step 3: Copy to migrations**](mm-egnyte-step3-copy-to-migrations.md)
 
 
->[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

@@ -38,7 +38,3 @@ After the Box users have been scanned and marked as ready, add them to your migr
 ## [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
 
->[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
