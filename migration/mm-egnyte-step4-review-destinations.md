@@ -57,7 +57,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
   >[!Note]
   >The validation process may take a while and can be skipped. However, we strongly recommend you complete the validation. You can always open another browser tab to continue Migration Manager operations.</br>
 
-4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
+4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then reupload the fixed destinations to pass the validation.
 5. Select **Save**.  
 
 >[!Important]
