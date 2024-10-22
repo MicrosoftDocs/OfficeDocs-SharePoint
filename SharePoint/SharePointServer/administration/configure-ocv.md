@@ -1,9 +1,9 @@
 ---
-title: "Configure the One Customer Voice (OCV) feedback"
-ms.author: serdars
-author: serdars
-manager: serdars
-ms.date: 6/14/2023
+title: "Configure feedback for SharePoint Server"
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 10/22/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -11,19 +11,19 @@ ms.topic: article
 ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
-description: "Learn how to configure the One Customer Voice (OCV) feedback."
+description: "Learn how to configure feedback for SharePoint server."
 ---
 
-# Configure the One Customer Voice (OCV) feedback
+# Configure feedback for SharePoint Server
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 > [!Note]
-> The One Customer Voice (OCV) feature is now available in the SharePoint Server Subscription Edition Version 24H1 feature update. This feature is only available in the *Early release* feature release ring. For more information, see [Feature release rings](feature-release-rings.md).
+> Feedback collection is available in the SharePoint Server Subscription Edition Version 24H1 feature update. This feature is only available in the *Early release* feature release ring. For more information, see [Feature release rings](feature-release-rings.md).
 
 Microsoft aspires to bring the best possible experiences for users around the world through its innovative product offerings. Play a key role in helping Microsoft build the features that you need as we develop our products or services.
 
-SharePoint Server uses One Customer Voice (OCV) as our 1st-party solution to collect customer feedback from the farm administrators. The SharePoint Server asks farm administrators to provide feedback through an OCV pop-up dialog when each admin launches the Central Administration page either locally or remotely through a browser. Your feedback goes directly to our engineers and helps us shape the future of SharePoint Server and services for our users.
+The SharePoint Server asks farm administrators to provide feedback through a feedback pop-up dialog when each admin launches the Central Administration page either locally or remotely through a browser. Your feedback goes directly to our engineers and helps us shape the future of SharePoint Server and services for our users.
 
 As of now, this survey is a two question survey, which automatically shows up based on the following rules:
 
@@ -39,12 +39,12 @@ As of now, this survey is a two question survey, which automatically shows up ba
 
 For more information on how to disable this feature for the farm administrators or specific users, see:
 
-- [To disable OCV feedback for current Farm Administrator](#to-disable-ocv-feedback-for-current-farm-administrator)
-- [To disable OCV feedback for current Farm](#to-disable-ocv-feedback-for-current-farm)
+- [To disable feedback for current Farm Administrator](#to-disable-feedback-for-current-farm-administrator)
+- [To disable feedback for current Farm](#to-disable-feedback-for-current-farm)
 
-You can disable or enable the OCV feedback function using one of the following options:
+You can disable or enable the feedback function using one of the following options:
 
-## To disable OCV feedback for current Farm Administrator
+## To disable feedback for current Farm Administrator
 
   1. Use the following cmdlet in SharePoint Management Shell to get to the current admin Sid:  
 
@@ -58,7 +58,7 @@ You can disable or enable the OCV feedback function using one of the following o
      $user = Get-SPUser -Identity 'contoso\domain_admin' -Web http://spse-sps:5000 
      ```
 
-  2. Use the following cmdlet to disable the OCV for current admin:
+  2. Use the following cmdlet to disable the feedback for current admin:
 
      ```
      Disable-SPCustomerFeedbackForUser -UserSid $user.Sid 
@@ -66,7 +66,7 @@ You can disable or enable the OCV feedback function using one of the following o
 
 This `$user` is obtained from Step 1.
   
-## To enable OCV feedback for current Farm Administrator
+## To enable feedback for current Farm Administrator
 
   1. Use the following cmdlet in SharePoint Management Shell to get to the current admin Sid:  
 
@@ -80,24 +80,24 @@ This `$user` is obtained from Step 1.
      $user = Get-SPUser -Identity 'contoso\domain_admin' -Web http://spse-sps:5000 
      ```
 
-  2.  Use the following cmdlet to enable the OCV for current admin: 
+  2.  Use the following cmdlet to enable the feedback for current admin: 
 
       ```
       Enable-SPCustomerFeedbackForUser -UserSid $user.Sid
       ```
 This `$user` is obtained from Step 1. 
   
-## To disable OCV feedback for current Farm 
+## To disable feedback for current Farm 
 
-Use the following cmdlet to disable OCV feedback for current farm:  
+Use the following cmdlet to disable feedback for current farm:  
   
   ```
   Disable-SPCustomerFeedbackForFarm
   ```
   
-## To enable OCV feedback for current Farm 
+## To enable feedback for current Farm 
 
-Use the following cmdlet to enable OCV feedback for current farm:
+Use the following cmdlet to enable feedback for current farm:
   
   ```
   Enable-SPCustomerFeedbackForFarm
