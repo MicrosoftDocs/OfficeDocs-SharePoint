@@ -1,5 +1,5 @@
 ---
-ms.date: 1009/2024
+ms.date: 10/22/2024
 title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: jtremper
