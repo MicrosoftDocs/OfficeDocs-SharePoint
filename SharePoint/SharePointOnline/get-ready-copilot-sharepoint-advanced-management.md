@@ -108,7 +108,7 @@ For business-critical sites, you want to take proactive measures to ensure the c
 Site owners are the critical role on point for executing governance tasks at scale. Specifically, you need site owners to:
 
 - Help attest if inactive sites are still needed in Step 2- cleaning up unused sites. 
-- Perform the Site Access Reviews to confirm whether potentially overshared content is indeed being overshared and take remediation to address oversharing risks in Step 4 – control access. 
+- Perform [Site Access Reviews](/sharepoint/site-access-review#review-everyone-except-external-users-site-access-review-requests-for-site-owners) to confirm whether potentially overshared content is indeed being overshared and take remediation to address oversharing risks in Step 4 – control access. 
 
 It's essential to confirm all sites have valid owners before cleaning up unused sites and asking owners to take care of overshared content. SharePoint Advanced Management's Site Ownership policy helps identify ownerless sites and find the appropriate owners when needed.
 
@@ -120,7 +120,14 @@ It's essential to confirm all sites have valid owners before cleaning up unused 
 In Step 2 of this article, we discussed identifying inactive sites. After identifying inactive sites, you'll ask site owners to attest if the sites are still needed. If the site owners confirm the sties aren't needed, you need to put the sites either in read-only mode, or move the sites to Microsoft 365 Archive. Coming soon, you are able to do these at scale, by using the Inactive Sites – Read only and Inactive Sites – Archive capabilities to: 
 
 - Make the site read-only
-- Move the site to Microsoft 365 Archive 
+
+- Move the site to Microsoft 365 Archive
+
+> [!TIP]
+> Sites moved to Microsoft 365 Archive are no longer accessible by anyone in the organization outside of Microsoft Purview or admin search. This means Copilot won't include content from these sites when responding to user prompts. If you want to keep the site in case you need to retrieve its content later, use Inactive sites - Archive. 
+
+- Move the site to [Microsoft 365 Archive](/microsoft-365/archive/archive-overview) 
+
 
 ### Use the Oversharing Baseline Report for Sites, OneDrives, and Files policy to identify oversharing risks
 
