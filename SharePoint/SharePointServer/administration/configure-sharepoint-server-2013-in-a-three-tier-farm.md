@@ -21,7 +21,7 @@ description: "Learn how to install and configure SharePoint Server 2013 on multi
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md).
   
-This document contains instructions for the following:
+This document contains instructions [for](https://go.microsoft.com/fwlink/p/?LinkId=202817) the following:
   
 1. Configuring the Base Configuration test lab.
     

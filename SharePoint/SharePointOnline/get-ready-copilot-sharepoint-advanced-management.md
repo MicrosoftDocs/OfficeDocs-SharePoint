@@ -61,7 +61,7 @@ Consider educating site admins on the site-level controls they can use to [restr
 
 Identify inactive sites, then take action to reduce your governance footprint and improve Copilot response quality. Inactive sites often contain outdated content, cluttering Copilot’s data source and leading to less accurate responses. Removing these sites helps Copilot focus on current information for better results. Currently, you can identify unused sites by running an inactive site policy and ask site owners to attest if the site is still needed.
 
-- With less than five minutes you can set up and run an [Inactive Site ](/sharepoint/site-lifecycle-management#create-an-inactive-site-policy) in Simulation mode to identify sites that haven't been accessed for an extended (configurable) period of time.
+- With less than five minutes you can set up and run an [Inactive Site policy ](/sharepoint/site-lifecycle-management#create-an-inactive-site-policy) in Simulation mode to identify sites that haven't been accessed for an extended (configurable) period of time.
 - Once the report is generated, select the Get AI insights button to [get AI insights](/sharepoint/advanced-management#ai-insights) generated for the report to help you identify issues with the sites and possible actions to address these issues. 
 - Once ready, set the policy to Active mode to notify the Site Owner to attest whether the site is still needed.
 

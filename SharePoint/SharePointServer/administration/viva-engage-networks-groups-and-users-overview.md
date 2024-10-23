@@ -48,7 +48,7 @@ By using Viva Engage groups, you can create a workspace dedicated to a certain t
 - By using **private groups**, you can limit membership and participation to invitation or approval only from group administrators. You can hide private groups from the group's directory.
     
 > [!NOTE]
->Viva Engage groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Viva Engage, if you [Enforce Microsoft 365 identity for Viva Engage users](/viva-/engage/configure-your-viva-engage-network/enforce-office-365-identity), groups can be [Viva Engage and Microsoft 365 Groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups). 
+>Viva Engage groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Viva Engage, if you [Enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity), groups can be [Viva Engage and Microsoft 365 Groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups).
   
 ## Viva Engage users
 
@@ -62,7 +62,7 @@ Viva Engage users exist in a limited number of states, as shown in the following
 
 [About Viva Engage networks and Microsoft 365 organizations](/viva/engage/configure-your-viva-engage-network/viva-engage-and-office-365)
 
-[Create and manage an external network in Viva Engage](/viva-engage/work-with-external-users/create-and-manage-an-external-network)
+[Create and manage an external network in Viva Engage](/viva/engage/work-with-external-users/create-and-manage-an-external-network)
 
 #### Concepts
 

@@ -96,7 +96,7 @@ For more information, see [Add, edit, or delete a content source in SharePoint S
 
 SharePoint Server Subscription Edition Version 23H2 adds support for React version 16 and Office UI Fabric React 7, allowing developers to utilize these newer component versions in their SharePoint Framework solutions. Microsoft will continue to improve and expand the capabilities of SharePoint Framework in SharePoint Server Subscription Edition in future feature updates.
 
-For more information, see [SharePoint Framework development with SharePoint Server 2019 and Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support) and [Upgrade components in SharePoint Framework development with SharePoint Server Subscription Edition](/sharepoint/dev/spfx/sharepoint-subscription-edition-component).
+For more information, see [SharePoint Framework development with SharePoint Server 2019 and Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support) and [Upgrade components in SharePoint Framework development with SharePoint Server Subscription Edition](/sharepoint/dev/spfx/sharepoint-2019-and-subscription-edition-support?formCode=MG0AV3).
 
 ### New PowerShell cmdlets to manage feature release rings
 

@@ -136,7 +136,7 @@ You'll need to extract data from the ULS and IIS logs to discover key metrics ab
 
 One of the easiest ways to find this data is to use **Log Parser**, a powerful tool available free for download from Microsoft. Log Parser can read and write to many text and binary formats, including all the IIS formats.
 
-You can download Log Parser 2.2 at <https://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07>.
+You can download Log Parser 2.2 at (https://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07).
 
 #### Dataset
 
