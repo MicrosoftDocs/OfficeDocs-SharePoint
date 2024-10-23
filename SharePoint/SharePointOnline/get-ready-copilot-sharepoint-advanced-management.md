@@ -120,7 +120,7 @@ It's essential to confirm all sites have valid owners before cleaning up unused 
 In Step 2 of this article, we discussed identifying inactive sites. After identifying inactive sites, you'll ask site owners to attest if the sites are still needed. If the site owners confirm the sties aren't needed, you need to put the sites either in read-only mode, or move the sites to Microsoft 365 Archive. Coming soon, you are able to do these at scale, by using the Inactive Sites – Read only and Inactive Sites – Archive capabilities to: 
 
 - Make the site read-only
-- Move the site to Microsoft 365 Archive 
+- Move the site to [Microsoft 365 Archive](/microsoft-365/archive/archive-overview) 
 
 ### Use the Oversharing Baseline Report for Sites, OneDrives, and Files policy to identify oversharing risks
 
