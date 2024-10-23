@@ -79,7 +79,7 @@ Sites with these three types of usage are at a greater risk of oversharing compa
 
 When you use Microsoft Copilot, the results come from content in Microsoft Graph, based on each individual user’s profile and permissions. In Step 3, you have identified sites with potentially overshared content. Next, you want to ensure Copilot only has access to content when appropriate. Currently, you can initiate a Site Access Review for site owners to confirm overshared content and take remediation steps. Meanwhile, you as the SharePoint admin can use the Restricted Access Control Policy to restrict access to a site with overshared content.
 
-#### Site Access Review by site owners
+#### Site access reviews by site owners
 
 - For any site that is identified with potentially overshared content, [Site Access Review](/sharepoint/site-access-review) is needed. As the SharePoint Admin, you should [initiate the Site Access Review](/sharepoint/site-access-review/#initiate-a-site-access-review). 
 - Site Owners [receive notification](/sharepoint/site-access-review#site-access-review-process-for-site-owners) for each site that requires attention. They can use the [**Site reviews page**](/sharepoint/site-access-review#manage-multiple-site-access-review-requests-for-site-owners) to track and manage multiple review requests.
