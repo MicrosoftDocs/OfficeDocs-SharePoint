@@ -108,7 +108,7 @@ For business-critical sites, you want to take proactive measures to ensure the c
 Site owners are the critical role on point for executing governance tasks at scale. Specifically, you need site owners to:
 
 - Help attest if inactive sites are still needed in Step 2- cleaning up unused sites. 
-- Perform the Site Access Reviews to confirm whether potentially overshared content is indeed being overshared and take remediation to address oversharing risks in Step 4 – control access. 
+- Perform [Site Access Reviews](/sharepoint/site-access-review#review-everyone-except-external-users-site-access-review-requests-for-site-owners) to confirm whether potentially overshared content is indeed being overshared and take remediation to address oversharing risks in Step 4 – control access. 
 
 It's essential to confirm all sites have valid owners before cleaning up unused sites and asking owners to take care of overshared content. SharePoint Advanced Management's Site Ownership policy helps identify ownerless sites and find the appropriate owners when needed.
 
