@@ -100,7 +100,7 @@ There are two options:
         - **Show header**:  Displays a header on the page. The content of the header depends on the **Hide network in header** setting.
         - **Show footer**: Displays a footer showing the person's name and a **log out** link.
         - **Hide network in header**: If selected, the header includes **Viva Engage conversations". If not selected, the header shows the company name 
-        - **Theme** : Use a light or dark background for the embedded Viva Engage conversations. This does not work in all browsers.
+        - **Theme** : Use a light or dark background for the embedded Viva Engage conversations. This doesn't work in all browsers.
 
 4. If you selected an Open Graph feed, select the **OpenGraph settings** options.
     - **OpenGraphURL**  The URL you want to connect to Viva Engage.
@@ -123,7 +123,7 @@ There are two options:
 2. Select the spot on the page where you want this information to appear.
 3. On the **Insert** tab, select **Embed Code**.
 
-Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, please contact your support team.
+Be aware that certain scenarios are susceptible to **ClickJacking** attacks when web pages are displayed in a frame. If this is a concern for you, contact your support team.
 
 ## See also
 
