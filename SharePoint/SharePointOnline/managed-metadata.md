@@ -220,6 +220,8 @@ For example, if you are a Term Store Administrator or a Group Manager you can cr
 <a name="__toc325103946"> </a>
 
 At each level of the hierarchy, you can configure specific properties for a group, term set, or term by using the properties pane in the Term Store management tool. For example, if you are configuring a term set, you can specify information such as Name, Description, Owner, Contact, and Stakeholders in pane available on the **General** tab. You can also specify whether you want a term set to be open or closed to new submissions from users. Or, you can choose the **Intended Use** tab, and specify whether the term set should be available for tagging or site navigation. 
+> [!NOTE]
+> These characters are not allowed in Taxonomy property names: `[` `]` `;` `"`, `<` `>` `|` `&` `\` `t`.
   
 ![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.png)
 

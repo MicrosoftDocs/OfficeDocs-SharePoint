@@ -98,9 +98,11 @@ Internet Explorer 11 is only supported in the SharePoint Central Administration 
 
 ### Basic authentication
 
-For many years, applications have used Basic authentication to connect to servers, services, and API endpoints. Basic authentication simply means the application sends a username and password with requests, making it easier for attackers to capture user credentials, which increases the risk of those stolen credentials being reused against other endpoints or services.
+For many years, applications have used Basic authentication to connect to servers, services, and API endpoints. Basic authentication simply means the application sends a username and password with requests, making it easier for attackers to capture user credentials, which increases the risk of those stolen credentials being reused against other endpoints or services.  
 
-With these threats and risks in mind, Basic authentication is deprecated but will remain supported for the SharePoint Server Subscription Edition until July 14, 2026. After that date, Basic authentication will no longer be supported and will eventually be removed in SharePoint Server Subscription Edition for all scenarios. Microsoft recommends exploring Trusted Identity provider as the replacement for authentication.
+With these threats and risks in mind, Basic authentication is deprecated but will remain supported for the SharePoint Server Subscription Edition until July 14, 2026. After that date, Basic authentication will no longer be supported and will eventually be removed in SharePoint Server Subscription Edition for all scenarios. Microsoft recommends exploring [Trusted Identity Provider](/sharepoint/security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server) as the replacement for authentication.    
+> [!NOTE] 
+> Starting with the [24H2 update (September 2024)](https://support.microsoft.com/en-us/topic/description-of-the-security-update-for-sharepoint-server-subscription-edition-september-10-2024-kb5002640-c3065f06-d94e-4028-9249-d353ae631cbd) for SharePoint Server Subscription Edition, admins can no longer create new web applications or web app extensions using Basic authentication.  Existing web apps using Basic authentication should continue to function, but new ones cannot be created.
 
 ### Access Services 2010
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 10/22/2024
 title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: jtremper
@@ -35,14 +35,14 @@ If you want to restrict sharing with other organizations (either at the organiza
 
 You can limit domains by allowing only the domains you specify or by allowing all domains except those you block.
   
- **To limit domains at the organization level**
+### Limit domains at the organization level
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
     
-2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
+2. Under **More external sharing settings**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
 3. To create an allowlist (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
@@ -54,16 +54,18 @@ You can limit domains by allowing only the domains you specify or by allowing al
 5. Select **Save**.
 
 You can also configure the organization-wide setting by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet.
+
+### Limit domains at the site level
   
-You can also limit domains at the site collection level. Note the following considerations:
+You can also limit domains at the site level. Note the following considerations:
   
-- In the case of conflicts, the organization-wide configuration takes precedence over the site collection configuration.
+- In the case of conflicts, the organization-wide configuration takes precedence over the site configuration.
     
-- If an organization-wide allowlist is configured, then you can only configure an allowlist at the site collection level. The site collection allowlist must be a subset of the organization's allowlist.
+- If an organization-wide allowlist is already set up and you want to set up a site-level allowlist, then the site-level allowlist must be a subset of the organization's allowlist.
     
-- If an organization-wide blocklist is configured, then you can configure either an allowlist or a blocklist at the site collection level.
+- If an organization-wide blocklist is already set up, then you can set up either an allowlist or a blocklist at the site collection level.
     
-- For individual OneDrive site collections, you can only configure this setting by using the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
+- For individual OneDrive site collections, you can only set up limit domains by using the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
     
  **To limit domains for a site**
 

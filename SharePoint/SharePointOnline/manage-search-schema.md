@@ -348,6 +348,9 @@ If you need a property of a different type, or one that has different characteri
 8. In the **Include in full-text index** section, if you want to include the content of this crawled property in the full-text index, select the box. 
     
 9. Select **OK**.
+
+> [!NOTE]
+> To help clarify the the scope of Managed and Crawled Property mappings, Crawled Properties list **Scope** and **Override** values whose values are the scope at which the property was discovered or created and if the property overrides a property at a higher scope. If crawled properties with same name and property set Id exist in different scopes, the lower scope's value (e.g., Site Collection) will override the higher scope (e.g., System). The scope override precedence from low to high is **Site Collection** -> **Tenant** -> **System**. An overridden property will be greyed out and can only be modified at the scope at which it was created.
     
 ## View or edit crawled property categories
 <a name="__toc351360847"> </a>

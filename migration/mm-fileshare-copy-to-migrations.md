@@ -62,21 +62,16 @@ An incremental check of your SharePoint destination environment is performed. Fi
   
 | Status | Result |
 |:-----|:-----|
-|Modified time of the source file is earlier than the modified time of the target file.  |File will not be migrated.  |
+|Modified time of the source file is earlier than the modified time of the target file.  |File won't be migrated.  |
 |A file is removed from the source location.  |Already migrated files will remain in the target location.  |
 |Files or lists exist in the SharePoint target location.  |Migration will skip those existing objects during scan.  |
 |Time stamp on files or object in the source location is newer in the source. |The newer files are migrated.  |
 |Source is a file share.  |Validation for migration will be based on the file/folder path.  |
 |Source is an on-premises SharePoint Server/  |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  |
 |An already migrated file is renamed or path is changed but still in the same document library|Incremental migration will use the corresponding source file and overwrite the file.|
-|Migrated file is changed in the destination location, but file name remains the same|Incremental migration will not overwrite the changed file.|
+|Migrated file is changed in the destination location, but file name remains the same|Incremental migration won't overwrite the changed file.|
 
 >[!Important]
 >We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
 
-
->[!NOTE]
->Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
->
-> This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

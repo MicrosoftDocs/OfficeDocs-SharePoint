@@ -61,9 +61,3 @@ To ensure your Google forms are migrated, you must first grant access in the Goo
 >For security reasons, you have 10 minutes to complete the steps to connect to Google. After 10 minutes of inactivity, the session will expire.
 
 ## Go to [**Step 2: Scan and assess**](mm-Google-step2-scan-assess.md)
-
-
->[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

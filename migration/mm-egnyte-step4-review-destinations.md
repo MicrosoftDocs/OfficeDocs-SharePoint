@@ -57,7 +57,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
   >[!Note]
   >The validation process may take a while and can be skipped. However, we strongly recommend you complete the validation. You can always open another browser tab to continue Migration Manager operations.</br>
 
-4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then re-upload the fixed destinations to pass the validation.
+4. A validation report is generated if issues are found. Download the report to fix the issues based on the error message provided. Then reupload the fixed destinations to pass the validation.
 5. Select **Save**.  
 
 >[!Important]
@@ -76,10 +76,3 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 ## Go to [**Step 5: Map identities**](mm-google-step5-map-identities.md)
 
 
-## [**Step 5: Map identities**](mm-egnyte-step5-map-identities.md)
-
-
->[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
->
-> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
