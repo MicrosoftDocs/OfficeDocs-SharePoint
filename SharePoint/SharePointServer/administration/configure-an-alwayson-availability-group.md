@@ -27,7 +27,7 @@ description: "Learn how to create and configure a SQL Server Always On Availabil
 This article provides the required information and detailed procedures to create and configure a Microsoft SQL Server Always On Availability Group for a SharePoint Server or Foundation farm.
   
 > [!IMPORTANT]
->  The steps in this article show how to deploy a new SharePoint farm and doesn't cover upgrading from SQL Server 2008 R2 to a newer version of SQL Server.
+> The steps in this article show how to deploy a new SharePoint farm and doesn't cover upgrading from SQL Server 2008 R2 to a newer version of SQL Server.
 
 > [!IMPORTANT]
 > Verify the SQL Server version compatibility with the version of SharePoint you will be deploying.

@@ -39,7 +39,7 @@ Viva Engage is included in many Microsoft 365 subscriptions, which means that yo
   
 ## Step 2: Create your Viva Engage network
 
-To set up a Viva Engage network, see [Viva Engage admin help](/viva/engage/viva-engage-landing-page).
+To set up a Viva Engage network, see [Viva Engage admin help](/viva/engage/eac-overview).
   
 When you set up your network, [enforce Microsoft 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity).
   

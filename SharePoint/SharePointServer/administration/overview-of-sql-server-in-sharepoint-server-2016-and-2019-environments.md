@@ -43,7 +43,7 @@ The minimum requirements for a database server in SharePoint Servers 2016 and 20
   <br/>
 > SQL Server 2017 on Linux is not supported with SharePoint Servers 2016 and 2019.
   
-Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI with SharePoint Server 2016. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
+Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI) with SharePoint Server 2016. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
   
 SharePoint Server 2016 supports the following:
   
@@ -137,7 +137,7 @@ SharePoint mode in SQL Server 2016 is a SharePoint shared service that you confi
   
 SharePoint mode requires that a report server component of Reporting Services must run within a SharePoint Server farm. This means that a SharePoint application server must exist with the Reporting Services shared service installed and at least one Reporting Services service application.
   
-For more information, see [Reporting Services Report Server (SharePoint Mode)](https://go.microsoft.com/fwlink/?LinkID=808643&amp;clcid=0x409), [Reporting Services Report Server](https://go.microsoft.com/fwlink/?LinkID=718035&amp;clcid=0x409), and [PowerShell cmdlets for Reporting Services SharePoint Mode](https://go.microsoft.com/fwlink/?LinkID=718034&amp;clcid=0x409).
+For more information, see [Reporting Services Report Server (SharePoint Mode)](https://go.microsoft.com/fwlink/?LinkID=808643&amp;clcid=0x409), [Reporting Services Report Server](/sql/reporting-services/reporting-services-concepts-ssrs?view=sql-server-ver16&formCode=MG0AV3), and [PowerShell cmdlets for Reporting Services SharePoint Mode](https://go.microsoft.com/fwlink/?LinkID=718034&clcid=0x409).
   
 ### SQL Server 2016
 <a name="sec5"> </a>

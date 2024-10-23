@@ -74,7 +74,7 @@ Using Group Policy:
 >
 > Configuration with Alternate IDs is only supported within Microsoft 365 Government environments.
 
-If the computers on your network aren't connected to Active Directory on-premises, but only to Microsoft Entra ID, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent account configuration. Be sure you have [automatic enrollment set up for Windows 10 or newer devices](/intune/quickstart-setup-auto-enrollment).
+If the computers on your network aren't connected to Active Directory on-premises, but only to Microsoft Entra ID, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent account configuration. Be sure you have [automatic enrollment set up for Windows 10 or newer devices](/mem/intune/enrollment/windows-enroll?formCode=MG0AV3).
 
 Using a script:
 
