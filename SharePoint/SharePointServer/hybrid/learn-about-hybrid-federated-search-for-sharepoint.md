@@ -54,15 +54,21 @@ Show search results from SharePoint in Microsoft 365 in a Search Center in Share
 >[!IMPORTANT]
 >Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound) has been retired as of September 2024.
   
+>[!IMPORTANT]
+>Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound) has been retired as of September 2024.
+  
 Show search results from SharePoint Server in a Search Center in SharePoint in Microsoft 365. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md).
   
 ### Hybrid federated search from both SharePoint Server and SharePoint in Microsoft 365
 
 ![Illustration shows the Microsoft 365 search center and a search center in SharePoint Server getting results from the search index in Office 365 and the search index in SharePoint Server](../media/0c208d87-7939-4ec3-9fc0-af2061f62b6a.png)
-  
+
 Show search results from both environments in Search Centers both in SharePoint in Microsoft 365 and SharePoint Server. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) and [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md).
   
 ## Should you set up hybrid federated search in the SharePoint Server farm, or in SharePoint in Microsoft 365?
+
+>[!IMPORTANT]
+>Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound) has been retired as of September 2024.
 
 - For your users, it's usually most convenient if you set up hybrid federated search in the environment where most of them are working. That way, users don't have to go to the remote environment to search for content.
     
