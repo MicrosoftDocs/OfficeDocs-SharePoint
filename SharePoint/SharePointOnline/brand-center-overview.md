@@ -64,7 +64,7 @@ For this scenario, the global administrator performs the following steps to crea
 
 1. In the admin center, go to **Settings \> Org settings**.
 
-1. Select **Brand center (preview)**.
+1. Select **Brand center**.
 
 1. Choose site name for the Brand Center site – Suggested “Brand Guide”.
 
@@ -80,7 +80,7 @@ For this scenario, the global administrator performs the following steps to crea
 
 1. In the admin center, go to **Settings \>** **Org settings**.
 
-1. Select **Brand center (preview)**.
+1. Select **Brand center**.
 
 1. The Brand center recognizes your existing organization assets site location and will utilize this as the location for the Brand center app.
 
@@ -96,7 +96,7 @@ For this scenario, the global administrator needs to perform the following steps
 
 1. In the admin center, go to **Settings \> Org settings**.
 
-1. Select **Brand center (preview)**.
+1. Select **Brand center**.
 
 1. The Brand center recognizes your existing organization assets site location and will utilize this as the location for the Brand center app.
 
@@ -120,7 +120,7 @@ From the Brand center associated site, [SharePoint site owners](/sharepoint/site
 |- Global administrator<br>- Site administrator<br >- Site owner|SharePoint Admin Center|Update permissions|
 
 > [!NOTE]
-> The brand center app is limited to brand font management while in Preview.
+> The brand center app is limited to brand font management.
 
 ## Managing brands in Multi-geo organizations
 
