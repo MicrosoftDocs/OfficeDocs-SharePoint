@@ -46,7 +46,7 @@ Connect to SharePoint as a [SharePoint Administrator or higher](./sharepoint-adm
 Run the following command to designate a document library as an organization image library and enable Copilot search functionality. 
 
 ```PowerShell
-Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType ImageDocumentLibrary] [-CdnType <Public or Private>] [-CopilotSearchable <True or False>] 
+Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType ImageDocumentLibrary] [-CdnType <Public or Private>] [-CopilotSearchable <$True or $False>] 
 ```
 - *LibraryURL* is the absolute URL of the library to be designated as a central location for organizational assets. 
 
@@ -60,7 +60,7 @@ If you don't specify the *CdnType*, it enables a private CDN by default.
 Run the following command to existing organization image library and enable Copilot search functionality:
 
 ```PowerShell
-Set-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType ImageDocumentLibrary] [-CopilotSearchable <True or False>] 
+Set-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType ImageDocumentLibrary] [-CopilotSearchable <$True or $False>] 
 ```
 
 - *LibraryURL* is the absolute URL of the library to be designated as a central location for organizational assets. 
